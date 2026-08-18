@@ -1,0 +1,56 @@
+Registry snapshot — MYC
+Checked 2026-08-18 12:46 UTC against PubMed, ClinicalTrials.gov and UniProt
+
+## COUNTERS
+VERIFIED subject_records=2
+VERIFIED weak_attribution=6
+VERIFIED off_target=0
+VERIFIED title_drift=0
+VERIFIED retracted=0
+VERIFIED unresolved=0
+VERIFIED not_checked=0
+VERIFIED checked_total=8
+
+## RECORDS
+uniprot P01106 | status=sound | gene_role=title | indication=not-applicable | resolves=True
+REGISTRY TITLE: Myc proto-oncogene protein
+DOSSIER QUOTE: UNIPROT binding_sites=0
+
+pmid 42497765 | status=weak-attribution | gene_role=abstract | indication=title | resolves=True
+REGISTRY TITLE: Targeting Cys328 in the STAT3 DNA-binding domain with the germacrane-type sesquiterpene lactone SCP-7 inhibits colorectal Cancer growth in vitro and in vivo.
+DOSSIER QUOTE: TITLE: Targeting Cys328 in the STAT3 DNA-binding domain with the germacrane-type sesquiterpene lactone SCP-7 inhibits colorectal Cancer growth in vitro and in vivo.
+PUBLICATION TYPES: Journal Article
+REASON: MYC appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else
+
+pmid 42548213 | status=weak-attribution | gene_role=abstract | indication=title | resolves=True
+REGISTRY TITLE: Zeaxanthin Suppresses Azoxymethane/Dextran Sodium Sulfate-Induced Colorectal Cancer in Mice by Inhibiting Inflammation and Proliferation.
+DOSSIER QUOTE: TITLE: Zeaxanthin Suppresses Azoxymethane/Dextran Sodium Sulfate-Induced Colorectal Cancer in Mice by Inhibiting Inflammation and Proliferation.
+PUBLICATION TYPES: Journal Article
+REASON: MYC appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else
+
+pmid 42560559 | status=sound | gene_role=title | indication=title | resolves=True
+REGISTRY TITLE: Ferroptosis suppression by MYC confers oxaliplatin resistance in colorectal cancer via FTH1 and GPX4.
+DOSSIER QUOTE: TITLE: Ferroptosis suppression by MYC confers oxaliplatin resistance in colorectal cancer via FTH1 and GPX4.
+PUBLICATION TYPES: Journal Article
+
+pmid 42607078 | status=weak-attribution | gene_role=title | indication=absent | resolves=True
+REGISTRY TITLE: Dual MYC and GSPT1 Protein Degrader for MYC-Driven Hematologic Malignancies.
+DOSSIER QUOTE: TITLE: Dual MYC and GSPT1 Protein Degrader for MYC-Driven Hematologic Malignancies.
+PUBLICATION TYPES: Journal Article
+REASON: record names no colorectal indication, so it does not speak to this disease
+
+pmid 42608167 | status=weak-attribution | gene_role=abstract | indication=absent | resolves=True
+REGISTRY TITLE: Revisiting Pluripotency Acquisition: A Unified Framework for Reprogramming Strategies.
+DOSSIER QUOTE: TITLE: Revisiting Pluripotency Acquisition: A Unified Framework for Reprogramming Strategies.
+PUBLICATION TYPES: Journal Article, Review
+REASON: MYC appears only in the abstract, not in the title, so it is not the subject of this record — and the record names no colorectal indication either
+
+nct NCT05919264 | status=weak-attribution | gene_role=absent | indication=abstract | resolves=True
+REGISTRY TITLE: FOG-001 in Locally Advanced or Metastatic Solid Tumors
+DOSSIER QUOTE: TITLE: FOG-001 in Locally Advanced or Metastatic Solid Tumors
+REASON: trial record names no MYC under any of its UniProt names — it was matched to this target by free-text search, and only the indication lines up
+
+nct NCT07147231 | status=weak-attribution | gene_role=absent | indication=title | resolves=True
+REGISTRY TITLE: Testing the Effectiveness of the Anti-cancer Drug Pidnarulex (CX-5461), in Combination With Another Anti-cancer Drug Cemiplimab (REGN2810), in Treating Refractory Microsatellite Stable Colorectal Cancer
+DOSSIER QUOTE: TITLE: Testing the Effectiveness of the Anti-cancer Drug Pidnarulex (CX-5461), in Combination With Another Anti-cancer Drug Cemiplimab (REGN2810), in Treating Refractory Microsatellite Stable Colorectal Cancer
+REASON: trial record names no MYC under any of its UniProt names — it was matched to this target by free-text search, and only the indication lines up

@@ -1,0 +1,55 @@
+Dossier transcript — KRAS
+Transcribed 2026-08-18 12:52 UTC from: examples/stage4/fixtures/crc6-dossiers.html, examples/stage4/fixtures/crc6-verdicts.html
+
+## ASSERTED
+DOSSIER cited_records=11
+DOSSIER assumed_off_target=0
+DOSSIER assumed_retracted=0
+DOSSIER assumed_unresolved=0
+DOSSIER verdict=promising
+DOSSIER verdict_node=kras-promising
+
+## RECORDS THE DOSSIER TREATS AS SUPPORT
+DOSSIER SUPPORTS uniprot P01116
+  as: UNIPROT binding_sites=17
+  via node: src.kras.binding-sites
+
+DOSSIER SUPPORTS pmid 42527030
+  as: TITLE: IL-27 shapes NK cell heterogeneity and function in colorectal cancer.
+  via node: src.kras.paper-42527030
+
+DOSSIER SUPPORTS pmid 42557320
+  as: TITLE: A tumour-derived organoid biobank maps cancer gene dependencies.
+  via node: src.kras.paper-42557320
+
+DOSSIER SUPPORTS pmid 42570059
+  as: TITLE: Brief report: Therapeutic benefit of ISA-2011B in colorectal cancer.
+  via node: src.kras.paper-42570059
+
+DOSSIER SUPPORTS pmid 42580447
+  as: TITLE: Targeted KRAS suppression in colorectal cancer via in vivo self-assembled siRNAs encapsulated in endogenous small extracellular vesicles.
+  via node: src.kras.paper-42580447
+
+DOSSIER SUPPORTS pmid 42599639
+  as: TITLE: Salvage pancreaticoduodenectomy for localized recurrence after resection of ascending colon cancer: a case report.
+  via node: src.kras.paper-42599639
+
+DOSSIER SUPPORTS pmid 42605754
+  as: TITLE: Transcriptome-based macroautophagy and chaperone-mediated autophagy states reveal context-dependent vulnerabilities across human cancers.
+  via node: src.kras.paper-42605754
+
+DOSSIER SUPPORTS pmid 42606648
+  as: TITLE: Integrative bulk and single-cell transcriptomics identify a recurrence-prognostic risk model with exploratory associations with treatment-response phenotypes in colorectal cancer.
+  via node: src.kras.paper-42606648
+
+DOSSIER SUPPORTS pmid 42607542
+  as: TITLE: Anticancer effects of an XPO1 inhibitor (selinexor) with sotorasib following omeprazole preconditioning in KRAS G12C-mutant non-small cell lung cancer cells in vitro and in a mouse tumor xenograft.
+  via node: src.kras.paper-42607542
+
+DOSSIER SUPPORTS nct NCT05176483
+  as: TITLE: Study of Zanzalintinib in Combination With Immuno-Oncology or Other Agents in Participants With Solid Tumors
+  via node: src.kras.trial-NCT05176483
+
+DOSSIER SUPPORTS nct NCT07300150
+  as: TITLE: A Study of PT0511 in Participants With KRAS Mutated or Amplified Advanced Solid Tumors
+  via node: src.kras.trial-NCT07300150

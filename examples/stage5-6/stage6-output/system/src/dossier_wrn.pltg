@@ -1,0 +1,76 @@
+; WRN — what the dossier asserts (stage 4 export, transcribed)
+
+(fact cited-records 11
+    :evidence (evidence "dossier-WRN"
+        :quotes ("DOSSIER cited_records=11")
+        :explanation "Records the WRN dossier rests on"))
+
+(fact assumed-off-target 0
+    :evidence (evidence "dossier-WRN"
+        :quotes ("DOSSIER assumed_off_target=0")
+        :explanation "The dossier cites every record as support, so it assumes none is off target"))
+
+(fact assumed-retracted 0
+    :evidence (evidence "dossier-WRN"
+        :quotes ("DOSSIER assumed_retracted=0")
+        :explanation "The dossier assumes no cited record is retracted"))
+
+(fact assumed-unresolved 0
+    :evidence (evidence "dossier-WRN"
+        :quotes ("DOSSIER assumed_unresolved=0")
+        :explanation "The dossier assumes every cited record resolves"))
+
+(fact supports-uniprot-Q14191 true
+    :evidence (evidence "dossier-WRN"
+        :quotes ("DOSSIER SUPPORTS uniprot Q14191")
+        :explanation "The dossier treats Q14191 as support for WRN"))
+
+(fact supports-pmid-40203476 true
+    :evidence (evidence "dossier-WRN"
+        :quotes ("DOSSIER SUPPORTS pmid 40203476")
+        :explanation "The dossier treats 40203476 as support for WRN"))
+
+(fact supports-pmid-41704373 true
+    :evidence (evidence "dossier-WRN"
+        :quotes ("DOSSIER SUPPORTS pmid 41704373")
+        :explanation "The dossier treats 41704373 as support for WRN"))
+
+(fact supports-pmid-42293362 true
+    :evidence (evidence "dossier-WRN"
+        :quotes ("DOSSIER SUPPORTS pmid 42293362")
+        :explanation "The dossier treats 42293362 as support for WRN"))
+
+(fact supports-pmid-42461083 true
+    :evidence (evidence "dossier-WRN"
+        :quotes ("DOSSIER SUPPORTS pmid 42461083")
+        :explanation "The dossier treats 42461083 as support for WRN"))
+
+(fact supports-pmid-42484294 true
+    :evidence (evidence "dossier-WRN"
+        :quotes ("DOSSIER SUPPORTS pmid 42484294")
+        :explanation "The dossier treats 42484294 as support for WRN"))
+
+(fact supports-pmid-42593940 true
+    :evidence (evidence "dossier-WRN"
+        :quotes ("DOSSIER SUPPORTS pmid 42593940")
+        :explanation "The dossier treats 42593940 as support for WRN"))
+
+(fact supports-pmid-42604630 true
+    :evidence (evidence "dossier-WRN"
+        :quotes ("DOSSIER SUPPORTS pmid 42604630")
+        :explanation "The dossier treats 42604630 as support for WRN"))
+
+(fact supports-nct-NCT03570541 true
+    :evidence (evidence "dossier-WRN"
+        :quotes ("DOSSIER SUPPORTS nct NCT03570541")
+        :explanation "The dossier treats NCT03570541 as support for WRN"))
+
+(fact supports-nct-NCT06974110 true
+    :evidence (evidence "dossier-WRN"
+        :quotes ("DOSSIER SUPPORTS nct NCT06974110")
+        :explanation "The dossier treats NCT06974110 as support for WRN"))
+
+(fact supports-nct-NCT07262619 true
+    :evidence (evidence "dossier-WRN"
+        :quotes ("DOSSIER SUPPORTS nct NCT07262619")
+        :explanation "The dossier treats NCT07262619 as support for WRN"))

@@ -1,0 +1,1642 @@
+{
+  "meta": {
+    "export": [
+      "examples/stage4/fixtures/crc6-dossiers.html",
+      "examples/stage4/fixtures/crc6-verdicts.html"
+    ],
+    "targets": [
+      "EGFR",
+      "ERBB2",
+      "KRAS",
+      "MYC",
+      "WRN",
+      "PRMT5"
+    ],
+    "offline": false,
+    "registry_fetches": 28
+  },
+  "targets": {
+    "EGFR": {
+      "counters": {
+        "subject_records": 2,
+        "weak_attribution": 6,
+        "off_target": 0,
+        "title_drift": 0,
+        "retracted": 0,
+        "unresolved": 0,
+        "not_checked": 0,
+        "checked_total": 8
+      },
+      "citations": [
+        {
+          "key": "E8",
+          "node": "src.egfr.binding-sites",
+          "target": "EGFR",
+          "source": {
+            "type": "uniprot",
+            "id": "P00533",
+            "url": "https://www.uniprot.org/uniprotkb/P00533"
+          },
+          "quote": "UNIPROT binding_sites=4",
+          "doc": "uniprot-EGFR",
+          "resolves": true,
+          "registry_title": "Epidermal growth factor receptor",
+          "title": {
+            "verdict": "not-applicable",
+            "similarity": null
+          },
+          "gene_role": "title",
+          "indication_role": "not-applicable",
+          "retracted": false,
+          "publication_types": [],
+          "status": "sound",
+          "reasons": []
+        },
+        {
+          "key": "E13",
+          "node": "src.egfr.paper-42492133",
+          "target": "EGFR",
+          "source": {
+            "type": "pmid",
+            "id": "42492133",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42492133/"
+          },
+          "quote": "TITLE: Anticancer evaluation of novel chiral tetrahydropyrazolo[1,5-a]pyrimidine derivatives: Inhibitory effects on proliferation and migration of colon cancer cells with high HER2 expression.",
+          "doc": "pubmed-EGFR",
+          "resolves": true,
+          "registry_title": "Anticancer evaluation of novel chiral tetrahydropyrazolo[1,5-a]pyrimidine derivatives: Inhibitory effects on proliferation and migration of colon cancer cells with high HER2 expression.",
+          "title": {
+            "verdict": "match",
+            "similarity": 1.0
+          },
+          "gene_role": "abstract",
+          "indication_role": "title",
+          "retracted": false,
+          "publication_types": [
+            "Journal Article"
+          ],
+          "status": "weak-attribution",
+          "reasons": [
+            "EGFR appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else"
+          ]
+        },
+        {
+          "key": "E14",
+          "node": "src.egfr.paper-42576549",
+          "target": "EGFR",
+          "source": {
+            "type": "pmid",
+            "id": "42576549",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42576549/"
+          },
+          "quote": "TITLE: Chemopreventive Effects of Boldine and Naringenin on DMH-Induced Colorectal Carcinogenesis.",
+          "doc": "pubmed-EGFR",
+          "resolves": true,
+          "registry_title": "Chemopreventive Effects of Boldine and Naringenin on DMH-Induced Colorectal Carcinogenesis.",
+          "title": {
+            "verdict": "match",
+            "similarity": 1.0
+          },
+          "gene_role": "abstract",
+          "indication_role": "title",
+          "retracted": false,
+          "publication_types": [
+            "Journal Article"
+          ],
+          "status": "weak-attribution",
+          "reasons": [
+            "EGFR appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else"
+          ]
+        },
+        {
+          "key": "E15",
+          "node": "src.egfr.paper-42581138",
+          "target": "EGFR",
+          "source": {
+            "type": "pmid",
+            "id": "42581138",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42581138/"
+          },
+          "quote": "TITLE: Absence of EGFR signalling in granulocytic cells relieves immunosuppression sensitising CRC metastases to immune checkpoint therapy.",
+          "doc": "pubmed-EGFR",
+          "resolves": true,
+          "registry_title": "Absence of EGFR signalling in granulocytic cells relieves immunosuppression sensitising CRC metastases to immune checkpoint therapy.",
+          "title": {
+            "verdict": "match",
+            "similarity": 1.0
+          },
+          "gene_role": "title",
+          "indication_role": "title",
+          "retracted": false,
+          "publication_types": [
+            "Journal Article"
+          ],
+          "status": "sound",
+          "reasons": []
+        },
+        {
+          "key": "E16",
+          "node": "src.egfr.paper-42595923",
+          "target": "EGFR",
+          "source": {
+            "type": "pmid",
+            "id": "42595923",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42595923/"
+          },
+          "quote": "TITLE: Active ingredients and molecular targets of Tripterygium wilfordii against colorectal cancer: network pharmacology, molecular docking, molecular dynamics simulations and in vitro evaluation.",
+          "doc": "pubmed-EGFR",
+          "resolves": true,
+          "registry_title": "Active ingredients and molecular targets of Tripterygium wilfordii against colorectal cancer: network pharmacology, molecular docking, molecular dynamics simulations and in vitro evaluation.",
+          "title": {
+            "verdict": "match",
+            "similarity": 1.0
+          },
+          "gene_role": "abstract",
+          "indication_role": "title",
+          "retracted": false,
+          "publication_types": [
+            "Journal Article"
+          ],
+          "status": "weak-attribution",
+          "reasons": [
+            "EGFR appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else"
+          ]
+        },
+        {
+          "key": "E17",
+          "node": "src.egfr.paper-42609336",
+          "target": "EGFR",
+          "source": {
+            "type": "pmid",
+            "id": "42609336",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42609336/"
+          },
+          "quote": "TITLE: A clinical prediction model integrating cardiovascular-kidney-metabolic biomarkers for the composite outcome of quality-of-life deterioration and rehospitalization in elderly HFpEF patients.",
+          "doc": "pubmed-EGFR",
+          "resolves": true,
+          "registry_title": "A clinical prediction model integrating cardiovascular-kidney-metabolic biomarkers for the composite outcome of quality-of-life deterioration and rehospitalization in elderly HFpEF patients.",
+          "title": {
+            "verdict": "match",
+            "similarity": 1.0
+          },
+          "gene_role": "abstract",
+          "indication_role": "absent",
+          "retracted": false,
+          "publication_types": [
+            "Journal Article"
+          ],
+          "status": "weak-attribution",
+          "reasons": [
+            "EGFR appears only in the abstract, not in the title, so it is not the subject of this record — and the record names no colorectal indication either"
+          ]
+        },
+        {
+          "key": "E18",
+          "node": "src.egfr.paper-42609500",
+          "target": "EGFR",
+          "source": {
+            "type": "pmid",
+            "id": "42609500",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42609500/"
+          },
+          "quote": "TITLE: Squamous transformation of EGFR-mutant lung adenocarcinoma after EGFR-TKI therapy: clonal continuity, tissue-based diagnosis, and therapeutic evidence gaps.",
+          "doc": "pubmed-EGFR",
+          "resolves": true,
+          "registry_title": "Squamous transformation of EGFR-mutant lung adenocarcinoma after EGFR-TKI therapy: clonal continuity, tissue-based diagnosis, and therapeutic evidence gaps.",
+          "title": {
+            "verdict": "match",
+            "similarity": 1.0
+          },
+          "gene_role": "title",
+          "indication_role": "absent",
+          "retracted": false,
+          "publication_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "status": "weak-attribution",
+          "reasons": [
+            "record names no colorectal indication, so it does not speak to this disease"
+          ]
+        },
+        {
+          "key": "E19",
+          "node": "src.egfr.trial-NCT07503756",
+          "target": "EGFR",
+          "source": {
+            "type": "nct",
+            "id": "NCT07503756",
+            "url": "https://clinicaltrials.gov/study/NCT07503756"
+          },
+          "quote": "TITLE: JS212 Combination Therapies in Metastatic Colorectal Cancer",
+          "doc": "trials-EGFR",
+          "resolves": true,
+          "registry_title": "JS212 Combination Therapies in Metastatic Colorectal Cancer",
+          "title": {
+            "verdict": "match",
+            "similarity": 1.0
+          },
+          "gene_role": "abstract",
+          "indication_role": "title",
+          "retracted": false,
+          "publication_types": [],
+          "status": "weak-attribution",
+          "reasons": [
+            "EGFR appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else"
+          ]
+        }
+      ]
+    },
+    "ERBB2": {
+      "counters": {
+        "subject_records": 3,
+        "weak_attribution": 7,
+        "off_target": 0,
+        "title_drift": 0,
+        "retracted": 0,
+        "unresolved": 0,
+        "not_checked": 0,
+        "checked_total": 10
+      },
+      "citations": [
+        {
+          "key": "E8",
+          "node": "src.erbb2.binding-sites",
+          "target": "ERBB2",
+          "source": {
+            "type": "uniprot",
+            "id": "P04626",
+            "url": "https://www.uniprot.org/uniprotkb/P04626"
+          },
+          "quote": "UNIPROT binding_sites=2",
+          "doc": "uniprot-ERBB2",
+          "resolves": true,
+          "registry_title": "Receptor tyrosine-protein kinase erbB-2",
+          "title": {
+            "verdict": "not-applicable",
+            "similarity": null
+          },
+          "gene_role": "title",
+          "indication_role": "not-applicable",
+          "retracted": false,
+          "publication_types": [],
+          "status": "sound",
+          "reasons": []
+        },
+        {
+          "key": "E13",
+          "node": "src.erbb2.paper-42176792",
+          "target": "ERBB2",
+          "source": {
+            "type": "pmid",
+            "id": "42176792",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42176792/"
+          },
+          "quote": "TITLE: EGFR S442 ectodomain mutation confers cetuximab resistance that can be overcome by ERBB2 blockade with trastuzumab-deruxtecan.",
+          "doc": "pubmed-ERBB2",
+          "resolves": true,
+          "registry_title": "EGFR S442 ectodomain mutation confers cetuximab resistance that can be overcome by ERBB2 blockade with trastuzumab-deruxtecan.",
+          "title": {
+            "verdict": "match",
+            "similarity": 1.0
+          },
+          "gene_role": "title",
+          "indication_role": "abstract",
+          "retracted": false,
+          "publication_types": [
+            "Journal Article"
+          ],
+          "status": "sound",
+          "reasons": []
+        },
+        {
+          "key": "E14",
+          "node": "src.erbb2.paper-42401587",
+          "target": "ERBB2",
+          "source": {
+            "type": "pmid",
+            "id": "42401587",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42401587/"
+          },
+          "quote": "TITLE: Signaling downstream of tumor-stroma interaction regulates mucinous colorectal adenocarcinoma apicobasal polarity.",
+          "doc": "pubmed-ERBB2",
+          "resolves": true,
+          "registry_title": "Signaling downstream of tumor-stroma interaction regulates mucinous colorectal adenocarcinoma apicobasal polarity.",
+          "title": {
+            "verdict": "match",
+            "similarity": 1.0
+          },
+          "gene_role": "abstract",
+          "indication_role": "title",
+          "retracted": false,
+          "publication_types": [
+            "Journal Article"
+          ],
+          "status": "weak-attribution",
+          "reasons": [
+            "ERBB2 appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else"
+          ]
+        },
+        {
+          "key": "E15",
+          "node": "src.erbb2.paper-42426557",
+          "target": "ERBB2",
+          "source": {
+            "type": "pmid",
+            "id": "42426557",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42426557/"
+          },
+          "quote": "TITLE: Anti-Human Epidermal Growth Factor Receptor 2 therapies in metastatic colorectal cancer: a systematic review and meta-analysis.",
+          "doc": "pubmed-ERBB2",
+          "resolves": true,
+          "registry_title": "Anti-Human Epidermal Growth Factor Receptor 2 therapies in metastatic colorectal cancer: a systematic review and meta-analysis.",
+          "title": {
+            "verdict": "match",
+            "similarity": 1.0
+          },
+          "gene_role": "abstract",
+          "indication_role": "title",
+          "retracted": false,
+          "publication_types": [
+            "Journal Article",
+            "Systematic Review",
+            "Meta-Analysis"
+          ],
+          "status": "weak-attribution",
+          "reasons": [
+            "ERBB2 appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else"
+          ]
+        },
+        {
+          "key": "E16",
+          "node": "src.erbb2.paper-42497534",
+          "target": "ERBB2",
+          "source": {
+            "type": "pmid",
+            "id": "42497534",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42497534/"
+          },
+          "quote": "TITLE: The Xpert Breast Cancer Insight Test Predicts Distant Recurrence and Overall Survival in ER-Positive, HER2-Negative Early Breast Cancer.",
+          "doc": "pubmed-ERBB2",
+          "resolves": true,
+          "registry_title": "The Xpert Breast Cancer Insight Test Predicts Distant Recurrence and Overall Survival in ER-Positive, HER2-Negative Early Breast Cancer.",
+          "title": {
+            "verdict": "match",
+            "similarity": 1.0
+          },
+          "gene_role": "title",
+          "indication_role": "absent",
+          "retracted": false,
+          "publication_types": [
+            "Journal Article"
+          ],
+          "status": "weak-attribution",
+          "reasons": [
+            "record names no colorectal indication, so it does not speak to this disease"
+          ]
+        },
+        {
+          "key": "E17",
+          "node": "src.erbb2.paper-42599169",
+          "target": "ERBB2",
+          "source": {
+            "type": "pmid",
+            "id": "42599169",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42599169/"
+          },
+          "quote": "TITLE: Incremental Value of Synthetic MRI Radiomics in Predicting Neoadjuvant Response in Human Epidermal Growth Factor Receptor 2-Positive Breast Cancer.",
+          "doc": "pubmed-ERBB2",
+          "resolves": true,
+          "registry_title": "Incremental Value of Synthetic MRI Radiomics in Predicting Neoadjuvant Response in Human Epidermal Growth Factor Receptor 2-Positive Breast Cancer.",
+          "title": {
+            "verdict": "match",
+            "similarity": 1.0
+          },
+          "gene_role": "abstract",
+          "indication_role": "absent",
+          "retracted": false,
+          "publication_types": [
+            "Journal Article",
+            "Multicenter Study"
+          ],
+          "status": "weak-attribution",
+          "reasons": [
+            "ERBB2 appears only in the abstract, not in the title, so it is not the subject of this record — and the record names no colorectal indication either"
+          ]
+        },
+        {
+          "key": "E18",
+          "node": "src.erbb2.paper-42601812",
+          "target": "ERBB2",
+          "source": {
+            "type": "pmid",
+            "id": "42601812",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42601812/"
+          },
+          "quote": "TITLE: Exceptional Response of HER2-Positive Breast Cancer to Osimertinib: A Case Report.",
+          "doc": "pubmed-ERBB2",
+          "resolves": true,
+          "registry_title": "Exceptional Response of HER2-Positive Breast Cancer to Osimertinib: A Case Report.",
+          "title": {
+            "verdict": "match",
+            "similarity": 1.0
+          },
+          "gene_role": "title",
+          "indication_role": "absent",
+          "retracted": false,
+          "publication_types": [
+            "Case Reports",
+            "Journal Article"
+          ],
+          "status": "weak-attribution",
+          "reasons": [
+            "record names no colorectal indication, so it does not speak to this disease"
+          ]
+        },
+        {
+          "key": "E19",
+          "node": "src.erbb2.trial-NCT03803553",
+          "target": "ERBB2",
+          "source": {
+            "type": "nct",
+            "id": "NCT03803553",
+            "url": "https://clinicaltrials.gov/study/NCT03803553"
+          },
+          "quote": "TITLE: Identification and Treatment Of Micrometastatic Disease in Stage III Colon Cancer",
+          "doc": "trials-ERBB2",
+          "resolves": true,
+          "registry_title": "Identification and Treatment Of Micrometastatic Disease in Stage III Colon Cancer",
+          "title": {
+            "verdict": "match",
+            "similarity": 1.0
+          },
+          "gene_role": "absent",
+          "indication_role": "title",
+          "retracted": false,
+          "publication_types": [],
+          "status": "weak-attribution",
+          "reasons": [
+            "trial record names no ERBB2 under any of its UniProt names — it was matched to this target by free-text search, and only the indication lines up"
+          ]
+        },
+        {
+          "key": "E20",
+          "node": "src.erbb2.trial-NCT07384377",
+          "target": "ERBB2",
+          "source": {
+            "type": "nct",
+            "id": "NCT07384377",
+            "url": "https://clinicaltrials.gov/study/NCT07384377"
+          },
+          "quote": "TITLE: JSKN003 Versus Physician Choiced Treatment in Patients With HER2-positive and Advanced Colorectal Cancer Who Had Failed to Respond to Oxaliplatin, 5-Fu, and Irinotecan",
+          "doc": "trials-ERBB2",
+          "resolves": true,
+          "registry_title": "JSKN003 Versus Physician Choiced Treatment in Patients With HER2-positive and Advanced Colorectal Cancer Who Had Failed to Respond to Oxaliplatin, 5-Fu, and Irinotecan",
+          "title": {
+            "verdict": "match",
+            "similarity": 1.0
+          },
+          "gene_role": "title",
+          "indication_role": "title",
+          "retracted": false,
+          "publication_types": [],
+          "status": "sound",
+          "reasons": []
+        },
+        {
+          "key": "E21",
+          "node": "src.erbb2.trial-NCT07503756",
+          "target": "ERBB2",
+          "source": {
+            "type": "nct",
+            "id": "NCT07503756",
+            "url": "https://clinicaltrials.gov/study/NCT07503756"
+          },
+          "quote": "TITLE: JS212 Combination Therapies in Metastatic Colorectal Cancer",
+          "doc": "trials-ERBB2",
+          "resolves": true,
+          "registry_title": "JS212 Combination Therapies in Metastatic Colorectal Cancer",
+          "title": {
+            "verdict": "match",
+            "similarity": 1.0
+          },
+          "gene_role": "abstract",
+          "indication_role": "title",
+          "retracted": false,
+          "publication_types": [],
+          "status": "weak-attribution",
+          "reasons": [
+            "ERBB2 appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else"
+          ]
+        }
+      ]
+    },
+    "KRAS": {
+      "counters": {
+        "subject_records": 3,
+        "weak_attribution": 7,
+        "off_target": 1,
+        "title_drift": 0,
+        "retracted": 0,
+        "unresolved": 0,
+        "not_checked": 0,
+        "checked_total": 11
+      },
+      "citations": [
+        {
+          "key": "E8",
+          "node": "src.kras.binding-sites",
+          "target": "KRAS",
+          "source": {
+            "type": "uniprot",
+            "id": "P01116",
+            "url": "https://www.uniprot.org/uniprotkb/P01116"
+          },
+          "quote": "UNIPROT binding_sites=17",
+          "doc": "uniprot-KRAS",
+          "resolves": true,
+          "registry_title": "GTPase KRas",
+          "title": {
+            "verdict": "not-applicable",
+            "similarity": null
+          },
+          "gene_role": "title",
+          "indication_role": "not-applicable",
+          "retracted": false,
+          "publication_types": [],
+          "status": "sound",
+          "reasons": []
+        },
+        {
+          "key": "E13",
+          "node": "src.kras.paper-42527030",
+          "target": "KRAS",
+          "source": {
+            "type": "pmid",
+            "id": "42527030",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42527030/"
+          },
+          "quote": "TITLE: IL-27 shapes NK cell heterogeneity and function in colorectal cancer.",
+          "doc": "pubmed-KRAS",
+          "resolves": true,
+          "registry_title": "IL-27 shapes NK cell heterogeneity and function in colorectal cancer.",
+          "title": {
+            "verdict": "match",
+            "similarity": 1.0
+          },
+          "gene_role": "absent",
+          "indication_role": "title",
+          "retracted": false,
+          "publication_types": [
+            "Journal Article"
+          ],
+          "status": "off-target",
+          "reasons": [
+            "KRAS appears nowhere in the registry record, under any of its names"
+          ]
+        },
+        {
+          "key": "E14",
+          "node": "src.kras.paper-42557320",
+          "target": "KRAS",
+          "source": {
+            "type": "pmid",
+            "id": "42557320",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42557320/"
+          },
+          "quote": "TITLE: A tumour-derived organoid biobank maps cancer gene dependencies.",
+          "doc": "pubmed-KRAS",
+          "resolves": true,
+          "registry_title": "A tumour-derived organoid biobank maps cancer gene dependencies.",
+          "title": {
+            "verdict": "match",
+            "similarity": 1.0
+          },
+          "gene_role": "abstract",
+          "indication_role": "abstract",
+          "retracted": false,
+          "publication_types": [
+            "Journal Article"
+          ],
+          "status": "weak-attribution",
+          "reasons": [
+            "KRAS appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else"
+          ]
+        },
+        {
+          "key": "E15",
+          "node": "src.kras.paper-42570059",
+          "target": "KRAS",
+          "source": {
+            "type": "pmid",
+            "id": "42570059",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42570059/"
+          },
+          "quote": "TITLE: Brief report: Therapeutic benefit of ISA-2011B in colorectal cancer.",
+          "doc": "pubmed-KRAS",
+          "resolves": true,
+          "registry_title": "Brief report: Therapeutic benefit of ISA-2011B in colorectal cancer.",
+          "title": {
+            "verdict": "match",
+            "similarity": 1.0
+          },
+          "gene_role": "abstract",
+          "indication_role": "title",
+          "retracted": false,
+          "publication_types": [
+            "Journal Article"
+          ],
+          "status": "weak-attribution",
+          "reasons": [
+            "KRAS appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else"
+          ]
+        },
+        {
+          "key": "E16",
+          "node": "src.kras.paper-42580447",
+          "target": "KRAS",
+          "source": {
+            "type": "pmid",
+            "id": "42580447",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42580447/"
+          },
+          "quote": "TITLE: Targeted KRAS suppression in colorectal cancer via in vivo self-assembled siRNAs encapsulated in endogenous small extracellular vesicles.",
+          "doc": "pubmed-KRAS",
+          "resolves": true,
+          "registry_title": "Targeted KRAS suppression in colorectal cancer via in vivo self-assembled siRNAs encapsulated in endogenous small extracellular vesicles.",
+          "title": {
+            "verdict": "match",
+            "similarity": 1.0
+          },
+          "gene_role": "title",
+          "indication_role": "title",
+          "retracted": false,
+          "publication_types": [
+            "Journal Article"
+          ],
+          "status": "sound",
+          "reasons": []
+        },
+        {
+          "key": "E17",
+          "node": "src.kras.paper-42599639",
+          "target": "KRAS",
+          "source": {
+            "type": "pmid",
+            "id": "42599639",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42599639/"
+          },
+          "quote": "TITLE: Salvage pancreaticoduodenectomy for localized recurrence after resection of ascending colon cancer: a case report.",
+          "doc": "pubmed-KRAS",
+          "resolves": true,
+          "registry_title": "Salvage pancreaticoduodenectomy for localized recurrence after resection of ascending colon cancer: a case report.",
+          "title": {
+            "verdict": "match",
+            "similarity": 1.0
+          },
+          "gene_role": "abstract",
+          "indication_role": "title",
+          "retracted": false,
+          "publication_types": [
+            "Journal Article"
+          ],
+          "status": "weak-attribution",
+          "reasons": [
+            "KRAS appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else"
+          ]
+        },
+        {
+          "key": "E18",
+          "node": "src.kras.paper-42605754",
+          "target": "KRAS",
+          "source": {
+            "type": "pmid",
+            "id": "42605754",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42605754/"
+          },
+          "quote": "TITLE: Transcriptome-based macroautophagy and chaperone-mediated autophagy states reveal context-dependent vulnerabilities across human cancers.",
+          "doc": "pubmed-KRAS",
+          "resolves": true,
+          "registry_title": "Transcriptome-based macroautophagy and chaperone-mediated autophagy states reveal context-dependent vulnerabilities across human cancers.",
+          "title": {
+            "verdict": "match",
+            "similarity": 1.0
+          },
+          "gene_role": "abstract",
+          "indication_role": "absent",
+          "retracted": false,
+          "publication_types": [
+            "Journal Article"
+          ],
+          "status": "weak-attribution",
+          "reasons": [
+            "KRAS appears only in the abstract, not in the title, so it is not the subject of this record — and the record names no colorectal indication either"
+          ]
+        },
+        {
+          "key": "E19",
+          "node": "src.kras.paper-42606648",
+          "target": "KRAS",
+          "source": {
+            "type": "pmid",
+            "id": "42606648",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42606648/"
+          },
+          "quote": "TITLE: Integrative bulk and single-cell transcriptomics identify a recurrence-prognostic risk model with exploratory associations with treatment-response phenotypes in colorectal cancer.",
+          "doc": "pubmed-KRAS",
+          "resolves": true,
+          "registry_title": "Integrative bulk and single-cell transcriptomics identify a recurrence-prognostic risk model with exploratory associations with treatment-response phenotypes in colorectal cancer.",
+          "title": {
+            "verdict": "match",
+            "similarity": 1.0
+          },
+          "gene_role": "abstract",
+          "indication_role": "title",
+          "retracted": false,
+          "publication_types": [
+            "Journal Article"
+          ],
+          "status": "weak-attribution",
+          "reasons": [
+            "KRAS appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else"
+          ]
+        },
+        {
+          "key": "E20",
+          "node": "src.kras.paper-42607542",
+          "target": "KRAS",
+          "source": {
+            "type": "pmid",
+            "id": "42607542",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42607542/"
+          },
+          "quote": "TITLE: Anticancer effects of an XPO1 inhibitor (selinexor) with sotorasib following omeprazole preconditioning in KRAS G12C-mutant non-small cell lung cancer cells in vitro and in a mouse tumor xenograft.",
+          "doc": "pubmed-KRAS",
+          "resolves": true,
+          "registry_title": "Anticancer effects of an XPO1 inhibitor (selinexor) with sotorasib following omeprazole preconditioning in KRAS G12C-mutant non-small cell lung cancer cells in vitro and in a mouse tumor xenograft.",
+          "title": {
+            "verdict": "match",
+            "similarity": 1.0
+          },
+          "gene_role": "title",
+          "indication_role": "absent",
+          "retracted": false,
+          "publication_types": [
+            "Journal Article"
+          ],
+          "status": "weak-attribution",
+          "reasons": [
+            "record names no colorectal indication, so it does not speak to this disease"
+          ]
+        },
+        {
+          "key": "E21",
+          "node": "src.kras.trial-NCT05176483",
+          "target": "KRAS",
+          "source": {
+            "type": "nct",
+            "id": "NCT05176483",
+            "url": "https://clinicaltrials.gov/study/NCT05176483"
+          },
+          "quote": "TITLE: Study of Zanzalintinib in Combination With Immuno-Oncology or Other Agents in Participants With Solid Tumors",
+          "doc": "trials-KRAS",
+          "resolves": true,
+          "registry_title": "Study of Zanzalintinib in Combination With Immuno-Oncology or Other Agents in Participants With Solid Tumors",
+          "title": {
+            "verdict": "match",
+            "similarity": 1.0
+          },
+          "gene_role": "absent",
+          "indication_role": "abstract",
+          "retracted": false,
+          "publication_types": [],
+          "status": "weak-attribution",
+          "reasons": [
+            "trial record names no KRAS under any of its UniProt names — it was matched to this target by free-text search, and only the indication lines up"
+          ]
+        },
+        {
+          "key": "E22",
+          "node": "src.kras.trial-NCT07300150",
+          "target": "KRAS",
+          "source": {
+            "type": "nct",
+            "id": "NCT07300150",
+            "url": "https://clinicaltrials.gov/study/NCT07300150"
+          },
+          "quote": "TITLE: A Study of PT0511 in Participants With KRAS Mutated or Amplified Advanced Solid Tumors",
+          "doc": "trials-KRAS",
+          "resolves": true,
+          "registry_title": "A Study of PT0511 in Participants With KRAS Mutated or Amplified Advanced Solid Tumors",
+          "title": {
+            "verdict": "match",
+            "similarity": 1.0
+          },
+          "gene_role": "title",
+          "indication_role": "abstract",
+          "retracted": false,
+          "publication_types": [],
+          "status": "sound",
+          "reasons": []
+        }
+      ]
+    },
+    "MYC": {
+      "counters": {
+        "subject_records": 2,
+        "weak_attribution": 6,
+        "off_target": 0,
+        "title_drift": 0,
+        "retracted": 0,
+        "unresolved": 0,
+        "not_checked": 0,
+        "checked_total": 8
+      },
+      "citations": [
+        {
+          "key": "E8",
+          "node": "src.myc.binding-sites",
+          "target": "MYC",
+          "source": {
+            "type": "uniprot",
+            "id": "P01106",
+            "url": "https://www.uniprot.org/uniprotkb/P01106"
+          },
+          "quote": "UNIPROT binding_sites=0",
+          "doc": "uniprot-MYC",
+          "resolves": true,
+          "registry_title": "Myc proto-oncogene protein",
+          "title": {
+            "verdict": "not-applicable",
+            "similarity": null
+          },
+          "gene_role": "title",
+          "indication_role": "not-applicable",
+          "retracted": false,
+          "publication_types": [],
+          "status": "sound",
+          "reasons": []
+        },
+        {
+          "key": "E13",
+          "node": "src.myc.paper-42497765",
+          "target": "MYC",
+          "source": {
+            "type": "pmid",
+            "id": "42497765",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42497765/"
+          },
+          "quote": "TITLE: Targeting Cys328 in the STAT3 DNA-binding domain with the germacrane-type sesquiterpene lactone SCP-7 inhibits colorectal Cancer growth in vitro and in vivo.",
+          "doc": "pubmed-MYC",
+          "resolves": true,
+          "registry_title": "Targeting Cys328 in the STAT3 DNA-binding domain with the germacrane-type sesquiterpene lactone SCP-7 inhibits colorectal Cancer growth in vitro and in vivo.",
+          "title": {
+            "verdict": "match",
+            "similarity": 1.0
+          },
+          "gene_role": "abstract",
+          "indication_role": "title",
+          "retracted": false,
+          "publication_types": [
+            "Journal Article"
+          ],
+          "status": "weak-attribution",
+          "reasons": [
+            "MYC appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else"
+          ]
+        },
+        {
+          "key": "E14",
+          "node": "src.myc.paper-42548213",
+          "target": "MYC",
+          "source": {
+            "type": "pmid",
+            "id": "42548213",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42548213/"
+          },
+          "quote": "TITLE: Zeaxanthin Suppresses Azoxymethane/Dextran Sodium Sulfate-Induced Colorectal Cancer in Mice by Inhibiting Inflammation and Proliferation.",
+          "doc": "pubmed-MYC",
+          "resolves": true,
+          "registry_title": "Zeaxanthin Suppresses Azoxymethane/Dextran Sodium Sulfate-Induced Colorectal Cancer in Mice by Inhibiting Inflammation and Proliferation.",
+          "title": {
+            "verdict": "match",
+            "similarity": 1.0
+          },
+          "gene_role": "abstract",
+          "indication_role": "title",
+          "retracted": false,
+          "publication_types": [
+            "Journal Article"
+          ],
+          "status": "weak-attribution",
+          "reasons": [
+            "MYC appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else"
+          ]
+        },
+        {
+          "key": "E15",
+          "node": "src.myc.paper-42560559",
+          "target": "MYC",
+          "source": {
+            "type": "pmid",
+            "id": "42560559",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42560559/"
+          },
+          "quote": "TITLE: Ferroptosis suppression by MYC confers oxaliplatin resistance in colorectal cancer via FTH1 and GPX4.",
+          "doc": "pubmed-MYC",
+          "resolves": true,
+          "registry_title": "Ferroptosis suppression by MYC confers oxaliplatin resistance in colorectal cancer via FTH1 and GPX4.",
+          "title": {
+            "verdict": "match",
+            "similarity": 1.0
+          },
+          "gene_role": "title",
+          "indication_role": "title",
+          "retracted": false,
+          "publication_types": [
+            "Journal Article"
+          ],
+          "status": "sound",
+          "reasons": []
+        },
+        {
+          "key": "E16",
+          "node": "src.myc.paper-42607078",
+          "target": "MYC",
+          "source": {
+            "type": "pmid",
+            "id": "42607078",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42607078/"
+          },
+          "quote": "TITLE: Dual MYC and GSPT1 Protein Degrader for MYC-Driven Hematologic Malignancies.",
+          "doc": "pubmed-MYC",
+          "resolves": true,
+          "registry_title": "Dual MYC and GSPT1 Protein Degrader for MYC-Driven Hematologic Malignancies.",
+          "title": {
+            "verdict": "match",
+            "similarity": 1.0
+          },
+          "gene_role": "title",
+          "indication_role": "absent",
+          "retracted": false,
+          "publication_types": [
+            "Journal Article"
+          ],
+          "status": "weak-attribution",
+          "reasons": [
+            "record names no colorectal indication, so it does not speak to this disease"
+          ]
+        },
+        {
+          "key": "E17",
+          "node": "src.myc.paper-42608167",
+          "target": "MYC",
+          "source": {
+            "type": "pmid",
+            "id": "42608167",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42608167/"
+          },
+          "quote": "TITLE: Revisiting Pluripotency Acquisition: A Unified Framework for Reprogramming Strategies.",
+          "doc": "pubmed-MYC",
+          "resolves": true,
+          "registry_title": "Revisiting Pluripotency Acquisition: A Unified Framework for Reprogramming Strategies.",
+          "title": {
+            "verdict": "match",
+            "similarity": 1.0
+          },
+          "gene_role": "abstract",
+          "indication_role": "absent",
+          "retracted": false,
+          "publication_types": [
+            "Journal Article",
+            "Review"
+          ],
+          "status": "weak-attribution",
+          "reasons": [
+            "MYC appears only in the abstract, not in the title, so it is not the subject of this record — and the record names no colorectal indication either"
+          ]
+        },
+        {
+          "key": "E18",
+          "node": "src.myc.trial-NCT05919264",
+          "target": "MYC",
+          "source": {
+            "type": "nct",
+            "id": "NCT05919264",
+            "url": "https://clinicaltrials.gov/study/NCT05919264"
+          },
+          "quote": "TITLE: FOG-001 in Locally Advanced or Metastatic Solid Tumors",
+          "doc": "trials-MYC",
+          "resolves": true,
+          "registry_title": "FOG-001 in Locally Advanced or Metastatic Solid Tumors",
+          "title": {
+            "verdict": "match",
+            "similarity": 1.0
+          },
+          "gene_role": "absent",
+          "indication_role": "abstract",
+          "retracted": false,
+          "publication_types": [],
+          "status": "weak-attribution",
+          "reasons": [
+            "trial record names no MYC under any of its UniProt names — it was matched to this target by free-text search, and only the indication lines up"
+          ]
+        },
+        {
+          "key": "E19",
+          "node": "src.myc.trial-NCT07147231",
+          "target": "MYC",
+          "source": {
+            "type": "nct",
+            "id": "NCT07147231",
+            "url": "https://clinicaltrials.gov/study/NCT07147231"
+          },
+          "quote": "TITLE: Testing the Effectiveness of the Anti-cancer Drug Pidnarulex (CX-5461), in Combination With Another Anti-cancer Drug Cemiplimab (REGN2810), in Treating Refractory Microsatellite Stable Colorectal Cancer",
+          "doc": "trials-MYC",
+          "resolves": true,
+          "registry_title": "Testing the Effectiveness of the Anti-cancer Drug Pidnarulex (CX-5461), in Combination With Another Anti-cancer Drug Cemiplimab (REGN2810), in Treating Refractory Microsatellite Stable Colorectal Cancer",
+          "title": {
+            "verdict": "match",
+            "similarity": 1.0
+          },
+          "gene_role": "absent",
+          "indication_role": "title",
+          "retracted": false,
+          "publication_types": [],
+          "status": "weak-attribution",
+          "reasons": [
+            "trial record names no MYC under any of its UniProt names — it was matched to this target by free-text search, and only the indication lines up"
+          ]
+        }
+      ]
+    },
+    "WRN": {
+      "counters": {
+        "subject_records": 4,
+        "weak_attribution": 7,
+        "off_target": 0,
+        "title_drift": 0,
+        "retracted": 0,
+        "unresolved": 0,
+        "not_checked": 0,
+        "checked_total": 11
+      },
+      "citations": [
+        {
+          "key": "E10",
+          "node": "src.wrn.binding-sites",
+          "target": "WRN",
+          "source": {
+            "type": "uniprot",
+            "id": "Q14191",
+            "url": "https://www.uniprot.org/uniprotkb/Q14191"
+          },
+          "quote": "UNIPROT binding_sites=13",
+          "doc": "uniprot-WRN",
+          "resolves": true,
+          "registry_title": "Bifunctional 3'-5' exonuclease/ATP-dependent helicase WRN",
+          "title": {
+            "verdict": "not-applicable",
+            "similarity": null
+          },
+          "gene_role": "title",
+          "indication_role": "not-applicable",
+          "retracted": false,
+          "publication_types": [],
+          "status": "sound",
+          "reasons": []
+        },
+        {
+          "key": "E15",
+          "node": "src.wrn.paper-40203476",
+          "target": "WRN",
+          "source": {
+            "type": "pmid",
+            "id": "40203476",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40203476/"
+          },
+          "quote": "TITLE: Werner helicase as a therapeutic target in mismatch repair deficient colorectal cancer.",
+          "doc": "pubmed-WRN",
+          "resolves": true,
+          "registry_title": "Werner helicase as a therapeutic target in mismatch repair deficient colorectal cancer.",
+          "title": {
+            "verdict": "match",
+            "similarity": 1.0
+          },
+          "gene_role": "abstract",
+          "indication_role": "title",
+          "retracted": false,
+          "publication_types": [
+            "Journal Article",
+            "Review",
+            "Research Support, N.I.H., Extramural"
+          ],
+          "status": "weak-attribution",
+          "reasons": [
+            "WRN appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else"
+          ]
+        },
+        {
+          "key": "E16",
+          "node": "src.wrn.paper-41704373",
+          "target": "WRN",
+          "source": {
+            "type": "pmid",
+            "id": "41704373",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41704373/"
+          },
+          "quote": "TITLE: Discovery and Preclinical Evaluations of Potent, Selective, and Allosteric Covalent WRN Inhibitors with Improved PK Properties.",
+          "doc": "pubmed-WRN",
+          "resolves": true,
+          "registry_title": "Discovery and Preclinical Evaluations of Potent, Selective, and Allosteric Covalent WRN Inhibitors with Improved PK Properties.",
+          "title": {
+            "verdict": "match",
+            "similarity": 1.0
+          },
+          "gene_role": "title",
+          "indication_role": "abstract",
+          "retracted": false,
+          "publication_types": [
+            "Journal Article"
+          ],
+          "status": "sound",
+          "reasons": []
+        },
+        {
+          "key": "E17",
+          "node": "src.wrn.paper-42293362",
+          "target": "WRN",
+          "source": {
+            "type": "pmid",
+            "id": "42293362",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42293362/"
+          },
+          "quote": "TITLE: RecQ DNA helicases germline variants in Lynch-like syndrome.",
+          "doc": "pubmed-WRN",
+          "resolves": true,
+          "registry_title": "RecQ DNA helicases germline variants in Lynch-like syndrome.",
+          "title": {
+            "verdict": "match",
+            "similarity": 1.0
+          },
+          "gene_role": "abstract",
+          "indication_role": "abstract",
+          "retracted": false,
+          "publication_types": [
+            "Journal Article"
+          ],
+          "status": "weak-attribution",
+          "reasons": [
+            "WRN appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else"
+          ]
+        },
+        {
+          "key": "E18",
+          "node": "src.wrn.paper-42461083",
+          "target": "WRN",
+          "source": {
+            "type": "pmid",
+            "id": "42461083",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42461083/"
+          },
+          "quote": "TITLE: Targeting WRN Helicase in Microsatellite Instable Colorectal Cancer Induces Antitumor Immunity through Extrachromosomal Circular DNA Release.",
+          "doc": "pubmed-WRN",
+          "resolves": true,
+          "registry_title": "Targeting WRN Helicase in Microsatellite Instable Colorectal Cancer Induces Antitumor Immunity through Extrachromosomal Circular DNA Release.",
+          "title": {
+            "verdict": "match",
+            "similarity": 1.0
+          },
+          "gene_role": "title",
+          "indication_role": "title",
+          "retracted": false,
+          "publication_types": [
+            "Journal Article"
+          ],
+          "status": "sound",
+          "reasons": []
+        },
+        {
+          "key": "E19",
+          "node": "src.wrn.paper-42484294",
+          "target": "WRN",
+          "source": {
+            "type": "pmid",
+            "id": "42484294",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42484294/"
+          },
+          "quote": "TITLE: CRISPR Screening Identifies SMARCAL1 and MRN as Modulators of WRN Dependency in MSI-H Colorectal Cancer.",
+          "doc": "pubmed-WRN",
+          "resolves": true,
+          "registry_title": "CRISPR Screening Identifies SMARCAL1 and MRN as Modulators of WRN Dependency in MSI-H Colorectal Cancer.",
+          "title": {
+            "verdict": "match",
+            "similarity": 1.0
+          },
+          "gene_role": "title",
+          "indication_role": "title",
+          "retracted": false,
+          "publication_types": [
+            "Journal Article"
+          ],
+          "status": "sound",
+          "reasons": []
+        },
+        {
+          "key": "E20",
+          "node": "src.wrn.paper-42593940",
+          "target": "WRN",
+          "source": {
+            "type": "pmid",
+            "id": "42593940",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42593940/"
+          },
+          "quote": "TITLE: Discovery and Optimization of a WRN Helicase Inhibitor Series through Structure-Guided Drug Design from a Covalent Fragment Binding Insight.",
+          "doc": "pubmed-WRN",
+          "resolves": true,
+          "registry_title": "Discovery and Optimization of a WRN Helicase Inhibitor Series through Structure-Guided Drug Design from a Covalent Fragment Binding Insight.",
+          "title": {
+            "verdict": "match",
+            "similarity": 1.0
+          },
+          "gene_role": "title",
+          "indication_role": "absent",
+          "retracted": false,
+          "publication_types": [
+            "Journal Article"
+          ],
+          "status": "weak-attribution",
+          "reasons": [
+            "record names no colorectal indication, so it does not speak to this disease"
+          ]
+        },
+        {
+          "key": "E21",
+          "node": "src.wrn.paper-42604630",
+          "target": "WRN",
+          "source": {
+            "type": "pmid",
+            "id": "42604630",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42604630/"
+          },
+          "quote": "TITLE: Design, synthesis and biological evaluation of triazolo[1,5-a]pyrimidinone derivatives as potent and orally efficacious WRN helicase inhibitors for MSI cancer therapy.",
+          "doc": "pubmed-WRN",
+          "resolves": true,
+          "registry_title": "Design, synthesis and biological evaluation of triazolo[1,5-a]pyrimidinone derivatives as potent and orally efficacious WRN helicase inhibitors for MSI cancer therapy.",
+          "title": {
+            "verdict": "match",
+            "similarity": 1.0
+          },
+          "gene_role": "title",
+          "indication_role": "absent",
+          "retracted": false,
+          "publication_types": [
+            "Journal Article"
+          ],
+          "status": "weak-attribution",
+          "reasons": [
+            "record names no colorectal indication, so it does not speak to this disease"
+          ]
+        },
+        {
+          "key": "E22",
+          "node": "src.wrn.trial-NCT03570541",
+          "target": "WRN",
+          "source": {
+            "type": "nct",
+            "id": "NCT03570541",
+            "url": "https://clinicaltrials.gov/study/NCT03570541"
+          },
+          "quote": "TITLE: TQL-block for Laparoscopic Hemicolectomy",
+          "doc": "trials-WRN",
+          "resolves": true,
+          "registry_title": "TQL-block for Laparoscopic Hemicolectomy",
+          "title": {
+            "verdict": "match",
+            "similarity": 1.0
+          },
+          "gene_role": "absent",
+          "indication_role": "abstract",
+          "retracted": false,
+          "publication_types": [],
+          "status": "weak-attribution",
+          "reasons": [
+            "trial record names no WRN under any of its UniProt names — it was matched to this target by free-text search, and only the indication lines up"
+          ]
+        },
+        {
+          "key": "E23",
+          "node": "src.wrn.trial-NCT06974110",
+          "target": "WRN",
+          "source": {
+            "type": "nct",
+            "id": "NCT06974110",
+            "url": "https://clinicaltrials.gov/study/NCT06974110"
+          },
+          "quote": "TITLE: Study of Orally Administered MOMA-341 in Participants With Advanced or Metastatic Solid Tumors",
+          "doc": "trials-WRN",
+          "resolves": true,
+          "registry_title": "Study of Orally Administered MOMA-341 in Participants With Advanced or Metastatic Solid Tumors",
+          "title": {
+            "verdict": "match",
+            "similarity": 1.0
+          },
+          "gene_role": "absent",
+          "indication_role": "abstract",
+          "retracted": false,
+          "publication_types": [],
+          "status": "weak-attribution",
+          "reasons": [
+            "trial record names no WRN under any of its UniProt names — it was matched to this target by free-text search, and only the indication lines up"
+          ]
+        },
+        {
+          "key": "E24",
+          "node": "src.wrn.trial-NCT07262619",
+          "target": "WRN",
+          "source": {
+            "type": "nct",
+            "id": "NCT07262619",
+            "url": "https://clinicaltrials.gov/study/NCT07262619"
+          },
+          "quote": "TITLE: EIK1005-002: A Clinical Research Study Evaluating EIK1005, a Werner Helicase Inhibitor, as Monotherapy and in Combination With Pembrolizumab in Participants With Advanced Solid Tumors Including Microsatellite Instability High (MSI-H) Tumors",
+          "doc": "trials-WRN",
+          "resolves": true,
+          "registry_title": "EIK1005-002: A Clinical Research Study Evaluating EIK1005, a Werner Helicase Inhibitor, as Monotherapy and in Combination With Pembrolizumab in Participants With Advanced Solid Tumors Including Microsatellite Instability High (MSI-H) Tumors",
+          "title": {
+            "verdict": "match",
+            "similarity": 1.0
+          },
+          "gene_role": "absent",
+          "indication_role": "abstract",
+          "retracted": false,
+          "publication_types": [],
+          "status": "weak-attribution",
+          "reasons": [
+            "trial record names no WRN under any of its UniProt names — it was matched to this target by free-text search, and only the indication lines up"
+          ]
+        }
+      ]
+    },
+    "PRMT5": {
+      "counters": {
+        "subject_records": 2,
+        "weak_attribution": 7,
+        "off_target": 0,
+        "title_drift": 0,
+        "retracted": 0,
+        "unresolved": 0,
+        "not_checked": 0,
+        "checked_total": 9
+      },
+      "citations": [
+        {
+          "key": "E8",
+          "node": "src.prmt5.binding-sites",
+          "target": "PRMT5",
+          "source": {
+            "type": "uniprot",
+            "id": "O14744",
+            "url": "https://www.uniprot.org/uniprotkb/O14744"
+          },
+          "quote": "UNIPROT binding_sites=7",
+          "doc": "uniprot-PRMT5",
+          "resolves": true,
+          "registry_title": "Protein arginine N-methyltransferase 5",
+          "title": {
+            "verdict": "not-applicable",
+            "similarity": null
+          },
+          "gene_role": "title",
+          "indication_role": "not-applicable",
+          "retracted": false,
+          "publication_types": [],
+          "status": "sound",
+          "reasons": []
+        },
+        {
+          "key": "E13",
+          "node": "src.prmt5.paper-41513606",
+          "target": "PRMT5",
+          "source": {
+            "type": "pmid",
+            "id": "41513606",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41513606/"
+          },
+          "quote": "TITLE: PRMT5 upregulates KCNMB4 expression via histone methylation to promote paclitaxel resistance in advanced nasopharyngeal carcinoma.",
+          "doc": "pubmed-PRMT5",
+          "resolves": true,
+          "registry_title": "PRMT5 upregulates KCNMB4 expression via histone methylation to promote paclitaxel resistance in advanced nasopharyngeal carcinoma.",
+          "title": {
+            "verdict": "match",
+            "similarity": 1.0
+          },
+          "gene_role": "title",
+          "indication_role": "absent",
+          "retracted": false,
+          "publication_types": [
+            "Journal Article"
+          ],
+          "status": "weak-attribution",
+          "reasons": [
+            "record names no colorectal indication, so it does not speak to this disease"
+          ]
+        },
+        {
+          "key": "E14",
+          "node": "src.prmt5.paper-41629269",
+          "target": "PRMT5",
+          "source": {
+            "type": "pmid",
+            "id": "41629269",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41629269/"
+          },
+          "quote": "TITLE: Targeting ENO1 reprograms macrophage polarization to trigger antitumor immunity and improves the therapeutic effect of radiotherapy.",
+          "doc": "pubmed-PRMT5",
+          "resolves": true,
+          "registry_title": "Targeting ENO1 reprograms macrophage polarization to trigger antitumor immunity and improves the therapeutic effect of radiotherapy.",
+          "title": {
+            "verdict": "match",
+            "similarity": 1.0
+          },
+          "gene_role": "abstract",
+          "indication_role": "abstract",
+          "retracted": false,
+          "publication_types": [
+            "Journal Article"
+          ],
+          "status": "weak-attribution",
+          "reasons": [
+            "PRMT5 appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else"
+          ]
+        },
+        {
+          "key": "E15",
+          "node": "src.prmt5.paper-41630900",
+          "target": "PRMT5",
+          "source": {
+            "type": "pmid",
+            "id": "41630900",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/41630900/"
+          },
+          "quote": "TITLE: A nuclear isoform of hydroxyacyl-COA dehydrogenase inhibits tumor progression in colorectal cancer.",
+          "doc": "pubmed-PRMT5",
+          "resolves": true,
+          "registry_title": "A nuclear isoform of hydroxyacyl-COA dehydrogenase inhibits tumor progression in colorectal cancer.",
+          "title": {
+            "verdict": "match",
+            "similarity": 1.0
+          },
+          "gene_role": "abstract",
+          "indication_role": "title",
+          "retracted": false,
+          "publication_types": [
+            "Journal Article"
+          ],
+          "status": "weak-attribution",
+          "reasons": [
+            "PRMT5 appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else"
+          ]
+        },
+        {
+          "key": "E16",
+          "node": "src.prmt5.paper-42121254",
+          "target": "PRMT5",
+          "source": {
+            "type": "pmid",
+            "id": "42121254",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42121254/"
+          },
+          "quote": "TITLE: Identification of METTL3 and PRMT5 as an oncogenic pair for the prognosis and therapeutic targets of colorectal cancer subtype.",
+          "doc": "pubmed-PRMT5",
+          "resolves": true,
+          "registry_title": "Identification of METTL3 and PRMT5 as an oncogenic pair for the prognosis and therapeutic targets of colorectal cancer subtype.",
+          "title": {
+            "verdict": "match",
+            "similarity": 1.0
+          },
+          "gene_role": "title",
+          "indication_role": "title",
+          "retracted": false,
+          "publication_types": [
+            "Journal Article"
+          ],
+          "status": "sound",
+          "reasons": []
+        },
+        {
+          "key": "E17",
+          "node": "src.prmt5.paper-42133901",
+          "target": "PRMT5",
+          "source": {
+            "type": "pmid",
+            "id": "42133901",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42133901/"
+          },
+          "quote": "TITLE: Genomics of MTAP Loss in >500,000 Solid Tumor Specimens Profiled Using Comprehensive Genomic Profiling Platforms.",
+          "doc": "pubmed-PRMT5",
+          "resolves": true,
+          "registry_title": "Genomics of MTAP Loss in >500,000 Solid Tumor Specimens Profiled Using Comprehensive Genomic Profiling Platforms.",
+          "title": {
+            "verdict": "match",
+            "similarity": 1.0
+          },
+          "gene_role": "abstract",
+          "indication_role": "abstract",
+          "retracted": false,
+          "publication_types": [
+            "Journal Article"
+          ],
+          "status": "weak-attribution",
+          "reasons": [
+            "PRMT5 appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else"
+          ]
+        },
+        {
+          "key": "E18",
+          "node": "src.prmt5.paper-42326870",
+          "target": "PRMT5",
+          "source": {
+            "type": "pmid",
+            "id": "42326870",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42326870/"
+          },
+          "quote": "TITLE: Targeting engulfment and cell motility 1 protein methylation attenuates M2 macrophage infiltration and boosts anti-PD-1 efficacy in colorectal cancer.",
+          "doc": "pubmed-PRMT5",
+          "resolves": true,
+          "registry_title": "Targeting engulfment and cell motility 1 protein methylation attenuates M2 macrophage infiltration and boosts anti-PD-1 efficacy in colorectal cancer.",
+          "title": {
+            "verdict": "match",
+            "similarity": 1.0
+          },
+          "gene_role": "abstract",
+          "indication_role": "title",
+          "retracted": false,
+          "publication_types": [
+            "Journal Article"
+          ],
+          "status": "weak-attribution",
+          "reasons": [
+            "PRMT5 appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else"
+          ]
+        },
+        {
+          "key": "E19",
+          "node": "src.prmt5.paper-42603931",
+          "target": "PRMT5",
+          "source": {
+            "type": "pmid",
+            "id": "42603931",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42603931/"
+          },
+          "quote": "TITLE: m6A-dependent regulation of DGUOK-AS1 by RBM15 and HNRNPH1 in lung adenocarcinoma.",
+          "doc": "pubmed-PRMT5",
+          "resolves": true,
+          "registry_title": "m6A-dependent regulation of DGUOK-AS1 by RBM15 and HNRNPH1 in lung adenocarcinoma.",
+          "title": {
+            "verdict": "match",
+            "similarity": 1.0
+          },
+          "gene_role": "abstract",
+          "indication_role": "absent",
+          "retracted": false,
+          "publication_types": [
+            "Journal Article"
+          ],
+          "status": "weak-attribution",
+          "reasons": [
+            "PRMT5 appears only in the abstract, not in the title, so it is not the subject of this record — and the record names no colorectal indication either"
+          ]
+        },
+        {
+          "key": "E20",
+          "node": "src.prmt5.paper-42607456",
+          "target": "PRMT5",
+          "source": {
+            "type": "pmid",
+            "id": "42607456",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/42607456/"
+          },
+          "quote": "TITLE: Design and synthesis of the first PARP1 and PRMT5 dual inhibitors for the treatment of breast cancer.",
+          "doc": "pubmed-PRMT5",
+          "resolves": true,
+          "registry_title": "Design and synthesis of the first PARP1 and PRMT5 dual inhibitors for the treatment of breast cancer.",
+          "title": {
+            "verdict": "match",
+            "similarity": 1.0
+          },
+          "gene_role": "title",
+          "indication_role": "absent",
+          "retracted": false,
+          "publication_types": [
+            "Journal Article"
+          ],
+          "status": "weak-attribution",
+          "reasons": [
+            "record names no colorectal indication, so it does not speak to this disease"
+          ]
+        }
+      ]
+    }
+  }
+}

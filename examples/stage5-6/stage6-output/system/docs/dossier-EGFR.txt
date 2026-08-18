@@ -1,0 +1,43 @@
+Dossier transcript — EGFR
+Transcribed 2026-08-18 12:52 UTC from: examples/stage4/fixtures/crc6-dossiers.html, examples/stage4/fixtures/crc6-verdicts.html
+
+## ASSERTED
+DOSSIER cited_records=8
+DOSSIER assumed_off_target=0
+DOSSIER assumed_retracted=0
+DOSSIER assumed_unresolved=0
+DOSSIER verdict=promising
+DOSSIER verdict_node=egfr-promising
+
+## RECORDS THE DOSSIER TREATS AS SUPPORT
+DOSSIER SUPPORTS uniprot P00533
+  as: UNIPROT binding_sites=4
+  via node: src.egfr.binding-sites
+
+DOSSIER SUPPORTS pmid 42492133
+  as: TITLE: Anticancer evaluation of novel chiral tetrahydropyrazolo[1,5-a]pyrimidine derivatives: Inhibitory effects on proliferation and migration of colon cancer cells with high HER2 expression.
+  via node: src.egfr.paper-42492133
+
+DOSSIER SUPPORTS pmid 42576549
+  as: TITLE: Chemopreventive Effects of Boldine and Naringenin on DMH-Induced Colorectal Carcinogenesis.
+  via node: src.egfr.paper-42576549
+
+DOSSIER SUPPORTS pmid 42581138
+  as: TITLE: Absence of EGFR signalling in granulocytic cells relieves immunosuppression sensitising CRC metastases to immune checkpoint therapy.
+  via node: src.egfr.paper-42581138
+
+DOSSIER SUPPORTS pmid 42595923
+  as: TITLE: Active ingredients and molecular targets of Tripterygium wilfordii against colorectal cancer: network pharmacology, molecular docking, molecular dynamics simulations and in vitro evaluation.
+  via node: src.egfr.paper-42595923
+
+DOSSIER SUPPORTS pmid 42609336
+  as: TITLE: A clinical prediction model integrating cardiovascular-kidney-metabolic biomarkers for the composite outcome of quality-of-life deterioration and rehospitalization in elderly HFpEF patients.
+  via node: src.egfr.paper-42609336
+
+DOSSIER SUPPORTS pmid 42609500
+  as: TITLE: Squamous transformation of EGFR-mutant lung adenocarcinoma after EGFR-TKI therapy: clonal continuity, tissue-based diagnosis, and therapeutic evidence gaps.
+  via node: src.egfr.paper-42609500
+
+DOSSIER SUPPORTS nct NCT07503756
+  as: TITLE: JS212 Combination Therapies in Metastatic Colorectal Cancer
+  via node: src.egfr.trial-NCT07503756

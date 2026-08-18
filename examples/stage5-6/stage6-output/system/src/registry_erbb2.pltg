@@ -1,0 +1,71 @@
+; ERBB2 — what the registries returned (stage 5)
+
+(fact subject-records 3
+    :evidence (evidence "registry-ERBB2"
+        :quotes ("VERIFIED subject_records=3")
+        :explanation "Cited records whose registry entry names ERBB2 as its subject"))
+
+(fact off-target 0
+    :evidence (evidence "registry-ERBB2"
+        :quotes ("VERIFIED off_target=0")
+        :explanation "Cited records that never name ERBB2"))
+
+(fact retracted 0
+    :evidence (evidence "registry-ERBB2"
+        :quotes ("VERIFIED retracted=0")
+        :explanation "Cited records that are retracted or under an expression of concern"))
+
+(fact unresolved 0
+    :evidence (evidence "registry-ERBB2"
+        :quotes ("VERIFIED unresolved=0")
+        :explanation "Cited identifiers no registry could return"))
+
+(fact supports-uniprot-P04626 true
+    :evidence (evidence "registry-ERBB2"
+        :quotes ("uniprot P04626 | status=sound | gene_role=title | indication=not-applicable | resolves=True")
+        :explanation "registry grade for P04626"))
+
+(fact supports-pmid-42176792 true
+    :evidence (evidence "registry-ERBB2"
+        :quotes ("pmid 42176792 | status=sound | gene_role=title | indication=abstract | resolves=True")
+        :explanation "registry grade for 42176792"))
+
+(fact supports-pmid-42401587 false
+    :evidence (evidence "registry-ERBB2"
+        :quotes ("pmid 42401587 | status=weak-attribution | gene_role=abstract | indication=title | resolves=True")
+        :explanation "ERBB2 appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else"))
+
+(fact supports-pmid-42426557 false
+    :evidence (evidence "registry-ERBB2"
+        :quotes ("pmid 42426557 | status=weak-attribution | gene_role=abstract | indication=title | resolves=True")
+        :explanation "ERBB2 appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else"))
+
+(fact supports-pmid-42497534 false
+    :evidence (evidence "registry-ERBB2"
+        :quotes ("pmid 42497534 | status=weak-attribution | gene_role=title | indication=absent | resolves=True")
+        :explanation "record names no colorectal indication, so it does not speak to this disease"))
+
+(fact supports-pmid-42599169 false
+    :evidence (evidence "registry-ERBB2"
+        :quotes ("pmid 42599169 | status=weak-attribution | gene_role=abstract | indication=absent | resolves=True")
+        :explanation "ERBB2 appears only in the abstract, not in the title, so it is not the subject of this record — and the record names no colorectal indication either"))
+
+(fact supports-pmid-42601812 false
+    :evidence (evidence "registry-ERBB2"
+        :quotes ("pmid 42601812 | status=weak-attribution | gene_role=title | indication=absent | resolves=True")
+        :explanation "record names no colorectal indication, so it does not speak to this disease"))
+
+(fact supports-nct-NCT03803553 false
+    :evidence (evidence "registry-ERBB2"
+        :quotes ("nct NCT03803553 | status=weak-attribution | gene_role=absent | indication=title | resolves=True")
+        :explanation "trial record names no ERBB2 under any of its UniProt names — it was matched to this target by free-text search, and only the indication lines up"))
+
+(fact supports-nct-NCT07384377 true
+    :evidence (evidence "registry-ERBB2"
+        :quotes ("nct NCT07384377 | status=sound | gene_role=title | indication=title | resolves=True")
+        :explanation "registry grade for NCT07384377"))
+
+(fact supports-nct-NCT07503756 false
+    :evidence (evidence "registry-ERBB2"
+        :quotes ("nct NCT07503756 | status=weak-attribution | gene_role=abstract | indication=title | resolves=True")
+        :explanation "ERBB2 appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else"))

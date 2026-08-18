@@ -1,0 +1,447 @@
+; checks.pltg — every place the two descriptions can disagree.
+; A diff that holds is silent; a diff that fails is a proved inconsistency.
+
+; ---------------------------------------------------------- EGFR
+
+(diff egfr-support-base
+    :replace dossier_egfr.cited-records
+    :with registry_egfr.subject-records)
+
+(diff egfr-off-target
+    :replace dossier_egfr.assumed-off-target
+    :with registry_egfr.off-target)
+
+(diff egfr-retracted
+    :replace dossier_egfr.assumed-retracted
+    :with registry_egfr.retracted)
+
+(diff egfr-unresolved
+    :replace dossier_egfr.assumed-unresolved
+    :with registry_egfr.unresolved)
+
+(diff egfr-supports-pmid-42492133
+    :replace dossier_egfr.supports-pmid-42492133
+    :with registry_egfr.supports-pmid-42492133)
+
+(diff egfr-supports-pmid-42576549
+    :replace dossier_egfr.supports-pmid-42576549
+    :with registry_egfr.supports-pmid-42576549)
+
+(diff egfr-supports-pmid-42595923
+    :replace dossier_egfr.supports-pmid-42595923
+    :with registry_egfr.supports-pmid-42595923)
+
+(diff egfr-supports-pmid-42609336
+    :replace dossier_egfr.supports-pmid-42609336
+    :with registry_egfr.supports-pmid-42609336)
+
+(diff egfr-supports-pmid-42609500
+    :replace dossier_egfr.supports-pmid-42609500
+    :with registry_egfr.supports-pmid-42609500)
+
+(diff egfr-supports-nct-NCT07503756
+    :replace dossier_egfr.supports-nct-NCT07503756
+    :with registry_egfr.supports-nct-NCT07503756)
+
+(derive egfr-base-intact
+    (= dossier_egfr.cited-records registry_egfr.subject-records)
+    :using (dossier_egfr.cited-records registry_egfr.subject-records))
+
+(derive egfr-clean-of-off-target
+    (= registry_egfr.off-target 0)
+    :using (registry_egfr.off-target))
+
+(derive egfr-clean-of-retracted
+    (= registry_egfr.retracted 0)
+    :using (registry_egfr.retracted))
+
+(derive egfr-all-records-resolve
+    (= registry_egfr.unresolved 0)
+    :using (registry_egfr.unresolved))
+
+(derive egfr-has-subject-record
+    (> registry_egfr.subject-records 0)
+    :using (registry_egfr.subject-records))
+
+(derive egfr-base-usable
+    (and (and egfr-clean-of-off-target egfr-clean-of-retracted)
+         (and egfr-all-records-resolve egfr-has-subject-record))
+    :using (egfr-clean-of-off-target egfr-clean-of-retracted egfr-all-records-resolve egfr-has-subject-record))
+
+(derive egfr-verdict-proven egfr-base-usable
+    :using (egfr-base-usable))
+
+; ---------------------------------------------------------- ERBB2
+
+(diff erbb2-support-base
+    :replace dossier_erbb2.cited-records
+    :with registry_erbb2.subject-records)
+
+(diff erbb2-off-target
+    :replace dossier_erbb2.assumed-off-target
+    :with registry_erbb2.off-target)
+
+(diff erbb2-retracted
+    :replace dossier_erbb2.assumed-retracted
+    :with registry_erbb2.retracted)
+
+(diff erbb2-unresolved
+    :replace dossier_erbb2.assumed-unresolved
+    :with registry_erbb2.unresolved)
+
+(diff erbb2-supports-pmid-42401587
+    :replace dossier_erbb2.supports-pmid-42401587
+    :with registry_erbb2.supports-pmid-42401587)
+
+(diff erbb2-supports-pmid-42426557
+    :replace dossier_erbb2.supports-pmid-42426557
+    :with registry_erbb2.supports-pmid-42426557)
+
+(diff erbb2-supports-pmid-42497534
+    :replace dossier_erbb2.supports-pmid-42497534
+    :with registry_erbb2.supports-pmid-42497534)
+
+(diff erbb2-supports-pmid-42599169
+    :replace dossier_erbb2.supports-pmid-42599169
+    :with registry_erbb2.supports-pmid-42599169)
+
+(diff erbb2-supports-pmid-42601812
+    :replace dossier_erbb2.supports-pmid-42601812
+    :with registry_erbb2.supports-pmid-42601812)
+
+(diff erbb2-supports-nct-NCT03803553
+    :replace dossier_erbb2.supports-nct-NCT03803553
+    :with registry_erbb2.supports-nct-NCT03803553)
+
+(diff erbb2-supports-nct-NCT07503756
+    :replace dossier_erbb2.supports-nct-NCT07503756
+    :with registry_erbb2.supports-nct-NCT07503756)
+
+(derive erbb2-base-intact
+    (= dossier_erbb2.cited-records registry_erbb2.subject-records)
+    :using (dossier_erbb2.cited-records registry_erbb2.subject-records))
+
+(derive erbb2-clean-of-off-target
+    (= registry_erbb2.off-target 0)
+    :using (registry_erbb2.off-target))
+
+(derive erbb2-clean-of-retracted
+    (= registry_erbb2.retracted 0)
+    :using (registry_erbb2.retracted))
+
+(derive erbb2-all-records-resolve
+    (= registry_erbb2.unresolved 0)
+    :using (registry_erbb2.unresolved))
+
+(derive erbb2-has-subject-record
+    (> registry_erbb2.subject-records 0)
+    :using (registry_erbb2.subject-records))
+
+(derive erbb2-base-usable
+    (and (and erbb2-clean-of-off-target erbb2-clean-of-retracted)
+         (and erbb2-all-records-resolve erbb2-has-subject-record))
+    :using (erbb2-clean-of-off-target erbb2-clean-of-retracted erbb2-all-records-resolve erbb2-has-subject-record))
+
+(derive erbb2-verdict-proven erbb2-base-usable
+    :using (erbb2-base-usable))
+
+; ---------------------------------------------------------- KRAS
+
+(diff kras-support-base
+    :replace dossier_kras.cited-records
+    :with registry_kras.subject-records)
+
+(diff kras-off-target
+    :replace dossier_kras.assumed-off-target
+    :with registry_kras.off-target)
+
+(diff kras-retracted
+    :replace dossier_kras.assumed-retracted
+    :with registry_kras.retracted)
+
+(diff kras-unresolved
+    :replace dossier_kras.assumed-unresolved
+    :with registry_kras.unresolved)
+
+(diff kras-supports-pmid-42527030
+    :replace dossier_kras.supports-pmid-42527030
+    :with registry_kras.supports-pmid-42527030)
+
+(diff kras-supports-pmid-42557320
+    :replace dossier_kras.supports-pmid-42557320
+    :with registry_kras.supports-pmid-42557320)
+
+(diff kras-supports-pmid-42570059
+    :replace dossier_kras.supports-pmid-42570059
+    :with registry_kras.supports-pmid-42570059)
+
+(diff kras-supports-pmid-42599639
+    :replace dossier_kras.supports-pmid-42599639
+    :with registry_kras.supports-pmid-42599639)
+
+(diff kras-supports-pmid-42605754
+    :replace dossier_kras.supports-pmid-42605754
+    :with registry_kras.supports-pmid-42605754)
+
+(diff kras-supports-pmid-42606648
+    :replace dossier_kras.supports-pmid-42606648
+    :with registry_kras.supports-pmid-42606648)
+
+(diff kras-supports-pmid-42607542
+    :replace dossier_kras.supports-pmid-42607542
+    :with registry_kras.supports-pmid-42607542)
+
+(diff kras-supports-nct-NCT05176483
+    :replace dossier_kras.supports-nct-NCT05176483
+    :with registry_kras.supports-nct-NCT05176483)
+
+(derive kras-base-intact
+    (= dossier_kras.cited-records registry_kras.subject-records)
+    :using (dossier_kras.cited-records registry_kras.subject-records))
+
+(derive kras-clean-of-off-target
+    (= registry_kras.off-target 0)
+    :using (registry_kras.off-target))
+
+(derive kras-clean-of-retracted
+    (= registry_kras.retracted 0)
+    :using (registry_kras.retracted))
+
+(derive kras-all-records-resolve
+    (= registry_kras.unresolved 0)
+    :using (registry_kras.unresolved))
+
+(derive kras-has-subject-record
+    (> registry_kras.subject-records 0)
+    :using (registry_kras.subject-records))
+
+(derive kras-base-usable
+    (and (and kras-clean-of-off-target kras-clean-of-retracted)
+         (and kras-all-records-resolve kras-has-subject-record))
+    :using (kras-clean-of-off-target kras-clean-of-retracted kras-all-records-resolve kras-has-subject-record))
+
+(derive kras-verdict-proven kras-base-usable
+    :using (kras-base-usable))
+
+; ---------------------------------------------------------- MYC
+
+(diff myc-support-base
+    :replace dossier_myc.cited-records
+    :with registry_myc.subject-records)
+
+(diff myc-off-target
+    :replace dossier_myc.assumed-off-target
+    :with registry_myc.off-target)
+
+(diff myc-retracted
+    :replace dossier_myc.assumed-retracted
+    :with registry_myc.retracted)
+
+(diff myc-unresolved
+    :replace dossier_myc.assumed-unresolved
+    :with registry_myc.unresolved)
+
+(diff myc-supports-pmid-42497765
+    :replace dossier_myc.supports-pmid-42497765
+    :with registry_myc.supports-pmid-42497765)
+
+(diff myc-supports-pmid-42548213
+    :replace dossier_myc.supports-pmid-42548213
+    :with registry_myc.supports-pmid-42548213)
+
+(diff myc-supports-pmid-42607078
+    :replace dossier_myc.supports-pmid-42607078
+    :with registry_myc.supports-pmid-42607078)
+
+(diff myc-supports-pmid-42608167
+    :replace dossier_myc.supports-pmid-42608167
+    :with registry_myc.supports-pmid-42608167)
+
+(diff myc-supports-nct-NCT05919264
+    :replace dossier_myc.supports-nct-NCT05919264
+    :with registry_myc.supports-nct-NCT05919264)
+
+(diff myc-supports-nct-NCT07147231
+    :replace dossier_myc.supports-nct-NCT07147231
+    :with registry_myc.supports-nct-NCT07147231)
+
+(derive myc-base-intact
+    (= dossier_myc.cited-records registry_myc.subject-records)
+    :using (dossier_myc.cited-records registry_myc.subject-records))
+
+(derive myc-clean-of-off-target
+    (= registry_myc.off-target 0)
+    :using (registry_myc.off-target))
+
+(derive myc-clean-of-retracted
+    (= registry_myc.retracted 0)
+    :using (registry_myc.retracted))
+
+(derive myc-all-records-resolve
+    (= registry_myc.unresolved 0)
+    :using (registry_myc.unresolved))
+
+(derive myc-has-subject-record
+    (> registry_myc.subject-records 0)
+    :using (registry_myc.subject-records))
+
+(derive myc-base-usable
+    (and (and myc-clean-of-off-target myc-clean-of-retracted)
+         (and myc-all-records-resolve myc-has-subject-record))
+    :using (myc-clean-of-off-target myc-clean-of-retracted myc-all-records-resolve myc-has-subject-record))
+
+(derive myc-verdict-proven myc-base-usable
+    :using (myc-base-usable))
+
+; ---------------------------------------------------------- WRN
+
+(diff wrn-support-base
+    :replace dossier_wrn.cited-records
+    :with registry_wrn.subject-records)
+
+(diff wrn-off-target
+    :replace dossier_wrn.assumed-off-target
+    :with registry_wrn.off-target)
+
+(diff wrn-retracted
+    :replace dossier_wrn.assumed-retracted
+    :with registry_wrn.retracted)
+
+(diff wrn-unresolved
+    :replace dossier_wrn.assumed-unresolved
+    :with registry_wrn.unresolved)
+
+(diff wrn-supports-pmid-40203476
+    :replace dossier_wrn.supports-pmid-40203476
+    :with registry_wrn.supports-pmid-40203476)
+
+(diff wrn-supports-pmid-42293362
+    :replace dossier_wrn.supports-pmid-42293362
+    :with registry_wrn.supports-pmid-42293362)
+
+(diff wrn-supports-pmid-42593940
+    :replace dossier_wrn.supports-pmid-42593940
+    :with registry_wrn.supports-pmid-42593940)
+
+(diff wrn-supports-pmid-42604630
+    :replace dossier_wrn.supports-pmid-42604630
+    :with registry_wrn.supports-pmid-42604630)
+
+(diff wrn-supports-nct-NCT03570541
+    :replace dossier_wrn.supports-nct-NCT03570541
+    :with registry_wrn.supports-nct-NCT03570541)
+
+(diff wrn-supports-nct-NCT06974110
+    :replace dossier_wrn.supports-nct-NCT06974110
+    :with registry_wrn.supports-nct-NCT06974110)
+
+(diff wrn-supports-nct-NCT07262619
+    :replace dossier_wrn.supports-nct-NCT07262619
+    :with registry_wrn.supports-nct-NCT07262619)
+
+(derive wrn-base-intact
+    (= dossier_wrn.cited-records registry_wrn.subject-records)
+    :using (dossier_wrn.cited-records registry_wrn.subject-records))
+
+(derive wrn-clean-of-off-target
+    (= registry_wrn.off-target 0)
+    :using (registry_wrn.off-target))
+
+(derive wrn-clean-of-retracted
+    (= registry_wrn.retracted 0)
+    :using (registry_wrn.retracted))
+
+(derive wrn-all-records-resolve
+    (= registry_wrn.unresolved 0)
+    :using (registry_wrn.unresolved))
+
+(derive wrn-has-subject-record
+    (> registry_wrn.subject-records 0)
+    :using (registry_wrn.subject-records))
+
+(derive wrn-base-usable
+    (and (and wrn-clean-of-off-target wrn-clean-of-retracted)
+         (and wrn-all-records-resolve wrn-has-subject-record))
+    :using (wrn-clean-of-off-target wrn-clean-of-retracted wrn-all-records-resolve wrn-has-subject-record))
+
+(derive wrn-verdict-proven wrn-base-usable
+    :using (wrn-base-usable))
+
+; ---------------------------------------------------------- PRMT5
+
+(diff prmt5-support-base
+    :replace dossier_prmt5.cited-records
+    :with registry_prmt5.subject-records)
+
+(diff prmt5-off-target
+    :replace dossier_prmt5.assumed-off-target
+    :with registry_prmt5.off-target)
+
+(diff prmt5-retracted
+    :replace dossier_prmt5.assumed-retracted
+    :with registry_prmt5.retracted)
+
+(diff prmt5-unresolved
+    :replace dossier_prmt5.assumed-unresolved
+    :with registry_prmt5.unresolved)
+
+(diff prmt5-supports-pmid-41513606
+    :replace dossier_prmt5.supports-pmid-41513606
+    :with registry_prmt5.supports-pmid-41513606)
+
+(diff prmt5-supports-pmid-41629269
+    :replace dossier_prmt5.supports-pmid-41629269
+    :with registry_prmt5.supports-pmid-41629269)
+
+(diff prmt5-supports-pmid-41630900
+    :replace dossier_prmt5.supports-pmid-41630900
+    :with registry_prmt5.supports-pmid-41630900)
+
+(diff prmt5-supports-pmid-42133901
+    :replace dossier_prmt5.supports-pmid-42133901
+    :with registry_prmt5.supports-pmid-42133901)
+
+(diff prmt5-supports-pmid-42326870
+    :replace dossier_prmt5.supports-pmid-42326870
+    :with registry_prmt5.supports-pmid-42326870)
+
+(diff prmt5-supports-pmid-42603931
+    :replace dossier_prmt5.supports-pmid-42603931
+    :with registry_prmt5.supports-pmid-42603931)
+
+(diff prmt5-supports-pmid-42607456
+    :replace dossier_prmt5.supports-pmid-42607456
+    :with registry_prmt5.supports-pmid-42607456)
+
+(derive prmt5-base-intact
+    (= dossier_prmt5.cited-records registry_prmt5.subject-records)
+    :using (dossier_prmt5.cited-records registry_prmt5.subject-records))
+
+(derive prmt5-clean-of-off-target
+    (= registry_prmt5.off-target 0)
+    :using (registry_prmt5.off-target))
+
+(derive prmt5-clean-of-retracted
+    (= registry_prmt5.retracted 0)
+    :using (registry_prmt5.retracted))
+
+(derive prmt5-all-records-resolve
+    (= registry_prmt5.unresolved 0)
+    :using (registry_prmt5.unresolved))
+
+(derive prmt5-has-subject-record
+    (> registry_prmt5.subject-records 0)
+    :using (registry_prmt5.subject-records))
+
+(derive prmt5-base-usable
+    (and (and prmt5-clean-of-off-target prmt5-clean-of-retracted)
+         (and prmt5-all-records-resolve prmt5-has-subject-record))
+    :using (prmt5-clean-of-off-target prmt5-clean-of-retracted prmt5-all-records-resolve prmt5-has-subject-record))
+
+(derive prmt5-verdict-proven prmt5-base-usable
+    :using (prmt5-base-usable))
+
+; how many of the verdicts survive verification against the registries
+(derive proven-verdicts
+    (+ (if egfr-verdict-proven 1 0) (+ (if erbb2-verdict-proven 1 0) (+ (if kras-verdict-proven 1 0) (+ (if myc-verdict-proven 1 0) (+ (if wrn-verdict-proven 1 0) (if prmt5-verdict-proven 1 0))))))
+    :using (egfr-verdict-proven erbb2-verdict-proven kras-verdict-proven myc-verdict-proven wrn-verdict-proven prmt5-verdict-proven))

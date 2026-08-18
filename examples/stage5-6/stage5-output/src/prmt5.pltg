@@ -1,0 +1,86 @@
+; PRMT5 — registry verification results (stage 5)
+; Every fact quotes docs/registry-PRMT5.txt, which is the recorded registry response.
+
+(fact subject-records 2
+    :evidence (evidence "registry-PRMT5"
+        :quotes ("VERIFIED subject_records=2")
+        :explanation "Citations graded subject records for PRMT5"))
+
+(fact weak-attribution 7
+    :evidence (evidence "registry-PRMT5"
+        :quotes ("VERIFIED weak_attribution=7")
+        :explanation "Citations graded weak attribution for PRMT5"))
+
+(fact off-target 0
+    :evidence (evidence "registry-PRMT5"
+        :quotes ("VERIFIED off_target=0")
+        :explanation "Citations graded off target for PRMT5"))
+
+(fact title-drift 0
+    :evidence (evidence "registry-PRMT5"
+        :quotes ("VERIFIED title_drift=0")
+        :explanation "Citations graded title drift for PRMT5"))
+
+(fact retracted 0
+    :evidence (evidence "registry-PRMT5"
+        :quotes ("VERIFIED retracted=0")
+        :explanation "Citations graded retracted for PRMT5"))
+
+(fact unresolved 0
+    :evidence (evidence "registry-PRMT5"
+        :quotes ("VERIFIED unresolved=0")
+        :explanation "Citations graded unresolved for PRMT5"))
+
+(fact not-checked 0
+    :evidence (evidence "registry-PRMT5"
+        :quotes ("VERIFIED not_checked=0")
+        :explanation "Citations graded not checked for PRMT5"))
+
+(fact checked-total 9
+    :evidence (evidence "registry-PRMT5"
+        :quotes ("VERIFIED checked_total=9")
+        :explanation "Citations graded checked total for PRMT5"))
+
+(fact finding-pmid-41513606 true
+    :evidence (evidence "registry-PRMT5"
+        :quotes ("pmid 41513606 | status=weak-attribution | gene_role=title | indication=absent | resolves=True")
+        :explanation "record names no colorectal indication, so it does not speak to this disease"))
+
+(fact finding-pmid-41629269 true
+    :evidence (evidence "registry-PRMT5"
+        :quotes ("pmid 41629269 | status=weak-attribution | gene_role=abstract | indication=abstract | resolves=True")
+        :explanation "PRMT5 appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else"))
+
+(fact finding-pmid-41630900 true
+    :evidence (evidence "registry-PRMT5"
+        :quotes ("pmid 41630900 | status=weak-attribution | gene_role=abstract | indication=title | resolves=True")
+        :explanation "PRMT5 appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else"))
+
+(fact finding-pmid-42133901 true
+    :evidence (evidence "registry-PRMT5"
+        :quotes ("pmid 42133901 | status=weak-attribution | gene_role=abstract | indication=abstract | resolves=True")
+        :explanation "PRMT5 appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else"))
+
+(fact finding-pmid-42326870 true
+    :evidence (evidence "registry-PRMT5"
+        :quotes ("pmid 42326870 | status=weak-attribution | gene_role=abstract | indication=title | resolves=True")
+        :explanation "PRMT5 appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else"))
+
+(fact finding-pmid-42603931 true
+    :evidence (evidence "registry-PRMT5"
+        :quotes ("pmid 42603931 | status=weak-attribution | gene_role=abstract | indication=absent | resolves=True")
+        :explanation "PRMT5 appears only in the abstract, not in the title, so it is not the subject of this record — and the record names no colorectal indication either"))
+
+(fact finding-pmid-42607456 true
+    :evidence (evidence "registry-PRMT5"
+        :quotes ("pmid 42607456 | status=weak-attribution | gene_role=title | indication=absent | resolves=True")
+        :explanation "record names no colorectal indication, so it does not speak to this disease"))
+
+; --- derived: how much of this dossier's citation base is subject-level ---
+(derive citations-all-sound (= weak-attribution 0) :using (weak-attribution))
+
+(derive citations-none-off-target (= off-target 0) :using (off-target))
+
+(derive citations-none-retracted (= retracted 0) :using (retracted))
+
+(derive citations-all-resolve (= unresolved 0) :using (unresolved))

@@ -1,0 +1,71 @@
+Registry snapshot — WRN
+Checked 2026-08-18 12:46 UTC against PubMed, ClinicalTrials.gov and UniProt
+
+## COUNTERS
+VERIFIED subject_records=4
+VERIFIED weak_attribution=7
+VERIFIED off_target=0
+VERIFIED title_drift=0
+VERIFIED retracted=0
+VERIFIED unresolved=0
+VERIFIED not_checked=0
+VERIFIED checked_total=11
+
+## RECORDS
+uniprot Q14191 | status=sound | gene_role=title | indication=not-applicable | resolves=True
+REGISTRY TITLE: Bifunctional 3'-5' exonuclease/ATP-dependent helicase WRN
+DOSSIER QUOTE: UNIPROT binding_sites=13
+
+pmid 40203476 | status=weak-attribution | gene_role=abstract | indication=title | resolves=True
+REGISTRY TITLE: Werner helicase as a therapeutic target in mismatch repair deficient colorectal cancer.
+DOSSIER QUOTE: TITLE: Werner helicase as a therapeutic target in mismatch repair deficient colorectal cancer.
+PUBLICATION TYPES: Journal Article, Review, Research Support, N.I.H., Extramural
+REASON: WRN appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else
+
+pmid 41704373 | status=sound | gene_role=title | indication=abstract | resolves=True
+REGISTRY TITLE: Discovery and Preclinical Evaluations of Potent, Selective, and Allosteric Covalent WRN Inhibitors with Improved PK Properties.
+DOSSIER QUOTE: TITLE: Discovery and Preclinical Evaluations of Potent, Selective, and Allosteric Covalent WRN Inhibitors with Improved PK Properties.
+PUBLICATION TYPES: Journal Article
+
+pmid 42293362 | status=weak-attribution | gene_role=abstract | indication=abstract | resolves=True
+REGISTRY TITLE: RecQ DNA helicases germline variants in Lynch-like syndrome.
+DOSSIER QUOTE: TITLE: RecQ DNA helicases germline variants in Lynch-like syndrome.
+PUBLICATION TYPES: Journal Article
+REASON: WRN appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else
+
+pmid 42461083 | status=sound | gene_role=title | indication=title | resolves=True
+REGISTRY TITLE: Targeting WRN Helicase in Microsatellite Instable Colorectal Cancer Induces Antitumor Immunity through Extrachromosomal Circular DNA Release.
+DOSSIER QUOTE: TITLE: Targeting WRN Helicase in Microsatellite Instable Colorectal Cancer Induces Antitumor Immunity through Extrachromosomal Circular DNA Release.
+PUBLICATION TYPES: Journal Article
+
+pmid 42484294 | status=sound | gene_role=title | indication=title | resolves=True
+REGISTRY TITLE: CRISPR Screening Identifies SMARCAL1 and MRN as Modulators of WRN Dependency in MSI-H Colorectal Cancer.
+DOSSIER QUOTE: TITLE: CRISPR Screening Identifies SMARCAL1 and MRN as Modulators of WRN Dependency in MSI-H Colorectal Cancer.
+PUBLICATION TYPES: Journal Article
+
+pmid 42593940 | status=weak-attribution | gene_role=title | indication=absent | resolves=True
+REGISTRY TITLE: Discovery and Optimization of a WRN Helicase Inhibitor Series through Structure-Guided Drug Design from a Covalent Fragment Binding Insight.
+DOSSIER QUOTE: TITLE: Discovery and Optimization of a WRN Helicase Inhibitor Series through Structure-Guided Drug Design from a Covalent Fragment Binding Insight.
+PUBLICATION TYPES: Journal Article
+REASON: record names no colorectal indication, so it does not speak to this disease
+
+pmid 42604630 | status=weak-attribution | gene_role=title | indication=absent | resolves=True
+REGISTRY TITLE: Design, synthesis and biological evaluation of triazolo[1,5-a]pyrimidinone derivatives as potent and orally efficacious WRN helicase inhibitors for MSI cancer therapy.
+DOSSIER QUOTE: TITLE: Design, synthesis and biological evaluation of triazolo[1,5-a]pyrimidinone derivatives as potent and orally efficacious WRN helicase inhibitors for MSI cancer therapy.
+PUBLICATION TYPES: Journal Article
+REASON: record names no colorectal indication, so it does not speak to this disease
+
+nct NCT03570541 | status=weak-attribution | gene_role=absent | indication=abstract | resolves=True
+REGISTRY TITLE: TQL-block for Laparoscopic Hemicolectomy
+DOSSIER QUOTE: TITLE: TQL-block for Laparoscopic Hemicolectomy
+REASON: trial record names no WRN under any of its UniProt names — it was matched to this target by free-text search, and only the indication lines up
+
+nct NCT06974110 | status=weak-attribution | gene_role=absent | indication=abstract | resolves=True
+REGISTRY TITLE: Study of Orally Administered MOMA-341 in Participants With Advanced or Metastatic Solid Tumors
+DOSSIER QUOTE: TITLE: Study of Orally Administered MOMA-341 in Participants With Advanced or Metastatic Solid Tumors
+REASON: trial record names no WRN under any of its UniProt names — it was matched to this target by free-text search, and only the indication lines up
+
+nct NCT07262619 | status=weak-attribution | gene_role=absent | indication=abstract | resolves=True
+REGISTRY TITLE: EIK1005-002: A Clinical Research Study Evaluating EIK1005, a Werner Helicase Inhibitor, as Monotherapy and in Combination With Pembrolizumab in Participants With Advanced Solid Tumors Including Microsatellite Instability High (MSI-H) Tumors
+DOSSIER QUOTE: TITLE: EIK1005-002: A Clinical Research Study Evaluating EIK1005, a Werner Helicase Inhibitor, as Monotherapy and in Combination With Pembrolizumab in Participants With Advanced Solid Tumors Including Microsatellite Instability High (MSI-H) Tumors
+REASON: trial record names no WRN under any of its UniProt names — it was matched to this target by free-text search, and only the indication lines up

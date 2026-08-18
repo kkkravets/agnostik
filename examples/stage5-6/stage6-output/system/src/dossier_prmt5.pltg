@@ -1,0 +1,66 @@
+; PRMT5 — what the dossier asserts (stage 4 export, transcribed)
+
+(fact cited-records 9
+    :evidence (evidence "dossier-PRMT5"
+        :quotes ("DOSSIER cited_records=9")
+        :explanation "Records the PRMT5 dossier rests on"))
+
+(fact assumed-off-target 0
+    :evidence (evidence "dossier-PRMT5"
+        :quotes ("DOSSIER assumed_off_target=0")
+        :explanation "The dossier cites every record as support, so it assumes none is off target"))
+
+(fact assumed-retracted 0
+    :evidence (evidence "dossier-PRMT5"
+        :quotes ("DOSSIER assumed_retracted=0")
+        :explanation "The dossier assumes no cited record is retracted"))
+
+(fact assumed-unresolved 0
+    :evidence (evidence "dossier-PRMT5"
+        :quotes ("DOSSIER assumed_unresolved=0")
+        :explanation "The dossier assumes every cited record resolves"))
+
+(fact supports-uniprot-O14744 true
+    :evidence (evidence "dossier-PRMT5"
+        :quotes ("DOSSIER SUPPORTS uniprot O14744")
+        :explanation "The dossier treats O14744 as support for PRMT5"))
+
+(fact supports-pmid-41513606 true
+    :evidence (evidence "dossier-PRMT5"
+        :quotes ("DOSSIER SUPPORTS pmid 41513606")
+        :explanation "The dossier treats 41513606 as support for PRMT5"))
+
+(fact supports-pmid-41629269 true
+    :evidence (evidence "dossier-PRMT5"
+        :quotes ("DOSSIER SUPPORTS pmid 41629269")
+        :explanation "The dossier treats 41629269 as support for PRMT5"))
+
+(fact supports-pmid-41630900 true
+    :evidence (evidence "dossier-PRMT5"
+        :quotes ("DOSSIER SUPPORTS pmid 41630900")
+        :explanation "The dossier treats 41630900 as support for PRMT5"))
+
+(fact supports-pmid-42121254 true
+    :evidence (evidence "dossier-PRMT5"
+        :quotes ("DOSSIER SUPPORTS pmid 42121254")
+        :explanation "The dossier treats 42121254 as support for PRMT5"))
+
+(fact supports-pmid-42133901 true
+    :evidence (evidence "dossier-PRMT5"
+        :quotes ("DOSSIER SUPPORTS pmid 42133901")
+        :explanation "The dossier treats 42133901 as support for PRMT5"))
+
+(fact supports-pmid-42326870 true
+    :evidence (evidence "dossier-PRMT5"
+        :quotes ("DOSSIER SUPPORTS pmid 42326870")
+        :explanation "The dossier treats 42326870 as support for PRMT5"))
+
+(fact supports-pmid-42603931 true
+    :evidence (evidence "dossier-PRMT5"
+        :quotes ("DOSSIER SUPPORTS pmid 42603931")
+        :explanation "The dossier treats 42603931 as support for PRMT5"))
+
+(fact supports-pmid-42607456 true
+    :evidence (evidence "dossier-PRMT5"
+        :quotes ("DOSSIER SUPPORTS pmid 42607456")
+        :explanation "The dossier treats 42607456 as support for PRMT5"))
