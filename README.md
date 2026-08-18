@@ -230,6 +230,7 @@ Results are written to
 - `stage3-export.json` — the primary deliverable for Stage 4, containing
   `DATA`, `STRUCTURE_DATA`, `LAYERS`, and `TAINT_DATA`;
 - `targets/<target>/system.json` — the formal system for one candidate;
+- `targets/<target>/answer.md` — the human-readable candidate report;
 - `targets/<target>/passes/` — extraction, derivation, fact-check, and optional
   human-readable answer artifacts;
 - `targets/<target>/manifest.json` — selected articles, query, fingerprint, and
@@ -250,6 +251,91 @@ The default limits are ten documents and 250,000 characters per candidate.
 Override them with `--max-documents-per-target` and `--max-target-chars`.
 `--resume` reuses target systems whose source-content fingerprint is unchanged;
 `--overwrite` starts fresh. The source article folder is never modified.
+
+### Inspect results before every target has finished
+
+Completed targets are durable: each receives its `system.json`, `answer.md`,
+and `manifest.json` before the next target finishes. If a later target fails or
+the long-running command is interrupted, create a Stage-4-compatible partial
+export from everything completed so far. This command makes no model calls:
+
+```bash
+uv run agnostik-parseltongue COAD \
+  --output results/clawbio_skill_trial/tcga-coad/parseltongue_stage3_sample \
+  --export-completed
+```
+
+It writes:
+
+```text
+results/clawbio_skill_trial/tcga-coad/parseltongue_stage3_sample/stage3-export.partial.json
+```
+
+To produce the target systems used by the sample notebook, run Stage 3 from the
+repository root with matching input, output, and context settings:
+
+```bash
+uv run agnostik-parseltongue COAD \
+  --input results/clawbio_skill_trial/tcga-coad/full_text_articles \
+  --output results/clawbio_skill_trial/tcga-coad/parseltongue_stage3_sample \
+  --max-documents-per-target 3 \
+  --max-target-chars 150000 \
+  --workers 3 \
+  --attempts 3 \
+  --resume
+```
+
+`--workers 3` processes up to three independent targets concurrently. The four
+passes within each target remain sequential. `--attempts 3` reruns a target if
+the model emits invalid Parseltongue DSL. `--resume` reuses target outputs whose
+fingerprint still matches the selected sources and query.
+
+### Explore the partial export in the notebook
+
+Open
+[`notebooks/parseltongue_stage3_verdict.ipynb`](notebooks/parseltongue_stage3_verdict.ipynb).
+The notebook does not run the long Stage-3 model pipeline. Its result workflow
+is:
+
+1. Run the setup/configuration cell so paths and imports point at this checkout.
+2. Section 3 refreshes `stage3-export.partial.json` using the same
+   `export_completed_targets` implementation as the `--export-completed` CLI
+   flag; it makes no model calls.
+3. Section 4 validates the completed targets with the real Stage-4 loader and
+   displays their verdict summary.
+4. Section 5 renders each completed target's `answer.md` report.
+5. Section 6 displays the partial JSON contract and provides a file link.
+6. Section 7 first inspects the evidence ledger, then generates Stage-4
+   objections. Its two code cells are standalone and locate the partial export
+   directly.
+
+The second Section-7 cell may make Token Factory model calls when an API key is
+available. Add `--dry-run` to its argument list for offline objection
+generation.
+
+The equivalent terminal commands are:
+
+```bash
+uv run agnostik-objections inspect \
+  --export results/clawbio_skill_trial/tcga-coad/parseltongue_stage3_sample/stage3-export.partial.json \
+  --ledger
+
+uv run agnostik-objections run \
+  --export results/clawbio_skill_trial/tcga-coad/parseltongue_stage3_sample/stage3-export.partial.json \
+  --out results/stage4-sample
+```
+
+Stage 4 writes the final browsable and machine-readable results to:
+
+```text
+results/stage4-sample/objections.md
+results/stage4-sample/objections.html
+results/stage4-sample/objections.json
+```
+
+When all six targets finish, the Stage-3 command also writes the canonical
+`stage3-export.json` and top-level `manifest.json`. Use that full export instead
+of the partial export for the final six-target handoff.
 
 ## Access ClawBio skill scripts directly
 
@@ -301,8 +387,7 @@ The v1 workflow should:
 7. Resolve every PMID before it enters any output. If the source cannot be
    fetched and confirmed, drop the claim instead of citing it.
 
-Analysis artifacts should be written below `results/`, which is intentionally
-ignored by Git.
+Analysis artifacts should be written below `results/`.
 
 ## Dependency changes
 
