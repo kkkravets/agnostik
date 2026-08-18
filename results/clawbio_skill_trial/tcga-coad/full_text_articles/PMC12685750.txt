@@ -1,0 +1,199 @@
+# Prevalence and Clinical Characteristics Associated with KRAS Gene Mutations in Colorectal Cancer in Ecuadorian Patients: A Cross-Sectional Study
+
+Authors: Wendy Dayanna Cuji-Galarza, John Baltazar Deleg-Galarza, Jhony Alejandro Diaz-Vallejo, Johana Galván-Barrios, Foday Tejan Mansaray
+
+Journal: Cancer Management and Research
+
+PMCID: PMC12685750
+
+PMID: 41377575
+
+DOI: 10.2147/CMAR.S555932
+
+Canonical source: https://pmc.ncbi.nlm.nih.gov/articles/PMC12685750/
+
+## Abstract
+
+## Introduction
+
+Colorectal cancer is recognized as the third most common malignant neoplasm worldwide. In Ecuador, it ranks fourth in incidence and third in mortality. The KRAS gene mutation has been associated with a poorer prognosis due to its contribution to resistance against anti-EGFR monoclonal antibody therapies. The aim of this study was to determine the prevalence and clinical characteristics associated with the KRAS gene mutation in Ecuadorian patients with colorectal cancer.
+
+## Methods
+
+A retrospective cross-sectional study was conducted, including patients diagnosed with colorectal cancer between 2018 and 2022 at a specialized cancer center, and the KRAS gene mutation status was evaluated. The relationship between KRAS mutation status and clinicopathological characteristics was analyzed.
+
+## Results
+
+A total of 152 patients were included in the study. Of these, 52% were women, with a mean age of 62.01 years, and 78.3% were over 50 years old. The prevalence of the KRAS mutation was found to be 44.7%. The most frequent cancer stage was IV A (18.4%), and the majority of primary tumors were located in the rectum (34.9%). An association between KRAS mutation status and the location of the primary tumor was identified (p=0.030). However, no association was observed between mutation status and other sociodemographic or clinical variables.
+
+## Conclusion
+
+Approximately 4 out of 10 Ecuadorian patients with colorectal cancer were found to have the KRAS gene mutation. This mutation was associated with tumor location, particularly in the descending colon. However, no associations were identified with other sociodemographic or clinical variables.
+
+## Full article
+
+## Introduction
+
+Colorectal cancer (CRC) is recognized as one of the most common malignant neoplasms worldwide, with approximately 1.4 million new cases diagnosed annually, representing the second leading cause of cancer-related mortality globally.1,2 In Ecuador, according to data collected by the Global Cancer Observatory (GLOBOCAN), this type of cancer ranked fourth in incidence and third in mortality in 2022.2 Therefore, CRC is considered a disease of public health interest both globally and within Ecuador.
+
+Given its epidemiology, CRC imposes a significant disease burden on the Ecuadorian population. Beyond the study of traditional risk factors in community health, recent interest has emerged in exploring its genetic and epigenetic complexity, alongside the potential development of technology and innovation aimed at personalized medicine to enhance therapeutic sensitivity and reduce mortality.
+
+In the study of CRC, particular attention has been given to the KRAS oncogene (Ki-ras2 Kirsten rat sarcoma viral oncogene homolog), which is commonly altered in various human neoplasms, including CRC. Mutations in KRAS activate critical cellular signaling pathways and have been associated with resistance to targeted therapies, such as monoclonal antibodies that inhibit the Epidermal Growth Factor Receptor (EGFR),3,4 widely used in the treatment of CRC.
+
+Mutations in the KRAS gene have been identified in over 35% of CRC cases.5 These mutations are pivotal in predicting tumor response to specific treatments, particularly EGFR inhibitors.3 The identification of specific KRAS mutations, such as G12V, has shown relevance in disease prognosis, as associations between such mutations and certain clinical characteristics, including tumor location or progression, improve precision in clinical and surgical management.4 However, despite the clinical significance, no published data exist on the prevalence of KRAS mutations in the Ecuadorian population with CRC. The absence of this information limits understanding of the genetic characteristics of this disease in Ecuador and its potential therapeutic relevance for personalized decision-making in clinical oncology.
+
+Based on this context, the aim of this study was to determine the prevalence and clinical characteristics associated with the KRAS gene mutation in Ecuadorian patients with CRC.
+
+This study was reported according to STROBE guidelines.6
+
+## Methods
+
+### Study Design and Patient Selection
+
+A retrospective cross-sectional study was conducted, including patients diagnosed with CRC who received care at a tertiary cancer-specialized center from 2018 to 2022. This private center forms part of the complementary health network in Ecuador and provides oncology services encompassing prevention, diagnosis, treatment, and palliative care to populations from the southern provinces of the country.
+
+The study population consisted of all patients diagnosed with CRC at the specialized cancer center who underwent KRAS mutation testing. Patients meeting the following criteria were included: 1) those diagnosed with colorectal cancer and 2) those who underwent genetic testing for KRAS gene mutation. Patients were excluded if they met any of the following criteria: 1) unavailability of medical records for review in the anonymized database, 2) incomplete data records, or 3) prior surgical treatment for CRC at healthcare facilities other than the reference center, resulting in the absence of KRAS mutation test results within the institution.
+
+### Variables
+
+The variables analyzed included sociodemographic factors (age, sex, place of origin, and residence), genetic factors (KRAS mutation), and clinical factors (tumor stage and location).
+
+The analysis of the KRAS mutation considered only its presence or absence, as identified using real-time polymerase chain reaction (PCR) techniques.7 KRAS testing was ordered as part of routine molecular profiling for patients with histologically confirmed CRC, particularly in advanced or metastatic cases.
+
+KRAS genotyping was performed on formalin-fixed, paraffin-embedded tumor tissue using a real-time PCR allelic discrimination assay. The assay targeted hotspot mutations in codons 12 and 13 of exon 2, following the manufacturer’s instructions. Positive and negative controls were included in each run, and all samples were processed in duplicate. Assay sensitivity was ≥1% mutant allele in a wild-type background, and specificity exceeded 99% according to the manufacturer’s validation data.
+
+Tumor staging and location were determined based on the TNM staging system documented in the medical records and the anatomical division of the colon into its respective segments, including the rectum.8,9 Tumor staging was classified according to the TNM 8th edition and confirmed by attending oncologists. Anatomical tumor location was assigned according to surgical or pathology reports, with final classification reviewed by a certified pathologist.
+
+### Data Sources
+
+Data extraction from anonymized clinical records was performed independently by two trained researchers. Missing data were flagged, and a predefined protocol was applied to resolve inconsistencies or exclude incomplete records. The variables of interest were documented in a Microsoft Excel database. Access to the clinical records was conducted in person by the researchers under the supervision of a hospital-appointed mentor.
+
+### Quantitative Variables
+
+Whether the variables followed the normal distribution was evaluated using the Kolmogorov–Smirnov test. Measures of central tendency, such as the mean or median, were calculated depending on whether the variables were symmetric or asymmetric. Measures of dispersion, such as the standard deviation and the interquartile range, were also calculated.
+
+### Statistical Analysis
+
+A descriptive analysis was performed, which included the mean and standard deviation for the quantitative variable (age) and absolute frequencies and percentages for the qualitative variables (sex, place of origin, residence, KRAS mutation, tumor stage, and tumor location). The quantitative variable (age) was categorized and also analyzed as a qualitative variable as described. The results were presented in frequency distribution tables. Group prevalence was compared with the population parameter using the chi-square goodness-of-fit test.
+
+A bivariate analysis was subsequently conducted, applying the chi-square test and Fisher’s exact test for qualitative variables, considering a p-value of less than 0.05 as statistically significant. For the quantitative variable (age), a one-way ANOVA test was applied. Finally, a multivariate analysis was performed using binary logistic regression, with the KRAS mutation as the dependent variable. The multivariate model included age, sex, and clinical stage as covariates, given their clinical relevance. Adjusting for these variables reduced residual confounding and revealed a significant association between descending colon location and KRAS mutation status.
+
+For patients with multiple simultaneous tumor sites, the primary site recorded in the medical chart at initial diagnosis was used for regression analyses. Additional tumor sites were summarized descriptively but were not treated as independent entries.
+
+Data analysis was carried out using IBM-SPSS statistical software (IBM Corp. Released 2023. IBM SPSS Statistics for Windows, Version 29.0.2.0, Armonk, NY: IBM Corp).
+
+### Ethical Statements
+
+This study was executed in accordance with the Declaration of Helsinki and Good Clinical Practice guidelines. The ethics committee exempted the collection of informed consent, due to the retrospective nature of the study and the minimal risk. The Ethics Committee of the Faculty of Medical Sciences at the Universidad de Cuenca, under registration number 2023–078EO-M, approved this study through official letter No. CEISH-UC-2023-527.
+
+## Results
+
+A total of 152 patients were included in the study following the application of inclusion and exclusion criteria (Figure 1). The mean age of the patients was 62.01 ± 16.49 years, with the youngest being 18 years old and the oldest 92 years old. Most cases involved patients over the age of 50 (78.3%). The sex distribution was balanced, with 52% (n=79) of patients being women and 48% being men. The majority of patients reported Azuay as their province of origin (63.2%) and residence (70.4%), followed by the provinces of Cañar and El Oro (Table 1).Table 1Sample Sociodemographic Characteristics (N=152)Variablen%AgeOver 50 years11978.350 years or younger3321.7GenderFemale7952Male7348Place of originAzuay9663.2Cañar2214.5El Oro95.9Loja74.6Chimborazo63.9Other regions127.9Place of residenceAzuay10770.4Cañar2013.2El Oro106.6Other regions159.8 Figure 1Patient selection and inclusion flowchart.Abbreviation: CRC, Colorectal Cancer.
+
+The clinical-pathological stage of the tumor was most frequently classified as stage IV A (18.4%, n=28), while stage 0 was the least frequent (n=1) (Table 2). Among the total population (n=152), 16 individuals exhibited more than one tumor site, resulting in 170 recorded tumor locations. Tumors in the rectum were identified in 34.9% of patients, making it the most common site, followed by tumors in the sigmoid colon, which were observed in 30.3% of patients. The least common tumor site was the descending colon, identified in 5.3% of cases (Table 3).Table 2Clinical-Pathological Stage of Tumors in Patients with CRC (N=152)Tumor Stagen%010.7I1811.8II A1711.2II B2516.4II C63.9III A53.3III B138.6III C1711.2IV A2818.4IV B106.6IV C127.9 Table 3Anatomical Tumor Location in Patients with CRC (N=170)Tumor Locationn%Patients (%)(n=152)Cecum1911.212.5Ascending colon3319.421.7Transverse colon116.57.2Descending colon84.75.3Sigmoid colon4627.130.3Rectum5331.234.9
+
+KRAS mutations were identified in 68 of 152 patients, corresponding to a prevalence of 44.7%. Using a reference prevalence of 41.4% for KRAS mutations in CRC patients reported in the literature for South America,5 a chi-square goodness-of-fit test was performed to compare this population parameter with the group prevalence observed in this study (44.7%). The test yielded a p-value of 0.404. Therefore, the prevalence of KRAS mutations in this group of patients from Ecuador does not differ significantly from that reported for South America.
+
+A one-way ANOVA was conducted to assess the association between the quantitative variable age and KRAS mutation status as the dependent variable. The analysis resulted in an F-value of 0.954 and a p-value of 0.572, indicating no statistically significant relationship between age and the presence of KRAS mutations in this patient group (Table 4). When age was categorized, a higher frequency of KRAS mutations was observed among patients over 50 years old, accounting for 80.9% of all cases with the mutation. In this group, the prevalence of mutations was 46.2%, compared to 39.4% in patients aged 50 years or younger. However, this difference did not reach statistical significance (Table 4).Table 4Association Between Sociodemographic and Clinical Characteristics and KRAS Gene Status in Patients with CRC (N=152)Variablen (%)p-valueMutation Present (n=68)Mutation Absent (n=84)AgeOver 50 years55 (80.9)64 (76.2)0.48550 years or younger13 (19.1)20 (23.8)GenderFemale41 (60.3)38 (45.2)0.065Male27 (39.7)46 (54.8)Tumor stage001 (1.2)0.590I7 (10.3)11 (13.1)II A6 (8.8)11 (13.1)II B11 (16.2)14 (16.7)II C3 (4.4)3 (3.6)III A3 (4.4)2 (2.4)III B8 (11.8)5 (6.0)III C6 (8.8)11 (13.1)IV A15 (22.1)13 (15.5)IV B2 (2.9)8 (9.5)IV C7 (10.3)5 (6.0)
+
+Among patients with KRAS mutations, 41 were women (60.3%), and 27 were men (39.7%). A chi-square test was performed to explore the association between sex and the presence of KRAS mutations, yielding a two-tailed p-value of 0.065, aligned with the hypothesis that sought associations in either direction. This result suggests no statistically significant differences in KRAS mutation prevalence between men and women in the analyzed sample. However, a chi-square test produced a p-value of 0.046, indicating a statistically significant higher frequency of KRAS mutations in women.
+
+No significant differences were identified in KRAS mutation prevalence based on place of origin (p = 0.812) or residence (p = 0.131), as assessed using Fisher’s exact test.
+
+The highest percentage of KRAS mutations was observed in patients with stage IV A disease (22.1%). The most notable comparative difference occurred in stage III B, where 8 cases with mutations were identified compared to 5 cases without mutations. However, this difference was not statistically significant (p = 0.590) (Table 4).
+
+The highest percentage of KRAS mutations was observed in patients with tumors located in the rectum (n = 22). The most notable comparative difference occurred in patients with tumors in the descending colon, where 6 cases with mutations were identified compared to 3 cases without mutations. However, this difference was not statistically significant (p = 0.140) (Table 5).Table 5Association Between Tumor Location and KRAS Gene Mutation Status in Patients with CRC (N=152)Tumor LocationKRAS Mutation (n)p-valuePresentAbsentCecum1090.459Ascending colon18150.200Transverse colon650.497Descending colon620.140Sigmoid colon18280.360Rectum22310.558
+
+Multivariate analysis, examining multiple independent variables (sex, age, origin, residence, tumor stage, and tumor location) and the presence of KRAS mutations as the dependent variable, revealed a statistically significant p-value for tumor location in the descending colon (p = 0.030). This result indicates a higher frequency of KRAS mutations in this group. This difference between the bivariate (p=0.140) and multivariate (p=0.030) results reflects adjustment for age, sex, and tumor stage, which acted as confounders. After controlling for these variables, descending colon tumors demonstrated significantly higher odds of harboring KRAS mutations.
+
+## Discussion
+
+The findings of this study provide valuable insights into the prevalence and clinical characteristics associated with KRAS gene mutations in Ecuadorian patients with CRC, with several key implications for clinical practice and research. Our prevalence estimate of 44.7% is consistent with reports from neighboring Latin American countries, including Colombia (41–46%), Peru (43%), and Brazil (39–45%). This alignment reinforces that KRAS mutation rates in Ecuadorian patients mirror regional patterns and supports external validity within South America.9,10
+
+The association between KRAS mutations and the anatomical location of tumors is particularly notable Tumors in the descending colon were significantly associated with KRAS mutations (p = 0.030), suggesting that this location may play a role in the underlying molecular pathways of carcinogenesis.11 Although the descending colon accounted for only 5.3% of all tumor locations, the relatively higher frequency of KRAS mutations in this group supports the notion that anatomical location influences genetic mutation patterns.11 These findings align with prior research indicating that KRAS mutations are more prevalent in certain anatomical subtypes of CRC, potentially due to variations in embryological development and local microenvironmental factors.12,13
+
+Interestingly, tumors located in the rectum, which constituted the most common anatomical site (34.9%), did not show a statistically significant association with KRAS mutations. This lack of association highlights the heterogeneity of CRC and suggests that other molecular or environmental factors may predominate in determining tumor behavior and genetic characteristics in rectal cancers.14 Future research should explore these site-specific differences in greater detail, as they may have implications for the personalization of treatment strategies.
+
+The lack of significant associations between KRAS mutation status and other sociodemographic or clinical variables, including age, sex, and tumor stage, merits discussion. While KRAS mutations were more frequent in women (60.3%) than men (39.7%), this difference reached statistical significance only in a one-tailed test (p = 0.046). Although not statistically significant in two-tailed testing, the higher proportion of KRAS mutations among women suggests a potential sex-related pattern that warrants exploration in larger cohorts. Biological mechanisms, such as hormonal influences or sex-specific genetic modifiers, may underlie these differences and should be a focus of future studies.15
+
+No significant relationship was identified between KRAS mutations and patient age (p = 0.572). However, the higher prevalence of KRAS mutations among patients over 50 years old (46.2%) compared to those 50 years or younger (39.4%) aligns with the understanding that age is a significant risk factor for CRC.16 The lack of statistical significance may reflect the study’s relatively small sample size and the resulting limitations in statistical power. Larger studies are needed to explore whether KRAS mutations exhibit distinct age-related patterns and their implications for screening and early detection strategies.
+
+From a clinical perspective, the findings have important implications for precision medicine in Ecuador and the broader Latin American region.17,18 The identification of KRAS mutations as a key biomarker for CRC reinforces their utility in guiding therapeutic decisions, particularly in determining eligibility for anti-EGFR monoclonal antibody therapies.19 In Ecuador, anti-EGFR therapies are increasingly available for metastatic CRC. Given that KRAS mutations predict resistance to these agents, our finding of higher mutation prevalence in descending colon tumors reinforces the importance of prioritizing KRAS testing in this subgroup to avoid ineffective treatments and optimize resource allocation.19 These insights are crucial for optimizing treatment outcomes and minimizing unnecessary therapeutic interventions.
+
+Moreover, the high prevalence of stage IV A tumors (18.4%) highlights the need for improved early detection and diagnostic strategies in Ecuador. The late-stage diagnosis observed in this study reflects broader challenges in healthcare access and cancer awareness in low- and middle-income countries (LMICs).20 Efforts to integrate genetic testing for KRAS mutations into routine clinical practice may enhance early detection and facilitate the development of tailored interventions, particularly for high-risk groups.21
+
+The study’s contributions to the scientific knowledge base on CRC in Ecuador and Latin America are nonetheless significant. As one of the first studies to report on KRAS mutation prevalence in the Ecuadorian population, it provides a foundational dataset for future research and highlights the importance of genetic profiling in understanding the epidemiology of CRC in LMICs. The observed association between KRAS mutations and tumor location, as well as the potential sex-based disparity in mutation prevalence, opens new avenues for research into the molecular and clinical characteristics of CRC in diverse populations.22
+
+At a regional level, the findings underscore the need for collaborative research initiatives to address the unique challenges faced by LMICs in implementing precision oncology.23 Efforts to standardize genetic testing protocols, improve access to molecular diagnostics, and build capacity for cancer genomics research are critical for advancing the field.24 Such initiatives will require coordinated efforts among healthcare providers, policymakers, and researchers to ensure equitable access to the benefits of personalized medicine.25
+
+## Limitations
+
+Some limitations must be acknowledged. The cross-sectional and retrospective nature of the study prevents the establishment of causal associations. Additionally, this study was conducted at a single private tertiary cancer center, where most patients came from Azuay province. Thus, findings may not be fully generalizable to other Ecuadorian regions or to public healthcare settings with different patient demographics and treatment pathways.
+
+Despite including all available cases, the sample size was relatively small, which may have influenced the variability of the results, particularly in the context of multivariate analysis. The association between descending colon tumors and KRAS mutations is based on a small subgroup (n=8, of which 6 were mutated). While statistically significant, this finding should be considered preliminary and validated in larger multicenter cohorts.
+
+Because only patients who underwent KRAS testing were included, there is a risk of selection bias. In particular, advanced-stage cases may be overrepresented, as KRAS testing was more often requested for therapeutic decision-making in metastatic disease.
+
+We did not analyze KRAS mutation subtypes, such as differences between codon 12 and codon 13 mutations, which have been linked to varying prognostic and predictive implications in colorectal cancer. Future studies should include subtype-level analysis to better inform therapeutic decision-making. While these limitations constrain the scope of the research, they also underscore the need for further studies with broader population coverage and larger sample sizes to validate the findings reported here.
+
+Among the strengths of this study, it should be emphasized that it is one of the first investigations in the country, and, to the authors’ knowledge, the first in the city of Cuenca (Ecuador), to describe the prevalence of KRAS mutations, a key biomarker for therapeutic decision-making in metastatic CRC. Furthermore, the inclusion of all available cases during the study period minimizes the potential for selection bias. This research contributes to expanding the scientific knowledge on CRC in Ecuador and the Latin American region.26 The observed association between KRAS mutations and tumor anatomical location, as well as the potential association of this mutation with female sex, warrant further exploration in future studies within this research line.
+
+The application of precision medicine in Ecuador faces significant challenges. Limited access to molecular testing, high costs of anti-EGFR therapies, and unequal availability between private and public health systems constrain widespread adoption. These barriers underscore the need for health policies that expand access to molecular diagnostics and targeted treatments in Latin America.27,28 Future research should include larger, multicenter cohorts to improve generalizability, prospective studies to establish temporality, and broader molecular profiling.29,30 Such approaches would generate stronger evidence to inform precision oncology guidelines in Ecuador and the wider region.
+
+## Conclusions
+
+This study identified that in an Ecuadorian population with CRC, the majority were women, aged over 50 years, with a KRAS gene mutation prevalence of 44.7%. This prevalence was statistically comparable to that reported in South America. Most participants were diagnosed with stage IV A tumors, and the most frequent anatomical tumor location was the rectum.
+
+The presence of a KRAS gene mutation in CRC was associated with primary tumors located in the descending colon. After adjustment, descending colon tumors showed higher odds of KRAS gene mutation, whereas no associations were found with age, sex, or tumor stage. However, the observed association with descending colon tumors is based on a limited number of cases and should be confirmed in larger, multicenter studies before informing clinical guidelines.
+
+Given that KRAS mutations confer resistance to anti-EGFR therapy, our findings emphasize the clinical relevance of systematic KRAS testing to guide effective treatment selection in Ecuadorian patients with CRC. These findings highlight the need to integrate molecular testing into precision oncology strategies in Ecuador.
+
+We wish to express our gratitude to Dr. Marx Bravo, surgical oncologist, for his contribution to the research.
+
+## Data Sharing Statement
+
+The data will be available upon request to the corresponding author.
+
+## Ethics Approval
+
+The Ethics Committee of the Faculty of Medical Sciences at the Universidad de Cuenca, under registration number 2023-078EO-M, approved this study through official letter No. CEISH-UC-2023-527.
+
+## Author Contributions
+
+All authors made a significant contribution to the work reported, whether that is in the conception, study design, execution, acquisition of data, analysis and interpretation, or in all these areas; took part in drafting, revising or critically reviewing the article; gave final approval of the version to be published; have agreed on the journal to which the article has been submitted; and agree to be accountable for all aspects of the work.
+
+## Disclosure
+
+The authors declare that there is no conflict of interest.
+
+## References
+1. 1.Morgan E, Arnold M, Gini A, et al. Global burden of colorectal cancer in 2020 and 2040: incidence and mortality estimates from GLOBOCAN. Gut. 2023;72(2):338–344. doi:10.1136/gutjnl-2022-32773636604116
+2. 2.World Health Organization. Global cancer observatory. Available from: https://gco.iarc.who.int/media/globocan/factsheets/cancers/8-colon-fact-sheet.pdf. Accessed December 01, 2025.
+3. 3.Ciardiello D, Martinelli E, Troiani T, et al. Anti-EGFR rechallenge in patients with refractory ctDNA RAS/BRAF wt metastatic colorectal cancer: a nonrandomized controlled trial. JAMA Network Open. 2024;7(4):e245635. doi:10.1001/jamanetworkopen.2024.563538592721 PMC11004834
+4. 4.Liang L, Guo X, Ye W, Liu Y. KRAS gene mutation associated with grade of tumor budding and peripheral immunoinflammatory indices in patients with colorectal cancer. Int J Gen Med. 2024;17:4769–4780. doi:10.2147/IJGM.S48752539440104 PMC11495189
+5. 5.Strickler JH, Yoshino T, Stevinson K, et al. Prevalence of KRAS G12C mutation and co-mutations and associated clinical outcomes in patients With colorectal cancer: a systematic literature review. Oncologist. 2023;28(11):e981–e994. doi:10.1093/oncolo/oyad13837432264 PMC10628573
+6. 6.von Elm E, Altman DG, Egger M, et al. Strengthening the reporting of observational studies in epidemiology (STROBE) statement: guidelines for reporting observational studies. BMJ. 2007;335(7624):8068.10.1136/bmj.39335.541782.ADPMC203472317947786
+7. 7.Ugorcakova J, Hlavaty T, Novotna T, Bukovska G. Detection of point mutations in KRAS oncogene by real-time PCR-based genotyping assay in GIT diseases. Bratisl Lek Listy. 2012;113(2):73–79. doi:10.4149/bll_2012_01822394035
+8. 8.American Cancer Society. Colorectal Cancer Stages. Available from: https://www.cancer.org/cancer/types/colon-rectal-cancer/detection-diagnosis-staging/staged.html. Accessed December 01, 2025.
+9. 9.Duan B, Zhao Y, Bai J, et al. Colorectal Cancer: an Overview. In: Morgado-Diaz JA, editor. Gastrointestinal Cancers. Brisbane (AU): Exon Publications; 2022.36343150
+10. 10.Hurtado C, Encina G, Wielandt AM, et al. KRAS gene somatic mutations in Chilean patients with colorectal cancer. Rev Méd Chile. 2014;142(11):1407–1414. doi:10.4067/S0034-9887201400110000725694286
+11. 11.Nguyen LH, Goel A, Chung DC. Pathways of colorectal carcinogenesis. Gastroenterology. 2020;158(2):291–302. doi:10.1053/j.gastro.2019.08.05931622622 PMC6981255
+12. 12.Murphy N, Ward HA, Jenab M, et al. Heterogeneity of colorectal cancer risk factors by anatomical subsite in 10 European Countries: a multinational cohort study. Clin Gastroenterol Hepatol. 2019;17(7):1323–1331.e6. doi:10.1016/j.cgh.2018.07.03030056182 PMC6542674
+13. 13.Valdeolivas A, Amberg B, Giroud N, et al. Profiling the heterogeneity of colorectal cancer consensus molecular subtypes using spatial transcriptomics. NPJ Precis Oncol. 2024;8(1):10. doi:10.1038/s41698-023-00488-438200223 PMC10781769
+14. 14.Lozada-Martinez ID, Bolaño-Romero MP, Lambis-Anaya L, Liscano Y, Suarez-Causado A. CEA-delta could be a biomarker of tumor phenotype, clinical stage, and chemotherapeutic response in rectal cancer with OCT4-positive cancer stem cells. Front Oncol. 2023;13:1258863. doi:10.3389/fonc.2023.125886337746252 PMC10514348
+15. 15.Choi J, Jia G, Wen W, Shu XO, Zheng W. Healthy lifestyles, genetic modifiers, and colorectal cancer risk: a prospective cohort study in the UK Biobank. Am J Clin Nutr. 2021;113(4):810–820. doi:10.1093/ajcn/nqaa40433675346 PMC8023827
+16. 16.Roshandel G, Ghasemi-Kebria F, Malekzadeh R. Colorectal cancer: epidemiology, risk factors, and prevention. Cancers. 2024;16(8):1530. doi:10.3390/cancers1608153038672612 PMC11049480
+17. 17.Calderón-Aparicio A, Orue A. Precision oncology in Latin America: current situation, challenges and perspectives. Ecancermedicalscience. 2019;13:920. doi:10.3332/ecancer.2019.92031281417 PMC6546257
+18. 18.de Castilla EMR, Mayrides M, González H, et al. Implementing precision oncology in Latin America to improve patient outcomes: the status quo and a call to action for key stakeholders and decision-makers. Ecancermedicalscience. 2024;18:1653. doi:10.3332/ecancer.2024.165338425763 PMC10901631
+19. 19.Yuan M, Wang Z, Lv W, Pan H. The role of Anti-EGFR monoclonal antibody in mCRC maintenance therapy. Front Mol Biosci. 2022;9:870395. doi:10.3389/fmolb.2022.87039535433839 PMC9006990
+20. 20.Khan SZ, Lengyel CG. Challenges in the management of colorectal cancer in low- and middle-income countries. Cancer Treat Res Commun. 2023;35:100705. doi:10.1016/j.ctarc.2023.10070537060879
+21. 21.Mao R, Krautscheid P, Graham RP, et al. Genetic testing for inherited colorectal cancer and polyposis, 2021 revision: a technical standard of the American College of Medical Genetics and Genomics (ACMG). Genet Med. 2021;23(10):1807–1817. doi:10.1038/s41436-021-01207-934140662
+22. 22.Carethers JM. Racial and ethnic disparities in colorectal cancer incidence and mortality. Adv Cancer Res. 2021;151:197–229.34148614 10.1016/bs.acr.2021.02.007PMC9069392
+23. 23.Radich JP, Briercheck E, Chiu DT, et al. Precision medicine in low- and middle-income countries. Annu Rev Pathol. 2022;17:387–402.35073168 10.1146/annurev-pathol-042320-034052PMC9275191
+24. 24.Lozada-Martinez ID, Lozada-Martinez LM, Cabarcas-Martinez A, et al. Historical evolution of cancer genomics research in Latin America: a comprehensive visual and bibliometric analysis until 2023. Front Genet. 2024;15:1327243. doi:10.3389/fgene.2024.132724338304339 PMC10830651
+25. 25.Reyes A, Torregrosa L, Lozada-Martinez ID, Cabrera-Vargas LF, Nunez-Ordonez N, Martínez Ibata TF. Breast cancer mortality research in Latin America: a gap needed to be filled. Am J Surg. 2023;225(5):937–938. doi:10.1016/j.amjsurg.2023.01.01036646599
+26. 26.Dagobeth EEV, Rojas GAN, Valdelamar JCH, Lozada-Martínez ID, Causado AS, Narvaez-Rojas AR. Surgical outcomes and factors associated with postoperative complications of colorectal cancer in a Colombian Caribbean population: results from a regional referral hospital. Cancer Rep. 2023;6(4):e1766.10.1002/cnr2.1766PMC1007529136538945
+27. 27.Lozada-Martinez ID, Suarez-Causado A, Solana-Tinoco JB. Ethnicity, genetic variants, risk factors and cholelithiasis: the need for eco-epidemiological studies and genomic analysis in Latin American surgery. Int J Surg. 2022;99:106589. doi:10.1016/j.ijsu.2022.10658935248763
+28. 28.Pérez-Fontalvo NM, De Arco-Aragón MA, Jimenez-García JDC, Lozada-Martinez ID. Molecular and computational research in low- and middle-income countries: development is close at hand. J Taibah Univ Med Sci. 2021;16(6):948–949. doi:10.1016/j.jtumed.2021.06.01034381325 PMC8339560
+29. 29.Lozada-Martinez ID, Hernandez-Paz DA, Fiorillo-Moreno O, Picón-Jaimes YA, Bermúdez V. Meta-research in biomedical investigation: gaps and opportunities based on meta-research publications and global indicators in health, science, and human development. Publications. 2025;13(1):7. doi:10.3390/publications13010007
+30. 30.Lozada-Martinez ID, Lozada-Martinez LM, Fiorillo-Moreno O. Leiden manifesto and evidence-based research: are the appropriate standards being used for the correct evaluation of pluralism, gaps and relevance in medical research? J R Coll Physicians Edinb. 2024;54(1):4–6. doi:10.1177/1478271524122799138352991

@@ -1,0 +1,399 @@
+<?xml version='1.0' encoding='utf-8'?>
+<article xmlns:ns0="http://www.w3.org/1999/xlink" xmlns:ns1="http://www.niso.org/schemas/ali/1.0/" article-type="research-article" xml:lang="en" dtd-version="1.4"><front><journal-meta><journal-id journal-id-type="nlm-ta">Arq Bras Cir Dig</journal-id><journal-id journal-id-type="iso-abbrev">Arq Bras Cir Dig</journal-id><journal-id journal-id-type="pmc-domain-id">2852</journal-id><journal-id journal-id-type="pmc-domain">abcd</journal-id><journal-id journal-id-type="nlm-id">9100283</journal-id><journal-id journal-id-type="publisher-id">abcd</journal-id><journal-title-group><journal-title>Arquivos Brasileiros de Cirurgia Digestiva : ABCD</journal-title></journal-title-group><issn pub-type="ppub">0102-6720</issn><issn pub-type="epub">2317-6326</issn><publisher><publisher-name>Colégio Brasileiro de Cirurgia Digestiva</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC7743328</article-id><article-id pub-id-type="pmcid-ver">PMC7743328.1</article-id><article-id pub-id-type="pmcaid">7743328</article-id><article-id pub-id-type="pmcaiid">7743328</article-id><article-id pub-id-type="pmid">33331426</article-id><article-id pub-id-type="doi">10.1590/0102-672020200003e1524</article-id><article-id pub-id-type="other">00301</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="heading"><subject>Original Article</subject></subj-group></article-categories><title-group><article-title>IMPACT OF KRAS MUTATIONS IN CLINICAL FEATURES IN COLORECTAL
+CANCER</article-title><trans-title-group xml:lang="pt"><trans-title>IMPACTO DAS MUTAÇÕES KRAS E CARACTERÍSTICAS CLÍNICAS EM CÂNCER
+COLORRETAL</trans-title></trans-title-group></title-group><contrib-group><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-7791-6645</contrib-id><name name-style="western"><surname>ZANATTO</surname><given-names initials="RM">Renato Morato</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0001-5122-3536</contrib-id><name name-style="western"><surname>SANTOS</surname><given-names initials="G">Gianni</given-names></name><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-6858-3690</contrib-id><name name-style="western"><surname>OLIVEIRA</surname><given-names initials="JC">Júnea Caris</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-5195-7596</contrib-id><name name-style="western"><surname>PRACUCHO</surname><given-names initials="EM">Eduardo Marcucci</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-3473-9252</contrib-id><name name-style="western"><surname>NUNES</surname><given-names initials="AJF">Adauto José Ferreira</given-names></name><xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-9344-6479</contrib-id><name name-style="western"><surname>LOPES-FILHO</surname><given-names initials="GJ">Gaspar Jesus</given-names></name><xref ref-type="aff" rid="aff4">
+<sup>4</sup>
+</xref><xref ref-type="aff" rid="aff5">
+<sup>5</sup>
+</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-0395-6799</contrib-id><name name-style="western"><surname>SAAD</surname><given-names initials="SS">Sarhan Sydney</given-names></name><xref ref-type="aff" rid="aff4">
+<sup>4</sup>
+</xref><xref ref-type="aff" rid="aff5">
+<sup>5</sup>
+</xref></contrib></contrib-group><aff id="aff1">
+<label>1</label>Department of Abdominal and Pelvic Surgery, Hospital Amaral
+Carvalho, Jaú, SP, Brazil</aff><aff id="aff2">
+<label>2</label>Department of Biostatistics, Federal University of São Paulo, São
+Paulo, SP, Brazil</aff><aff id="aff3">
+<label>3</label>Pathology Department, Hospital Amaral Carvalho, Jaú, SP,
+Brazil</aff><aff id="aff4">
+<label>4</label>Department of Digestive Surgery, Federal University of São Paulo,
+São Paulo, SP, Brazil</aff><aff id="aff5">
+<label>5</label>Postgraduate Program in Surgery, Federal University of São Paulo,
+São Paulo, SP, Brazil</aff><author-notes><corresp id="c1">Correspondence: Renato Morato Zanatto E-mail:
+<email>renato.zanatto@gmail.com</email></corresp><fn fn-type="COI-statement" id="fn2"><p><bold>Conflict of interest: </bold>none</p></fn></author-notes><pub-date date-type="pub" publication-format="electronic"><day>16</day><month>12</month><year>2020</year></pub-date><pub-date date-type="collection" publication-format="electronic"><year>2020</year></pub-date><volume>33</volume><issue>3</issue><issue-id pub-id-type="pmc-issue-id">370903</issue-id><elocation-id>e1524</elocation-id><history><date date-type="received"><day>17</day><month>1</month><year>2020</year></date><date date-type="accepted"><day>29</day><month>4</month><year>2020</year></date></history><pub-history><event event-type="pmc-release"><date><day>16</day><month>12</month><year>2020</year></date></event><event event-type="pmc-live"><date><day>21</day><month>12</month><year>2020</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2020-12-22 00:16:26.137"><day>22</day><month>12</month><year>2020</year></date></event></pub-history><permissions><license license-type="open-access" ns0:href="https://creativecommons.org/licenses/by/4.0/"><ns1:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ns1:license_ref><license-p>This is an open-access article distributed under the terms of the
+Creative Commons Attribution License</license-p></license></permissions><self-uri content-type="pmc-pdf" ns0:href="0102-6720-abcd-33-03-e1524.pdf" /><abstract><title>ABSTRACT</title><sec><title>
+Background:
+</title><p>KRAS mutations are important events in colorectal carcinogenesis, as well as
+negative predictors of response to EGFR inhibitors treatment. </p></sec><sec><title>
+Aim:
+</title><p>To investigate the association of clinical-pathological features with KRAS
+mutations in colorectal cancer patients treated. </p></sec><sec><title>
+Methods:
+</title><p>Data from 69 patients with colorectal cancer either metastatic at diagnosis
+or later, were retrospectively analyzed. The direct sequencing and
+pyrosequencing techniques were related to KRAS exon 2. The mutation
+diagnosis and its type were determined. </p></sec><sec><title>
+Results:
+</title><p>KRAS mutation was identified in 43.4% of patients. The most common was
+c.35G&gt;T (p.G12V), c.35G&gt;A (p.G12D) and c.38G&gt;A (p.G13D). No
+correlation was found between KRAS mutation and age (p=0.646) or gender
+(p=0.815). However, mutated group had higher CEA levels at admission
+(p=0.048) and codon 13 mutation was associated with involvement of more than
+one metastatic site in disease progression (p=0.029). Although there was no
+association between primary tumor site and mutation diagnosis (p=0.568),
+primary colon was associated with worse overall survival (p=0.009). </p></sec><sec><title>
+Conclusion:
+</title><p>The KRAS mutation was identified in almost half of patients. Mutated KRAS
+group had higher levels of CEA at admission and the mutation at codon 13 was
+associated with involvement of more than one metastatic site in the course
+of the disease. Colon disease was associated with the worst overall
+survival. </p></sec></abstract><trans-abstract xml:lang="pt"><title>RESUMO</title><sec><title>
+Racional:
+</title><p>Mutações KRAS são eventos importantes na carcinogênese colorretal como
+preditores negativos de resposta ao tratamento. </p></sec><sec><title>
+Objetivo:
+</title><p>Investigar a associação de características clinicopatológicas com mutações no
+KRAS em pacientes com câncer colorretal tratados. </p></sec><sec><title>
+Métodos:
+</title><p>Sessenta e nove pacientes com câncer colorretal metastáticos ao diagnóstico
+ou posteriormente foram analisados. As técnicas de sequenciamento direto e
+pirosequenciamento foram relacionadas ao éxon 2 do KRAS e o diagnóstico da
+mutação e seu tipo foram determinados. </p></sec><sec><title>
+Resultados:
+</title><p>A mutação KRAS foi identificada em 43,4% dos pacientes, c.35G&gt;T (p.G12V),
+c.35G&gt;A (p.G12D) e c.38G&gt;A (p.G13D). Não foi encontrada correlação
+entre a mutação KRAS e a idade (p=0,646) ou o gênero (p=0,815). No entanto,
+o grupo mutado apresentou níveis mais altos de CEA na admissão (p=0,048). A
+mutação do códon 13 foi associada ao envolvimento de mais de um local
+metastático na progressão da doença (p=0,029); não houve associação entre o
+local primário do tumor e o diagnóstico de mutação (p=0,568); a doença
+primária do cólon foi associada com pior sobrevida global (p=0,009). </p></sec><sec><title>
+Conclusão:
+</title><p>A mutação KRAS foi identificada em quase metade dos pacientes. O grupo KRAS
+mutado apresentou níveis mais altos de CEA na admissão e a mutação no códon
+13 foi associada ao envolvimento de mais de um local metastático no curso da
+doença. A doença do cólon foi associada com pior sobrevida global.</p></sec></trans-abstract><kwd-group><title>HEADINGS:</title><kwd>Colorectal neoplasms</kwd><kwd>Gene frequency</kwd><kwd>Mutation</kwd></kwd-group><kwd-group xml:lang="pt"><title>DESCRITORES:</title><kwd>Neoplasias colorretais</kwd><kwd>Frequência do gene</kwd><kwd>Mutação</kwd></kwd-group><counts><fig-count count="4" /><table-count count="4" /><equation-count count="0" /><ref-count count="30" /></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec sec-type="intro"><title>INTRODUCTION</title><p>Colorectal cancer (CRC) is a common and lethal disease. It is the third most
+frequently diagnosed cancer in men and the second in women worldwide, with 1.65
+million new cases and almost 835,000 deaths in 20157. In Brazil, for the 2018-2019
+biennium, an estimated 36,360 new cases occur every year<xref rid="B14" ref-type="bibr">
+<sup>14</sup>
+</xref>.</p><p>The treatment is based on the presentation of the disease, that is, depending on the
+location and stage of the tumor, strategies that use surgical treatment, combined or
+not with chemotherapy and radiotherapy. Most patients are not expected to be cured
+in situations of metastatic disease, except for those with isolated liver and/or
+pulmonary involvement that can be treated with curative intent and rescued with
+operations. Most patients are treated with systemic palliative chemotherapy, with
+the clinical objective of improving quality of life and survival<xref rid="B21" ref-type="bibr">
+<sup>21</sup>
+</xref>.</p><p>Recently, epidermal growth factor receptor (EGFR) inhibitors, such as cetuximab and
+panitumumab, have been incorporated into the treatment of metastatic CRC in
+combination with chemotherapy. They act in blocking receptors and have demonstrated
+improved treatment efficacy for many tumors. In metastatic colorectal cancer, it
+resulted in a progression-free survival gain and a significant benefit has been
+reported in the continuation of these drugs after progression as a first-line
+treatment<xref rid="B27" ref-type="bibr">
+<sup>27</sup>
+</xref>
+<sup>,</sup>
+<xref rid="B5" ref-type="bibr">
+<sup>5</sup>
+</xref>. However, EGFR inhibitors are ineffective when KRAS is mutated<xref rid="B26" ref-type="bibr">
+<sup>26</sup>
+</xref>. The mutation rate varies from 30-50% and causes continuous activation of
+the EGFR intracellular pathway, regardless of the pharmacological blockade of the
+receptor, promoting tumor proliferation and survival<xref rid="B23" ref-type="bibr">
+<sup>23</sup>
+</xref>
+<sup>,</sup>
+<xref rid="B13" ref-type="bibr">
+<sup>13</sup>
+</xref>. Therefore, since the KRAS mutation is a predictor of a negative response,
+mutational analysis of the gene becomes mandatory before the institution of
+treatment with EGFR inhibitors. This strategy, in addition to optimizing health
+costs, avoids adverse effects related to these drugs, especially skin toxicity<xref rid="B19" ref-type="bibr">
+<sup>19</sup>
+</xref>
+<sup>,</sup>
+<xref rid="B16" ref-type="bibr">
+<sup>16</sup>
+</xref>.</p><p>Approximately 90% of the genetic mutations in the RAS family (H, N and K-RAS) occur
+in exon 2 of KRAS (codons 12 and 13). The most frequent mutation of codon 12 is
+c.35G&gt; A (p.G12D) and at codon 13 is c.38G&gt; A (p.G13D), both result from the
+exchange of the amino acid glycine for aspartic acid in positions 35 and 38,
+respectively<xref rid="B19" ref-type="bibr">
+<sup>19</sup>
+</xref>. Other mutations in KRAS such as exon 3 (codons 59, 60, 61), exon 4 (codons
+119, 146, 147) and NRAS represent a small proportion of these mutations<xref rid="B11" ref-type="bibr">
+<sup>11</sup>
+</xref>.</p><p>The KRAS mutation is a predictor of a negative response to treatment with EGFR
+inhibitors and, according to other studies, confers a worse prognosis, but not in
+all patients<xref rid="B3" ref-type="bibr">
+<sup>3</sup>
+</xref>
+<sup>,</sup>
+<xref rid="B24" ref-type="bibr">
+<sup>24</sup>
+</xref>
+<sup>,</sup>
+<xref rid="B6" ref-type="bibr">
+<sup>6</sup>
+</xref>.</p><p>Therefore, this study aims to analyze the frequency, the types of mutation of the
+KRAS gene and the correlation with clinical and pathological data in patients
+diagnosed with metastatic CRC.</p></sec><sec sec-type="methods"><title>METHODS</title><sec><title>Study design and ethical standards</title><p>Retrospective, transversal and single center study. All clinical information was
+obtained from medical records and included patients diagnosed and treated
+between August 2005 and February 2017. The study was reviewed and approved by
+the Research Ethics Committee of Hospital Amaral Carvalho on November 3, 2016
+under the registration number 1,803,348. Individual consent for patient
+participation was not required due to the retrospective nature of the study and
+is in accordance with Brazilian regulatory legislation.</p><p>Sixty-nine patients with colon and rectal adenocarcinoma were evaluated,
+regardless of the treatment performed. They were divided into two groups:
+metastatic at diagnosis (n=43) and who developed metastases during postoperative
+oncological follow-up (n=26). The clinicopathological characteristics recorded
+and analyzed included age, gender, primary tumor site, metastasis and CEA levels
+at admission. All paraffin blocks were tested in representative areas of the
+tumor and sent to the laboratories to perform the extraction and sequencing of
+KRAS exon 2 DNA (codons 12 and 13). The DNA samples were derived from a primary
+tumor (n=58) or metastasis (n=11). Twenty-four were sequenced at Progenetics
+Molecular Diagnostics using the direct sequencing technique and 45 samples at
+the AC Camargo Cancer Center using the pyrosequencing technique<xref rid="B13" ref-type="bibr">
+<sup>13</sup>
+</xref>
+<sup>,</sup>
+<xref rid="B10" ref-type="bibr">
+<sup>10</sup>
+</xref>.</p></sec><sec><title>Statistical analysis</title><p>After descriptive analysis of the data, two inferential analyzes were performed
+to confirm or refute the correlation: Pearson’s chi-square test or Fisher’s
+exact extension test, comparing gender, age, primary location, CEA level at
+admission, pathological staging and metastatic location according to the
+mutation of the KRAS1 gene, Cox multiple regression comparing the survival time,
+primary site and mutation of the KRAS12 gene. In all conclusions obtained
+through inferential analyzes, the level of alpha significance was 5%. The data
+was inserted and stored in Excel 2010 for Windows spreadsheets. Statistical
+analyzes were performed using the statistical program R, version 3.3.225.</p></sec></sec><sec sec-type="results"><title>RESULTS</title><p>The KRAS mutation was diagnosed in 30 patients (43.5%). Twenty-two were at codon 12
+(73.3%) and eight (26.7%) at codon 13. The most frequent mutations were c.35G&gt; T
+(p.G12V), 33.3%, followed by mutation c .35G&gt; A (p.G12D), 23.3% and c.38G&gt; A
+(p.G13D), 23, 3%. These three mutations corresponded to 79.9% of the total mutations
+in the series. In one case, the double mutation c.34_36GGT&gt; TGG (p.G12W), 0.03%,
+was identified, which involves the exchange of the amino acid glycine for tyrosine
+at position 34 and tyrosine for glycine at position 36 (<xref ref-type="fig" rid="f1">Figure 1</xref>).</p><p>
+<fig id="f1" orientation="portrait" position="float"><label>FIGURE 1</label><caption><title>Types of mutations and corresponding amino acid changes</title></caption><graphic position="float" orientation="portrait" ns0:href="0102-6720-abcd-33-03-e1524-gf1.jpg" /></fig>
+</p><p>The correlation of the KRAS mutation with epidemiological data is described in <xref rid="t1" ref-type="table">Table 1</xref>. The wild KRAS group was composed
+mainly of men (53.8%), over 50 years old (71.8%), with primary colon location
+(66,7%), CEA admission level of up to 5 ng/ml (53.8%) and pathological staging IV
+(64.1%). The preferred metastatic site was the liver (46.2%), followed by peritoneum
+(12.8%), retroperitoneal lymph node (7.7%) and lung (5.1%). The KRAS mutated group
+was also formed by the majority with men (56.7%), over 50 years old (66.7%), primary
+colon site (60.0%), CEA level at admission above 5 ng/ml (70.0%) and pathological
+staging IV (60.0%). The preferred metastatic site was liver (43.3%), and after lung
+(23.3%), peritoneum (10.0%) and retroperitoneal lymph node (3.3%). The KRAS mutation
+was not related to gender (p=0.815), age group (p=0.646), primary site (p=0.568),
+pathological staging (p=0.935) and metastatic site (p=0.263). Patients with mutated
+KRAS had higher levels of CEA when compared to those with tumors with wild-type
+KRAS. Mutated KRAS patients had CEA levels greater than 5 ng/ml in 70% of cases,
+against 46.2% of those with wild KRAS (p=0.048).</p><p>
+<table-wrap id="t1" orientation="portrait" position="float"><label>TABLE 1</label><caption><title>Distribution of the general characteristics of the patients according
+to the KRAS mutation</title></caption><table frame="hsides" rules="groups"><colgroup span="1"><col span="1" /><col span="1" /><col span="1" /><col span="1" /><col span="1" /><col span="1" /><col span="1" /><col span="1" /></colgroup><thead><tr><th align="center" rowspan="1" colspan="1"> </th><th align="center" rowspan="1" colspan="1">KRAS Wild</th><th align="center" rowspan="1" colspan="1">%</th><th align="center" rowspan="1" colspan="1">KRAS<break /> Mutated</th><th align="center" rowspan="1" colspan="1">%</th><th align="center" rowspan="1" colspan="1">Total</th><th align="center" rowspan="1" colspan="1">%</th><th align="center" rowspan="1" colspan="1">p</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Gender</td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="4" colspan="1">0.815a</td></tr><tr><td align="center" rowspan="1" colspan="1">Men</td><td align="center" rowspan="1" colspan="1">21</td><td align="center" rowspan="1" colspan="1">(53.8%)</td><td align="center" rowspan="1" colspan="1">17</td><td align="center" rowspan="1" colspan="1">(56.7%)</td><td align="center" rowspan="1" colspan="1">38</td><td align="center" rowspan="1" colspan="1">(55.1%)</td></tr><tr><td align="center" rowspan="1" colspan="1">Women</td><td align="center" rowspan="1" colspan="1">18</td><td align="center" rowspan="1" colspan="1">(46.2%)</td><td align="center" rowspan="1" colspan="1">13</td><td align="center" rowspan="1" colspan="1">(43.3%)</td><td align="center" rowspan="1" colspan="1">31</td><td align="center" rowspan="1" colspan="1">(44.9%)</td></tr><tr><td align="center" rowspan="1" colspan="1">Total</td><td align="center" rowspan="1" colspan="1">39</td><td align="center" rowspan="1" colspan="1">(100%)</td><td align="center" rowspan="1" colspan="1">30</td><td align="center" rowspan="1" colspan="1">(100%)</td><td align="center" rowspan="1" colspan="1">69</td><td align="center" rowspan="1" colspan="1">(100%)</td></tr><tr><td align="left" rowspan="1" colspan="1">Age range</td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="4" colspan="1">0.646a</td></tr><tr><td align="center" rowspan="1" colspan="1">Up to 50 y</td><td align="center" rowspan="1" colspan="1">11</td><td align="center" rowspan="1" colspan="1">(28.2%)</td><td align="center" rowspan="1" colspan="1">10</td><td align="center" rowspan="1" colspan="1">(33.3%)</td><td align="center" rowspan="1" colspan="1">21</td><td align="center" rowspan="1" colspan="1">(30.4%)</td></tr><tr><td align="center" rowspan="1" colspan="1">Above 50 y</td><td align="center" rowspan="1" colspan="1">28</td><td align="center" rowspan="1" colspan="1">(71.8%)</td><td align="center" rowspan="1" colspan="1">20</td><td align="center" rowspan="1" colspan="1">(66.7%)</td><td align="center" rowspan="1" colspan="1">48</td><td align="center" rowspan="1" colspan="1">(69.6%)</td></tr><tr><td align="center" rowspan="1" colspan="1">Total</td><td align="center" rowspan="1" colspan="1">39</td><td align="center" rowspan="1" colspan="1">(100%)</td><td align="center" rowspan="1" colspan="1">30</td><td align="center" rowspan="1" colspan="1">(100%)</td><td align="center" rowspan="1" colspan="1">69</td><td align="center" rowspan="1" colspan="1">(100.0%)</td></tr><tr><td align="left" rowspan="1" colspan="1">Primaru site</td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="1" colspan="1"> </td><td align="center" rowspan="4" colspan="1">0.568a</td></tr><tr><td align="center" rowspan="1" colspan="1">Colon</td><td align="center" rowspan="1" colspan="1">26</td><td align="center" rowspan="1" colspan="1">(66.7%)</td><td align="center" rowspan="1" colspan="1">18</td><td align="center" rowspan="1" colspan="1">(60.0%)</td><td align="center" rowspan="1" colspan="1">44</td><td align="center" rowspan="1" colspan="1">(63.8%)</td></tr><tr><td align="center" rowspan="1" colspan="1">Rectum</td><td align="center" rowspan="1" colspan="1">13</td><td align="center" rowspan="1" colspan="1">(33.3%)</td><td align="center" rowspan="1" colspan="1">12</td><td align="center" rowspan="1" colspan="1">(40%)</td><td align="center" rowspan="1" colspan="1">25</td><td align="center" rowspan="1" colspan="1">(36.2%)</td></tr><tr><td align="center" rowspan="1" colspan="1">Total</td><td align="center" rowspan="1" colspan="1">39</td><td align="center" rowspan="1" colspan="1">(100%)</td><td align="center" rowspan="1" colspan="1">30</td><td align="center" rowspan="1" colspan="1">(100%)</td><td align="center" rowspan="1" colspan="1">69</td><td align="center" rowspan="1" colspan="1">(100%)</td></tr><tr><td align="left" colspan="8" rowspan="1">CEA level at admission </td></tr><tr><td align="center" rowspan="1" colspan="1">Up to 5 ng/ml</td><td align="center" rowspan="1" colspan="1">21</td><td align="center" rowspan="1" colspan="1">(53.8%)</td><td align="center" rowspan="1" colspan="1">9</td><td align="center" rowspan="1" colspan="1">(30.0%)</td><td align="center" rowspan="1" colspan="1">30</td><td align="center" rowspan="1" colspan="1">(43.5%)</td><td align="center" rowspan="3" colspan="1">0.048a</td></tr><tr><td align="center" rowspan="1" colspan="1">Above 5 ng/ml</td><td align="center" rowspan="1" colspan="1">18</td><td align="center" rowspan="1" colspan="1">(46.2%)</td><td align="center" rowspan="1" colspan="1">21</td><td align="center" rowspan="1" colspan="1">(70.0%)</td><td align="center" rowspan="1" colspan="1">39</td><td align="center" rowspan="1" colspan="1">(56.5%)</td></tr><tr><td align="center" rowspan="1" colspan="1">Total</td><td align="center" rowspan="1" colspan="1">39</td><td align="center" rowspan="1" colspan="1">(100%)</td><td align="center" rowspan="1" colspan="1">30</td><td align="center" rowspan="1" colspan="1">(100%)</td><td align="center" rowspan="1" colspan="1">69</td><td align="center" rowspan="1" colspan="1">(100%)</td></tr><tr><td align="left" colspan="8" rowspan="1">Pathological stage </td></tr><tr><td align="center" rowspan="1" colspan="1">I</td><td align="center" rowspan="1" colspan="1">1</td><td align="center" rowspan="1" colspan="1">(2.6%)</td><td align="center" rowspan="1" colspan="1">-</td><td align="center" rowspan="1" colspan="1">-</td><td align="center" rowspan="1" colspan="1">1</td><td align="center" rowspan="1" colspan="1">(1.4%)</td><td align="center" rowspan="5" colspan="1">0.935b</td></tr><tr><td align="center" rowspan="1" colspan="1">II</td><td align="center" rowspan="1" colspan="1">7</td><td align="center" rowspan="1" colspan="1">(17.9%)</td><td align="center" rowspan="1" colspan="1">6</td><td align="center" rowspan="1" colspan="1">(20.0%)</td><td align="center" rowspan="1" colspan="1">13</td><td align="center" rowspan="1" colspan="1">(18.8%)</td></tr><tr><td align="center" rowspan="1" colspan="1">III</td><td align="center" rowspan="1" colspan="1">6</td><td align="center" rowspan="1" colspan="1">(15.4%)</td><td align="center" rowspan="1" colspan="1">6</td><td align="center" rowspan="1" colspan="1">(20.0%)</td><td align="center" rowspan="1" colspan="1">12</td><td align="center" rowspan="1" colspan="1">(17.4%)</td></tr><tr><td align="center" rowspan="1" colspan="1">IV</td><td align="center" rowspan="1" colspan="1">25</td><td align="center" rowspan="1" colspan="1">(64.1%)</td><td align="center" rowspan="1" colspan="1">18</td><td align="center" rowspan="1" colspan="1">(60.0%)</td><td align="center" rowspan="1" colspan="1">43</td><td align="center" rowspan="1" colspan="1">(62.3%)</td></tr><tr><td align="center" rowspan="1" colspan="1">Total</td><td align="center" rowspan="1" colspan="1">39</td><td align="center" rowspan="1" colspan="1">(100%)</td><td align="center" rowspan="1" colspan="1">30</td><td align="center" rowspan="1" colspan="1">(100%)</td><td align="center" rowspan="1" colspan="1">69</td><td align="center" rowspan="1" colspan="1">(100%)</td></tr><tr><td align="left" colspan="8" rowspan="1">Metastatic site </td></tr><tr><td align="center" rowspan="1" colspan="1">Liver</td><td align="center" rowspan="1" colspan="1">18</td><td align="center" rowspan="1" colspan="1">(46.2%)</td><td align="center" rowspan="1" colspan="1">13</td><td align="center" rowspan="1" colspan="1">(43.3%)</td><td align="center" rowspan="1" colspan="1">31</td><td align="center" rowspan="1" colspan="1">(44.9%)</td><td align="center" rowspan="6" colspan="1">0.263b</td></tr><tr><td align="center" rowspan="1" colspan="1">Peritoneum</td><td align="center" rowspan="1" colspan="1">5</td><td align="center" rowspan="1" colspan="1">(12.8%)</td><td align="center" rowspan="1" colspan="1">3</td><td align="center" rowspan="1" colspan="1">(10.0%)</td><td align="center" rowspan="1" colspan="1">8</td><td align="center" rowspan="1" colspan="1">(11.6%)</td></tr><tr><td align="center" rowspan="1" colspan="1">Lung</td><td align="center" rowspan="1" colspan="1">2</td><td align="center" rowspan="1" colspan="1">(5.1%)</td><td align="center" rowspan="1" colspan="1">7</td><td align="center" rowspan="1" colspan="1">(23.3%)</td><td align="center" rowspan="1" colspan="1">9</td><td align="center" rowspan="1" colspan="1">(13.0%)</td></tr><tr><td align="center" rowspan="1" colspan="1">Retroperitoneum lymph node</td><td align="center" rowspan="1" colspan="1">3</td><td align="center" rowspan="1" colspan="1">(7.7%)</td><td align="center" rowspan="1" colspan="1">1</td><td align="center" rowspan="1" colspan="1">(3.3%)</td><td align="center" rowspan="1" colspan="1">4</td><td align="center" rowspan="1" colspan="1">(5.8%)</td></tr><tr><td align="center" rowspan="1" colspan="1">More than a site</td><td align="center" rowspan="1" colspan="1">11</td><td align="center" rowspan="1" colspan="1">(28.2%)</td><td align="center" rowspan="1" colspan="1">6</td><td align="center" rowspan="1" colspan="1">(20.0%)</td><td align="center" rowspan="1" colspan="1">17</td><td align="center" rowspan="1" colspan="1">(24.6%)</td></tr><tr><td align="center" rowspan="1" colspan="1">Total</td><td align="center" rowspan="1" colspan="1">39</td><td align="center" rowspan="1" colspan="1">(100%)</td><td align="center" rowspan="1" colspan="1">30</td><td align="center" rowspan="1" colspan="1">(100%)</td><td align="center" rowspan="1" colspan="1">69</td><td align="center" rowspan="1" colspan="1">(100%)</td></tr></tbody></table></table-wrap>
+</p><p>The distribution of the number of metastatic sites, according to the type of mutation
+in the CRC, is described in <xref rid="t2" ref-type="table">Table 2</xref>. Of the
+30 patients with KRAS mutation, a mutation was found in codon 12 (22), most had only
+one metastatic site (90.9%). The same did not occur with patients with mutations in
+codon 13 (8), of which half (50.0%) had only one metastatic site (p=0.029).</p><p>
+<table-wrap id="t2" orientation="portrait" position="float"><label>TABLE 2</label><caption><title>Distribution of the number of metastasis sites, according to the type
+of KRAS mutation</title></caption><table frame="hsides" rules="groups"><colgroup span="1"><col span="1" /><col span="4" /><col span="2" /></colgroup><thead><tr><th align="left" rowspan="1" colspan="1">
+</th><th align="center" colspan="4" rowspan="1">Number of metastatic sites </th><th align="left" colspan="2" rowspan="1">
+</th></tr><tr><th align="center" rowspan="2" colspan="1">Mutation type</th><th align="center" colspan="2" rowspan="1">Only one </th><th align="center" colspan="2" rowspan="1">More than one </th><th align="center" colspan="2" rowspan="1">Total </th></tr><tr><th align="center" rowspan="1" colspan="1">n</th><th align="center" rowspan="1" colspan="1">%</th><th align="center" rowspan="1" colspan="1">n</th><th align="center" rowspan="1" colspan="1">%</th><th align="center" rowspan="1" colspan="1">n</th><th align="center" rowspan="1" colspan="1">%</th></tr></thead><tbody><tr><td align="center" rowspan="1" colspan="1">p.G12A</td><td align="center" rowspan="1" colspan="1">3</td><td align="center" rowspan="1" colspan="1">12.5%</td><td align="center" rowspan="1" colspan="1">-</td><td align="center" rowspan="1" colspan="1">-</td><td align="center" rowspan="1" colspan="1">3</td><td align="center" rowspan="1" colspan="1">10.0%</td></tr><tr><td align="center" rowspan="1" colspan="1">p.G12C</td><td align="center" rowspan="1" colspan="1">1</td><td align="center" rowspan="1" colspan="1">4.2%</td><td align="center" rowspan="1" colspan="1">-</td><td align="center" rowspan="1" colspan="1">-</td><td align="center" rowspan="1" colspan="1">1</td><td align="center" rowspan="1" colspan="1">3.3%</td></tr><tr><td align="center" rowspan="1" colspan="1">p.G12D</td><td align="center" rowspan="1" colspan="1">7</td><td align="center" rowspan="1" colspan="1">29.2%</td><td align="center" rowspan="1" colspan="1">-</td><td align="center" rowspan="1" colspan="1">-</td><td align="center" rowspan="1" colspan="1">7</td><td align="center" rowspan="1" colspan="1">23.3%</td></tr><tr><td align="center" rowspan="1" colspan="1">p.G12V</td><td align="center" rowspan="1" colspan="1">8</td><td align="center" rowspan="1" colspan="1">33.3%</td><td align="center" rowspan="1" colspan="1">2</td><td align="center" rowspan="1" colspan="1">33.3%</td><td align="center" rowspan="1" colspan="1">10</td><td align="center" rowspan="1" colspan="1">33.3%</td></tr><tr><td align="center" rowspan="1" colspan="1">p.G13C</td><td align="center" rowspan="1" colspan="1">-</td><td align="center" rowspan="1" colspan="1">-</td><td align="center" rowspan="1" colspan="1">1</td><td align="center" rowspan="1" colspan="1">16.7%</td><td align="center" rowspan="1" colspan="1">1</td><td align="center" rowspan="1" colspan="1">3.3%</td></tr><tr><td align="center" rowspan="1" colspan="1">p.G13D</td><td align="center" rowspan="1" colspan="1">4</td><td align="center" rowspan="1" colspan="1">16.7%</td><td align="center" rowspan="1" colspan="1">3</td><td align="center" rowspan="1" colspan="1">50.0%</td><td align="center" rowspan="1" colspan="1">7</td><td align="center" rowspan="1" colspan="1">23.3%</td></tr><tr><td align="center" rowspan="1" colspan="1">p.G12W</td><td align="center" rowspan="1" colspan="1">1</td><td align="center" rowspan="1" colspan="1">4.2%</td><td align="center" rowspan="1" colspan="1">-</td><td align="center" rowspan="1" colspan="1">-</td><td align="center" rowspan="1" colspan="1">1</td><td align="center" rowspan="1" colspan="1">3.3%</td></tr><tr><td align="center" rowspan="1" colspan="1">Total</td><td align="center" rowspan="1" colspan="1">24</td><td align="center" rowspan="1" colspan="1">100%</td><td align="center" rowspan="1" colspan="1">6</td><td align="center" rowspan="1" colspan="1">100%</td><td align="center" rowspan="1" colspan="1">30</td><td align="center" rowspan="1" colspan="1">100%</td></tr></tbody></table><table-wrap-foot><fn id="TFN1"><p>n=mutation number</p></fn></table-wrap-foot></table-wrap>
+</p><p>
+<xref ref-type="fig" rid="f2">Figure 2</xref> illustrates the patient’s overall
+survival by primary site and KRAS status. According to it, the overall survival of
+patients estimated at 60 months was 26.7%. Investigating survival, according to the
+primary site and KRAS, Cox’s regression model was adjusted, and the effect of the
+interaction between the primary site and KRAS status was not detected (p=0.961).
+Thus, the primary survival site was not influenced by KRAS. The results revealed
+that patients with primary rectal tumors had better survival when compared to those
+diagnosed with primary colon tumors (p=0.009). It was not possible to show a
+KRAS-type relationship with patient survival (p=0.144).</p><p>
+<fig id="f2" orientation="portrait" position="float"><label>FIGURE 2</label><caption><title>Patients’ overall survival curve, according to primary site and KRAS
+mutation</title></caption><graphic position="float" orientation="portrait" ns0:href="0102-6720-abcd-33-03-e1524-gf2.jpg" /></fig>
+</p></sec><sec sec-type="discussion"><title>DISCUSSION</title><p>In this study, the prevalence of the KRAS mutation was 43.4%. In most series, it is
+identified in 30-50% of cases and are important genetic factors that contribute to
+the occurrence of the disease<xref rid="B13" ref-type="bibr">
+<sup>13</sup>
+</xref>. The most frequent mutations were c.35G&gt; T (p.G12V), 33.3%, c.35G&gt; A
+(p.G12D), 23.3% and c.38G&gt; A (p.G13D), 23, 3% that corresponded to 79.9% of the
+total mutations in this sample. Reports show a 39.3% prevalence of mutations in KRAS
+among 1018 German patients, and the most prevalent mutation was p.G12D followed by
+p.G12V and p.G13D19.</p><p>In Brazil, variations in the prevalence of the KRAS mutation are observed according
+to the region, for example, about 18.3% among 60 patients in the Amazon region<xref rid="B9" ref-type="bibr">
+<sup>9</sup>
+</xref>. In the largest Brazilian study that evaluated 8234 patients, the frequency
+of this mutation was 31.9%. In the analysis of separate regions, in the southeastern
+region it was 34.7%<xref rid="B13" ref-type="bibr">
+<sup>13</sup>
+</xref>.</p><p>Therefore, the codon distribution and the three most prevalent mutations in the
+present study are similar to those described in other series, denoting a
+representative sample compared to the global findings<xref rid="B13" ref-type="bibr">
+<sup>13</sup>
+</xref>
+<sup>,</sup>
+<xref rid="B29" ref-type="bibr">
+<sup>29</sup>
+</xref>
+<sup>,</sup>
+<xref rid="B28" ref-type="bibr">
+<sup>28</sup>
+</xref>.</p><p>In the present study, the frequency of KRAS mutation did not correlate with gender
+(p=0.815), age group (p=0.646), primary site (p=0.568), pathological staging
+(p=0.935) and metastatic site (p=0.263). Reports show a high prevalence among women
+(34.8% women vs. 32.5% men, p=0.03)<xref rid="B13" ref-type="bibr">
+<sup>13</sup>
+</xref>. Thus, gender, age or hormonal influence on the KRAS mutation are
+conflicting because some studies show a higher frequency of mutations for women<xref rid="B22" ref-type="bibr">
+<sup>22</sup>
+</xref>, but others do not<xref rid="B17" ref-type="bibr">
+<sup>17</sup>
+</xref>. The ethnological differences in the populations studied may explain the
+disparity.</p><p>Regarding the primary site and the multimodal therapy generally used, two groups of
+patients were identified: extraperitoneal rectum, in which radiotherapy is part of
+the local therapy, plus surgical resection and adjuvant chemotherapy, and
+intraperitoneal colon/rectum, in which the resection operation is the basis of local
+therapy, with complementary adjuvant chemotherapy according to risk stratification.
+In addition, systemic chemotherapy with fluoropyrimidine-based chemotherapy, with or
+without panitumumab/cetuximab or bevacizumab monoclonal antibody is the basis of
+therapy for patients with metastatic disease. Although the KRAS mutation is not
+correlated with the primary site in the present study, by a different group, tumors
+on the right side (before the left flexure) and tumors on the left side (after the
+left flexure) showed influence of the primary site on the prognosis in previously
+untreated tumors. However, these data are still the subject of investigation<xref rid="B18" ref-type="bibr">
+<sup>18</sup>
+</xref>.</p><p>The mutation status of KRAS appears to influence the pattern of metastatic spread in
+CRC. Studies show a difference in the frequency of KRAS mutations in patients with
+liver, lung and brain metastases<xref rid="B24" ref-type="bibr">
+<sup>24</sup>
+</xref>. In the study, KRAS mutations were less prevalent in liver metastases
+(32.3%), but more in pulmonary (62.0%) and brain (56.5%, p=0.003). There are some
+reports that metastatic CRC with KRAS mutation is more likely to spread to the lungs
+compared to wild-type KRAS (22% vs. 13%, p&lt;0.01)<xref rid="B30" ref-type="bibr">
+<sup>30</sup>
+</xref>. Although this information was not reported in the present study, mutations
+in the codon distribution were correlated with the number of affected metastatic
+sites and, in codon 12, most had only one metastatic site. The same did not happen
+with the codon 13 mutation group, because half of the group had more than one
+metastatic site (p=0.029).</p><p>In the mutated KRAS group, CEA levels above 5 ng/ml were identified more frequently
+when compared to the wild-type KRAS group (p=0.048). A recent study does not show a
+correlation between CEA levels (cut-off point 200) and KRAS status among 193
+patients with metastatic CRC<xref rid="B8" ref-type="bibr">
+<sup>8</sup>
+</xref>. Therefore, it is difficult to sustain the correlation between CEA levels
+and KRAS status due to the heterogeneity of the cutoff points, the diversified
+laboratory methodology employed, the number and ethnicity of patients between
+studies.</p><p>The overall estimated 60-month survival rate for patients was 26.7%. The effect of
+the interaction between the primary site and the KRAS status was not detected
+(p=0.961). In addition, the results revealed that patients with rectal location had
+longer survival when compared to those with location in the colon (p=0.009). It was
+not possible to show a KRAS-type relationship with survival (p=0.144).</p><p>The KRAS mutation provides a worse prognosis, as shown in many studies<xref rid="B3" ref-type="bibr">
+<sup>3</sup>
+</xref>
+<sup>,</sup>
+<xref rid="B24" ref-type="bibr">
+<sup>24</sup>
+</xref>, but some discordant findings have been reported<xref rid="B6" ref-type="bibr">
+<sup>6</sup>
+</xref>. One explanation for this controversy is that different mutations in the
+same gene can cause different prognostic influences. For example, in the multicenter
+RASCAL study, the prognostic significance of mutations at codon 12 or 13 in 2721
+patients from 13 countries was assessed. Multivariate analysis showed that only
+codon 12 mutations were independently associated with an increased risk of
+recurrence and death. However, after expanding the sample to include 4268 patients,
+subsequent analyzes show 12 possible mutations in codons 12 and 13, but only one
+specific mutation in codon 12 (9%) was significantly associated with an adverse
+outcome, and especially in patients with lymph nodes positive<xref rid="B2" ref-type="bibr">
+<sup>2</sup>
+</xref>. Although less information is available, mutations in the NRAS are also
+associated with a worse prognosis<xref rid="B4" ref-type="bibr">
+<sup>4</sup>
+</xref>
+</p><p>Although the effectiveness of the treatment and the evaluation of clinical results
+are not the objectives of this study, it can also influence survival, since the
+results of the frequency of RAS mutations can also, but unfortunately these data
+were not available (except KRAS exon 2). In addition, considering the possible
+impact of RAS mutations on the overall results of the analyzed population, this may
+not be significant due to the few frequencies of non-KRAS exon 2 mutations recorded.
+In addition, it was only in 2015 that the American Society of Clinical Oncology
+(ASCO) recommended the prolonged use of the RAS test for all patients who are
+candidates for treatment with EGRF inhibitors.</p><p>The DNA samples in this study were derived from a primary tumor or metastasis,
+because the literature showed that mutations in KRAS, NRAS and BRAF are similar in
+both types of samples<sup>15,20,29</sup> and there is no disagreement in the status
+of KRAS in different periods of patients evaluated, including at the time of the
+initial diagnosis of the tumor and later in the course of the disease in the
+metastatic period and after cytotoxic chemotherapy. However, challenging data have
+recently been demonstrated that the primary tumor test at a single site in
+synchronic metastatic colorectal disease can result in an incomplete profile of the
+KRAS mutation and, consequently, an incorrect choice of the use of EGFR inhibitors
+as treatment<xref rid="B10" ref-type="bibr">
+<sup>10</sup>
+</xref>. This study showed a statistically significant difference in survival in
+Brazilian metastatic patients with primary colon tumors treated at a medical
+oncology center, according to the established routine of clinical practice. There is
+an expectation that, with future research, it will lead to expanding our recognition
+by characterizing several biomarkers involved in colorectal carcinogenesis and
+establishing clinicopathological variables to seek new effective and personalized
+treatments.</p></sec><sec sec-type="conclusions"><title>CONCLUSION</title><p>The KRAS mutation was identified in almost half of the patients. Elevated levels of
+CEA were seen more frequently in the mutated group, and the codon 13 mutation was
+associated with the involvement of more than one metastatic site in the course of
+the disease. Primary colon disease was associated with worse overall survival. None
+of the other clinicopathological characteristics evaluated were related to mutation
+presence.</p></sec></body><back><fn-group><fn fn-type="supported-by" id="fn1"><p><bold>Financial source: </bold>none</p></fn></fn-group><fn-group><fn fn-type="other" id="fn3"><p><bold>Central message:</bold> Mutations in the KRAS gene are present in almost half of patients with
+colorectal cancer and the codon 13 mutation is associated with more than one
+metastasis site.</p></fn><fn fn-type="other" id="fn4"><p><bold>Perspective:</bold> High prevalence of KRAS gene mutation has been identified in almost half of
+patients with colorectal cancer. The mutated KRAS group showed higher levels of
+CEA at admission and the mutation at codon 13 was associated with the
+involvement of more than one metastasis site throughout treatment in the course
+of the disease. Colon disease compared to the rectum was associated with worse
+overall survival.</p></fn></fn-group><ref-list><title>REFERENCES</title><ref id="B1"><label>1</label><element-citation publication-type="book"><person-group person-group-type="author"><name name-style="western"><surname>Agresti</surname><given-names>A</given-names></name></person-group><source>Categorical data analysis</source><publisher-loc>New York</publisher-loc><publisher-name>Wiley</publisher-name><year>1990</year></element-citation></ref><ref id="B2"><label>2</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Andreyev</surname><given-names>HJ</given-names></name><name name-style="western"><surname>Norman</surname><given-names>AR</given-names></name><name name-style="western"><surname>Cunningham</surname><given-names>D</given-names></name><name name-style="western"><surname>Oates</surname><given-names>J</given-names></name><name name-style="western"><surname>Dix</surname><given-names>BR</given-names></name><name name-style="western"><surname>Iacopetta</surname><given-names>BJ</given-names></name><etal /></person-group><article-title>Kirsten ras mutations in patients with colorectal cancer: the
+“RASCAL II” study</article-title><source>Br J Cancer</source><year>2001</year><volume>85</volume><issue>5</issue><fpage>692</fpage><lpage>696</lpage><ext-link ext-link-type="uri" ns0:href="https://pubmed.ncbi.nlm.nih.gov/11531254">https://pubmed.ncbi.nlm.nih.gov/11531254</ext-link><pub-id pub-id-type="pmid">11531254</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1054/bjoc.2001.1964</pub-id><pub-id pub-id-type="pmcid">PMC2364126</pub-id></element-citation></ref><ref id="B3"><label>3</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Andreyev</surname><given-names>HJN</given-names></name><name name-style="western"><surname>Norman</surname><given-names>AR</given-names></name><name name-style="western"><surname>Clarke</surname><given-names>PA</given-names></name><name name-style="western"><surname>Cunningham</surname><given-names>D</given-names></name><name name-style="western"><surname>Oates</surname><given-names>JR</given-names></name></person-group><article-title>Kirsten ras Mutations in Patients With Colorectal Cancer: the
+Multicenter “RASCAL” Study</article-title><source>JNCI J Natl Cancer Inst [Internet]</source><year>1998</year><volume>90</volume><issue>9</issue><fpage>675</fpage><lpage>684</lpage><pub-id pub-id-type="doi">10.1093/jnci/90.9.675</pub-id><pub-id pub-id-type="pmid">9586664</pub-id></element-citation></ref><ref id="B4"><label>4</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Cercek</surname><given-names>A</given-names></name><name name-style="western"><surname>Braghiroli</surname><given-names>MI</given-names></name><name name-style="western"><surname>Chou</surname><given-names>JF</given-names></name><name name-style="western"><surname>Hechtman</surname><given-names>JF</given-names></name><name name-style="western"><surname>Kemeny</surname><given-names>N</given-names></name><name name-style="western"><surname>Saltz</surname><given-names>L</given-names></name><etal /></person-group><article-title>Clinical Features and Outcomes of Patients with Colorectal
+Cancers Harboring NRAS Mutations</article-title><source>Clin Cancer Res</source><year>2017</year><volume>23</volume><issue>16</issue><fpage>4753 LP </fpage><lpage>475 4760</lpage><ext-link ext-link-type="uri" ns0:href="http://clincancerres.aacrjournals.org/content/23/16/4753.abstract">http://clincancerres.aacrjournals.org/content/23/16/4753.abstract</ext-link><pub-id pub-id-type="pmid">28446505</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/1078-0432.CCR-17-0400</pub-id><pub-id pub-id-type="pmcid">PMC5788017</pub-id></element-citation></ref><ref id="B5"><label>5</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Ciardiello</surname><given-names>F</given-names></name><name name-style="western"><surname>Normanno</surname><given-names>N</given-names></name><name name-style="western"><surname>Martinelli</surname><given-names>E</given-names></name><name name-style="western"><surname>Troiani</surname><given-names>T</given-names></name><name name-style="western"><surname>Pisconti</surname><given-names>S</given-names></name><name name-style="western"><surname>Cardone</surname><given-names>C</given-names></name><etal /></person-group><article-title>Cetuximab continuation after first progression in metastatic
+colorectal cancer (CAPRI-GOIM): a randomized phase II trial of FOLFOX plus
+cetuximab versus FOLFOX</article-title><source>Ann Oncol</source><year>2016</year><volume>27</volume><issue>6</issue><fpage>1055</fpage><lpage>1061</lpage><pub-id pub-id-type="doi">10.1093/annonc/mdw136</pub-id><pub-id pub-id-type="pmid">27002107</pub-id></element-citation></ref><ref id="B6"><label>6</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Clarke</surname><given-names>GA</given-names></name><name name-style="western"><surname>Ryan</surname><given-names>E</given-names></name><name name-style="western"><surname>Crowe</surname><given-names>JP</given-names></name><name name-style="western"><surname>O’Keane</surname><given-names>JC</given-names></name><name name-style="western"><surname>MacMathúna</surname><given-names>P</given-names></name></person-group><article-title>Tumour-derived mutated K-ras codon 12 expression in regional
+lymph nodes of stage II colorectal cancer patients is not associated with
+increased risk of cancer-related death</article-title><source>Int J Colorectal Dis</source><year>2001</year><volume>16</volume><issue>2</issue><fpage>108</fpage><lpage>111</lpage><pub-id pub-id-type="doi">10.1007/s003840100291</pub-id><pub-id pub-id-type="pmid">11355316</pub-id></element-citation></ref><ref id="B7"><label>7</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Collaboration GB of</surname><given-names>DC</given-names></name><name name-style="western"><surname>Fitzmaurice</surname><given-names>C</given-names></name><name name-style="western"><surname>Allen</surname><given-names>C</given-names></name><name name-style="western"><surname>Barber</surname><given-names>RM</given-names></name><name name-style="western"><surname>Barregard</surname><given-names>L</given-names></name><name name-style="western"><surname>Bhutta</surname><given-names>ZA</given-names></name><etal /></person-group><article-title>Global, Regional, and National Cancer Incidence, Mortality, Years
+of Life Lost, Years Lived With Disability, and Disability-Adjusted
+Life-years for 32 Cancer Groups, 1990 to 2015: A Systematic Analysis for the
+Global Burden of Disease Study</article-title><source>JAMA Oncol</source><year>2017</year><volume>3</volume><issue>4</issue><fpage>524</fpage><lpage>548</lpage><pub-id pub-id-type="pmid">27918777</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1001/jamaoncol.2016.5688</pub-id><pub-id pub-id-type="pmcid">PMC6103527</pub-id></element-citation></ref><ref id="B8"><label>8</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Connell</surname><given-names>LC</given-names></name><name name-style="western"><surname>Chou</surname><given-names>JF</given-names></name><name name-style="western"><surname>Boucher</surname><given-names>TM</given-names></name><name name-style="western"><surname>Capanu</surname><given-names>M</given-names></name><name name-style="western"><surname>Kemeny</surname><given-names>NE</given-names></name></person-group><article-title>Relevance of CEA and LDH in relation to KRAS status in patients
+with unresectable colorectal liver metastases</article-title><source>J Clin Oncol</source><year>2016</year><volume>34</volume><issue>4_suppl</issue><fpage>762</fpage><lpage>762</lpage><pub-id pub-id-type="doi">10.1200/jco.2016.34.4_suppl.762</pub-id><pub-id pub-id-type="pmcid">PMC5400688</pub-id><pub-id pub-id-type="pmid">28008623</pub-id></element-citation></ref><ref id="B9"><label>9</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>de Carvalho</surname><given-names>LEW</given-names></name><name name-style="western"><surname>Sarraf</surname><given-names>JS</given-names></name><name name-style="western"><surname>Oliveira</surname><given-names>ACM</given-names></name><name name-style="western"><surname>B</surname><given-names>ND</given-names><suffix>Neto</suffix></name><name name-style="western"><surname>Câmara</surname><given-names>TF</given-names></name><name name-style="western"><surname>Fonseca</surname><given-names>FLA</given-names></name><etal /></person-group><article-title>What Is Different in the Population of the Brazilian Amazon
+Region so that They Have a Low Frequency of KRAS Gene
+Mutations</article-title><source>Case Rep Oncol</source><year>2017</year><volume>10</volume><issue>2</issue><fpage>777</fpage><lpage>782</lpage><ext-link ext-link-type="uri" ns0:href="https://pubmed.ncbi.nlm.nih.gov/28966582">https://pubmed.ncbi.nlm.nih.gov/28966582</ext-link><pub-id pub-id-type="pmid">28966582</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1159/000479733</pub-id><pub-id pub-id-type="pmcid">PMC5618447</pub-id></element-citation></ref><ref id="B10"><label>10</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>de Macedo</surname><given-names>MP</given-names></name><name name-style="western"><surname>de Melo</surname><given-names>FM</given-names></name><name name-style="western"><surname>Ribeiro J da</surname><given-names>S</given-names></name><name name-style="western"><surname>de Mello</surname><given-names>CAL</given-names></name><name name-style="western"><surname>de Souza Begnami</surname><given-names>MDF</given-names></name><name name-style="western"><surname>Soares</surname><given-names>FA</given-names></name><etal /></person-group><article-title>RAS mutations vary between lesions in synchronous primary
+colorectal cancer: testing only one lesion is not sufficient to guide
+anti-EGFR treatment decisions</article-title><source>Oncoscience</source><year>2015</year><volume>2</volume><issue>2</issue><fpage>125</fpage><lpage>130</lpage><ext-link ext-link-type="uri" ns0:href="https://pubmed.ncbi.nlm.nih.gov/25859555">https://pubmed.ncbi.nlm.nih.gov/25859555</ext-link><pub-id pub-id-type="pmid">25859555</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.18632/oncoscience.118</pub-id><pub-id pub-id-type="pmcid">PMC4381705</pub-id></element-citation></ref><ref id="B11"><label>11</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Douillard</surname><given-names>J-Y</given-names></name><name name-style="western"><surname>Oliner</surname><given-names>KS</given-names></name><name name-style="western"><surname>Siena</surname><given-names>S</given-names></name><name name-style="western"><surname>Tabernero</surname><given-names>J</given-names></name><name name-style="western"><surname>Burkes</surname><given-names>R</given-names></name><name name-style="western"><surname>Barugel</surname><given-names>M</given-names></name><etal /></person-group><article-title>Panitumumab-FOLFOX4 Treatment and RAS Mutations in Colorectal
+Cancer</article-title><source>N Engl J Med</source><year>2013</year><volume>369</volume><issue>11</issue><fpage>1023</fpage><lpage>1034</lpage><pub-id pub-id-type="doi">10.1056/NEJMoa1305275</pub-id><pub-id pub-id-type="pmid">24024839</pub-id></element-citation></ref><ref id="B12"><label>12</label><element-citation publication-type="book"><person-group person-group-type="author"><collab>Enrico Antônio Colosimo SRG</collab></person-group><source>Análise de Sobrevivência Aplicada</source><publisher-name>Blucher</publisher-name><year>2006</year><size units="pages">392</size></element-citation></ref><ref id="B13"><label>13</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Gil Ferreira</surname><given-names>C</given-names></name><name name-style="western"><surname>Aran</surname><given-names>V</given-names></name><name name-style="western"><surname>Zalcberg-Renault</surname><given-names>I</given-names></name><name name-style="western"><surname>Victorino</surname><given-names>AP</given-names></name><name name-style="western"><surname>Salem</surname><given-names>JH</given-names></name><name name-style="western"><surname>Bonamino</surname><given-names>MH</given-names></name><etal /></person-group><article-title>KRAS mutations: variable incidences in a Brazilian cohort of
+8,234 metastatic colorectal cancer patients</article-title><source>BMC Gastroenterol</source><year>2014</year><volume>14</volume><fpage>73</fpage><lpage>73</lpage><ext-link ext-link-type="uri" ns0:href="https://pubmed.ncbi.nlm.nih.gov/24720724">https://pubmed.ncbi.nlm.nih.gov/24720724</ext-link><pub-id pub-id-type="pmid">24720724</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/1471-230X-14-73</pub-id><pub-id pub-id-type="pmcid">PMC3997472</pub-id></element-citation></ref><ref id="B14"><label>14</label><element-citation publication-type="book"><person-group person-group-type="author"><collab>INCA</collab></person-group><source>Estimativa 2018-Incidência de câncer no Brasil [Internet]</source><publisher-name>Instituto Nacional de Câncer José Alencar Gomes da
+Silva</publisher-name><year>2017</year><size units="pages">130</size><ext-link ext-link-type="uri" ns0:href="http://www.inca.gov.br/estimativa/2018/estimativa-2018.pdf">http://www.inca.gov.br/estimativa/2018/estimativa-2018.pdf</ext-link></element-citation></ref><ref id="B15"><label>15</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Knijn</surname><given-names>N</given-names></name><name name-style="western"><surname>Mekenkamp</surname><given-names>LJM</given-names></name><name name-style="western"><surname>Klomp</surname><given-names>M</given-names></name><name name-style="western"><surname>Vink-Börger</surname><given-names>ME</given-names></name><name name-style="western"><surname>Tol</surname><given-names>J</given-names></name><name name-style="western"><surname>Teerenstra</surname><given-names>S</given-names></name><etal /></person-group><article-title>KRAS mutation analysis: a comparison between primary tumours and
+matched liver metastases in 305 colorectal cancer patients</article-title><source>Br J Cancer</source><year>2011</year><volume>104</volume><issue>6</issue><fpage>1020</fpage><lpage>1026</lpage><ext-link ext-link-type="uri" ns0:href="https://pubmed.ncbi.nlm.nih.gov/21364579">https://pubmed.ncbi.nlm.nih.gov/21364579</ext-link><pub-id pub-id-type="pmid">21364579</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/bjc.2011.26</pub-id><pub-id pub-id-type="pmcid">PMC3065268</pub-id></element-citation></ref><ref id="B16"><label>16</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Lièvre</surname><given-names>A</given-names></name><name name-style="western"><surname>Bachet</surname><given-names>J-B</given-names></name><name name-style="western"><surname>Boige</surname><given-names>V</given-names></name><name name-style="western"><surname>Cayre</surname><given-names>A</given-names></name><name name-style="western"><surname>Le Corre</surname><given-names>D</given-names></name><name name-style="western"><surname>Buc</surname><given-names>E</given-names></name><etal /></person-group><article-title>KRAS Mutations As an Independent Prognostic Factor in Patients
+With Advanced Colorectal Cancer Treated With Cetuximab</article-title><source>J Clin Oncol</source><year>2008</year><volume>26</volume><issue>3</issue><fpage>374</fpage><lpage>379</lpage><pub-id pub-id-type="doi">10.1200/JCO.2007.12.5906</pub-id><pub-id pub-id-type="pmid">18202412</pub-id></element-citation></ref><ref id="B17"><label>17</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Liu</surname><given-names>Z</given-names></name><name name-style="western"><surname>Zhang</surname><given-names>Y</given-names></name><name name-style="western"><surname>Niu</surname><given-names>Y</given-names></name><name name-style="western"><surname>Li</surname><given-names>K</given-names></name><name name-style="western"><surname>Liu</surname><given-names>X</given-names></name><name name-style="western"><surname>Chen</surname><given-names>H</given-names></name><etal /></person-group><article-title>A systematic review and meta-analysis of diagnostic and
+prognostic serum biomarkers of colorectal cancer</article-title><source>PLoS One</source><year>2014</year><volume>9</volume><issue>8</issue><fpage>e103910</fpage><lpage>e103910</lpage><ext-link ext-link-type="uri" ns0:href="https://pubmed.ncbi.nlm.nih.gov/25105762">https://pubmed.ncbi.nlm.nih.gov/25105762</ext-link><pub-id pub-id-type="pmid">25105762</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pone.0103910</pub-id><pub-id pub-id-type="pmcid">PMC4126674</pub-id></element-citation></ref><ref id="B18"><label>18</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Loupakis</surname><given-names>F</given-names></name><name name-style="western"><surname>Yang</surname><given-names>D</given-names></name><name name-style="western"><surname>Yau</surname><given-names>L</given-names></name><name name-style="western"><surname>Feng</surname><given-names>S</given-names></name><name name-style="western"><surname>Cremolini</surname><given-names>C</given-names></name><name name-style="western"><surname>Zhang</surname><given-names>W</given-names></name><etal /></person-group><article-title>Primary tumor location as a prognostic factor in metastatic
+colorectal cancer</article-title><source>J Natl Cancer Inst</source><year>2015</year><volume>107</volume><issue>3</issue><fpage>dju427</fpage><lpage>dju427</lpage><ext-link ext-link-type="uri" ns0:href="https://pubmed.ncbi.nlm.nih.gov/25713148">https://pubmed.ncbi.nlm.nih.gov/25713148</ext-link><pub-id pub-id-type="pmid">25713148</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/jnci/dju427</pub-id><pub-id pub-id-type="pmcid">PMC4565528</pub-id></element-citation></ref><ref id="B19"><label>19</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Neumann</surname><given-names>J</given-names></name><name name-style="western"><surname>Zeindl-Eberhart</surname><given-names>E</given-names></name><name name-style="western"><surname>Kirchner</surname><given-names>T</given-names></name><name name-style="western"><surname>Jung</surname><given-names>A</given-names></name></person-group><article-title>Frequency and type of KRAS mutations in routine diagnostic
+analysis of metastatic colorectal cancer</article-title><source>Pathol - Res Pract</source><year>2009</year><volume>205</volume><issue>12</issue><fpage>858</fpage><lpage>862</lpage><ext-link ext-link-type="uri" ns0:href="http://www.sciencedirect.com/science/article/pii/S0344033809002003">http://www.sciencedirect.com/science/article/pii/S0344033809002003</ext-link><pub-id pub-id-type="pmid">19679400</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.prp.2009.07.010</pub-id></element-citation></ref><ref id="B20"><label>20</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Paliogiannis</surname><given-names>P</given-names></name><name name-style="western"><surname>Cossu</surname><given-names>A</given-names></name><name name-style="western"><surname>Tanda</surname><given-names>F</given-names></name><name name-style="western"><surname>Palmieri</surname><given-names>G</given-names></name><name name-style="western"><surname>Palomba</surname><given-names>G</given-names></name></person-group><article-title>KRAS mutational concordance between primary and metastatic
+colorectal adenocarcinoma</article-title><source>Oncol Lett</source><year>2014</year><volume>8</volume><issue>4</issue><fpage>1422</fpage><lpage>1426</lpage><ext-link ext-link-type="uri" ns0:href="https://pubmed.ncbi.nlm.nih.gov/25202344">https://pubmed.ncbi.nlm.nih.gov/25202344</ext-link><pub-id pub-id-type="pmid">25202344</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3892/ol.2014.2411</pub-id><pub-id pub-id-type="pmcid">PMC4156255</pub-id></element-citation></ref><ref id="B21"><label>21</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Shah</surname><given-names>SA</given-names></name><name name-style="western"><surname>Haddad</surname><given-names>R</given-names></name><name name-style="western"><surname>Al-Sukhni</surname><given-names>W</given-names></name><name name-style="western"><surname>Kim</surname><given-names>RD</given-names></name><name name-style="western"><surname>Greig</surname><given-names>PD</given-names></name><name name-style="western"><surname>Grant</surname><given-names>DR</given-names></name><etal /></person-group><article-title>Surgical resection of hepatic and pulmonary metastases from
+colorectal carcinoma</article-title><source>J Am Coll Surg</source><year>2006</year><volume>202</volume><issue>3</issue><fpage>468</fpage><lpage>475</lpage><pub-id pub-id-type="pmid">16500252</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jamcollsurg.2005.11.008</pub-id></element-citation></ref><ref id="B22"><label>22</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Shen</surname><given-names>H</given-names></name><name name-style="western"><surname>Yuan</surname><given-names>Y</given-names></name><name name-style="western"><surname>Hu</surname><given-names>H-G</given-names></name><name name-style="western"><surname>Zhong</surname><given-names>X</given-names></name><name name-style="western"><surname>Ye</surname><given-names>X-X</given-names></name><name name-style="western"><surname>Li</surname><given-names>M-D</given-names></name><etal /></person-group><article-title>Clinical significance of K-ras and BRAF mutations in Chinese
+colorectal cancer patients</article-title><source>World J Gastroenterol</source><year>2011</year><volume>17</volume><issue>6</issue><fpage>809</fpage><lpage>816</lpage><ext-link ext-link-type="uri" ns0:href="https://pubmed.ncbi.nlm.nih.gov/21390154">https://pubmed.ncbi.nlm.nih.gov/21390154</ext-link><pub-id pub-id-type="pmid">21390154</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3748/wjg.v17.i6.809</pub-id><pub-id pub-id-type="pmcid">PMC3042662</pub-id></element-citation></ref><ref id="B23"><label>23</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Soulières</surname><given-names>D</given-names></name><name name-style="western"><surname>Greer</surname><given-names>W</given-names></name><name name-style="western"><surname>Magliocco</surname><given-names>AM</given-names></name><name name-style="western"><surname>Huntsman</surname><given-names>D</given-names></name><name name-style="western"><surname>Young</surname><given-names>S</given-names></name><name name-style="western"><surname>Tsao</surname><given-names>M-S</given-names></name><etal /></person-group><article-title>KRAS mutation testing in the treatment of metastatic colorectal
+cancer with anti-EGFR therapies</article-title><source>Curr Oncol</source><year>2010</year><fpage>S31</fpage><lpage>S40</lpage><ext-link ext-link-type="uri" ns0:href="https://pubmed.ncbi.nlm.nih.gov/20680106">https://pubmed.ncbi.nlm.nih.gov/20680106</ext-link><pub-id pub-id-type="pmid">20680106</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3747/co.v17is1.614</pub-id><pub-id pub-id-type="pmcid">PMC2901795</pub-id></element-citation></ref><ref id="B24"><label>24</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Taieb</surname><given-names>J</given-names></name><name name-style="western"><surname>Zaanan</surname><given-names>A</given-names></name><name name-style="western"><surname>Le Malicot</surname><given-names>K</given-names></name><name name-style="western"><surname>Julié</surname><given-names>C</given-names></name><name name-style="western"><surname>Blons</surname><given-names>H</given-names></name><name name-style="western"><surname>Mineur</surname><given-names>L</given-names></name><etal /></person-group><article-title>Prognostic Effect of BRAF and KRAS Mutations in Patients With
+Stage III Colon Cancer Treated With Leucovorin, Fluorouracil, and
+Oxaliplatin With or Without Cetuximab: A Post Hoc Analysis of the PETACC-8
+Trial</article-title><source>JAMA Oncol</source><year>2016</year><volume>2</volume><issue>5</issue><fpage>643</fpage><lpage>653</lpage><pub-id pub-id-type="doi">10.1001/jamaoncol.2015.5225</pub-id><pub-id pub-id-type="pmid">26768652</pub-id></element-citation></ref><ref id="B25"><label>25</label><element-citation publication-type="book"><person-group person-group-type="author"><name name-style="western"><surname>Team</surname><given-names>RC</given-names></name></person-group><source>R: A language and environment for statistical computing</source><publisher-name>R Foundation for Statistical Computing</publisher-name><year>2018</year><ext-link ext-link-type="uri" ns0:href="https://www.r-project.org">https://www.r-project.org</ext-link></element-citation></ref><ref id="B26"><label>26</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Van Cutsem</surname><given-names>E</given-names></name><name name-style="western"><surname>Köhne</surname><given-names>C-H</given-names></name><name name-style="western"><surname>Hitre</surname><given-names>E</given-names></name><name name-style="western"><surname>Zaluski</surname><given-names>J</given-names></name><name name-style="western"><surname>Chang Chien</surname><given-names>C-R</given-names></name><name name-style="western"><surname>Makhson</surname><given-names>A</given-names></name><etal /></person-group><article-title>Cetuximab and Chemotherapy as Initial Treatment for Metastatic
+Colorectal Cancer</article-title><source>N Engl J Med</source><year>2009</year><volume>360</volume><issue>14</issue><fpage>1408</fpage><lpage>1417</lpage><pub-id pub-id-type="doi">10.1056/NEJMoa0805019</pub-id><pub-id pub-id-type="pmid">19339720</pub-id></element-citation></ref><ref id="B27"><label>27</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Van Cutsem</surname><given-names>E</given-names></name><name name-style="western"><surname>Köhne</surname><given-names>C-H</given-names></name><name name-style="western"><surname>Láng</surname><given-names>I</given-names></name><name name-style="western"><surname>Folprecht</surname><given-names>G</given-names></name><name name-style="western"><surname>Nowacki</surname><given-names>MP</given-names></name><name name-style="western"><surname>Cascinu</surname><given-names>S</given-names></name><etal /></person-group><article-title>Cetuximab Plus Irinotecan, Fluorouracil, and Leucovorin As
+First-Line Treatment for Metastatic Colorectal Cancer: Updated Analysis of
+Overall Survival According to Tumor KRAS and BRAF Mutation
+Status</article-title><source>J Clin Oncol</source><year>2011</year><volume>29</volume><issue>15</issue><fpage>2011</fpage><lpage>2019</lpage><pub-id pub-id-type="doi">10.1200/JCO.2010.33.5091</pub-id><pub-id pub-id-type="pmid">21502544</pub-id></element-citation></ref><ref id="B28"><label>28</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Van Cutsem</surname><given-names>E</given-names></name><name name-style="western"><surname>Lenz</surname><given-names>H-J</given-names></name><name name-style="western"><surname>Köhne</surname><given-names>C-H</given-names></name><name name-style="western"><surname>Heinemann</surname><given-names>V</given-names></name><name name-style="western"><surname>Tejpar</surname><given-names>S</given-names></name><name name-style="western"><surname>Melezínek</surname><given-names>I</given-names></name><etal /></person-group><article-title>Fluorouracil, Leucovorin, and Irinotecan Plus Cetuximab Treatment
+and RAS Mutations in Colorectal Cancer</article-title><source>J Clin Oncol</source><year>2015</year><volume>33</volume><issue>7</issue><fpage>692</fpage><lpage>700</lpage><pub-id pub-id-type="doi">10.1200/JCO.2014.59.4812</pub-id><pub-id pub-id-type="pmid">25605843</pub-id></element-citation></ref><ref id="B29"><label>29</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Veldore</surname><given-names>V</given-names></name><name name-style="western"><surname>Rao</surname><given-names>R</given-names></name><name name-style="western"><surname>Prabhudesai</surname><given-names>SA</given-names></name><name name-style="western"><surname>Tejaswi</surname><given-names>R</given-names></name><name name-style="western"><surname>Kakara</surname><given-names>S</given-names></name><name name-style="western"><surname>Pattanayak</surname><given-names>S</given-names></name><etal /></person-group><article-title>Prevalence of KRAS mutations in metastatic colorectal cancer: A
+retrospective observational study from India</article-title><source>Indian J Cancer</source><year>2014</year><volume>51</volume><fpage>531</fpage><lpage>531</lpage><pub-id pub-id-type="pmid">26842186</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.4103/0019-509X.175371</pub-id></element-citation></ref><ref id="B30"><label>30</label><element-citation publication-type="journal"><person-group person-group-type="author"><name name-style="western"><surname>Yaeger</surname><given-names>R</given-names></name><name name-style="western"><surname>Cowell</surname><given-names>E</given-names></name><name name-style="western"><surname>Chou</surname><given-names>JF</given-names></name><name name-style="western"><surname>Gewirtz</surname><given-names>AN</given-names></name><name name-style="western"><surname>Borsu</surname><given-names>L</given-names></name><name name-style="western"><surname>Vakiani</surname><given-names>E</given-names></name><etal /></person-group><article-title>RAS mutations affect pattern of metastatic spread and increase
+propensity for brain metastasis in colorectal cancer</article-title><source>Cancer</source><year>2014</year><volume>121</volume><issue>8</issue><fpage>1195</fpage><lpage>1203</lpage><ext-link ext-link-type="uri" ns0:href="https://pubmed.ncbi.nlm.nih.gov/25491172">https://pubmed.ncbi.nlm.nih.gov/25491172</ext-link><pub-id pub-id-type="pmid">25491172</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/cncr.29196</pub-id><pub-id pub-id-type="pmcid">PMC4523078</pub-id></element-citation></ref></ref-list></back></article>

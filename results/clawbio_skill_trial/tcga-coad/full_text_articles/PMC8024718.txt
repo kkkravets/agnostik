@@ -1,0 +1,315 @@
+# Genomic and prognostic heterogeneity among RAS/BRAF V600E/TP53 co‐mutated resectable colorectal liver metastases
+
+Authors: Kaja C. G. Berg, Tuva H. Brunsell, Anita Sveen, Sharmini Alagaratnam, Merete Bjørnslett, Merete Hektoen, Kristoffer W. Brudvik, Bård I. Røsok, Bjørn Atle Bjørnbeth, Arild Nesbakken, Ragnhild A. Lothe
+
+Journal: Molecular Oncology
+
+PMCID: PMC8024718
+
+PMID: 33325154
+
+DOI: 10.1002/1878-0261.12885
+
+Canonical source: https://pmc.ncbi.nlm.nih.gov/articles/PMC8024718/
+
+## Abstract
+
+Colorectal cancer commonly metastasizes into multiple liver foci, but intermetastatic heterogeneity remains poorly described. Here, we demonstrate that mutations of RAS/BRAF/TP53 are homogeneous within patients, while DNA copy number aberrations can vary greatly. RAS/BRAF/TP53 co‐mutations conferred a dismal prognosis, and co‐mutations combined with a high burden and heterogeneity of copy number aberrations identified patients with the poorest outcome.
+
+## Full article
+
+five‐year cancer‐specific survival
+
+copy number aberrations
+
+colorectal cancer
+
+colorectal liver metastases
+
+microsatellite instable
+
+microsatellite stable
+
+## Introduction
+
+Approximately 30% of all colorectal cancer (CRC) patients develop metastases to the liver during their disease course, of whom 20% undergo hepatic resection as a potentially curable treatment [1, 2]. In a Norwegian study, the five‐year overall and disease‐free survival was 46% and 24%, respectively, after partial hepatectomy [3], compared to a 5‐year relative survival rate of 15–22% for patients with distant metastases from CRC overall [4]. Around one third of the patients experience early recurrence following resection [3, 5, 6], and there are currently no strong markers for prediction of long‐term benefit from surgery [7, 8].
+
+Mutations in RAS (KRAS and NRAS) have consistently been associated with a poor prognosis among patients with resectable colorectal liver metastases (CRLM) [9, 10, 11], and it has been suggested that surgical treatment is less beneficial in patients with RAS mutations [12]. However, the prognostic effect size is modest [13] and it was recently proposed that the effect is limited to tumors with co‐occurring TP53 mutations [14, 15], or co‐occurring TP53 and SMAD4 mutations [16]. BRAF V600E mutations have a stronger prognostic effect size, but the prognostic value is limited by the low prevalence of this marker among patients with resectable CRLM [17].
+
+Colorectal liver metastases commonly present with multiple distinct liver lesions. Cancer‐critical genes with a high mutation prevalence in CRC generally have a homogeneous mutation pattern across metastatic lesions from the same patient [18, 19], although treatment pressure may cause subclonal expansion, as illustrated by the emergence of resistant subclones with pre‐existing or acquired KRAS mutations during anti‐EGFR therapy [20, 21]. More extensive mutation heterogeneity has been demonstrated in other protein‐coding genes, both in intratumor and intertumor comparisons [22, 23, 24]. We have previously shown that there is considerable intrapatient intermetastatic heterogeneity also on the DNA copy number level [25]. The clinical impact of such intermetastatic molecular heterogeneity remains poorly defined [22, 23, 26], although our study suggested that a high degree of heterogeneity of DNA copy number aberrations (CNAs) is associated with a poor prognosis [25]. We have previously also reported differential radiological responses to standard neoadjuvant treatment among metastatic lesions in a subgroup of approximately 10% of patients with resectable CRLM [27]. How this phenotypic heterogeneity relates to molecular heterogeneity is currently not clear, but the poor survival rate of this patient subgroup after surgery highlights the potential clinical importance of intermetastatic heterogeneity.
+
+Here, we performed combined biomarker analyses in relation to outcome among patients with resectable CRLM, taking tumor heterogeneity into account. We investigated mutations in KRAS, NRAS, BRAF V600E, and TP53, combined with the overall burden and intermetastatic heterogeneity of CNAs.
+
+## Methods
+
+### Patient samples
+
+The study included fresh‐frozen samples of 460 liver metastases from 176 patients who underwent resection for CRLM at Oslo University Hospital, Oslo, Norway, between October 2013 and February 2018. All patients provided signed informed consents, and the study was conducted in line with the Helsinki declaration with approval by the Norwegian Data Protection Authority and the Regional Committee for Medical and Health Research Ethics, South‐Eastern Norway (ref no.: 1.2005.1629;2010/1805).
+
+Fresh‐frozen tumor tissue samples (15–30 mg) were homogenized in liquid nitrogen and DNA was extracted using the AllPrep Universal DNA/RNA/miRNA protocol (Qiagen, Hilden, Germany). DNA quality and concentrations were assessed by NanoDrop 1000 spectrophotometer (version 3.7.1, Thermo Fisher Scientific, Waltham, MA, USA) and Qubit fluorometer (Thermo Fischer Scientific).
+
+Five patients were excluded from analyses due to mucinous tumor tissue, poor DNA quality, or suspicion of low tumor cell content. In total, 441 liver metastases from 171 patients were included for mutation analyses (Fig. 1), of which 102 patients had multiple lesions analyzed (median of 3 metastatic lesions per patient, range 2–9).
+
+Fig. 1: Overview of the included patients and samples in the study.
+
+### Mutation and microsatellite instability analyses
+
+A total of 355 metastatic tumor samples from 103 patients have previously been analyzed for hotspot mutations in BRAF exon 15 and KRAS and NRAS exons 2–4 by Sanger sequencing [19]. The remaining 86 tumor samples and 68 patients were analyzed in the present study.
+
+All 441 tumor samples were also sequenced for all coding regions of TP53 (exons 2–11). In summary, three singleplex PCR reactions were used to analyze TP53 exons 2–4, 5–6, and 7–9, respectively, by amplifying 50 ng of DNA in a reaction mix containing 10× HotStar‐buffer, dNTP, HotStar Taq polymerase (Qiagen), and the primers described in Table S1. TP53 exons 10 and 11 were analyzed in a separate multiplex PCR reaction by amplification of 50 ng of DNA using the 2× Multiplex PCR kit (Qiagen). PCR products were purified using Illustra ExoProStar 1‐step (GE Healthcare, Chicago, IL, USA), and the Applied Biosystems BigDye Terminator v1.1 Cycle Sequencing Kit and Applied Biosystems 3730 DNA Analyzer were used for sequencing (both Thermo Fisher Scientific). DNA from the blood of two healthy donors was used as controls. The results were analyzed using Applied Biosystems Sequencing Analysis software v5.3.1 and SeqScape software v2.5 (Thermo Fisher Scientific) and scored independently by two investigators. Synonymous mutations were not reported. All mutations and cases of intrapatient mutation heterogeneity were validated in independent PCR reactions, some also with ultra‐deep targeted sequencing with the Illumina TruSight Tumor 15 gene panel as described in [19].
+
+All tumors were analyzed for microsatellite instability (MSI) status using PCR‐based marker analyses, either as previously described using BAT25/BAT26 [28], or using the five markers incorporated in the MSI Analysis System version 1.2 (Promega, Fitchburg, WI, USA). Uncertain cases after analyses of BAT25/BAT26 were re‐analyzed with the MSI Analysis System.
+
+### DNA copy number analyses
+
+A total of 232 lesions from the first 67 patients with multiple metastases sampled were analyzed by genome‐wide DNA copy number profiling using the Applied Biosystems CytoScanHD array (Thermo Fisher Scientific). The procedure was conducted according to the manufacturer’s instructions, following the CytoScan Assay Manual Protocol. Resulting raw‐intensity CEL files were preprocessed with the R package rawcopy (v1.1) [29], and subsequently segmented by ascat (v2.5) [30], with penalty parameter set to 25 and chromosomes X and Y excluded. A primary interest was to estimate the level of CNA heterogeneity among samples from the same patient. This estimate is highly sensitive to poor data quality, and strict quality control was therefore performed on the segmented data by careful visual inspection of copy number profiles and Sunrise plots produced by ASCAT. Samples with nonaberrant profiles (no/few CNAs) or poor Sunrise plots were excluded, retaining 192 lesions from 64 patients for further analyses. Copy number gain and loss was called for segments with ≥ 1 or ≤ −1 copies relative to the median genome‐wide copy number estimated by ASCAT, respectively. For comparison with the data processing approach used in our previous study [25], the preprocessed data from rawcopy was additionally segmented by the PCF algorithm implemented in the R package copynumber [31] with the penalty parameter (gamma) set to 100.
+
+To enable analyses across samples, the sample‐wise segmented data were further split into their smallest genomic regions of overlap by computationally introducing breakpoints at every unique breakpoint occurring in any sample in the total dataset.
+
+The COSMIC Cancer Gene Census version 86 [32] was used to define cancer‐critical genes, (both Tier 1 and Tier 2 genes considered). Of the 719 genes, 672 were covered in the CNA data.
+
+A sample‐wise estimate of the overall CNA burden was calculated as the fraction of the genome (per cent of base pairs) with aberrant copy number. For patients with multiple lesions, the mean CNA burden was used for patient‐wise analyses. Estimates of ploidy were derived from ASCAT.
+
+Unpublished DNA copy number data were available for three matching primary tumors for comparison of amplification status in the metastases.
+
+### Estimation of intrapatient intermetastatic copy number heterogeneity
+
+Intrapatient intermetastatic DNA copy number heterogeneity was analyzed by three different approaches. First, the genome‐wide matrix of estimated copy numbers was used to perform pairwise comparisons among metastatic lesions from each patient based on Euclidean distances, using the dist function implemented in the R stats package. To obtain one heterogeneity measure per patient, the mean Euclidean distance of all pairwise comparisons was calculated, in accordance with the approach used in our previous study [25]. Second, the pairwise distance was calculated as in the first approach but using Pearson correlation‐based distance. Third, CNA heterogeneity was assessed by a gene‐wise estimation (protein‐coding genes from UCSC known genes) of the fraction of CNAs within a patient that were not common across the lesions, that is, genes with aberrant copy number in one or more lesions but not in all. The heterogeneity calling was more conservative with this approach, as only events exceeding the copy number gain/loss thresholds were considered heterogeneous, while genes consistently affected by gain (or loss) but with varying amplitudes were regarded as homogeneous CNA events.
+
+The patient‐wise CNA heterogeneity measure was categorized as high or low relative to the median across the patients.
+
+For robustness, data segmented with the PCF algorithm were used to estimate copy number heterogeneity (distance‐based) in the same manner as in our previous study [25], by calculating the average pairwise Euclidean distance between DNA segments with a variance of > 0.03 among samples from each patient. The distance measured obtained from ASCAT and PCF showed good correlation (Spearman’s rho 0.58, P < 0.001; Fig. S1a).
+
+### Statistical analyses
+
+Pairwise comparisons of variables between groups were done by nonparametric Wilcoxon rank‐sum tests for continuous variables and with Fisher’s exact test for categorical data, both implemented in the R stats package.
+
+Survival analyses were performed with 5‐year cancer‐specific survival (5y‐CSS) as the end point. Time to death from CRC was measured from start of treatment of the liver metastases (either neoadjuvant systemic treatment or surgery), and deaths from other causes were censored [33]. Only patients with MSS cancers and R0 or R1 status in the liver after resection were included in survival analyses (n = 165 of 171 patients in the full cohort, n = 62 of 64 patients in CNA burden analyses, n = 46 of 48 in CNA heterogeneity analyses). Kaplan–Meier estimates and log rank tests were used for comparisons of variables with only two groups, using the survdiff function in the R survival package. For comparisons of more than two groups, log rank tests for trend were performed using the comp function in the R survMisc package. All Kaplan–Meier plots were made with the ggsurvplot function in the R survminer package. Univariable and multivariable Cox regression analyses were performed with the coxph function in the R survival package. P values were not adjusted for multiple testing. The prognostic markers evaluated (mutations in KRAS, NRAS, BRAF, and TP53, as well as the two CNA measures) were predetermined based on previous work; however, the size of the study population was determined based on availability of material, and the study was therefore exploratory.
+
+## Results
+
+### Concordant driver gene mutation profiles among multiple resected CRLM
+
+Among resected CRLM from 171 patients, the patient‐wise mutation prevalence was 42.7% (73/171) for KRAS, 4.7% (8/171) for NRAS, 1.8% (3/171) for BRAF V600E and 72.5% (124/171) for TP53. KRAS, NRAS, and BRAF V600E mutations were mutually exclusive, while RAS/BRAF V600E co‐occurred with TP53 mutations in 31% of the patients (Fig. 2A,B). The mutation status of the four genes was homogeneous in all metastatic deposits from each patient when ultra‐deep targeted sequencing was applied; however, three patients had unconfirmed heterogeneity (Fig. 2B) due to the lack of high‐sensitivity data. Another patient had intermetastatic heterogeneity in the specific loci affected by TP53 mutation and displayed p. Asp184fs mutations in two lesions and p. Arg273His mutations in three lesions (all five lesions had the same KRAS mutation). These patients were classified as mutated.
+
+Fig. 2: (A) Prevalence of RAS/BRAF V600E mutation only, TP53 mutation only, and co‐mutation of RAS/BRAF V600E/TP53 in the full cohort (n = 171) and in the subset of patients with associated DNA copy number data from multiple lesions (n = 48). (B) The upper panel shows patients with multiple metastases that were analyzed by sequencing only (n = 54 patients). The lower panel shows patients with multiple metastases analyzed for both mutations and CNAs (n = 48 patients), and only lesions with good quality CNA data from the same resection were included. Vertical gray lines separate each patient. Cancer‐critical genes are marked in red writing and the red horizontal boxes highlight the therapeutically relevant targets EGFR and ERBB2. The mutation status was the same in all metastatic deposits analyzed from each patient, with the exception of TP53 in four patients. One patient had TP53 mutations at two different loci among the lesions (pale green), and three patients had unavailable high‐sensitivity sequencing data to rule out heterogeneity. Both mutations in the driver genes BRAF, NRAS, KRAS, and TP53, as well as high‐level amplifications (> 15 additional copies), were predominantly homogeneous within patients. *MLLT6 and LASP1: only amplified in the patient to the far right of the heatmap.
+
+All patients except one (99%) had microsatellite stable (MSS) tumors. DNA copy number profiling indicated larger intrapatient intermetastatic variation in the sequenced genes, and heterogeneous DNA copy number status was found in 16/48 patients (33%) for BRAF, 24/48 patients (50%) for KRAS, 19/48 patients (40%) for NRAS, and 9/48 (19%) for TP53 (Fig. S1b). However, this was associated with a larger genome‐wide level of CNA heterogeneity in the same patients (Fig. S1c), indicating that these four genes were not specifically targeted.
+
+None of the four genes had any high‐level amplifications events (≤ 6 additional copies), but a genome‐wide search identified high‐level amplifications (≥ 15 additional copies) in CRLM from 22 (34%) of the 64 patients analyzed. Among cancer‐critical genes (defined in the COSMIC Cancer Gene Census), recurrent high‐level amplifications were found only of ERBB2 in two patients, while EGFR and the cell cycle genes CDK6, CCND2, and CCND3 were amplified in one patient each (Table 1). Notably, none of the patients with ERBB2 or EGFR amplifications had received anti‐EGFR therapy. Additionally, the nominated target TOX3 [34] was amplified in one patient. The amplification events were commonly concordant in intrapatient intermetastatic comparisons, albeit with variation in the amplitude (Fig. 2B). Among patients with multiple metastases analyzed, 31% of high‐level amplifications were homogeneous, and an additional 38% of the amplifications had lower‐amplitude gains (≥ 5 additional copies) in all other metastases from the same patient. Corresponding numbers for amplification events affecting cancer‐critical genes were 50% and 25% (Fig. S2). Notably, intrapatient concordance was also found for the clinically relevant target genes ERBB2 and EGFR, including in comparison with the primary tumor of one patient with ERBB2 amplification (9 additional copies in the primary and 17 and 18 additional copies in the two metastases). For the patient with two CRLM with CCND2 amplifications (29 and 47 additional copies), the primary tumor had 32 additional copies of this gene. The patient with CCND3 amplification in the range of 14–16 additional copies in all 7 metastases did not have a detectable CCND3 amplification in the primary tumor.
+
+Intermetastatic heterogeneity status for high‐level amplifications of cancer‐critical genes.
+Patient	Number of tumors analyzed	Region (hg19)	Cancer‐critical genes in region	Copy number (range among tumors) a	Intrapatient intermetastatic heterogeneity
+1	7	chr6:39863162‐42671542	CCND3, TFEB	14–16 b	No (when also counting intermediate‐level amplifications of 14 copies)
+2	3	chr1:65183880‐66527443	JAK1	10–15	No (when also counting intermediate‐level amplifications of 10–14 copies)
+chr7:54576560‐56118007	EGFR	37–58	No
+chr7:90792390‐92573683	AKAP9, CDK6	0–22	Yes
+chr18:41497284‐42716881	SETBP1	18–20	No
+3	2	chr12:4279446‐4431071	CCND2	29–47 c	No
+chr16:40873444‐53153010	CYLD, TOX3 d	0–16 c	Yes
+4	6	chr13:20528021‐21570265	ZMYM2	3–15	Yes
+chr13:28302602‐28662578	CDX2, FLT3	3–15	Yes
+5	5	chr17:37604254‐37701703	CDK12	16–41	No
+chr17:37704051‐38191836	ERBB2	41–55	No
+6	2	chr17:36841569‐37669141	LASP1, MLLT6	12–18 e	No (when also counting intermediate‐level amplifications of 12–14 copies)
+chr17:37669142‐37993556	CDK12, ERBB2	17–18 e	No
+chr17:53268056‐53593625	HLF	14–18 e	No (when also counting intermediate‐level amplifications of 14 copies)
+chr17:56250122‐57541594	RNF43	14–18 e	No (when also counting intermediate‐level amplifications of 14 copies)
+
+### Frequent intermetastatic DNA copy number heterogeneity on the genome‐wide scale
+
+The genome‐wide CNA frequencies, summarized patient‐wise, were in accordance with the well‐known aberration profiles of CRC (among 192 lesions from 64 patients; Fig. S3). Frequent copy number gains were found on chromosome arms 7p and q, 8q, 13q, and 20q, and copy number losses on 1p, 4p and q, 8p, 17p, and 18p and q.
+
+High‐quality DNA copy number data were available for at least two metastatic lesions from 48 patients (Fig. 1), including a total of 176 tumors and a median of 4 tumors per patient (range 2–8). For these patients, intermetastatic CNA heterogeneity was estimated by three different approaches (Methods) and with three different sets of input data of varying width of genomic coverage (across the whole genome, from protein‐coding genes, or from only the subset of 672 cancer‐critical genes). The different estimates were strongly correlated, indicating robustness to both the approach (Spearman’s rho ≥ 0.63, P < 0.001) and to the width of genomic coverage (Spearman’s rho ≥ 0.93, P < 0.001; Fig. S4). Further analyses were performed using the genome‐wide Euclidean distance‐derived heterogeneity measure, consistent with our previous study [25]. There was a large variation among patients in the degree of intermetastatic CNA heterogeneity (Fig. 3A). This CNA heterogeneity was independent of the number of lesions analyzed per patient, the patient‐wise median aberrant cell fraction and the RAS/BRAF V600E mutation status, but was correlated with the patient‐wise median ploidy state and ploidy range, and the TP53 mutation status (Fig. 3B,C; Table S2). The CNA heterogeneity score was also weakly correlated with the mean patient‐wise CNA burden of the metastases (analyzed as the fraction of the genome with aberrant copy numbers; Spearman’s rho 0.33, P = 0.02; Fig. 3C).
+
+Fig. 3: (A) Genomic characteristics of 48 patients analyzed for DNA copy number heterogeneity. Top: Pairwise Euclidean distance measures ranged between 21 and 319, and heterogeneity scores per patient (mean pairwise distance measure per patient) ranged from 21 to 287 (median 104). Bottom: the bars indicate the fraction of CNAs found in one or more metastatic lesions but not all (discordant CNAs), the patient‐wise average CNA burden (proportion of the genome with aberrant copy number), the patient‐wise median and range of ploidy states among the metastases, and RAS/BRAF V600E and TP53 mutation status. (B) CNA heterogeneity was significantly associated with TP53, but not RAS/BRAFV600E mutation status (n = 42/n = 6 TP53 mutated/wild‐type; n = 29/n = 19 RAS/BRAF V600E mutated/wild‐type). TP53 mutation was also associated with higher CNA burden, while RAS/BRAF V600E mutations were associated with lower CNA burden (n = 51/n = 13 TP53 mutated/wild‐type; n = 42/n = 22 RAS/BRAF V600E mutated/wild‐type). The CNA estimates still varied within the mutational subgroups, with interquartile range between 27 and 65 for CNA heterogeneity (Euclidean distance) and 10–33 for CNA burden (%). (C) CNA heterogeneity assessed as the mean Euclidean distance was not correlated with the number of lesions analyzed, and only weakly to the overall CNA burden.
+
+### Co‐mutated RAS/BRAF V600E and TP53 are associated with poor patient outcome
+
+The 165 patients with MSS cancers that were treated with R0 or R1 hepatic resection had a median cancer‐specific survival of 48 months and a 5y‐CSS rate of 40%. The 139 patients with R0 or R1 status overall had a median cancer‐specific survival of 50 months and a 5y‐CSS rate of 44%. Several clinicopathological factors (Table 2) were associated with poor patient outcome in univariable Cox regression analysis, and gender, size of the largest metastasis, R‐status in the liver and presence of extrahepatic disease remained significant in multivariable analyses (Table 3).
+
+Clinicopathological characteristics of all 171 patients and 48 patients with multiple metastases and associated CNA data.
+Variable	Total patient series, n = 171	Subset for copy number heterogeneity analyses, n = 48
+n (range)	%	n (range)	%
+Age at surgery, median (range)	66 (21–85)	–	67 (21–85)	–
+Male sex	106	62	34	71
+Primary tumor in right colon a	36	21	12	25
+Positive nodal status primary	116 b	68	28	58
+Synchronous liver metastases c	134	78	39	81
+Previous resection of CRLM	37	22	9	19
+Previous chemotherapy	52	30	9	19
+Chemotherapy for these CRLM	131	77	43	90
+Targeted agents for these CRLM	47	27	17	35
+Median (range) number of chemotherapy cycles	4 (1–41)	–	5 (1–41)	–
+Median (range) size largest CRLM, mm d	27 (6–120)	–	29 (10–113)	–
+Median (range) number of CRLM d	4 (1–23)	–	6 (1–20)	–
+Median (range) number of analyzed CRLM	2 (1–9)	–	4 (2–8)	–
+Laparoscopic procedure	39	23	3	6
+Two‐stage hepatectomy	33	19	18	38
+Radiofrequency ablation	23	13	4	8
+R‐status liver				
+R0‐resection	71	42	14	29
+R1‐resection e	95	56	32	67
+R2‐resection f	5 g	3	2 h	4
+Extrahepatic disease (%)	32	19	10	21
+
+Cox regression analyses.
+Variable	Univariable analysis	Multivariable analysis	N patients (events)
+HR a (95% CI b )	P‐value	HR a (95% CI b )	P‐value
+Age at surgery > cohort median	1.2 (0.8–1.8)	0.444			165 (92)
+Male sex	2.7 (1.7–4.3)	< 0.001	2.7 (1.7–4.4)	< 0.001	
+Primary tumor in right colon	1.4 (0.8–2.2)	0.213			
+Positive nodal status primary	0.9 (0.6–1.4)	0.617			
+Synchronous liver metastases	0.8 (0.5–1.2)	0.269			
+Previous resection of CRLM	0.6 (0.4–1.1)	0.094			
+Previous chemotherapy	1.2 (0.8–1.9)	0.356			
+Chemotherapy for these CRLM	1.4 (0.9–2.4)	0.169			
+Targeted agents for these CRLM	0.9 (0.6–1.4)	0.665			
+Number of cycles > cohort median	1.6 (1.1–2.5)	0.018	1.4 (0.9–2.1)	0.168	
+Size largest CRLM, mm > cohort median	1.7 (1.1–2.6)	0.010	1.6 (1.1–2.5)	0.026	
+Single metastasis	0.6 (0.4–1.1)	0.124			
+Number of CRLM > cohort median c	1.2 (0.8–1.9)	0.328			
+Laparoscopic procedure	0.8 (0.5–1.3)	0.303			
+Two‐stage hepatectomy	1.3 (0.8–2.1)	0.236			
+Radiofrequency ablation	0.9 (0.5–1.7)	0.778			
+R‐status liver d	1.6 (1.0–2.4)	0.034	1.7 (1.1–2.7)	0.013	
+Extrahepatic disease	2.7 (1.7–4.3)	< 0.001	2.2 (1.3–3.6)	0.003	
+RAS/BRAFV600E and TP53 co‐mutation yes/no	1.9 (1.2–2.9)	0.003			
+RAS/BRAFV600E and TP53 co‐mutation e	TP53 only	2.3 (0.8–6.6)	0.106	2.4 (0.9–6.9)	0.096	
+RAS/BRAFV600E only	2.6 (0.9–7.8)	0.089	3.0 (1.0–9.0)	0.054	
+co‐mut	4.1 (1.5–11.6)	0.007	3.9 (1.3–11.1)	0.012	
+RAS/BRAFV600E and TP53 co‐mutation and high mean patient‐wise CNA burden f	Co‐mutation and low CNA burden	1.5 (0.7–3.2)	0.281			62 (40)
+Co‐mutation and high CNA burden	2.7 (1.2–5.9)	0.013			
+RAS/BRAFV600E and TP53 co‐mutation and high intermetastatic CNA heterogeneity f	Co‐mutation and low CNA heterogeneity	1.6 (0.6–4.5)	0.365			46 (30)
+Co‐mutation and high CNA heterogeneity	2.5 (1.1–5.6)	0.022			
+
+RAS/BRAF V600E mutations, but not TP53 mutations, were associated with a poor 5y‐CSS in univariable analyses (RAS/BRAF V600E: 32% for mutated versus 47% for wild‐type, P = 0.01; TP53: 35% for mutated versus 55% for wild‐type, P = 0.1; Fig. 4). Co‐mutations of RAS/BRAF V600E and TP53 had a strong prognostic impact, with a 5y‐CSS of 25%, compared to 46% for patients with RAS/BRAF V600E mutation only, 42% for TP53 mutation only, and 71% in patients with wild‐type status for all four genes (P = 0.001, test for trend, Fig. 4). Co‐mutated RAS/BRAF V600E and TP53 was not significant compared to patients with RAS/BRAF V600E mutations only (P = 0.2). The prognostic role of co‐mutations was not driven by patients with BRAF V600E mutations, as the analyses remained significant upon exclusion of 3 patients with BRAFV600E mutations (Fig. S5a).
+
+Fig. 4: Five‐year CSS according to mutation status. P values are derived from log rank tests for comparisons of two groups and log rank tests for trend for comparisons of more than two groups. For pairwise comparisons, RAS/BRAF V600E/TP53 co‐mutation was associated with significantly worse survival than double wild‐type (P = 0.006) and TP53 mutation only (P = 0.01), but not compared to RAS/BRAF V600E mutations only (P = 0.2). Wt = wild‐type.
+
+Co‐mutations of RAS/BRAF V600E and TP53 were enriched in patients with a right‐sided primary tumor location and with extrahepatic metastases and depleted among patients with positive nodal status and those receiving neoadjuvant anti‐EGFR or VEGF treatment (Table S3). However, co‐mutation remained significant in multivariable analyses including clinicopathological factors (Table 3).
+
+### Genome‐wide CNA profiles have poor prognostic associations
+
+Two measures of the CNA profiles of the CRLM were analyzed for prognostic associations among patients with MSS cancers and R0/R1 resection: the genome‐wide CNA burden (n = 62, the mean across lesions for patients with multiple CRLM analyzed) and the intrapatient intermetastatic CNA heterogeneity estimate (n = 48). Both these patient‐wise CNA measures were categorized into a high and low group relative to the respective median in the patient series. High CNA heterogeneity or CNA burden was not overrepresented according to any of the clinical variables listed in Table 2. A high overall CNA burden was significantly associated with a poor 5y‐CSS rate in univariable analyses, with survival rates of 15% and 44% in the high and low groups, respectively (P = 0.02; Fig. 5). CNA burden, measured as the fraction of the genome affected by copy number aberrations, was also significantly associated with a poor patient outcome when analyzed as a continuous variable (HR 1.03, 95% CI 1.01–1.05, P = 0.009). Furthermore, patients with high intrapatient intermetastatic CNA heterogeneity also had a poorer survival rate than patients with a low heterogeneity, although not statistically significant in this smaller patient subgroup (5y‐CSS of 23% and 37%, respectively, P = 0.2; Fig. 5). The combination of a high CNA burden and a high CNA heterogeneity was associated with a particularly poor patient outcome, and patients in this subgroup had a 5yr‐CSS rate of 9%, compared to 30% among patients with only one of the variables high and 50% among patients low for both CNA measures (P = 0.02, test for trend; Fig. 5). The median survival rates in the three groups were 25, 36, and 50 months, respectively.
+
+Fig. 5: Five‐year CSS according to CNA burden (left), CNA heterogeneity (middle), and both measures combined (right). P values are derived from log rank tests for comparisons of two groups and log rank tests for trend for comparisons of more than two groups.
+
+### Combined biomarker analyses suggest potential for stratification of the RAS/BRAF V600E /TP53‐mutated subgroup by CNA profiles
+
+Both CNA heterogeneity and CNA burden were significantly higher in patients with TP53‐mutated compared to wild‐type tumors, but the CNA estimates were not associated with RAS/BRAF V600E mutation status. Furthermore, there was a substantial variation in the CNA estimates within the mutational subgroups (Fig. 3B), motivating us to analyze the different prognostic biomarkers individually and combined. Within the RAS/BRAF V600E ‐mutated subgroup, the 5y‐CSS was 15% in patients with a high level of intermetastatic CNA heterogeneity versus 42% in patients with low CNA heterogeneity (P = 0.08). Similarly, the 5y CSS was 0% in the RAS/BRAF V600E ‐mutated patients with a high CNA burden versus 44% in RAS/BRAF V600E‐mutated patients with a low CNA burden (P = 0.02; Fig. 6A). Prognostic stratification of the TP53‐mutated subgroup by either of the CNA estimates was not statistically significant (P ≥ 0.2; Fig. S5b). The triple combination of co‐mutation in RAS/BRAF V600E and TP53 and high intermetastatic CNA heterogeneity was associated with a worse 5y‐CSS compared with co‐mutations/low heterogeneity and the remaining patients (P = 0.02 for analysis of trend among the three groups; Fig. 6B). Similar stratification of patients with co‐mutations by the CNA burden showed a prognostic association also for patients with a triple combination of co‐mutations and high CNA burden (P = 0.01, test for trend; Fig. 6B). Both associations were also supported by univariable Cox regression analyses (Table 3). Similar results were found when excluding patients with extrahepatic metastases from the analyses (Fig. S5c).
+
+Fig. 6: (A) The RAS/BRAF V600E ‐mutated patient subgroup stratified by CNA heterogeneity (n = 27; left) and CNA burden (n = 40; right). (B) Patients with co‐mutated RAS/BRAF V600E/TP53 stratified according to CNA heterogeneity (n = 46; left) and CNA burden (n = 62; right). P values are derived from log rank tests for comparisons of two groups and log rank tests for trend for comparisons of more than two groups.
+
+## Discussion
+
+Intrapatient molecular heterogeneity is anticipated to have clinical implications [35], and current evidence in metastatic CRC suggests that heterogeneity on the DNA copy number level is more widespread than heterogeneity of single nucleotide variants (SNVs) and small insertions/deletions (indels), at least in cancer‐critical genes [23, 25, 26]. We have shown that mutations in KRAS, NRAS, BRAF V600E [19], and TP53 are predominantly homogeneously present among multiple resected CRLM from each patient. The DNA copy number states of the four genes were more heterogeneous among metastases and correlated with the genome‐wide intermetastatic CNA heterogeneity, consistent with a lower selection pressure for these genes on the DNA copy number level than on the point mutation level. Furthermore, high‐level amplifications targeting cancer‐critical genes, including the therapeutic targets ERBB2 and EGFR, were also typically homogeneously present within patients, both among multiple metastatic lesions and in the primary tumor. The timing of cancer‐critical amplifications is poorly studied in CRC, and our results suggest that driver amplicons commonly arise before metastatic dissemination. In contrast, the level of genome‐wide intermetastatic DNA copy number heterogeneity beyond amplification events varied substantially among patients. There was no enrichment or depletion of cancer‐related genes among genomic regions with heterogeneous DNA copy number, suggesting that CNA heterogeneity is a genome‐wide and target‐ignorant characteristic.
+
+There is an urgent clinical need for markers to identify patients with resectable or potentially resectable CRLM who are likely to have a long‐term benefit from surgery and systemic perioperative treatment. Analysis of circulating tumor DNA has demonstrated strong potential in the adjuvant or nonresectable settings, for detection of minimal residual disease and monitoring of response to systemic therapy [36]. Such noninvasive testing of prognostic markers prior to surgery is currently limited, although a trend for a prognostic effect of KRAS mutations in preoperative ctDNA was seen in a recent study [37]. BRAF V600E and RAS mutations are the molecular markers with best documented prognostic value, but their use in selection of patients for hepatectomy is currently not supported. BRAF V600E has been shown to have the strongest prognostic effect size, but a low prevalence of only 3–5% among patients with resectable CRLM [17], and < 2% in this study. RAS mutations identify a larger patient subgroup, but have weaker prognostic value, which suggests molecular heterogeneity among patients with RAS‐mutated cancers. In primary CRC, the prognostic value of KRAS has been suggested to be limited to MSS cancers and to depend on the consensus molecular subtypes [38]. In patients with resectable CRLM, the prognostic value may depend on co‐occurring TP53 mutations [14, 15] or TP53/SMAD4 mutations [16]. Our study supports the potential for improved prognostic stratification of patients with resectable CRLM based on RAS/BRAF V600E and TP53 co‐mutations, although the study is not sufficiently powered to conclude on the independent prognostic value of individual mutations, in particular the low‐prevalence BRAF V600E and NRAS mutations. Another potential limitation of our study is the weaker sensitivity of Sanger sequencing than high‐throughput sequencing for mutation detection, although this concern was reduced by multiple sampling and the generally low level of tumor heterogeneity of CRC‐critical mutations.
+
+We further suggest that high intermetastatic genomic heterogeneity confers poor outcome within the RAS‐mutated subgroup and show a potential for further prognostic stratification of the RAS/BRAF V600E and TP53 co‐mutated subgroup by combined analyses with genome‐wide CNA profiles. Although CNA burden and the level of CNA heterogeneity were independent of RAS mutation status, patients with TP53‐mutated tumors had more extensive intermetastatic CNA heterogeneity and a higher CNA burden than patients with wild‐type tumors, suggesting a confounding prognostic effect. Loss of normal TP53 expression has previously been associated with tolerability to aneuploidy [39, 40, 41, 42, 43, 44, 45], and it is conceivable that TP53 mutations are needed for a submissive state that allows extensive copy number heterogeneity to evolve. The CNA heterogeneity estimate had nonsignificant prognostic associations, while a high CNA burden was significantly associated with poor cancer‐specific survival. The latter is in line with a recent pan‐cancer study of metastatic disease [46]. Our study cannot conclude on the independent prognostic value of CNA heterogeneity and TP53 mutations in patients with RAS‐mutated CRLM, although there was a significant trend for poorer patient survival in the RAS/BRAF V600E /TP53 co‐mutated/high CNA heterogeneity group versus co‐mutated/low heterogeneity versus remaining patients. In accordance with a recent report [14], multivariable analysis with clinicopathological variables supports the independent poor‐prognostic associations of co‐mutated RAS/BRAF V600E and TP53 CRLMs.
+
+It has been debated whether the association between residual disease and outcome may reflect underlying cancer biology, as mutated RAS is associated with both a positive resection margin and early development of lung metastases [10, 11, 47]. However, excluding the patients with extra‐hepatic metastases did not impact on the prognostic associations found in this study.
+
+## Conclusions
+
+We have described genomic heterogeneity on the DNA copy number level in patients with resectable CRLM, also within patient subgroups defined by RAS/BRAF V600E and TP53 mutations. By combined biomarker analyses, we support the superior prognostic value of RAS/BRAF V600E and TP53 co‐mutations compared with either mutation alone. Furthermore, a high level of intrapatient intermetastatic CNA heterogeneity or CNA burden may identify a subgroup of RAS/BRAF V600E/TP53‐mutated cancers associated with a particularly poor outcome.
+
+## Conflict of interest
+
+The authors declare no conflict of interest.
+
+## Author contributions
+
+KCGB, AS, AN, and RAL involved in study concept and design; all authors performed the acquisition of data; KCGB, THB, AS, AN, and RAL performed the analysis and interpretation of data; KCGB, THB, AS, and RAL drafted the manuscript; all authors involved in critical revision and approval of the final manuscript; AN and RAL supervised the study.
+
+## Section
+
+### Peer Review
+
+The peer review history for this article is available at https://publons.com/publon/10.1002/mol2.12885.
+
+## Supporting information
+
+Fig. S1. a) An alternative pipeline for estimation of CNA heterogeneity was tested, where the CNA heterogeneity score was calculated based on data segmented by the PCF algorithm from the R copy number package, including only segments with variance > 0.3 per comparison, similar to Sveen et al. 2016. The heterogeneity measures derived from the alternative pipeline (x‐axis) and that from the main analysis, using the ASCAT algorithm (y‐axis) were correlated. b) The copy number states for KRAS, NRAS, BRAF V600E and TP53 were heterogeneous across samples. The four panels show the number of additional copies of the four genes in 176 metastatic lesions from 48 patients, sorted patient‐wise and grouped according to the mutation statuses of the two genes. The gray bars below the heatmaps denotes the change from one patient to the next. d) Heterogenous copy number states for KRAS, NRAS, BRAF V600E and TP53 reflected the genome‐wide CNA heterogeneity score, with a higher genome‐wide heterogeneity scores in patients where the particular genes had intermetastatic heterogeneous copy number states.
+
+Click here for additional data file.
+
+Fig. S2. a) Overview of intrapatient concordance of the 35 amplification events in 19 patients. Each count (y‐axis) is a unique amplification event in one patient. The x‐axis shows the fraction of the metastases from the given patient with concordant amplification. For example, a fraction of 0.5 indicates that half of the metastases from the patient in question have concordant amplification, while a fraction of 1 indicates that all metastases from the given patient have concordant amplification. Thirty‐one per cent of the amplification events were fully concordant at a ≥ 15 additional copies level (i.e., all the metastatic lesions from the given patient had ≥ 15 additional copies), a threshold of 5 additional copies to accept concordance resulted in 69% intrapatient concordance. b) For the 12 amplification events affecting cancer‐critical genes, 50% were concordant at ≥ 15 additional copies in all lesions from the affected patient, while a threshold of 5 additional copies to accept concordance resulted in 75% intrapatient concordance.
+
+Click here for additional data file.
+
+Fig. S3. Summarized frequencies of DNA copy number aberrations across 64 patients (192 lesions). For patients with more than one lesion available, the frequencies were summarized per patient by calling gains and losses in any given genomic region when they occurred in at least one lesion from that patient. In cases where at least one lesion had gain while at least one lesion had loss in the same genomic region, both a gain and a loss in this region was called.
+
+Click here for additional data file.
+
+Fig. S4. Heterogeneity measures based on either Euclidean distance, correlation‐based distance or fraction of discordant CNAs were highly concordant irrespective of whether they were estimated based on a genome‐wide approach or based on cancer‐critical genes only (Spearman’s rho ≥0.93). Also, the heterogeneity estimates from the three different methods were correlated to one another (Spearman’s rho ≥0.63).
+
+Click here for additional data file.
+
+Fig. S5. a) RAS mutations and RAS/TP53 co‐mutations were persistently associated with poor patient outcome when excluding patients with BRAF V600E mutations from the analysis. b) A high CNA heterogeneity or CNA burden did not significantly stratify patients with TP53 mutated tumors according to patient outcome. d) A high CNA heterogeneity and CNA burden still stratified patients with RAS/BRAF V600E and TP53 co‐mutated tumors in terms of outcome when patients with extrahepatic metastases where excluded from the analysis, although nonsignificantly for CNA burden. P values are derived from log rank tests for comparisons of two groups and log rank tests for trend for comparisons of more than two groups.
+
+Click here for additional data file.
+
+Table S1. Primers for Sanger sequencing.
+
+Table S2. Correlation between CNA heterogeneity score (calculated as the intrapatient mean pairwise Euclidean distance) and other CNA variables.
+
+Table S3. Overrepresentation of RAS/BRAF V600E and TP53 co‐mutation according to key clinicopathological variables (n = 171 patients).
+
+Click here for additional data file.
+
+We are grateful to Stine A. Danielsen for excellent technical assistance with the CytoScanHD arrays. This study was supported by grants from the Research Council of Norway (grant no 287899), the Research Council of Norway in cooperation with University of Oslo (Toppforsk—grant no 250993), the foundation ‘Stiftelsen K.G. Jebsen’, The South‐Eastern Norway Regional Health Authority and the Norwegian Cancer Society (grant no 6824048‐2016 and 182759‐2016).
+
+## Data accessibility
+
+The datasets supporting the conclusions of this article can be obtained from the authors upon reasonable request.
+
+## References
+1. 1 Angelsen J‐H , Horn A , Sorbye H , Eide GE , Løes IM & Viste A (2017) Population‐based study on resection rates and survival in patients with colorectal liver metastasis in Norway. Br J Surg 104, 580–589.2818167410.1002/bjs.10457
+2. 2 Engstrand J , Nilsson H , Strömberg C , Jonas E & Freedman J (2018) Colorectal cancer liver metastases – a population‐based study on incidence, management and survival. BMC Cancer 18, 78.2933491810.1186/s12885-017-3925-xPMC5769309
+3. 3 Brudvik KW , Bains SJ , Seeberg LT , Labori KJ , Waage A , Taskén K , Aandahl EM & Bjørnbeth BA (2013) Aggressive treatment of patients with metastatic colorectal cancer increases survival: a Scandinavian single‐center experience. HPB Surg 2013, 727095.2384007410.1155/2013/727095PMC3690245
+4. 4 Cancer Registry of Norway (2018) Cancer in Norway 2018 – Cancer Incidence, Mortality, Survival and Prevalence in Norway. Cancer Registry of Norway, Oslo. Available at: https://www.kreftregisteret.no/globalassets/cancer‐in‐norway/2018/cin2018.pdf. Accessed May 8, 2020.
+5. 5 Imai K , Allard M‐A , Benitez CC , Vibert E , Sa Cunha A , Cherqui D , Castaing D , Bismuth H , Baba H & Adam R (2016) Early recurrence after hepatectomy for colorectal liver metastases: what optimal definition and what predictive factors? Oncologist 21, 887–894.2712575310.1634/theoncologist.2015-0468PMC4943389
+6. 6 de Jong MC , Pulitano C , Ribero D , Strub J , Mentha G , Schulick RD , Choti MA , Aldrighetti L , Capussotti L & Pawlik TM (2009) Rates and patterns of recurrence following curative intent surgery for colorectal liver metastasis: an international multi‐institutional analysis of 1669 patients. Ann Surg 250, 440–448.1973017510.1097/SLA.0b013e3181b4539b
+7. 7 Roberts KJ , White A , Cockbain A , Hodson J , Hidalgo E , Toogood GJ & Lodge JPA (2014) Performance of prognostic scores in predicting long‐term outcome following resection of colorectal liver metastases. Br J Surg 101, 856–866.2481765310.1002/bjs.9471
+8. 8 Chow FCL & Chok KSH (2019) Colorectal liver metastases: an update on multidisciplinary approach. World J Hepatol 11, 150–172.3082026610.4254/wjh.v11.i2.150PMC6393711
+9. 9 Kemeny NE , Chou JF , Capanu M , Gewirtz AN , Cercek A , Kingham TP , Jarnagin WR , Fong YC , DeMatteo RP , Allen PJ et al. (2014) KRAS mutation influences recurrence patterns in patients undergoing hepatic resection of colorectal metastases. Cancer 120, 3965–3971.2515515710.1002/cncr.28954PMC4574496
+10. 10 Brudvik KW , Mise Y , Chung MH , Chun YS , Kopetz SE , Passot G , Conrad C , Maru DM , Aloia TA & Vauthey J‐N (2016) RAS mutation predicts positive resection margins and narrower resection margins in patients undergoing resection of colorectal liver metastases. Ann Surg Oncol 23, 2635–2643.2701629210.1245/s10434-016-5187-2PMC5527830
+11. 11 Vauthey J‐N , Zimmitti G , Kopetz SE , Shindoh J , Chen SS , Andreou A , Curley SA , Aloia TA & Maru DM (2013) RAS mutation status predicts survival and patterns of recurrence in patients undergoing hepatectomy for colorectal liver metastases. Ann Surg 258, 619.2401864510.1097/SLA.0b013e3182a5025aPMC3856211
+12. 12 Passot G , Denbo JW , Yamashita S , Kopetz SE , Chun YS , Maru D , Overman MJ , Brudvik KW , Conrad C , Aloia TA et al. (2017) Is hepatectomy justified for patients with RAS mutant colorectal liver metastases? An analysis of 524 patients undergoing curative liver resection. Surgery 161, 332–340.2759221510.1016/j.surg.2016.07.032
+13. 13 Tosi F , Magni E , Amatu A , Mauri G , Bencardino K , Truini M , Veronese S , De Carlis L , Ferrari G , Nichelatti M et al. (2017) Effect of KRAS and BRAF mutations on survival of metastatic colorectal cancer after liver resection: a systematic review and meta‐analysis. Clin Colorectal Cancer 16, e153–163.2821624610.1016/j.clcc.2017.01.004
+14. 14 Chun YS , Passot G , Yamashita S , Nusrat M , Katsonis P , Loree JM , Conrad C , Tzeng C‐WD , Xiao L , Aloia TA et al. (2019) Deleterious effect of RAS and evolutionary high‐risk TP53 double mutation in colorectal liver metastases. Ann Surg 269, 917–923.2876756210.1097/SLA.0000000000002450PMC7462436
+15. 15 Datta J , Smith JJ , Chatila WK , McAuliffe JC , Kandoth C , Vakiani E , Frankel TL , Ganesh K , Wasserman I , Lipsyc‐Sharf M et al. (2020) Co‐Altered Ras/B‐raf and TP53 is associated with extremes of survivorship and distinct patterns of metastasis in metastatic colorectal cancer patients. Clin Cancer Res 26, 1077–1085.3171905010.1158/1078-0432.CCR-19-2390PMC7056517
+16. 16 Kawaguchi Y , Kopetz S , Newhook TE , Bellis MD , Chun YS , Tzeng C‐WD , Aloia TA & Vauthey J‐N (2019) Mutation status of RAS, TP53, and SMAD4 is superior to mutation status of RAS alone for predicting prognosis after resection of colorectal liver metastases. Clin Cancer Res 25, 5843–5851.3122166210.1158/1078-0432.CCR-19-0863PMC6774854
+17. 17 Margonis GA , Buettner S , Andreatos N , Kim Y , Wagner D , Sasaki K , Beer A , Schwarz C , Løes IM , Smolle M et al. (2018) Association of BRAF mutations with survival and recurrence in surgically treated patients with metastatic colorectal liver cancer. JAMA Surg 153, e180996.2979991010.1001/jamasurg.2018.0996PMC6137519
+18. 18 Brannon AR , Vakiani E , Sylvester BE , Scott SN , McDermott G , Shah RH , Kania K , Viale A , Oschwald DM , Vacic V et al. (2014) Comparative sequencing analysis reveals high genomic concordance between matched primary and metastatic colorectal cancer lesions. Genome Biol 15, 454.2516476510.1186/s13059-014-0454-7PMC4189196
+19. 19 Brunsell TH , Sveen A , Bjørnbeth BA , Røsok BI , Danielsen SA , Brudvik KW , Berg KCG , Johannessen B , Cengija V , Abildgaard A et al. (2020) High concordance and negative prognostic impact of RAS/BRAF/PIK3CA mutations in multiple resected colorectal liver metastases. Clin Colorectal Cancer 19, e26–e47.3198235110.1016/j.clcc.2019.09.003
+20. 20 Morelli MP , Overman MJ , Dasari A , Kazmi SMA , Mazard T , Vilar E , Morris VK , Lee MS , Herron D , Eng C et al. (2015) Characterizing the patterns of clonal selection in circulating tumor DNA from patients with colorectal cancer refractory to anti‐EGFR treatment. Ann Oncol 26, 731–736.2562844510.1093/annonc/mdv005PMC4374387
+21. 21 Siravegna G , Mussolin B , Buscarino M , Corti G , Cassingena A , Crisafulli G , Ponzetti A , Cremolini C , Amatu A , Lauricella C et al. (2015) Clonal evolution and resistance to EGFR blockade in the blood of colorectal cancer patients. Nat Med 21, 795–801.2603017910.1038/nm.3870PMC4868598
+22. 22 Kim T‐M , Jung S‐H , An CH , Lee SH , Baek I‐P , Kim MS , Park S‐W , Rhee J‐K , Lee S‐H & Chung Y‐J (2015) Subclonal genomic architectures of primary and metastatic colorectal cancer based on intratumoral genetic heterogeneity. Clin Cancer Res 21, 4461–4472.2597948310.1158/1078-0432.CCR-14-2413
+23. 23 Jesinghaus M , Wolf T , Pfarr N , Muckenhuber A , Ahadova A , Warth A , Goeppert B , Sers C , Kloor M , Endris V et al. (2015) Distinctive spatiotemporal stability of somatic mutations in metastasized microsatellite‐stable colorectal cancer. Am J Surg Pathol 39, 1140–1147.2578608710.1097/PAS.0000000000000423
+24. 24 Hu Z , Ding J , Ma Z , Sun R , Seoane JA , Shaffer JS , Suarez CJ , Berghoff AS , Cremolini C , Falcone A et al. (2019) Quantitative evidence for early metastatic seeding in colorectal cancer. Nat Genet 51, 1113–1122.3120939410.1038/s41588-019-0423-xPMC6982526
+25. 25 Sveen A , Løes IM , Alagaratnam S , Nilsen G , Høland M , Lingjærde OC , Sorbye H , Berg KCG , Horn A , Angelsen J‐H et al. (2016) Intra‐patient inter‐metastatic genetic heterogeneity in colorectal cancer as a key determinant of survival after curative liver resection. PLoS Genet 12, e1006225.2747227410.1371/journal.pgen.1006225PMC4966938
+26. 26 Mamlouk S , Childs LH , Aust D , Heim D , Melching F , Oliveira C , Wolf T , Durek P , Schumacher D , Bläker H et al. (2017) DNA copy number changes define spatial patterns of heterogeneity in colorectal cancer. Nat Commun 8, 14093.2812082010.1038/ncomms14093PMC5288500
+27. 27 Brunsell TH , Cengija V , Sveen A , Bjørnbeth BA , Røsok BI , Brudvik KW , Guren MG , Lothe RA , Abildgaard A & Nesbakken A (2019) Heterogeneous radiological response to neoadjuvant therapy is associated with poor prognosis after resection of colorectal liver metastases. Eur J Surg Oncol 45, 2340–2346.3135007510.1016/j.ejso.2019.07.017
+28. 28 Ahmed D , Eide PW , Eilertsen IA , Danielsen SA , Eknæs M , Hektoen M , Lind GE & Lothe RA (2013) Epigenetic and genetic features of 24 colon cancer cell lines. Oncogenesis 2, e71.2404273510.1038/oncsis.2013.35PMC3816225
+29. 29 Mayrhofer M , Viklund B & Isaksson A (2016) Rawcopy: Improved copy number analysis with Affymetrix arrays. Sci Rep 6, 36158.2779633610.1038/srep36158PMC5086940
+30. 30 Loo PV , Nordgard SH , Lingjærde OC , Russnes HG , Rye IH , Sun W , Weigman VJ , Marynen P , Zetterberg A , Naume B et al. (2010) Allele‐specific copy number analysis of tumors. Proc Natl Acad Sci USA 107, 16910–16915.2083753310.1073/pnas.1009843107PMC2947907
+31. 31 Nilsen G , Liestøl K , Van Loo P , Moen Vollan HK , Eide MB , Rueda OM , Chin S‐F , Russell R , Baumbusch LO , Caldas C et al. (2012) Copynumber: efficient algorithms for single‐ and multi‐track copy number segmentation. BMC Genom 13, 591.10.1186/1471-2164-13-591PMC358259123442169
+32. 32 COSMIC Cancer Gene Census v86. Available at: https://cancer.sanger.ac.uk/census. Accessed June 28, 2018.
+33. 33 Punt CJA , Buyse M , Köhne C‐H , Hohenberger P , Labianca R , Schmoll HJ , Påhlman L , Sobrero A & Douillard J‐Y (2007) Endpoints in adjuvant treatment trials: a systematic review of the literature in colon cancer and proposed definitions for future trials. J Natl Cancer Inst 99, 998–1003.1759657510.1093/jnci/djm024
+34. 34 Berg KCG , Sveen A , Høland M , Alagaratnam S , Berg M , Danielsen SA , Nesbakken A , Søreide K & Lothe RA (2019) Gene expression profiles of CMS2‐epithelial/canonical colorectal cancers are largely driven by DNA copy number gains. Oncogene 38, 6109–6122.3130848710.1038/s41388-019-0868-5PMC6756070
+35. 35 McGranahan N & Swanton C (2017) Clonal heterogeneity and tumor evolution: past, present, and the future. Cell 168, 613–628.2818728410.1016/j.cell.2017.01.018
+36. 36 Dasari A , Morris VK , Allegra CJ , Atreya C , Benson AB III , Boland P , Chung K , Copur MS , Corcoran RB , Deming DA et al. (2020) ctDNA applications and integration in colorectal cancer: an NCI Colon and Rectal‐Anal Task Forces whitepaper. Nat Rev Clin Oncol 17, 757–770.3263226810.1038/s41571-020-0392-0PMC7790747
+37. 37 Polivka J , Windrichova J , Pesta M , Houfkova K , Rezackova H , Macanova T , Vycital O , Kucera R , Slouka D & Topolcan O (2020) The level of preoperative plasma KRAS mutations and CEA predict survival of patients undergoing surgery for colorectal cancer liver metastases. Cancers (Basel) 12, 2434.10.3390/cancers12092434PMC756527032867151
+38. 38 Smeby J , Sveen A , Merok MA , Danielsen SA , Eilertsen IA , Guren MG , Dienstmann R , Nesbakken A & Lothe RA (2018) CMS‐dependent prognostic impact of KRAS and BRAFV600E mutations in primary colorectal cancer. Ann Oncol 29, 1227–1234.2951818110.1093/annonc/mdy085PMC5961317
+39. 39 Dalton WB , Yu B & Yang VW (2010) p53 suppresses structural chromosome instability after mitotic arrest in human cells. Oncogene 29, 1929–1940.2006208310.1038/onc.2009.477PMC2848712
+40. 40 Ho CC , Hau PM , Marxer M & Poon RYC (2010) The requirement of p53 for maintaining chromosomal stability during tetraploidization. Oncotarget 1, 583–595.2131745410.18632/oncotarget.193PMC3248137
+41. 41 Rausch T , Jones DTW , Zapatka M , Stütz AM , Zichner T , Weischenfeldt J , Jäger N , Remke M , Shih D , Northcott PA et al. (2012) Genome sequencing of pediatric medulloblastoma links catastrophic DNA rearrangements with TP53 mutations. Cell 148, 59–71.2226540210.1016/j.cell.2011.12.013PMC3332216
+42. 42 Andreassen PR , Lohez OD , Lacroix FB & Margolis RL (2001) Tetraploid state induces p53‐dependent arrest of nontransformed mammalian cells in G1. Mol Biol Cell 12, 1315–1328.1135992410.1091/mbc.12.5.1315PMC34586
+43. 43 Zack TI , Schumacher SE , Carter SL , Cherniack AD , Saksena G , Tabak B , Lawrence MS , Zhang C‐Z , Wala J , Mermel CH et al. (2013) Pan‐cancer patterns of somatic copy number alteration. Nat Genet 45, 1134–1140.2407185210.1038/ng.2760PMC3966983
+44. 44 Thompson SL & Compton DA (2010) Proliferation of aneuploid human cells is limited by a p53‐dependent mechanism. J Cell Biol 188, 369–381.2012399510.1083/jcb.200905057PMC2819684
+45. 45 Dewhurst SM , McGranahan N , Burrell RA , Rowan AJ , Gronroos E , Endesfelder D , Joshi T , Mouradov D , Gibbs P , Ward RL et al. (2014) Tolerance of whole‐genome doubling propagates chromosomal instability and accelerates cancer genome evolution. Cancer Discov 4, 175–185.2443604910.1158/2159-8290.CD-13-0285PMC4293454
+46. 46 Hieronymus H , Murali R , Tin A , Yadav K , Abida W , Moller H , Berney D , Scher H , Carver B , Scardino P et al. (2018) Tumor copy number alteration burden is a pan‐cancer prognostic factor associated with recurrence and death. eLife 7, e37294.3017874610.7554/eLife.37294PMC6145837
+47. 47 Pereira AAL , Rego JFM , Morris V , Overman MJ , Eng C , Garrett CR , Boutin AT , Ferrarotto R , Lee M , Jiang Z‐Q et al. (2015) Association between KRAS mutation and lung metastasis in advanced colorectal cancer. Br J Cancer 112, 424–428.2553572610.1038/bjc.2014.619PMC4453646

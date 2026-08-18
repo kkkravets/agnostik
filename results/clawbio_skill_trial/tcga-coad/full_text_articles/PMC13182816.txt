@@ -1,0 +1,422 @@
+# Genomics of MTAP Loss in >500,000 Solid Tumor Specimens Profiled Using Comprehensive Genomic Profiling Platforms
+
+Authors: Dean C. Pavlick, Shruthi Rengarajan, Jessica K. Lee, Deter X. Jin, Garrett M. Frampton, Bernard J. Fendler, Andrej Savol, Ole Gjoerup, Hanna Tukachinsky, Richard S.P. Huang, Alexa B. Schrock, Jeffrey S. Ross, Andrea Necchi
+
+Journal: JCO Precision Oncology
+
+PMCID: PMC13182816
+
+PMID: 42133901
+
+DOI: 10.1200/PO-26-00037
+
+Canonical source: https://pmc.ncbi.nlm.nih.gov/articles/PMC13182816/
+
+## Abstract
+
+## PURPOSE
+
+Methylthioadenosine phosphorylase (MTAP) genomic loss is an emerging biomarker for PRMT5 and MAT2A inhibitors based on synthetic lethality. The MTAP gene is located on chromosome 9p21.3 near CDKN2A/B. MTAP homozygous loss across tumor types, specific exons lost, MTAP expression, and the landscape of coalterations were assessed.
+
+## METHODS
+
+409,755 tissue biopsies (TBx) and 85,801 liquid biopsies (LBx) were sequenced using hybrid capture–based NGS (FoundationOne CDx or FoundationOne Liquid CDx), evaluating all classes of genomic alterations and circulating tumor DNA (ctDNA) tumor fraction (TF). Additionally, 6,740 TBx were subjected to both RNA and DNA sequencing to compare MTAP gene expression with genomic MTAPloss.
+
+## RESULTS
+
+The prevalence of pan-tumor MTAPloss was 11.4% using TBx, with the highest prevalence observed in mesothelioma (32.8%), glioma (32.7%), pancreatic (28.9%), and bladder cancers (26.4%). Prevalence of MTAPloss on LBx approximated that of TBx when ctDNA TF ≥20% (positive percent agreement [PPA] = 86.2%). CDKN2Aloss was not a reliable proxy for MTAPloss; 33.7% of CDKN2Aloss cases did not have MTAPloss. MTAPloss was enriched with CDKN2A/B losses pan-tumor, EGFR in NSCLC, ERBB2 in colorectal cancer, and PTEN in prostate cancer, while MTAPno_loss was enriched for RB1 pan-tumor, APC in colorectal cancer, CCNE1 in breast and ovarian cancer, and SPOP in prostate cancer. Complete loss (exons 1-8) was observed in 82.9%, multiple exons in 16.5% and exon 8 alone in <1%. MTAPloss, specifically the number of exons lost, was correlated with reduced RNA expression.
+
+## CONCLUSION
+
+MTAPloss is a frequent pan-tumor alteration that predicts potential sensitivity to PRMT5 or MAT2A inhibitors. Although most tumors exhibit complete MTAPloss, 16.5% are characterized by partial MTAPloss where clinical benefit remains uncertain. The genomic coalteration landscape reported here may inform future PRMT5 or MAT2A clinical trials, potentially in combination with other agents.
+
+## Full article
+
+## INTRODUCTION
+
+The methylthioadenosine phosphorylase (MTAP) gene is located on chromosome 9p21.3, approximately 26 kb upstream of the tumor suppressor genes CDKN2A and CDKN2B.1-5 Homozygous loss of this locus, one of the most common somatic alterations in cancer, frequently results in codeletion of MTAP alongside CDKN2A/B.6-9
+
+### CONTEXT
+
+Key Objective This analysis of 409,755 tissue biopsies (TBx) and 85,801 liquid biopsies (LBx) assessed methylthioadenosine phosphorylase (MTAP) complete and partial exon loss, coalteration patterns in different tumor types, and correlation with MTAP RNA expression. Knowledge Generated MTAPloss was particularly prevalent in mesothelioma, glioma, pancreatic cancer, and bladder cancer, and detectable by comprehensive genomic profiling on both TBx and LBx when circulating tumor DNA tumor fraction was elevated. The coalteration landscape differed by tumor type, complete MTAPloss of all exons was observed in 82.9%, and RNA expression correlated with the number of exons lost. Relevance MTAPloss is prevalent across many tumor types and is emerging as a targetable alteration with several PRMT5 and MAT2A inhibitors in various stages of development. The coalteration landscape described here may inform future trial designs and combination therapies.
+
+Loss of MTAP function leads to MTA accumulation, which partially inhibits protein arginine methyltransferase 5 (PRMT5). This creates a metabolic dependency on PRMT5 and methionine adenosyltransferase 2A (MAT2A), rendering tumor cells hypersensitive to their inhibition through synthetic lethality mechanisms. Thus, MTAP homozygous loss has recently emerged as a promising biomarker for PRMT5 and MAT2A inhibitors.10-12 MTA-cooperative PRMT5 inhibitors, such as AMG 193, AZD3470, and TNG462, showed antitumor activity in early-phase trials for MTAP-deleted pancreatic, lung, biliary, and other cancers.9
+
+In a previous pan-cancer analysis of over 50,000 patients, MTAPloss was detected in 9.6% of cases, with elevated rates in pancreatic, biliary tract, lung, bladder, and brain cancers, while lower in prostate and colorectal tumors.9 The prevalence of MTAPloss is often evaluated by next-generation sequencing (NGS). Other methods are available, including immunohistochemistry (IHC), which is generally concordant with NGS, although it does not resolve exon-level changes or assess the coalteration landscape. In this study, we examined the nature and distribution of MTAPloss events in a series of >500,000 real-world clinical samples to present the molecular landscape underlying this targetable mechanism and to potentially inform drug development and clinical decision making.
+
+## METHODS
+
+This study cohort included patients with solid tumor diagnoses who received comprehensive genomic profiling (CGP) as part of routine clinical care. All testing was performed in a Clinical Laboratory Improvement Amendments (CLIA)–certified and College of American Pathologists (CAP)–accredited laboratory (Foundation Medicine, Boston, MA). DNA-seq CGP results from 409,755 tissue biopsy (TBx) and 85,801 liquid biopsy (LBx) specimens profiled through December 2024 and matched DNA-seq plus RNA-seq CGP results from 7,047 TBx specimens profiled through March 2025 in the FoundationCORE genomic database were queried for MTAP homozygous loss. Unless otherwise specified, all alterations included in these analyses were annotated as either known pathogenic or likely pathogenic. Approval for this study, including a waiver of informed consent and a Health Insurance Portability and Accountability Act (HIPPA) waiver of authorization, was obtained from the WIRB Copernicus Group Institutional Review Board (IRB; Protocol No. 20152817).
+
+For TBx specimens, ≥50 ng DNA was extracted from formalin-fixed, paraffin-embedded (FFPE) sections, and FoundationOne CDx (F1CDx) was performed on hybridization-captured, adapter-ligated libraries.13-15 In brief, DNA sequencing on the Illumina HiSeq 4000 or NovaSeq 6000 platforms was performed on 324 cancer-related genes, including all coding exons from 309 cancer-related genes, one promoter region, one noncoding RNA, and select intronic regions from 34 genes frequently rearranged in cancer. Sequencing captures base substitutions, short insertions and deletions (indels), copy-number alterations (amplifications and homozygous losses), and rearrangements.
+
+For LBx specimens, ≥30 ng cfDNA was extracted from whole blood plasma and FoundationOne Liquid CDx (F1LCDx) was performed on hybridization-captured, adapter-ligated libraries.16-18 DNA sequencing was performed on 324 cancer-related genes, including all coding exons from 309 cancer-related genes, and select intronic or noncoding regions in 36 genes.
+
+Additional methods can be found under Data Supplement Methods.
+
+## RESULTS
+
+### Prevalence of MTAPloss
+
+Frequency of MTAPloss in 409,755 pan-solid tumor TBx was 11.4% (46,857/409,755); mesothelioma (32.8%, 419/1,279) and glioma (32.7%, 2,918/8,917) exhibited the highest frequencies (Fig 1A). TBx-based detection of MTAPloss was 4.2% (1,774/42,678) in breast cancer, 1.2% (646/53,532) in colorectal cancer (CRC), 16.4% (14,264/87,235) in NSCLC, 3.0% (727/24,278) in ovarian cancer, 28.9% (8,416/29,136) in pancreatic cancer, and 1.5% (392/26,457) in prostate cancer specimens. 17.4% of MTAPloss events were detected in specimens with <20% TBx tumor purity and 2.2% in specimens with <10% tumor purity. Frequency of MTAPloss in 85,801 pan-solid tumor LBx was 1.9% (1,630/85,801) for all samples (TF ≥ 0%) and 7.3% for TF ≥ 20% (1,098/15,117; Fig 1B). LBx-based detection of MTAPloss was 1.1% (146/13,813) and 3.8% (110/2,865) in breast cancer; 0.6% (48/8,688) and 1.4% (39/2,728) in CRC; 2.5% (490/19,447) and 14.9% (290/1,952) in non–small cell lung cancer (NSCLC); 0.4% (7/1,678) and 2.1% (3/146) in ovarian cancer; 3.5% (245/6,983) and 29.9% (152/509) in pancreatic cancer; and 0.5% (83/16,373) and 1.9% (71/3,779) in prostate cancer specimens with TF ≥ 0% and TF ≥ 20%, respectively. 32.5% of MTAPloss events were detected in LBx with <20% TF and 1.8% were detected in LBx with <10% TF.
+
+FIG 1.: MTAP loss prevalence by tumor type. Frequency of MTAPloss in pan-solid tumor tissue (A) and liquid (B) biopsy specimens as detected per disease group. Data labels denote specimen count. Tumor types with >1000 F1CDx cases were included in A and >100 F1LCDx cases with TF ≥ 20% in B. MTAP, methylthioadenosine phosphorylase; TF, tumor fraction.
+
+### Characterization of MTAPloss Specimens
+
+The complete landscape of MTAPloss TBx specimens is shown in the Data Supplement (Figure S1). 52.4% were from male patients, and median age at sample collection was 68 years (Table 1). Patients were predominately of European (EUR) ancestry (77.8% v 9.1% African [AFR], 8.2% Admixed American [AMR], 3.9% East Asian [EAS], and 1.0% South Asian). Only 0.4% of specimens with MTAPloss were high microsatellite instability (MSI-H). Median tumor mutational burden (TMB) was 3.6 mut/Mb, with only 15.9% of specimens harboring TMB ≥10 mut/Mb and 5.0% with ≥20 mut/Mb. 6.8% of specimens were homologous recombination deficiency sig-positive (HRDsig-positive). 11.7% of specimens were positive for COSMIC single base substitutions signatures, with the most frequent being APOBEC (5.1% v 2.6% tobacco, 2.5% UV, 1.2% DNA mismatch repair [MMR], 0.3% alkylating, and 0.03% POLE). 4.3% of specimens had any detectable viral genomic content, with the most positives seen in human herpesvirus (2.2% v 1.8% human papillomavirus [HPV], 0.3% hepatitis B virus, 0.1% merkel cell polyomavirus, and 0.0% human T-lymphotropic virus). 41.3% of specimens were PD-L1 IHC–negative, with 38.7% detected as low positive and 20.0% detected as high positive. Landscapes of MTAPloss specimens from patients with breast cancer, CRC, NSCLC, ovarian cancer, pancreatic cancer, and prostate cancer are shown in the Data Supplement (Figures S2-S7).
+
+Pairwise Comparison Between MTAPno_loss and MTAPloss Specimens
+Characteristic	MTAPno_loss	MTAPloss	P
+Demographics
+No.	362,898	46,857	
+Sex (% female)	54.56	47.59	<.001
+Sex (% male)	45.44	52.41	<.001
+Median age (years; range)	66 (0-89)	68 (3-89)	<.001
+IQR	57-73	60-75	
+Ancestry			
+n	362,245	46,793	
+AFR	11.24%	9.10%	<.001
+AMR	9.04%	8.19%	<.001
+EAS	3.40%	3.94%	<.001
+EUR	75.33%	77.78%	<.001
+SAS	1.00%	0.99%	ns
+MSI			
+n	356,952	46,552	
+MSS	94.01%	97.14%	<.001
+MSI-L	3.13%	2.47%	<.001
+MSI-H	2.85%	0.39%	<.001
+TMB			
+n	362,881	46,855	
+Median TMB (mut/Mb; range)	3.62 (0-6901.07)	3.62 (0-386.31)	ns
+IQR	1.25-6.25	1.25-6.25	
+TMB <10 mut/Mb	84.30%	84.09%	ns
+TMB ≥10 mut/Mb	15.70%	15.91%	ns
+TMB ≥20 mut/Mb	6.65%	4.96%	<.001
+HRD			
+No.	331,521	45,066	
+HRDsig-negative	92.20%	93.19%	<.001
+HRDsig-positive	7.80%	6.81%	<.001
+COSMIC SBS signature			
+No.	362,898	46,857	
+Alkylating	0.16%	0.29%	<.001
+APOBEC	3.34%	5.10%	<.001
+MMR	3.53%	1.24%	<.001
+POLE	0.17%	0.03%	<.001
+Tobacco	2.36%	2.55%	.02
+UV	1.98%	2.49%	<.001
+Viral signature			
+No.	362,898	46,857	
+HBV	0.25%	0.27%	ns
+HHV	2.54%	2.22%	<.001
+HPV	3.81%	1.77%	<.001
+HTLV	0.02%	0.01%	ns
+MCV	0.05%	0.06%	ns
+PD-L1			
+No.	151,851	21,239	
+PD-L1–negative	50.70%	41.31%	<.001
+PD-L1-low–positive	35.07%	38.69%	<.001
+PD-L1-high–positive	14.22%	20.00%	<.001
+
+Comparison between 362,898 MTAPno_loss and 46,857 MTAPloss TBx specimens yielded several significant differences (Table 1). Differences in patient sex (45.4% v 52.4% male) and median age at time of testing (66 v 68 years) were statistically significant, consistent with a previous report.9 Genetic ancestry (11.2% v 9.1% AFR, 9.0% v 8.2% AMR, 3.4% v 3.9% EAS, 75.3% v 77.8% EUR) and presence of HRDsig (7.8% v 6.8%) also reached statistical significance. Cases with MTAPloss were significantly less likely to be MSI-H (0.4% v 2.9%) or to harbor MMR (1.2% v 3.5%) or POLE (0.0% v 0.2%) signatures. Although differences in median TMB (median 3.6 mut/Mb in both) were not significant, TMB ≥20 mut/Mb (5.0% v 6.7%) and PD-L1–high expression (20.0% v 14.2%) exhibited significant differences (Table 1, Fig 2A). MTAPloss specimens were significantly less likely to have HPV content (1.8% v 3.8%) detected. Disease-specific immune checkpoint inhibition biomarker prevalence is summarized in the Data Supplement (Figs S8-S13).
+
+FIG 2.: Pan-tumor MTAP loss coalteration landscape. (A) Bar charts of MSI, TMB, and PD-L1 bins in MTAPno_loss and MTAPloss specimens. (B) Volcano plot of enrichment of pathogenic gene mutation between MTAPno_loss and MTAPloss specimens. *P < .05, **P < .005, ***P < .0005. MSI, microsatellite instability; MSI-H, high microsatellite instability; MSI-I, intermediate microsatellite instability; MSS, microsatellite stable; MTAP, methylthioadenosine phosphorylase; mut/Mbp, mutations per megabase pairs; ns, not significant; TMB, tumor mutational burden; TPS, tumor proportion score.
+
+Comparison of the pan-tumor coalteration landscape yielded more significant differences (Fig 2B and Data Supplement, Fig S14). Alterations in CDKN2A (99.8% v 14.9%), CDKN2B (95.5% v 5.2%), and SMAD4 (11.7% v 7.1%) were significantly enriched in specimens with MTAPloss across tumor types, and RB1 alterations (6.5% v 1.2%) were significantly enriched in MTAPno_loss specimens pan-tumor. In disease-specific analyses, notable statistically significant enrichments with MTAPno_loss included CCNE1 in breast cancer (4.2% v 1.6%) and ovarian cancer (16.6% v 1.4%), CDH1 in breast cancer (14.1% v 2.5%), PIK3CA in breast cancer (37.9% v 30.8%) and CRC (18.9% v 12.8%), AKT2 (6.8% v 1.1%) and TP53 (77.8% v 59.0%) in ovarian cancer, APC in CRC (78.6% v 48.1%), and BRCA2 (8.3% v 3.6%) and SPOP (11.0% v 3.8%) in prostate cancer. Notable statistically significant enrichments with MTAPloss included ERBB2 in CRC (13.8% v 7.3%) and NSCLC (9.0% v 8.0%), PTEN in prostate cancer (49.7% v 31.7%) and breast cancer (18.8% v 12.7%), and EGFR (20.2% v 14.4%), ALK (3.9% v 2.4%), and MET (6.1% v 5.0%) in NSCLC. KRAS alterations were significantly enriched in MTAPloss samples pan-tumor (32.7% v 24.1%) and in ovarian, breast, and pancreatic cancers but not in CRC or NSCLC (Data Supplement, Figs S14-S20).
+
+### MTAP and CDKN2A Partial Loss Annotations
+
+Complete exon loss annotations were available for 46,663 (99.6%) MTAPloss TBx specimens (Fig 3A). MTAPloss was most frequently annotated as complete gene loss inclusive of exons 1-8 (82.9%), followed by loss of exons 5-8 (5.1%), exons 2-8 (4.4%), and exons 6-8 (4.1%). Single exon loss was detected in 1.0% of MTAPloss specimens, with the most frequent as loss of exon 8 only (1.0%). Complete gene loss was seen in 83.9% of breast, 85.9% of CRC, 83.4% of NSCLC, 82.6% of ovarian cancer, 83.0% of pancreatic cancer, and 80.4% of prostate cancer MTAPloss specimens. Loss of exon 8 only was seen in 0.7% of breast cancer, 1.1% of CRC, 1.0% of NSCLC, 1.2% of ovarian cancer, 1.0% of pancreatic cancer, and 1.3% of prostate cancer MTAPloss specimens (Data Supplement, Table S1).
+
+FIG 3.: Schematic of complete and partial exon losses in MTAPloss specimens. Distribution of complete and partial exon losses in (A) MTAP and (B) MTAP and CDKN2A loci within MTAPloss specimens. MTAP is located 100,671 bp upstream of CDKN2A on chr9p21.3 and is transcribed in the positive direction while CDKN2A is transcribed in the negative direction. Binding site positions were annotated using UniProtKB Function Features. MTAP, methylthioadenosine phosphorylase.
+
+Schematics of the distribution of MTAP and CKDN2A exon losses in MTAPloss specimens are shown in Figure 3B. The most frequent annotation was complete gene loss of both MTAP and CDKN2A (82.3%). 46,736 (99.7%) MTAPloss specimens harbored some concurrent CDKN2A loss. Concurrent CDKN2A loss was seen in 99.3% of breast cancer, 99.5% of CRC, 99.8% of NSCLC, 99.9% of ovarian cancer, 96.7% of pancreatic cancer, and 96.9% of prostate cancer MTAPloss specimens.
+
+The frequency of CDKN2Aloss in 409,755 pan-solid tumor TBx was 17.2% (70,535/409,755). Of pan-tumor specimens with CDKN2Aloss, 66.3% (46,736/70,535) had concurrent MTAPloss. The confusion matrix of MTAPloss and CDKN2Aloss is shown in the Data Supplement (Table S2). Using MTAPloss as truth, sensitivity and specificity were 99.7% and 93.4%, respectively. PPV and NPV were 66.3% and 100.0%, respectively. Using CDKN2Aloss as truth, sensitivity and specificity were 66.3% and 100.0%, respectively. PPV and NPV were 99.7% and 93.4%, respectively. Confusion matrices of MTAPloss and CDKN2Aloss in breast, CRC, NSCLC, ovarian, pancreatic, and prostate diseases are shown in the Data Supplement (Tables S3-S8).
+
+### Tissue and Liquid Biopsy Concordance
+
+Performance metrics for tissue versus liquid concordance of MTAPloss status using TBx as truth labels at various TF cutoffs are shown in Figure 4A. Confusion matrices of TBx and LBx specimen pairs at TF ≥ 0%, TF ≥ 10%, and TF ≥ 20% are shown in Figures 4B, 4C, and 4D. Of 3,946 evaluable pairs with TF ≥ 0%, sensitivity, specificity, PPV, and NPV for MTAPloss were 22.1%, 99.8, 94.4%, and 89.2%, respectively. Sensitivity of MTAPloss detection in LBx increased with higher TF, and in the subset of 856 pairs with TF ≥ 20%, sensitivity increased to 86.2% and NPV increased to 98.3%. Concordance of MTAPloss status in breast, CRC, NSCLC, ovarian, pancreatic, and prostate cancers is shown in the Data Supplement (Figs S21-S26).
+
+FIG 4.: MTAP loss TBx-LBx concordance. (A) Performance metrics of TBx-LBx concordance in n = 3,946 pairs by TF bin. Confusion matrix of F1CDx TBx specimens and F1LCDx LBx specimens with (B) TF ≥ 0%, (C) TF ≥ 10%, and (D) TF ≥ 20% and associated performance metrics using TBx truth labels. LBx, liquid biopsy; MTAP, methylthioadenosine phosphorylase; NPA, negative percent agreement; NPV, negative predictive value; PPA, positive percent agreement; PPV, positive predictive value; TBx, tissue biopsy; TF, tumor fraction.
+
+### MTAPloss and RNA Expression
+
+Complete exon loss annotations were available for 6,740/7,047 (95.6%) TBx specimens with DNA and RNA results, and 759 (11.3%) were annotated as homozygous MTAPloss, 2,313 (34.3%) as heterozygous MTAP loss, and 3,668 (54.4%) as MTAPno_loss. Median MTAP gene expression (summarized as log2[TPM +1]) for the three groups was 6.9 (IQR, 6.4-7.4), 8.4 (8.1-8.8), and 8.8 (IQR, 8.5-9.2), respectively (Fig 5A). MTAP gene expression was highest in MTAPno_loss specimens and lowest in MTAPloss specimens (P < .0005). Residual RNA expression in MTAPloss tumors may reflect tumor purity and stromal contamination.
+
+FIG 5.: MTAP RNA gene expression. (A) Expression distribution of MTAPno_loss, MTAPhet_loss, and MTAPloss specimens and (B) expression distribution of MTAPno_loss, MTAPhet_loss, and MTAPloss specimens, split by number of exons lost. Median and IQR are denoted and horizonal dashed yellow lines indicate the IQR of MTAPno_loss specimens. Pairwise comparisons between each group show statistical differences in MTAP RNA expression. *P < .05, **P < .005, ***P < .0005. MTAP, methylthioadenosine phosphorylase; ns, not significant; TPM, transcripts per million.
+
+MTAP gene expression relative to the number of exons lost is shown in Figure 5B. When compared with MTAPno_loss specimens, MTAPloss of ≥3 exons yielded a significant difference in expression, but MTAPloss of ≤2 exons did not. Compared with a median MTAP gene expression of 8.8 (IQR, 8.5-9.2) in MTAPno_loss specimens, the median expression for MTAPloss of one to two exons was 8.5 (IQR, 8.0-8.9) versus 6.9 (IQR, 6.4-7.4) for specimens with MTAPloss of 3-8 exons.
+
+## DISCUSSION
+
+In this study, we provide one of the largest and most comprehensive analyses of pan-cancer MTAPloss. Important findings that emerged from this study, which corroborate many but not all previous smaller studies, were the following. First, significant associations of MTAP loss with male sex and slightly older age were found,9 as well as association with MSS, several ancestry groups, and viral and mutational signatures. Second, leveraging data from over 400,000 TBx and 85,000 LBx, we reported that methods of assessment significantly affect the chances to accurately identify MTAPloss in clinical grade samples. Third, the spectrum of genomic alterations associated with MTAPloss is important.
+
+In liquid biopsies (LBx), MTAPloss detection was markedly lower (2% overall) but increased substantially with higher circulating tumor DNA TF. This TF dependency reflects the challenges of detecting copy-number alterations in cell-free DNA, where low tumor DNA shed can lead to false negatives. Nonetheless, the observed increase in sensitivity at higher TF thresholds (eg, 10%-20% TF) supports the use of liquid CGP as a complementary tool, particularly for monitoring or in cases where tissue is inaccessible or insufficient. In the context of TF, it is important to consider the NPV and when presence of MTAPloss can confidently be ruled out. NPV ranged from 89.2% at TF ≥ 0% to 98.3% at TF ≥ 20%. Elevated TF has also been associated with poor prognosis, which introduces challenges for trial recruitment where biomarker-positive patients are enriched for elevated TF.19
+
+Enrichment analyses identified multiple biomarker differences between MTAPno_loss and MTAPloss groups. As expected, CDKN2A/B losses were present in most samples with MTAPloss pan-tumor. MTAPloss was enriched with ERBB2 alterations in CRC, as previously observed,20,21 and PTEN alterations in prostate cancer. Modest enrichment for EGFR and TERT alterations in pan-tumor samples with MTAPloss and enrichment for RB1 alterations in those with MTAPno_loss are consistent with a recent report.9 In our study, MTAPno_loss was also found to be enriched with CCNE1 in breast and ovarian cancers, CDH1 in breast cancer, TP53 and AKT2 in ovarian cancer, APC in colorectal cancer, and BRCA2 and SPOP in prostate cancer. Notably, we observed significant enrichment for KRAS alterations in breast (6.8% v 3.7%), ovarian (27.6% v 12.6%), and pancreatic (91.9% v 86.7%) MTAPloss samples, but not in NSCLC (29.3% v 30.6%) and CRC (43.8% v 48.7%).
+
+Finally, we reported robust data on the impact of genomic MTAPloss on RNA expression, opening the door to the latter as a possible screening tool for the most suitable candidate patients for clinical trials. MTAP expression significantly dropped whenever a complete exons 1-8 loss was found. In fact, exon-level annotations demonstrated that most MTAPloss events involve complete (8 of 8 exons lost) or near-complete (7 of 8 exons lost) gene deletion (83%), with partial losses (eg, exons 5-8) comprising the remainder. Loss of exon 8 alone was seen in 1.0% of cases in this data set but may be enriched in other cohorts using different methodology, particularly if extension baiting from CDKN2A is employed. Our data demonstrate that loss of exon 8 alone may not translate to loss of expression, and this is consistent with published data suggesting that loss of exon 8 alone may not predict sensitivity to PRMT5 inhibitors.22
+
+Notably, MTAPloss associations were found with TMB ≥20 mut/Mb (5.0% v 6.7%), HRDsig (6.8% v 7.8%), MSI-H (0.4% v 2.9%), and PD-L1 expression (20.0% v 14.2%), indicating that MTAPloss overlaps to some degree with established immunotherapy and DNA repair biomarkers. In a recent study on urothelial bladder cancers, when compared with MTAP-deleted tumors, MTAP-intact tumors differed in genomic signatures, including an increase in potentially targetable alterations but a lower frequency of immunotherapy drug biomarkers.23 In another study, among patients with nonsquamous NSCLC treated with immune checkpoint inhibitor monotherapy, tumors with 9p21.3 gene loss (CDKN2A, CDKN2B, and MTAP) were associated with worse survival compared with the corresponding tumors without these losses (CDKN2A loss hazard ratio, 1.8, P = .001).24 Other authors performed an immunogenomic analysis of TCGA data and data from clinical trials for anti–PD-1/PD-L1 therapy and highlighted the association of 9p21 loss with a cold tumor microenvironment and resistance to therapy, possibly due to colocalization with the interferon locus.25 However, others have demonstrated that MTAPloss is prognostic and linked to shorter overall survival and time to next treatment on chemotherapy.20,26,27
+
+These findings could have several clinical implications. First, the high prevalence pan-tumor and in pancreatic cancer, NSCLC, and urothelial carcinoma positions MTAPloss as a candidate biomarker for basket trials of PRMT5 inhibitors. AMG 193, an innovative MTA cooperative PRMT5 inhibitor, has shown an objective response rate (ORR) of 21.4% at active doses in a phase I pan-tumor study of patients with MTAP-deleted solid tumors.28 Measurable tumor shrinkage was observed with IDE397, a small molecule inhibitor of MAT2A, in a phase I trial in urothelial cancer.29 Results from a phase I study of the PRMT5 inhibitor BMS-986504 in patients with advanced solid tumors with homozygous MTAP deletion showed an ORR of 23%, median duration of response of 10.5 months, and, most notably, a disease control rate of 70% across multiple tumor types.30 Finally, recent data from an ongoing phase 1/2 trial of the PRMT5 inhibitor TNG462 showed a 49% ORR and median progression-free survival (mPFS) of 9.1 months in a tumor-agnostic cohort with MTAPloss, and an ORR of 25% with a mPFS of 7.2 months in 2L pancreatic cancer.31
+
+Challenges for the next clinical trials will include the identification of emerging resistance mechanisms of PRMT5/MAT2A inhibition, as unfortunately these data are still lacking from the ongoing trials. In addition, consistency in the use of well-validated biomarker tools for patient selection is needed. In a recent study, F1CDx consistently detected higher rates of MTAPloss than two other commercial diagnostic tests.20 These findings can benchmark usage of CGP assays with demonstrated ability to robustly detect homozygous copy-number losses for patient selection in clinical trials, including trials that use combination strategies.
+
+There are important limitations in our study, including the lack of clinical outcome data to corroborate the associations between MTAPloss and outcomes with specific treatments, and the retrospective and descriptive nature. Other limitations include a central pathology review of samples limited to one tissue block per patient, large time frame for sample collection, potential bias toward European ancestry, and lack of association with immunohistochemical assessment of MTAPloss, which is one of the alternative tools used for patient selection within trials.
+
+In conclusion, this study strengthens the opportunity to consider a tumor-agnostic approach to targeted therapies in a variety of hard-to-treat solid tumors, establishing the foundation for a few well-selected combinatorial strategies to test in select tumor cohorts. Future studies should prospectively validate MTAPloss as a predictive biomarker, incorporating multiomics to assess functional impact. Longitudinal liquid biopsy cohorts could elucidate MTAP dynamics during treatment and help identify emerging resistance mechanisms of inhibitors based on synthetic lethality.
+
+Presented at ASCO Annual Meeting 2024, Chicago, IL, May 31-June 4, 2024.
+
+D.C.P. and S.R. made equal contributions to this work.
+
+## AUTHOR CONTRIBUTIONS
+
+Conception and design: Dean C. Pavlick, Shruthi Rengarajan, Alexa B. Schrock, Jeffrey S. Ross
+
+Collection and assembly of data: Dean C. Pavlick, Shruthi Rengarajan, Jessica K. Lee, Deter X. Jin
+
+Data analysis and interpretation: Dean C. Pavlick, Shruthi Rengarajan, Jessica K. Lee, Deter X. Jin, Garrett M. Frampton, Bernard J. Fendler, Andrej Savol, Ole Gjoerup, Hanna Tukachinsky, Richard S.P. Huang, Alexa B. Schrock, Jeffrey S. Ross, Andrea Necchi
+
+Manuscript writing: All authors
+
+Final approval of manuscript: All authors
+
+Accountable for all aspects of the work: All authors
+
+## AUTHORS' DISCLOSURES OF POTENTIAL CONFLICTS OF INTEREST
+
+The following represents disclosure information provided by authors of this manuscript. All relationships are considered compensated unless otherwise noted. Relationships are self-held unless noted. I = Immediate Family Member, Inst = My Institution. Relationships may not relate to the subject matter of this manuscript. For more information about ASCO's conflict of interest policy, please refer to www.asco.org/rwc or ascopubs.org/po/author-center.
+
+Open Payments is a public database containing information reported by companies about payments made to US-licensed physicians (Open Payments).
+
+Dean C. Pavlick
+
+Employment: Foundation Medicine
+
+Stock and Other Ownership Interests: Roche
+
+Shruthi Rengarajan
+
+Employment: Foundation Medicine
+
+Stock and Other Ownership Interests: Roche
+
+Deter X. Jin
+
+Employment: Foundation Medicine
+
+Stock and Other Ownership Interests: Roche
+
+Jessica K. Lee
+
+Employment: Foundation Medicine
+
+Stock and Other Ownership Interests: Roche
+
+Garrett M. Frampton
+
+Employment: Foundation Medicine
+
+Stock and Other Ownership Interests: Roche
+
+Bernard J. Fendler
+
+Employment: Foundation Medicine
+
+Stock and Other Ownership Interests: Roche
+
+Andrej Savol
+
+Employment: Foundation Medicine
+
+Stock and Other Ownership Interests: Roche
+
+Patents, Royalties, Other Intellectual Property: Methods and systems for detecting rna contaminants in a sample
+
+Ole Gjoerup
+
+Employment: Foundation Medicine
+
+Stock and Other Ownership Interests: Roche
+
+Travel, Accommodations, Expenses: Foundation Medicine
+
+Hanna Tukachinsky
+
+Employment: Foundation Medicine
+
+Stock and Other Ownership Interests: Roche
+
+Richard S.P. Huang
+
+Employment: Roche/Foundation Medicine
+
+Stock and Other Ownership Interests: Roche
+
+Patents, Royalties, Other Intellectual Property: Patent on IHC, provisional patent on biomarkers and biomarker methodology
+
+Alexa B. Schrock
+
+Employment: Foundation Medicine
+
+Stock and Other Ownership Interests: Foundation Medicine, Roche
+
+Jeffrey S. Ross
+
+Employment: Foundation Medicine
+
+Leadership: Foundation Medicine
+
+Stock and Other Ownership Interests: Foundation Medicine
+
+Consulting or Advisory Role: Tango Therapeutics
+
+Research Funding: Foundation Medicine
+
+Andrea Necchi
+
+Employment: Bayer (I)
+
+Stock and Other Ownership Interests: Bayer (I)
+
+Consulting or Advisory Role: Merck Sharp & Dohme, AstraZeneca, Incyte, Seattle Genetics/Astellas, Bristol Myers Squibb, Catalym, Gilead Sciences, Genenta Science, Johnson & Johnson/Janssen, Peerview, PeerVoice, Merck Serono, Samsung Bioepis, Bicycle Therapeutics
+
+Research Funding: Merck Sharp & Dohme (Inst), Gilead Sciences (Inst), Bristol Myers Squibb/Celgene (Inst)
+
+Travel, Accommodations, Expenses: Merck Sharp & Dohme, AstraZeneca, Janssen, Gilead Sciences
+
+Presented at Genomic Classification of Clinically Advanced Solid Tumors Based on Methylthioadenosine Phosphorylase (MTAP) Genomic Loss, Chicago, IL, May 31- June 4, 2024.
+
+Dean C. Pavlick
+
+Employment: Foundation Medicine
+
+Stock and Other Ownership Interests: Roche
+
+Shruthi Rengarajan
+
+Employment: Foundation Medicine
+
+Stock and Other Ownership Interests: Roche
+
+Deter X. Jin
+
+Employment: Foundation Medicine
+
+Stock and Other Ownership Interests: Roche
+
+Jessica K. Lee
+
+Employment: Foundation Medicine
+
+Stock and Other Ownership Interests: Roche
+
+Garrett M. Frampton
+
+Employment: Foundation Medicine
+
+Stock and Other Ownership Interests: Roche
+
+Bernard J. Fendler
+
+Employment: Foundation Medicine
+
+Stock and Other Ownership Interests: Roche
+
+Andrej Savol
+
+Employment: Foundation Medicine
+
+Stock and Other Ownership Interests: Roche
+
+Patents, Royalties, Other Intellectual Property: Methods and systems for detecting rna contaminants in a sample
+
+Ole Gjoerup
+
+Employment: Foundation Medicine
+
+Stock and Other Ownership Interests: Roche
+
+Travel, Accommodations, Expenses: Foundation Medicine
+
+Hanna Tukachinsky
+
+Employment: Foundation Medicine
+
+Stock and Other Ownership Interests: Roche
+
+Richard S.P. Huang
+
+Employment: Roche/Foundation Medicine
+
+Stock and Other Ownership Interests: Roche
+
+Patents, Royalties, Other Intellectual Property: Patent on IHC, provisional patent on biomarkers and biomarker methodology
+
+Alexa B. Schrock
+
+Employment: Foundation Medicine
+
+Stock and Other Ownership Interests: Foundation Medicine, Roche
+
+Jeffrey S. Ross
+
+Employment: Foundation Medicine
+
+Leadership: Foundation Medicine
+
+Stock and Other Ownership Interests: Foundation Medicine
+
+Consulting or Advisory Role: Tango Therapeutics
+
+Research Funding: Foundation Medicine
+
+Andrea Necchi
+
+Employment: Bayer (I)
+
+Stock and Other Ownership Interests: Bayer (I)
+
+Consulting or Advisory Role: Merck Sharp & Dohme, AstraZeneca, Incyte, Seattle Genetics/Astellas, Bristol Myers Squibb, Catalym, Gilead Sciences, Genenta Science, Johnson & Johnson/Janssen, Peerview, PeerVoice, Merck Serono, Samsung Bioepis, Bicycle Therapeutics
+
+Research Funding: Merck Sharp & Dohme (Inst), Gilead Sciences (Inst), Bristol Myers Squibb/Celgene (Inst)
+
+Travel, Accommodations, Expenses: Merck Sharp & Dohme, AstraZeneca, Janssen, Gilead Sciences
+
+Presented at Genomic Classification of Clinically Advanced Solid Tumors Based on Methylthioadenosine Phosphorylase (MTAP) Genomic Loss, Chicago, IL, May 31- June 4, 2024.
+
+## REFERENCES
+1. 1.ApplebyTC, ErionMD, EalickSE: The structure of human 5'-deoxy-5'-methylthioadenosine phosphorylase at 1.7 A resolution provides insights into substrate binding and catalysis. Structure 7:629-641, 199910404592 10.1016/s0969-2126(99)80084-7
+2. 2.BacklundPSJr., SmithRA: Methionine synthesis from 5'-methylthioadenosine in rat liver. J Biol Chem 256:1533-1535, 19817007366
+3. 3.CarreraCJ, EddyRL, ShowsTB, et al: Assignment of the gene for methylthioadenosine phosphorylase to human chromosome 9 by mouse-human somatic cell hybridization. Proc Natl Acad Sci U S A 81:2665-2668, 19846425836 10.1073/pnas.81.9.2665PMC345130
+4. 4.CarsonDA, NoboriT, KajanderEO, et al: Methylthioadenosine (MeSAdo) phosphorylase deficiency in malignancy. Adv Exp Med Biol 250:179-185, 19883151225 10.1007/978-1-4684-5637-0_16
+5. 5.KamataniN, CarsonDA: Dependence of adenine production upon polyamine synthesis in cultured human lymphoblasts. Biochim Biophys Acta 675:344-350, 19816791702 10.1016/0304-4165(81)90024-6
+6. 6.BeroukhimR, MermelCH, PorterD, et al: The landscape of somatic copy-number alteration across human cancers. Nature 463:899-905, 201020164920 10.1038/nature08822PMC2826709
+7. 7.CoxC, BignellG, GreenmanC, et al: A survey of homozygous deletions in human cancer genomes. Proc Natl Acad Sci U S A 102:4542-4547, 200515761058 10.1073/pnas.0408593102PMC555487
+8. 8.ZhangH, ChenZH, SavareseTM: Codeletion of the genes for p16INK4, methylthioadenosine phosphorylase, interferon-alpha1, interferon-beta1, and other 9p21 markers in human malignant cell lines. Cancer Genet Cytogenet 86:22-28, 19968616780 10.1016/0165-4608(95)00157-3
+9. 9.IkushimaH, WatanabeK, Shinozaki-UshikuA, et al: Pan-cancer clinical and molecular landscape of MTAP deletion in nationwide and international comprehensive genomic data. ESMO Open 10:104535, 202540138743 10.1016/j.esmoop.2025.104535PMC11985008
+10. 10.EngstromLD, ArandaR, WatersL, et al: MRTX1719 is an MTA-cooperative PRMT5 inhibitor that exhibits synthetic lethality in preclinical models and patients with MTAP-deleted cancer. Cancer Discov 13:2412-2431, 202337552839 10.1158/2159-8290.CD-23-0669PMC10618744
+11. 11.KryukovGV, WilsonFH, RuthJR, et al: MTAP deletion confers enhanced dependency on the PRMT5 arginine methyltransferase in cancer cells. Science 351:1214-1218, 201626912360 10.1126/science.aad5214PMC4997612
+12. 12.LiuF, ChengG, HamardPJ, et al: Arginine methyltransferase PRMT5 is essential for sustaining normal adult hematopoiesis. J Clin Invest 125:3532-3544, 201526258414 10.1172/JCI81749PMC4588241
+13. 13.US Food and Drug Administration: Summary of Safety and Effectiveness Data (SSED) for Foundationone CDx (F1CDx), PMA No. P170019/S054, 2025
+14. 14.FramptonGM, FichtenholtzA, OttoGA, et al: Development and validation of a clinical cancer genomic profiling test based on massively parallel DNA sequencing. Nat Biotechnol 31:1023-1031, 201324142049 10.1038/nbt.2696PMC5710001
+15. 15.MilburyCA, CreedenJ, YipWK, et al: Clinical and analytical validation of FoundationOne(R)CDx, a comprehensive genomic profiling assay for solid tumors. PLoS One 17:e0264138, 202235294956 10.1371/journal.pone.0264138PMC8926248
+16. 16.US Food and Drug Administration: Summary of Safety and Effectiveness Data (SSED) for FoundationOne Liquid CDx, PMA No P190032/S011, 2023
+17. 17.ClarkTA, ChungJH, KennedyM, et al: Analytical validation of a hybrid capture-based next-generation sequencing clinical assay for genomic profiling of cell-free circulating tumor DNA. J Mol Diagn 20:686-702, 201829936259 10.1016/j.jmoldx.2018.05.004PMC6593250
+18. 18.WoodhouseR, LiM, HughesJ, et al: Clinical and analytical validation of FoundationOne liquid CDx, a novel 324-Gene cfDNA-based comprehensive genomic profiling assay for cancers of solid tumor origin. PLoS One 15:e0237802, 202032976510 10.1371/journal.pone.0237802PMC7518588
+19. 19.ReichertZR, MorganTM, LiG, et al: Prognostic value of plasma circulating tumor DNA fraction across four common cancer types: A real-world outcomes study. Ann Oncol 34:111-120, 202336208697 10.1016/j.annonc.2022.09.163PMC9805517
+20. 20.BestJT, FuX, Jampana RajuSS, et al: Clinical presentation of MTAP deletions in real-world settings: Lessons for the clinical development of novel targeted therapies. JCO Precis Oncol 10.1200/PO-25-0056410.1200/PO-25-0056441348984
+21. 21.NgoiNYL, TangTY, GasparCF, et al: Methylthioadenosine phosphorylase genomic loss in advanced gastrointestinal cancers. Oncologist 29:493-503, 202438330461 10.1093/oncolo/oyae011PMC11144995
+22. 22.BriggsKJ, TsaiA, ZhangM, et al: Abstract 462: TNG456 is a next-generation, brain-penetrant, MTA-cooperative PRMT5 inhibitor for the treatment of solid tumors with MTAP loss. Cancer Res 85:462, 2025 (suppl 8_1)39546763
+23. 23.BasinMF, BratslavskyG, NahhasN, et al: Novel synthetic lethality drug target in urothelial bladder cancer based on MTAP genomic loss. Urol Oncol 41:109 e15-109 e22, 202310.1016/j.urolonc.2022.10.00136443178
+24. 24.EbotEM, DuncanDL, TolbaK, et al: Deletions on 9p21 are associated with worse outcomes after anti-PD-1/PD-L1 monotherapy but not chemoimmunotherapy. NPJ Precis Oncol 6:44, 202235739333 10.1038/s41698-022-00286-4PMC9225995
+25. 25.BarrigaFM, TsanovKM, HoYJ, et al: MACHETE identifies interferon-encompassing chromosome 9p21.3 deletions as mediators of immune evasion and metastasis. Nat Cancer 3:1367-1385, 202236344707 10.1038/s43018-022-00443-5PMC9701143
+26. 26.ClouserMC, SuhM, MovvaN, et al: A systematic literature review of MTAP deletions in solid and hematologic cancers. Cancer Treat Res Commun 44:100966, 202540729867 10.1016/j.ctarc.2025.100966
+27. 27.LyonJ, OsataphanS, BirdaV, et al: Prognostic role of MTAP loss in cholangiocarcinoma. JCO Precis Oncol 10.1200/PO-24-0084210.1200/PO-24-00842PMC1279446640638878
+28. 28.BelmontesB, SlemmonsKK, SuC, et al: AMG 193, a clinical stage MTA-cooperative PRMT5 inhibitor, drives antitumor activity preclinically and in patients with MTAP-deleted cancers. Cancer Discov 15:139-161, 202539282709 10.1158/2159-8290.CD-24-0887PMC11726016
+29. 29.NeilanCL, FischerMM, GarbettD, et al: The MAT2A inhibitor IDE397: A novel combination backbone for urothelial cancer subjects with MTAP deficiency. Clin Cancer Res 30:B027, 2024
+30. 30.ArbourKC, GeorgeB, HenryJT, et al: BMS-986504 in patients (pts) with advanced solid tumors with homozygous MTAP deletion (MTAP-del): Clinical update and first report of pharmacokinetics (PK) and pharmacodynamic (PD) analyses from CA240-0007. J Clin Oncol 43, 2025 (suppl 16; abstr 3011)
+31. 31.CrystalAS: PRMT5: Bench to bedside. Presented at the AACR-NCI-EORTC International Conference on Molecular Targets and Cancer Therapeutics, Plenary Session 8, 2025

@@ -1,0 +1,153 @@
+# Phase II single-arm study of palbociclib and cetuximab in anti-EGFR naïve patients with KRAS/NRAS/BRAF wild-type, metastatic colorectal cancer
+
+Authors: Jonathan D Sorah, Dominic T Moore, Matthew J Reilley, Mohamed E Salem, Tammy Triglianos, Autumn J McRee, Michael S Lee, Hanna K Sanoff, Ashwin S Somasundaram
+
+Journal: The Oncologist
+
+PMCID: PMC12526856
+
+PMID: 40990835
+
+DOI: 10.1093/oncolo/oyaf305
+
+Canonical source: https://pmc.ncbi.nlm.nih.gov/articles/PMC12526856/
+
+## Abstract
+
+## Background
+
+Standard therapy for patients with KRAS/NRAS/BRAF wild-type (WT), microsatellite stable (MSS), L-sided metastatic colorectal cancer (mCRC) often includes chemotherapy with a monoclonal antibody (mAb) that targets epidermal growth factor receptor (EGFR) such as cetuximab. Preclinical studies suggest the role of CDK4/6 activity downstream of EGFR as a possible resistance mechanism to anti-EGFR therapy. Therefore, we hypothesized that the addition of the CDK4/6 inhibitor palbociclib would increase the disease control rate of patients with anti-EGFR naïve KRAS/NRAS/BRAF-WT mCRC.
+
+## Methods
+
+LCCC1717 was a phase II trial with a Simon two-stage design in which patients with KRAS/NRAS WT mCRC having progressed on at least two lines of therapy were given palbociclib and cetuximab. The primary end point was four-month disease control rate (DCR). Secondary endpoints were overall survival (OS) and progression-free survival (PFS). If six or more patients achieved disease control at four months, the study would continue enrollment, otherwise the study would be discontinued.
+
+## Results
+
+A total of 12 subjects were enrolled, 11 of whom had left-sided colon cancer. The four-month DCR was 41.7% (95% CI 15% to 72%) with median OS at 13.9 months and median PFS of 5.3 months, which did not meet the pre-specified endpoint of efficacy. The treatment combination was well tolerated with the most common treatment-related toxicity being decreased lymphocyte and neutrophil counts.
+
+## Conclusion
+
+While clinical benefit was observed with the combination, it did not meet its pre-specified endpoint for efficacy in patients with KRAS/NRAS/BRAF WT EGFR therapy-naïve mCRC patients. Clinicaltrials.gov Identifier: NCT03446157.
+
+## Full article
+
+- The combination of palbociclib and cetuximab did not meet its endpoint of improving 4-month disease control rate in patients with refractory KRAS/NRAS/BRAF wild type EGFR therapy naïve colorectal cancer, however, it was well tolerated and a few patients responded to therapy.
+- The study was closed early due to not meeting its pre-specified endpoint for efficacy (four-month disease control in six or more patients).
+
+## Trial information
+
+Trial information
+Disease	Refractory KRAS/NRAS/BRAF wild-type EGFR inhibitor therapy naïve metastatic colorectal cancer
+Stage of disease/Treatment	IV
+Prior therapy	EGFR inhibitor therapy naïve, treated with at least 2 prior lines of therapy including fluoropyrimidines, irinotecan, and oxaliplatin.
+Type of study	Phase II
+Primary endpoints	Estimate disease control rate at four months (DCR: CR + PR + SD/number of patients who started treatment)
+Secondary endpoints	Overall response rate at 4 months (OR: CR + PR/number of patients who started treatment), progression-free survival, overall survival
+Additional details of endpoints or study design Simon two-stage design. 12 patients were enrolled initially. If six or more patients experienced disease control lasting at least f our months, then, enrollment into this cohort would continue and an additional 14 patients would be enrolled.
+
+## Drug information
+
+Drug information
+Generic/Working name	Palbociclib
+Company name	Ibrance
+Drug type	Targeted Therapy
+Drug class	CDK 4/6 inhibitor
+Dose	125 mg
+Route	PO
+Schedule of administration Days 1-21, then 7 days off
+Generic/Working name	Cetuximab
+Company name	Erbitux
+Drug type	Targeted Therapy
+Drug class	EGFR Inhibitor
+Dose	400 mg/m2 loading dose then 200 mg/m2
+Route	IV
+Schedule of administration Weekly
+
+## Patient characteristics
+
+Patient characteristics
+Stage	IV
+Median age (Range)	52 (40-71)
+Number of prior systemic therapies: median (range)	2 (1-5)
+Performance status: ECOG 0 or 1	12
+Performance status: ECOG 2 or above	0
+Primary tumor site	Right Colon 1 (8.3%)Transverse Colon 2 (16.7%)Sigmoid Colon 5 (41.7%)Rectum 4 (33.3%)
+
+## Primary assessment method
+
+Primary assessment method
+Title	Disease Control Rate (DCR) at 4 months (at least stable disease at four months)
+Number of patients enrolled	12
+Number of patients evaluable for Toxicity	12
+Number of patients evaluated for efficacy	12
+Evaluation method	DCR at 4 months evaluated by RECIST 1.1
+Primary assessment method	
+Outcome notes Response assessment imaging: see Figure 1 for Waterfall Plot for best response per patient and see Figure 2 for Kaplan-Meier curve for progression-free survival
+
+## General toxicity profile
+
+Toxicity	Patients with grade 2	Grade 2 (%)	Patients with grade 3/4	Grade 3/4 (%)
+Infusion related reaction	5	42%		
+Anemia	3	25%		
+Fatigue	3	25%		
+Rash acneiform	3	25%		
+Dyspnea	2	17%		
+Hypomagnesemia	2	17%	1	8%
+White blood cells Decreased	2	17%		
+Abdominal pain	1	8%		
+Anorexia	1	8%		
+Aspartate Aminotransferase increased	1	8%		
+Cough	1	8%		
+Hypertension	1	8%		
+Hypocalcemia	1	8%		
+Lymphocyte count decreased	1	8%	4	33%
+Mucositis	1	8%		
+Neutrophil count decreased	1	8%	2	17%
+
+Figure 1.: Best response per patient.
+
+Figure 2.: Progression-free survival.
+
+## Discussion
+
+Colorectal cancer is a common disease around the world as the third most diagnosed cancer and the second most diagnosed in females. Approximately 20% of patients with colorectal cancer (CRC) are diagnosed with metastatic disease and historically 5-year overall survival rates were around 12.9%,1 however, patients with metastatic CRC (mCRC) have experienced marked improvements in overall survival (OS) now approaching 3 years due to advances in novel therapeutics including chemotherapies and targeted therapies such as VEGF inhibitors and anti-EGFR antibodies.2 Among the standard of care therapies for patients with KRAS/NRAS/BRAF-WT mCRC is chemotherapy in combination with an anti-EGFR antibody such as cetuximab; patients with KRAS/NRAS/BRAF mutated mCRC do not respond to EGFR inhibitors alone so were not the focus of this study. Additionally, patients with R-sided colon cancer are unlikely to respond to EGFR inhibitors regardless of KRAS status.3,4 However, therapeutic resistance inevitably develops, usually through aberrant activation downstream of the EGFR signaling pathway from increased signaling in the MEK-ERK pathway and increased expression of cyclin D which drives cell cycle progression via cyclin-dependent kinase 4 and 6.5,6 Therefore, there is a strong rationale for the combination of a CDK 4/6 inhibitor with cetuximab in patients with KRAS/NRAS/BRAF-WT mCRC who are anti-EGFR naïve. We hypothesized that the addition of palbociclib to cetuximab in patients with refractory KRAS-WT mCRC would lead to clinically significant cancer control and tested this in both anti-EGFR therapy naïve patients (cohort A, reported here) and those with cancer control for at least four months on prior anti-EGFR therapy (cohort b, reported previously).7
+
+In this phase II trial of palbociclib and cetuximab in patients with refractory KRAS/NRAS/BRAF-WT, EGFR therapy naïve mCRC, we found that the combination did not meet the study pre-specified endpoint for efficacy (four-month disease control in six or more patients, defined as stable disease or better response after four months of therapy) to warrant further investigation of this combination. Despite the study not meeting its endpoint for continuation (with only 5 patients achieving disease control at 4 months), 5 of 12 patients did achieve some degree of disease control with the most common response being stable disease. If the 2 patients who withdrew for reasons other than progression were excluded, the DCR at 4 months would have been 50% warranting further exploration of the combination. Palbociclib and cetuximab in combination appeared similarly effective to standard of care third-line treatment with trifluridine-tipiracil and bevacizumab per SUNLIGHT Trial achieving a PFS of 5.6 months. Another comparator is cetuximab monotherapy where a study of heavily pretreated patients with mCRC were given cetuximab monotherapy, the overall response rate was 10% and DCR was 34%.8 Regarding response, ORR of the study combination was 33.3%, an improvement from 6.1% with trifluridine-tipiracil and bevacizumab and 19.8% with cetuximab monotherapy in similar populations.9–11 Additionally, 2 patients had their best response as 70% reduction in size of tumor or greater. These data and the combination being well-tolerated suggest that there could be a population of patients who may benefit from palbociclib and cetuximab, specifically patients with higher disease burden in need of a rapid response.
+
+It remains unclear if this combination is superior to anti-EGFR monotherapy based on these mixed results and small sample size; however, there is some signal for benefit in a subset of patients warranting further study. TK activity was evaluated as a possible biomarker of response extrapolating from a trial where TK activity was evaluated in patients with hormone receptor positive HER2 negative metastatic breast cancer starting first line treatment with palbociclib and fulvestrant showing that higher TK activity was associated shorter progression-free survival.12 In our study, there was no significant (P = .07) association between decreased TK activity and improved PFS, however, further studies could be conducted to better define the borderline significance.
+
+The small sample size of our study limited our ability to make any conclusions as to which patients may benefit from the cetuximab and palbociclib. Additionally, 1 of 12 patients had R-sided colon cancer, where EGFR inhibitors are not used due to decreased efficacy in this population.13 Future studies could fully sequence ctDNA to determine if there are specific mutations along the MAPK pathway that could predict response or resistance to palbociclib and cetuximab. Using a ctDNA guided strategy, future studies could investigate whether addition of CDK 4/6 inhibitor to KRAS WT patients with multiple mutations along the MAPK pathway might mitigate resistance mechanisms.
+
+Overall, the combination of palbociclib and cetuximab did not meet its end point of improving 4-month DCR in patients with refractory KRAS/NRAS/BRAF WT EGFR therapy naïve mCRC. The combination was well tolerated and future combinations with chemotherapy could be considered. Further investigation is needed to determine if any other predictive biomarkers, specifically whether any ctDNA-based assays might predict subsets of patients that may benefit from this therapy, possibly MAPK pathway alterations.
+
+## Author contributions
+
+Jonathan D. Sorah (Formal analysis, Visualization, Writing—original draft, Writing—review & editing), Dominic T. Moore (Conceptualization, Data curation, Formal analysis, Methodology, Writing—original draft, Writing—review & editing), Matthew J. Reilley (Investigation, Writing—original draft, Writing—review & editing), Mohamed E. Salem (Conceptualization, Investigation, Writing—original draft, Writing—review & editing), Tammy A. Triglianos (Conceptualization, Investigation, Writing—original draft, Writing—review & editing), Autumn J McRee(Conceptualization, Investigation, Writing—original draft, Writing—review & editing), Michael S. Lee (Conceptualization, Investigation, Writing—original draft, Writing—review & editing), and Hanna K. Sanoff (Conceptualization, Data curation, Investigation, Writing—original draft, Writing—review & editing), Ashwin S. Somasundaram (Conceptualization, Data curation, Investigation, Writing—original draft, Writing—review & editing)
+
+## Funding
+
+Funding provided by the University of North Carolina Lineberger Comprehensive Cancer Center acting as sponsor. Collaboration with Pfizer. This work was supported by the NIH (K08 CA259342-02 to A.S. Somasundaram).
+
+## Conflicts of interest
+
+Matthew J. Reilley: Research Funding: Astrazeneca, Amgen, Abbvie, Cardiff Oncology, Crinetics, Genfit, Macrogenics, Merck, Pfizer, RayzeBio, Surface Oncology, Xencor Consulting/Advisory: Cardiff, Incyte, Natera, NEJM group, Pfizer; Autumn J. McRee: JNJ Employment; Michael S. Lee: I am now employed by Johnson & Johnson; Hanna K. Sanoff: Research funding to Institution: Abbvie, Amgen, Astra Zeneca, Bristol Myers Squibb, Pfizer, Rgenix, Johnson & Johnson.
+
+## Data availability
+
+The data underlying this article will be shared on reasonable request to the corresponding author.
+
+## References
+1. 1 Ferlay JEM , LamF, LaversanneM, et alGlobal Cancer Observatory: Cancer Today (Version 1.1). International Agency for Research on Cancer; 2024.
+2. 2 Rumpold H , Niedersüß-BekeD, HeilerC, et alPrediction of ­mortality in metastatic colorectal cancer in a real-life population: a multicenter explorative analysis. BMC Cancer. 2020;20:1149.33238958 10.1186/s12885-020-07656-wPMC7691098
+3. 3 Karapetis CS , Khambata-FordS, JonkerDJ, et alK-ras mutations and benefit from cetuximab in advanced colorectal cancer. N Engl J Med. 2008;359:1757-1765.18946061 10.1056/NEJMoa0804385
+4. 4 Yin J , CohenR, JinZ, et alPrognostic and predictive impact of primary tumor sidenedness for previosuly untreated advanced colorectal cancer. J Natl Cancer Inst. 2021;113:1705-1713.34061178 10.1093/jnci/djab112
+5. 5 Misale S , ArenaS, LambaS, et alBlockade of EGFR and MEK intercepts heterogeneous mechanisms of acquired resistance to anti-EGFR therapies in colorectal cancer. Sci Transl Med. 2014;6:224ra26.10.1126/scitranslmed.300794724553387
+6. 6 Misale S , Di NicolantonioF, Sartore-BianchiA, et alResistance to anti-EGFR therapy in colorectal cancer: from heterogeneity to convergent evolution. Cancer Discov. 2014;4:1269-1280.25293556 10.1158/2159-8290.CD-14-0462
+7. 7 Sorah JD , MooreDT, ReilleyMJ, et alPhase II single-arm study of palbociclib and cetuximab rechallenge in patients with KRAS/NRAS/BRAF Wild-Type colorectal cancer. Oncologist. 2022;27:1006-e930.36288238 10.1093/oncolo/oyac222PMC10249423
+8. 8 Pessino A , ArtaleS, ScialleroS, et alFirst-line single-agent cetuximab in patients with advanced colorectal cancer. Ann Oncol. 2008;19:711-716.18073221 10.1093/annonc/mdm516
+9. 9 Prager GW , TaiebJ, FakihM, et alSUNLIGHT InvestigatorsTrifluridine-tipiracil and bevacizumab in refractory metastatic colorectal cancer. N Engl J Med. 2023;388:1657-1667.37133585 10.1056/NEJMoa2214963
+10. 10 Price TJ , PeetersM, KimTW, et alPanitumumab versus cetuximab in patients with chemotherapy-refractory wild-type KRAS exon 2 metastatic colorectal cancer (ASPECCT): a randomised, multicentre, open-label, non-inferiority phase 3 study. Lancet Oncol. 2014;15:569-579.24739896 10.1016/S1470-2045(14)70118-4
+11. 11 Gasparini G , ButtittaF, D'AndreaMR, et alOptimizing single agent panitumumab therapy in pre-treated advanced colorectal cancer. Neoplasia. 2014;16:751-756.25246275 10.1016/j.neo.2014.08.002PMC4234870
+12. 12 Malorni L , TyekuchevaS, HilbersFS, et alSerum thymidilate kinase activity levels in serum can identify HR+ metastatic breast cancer patients with a low risk of early progression (SWOG S0226). Biomarkers. 2023;28:313-322.36647745 10.1080/1354750X.2023.2168063PMC10681159
+13. 13 Heinemann V , von WeikersthalLF, DeckerT, et alFOLFIRI plus cetuximab or bevacizumab for advanced colorectal cancer: final survival and per-protocol analysis of FIRE-3, a randomised clinical trial. Br J Cancer. 2021;124:587-594.33154570 10.1038/s41416-020-01140-9PMC7851157

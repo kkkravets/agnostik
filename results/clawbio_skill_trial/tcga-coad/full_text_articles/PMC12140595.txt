@@ -1,0 +1,258 @@
+# Genomic Landscape of Advanced Solid Tumors in Middle East and North Africa Using Circulating Tumor DNA in Routine Clinical Practice
+
+Authors: Shaheenah Dawood, Nippun Sandhir, Marwan Akasheh, Maroun El Khoury, Sonia Otsmane, Muath Alnassar, Omalkhair Abulkhair, Fadi Farhat, Steve Olsen
+
+Journal: Oncology
+
+PMCID: PMC12140595
+
+PMID: 39342926
+
+DOI: 10.1159/000541571
+
+Canonical source: https://pmc.ncbi.nlm.nih.gov/articles/PMC12140595/
+
+## Abstract
+
+## Introduction
+
+Next-generation sequencing (NGS) of tumor DNA can detect actionable drivers and help guide therapy for patients with advanced-stage cancers. While tissue-based genotyping is considered a standard of care, blood-based genotyping is emerging as a valid alternative. Tumor genomic profiles may vary by region, and data from the Middle East and North Africa (MENA) are not widely available. This study elucidates the genomic landscape of advanced solid cancers in patients from the MENA region by retrospectively analyzing results from NGS circulating tumor DNA (ctDNA) testing.
+
+## Methods
+
+In routine clinical practice, 926 plasma samples from 767 patients with advanced cancers from the MENA region were profiled using a comprehensive NGS assay (Guardant360®). We conducted a pan-cancer analysis and sub-analyses focusing on lung, breast, and colorectal cancers.
+
+## Results
+
+In the pan-cancer group, TP53 (58.5%), EGFR (20.4%), and KRAS (18.9%) were the most frequently mutated genes. EGFR (10.2%), FGFR1 (4.9%), and PIK3CA (4.9%) showed the most amplifications, while fusions were observed in 2.7% of patients, including ALK, FGFR2, and RET. For lung adenocarcinoma, EGFR (30.5%), KRAS (19.3%), and ERBB2 (4.6%) were the most frequently identified alterations among the genes recommended for evaluation by the National Comprehensive Cancer Network (NCCN). In patients with breast cancer, PIK3CA (35.3%), ESR1 (21.7%), and BRCA1/2 (13.3%) had the most prevalent alterations among NCCN-recommended genes. In colorectal cancer, KRAS (39.0%), NRAS (8.0%), and BRAF (V600E, 4.0%) were the most observed mutations among genes recommended by the NCCN. Comparing this cohort to publicly available Western and Eastern datasets also indicated similarities (including PIK3CA in breast cancer) and variances (including EGFR in lung adenocarcinoma) in key genes of interest in the analyzed cancer types.
+
+## Conclusion
+
+Overall, our findings provide insight into the genomic landscape of individuals with advanced solid organ malignancies from the MENA region and support the role of ctDNA in guiding therapeutic decisions.
+
+## Full article
+
+## Introduction
+
+Malignant neoplasms are the second leading cause of death worldwide and are associated with an enormous public health burden [1]. The disease burden of cancer is also increasing in Middle Eastern and African countries, leading to significant productivity loss and healthcare spending [2].
+
+The routine implementation of precision oncology depends on the availability of technologies that can reliably identify biomarkers targeting specific medicines. Next-generation sequencing (NGS) has enabled the identification of such genomic biomarkers.
+
+Tumor tissue-based DNA sequencing remains the mainstay for evaluating somatic genomic alterations; however, it is associated with certain limitations [3]. Approximately 10%–20% of patients are ineligible for a biopsy. For up to 20% of eligible individuals, the available tumor tissue does not meet the quantity or quality requirements for NGS analysis [4]. Furthermore, a single tumor biopsy may not fully represent tumor heterogeneity [5] and may miss emerging resistance alterations. The turnaround time to complete comprehensive tumor tissue profiling may be more than a month, which can delay the initiation of treatment [6, 7]. Moreover, repeated biopsies may incur incremental costs to patients or health systems because of associated complications [8].
+
+NGS analysis of plasma-derived circulating tumor DNA (ctDNA) enables a comprehensive assessment of the tumor genomic landscape with a high genotyping success rate. It has emerged as a non-invasive alternative that may help overcome several limitations of tumor tissue-based analysis. The average turnaround time for liquid biopsy is 7–10 days, shorter than that for tumor tissue-based profiling [9]. Liquid biopsy can better capture tumor heterogeneity caused by multiple clonal populations in a tumor [10]. It is minimally invasive and can help monitor tumor evolution and resistance over time without the risk of complications associated with tumor biopsies [11]. However, ctDNA analyses also have limitations. ctDNA concentration in plasma depends on tumor DNA shedding, which varies among tumor types [12]. In one study, plasma analysis failed to detect any cancer-derived somatic alterations in 15% of patients, representing over 50 types of late-stage cancers [13]. In addition, the likelihood of detecting ctDNA in blood depends on the location of the tumor [13].
+
+Several factors may contribute to differences in the genomic profiles reported for specific populations of patients with cancer, including their geographical area of origin. For example, distinctions in the genomic profiles of patients with non-small cell lung carcinoma (NSCLC) from Western and East Asian populations have been identified using ctDNA-based NGS [14]. While there have been numerous reports describing cancer genomic profiling studies of Western and, to a lesser extent, Asian populations, less is known about cancer genomic profiling from other geographic areas, such as the Middle East [15]. Therefore, the current study aimed to retrospectively analyze the genomic landscape of advanced solid tumors from patients in the Middle East and North Africa (MENA) region who were tested by ctDNA NGS as a part of routine clinical practice.
+
+## Materials and Methods
+
+### Study Design
+
+We analyzed data from Guardant360 tests ordered between September 2016 and January 2023 from Saudi Arabia, Kuwait, Bahrain, UAE, Qatar, Jordan, Lebanon, Iraq, Egypt, Tunisia, and Morocco. Whole blood samples were collected from patients with advanced solid tumor malignancies in Streck Cell-Free DNA blood collection tubes (BCTs), stabilizing cfDNA and nucleated blood cells [16]. We excluded patients enrolled in prospective clinical trials.
+
+### ctDNA Next-Generation Sequencing
+
+Guardant360® (Guardant Health Inc.; Redwood City, CA, USA) is a comprehensive genomic profiling assay that identifies single-nucleotide variants (SNVs), insertions and deletions (indels), fusions, and amplifications (amps) using a single blood sample [17, 18]. It is the first blood-based comprehensive genomic profiling test approved by the US Food and Drug Administration (FDA) [19]. It is indicated for use in patients with advanced solid tumors at diagnosis and at the time of disease progression. The assay covers complete exon sequencing of multiple genes, including EGFR, ERBB2, and KRAS. During the sample collection period, the assay included 70–74 genes (v2.9 to v2.11). Analysis of microsatellite instability was introduced with v2.11. All samples were analyzed in a single Clinical Laboratory Improvement Amendments (CLIA)-certified and CAP-accredited laboratory in California.
+
+### Statistical Analyses
+
+The present analysis focused primarily on clinically informative genomic alterations as described by National Comprehensive Cancer Network® (NCCN) guidelines. Synonymous mutations and variants of unknown significance were not considered clinically relevant and were excluded from this analysis.
+
+Descriptive statistics were used to report sample characteristics, mutation types, and frequencies. In patients with multiple concurrent potential driver alterations, the following conventions were applied to categorize the primary driver. In most cases, the alteration with a higher variant allelic frequency (VAF) was considered the primary driver. Potential driver mutations in separate genes with similar or relatable VAFs were classified as compound mutations.
+
+### Database Analysis
+
+The frequency of NCCN-recommended biomarkers in our patients with advanced lung adenocarcinoma, breast cancer, and colorectal cancer were also compared to those in publicly available databases in cBioPortal (https://www.cbioportal.org/). We used the Memorial Sloan Kettering – Metastatic Events and Tropisms (MSK-MET) database for Western population representation [20]. For the Asian population, data were retrieved from the China Pan-Cancer (CPC) database [21]. Descriptive statistics were used to report frequencies of relevant biomarkers.
+
+## Results
+
+### Sample Characteristics
+
+Nine hundred twenty-six plasma samples from patients with advanced solid organ malignancies were included. Samples that were canceled, had no ctDNA detected, or contained only synonymous mutations were excluded. The remaining 786 eligible samples with profiling results came from 767 patients (Fig. 1a). This patient population included 56% men. The median patient age was 63 years (range: 27–92). Most patients (95%) were profiled once, and the remaining were genotyped twice or more. The median number of alterations per sample was 3 (range: 1–91). The average turnaround time from the sample receipt in the laboratory to reporting the results was 7.8 days (range: 4–27; median, 7) (Table 1).
+
+Fig. 1.: Analyzed samples (a) and profiled cancer types (b).
+
+Patient and sample characteristics
+Gender
+Male	56%
+Female	44%
+Age, years
+Median	63
+Range	27–92
+Clinical stage
+Stage	IV (all patients)
+Number of samples per patient
+1	95%
+2–5	5%
+Mutation count per sample
+Median	3
+Range	1–91
+Turnaround time, days
+Median	7 (mean, 7.75)
+Range	4–27
+
+### Pan-Cancer Analysis
+
+The analysis included patients with lung adenocarcinoma (25%), breast carcinoma (23%), colorectal adenocarcinoma (14%), pancreatic ductal adenocarcinoma (8%), cholangiocarcinoma (5%), ovarian carcinoma (4%), prostate adenocarcinoma (3%), and other cancer types (18%) (Fig. 1b). In the overall cohort, the most prevalent SNVs were detected in TP53 (58.5%), EGFR (20.4%), KRAS (18.9%), PIK3CA (13.9%), and APC (8.7%) (Fig. 2a). Amplifications were most frequently observed for EGFR (10.2%), FGFR1 (4.9%), PIK3CA (4.9%), MYC (4.6%), and BRAF (4.4%) (Fig. 2b). Fusions were observed in 2.7% of the profiled patients. They included ALK, ROS1, FGFR2, FGFR3, and RET (Fig. 2c). Microsatellite instability-high (MSI-H) was detected in 2% of patients tested. Activating ERBB2 mutations, KRAS G12C, and BRAF V600 mutations were observed in 4.2%, 4.0%, and 1.8% of patients, respectively (online suppl. Fig. S1; for all online suppl. material, see https://doi.org/10.1159/000541571).
+
+Fig. 2.: Landscape of genomic alterations in pan-cancer population. Genes most commonly affected by SNVs (a), most frequently amplified genes (b), and fusion genes (c).
+
+### Lung Adenocarcinoma Analysis
+
+From 227 patients diagnosed with lung cancer, after excluding patients with neuroendocrine or homogeneously squamous histology, we analyzed genomic alterations in the remaining 185 patients. The most frequently occurring SNVs were in TP53 (62.4%), EGFR (30.5%), KRAS (19.3%), STK11 (13.7%), and ATM (12.2%) (online suppl. Fig. S2a). The most commonly amplified genes were EGFR (13.2%), CCNE1 (3.1%), CDK4 (3.1%), MYC (3.1%), and FGFR1 (2.0%). The lack of distinction between focal amplification and aneuploidy for EGFR amplification in this version of the Guardant360 assay may have influenced this observation. MET and ERBB2 were amplified in 2.0% and 1.0% of patients, respectively (online suppl. Fig. S2b). Fusions were observed in 6.5% of patients and included EML4-ALK (50.0%), other ALK fusions (17.0%), ROS1 (17.0%), RET (8.0%), and FGFR2 (8.0%) (online suppl. Fig. S2c). MSI-H was detected in 1.3% of the patients tested for this.
+
+Next, we focused on the frequency of NCCN guideline-recommended genes [22]. The most common mutations involved EGFR (30.5%), KRAS (others) (10.2%), KRAS (G12C) (9.1%), ERBB2 (4.6%), and BRAF V600E (2.5%); ALK fusions were detected in 3.1% of patients (Fig. 3).
+
+Fig. 3.: Frequency of NCCN-recommended biomarkers in lung adenocarcinoma.
+
+The landscape of EGFR mutations was analyzed in further detail. The most prevalent alterations were exon 19 deletions (40.0%), EGFR L858R (26.0%), exon 20 insertions (9.0%), T790M (9.0%), and C797s (4.0%) (online suppl. Fig. S3). Among patients with exon 19 deletions and L858r, analyses revealed the presence of multiple co-alterations. For exon 19 deletions, common co-alterations included MET amplifications (10.4%), EGFR amplifications (6.9%), T790M and/or C797S (6.9%), ERBB2 SNVs (6.9%), PIK3CA E542K (6.9%), and BRAF V600E (6.9%). For those with EGFR L858R, MET amplifications were detected in 11.8% (online suppl. Fig. S3). Uncommon EGFR SNVs accounted for (13.6%) of all EGFR variants (online suppl. Table S1).
+
+ERBB2 modifications were observed in 4.6% of the patients. Among them, 65.0% were ERBB2 exon 20 insertions, 26.5% were ERBB2 KD mutations, and 8.5% were ERBB2 amplifications (online suppl. Table S2). BRAF mutations were detected in 2.7% of the patients, and among them, 66.5% were BRAF V600E, whereas 33.5% were BRAF non-V600E (online suppl. Table S2).
+
+### Breast Cancer Analysis
+
+In 166 patients with advanced breast cancer of any histology (i.e., unselected), the most frequently mutated genes included TP53 (53.0%), PIK3CA (35.3%), ESR1 (21.7%), BRCA1/2 (13.3%), and ATM (13.2%) (online suppl. Fig. S4a). The most commonly amplified genes were FGFR1 (15.1%), CCND2 (12.1%), CCND1 (9.6%), PIK3CA (9.6%), and MYC (8.4%) (online suppl. Fig. S4b). Fusions were found in 3% of patients and involved ALK (40%), FGFR2 (40%), and NTRK1 (20%). MSI-H was found in 1.8% of the patients. Clinically informative alterations according to the NCCN [22] included mutations in PIK3CA (35.3%), ESR1 (21.7%), BRCA1/2 (13.3%), ERBB2 (10.2%), and amplification of ERBB2 (4.8%) (Fig. 4).
+
+Fig. 4.: Frequency of NCCN-recommended somatic biomarkers in breast cancer.
+
+An in-depth, gene-specific analysis was also conducted on ERBB2 (online suppl. Fig. S5a), PIK3CA (online suppl. Fig. S5b, S6), ESR1 (online suppl. Fig. S7), and BRCA genes (BRCA1 and BRCA2; online suppl. Fig. S8). In PIK3CA, the most prevalent mutations were observed in the PI3_PI4 domain (46%), followed by the helical domain (27%) (online suppl. Fig. S5b). Nearly one-third (32%) of all PIK3CA mutations occurred outside of typical hotspots. Additionally, insertions or deletions predicted to be activating alterations were identified in 5% of samples with any PIK3CA mutation (online suppl. Fig. S6).
+
+All alterations in ESR1 occurred in the ligand-binding domain. Common mutations included Y537S/N/D (41%), D538G (37%), and E380q (13%) (online suppl. Fig. S7). Overall, 34 genetic alterations were observed in BRCA1/2 (12 SNVs and 22 indels) in 22 (13.3%) of patients with breast cancer. Among them, multiple BRCA alterations were detected in 18.2% of patients, BRCA + ESR1 in 13.6%, BRCA + PIK3CA + ESR1 in 13.6%, BRCA + PIK3CA in 13.6%, and BRCA + PIK3CA + PTEN in 9.1%. Most BRCA alterations appeared to be suspected germline (online suppl. Fig. S8). Among patients with ERBB2 mutations, most (76%) were in the kinase domain (KD), 18% occurred in the extracellular domain (ECD), and 6% were exon 20 insertions.
+
+### Colorectal Cancer Analysis
+
+Data from 100 patients with colorectal cancer were analyzed. The most frequently mutated genes included TP53 (83.0%), APC (47.0%), KRAS (39.0%), PIK3CA (23.0%), and SMAD4 (18.0%) (online suppl. Fig. S9a). Frequently amplified genes included EGFR (27.0%), BRAF (9.0%), FGFR1 (7.0%), CCNE1 (7.0%), and KRAS (4.0%) (online suppl. Fig. S9b). No fusions were found. Considering the NCCN recommendations for genomic testing in colon cancer [22], we observed mutations in KRAS (39.0%) and NRAS (8.0%), BRAF V600E (4.0%), ERBB2 amplification (3%), and MSI-high (2.0%) (Fig. 5).
+
+Fig. 5.: Frequency of NCCN-recommended biomarkers in colorectal cancer.
+
+In the KRAS gene, the most frequent variants were KRAS G12A/D/L/V (59.2%), followed by KRAS G12C (14.3%), KRAS Q61H (11.9%), KRAS G13D (4.8%), and KRAS A146T (4.8%) (online suppl. Fig. S10a). Most KRAS variants were located in exon 2 (78.0%), followed by extended RAS variants (20.0%) and atypical variants (2.0%) (online suppl. Fig. S10b). BRAF V600E and non-V600E mutations were each seen in 4.0% of patients. ERBB2 KD mutations and ERBB2 amplifications were observed in 2.0% and 1.0% of patients, respectively (online suppl. Table S3). MET amplification was observed in 3% of patients.
+
+### Database Analysis
+
+In lung adenocarcinoma, for the most prevalent NCCN biomarkers (EGFR, KRAS, and ERBB2 mutations), the nominal values for frequencies of genetic alterations in our sample fell between the values recorded in the MSK-MET and CPC databases. A higher prevalence of ALK fusions was observed in the CPC database. The frequency of remaining biomarkers was similar across the various databases (Fig. 6a). For breast cancer, the most frequently altered NCCN biomarker, PIK3CA, had a similar prevalence rate in our cohort to that in the MSK-MET and CPC databases; however, ESR1, BRCA1/2, and ERBB2 mutations were more frequently observed in our dataset (Fig. 6b). For colorectal cancer, the most frequently affected NCCN gene, KRAS, was less commonly mutated in our patient cohort than in the MSK-MET and CPC databases. In contrast, NRAS was more commonly mutated in the current study (Fig. 6c), which may reflect a bias in patient selection for liquid comprehensive genomic profiling.
+
+Fig. 6.: Database analysis comparing NCCN-recommended biomarkers in lung adenocarcinoma (a), breast cancer (b), and colorectal cancer (c).
+
+## Discussion
+
+We present findings from a large-scale, comprehensive overview of the genomic landscape of multiple advanced cancers as determined by a ctDNA NGS analysis in patients from the MENA region. Among the genes recommended for evaluation by the NCCN, the most common alterations in patients with advanced lung adenocarcinoma were in EGFR, KRAS, and ERBB2; in patients with unselected metastatic breast cancer, they were in PIK3CA, ESR1, and BRCA1/2; and in patients with advanced colorectal cancer, they were in KRAS, NRAS, and BRAF (V600E).
+
+Compared to NGS databases, such as MSK-MET (from the USA) and CPC (from China), the GH-MENA cohort revealed similarities and distinctions in the frequencies of different clinically relevant genetic alterations. For example, the rate of EGFR mutations in patients with lung adenocarcinoma in our study cohort was between those from Asian and Western populations. However, the prevalence of PIK3CA mutations in unselected patients with breast cancer was similar in all three databases.
+
+Tumor tissue acquired by biopsy has been the traditional source material for standard genotyping. However, validated liquid biopsy assays provide a non-invasive alternative that can expand the accessibility of CGP to more patients with advanced-stage cancers. Studies comparing genomic biomarker detection rates from simultaneously obtained plasma and tumor tissue have demonstrated concordance rates of 80%–90% [23–25]. Furthermore, NCCN guidelines for various advanced-stage cancers recommend ctDNA-based liquid biopsy for genotyping, mainly when tissue is unavailable, or biopsies are infeasible [22].
+
+Studies have described geographical variance in the genomic landscape of advanced cancers but with less information regarding African, Central Asian, and South American regions [15]. Regarding ctDNA analyses, only a handful of studies have described genomic findings in MENA, usually with small cohorts (≤100 patients) and focusing on single cancer types [26–29]. Our data, therefore, expand this information with a larger sample from various countries in the MENA region diagnosed with different cancer types.
+
+### Implications of the Lung Cancer Analysis
+
+We focused on lung adenocarcinoma because it was the most common histologic sub-type in our database and is most likely to be associated with actionable alterations. We found that 65% of samples had clinically informative alterations in genes defined by the NCCN (EGFR, KRAS, ERBB2, ALK, BRAF, MET, ROS1, and RET).
+
+The frequency of most biomarkers was similar to those in Western and East Asian cohorts but with notable exceptions. The rate of EGFR mutations in patients with lung adenocarcinoma from the MENA region (30.5%) was between those reported for East Asian (40%–50%) and Western populations (10%–15%) [30–32]. Our findings are in line with those from tissue analysis in MENA, with EGFR mutation frequency in NSCLC of 17.2% [33]. Similarly, the prevalence of KRAS mutations among patients with NSCLC is lower in Asian countries (5%–11%) than in Western countries (20%–26%) [34]. Our findings show that, among MENA patients with lung adenocarcinoma, KRAS mutation frequency (19.3%) was between the MSK (33.1%) and CPC cohorts (11.8%) but with the same relative rates of specific KRAS mutations. For example, KRAS G12C accounted for 47.3% in our cohort, 41.4% in MSK-MET, and 41% in the CPC database.
+
+Comprehensive genomic profiling can improve the detection of uncommon and complex EGFR variants, including exon 20 insertions [35]. In our cohort, 9% of the EGFR alterations were exon 20 insertions, similar to the rate reported for Western populations [35]; however, given that the overall number of patients harboring EGFR mutations is higher than in the West, there were proportionately more patients with lung adenocarcinoma in MENA with such alterations. Additionally, 13.6% of the actionable EGFR variants detected by our analysis occurred outside of exon 19 deletions, L858R, and T790m (Supplementary Table S1). These could have been missed by hotspot-based testing methods. EML4-ALK was the most common gene rearrangement; however, we also detected a rare FGFR2-NRAP fusion. FGFR2/3 fusions are rare resistance alterations in lung cancer that are acquired after treatment with EGFR TKIs [36]. Our cohort had 1.3% of patients with MSI-H, which is consistent with previous data [37].
+
+### Implications of the Breast Cancer Analysis
+
+In addition to germline testing for BRCA1/2 mutations and PALB2 mutations, the NCCN guidelines for advanced breast cancer [22] recommend testing for somatic alterations, such as ERBB2 amplifications, ESR1 mutations, activating AKT1 and PIK3CA mutations or PTEN alterations, NTRK fusions, MSI-H, and RET fusions; assessments can be considered for emerging biomarkers, such as ERBB2 activating mutations and somatic BRCA1/2 mutations. The NCCN guidelines propose limiting the use of liquid biopsy to recurrent/stage IV (M1) disease, where it can serve as an alternative to tissue biopsy to identify candidates for targeted therapies [22].
+
+A study comparing liquid and tissue biopsy in patients with metastatic breast cancer found that plasma-based genotyping could detect high rates of actionable mutations [38]. Our findings are consistent with limited single-institution studies from MENA, such as those reporting 25.9%–31% prevalence for PIK3CA mutations [39, 40].
+
+The frequencies of most alterations in our cohort are consistent with those from the MSK-MET and CPC databases. These databases were suitable comparators because, like our real-world observational cohort, they included patients with unselected advanced breast cancer. However, there are notable differences in our findings, such as a lower incidence of ERBB2 amplification (4.8% vs. 10.9% in MSK-MET and 23.8% in CPC). Other studies from MENA have described ERBB2 amplification or protein overexpression in 20%–29% of patients with advanced breast cancer [41, 42]. The ability of tissue- or plasma-based NGS platforms to detect ERBB2 amplification in tumors known to demonstrate HER2 (protein) overexpression by immunohistochemistry or ERBB2 amplification by fluorescence in situ hybridization has been challenged. However, one recent study in patients with ERBB2-positive breast cancer demonstrated that, in routine clinical practice, the concordance between ERBB2 amplification by NGS and ERBB2 positivity by immunohistochemistry and/or fluorescence in situ hybridization was approximately 70% [43].
+
+Although our database does not include results of tissue-based testing, we hypothesize that our cohort is over-represented by patients with HER2-negative advanced breast cancer (hormone receptor-positive or triple-negative). This is supported by a higher incidence of ESR1 (21.7% vs. 7.2% and 3.7%), BRCA1/2 (13.3% vs. 4.4% and 5.6%), and activating ERBB2 mutations (10.2% vs. 3.1% and 3.7%) than in the MSK-MET and CPC databases. The higher incidence of ESR1 mutations in our cohort suggests a prior exposure to aromatase inhibitors for hormone receptor-positive disease. Furthermore, a higher incidence of BRCA1/2 mutations is expected in ER/PR-positive or triple-negative disease relative to the HER2-positive phenotype [44, 45], and ERBB2 mutations are expected after exposure to ER-directed or anti-HER2 therapy in metastatic breast cancer [46].
+
+### Implications of the Colorectal Cancer Analysis
+
+The prevalence of BRAF V600E was similar in the MENA and CPC cohorts, while it was lower in MSK-MET, suggesting regional variance. Compared to MSK-MET, the rate of MSI-H in our MENA cohort was lower, mainly due to the ordering bias. Typically, dMMR testing is performed in earlier lines, while ctDNA testing is used later to detect resistance mechanisms, usually in patients who have experienced progression on anti-EGFR monoclonal antibodies. The frequency of KRAS mutations (39.0%) was lower compared to MSK-MET (44.1%) and CPC (48.2%). Our findings are consistent with a study of CRC tissue testing from MENA (32.2%–48%) [47].
+
+Among 100 patients with advanced CRC, eight had NRAS mutations. This is numerically higher than reported in previous studies from the region (NRAS: 2.2%–3.2%) [47, 48] and in the MSK-MET (4.4%) and CPC databases (3.3%). However, given the relatively small cohort size, our findings could be due to chance. Similarly, while no fusions were observed, it is expected that only 1.0% of all tumors would have clinically actionable rearrangements (FGFR2, FGFR3, RET, ALK, NTRK1, and ROS1 combined) [49]. The cohort may not have been large enough to include such rare events.
+
+### Study Strengths and Limitations
+
+Our study addresses an information gap as there are no large-scale analyses of ctDNA genomic profiling for advanced cancer patients in the MENA region. Moreover, our findings provide comprehensive real-world data regarding the mutational landscape of such patients.
+
+This study was retrospective and reflected patterns of real-world testing, where ordering biases may have occurred. Detailed pathological features, such as ER, PR, and HER2 status in breast cancer, were not available for all patients. Treatment history, results of previous or concurrent biomarker testing, and each patient’s line of testing were unknown. For some, ctDNA NGS testing may have been the first and only analysis, while for others it could have been used as a reflex test following a negative result from another test. Therefore, the frequency of alterations observed in our study may not reflect those for treatment-naive advanced cancers in MENA.
+
+Nevertheless, ctDNA-based NGS has certain advantages. For example, it detects a wide range of genomic alterations from a single blood sample within a week, with performance similar to that of tissue-based genotyping [17, 18]. However, the plasma concentration of ctDNA depends on tumor DNA shedding, which may be less with well-differentiated cancers, lower tumor burden, or when tumors are limited to the central nervous system. In cases of specific complex genomic alterations, such as fusions, large insertions, or deletions, sensitivity may be decreased compared to that seen with SNVs. Furthermore, while the presence of non-tumor mutations derived from clonal hematopoiesis of indeterminate potential may be a confounding factor [11], most actionable driver mutations are not among the common alterations associated with clonal hematopoiesis of indeterminate potential [50].
+
+## Conclusion
+
+Our findings provide insight into the genomic landscape of individuals with advanced cancer from the MENA region and further support the role of ctDNA NGS in identifying patients for treatment with appropriate targeted therapy.
+
+## Acknowledgment
+
+The authors thank Dr. Zoya Marinova for providing medical writing support/editorial support.
+
+## Statement of Ethics
+
+The study was conducted in compliance with the Declaration of Helsinki. This study protocol was reviewed and approved by Advarra Institutional Review Board Services, 6100 Merriweather Dr., Suite 600, Columbia, MD 21044, USA, Approval No. Pro00034566/CR00 218935. Furthermore, the need for informed consent to analyze de-identified data was waived by the Advarra Institutional Review Board, which approved the protocol.
+
+## Conflict of Interest Statement
+
+S.D. declares honoraria from Novartis, Pfizer, Lilly, AstraZeneca, Roche, MSD, BMS, New Bridge, and Caris as well as research funding from MSD, Amgen, and the Al Jalila Foundation. N.S. and S.O. declare employment at Guardant Health AMEA, Inc., and stock ownership of Guardant Health, Inc. The other authors have no conflicts of interest to declare.
+
+## Funding Sources
+
+The study was funded by Guardant Health AMEA, Singapore.
+
+## Author Contributions
+
+Study concept and design: Shaheenah Dawood, Marwan Akasheh, Maroun El Khoury, Sonia Otsmane, Muath Alnassar, Omalkhair Abulkhair, and Steve Olsen. Data acquisition, data analysis, and drafting the manuscript: Nippun Sandhir. Data interpretation: Shaheenah Dawood, Nippun Sandhir, Marwan Akasheh, Maroun El Khoury, Sonia Otsmane, Muath Alnassar, Omalkhair Abulkhair, Fadi Farhat, and Steve Olsen. Critical review and approval of the manuscript: Shaheenah Dawood, Marwan Akasheh, Maroun El Khoury, Sonia Otsmane, Muath Alnassar, Omalkhair Abulkhair, Fadi Farhat, and Steve Olsen.
+
+## Data Availability Statement
+
+Restrictions apply to the availability of these data. Data were obtained from Guardant Health AMEA and are available from the authors with the permission of Guardant Health AMEA. Further inquiries can be directed to the corresponding author.
+
+## Section
+
+## References
+1. 1. American Cancer Society . Global cancer facts & figures. 4th ed. Atlanta: American Cancer Society; 2018. Available from: https://www.cancer.org/content/dam/cancer-org/research/cancer-facts-and-statistics/global-cancer-facts-and-figures/global-cancer-facts-and-figures-4th-edition.pdf
+2. 2. Hofmarcher T , Manzano GarcíaA, WilkingN, LindgrenP. The disease burden and economic burden of cancer in 9 countries in the Middle East and Africa. Value Health Reg Issues. 2023;37:81–7.37364406 10.1016/j.vhri.2023.05.005
+3. 3. Berchuck JE , FacchinettiF, DiToroDF, BaievI, MajeedU, ReyesS, . The clinical landscape of cell-free DNA alterations in 1,671 patients with advanced biliary tract cancer. Ann Oncol. 2022;33(12):1269–83.36089135 10.1016/j.annonc.2022.09.150
+4. 4. Dalag L , FergusJK, ZanganSM. Lung and abdominal biopsies in the age of precision medicine. Semin Intervent Radiol. 2019;36(3):255–63.31435134 10.1055/s-0039-1693121PMC6699958
+5. 5. de Sousa VML , CarvalhoL. Heterogeneity in lung cancer. Pathobiology. 2018;85(1–2):96–107.29635240 10.1159/000487440
+6. 6. Spiegel ML , GoldmanJW, WolfBR, NamethDJ, GroganTR, LisbergAE, . Non-small cell lung cancer clinical trials requiring biopsies with biomarker-specific results for enrollment provide unique challenges. Cancer. 2017;123(24):4800–7.29125624 10.1002/cncr.31056PMC6263029
+7. 7. Lim C , TsaoMS, LeLW, ShepherdFA, FeldR, BurkesRL, . Biomarker testing and time to treatment decision in patients with advanced nonsmall-cell lung cancer. Ann Oncol. 2015;26(7):1415–21.25922063 10.1093/annonc/mdv208
+8. 8. Huo J , XuY, SheuT, VolkRJ, ShihYC. Complication rates and downstream medical costs associated with invasive diagnostic procedures for lung abnormalities in the community setting. JAMA Intern Med. 2019;179(3):324–32.30640382 10.1001/jamainternmed.2018.6277PMC6440230
+9. 9. Malla M , LoreeJM, KasiPM, ParikhAR. Using circulating tumor DNA in colorectal cancer: current and evolving practices. J Clin Oncol. 2022;40(24):2846–57.35839443 10.1200/JCO.21.02615PMC9390824
+10. 10. Rijavec E , CocoS, GenovaC, RossiG, LongoL, GrossiF. Liquid biopsy in non-small cell lung cancer: highlights and challenges. Cancers. 2019;12(1):17.31861557 10.3390/cancers12010017PMC7017364
+11. 11. Rolfo C , MackP, ScagliottiGV, AggarwalC, ArcilaME, BarlesiF, . Liquid biopsy for advanced NSCLC: a consensus statement from the international association for the study of lung cancer. J Thorac Oncol. 2021;16(10):1647–62.34246791 10.1016/j.jtho.2021.06.017
+12. 12. Dang DK , ParkBH. Circulating tumor DNA: current challenges for clinical utility. J Clin Invest. 2022;132(12):e154941.35703177 10.1172/JCI154941PMC9197509
+13. 13. Zill OA , BanksKC, FaircloughSR, MortimerSA, VowlesJV, MokhtariR, . The landscape of actionable genomic alterations in cell-free circulating tumor DNA from 21,807 advanced cancer patients. Clin Cancer Res. 2018;24(15):3528–38.29776953 10.1158/1078-0432.CCR-17-3837
+14. 14. Cho BC , LoongHHF, TsaiCM, TeoMLP, KimHR, LimSM, . Genomic landscape of non-small cell lung cancer (NSCLC) in East asia using circulating tumor DNA (ctDNA) in clinical practice. Curr Oncol. 2022;29(3):2154–64.35323374 10.3390/curroncol29030174PMC8946965
+15. 15. Carrio-Cordo P , AchesonE, HuangQ, BaudisM. Geographic assessment of cancer genome profiling studies. Database. 2020;2020:baaa009.32239182 10.1093/database/baaa009PMC7113738
+16. 16. Diaz IM , NoconA, HeldSAE, KobilayM, SkowaschD, BronkhorstAJ, . Pre-analytical evaluation of Streck cell-free DNA blood collection tubes for liquid profiling in oncology. Diagnostics. 2023;13(7):1288.37046506 10.3390/diagnostics13071288PMC10093569
+17. 17. Lanman RB , MortimerSA, ZillOA, SebisanovicD, LopezR, BlauS, . Analytical and clinical validation of a digital sequencing panel for quantitative, highly accurate evaluation of cell-free circulating tumor DNA. PLoS One. 2015;10(10):e0140712.26474073 10.1371/journal.pone.0140712PMC4608804
+18. 18. Odegaard JI , VincentJJ, MortimerS, VowlesJV, UlrichBC, BanksKC, . Validation of a plasma-based comprehensive cancer genotyping assay utilizing orthogonal tissue- and plasma-based methodologies. Clin Cancer Res. 2018;24(15):3539–49.29691297 10.1158/1078-0432.CCR-17-3831
+19. 19. Food and Drug Administration . FDA approves first liquid biopsy next-generation sequencing companion diagnostic test; 2020. Available from: https://www.fda.gov/news-events/press-announcements/fda-approves-first-liquid-biopsy-next-generation-sequencing-companion-diagnostic-test
+20. 20. Nguyen B , FongC, LuthraA, SmithSA, DiNataleRG, NandakumarS, . Genomic characterization of metastatic patterns from prospective clinical sequencing of 25,000 patients. Cell. 2022;185(3):563–75.e11.35120664 10.1016/j.cell.2022.01.003PMC9147702
+21. 21. Wu L , YaoH, ChenH, WangA, GuoK, GouW, . Landscape of somatic alterations in large-scale solid tumors from an Asian population. Nat Commun. 2022;13(1):4264.35871175 10.1038/s41467-022-31780-9PMC9308789
+22. 22. National comprehensive cancer Network (NCCN) guidelines. Available from: https://www.nccn.org/guidelines/category_1
+23. 23. Adalsteinsson VA , HaG, FreemanSS, ChoudhuryAD, StoverDG, ParsonsHA, . Scalable whole-exome sequencing of cell-free DNA reveals high concordance with metastatic tumors. Nat Commun. 2017;8(1):1324.29109393 10.1038/s41467-017-00965-yPMC5673918
+24. 24. Zill OA , GreeneC, SebisanovicD, SiewLM, LengJ, VuM, . Cell-Free DNA next-generation sequencing in pancreatobiliary carcinomas. Cancer Discov. 2015;5(10):1040–8.26109333 10.1158/2159-8290.CD-15-0274PMC4592417
+25. 25. Leighl NB , PageRD, RaymondVM, DanielDB, DiversSG, ReckampKL, . Clinical utility of comprehensive cell-free DNA analysis to identify genomic biomarkers in patients with newly diagnosed metastatic non-small cell lung cancer. Clin Cancer Res. 2019;25(15):4691–700.30988079 10.1158/1078-0432.CCR-19-0624
+26. 26. Alanazi M , ParineNR, ShaikJP, Al NaeemA, AldhaianS. Targeted sequencing of crucial cancer causing genes of breast cancer in Saudi patients. Saudi J Biol Sci. 2020;27(10):2651–9.32994724 10.1016/j.sjbs.2020.05.047PMC7499116
+27. 27. Ismail MS , KassemL, AliAA, AhmedFE, ShalabyM, MagdyS. Molecular patterns of Egyptian patients with non-squamous non-small-cell lung cancers: a clinicopathological study. J Egypt Natl Canc Inst. 2023;35(1):7.37009936 10.1186/s43046-023-00167-2PMC13313946
+28. 28. Kassem N , KassemH, KassemL, HassanM. Detection of activating mutations in liquid biopsy of Egyptian breast cancer patients using targeted next-generation sequencing: a pilot study. J Egypt Natl Canc Inst. 2021;33(1):10.33864517 10.1186/s43046-021-00067-3PMC13316894
+29. 29. Siraj AK , MasoodiT, BuR, BegS, Al-SobhiSS, Al-DayelF, . Genomic profiling of thyroid cancer reveals a role for thyroglobulin in metastasis. Am J Hum Genet. 2016;98(6):1170–80.27236916 10.1016/j.ajhg.2016.04.014PMC4908175
+30. 30. Mitsudomi T . Molecular epidemiology of lung cancer and geographic variations with special reference to EGFR mutations. Transl Lung Cancer Res. 2014;3(4):205–11.25806302 10.3978/j.issn.2218-6751.2014.08.04PMC4367697
+31. 31. Melosky B , KambartelK, HäntschelM, BennettsM, NickensDJ, BrinkmannJ, . Worldwide prevalence of epidermal growth factor receptor mutations in non-small cell lung cancer: a meta-analysis. Mol Diagn Ther. 2022;26(1):7–18.34813053 10.1007/s40291-021-00563-1PMC8766385
+32. 32. Midha A , DeardenS, McCormackR. EGFR mutation incidence in non-small-cell lung cancer of adenocarcinoma histology: a systematic review and global map by ethnicity (mutMapII). Am J Cancer Res. 2015;5(9):2892–911.26609494 PMC4633915
+33. 33. Boustany Y , LaraquiA, El RhaffouliH, BajjouT, El MchichiB, El AnazH, . Prevalence and patterns of EGFR mutations in non-small cell lung cancer in the Middle East and North Africa. Cancer Control. 2022;29:107327482211294.
+34. 34. Lee J , TanAC, ZhouS, YoonS, LiuS, MasudaK, . Clinical characteristics and outcomes in advanced KRAS-mutated NSCLC: a multicenter collaboration in asia (ATORG-005). JTO Clin Res Rep. 2022;3(1):100261.35024639 10.1016/j.jtocrr.2021.100261PMC8728099
+35. 35. Viteri S , MinchomA, BazhenovaL, OuSHI, BaumlJM, ShellSA, . Frequency, underdiagnosis, and heterogeneity of epidermal growth factor receptor exon 20 insertion mutations using real-world genomic datasets. Mol Oncol. 2023;17(2):230–7.36269676 10.1002/1878-0261.13327PMC9892822
+36. 36. Raphael A , DudnikE, HershkovitzD, JainS, OlsenS, Soussan-GutmanL, . FGFR fusions as an acquired resistance mechanism following treatment with epidermal growth factor receptor tyrosine kinase inhibitors (EGFR TKIs) and a suggested novel target in advanced non-small cell lung cancer (aNSCLC). J Clin Med. 2022;11(9):2475.35566609 10.3390/jcm11092475PMC9102087
+37. 37. Qin J , ShiD, YinY, LiuB, WangL, SunT, . The clinical and genomic characteristics of MSI-h/dMMR lung cancer. J Clin Oncol. 2022;40(16_Suppl l):e21142.
+38. 38. Vidula N , NiemierkoA, MalvarosaG, YuenM, LennerzJ, IafrateAJ, . Tumor tissue- versus plasma-based genotyping for selection of matched therapy and impact on clinical outcomes in patients with metastatic breast cancer. Clin Cancer Res. 2021;27(12):3404–13.33504549 10.1158/1078-0432.CCR-20-3444
+39. 39. Karakas B , ColakD, KayaN, GhebehH, Al-QasemA, HendrayaniF, . Prevalence of PIK3CA mutations and the SNP rs17849079 in Arab breast cancer patients. Cancer Biol Ther. 2013;14(10):888–96.23982433 10.4161/cbt.25945PMC3926885
+40. 40. Azribi F , HouraniM, MagdubS, AlawadhiA, YousifA, DawoudE, . Abstract P5-03-04: PIK3CA mutation prevalence in hormone receptor positive breast cancer patients in United Arab Emirates. Cancer Res. 2023;83(5_Suppl ment):P5-03-4.
+41. 41. Bendardaf R , Saheb Sharif-AskariF, Saheb Sharif-AskariN, Yousuf GurayaS, A AlMadhiS, AbusnanaS. Incidence and clinicopathological features of breast cancer in the northern emirates: experience from Sharjah breast care center. Int J Womens Health. 2020;12:893–9.33149700 10.2147/IJWH.S266335PMC7602912
+42. 42. Zekri J , SaadeddinA, AlharbiH. Frequency and clinical characteristics of HER2 over-expressed breast cancer in Saudi Arabia: a retrospective study. BMC Women’s Health. 2021;21:10.33407382 10.1186/s12905-020-01159-3PMC7788710
+43. 43. Cho-Phan CD , SniderJ, ZhangL, McGregorK, SchrockAB, CastellanosE. Concordance of HER2+ status by IHC/ISH and ERBB2 status by NGS in a real-world clinicogenomic database and analysis of outcomes in patients (pts) with metastatic breast cancer (mBC). J Clin Oncol. 2021;39(15_Suppl l):1036.
+44. 44. Sanford RA , SongJ, Gutierrez-BarreraAM, ProfatoJ, WoodsonA, LittonJK, . High incidence of germline BRCA mutation in patients with ER low-positive/PR low-positive/HER-2 neu negative tumors. Cancer. 2015;121(19):3422–7.26280679 10.1002/cncr.29572PMC4829956
+45. 45. Chen H , WuJ, ZhangZ, TangY, LiX, LiuS, . Association between BRCA status and triple-negative breast cancer: a meta-analysis. Front Pharmacol. 2018;9:909.30186165 10.3389/fphar.2018.00909PMC6111442
+46. 46. Gaibar M , BeltránL, Romero-LorcaA, Fernández-SantanderA, NovilloA. Somatic mutations in HER2 and implications for current treatment paradigms in HER2-positive breast cancer. J Oncol. 2020;2020:6375956.32256585 10.1155/2020/6375956PMC7081042
+47. 47. Jafari M , LaraquiA, BabaW, BenmokhtarS, ZaitouniSE, AliAA, . Prevalence and patterns of mutations in RAS/RAF/MEK/ERK/MAPK signaling pathway in colorectal cancer in North Africa. BMC Cancer. 2022;22(1):1142–4.36344948 10.1186/s12885-022-10235-wPMC9639273
+48. 48. Saharti S . KRAS/NRAS/BRAF mutation rate in Saudi academic hospital patients with colorectal cancer. Cureus. 2022;14(4):e24392.35619874 10.7759/cureus.24392PMC9124608
+49. 49. Clifton K , RichTA, ParseghianC, RaymondVM, DasariA, PereiraAAL, . Identification of actionable fusions as an anti-EGFR resistance mechanism using a circulating tumor DNA assay. JCO Precis Oncol. 2019;3:PO.19.00141.33015522 10.1200/PO.19.00141PMC7526699
+50. 50. Acuna-Hidalgo R , SengulH, SteehouwerM, van de VorstM, VermeulenSH, KiemeneyLALM, . Ultra-sensitive sequencing identifies high prevalence of clonal hematopoiesis-associated mutations throughout adult life. Am J Hum Genet. 2017;101(1):50–64.28669404 10.1016/j.ajhg.2017.05.013PMC5501773

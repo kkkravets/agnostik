@@ -1,0 +1,298 @@
+# Gene mutations in stool from gastric and colorectal neoplasia patients by next-generation sequencing
+
+Authors: Omar Youssef, Virinder Sarhadi, Homa Ehsan, Tom Böhling, Monika Carpelan-Holmström, Selja Koskensalo, Pauli Puolakkainen, Arto Kokkola, Sakari Knuutila
+
+Journal: World Journal of Gastroenterology
+
+PMCID: PMC5743500
+
+PMID: 29307989
+
+DOI: 10.3748/wjg.v23.i47.8291
+
+Canonical source: https://pmc.ncbi.nlm.nih.gov/articles/PMC5743500/
+
+## Abstract
+
+## AIM
+
+To study cancer hotspot mutations by next-generation sequencing (NGS) in stool DNA from patients with different gastrointestinal tract (GIT) neoplasms.
+
+## METHODS
+
+Stool samples were collected from 87 Finnish patients diagnosed with various gastric and colorectal neoplasms, including benign tumors, and from 14 healthy controls. DNA was isolated from stools by using the PSP® Spin Stool DNA Plus Kit. For each sample, 20 ng of DNA was used to construct sequencing libraries using the Ion AmpliSeq Cancer Hotspot Panel v2 or Ion AmpliSeq Colon and Lung Cancer panel v2. Sequencing was performed on Ion PGM. Torrent Suite Software v.5.2.2 was used for variant calling and data analysis.
+
+## RESULTS
+
+NGS was successful in assaying 72 GIT samples and 13 healthy controls, with success rates of the assay being 78% for stomach neoplasia and 87% for colorectal tumors. In stool specimens from patients with gastric neoplasia, five hotspot mutations were found in APC, CDKN2A and EGFR genes, in addition to seven novel mutations. From colorectal patients, 20 mutations were detected in AKT1, APC, ERBB2, FBXW7, KIT, KRAS, NRAS, SMARCB1, SMO, STK11 and TP53. Healthy controls did not exhibit any hotspot mutations, except for two novel ones. APC and TP53 were the most frequently mutated genes in colorectal neoplasms, with five mutations, followed by KRAS with two mutations. APC was the most commonly mutated gene in stools of patients with premalignant/benign GIT lesions.
+
+## CONCLUSION
+
+Our results show that in addition to colorectal neoplasms, mutations can also be assayed from stool specimens of patients with gastric neoplasms.
+
+## Full article
+
+Core tip: Next-generation sequencing (NGS) was successfully applied for detecting cancer gene mutations in stool DNA of patients with different gastrointestinal neoplasms. Using a gene panel, comprising up to 50 cancer genes, it was found that mutations not only could be detected in stool DNA from colorectal cancer patients but also in patients with stomach cancer and those with benign or premalignant lesions. No hotspot mutations were detected in healthy controls. Our results show that NGS could be useful in screening for neoplastic changes of the gastrointestinal tract.
+
+## INTRODUCTION
+
+Gastrointestinal tract (GIT) malignancies are a diverse group of neoplasms with diverse epidemiology and incidences that affect different regions of the GIT, from the stomach to the large intestine. The value of somatic mutations in GIT malignancies is recognized, (1) as markers for early detection; (2) as markers that predict drug resistance, and (3) for follow up of cancer treatment[1-6]. In global terms, gastric carcinoma is the fifth most common cancer and the third most common cause of cancer-related mortality. Adenocarcinoma is its most typical subtype and present in 90% of all cases[7]. TP53, PIK3CA, ARID1A and cell adhesion pathway genes have been found to be the most frequently mutated genes in gastric adenocarcinomas[8]. The CDH1 gene is described as being involved in the pathogenesis of diffuse gastric carcinoma[9]. In sporadic colorectal cancer (CRC), APC, TP53, KRAS, PI3CA, FBXW7, SMAD4 and BRAF are the most commonly mutated genes[10].
+
+One of the major issues in GIT malignancies, specifically gastric carcinoma, is that they are usually detected at an advanced stage, due to late diagnosis[11]. Moreover, recent studies have demonstrated the diversity of morphological (intestinal and diffuse subtypes) and molecular subtypes (mesenchymal-like type, microsatellite-unstable tumor type, and TP53 tumor type) of gastric carcinoma, which contributes to the challenge of optimizing proper diagnosis and treatment[12]. The principal problem hindering early detection of gastric and colorectal neoplasia is the lack of symptoms; even when symptoms are present, they tend to be mild and nonspecific, which may delay subjecting the patient for endoscopic examination. Exfoliation of cells, whether premalignant or malignant, is continuously occurring from epithelial layer into the digestive lumen[13,14]; these display various genetic changes that have occurred in these cells, and can provide evidence of tumor pathogenesis[15]. Testing DNA abnormalities in stool specimens from GIT carcinoma patients represents a promising noninvasive approach for early cancer detection and for treatment follow-up. Multi-target stool DNA test is currently being used for CRC screening[16].
+
+We have previously shown that next-generation sequencing (NGS) can be successfully applied for investigating mutations in stool DNA obtained from patients with CRC[13]. In the current study, we applied the NGS method to determine whether cancer mutations could also be detected in stool samples from patients with other GIT tumors, including both diffuse and intestinal subtypes of gastric adenocarcinoma, gastric dysplasia, colorectal adenocarcinoma and adenoma, and colorectal leiomyoma.
+
+## MATERIALS AND METHODS
+
+### Patients
+
+During the period from April 2015 to May 2017, 79 gastric cancer, 38 gastrointestinal stromal tumor (GIST), 669 colon cancer and 271 primary rectal cancer patients were referred to three hospitals in Finland: Kirurgi, Meilahti and Jorvi. Three authors (Kokkola A, Carpelan-Holmström M and Koskensalo S) collected stool samples from patients who were referred to them for surgery. Stool specimens were collected from 87 patients with stomach or colorectal neoplasia, representing 41 stomach neoplasia (18 intestinal type, 20 diffuse type, 1 neuroendocrine tumor, 1 gastric dysplasia and 1 hamartoma) and 46 colorectal lesions (40 adenocarcinoma, 4 adenoma, 1 dysplasia and 1colorectal leiomyoma), as well as from 14 healthy individuals (Table 1). A total number of 21 patients had received treatment before the time of sampling (10 patients with stomach neoplasia and 11 with colorectal lesions). Treatments were in the form of chemotherapy (17 patients), radiotherapy (1 patient), or antibiotics for Helicobacter pylori infection (3 patients).
+
+Summary of stool samples collected and analyzed
+Tumor location	Total collected samples	Successful DNA extraction	Successful sequencing	Number of cases with only known mutations	Number of cases with
+Mutations, all
+Stomach	41	35	32 (78)	5 (15.6)	8 (25)
+Carcinoma	38	32	29	3	6
+Intestinal type	18	17	15	1	1
+Diffuse type	20	15	14	2	5
+Benign	3	3	3	2	2
+Hamartoma	1	1	1	0	0
+Dysplasia	1	1	1	1	1
+NET	1	1	1	1	1
+Colorectal	46	42	40 (87)	12 (30)	12 (30)
+Carcinoma	40	37	35	9	9
+Benign	6	5	5	3	3
+Adenoma	4	3	3	2	2
+Dysplasia	1	1	1	0	0
+Leiomyoma	1	1	1	1	1
+Healthy controls	14	13	13 (92.9)	0	2 (15)
+Total	101	90	85	17	22
+
+Patients were diagnosed and treated in Meilahti Hospital in Helsinki. The study was approved by the Hospital District of Helsinki and Uusimaa (HUS) Review Board (Ethical permission number 351/13/03/02/2014). Written informed consent was obtained from all subjects.
+
+### Stool specimens
+
+Stool specimens were collected in special collection tubes provided in the extraction kit (PSP® Spin Stool DNA Plus Kit; Stratec Biomedical, Berlin, Germany). These tubes are prefilled with 8 mL of stool DNA stabilizer to allow collection, transport and storage of the samples without DNA degradation. One spoon of stool specimen (spoon provided with the collection tubes) was transferred to the tube and mixed thoroughly to obtain a stool homogenate. The samples were stored at -20 °C until analysis, for an average of 7 d before extraction.
+
+### DNA extraction
+
+Before starting the DNA isolation, each stool specimen tube was vortexed vigorously to ensure proper mixing of the contents with the stabilizer liquid provided in each collection tube. A volume of 1.4 mL of the stabilized stool specimens was transferred to 2 mL tubes. Then, DNA was extracted from each stool specimen using the PSP® Spin Stool DNA Plus Kit (Stratec Biomedical) according to the manufacturer’s instructions. Extracted DNA was eluted in 50 μL of elution buffer, and then DNA was quantified by a Qubit® 2.0 Fluorometer (Life Technologies, Carlsbad, CA, United States) using the Qubit® dsDNA BR Assay Kit. The extracted DNA was stored at -20 °C.
+
+### NGS
+
+Library preparation: Twenty nanograms of stool DNA was used for preparing amplicon libraries using Ion AmpliSeq™ Library Kit 2.0 (Life Technologies) according to the manufacturer’s guidelines. Gene panels comprising pools of primer mixes were used to amplify templates. The gene panels used were one of the following: (1) Ion AmpliSeq Cancer Hotspot Panel v2 (Life Technologies), consisting of a primer pool for 207 amplicons from an average of 2800 mutational hotspot regions in 50 genes, including KIT and PDGFRA mutations. The genes included in the panel are ABL1, AKT1, ALK, APC, ATM, BRAF, CDH1, CDKN2A, CSF1R, CTNNB1, EGFR, ERBB2, ERBB4, EZH2, FBXW7, FGFR1, FGFR2, FGFR3, FLT3, GNA11, GNAS, GNAQ, HNF1A, HRAS, IDH1, JAK2, JAK3, IDH2, KDR, KIT, KRAS, MET, MLH1, MPL, NOTCH1, NMP1, NRAS, PDGFRA, PIK3CA, PTEN, PTPN11, RB1, RET, SMAD4, SMARCB1, SMO, SRC, STK11, TP53, and VHL; (2) Ion AmpliSeq Colon and Lung Cancer panel v2 (Life Technologies), consisting of a primer pool for 92 amplicons from 504 hotspot regions in 22 genes frequently mutated in CRC. The genes included in this panel are AKT1, ALK, BRAF, CTNNB1, DDR2, EGFR, ERBB2, ERBB4, FBX7, FGFR1, FGFR2, FGFR3, KRAS, MAP2K1, MET, NOTCH1, NRAS, PIK3CA, PTEN, SMAD4, STK11, and TP53.
+
+All specimens from patients with gastric neoplasms and 19 specimens from patients with colorectal neoplasia were assayed using Ion AmpliSeq Cancer Hotspot Panel v2, while the remaining specimens from colorectal neoplasia patients were studied by Ion AmpliSeq Colon and Lung Cancer panel v2. The major reason for using two different platforms was that Ion AmpliSeq Cancer Hotspot Panel v2 contains several genes that are commonly mutated in gastric neoplasia.
+
+The amplified libraries were purified using Agencourt AMPure XP beads (Beckman Coulter Genomics, High Wycombe, United Kingdom). The concentration of the purified libraries was measured on the Qubit® 2.0 Fluorometer, using the Qubit® dsDNA HS Assay Kit. The DNA libraries were stored at -20 °C until further use.
+
+Template preparation and sequencing: The amplified and purified libraries were diluted to 100 pmol/L, and the templates were prepared and enriched using the Ion OneTouch™ 2 System (Life Technologies), an automated emulsion PCR system. Finally, sequencing was carried out on the Ion Personal Genome Machine System (PGM™; Life Technologies) using Ion 316™ Chips and the Ion PGM™ Sequencing Hi-Q Kit v2.
+
+### Data analysis
+
+The Torrent Suite Software v.5.2.2 (Life Technologies) was used to assess run performance and data analysis, and Integrative Genomics Viewer (IGV v 2.2; Broad Institute, Cambridge, MA, United States) was used for visual inspection of the aligned reads.
+
+Variants were further filtered based on quality score (score of 15 or more) and mutant allele frequency (more than 3%). Only single nucleotide variants (SNVs) resulting in a nonsynonymous amino acid change, or a premature stop codon, and all short indels resulting in either a frameshift or insertion/deletion of amino acids were selected. All SNVs were analyzed for previously reported hotspot mutations (somatic mutations reported in the COSMIC database) and novel variations, i.e. new mutations detected by NGS but not reported in either COSMIC or dbSNP (build 150) databases.
+
+## RESULTS
+
+### Success rate
+
+Successful DNA extraction was performed on 77/87 patient stool samples, while NGS assay was successfully carried out on 72 patient stool DNA samples. Five samples were removed from NGS assay due to poor DNA quality (too little or degraded DNA). Of the 14 controls, DNA could be isolated from 13 samples and all were successfully sequenced. The success rates of sequencing stool samples for stomach and colorectal neoplasia were rather similar (78% and 87% respectively) (Table 1).
+
+### Hotspot (COSMIC) and novel mutations
+
+In patients’ stool samples, a total of 25 hotspot mutations were found (20 in patients with colorectal neoplasia and 5 in patents with stomach neoplasia), while 9 novel mutations were detected (7 in patients with stomach neoplasia and 2 in control samples).
+
+Thirteen control samples from healthy individuals did not reveal any hotspot mutations, but two novel mutations were observed in ALK, and STK11 genes in two subjects.
+
+### Mutations in patients with stomach neoplasms
+
+A total number of five hotspot mutations that had been reported earlier in the COSMIC database were detected in APC, CDKN2A and EGFR genes in stool specimens from 3 gastric adenocarcinoma patients, 1 patient with neuroendocrine tumor, and 1 patient with gastric dysplasia (Table 2). Four samples from patients with adenocarcinoma (diffuse type) revealed a total of seven novel mutations that led to an amino acid change and which had not been reported previously in either the COSMIC or dbSNP databases. The detected novel mutations were found in seven genes, that included APC, CDH1, DDR2, HRAS, NRAS, PTEN, and SMARCB1 (Table 2).
+
+COSMIC and novel mutations detected by Ion Torrent sequencing
+Histopathology	Cases ID	Age, yr	Sex	TNM staging	Gene	Mutation type	COSMIC No.
+Stomach							
+AC (D)	3	66	F	T2N0	SMARCB1	p.T72K	Novel
+AC (D)	14	80	F	T4aNxM1	APC	p.D1570N	Novel
+					CDH1	p.V82A	Novel
+					HRAS	p.V44M	Novel
+					NRAS	p.K135R	Novel
+AC (D)	39	65	F	T1aN0M0	EGFR	p.A750T	COSM1651572
+					DDR2	p.E523K	Novel
+AC (D)	43	43	M	T4bNxM1	PTEN	p.E256G	Novel
+AC (D)	77	78	M	TxNxM1	APC	p.A1582P	COSM4170230
+AC (I)	100	69	M	T3N3M1	APC	p.A1582P	COSM4170230
+NET	11	67	M	5% PR	CDKN2A	p.V126I	COSM13778
+Dysplasia	78	77	M	T0N0M0	APC	p.A1582P	COSM4170230
+Colorectal							
+AC	20	70	M	T3N0M0	KIT	p.N564S	COSM30732
+AC	12	71	F	T3N1bM0	APC	p.A1582P	COSM4170230
+					TP53	p.P72A	COSM3738520
+AC	21	79	M	T2N0	APC	p.A1582P	COSM4170230
+AC	22	64	F	T2N0	STK11	p.F354L	COSM21360, COSM4169323
+					SMO	p.N202S	COSM5979442
+AC	23	53	M	TxNxM1	APC	p.A1582P	COSM4170230
+AC	31	64	M	T2N0	TP53	p.Y205D	COSM43844
+AC	55	69	M	T3N0M0	KRAS	p.G12V	COSM520
+					TP53	p.T172fs	COSM44371
+AC	68	63	M	T3N0M0	TP53	p.Y163H	COSM43846
+AC	28	77	F	T1N0	KRAS	p.G12D	COSM521
+					AKT1	p.E17K	COSM34142, COSM33765
+Adenoma	24	81	M		APC	p.E1295*	COSM18961
+Adenoma	19	64	F		NRAS	p.Q61R	COSM584, COSM28048
+					FBXW7	p.R505C	COSM22975, COSM33844
+					APC	p.S1465fs	COSM18873, COSM19688 COSM19332, COSM18931, COSM13864
+					ERBB2	p.V842I	COSM14065, COSM1666633
+					SMARCB1	p.R377C	COSM3972885
+Leiomyoma	94	69	F		TP53	p.R306*	COSM10663, COSM145026
+Healthy controls							
+	C 2	F	27		ALK	p.L1190P	Novel
+	C 8	F	33		STK11	p.Y36H	Novel
+
+### Mutations in patients with colorectal tumors
+
+Twenty hotspot mutations in AKT1, APC, ERBB2, FBXW7, KIT, KRAS, NRAS, SMARCB1, SMO, STK11, and TP53 were seen in 9 patients with adenocarcinomas, 2 with benign adenoma, and 1 with leiomyoma. APC was the most frequently mutated gene with five mutations, followed by TP53 (five mutations), and KRAS (two mutations) (Table 2). One case of benign leiomyoma revealed a TP53 mutation (R306*) mutation, which had been reported as a germline mutation associated with the hereditary cancer predisposing syndrome. Additionally, this mutation has also been reported as a somatic pathogenic mutation in COSMIC in tumors of the colon and other parts of the digestive tract (Table 2). No novel mutations were found in our study in stool samples from colorectal cases.
+
+## DISCUSSION
+
+We are one of the first groups that applied NGS to detect mutations in DNA isolated from stool samples of colorectal carcinoma patients[13]. We have now applied NGS analysis on stool samples of not only malignant colorectal carcinoma but also demonstrated that it is possible to detect mutations in stool specimens from patients with gastric neoplasms, and also from patients with benign colorectal tumors. Moreover, we observed mutations in stool from patients with early tumor stages, with no hotspot mutations in stools of healthy subjects. As in our previous study, we set the threshold for variant quality score at 15 and the mutant allele frequency cutoff at 3%, and when using these threshold values, no COSMIC hotspot mutations were found in the 13 control specimens.
+
+### Mutations in patients with colorectal neoplasms
+
+The overall success rate of NGS for colorectal neoplasm patients was 87%, which is similar to the 80% reported in our earlier study[13]. In our previous study, the patients were of Iranian origin, whereas in the current study, the patients were from Finland; nonetheless, the mutation types were similar in both of these ethnic groups. In the current series, the most common mutated genes were APC, TP53 and KRAS, while in the earlier study, the top mutated genes were TP53, KRAS, FBXW7, EGFR and SMAD4.
+
+The most recurrently occurring mutation in colorectal carcinoma cases was APC mutation (A1582P), which was found in 3 patients. In our series, four TP53 mutations were seen in stool samples from CRC patients.
+
+We detected KRAS codon 12 mutations (G12V and G12D) in two specimens and NRAS codon 61 (Q61R) in one specimen from colorectal carcinoma patients. Similar to our present results, codon 12 mutations were the most common KRAS mutations found in our previous study on Iranian samples, although other KRAS mutations at codons 12, 13, 20, 63, 117, 146 and 43 were also found previously[13]. Additionally, a recent study demonstrated the detection of KRAS G12D mutation in stool samples from patients with colorectal carcinoma by using droplet PCR[17]. Clinical data available from those patients for who KRAS testing in tumor tissue was carried out correlated to KRAS mutation status in stool. In patient number 55, the presence of KRAS G12V mutation was confirmed in tumor tissue specimens with 20% mutant allele fraction. The same mutation (KRAS G12V) was detected in the stool DNA from the same patient with 13% mutant allele fraction. Moreover, tissue samples from patient number 23 revealed no KRAS or NRAS mutations, and the same negative findings for those two mutations were also observed in the stool DNA specimen from this case.
+
+Among the patients with benign colorectal tumors, APC mutations were most common and found in two samples with colorectal benign adenoma. Adenomas with APC mutations have been reported more likely to progress into large adenomas and invasive carcinomas[18,19]. Inactivation of the APC gene and the subsequent activation of Wnt signaling pathway are key factors in the initiation of tumorigenesis of CRC[20,21]. The R505C mutation in FBXW7 seen in a colorectal adenoma patient in the present study was also reported in our previous study in a colorectal carcinoma patient[13].
+
+TP53 is another gene commonly mutated in CRC, and plays a crucial role in the adenoma to carcinoma transition during carcinogenesis, and may have an impact on cancer prognosis[22]. A patient with leiomyoma revealed a nonsense TP53 mutation (R306*), which has been reported as a somatic mutation in colon tumors and also considered as a germline mutation associated with hereditary cancer-predisposing syndrome and Li-Fraumeni syndrome in CRC, although not in gastric carcinoma[23]. In our case, this TP53 mutation is apparently somatic, as the allele fraction was 5.5%. A meta-analysis of studies carried out on stool DNA testing has shown an overall sensitivity of 68% and 93% specificity in the diagnosis of advanced colorectal adenoma[24].
+
+### Mutations in patients with stomach neoplasms
+
+As far as we aware, this is the first study to have utilized stool samples from patients with stomach neoplasia. Eight out of 32 patients’ samples (25%) with stomach neoplasia revealed 12 mutations (both hotspot COSMIC and novel).
+
+In gastric neoplasia, the APC gene mutations were those most frequently encountered. Four APC mutations were detected in patients with gastric neoplasia (three mutations in gastric carcinoma, and one in benign gastric dysplasia). APC is a tumor suppressor gene that has a key role in several molecular processes, such as suppression of canonical Wnt signaling[25], and the presence of APC mutations have been demonstrated in gastric adenocarcinoma samples[26,27]. APC gene mutations have been reported in both intestinal and diffuse types of gastric carcinoma with a higher frequency in the intestinal subtype of the disease[28,29]. The adenoma to carcinoma transition pathway has a 20% APC mutation in the intestinal type of gastric carcinoma[30]. In our study, an APC A1582P mutation was seen in both the intestinal and diffuse types, and an APC D1570N mutation was seen in the diffuse type. Furthermore, we detected the same APC mutation (A1582P) in a stool specimen from a patient with benign gastric dysplasia. This is in concordance with an earlier study that identified the presence of APC mutations in tumorous tissue in cases with gastric adenomas or flat dysplasia, and also in benign cases associated with adenocarcinoma[5,31].
+
+In the diffuse type of gastric carcinoma, CDH1 is reported to be commonly mutated[32], and CDH1 germline mutations have also been reported to play an important role in diffuse gastric carcinoma development[33]. EGFR mutations are also commonly encountered in the diffuse subtype[34-36] of gastric neoplasia, although their role is still controversial. We found the E-cadherin gene (CDH1) V82A mutation in a diffuse gastric carcinoma patient, and also found the exon 19 EGFR (A750T) mutation in another case with diffuse gastric carcinoma.
+
+Novel mutations were found in NRAS (K135R), DDR2 (E523K) and in exon 7 of PTEN (E256). Codon 12 or 13 NRAS mutations in tumor tissues have been reported to be associated with a poor prognosis in metastatic stomach carcinoma[37,38], whereas DDR2 expression in gastric tumor tissues has been described to be associated with an increased risk of peritoneal dissemination[39]. Despite the low frequency of PTEN mutations in gastric malignant tumors, they tend to be associated with poorly differentiated gastric carcinoma, TNM staging and resistance effect to chemotherapy[40,41]. Interestingly, the novel PTEN (E256G) mutation seen in our study was found in a gastric cancer case with an advanced tumor stage (T4bNxM1).
+
+In conclusion, our results demonstrate that NGS technology can be applied for detection of gene mutations in stool specimens from not only colorectal cancer patients but also from patients with stomach neoplasms, as well as those with benign tumors of the gastrointestinal tract.
+
+## ARTICLE HIGHLIGHTS
+
+### Research background
+
+Stool DNA sample is a simple, noninvasive source for studying genetic markers of diagnostic/prognostic or predictive significance in colorectal cancer. The significance of stool DNA testing is, however, not well known for stomach cancers and for benign tumors. Current assays screen individual or few mutations only, and do not cover all important cancer mutations. Amplicon-based NGS could, thus, provide a sensitive method for DNA testing from stool samples in gastrointestinal (GIT) malignancies.
+
+### Research motivation
+
+The main challenge in stool DNA-based genetic testing is that only a small proportion of stool DNA is of human origin, thus requiring a very sensitive test. We, therefore, hypothesized that diagnostic value of stool-based DNA testing could be enhanced by applying sensitive amplicon–based next-generation sequencing (NGS) to stool DNA. With the application of NGS we could screen all important mutations in 50 genes from a small amount of input DNA in a single test.
+
+### Research objectives
+
+The objective of the study was to apply NGS for screening hotspot mutations in commonly mutated genes in GIT malignancies from stool DNA. The aim was also to see if mutations could be detected in patients with gastric cancer and in patients with early neoplasms, in addition to those with colorectal cancer.
+
+### Research methods
+
+Mutation detection was performed by amplicon-based NGS using the Ion AmpliSeq Cancer Hotspot Panel v2 and Ion AmpliSeq Colon and Lung Cancer panel v2. Template preparation was done using the Ion OneTouch™ 2 System and sequencing was performed on Ion PGM (Thermo-Fisher Scientific). Sequencing data analysis and variant calling was performed by using the Torrent Suite Software v.5.2.2 with variant caller plugin. All single nucleotide variants were analyzed for previously reported hotspot mutations (reported in the COSMIC database) and novel variations, i.e. not reported in either COSMIC or dbSNP databases.
+
+### Research results
+
+Hotspot mutations in stool DNA were found in APC, CDKN2A and EGFR in patients with stomach neoplasms and in AKT1, APC, ERBB2, FBXW7, KIT, KRAS, NRAS, SMARCB1, SMO, STK11 and TP53 in patients with colorectal neoplasia. APC was the most commonly mutated gene in stools of patients with premalignant/benign GIT lesions.
+
+### Research conclusions
+
+This study demonstrates that NGS-based mutation screening can be successfully applied to stool DNA from patients with GIT neoplasms. In addition to mutation detection in stool DNA from colorectal cancer patients, mutations can also be detected from gastric cancer patients, as well as from patients with premalignant or benign neoplasms.
+
+Mutation testing from stool DNA is mainly carried out for individual gene mutations by PCR-based methods for colorectal cancer screening. Since the amount of DNA of human origin is very low in stool, it was hypothesized that amplicon-based NGS could be highly sensitive and suitable for studying a large number of mutations, which could greatly enhance the diagnostic value of stool DNA testing. The methods used in this study require low input of DNA, can amplify around 200 targeted regions of important cancer genes, and together with the high sensitivity of NGS provide a great advantage over prevailing methods for mutation detection from stool DNA.
+
+This study showed that mutations can also be detected in stool DNA from patients with stomach neoplasms. Detection of mutations in stool DNA of patients with premalignant neoplasm, and also in patients with stage I and II of tumor, demonstrates its application for early detection of GIT neoplasms.
+
+The results of this study could have implication in future NGS-based stool DNA diagnostic tests that could be useful for screening of GIT malignancies and for detection at the premalignant stage. It could also act as a guide in a targeted therapy regimen, and to ease follow up of the treatment.
+
+### Research perspectives
+
+Genetic mutations can be detected by amplicon–based NGS in stool DNA from patients with GIT tumors other than colorectal cancer also. Moreover, early neoplastic changes in GIT can also be detected in stool DNA. These results open up possibilities of development of NGS-based stool DNA test. Further testing of this method on a larger number of samples from patients with different GIT malignancies, premalignant lesions and healthy individuals is needed to fully assess it applicability in cancer diagnostics.
+
+## ACKNOWLEDGMENTS
+
+We thank Lauri Lehtimäki and Milja Tikkanen for their skillful technical assistance. Also, we thank Ewen Mac Donald for his language editing of the manuscript.
+
+Manuscript source: Unsolicited manuscript
+
+Specialty type: Gastroenterology and hepatology
+
+Country of origin: Finland
+
+Peer-review report classification
+
+Grade A (Excellent): 0
+
+Grade B (Very good): B
+
+Grade C (Good): C
+
+Grade D (Fair): 0
+
+Grade E (Poor): 0
+
+Institutional review board statement: The research study protocol was approved by the Hospital District of Helsinki and Uusimaa (HUS) Review Board (Ethical permission number 351/13/03/02/2014).
+
+Conflict-of-interest statement: The authors declare no conflicts of interest.
+
+Data sharing statement: Dataset available from sakari.knuutila@helsinki.fi
+
+Peer-review started: October 5, 2017
+
+First decision: October 18, 2017
+
+Article in press: November 14, 2017
+
+P- Reviewer: Mastoraki A, Venu RP S- Editor: Gong ZM L- Editor: Filipodia E- Editor: Huang Y
+
+## References
+1. 1De RoockWClaesBBernasconiDDe SchutterJBiesmansBFountzilasGKalogerasKTKotoulaVPapamichaelDLaurent-PuigPEffects of KRAS, BRAF, NRAS, and PIK3CA mutations on the efficacy of cetuximab plus chemotherapy in chemotherapy-refractory metastatic colorectal cancer: a retrospective consortium analysisLancet Oncol2010117537622061973910.1016/S1470-2045(10)70130-3
+2. 2MirandaCNuciforaMMolinariFConcaEAnaniaMCBordoniASalettiPMazzucchelliLPilottiSPierottiMAKRAS and BRAF mutations predict primary resistance to imatinib in gastrointestinal stromal tumorsClin Cancer Res201218176917762228246510.1158/1078-0432.CCR-11-2230
+3. 3AntonescuCRRomeoSZhangLNafaKHornickJLNielsenGPMino-KenudsonMHuangHYMosqueraJMDei TosPADedifferentiation in gastrointestinal stromal tumor to an anaplastic KIT-negative phenotype: a diagnostic pitfall: morphologic and molecular characterization of 8 cases occurring either de novo or after imatinib therapyAm J Surg Pathol2013373853922334820410.1097/PAS.0b013e31826c1761PMC3728887
+4. 4JoensuuHRutkowskiPNishidaTSteigenSEBrabecPPlankLNilssonBBraconiCBordoniAMagnussonMKKIT and PDGFRA mutations and the risk of GI stromal tumor recurrenceJ Clin Oncol2015336346422560583710.1200/JCO.2014.57.4970
+5. 5LeeJHAbrahamSCKimHSNamJHChoiCLeeMCParkCSJuhngSWRashidAHamiltonSRInverse relationship between APC gene mutation in gastric adenomas and development of adenocarcinomaAm J Pathol20021616116181216338510.1016/S0002-9440(10)64216-2PMC1850731
+6. 6Fenoglio-PreiserCMWangJStemmermannGNNoffsingerATP53 and gastric carcinoma: a reviewHum Mutat2003212582701261911110.1002/humu.10180
+7. 7CarneiroFWorld Cancer Report 2014Stewart BW and Wild CP2014Cancer by organ sitestomach cancer. Lyon, France, IARC383391
+8. 8ZangZJCutcutacheIPoonSLZhangSLMcPhersonJRTaoJRajasegaranVHengHLDengNGanAExome sequencing of gastric adenocarcinoma identifies recurrent somatic mutations in cell adhesion and chromatin remodeling genesNat Genet2012445705742248462810.1038/ng.2246
+9. 9GuilfordPHopkinsJHarrawayJMcLeodMMcLeodNHarawiraPTaiteHScoularRMillerAReeveAEE-cadherin germline mutations in familial gastric cancerNature1998392402405953732510.1038/32918
+10. 10StaudacherJJYaziciCBulVZeidanJKhalidAXiaYKrettNJungBIncreased frequency of KRAS mutations in African Americans compared with Caucasians in sporadic colorectal cancerClin Transl Gastroenterol20178e1242904841610.1038/ctg.2017.48PMC5666119
+11. 11GoreRMMehtaUKBerlinJWRaoVNewmarkGMUpper gastrointestinal tumours: diagnosis and stagingCancer Imaging200662132171720867910.1102/1470-7330.2006.0032PMC1766562
+12. 12CristescuRLeeJNebozhynMKimKMTingJCWongSSLiuJYueYGWangJYuKMolecular analysis of gastric cancer identifies subtypes associated with distinct clinical outcomesNat Med2015214494562589482810.1038/nm.3850
+13. 13ArmengolGSarhadiVKGhanbariRDoghaei-MoghaddamMAnsariRSotoudehMPuolakkainenPKokkolaAMalekzadehRKnuutilaSDriver Gene Mutations in Stools of Colorectal Carcinoma Patients Detected by Targeted Next-Generation SequencingJ Mol Diagn2016184714792715504810.1016/j.jmoldx.2016.01.008
+14. 14YoussefOSarhadiVKLehtimäkiLTikkanenMKokkolaAPuolakkainenPArmengolGKnuutilaSMutations by next generation sequencing in stool DNA from colorectal carcinoma patients – a literature review and our experience with this methodologyJ Anal Oncol201652432
+15. 15BoschLJCarvalhoBFijnemanRJJimenezCRPinedoHMvan EngelandMMeijerGAMolecular tests for colorectal cancer screeningClin Colorectal Cancer2011108232160993110.3816/CCC.2011.n.002
+16. 16BrennerHChenHFecal occult blood versus DNA testing: indirect comparison in a colorectal cancer screening populationClin Epidemiol201793773842876137710.2147/CLEP.S136565PMC5516775
+17. 17Olmedillas-LópezSLévano-LinaresDCAlexandreCLAVega-ClementeLSánchezELVillagrasaARuíz-TovarJGarcía-ArranzMGarcía-OlmoDDetection of KRAS G12D in colorectal cancer stool by droplet digital PCRWorld J Gastroenterol201723708770972909361710.3748/wjg.v23.i39.7087PMC5656456
+18. 18SamowitzWSPowersMDSpirioLNNolletFvan RoyFSlatteryMLBeta-catenin mutations are more frequent in small colorectal adenomas than in larger adenomas and invasive carcinomasCancer Res1999591442144410197610
+19. 19LamlumHPapadopoulouAIlyasMRowanAGilletCHanbyATalbotIBodmerWTomlinsonIAPC mutations are sufficient for the growth of early colorectal adenomasProc Natl Acad Sci USA200097222522281068143410.1073/pnas.040564697PMC15782
+20. 20FoddeRThe APC gene in colorectal cancerEur J Cancer2002388678711197851010.1016/s0959-8049(02)00040-0
+21. 21RowanAJLamlumHIlyasMWheelerJStraubJPapadopoulouABicknellDBodmerWFTomlinsonIPAPC mutations in sporadic colorectal tumors: A mutational ”hotspot” and interdependence of the ”two hits”Proc Natl Acad Sci USA200097335233571073779510.1073/pnas.97.7.3352PMC16243
+22. 22LiXLZhouJChenZRChngWJP53 mutations in colorectal cancer - molecular pathogenesis and pharmacological reactivationWorld J Gastroenterol20152184932557408110.3748/wjg.v21.i1.84PMC4284363
+23. 23YurgelunMBMasciariSJoshiVAMercadoRCLindorNMGallingerSHopperJLJenkinsMABuchananDDNewcombPAGermline TP53 mutations in patients with early-onset colorectal cancer in the colon cancer family registryJAMA Oncol201512142212608604110.1001/jamaoncol.2015.0197PMC4465271
+24. 24YangHXiaBQJiangBWangGYangYPChenHLiBSXuAGHuangYBWangXYDiagnostic value of stool DNA testing for multiple markers of colorectal cancer and advanced adenoma: a meta-analysisCan J Gastroenterol2013274674752393687710.1155/2013/258030PMC3956036
+25. 25AokiKTaketoMMAdenomatous polyposis coli (APC): a multi-functional tumor suppressor geneJ Cell Sci2007120332733351788149410.1242/jcs.03485
+26. 26NakatsuruSYanagisawaAIchiiSTaharaEKatoYNakamuraYHoriiASomatic mutation of the APC gene in gastric cancer: frequent mutations in very well differentiated adenocarcinoma and signet-ring cell carcinomaHum Mol Genet19921559563133869110.1093/hmg/1.8.559
+27. 27HoriiANakatsuruSMiyoshiYIchiiSNagaseHKatoYYanagisawaANakamuraYThe APC gene, responsible for familial adenomatous polyposis, is mutated in human gastric cancerCancer Res199252323132331317264
+28. 28FangDCLuoYHYangSMLiXALingXLFangLMutation analysis of APC gene in gastric cancer with microsatellite instabilityWorld J Gastroenterol200287877911237861610.3748/wjg.v8.i5.787PMC4656562
+29. 29GhatakSChakrabortyPSarkarSRChowdhuryBBhaumikAKumarNSNovel APC gene mutations associated with protein alteration in diffuse type gastric cancerBMC Med Genet201718612857613610.1186/s12881-017-0427-2PMC5457612
+30. 30TaharaEGenetic pathways of two types of gastric cancerIARC Sci Publ200432734915055305
+31. 31TamuraGMaesawaCSuzukiYTamadaHSatohMOgasawaraSKashiwabaMSatodateRMutations of the APC gene occur during early stages of gastric adenoma developmentCancer Res199454114911518118796
+32. 32LeeYSChoYSLeeGKLeeSKimYWJhoSKimHMHongSHHwangJAKimSYGenomic profile analysis of diffuse-type gastric cancersGenome Biol201415R552469048310.1186/gb-2014-15-4-r55PMC4056347
+33. 33LiuXChuKME-cadherin and gastric cancer: cause, consequence, and applicationsBiomed Res Int201420146373082518414310.1155/2014/637308PMC4145387
+34. 34MoutinhoCMateusARMilaneziFCarneiroFSerucaRSurianoGEpidermal growth factor receptor structural alterations in gastric cancerBMC Cancer20088101819933210.1186/1471-2407-8-10PMC2244615
+35. 35AtmacaAWernerDPauligkCSteinmetzKWirtzRAltmannsbergerHMJägerEAl-BatranSEThe prognostic impact of epidermal growth factor receptor in patients with metastatic gastric cancerBMC Cancer2012125242315333210.1186/1471-2407-12-524PMC3529672
+36. 36LiuZLiuLLiMWangZFengLZhangQChengSLuSEpidermal growth factor receptor mutation in gastric cancerPathology2011432342382143663310.1097/PAT.0b013e328344e61b
+37. 37TakahashiNYamadaYTaniguchiHFukahoriMSasakiYShojiHHonmaYIwasaSTakashimaAKatoKClinicopathological features and prognostic roles of KRAS, BRAF, PIK3CA and NRAS mutations in advanced gastric cancerBMC Res Notes201472712477451010.1186/1756-0500-7-271PMC4012089
+38. 38FukahoriMAnalysis of gene mutations in KRAS, NRAS, BRAF, and PIK3CA in patients who received systemic chemotherapy with metastatic gastric cancerJ Clin Oncol20133127
+39. 39KurashigeJHasegawaTNiidaASugimachiKDengNMimaKUchiRSawadaGTakahashiYEguchiHIntegrated molecular profiling of human gastric cancer identifies DDR2 as a potential regulator of peritoneal disseminationSci Rep20166223712693495710.1038/srep22371PMC4776110
+40. 40WenYGWangQZhouCZQiuGQPengZHTangHMMutation analysis of tumor suppressor gene PTEN in patients with gastric carcinomas and its impact on PI3K/AKT pathwayOncol Rep20102489952051444810.3892/or_00000832
+41. 41XuWTYangZLuNHRoles of PTEN (Phosphatase and Tensin Homolog) in gastric cancer development and progressionAsian Pac J Cancer Prev20141517242452802110.7314/apjcp.2014.15.1.17

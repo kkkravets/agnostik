@@ -1,0 +1,134 @@
+# Japanese Society of Medical Oncology Clinical Guidelines: RAS (KRAS/NRAS) mutation testing in colorectal cancer patients11
+
+Authors: Hiroya Taniguchi, Kentaro Yamazaki, Takayuki Yoshino, Kei Muro, Yasushi Yatabe, Toshiaki Watanabe, Hiromichi Ebi, Atsushi Ochiai, Eishi Baba, Katsuya Tsuchihara
+
+Journal: Cancer Science
+
+PMCID: PMC4376442
+
+PMID: 25800101
+
+DOI: 10.1111/cas.12595
+
+Canonical source: https://pmc.ncbi.nlm.nih.gov/articles/PMC4376442/
+
+## Abstract
+
+The Japanese guidelines for the testing of KRAS mutations in colorectal cancer have been used for the past 5 years. However, new findings of RAS (KRAS/NRAS) mutations that can further predict the therapeutic effects of anti-epidermal growth factor receptor (EGFR) antibody therapy necessitated a revision of the guidelines. The revised guidelines included the following five basic requirements for RAS mutation testing to highlight a patient group in which anti-EGFR antibody therapy may be ineffective: First, anti-EGFR antibody therapy may not offer survival benefit and/or tumor shrinkage to patients with expanded RAS mutations. Thus, current methods to detect KRAS exon 2 (codons 12 and 13) mutations are insufficient for selecting appropriate candidates for this therapy. Additional testing of extended KRAS/NRAS mutations is recommended. Second, repeated tests are not required for the detection; tissue materials of either primary or metastatic lesions are applicable for RAS mutation testing. Evaluating RAS mutations prior to anti-EGFR antibody therapy is recommended. Third, direct sequencing with manual dissection or allele-specific PCR-based methods is currently applicable for RAS mutation testing. Fourth, thinly sliced sections of formalin-fixed, paraffin-embedded tissue blocks are applicable for RAS mutation testing. One section stained with H&E should be provided to histologically determine whether the tissue contains sufficient amount of tumor cells for testing. Finally, RAS mutation testing must be performed in laboratories with appropriate testing procedures and specimen management practices.
+
+## Full article
+
+Cetuximab and panitumumab are monoclonal antibodies targeting the epidermal growth factor receptor (EGFR) and have demonstrated survival benefits in randomized control trials (RCT) of metastatic colorectal cancer (mCRC). Since 2008, retrospective analyses of previous RCT have shown that cetuximab and panitumumab are contraindicated in patients with KRAS exon 2 (codons 12 and 13) mutations. Moreover, patients with KRAS mutations exhibited detrimental effects on receiving oxaliplatin, folic acid, and infusional 5-FU (FOLFOX4) plus cetuximab or panitumumab compared with FOLFOX4 alone. Since the Japanese Society of Medical Oncology (JSMO) published “Japanese guidelines for testing of KRAS gene mutation in colorectal cancer” in 2008, testing for KRAS mutation prior to anti-EGFR antibody therapy has been widely accepted in clinical practice and three types of quality-assured diagnostic kits have been approved in Japan (Table1).
+
+Summary of the commonly used assays in Japan for KRAS testing of colorectal cancer
+Assay	Sanger sequencing	PCR-rSSO	Scorpion-ARMS	F-PHFA
+Commercial diagnostic kit	―	MEBGEN KRAS	TheraScreen: K-RAS Mutation Kit DxS-QIAGEN, Manchester, UK	OncoGuide KRAS
+Limit of detection (%)	10–25	5	1–5	5–10
+Detectable types of mutations	All types of mutations	G12S, G12C, G12R	G12S, G12C, G12R	G12S, G12C, G12R
+		G12D, G12V, G12A	G12D, G12V, G12A	G12D, G12V, G12A
+		G13S, G13C, G13R	G13D	G13D
+		G13D, G13V, G13A		
+
+A therapeutic strategy for mCRC has been continuously improved since the publication of the Japanese guidelines. In addition, patients with KRAS or NRAS mutations except those with KRAS exon 2 mutations are reported to be primarily resistant to anti-EGFR antibody therapies.2,3 Because these patients account for approximately 20% of KRAS exon 2 wild-type patients, “minor” RAS mutations are not negligible in daily clinical practice.
+
+The Japanese Society of Medical Oncology established a working group to revise KRAS guidelines in December 2013, and published a revised version of the guidelines in April 2014 after independent review and public comments. Here, we summarize the new clinical guidelines. Additional references related to each section are listed as supplemental information.
+
+## Basic Requirements for Testing RAS Mutations
+
+Anti-epidermal growth factor receptor antibody therapy may be ineffective in terms of survival benefit and/or tumor shrinkage in patients with expanded RAS (KRAS/NRAS) mutations. Randomized control trials (RCT) of chemotherapy with or without anti-EGFR antibody in mCRC revealed that anti-EGFR antibody had no benefit on the response rate, progression-free survival and overall survival in patients with KRAS exon 2 (codons 12 and 13) mutations.4 This finding is consistent with other anti-EGFR therapies, including cetuximab or panitumumab, therapeutic lines and combined chemotherapies. Although increased survival with cetuximab of the patients with KRAS codon 13 (G13D) mutation was reported,5 patients with any KRAS exon 2 mutations are unlikely to benefit from cetuximab or panitumumab.6 Therefore, anti-EGFR antibody therapy is not recommended for patients with KRAS exon 2 mutations.
+
+Since 2013, prospective-retrospective analyses of phase III studies have revealed that patients with wild-type RAS were expected to benefit from panitumumab, although benefits were not obtained in patients with mutations including KRAS exons 3 and 4, and NRAS exons 2, 3 and 4, similar to patients with KRAS exon 2 mutations (Tables2 and 3).2
+
+Therapeutic effects on wild type RAS
+	RAS ascertainment†	Regimen	n	RR (%)	PFS (M)	HR	OS (M)	HR
+PRIME	90% (1060/1183)	FOLFOX4	253	—	7.9	HR 0.72 (P = 0.004)	20.2	HR 0.78 (P = 0.04)
+FOLFOX4 + Pmab	259	—	10.1	26.0
+20050181	85% (1008/1186)	FOLFIRI	211	10	4.4	HR 0.695 (P = 0.006)	13.9	HR 0.803 (P = 0.08)
+FOLFIRI + Pmab	204	41	6.4	16.2
+20020408	82% (378/463)	BSC	63	0	7 weeks	HR 0.36 (P < 0.0001)	—	—
+BSC + Pmab	73	16	14.1 weeks	—
+OPUS	75% (254/337)	FOLFOX4	49	28.6	5.8	HR 0.53 (P = 0.0615)	17.8	HR 0.94 (P = 0.80)
+FOLFOX4 + Cmab	38	57.9	12.0	19.8
+CRYSTAL	69% (827/1198)	FOLFIRI	189	38.6	8.4	HR 0.56 (P = 0.0002)	20.2	HR 0.69 (P = 0.0024)
+FOLFIRI + Cmab	178	66.3	11.4	28.4
+PEAK	82% (233/285)	mFOLFOX6 + Bev	82	54	10.1	HR 0.66 (P = 0.03)	28.9	HR 0.63 (P = 0.06)
+mFOLFOX6 + Pmab	88	58	13.0	41.3
+FIRE-3	69% (520/752)	FOLFIRI + Bev	171	59.6	10.2	HR 0.93 (P = 0.54)	25.6	HR 0.70 (P = 0.011)
+FOLFIRI + Cmab	171	65.5	10.4	33.1
+
+Therapeutic effects on mutant RAS
+	Regimen	n	RR (%)	PFS (M)	HR	OS (M)	HR
+PRIME	FOLFOX4	276	—	8.7	HR 1.31 (P = 0.008)	19.2	HR 1.25 (P = 0.034)
+FOLFOX4 + Pmab	272	—	7.3	15.6
+20050181	FOLFIRI	294	13	4.0	HR 0.861 (P = 0.14)	11.1	HR 0.914 (P = 0.34)
+FOLFIRI + Pmab	299	15	4.8	11.8
+20020408	BSC	114	0	7.3 weeks	HR 0.97 (P = 0.729)	—	—
+BSC+Pmab	99	1	7.4 weeks	—
+OPUS	FOLFOX4	75	50.7	7.8	HR 1.54 (P = 0.0309)	17.8	HR 1.29 (P = 0.1573)
+FOLFOX4+Cmab	92	37.0	5.6	13.5
+CRYSTAL	FOLFIRI	214	36.0	7.5	HR 1.10 (P = 0.47)	17.7	HR 1.05 (P = 0.64)
+FOLFIRI+Cmab	246	31.7	7.4	16.4
+FIRE-3	FOLFIRI+Bev	86	51.2	10.1	HR 1.31 (P = 0.085)	20.6	HR 1.09 (P = 0.60)
+FOLFIRI+Cmab	171	65.5	10.4	33.1
+
+Retrospective analyses of RCT suggested that cetuximab also has a favorable survival impact only in patients with wild-type RAS. Furthermore, two RCT that compared anti-EGFR antibody therapy to bevacizumab revealed that a subgroup of patients with RAS mutations, except those with KRAS exon 2 mutations, did not show benefits.3 Based on these results, anti-EGFR antibody therapy is ineffective in patients with previously known KRAS exon 2 mutations or those with mutations in KRAS exons 3 and 4 and NRAS exons 2, 3 and 4. In vitro studies revealed that the overexpression of KRAS transgenes with mutations in codons 12, 13, 59, 61, 117 and 146 induced constitutive RAS protein activation; however, the impact of individual mutations on the therapeutic efficacy remains unclear. While several patients with KRAS codon 146 mutation respond to anti-EGFR antibody therapy,7 we assume that further subgroup analyses of RCT may provide information to conclude these issues. Thus, current procedures to detect only KRAS exon 2 mutations are insufficient for selecting appropriate patients. Additional testing of expanded KRAS/NRAS mutations is recommended.
+
+Clinicians should properly interpret the immeasurable or unmeasured mutation status. When one or some exons/codons have undetermined mutational statuses while all the other evaluable exons are determined as RAS wild-type, these patients should be diagnosed as RAS unknown (Table S1). Potential causes of the failures are sample and/or technical issues of testing. If the test failure is due to the sample, re-examination using the remnant or newly obtained tumor samples should be considered. If the test failure is due to technical problems, re-examination should be performed with other methods. Indications for anti-EGFR antibody therapy for patients with RAS unknown status should be determined according to: (i) the reported frequency of mutations of immeasurable or unmeasured codons; (ii) evidence of no expected effects on patients if they have RAS mutations in immeasurable or unmeasured codons; (iii) side effects of anti-EGFR antibody therapy; and (iv) alternative therapeutic options except anti-EGFR antibody therapy.
+
+Repeated tests are not required for the detection; tissue materials of either primary or metastatic lesions are applicable for RAS mutation testing. Evaluating RAS mutations prior to anti-epidermal growth factor receptor antibody therapy is recommended. RAS mutation is an early event in the tumorigenesis, and the frequency of RAS mutations might not be altered in any clinical stage (Table S2). The frequency of KRAS exon 2 mutations is approximately 35–40% in colorectal cancer patients, and the frequency of other RAS mutations is 10–15%; the same trend exists in Europe and the USA, and Japan (Table4).8
+
+Frequencies of exon mutations
+	KRAS exon 2 (%)	KRAS exon 3 (%)	KRAS exon 4 (%)	NRAS exon 2 (%)	NRAS exon 3 (%)	NRAS exon 4 (%)	Total†	Method
+PRIME	40 (440/1096)	4 (24/638)	6 (36/620)	3 (22/637)	4 (26/636)	0 (0/629)	17	Sanger SURVEYOR
+20050181	45 (486/1083)	4.4 (24/548)	7.7 (41/534)	2.2 (12/536)	5.6 (30/540)	0 (0/532)	20	Sanger SURVEYOR
+20020408	43 (184/427)	4.8 (8/166)	5.0 (9/180)	4.2 (7/166)	3.0 (5/168)	1.1 (2/180)	18	Sanger‡ SURVEYOR
+OPUS	43 (136/315)	6.8	9.3	6.8	5.1	0.8	26	BEAMing
+CRYSTAL	37 (136/315)	3.3	5.6	3.5	2.8	0.9	15	BEAMing
+PEAK	N/A	4 (9/225)	7 (17/223)	5 (12/224)	6 (13/225)	0 (0/223)	22	Sanger SURVEYOR
+FIRE-3	N/A	4.3 (21/431)	4.9 (24/458)	3.8 (18/464)	2 (10/468)	0 (0/458)	16	Pyrosequencing
+
+The concordance rate of the mutation status between primary tumors and metastatic sites reached 93% by meta-analysis.9 RAS mutational status of tumor tissue from endoscopic biopsies and matched resected specimens is highly concordant and the concordant rate is ≥97%. The mutational status of RAS was not altered by chemotherapy without cetuximab or panitumumab, whereas chemotherapies including cetuximab or panitumumab reportedly induced secondary RAS mutation and amplification. The clinical implications of the secondary RAS mutation, including the potential efficacy of anti-EGFR antibody therapy, remain unknown. Based on these findings, repeated testing of RAS mutations is currently not recommended.
+
+Direct sequencing with manual dissection or allele-specific PCR-based methods is currently applicable for RAS mutation testing. Direct sequencing is able to detect both known and unknown gene mutations, whereas the detection sensitivity of the assay is limited to 10–25%, which is less sensitive than that of allele-specific PCR-based methods. Therefore, direct sequencing requires the condensation of tumor cells by manual dissection of the tissue sections in which tumor cells are densely contained (manual microdissection).10 A multiplex mutation detecting kit using Luminex technology (Mebgen Rasket Kit; Medical and Biological Laboratories, Nagoya, Japan) has been approved for the simultaneous detection of 48 types of RAS mutations.8
+
+In previous clinical studies, RAS testing was performed using various assays (Table4). The detection limit of these methods was within 10–25% (direct sequencing) to <1% (BEAMing method) and that of the other methods was within 1–10%. Regardless of the difference in the detection limit between each method, the subgroup analyses of these RCT consistently demonstrated that RAS status is a predictive factor for anti-EGFR antibody therapy. Therefore, while the most suitable detection sensitivity remains to be determined, the detection limit within 1–10% should be practically considered for RAS mutation testing.
+
+Thinly sliced sections of formalin-fixed, paraffin-embedded tissue blocks are applicable for RAS mutation testing. One section should be stained with H&E and provided for histological examination to confirm whether tissue contains a sufficient amount of tumor cells for testing. The paraffin-embedded (FFPE) tissue sample is widely used as a sample for RAS mutation testing. If sufficient tumor cells are confirmed histologically, the use of fresh frozen tissue samples will also be considered.
+
+It is recommended to select tissue sections containing ≥50% tumor cells estimated by the area of tumor cells. When performing RAS mutation testing using sections with fewer tumor cells coupled with low sensitivity methods, manual microdissection should be performed to increase tumor cell/non-tumor cell ratio. Samples with apoptosis and necrosis are unsuitable due to the degradation of genomic DNA. If multiple samples are obtained from the same patient, select the sample that was archived for a shorter period, has a higher tumor cell ratio, and has fewer effects of prior chemotherapy or radiotherapy. These parameters should be discussed with the pathologists and laboratory staff prior to RAS mutation testing.
+
+Formalin fixation leads to DNA fragmentation in FFPE tissue block samples. Thus, sample fixation (e.g. formaldehyde concentration, buffered or non-buffered formalin, duration of fixation, tissue size and sample segmentation) should be carefully considered. Using a 10% buffered formaldehyde solution is recommended. The duration of fixation is dependent on the sample size. In general, 6–48 h of fixation is recommended.
+
+RAS mutation testing must be performed in laboratories well-qualified to perform both the testing procedures and specimen management. The clinical laboratories should verify the quality of testing procedures. Clinical laboratories are recommended to obtain a certificate of International Standard (e.g. ISO/IEC 17025, ISO 15189) from the International Organization for Standardization (ISO). The laboratories should undergo regular evaluations by authorized inspectors to maintain laboratory quality. Quality assurance (QA) should adhere to both international OECD and Japanese guidelines.
+
+Testing must be performed according to standard operation procedures. The items suggested in the European QA program (Table S3) are used for the validation of testing procedures. Finally, the items shown in Table S4 should be included in the report of RAS mutation testing.
+
+This work was supported by the Japanese Society of Medical Oncology (JSMO). The JSMO Guideline Committee members (Kazuto Nishio, Atsushi Ohtsu, Takuji Okusaka, Yoshinobu Kanda, Shigeru Kusumoto, Miyako Satouchi, Koji Takeda, Yutaka Fujiwara and Toshiro Mizuno) reviewed the Japanese version of the guidelines.
+
+## Disclosure Statement
+
+KY receiving honoraria for lectures from Takeda Pharmaceutical and received research funding from Merck Serono. TY received honoraria for lectures from Takeda Pharmaceutical and Merck Serono, and received research funding from Merck Serono. KM received honoraria for lectures from Takeda Pharmaceutical and Merck Serono, and received research funding from Merck Serono. TW received honoraria for lectures from Takeda Pharmaceutical, Merck Serono and Bristol–Myers K.K., and received research funding from Bristol–Myers K.K. All remaining authors have no conflict of interest to declare.
+
+## References
+1. Japanese Society of Medical OncologyJapanese Society of Medical Oncology Clinical Guidelines: RAS (KRAS/NRAS) mutation testing in colorectal cancer patients (1 screen). [Cited 10 Apr 2014.] Available from URL: http://www.jsmo.or.jp/file/dl/newsj/1288.pdf10.1111/cas.12595PMC437644225800101
+2. DouillardJYOlinerKSSienaSPanitumumab-FOLFOX4 treatment and RAS mutations in colorectal cancerN Engl J Med20133691023342402483910.1056/NEJMoa1305275
+3. SchwartzbergLSRiveraFKarthausMPEAK: a randomized, multicenter phase II study of panitumumab plus modified fluorouracil, leucovorin, and oxaliplatin (mFOLFOX6) or bevacizumab plus mFOLFOX6 in patients with previously untreated, unresectable, wild-type KRAS exon 2 metastatic colorectal cancerJ Clin Oncol201432224072468783310.1200/JCO.2013.53.2473
+4. KarapetisCSKhambata-FordSJonkerDJK-ras mutations and benefit from cetuximab in advanced colorectal cancerN Engl J Med2008359176510.1056/NEJMoa080438518946061
+5. TejparSCelikISchlichtingMAssociation of KRAS G13D tumor mutations with outcome in patients with metastatic colorectal cancer treated with first-line chemotherapy with or without cetuximabJ Clin Oncol201230357072273402810.1200/JCO.2012.42.2592
+6. PeetersMDouillardJYVan CutsemEMutant KRAS codon 12 and 13 alleles in patients with metastatic colorectal cancer: assessment as prognostic and predictive biomarkers of response to panitumumabJ Clin Oncol201331759652318298510.1200/JCO.2012.45.1492
+7. De RoockWClaesBBernasconiDEffects of KRAS, BRAF, NRAS, and PIK3CA mutations on the efficacy of cetuximab plus chemotherapy in chemotherapy-refractory metastatic colorectal cancer: a retrospective consortium analysisLancet Oncol201011753622061973910.1016/S1470-2045(10)70130-3
+8. KudoTSatohTMuroKClinical validation of a novel multiplex kit for all RAS mutations in colorectal cancer: results of RASKET (RAS KEy Testing) prospective multicenter study. WCGIC 2014, P-019510.1016/j.ebiom.2015.02.007PMC448620226137573
+9. BaasJMKrensLLGuchelaarHJConcordance of predictive markers for EGFR inhibitors in primary tumors and metastases in colorectal cancer: a reviewOncologist2011161239492174296410.1634/theoncologist.2011-0024PMC3228174
+10. FranklinWAHaneyJSugitaMKRAS mutation: comparison of testing methods and tissue sampling techniques in colon cancerJ Mol Diagn20101243502000784510.2353/jmoldx.2010.080131PMC2797717
+
+## Supporting Information
+
+Data S1. Supplemental references.
+
+Table S1. Defined RAS status with unevaluable exons.
+
+Table S2. Ratio of KRAS exon 2 mutation in each stage.
+
+Table S3. Validation of testing procedures.
+
+Table S4. The report of RAS mutation testing.

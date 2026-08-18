@@ -1,0 +1,93 @@
+# A novel KRAS gene mutation report in sporadic colorectal cancer, from Northwest of Iran
+
+Authors: Roya Dolatkhah, Mohammad Hossein Somi, Iraj Asvadi Kermani, Faris Farassati, Saeed Dastgiri
+
+Journal: Clinical Case Reports
+
+PMCID: PMC5331244
+
+PMID: 28265402
+
+DOI: 10.1002/ccr3.779
+
+Canonical source: https://pmc.ncbi.nlm.nih.gov/articles/PMC5331244/
+
+## Abstract
+
+While the role of KRAS gene mutations has been widely accepted for predicting responses to anti‐EGFR therapy in patients with colorectal cancer, although this study was based on observation of a single case it gives hope that some KRAS gene mutation may have favorable prognosis. More studies are required on patients with similar mutation to validate this finding.
+
+## Full article
+
+## Introduction
+
+The pathogenesis of colorectal cancer (CRC) is complex and diverse, with different molecular pathways, and in fact leading to different phenotypes 1. Mutations in proto‐oncogenes KRAS and BRAF are among the key findings of colorectal cancer. KRAS mutations are present in 17–25% of all cancers and in more than 35–45% of colorectal cancer cases. The majority of KRAS mutations occur in codons 12 and 13 of exon 2 (more than 90%), with rare mutations at codons 61 and 146. For BRAF gene, more than 80% of the mutations are in the hotspot of exon 15 resulting in the V600E mutation in codon 600 2. Various frequencies and types of KRAS and BRAF mutations in different populations may be attributable to the effect of environmental factors, lifestyle, food habits as well as genetic factors 3, 4, 5.
+
+Although the role of KRAS and BRAF mutations has been widely accepted for predicting responses to anti‐EGFR monoclonal antibody (mAb) treatments, particularly in patients with advanced CRCs, there is no consensus on the role of KRAS mutations in the prognosis and survival of patients with CRCs. While the negative prognostic role of some specific KRAS gene mutations in patients with colorectal cancer has been reported from a few studies, significantly shorter overall survival (OS) was observed for CRCs harboring any types of KRAS mutations 6, 7.
+
+Screening of CRCs who are candidates for anti‐EGFR‐targeted cancer therapy protocols by detecting mutations in KRAS and BRAF genes is now used worldwide for patient selection in many oncology centers. Mutation detection of KRAS and BRAF genes, with high‐sensitivity methods, will increase the possibility of choosing the correct individual therapy and reduce the risk of metastasis in low‐stage diseases.
+
+Although recently next‐generation sequencing was designated as a more superior technique in terms of sensitivity and specificity, Sanger sequencing has still 100% specificity and acceptable sensitivity. In other term, Sanger sequencing has a better defined track records and is most cost‐effective for routine KRAS and BRAF mutation analysis 8. Despite high cost of molecular techniques, it is now clear that routine molecular approaches of CRC are cost‐saving 9, 10.
+
+## Case Presentation
+
+We report a novel KRAS gene mutation, which was discovered while studying the prevalence and pattern of commonly involved mutations of KRAS and BRAF genes in northwest of Iran, Azerbaijan Province. The patient was a 46‐year‐old man, by Turkish‐Azeri ethnic. He was referred to our center by a history of abdominal pain and rectal bleeding having for more than 2 months. In his recent colonoscopy, he had a rectal mass. Biopsy sampling was performed during colonoscopy, and all samples were evaluated and subjected to histological diagnosis by expert pathologist. The histological analysis showed a well‐differentiated adenocarcinoma grade I, and surgery was then performed for him. Colorectal cancer (CRC) was eventually confirmed for him as stage III with no metastasis.
+
+This patient had a history of alcohol consumption in moderate amount and never smoked. He did not have any history of chronic diseases and any other drugs or supplement intake. Of his lifestyle factors during last 6 months, vegetables and fruits consumption was one meal/day, red meat one meal/day, white bread three meals/day, and for other carbohydrate, he ate rice at least one meal/day. He drank at least three cups of black tea every day. His body weight was 100 kg, his height was 1.85 m, and his body mass index (BMI) was 29.2. He ate breakfast every day, and his circadian sleep program was in normal range (6–8 h/day). His work status was full‐time working (6–8 h/day). He did not have a regular sport program or a particular activity. He was satisfied from his life and income, married, a private house, and high school education. According to our classification of socioeconomic status (SES), he was in a very good SES class.
+
+Chemoradiotherapy was given to him, for 6 months. The triplet chemotherapy protocol was based on the Hematology and Oncology Center protocols, including FOLFOX (oxaliplatin, 5‐FU, leucovorin). The patient has been followed up for 2 years after diagnosis. He had a good response to treatment, and he is still alive.
+
+## Molecular Test Methods
+
+Fresh tissues including neoplastic cells and noncancerous (tumor‐free) tissue samples from the rectal area of patient were obtained using biopsy during colonoscopy (tissue size, 2–4 mm). These biopsy samples were sent to a molecular laboratory under standard conditions and were coded and stored at −80°C.
+
+To perform molecular tests, genomic DNA was extracted from cancer and noncancerous frozen tissue samples according to DNA Extraction Kit Guidelines (Cinnagen Company). It was taken as a template in PCR using specific KRAS and BRAF primers encompassing KRAS exon 2 (codons 12, 13) and BRAF exon 15 (codon 600) 11. PCR was conducted in 50 μL final volume containing 2.5 μL PCR buffer, 1 μL MgCl2, 1 μL from each primer, 6–7 μL genomic DNA, 0.5 μL dNTPs, 0.18 μL of BioTaq polymerase (Cinagene), and 17 μL PCR‐grade water. KRAS and BRAF were individually amplified using 2720 Thermal Cycler (Applied Biosystems, Foster City, CA).
+
+Sanger sequencing was performed after purification of PCR products with PCR Product Purification Kit (MBST, Tehran, Iran) as per manufacturer's protocol. The reverse primers of PCR amplification of KRAS and BRAF genes were used for sequencing, using Applied Biosystem Genetic Analyzer (ABI 4‐capillary 3130 Genetic Analyzer). To ensure the accuracy of sequence results, all the molecular tests and the Sanger Sequencing analysis were performed twice for this sample.
+
+Primary samples from tumor and noncancerous tissues were analyzed for KRAS and BRAF mutations status. PCR products were analyzed using Sanger sequencing, and their sequences were investigated using DNAMAN and Finch TV software to identify mutations in the mutant and wild‐type KRAS and BRAF genes. Codon number of the mutant gene and its changed amino acid sequence was determined by referring to NCBI/BLAST website.
+
+Sequencing results for noncancerous tissue's extracted DNA showed the wild‐type sequence of KRAS gene. Moreover, mutation was not detected in the amplified exon of BRAF in both tumor and noncancerous tissues of patient. The status and type of mutation in KRAS was detected in patient included in the study, and the change in nucleotide sequence and corresponding amino acid sequence was as follows:
+
+Sample no C104: GGA>GTA, G10V (Gly10Val), (c.29 G→T).
+
+Representative electropherograms of KRAS mutant are shown in Figures 1 and 2.
+
+Figure 1: Electropherogram of KRAS gene mutation (reverse direction): GGA>GTA (G→T), codon 10 of exon 2.
+
+Figure 2: Multiple alignment and Sanger sequencing electropherogram of KRAS codon 10 mutation (reverse direction): GGA>GTA(G→T), G10V (Gly10Val).
+
+This is a transversion of nucleotide guanine (G) to thymine (T), in codon 10 of exon 2 of KRAS gene. To our knowledge, this mutation was not reported before in any database.
+
+## Discussion
+
+Although there is no census on the clinical significance of KRAS mutation in the prognosis and survival of patients with colorectal cancer, a few studies reported different outcome and overall survival in patients harboring different types of KRAS mutation even among commonly involved mutations in CRCs 12; however, shorter OS was observed for CRCs with any KRAS mutation types 6. Besides, a recent study by Fiala et al. showed that specific KRAS mutations including G12V/A are associated with poor outcome compared to patients with other KRAS mutation type. They suggested that these mutation types may confer more aggressive phenotype due to the functional differences associated with different amino acid substitutions, and then resulting protein from these mutation types. Our reported novel KRAS mutation G10V had the same amino acid change, but the prognosis of the patient was not as poor as their report and he had a good response to treatment 6, 12. Further experimental and cohort studies about any association between different KRAS mutation types and biological behaviors are needed to substantiate this theory.
+
+This novel mutation was found to be somatic, because noncancerous tissue, as control sample, showed the wild‐type sequence analysis result. Environmental factors, food habits as well as genetic/racial/ethnic factors are believed to be responsible for discovery of this novel KRAS gene mutation in patient with CRC in Iran. Mutation detection methods in CRC with high sensitivity will increase the possibility of detecting new mutations in main molecular pathways of colorectal cancer. Further comprehensive molecular research studies on a large number of CRCs are needed to assess all types of mutations in these patients. This has enabled us to better characterize tumors individually and classify them according to certain molecular or genetic features.
+
+## Ethics
+
+The patient enrolled in the study provided written informed consent for the use of tumor and normal tissue samples for this research.
+
+## Authorship
+
+RD: designed the study, carried out the study, and prepared the manuscript. MHS, IAK, and FF: conceived of the study and edited the manuscript. SD: designed the study, carried out the study, and edited the manuscript.
+
+## Conflict of Interest
+
+None declared.
+
+The authors declare that there is no conflict of interest regarding the publication of this paper.
+
+## References
+1. 1 Mundade, R. , T. F. Imperiale , L. Prabhu , P. J. Loehrer , and T. Lu . 2014 Genetic pathways, prevention, and treatment of sporadic colorectal cancer. Oncoscience 1:400–406.2559403810.18632/oncoscience.59PMC4284625
+2. 2 Zhang, H. , J. Song , H. Ren , Z. Xu , X. Wang , L. Shan , et al. 2013 Detection of low‐abundance KRAS mutations in colorectal cancer using microfluidic capillary electrophoresis‐based restriction fragment length polymorphism method with optimized assay conditions. PLoS ONE 8:e54510.2335587510.1371/journal.pone.0054510PMC3552804
+3. 3 Kamal, M. M. , O. Z. Youssef , A. N. Lotfy , E. T. Elsaed , and M. M. Fawzy . 2012 Association of folate intake, dietary habits, smoking and COX‐2 promotor ‐765G>C polymorphism with K‐ras mutation in patients with colorectal cancer. J. Egypt. Natl Canc. Inst. 24:115–122.2292991710.1016/j.jnci.2012.05.002
+4. 4 Kratz, C. P. , C. M. Niemeyer , and M. Zenker . 2007 An unexpected new role of mutant Ras: perturbation of human embryonic development. J. Mol. Med. 85:227–235.1721161210.1007/s00109-006-0135-4PMC1820751
+5. 5 Slattery, M. L. , K. Curtin , C. Sweeney , T. R. Levin , J. Potter , R. K. Wolff , et al. 2007 Diet and lifestyle factor associations with CpG island methylator phenotype and BRAF mutations in colon cancer. Int. J. Cancer 120:656–663.1709632610.1002/ijc.22342
+6. 6 Fiala, O. , T. Buchler , B. Mohelnikova‐Duchonova , B. Melichar , V. M. Matejka , L. Holubec , et al. 2016 G12V and G12A KRAS mutations are associated with poor outcome in patients with metastatic colorectal cancer treated with bevacizumab. Tumour Biol. 37:6823–6830.2666231110.1007/s13277-015-4523-7
+7. 7 Naser, W. M. , M. A. Shawarby , D. M. Al‐Tamimi , A. Seth , A. Al‐Quorain , A. M. Nemer , et al. 2014 Novel KRAS gene mutations in sporadic colorectal cancer. PLoS ONE 9:e113350.2541218210.1371/journal.pone.0113350PMC4239073
+8. 8 Altimari, A. , D. de Biase , G. De Maglio , E. Gruppioni , E. Capizzi , A. Degiovanni , et al. 2013 454 next generation‐sequencing outperforms allele‐specific PCR, Sanger sequencing, and pyrosequencing for routine KRAS mutation analysis of formalin‐fixed, paraffin‐embedded samples. Onco. Targets Ther. 6:1057–1064.2395065310.2147/OTT.S42369PMC3741083
+9. 9 Hagland, H. R. , M. Berg , I. W. Jolma , A. Carlsen , and K. Soreide . 2013 Molecular pathways and cellular metabolism in colorectal cancer. Dig. Surg. 30:12–25.2359511610.1159/000347166
+10. 10 Behl, A. S. , K. A. Goddard , T. J. Flottemesch , D. Veenstra , R. T. Meenan , J. S. Lin , et al. 2012 Cost‐effectiveness analysis of screening for KRAS and BRAF mutations in metastatic colorectal cancer. J. Natl. Cancer. Inst. 104:1785–1795.2319749010.1093/jnci/djs433PMC3514165
+11. 11 Borras, E. , I. Jurado , I. Hernan , M. J. Gamundi , M. Dias , I. Marti , et al. 2011 Clinical pharmacogenomic testing of KRAS, BRAF and EGFR mutations by high resolution melting analysis and ultra‐deep pyrosequencing. BMC Cancer 11:406.2194339410.1186/1471-2407-11-406PMC3192787
+12. 12 Payandeh, M. , B. Shazad , M. Sadeghi , and M. Shahbazi . 2016 Correlation between RAS test results and prognosis of metastatic colorectal cancer patients: a report from Western Iran. Asian Pac. J. Cancer Prev. 17:1729–1732.2722184510.7314/apjcp.2016.17.4.1729

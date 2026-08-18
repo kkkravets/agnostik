@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PubMed Research Briefing: colon adenocarcinoma</title>
+<style>
+:root {
+  /* Brand palette */
+  --cb-green-900: #1b5e20;
+  --cb-green-700: #2e7d32;
+  --cb-green-500: #43a047;
+  --cb-green-100: #e8f5e9;
+  --cb-green-50:  #f1f8e9;
+
+  /* Severity */
+  --cb-red-700:   #c62828;
+  --cb-red-100:   #ffebee;
+  --cb-red-50:    #fff5f5;
+  --cb-amber-700: #f57f17;
+  --cb-amber-100: #fff8e1;
+  --cb-grey-700:  #616161;
+  --cb-grey-500:  #9e9e9e;
+  --cb-grey-300:  #e0e0e0;
+  --cb-grey-100:  #f5f5f5;
+  --cb-grey-50:   #fafafa;
+
+  /* Surfaces */
+  --cb-bg:        #fafafa;
+  --cb-surface:   #ffffff;
+  --cb-text:      #212121;
+  --cb-text-secondary: #616161;
+  --cb-border:    #e0e0e0;
+
+  /* Spacing */
+  --cb-space-xs: 4px;
+  --cb-space-sm: 8px;
+  --cb-space-md: 16px;
+  --cb-space-lg: 24px;
+  --cb-space-xl: 32px;
+  --cb-space-2xl: 48px;
+
+  /* Radii */
+  --cb-radius-sm: 6px;
+  --cb-radius-md: 10px;
+  --cb-radius-lg: 16px;
+
+  /* Shadows */
+  --cb-shadow-sm: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.06);
+  --cb-shadow-md: 0 4px 6px rgba(0,0,0,0.07), 0 2px 4px rgba(0,0,0,0.06);
+
+  /* Backward-compat aliases */
+  --clawbio-green: var(--cb-green-700);
+  --clawbio-amber: var(--cb-amber-700);
+  --clawbio-red: var(--cb-red-700);
+  --clawbio-grey: var(--cb-grey-700);
+  --clawbio-bg: var(--cb-bg);
+  --clawbio-card-bg: var(--cb-surface);
+}
+*, *::before, *::after { box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  color: var(--cb-text);
+  background: var(--cb-bg);
+  margin: 0;
+  padding: var(--cb-space-md);
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1 { color: var(--cb-green-700); border-bottom: 3px solid var(--cb-green-700); padding-bottom: 8px; }
+h2 { color: #424242; margin-top: var(--cb-space-xl); }
+h3 { color: var(--cb-grey-700); margin-top: var(--cb-space-lg); }
+
+/* Branded header */
+.report-header {
+  background: linear-gradient(135deg, #1b5e20 0%, #2e7d32 50%, #388e3c 100%);
+  color: white;
+  padding: var(--cb-space-lg) var(--cb-space-xl);
+  border-radius: var(--cb-radius-lg);
+  margin: 0 0 var(--cb-space-xl) 0;
+  position: relative;
+  overflow: hidden;
+}
+.report-header .header-logo {
+  position: absolute;
+  right: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0.10;
+  width: 200px;
+  height: 200px;
+}
+.report-header h1 {
+  margin: 0; font-size: 1.8em; font-weight: 700; border: none; padding: 0;
+  color: white; letter-spacing: -0.02em; position: relative;
+}
+.report-header .subtitle {
+  margin: var(--cb-space-xs) 0 0 0; font-size: 0.95em; opacity: 0.9; font-weight: 400;
+  position: relative;
+}
+
+/* Metadata block */
+.metadata { background: var(--cb-green-100); border-radius: var(--cb-radius-sm); padding: 12px 16px; margin-bottom: var(--cb-space-lg); }
+.metadata p { margin: 4px 0; font-size: 0.95em; }
+.metadata strong { color: var(--cb-green-900); }
+
+/* Tables */
+table { width: 100%; border-collapse: collapse; margin: var(--cb-space-md) 0; font-size: 0.9em; }
+th { background: var(--cb-green-100); color: var(--cb-green-900); text-align: left; padding: 10px 12px; border-bottom: 2px solid #a5d6a7; }
+td { padding: 8px 12px; border-bottom: 1px solid var(--cb-border); }
+tr:nth-child(even) { background: var(--cb-grey-100); }
+tr:hover { background: var(--cb-green-100); }
+
+/* Table wrapper for mobile scroll */
+.table-wrap {
+  overflow-x: auto; -webkit-overflow-scrolling: touch;
+  margin: var(--cb-space-md) 0; border-radius: var(--cb-radius-md); border: 1px solid var(--cb-border);
+}
+.table-wrap table { margin: 0; border: none; }
+
+/* Severity-banded table rows */
+tr.row-avoid { background: var(--cb-red-50); }
+tr.row-avoid:hover { background: var(--cb-red-100); }
+tr.row-caution { background: #fffde7; }
+tr.row-caution:hover { background: var(--cb-amber-100); }
+tr.row-indeterminate { background: var(--cb-grey-50); }
+tr.row-indeterminate:hover { background: var(--cb-grey-100); }
+tr.row-standard { background: var(--cb-green-50); }
+tr.row-standard:hover { background: var(--cb-green-100); }
+
+/* Badges */
+.badge { display: inline-flex; align-items: center; gap: 4px; padding: 3px 12px;
+         border-radius: 20px; font-size: 0.78em; font-weight: 700;
+         text-transform: uppercase; letter-spacing: 0.05em; white-space: nowrap; }
+.badge-standard { background: #c8e6c9; color: #1b5e20; }
+.badge-caution { background: #fff9c4; color: #e65100; }
+.badge-avoid { background: #ffcdd2; color: #b71c1c; }
+.badge-indeterminate { background: #e0e0e0; color: #424242; }
+
+/* Alert boxes */
+.alert-box { border-left: 4px solid; border-radius: var(--cb-radius-sm); padding: 12px 16px; margin: 12px 0; }
+.alert-box-avoid { border-color: var(--cb-red-700); background: var(--cb-red-100); }
+.alert-box-caution { border-color: var(--cb-amber-700); background: var(--cb-amber-100); }
+.alert-box-info { border-color: var(--cb-grey-700); background: var(--cb-grey-100); }
+.alert-box h4 { margin: 0 0 8px 0; }
+.alert-box-avoid h4 { color: var(--cb-red-700); }
+.alert-box-caution h4 { color: var(--cb-amber-700); }
+.alert-box-info h4 { color: var(--cb-grey-700); }
+
+/* Summary cards */
+.summary-cards {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: var(--cb-space-md); margin: var(--cb-space-md) 0 var(--cb-space-xl) 0;
+}
+.summary-card {
+  background: var(--cb-surface); border-radius: var(--cb-radius-md);
+  padding: var(--cb-space-lg) var(--cb-space-md); text-align: center;
+  box-shadow: var(--cb-shadow-sm); border-top: 4px solid transparent;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+.summary-card:hover { box-shadow: var(--cb-shadow-md); transform: translateY(-2px); }
+.summary-card .count { font-size: 2.5em; font-weight: 800; display: block; line-height: 1.1; }
+.summary-card .label {
+  font-size: 0.8em; text-transform: uppercase; letter-spacing: 0.08em;
+  color: var(--cb-text-secondary); margin-top: var(--cb-space-xs); display: block;
+}
+.summary-card.avoid { border-top-color: var(--cb-red-700); }
+.summary-card.avoid .count { color: var(--cb-red-700); }
+.summary-card.caution { border-top-color: var(--cb-amber-700); }
+.summary-card.caution .count { color: var(--cb-amber-700); }
+.summary-card.standard { border-top-color: var(--cb-green-700); }
+.summary-card.standard .count { color: var(--cb-green-700); }
+.summary-card.indeterminate { border-top-color: var(--cb-grey-500); }
+.summary-card.indeterminate .count { color: var(--cb-grey-500); }
+
+/* Executive summary */
+.exec-summary {
+  margin: var(--cb-space-lg) 0;
+}
+.exec-summary h3 { margin: 0 0 var(--cb-space-sm) 0; color: var(--cb-green-900); font-size: 1.1em; }
+.exec-summary-grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--cb-space-md); }
+.exec-stat {
+  display: flex; align-items: flex-start; gap: var(--cb-space-md);
+  background: var(--cb-surface); border: 1px solid var(--cb-border);
+  border-left: 4px solid var(--cb-grey-300); border-radius: var(--cb-radius-sm);
+  padding: var(--cb-space-md); box-shadow: var(--cb-shadow-sm);
+}
+.exec-stat.stat-avoid { border-left-color: var(--cb-red-700); }
+.exec-stat.stat-caution { border-left-color: var(--cb-amber-700); }
+.exec-stat.stat-ok { border-left-color: var(--cb-green-700); }
+.exec-stat .stat-icon { font-size: 1.6em; flex-shrink: 0; line-height: 1; }
+.exec-stat .stat-text { font-size: 0.9em; line-height: 1.5; color: var(--cb-text-secondary); }
+.exec-stat .stat-text strong { display: block; font-size: 1.05em; color: var(--cb-text); margin-bottom: 2px; }
+
+/* Donut chart */
+.donut-chart-section {
+  display: flex; align-items: center; gap: var(--cb-space-xl);
+  margin: var(--cb-space-lg) 0; flex-wrap: wrap; justify-content: center;
+}
+.donut-chart-section svg { flex-shrink: 0; }
+.donut-legend { display: flex; flex-direction: column; gap: var(--cb-space-sm); }
+.donut-legend-item { display: flex; align-items: center; gap: var(--cb-space-sm); font-size: 0.9em; }
+.donut-legend-swatch { width: 14px; height: 14px; border-radius: 3px; flex-shrink: 0; }
+
+/* Progress bars */
+.progress-bar-container {
+  width: 100%; background: var(--cb-grey-300); border-radius: 20px;
+  overflow: hidden; height: 12px; margin: var(--cb-space-xs) 0;
+}
+.progress-bar-fill { height: 100%; border-radius: 20px; }
+.progress-bar-fill.fill-green { background: linear-gradient(90deg, #43a047, #2e7d32); }
+.progress-bar-fill.fill-amber { background: linear-gradient(90deg, #ffa726, #f57f17); }
+.progress-bar-fill.fill-red { background: linear-gradient(90deg, #ef5350, #c62828); }
+.progress-bar-fill.fill-grey { background: linear-gradient(90deg, #bdbdbd, #757575); }
+
+/* Disclaimer */
+.disclaimer { background: #fff3e0; border: 1px solid #ffcc80; border-radius: var(--cb-radius-sm);
+              padding: var(--cb-space-xs) var(--cb-space-md); margin: 0 0 var(--cb-space-sm) 0; font-size: 0.8em; color: #e65100; line-height: 1.4; }
+.disclaimer-bottom { margin: var(--cb-space-xl) 0 0 0; }
+
+/* Gene links (smaller text) */
+.gene-links { font-size: 0.82em; line-height: 1.6; }
+
+/* Collapsible details */
+details { border: 1px solid var(--cb-border); border-radius: var(--cb-radius-md); margin: var(--cb-space-md) 0; overflow: hidden; }
+details summary {
+  cursor: pointer; padding: var(--cb-space-md); font-weight: 600; color: var(--cb-text);
+  background: var(--cb-grey-50); border-radius: var(--cb-radius-md);
+  list-style: none; display: flex; align-items: center; justify-content: space-between;
+}
+details summary::-webkit-details-marker { display: none; }
+details summary::after {
+  content: "\25B6"; font-size: 0.7em; color: var(--cb-grey-500); transition: transform 0.2s ease;
+}
+details[open] summary::after { transform: rotate(90deg); }
+details[open] summary { border-bottom: 1px solid var(--cb-border); border-radius: var(--cb-radius-md) var(--cb-radius-md) 0 0; }
+details > :not(summary) { padding: 0 var(--cb-space-md); }
+
+/* Branded footer */
+.report-footer {
+  margin-top: var(--cb-space-2xl); padding-top: var(--cb-space-lg);
+  border-top: 2px solid var(--cb-green-100); text-align: center;
+  color: var(--cb-text-secondary); font-size: 0.85em;
+}
+.report-footer .footer-brand { font-weight: 700; color: var(--cb-green-700); }
+
+/* Responsive */
+@media (max-width: 600px) {
+  body { padding: var(--cb-space-sm); }
+  table { font-size: 0.8em; }
+  th, td { padding: 6px 8px; }
+  .summary-cards { grid-template-columns: repeat(2, 1fr); }
+  .summary-card { padding: var(--cb-space-md); }
+  .summary-card .count { font-size: 1.8em; }
+  .exec-summary-grid { grid-template-columns: 1fr; }
+  .report-header { padding: var(--cb-space-md); }
+  .report-header h1 { font-size: 1.4em; }
+}
+
+/* Evidence badges */
+.badge-evidence-high { background: #c8e6c9; color: #1b5e20; }
+.badge-evidence-moderate { background: #bbdefb; color: #0d47a1; }
+.badge-evidence-low { background: #fff9c4; color: #e65100; }
+.badge-evidence-minimal { background: #e0e0e0; color: #424242; }
+.badge-evidence-na { background: #e0e0e0; color: #757575; }
+.evidence-verified { color: #2e7d32; font-size: 0.82em; font-weight: 600; }
+.evidence-unverified { color: #9e9e9e; font-size: 0.82em; font-style: italic; }
+.evidence-source { color: #757575; font-size: 0.78em; display: block; margin-top: 2px; }
+.rec-action { margin: 4px 0 0; font-size: 0.88em; line-height: 1.5; }
+.evidence-recs { margin-top: 6px; padding-top: 6px; border-top: 1px solid var(--cb-grey-300); font-size: 0.78em; line-height: 1.5; }
+.evidence-rec-source {
+  display: inline-block; font-weight: 700; color: #fff; background: var(--cb-green-700);
+  border-radius: 3px; padding: 0 5px; font-size: 0.85em; margin-right: 4px; vertical-align: middle;
+}
+.evidence-rec-text { color: var(--cb-text-secondary); }
+
+/* Print */
+@media print {
+  body { background: white; max-width: 100%; padding: 0; }
+  .report-header { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .summary-card { break-inside: avoid; box-shadow: none; border: 1px solid #ccc; }
+  details { break-inside: avoid; }
+  .disclaimer { break-inside: avoid; }
+  a::after { content: " (" attr(href) ")"; font-size: 0.8em; color: #666; }
+  tr { break-inside: avoid; }
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="report-header"><svg class="header-logo" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><g fill="white" fill-rule="evenodd"><path d="M60 30 C55 80, 40 130, 50 170 C55 175, 65 175, 68 168 C78 130, 70 80, 75 35 Z"/><path d="M95 20 C90 75, 85 130, 90 175 C93 182, 103 182, 106 175 C111 130, 106 75, 101 20 Z"/><path d="M132 30 C137 80, 152 130, 142 170 C139 175, 129 175, 126 168 C116 130, 124 80, 119 35 Z"/></g></svg><h1>PubMed Research Briefing: colon adenocarcinoma</h1><p class="subtitle">50 recent English-language papers</p></div>
+<div class="metadata"><p><strong>Query:</strong> colon adenocarcinoma</p><p><strong>Results:</strong> 50</p><p><strong>Sorted by:</strong> Date (newest first)</p><p><strong>Language filter:</strong> English only</p></div>
+<div class="disclaimer"><strong>Disclaimer:</strong> ClawBio is a research and educational tool. It is not a medical device and does not provide clinical diagnoses. Consult a healthcare professional before making any medical decisions.</div>
+<h2>Papers</h2>
+<div style='border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin:12px 0;background:#fff;'><h3 style='margin:0 0 8px 0;font-size:1em;'><a href="https://pubmed.ncbi.nlm.nih.gov/42607275/" target='_blank'>1. Negative Colonoscopy After Positive Multitarget Stool DNA: Subsequent Aerodigestive Cancer Diagnosis and Recommendations in the Community Setting.</a></h3><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Authors:</strong> Narayani KR, Narayani RI, Burger KN, et al.</p><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Journal:</strong> Clinical and translational gastroenterology &middot; 2026-08-17</p><p style='margin:8px 0 0 0;font-size:0.9em;'>Multitarget stool DNA (mt-sDNA) is a sensitive stool-based test for colorectal cancer (CRC) screening.</p></div>
+<div style='border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin:12px 0;background:#fff;'><h3 style='margin:0 0 8px 0;font-size:1em;'><a href="https://pubmed.ncbi.nlm.nih.gov/42603041/" target='_blank'>2. GALT/Dome Adenocarcinoma in a Patient With MLH1-Deficient Lynch Syndrome: Navigating a Clinical and Management Dilemma.</a></h3><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Authors:</strong> Deshpande V, Sharma A, Tiwari A, et al.</p><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Journal:</strong> ACG case reports journal &middot; 2026-08-14</p><p style='margin:8px 0 0 0;font-size:0.9em;'>A woman in her early 40s with MLH1-deficient Lynch syndrome was incidentally found to have a cecal gut-associated lymphoid tissue (GALT)/dome carcinoma during routine surveillance colonoscopy.</p></div>
+<div style='border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin:12px 0;background:#fff;'><h3 style='margin:0 0 8px 0;font-size:1em;'><a href="https://pubmed.ncbi.nlm.nih.gov/42602796/" target='_blank'>3. When colon cancer crosses boundaries: acute abdomen from direct pancreatic infiltration by a splenic flexure tumour.</a></h3><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Authors:</strong> Sripathi S, Coleman AD, Krishnaraj AS, et al.</p><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Journal:</strong> Journal of surgical case reports &middot; 2026-08-14</p><p style='margin:8px 0 0 0;font-size:0.9em;'>Colorectal cancer is the second-leading cause of cancer death in the United States.</p></div>
+<div style='border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin:12px 0;background:#fff;'><h3 style='margin:0 0 8px 0;font-size:1em;'><a href="https://pubmed.ncbi.nlm.nih.gov/42601552/" target='_blank'>4. Alpha-fetoprotein elevation in an asymptomatic young adult as a diagnostic clue to colorectal adenocarcinoma with enteroblastic differentiation.</a></h3><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Authors:</strong> Ikai N, Takenouchi M, Shimpoh T, et al.</p><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Journal:</strong> Clinical journal of gastroenterology &middot; 2026-08-14</p><p style='margin:8px 0 0 0;font-size:0.9em;'>Colorectal adenocarcinoma with enteroblastic differentiation (CAED) is a rare and aggressive histological subtype of colorectal adenocarcinoma characterized by the expression of enteroblastic markers, including alpha-fetoprotein (AFP), glypican-3, and spalt-like transcription factor 4 (SALL4).</p></div>
+<div style='border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin:12px 0;background:#fff;'><h3 style='margin:0 0 8px 0;font-size:1em;'><a href="https://pubmed.ncbi.nlm.nih.gov/42599639/" target='_blank'>5. Salvage pancreaticoduodenectomy for localized recurrence after resection of ascending colon cancer: a case report.</a></h3><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Authors:</strong> Nagata R, Takemura N, Komagome M, et al.</p><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Journal:</strong> Clinical journal of gastroenterology &middot; 2026-08-14</p><p style='margin:8px 0 0 0;font-size:0.9em;'>A 66-year-old man underwent right hemicolectomy for ascending colon cancer with direct invasion of gallbladder.</p></div>
+<div style='border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin:12px 0;background:#fff;'><h3 style='margin:0 0 8px 0;font-size:1em;'><a href="https://pubmed.ncbi.nlm.nih.gov/42598830/" target='_blank'>6. SHORT- VERSUS LONG-COURSE RADIATION IN TOTAL NEOADJUVANT THERAPY FOR LOCALLY ADVANCED RECTAL CANCER: A PROPENSITY-MATCHED NATIONAL CANCER DATABASE ANALYSIS.</a></h3><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Authors:</strong> Szeglin B, Consul M, Breckheimer M, et al.</p><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Journal:</strong> Diseases of the colon and rectum &middot; 2026-08-14</p><p style='margin:8px 0 0 0;font-size:0.9em;'>Locally advanced rectal cancer is treated with total neoadjuvant therapy which consists of neoadjuvant chemotherapy, radiation, and surgery.</p></div>
+<div style='border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin:12px 0;background:#fff;'><h3 style='margin:0 0 8px 0;font-size:1em;'><a href="https://pubmed.ncbi.nlm.nih.gov/42606009/" target='_blank'>7. Intestine as the Exclusive Site of Distant Metastasis From Lung Adenocarcinoma Detected on 18F-FDG PET/CT.</a></h3><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Authors:</strong> Zhu L, Peng L, Liu F, et al.</p><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Journal:</strong> Clinical nuclear medicine &middot; 2026-08-13</p><p style='margin:8px 0 0 0;font-size:0.9em;'>Intestinal metastasis secondary to lung cancer is clinically uncommon.</p></div>
+<div style='border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin:12px 0;background:#fff;'><h3 style='margin:0 0 8px 0;font-size:1em;'><a href="https://pubmed.ncbi.nlm.nih.gov/42601610/" target='_blank'>8. Bio-process development for sustainable, large-scale production of LAB-oligosaccharides as a potential anti-colon-cancer metabolites produced by Lactobacillus acidophilus 20079.</a></h3><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Authors:</strong> Kenawy AM, Abo-Zaid GA, Taha TH, et al.</p><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Journal:</strong> Microbial cell factories &middot; 2026-08-12</p><p style='margin:8px 0 0 0;font-size:0.9em;'>Lactic acid bacteria and their metabolites have shown promising biological activities against different types of cancer, esspecially, colon cancer.</p></div>
+<div style='border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin:12px 0;background:#fff;'><h3 style='margin:0 0 8px 0;font-size:1em;'><a href="https://pubmed.ncbi.nlm.nih.gov/42579179/" target='_blank'>9. TP53 status is associated with differential stress-marker expression and APP maturation in colon cancer cells.</a></h3><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Authors:</strong> Choi HJ, Song SJ, Nguyen HD, et al.</p><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Journal:</strong> Molecular biology reports &middot; 2026-08-11</p><p style='margin:8px 0 0 0;font-size:0.9em;'>The systemic influence of tumor-derived secretomes on the nervous system remains poorly understood.</p></div>
+<div style='border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin:12px 0;background:#fff;'><h3 style='margin:0 0 8px 0;font-size:1em;'><a href="https://pubmed.ncbi.nlm.nih.gov/42578973/" target='_blank'>10. Association of high birth weight with risk of early-onset colorectal cancer.</a></h3><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Authors:</strong> Mukherjee A, Xu L, Getahun D, et al.</p><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Journal:</strong> Cancer epidemiology, biomarkers &amp; prevention : a publication of the American Association for Cancer Research, cosponsored by the American Society of Preventive Oncology &middot; 2026-08-11</p><p style='margin:8px 0 0 0;font-size:0.9em;'>Early-onset colorectal cancer (eoCRC), particularly rectal cancer, is increasing.</p></div>
+<div style='border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin:12px 0;background:#fff;'><h3 style='margin:0 0 8px 0;font-size:1em;'><a href="https://pubmed.ncbi.nlm.nih.gov/42574976/" target='_blank'>11. Engineered PEA-producing Lactobacillus paracasei F19 prevents colitis-associated colorectal cancer in mice by modulating inflammatory-angiogenic signaling and beneficially reshapes gut microbiota composition.</a></h3><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Authors:</strong> Palenca I, Sanseverino W, Malinverni R, et al.</p><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Journal:</strong> Biomedicine &amp; pharmacotherapy = Biomedecine &amp; pharmacotherapie &middot; 2026-08-11</p><p style='margin:8px 0 0 0;font-size:0.9em;'>Colitis-associated colorectal cancer (CAC) arises from the interplay between chronic inflammation, epithelial dysregulation, angiogenesis, and microbiota alterations.</p></div>
+<div style='border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin:12px 0;background:#fff;'><h3 style='margin:0 0 8px 0;font-size:1em;'><a href="https://pubmed.ncbi.nlm.nih.gov/42576089/" target='_blank'>12. Green synthesized silver nanoparticles from Artocarpus hirsutus flower extract induced cytotoxicity and apoptosis in HT29 colon cancer cells.</a></h3><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Authors:</strong> Sampath S, Hari A, George BP, et al.</p><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Journal:</strong> Discover nano &middot; 2026-08-10</p><p style='margin:8px 0 0 0;font-size:0.9em;'>From past few years, there has been an emerging interest in environmentally friendly synthesis methods for nanoparticles due to their potential applications in catalysts, electronics, photonics, and ceramic drugs.</p></div>
+<div style='border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin:12px 0;background:#fff;'><h3 style='margin:0 0 8px 0;font-size:1em;'><a href="https://pubmed.ncbi.nlm.nih.gov/42571049/" target='_blank'>13. Invasive Breast Cancer Complicated by Colitis After TCbHP Chemotherapy: A Case Report.</a></h3><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Authors:</strong> You Z, Deng Y, Cao S, et al.</p><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Journal:</strong> The American journal of case reports &middot; 2026-08-09</p><p style='margin:8px 0 0 0;font-size:0.9em;'>BACKGROUND Chemotherapy is a cornerstone of systemic treatment for breast cancer.</p></div>
+<div style='border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin:12px 0;background:#fff;'><h3 style='margin:0 0 8px 0;font-size:1em;'><a href="https://pubmed.ncbi.nlm.nih.gov/42565334/" target='_blank'>14. Comparative Outcomes of Natural Orifice Specimen Extraction Surgery, Laparoscopic Surgery, and Open Surgery for Rectal Cancer: A Multicenter Propensity-Weighted Study.</a></h3><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Authors:</strong> Li Y, Shi Y, Jiang B, et al.</p><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Journal:</strong> Diseases of the colon and rectum &middot; 2026-08-07</p><p style='margin:8px 0 0 0;font-size:0.9em;'>Natural orifice specimen extraction surgery has been increasingly adopted in rectal cancer surgery, but comparative evidence across natural orifice specimen extraction surgery, laparoscopic surgery, and open surgery remains limited, especially regarding functional and long-term oncological outcomes.</p></div>
+<div style='border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin:12px 0;background:#fff;'><h3 style='margin:0 0 8px 0;font-size:1em;'><a href="https://pubmed.ncbi.nlm.nih.gov/42563356/" target='_blank'>15. Clear Cell Carcinoma of the Left Colon: A Case Report.</a></h3><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Authors:</strong> Ahmed M, Khalid AKS, Cummins O, et al.</p><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Journal:</strong> The American journal of case reports &middot; 2026-08-07</p><p style='margin:8px 0 0 0;font-size:0.9em;'>BACKGROUND Primary clear cell carcinoma of the colon is an exceptionally rare condition.</p></div>
+<div style='border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin:12px 0;background:#fff;'><h3 style='margin:0 0 8px 0;font-size:1em;'><a href="https://pubmed.ncbi.nlm.nih.gov/42557560/" target='_blank'>16. A comparative mutation-selection reanalysis of colon and rectal adenocarcinoma highlights PIK3CA variants and BRAF V600E.</a></h3><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Authors:</strong> Ke L, Cecchini M, Townsend JP</p><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Journal:</strong> Journal of translational medicine &middot; 2026-08-05</p></div>
+<div style='border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin:12px 0;background:#fff;'><h3 style='margin:0 0 8px 0;font-size:1em;'><a href="https://pubmed.ncbi.nlm.nih.gov/42554166/" target='_blank'>17. Predictive Value of Endoscopy in the Identification of Complete Response After Neoadjuvant Therapy for Rectal Adenocarcinoma.</a></h3><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Authors:</strong> Shen Y, Lu A, Zhang Z, et al.</p><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Journal:</strong> Diseases of the colon and rectum &middot; 2026-08-05</p><p style='margin:8px 0 0 0;font-size:0.9em;'>Large-scale evidence on the role of endoscopy alone as the assessment tool to identify complete response after neoadjuvant therapy in locally advanced rectal cancer, particularly across different neoadjuvant therapy regimens, is scarce.</p></div>
+<div style='border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin:12px 0;background:#fff;'><h3 style='margin:0 0 8px 0;font-size:1em;'><a href="https://pubmed.ncbi.nlm.nih.gov/42549773/" target='_blank'>18. A bulky cecal lymphoma mimicking colorectal cancer.</a></h3><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Authors:</strong> Lillo-Díez J, Cuevas González J, Núñez Rodríguez H, et al.</p><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Journal:</strong> Revista espanola de enfermedades digestivas &middot; 2026-08-04</p><p style='margin:8px 0 0 0;font-size:0.9em;'>Colonic involvement by non-Hodgkin lymphoma is uncommon and can closely mimic colorectal adenocarcinoma on endoscopic and radiological grounds.</p></div>
+<div style='border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin:12px 0;background:#fff;'><h3 style='margin:0 0 8px 0;font-size:1em;'><a href="https://pubmed.ncbi.nlm.nih.gov/42549748/" target='_blank'>19. Early-onset severe sinusoidal obstruction syndrome following adjuvant CAPOX: clinicoradiological diagnosis and favourable outcome after treatment with defibrotide.</a></h3><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Authors:</strong> Soldado-Serrano A, Zamorano-García E, Alarcón-Blanco PA, et al.</p><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Journal:</strong> Revista espanola de enfermedades digestivas &middot; 2026-08-04</p><p style='margin:8px 0 0 0;font-size:0.9em;'>Sinusoidal obstruction syndrome (SOS) is an uncommon hepatic vascular complication classically associated with haematopoietic stem cell transplantation, although it may also occur following oxaliplatin-based chemotherapy.</p></div>
+<div style='border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin:12px 0;background:#fff;'><h3 style='margin:0 0 8px 0;font-size:1em;'><a href="https://pubmed.ncbi.nlm.nih.gov/42549585/" target='_blank'>20. Nonoperative Management in Patients With Early-Onset Rectal Adenocarcinoma: A Retrospective Cohort Study.</a></h3><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Authors:</strong> Rosen RY, Lee C, Bercz A, et al.</p><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Journal:</strong> Diseases of the colon and rectum &middot; 2026-08-04</p><p style='margin:8px 0 0 0;font-size:0.9em;'>The incidence of rectal adenocarcinoma is rising in patients &lt; 50 years old compared to those &gt; 50.</p></div>
+<div style='border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin:12px 0;background:#fff;'><h3 style='margin:0 0 8px 0;font-size:1em;'><a href="https://pubmed.ncbi.nlm.nih.gov/42608031/" target='_blank'>21. Comparative Performance of Image-Enhanced Endoscopy for Adenoma and Sessile Serrated Lesion Detection: A Network Meta-Analysis.</a></h3><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Authors:</strong> Shinozaki S, Watanabe J, Yano T</p><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Journal:</strong> Digestive endoscopy : official journal of the Japan Gastroenterological Endoscopy Society &middot; 2026-Aug</p><p style='margin:8px 0 0 0;font-size:0.9em;'>Image-enhanced endoscopy (IEE) technologies have been developed to improve colorectal polyp detection, but their comparative efficacy remains uncertain.</p></div>
+<div style='border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin:12px 0;background:#fff;'><h3 style='margin:0 0 8px 0;font-size:1em;'><a href="https://pubmed.ncbi.nlm.nih.gov/42605803/" target='_blank'>22. SpliceImpactR maps alternative RNA processing events driving protein functional diversity.</a></h3><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Authors:</strong> Wakefield ZP, Fiszbein A</p><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Journal:</strong> Nucleic acids research &middot; 2026-Aug</p><p style='margin:8px 0 0 0;font-size:0.9em;'>Alternative RNA processing is a key regulator of gene expression, shaping transcript and protein diversity essential for cell function.</p></div>
+<div style='border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin:12px 0;background:#fff;'><h3 style='margin:0 0 8px 0;font-size:1em;'><a href="https://pubmed.ncbi.nlm.nih.gov/42598774/" target='_blank'>23. Prognostic Role of EMR1 in Lymph Nodes and Primary Tumors of Colon Cancer Patients.</a></h3><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Authors:</strong> Roshdy T, Eltorky H, Mohamed A, et al.</p><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Journal:</strong> Advanced biology &middot; 2026-Aug</p><p style='margin:8px 0 0 0;font-size:0.9em;'>The purpose was to investigate whether the eosinophil biomarker EMR1, ectopically expressed in colon cancer tumor cells, could be used to identify patients at risk for relapse after curative surgery.</p></div>
+<div style='border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin:12px 0;background:#fff;'><h3 style='margin:0 0 8px 0;font-size:1em;'><a href="https://pubmed.ncbi.nlm.nih.gov/42573351/" target='_blank'>24. Natural Biopolymer-Based Injectable, Self-Healing Hydrogel via Self-Assembly of Pectin and Quaternized Guar Gum for Targeted Treatment of Colon Cancer.</a></h3><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Authors:</strong> Rahmatpour A, Kian ME, Soleimani P</p><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Journal:</strong> Biomacromolecules &middot; 2026-Aug</p><p style='margin:8px 0 0 0;font-size:0.9em;'>A biocompatible, injectable, and self-healing hydrogel was constructed via electrostatic self-assembly of anionic pectin (PEC) and cationic quaternized guar gum (QGG).</p></div>
+<div style='border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin:12px 0;background:#fff;'><h3 style='margin:0 0 8px 0;font-size:1em;'><a href="https://pubmed.ncbi.nlm.nih.gov/42561903/" target='_blank'>25. The price of plasticity: Losing colon identity to gain metastatic potential.</a></h3><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Authors:</strong> Băloiu B, Snippert HJG</p><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Journal:</strong> Cell stem cell &middot; 2026-Aug</p><p style='margin:8px 0 0 0;font-size:0.9em;'>The generation of highly plastic cell states in colorectal cancer that are prone to metastatic dissemination involves complex epigenetic reprogramming, rather than new genetic traits.</p></div>
+<div style='border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin:12px 0;background:#fff;'><h3 style='margin:0 0 8px 0;font-size:1em;'><a href="https://pubmed.ncbi.nlm.nih.gov/42555700/" target='_blank'>26. Microtubule disruption and apoptotic induction by Vibrio cholerae haemagglutinin protease: Implications for anticancer therapy in colon and gastric tumours.</a></h3><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Authors:</strong> Ray T, Roy P, Nag N, et al.</p><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Journal:</strong> The Indian journal of medical research &middot; 2026-Aug</p><p style='margin:8px 0 0 0;font-size:0.9em;'>Background and objectives Drug resistance and off-target toxicity remain major challenges in cancer therapy.</p></div>
+<div style='border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin:12px 0;background:#fff;'><h3 style='margin:0 0 8px 0;font-size:1em;'><a href="https://pubmed.ncbi.nlm.nih.gov/42543564/" target='_blank'>27. Bridge-to-surgery in acute right-sided obstructing colon cancer: A survey of surgeons&#x27; perspectives on treatment strategies.</a></h3><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Authors:</strong> Lockhorst EW, Verhoef C, Tanis PJ, et al.</p><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Journal:</strong> Colorectal disease : the official journal of the Association of Coloproctology of Great Britain and Ireland &middot; 2026-Aug</p><p style='margin:8px 0 0 0;font-size:0.9em;'>To investigate surgeons&#x27; perspectives on the management of right-sided obstructing colon cancer, with particular focus on their views regarding bridge-to-surgery strategies.</p></div>
+<div style='border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin:12px 0;background:#fff;'><h3 style='margin:0 0 8px 0;font-size:1em;'><a href="https://pubmed.ncbi.nlm.nih.gov/42561190/" target='_blank'>28. Prophylactic hyperthermic ıntraperitoneal chemotherapy for radiologic T4 colorectal cancer: impact on locoregional control.</a></h3><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Authors:</strong> Argın V, Sunar AO, Bezir N, et al.</p><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Journal:</strong> Revista da Associacao Medica Brasileira (1992) &middot; 2026-07-31</p><p style='margin:8px 0 0 0;font-size:0.9em;'>In T4 colorectal cancer, the risk of peritoneal carcinomatosis is high, and the prognosis is poor.</p></div>
+<div style='border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin:12px 0;background:#fff;'><h3 style='margin:0 0 8px 0;font-size:1em;'><a href="https://pubmed.ncbi.nlm.nih.gov/42542651/" target='_blank'>29. Apoptosis induction by polyphenolic-rich extracts from Flourensia cernua and Flourensia retinophylla in human colon adenocarcinoma cells.</a></h3><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Authors:</strong> Jasso de Rodríguez D, Carrillo-Lomelí DA, Díaz-Rivas JO, et al.</p><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Journal:</strong> Cytotechnology &middot; 2026-07-31</p><p style='margin:8px 0 0 0;font-size:0.9em;'>Colorectal cancer remains a leading cause of cancer-related death, and there is an urgent need for new therapies that can specifically induce tumor cell apoptosis.</p></div>
+<div style='border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin:12px 0;background:#fff;'><h3 style='margin:0 0 8px 0;font-size:1em;'><a href="https://pubmed.ncbi.nlm.nih.gov/42576597/" target='_blank'>30. Expression Status of ABCC1, an ABC Transporter, as a Potential Biomarker of Disease-Free Survival and Chemotherapy Response in Colon Adenocarcinoma Patients.</a></h3><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Authors:</strong> Ahmad M, Ejaz S, Abdullah I</p><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Journal:</strong> Current molecular medicine &middot; 2026-07-30</p><p style='margin:8px 0 0 0;font-size:0.9em;'>The worldwide increasing incidence of colon adenocarcinoma (COAD) due to a lack of early diagnostic biomarkers and drug resistance makes it essential to identify new diagnostic, prognostic, and drug-resistance biomarkers of COAD.</p></div>
+<div style='border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin:12px 0;background:#fff;'><h3 style='margin:0 0 8px 0;font-size:1em;'><a href="https://pubmed.ncbi.nlm.nih.gov/42546541/" target='_blank'>31. In depth study on the mechanism of Xiao-Chai-Hu-Tang in ameliorating irinotecan-induced intestinal toxicity and enhancing antitumor immunity via intestinal microbiota and fecal metabolomics.</a></h3><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Authors:</strong> Zhang Y, Cao X, Hou Z, et al.</p><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Journal:</strong> Journal of pharmaceutical and biomedical analysis &middot; 2026-07-28</p><p style='margin:8px 0 0 0;font-size:0.9em;'>Irinotecan (CPT-11) is a cornerstone chemotherapeutic for advanced colorectal cancer (CRC), but its clinical use is limited by dose-dependent gastrointestinal (GI) toxicity.</p></div>
+<div style='border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin:12px 0;background:#fff;'><h3 style='margin:0 0 8px 0;font-size:1em;'><a href="https://pubmed.ncbi.nlm.nih.gov/42559137/" target='_blank'>32. Macrophage NPM1 drives anti-tumor immunity via the STAT3-CCRL2 axis.</a></h3><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Authors:</strong> Hong L, Yang Y, Han Y, et al.</p><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Journal:</strong> Frontiers in immunology &middot; 2026-07-22</p><p style='margin:8px 0 0 0;font-size:0.9em;'>Although nucleophosmin (NPM1) is a well-characterized oncogene in acute myeloid leukemia, much less is known about its role in solid tumor immunity.</p></div>
+<div style='border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin:12px 0;background:#fff;'><h3 style='margin:0 0 8px 0;font-size:1em;'><a href="https://pubmed.ncbi.nlm.nih.gov/42558406/" target='_blank'>33. HDL-C presents a suggestive negative moderating trend for the association between total cholesterol and colorectal polyps: model construction and bootstrap internal assessment of a predictive nomogram.</a></h3><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Authors:</strong> Gao L, Liu Y, Lv X, et al.</p><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Journal:</strong> Frontiers in endocrinology &middot; 2026-07-22</p><p style='margin:8px 0 0 0;font-size:0.9em;'>Colorectal polyps are classic precancerous lesions of colorectal cancer, closely linked to lipid metabolic disorders.</p></div>
+<div style='border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin:12px 0;background:#fff;'><h3 style='margin:0 0 8px 0;font-size:1em;'><a href="https://pubmed.ncbi.nlm.nih.gov/42583522/" target='_blank'>34. Fluorescence ureteral navigation in laparoscopic Hartmann&#x27;s procedure after aortic repair: a case report.</a></h3><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Authors:</strong> Kawakubo H, Ryu S, Nakashima S, et al.</p><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Journal:</strong> Annals of medicine and surgery (2012) &middot; 2026-07-21</p><p style='margin:8px 0 0 0;font-size:0.9em;'>Ureteral injury is a critical complication of colorectal surgery, particularly in reoperative fields where severe adhesions obscure the dissection layer.</p></div>
+<div style='border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin:12px 0;background:#fff;'><h3 style='margin:0 0 8px 0;font-size:1em;'><a href="https://pubmed.ncbi.nlm.nih.gov/42559123/" target='_blank'>35. Direct visualization-assisted enteral stent placement in malignant colorectal obstruction: a case report.</a></h3><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Authors:</strong> Han T, Li J</p><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Journal:</strong> Frontiers in medicine &middot; 2026-07-21</p><p style='margin:8px 0 0 0;font-size:0.9em;'>Malignant bowel obstruction caused by colorectal cancer is a common and serious clinical condition.</p></div>
+<div style='border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin:12px 0;background:#fff;'><h3 style='margin:0 0 8px 0;font-size:1em;'><a href="https://pubmed.ncbi.nlm.nih.gov/42548845/" target='_blank'>36. Preoperative 18F-FDG PET/CT as a surgical triage tool for synchronous neoplasm detection in acute left-sided obstructive colorectal cancer: a two-institution retrospective cohort study.</a></h3><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Authors:</strong> Jung KU, Lee SR, Park J, et al.</p><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Journal:</strong> Frontiers in surgery &middot; 2026-07-20</p><p style='margin:8px 0 0 0;font-size:0.9em;'>In acute left-sided obstructive colorectal cancer (OCC), the proximal colon cannot be evaluated endoscopically before surgery, and synchronous colorectal cancers (sCRC) and clinically significant neoplasms (CSN) may remain undetected.</p></div>
+<div style='border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin:12px 0;background:#fff;'><h3 style='margin:0 0 8px 0;font-size:1em;'><a href="https://pubmed.ncbi.nlm.nih.gov/42605250/" target='_blank'>37. A Case of Gastrointestinal Krukenberg Tumor Initially Suspected as Primary Ovarian Cancer and the Implications for Management.</a></h3><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Authors:</strong> Sidhu N, Le BM, Doan EL, et al.</p><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Journal:</strong> Cureus &middot; 2026-07-16</p><p style='margin:8px 0 0 0;font-size:0.9em;'>Krukenberg tumors are an uncommon metastatic malignancy most commonly originating primarily from the gastrointestinal tract, particularly the stomach, colon, and/or rectum.</p></div>
+<div style='border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin:12px 0;background:#fff;'><h3 style='margin:0 0 8px 0;font-size:1em;'><a href="https://pubmed.ncbi.nlm.nih.gov/42604407/" target='_blank'>38. Pseudoinvasive Colon Cancer Mimicking Invasive Colon Cancer: A Case Report.</a></h3><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Authors:</strong> Tsubakiyama M, Oura S, Tokuhara K</p><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Journal:</strong> Cureus &middot; 2026-07-16</p><p style='margin:8px 0 0 0;font-size:0.9em;'>Pseudoinvasion refers to a condition that resembles invasive cancer despite being either a non-invasive cancer or a benign disorder.</p></div>
+<div style='border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin:12px 0;background:#fff;'><h3 style='margin:0 0 8px 0;font-size:1em;'><a href="https://pubmed.ncbi.nlm.nih.gov/42578233/" target='_blank'>39. Diagnostic challenge of underlying colon cancer revealed by atypical presentation: two case reports and literature review.</a></h3><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Authors:</strong> Ben Khalifa M, Ben Saad H, Aouadi S, et al.</p><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Journal:</strong> International journal of surgery case reports &middot; 2026-07-13</p><p style='margin:8px 0 0 0;font-size:0.9em;'>Foreign body ingestion is usually benign but may rarely lead to bowel obstruction or perforation.</p></div>
+<div style='border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin:12px 0;background:#fff;'><h3 style='margin:0 0 8px 0;font-size:1em;'><a href="https://pubmed.ncbi.nlm.nih.gov/42572647/" target='_blank'>40. Metastatic Colon Adenocarcinoma in a 15-Year-Old Teenager: A Case Report.</a></h3><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Authors:</strong> El Maoudda H, Zouiten O, Daher B, et al.</p><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Journal:</strong> Cureus &middot; 2026-07-10</p><p style='margin:8px 0 0 0;font-size:0.9em;'>Colorectal cancer is predominantly an adult malignancy and is extremely rare in children.</p></div>
+<div style='border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin:12px 0;background:#fff;'><h3 style='margin:0 0 8px 0;font-size:1em;'><a href="https://pubmed.ncbi.nlm.nih.gov/42563654/" target='_blank'>41. Comparing tumour site and overall survival in colon v. rectal cancer in a longitudinal cohort study in Johannesburg, South Africa.</a></h3><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Authors:</strong> Pincus A, Moodley Y, Campbell L, et al.</p><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Journal:</strong> South African medical journal = Suid-Afrikaanse tydskrif vir geneeskunde &middot; 2026-07-02</p><p style='margin:8px 0 0 0;font-size:0.9em;'>Colorectal cancer (CRC) incidence is increasing globally, with disproportionately high mortality in low- and middle-income countries.</p></div>
+<div style='border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin:12px 0;background:#fff;'><h3 style='margin:0 0 8px 0;font-size:1em;'><a href="https://pubmed.ncbi.nlm.nih.gov/42542809/" target='_blank'>42. The Stent That Went Too Far: Ascending Colon Perforation Following Gastric Stent Migration.</a></h3><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Authors:</strong> Zaheer H, Kazim SM, Mohsin H, et al.</p><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Journal:</strong> Cureus &middot; 2026-07-02</p><p style='margin:8px 0 0 0;font-size:0.9em;'>A 32-year-old male patient presented with symptoms of gastric outlet obstruction secondary to distal gastric adenocarcinoma.</p></div>
+<div style='border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin:12px 0;background:#fff;'><h3 style='margin:0 0 8px 0;font-size:1em;'><a href="https://pubmed.ncbi.nlm.nih.gov/42556946/" target='_blank'>43. Robotic versus Laparoscopic Colectomy for Cancer.</a></h3><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Authors:</strong> Moscovici A, Bogaczyk T, Vu B, et al.</p><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Journal:</strong> Advances in surgery &middot; 2026-06-26</p><p style='margin:8px 0 0 0;font-size:0.9em;'>Minimally invasive colon and rectal surgery provides oncologic outcomes at least equivalent to open surgery with a multitude of benefits.</p></div>
+<div style='border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin:12px 0;background:#fff;'><h3 style='margin:0 0 8px 0;font-size:1em;'><a href="https://pubmed.ncbi.nlm.nih.gov/42536437/" target='_blank'>44. Primary Malignant Melanoma of the Colon: A Rare and Challenging Diagnosis.</a></h3><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Authors:</strong> Tafaj I, Allko O, Cuko L</p><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Journal:</strong> Oncology (Williston Park, N.Y.) &middot; 2026-Jun</p><p style='margin:8px 0 0 0;font-size:0.9em;'>We describe a unique clinical case of primary melanoma of the ascending colon presenting with intussusception and profuse hemorrhage.</p></div>
+<div style='border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin:12px 0;background:#fff;'><h3 style='margin:0 0 8px 0;font-size:1em;'><a href="https://pubmed.ncbi.nlm.nih.gov/42600588/" target='_blank'>45. SUCCESSFUL PREGNANCY AND TERM DELIVERY AFTER RADICAL SURGERY FOR COLON CANCER: A CASE REPORT.</a></h3><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Authors:</strong> Ghukasyan N, Gharibyan E, Geokchyan H, et al.</p><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Journal:</strong> Georgian medical news &middot; 2026-May</p><p style='margin:8px 0 0 0;font-size:0.9em;'>Colorectal cancer (CRC) is one of the most common malignancies worldwide, but pregnancy following curative resection for CRC is rarely reported.</p></div>
+<div style='border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin:12px 0;background:#fff;'><h3 style='margin:0 0 8px 0;font-size:1em;'><a href="https://pubmed.ncbi.nlm.nih.gov/42600586/" target='_blank'>46. PAN-CANCER ANALYSIS OF CHEMOKINE (C-C MOTIF) LIGAND 26 (CCL26) AS A PROMISING PROGNOSTIC BIOMARKER AND IMMUNOMODULATORY MEDIATOR.</a></h3><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Authors:</strong> Ali S, Ismail M, Kumar P, et al.</p><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Journal:</strong> Georgian medical news &middot; 2026-May</p><p style='margin:8px 0 0 0;font-size:0.9em;'>Chemokine (C-C motif) ligand 26 (CCL26), also known as eotaxin-3, is an immune-regulatory chemokine involved in inflammatory responses and immune cell recruitment.</p></div>
+<div style='border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin:12px 0;background:#fff;'><h3 style='margin:0 0 8px 0;font-size:1em;'><a href="https://pubmed.ncbi.nlm.nih.gov/42545143/" target='_blank'>47. Pomegranate seed oil combined with low-frequency electromagnetic field enhances apoptosis in HT29 colon cancer cells via modulating caspase-3, caspase-9, Bax, and Bcl-2 expression.</a></h3><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Authors:</strong> Ghorbani N, Baharara J, Lotfi M</p><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Journal:</strong> Cellular and molecular biology (Noisy-le-Grand, France) &middot; 2026-04-30</p><p style='margin:8px 0 0 0;font-size:0.9em;'>Colon cancer is one of the most prevalent cancers globally, characterized by the abnormal growth of cells in the intestines.</p></div>
+<div style='border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin:12px 0;background:#fff;'><h3 style='margin:0 0 8px 0;font-size:1em;'><a href="https://pubmed.ncbi.nlm.nih.gov/42604816/" target='_blank'>48. Comparison of Short-Term Outcomes of Intracorporeal Anastomosis in Robot-Assisted colon Resection and Laparoscopic colon Resection: A Single-Center Study and Systematic Review and meta-Analysis.</a></h3><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Authors:</strong> Tomita Y, Shigeta K, Momose Y, et al.</p><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Journal:</strong> Asian journal of endoscopic surgery &middot; 2026</p><p style='margin:8px 0 0 0;font-size:0.9em;'>This study evaluates short-term outcomes of robot-assisted (Rt) and laparoscopic (Lap) intracorporeal anastomosis (IA) in colon resection using an exploratory single-center retrospective cohort and a systematic review and meta-analysis conducted in accordance with PRISMA guidelines.</p></div>
+<div style='border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin:12px 0;background:#fff;'><h3 style='margin:0 0 8px 0;font-size:1em;'><a href="https://pubmed.ncbi.nlm.nih.gov/42543847/" target='_blank'>49. Single-Port Versus Multiport Robotic Right Colectomy: Short-Term Outcomes and Impact of Extraction-Site Location on Postoperative Pain.</a></h3><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Authors:</strong> Nishikawa Y, Mori T, Hara M, et al.</p><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Journal:</strong> Asian journal of endoscopic surgery &middot; 2026</p><p style='margin:8px 0 0 0;font-size:0.9em;'>Robotic right hemicolectomy has been widely adopted, but the impact of extraction-site location on postoperative pain in single-port (SP) surgery remains unclear.</p></div>
+<div style='border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin:12px 0;background:#fff;'><h3 style='margin:0 0 8px 0;font-size:1em;'><a href="https://pubmed.ncbi.nlm.nih.gov/42581904/" target='_blank'>50. Corrigendum/Erratum to &quot;T cell exhaustion associated genes IRF1 and PDGFRB modulate immune infiltration and affect prognosis in colon adenocarcinoma&quot; [Heliyon Volume 11, Issue 14, September 2025, Article e43767].</a></h3><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Authors:</strong> Yi H, Liu HH, Ding JT, et al.</p><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Journal:</strong> Heliyon &middot; 2025-12-05</p><p style='margin:8px 0 0 0;font-size:0.9em;'>[This corrects the article DOI: 10.1016/j.heliyon.2025.e43767.].</p></div>
+<div class="report-footer"><p>Generated by <span class="footer-brand">ClawBio</span> · pubmed-summariser v0.1.0 · 2026-08-18 12:27 UTC</p><p style="font-size:0.8em;margin-top:4px;">Genetic data processed locally. No data was transmitted to external servers.</p></div>
+<div class="disclaimer disclaimer-bottom"><strong>Disclaimer:</strong> ClawBio is a research and educational tool. It is not a medical device and does not provide clinical diagnoses. Consult a healthcare professional before making any medical decisions.</div>
+
+</body>
+</html>

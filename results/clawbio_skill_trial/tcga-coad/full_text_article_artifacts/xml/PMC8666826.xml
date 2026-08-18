@@ -1,0 +1,700 @@
+<?xml version='1.0' encoding='utf-8'?>
+<article xmlns:ns0="http://www.niso.org/schemas/ali/1.0/" xmlns:ns1="http://www.w3.org/1999/xlink" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Gut</journal-id><journal-id journal-id-type="iso-abbrev">Gut</journal-id><journal-id journal-id-type="pmc-domain-id">694</journal-id><journal-id journal-id-type="pmc-domain">bmjgroup</journal-id><journal-id journal-id-type="nlm-id">2985108R</journal-id><journal-id journal-id-type="publisher-id">gut</journal-id><journal-title-group><journal-title>Gut</journal-title></journal-title-group><issn pub-type="ppub">0017-5749</issn><issn pub-type="epub">1468-3288</issn><custom-meta-group><custom-meta><meta-name>pmc-is-collection-domain</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-collection-title</meta-name><meta-value>BMJ Open Access</meta-value></custom-meta></custom-meta-group></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC8666826</article-id><article-id pub-id-type="pmcid-ver">PMC8666826.1</article-id><article-id pub-id-type="pmcaid">8666826</article-id><article-id pub-id-type="pmcaiid">8666826</article-id><article-id pub-id-type="pmid">33436496</article-id><article-id pub-id-type="doi">10.1136/gutjnl-2020-323553</article-id><article-id pub-id-type="publisher-id">gutjnl-2020-323553</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="heading"><subject>Colon</subject></subj-group><subj-group subj-group-type="hwp-journal-coll"><subject>1506</subject><subject>2312</subject></subj-group><series-title>Original research</series-title></article-categories><title-group><article-title>PI3K-driven HER2 expression is a potential therapeutic target in colorectal cancer stem cells</article-title></title-group><contrib-group><contrib id="author-74534856" contrib-type="author" equal-contrib="yes"><name name-style="western"><surname>Mangiapane</surname><given-names initials="LR">Laura Rosa</given-names></name><xref rid="aff1" ref-type="aff">1</xref></contrib><contrib id="author-68030682" contrib-type="author" equal-contrib="yes"><name name-style="western"><surname>Nicotra</surname><given-names initials="A">Annalisa</given-names></name><xref rid="aff1" ref-type="aff">1</xref></contrib><contrib id="author-74534886" contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-6152-4903</contrib-id><name name-style="western"><surname>Turdo</surname><given-names initials="A">Alice</given-names></name><xref rid="aff2" ref-type="aff">2</xref></contrib><contrib id="author-74534879" contrib-type="author"><name name-style="western"><surname>Gaggianesi</surname><given-names initials="M">Miriam</given-names></name><xref rid="aff1" ref-type="aff">1</xref></contrib><contrib id="author-74534839" contrib-type="author"><name name-style="western"><surname>Bianca</surname><given-names initials="P">Paola</given-names></name><xref rid="aff1" ref-type="aff">1</xref></contrib><contrib id="author-53808740" contrib-type="author"><name name-style="western"><surname>Di Franco</surname><given-names initials="S">Simone</given-names></name><xref rid="aff1" ref-type="aff">1</xref></contrib><contrib id="author-68031037" contrib-type="author"><name name-style="western"><surname>Sardina</surname><given-names initials="DS">Davide Stefano</given-names></name><xref rid="aff1" ref-type="aff">1</xref></contrib><contrib id="author-68030534" contrib-type="author"><name name-style="western"><surname>Veschi</surname><given-names initials="V">Veronica</given-names></name><xref rid="aff1" ref-type="aff">1</xref></contrib><contrib id="author-50273781" contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-0262-842X</contrib-id><name name-style="western"><surname>Signore</surname><given-names initials="M">Michele</given-names></name><xref rid="aff3" ref-type="aff">3</xref></contrib><contrib id="author-79011797" contrib-type="author"><name name-style="western"><surname>Beyes</surname><given-names initials="S">Sven</given-names></name><xref rid="aff4" ref-type="aff">4</xref></contrib><contrib id="author-79011855" contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-9551-5474</contrib-id><name name-style="western"><surname>Fagnocchi</surname><given-names initials="L">Luca</given-names></name><xref rid="aff4" ref-type="aff">4</xref></contrib><contrib id="author-68031507" contrib-type="author"><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-1813-7035</contrib-id><name name-style="western"><surname>Fiori</surname><given-names initials="ME">Micol Eleonora</given-names></name><xref rid="aff5" ref-type="aff">5</xref></contrib><contrib id="author-74534947" contrib-type="author"><name name-style="western"><surname>Bongiorno</surname><given-names initials="MR">Maria Rita</given-names></name><xref rid="aff2" ref-type="aff">2</xref></contrib><contrib id="author-79011916" contrib-type="author"><name name-style="western"><surname>Lo Iacono</surname><given-names initials="M">Melania</given-names></name><xref rid="aff1" ref-type="aff">1</xref></contrib><contrib id="author-83608531" contrib-type="author"><name name-style="western"><surname>Pillitteri</surname><given-names initials="I">Irene</given-names></name><xref rid="aff1" ref-type="aff">1</xref></contrib><contrib id="author-79011957" contrib-type="author"><name name-style="western"><surname>Ganduscio</surname><given-names initials="G">Gloria</given-names></name><xref rid="aff1" ref-type="aff">1</xref></contrib><contrib id="author-29997202" contrib-type="author"><name name-style="western"><surname>Gulotta</surname><given-names initials="G">Gaspare</given-names></name><xref rid="aff1" ref-type="aff">1</xref></contrib><contrib id="author-74535051" contrib-type="author"><name name-style="western"><surname>Medema</surname><given-names initials="JP">Jan Paul</given-names></name><xref rid="aff6" ref-type="aff">6</xref><xref rid="aff7" ref-type="aff">7</xref></contrib><contrib id="author-79012048" contrib-type="author"><name name-style="western"><surname>Zippo</surname><given-names initials="A">Alessio</given-names></name><xref rid="aff4" ref-type="aff">4</xref></contrib><contrib id="author-57021495" contrib-type="author"><name name-style="western"><surname>Todaro</surname><given-names initials="M">Matilde</given-names></name><xref rid="aff2" ref-type="aff">2</xref></contrib><contrib id="author-50273522" contrib-type="author" corresp="yes"><name name-style="western"><surname>De Maria</surname><given-names initials="R">Ruggero</given-names></name><xref rid="aff8" ref-type="aff">8</xref><xref rid="aff9" ref-type="aff">9</xref></contrib><contrib id="author-47543319" contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-1016-9059</contrib-id><name name-style="western"><surname>Stassi</surname><given-names initials="G">Giorgio</given-names></name><xref rid="aff1" ref-type="aff">1</xref></contrib></contrib-group><aff id="aff1">
+<label>1</label>
+<institution content-type="department">Department of Surgical, Oncological and Stomatological Sciences</institution>, <institution>Università degli Studi di Palermo</institution>, <addr-line content-type="city">Palermo</addr-line>, <country>Italy</country>
+</aff><aff id="aff2">
+<label>2</label>
+<institution content-type="department">Department of Health Promotion Sciences, Internal Medicine and Medical Specialties</institution>, <institution>Università degli Studi di Palermo</institution>, <addr-line content-type="city">Palermo</addr-line>, <country>Italy</country>
+</aff><aff id="aff3">
+<label>3</label>
+<institution content-type="department">Core Facilities</institution>, <institution>Istituto Superiore di Sanità</institution>, <addr-line content-type="city">Roma</addr-line>, <country>Italy</country>
+</aff><aff id="aff4">
+<label>4</label>
+<institution content-type="department">Department of Cellular, Computational, and Integrative Biology (CIBIO)</institution>, <institution>University of Trento</institution>, <addr-line content-type="city">Trento</addr-line>, <country>Italy</country>
+</aff><aff id="aff5">
+<label>5</label>
+<institution content-type="department">Department of Oncology and Molecular Medicine</institution>, <institution>Istituto Superiore di Sanita</institution>, <addr-line content-type="city">Roma</addr-line>, <country>Italy</country>
+</aff><aff id="aff6">
+<label>6</label>
+<institution content-type="department">Laboratory for Experimental Oncology and Radiobiology, Center for Experimental and Molecular Medicine</institution>, <institution>University of Amsterdam</institution>, <addr-line content-type="city">Amsterdam</addr-line>, <addr-line content-type="state">Noord-Holland</addr-line>, <country>The Netherlands</country>
+</aff><aff id="aff7">
+<label>7</label>
+<institution content-type="department">Oncode Institute</institution>, <institution>University of Amsterdam</institution>, <addr-line content-type="city">Amsterdam</addr-line>, <addr-line content-type="state">Noord-Holland</addr-line>, <country>The Netherlands</country>
+</aff><aff id="aff8">
+<label>8</label>
+<institution content-type="department">Institute of General Pathology</institution>, <institution>Universita Cattolica del Sacro Cuore Facolta di Medicina e Chirurgia</institution>, <addr-line content-type="city">Roma</addr-line>, <country>Italy</country>
+</aff><aff id="aff9">
+<label>9</label>
+<institution>Policlinico A Gemelli</institution>, <addr-line content-type="city">Roma</addr-line>, <addr-line content-type="state">Lazio</addr-line>, <country>Italy</country>
+</aff><author-notes><corresp>
+<label>Correspondence to</label> Professor Giorgio Stassi, Department of Surgical, Oncological and Stomatological Sciences, Università degli Studi di Palermo, Palermo, Italy; <email>giorgio.stassi@unipa.it</email>; Professor Ruggero De Maria, Institute of General Pathology, Università Cattolica del Sacro Cuore, Rome, Italy; <email>ruggero.demaria@unicatt.it</email>
+</corresp></author-notes><pub-date pub-type="ppub"><month>1</month><year>2022</year></pub-date><pub-date pub-type="epub"><day>12</day><month>1</month><year>2021</year></pub-date><volume>71</volume><issue>1</issue><issue-id pub-id-type="pmc-issue-id">395567</issue-id><fpage>119</fpage><lpage>128</lpage><history><date date-type="received"><day>08</day><month>11</month><year>2020</year></date><date date-type="rev-recd"><day>15</day><month>12</month><year>2020</year></date><date date-type="accepted"><day>18</day><month>12</month><year>2020</year></date></history><pub-history><event event-type="pmc-release"><date><day>13</day><month>12</month><year>2021</year></date></event><event event-type="pmc-live"><date><day>28</day><month>12</month><year>2021</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-01-28 20:25:15.563"><day>28</day><month>01</month><year>2026</year></date></event></pub-history><permissions><copyright-statement>© Author(s) (or their employer(s)) 2022. Re-use permitted under CC BY. Published by BMJ.</copyright-statement><copyright-year>2022</copyright-year><ns0:free_to_read /><license><ns0:license_ref specific-use="textmining" content-type="ccbylicense" start_date="2021-01-12">https://creativecommons.org/licenses/by/4.0/</ns0:license_ref><license-p>This is an open access article distributed in accordance with the Creative Commons Attribution 4.0 Unported (CC BY 4.0) license, which permits others to copy, redistribute, remix, transform and build upon this work for any purpose, provided the original work is properly cited, a link to the licence is given, and indication of whether changes were made. See: <ext-link ext-link-type="uri" ns1:href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p></license></permissions><self-uri content-type="pmc-pdf" ns1:href="gutjnl-2020-323553.pdf" /><self-uri ns1:title="pdf" ns1:href="gutjnl-2020-323553.pdf" /><related-article related-article-type="companion" journal-id="Gut" journal-id-type="nlm-ta" ext-link-type="pubmed" ns1:href="33619166"><article-title>ERBB2 in anti-EGFR-resistant colorectal cancer: cancer stem cells come into play.</article-title><date><day>22</day><month>2</month><year>2021</year></date><source>Gut</source><pub-id pub-id-type="doi">10.1136/gutjnl-2020-323924</pub-id><pub-id pub-id-type="pmid">33619166</pub-id></related-article><abstract><sec><title>Objective</title><p>Cancer stem cells are responsible for tumour spreading and relapse. Human epidermal growth factor receptor 2 (HER2) expression is a negative prognostic factor in colorectal cancer (CRC) and a potential target in tumours carrying the gene amplification. Our aim was to define the expression of HER2 in colorectal cancer stem cells (CR-CSCs) and its possible role as therapeutic target in CRC resistant to anti- epidermal growth factor receptor (EGFR) therapy.</p></sec><sec><title>Design</title><p>A collection of primary sphere cell cultures obtained from 60 CRC specimens was used to generate CR-CSC mouse avatars to preclinically validate therapeutic options. We also made use of the ChIP-seq analysis for transcriptional evaluation of HER2 activation and global RNA-seq to identify the mechanisms underlying therapy resistance.</p></sec><sec><title>Results</title><p>Here we show that in CD44v6-positive CR-CSCs, high HER2 expression levels are associated with an activation of the phosphatidylinositol 3-kinase (PI3K)/AKT pathway, which promotes the acetylation at the regulatory elements of the Erbb2 gene. HER2 targeting in combination with phosphatidylinositol 3-kinase (PI3K) and mitogen-activated protein kinase kinase (MEK) inhibitors induces CR-CSC death and regression of tumour xenografts, including those carrying <italic toggle="yes">Kras</italic> and <italic toggle="yes">Pik3ca</italic> mutation. Requirement for the triple targeting is due to the presence of cancer-associated fibroblasts, which release cytokines able to confer CR-CSC resistance to PI3K/AKT inhibitors. In contrast, targeting of PI3K/AKT as monotherapy is sufficient to kill liver-disseminating CR-CSCs in a model of adjuvant therapy.</p></sec><sec><title>Conclusions</title><p>While PI3K targeting kills liver-colonising CR-CSCs, the concomitant inhibition of PI3K, HER2 and MEK is required to induce regression of tumours resistant to anti-EGFR therapies. These data may provide a rationale for designing clinical trials in the adjuvant and metastatic setting.</p></sec></abstract><kwd-group><kwd>colorectal cancer</kwd><kwd>stem cells</kwd><kwd>drug resistance</kwd><kwd>antibody targeted therapy</kwd></kwd-group><funding-group specific-use="FundRef"><award-group id="funding-1"><funding-source>
+<institution-wrap><institution>PRIN</institution></institution-wrap>
+</funding-source><award-id>2017WNKSLR</award-id></award-group><award-group id="funding-2"><funding-source>
+<institution-wrap><institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/501100005010</institution-id><institution>Associazione Italiana per la Ricerca sul Cancro</institution></institution-wrap>
+</funding-source><award-id>21445</award-id><award-id>22911</award-id><award-id>9979</award-id></award-group></funding-group><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>special-feature</meta-name><meta-value>unlocked</meta-value></custom-meta></custom-meta-group></article-meta></front><body><boxed-text id="BX1" position="float" orientation="portrait"><caption><title>Significance of this study</title></caption><sec><title>What is already known on this subject?</title><list list-type="bullet"><list-item><p>Advanced colorectal cancer (CRC) remains essentially incurable, particularly in the presence of genomic alterations in the signalling pathway of rat sarcoma (RAS).</p></list-item><list-item><p>Human epidermal growth factor receptor 2 (HER2) expression seems to correlate with the stage of disease and reduced survival in CRC.</p></list-item><list-item><p>Targeting <italic toggle="yes">Erbb2</italic> amplification has a significant therapeutic activity in patients with CRC.</p></list-item><list-item><p>The phosphatidylinositol 3-kinase (PI3K)/AKT pathway is constitutively activated in colorectal cancer stem cells (CR-CSCs) and sustains the expression of CD44v6, which drives the metastatic dissemination.</p></list-item></list></sec><sec><title>What are the new findings?</title><list list-type="bullet"><list-item><p>The constitutive activation of PI3K/AKT is associated with high expression levels of HER2 in CD44v6-positive CR-CSCs.</p></list-item><list-item><p>HER2, in combination with PI3K and mitogen-activated protein kinase kinase (MEK) inhibitors, leads to cancer stem cell death and tumour regression in CRC avatars resistant to anti-epidermal growth factor receptor (EGFR) therapy and to combinations of PI3K, BRAF and HER2 targeting.</p></list-item><list-item><p>Liver disseminated CR-CSCs can be effectively killed by PI3K/AKT inhibitors in an experimental model of adjuvant therapy.</p></list-item><list-item><p>Cytokines released by cancer-associated fibroblasts, particularly hepatocyte growth factor (HGF), stromal cell-derived factor-1 (SDF-1) and osteopontin (OPN), confer resistance to the targeting of the PI3K/AKT pathway and surrogate the protective effect of tumour microenvironment.</p></list-item></list></sec><sec><title>How might it impact on clinical practice in the foreseeable future?</title><list list-type="bullet"><list-item><p>PI3K/AKT inhibitors could be effective in the adjuvant setting for CRC.</p></list-item><list-item><p>Targeting HER2, MEK and PI3K may provide a valuable therapeutic strategy against anti-EGFR-resistant advanced CRCs.</p></list-item></list></sec></boxed-text><sec sec-type="intro" id="s1"><title>INTRODUCTION</title><p>Despite major advances in terms of prevention and treatment, colorectal cancer (CRC) is one of the major causes of cancer-related death worldwide.<xref rid="R1" ref-type="bibr">1</xref> Diagnosis at stage IV and tumour progression after surgery are very often lethal and require a substantial improvement of current therapeutic regimens. Over the past decade, the scientific community focused on different mechanisms found to be responsible for the development of therapy resistance, such as genetic heterogeneity and activation of alternative survival pathways.<xref rid="R2" ref-type="bibr">2</xref> Despite the availability of a large repertoire of new targeted therapeutics, there are not many options to treat patients with chemoresistant tumours, particularly if associated with activation of the signal pathway of rat sarcoma (RAS) or epidermal growth factor receptor (EGFR) resistance.</p><p>The expansion of resistant subclones due to tumour heterogeneity is now regarded as the major clinical hurdle in patient management.<xref rid="R3" ref-type="bibr">3</xref> About 36%–40% of patients with CRC are characterised by <italic toggle="yes">Kras</italic>-activating mutation at codons 12, 13 and 61, while 8%–15% present mutations in the <italic toggle="yes">Braf</italic> gene. In advanced stages, the presence of either <italic toggle="yes">Braf</italic> or <italic toggle="yes">Ras</italic> mutations correlates with a particularly poor prognosis.<xref rid="R4" ref-type="bibr">4</xref> Several studies have shown the predictive and prognostic roles of different gene mutations belonging to mitogen-activated protein kinase (MAPK) and phosphatidylinositol 3-kinase (PI3K)/AKT pathways, such as <italic toggle="yes">Ras</italic>, <italic toggle="yes">Braf</italic>, <italic toggle="yes">Pik3ca</italic> and <italic toggle="yes">PTEN</italic>.<xref rid="R5" ref-type="bibr">5 6</xref> EGFRs are the most important actionable targets identified so far in CRC. Although the addition of EGFR-targeting antibodies to chemotherapy is the most effective current therapy for <italic toggle="yes">Ras</italic> wild-type (wt) metastatic CRC, the therapeutic response is temporary and restricted to a limited number of patients due to primary or acquired resistance.<xref rid="R7" ref-type="bibr">7</xref> Repeated liquid biopsies accompanied by the analysis of tumour-associated genetic alterations would be needed to monitor the treatment responses and to adapt new targeted therapies.<xref rid="R8" ref-type="bibr">8</xref> The heterogeneity in the clinical responses of these patients with <italic toggle="yes">Kras</italic>-wt CRC has pointed out the contribution of other genetic mutations or amplifications.<xref rid="R9" ref-type="bibr">9</xref> For instance, beyond the <italic toggle="yes">Ras</italic> mutation, the activation of alternative or parallel downstream signalling inside or outside the MAPK pathways is involved in the anti-EGFR treatment inefficacy.<xref rid="R7" ref-type="bibr">7 10</xref> Thus, simultaneous inhibition of the EGFR family members and alternative signalling pathways has been adopted to overcome EGFR therapy resistance determined by the amplification of receptor tyrosine kinases.<xref rid="R11" ref-type="bibr">11 12</xref> In contrast to melanoma, CRCs harbouring <italic toggle="yes">Braf</italic> mutations are refractory to BRAF inhibitors, such as vemurafenib.<xref rid="R13" ref-type="bibr">13</xref> CRC resistance to BRAF inhibitors remains a major obstacle in clinical settings.<xref rid="R14" ref-type="bibr">14</xref> This unresponsiveness is sustained by the activation of a feedback loop involving EGFR and downstream pathways.<xref rid="R15" ref-type="bibr">15</xref> Although a recent phase II clinical study showed that addition of vemurafenib and cetuximab to chemotherapy prolonged the progression-free survival of metastatic patients with <italic toggle="yes">Braf</italic>-mutated tumours by 2.4 months, the prognosis of these patients remains poor.<xref rid="R16" ref-type="bibr">16</xref> Moreover, another recent study reported that the combined BRAF, EGFR and mitogen-activated protein kinase kinase (MEK) inhibition in patients with <italic toggle="yes">Braf<sup>V600E</sup>
+</italic>-mutant CRC could increase survival, even if patients experienced primary and acquired resistance due to a positive feedback regulation of MAPK pathway in tumour cells.<xref rid="R17" ref-type="bibr">17</xref>
+</p><p>Given that <italic toggle="yes">Kras</italic>-mutant CRCs display different resistance mechanisms to EGFR and MAPK inhibitors, many alternative strategies are currently under investigation.<xref rid="R18" ref-type="bibr">18</xref> In addition to acquired genetic mutations, the activation of a positive human epidermal growth factor receptor 2 (HER2) and HER3 feedback loop seems to be one example of antitumour therapy escape.<xref rid="R19" ref-type="bibr">19 20</xref> Accordingly, the combined treatment with MEK and EGFR/HER2 dual inhibitors has shown a synergistic activity in preclinical models based on CRC cell lines bearing <italic toggle="yes">Kras</italic> mutation.<xref rid="R21" ref-type="bibr">21</xref> The investigation on EGFR family members in CRC has been recently focused on HER2. <italic toggle="yes">Erbb2</italic> amplification occurs in approximately 3%–10% of patients with CRC and may promote resistance to EGFR inhibitors.<xref rid="R22" ref-type="bibr">22 23</xref> Moreover, HER2 expression appears as a negative prognostic factor that correlates with the stage and survival in patients with CRC.<xref rid="R24" ref-type="bibr">24</xref> This hypothesis has been recently validated by the clinical trial Heracles, which showed that the combination of trastuzumab and lapatinib in <italic toggle="yes">Erbb2</italic>-amplified patients with CRC can induce the regression of tumours resistant to anti-EGFR therapies.<xref rid="R25" ref-type="bibr">25</xref> Constitutive expression of HER2 can be also driven by the degree of its enhancer and promoter activities.<xref rid="R26" ref-type="bibr">26</xref>
+</p><p>Myc overexpression may contribute to promote therapy resistance in <italic toggle="yes">Kras</italic>-mutant CRCs.<xref rid="R27" ref-type="bibr">27</xref> While the MAPK effector promotes Myc stabilisation, its proteosomal degradation is mediated by GSK3β.<xref rid="R28" ref-type="bibr">28 29</xref> The role of Myc in the tumourigenesis programme is mediated by the upregulation of the miR-17–92 cluster, which is associated with a poor prognosis.<xref rid="R30" ref-type="bibr">30</xref>
+</p><p>Colorectal cancer stem cells (CR-CSCs) are responsible for tumour development, spreading and resistance to chemotherapy.<xref rid="R31" ref-type="bibr">31 32</xref> We have created a large collection of primary CRC cells growing as spheroids and able to reproduce the patients’ tumour in mouse avatars. We have recently shown that CR-CSCs express CD44v6 and depend on the PI3K/AKT pathway for survival and spreading.<xref rid="R31" ref-type="bibr">31 33</xref> Herein, we have studied the molecular pathways that should be targeted to kill CR-CSCs both in the adjuvant and metastatic settings. While targeting the PI3K/AKT pathway is sufficient to kill disseminating CR-CSCs, we found that HER2 is constitutively expressed in CR-CSCs and that the simultaneous targeting of HER2, PI3K and MEK neutralises the protective effect of tumour stroma and induces tumour regression, even in the presence of aggressive mutational backgrounds.</p></sec><sec sec-type="methods" id="s2"><title>METHODS</title><p>A detailed description of the methods can be found in <xref rid="SP1 SP9" ref-type="supplementary-material">online supplemental information</xref>.</p><supplementary-material id="SP1" position="float" content-type="local-data" orientation="portrait"><object-id pub-id-type="doi">10.1136/gutjnl-2020-323553.supp1</object-id><label>Supplementary data</label><p>
+<inline-supplementary-material id="SS1" ns1:href="gutjnl-2020-323553supp001.pdf" content-type="local-data" />
+</p></supplementary-material><supplementary-material id="SP9" position="float" content-type="local-data" orientation="portrait"><object-id pub-id-type="doi">10.1136/gutjnl-2020-323553.supp9</object-id><label>Supplementary data</label><p>
+<inline-supplementary-material id="SS9" ns1:href="gutjnl-2020-323553supp009.pdf" content-type="local-data" />
+</p></supplementary-material></sec><sec sec-type="results" id="s3"><title>RESULTS</title><sec id="s3-1"><title>CD44V6-positive CRC cells express high levels of HER2 and are cetuximab resistant</title><p>EGFR inhibitors promote an effective therapeutic response in about 50%–55% of the patients with <italic toggle="yes">Ras/Braf-</italic>wt CRC, whereas <italic toggle="yes">Braf</italic>- and <italic toggle="yes">Kras</italic>-mutant CRC cells are completely resistant.<xref rid="R9" ref-type="bibr">9</xref> In accordance with clinical data, treatment with cetuximab affected the cell viability of about a half of the <italic toggle="yes">Ras/Braf-</italic>wt primary colorectal cancer sphere cells (CSphCs) and delayed the outgrowth of tumour xenografts (<xref rid="F1" ref-type="fig">figure 1A</xref>, <xref rid="SP1 SP2" ref-type="supplementary-material">online supplemental figure 1A, B</xref> and <xref rid="SP3" ref-type="supplementary-material">online supplemental table 1</xref>).</p><supplementary-material id="SP2" position="float" content-type="local-data" orientation="portrait"><object-id pub-id-type="doi">10.1136/gutjnl-2020-323553.supp2</object-id><label>Supplementary data</label><p>
+<inline-supplementary-material id="SS2" ns1:href="gutjnl-2020-323553supp002.pdf" content-type="local-data" />
+</p></supplementary-material><supplementary-material id="SP3" position="float" content-type="local-data" orientation="portrait"><object-id pub-id-type="doi">10.1136/gutjnl-2020-323553.supp3</object-id><label>Supplementary data</label><p>
+<inline-supplementary-material id="SS3" ns1:href="gutjnl-2020-323553supp003.pdf" content-type="local-data" />
+</p></supplementary-material><p>Primary resistance to the EGFR blockade is mostly due to a constitutive activation of the RAS-MAPK signalling network.<xref rid="R9" ref-type="bibr">9</xref> Accordingly, a global RNA-Seq transcriptome analysis of cetuximab-resistant versus sensitive <italic toggle="yes">Ras/Braf-</italic>wt CSphCs showed 252 differentially expressed genes (DEGs) (<xref rid="SP2" ref-type="supplementary-material">online supplemental figure 1C</xref> and <xref rid="SP4" ref-type="supplementary-material">online supplemental table 2</xref>). The gene set enrichment analysis (GSEA) computed with the Molecular Signatures Database displayed the enrichment of genes associated with activation of the MAPK-signalling pathway, including the negative feedback regulator DUSP4<xref rid="R34" ref-type="bibr">34</xref> (<xref rid="F1" ref-type="fig">figure 1B</xref> and <xref rid="SP2" ref-type="supplementary-material">online supplemental figure 1D</xref>). Besides the activation of signalling pathway of MAPK, <italic toggle="yes">Ras/Braf-</italic>wt CSphCs resistant to cetuximab showed higher mRNA expression levels of <italic toggle="yes">Erbb2</italic> compared with those sensitive (<xref rid="F1" ref-type="fig">figure 1C</xref>). In line with literature,<xref rid="R23" ref-type="bibr">23</xref> our CSphC collection showed a 9.7% of <italic toggle="yes">Erbb2</italic> amplification (<xref rid="SP3" ref-type="supplementary-material">online supplemental table 1</xref>). We previously reported that while CD44v6 is a functional marker that identifies tumour-initiating CR-CSCs, the CD44v6-negative population represents the progenitor and differentiated fraction.<xref rid="R31" ref-type="bibr">31 33</xref> A cohort of 31 out of 47 primary CSphC lines showed that the high percentage of CD44v6 expression levels resided in the <italic toggle="yes">Ras/Braf-</italic>wt cells resistant to cetuximab, even though these expression levels are similarly distributed between <italic toggle="yes">Ras/Braf-</italic>wt, <italic toggle="yes">Braf</italic>-mutated and <italic toggle="yes">Kras-</italic>mutated cell lines (<xref rid="F1" ref-type="fig">figure 1D</xref> and <xref rid="SP2" ref-type="supplementary-material">online supplemental figure 1E</xref>). Because the CD44v6-positive population, within the <italic toggle="yes">Ras/Braf-</italic>wt cells, is resistant and increases after treatment with cetuximab (<xref rid="F1" ref-type="fig">figure 1E</xref> and <xref rid="SP2" ref-type="supplementary-material">online supplemental figure 1F</xref>), we investigated whether the expression in signalling pathways associated with drug resistance may differ between the stem and differentiated cell compartments. Reverse phosphoproteomic analysis (RPPA) of CSphCs showed that, while MAPK pathways and HER2 are highly regulated, EGFR and HER3 are expressed in a lesser extent in the CD44v6-positive than in the CD44v6<sup>−</sup> fraction (<xref rid="SP2" ref-type="supplementary-material">online supplemental figure 1G</xref>). The analysis at mRNA and protein levels confirmed an increased HER2 expression in the tumourigenic CD44v6-positive population of CRC cells, independently of the mutational background (<xref rid="F1" ref-type="fig">figure 1F, G</xref> and <xref rid="SP2" ref-type="supplementary-material">online supplemental figure 1H, I</xref>). Accordingly, immunofluorescence analysis of patient tumour sections and tumour spheres indicated that the majority of CD44v6-positive cells coexpressed HER2 (<xref rid="F1" ref-type="fig">figure 1H</xref> and <xref rid="SP2" ref-type="supplementary-material">online supplemental figure 1J</xref>).</p><supplementary-material id="SP4" position="float" content-type="local-data" orientation="portrait"><object-id pub-id-type="doi">10.1136/gutjnl-2020-323553.supp4</object-id><label>Supplementary data</label><p>
+<inline-supplementary-material id="SS4" ns1:href="gutjnl-2020-323553supp004.pdf" content-type="local-data" />
+</p></supplementary-material><fig position="float" id="F1" orientation="portrait"><label>Figure 1</label><caption><p>High expression of HER2 confers resistance to anti-epidermal growth factor receptor (EGFR) treatment in CD44v6-positive CR-CSCs.(A) Waterfall plot of cetuximab response in <italic toggle="yes">Ras/Braf</italic>-wt, <italic toggle="yes">Braf</italic>-mutant and <italic toggle="yes">Kras</italic>-mutant CSphC lines following 72 hours of treatment. (B) Top four significantly enriched gene sets in hallmark, canonical pathways MSigDB collections (false discovery rate (FDR) Q-value≤0.05) identified through the analysis of differentially expressed genes between cetuximab resistant versus sensitive <italic toggle="yes">Ras/Braf</italic>-wt sphere cells. P values related to each enriched gene set are indicated. (C) <italic toggle="yes">Erbb2</italic> and <italic toggle="yes">Erbb3</italic> mRNA expression levels in <italic toggle="yes">Ras/Braf</italic>-wt sphere cells resistant and sensitive to cetuximab. <italic toggle="yes">Gapdh</italic> amplification was used as endogenous control. Data are represented as ±SD of three experiments performed with 31 <italic toggle="yes">Ras/Braf</italic>-wt. (D) CD44v6 expression performed in cells as in (C). (E) Viable cell number variation in enriched CD44v6<sup>−</sup> and CD44v6-positive <italic toggle="yes">Ras/Braf</italic>-wt treated with cetuximab for 72 hours and normalised with the values of cells treated with vehicle (indicated as 100%, red dotted line). Boxes and whiskers represent mean±SD of six experiments performed with 15 resistant and 16 sensitive <italic toggle="yes">Ras/Braf</italic>-wt sphere cells. (F) Variation of <italic toggle="yes">Egfr</italic>, <italic toggle="yes">Erbb2</italic> and <italic toggle="yes">Erbb3</italic> mRNA expression levels in CD44v6-positive versus CD44v6<sup>−</sup> cells. <italic toggle="yes">Gapdh</italic> amplification was used as endogenous control. Data are represented as mean±SD of nine experiments performed with three <italic toggle="yes">Ras/Braf</italic>-wt (CSphC#14, 21 and 33), three <italic toggle="yes">Braf</italic>-mutants (CSphC#1, 2 and 5) and three <italic toggle="yes">Kras</italic>-mutants (CSphC#10, 11 and 16). (G) Immunoblot analysis of HER3, HER2 and EGFR on purified CD44v6<sup>−</sup> and CD44v6-positive <italic toggle="yes">Ras/Braf</italic>-wt (CSphC#21), <italic toggle="yes">Braf</italic>-mutant (CSphC#2) and <italic toggle="yes">Kras</italic>-mutant (CSphC#11) CR-CSphC populations. β-Actin was used as loading control. (H, left panel) Representative immunofluorescence analysis of CD44v6 and HER2 on paraffin embedded sections from human CRC tissue specimen. Nuclei were counterstained with TOTO-3. Scale bars, 20 µm. Percentages of CD44v6, HER2 and CD44v6/HER2 positivity in eight human CRC tissues are shown on the right panel. Data are mean±SD of eight different samples. (I) Browser view of the <italic toggle="yes">Erbb2</italic> locus, showing different isoforms of <italic toggle="yes">Erbb2</italic> and chromatin states (ChromHMM tracks). Two promoters and three potential enhancers are highlighted (Prom1, Prom2, ENH1, ENH2 and HGE). (J) ChIP-qPCR for the histone marks H3K27ac and H3K4me1 at the indicated enhancer regions (ENH1, ENH2 and HGE) in <italic toggle="yes">Braf</italic>-mutant cells positive or negative for CD44v6. Enrichment is indicated as % relative to the input. CR-CSC, colorectal cancer stem cell; CSphC, colorectal cancer sphere cell; ENH1, intron 1 enhancer; ENH2, intron 2 enhancer; HER2, human epidermal growth factor receptor 2; HGE, <italic toggle="yes">HER2</italic> gene body enhancer; MSigDB, Molecular Signatures Database; wt, wild type. *indicates P&lt;0.05 and ***indicates P&lt;0.001.</p></caption><graphic position="float" orientation="portrait" ns1:href="gutjnl-2020-323553f01.jpg" /></fig><p>We next investigated the transcriptional regulation of <italic toggle="yes">Erbb2</italic> expression in CD44v6-positive fraction by evaluating its 3′ regulatory elements. Interestingly, H3K27 acetylation (H3K27ac) was enriched at the analysed regions of <italic toggle="yes">HER2</italic> gene body enhancer (HGE), intron 1 enhancer (ENH1) and intron 2 enhancer in CD44v6-positive compartment, whereas H3K4me1 enrichment was equally found in both CD44v6<sup>−</sup> and CD44v6-positive cell fractions at all three enhancer regions (<xref rid="F1" ref-type="fig">figure 1I, J</xref> and <xref rid="SP2" ref-type="supplementary-material">online supplemental figure 1K</xref>). These data indicate that the enhancers are poised in both cellular fractions but only fully activated in the CD44v6-positive compartment, suggesting that the activation of <italic toggle="yes">Erbb2</italic> transcription mediated by the increased acetylation is restricted to the CD44v6-positive CRC cell compartment.</p></sec><sec id="s3-2"><title>PI3K/AKT pathway activation is associated with the transcriptional regulation of <italic toggle="yes">Erbb2</italic> in CD44v6-positive cells</title><p>The transcriptomic analysis of CD44v6<sup>high</sup> versus CD44v6<sup>low</sup> cells highlighted the presence of 173 DEGs (<xref rid="SP5" ref-type="supplementary-material">online supplemental figure 2A</xref> and <xref rid="SP6" ref-type="supplementary-material">online supplemental table 3</xref>). In CD44v6<sup>high</sup> cells, the GSEA enriched for genes related to the activation of PI3K/AKT signalling pathway, such as NOS3<xref rid="R35" ref-type="bibr">35</xref> (<xref rid="F2" ref-type="fig">figure 2A</xref> and <xref rid="SP5" ref-type="supplementary-material">online supplemental figure 2B</xref>). To investigate the role of PI3K in the transcriptional regulation of <italic toggle="yes">Erbb2</italic>, we induced an activating <italic toggle="yes">Pik3ca</italic> mutation into <italic toggle="yes">Pik3ca-</italic>wt low expressing HER2 CSphC lines by using CRISPR nuclease in combination with a specific donor DNA that introduced the <italic toggle="yes">E545K</italic> point mutation (<xref rid="SP5" ref-type="supplementary-material">online supplemental figure 2C</xref> and <xref rid="SP3" ref-type="supplementary-material">online supplemental table 1</xref>). The presence of a <italic toggle="yes">Pik3ca<sup>E545K</sup>
+</italic> is associated with an increased expression of HER2 and phospho-AKT (<xref rid="F2" ref-type="fig">figure 2B, C</xref> and <xref rid="SP5" ref-type="supplementary-material">online supplemental figure 2D</xref>). Interestingly, immunofluorescence analysis of primary tumour sections indicated that HER2-positive cells were mainly prominent in the tumour invasion front and displayed activation of the PI3K/AKT pathway (<xref rid="F2" ref-type="fig">figure 2D</xref>). The essential role of PI3K in the transcriptional regulation of <italic toggle="yes">Erbb2</italic> was further supported by ChIP-qPCR analysis showing that overexpression of the mostly represented <italic toggle="yes">Pik3ca</italic> activating mutation in breast cancer, the <italic toggle="yes">Pik3ca<sup>H1047R</sup>
+</italic>, in mammary IMEC-MYC cells enhances the transcriptional activity of both <italic toggle="yes">Erbb2</italic> promoters (prom 1 and prom 2) and ENH1 and HGE (<xref rid="SP5" ref-type="supplementary-material">online supplemental figure 2E</xref>). Since the inhibition of the PI3K/AKT pathway hampers the cell viability of CD44v6-positive cells,<xref rid="R33" ref-type="bibr">33</xref> we evaluated whether the addition of a PI3K inhibitor to the combination therapy could affect the viability of both CD44v6-positive and CD44v6<sup>−</sup> cells. To confirm the dependence of CR-CSCs on the PI3K activity, we tested an AKT (miransertib) and two PI3K (BKM120 and taselisib) inhibitors on several primary CSphC lines. Both miransertib and PI3K inhibitors reduced considerably the viability of CD44v6-positive cells in vitro regardless of the mutational background (<xref rid="SP5" ref-type="supplementary-material">online supplemental figure 2F–H</xref>), confirming that the PI3K/AKT pathway plays a key role on CR-CSC survival.</p><supplementary-material id="SP5" position="float" content-type="local-data" orientation="portrait"><object-id pub-id-type="doi">10.1136/gutjnl-2020-323553.supp5</object-id><label>Supplementary data</label><p>
+<inline-supplementary-material id="SS5" ns1:href="gutjnl-2020-323553supp005.pdf" content-type="local-data" />
+</p></supplementary-material><supplementary-material id="SP6" position="float" content-type="local-data" orientation="portrait"><object-id pub-id-type="doi">10.1136/gutjnl-2020-323553.supp6</object-id><label>Supplementary data</label><p>
+<inline-supplementary-material id="SS6" ns1:href="gutjnl-2020-323553supp006.pdf" content-type="local-data" />
+</p></supplementary-material><fig position="float" id="F2" orientation="portrait"><label>Figure 2</label><caption><p>Activation of PI3K/AKT pathway is accompanied by elevated <italic toggle="yes">Erbb2</italic> expression levels in CD44v6-positive CRC cells. (A) Top 10 significantly enriched gene sets in hallmark, canonical pathways MSigDB collections (FDR Q-value≤0.05) computed by the analysis of differentially expressed genes between CD44v6<sup>high</sup> and CD44v6<sup>low</sup> cells. (B) mRNA relative levels of <italic toggle="yes">Erbb2</italic> in CSphCs and their corresponding CRISPR/Cas9-<italic toggle="yes">Pik3ca</italic>
+<sup>E545K</sup> cells. Data are represented as mean±SD of six independent experiments performed with <italic toggle="yes">Ras/Braf</italic>-wt (CSphC#23), <italic toggle="yes">Braf</italic>-mutant (CSphC#5) and <italic toggle="yes">Kras-</italic>mutant (CSphC#15) cells and their corresponding CRISPR/Cas9-<italic toggle="yes">Pik3ca</italic>
+<sup>E545K</sup> cells. (C) Immunoblot analysis of HER2, pAKT and AKT on <italic toggle="yes">Ras/Braf</italic>-wt (CSphC#23), <italic toggle="yes">Braf</italic>-mutant (CSphC#5) <italic toggle="yes">Kras-</italic>mutant (CSphC#15) cells. β-Actin was used as loading control. (D) Representative immunofluorescence analysis of HER2 and pAKT on paraffin-embedded sections from six human CRC tissue specimens. Nuclei were counterstained with TOTO-3. Scale bars, 20 µm. (E, left panels) In vivo whole-body imaging analysis of mice at 0 and 30 min and 12 weeks injected with sphere cells into the spleen. Five days after cell injection, mice were treated daily with taselisib for 3 weeks. Signal within the red dotted area represents the bioluminescence quantification. Kinetics of metastasis formation at the indicated time points (right panels). Black arrows indicate the start and end of treatment (from day 6 to week 4). Data are mean±SD of four independent experiments of six mice per group using <italic toggle="yes">Kras</italic>-mutant (CSphC#8 and 11) sphere cell lines. (F) Lollipop plot representing the amount of cytokines released by immortalised CAFs. Data are mean of six independent experiments using cells purified from six different patients. (G) Cell death (blue colour) evaluated by immunofluorescence (upper panels) and flow cytometry (lower panels) in sphere cells (CSphC#8) transduced with GFP (green colour) cocultured with CAFs CD90 positive (red colour) and treated with a PI3K inhibitor (taselisib) for 72 hours in the presence or absence of hepatocyte growth factor (HGF), stromal cell-derived factor-1 (SDF-1) and osteopontin (OPN) blocking antibodies (inhibitors). Scale bars, 40 µm. (H) Percentage of cell death in cells as in (G). Data are mean±SD of three independent experiments using <italic toggle="yes">Ras/Braf</italic>-wt (CSphC#14, 21 and 33), <italic toggle="yes">Braf</italic>-mutant (CSphC#1, 2 and 5) and <italic toggle="yes">Kras</italic>-mutant (CSphC#8, 10 and 11) sphere cell lines. (I) <italic toggle="yes">Erbb2</italic> mRNA expression levels in CD44v6<sup>−</sup> enriched cells treated with CAF CM and the indicated cytokines. Data are mean±SD of three independent experiments performed with cells derived from <italic toggle="yes">Ras/Braf</italic>-wt (CSphC#14 and 33), <italic toggle="yes">Braf</italic>-mutant (CSphC#1 and 5) and <italic toggle="yes">Kras-</italic>mutant (CSphC#10 and 11) sphere cell lines. (J) Cell death in sphere cells exposed to CAF CM and treated with taselisib for 72 hours in the presence of cytokine neutralising antibodies as indicated. Data are mean±SD of three independent experiments performed with <italic toggle="yes">Ras/Braf</italic>-wt (CSphC#6, 14, 21 and 33), <italic toggle="yes">Braf</italic>-mutant (CSphC#1, 2, 4 and 5) and <italic toggle="yes">Kras-</italic>mutant (CSphC#8, 10, 11 and 17) sphere cell lines. CAF, cancer-associated fibroblast; CM, conditioned medium; CRC, colorectal cancer; CSphC, colorectal cancer sphere cell; HER2, human epidermal growth factor receptor 2; MSigDB, Molecular Signatures Database; wt, wild type. *indicates P&lt;0.05, ** indicates P&lt;0.01 and ***indicates P&lt;0.001.</p></caption><graphic position="float" orientation="portrait" ns1:href="gutjnl-2020-323553f02.jpg" /></fig><p>We previously showed that CRC development is sustained by cancer stem cells (CSCs), whose dissemination is responsible for CRC metastasisation,<xref rid="R33" ref-type="bibr">33</xref> suggesting that targeting disseminated CR-CSCs may prevent tumour relapse and increase survival of patients with CRC.<xref rid="R31" ref-type="bibr">31</xref> Thus, we investigated the ability of PI3K inhibitors to target disseminated sphere cells in the liver before they were able to make metastases in a model of adjuvant treatment. We found that the administration of taselisib in immunocompromised mice was able to prevent the formation of liver metastases after dissemination of CSphCs by spleen injection (<xref rid="F2" ref-type="fig">figure 2E</xref>). These findings support the investigation of PI3K/AKT inhibitors in clinical trials aiming at killing disseminated metastasis-initiating CR-CSCs. The different survival properties of CD44v6 cells in vitro and in established tumours are likely due to the protective activity of the tumour microenvironment.<xref rid="R31" ref-type="bibr">31</xref> Outside the protective tumour context, PI3K and AKT inhibitors can kill CR-CSCs. In contrast, the protective activity of cells and cytokines present in the tumour microenvironment may require the targeting of multiple pathways to overcome the enhanced survival of CR-CSCs. This hypothesis is supported by the significant therapeutic activity of PI3K inhibitors on micrometastases and small tumour lesions.<xref rid="R36" ref-type="bibr">36</xref> In order to identify some possible soluble mediators of such protective activity, we then measured the release of cytokines from cancer-associated fibroblasts (CAFs). Among the cytokines more abundantly produced by CAFs, we selected HGF, SDF-1 and OPN (<xref rid="F2" ref-type="fig">figure 2F</xref>) to further investigation, based on their ability to support PI3K/AKT activity and stemness properties in CSphCs.<xref rid="R33" ref-type="bibr">33</xref> We next investigated whether the presence of CAFs would influence the survival of CSphCs exposed to the PI3K inhibitor. The coculture of GFP-labelled tumour spheres with CAFs protected cells from taselisib treatment (<xref rid="F2" ref-type="fig">figure 2G</xref>), suggesting that CAFs could play a critical role in opposition to the killing activity of PI3K inhibitors in CRC. Moreover, neutralisation of HGF, SDF-1 and OPN completely prevented the protective activity of CAFs (<xref rid="F2" ref-type="fig">figure 2H</xref>), indicating that these cytokines are responsible for delivering a survival signal in CR-CSCs that makes ineffective the PI3K targeting. Exposure of CSphCs, CD44v6-positive and CD44v6<sup>−</sup> cell fractions to CAF-released cytokines enhanced the expression of <italic toggle="yes">Erbb2</italic> mRNA (<xref rid="F2" ref-type="fig">figure 2I</xref> and <xref rid="SP5" ref-type="supplementary-material">online supplemental figure 2I</xref>). Interestingly, in the presence of tumour microenvironmental cytokines, <italic toggle="yes">Erbb2</italic> expression levels were not affected by the treatment with the PI3K inhibitor (<xref rid="SP5" ref-type="supplementary-material">online supplemental figure 2J–L</xref>). We also observed that HGF plays a major role in CAF-mediated protection of CSphCs treated with taselisib (<xref rid="F2" ref-type="fig">figure 2J</xref>). Taken together, these data suggest that the tumour microenvironment protects CR-CSCs from the targeting of the PI3K/AKT pathway.</p></sec><sec id="s3-3"><title>MEK sustains CR-CSCs resistance to the triple targeting of HER2, BRAF and PI3K</title><p>To further analyse the therapeutic potential of PI3K inhibitor in combination with MAPK pathway targeting, tumour xenografts, generated by the subcutaneous injection of CSphCs, were initially treated with either trastuzumab or cetuximab in combination with BRAF and PI3K inhibitors. These treatments were largely ineffective. We observed only a transient stabilisation of <italic toggle="yes">Braf</italic>-mutated tumours and a short delay in the disease progression of <italic toggle="yes">Ras/Braf-</italic>wt and <italic toggle="yes">Kras</italic>-mutated tumours (<xref rid="F3" ref-type="fig">figure 3A</xref> and <xref rid="SP7" ref-type="supplementary-material">online supplemental figure 3A</xref>). These experiments allowed us to evaluate the potential mechanisms of acquired resistance to such triple combinations. CSphCs surviving the combinatorial treatment showed a significant phosphorylation of p235–236 S6 kinase (<xref rid="SP7" ref-type="supplementary-material">online supplemental figure 3B</xref>), which could follow the activation of RAS/ERK and mammalian target of rapamycin (mTOR) and result in the engagement of the Myc pathway.<xref rid="R37" ref-type="bibr">37 38</xref> The activation of PI3K/AKT and MAPK pathways were confirmed by western blot in tumour specimen-derived subcutaneous xenograft treated with the triple combination (<xref rid="F3" ref-type="fig">figure 3B</xref> and <xref rid="SP8" ref-type="supplementary-material">online supplemental figure 3C</xref>). This phenomenon was paralleled by a strong activation of the PI3K/AKT and MAPK pathways, particularly in the presence of Braf or <italic toggle="yes">Kras</italic> mutations (<xref rid="F3" ref-type="fig">figure 3B</xref>). Moreover, cells surviving the combinatorial treatment showed high expression levels of the miR-17–92 cluster (<xref rid="SP7" ref-type="supplementary-material">online supplemental figure 3D</xref>), whose upregulation is associated with Myc expression.<xref rid="R39" ref-type="bibr">39</xref> Altogether, these findings indicate that PI3K and MEK promote CR-CSC resistance to the targeting of BRAF, HER2 and PI3K signalling pathways.</p><supplementary-material id="SP7" position="float" content-type="local-data" orientation="portrait"><object-id pub-id-type="doi">10.1136/gutjnl-2020-323553.supp7</object-id><label>Supplementary data</label><p>
+<inline-supplementary-material id="SS7" ns1:href="gutjnl-2020-323553supp007.pdf" content-type="local-data" />
+</p></supplementary-material><supplementary-material id="SP8" position="float" content-type="local-data" orientation="portrait"><object-id pub-id-type="doi">10.1136/gutjnl-2020-323553.supp8</object-id><label>Supplementary data</label><p>
+<inline-supplementary-material id="SS8" ns1:href="gutjnl-2020-323553supp008.pdf" content-type="local-data" />
+</p></supplementary-material><fig position="float" id="F3" orientation="portrait"><label>Figure 3</label><caption><p>HER2/MEK/PI3K combinatorial targeting counteracts the protective effect of cytokines produced by CAF. (A) Size of xenograft tumours generated by subcutaneous injection of <italic toggle="yes">Ras/Braf</italic>-wt (CSphC#14, 21 and 33), <italic toggle="yes">Braf-</italic>mutant (CSphC#1, 2, 3 and 5) or <italic toggle="yes">Kras-</italic>mutant (CSphC#8, 11 and 16) sphere cells. Mice were treated for the first 4 weeks with vehicle (vehicle) or Vemu (or V), cetuximab (Cmab or C), Tmab (or T) and a PI3K inhibitor (B) alone or in combination as indicated. ‘I’ indicates the time of cell injection. Treatment was started at time 0. Data are mean values of six independent experiments (n=6 mice per group). (B) Immunoblot analysis of pAKT, AKT, pGSK3β, GSK3β, pERK, ERK and Myc on tumour xenograft-derived cells of mice injected with <italic toggle="yes">RasBraf/Braf</italic>-wt (CSphC#21), <italic toggle="yes">Braf</italic>-mutant (CSphC#3), <italic toggle="yes">Kras</italic>-mutant (CSphC#11) sphere cells. Mice were treated with vehicle or V in combination with T and B, and sacrificed 1 week after the treatment suspension (5 weeks). β-Actin was used as loading control. (C) Representative Western blot analysis of pAKT, AKT, pGSK3β, GSK3β, pERK, ERK and Myc in <italic toggle="yes">Ras/Braf</italic>-wt (CSphC#21), <italic toggle="yes">Braf</italic>-mutant (CSphC#3), <italic toggle="yes">Kras</italic>-mutant (CSphC#11) sphere cells treated for 24 hours with vehicle or T+Mi+B. β-Actin was used as loading control. (D) Immunoblot analysis of the indicated proteins in <italic toggle="yes">Kras</italic>-mutant (CSphC#9) sphere cells treated with vehicle or V in combination with T and B or T+Mi+B cultured in fetal bovine serum (FBS)-free Dulbecco’s modified eagle medium (DMEM) or CAF CM for 24 hours. (E) Cell death percentage in CSphCs exposed to hepatocyte growth factor (HGF), stromal cell-derived factor-1 (SDF-1) and osteopontin (OPN) blocking antibodies (inhibitors) and treated as indicated for 72 hours. Data are mean±SD of three independent experiments performed with <italic toggle="yes">Ras/Braf</italic>-wt (CSphC#14, 21 and 33), <italic toggle="yes">Braf</italic>-mutant (CSphC#1, 2 and 5) and <italic toggle="yes">Kras-</italic>mutant (CSphC#8, 10 and 11) sphere cell lines. B, BKM120; CAF, cancer-associated fibroblast; CSphC, colorectal cancer sphere cell; T, trastuzumab; T+Mi+B, trastuzumab in combination with MEKi and BKM120; V, vemurafenib; V+T+B, vemurafenib in combination with trastuzumab and BKM120; wt, wild type; CM, conditioned medium.</p></caption><graphic position="float" orientation="portrait" ns1:href="gutjnl-2020-323553f03.jpg" /></fig><p>Replacement of BRAF targeting with a MEK inhibitor caused a marked reduction of the PI3K/AKT and MAPK pathway activation and a decrease of phosphorylation of S6 kinase (<xref rid="F3" ref-type="fig">figure 3C</xref> and <xref rid="SP7" ref-type="supplementary-material">online supplemental figure 3E, F</xref>). Viability of CSphCs was severely affected by the use of trametinib combination regardless of the mutational status and remarkably diminished the Myc-regulated miRNAs in cells previously exposed to vemurafenib-based combination (<xref rid="SP7" ref-type="supplementary-material">online supplemental figure 3G, H</xref>).</p><p>We then investigated whether the MEK inhibitor-based combination is also able to overcome the protective effect mediated by the tumour microenvironment. Beside PI3K, CAF-released cytokines boosted MAPK pathway activation, which persisted after the treatment of CSphCs with vemurafenib-based combination therapy (<xref rid="F3" ref-type="fig">figure 3D</xref>). Conversely, pharmacological targeting of MEK, instead of BRAF, promoted a considerable cell death, paralleled with a marked reduction of MEK/ERK, AKT activation and Myc expression in CSphCs, independently of the presence of <italic toggle="yes">Erbb2</italic> amplification and the exposure to CAF conditioned medium (<xref rid="F3" ref-type="fig">figure 3D, E</xref> and <xref rid="SP7" ref-type="supplementary-material">online supplemental figure 3I</xref>). Of note, sphere cells able to survive to a prolonged exposure to the vemurafenib-based treatment remain sensitive to the triplet containing trametinib (<xref rid="SP7" ref-type="supplementary-material">online supplemental figure 3J</xref>). Altogether, these data suggest that the tumour microenvironment confers therapy resistance mediated by Myc through the activation of MAPK and PI3K–AKT pathways.</p></sec><sec id="s3-4"><title>MEK inhibition-based therapy is synthetically lethal in CR-CSCs</title><p>In line with these results, we found that the replacement of vemurafenib with MEK inhibitors in the triple combination prevented the tumourigenic activity retained by sphere cells (<xref rid="F4" ref-type="fig">figure 4A, B</xref>) and tumour progression when delivered in vivo, as indicated by the decrease in Ki67, CD44v6 and CK20 expression (<xref rid="F4" ref-type="fig">figure 4C, D</xref> and <xref rid="SP8" ref-type="supplementary-material">online supplemental figure 4A–C</xref>). Of note, <italic toggle="yes">Braf</italic>-mutated or <italic toggle="yes">Kras</italic>-mutated xenograft tumours that recurred following the treatment with the vemurafenib-based triple combination, tumor xenografts resulted very sensitive to the trametinib-based combination therapy, as shown by the massive tumour regression and lack of regrowth even 6 weeks after treatment suspension (<xref rid="F4" ref-type="fig">figure 4E</xref>). Next, we examined whether this MEK-targeted triplet was effective on a large number of primary CSphC cultures of different mutational backgrounds and their corresponding tumour xenografts. To confirm the effectiveness of this treatment, we tested other MEK and PI3K inhibitors (cobimetinib and taselisib) in combination with trastuzumab. Importantly, tumour size generated by the subcutaneous injection of primary sphere cells was significantly hampered by the treatment with either trametinib in combination with trastuzumab and BKM120 or cobimetinib plus trastuzumab and taselisib, independently of the mutational status (<xref rid="F4" ref-type="fig">figure 4A</xref> and <xref rid="SP8" ref-type="supplementary-material">online supplemental figure 4D, E</xref>). Of note, this latter combination remarkably reduced the CD44v6 expression level on xenograft-derived CRC cells (<xref rid="SP8" ref-type="supplementary-material">online supplemental figure 4F</xref>). Consistently, cobimetinib plus trastuzumab and taselisib induced the death of a conspicuous number of cells that were substituted by fibrosis, resulting in a considerable decrease in the amount of Ki67-positive and CK20-positive cells (<xref rid="SP8" ref-type="supplementary-material">online supplemental figure 4G</xref>). Thus, simultaneous MEK/HER2/PI3K inhibition exerted a potent antitumour activity in CRC xenografts regardless of the mutational status. Altogether these data demonstrate that the combination treatment with HER2, PI3K and MEK inhibitors is synthetically lethal for CRC cells (<xref rid="F4" ref-type="fig">figure 4F</xref>).</p><fig position="float" id="F4" orientation="portrait"><label>Figure 4</label><caption><p>Therapeutic potential of HER2, PI3K and MEK targeting in CRC. (A) Size of tumours generated by subcutaneous injection of surviving <italic toggle="yes">Ras/Braf</italic>-wt (CSphC#14, 21 and 33), <italic toggle="yes">Braf</italic>-mutant (CSphC#1, 2 and 5) and <italic toggle="yes">Kras</italic>-mutant (CSphC#8, 11 and 16) sphere cells after 5 days of in vitro combination treatment as indicated. Data reported are mean±SD of tumour size for each cell lines (n=6 mice per group). (B) Representative macroscopic and Azan-Mallory analysis on tumour xenografts at 5 weeks treated as in (A). (C) Individual subcutaneous tumour volume plots of mice generated by the injection of four CSphC lines bearing the indicated different mutational background and treated for 4 weeks (0–4 weeks) with vehicle (vehicle) or Tmab plus MEKi plus BKM120. ‘I’ indicates the time of cell injection. Treatment was started at time 0. Data show kinetic growth of xenograft tumours generated by the injection of <italic toggle="yes">Ras/Braf</italic>-wt (CSphC#14, 21, 33 and 56), <italic toggle="yes">Braf</italic>-mutant (CSphC#1, 2, 3 and 5) and <italic toggle="yes">Kras-</italic>mutant (CSphC#8, 9, 11 and 16) CSphCs. (D) Representative H&amp;E and immunohistochemical analysis of CD44v6, Ki67 and CK20 on tumour xenografts generated by the injection of <italic toggle="yes">Kras</italic>-mutant (CSphC#11) sphere cells treated as in (C) at the time of sacrifice (10 weeks). Scale bars, 200 µm. (E) Tumour size of mice xenografted with <italic toggle="yes">Braf</italic>-mutant (CSphC#1–5) and <italic toggle="yes">Kras-</italic>mutant (CSphC#8, 9, 11, 13 and 16) mutant sphere cells. Mice were treated with vehicle (vehicle, blue lines) or sequential treatments. A combination of Vemu, Tmab, BKM120 (Vemu+Tmab+BKM120, orange line) was used as first line (0–4 weeks, orange arrowheads) and after 2 weeks off-treatments, Tmab in combination with MEKi and BKM120 (Tmab+MEKi+BKM120, black lines and arrowheads) or the same Vemu combination used in the first 4 weeks (orange arrowheads) was administered from weeks 6 to 10. Off-treatments are highlighted with grey regions. ‘I’ indicates the time of cell injection. Data are expressed as mean±SD of subcutaneously implanted CSphC lines for each mutational status (n=6 mice per group). (F) Scheme of the signalling axis illustrating the site of action of the triple combination therapy. Surgery is the main treatment for primary CRC followed by adjuvant therapy. PI3Ki has shown efficacy in targeting disseminating CRC cells, impeding tumour progression (upper panel). However, PI3Ki as single agents are unable to counteract the TME protective influence in metastatic lesions. Triple combination treatment (PI3Ki, HER2i and MEKi) induces tumour regression by overcoming CAF-secreted cytokine effect (lower left panel). In CD44v6-positive CR-CSCs characterised by high PI3K pathway activity, TME-derived cytokines upregulate HER2 and CD44v6 expression levels, activate mitogen-activated protein kinase (MAPK) pathway and increase Myc protein levels, jeopardising the potential therapeutic efficacy of PI3Ki. The additional targeting of HER2 and the Myc upstream kinase MEK achieves a synthetic lethal effect in CR-CSCs (lower right panel). HER2, BRAF, PI3K and MEK inhibitors are indicated as I. CAF, cancer-associated fibroblast; CRC, colorectal cancer; CR-CSC, colorectal cancer cancer stem cell; CSphC, colorectal cancer sphere cell; HER2, human epidermal growth factor receptor 2; MEKi, trametinib; PI3Ki, PI3K inhibitors; TF, transcriptional factor; Tmab, trastuzumab; TME, tumour microenvironment; Vemu, vemurafenib; wt, wild type. *indicates P&lt;0.05, ** indicates P&lt;0.01 and ***indicates P&lt;0.001.</p></caption><graphic position="float" orientation="portrait" ns1:href="gutjnl-2020-323553f04.jpg" /></fig></sec></sec><sec sec-type="discussion" id="s4"><title>DISCUSSION</title><p>The currently available targeted therapies for advanced CRC have a limited effect, particularly on the survival of patients carrying tumours with <italic toggle="yes">Kras</italic> mutation.<xref rid="R5" ref-type="bibr">5</xref> We recently demonstrated that CD44v6-positive CR-CSCs are responsible for metastatic spreading and have a constitutive activation of the PI3K/AKT pathway that appears essential for their survival.<xref rid="R33" ref-type="bibr">33</xref> Here, we demonstrate that CR-CSCs express high levels of HER2, which are associated with a constitutive activation of the PI3K/AKT pathway. Inhibition of HER2, MEK and PI3K kills CR-CSCs and promotes a long-lasting regression of all the tumour xenografts tested, regardless of their mutational background.</p><p>Among the attempts to target the actionable mutations in CRC, the treatment with anti-HER2 in patients carrying <italic toggle="yes">Erbb2</italic> amplification has been successful in clinical trials, whereas patients with <italic toggle="yes">Braf<sup>V600E</sup>
+</italic>-mutant CRC are poorly responsive to the administration of vemurafenib or dabrafenib.<xref rid="R13" ref-type="bibr">13 40</xref>
+</p><p>Although the existence of synthetic lethality between BRAF and EGFR in <italic toggle="yes">Braf</italic>-mutated CRC cells would predict the potential therapeutic effect of a combined targeting, we found that CR-CSCs are resistant to the combination of anti-EGFR or anti-HER2 and BRAF inhibitors due to the constitutive activation of the PI3K/AKT pathway. This could be the reason why vemurafenib, in combination with irinotecan and cetuximab, showed a weak therapeutic effect in patients with metastatic CRC.<xref rid="R41" ref-type="bibr">41</xref>
+</p><p>Here, we found that the regulatory elements of <italic toggle="yes">Erbb2</italic> transcription are acetylated in CD44v6-positive cells. While this can explain why CR-CSCs are remarked by high HER2 expression, the potential ability of PI3K to promote a transcriptional activation of <italic toggle="yes">Erbb2</italic> corroborates the hypothesis that both of these oncogenic pathways should be targeted simultaneously. Since HER2 expression is lost on CR-CSC differentiation, it is likely that the specific expression of HER2 in the CD44v6-positive cell compartment results from the considerable reduction of the PI3K/AKT signalling pathway and β-catenin activity observed in their differentiated progeny.<xref rid="R33" ref-type="bibr">33</xref>
+</p><p>Although sphere culture models mostly recapitulate the genetic landscape and the transcriptomic profile of parental tumour, representing valuable preliminary tools to identify potentially effective targeted therapies,<xref rid="R42" ref-type="bibr">42 43</xref> it is fundamental to dissect the tumour microenvironment contribution in mediating resistance of cancer cells to therapeutic drugs.</p><p>According to our previous observation, we found that tumour microenvironmental cytokines produced by CAFs contribute to recapitulate a protective effect against antitumour drugs expanding the CD44v6-positive compartment expressing HER2. We showed that HGF and to a lesser extent OPN and SDF-1 make CR-CSCs resistant to the targeting of the PI3K/AKT pathway, possibly explaining the disappointing results obtained in the clinical trials that evaluated the therapeutic effects of PI3K inhibitors in metastatic patients.<xref rid="R44" ref-type="bibr">44</xref> Such vulnerability of CR-CSCs in the absence of CAFs suggests that PI3K/AKT inhibitors can contribute to kill cells disseminated into the liver as part of adjuvant treatment due to the absence of a protective microenvironment. This hypothesis is strengthened by the observation that treatment with taselisib prevents the formation of liver metastases in mice receiving sphere cells by spleen injection.</p><p>In a subsequent set of experiments, we show that the addition of PI3K inhibitors to the combination of vemurafenib with trastuzumab or cetuximab induces a partial response of <italic toggle="yes">Braf</italic>-mutated tumours and a temporary stabilisation followed by a slower progression of <italic toggle="yes">Ras/Braf-</italic>wt and <italic toggle="yes">Kras</italic>-mutated tumours. Such transient therapeutic effect induces the rapid accumulation of tumour-initiating cells resistant to this triplet likely due to the presence of tumour microenvironmental cytokines.</p><p>The RPPA analysis in residual CSphCs spared by the HER2/BRAF/PI3K targeting allowed us to identify, through the regulation of S6 kinase phosphorylation, MEK and PI3K as major components of the resistance pathway. Accordingly, we observed increased levels of Myc in cells simultaneously exposed to agents targeting HER2, BRAF and PI3K. The concomitant activation of S6 kinase and MEK in sphere cells resistant to the vemurafenib-based triple combinations suggests that the failure to target both RAF and PI3K downstream pathways is responsible for maintaining activation of ERK and high Myc levels and promoting the pharmacological resistance of CR-CSCs to this triplet.</p><p>MEK is a key downstream element of the RAS-RAF pathway able to indirectly activate Myc.<xref rid="R15" ref-type="bibr">15</xref> Replacement of vemurafenib with MEK inhibitors in the triple combination was able to significantly limit ERK activation and downregulate Myc expression while inducing a considerable therapeutic response in <italic toggle="yes">Braf</italic>-mutated and <italic toggle="yes">Kras</italic>-mutated tumours progressing after the vemurafenib-based combination. Of note, our data showed that MEK inhibition-based triplets were able to kill CR-CSCs in the presence of cytokines released by CAFs and to induce tumour regression in all CR-CSC-based xenografts tested, regardless of the mutational status and <italic toggle="yes">Erbb2</italic> amplification. Hence, HER2, PI3K and MEK appear as critical therapeutic targets in CR-CSCs, independently of the genomic abnormalities developed in patients’ tumours. This combination appears the most active both in tumour xenografts and in the in vitro experiments designed in the presence of the CAF-released cytokines.</p><p>The advent of targeted therapies and the study of the associated resistance mechanisms revealed the presence of clonal heterogeneity in CRC.<xref rid="R45" ref-type="bibr">45</xref> Most of the current therapeutic strategies, including targeted combination treatments, affect differentiated cells and spare CSCs that eventually reinitiate tumour growth. It is therefore clear that the identification of the critical pathways responsible for the increase of survival and therapy resistance of CR-CSCs appears as a major priority to define possible effective treatments for patients with advanced CRC. This is particularly true for metastatic patients carrying oncogenic alterations in the RAS pathway, who have very limited therapeutic options. Our data show that MEK inhibition in association with PI3K and HER2 targeting can induce tumour regression even in tumours carrying mutations in the RAS pathway. Although targeted therapy is less toxic than standard chemotherapy, EGFR inhibitors are commonly associated with adverse events, including the inhibition of the MEK/ERK signal pathway, which compromises the epidermis cell differentiation leading to skin lesions.<xref rid="R46" ref-type="bibr">46</xref> Given that HER2 inhibitors generally display minimal dermatological side effects as compared with those induced by EGFR inhibitors,<xref rid="R23" ref-type="bibr">23</xref> as shown by current clinical studies for the treatment of advanced CRC,<xref rid="R25" ref-type="bibr">25</xref> we foresee that triple targeting of HER2, MEK and PI3K may have a superior patient compliance and overall treatment outcome.</p><p>Here, we have shown that some biological features of CR-CSCs have the potential to be exploited in the clinics. The specific expression of HER2 in CR-CSCs, independently of gene amplification, suggests that HER2 should be regarded as key therapeutic target that deserves further preclinical and clinical investigations in CRC. The good therapeutic response, observed in clinical trial by HER2 targeting in patients with amplified tumours, increases the feasibility of this approach. Moreover, we provide evidence that targeting of the PI3K/AKT pathway could be exploited both in advanced disease and in the adjuvant setting. These findings may help define new therapeutic strategies based on CR-CSC targeting.</p></sec></body><back><ack><p>We thank Francesco Calò for graphic image editing and Alice Alferi for technical assistance. LRM is a student of the Molecular and Clinical Medicine PhD Program. AT and VV are research fellows funded by European Union- FESR FSE, PON Ricerca e Innovazione 2014–2020 (AIM line 1).</p></ack><fn-group><fn fn-type="other"><p>LRM and AN contributed equally.</p></fn><fn fn-type="other"><p><bold>Correction notice:</bold> This article has been corrected since it published Online First. The funding statement has been amended.</p></fn><fn fn-type="other"><p><bold>Contributors:</bold> LRM, AN, RDM and GS conceived and designed the project. Experiments were conducted by LRM, AN, AT, MG, PB, SDF, VV, MS, SB, LF, MEF, MLI, IP, GGa and MT. Data provision and bioinformatic analysis were carried out by DSS, MS, SB, JPM and AZ. Pathology support, tissue provision and intellectual input were from MEF, MRB and GGu. RDM and GS wrote the manuscript.</p></fn><fn fn-type="other"><p><bold>Funding:</bold> This work was supported by AIRC 5x1000 (9979) to GS and RDM, AIRC IG (22911) to AZ, RF2018-12367044 to MT and RDM, AIRC IG (21445) and PRIN (2017WNKSLR) to GS.</p></fn><fn fn-type="COI-statement"><p><bold>Competing interests:</bold> None declared.</p></fn><fn fn-type="other"><p><bold>Provenance and peer review:</bold> Not commissioned; externally peer reviewed.</p></fn><fn fn-type="other"><p><bold>Supplemental material:</bold> This content has been supplied by the author(s). It has not been vetted by BMJ Publishing Group Limited (BMJ) and may not have been peer-reviewed. Any opinions or recommendations discussed are solely those of the author(s) and are not endorsed by BMJ. BMJ disclaims all liability and responsibility arising from any reliance placed on the content. Where the content includes any translated material, BMJ does not warrant the accuracy and reliability of the translations (including but not limited to local regulations, clinical guidelines, terminology, drug names and drug dosages), and is not responsible for any error and/or omissions arising from translation and adaptation or otherwise.</p></fn></fn-group><sec sec-type="data-availability"><title>Data availability statement</title><p>Data are available in a public, open access repository. All data relevant to the study are included in the article or uploaded as supplementary information. The data that support the findings of this study are available from the corresponding author (GS) upon reasonable request. RNA sequencing data of CR-CSphCs have been deposited in a public, open access GEO repository, under accession number <ext-link ext-link-type="pmc:entrez-geo" ns1:href="GSE162104">GSE162104</ext-link> (link to data: <ext-link ns1:href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE162104" ext-link-type="uri">https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE162104</ext-link>).</p></sec><sec sec-type="ethics-statement"><title>Ethics statements</title><sec><title>Patient consent for publication</title><p content-type="ethics-consent-to-publish">Not required.</p></sec></sec><ref-list><title>References</title><ref id="R1"><label>1</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Siegel</surname>
+<given-names>RL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Miller</surname>
+<given-names>KD</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jemal</surname>
+<given-names>A</given-names>
+</string-name>
+</person-group>. <article-title>Cancer statistics, 2019</article-title>. <source>CA: A Cancer Journal for Clinicians</source>
+<year>2019</year>;<volume>69</volume>:<fpage>7</fpage>–<lpage>34</lpage>. <pub-id pub-id-type="doi">10.3322/caac.21551</pub-id>
+<pub-id pub-id-type="pmid">30620402</pub-id></mixed-citation></ref><ref id="R2"><label>2</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Dagogo-Jack</surname>
+<given-names>I</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shaw</surname>
+<given-names>AT</given-names>
+</string-name>
+</person-group>. <article-title>Tumour heterogeneity and resistance to cancer therapies</article-title>. <source>Nat Rev Clin Oncol</source>
+<year>2018</year>;<volume>15</volume>:<fpage>81</fpage>–<lpage>94</lpage>. <pub-id pub-id-type="doi">10.1038/nrclinonc.2017.166</pub-id>
+<pub-id pub-id-type="pmid">29115304</pub-id></mixed-citation></ref><ref id="R3"><label>3</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Russo</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Siravegna</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Blaszkowsky</surname>
+<given-names>LS</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>Tumor heterogeneity and lesion-specific response to targeted therapy in colorectal cancer</article-title>. <source>Cancer Discov</source>
+<year>2016</year>;<volume>6</volume>:<fpage>147</fpage>–<lpage>53</lpage>. <pub-id pub-id-type="doi">10.1158/2159-8290.CD-15-1283</pub-id>
+<pub-id pub-id-type="pmid">26644315</pub-id><pub-id pub-id-type="pmcid">PMC4744519</pub-id></mixed-citation></ref><ref id="R4"><label>4</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Dienstmann</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mason</surname>
+<given-names>MJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sinicrope</surname>
+<given-names>FA</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>Prediction of overall survival in stage II and III colon cancer beyond TNM system: a retrospective, pooled biomarker study</article-title>. <source>Ann Oncol</source>
+<year>2017</year>;<volume>28</volume>:<fpage>1023</fpage>–<lpage>31</lpage>. <pub-id pub-id-type="doi">10.1093/annonc/mdx052</pub-id>
+<pub-id pub-id-type="pmid">28453697</pub-id><pub-id pub-id-type="pmcid">PMC5406760</pub-id></mixed-citation></ref><ref id="R5"><label>5</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Van Cutsem</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cervantes</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Adam</surname>
+<given-names>R</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>ESMO consensus guidelines for the management of patients with metastatic colorectal cancer</article-title>. <source>Annals of Oncology</source>
+<year>2016</year>;<volume>27</volume>:<fpage>1386</fpage>–<lpage>422</lpage>. <pub-id pub-id-type="doi">10.1093/annonc/mdw235</pub-id>
+<pub-id pub-id-type="pmid">27380959</pub-id></mixed-citation></ref><ref id="R6"><label>6</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Mei</surname>
+<given-names>ZB</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Duan</surname>
+<given-names>CY</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Li</surname>
+<given-names>CB</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>Prognostic role of tumor PIK3CA mutation in colorectal cancer: a systematic review and meta-analysis</article-title>. <source>Ann Oncol</source>
+<year>2016</year>;<volume>27</volume>:<fpage>1836</fpage>–<lpage>48</lpage>. <pub-id pub-id-type="doi">10.1093/annonc/mdw264</pub-id>
+<pub-id pub-id-type="pmid">27436848</pub-id><pub-id pub-id-type="pmcid">PMC5035784</pub-id></mixed-citation></ref><ref id="R7"><label>7</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Misale</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Di Nicolantonio</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sartore-Bianchi</surname>
+<given-names>A</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>Resistance to anti-EGFR therapy in colorectal cancer: from heterogeneity to convergent evolution</article-title>. <source>Cancer Discov</source>
+<year>2014</year>;<volume>4</volume>:<fpage>1269</fpage>–<lpage>80</lpage>. <pub-id pub-id-type="doi">10.1158/2159-8290.CD-14-0462</pub-id>
+<pub-id pub-id-type="pmid">25293556</pub-id></mixed-citation></ref><ref id="R8"><label>8</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Siravegna</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mussolin</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Buscarino</surname>
+<given-names>M</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>Erratum: clonal evolution and resistance to EGFR blockade in the blood of colorectal cancer patients</article-title>. <source>Nat Med</source>
+<year>2015</year>;<volume>21</volume>:<elocation-id>827</elocation-id>. <pub-id pub-id-type="doi">10.1038/nm0715-827b</pub-id>
+<pub-id pub-id-type="pmid">26151329</pub-id></mixed-citation></ref><ref id="R9"><label>9</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>De Roock</surname>
+<given-names>W</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Claes</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bernasconi</surname>
+<given-names>D</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>Effects of KRAS, BRAF, NRAS, and PIK3CA mutations on the efficacy of cetuximab plus chemotherapy in chemotherapy-refractory metastatic colorectal cancer: a retrospective Consortium analysis</article-title>. <source>Lancet Oncol</source>
+<year>2010</year>;<volume>11</volume>:<fpage>753</fpage>–<lpage>62</lpage>. <pub-id pub-id-type="doi">10.1016/S1470-2045(10)70130-3</pub-id>
+<pub-id pub-id-type="pmid">20619739</pub-id></mixed-citation></ref><ref id="R10"><label>10</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Tricker</surname>
+<given-names>EM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Xu</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Uddin</surname>
+<given-names>S</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>Combined EGFR/MEK Inhibition Prevents the Emergence of Resistance in EGFR -Mutant Lung Cancer</article-title>. <source>Cancer Discov</source>
+<year>2015</year>;<volume>5</volume>:<fpage>960</fpage>–<lpage>71</lpage>. <pub-id pub-id-type="doi">10.1158/2159-8290.CD-15-0063</pub-id>
+<pub-id pub-id-type="pmid">26036643</pub-id><pub-id pub-id-type="pmcid">PMC4824006</pub-id></mixed-citation></ref><ref id="R11"><label>11</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Arena</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Siravegna</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mussolin</surname>
+<given-names>B</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>MM-151 overcomes acquired resistance to cetuximab and panitumumab in colorectal cancers harboring EGFR extracellular domain mutations</article-title>. <source>Sci Transl Med</source>
+<year>2016</year>;<volume>8</volume>:<elocation-id>324ra14</elocation-id>. <pub-id pub-id-type="doi">10.1126/scitranslmed.aad5640</pub-id>
+<pub-id pub-id-type="pmid">26843189</pub-id></mixed-citation></ref><ref id="R12"><label>12</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Van Emburgh</surname>
+<given-names>BO</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Arena</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Siravegna</surname>
+<given-names>G</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>Acquired Ras or EGFR mutations and duration of response to EGFR blockade in colorectal cancer</article-title>. <source>Nat Commun</source>
+<year>2016</year>;<volume>7</volume>:<elocation-id>13665</elocation-id>. <pub-id pub-id-type="doi">10.1038/ncomms13665</pub-id>
+<pub-id pub-id-type="pmid">27929064</pub-id><pub-id pub-id-type="pmcid">PMC5155160</pub-id></mixed-citation></ref><ref id="R13"><label>13</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Kopetz</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Desai</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chan</surname>
+<given-names>E</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>Phase II Pilot Study of Vemurafenib in Patients With Metastatic BRAF -Mutated Colorectal Cancer</article-title>. <source>Journal of Clinical Oncology</source>
+<year>2015</year>;<volume>33</volume>:<fpage>4032</fpage>–<lpage>8</lpage>. <pub-id pub-id-type="doi">10.1200/JCO.2015.63.2497</pub-id>
+<pub-id pub-id-type="pmid">26460303</pub-id><pub-id pub-id-type="pmcid">PMC4669589</pub-id></mixed-citation></ref><ref id="R14"><label>14</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Ahronian</surname>
+<given-names>LG</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sennott</surname>
+<given-names>EM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Van Allen</surname>
+<given-names>EM</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>Clinical Acquired Resistance to RAF Inhibitor Combinations in BRAF -Mutant Colorectal Cancer through MAPK Pathway Alterations</article-title>. <source>Cancer Discov</source>
+<year>2015</year>;<volume>5</volume>:<fpage>358</fpage>–<lpage>67</lpage>. <pub-id pub-id-type="doi">10.1158/2159-8290.CD-14-1518</pub-id>
+<pub-id pub-id-type="pmid">25673644</pub-id><pub-id pub-id-type="pmcid">PMC4390490</pub-id></mixed-citation></ref><ref id="R15"><label>15</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Prahallad</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Heynen</surname>
+<given-names>GJJE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Germano</surname>
+<given-names>G</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>Ptpn11 is a central node in intrinsic and acquired resistance to targeted cancer drugs</article-title>. <source>Cell Rep</source>
+<year>2015</year>;<volume>12</volume>:<fpage>1978</fpage>–<lpage>85</lpage>. <pub-id pub-id-type="doi">10.1016/j.celrep.2015.08.037</pub-id>
+<pub-id pub-id-type="pmid">26365186</pub-id></mixed-citation></ref><ref id="R16"><label>16</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Kopetz</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>McDonough</surname>
+<given-names>SL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Morris</surname>
+<given-names>VK</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>Randomized trial of irinotecan and cetuximab with or without vemurafenib in BRAF -mutant metastatic colorectal cancer (SWOG 1406)</article-title>. <source>Journal of Clinical Oncology</source>
+<year>2017</year>;<volume>35</volume>:<elocation-id>520</elocation-id>. <pub-id pub-id-type="doi">10.1200/JCO.2017.35.4_suppl.520</pub-id>
+<pub-id pub-id-type="pmcid">PMC8462593</pub-id><pub-id pub-id-type="pmid">33356422</pub-id></mixed-citation></ref><ref id="R17"><label>17</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Corcoran</surname>
+<given-names>RB</given-names>
+</string-name>, <string-name name-style="western">
+<surname>André</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Atreya</surname>
+<given-names>CE</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>Combined BRAF, EGFR, and MEK Inhibition in Patients with BRAF <sup>V600E</sup> -Mutant Colorectal Cancer</article-title>. <source>Cancer Discov</source>
+<year>2018</year>;<volume>8</volume>:<fpage>428</fpage>–<lpage>43</lpage>. <pub-id pub-id-type="doi">10.1158/2159-8290.CD-17-1226</pub-id>
+<pub-id pub-id-type="pmid">29431699</pub-id><pub-id pub-id-type="pmcid">PMC5882509</pub-id></mixed-citation></ref><ref id="R18"><label>18</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Douillard</surname>
+<given-names>J-Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Oliner</surname>
+<given-names>KS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Siena</surname>
+<given-names>S</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>Panitumumab–FOLFOX4 Treatment and RAS Mutations in Colorectal Cancer</article-title>. <source>New England Journal of Medicine</source>
+<year>2013</year>;<volume>369</volume>:<fpage>1023</fpage>–<lpage>34</lpage>. <pub-id pub-id-type="doi">10.1056/NEJMoa1305275</pub-id>
+<pub-id pub-id-type="pmid">24024839</pub-id></mixed-citation></ref><ref id="R19"><label>19</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Kavuri</surname>
+<given-names>SM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jain</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Galimi</surname>
+<given-names>F</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>Her2 activating mutations are targets for colorectal cancer treatment</article-title>. <source>Cancer Discov</source>
+<year>2015</year>;<volume>5</volume>:<fpage>832</fpage>–<lpage>41</lpage>. <pub-id pub-id-type="doi">10.1158/2159-8290.CD-14-1211</pub-id>
+<pub-id pub-id-type="pmid">26243863</pub-id><pub-id pub-id-type="pmcid">PMC4527087</pub-id></mixed-citation></ref><ref id="R20"><label>20</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Castanaro</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Luan</surname>
+<given-names>B</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>ERBB3/HER2 signaling promotes resistance to EGFR blockade in head and neck and colorectal cancer models</article-title>. <source>Mol Cancer Ther</source>
+<year>2014</year>;<volume>13</volume>:<fpage>1345</fpage>–<lpage>55</lpage>. <pub-id pub-id-type="doi">10.1158/1535-7163.MCT-13-1033</pub-id>
+<pub-id pub-id-type="pmid">24634416</pub-id></mixed-citation></ref><ref id="R21"><label>21</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Sun</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hobor</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bertotti</surname>
+<given-names>A</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>Intrinsic resistance to MEK inhibition in KRAS mutant lung and colon cancer through transcriptional induction of ErbB3</article-title>. <source>Cell Rep</source>
+<year>2014</year>;<volume>7</volume>:<fpage>86</fpage>–<lpage>93</lpage>. <pub-id pub-id-type="doi">10.1016/j.celrep.2014.02.045</pub-id>
+<pub-id pub-id-type="pmid">24685132</pub-id></mixed-citation></ref><ref id="R22"><label>22</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Personeni</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fieuws</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Piessevaux</surname>
+<given-names>H</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>Clinical Usefulness of EGFR Gene Copy Number as a Predictive Marker in Colorectal Cancer Patients Treated with Cetuximab: A Fluorescent In situ Hybridization Study</article-title>. <source>Clinical Cancer Research</source>
+<year>2008</year>;<volume>14</volume>:<fpage>5869</fpage>–<lpage>76</lpage>. <pub-id pub-id-type="doi">10.1158/1078-0432.CCR-08-0449</pub-id>
+<pub-id pub-id-type="pmid">18794099</pub-id></mixed-citation></ref><ref id="R23"><label>23</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Siena</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sartore-Bianchi</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Marsoni</surname>
+<given-names>S</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>Targeting the human epidermal growth factor receptor 2 (HER2) oncogene in colorectal cancer</article-title>. <source>Annals of Oncology</source>
+<year>2018</year>;<volume>29</volume>:<fpage>1108</fpage>–<lpage>19</lpage>. <pub-id pub-id-type="doi">10.1093/annonc/mdy100</pub-id>
+<pub-id pub-id-type="pmid">29659677</pub-id><pub-id pub-id-type="pmcid">PMC5961091</pub-id></mixed-citation></ref><ref id="R24"><label>24</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Kapitanovic</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Radosevic</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kapitanovic</surname>
+<given-names>M</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>The expression of p185(HER-2/neu) correlates with the stage of disease and survival in colorectal cancer</article-title>. <source>Gastroenterology</source>
+<year>1997</year>;<volume>112</volume>:<fpage>1103</fpage>–<lpage>13</lpage>. <pub-id pub-id-type="doi">10.1016/S0016-5085(97)70120-3</pub-id>
+<pub-id pub-id-type="pmid">9097992</pub-id></mixed-citation></ref><ref id="R25"><label>25</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Sartore-Bianchi</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Trusolino</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Martino</surname>
+<given-names>C</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>Dual-Targeted therapy with trastuzumab and lapatinib in treatment-refractory, KRAS codon 12/13 wild-type, HER2-positive metastatic colorectal cancer (HERACLES): a proof-of-concept, multicentre, open-label, phase 2 trial</article-title>. <source>Lancet Oncol</source>
+<year>2016</year>;<volume>17</volume>:<fpage>738</fpage>–<lpage>46</lpage>. <pub-id pub-id-type="doi">10.1016/S1470-2045(16)00150-9</pub-id>
+<pub-id pub-id-type="pmid">27108243</pub-id></mixed-citation></ref><ref id="R26"><label>26</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Liu</surname>
+<given-names>Q</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kulak</surname>
+<given-names>MV</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Borcherding</surname>
+<given-names>N</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>A novel HER2 gene body enhancer contributes to HER2 expression</article-title>. <source>Oncogene</source>
+<year>2018</year>;<volume>37</volume>:<fpage>687</fpage>–<lpage>94</lpage>. <pub-id pub-id-type="doi">10.1038/onc.2017.382</pub-id>
+<pub-id pub-id-type="pmid">29035388</pub-id><pub-id pub-id-type="pmcid">PMC5794618</pub-id></mixed-citation></ref><ref id="R27"><label>27</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Wang</surname>
+<given-names>Q</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tan</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhu</surname>
+<given-names>X</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>Oncogenic K-ras confers SAHA resistance by up-regulating HDAC6 and c-myc expression</article-title>. <source>Oncotarget</source>
+<year>2016</year>;<volume>7</volume>:<fpage>10064</fpage>–<lpage>72</lpage>. <pub-id pub-id-type="doi">10.18632/oncotarget.7134</pub-id>
+<pub-id pub-id-type="pmid">26848526</pub-id><pub-id pub-id-type="pmcid">PMC4891104</pub-id></mixed-citation></ref><ref id="R28"><label>28</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Sears</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nuckolls</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Haura</surname>
+<given-names>E</given-names>
+</string-name>
+</person-group>. <article-title>Multiple Ras-dependent phosphorylation pathways regulate Myc protein stability</article-title>. <source>Genes Dev</source>
+<year>2000</year>;<volume>14</volume>:<fpage>2501</fpage>–<lpage>14</lpage>. <pub-id pub-id-type="doi">10.1101/gad.836800</pub-id>
+<pub-id pub-id-type="pmid">11018017</pub-id><pub-id pub-id-type="pmcid">PMC316970</pub-id></mixed-citation></ref><ref id="R29"><label>29</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Yeh</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cunningham</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Arnold</surname>
+<given-names>H</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>A signalling pathway controlling c-myc degradation that impacts oncogenic transformation of human cells</article-title>. <source>Nat Cell Biol</source>
+<year>2004</year>;<volume>6</volume>:<fpage>308</fpage>–<lpage>18</lpage>. <pub-id pub-id-type="doi">10.1038/ncb1110</pub-id>
+<pub-id pub-id-type="pmid">15048125</pub-id></mixed-citation></ref><ref id="R30"><label>30</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Diosdado</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>van de Wiel</surname>
+<given-names>MA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Terhaar Sive Droste</surname>
+<given-names>JS</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>Mir-17-92 cluster is associated with 13q gain and c-myc expression during colorectal adenoma to adenocarcinoma progression</article-title>. <source>Br J Cancer</source>
+<year>2009</year>;<volume>101</volume>:<fpage>707</fpage>–<lpage>14</lpage>. <pub-id pub-id-type="doi">10.1038/sj.bjc.6605037</pub-id>
+<pub-id pub-id-type="pmid">19672269</pub-id><pub-id pub-id-type="pmcid">PMC2736819</pub-id></mixed-citation></ref><ref id="R31"><label>31</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Zeuner</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Todaro</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Stassi</surname>
+<given-names>G</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>Colorectal cancer stem cells: from the crypt to the clinic</article-title>. <source>Cell Stem Cell</source>
+<year>2014</year>;<volume>15</volume>:<fpage>692</fpage>–<lpage>705</lpage>. <pub-id pub-id-type="doi">10.1016/j.stem.2014.11.012</pub-id>
+<pub-id pub-id-type="pmid">25479747</pub-id></mixed-citation></ref><ref id="R32"><label>32</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Todaro</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Alea</surname>
+<given-names>MP</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Di Stefano</surname>
+<given-names>AB</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>Colon cancer stem cells dictate tumor growth and resist cell death by production of interleukin-4</article-title>. <source>Cell Stem Cell</source>
+<year>2007</year>;<volume>1</volume>:<fpage>389</fpage>–<lpage>402</lpage>. <pub-id pub-id-type="doi">10.1016/j.stem.2007.08.001</pub-id>
+<pub-id pub-id-type="pmid">18371377</pub-id></mixed-citation></ref><ref id="R33"><label>33</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Todaro</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gaggianesi</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Catalano</surname>
+<given-names>V</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>Cd44V6 is a marker of constitutive and reprogrammed cancer stem cells driving colon cancer metastasis</article-title>. <source>Cell Stem Cell</source>
+<year>2014</year>;<volume>14</volume>:<fpage>342</fpage>–<lpage>56</lpage>. <pub-id pub-id-type="doi">10.1016/j.stem.2014.01.009</pub-id>
+<pub-id pub-id-type="pmid">24607406</pub-id></mixed-citation></ref><ref id="R34"><label>34</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Cagnol</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rivard</surname>
+<given-names>N</given-names>
+</string-name>
+</person-group>. <article-title>Oncogenic KRAS and BRAF activation of the MEK/ERK signaling pathway promotes expression of dual-specificity phosphatase 4 (DUSP4/MKP2) resulting in nuclear ERK1/2 inhibition</article-title>. <source>Oncogene</source>
+<year>2013</year>;<volume>32</volume>:<fpage>564</fpage>–<lpage>76</lpage>. <pub-id pub-id-type="doi">10.1038/onc.2012.88</pub-id>
+<pub-id pub-id-type="pmid">22430215</pub-id></mixed-citation></ref><ref id="R35"><label>35</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Lim</surname>
+<given-names>K-H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ancrile</surname>
+<given-names>BB</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kashatus</surname>
+<given-names>DF</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>Tumour maintenance is mediated by eNOS</article-title>. <source>Nature</source>
+<year>2008</year>;<volume>452</volume>:<fpage>646</fpage>–<lpage>9</lpage>. <pub-id pub-id-type="doi">10.1038/nature06778</pub-id>
+<pub-id pub-id-type="pmid">18344980</pub-id><pub-id pub-id-type="pmcid">PMC2688829</pub-id></mixed-citation></ref><ref id="R36"><label>36</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Veschi</surname>
+<given-names>V</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mangiapane</surname>
+<given-names>LR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nicotra</surname>
+<given-names>A</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>Targeting chemoresistant colorectal cancer via systemic administration of a BMP7 variant</article-title>. <source>Oncogene</source>
+<year>2020</year>;<volume>39</volume>:<fpage>987</fpage>–<lpage>1003</lpage>. <pub-id pub-id-type="doi">10.1038/s41388-019-1047-4</pub-id>
+<pub-id pub-id-type="pmid">31591478</pub-id><pub-id pub-id-type="pmcid">PMC6989400</pub-id></mixed-citation></ref><ref id="R37"><label>37</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Roux</surname>
+<given-names>PP</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shahbazian</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vu</surname>
+<given-names>H</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>Ras/Erk signaling promotes site-specific ribosomal protein S6 phosphorylation via RSK and stimulates cap-dependent translation</article-title>. <source>J Biol Chem</source>
+<year>2007</year>;<volume>282</volume>:<fpage>14056</fpage>–<lpage>64</lpage>. <pub-id pub-id-type="doi">10.1074/jbc.M700906200</pub-id>
+<pub-id pub-id-type="pmid">17360704</pub-id><pub-id pub-id-type="pmcid">PMC3618456</pub-id></mixed-citation></ref><ref id="R38"><label>38</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Gera</surname>
+<given-names>JF</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mellinghoff</surname>
+<given-names>IK</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shi</surname>
+<given-names>Y</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>AKT Activity Determines Sensitivity to Mammalian Target of Rapamycin (mTOR) Inhibitors by Regulating Cyclin D1 and c- myc Expression</article-title>. <source>J Biol Chem</source>
+<year>2004</year>;<volume>279</volume>:<fpage>2737</fpage>–<lpage>46</lpage>. <pub-id pub-id-type="doi">10.1074/jbc.M309999200</pub-id>
+<pub-id pub-id-type="pmid">14576155</pub-id></mixed-citation></ref><ref id="R39"><label>39</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>He</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Thomson</surname>
+<given-names>JM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hemann</surname>
+<given-names>MT</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>A microRNA polycistron as a potential human oncogene</article-title>. <source>Nature</source>
+<year>2005</year>;<volume>435</volume>:<fpage>828</fpage>–<lpage>33</lpage>. <pub-id pub-id-type="doi">10.1038/nature03552</pub-id>
+<pub-id pub-id-type="pmid">15944707</pub-id><pub-id pub-id-type="pmcid">PMC4599349</pub-id></mixed-citation></ref><ref id="R40"><label>40</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Falchook</surname>
+<given-names>GS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Long</surname>
+<given-names>GV</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kurzrock</surname>
+<given-names>R</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>Dabrafenib in patients with melanoma, untreated brain metastases, and other solid tumours: a phase 1 dose-escalation trial</article-title>. <source>The Lancet</source>
+<year>2012</year>;<volume>379</volume>:<fpage>1893</fpage>–<lpage>901</lpage>. <pub-id pub-id-type="doi">10.1016/S0140-6736(12)60398-5</pub-id>
+<pub-id pub-id-type="pmcid">PMC4109288</pub-id><pub-id pub-id-type="pmid">22608338</pub-id></mixed-citation></ref><ref id="R41"><label>41</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Hong</surname>
+<given-names>DS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Morris</surname>
+<given-names>VK</given-names>
+</string-name>, <string-name name-style="western">
+<surname>El Osta</surname>
+<given-names>B</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>Phase IB Study of Vemurafenib in Combination with Irinotecan and Cetuximab in Patients with Metastatic Colorectal Cancer with BRAF <sup>V600E</sup> Mutation</article-title>. <source>Cancer Discov</source>
+<year>2016</year>;<volume>6</volume>:<fpage>1352</fpage>–<lpage>65</lpage>. <pub-id pub-id-type="doi">10.1158/2159-8290.CD-16-0050</pub-id>
+<pub-id pub-id-type="pmid">27729313</pub-id><pub-id pub-id-type="pmcid">PMC5562357</pub-id></mixed-citation></ref><ref id="R42"><label>42</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Schütte</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Risch</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Abdavi-Azar</surname>
+<given-names>N</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>Molecular dissection of colorectal cancer in pre-clinical models identifies biomarkers predicting sensitivity to EGFR inhibitors</article-title>. <source>Nat Commun</source>
+<year>2017</year>;<volume>8</volume>:<elocation-id>14262</elocation-id>. <pub-id pub-id-type="doi">10.1038/ncomms14262</pub-id>
+<pub-id pub-id-type="pmid">28186126</pub-id><pub-id pub-id-type="pmcid">PMC5309787</pub-id></mixed-citation></ref><ref id="R43"><label>43</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Linnekamp</surname>
+<given-names>JF</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hooff</surname>
+<given-names>SRvan</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Prasetyanti</surname>
+<given-names>PR</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>Consensus molecular subtypes of colorectal cancer are recapitulated in in vitro and in vivo models</article-title>. <source>Cell Death Differ</source>
+<year>2018</year>;<volume>25</volume>:<fpage>616</fpage>–<lpage>33</lpage>. <pub-id pub-id-type="doi">10.1038/s41418-017-0011-5</pub-id>
+<pub-id pub-id-type="pmid">29305587</pub-id><pub-id pub-id-type="pmcid">PMC5864202</pub-id></mixed-citation></ref><ref id="R44"><label>44</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Vermeulen</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>De Sousa E Melo</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>van der Heijden</surname>
+<given-names>M</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>Wnt activity defines colon cancer stem cells and is regulated by the microenvironment</article-title>. <source>Nat Cell Biol</source>
+<year>2010</year>;<volume>12</volume>:<fpage>468</fpage>–<lpage>76</lpage>. <pub-id pub-id-type="doi">10.1038/ncb2048</pub-id>
+<pub-id pub-id-type="pmid">20418870</pub-id></mixed-citation></ref><ref id="R45"><label>45</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Siravegna</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mussolin</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Buscarino</surname>
+<given-names>M</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>Clonal evolution and resistance to EGFR blockade in the blood of colorectal cancer patients</article-title>. <source>Nat Med</source>
+<year>2015</year>;<volume>21</volume>:<fpage>795</fpage>–<lpage>801</lpage>. <pub-id pub-id-type="doi">10.1038/nm.3870</pub-id>
+<pub-id pub-id-type="pmid">26030179</pub-id><pub-id pub-id-type="pmcid">PMC4868598</pub-id></mixed-citation></ref><ref id="R46"><label>46</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Segaert</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Van Cutsem</surname>
+<given-names>E</given-names>
+</string-name>
+</person-group>. <article-title>Clinical signs, pathophysiology and management of skin toxicity during therapy with epidermal growth factor receptor inhibitors</article-title>. <source>Annals of Oncology</source>
+<year>2005</year>;<volume>16</volume>:<fpage>1425</fpage>–<lpage>33</lpage>. <pub-id pub-id-type="doi">10.1093/annonc/mdi279</pub-id>
+<pub-id pub-id-type="pmid">16012181</pub-id></mixed-citation></ref></ref-list></back></article>

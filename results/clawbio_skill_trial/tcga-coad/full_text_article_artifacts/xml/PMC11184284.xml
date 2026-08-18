@@ -1,0 +1,945 @@
+<?xml version='1.0' encoding='utf-8'?>
+<article xmlns:ns0="http://www.niso.org/schemas/ali/1.0/" xmlns:ns1="http://www.w3.org/1999/xlink" id="jev212465" xml:lang="en" article-type="brief-report" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">J Extracell Vesicles</journal-id><journal-id journal-id-type="iso-abbrev">J Extracell Vesicles</journal-id><journal-id journal-id-type="pmc-domain-id">2180</journal-id><journal-id journal-id-type="pmc-domain">jev</journal-id><journal-id journal-id-type="nlm-id">101610479</journal-id><journal-id journal-id-type="publisher-id">JEV2</journal-id><journal-title-group><journal-title>Journal of Extracellular Vesicles</journal-title></journal-title-group><issn pub-type="epub">2001-3078</issn><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC11184284</article-id><article-id pub-id-type="pmcid-ver">PMC11184284.1</article-id><article-id pub-id-type="pmcaid">11184284</article-id><article-id pub-id-type="pmcaiid">11184284</article-id><article-id pub-id-type="pmid">38887984</article-id><article-id pub-id-type="doi">10.1002/jev2.12465</article-id><article-id pub-id-type="publisher-id">JEV212465</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Short Communication</subject></subj-group><subj-group subj-group-type="heading"><subject>Short Communication</subject></subj-group></article-categories><title-group><article-title>Stress‐induced Rab11a‐exosomes induce amphiregulin‐mediated cetuximab resistance in colorectal cancer</article-title><alt-title alt-title-type="left-running-head">MASON <sc>et al.</sc>
+</alt-title><alt-title alt-title-type="right-running-head">Rab11a‐exosomes induce cetuximab resistance</alt-title></title-group><contrib-group><contrib id="jev212465-cr-0001" contrib-type="author"><name name-style="western"><surname>Mason</surname><given-names initials="JD">John D.</given-names></name><xref rid="jev212465-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="jev212465-cr-0002" contrib-type="author"><name name-style="western"><surname>Marks</surname><given-names initials="E">Ewan</given-names></name><xref rid="jev212465-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="jev212465-cr-0003" contrib-type="author"><name name-style="western"><surname>Fan</surname><given-names initials="SJ">Shih‐Jung</given-names></name><xref rid="jev212465-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="jev212465-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="jev212465-cr-0004" contrib-type="author"><name name-style="western"><surname>McCormick</surname><given-names initials="K">Kristie</given-names></name><xref rid="jev212465-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="jev212465-cr-0005" contrib-type="author"><name name-style="western"><surname>Wilson</surname><given-names initials="C">Clive</given-names></name><xref rid="jev212465-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="jev212465-cr-0006" contrib-type="author"><name name-style="western"><surname>Harris</surname><given-names initials="AL">Adrian L.</given-names></name><xref rid="jev212465-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="jev212465-cr-0007" contrib-type="author"><name name-style="western"><surname>Hamdy</surname><given-names initials="FC">Freddie C.</given-names></name><xref rid="jev212465-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="jev212465-cr-0008" contrib-type="author"><name name-style="western"><surname>Cunningham</surname><given-names initials="C">Chris</given-names></name><xref rid="jev212465-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="jev212465-cr-0009" contrib-type="author" corresp="yes"><name name-style="western"><surname>Goberdhan</surname><given-names initials="DCI">Deborah C. I.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-0645-6714</contrib-id><xref rid="jev212465-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><address><email>deborah.goberdhan@wrh.ox.ac.uk</email></address></contrib></contrib-group><aff id="jev212465-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Department of Physiology, Anatomy and Genetics</named-content>
+<institution>University of Oxford</institution>
+<city>Oxford</city>
+<country country="GB">UK</country>
+</aff><aff id="jev212465-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Department of Life Sciences</named-content>
+<institution>National Central University</institution>
+<city>Taoyuan City</city>
+<country country="TW">Taiwan</country>
+</aff><aff id="jev212465-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">Department of Oncology, Weatherall Institute of Molecular Medicine</named-content>
+<institution>University of Oxford</institution>
+<city>Oxford</city>
+<country country="GB">UK</country>
+</aff><aff id="jev212465-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<named-content content-type="organisation-division">Nuffield Department of Surgical Sciences</named-content>
+<institution>University of Oxford, John Radcliffe Hospital</institution>
+<city>Oxford</city>
+<country country="GB">UK</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence</bold>
+<break />Deborah C. I. Goberdhan, Nuffield Department of Women's and Reproductive Health, University of Oxford, John Radcliffe Hospital, Oxford, OX3 9DU, UK. Email: <email>deborah.goberdhan@wrh.ox.ac.uk</email>
+<break />
+</corresp></author-notes><pub-date pub-type="epub"><day>18</day><month>6</month><year>2024</year></pub-date><pub-date pub-type="ppub"><month>6</month><year>2024</year></pub-date><volume>13</volume><issue seq="70">6</issue><issue-id pub-id-type="pmc-issue-id">464332</issue-id><issue-id pub-id-type="doi">10.1002/jev2.v13.6</issue-id><elocation-id>e12465</elocation-id><history><date date-type="rev-recd"><day>28</day><month>4</month><year>2024</year></date><date date-type="received"><day>21</day><month>12</month><year>2023</year></date><date date-type="accepted"><day>22</day><month>5</month><year>2024</year></date></history><pub-history><event event-type="pmc-release"><date><day>18</day><month>06</month><year>2024</year></date></event><event event-type="pmc-live"><date><day>18</day><month>06</month><year>2024</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2025-05-26 02:25:22.880"><day>26</day><month>05</month><year>2025</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2024 The Author(s). <italic toggle="yes">Journal of Extracellular Vesicles</italic> published by Wiley Periodicals LLC on behalf of International Society for Extracellular Vesicles.</copyright-statement><license><ns0:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ns0:license_ref><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" ns1:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pmc-pdf" ns1:href="JEV2-13-e12465.pdf" /><self-uri content-type="pdf" ns1:href="file:JEV2-13-e12465.pdf" /><related-article related-article-type="correction-forward" xml:lang="en" ns1:title="correction" vol="14" journal-id="J Extracell Vesicles" journal-id-type="nlm-ta" ext-link-type="pmc" ns1:href="PMC12046287"><article-title>Correction to “Stress‐Induced Rab11a‐Exosomes Induce Amphiregulin‐Mediated Cetuximab Resistance in Colorectal Cancer”</article-title><volume>14</volume><issue seq="50">5</issue><date><day>2</day><month>5</month><year>2025</year></date><elocation-id>e70081</elocation-id><source>Journal of Extracellular Vesicles</source><pub-id pub-id-type="doi">10.1002/jev2.70081</pub-id><pub-id pub-id-type="pmcid">PMC12046287</pub-id><pub-id pub-id-type="pmid">40314086</pub-id></related-article><abstract><title>Abstract</title><p>Exosomes are secreted vesicles made intracellularly in the endosomal system. We have previously shown that exosomes are not only made in late endosomes, but also in recycling endosomes marked by the monomeric G‐protein Rab11a. These vesicles, termed Rab11a‐exosomes, are preferentially secreted under nutrient stress from several cancer cell types, including HCT116 colorectal cancer (CRC) cells. HCT116 Rab11a‐exosomes have particularly potent signalling activities, some mediated by the epidermal growth factor receptor (EGFR) ligand, amphiregulin (AREG). Mutant activating forms of KRAS, a downstream target of EGFR, are often found in advanced CRC. When absent, monoclonal antibodies, such as cetuximab, which target the EGFR and block the effects of EGFR ligands, such as AREG, can be administered. Patients, however, inevitably develop resistance to cetuximab, either by acquiring KRAS mutations or via non‐genetic microenvironmental changes. Here we show that nutrient stress in several CRC cell lines causes the release of AREG‐carrying Rab11a‐exosomes. We demonstrate that while soluble AREG has no effect, much lower levels of AREG bound to Rab11a‐exosomes from cetuximab‐resistant KRAS‐mutant HCT116 cells, can suppress the effects of cetuximab on KRAS‐wild type Caco‐2 CRC cells. Using neutralising anti‐AREG antibodies and an intracellular EGFR kinase inhibitor, we show that this effect is mediated via AREG activation of EGFR, and not transfer of activated KRAS. Therefore, presentation of AREG on Rab11a‐exosomes affects its ability to compete with cetuximab. We propose that this Rab11a‐exosome‐mediated mechanism contributes to the establishment of resistance in cetuximab‐sensitive cells and may explain why in cetuximab‐resistant tumours only some cells carry mutant KRAS.</p></abstract><abstract id="jev212465-abs-0001" abstract-type="graphical"><p>This study highlights a clinically relevant mechanism in which stress‐induced Rab11a‐exosomes carrying the EGFR ligand, amphiregulin (AREG) transfer drug resistance between genetically distinct colorectal cancer cells. Resistance to cetuximab, an anti‐EGFR therapy, can be passed via Rab11a‐exosomes from drug‐resistant KRAS‐mutant cells to previously drug‐responsive KRAS‐wild type cells. Unlike soluble AREG, Rab11a‐exosome‐associated AREG competes with cetuximab to activate EGFR signalling and promote EGFR‐dependent outcomes, such as growth. This mechanism may support the co‐operative evolution of clonal heterogeneity during tumour progression.
+<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic position="anchor" id="jats-graphic-1" orientation="portrait" ns1:href="JEV2-13-e12465-g003.jpg" /></boxed-text>
+</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="jev212465-kwd-0001">AREG</kwd><kwd id="jev212465-kwd-0002">cetuximab</kwd><kwd id="jev212465-kwd-0003">colorectal cancer</kwd><kwd id="jev212465-kwd-0004">extracellular vesicle</kwd><kwd id="jev212465-kwd-0005">EGFR</kwd><kwd id="jev212465-kwd-0006">Rab11a‐exosome</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source><institution-wrap><institution>Biotechnology and Biological Sciences Research Council
+</institution><institution-id institution-id-type="doi">10.13039/501100000268</institution-id></institution-wrap></funding-source><award-id>BB/N016300/1</award-id><award-id>BB/R004862/1</award-id></award-group><award-group id="funding-0002"><funding-source><institution-wrap><institution>Cancer Research UK
+</institution><institution-id institution-id-type="doi">10.13039/501100000289</institution-id></institution-wrap></funding-source><award-id>C19591/A19076</award-id><award-id>C602/A18974</award-id></award-group></funding-group><counts><fig-count count="5" /><table-count count="0" /><page-count count="13" /><word-count count="8402" /></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>June 2024</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.4.4 mode:remove_FC converted:18.06.2024</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="jev212465-cit-0042">
+<string-name name-style="western">
+<surname>Mason</surname>, <given-names>J. D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Marks</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fan</surname>, <given-names>S.‐J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>McCormick</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wilson</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Harris</surname>, <given-names>A. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hamdy</surname>, <given-names>F. C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cunningham</surname>, <given-names>C.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Goberdhan</surname>, <given-names>D. C. I.</given-names>
+</string-name> (<year>2024</year>). <article-title>Stress‐induced Rab11a‐exosomes induce amphiregulin‐mediated cetuximab resistance in colorectal cancer</article-title>. <source>Journal of Extracellular Vesicles</source>, <volume>13</volume>, <elocation-id>e12465</elocation-id>. <pub-id pub-id-type="doi">10.1002/jev2.12465</pub-id>
+<pub-id pub-id-type="pmid">38887984</pub-id></mixed-citation>
+</p><fn-group><fn id="jev212465-note-0001"><p>Present address:</p><p>Deborah C. I. Goberdhan, Nuffield Department of Women's and Reproductive Health, University of Oxford, Level 3, Women's Centre, John Radcliffe Hospital, Oxford, OX3 9DU, UK.</p></fn></fn-group></notes></front><body><sec id="jev212465-sec-0010"><label>1</label><title>INTRODUCTION</title><p>Extracellular vesicles (EVs) are membrane‐bound structures that appear to be secreted by all cell types (van Niel et al., <xref rid="jev212465-bib-0031" ref-type="bibr">2022</xref>), and which deliver cargos to recipient cells that play important roles in both physiology and pathology (Cheng &amp; Hill, <xref rid="jev212465-bib-0008" ref-type="bibr">2022</xref>; Lucotti et al., <xref rid="jev212465-bib-0021" ref-type="bibr">2022</xref>; Yates et al., <xref rid="jev212465-bib-0040" ref-type="bibr">2022</xref>). EVs can be produced by outward protrusion and detachment from the plasma membrane, forming so‐called ectosomes, or by inward budding of endosomal membranes to produce vesicles, which are secreted as exosomes, when these endosomes fuse with the plasma membrane (Dixson et al., <xref rid="jev212465-bib-0011" ref-type="bibr">2023</xref>).</p><p>EVs can be separated and concentrated from conditioned medium or biofluids by methodologies based on physical properties, such as size and density, but the resulting preparations contain heterogenous mixtures of exosomes and ectosomes, as well as aggregated proteins (Jeppesen et al., <xref rid="jev212465-bib-0019" ref-type="bibr">2019</xref>). For example, small EVs (sEVs) separated and concentrated by differential centrifugation (dUC) or size‐exclusion chromatography (SEC) typically contain exosomes, which have a size range of 30–150 nm in diameter, but also include ectosomes of similar size.</p><p>Microenvironmental stress suppresses signalling by nutrient‐sensitive mechanistic Target of Rapamycin Complex 1 (mTORC1; reviewed in Goberdhan et al., <xref rid="jev212465-bib-0015" ref-type="bibr">2016</xref>). We have identified a specific subtype of exosome that is preferentially secreted under such stress conditions by colorectal, prostate and cervical cancer cell lines. This stress‐induced change is characterised by a switch in exosome biogenesis and secretion, involving reduction in classical CD63‐positive exosomes generated in late endosomal compartments and an increase in those formed in Rab11a‐labelled recycling endosomes, termed Rab11a‐exosomes (Fan et al., <xref rid="jev212465-bib-0012" ref-type="bibr">2020</xref>). These exosomes are also made under normal physiological conditions, and in some cases constitute a high proportion of secreted EVs, for example, in the prostate‐like secondary cells of the fruit fly, <italic toggle="yes">Drosophila melanogaster</italic>, where they mediate reproductive signalling between males and females (Corrigan et al., <xref rid="jev212465-bib-0009" ref-type="bibr">2014</xref>; reviewed in Wilson et al., <xref rid="jev212465-bib-0036" ref-type="bibr">2017</xref>).</p><p>One major exosome biogenesis mechanism involves the endosomal complexes required for transport (ESCRT) proteins, which load exosome cargos, distort the endosomal compartment membrane during inward budding and ultimately pinch off intraluminal vesicles (ILVs; Vietri et al., <xref rid="jev212465-bib-0032" ref-type="bibr">2019</xref>). We have recently shown that Rab11a‐, but not late endosomal, exosome formation can be blocked by knockdown of several accessory ESCRT‐III proteins (Marie et al., <xref rid="jev212465-bib-0023" ref-type="bibr">2023</xref>). These experiments have revealed that Rab11a‐exosomes have unique activities in physiology and disease, for example, promoting growth in the colorectal cancer (CRC) HCT116 cell line via a membrane‐bound form of amphiregulin (AREG), the ligand for the EGF receptor (EGFR, otherwise known as human EGFR‐related 1, HER1) ligand (Marie et al., <xref rid="jev212465-bib-0023" ref-type="bibr">2023</xref>). This exosome‐associated AREG activates the EGFR at concentrations much lower than soluble AREG (Fan et al., <xref rid="jev212465-bib-0012" ref-type="bibr">2020</xref>).</p><p>In the UK, colorectal cancer (CRC) is the fourth most common cancer, with an incidence of approximately 42,000 new cases and 16,000 mortalities per year (Cancer Research UK, <xref rid="jev212465-bib-0005" ref-type="bibr">2023</xref>). Survival is closely related to disease stage at diagnosis, ranging from 95% five‐year survival for stage I to below 10% for stage IV. Surgical resection with or without neoadjuvant or adjuvant chemotherapy (or chemoradiotherapy) forms the basis of treatment with curative intent.</p><p>One important form of chemotherapy involves cetuximab, and related chimeric monoclonal antibodies, which target the EGFR and block its signalling activity (Fornasier et al., <xref rid="jev212465-bib-0014" ref-type="bibr">2018</xref>). Approximately 40% of CRC patients carry activating KRAS mutations, and 3% have NRAS mutations, rendering anti‐EGFR therapies ineffective (Bando et al., <xref rid="jev212465-bib-0043" ref-type="bibr">2023</xref>). Cetuximab can, however, be used in combination treatment of metastatic CRC in patients lacking such downstream mutations, but even in these cases, it is not always effective (Allegra et al., <xref rid="jev212465-bib-0002" ref-type="bibr">2016</xref>). Eventually all patients develop cetuximab resistance. In some cases, the clonal amplification of rare cells carrying activating KRAS mutations may be responsible or <italic toggle="yes">de novo</italic> KRAS mutations may emerge (Misale et al., <xref rid="jev212465-bib-0024" ref-type="bibr">2012</xref>). In others, non‐genetic changes in the tumour microenvironment and intercellular communication are involved (Woolston et al., <xref rid="jev212465-bib-0038" ref-type="bibr">2019</xref>). Indeed, even when KRAS‐mutant cells are present, they often represent a small proportion of the tumour (Misale et al., <xref rid="jev212465-bib-0024" ref-type="bibr">2012</xref>). It has been proposed that they may release increased levels of EGFR ligands, such as AREG and TGF‐α, which promote resistance in neighbouring KRAS‐wild type cells (Hobor et al., <xref rid="jev212465-bib-0017" ref-type="bibr">2014</xref>). A better understanding of these complex resistance mechanisms to improve patient outcome is an area of particular interest.</p><p>Here we investigate stress‐induced Rab11a‐exosome secretion from several different CRC cell lines and test whether this exosome sub‐type can mediate cetuximab resistance. We show that membrane‐bound AREG located on Rab11a‐exosomes from nutrient‐stressed, KRAS‐mutant HCT116 cells can compete with cetuximab and induce resistance in cells that do not carry KRAS mutations, even when much higher concentrations of soluble AREG have no effect. Our work suggests a novel mechanism by which resistance to anti‐EGFR therapy can be established, producing the heterogeneous clonal populations that are frequently observed in drug‐resistant patients.</p></sec><sec id="jev212465-sec-0020"><label>2</label><title>MATERIALS AND METHODS</title><sec id="jev212465-sec-0030"><label>2.1</label><title>Cell culture</title><p>The CRC cell lines were purchased from ATCC to ensure authenticity. HCT116 cells were cultured in McCoy's 5A medium (Gibco Life Technologies), Caco‐2 cells in EMEM (Gibco Life Technologies) and SW480 and SW620 cells in DMEM GlutaMAX (Gibco Life Technologies). During normal cell culture, all media was supplemented with heat inactivated foetal calf serum (FBS, 10% McCoy's 5A and DMEM GlutaMAX; 20% EMEM) and 1000 U/mL (1%) penicillin‐streptomycin (Gibco Life Technologies). Cells were incubated at 37°C with 5% CO<sub>2</sub> and were not used beyond passage 20.</p></sec><sec id="jev212465-sec-0040"><label>2.2</label><title>EV isolation</title><p>Cells were plated at a density of 9 × 10<sup>6</sup> cells per plate and cultured until they reached 80% confluency. Following this, the media was changed to serum‐free basal medium (DMEM‐F12, Gibco Life Technologies) supplemented with 1% insulin‐transferrin‐selenium solution (ITS, #4140045, Gibco Life Technologies) for 24 h. For glutamine‐depletion isolations, HCT116 cells were grown for 24 h in DMEM‐F12 without L‐glutamine (#21331046 Gibco Life Technologies) supplemented with physiological (2 mM) or low (0.15 mM) glutamine (Gibco Life Technologies). The low dose of glutamine was determined by undertaking dose–response experiments with reducing glutamine concentrations to determine a concentration that significantly decreases 4E‐BP1 hyperphosphorylation (Fan et al., <xref rid="jev212465-bib-0012" ref-type="bibr">2020</xref>). Torin1 was added at 100 nM for SW480 cells and 150 nM for Caco‐2 and SW620 cells.</p><p>Following 24 h of cell growth in the relevant isolation conditions, the medium was harvested at pre‐cleared by centrifuging at 500 × <italic toggle="yes">g</italic> and 2000 × <italic toggle="yes">g</italic> both for 10 min at 4°C to remove cells, non‐vesicular debris and larger vesicles. Following this, the supernatant was filtered using 0.22 μm vacuum filters (Milex). The filtrate was then concentrated using a tangential flow filter with a 100 kDa membrane (Viva‐flow 50R, Sartorius), followed by ultrafiltration using 100 kDa Amicon Ultra‐15 units (Milex) at 4000 × <italic toggle="yes">g</italic> for 5–10 min at 4°C to a final volume of 1 mL. EVs were then isolated using size‐exclusion chromatography, by injecting the sample onto a 24 × 1 cm size exclusion column containing Sepharose 4B Fast Flow resin (pore size 84 nm) set‐up in an AKTA Start System (GE Healthcare Life Science). EVs were eluted in PBS, collecting 30 × 1 mL fractions. Fractions corresponding to the initial EV peak were pooled into 100‐kDa Amicon Ultra‐4 tubes and centrifuged at 4000 × <italic toggle="yes">g</italic> at 4°C to a final volume of approximately 120 μm for analysis. EVs were stored for a maximum of 24 h at 4°C for transmission electron microscopy or functional analysis, or long term at −80°C for nanoparticle tracker analysis or western blotting.</p></sec><sec id="jev212465-sec-0050"><label>2.3</label><title>Transmission electron microscopy</title><p>Approximately 0.2 μg/μL of purified EVs were incubated on glow discharged 300‐mesh 3 mm carbon‐coated copper grids (TAAB Laboratories) for 2 min and then blotted dry and negatively stained with 2% uranyl acetate for 10 s. Following this the grid was blotted and allowed to air dry before imaging on a FEI Tecnai T12 transmission electron microscope (FEI UK Ltd) operated at 120 kV with a Gatan Oneview digital camcer (Gatan Inc) at 120,000× magnification.</p></sec><sec id="jev212465-sec-0060"><label>2.4</label><title>Nanoparticle tracker analysis</title><p>The NS500 NanoSight<sup>®</sup> was used to capture five 30 s videos per EV sample (diluted 1:500 in PBS). Particle movement was assessed using NTA software 3.2 (NanoSight Ltd) to generate graphs plotting EV concentration (×10<sup>8</sup> mL<sup>−1</sup>) against particle size (nm).</p></sec><sec id="jev212465-sec-0070"><label>2.5</label><title>Western blotting</title><p>Cell lysates were collected by lysing cells in RIPA buffer supplemented with protease and phosphatase inhibitors (Sigma) and centrifugation at 14,000 rpm for ten min at 4°C. Total protein context was measured using a BCA protein assay kit (Pierce, Thermo Scientific). When undertaking western blotting on EVs, we loaded gels with EV preparations from the same protein mass of secreting cells so that changes in band intensity on the blots with glutamine depletion or Torin1 exposure reflected a net change in secretion of the marker on a per cell basis. We have previously shown that the normalisation method used during western analysis does not affect the overall conclusions made (Fan et al., <xref rid="jev212465-bib-0012" ref-type="bibr">2020</xref>).</p><p>Equal amounts of protein or EVs were mixed with reduced (containing 5% β‐mercaptoethanol, Sigma) or non‐reduced 4 x Laemmli sample buffer (Bio‐Rad) and denatured at 95°C for 10 min. Samples were then electrophoretically separated on 10% mini‐PROTEAN<sup>®</sup> precast gels (Bio‐Rad), followed by wet‐transfer onto a Immobilin<sup>®</sup>‐Fl polyvinylidene difuoride membrane with a 0.22 μm pore size (Merck) at 100 V for one hour at 4°C. Membranes were then blocked in 5% bovine serum albumin (BSA, Sigma) for reduced conditions or 5% semi‐skimmed milk (Sigma) for non‐reduced conditions, both in TBS containing 1% Tween‐20 (TBST, Sigma) for one hour at room temperature. Membranes where then incubated with primary antibodies diluted in the same blocking buffer overnight at 4°C. The following day, membranes underwent 3 × 10‐min washes in TBST and then probed with the relevant secondary HRP‐conjugated antibody. The membranes then underwent a further 3 × 20‐min washes in TBST before incubation in Trident femto Western HRP solution (GeneTex) and visualisation using the ChemiDoc Touch Imaging System (Bio‐Rad). Relative band intensities were quantified using ImageJ and normalised to tubulin or cell lysate levels.</p><p>Antibody suppliers, catalogue numbers of concentrations used were as follows: rabbit anti‐4E‐BP1 (Cell Signalling Technology #9644), rabbit anti‐S6 (Cell Signalling Technology #2217, 1:4000), rabbit anti‐p‐S6‐Ser240/244 S6 (Cell Signalling Technology #5364, 1:4000), rabbit anti‐Akt (Cell Signalling #9272, 1:1000), rabbit anti‐p‐Akt‐Ser473 (Cell Signalling #4060, 1:500), rabbit anti‐Caveolin‐1 (Cell Signalling Technology #3238, 1:500), goat anti‐AREG (R&amp;D Systems #AF262, 1:200), mouse anti‐Tubulin (Sigma #T8328, 1:4000), mouse anti‐CD81 (Santa Cruz #23962, 1:500), mouse anti‐CD63 (BD Biosciences # 556019, 1:500), mouse anti‐Alix (Abcam ab117600, 1:500), rabbit anti‐Syntenin‐1 antibody (Abcam ab133267, 1:500), rabbit anti‐Tsg101 (Abcam ab125011, 1:500), mouse anti‐Rab11 (BD Biosciences #610657, 1:500), rabbit anti‐EGFR (Cell Signalling #4267, 1:1000), rabbit anti‐p‐EGFR‐Tyr1068 (Cell Signalling #3777, 1:500), rabbit anti‐p44/42 MAPK (ERK; Cell Signalling Technology #4695, 1:1000), rabbit anti‐p‐p44/42 MAPK (Cell Signalling Technology #4370, 1:1000), rabbit anti‐EEA‐1 (Cell Signalling Technology #3288, 1:500), sheep anti‐TGN46 (Bio‐Rad; AHP500G, 1:1,000), rabbit anti‐Calnexin (Abcam #ab213243, 1:1,000), anti‐mouse IgG (H+L) HRP conjugate (Promega #W4021, 1:10000), anti‐rabbit IgG (H+L) HRP conjugate (Promega #W4011, 1:10000), anti‐goat IgG (H+L) HRP conjugate (R&amp;D Systems #HAF109, 1:100).</p></sec><sec id="jev212465-sec-0080"><label>2.6</label><title>Growth assays</title><p>Recipient cells were seeded in 96‐well plates (HCT116 cells at 2 × 10<sup>3</sup>, SW480 and Caco‐2 cells at 3 × 10<sup>3</sup> and SW620 cells 4 × 10<sup>3</sup> per well) in 200 μL of medium following pre‐treatment with freshly prepared EVs (4 × 10<sup>3</sup> per cell) for 30 min at 37°C. Growth assays were undertaken in reduced serum conditions (HCT116 cells, 1% FBS, SW480, SW620 and Caco‐2 cells 0.25% FBS) and measured over five days by live image acquisition using the IncuCyte ZOOM<sup>®</sup> Live Cell Imager (Essen Bioscience). The IncuCyte analysis software was used to automatically detect cell edges in order to create a confluency mask, which was used to calculate cellular growth and normalised to confluence at time zero, giving a fold change in confluency. Eight technical repeats were employed for each condition and each experiment was repeated at least three times unless otherwise stated.</p><p>AREG‐neutralising experiments were performed by pre‐incubating freshly prepared EVs (at 4 × 10<sup>3</sup> EVs per recipient cell) with either 4 μg/mL of goat anti‐AREG (R&amp;D Systems #AF262) or goat anti‐IgG (R&amp;D Systems #AB‐1080‐C) as a control antibody in the relevant reduced serum media, at 37°C for 2 h (Fan et al., <xref rid="jev212465-bib-0012" ref-type="bibr">2020</xref>). Following this, the EVs were added to the recipient cells and analysed as described above. Experiments investigating EV‐free AREG were undertaken by incubating recipient cells with 0.03–3000 ng/mL recombinant human Amphiregulin protein (R&amp;D Systems #262‐AR‐100), for 30 min at 37°C before plating as described above.</p><p>Drug and inhibitor experiments were undertaken by adding the drug (research grade cetuximab 30 μg/mL, R&amp;D Systems MAB9577) or inhibitor (AG1478 hydrochloride 2.5 mM, Tocris #1276, BMS599626 dihydrochloride 2.5 mM, Tocris #5022) to the recipient cells at the same time as the freshly prepared EVs and incubated for 30 min at 37°C before plating.</p></sec><sec id="jev212465-sec-0090"><label>2.7</label><title>Assessment of EV‐induced pEGFR and pERK activation</title><p>HCT116 or Caco‐2 cells were plated in 6‐well plates in full FBS supplemented media at a density of 4 × 10<sup>5</sup> cells per well. After 24 h the cells were serum starved (0% FBS) overnight and the following day freshly prepared EVs (4 × 10<sup>3</sup> per cell) were pre‐incubated with or without AREG‐neutralising antibody (4 μg/mL) for 2 h at 37°C and added to the recipient cells in fresh 0% FBS media. Cell lysates were then collected after 5 min for EGFR analysis and 15 min for ERK activation for analysis by Western blotting.</p></sec><sec id="jev212465-sec-0100"><label>2.8</label><title>Statistical analysis</title><p>For Western blot analysis, relative signal intensities were analysed using the Kruskal–Wallis or Mann–Whitney <italic toggle="yes">U</italic> test. For growth assays, data was analysed by two‐way Analysis of Variance (ANOVA) with a Tukey post hoc test for multiple comparisons. All data is presented as mean ± standard deviation and a statistically significant result was defined as <italic toggle="yes">p</italic> &lt; 0.05. Data analysis was performed using GraphPad Prism version 8.3.1 (GraphPad Software, Inc).</p></sec></sec><sec id="jev212465-sec-0110"><label>3</label><title>RESULTS</title><sec id="jev212465-sec-0120"><label>3.1</label><title>Rab11a‐exosome secretion from a range of CRC cell lines is increased in response to mTORC1 inhibition</title><p>A panel of four cell lines (Figure <xref rid="jev212465-fig-0001" ref-type="fig">1a</xref>) representing some of the molecular, cellular and genetic heterogeneity observed in CRC, namely microsatellite instability (MSI)/stability (MSS) (Flecchia et al., <xref rid="jev212465-bib-0013" ref-type="bibr">2022</xref>); consensus molecular subtype (CMS) (Guinney et al., <xref rid="jev212465-bib-0016" ref-type="bibr">2015</xref>; Sveen et al., <xref rid="jev212465-bib-0030" ref-type="bibr">2018</xref>); proteomic signature (Wang et al., <xref rid="jev212465-bib-0033" ref-type="bibr">2017</xref>); and oncogene/tumour suppressor status (Ahmed et al., <xref rid="jev212465-bib-0001" ref-type="bibr">2013</xref>), was investigated to determine whether these cells all secrete more Rab11a‐exosomes under nutrient stress. Cells were cultured in serum‐free conditions, but the medium was supplemented with insulin, selenium and transferrin (ITS) to maintain growth factor signalling. Size‐exclusion chromatography (SEC) was employed to separate and concentrate the secreted sEVs, which lacked membrane‐associated markers from the ER, Golgi and early endosomes that should not be excluded from concentrated sEV preparations (Figure <xref rid="jev212465-supitem-0001" ref-type="supplementary-material">S1</xref>; Welsh et al., <xref rid="jev212465-bib-0034" ref-type="bibr">2024</xref>).</p><fig position="float" fig-type="FIGURE" id="jev212465-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>Inhibition of mTORC1 induces secretion of Rab11a‐exosomes in multiple CRC cell lines. (a) Classification of the four CRC cell lines investigated based on molecular pathways and mutational status in critical oncogenes and tumour suppressor genes. (b) Western blot analysis of sEVs isolated from HCT116 cells cultured in glutamine‐depleted (Gln<sup>0.15 mM</sup>) versus control glutamine‐replete (Gln<sup>2 mM</sup>) conditions. Note characteristic increase in Rab11a, AREG and Cav‐1 levels and the reduction in CD63 that are consistently observed (see histogram, where changes in protein levels, measured by densitometry and normalised to protein levels in secreting cell lysates, are plotted for three independent experiments; mean ± SD). NTA analysis reveals that the total number and size distribution of secreted particles is unchanged by this treatment. (c) Western blot of sEV proteins isolated from HCT116 cells cultured in hypoxic (1% O<sub>2</sub>) versus normoxic conditions also reveals an increase in markers of Rab11a‐exosomes (Rab11a and AREG) and other stress‐induced sEVs (Cav‐1). (d–f) Western blots of sEV proteins from Caco‐2 (d), SW480 (e) and SW620 (f) cells treated with the ATP‐competitive mTORC1 inhibitor, Torin1 (100 nM for SW480 cells and 150 nM for Caco‐2 and SW620 cells), versus treatment with vehicle alone (DMSO) also reveals a switch to secretion of increased Rab11a and AREG, and a reduction in CD63. NTA reveals that all sEV preparation have similar size distribution, but particle numbers were generally slightly reduced, ie. SW480: 41.58 ± 0.73 × 10<sup>8</sup> particles/mL (Torin1) versus 42.58 ± 1.74 × 10<sup>8</sup> (control) particles/mL: SW620: 13.71 ± 0.47 × 10<sup>8</sup> particles/mL (Torin1) versus 15.20 ± 0.37 × 10<sup>8</sup> (control) particles/mL: Caco2: 14.37 ± 0.98 × 10<sup>8</sup> particles/mL (Torin1) versus 18.11 ± 1.27 × 10<sup>8</sup> (control) particles/mL. (g) Graph showing levels of HCT116 growth after 120 h, measured as fold change in confluency, following addition of PBS, control HCT116 sEVs, or hypoxia‐induced HCT116 sEVs in the presence or absence of pre‐incubation with neutralising anti‐AREG antibodies. Note that only sEVs isolated under hypoxic conditions enhance growth and this is AREG‐dependent. *<italic toggle="yes">P</italic> &lt; 0.05. Red and blue asterisks denote reduction and increase in protein levels respectively in Rab11a‐exosome‐enriched sEVs. MSI, microsatellite instability; MSS, microsatellite stability; CMS, consensus molecular subtype; n/a, not applicable. KRAS activating mutations: G13D or G12V. PI3K activating mutations: E545K D549N or H1047R. TP53 inactivating mutations: R273H P309S, or S241F, or E204X. Superscripts 1,2,3 refer to <sup>1</sup>Ahmed et al. (<xref rid="jev212465-bib-0001" ref-type="bibr">2013</xref>); <sup>2</sup>Sveen et al. (<xref rid="jev212465-bib-0030" ref-type="bibr">2018</xref>); <sup>3</sup>Wang et al. (<xref rid="jev212465-bib-0033" ref-type="bibr">2017</xref>).</p></caption><graphic position="anchor" id="jats-graphic-3" orientation="portrait" ns1:href="JEV2-13-e12465-g001.jpg" /></fig><p>In HCT116 cells, downregulation of the mTORC1 signalling pathway in response to glutamine depletion, confirmed by western blot analysis of mTORC1 targets, 4E‐BP1 and S6 (Figure <xref rid="jev212465-supitem-0001" ref-type="supplementary-material">S2a, b</xref>), led to a switch to increased secretion of Rab11a‐exosomes carrying membrane‐bound AREG (Figure <xref rid="jev212465-fig-0001" ref-type="fig">1b</xref>; cf. Fan et al., <xref rid="jev212465-bib-0012" ref-type="bibr">2020</xref>; Marie et al., <xref rid="jev212465-bib-0023" ref-type="bibr">2023</xref>). As previously shown, there was also an increase in sEV‐associated levels of the scaffolding protein Caveolin‐1 (Cav‐1). Experiments using immuno‐affinity‐separation of sEVs and selective inhibition of Rab11a‐exosome secretion suggest that Cav‐1, unlike AREG, is associated with alternative stress‐induced vesicles that co‐separate with Rab11a‐exosomes (Fan et al., <xref rid="jev212465-bib-0012" ref-type="bibr">2020</xref>; Marie et al., <xref rid="jev212465-bib-0023" ref-type="bibr">2023</xref>). Consistent with previous studies, glutamine depletion did not affect the expression levels of other exosome and EV proteins in cells, except for CD63, which was reduced under stress conditions in both sEVs (Figure <xref rid="jev212465-fig-0001" ref-type="fig">1b</xref>) and cells (Figure <xref rid="jev212465-supitem-0001" ref-type="supplementary-material">S2b</xref>). The decrease in CD63 on sEVs is partially caused by a stress‐induced reduction in trafficking and exosome secretion through the late endosomal pathway (Fan et al., <xref rid="jev212465-bib-0012" ref-type="bibr">2020</xref>). Furthermore, as previously shown, there was no detectable change in the total number or the size range of these sEVs, as determined by Nanoparticle Tracking Analysis (NTA; Figure <xref rid="jev212465-fig-0001" ref-type="fig">1b</xref>). Analysis of SEC‐separated sEVs by transmission electron microscopy (TEM) revealed the standard cup‐like morphology typically associated with sEV preparations (Figure <xref rid="jev212465-supitem-0001" ref-type="supplementary-material">S2g</xref>).</p><p>Hypoxia, a common microenvironmental stress in fast‐growing tumours, previously shown to alter sEV cargos in glioblastoma cells (Kurcharzewska et al., <xref rid="jev212465-bib-0020" ref-type="bibr">2013</xref>), also inhibited mTORC1, as determined by reduced phospho‐S6 and phosphorylated forms of 4E‐BP1 in western blots of cell lysates (Figure <xref rid="jev212465-supitem-0001" ref-type="supplementary-material">S2c</xref>). While only the exosome and sEV proteins CD81 (decreased) and AREG (increased) were significantly changed in cell lysates (Figure <xref rid="jev212465-supitem-0001" ref-type="supplementary-material">S2c</xref>), hypoxia induced a significant increase in Rab11a, Cav‐1 and AREG in sEV preparations, consistent with elevated Rab11a‐exosome secretion (Figure <xref rid="jev212465-fig-0001" ref-type="fig">1c</xref>). In contrast to glutamine depletion, the levels of sEV‐associated CD63 were not reduced under hypoxia, suggesting that secretion of late endosomal exosomes was not reduced by this treatment. Hypoxia‐induced vesicles preferentially promoted growth of HCT116 cells under serum‐depleted conditions, an activity that could be blocked by adding neutralising anti‐AREG antibodies to the sEV preparations (Figure <xref rid="jev212465-fig-0001" ref-type="fig">1g</xref>). A similar inhibitory effect was previously observed on Rab11a‐exosome‐enriched sEV preparations from glutamine‐depleted HCT116 cells (Fan et al., <xref rid="jev212465-bib-0012" ref-type="bibr">2020</xref>) and suggests that the enhanced growth‐promoting effects are mediated by membrane‐associated AREG loaded on to hypoxia‐induced Rab11a‐exosomes.</p><p>For Caco‐2, SW480 and SW620 CRC cell lines, glutamine depletion did not affect mTORC1 activity in a dose‐response experiment, as determined by the phosphorylation state of downstream target 4E‐BP1, and only variably reduced S6 phosphorylation (Figure <xref rid="jev212465-supitem-0001" ref-type="supplementary-material">S3a–d</xref>). Each of these cell lines was, however, sensitive to the mTORC1 inhibitor Torin1 in the dose range of between 100–150 nM, which affected both S6 and 4E‐BP1 (Figure <xref rid="jev212465-supitem-0001" ref-type="supplementary-material">S3e–g</xref>). Under these conditions, Torin1 treatment induced an increase in sEV‐associated Rab11a and Cav‐1 (although not for SW620 cells, which lack Cav‐1), and a decrease in the tetraspanin CD63 (Figure <xref rid="jev212465-fig-0001" ref-type="fig">1d–f</xref>), but without a change in levels of these proteins in cell lysates (except for reduced CD63 levels in Caco‐2 cells; Figure <xref rid="jev212465-supitem-0001" ref-type="supplementary-material">S2d–f</xref>). Only sEVs from Caco‐2 cells contained detectable levels of AREG, but as with HCT116 cells, these levels were strongly increased following mTORC1 inhibition. In Caco‐2 cells, however, cellular levels of AREG were not affected by this treatment. Other EV markers, such as Alix, Tsg101, Syn‐1 and CD81, were unchanged in sEV preparations from all three cell types (Figure <xref rid="jev212465-fig-0001" ref-type="fig">1d–f</xref>) and also in the secreting cells (Figure <xref rid="jev212465-supitem-0001" ref-type="supplementary-material">S2d–f</xref>). For all three cell lines, Torin1 treatment did not significantly alter the size of vesicles in sEV preparations: Caco‐2, 139 ± 58 nm diameter (control) versus 143 ± 57 nm (Torin1); SW480, 149 ± 55 nm (control) versus 150 ± 49 nm (Torin1); SW620, 111 ± 54 nm (control) versus 109 ± 54 (Torin1). sEV secretion, however, was reduced by up to 20% for each of these cell lines, as determined by NTA (Figure <xref rid="jev212465-fig-0001" ref-type="fig">1d–f</xref>). EVs from each cell line produced cup‐like particles typical of sEV morphology in TEM studies (Figure <xref rid="jev212465-supitem-0001" ref-type="supplementary-material">S2h–j</xref>).</p><p>In summary, CRC cell lines with different molecular, cellular and genetic properties can be induced to release increased levels of Rab11a‐exosomes by reducing cellular mTORC1 signalling, suggesting that secretion of these alternative sEVs is a typical response to stresses that suppress this nutrient sensor. Furthermore, for CRC cells in which exosomal AREG can be detected, namely HCT116 and Caco‐2, a membrane‐associated form of AREG is also preferentially secreted under these stress conditions.</p></sec><sec id="jev212465-sec-0130"><label>3.2</label><title>HCT116‐ and Caco‐2‐derived Rab11a‐exosome preparations can induce AREG‐dependent growth in Caco‐2 cells</title><p>Rab11a‐exosome preparations isolated from HCT116 cells under glutamine‐depleted conditions can selectively induce AREG‐dependent growth of naïve HCT116 cells cultured in low (1%) serum (Fan et al., <xref rid="jev212465-bib-0012" ref-type="bibr">2020</xref>; Marie et al., <xref rid="jev212465-bib-0023" ref-type="bibr">2023</xref>). We confirmed these findings using a range of sEV concentrations (Figure <xref rid="jev212465-fig-0002" ref-type="fig">2a,b</xref> and Fig. <xref rid="jev212465-supitem-0001" ref-type="supplementary-material">S4</xref>). As previously found, sEVs isolated from glutamine‐replete cells had no detectable growth‐promoting activity. The Rab11a‐exosome preparations stimulated growth in a dose‐dependent fashion (Figure <xref rid="jev212465-supitem-0001" ref-type="supplementary-material">S5a,b</xref>), again consistent with our previous observations (Fan et al., <xref rid="jev212465-bib-0012" ref-type="bibr">2020</xref>).</p><fig position="float" fig-type="FIGURE" id="jev212465-fig-0002" orientation="portrait"><label>FIGURE 2</label><caption><p>Rab11a‐exosome preparations from HCT116 and Caco‐2 cells enhance growth of HCT116 and Caco‐2 cells in an AREG‐dependent fashion. To test the effect of Rab11a‐exosome‐enriched sEV preparations (red lines on graphs) versus control sEV preparations (blue lines on graphs) on cell growth, sEVs were isolated either from HCT116 cultured in glutamine‐depleted (Gln<sup>0.15 mM</sup>) versus glutamine replete (Gln<sup>2 mM</sup>) conditions; or from Caco‐2 cells cultured in 150 nM Torin1 versus vehicle and compared to PBS addition alone (black line on graphs). They were then added to HCT116 or Caco‐2 recipient cells in reduced serum conditions (1% and 0.25% FBS respectively). (a) Diagram of experimental design. (b) Compared to control sEV preparations (blue line), Rab11a‐exosome‐enriched sEV preparations (red line) promote the growth of HCT116 recipient cells in a dose‐dependent manner (see Fig. S5b). (c) These preparations were also able to promote the growth of Caco‐2 recipient cells, but even the lowest dose of sEVs appeared to produce near‐maximal stimulation (see Fig. S5c). (d) The additional Caco‐2 cell growth stimulated by Rab11a‐exosome‐enriched sEVs isolated from HCT116 cells is blocked by pre‐incubation with an anti‐AREG antibody, which does not significantly affect growth under other conditions. (e) The anti‐AREG antibody blocks the increase in levels of activated phospho‐ERK (P‐ERK) produced in Caco‐2 cells treated with HCT116 Rab11a‐exosome preparations. (f) The additional Caco‐2 cell growth stimulated by Rab11a‐exosome‐enriched sEVs isolated from Caco‐2 cells (red solid line) is blocked by pre‐incubation with an anti‐AREG antibody (red dashed line), which does not significantly affect growth under other conditions. (g) Schematic showing the enhanced growth‐promoting effect of Rab11a‐exosomes, carrying the EGFR ligand AREG (middle), compared to free AREG in serum (left). The additional Rab11a‐exosome‐induced growth is blocked by addition of an anti‐AREG antibody (right). Eight technical repeats were employed for each condition and each experiment was repeated three times. **<italic toggle="yes">P</italic> &lt; 0.01; ***<italic toggle="yes">P</italic> &lt; 0.001. Black, blue and red asterisks denote significantly different from PBS control, control sEVs and anti‐AREG antibody treated sEVs respectively.</p></caption><graphic position="anchor" id="jats-graphic-5" orientation="portrait" ns1:href="JEV2-13-e12465-g005.jpg" /></fig><p>HCT116 cells carry activating mutations in KRAS and PI3KCA, which regulate two major signalling pathways downstream of the EGFR, making them resistant to EGFR inhibition. Nevertheless, CRC tumours are typically heterogenous, consisting of multiple genetically different clones, some of which carry wild type forms of these oncogenes, even within tumours that are resistant to EGFR‐targeting chemotherapies (Misale et al., <xref rid="jev212465-bib-0024" ref-type="bibr">2012</xref>). We tested whether the growth‐promoting activity of HCT116 Rab11a‐exosome preparations could also stimulate the growth of cells that did not carry these mutations. Indeed, these preparations selectively promoted the growth of Caco‐2 cells, which lack these mutations, under reduced (0.25%) serum conditions (Figure <xref rid="jev212465-fig-0002" ref-type="fig">2c</xref>). These cells were relatively sensitive to Rab11a‐exosome preparations; adding 16 × 10<sup>3</sup> versus 4 × 10<sup>3</sup> sEVs per target cell produced a small, but non‐significant, increase in growth (Figure <xref rid="jev212465-supitem-0001" ref-type="supplementary-material">S5c</xref>). Consistent with previous experiments using HCT116 Rab11a‐exosome preparations and HCT116 target cells (Fan et al., <xref rid="jev212465-bib-0012" ref-type="bibr">2020</xref>) and with other cancer sEVs (Raimondo et al., <xref rid="jev212465-bib-0026" ref-type="bibr">2019</xref>), this effect was blocked by a neutralising anti‐AREG antibody (Figure <xref rid="jev212465-fig-0002" ref-type="fig">2d</xref>), which suppressed the sEV‐induced activation via phosphorylation of the downstream signalling target ERK (Figure <xref rid="jev212465-fig-0002" ref-type="fig">2e,g</xref>).</p><p>Since mTORC1‐inhibited Caco‐2 cells also secrete increased levels of Rab11a‐exosomes and AREG, when compared to control Caco‐2 cells with uninhibited mTORC1 signalling (Figure <xref rid="jev212465-fig-0001" ref-type="fig">1d</xref>), we tested whether sEV preparations from these former cells might also stimulate Caco‐2 cell growth in an AREG‐dependent fashion. Indeed, Rab11a‐exosome‐enriched sEVs secreted from Torin1‐treated Caco‐2 cells produced mild growth‐promoting effects on Caco‐2 cells cultured in low serum and these effects were selectively inhibited following incubation with an anti‐AREG antibody (Figure <xref rid="jev212465-fig-0002" ref-type="fig">2f,g</xref>), suggesting that AREG associated with stress‐induced Rab11a‐exosomes from multiple CRC cell lines can promote growth.</p><p>Overall, we conclude that under stress conditions, CRC cells secrete increased levels of Rab11a‐exosomes, which can stimulate the growth of their neighbours through paracrine signalling involving exosome‐associated AREG.</p></sec><sec id="jev212465-sec-0140"><label>3.3</label><title>Rab11a‐exosomes can induce resistance to cetuximab through an AREG‐dependent mechanism</title><p>EGFR‐targeted monoclonal antibodies, such as cetuximab, are used to treat KRAS‐wild type metastatic colorectal cancer, but eventually, resistance to this therapy emerges (Bhattacharya, <xref rid="jev212465-bib-0003" ref-type="bibr">2023</xref>; Sforza et al., <xref rid="jev212465-bib-0029" ref-type="bibr">2016</xref>). Since sEVs from CRC cells have previously been reported to induce cetuximab resistance (Yang et al., <xref rid="jev212465-bib-0039" ref-type="bibr">2018</xref>; Zhang et al., <xref rid="jev212465-bib-0041" ref-type="bibr">2017</xref>), we set out to test whether HCT116 sEVs, and in particular Rab11a‐exosomes, might mediate such effects.</p><p>Treatment of KRAS‐mutant HCT116 cells and KRAS‐wild type Caco‐2 cells with cetuximab under serum‐replete and ‐depleted conditions confirmed that while there was no effect on HCT116 cell growth (Figure <xref rid="jev212465-supitem-0001" ref-type="supplementary-material">S6a,b</xref>), Caco‐2 cell growth was sensitive to this drug under both conditions (Figure <xref rid="jev212465-supitem-0001" ref-type="supplementary-material">S6c</xref>). Furthermore, analysis of the phosphorylation state of both the EGFR and downstream ERK in these two cell lines under reduced serum conditions demonstrated that cetuximab selectively inhibited EGFR signalling in Caco‐2 cells (Figure <xref rid="jev212465-supitem-0001" ref-type="supplementary-material">S6d</xref>).</p><p>In cases where clones of cells carrying activating KRAS mutations emerge in tumours that are resistant to anti‐EGFR therapies, it is notable that most of the cells in the tumour do not carry this mutation (Misale et al., <xref rid="jev212465-bib-0024" ref-type="bibr">2012</xref>). We hypothesised that sEVs, and in particular Rab11a‐exosomes, released from small numbers of cetuximab‐resistant CRC cells under cellular stress, might transfer resistance to cetuximab‐sensitive cells, permitting the survival and growth of these cells through paracrine signalling. We therefore undertook growth assays, incubating recipient Caco‐2 cells in serum‐replete and ‐depleted conditions with or without stress‐induced sEVs from HCT116 cells, and in the presence or absence of cetuximab (Figure <xref rid="jev212465-fig-0003" ref-type="fig">3a</xref>).</p><fig position="float" fig-type="FIGURE" id="jev212465-fig-0003" orientation="portrait"><label>FIGURE 3</label><caption><p>Rab11a‐exosome preparations induce AREG‐dependent cetuximab resistance in Caco‐2 cells. (a) Rab11a‐exosome‐enriched sEV preparations isolated from HCT116 cells were tested for their effects on cetuximab resistance in Caco‐2 cells, both in serum‐depleted (0.25% FBS) and serum‐replete (20% FBS) conditions, in the absence or presence of anti‐AREG antibodies and an EGFR kinase inhibitor. In b‐e, red and black lines on growth curves represent cells treated with Rab11a‐exosome‐enriched sEVs and PBS respectively, and dashed lines represent cetuximab‐treated cells. (b) HCT116 Rab11a‐exosome‐enriched sEV preparations suppress the growth inhibitory effect of cetuximab on Caco‐2 cells in serum‐depleted (0.25% FBS) conditions. (ci) Addition of anti‐AREG antibodies (AREG ab) to control Caco‐2 cells (PBS) treated with cetuximab has no further growth inhibitory effect on cetuximab‐treated cells (data points marked with crosses). (cii) In the same experiment, however, these antibodies completely suppress the growth‐promoting and cetuximab‐resistant effects of Rab11a‐exosome preparations (red lines). Control cell growth curves with and without cetuximab (black lines) are included in this graph for comparison. (d) HCT116 Rab11a‐exosome‐enriched sEV preparations suppress the growth inhibitory effect of cetuximab on Caco‐2 cells in serum‐replete (20% FBS) conditions, where in the absence of cetuximab, they have no additional growth‐promoting activity. (ei) Addition of anti‐AREG antibodies to control Caco‐2 cells has no further growth inhibitory effect on cetuximab‐treated cells. (eii) In the same experiment, however, these antibodies completely suppress the growth‐promoting and cetuximab‐resistant effects of Rab11a‐exosome preparations (red lines). Control cell growth curves with and without cetuximab are included in this graph for comparison (black lines). (f) The growth‐promoting effects of HCT116 Rab11a‐exosome preparations are completely suppressed by the EGFR kinase inhibitor AG1478. (g) Schematic models illustrating the effect of Rab11a‐exosomes, carrying the EGFR ligand AREG (middle), but not AREG in serum (left), in promoting cetuximab resistance in Caco‐2 CRC cells. Addition of either anti‐AREG antibodies (not shown) or the EGFR kinase inhibitor AG1478 (right) blocks the cetuximab resistance induced by Rab11a‐exosomes. Eight technical repeats were employed for each condition and each experiment was repeated three times. ***<italic toggle="yes">P</italic> &lt; 0.001. In b–e, blue asterisks denote that sEV‐treated cell growth is significantly increased compared to PBS control. Red and green asterisks denote that sEV‐ and cetuximab‐treated cell growth is significantly increased compared to PBS control cells treated with cetuximab, and sEV‐/cetuximab‐treated cells after sEV pre‐incubation with anti‐AREG antibodies respectively. In f), black (control) and blue (sEV‐treated) asterisks denote significantly reduced cell growth after AG1478 treatment.</p></caption><graphic position="anchor" id="jats-graphic-7" orientation="portrait" ns1:href="JEV2-13-e12465-g004.jpg" /></fig><p>In low (0.25%) serum conditions, addition of stress‐induced sEVs from glutamine‐depleted HCT116 cells significantly stimulated the growth of Caco‐2 cells, relative to addition of PBS alone (Figure <xref rid="jev212465-fig-0003" ref-type="fig">3b</xref>). We have previously shown that these sEV preparations from HCT116 cells carry pg/ml concentrations of sEV‐associated AREG (Fan et al., <xref rid="jev212465-bib-0012" ref-type="bibr">2020</xref>). Reproducing these growth‐promoting effects with recombinant AREG required ng/ml concentrations (Figure <xref rid="jev212465-supitem-0001" ref-type="supplementary-material">S7a,b</xref>), confirming our previous finding that Rab11a‐exosomes induce growth at much lower concentrations of AREG than soluble ligand.</p><p>Cetuximab reduced the growth of control (PBS) cells, suggesting that part of the growth observed in low serum conditions is stimulated by EGFR ligands. Cetuximab also reduced the growth induced by Rab11a‐exosomes, but only to levels observed in control cells that were not treated with cetuximab (Figure <xref rid="jev212465-fig-0003" ref-type="fig">3b</xref>). Growth was significantly enhanced compared to cells treated with PBS and cetuximab, indicating that stress‐induced sEVs induce cetuximab resistance. Importantly, although adding an anti‐AREG antibody had no additional growth‐inhibitory effect on cells treated with PBS and cetuximab (Figure <xref rid="jev212465-fig-0003" ref-type="fig">3ci</xref>), it further suppressed growth in the presence of HCT116 Rab11a‐exosomes and cetuximab to the same levels as cetuximab‐treated control cells (Figure <xref rid="jev212465-fig-0003" ref-type="fig">3cii</xref>). This suggests that the cetuximab resistance mediated by these vesicles is AREG‐dependent and therefore associated with Rab11a‐exosomes.</p><p>In high (20%) serum conditions, addition of HCT116 Rab11a‐exosome preparations had no significant effect on the growth of Caco‐2 cells relative to PBS addition, presumably because growth was already maximally stimulated by growth factors in 20% serum (Figure <xref rid="jev212465-fig-0003" ref-type="fig">3d</xref>). Cetuximab, however, had a completely different effect on cell growth in high serum in the presence and absence of Rab11a‐exosomes. While it strongly suppressed growth in control (PBS) Caco‐2 cells, it had no significant effect on growth in the presence of stress‐induced HCT116 sEVs (Figure <xref rid="jev212465-fig-0003" ref-type="fig">3d</xref>). As in low serum conditions, addition of an anti‐AREG antibody had no further growth‐inhibitory effect on control (PBS) Caco‐2 cells (Figure <xref rid="jev212465-fig-0003" ref-type="fig">3ei</xref>), but it reduced the growth of Caco‐2 cells in the presence of HCT116 sEVs to the levels observed in cetuximab‐treated control cells (Figure <xref rid="jev212465-fig-0003" ref-type="fig">3eii</xref>).</p><p>Taken together, these data indicate that unlike soluble AREG, HCT116 stress‐induced sEV preparations containing AREG on Rab11a‐exosomes confer cetuximab resistance to KRAS‐wild type Caco‐2 cells by competing with cetuximab at the EGFR (summarised in Figure <xref rid="jev212465-fig-0003" ref-type="fig">3g</xref>). Even in high serum, where Rab11a‐exosomes have no additional effect on growth, serum‐mediated growth is completely suppressed by cetuximab, while in the presence of Rab11a‐exosomes, growth, which appears to be induced by AREG‐dependent EGFR activation, is essentially unaffected.</p><p>There are, however, other interpretations. In particular, AREG on Rab11a‐exosomes could be acting via a receptor other than the EGFR, or the anti‐AREG antibody could indirectly block another signalling activity on Rab11a‐exosomes when it binds at the surface of these vesicles. We reasoned that in either of these scenarios, the HCT116 Rab11a‐exosome preparations would drive cell growth, even if the EGFR was blocked in a way that did not directly compete with AREG. To test this, we added the EGFR kinase inhibitor, AG1478 (Bishop et al., <xref rid="jev212465-bib-0004" ref-type="bibr">2002</xref>), to Caco‐2 cells treated with PBS or HCT116 Rab11a‐exosomes. In this case, growth was similarly inhibited (Figure <xref rid="jev212465-fig-0003" ref-type="fig">3f, g</xref>), demonstrating that the effects of Rab11a‐exosomes on growth are being mediated through the EGFR, even though they are cetuximab‐resistant. The pan‐HER receptor kinase inhibitor BMS‐599626 (Wong et al., <xref rid="jev212465-bib-0037" ref-type="bibr">2006</xref>) also completely blocked the growth‐promoting effects of HCT116 Rab11a‐exosome preparations (Figure <xref rid="jev212465-supitem-0001" ref-type="supplementary-material">S7c,d</xref>), consistent with this interpretation.</p></sec></sec><sec id="jev212465-sec-0150"><label>4</label><title>DISCUSSION</title><p>The emergence of cetuximab resistance is an inevitable outcome of cetuximab treatment of KRAS‐wild type tumours in metastatic CRC patients. It either involves the amplification of CRC cells carrying an activated KRAS mutation, which constitute a minority clone within a heterogeneous group of wild type KRAS cells (Misale et al., <xref rid="jev212465-bib-0024" ref-type="bibr">2012</xref>), or the development of cetuximab resistance through microenvironmental changes (Woolston et al., <xref rid="jev212465-bib-0038" ref-type="bibr">2019</xref>). Whatever the explanation, clonal heterogeneity and paracrine signalling appear to play a key role in this process (Chan &amp; Buczaki, <xref rid="jev212465-bib-0006" ref-type="bibr">2021</xref>). Indeed, Hobor et al. (<xref rid="jev212465-bib-0017" ref-type="bibr">2014</xref>) have reported an important function for EGFR ligands like AREG in mediating the communication between KRAS‐mutant and KRAS‐wild type cells in heterogeneous cetuximab‐resistant CRC tumours.</p><p>We have shown that this resistance can be mediated by AREG‐loaded, Rab11a‐exosomes produced by CRC cells under nutrient or hypoxic stresses, which are commonly experienced by growing tumours. We have previously demonstrated that AREG on these vesicles can enhance CRC growth at concentrations of approximately 1 pg/ml under conditions where soluble AREG requires concentrations three orders of magnitude higher (Fan et al., <xref rid="jev212465-bib-0012" ref-type="bibr">2020</xref>). Here, we find that even under serum‐replete conditions, where addition of Rab11a‐exosomes from mutant KRAS HCT116 cells has no additional growth‐promoting effect on KRAS‐wild type Caco‐2 cells, these exosomes, but not soluble AREG, can compete with cetuximab for EGFR binding and activation. We suggest that the mechanism by which membrane‐bound AREG is presented to the EGFR, which may involve AREG clustering or association with other surface proteins, allows this ligand to circumvent the cetuximab blockade, which is normally mediated by high affinity monoclonal antibody binding. Delivery of AREG to target cells in Rab11a‐exosome or soluble forms may explain why high levels of AREG have been associated both with improved and poorer outcomes in response to cetuximab treatment (Hong et al., <xref rid="jev212465-bib-0018" ref-type="bibr">2020</xref>; Randon &amp; Pietrantonio, <xref rid="jev212465-bib-0027" ref-type="bibr">2023</xref>; Williams et al., <xref rid="jev212465-bib-0035" ref-type="bibr">2023</xref>).</p><p>Previous studies have suggested that CRC exosomes can promote cetuximab resistance in an apparently AREG‐independent fashion via the PTEN/Akt pathway, another target pathway of EGFR (Zhang et al., <xref rid="jev212465-bib-0041" ref-type="bibr">2017</xref>), or via the transfer of the long non‐coding RNA uroepithelial carcinoma‐associated‐1 (UCA‐1) (Yang et al., <xref rid="jev212465-bib-0039" ref-type="bibr">2018</xref>). Our data suggest an alternative mechanism that may explain how KRAS‐mutant cells could promote survival of KRAS‐wild type cells in a heterogeneous tumour (Figure <xref rid="jev212465-fig-0004" ref-type="fig">4</xref>). These findings suggest that treatments that either block Rab11a‐exosome biogenesis or suppress the active cargos on these exosomes might act synergistically with anti‐EGFR therapies to inhibit tumour growth and either slow or halt recurrence. In this regard, it is interesting to note that other forms of drug resistance have been attributed to exosome‐associated ligands, such a resistance to immune checkpoint inhibitors that re‐activate the patient's anti‐tumour response (Chen et al., <xref rid="jev212465-bib-0007" ref-type="bibr">2018</xref>; Poggio et al., <xref rid="jev212465-bib-0025" ref-type="bibr">2019</xref>). It will be interesting to explore whether stress‐induced Rab11a‐exosomes are involved in this resistance mechanism and whether selectively suppressing the production of these vesicles might provide a new therapeutic strategy.</p><fig position="float" fig-type="FIGURE" id="jev212465-fig-0004" orientation="portrait"><label>FIGURE 4</label><caption><p>Schematic model highlighting the role of AREG on Rab11a‐exosomes in promoting cetuximab‐resistance in colorectal cancer. (a) The monoclonal antibody cetuximab (CTX) is typically effective in treating KRAS‐wild type colorectal cancer (CRC) cells (yellow cells). (b) Cetuximab is ineffective on other CRC cells that carry an active KRAS mutation (pink cells). These cells may produce Rab11a‐exosomes under nutrient and hypoxic stress, but they are presumably not required to maintain cetuximab resistance. (c) In heterogeneous CRC tumours, stress‐induced AREG‐loaded Rab11a‐exosomes from CTX‐resistant cells contribute to a mechanism leading to the development of drug resistance in previously CTX‐responsive cells, supporting clonal heterogeneity during tumour progression and further evolutionary change (orange cells).</p></caption><graphic position="anchor" id="jats-graphic-9" orientation="portrait" ns1:href="JEV2-13-e12465-g002.jpg" /></fig></sec><sec id="jev212465-sec-0160"><title>AUTHOR CONTRIBUTIONS</title><p>
+<bold>John D. Mason</bold>: Conceptualization; data curation; formal analysis; investigation; methodology; supervision; validation; visualization; writing—original draft; writing—review and editing. <bold>Ewan Marks</bold>: Data curation; formal analysis; investigation; methodology; validation; writing—review and editing. <bold>Shih‐Jung Fan</bold>: Conceptualization; data curation; formal analysis; methodology; resources; supervision; validation; visualization; writing—review and editing. <bold>Kristie McCormick</bold>: Methodology; resources; validation; writing—review and editing. <bold>Clive Wilson</bold>: Conceptualization; funding acquisition; project administration; supervision; validation; visualization; writing—original draft; writing—review and editing. <bold>Adrian L. Harris</bold>: Conceptualization; funding acquisition; project administration; supervision; validation; visualization; writing—review and editing. <bold>Freddie C. Hamdy</bold>: Conceptualization; funding acquisition; supervision; validation; writing—review and editing. <bold>Chris Cunningham</bold>: Conceptualization; funding acquisition; supervision; validation; writing—review and editing. <bold>Deborah C. I. Goberdhan</bold>: Conceptualization; data curation; formal analysis; funding acquisition; project administration; supervision; validation; visualization; writing—original draft; writing—review and editing.</p></sec><sec sec-type="COI-statement" id="jev212465-sec-0180"><title>CONFLICTS OF INTEREST STATEMENT</title><p>The authors declare that they have no conflicts of interest in relation to this work.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="jev212465-supitem-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>Supporting Information</p></caption><media ns1:href="JEV2-13-e12465-s001.docx" position="float" orientation="portrait" /></supplementary-material></sec></body><back><ack id="jev212465-sec-0170"><title>ACKNOWLEDGEMENTS</title><p>We are very grateful to Errin Johnson for providing electron micrographs for this study and Simon Buczacki for reviewing this manuscript. We acknowledge the support of Cancer Research UK (C19591/A19076, C602/A18974) and the BBSRC (BB/N016300/1, BB/R004862/1). This research was funded in part by the above grants from CRUK and the BBSRC. For the purpose of Open Access, the authors have applied a CC BY public copyright licence to any Author Accepted Manuscript (AAM) version arising from this submission.</p></ack><ref-list id="jev212465-bibl-0001"><title>REFERENCES</title><ref id="jev212465-bib-0001"><mixed-citation publication-type="journal" id="jev212465-cit-0001">
+<string-name name-style="western">
+<surname>Ahmed</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Eide</surname>, <given-names>P. W.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Eilertsen</surname>, <given-names>I. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Danielsen</surname>, <given-names>S. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Eknæs</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hektoen</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lind</surname>, <given-names>G. E.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Lothe</surname>, <given-names>R. A.</given-names>
+</string-name> (<year>2013</year>). <article-title>Epigenetic and genetic features of 24 colon cancer cell lines</article-title>. <source>Oncogenesis</source>, <volume>2</volume>, <elocation-id>e71</elocation-id>.<pub-id pub-id-type="pmid">24042735</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/oncsis.2013.35</pub-id><pub-id pub-id-type="pmcid">PMC3816225</pub-id></mixed-citation></ref><ref id="jev212465-bib-0002"><mixed-citation publication-type="journal" id="jev212465-cit-0002">
+<string-name name-style="western">
+<surname>Allegra</surname>, <given-names>C. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rumble</surname>, <given-names>R. B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hamilton</surname>, <given-names>S. R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mangu</surname>, <given-names>P. B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Roach</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hantel</surname>, <given-names>A.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Schilsky</surname>, <given-names>R. L.</given-names>
+</string-name> (<year>2016</year>). <article-title>Extended RAS gene mutation testing in metastatic colorectal carcinoma to predict response to anti‐epidermal growth factor receptor monoclonal antibody therapy: American Society of Clinical Oncology Provisional Clinical Opinion Update 2015</article-title>. <source>Journal of Clinical Oncology</source>, <volume>34</volume>, <fpage>179</fpage>–<lpage>185</lpage>.<pub-id pub-id-type="pmid">26438111</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1200/JCO.2015.63.9674</pub-id></mixed-citation></ref><ref id="jev212465-bib-0043"><mixed-citation publication-type="journal" id="jev212465-cit-0043">
+<string-name name-style="western">
+<surname>Bando</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ohtsu</surname>, <given-names>A.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Yoshino</surname>, <given-names>T.</given-names>
+</string-name> (<year>2023</year>). <article-title>Therapeutic landscape and future direction of metastatic colorectal cancer</article-title>. <source>Nature Reviews Gastroenterology &amp; Hepatology</source>, <volume>20</volume>, <fpage>306</fpage>–<lpage>322</lpage>.<pub-id pub-id-type="pmid">36670267</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41575-022-00736-1</pub-id></mixed-citation></ref><ref id="jev212465-bib-0003"><mixed-citation publication-type="journal" id="jev212465-cit-0003">
+<string-name name-style="western">
+<surname>Bhattacharya</surname>, <given-names>S.</given-names>
+</string-name> (<year>2023</year>). <article-title>An empirical review on the resistance mechanisms of epidermal growth factor receptor inhibitors and predictive molecular biomarkers in colorectal cancer</article-title>. <source>Critical Reviews in Oncology/Hematology</source>, <volume>183</volume>, <elocation-id>103916</elocation-id>.<pub-id pub-id-type="pmid">36717006</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.critrevonc.2023.103916</pub-id></mixed-citation></ref><ref id="jev212465-bib-0004"><mixed-citation publication-type="journal" id="jev212465-cit-0004">
+<string-name name-style="western">
+<surname>Bishop</surname>, <given-names>P. C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Myers</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Robey</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fry</surname>, <given-names>D. W.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>, <given-names>E. T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Blagosklonny</surname>, <given-names>M. V.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Bates</surname>, <given-names>S. E.</given-names>
+</string-name> (<year>2002</year>). <article-title>Differential sensitivity of cancer cells to inhibitors of the epidermal growth factor receptor family</article-title>. <source>Oncogene</source>, <volume>21</volume>, <fpage>119</fpage>–<lpage>127</lpage>.<pub-id pub-id-type="pmid">11791182</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/sj.onc.1205028</pub-id></mixed-citation></ref><ref id="jev212465-bib-0005"><mixed-citation publication-type="miscellaneous" id="jev212465-cit-0005">
+<collab collab-type="authors">Cancer Research UK</collab>
+. (<year>2023</year>). <ext-link ns1:href="https://www.cancerresearchuk.org/health-professional/cancer-statistics/statistics-by-cancer-type/bowel-cancer" ext-link-type="uri">https://www.cancerresearchuk.org/health‐professional/cancer‐statistics/statistics‐by‐cancer‐type/bowel‐cancer</ext-link>
+</mixed-citation></ref><ref id="jev212465-bib-0006"><mixed-citation publication-type="journal" id="jev212465-cit-0006">
+<string-name name-style="western">
+<surname>Chan</surname>, <given-names>D. K. H.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Buczacki</surname>, <given-names>S. J. A.</given-names>
+</string-name> (<year>2021</year>). <article-title>Tumour heterogeneity and evolutionary dynamics in colorectal cancer</article-title>. <source>Oncogenesis</source>, <volume>10</volume>, <fpage>53</fpage>.<pub-id pub-id-type="pmid">34272358</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41389-021-00342-x</pub-id><pub-id pub-id-type="pmcid">PMC8285471</pub-id></mixed-citation></ref><ref id="jev212465-bib-0007"><mixed-citation publication-type="journal" id="jev212465-cit-0007">
+<string-name name-style="western">
+<surname>Chen</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Huang</surname>, <given-names>A. C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhang</surname>, <given-names>W.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhang</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wu</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Xu</surname>, <given-names>W.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yu</surname>, <given-names>Z.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yang</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sun</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Xia</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Man</surname>, <given-names>Q.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhong</surname>, <given-names>W.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Antelo</surname>, <given-names>L. F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wu</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Xiong</surname>, <given-names>X.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>, <given-names>X.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Guan</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Li</surname>, <given-names>T.</given-names>
+</string-name>, … <string-name name-style="western">
+<surname>Guo</surname>, <given-names>W.</given-names>
+</string-name> (<year>2018</year>). <article-title>Exosomal PD‐L1 contributes to immunosuppression and is associated with anti‐PD‐1 response</article-title>. <source>Nature</source>, <volume>560</volume>, <fpage>382</fpage>–<lpage>386</lpage>.<pub-id pub-id-type="pmid">30089911</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41586-018-0392-8</pub-id><pub-id pub-id-type="pmcid">PMC6095740</pub-id></mixed-citation></ref><ref id="jev212465-bib-0008"><mixed-citation publication-type="journal" id="jev212465-cit-0008">
+<string-name name-style="western">
+<surname>Cheng</surname>, <given-names>L.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Hill</surname>, <given-names>A. F.</given-names>
+</string-name> (<year>2022</year>). <article-title>Therapeutically harnessing extracellular vesicles</article-title>. <source>Nature Reviews Drug Discovery</source>, <volume>21</volume>, <fpage>379</fpage>–<lpage>399</lpage>.<pub-id pub-id-type="pmid">35236964</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41573-022-00410-w</pub-id></mixed-citation></ref><ref id="jev212465-bib-0009"><mixed-citation publication-type="journal" id="jev212465-cit-0009">
+<string-name name-style="western">
+<surname>Corrigan</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Redhai</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Leiblich</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fan</surname>, <given-names>S. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Perera</surname>, <given-names>S. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Patel</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gandy</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wainwright</surname>, <given-names>S. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Morris</surname>, <given-names>J. F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hamdy</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Goberdhan</surname>, <given-names>D. C.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Wilson</surname>, <given-names>C.</given-names>
+</string-name> (<year>2014</year>). <article-title>BMP‐regulated exosomes from <italic toggle="yes">Drosophila</italic> male reproductive glands reprogram female behavior</article-title>. <source>Journal of Cell Biology</source>, <volume>206</volume>, <fpage>671</fpage>–<lpage>688</lpage>.<pub-id pub-id-type="pmid">25154396</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1083/jcb.201401072</pub-id><pub-id pub-id-type="pmcid">PMC4151142</pub-id></mixed-citation></ref><ref id="jev212465-bib-0011"><mixed-citation publication-type="journal" id="jev212465-cit-0011">
+<string-name name-style="western">
+<surname>Dixson</surname>, <given-names>A. C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dawson</surname>, <given-names>T. R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>di Vizio</surname>, <given-names>D.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Weaver</surname>, <given-names>A. M.</given-names>
+</string-name> (<year>2023</year>). <article-title>Context‐specific regulation of extracellular vesicle biogenesis and cargo selection</article-title>. <source>Nature Reviews Molecular Cell Biology</source>, <volume>24</volume>, <fpage>454</fpage>–<lpage>476</lpage>.<pub-id pub-id-type="pmid">36765164</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41580-023-00576-0</pub-id><pub-id pub-id-type="pmcid">PMC10330318</pub-id></mixed-citation></ref><ref id="jev212465-bib-0012"><mixed-citation publication-type="journal" id="jev212465-cit-0012">
+<string-name name-style="western">
+<surname>Fan</surname>, <given-names>S. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kroeger</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Marie</surname>, <given-names>P. P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bridges</surname>, <given-names>E. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mason</surname>, <given-names>J. D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>McCormick</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zois</surname>, <given-names>C. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sheldon</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Khalid Alham</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Johnson</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ellis</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Stefana</surname>, <given-names>M. I.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mendes</surname>, <given-names>C. C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wainwright</surname>, <given-names>S. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cunningham</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hamdy</surname>, <given-names>F. C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Harris</surname>, <given-names>A. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wilson</surname>, <given-names>C.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Goberdhan</surname>, <given-names>D. C. I.</given-names>
+</string-name> (<year>2020</year>). <article-title>Glutamine deprivation alters the origin and function of cancer cell exosomes</article-title>. <source>Embo Journal</source>, <volume>39</volume>, <elocation-id>e1039009</elocation-id>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.15252/embj.2019103009</pub-id><pub-id pub-id-type="pmcid">PMC7429491</pub-id><pub-id pub-id-type="pmid">32720716</pub-id></mixed-citation></ref><ref id="jev212465-bib-0013"><mixed-citation publication-type="journal" id="jev212465-cit-0013">
+<string-name name-style="western">
+<surname>Flecchia</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zaanan</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lahlou</surname>, <given-names>W.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Basile</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Broudin</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gallois</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pilla</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Karoui</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Manceau</surname>, <given-names>G.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Taieb</surname>, <given-names>J.</given-names>
+</string-name> (<year>2022</year>). <article-title>MSI colorectal cancer, all you need to know</article-title>. <source>Clinics and Research in Hepatology and Gastroenterology</source>, <volume>46</volume>, <elocation-id>101983</elocation-id>.<pub-id pub-id-type="pmid">35732266</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.clinre.2022.101983</pub-id></mixed-citation></ref><ref id="jev212465-bib-0014"><mixed-citation publication-type="journal" id="jev212465-cit-0014">
+<string-name name-style="western">
+<surname>Fornasier</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Francescon</surname>, <given-names>S.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Baldo</surname>, <given-names>P.</given-names>
+</string-name> (<year>2018</year>). <article-title>An update of efficacy and safety of cetuximab in metastatic colorectal cancer: A narrative review</article-title>. <source>Advances in Therapy</source>, <volume>35</volume>, <fpage>1497</fpage>–<lpage>1509</lpage>.<pub-id pub-id-type="pmid">30218345</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s12325-018-0791-0</pub-id></mixed-citation></ref><ref id="jev212465-bib-0015"><mixed-citation publication-type="journal" id="jev212465-cit-0015">
+<string-name name-style="western">
+<surname>Goberdhan</surname>, <given-names>D. C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wilson</surname>, <given-names>C.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Harris</surname>, <given-names>A. L.</given-names>
+</string-name> (<year>2016</year>). <article-title>Amino Acid Sensing by mTORC1: Intracellular Transporters Mark the Spot</article-title>. <source>Cell Metabolism</source>, <volume>23</volume>, <fpage>580</fpage>–<lpage>589</lpage>.<pub-id pub-id-type="pmid">27076075</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cmet.2016.03.013</pub-id><pub-id pub-id-type="pmcid">PMC5067300</pub-id></mixed-citation></ref><ref id="jev212465-bib-0016"><mixed-citation publication-type="journal" id="jev212465-cit-0016">
+<string-name name-style="western">
+<surname>Guinney</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dienstmann</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>, <given-names>X.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>de Reyniès</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schlicker</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Soneson</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Marisa</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Roepman</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nyamundanda</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Angelino</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bot</surname>, <given-names>B. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Morris</surname>, <given-names>J. S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Simon</surname>, <given-names>I. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gerster</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fessler</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>De Sousa E Melo</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Missiaglia</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ramay</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Barras</surname>, <given-names>D.</given-names>
+</string-name>, … <string-name name-style="western">
+<surname>Tejpar</surname>, <given-names>S.</given-names>
+</string-name> (<year>2015</year>). <article-title>The consensus molecular subtypes of colorectal cancer</article-title>. <source>Nature Medicine</source>, <volume>21</volume>, <fpage>1350</fpage>–<lpage>1356</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nm.3967</pub-id><pub-id pub-id-type="pmcid">PMC4636487</pub-id><pub-id pub-id-type="pmid">26457759</pub-id></mixed-citation></ref><ref id="jev212465-bib-0017"><mixed-citation publication-type="journal" id="jev212465-cit-0017">
+<string-name name-style="western">
+<surname>Hobor</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Van Emburgh</surname>, <given-names>B. O.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Crowley</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Misale</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Di Nicolantonio</surname>, <given-names>F.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Bardelli</surname>, <given-names>A.</given-names>
+</string-name> (<year>2014</year>). <article-title>TGFα and amphiregulin paracrine network promotes resistance to EGFR blockade in colorectal cancer cells</article-title>. <source>Clinical Cancer Research</source>, <volume>20</volume>, <fpage>6429</fpage>–<lpage>6438</lpage>.<pub-id pub-id-type="pmid">24916700</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/1078-0432.CCR-14-0774</pub-id></mixed-citation></ref><ref id="jev212465-bib-0018"><mixed-citation publication-type="journal" id="jev212465-cit-0018">
+<string-name name-style="western">
+<surname>Hong</surname>, <given-names>C. S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sun</surname>, <given-names>E. G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Choi</surname>, <given-names>J. N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kim</surname>, <given-names>D. H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kim</surname>, <given-names>J. H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ryu</surname>, <given-names>K. H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shim</surname>, <given-names>H. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hwang</surname>, <given-names>J. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bae</surname>, <given-names>W. K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kim</surname>, <given-names>H. R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kim</surname>, <given-names>K. K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jung</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chung</surname>, <given-names>I. J.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Cho</surname>, <given-names>S. H.</given-names>
+</string-name> (<year>2020</year>). <article-title>Fibroblast growth factor receptor 4 increases epidermal growth factor receptor (EGFR) signaling by inducing amphiregulin expression and attenuates response to EGFR inhibitors in colon cancer</article-title>. <source>Cancer Science</source>, <volume>111</volume>, <fpage>3268</fpage>–<lpage>3278</lpage>.<pub-id pub-id-type="pmid">32533590</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/cas.14526</pub-id><pub-id pub-id-type="pmcid">PMC7469799</pub-id></mixed-citation></ref><ref id="jev212465-bib-0019"><mixed-citation publication-type="journal" id="jev212465-cit-0019">
+<string-name name-style="western">
+<surname>Jeppesen</surname>, <given-names>D. K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fenix</surname>, <given-names>A. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Franklin</surname>, <given-names>J. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Higginbotham</surname>, <given-names>J. N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhang</surname>, <given-names>Q.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zimmerman</surname>, <given-names>L. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liebler</surname>, <given-names>D. C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ping</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>, <given-names>Q.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Evans</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fissell</surname>, <given-names>W. H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Patton</surname>, <given-names>J. G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rome</surname>, <given-names>L. H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Burnette</surname>, <given-names>D. T.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Coffey</surname>, <given-names>R. J.</given-names>
+</string-name> (<year>2019</year>). <article-title>Reassessment of exosome composition</article-title>. <source>Cell</source>, <volume>177</volume>, <fpage>428</fpage>–<lpage>445.e18</lpage>.<pub-id pub-id-type="pmid">30951670</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cell.2019.02.029</pub-id><pub-id pub-id-type="pmcid">PMC6664447</pub-id></mixed-citation></ref><ref id="jev212465-bib-0020"><mixed-citation publication-type="journal" id="jev212465-cit-0020">
+<string-name name-style="western">
+<surname>Kucharzewska</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Christianson</surname>, <given-names>H. C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Welch</surname>, <given-names>J. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Svensson</surname>, <given-names>K. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fredlund</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ringnér</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mörgelin</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bourseau‐Guilmain</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bengzon</surname>, <given-names>J.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Belting</surname>, <given-names>M.</given-names>
+</string-name> (<year>2013</year>). <article-title>Exosomes reflect the hypoxic status of glioma cells and mediate hypoxia‐dependent activation of vascular cells during tumor development</article-title>. <source>PNAS</source>, <volume>110</volume>, <fpage>7312</fpage>–<lpage>7317</lpage>.<pub-id pub-id-type="pmid">23589885</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.1220998110</pub-id><pub-id pub-id-type="pmcid">PMC3645587</pub-id></mixed-citation></ref><ref id="jev212465-bib-0021"><mixed-citation publication-type="journal" id="jev212465-cit-0021">
+<string-name name-style="western">
+<surname>Lucotti</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kenific</surname>, <given-names>C. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhang</surname>, <given-names>H.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Lyden</surname>, <given-names>D.</given-names>
+</string-name> (<year>2022</year>). <article-title>Extracellular vesicles and particles impact the systemic landscape of cancer</article-title>. <source>Embo Journal</source>, <volume>41</volume>, <elocation-id>e109288</elocation-id>.<pub-id pub-id-type="pmid">36052513</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.15252/embj.2021109288</pub-id><pub-id pub-id-type="pmcid">PMC9475536</pub-id></mixed-citation></ref><ref id="jev212465-bib-0023"><mixed-citation publication-type="journal" id="jev212465-cit-0023">
+<string-name name-style="western">
+<surname>Marie</surname>, <given-names>P. P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fan</surname>, <given-names>S. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mason</surname>, <given-names>J. D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wells</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mendes</surname>, <given-names>C. C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wainwright</surname>, <given-names>S. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Scott</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fischer R Harris</surname>, <given-names>A. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wilson</surname>, <given-names>C.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Goberdhan</surname>, <given-names>D. C. I.</given-names>
+</string-name> (<year>2023</year>). <article-title>Accessory ESCRT‐III proteins are conserved and selective regulators of Rab11a‐exosome formation</article-title>. <source>Journal of Extracellular Vesicles</source>, <volume>12</volume>, <elocation-id>e12311</elocation-id>.<pub-id pub-id-type="pmid">36872252</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/jev2.12311</pub-id><pub-id pub-id-type="pmcid">PMC9986085</pub-id></mixed-citation></ref><ref id="jev212465-bib-0024"><mixed-citation publication-type="journal" id="jev212465-cit-0024">
+<string-name name-style="western">
+<surname>Misale</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yaeger</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hobor</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Scala</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Janakiraman</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liska</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Valtorta</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schiavo</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Buscarino</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Siravegna</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bencardino</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cercek</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chen</surname>, <given-names>C. T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Veronese</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zanon</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sartore‐Bianchi</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gambacorta</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gallicchio</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vakiani</surname>, <given-names>E.</given-names>
+</string-name>, … <string-name name-style="western">
+<surname>Bardelli</surname>, <given-names>A.</given-names>
+</string-name> (<year>2012</year>). <article-title>Emergence of KRAS mutations and acquired resistance to anti‐EGFR therapy in colorectal cancer</article-title>. <source>Nature</source>, <volume>486</volume>, <fpage>532</fpage>–<lpage>536</lpage>.<pub-id pub-id-type="pmid">22722830</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature11156</pub-id><pub-id pub-id-type="pmcid">PMC3927413</pub-id></mixed-citation></ref><ref id="jev212465-bib-0025"><mixed-citation publication-type="journal" id="jev212465-cit-0025">
+<string-name name-style="western">
+<surname>Poggio</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hu</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pai</surname>, <given-names>C. C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chu</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Belair</surname>, <given-names>C. D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chang</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Montabana</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lang</surname>, <given-names>U. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fu</surname>, <given-names>Q.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fong</surname>, <given-names>L.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Blelloch</surname>, <given-names>R.</given-names>
+</string-name> (<year>2019</year>). <article-title>Suppression of Exosomal PD‐L1 Induces Systemic Anti‐tumor Immunity and Memory</article-title>. <source>Cell</source>, <volume>177</volume>, <fpage>414</fpage>–<lpage>427.e13</lpage>.<pub-id pub-id-type="pmid">30951669</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cell.2019.02.016</pub-id><pub-id pub-id-type="pmcid">PMC6499401</pub-id></mixed-citation></ref><ref id="jev212465-bib-0026"><mixed-citation publication-type="journal" id="jev212465-cit-0026">
+<string-name name-style="western">
+<surname>Raimondo</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Saieva</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vicario</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pucci</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Toscani</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Manno</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Raccosta</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Giuliani</surname>, <given-names>N.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Alessandro</surname>, <given-names>R.</given-names>
+</string-name> (<year>2019</year>). <article-title>Multiple myeloma‐derived exosomes are enriched of amphiregulin (AREG) and activate the epidermal growth factor pathway in the bone microenvironment leading to osteoclastogenesis</article-title>. <source>Journal of Hematology &amp; Oncology</source>, <volume>12</volume>, <fpage>2</fpage>.<pub-id pub-id-type="pmid">30621731</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s13045-018-0689-y</pub-id><pub-id pub-id-type="pmcid">PMC6325886</pub-id></mixed-citation></ref><ref id="jev212465-bib-0027"><mixed-citation publication-type="journal" id="jev212465-cit-0027">
+<string-name name-style="western">
+<surname>Randon</surname>, <given-names>G.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Pietrantonio</surname>, <given-names>F.</given-names>
+</string-name> (<year>2023</year>). <article-title>Towards multiomics‐based dissection of anti‐EGFR sensitivity in colorectal cancer</article-title>. <source>Clinical Cancer Research</source>, <volume>29</volume>, <fpage>4021</fpage>–<lpage>4023</lpage>.<pub-id pub-id-type="pmid">37594733</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/1078-0432.CCR-23-1954</pub-id><pub-id pub-id-type="pmcid">PMC10570674</pub-id></mixed-citation></ref><ref id="jev212465-bib-0029"><mixed-citation publication-type="journal" id="jev212465-cit-0029">
+<string-name name-style="western">
+<surname>Sforza</surname>, <given-names>V.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Martinelli</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ciardiello</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gambardella</surname>, <given-names>V.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Napolitano</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Martini</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Della Corte</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cardone</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ferrara</surname>, <given-names>M. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Reginelli</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liguori</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Belli</surname>, <given-names>G.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Troiani</surname>, <given-names>T.</given-names>
+</string-name> (<year>2016</year>). <article-title>Mechanisms of resistance to anti‐epidermal growth factor receptor inhibitors in metastatic colorectal cancer</article-title>. <source>World Journal of Gastroenterology</source>, <volume>22</volume>, <fpage>6345</fpage>–<lpage>6361</lpage>.<pub-id pub-id-type="pmid">27605871</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3748/wjg.v22.i28.6345</pub-id><pub-id pub-id-type="pmcid">PMC4968117</pub-id></mixed-citation></ref><ref id="jev212465-bib-0030"><mixed-citation publication-type="journal" id="jev212465-cit-0030">
+<string-name name-style="western">
+<surname>Sveen</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bruun</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Eide</surname>, <given-names>P. W.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Eilertsen</surname>, <given-names>I. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ramirez</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Murumägi</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Arjama</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Danielsen</surname>, <given-names>S. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kryeziu</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Elez</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tabernero</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Guinney</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Palmer</surname>, <given-names>H. G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nesbakken</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kallioniemi</surname>, <given-names>O.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dienstmann</surname>, <given-names>R.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Lothe</surname>, <given-names>R. A.</given-names>
+</string-name> (<year>2018</year>). <article-title>Colorectal cancer consensus molecular subtypes translated to preclinical models uncover potentially targetable cancer cell dependencies</article-title>. <source>Clinical Cancer Research</source>, <volume>24</volume>, <fpage>794</fpage>–<lpage>806</lpage>.<pub-id pub-id-type="pmid">29242316</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/1078-0432.CCR-17-1234</pub-id></mixed-citation></ref><ref id="jev212465-bib-0031"><mixed-citation publication-type="journal" id="jev212465-cit-0031">
+<string-name name-style="western">
+<surname>van Niel</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Carter</surname>, <given-names>D. R. F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Clayton</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lambert</surname>, <given-names>D. W.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Raposo</surname>, <given-names>G.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Vader</surname>, <given-names>P.</given-names>
+</string-name> (<year>2022</year>). <article-title>Challenges and directions in studying cell‐cell communication by extracellular vesicles</article-title>. <source>Nature Reviews Molecular Cell Biology</source>, <volume>23</volume>, <fpage>369</fpage>–<lpage>382</lpage>.<pub-id pub-id-type="pmid">35260831</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41580-022-00460-3</pub-id></mixed-citation></ref><ref id="jev212465-bib-0032"><mixed-citation publication-type="journal" id="jev212465-cit-0032">
+<string-name name-style="western">
+<surname>Vietri</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Radulovic</surname>, <given-names>M.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Stenmark</surname>, <given-names>H.</given-names>
+</string-name> (<year>2019</year>). <article-title>The many functions of ESCRTs</article-title>. <source>Nature Reviews Molecular Cell Biology</source>, <volume>21</volume>, <fpage>25</fpage>–<lpage>42</lpage>.<pub-id pub-id-type="pmid">31705132</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41580-019-0177-4</pub-id></mixed-citation></ref><ref id="jev212465-bib-0033"><mixed-citation publication-type="journal" id="jev212465-cit-0033">
+<string-name name-style="western">
+<surname>Wang</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mouradov</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>, <given-names>X.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jorissen</surname>, <given-names>R. N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chambers</surname>, <given-names>M. C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zimmerman</surname>, <given-names>L. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vasaikar</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Love</surname>, <given-names>C. G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Li</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lowes</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Leuchowius</surname>, <given-names>K. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jousset</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Weinstock</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yau</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mariadason</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shi</surname>, <given-names>Z.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ban</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chen</surname>, <given-names>X.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Coffey</surname>, <given-names>R. J. C.</given-names>
+</string-name>, … <string-name name-style="western">
+<surname>Sieber</surname>, <given-names>O. M.</given-names>
+</string-name> (<year>2017</year>). <article-title>Colorectal cancer cell line proteomes are representative of primary tumors and predict drug sensitivity</article-title>. <source>Gastroenterology</source>, <volume>153</volume>, <fpage>1082</fpage>–<lpage>1095</lpage>.<pub-id pub-id-type="pmid">28625833</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1053/j.gastro.2017.06.008</pub-id><pub-id pub-id-type="pmcid">PMC5623120</pub-id></mixed-citation></ref><ref id="jev212465-bib-0034"><mixed-citation publication-type="journal" id="jev212465-cit-0034">
+<string-name name-style="western">
+<surname>Welsh</surname>, <given-names>J. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Goberdhan</surname>, <given-names>D. C. I.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>O'Driscoll</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Buzas</surname>, <given-names>E. I.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Blenkiron</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bussolati</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cai</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Di Vizio</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Driedonks</surname>, <given-names>T. A. P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Erdbrügger</surname>, <given-names>U.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Falcon‐Perez</surname>, <given-names>J. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fu</surname>, <given-names>Q. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hill</surname>, <given-names>A. F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lenassi</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lim</surname>, <given-names>S. K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mahoney</surname>, <given-names>M. G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mohanty</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Möller</surname>, <given-names>A.</given-names>
+</string-name>, … <string-name name-style="western">
+<surname>Witwer</surname>, <given-names>K. W.</given-names>
+</string-name> (<year>2024</year>). <article-title>Minimal information for studies of extracellular vesicles (MISEV2023): From basic to advanced approaches</article-title>. <source>Journal of Extracellular Vesicles</source>, <elocation-id>e12404</elocation-id>.<pub-id pub-id-type="pmid">38326288</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/jev2.12404</pub-id><pub-id pub-id-type="pmcid">PMC10850029</pub-id></mixed-citation></ref><ref id="jev212465-bib-0035"><mixed-citation publication-type="journal" id="jev212465-cit-0035">
+<string-name name-style="western">
+<surname>Williams</surname>, <given-names>C. J. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Elliott</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sapanara</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Aghaei</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhang</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Muranyi</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yan</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bai</surname>, <given-names>I.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhao</surname>, <given-names>Z.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shires</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wood</surname>, <given-names>H. M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Richman</surname>, <given-names>S. D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hemmings</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hale</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bottomley</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Galvin</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cartlidge</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dance</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bacon</surname>, <given-names>C. M.</given-names>
+</string-name>, … <string-name name-style="western">
+<surname>Quirke</surname>, <given-names>P.</given-names>
+</string-name> (<year>2023</year>). <article-title>Associations between AI‐Assisted Tumor Amphiregulin and Epiregulin IHC and Outcomes from Anti‐EGFR Therapy in the Routine Management of Metastatic Colorectal Cancer</article-title>. <source>Clinical Cancer Research</source>, <volume>29</volume>, <fpage>4153</fpage>–<lpage>4165</lpage>.<pub-id pub-id-type="pmid">37363997</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/1078-0432.CCR-23-0859</pub-id><pub-id pub-id-type="pmcid">PMC10570673</pub-id></mixed-citation></ref><ref id="jev212465-bib-0036"><mixed-citation publication-type="journal" id="jev212465-cit-0036">
+<string-name name-style="western">
+<surname>Wilson</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Leiblich</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Goberdhan</surname>, <given-names>D. C. I.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Hamdy</surname>, <given-names>F. C.</given-names>
+</string-name> (<year>2017</year>). <article-title>The <italic toggle="yes">Drosophila</italic> accessory gland as a model for prostate cancer and other pathologies</article-title>. <source>Current Topics in Developmental Biology</source>, <volume>121</volume>, <fpage>339</fpage>–<lpage>375</lpage>.<pub-id pub-id-type="pmid">28057306</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/bs.ctdb.2016.06.001</pub-id><pub-id pub-id-type="pmcid">PMC5224695</pub-id></mixed-citation></ref><ref id="jev212465-bib-0037"><mixed-citation publication-type="journal" id="jev212465-cit-0037">
+<string-name name-style="western">
+<surname>Wong</surname>, <given-names>T. W.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lee</surname>, <given-names>F. Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yu</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Luo</surname>, <given-names>F. R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Oppenheimer</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhang</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Smykla</surname>, <given-names>R. A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mastalerz</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fink</surname>, <given-names>B. E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hunt</surname>, <given-names>J. T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gavai</surname>, <given-names>A. V.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Vite</surname>, <given-names>G. D.</given-names>
+</string-name> (<year>2006</year>). <article-title>Preclinical antitumor activity of BMS‐599626, a pan‐HER kinase inhibitor that inhibits HER1/HER2 homodimer and heterodimer signaling</article-title>. <source>Clinical Cancer Research</source>, <volume>12</volume>, <fpage>6186</fpage>–<lpage>6193</lpage>.<pub-id pub-id-type="pmid">17062696</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/1078-0432.CCR-06-0642</pub-id></mixed-citation></ref><ref id="jev212465-bib-0038"><mixed-citation publication-type="journal" id="jev212465-cit-0038">
+<string-name name-style="western">
+<surname>Woolston</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Khan</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Spain</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Barber</surname>, <given-names>L. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Griffiths</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gonzalez‐Exposito</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hornsteiner</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Punta</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Patil</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Newey</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mansukhani</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Davies</surname>, <given-names>M. N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Furness</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sclafani</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Peckitt</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jiménez</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kouvelakis</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ranftl</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Begum</surname>, <given-names>R.</given-names>
+</string-name>, … <string-name name-style="western">
+<surname>Gerlinger</surname>, <given-names>M.</given-names>
+</string-name> (<year>2019</year>). <article-title>Genomic and transcriptomic determinants of therapy resistance and immune landscape evolution during anti‐EGFR treatment in colorectal cancer</article-title>. <source>Cancer Cell</source>, <volume>36</volume>, <fpage>35</fpage>–<lpage>50</lpage>.<pub-id pub-id-type="pmid">31287991</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ccell.2019.05.013</pub-id><pub-id pub-id-type="pmcid">PMC6617392</pub-id></mixed-citation></ref><ref id="jev212465-bib-0039"><mixed-citation publication-type="journal" id="jev212465-cit-0039">
+<string-name name-style="western">
+<surname>Yang</surname>, <given-names>Y. N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhang</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Du</surname>, <given-names>J. W.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yuan</surname>, <given-names>H. H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Li</surname>, <given-names>Y. J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wei</surname>, <given-names>X. L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Du</surname>, <given-names>X. X.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jiang</surname>, <given-names>S. L.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Han</surname>, <given-names>Y.</given-names>
+</string-name> (<year>2018</year>). <article-title>Predictive role of UCA1‐containing exosomes in cetuximab‐resistant colorectal cancer</article-title>. <source>Cancer Cell International</source>, <volume>18</volume>, <fpage>164</fpage>.<pub-id pub-id-type="pmid">30377411</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s12935-018-0660-6</pub-id><pub-id pub-id-type="pmcid">PMC6196422</pub-id></mixed-citation></ref><ref id="jev212465-bib-0040"><mixed-citation publication-type="journal" id="jev212465-cit-0040">
+<string-name name-style="western">
+<surname>Yates</surname>, <given-names>A. G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pink</surname>, <given-names>R. C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Erdbrügger</surname>, <given-names>U.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Siljander</surname>, <given-names>P. R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dellar</surname>, <given-names>E. R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pantazi</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Akbar</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cooke</surname>, <given-names>W. R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vatish</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dias‐Neto</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Anthony</surname>, <given-names>D. C.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Couch</surname>, <given-names>Y.</given-names>
+</string-name> (<year>2022</year>). <article-title>In sickness and in health: The functional role of extracellular vesicles in physiology and pathology <italic toggle="yes">in vivo</italic>
+</article-title>. <source>Part I: Health and Normal Physiology Journal of Extracellular Vesicles</source>, <volume>11</volume>, <elocation-id>e12151</elocation-id>.<pub-id pub-id-type="pmid">35041249</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/jev2.12151</pub-id><pub-id pub-id-type="pmcid">PMC8765331</pub-id></mixed-citation></ref><ref id="jev212465-bib-0041"><mixed-citation publication-type="journal" id="jev212465-cit-0041">
+<string-name name-style="western">
+<surname>Zhang</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhang</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Qu</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Che</surname>, <given-names>X.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fan</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hou</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Guo</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Deng</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Song</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Li</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wan</surname>, <given-names>X.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Qu</surname>, <given-names>X.</given-names>
+</string-name>, &amp; <string-name name-style="western">
+<surname>Liu</surname>, <given-names>Y.</given-names>
+</string-name> (<year>2017</year>). <article-title>Exosomes promote cetuximab resistance via the PTEN/Akt pathway in colon cancer cells</article-title>. <source>Brazilian Journal of Medical and Biological Research</source>, <volume>51</volume>, <elocation-id>e6472</elocation-id>.<pub-id pub-id-type="pmid">29160412</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1590/1414-431X20176472</pub-id><pub-id pub-id-type="pmcid">PMC5685060</pub-id></mixed-citation></ref></ref-list></back></article>

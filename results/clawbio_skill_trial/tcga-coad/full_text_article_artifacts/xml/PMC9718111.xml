@@ -1,0 +1,310 @@
+<?xml version='1.0' encoding='utf-8'?>
+<article xmlns:ns0="http://www.niso.org/schemas/ali/1.0/" xmlns:ns1="http://www.w3.org/1999/xlink" id="mol213341" xml:lang="en" article-type="article-commentary" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Mol Oncol</journal-id><journal-id journal-id-type="iso-abbrev">Mol Oncol</journal-id><journal-id journal-id-type="pmc-domain-id">3199</journal-id><journal-id journal-id-type="pmc-domain">moloncol</journal-id><journal-id journal-id-type="nlm-id">101308230</journal-id><journal-id journal-id-type="publisher-id">MOL2</journal-id><journal-title-group><journal-title>Molecular Oncology</journal-title></journal-title-group><issn pub-type="ppub">1574-7891</issn><issn pub-type="epub">1878-0261</issn><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC9718111</article-id><article-id pub-id-type="pmcid-ver">PMC9718111.1</article-id><article-id pub-id-type="pmcaid">9718111</article-id><article-id pub-id-type="pmcaiid">9718111</article-id><article-id pub-id-type="pmid">36383067</article-id><article-id pub-id-type="doi">10.1002/1878-0261.13341</article-id><article-id pub-id-type="publisher-id">MOL213341</article-id><article-id pub-id-type="other">MOLONC-22-0888</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Commentary</subject></subj-group><subj-group subj-group-type="heading"><subject>Commentary</subject></subj-group></article-categories><title-group><article-title>
+<styled-content style="fixed-case" toggle="no">KRAS</styled-content> inhibitors: going noncovalent</article-title><alt-title alt-title-type="right-running-head">KRAS<sup>G12D</sup> is finally druggable</alt-title><alt-title alt-title-type="left-running-head">M. Drosten and M. Barbacid</alt-title></title-group><contrib-group><contrib id="mol213341-cr-0001" contrib-type="author" corresp="yes"><name name-style="western"><surname>Drosten</surname><given-names initials="M">Matthias</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-3205-456X</contrib-id><xref rid="mol213341-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><address><email>mdrosten@usal.es</email></address></contrib><contrib id="mol213341-cr-0002" contrib-type="author" corresp="yes"><name name-style="western"><surname>Barbacid</surname><given-names initials="M">Mariano</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-1480-2624</contrib-id><xref rid="mol213341-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><address><email>mbarbacid@cnio.es</email></address></contrib></contrib-group><aff id="mol213341-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Molecular Mechanisms of Cancer Program</named-content>
+<institution>Centro de Investigación del Cáncer (CIC) and Instituto de Biología Molecular y Celular del Cáncer (IBMCC), CSIC‐USAL</institution>
+<city>Salamanca</city>
+<country country="ES">Spain</country>
+</aff><aff id="mol213341-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Molecular Oncology Program</named-content>
+<institution>Centro Nacional de Investigaciones Oncológicas (CNIO)</institution>
+<city>Madrid</city>
+<country country="ES">Spain</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence</bold>
+<break />
+M. Drosten, Molecular Mechanisms of Cancer Program, Centro de Investigación del Cáncer (CIC) and Instituto de Biología Molecular y Celular del Cáncer (IBMCC), CSIC‐USAL, Campus Unamuno s/n, 37007 Salamanca, Spain<break />
+E‐mail: <email>mdrosten@usal.es</email>
+<break />
+M. Barbacid, Molecular Oncology Program, Centro Nacional de Investigaciones Oncológicas (CNIO), Melchor Fernández Almagro 3, 28029 Madrid, Spain<break />
+E‐mail: <email>mbarbacid@cnio.es</email>
+<break />
+</corresp></author-notes><pub-date pub-type="epub"><day>27</day><month>11</month><year>2022</year></pub-date><pub-date pub-type="ppub"><month>12</month><year>2022</year></pub-date><volume>16</volume><issue seq="20">22</issue><issue-id pub-id-type="pmc-issue-id">422864</issue-id><issue-id pub-id-type="doi">10.1002/mol2.v16.22</issue-id><issue-title>Genomic and metabolic profiles of gliomas</issue-title><fpage>3911</fpage><lpage>3915</lpage><history><date date-type="received"><day>03</day><month>11</month><year>2022</year></date><date date-type="accepted"><day>15</day><month>11</month><year>2022</year></date></history><pub-history><event event-type="pmc-release"><date><day>01</day><month>12</month><year>2022</year></date></event><event event-type="pmc-live"><date><day>05</day><month>12</month><year>2022</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2022-12-06 00:10:15.690"><day>06</day><month>12</month><year>2022</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2022 The Authors. <italic toggle="yes">Molecular Oncology</italic> published by John Wiley &amp; Sons Ltd on behalf of Federation of European Biochemical Societies.</copyright-statement><license><ns0:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ns0:license_ref><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" ns1:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pmc-pdf" ns1:href="MOL2-16-3911.pdf" /><self-uri content-type="pdf" ns1:href="file:MOL2-16-3911.pdf" /><abstract><p>
+<italic toggle="no">KRAS</italic>
+<sup>G12D</sup> is the most frequent <italic toggle="no">KRAS</italic> mutation in human cancer with particularly high frequencies in pancreatic and colorectal cancer. Informed by the structure of the KRAS<sup>G12C</sup> inhibitor adagrasib, Hallin et al. have now, through multiple rounds of structure‐based drug design, identified and validated a potent, selective, and noncovalent KRAS<sup>G12D</sup> inhibitor, MRTX1133. This study demonstrated that MRTX1133 inhibited both the inactive and active state of KRAS<sup>G12D</sup> and showed potent antitumor activity in several preclinical models of pancreatic and colorectal cancer, especially when combined with cetuximab, a monoclonal antibody against the EGFR, or BYL‐719, a potent PI3Kα inhibitor.</p></abstract><abstract abstract-type="graphical"><p>A new study by Hallin et al. has identified and validated a potent, selective, and noncovalent KRAS<sup>G12D</sup> inhibitor, MRTX1133. This inhibitor shows potent antitumor activity in several preclinical models of pancreatic and colorectal cancer, especially when combined either with cetuximab, a monoclonal antibody against the EGFR, or with BYL‐719, a potent PI3Kα inhibitor.<boxed-text position="anchor" content-type="graphic" id="mol213341-blkfxd-0001" orientation="portrait"><graphic position="anchor" id="jats-graphic-1" orientation="portrait" ns1:href="MOL2-16-3911-g002.jpg" /></boxed-text>
+</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="mol213341-kwd-0001">colorectal cancer</kwd><kwd id="mol213341-kwd-0002">combination therapies</kwd><kwd id="mol213341-kwd-0003">KRAS<sup>G12D</sup>
+</kwd><kwd id="mol213341-kwd-0004">noncovalent binding</kwd><kwd id="mol213341-kwd-0005">pancreatic ductal adenocarcinoma</kwd></kwd-group><counts><fig-count count="2" /><table-count count="0" /><page-count count="3915" /><word-count count="3107" /></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>December 2022</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.2.1 mode:remove_FC converted:02.12.2022</meta-value></custom-meta></custom-meta-group></article-meta><notes><fn-group id="mol213341-ntgp-0001"><fn id="mol213341-note-0001"><p>Comment on: <ext-link ns1:href="https://doi.org/10.1038/s41591-022-02007-7" ext-link-type="uri">https://doi.org/10.1038/s41591-022-02007-7</ext-link>
+</p></fn></fn-group></notes></front><body id="mol213341-body-0001"><def-list list-content="abbreviations" id="mol213341-lp-0001"><title>Abbreviations</title><def-item><term id="mol213341-li-0001">CRC</term><def id="mol213341-li-0002"><p>colorectal carcinoma</p></def></def-item><def-item><term id="mol213341-li-0003">GAP</term><def id="mol213341-li-0004"><p>GTPase‐activating protein</p></def></def-item><def-item><term id="mol213341-li-0005">GDP</term><def id="mol213341-li-0006"><p>guanosine diphosphate</p></def></def-item><def-item><term id="mol213341-li-0007">GMPPCP</term><def id="mol213341-li-0008"><p>β,γ‐Methyleneguanosine 5′‐triphosphate sodium salt</p></def></def-item><def-item><term id="mol213341-li-0009">GTP</term><def id="mol213341-li-0010"><p>guanosine triphosphate</p></def></def-item><def-item><term id="mol213341-li-0011">IC50</term><def id="mol213341-li-0012"><p>half maximal inhibitory concentration</p></def></def-item><def-item><term id="mol213341-li-0013">IP</term><def id="mol213341-li-0014"><p>intraperitoneal</p></def></def-item><def-item><term id="mol213341-li-0015">IV</term><def id="mol213341-li-0016"><p>intravenous</p></def></def-item><def-item><term id="mol213341-li-0017">ORR</term><def id="mol213341-li-0018"><p>objective response rate</p></def></def-item><def-item><term id="mol213341-li-0019">RBD</term><def id="mol213341-li-0020"><p>RAS‐binding domain</p></def></def-item></def-list><sec id="mol213341-sec-0001"><label>1</label><title>A historical perspective of <styled-content style="fixed-case" toggle="no">KRAS</styled-content>‐targeting drugs</title><p>
+<italic toggle="yes">KRAS</italic> oncogenes have been identified in a quarter of all human tumors and appear with high prevalence in some of the most lethal types of cancer such as pancreatic ductal adenocarcinoma (PDAC, 95%), colorectal carcinoma (CRC, 50%), and lung adenocarcinoma (LUAD, 30%). Yet, KRAS oncoproteins were considered undruggable for decades and patients with <italic toggle="yes">KRAS</italic>‐mutant tumors remained excluded from personalized medicine approaches [<xref rid="mol213341-bib-0001" ref-type="bibr">1</xref>]. This notion changed recently thanks to the identification of a previously unrecognized pocket in the switch‐II region (switch‐II pocket) of KRAS. Moreover, by taking advantage of the reactive cysteine residue in one of the mutant KRAS isoforms (KRAS<sup>G12C</sup>), Shokat and colleagues developed the first compound to directly block a KRAS oncoprotein [<xref rid="mol213341-bib-0002" ref-type="bibr">2</xref>]. Since the switch‐II pocket is only accessible when KRAS<sup>G12C</sup> is bound to GDP and therefore inactive, binding of a covalent inhibitor requires a substantial degree of nucleotide cycling to effectively block this oncoprotein. Indeed, KRAS<sup>G12C</sup> retains a significant level of nucleotide cycling despite its insensitivity to classical GTPase‐activating protein (GAP)‐stimulated GTP hydrolysis which in this case is mediated via the noncanonical GAP RGS3 [<xref rid="mol213341-bib-0003" ref-type="bibr">3</xref>].</p><p>Further efforts in drug development in the following years led to the development and subsequent approval of sotorasib (AMG 510), a drug developed by Amgen (Thousand Oaks, CA, USA). Sotorasib forms a covalent bond with the KRAS<sup>G12C</sup> oncoprotein blocking it in its inactive state and has demonstrated clinical efficacy for a subset of patients with <italic toggle="yes">KRAS</italic>
+<sup>G12C</sup>‐mutant LUAD as well as CRC [<xref rid="mol213341-bib-0004" ref-type="bibr">4</xref>]. A second covalent KRAS<sup>G12C</sup> inhibitor developed by Mirati Therapeutics, adagrasib (MRTX849), recently received the Breakthrough Therapy designation by the FDA [<xref rid="mol213341-bib-0005" ref-type="bibr">5</xref>]. Although the <italic toggle="yes">KRAS</italic>
+<sup>G12C</sup> mutation is particularly frequent in LUAD (40% of <italic toggle="yes">KRAS</italic> mutations, Fig. <xref rid="mol213341-fig-0001" ref-type="fig">1A</xref>), its overall prevalence only encompasses 13% of all <italic toggle="yes">KRAS</italic>‐mutant tumors, indicating that there is an urgent requirement to target other mutant isoforms.</p><fig position="float" fig-type="Fig." id="mol213341-fig-0001" orientation="portrait"><label>Fig. 1</label><caption><p>MRTX1133 inhibits KRAS<sup>G12D</sup>. (A) Frequency of mutant <italic toggle="yes">KRAS</italic> alleles in lung adenocarcinoma (LUAD), pancreatic ductal adenocarcinoma (PDAC), or colorectal carcinoma (CRC). G12C mutations are indicated in green, G12V mutations in yellow and G12D alleles in blue. All other mutations are represented in gray. (B) Left: KRAS<sup>G12C</sup> inhibition by sotorasib and adagrasib. KRAS<sup>G12C</sup> is characterized by fast nucleotide cycling where GTP hydrolysis is catalyzed by the noncanonical GAP RGS3. Sotorasib and adagrasib bind to the switch II pocket in the inactive, GDP‐bound state of KRAS<sup>G12C</sup> and form covalent interactions with the reactive cysteine residue. Right: KRAS<sup>G12D</sup> inhibition by MRTX1133. KRAS<sup>G12D</sup> has two‐ to three‐fold slower cycling rates than KRAS<sup>G12C</sup>. MRTX1133 binds both GDP‐ and GTP‐bound KRAS<sup>G12D</sup> with high affinity without the requirement for covalent interactions.</p></caption><graphic position="anchor" id="jats-graphic-3" orientation="portrait" ns1:href="MOL2-16-3911-g001.jpg" /></fig><p>The most prevalent <italic toggle="yes">KRAS</italic> mutation in human cancer is <italic toggle="yes">KRAS</italic>
+<sup>G12D</sup>, present in 33% of all cases and the most frequent mutant <italic toggle="yes">KRAS</italic> allele in PDAC (46%, Fig. <xref rid="mol213341-fig-0001" ref-type="fig">1A</xref>). Consequently, the development of inhibitors targeting KRAS<sup>G12D</sup> has always been of particular interest since the identification of the switch‐II pocket. Yet, this mutant isoform lacks the reactive cysteine residue present in KRAS<sup>G12C</sup>, thus imposing a significant challenge to design selective compounds that bind to this mutant isoform in a stable manner. In addition, the GTP hydrolysis rate of KRAS<sup>G12D</sup> is two to three times lower than that of KRAS<sup>G12C</sup> [<xref rid="mol213341-bib-0006" ref-type="bibr">6</xref>]. Nevertheless, informed by the structure of the KRAS<sup>G12C</sup> inhibitor adagrasib, scientists at Mirati Therapeutics were recently able to synthesize, through multiple rounds of structure‐based drug design, a selective, noncovalent KRAS<sup>G12D</sup> inhibitor (MRTX1133) that is active at concentrations in the low n<sc>m</sc> range [<xref rid="mol213341-bib-0007" ref-type="bibr">7</xref>]. This drug binds to the switch‐II pocket with extraordinary high affinity, thereby obviating the requirement for covalent interactions (Fig. <xref rid="mol213341-fig-0001" ref-type="fig">1B</xref>).</p></sec><sec id="mol213341-sec-0002"><label>2</label><title>Validation of the <styled-content style="fixed-case" toggle="no">KRAS<sup>G12D</sup>
+</styled-content> inhibitor <styled-content style="fixed-case" toggle="no">MRTX1133</styled-content>
+</title><p>A more recent study has now evaluated the mechanism of action and antitumor activity of MRTX1133 [<xref rid="mol213341-bib-0008" ref-type="bibr">8</xref>]. First, the authors performed a series of assays to validate the binding efficacy of the drug to KRAS<sup>G12D</sup> when compared with wild‐type KRAS. Homogenous time resolved fluorescence (HTRF) as well as surface plasmon resonance (SPR) assays confirmed an IC50 of &lt; 2 n<sc>m</sc> and a binding KD of 0.2 p<sc>m</sc>, which are approximately 700‐fold more selective for KRAS<sup>G12D</sup> over wild‐type KRAS. In addition, MRTX1133 was able to prevent binding of a RAF1 RBD peptide to KRAS<sup>G12D</sup> preloaded with the nonhydrolyzable GTP analog GMPPCP with an IC50 of 9 n<sc>m</sc>. Together with the resolved structure of MRTX1133 associated with KRAS<sup>G12D</sup> bound to GDP or to GMPPCP, the authors observed a conformational change in the switch I and II regions that was incompatible with effector binding. Thus, this indicated that MRTX1133 inhibited both inactive and active KRAS<sup>G12D</sup> states (Fig. <xref rid="mol213341-fig-0001" ref-type="fig">1B</xref>). Although this compound inhibited the inactive form with higher potency, its additional activity against the active form is likely to contribute to its higher overall potency.</p><p>The authors also tested the cellular activity of MRTX1133 in cell lines carrying the G12D mutation in <italic toggle="yes">KRAS</italic> [<xref rid="mol213341-bib-0008" ref-type="bibr">8</xref>]. MRTX1133 inhibited downstream signaling pathways in a concentration‐dependent manner with an IC50 of &lt; 3 n<sc>m</sc>. Moreover, this inhibitory effect was maintained for up to 48–72 h, at least when applied at higher concentrations. The authors also found that MRTX1133 inhibited ERK phosphorylation and cell growth in 2D as well as 3D cultures in 24 out of 25 <italic toggle="yes">KRAS</italic>
+<sup>G12D</sup>‐mutant cell lines tested. In contrast, most non‐<italic toggle="yes">KRAS</italic>
+<sup>G12D</sup>‐mutant cell lines were not inhibited at all and only a few of them responded at higher concentrations. More importantly, MRTX1133 was active in mouse xenograft tumors in the range of 10–30 mg·kg<sup>−1</sup>. Of note, when tested in a series of 25 human cell line‐ and patient‐derived xenografts (PDX) at 30 mg·kg<sup>−1</sup>, 11 of them displayed tumor regression rates of &gt; 30%. Interestingly, although 73% of PDAC models responded to the treatment, only 25% of CRC models were affected. Whether this holds true in the clinic remains to be determined, but it could be a consequence of the fact that mutant <italic toggle="yes">KRAS</italic> acts as a primary driver in PDAC but not in CRC [<xref rid="mol213341-bib-0008" ref-type="bibr">8</xref>]. Finally, MRTX1133 showed a poor bioavailability when applied orally. Nevertheless, it was effective when administered via IP or IV routes. Whether this limitation will affect the clinical utility of this compound remains to be determined. Yet, data recently presented at the NCI RAS Initiative Symposium held in Frederick, MD suggested that formulation strategies to enhance oral absorption and/or increase IV half‐life may increase the probability of augmenting the efficacy in the clinic.</p><p>Based on the limited efficacy in some of the preclinical <italic toggle="yes">in vivo</italic> models, the authors set out to explore factors that constrain the response to MRTX1133 as well as to identify collateral dependencies that could maximize its efficacy. To this end, they conducted a CRISPR/Cas9 sgRNA library screen both <italic toggle="yes">in vitro</italic> and <italic toggle="yes">in vivo</italic>. These experiments revealed several tumor suppressor genes such as <italic toggle="yes">PTEN</italic>, <italic toggle="yes">KEAP1</italic>, <italic toggle="yes">NF1</italic>, or <italic toggle="yes">RB1</italic> that conferred at least partial resistance to MRTX1133. Interestingly, <italic toggle="yes">KEAP1</italic> also scored strongly in one of the <italic toggle="yes">in vivo</italic> models of PDAC, suggesting that <italic toggle="yes">KEAP1</italic> could be a key modifier of antitumor response.</p><p>Since KRAS inhibition as a monotherapy does not result in prolonged tumor regression in lung cancer [<xref rid="mol213341-bib-0004" ref-type="bibr">4</xref>, <xref rid="mol213341-bib-0005" ref-type="bibr">5</xref>], the authors anticipated that combination therapies would likely increase the therapeutic benefit of MRTX1133. The results of the CRISPR/Cas9 sgRNA library screen suggested that, among others, inhibition of EGFR and PTPN11 (SHP2) could synergize with MRTX1133. Informed by these results, the authors selected several compounds that could target these and other proteins and tested whether they could observe a synergistic effect with MRTX1133. Interestingly, combinatorial treatment with MEK, ERK, SHP2, or SOS1 inhibitors did not substantially enhance the activity of MRTX1133 to the same extent previously observed with KRAS<sup>G12C</sup> inhibitors. However, the HER2 family inhibitors, afatinib and cetuximab, as well as the selective PI3Kα inhibitor, BYL‐719, did show a synergistic effect in PDAC and CRC cell lines. Based on these results, the authors combined MRTX1133 with cetuximab, an EGFR inhibitor approved for <italic toggle="yes">KRAS</italic> WT CRC, and with the PI3Kα inhibitor BYL‐719. These combinations were even efficient in models in which either drug as a monotherapy had no effect. Importantly, both drug combinations did not cause significant body weight loss in mice when used at effective doses, suggesting that there could be therapeutic windows when used in human patients.</p><p>The findings described by Hallin et al. may have a significant impact for patients with <italic toggle="yes">KRAS</italic>
+<sup>G12D</sup>‐mutant tumors [<xref rid="mol213341-bib-0008" ref-type="bibr">8</xref>]. Until now, the therapeutic options for patients with <italic toggle="yes">KRAS</italic>
+<sup>G12D</sup>‐positive PDAC were limited to old chemotherapy strategies, such as gemcitabine, 5‐fluorouracil, or taxanes. PDAC is one of the types of cancer with the lowest survival rates and accumulating evidence indicates that mutations in <italic toggle="yes">KRAS</italic> are an early event that drives this disease. Hence, a drug that could block the initiating event in those PDAC patients with <italic toggle="yes">KRAS</italic>
+<sup>G12D</sup> mutations could lead to substantially improved patient survival. As a proof‐of‐principle, recent clinical data with sotorasib (21% ORR) and adagrasib (50% ORR) in <italic toggle="yes">KRAS</italic>
+<sup>G12C</sup>‐mutant PDAC provide initial evidence, although <italic toggle="yes">KRAS</italic>
+<sup>G12C</sup> mutations comprise less than 2% of <italic toggle="yes">KRAS</italic>‐mutated PDAC (Fig. <xref rid="mol213341-fig-0001" ref-type="fig">1A</xref>) [<xref rid="mol213341-bib-0009" ref-type="bibr">9</xref>, <xref rid="mol213341-bib-0010" ref-type="bibr">10</xref>].</p><p>Several mechanisms have been described that, at least in cell culture and mouse models of PDAC, allow survival of tumor cells in the absence of mutant <italic toggle="yes">KRAS</italic> [<xref rid="mol213341-bib-0011" ref-type="bibr">11</xref>, <xref rid="mol213341-bib-0012" ref-type="bibr">12</xref>]. This is not unexpected since lung cancers treated with KRAS<sup>G12C</sup> inhibitors are also capable of rapidly developing resistance. Therefore, combination therapies are likely to be more effective and the current study by Hallin et al. already proposes several potent combinations [<xref rid="mol213341-bib-0008" ref-type="bibr">8</xref>]. In contrast to PDAC, <italic toggle="yes">KRAS</italic> mutations are usually not considered an initial driving event in CRC, instead being responsible for the progression of adenomas to malignant carcinomas. This property might be one of the reasons for the limited effect of KRAS<sup>G12C</sup> inhibitors in CRC patients [<xref rid="mol213341-bib-0013" ref-type="bibr">13</xref>]. Whether the combinatorial therapies of MRTX1133 outlined in this study will increase the efficacy of this novel KRAS inhibitor remains to be determined.</p><p>Finally, it will be of great interest to see how MRTX1133 will perform in clinical trials. Based on prior experience with sotorasib or adagrasib, it is likely that combination therapies will be much more effective. Until then, additional preclinical studies will shed light on potential mechanisms of resistance and guide clinicians to select appropriate combination therapies. Interrogation of resistance mechanisms in patients treated with sotorasib or adagrasib revealed secondary mutations in <italic toggle="yes">KRAS</italic> that prevented these drugs from binding to the switch‐II pocket, as well as mutations in effectors of related signaling pathways such as <italic toggle="yes">EGFR</italic>, <italic toggle="yes">BRAF</italic> or activating mutations in other <italic toggle="yes">RAS</italic> paralogs [<xref rid="mol213341-bib-0014" ref-type="bibr">14</xref>, <xref rid="mol213341-bib-0015" ref-type="bibr">15</xref>]. Given the high affinity binding mode of MRTX1133, similar mutations, either preventing high‐affinity binding to the switch‐II pocket or activating other signaling pathways, can be expected. Yet, most tumors acquire resistance without the presence of novel mutations [<xref rid="mol213341-bib-0014" ref-type="bibr">14</xref>, <xref rid="mol213341-bib-0015" ref-type="bibr">15</xref>]. Understanding the molecular mechanisms responsible for the appearance of resistance will provide new treatment avenues to increase the clinical efficacy of these compounds. Regardless of these potential limitations, the development of MRTX1133 is undoubtedly a major step forward toward the implementation of much‐needed effective therapies for patients with <italic toggle="yes">KRAS</italic>
+<sup>G12D</sup>‐mutant tumors.</p></sec><sec sec-type="COI-statement" id="mol213341-sec-0004"><title>Conflict of interest</title><p>The authors declare no conflict of interest.</p></sec></body><back><ack id="mol213341-sec-0003"><title>Acknowledgements</title><p>This work was supported by grants from the European Research Council (ERC‐2015‐AdG/695566, THERACAN), the CRIS Cancer Foundation and the CIBERONC to M.B. M.B. is a recipient of an Endowed Chair from the AXA Research Fund.</p></ack><ref-list content-type="cited-references" id="mol213341-bibl-0001"><title>References</title><ref id="mol213341-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="mol213341-cit-0001">
+<string-name name-style="western">
+<surname>Drosten</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Barbacid</surname>
+<given-names>M</given-names>
+</string-name>. <article-title>Targeting KRAS mutant lung cancer: light at the end of the tunnel</article-title>. <source>Mol Oncol</source>. <year>2022</year>;<volume>16</volume>:<fpage>1057</fpage>–<lpage>71</lpage>.<pub-id pub-id-type="pmid">34951114</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/1878-0261.13168</pub-id><pub-id pub-id-type="pmcid">PMC8895444</pub-id></mixed-citation></ref><ref id="mol213341-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="mol213341-cit-0002">
+<string-name name-style="western">
+<surname>Ostrem</surname>
+<given-names>JM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Peters</surname>
+<given-names>U</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sos</surname>
+<given-names>ML</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wells</surname>
+<given-names>JA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shokat</surname>
+<given-names>KM</given-names>
+</string-name>. <article-title>K‐Ras(G12C) inhibitors allosterically control GTP affinity and effector interactions</article-title>. <source>Nature</source>. <year>2013</year>;<volume>503</volume>:<fpage>548</fpage>–<lpage>51</lpage>.<pub-id pub-id-type="pmid">24256730</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature12796</pub-id><pub-id pub-id-type="pmcid">PMC4274051</pub-id></mixed-citation></ref><ref id="mol213341-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="mol213341-cit-0003">
+<string-name name-style="western">
+<surname>Li</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vides</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kim</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Xue</surname>
+<given-names>JY</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhao</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lito</surname>
+<given-names>P</given-names>
+</string-name>. <article-title>The G protein signaling regulator RGS3 enhances the GTPase activity of KRAS</article-title>. <source>Science</source>. <year>2021</year>;<volume>374</volume>:<fpage>197</fpage>–<lpage>201</lpage>.<pub-id pub-id-type="pmid">34618566</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.abf1730</pub-id><pub-id pub-id-type="pmcid">PMC9295010</pub-id></mixed-citation></ref><ref id="mol213341-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="mol213341-cit-0004">
+<string-name name-style="western">
+<surname>Skoulidis</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ki</surname>
+<given-names>BT</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dy</surname>
+<given-names>GK</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Price</surname>
+<given-names>TJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Falchook</surname>
+<given-names>GS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wolf</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>Sotorasib for lung cancers with KRAS p.G12C mutations</article-title>. <source>N Engl J Med</source>. <year>2021</year>;<volume>384</volume>:<fpage>2371</fpage>–<lpage>81</lpage>.<pub-id pub-id-type="pmid">34096690</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa2103695</pub-id><pub-id pub-id-type="pmcid">PMC9116274</pub-id></mixed-citation></ref><ref id="mol213341-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="mol213341-cit-0005">
+<string-name name-style="western">
+<surname>Jänne</surname>
+<given-names>PA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Riely</surname>
+<given-names>GJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gadgel</surname>
+<given-names>SM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Heist</surname>
+<given-names>RS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ou</surname>
+<given-names>SHI</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pacheco</surname>
+<given-names>JM</given-names>
+</string-name>, et al. <article-title>Adagrasib in non‐small‐cell lung cancer harboring a KRASG12C mutation</article-title>. <source>N Engl J Med</source>. <year>2022</year>;<volume>387</volume>:<fpage>120</fpage>–<lpage>31</lpage>.<pub-id pub-id-type="pmid">35658005</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa2204619</pub-id></mixed-citation></ref><ref id="mol213341-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="mol213341-cit-0006">
+<string-name name-style="western">
+<surname>Hunter</surname>
+<given-names>JC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Manandhar</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Carrasco</surname>
+<given-names>MA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gurbani</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gondi</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Westover</surname>
+<given-names>KD</given-names>
+</string-name>. <article-title>Biochemical and structural analysis of common cancer‐associated KRAS mutations</article-title>. <source>Mol Cancer Res</source>. <year>2015</year>;<volume>13</volume>:<fpage>1325</fpage>–<lpage>35</lpage>.<pub-id pub-id-type="pmid">26037647</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/1541-7786.MCR-15-0203</pub-id></mixed-citation></ref><ref id="mol213341-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="mol213341-cit-0007">
+<string-name name-style="western">
+<surname>Wang</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Allen</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Blake</surname>
+<given-names>JF</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bowcut</surname>
+<given-names>V</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Briere</surname>
+<given-names>DM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Calinisan</surname>
+<given-names>A</given-names>
+</string-name>, et al. <article-title>Identification of MRTX1133, a noncovalent, potent, and selective KRASG12D inhibitor</article-title>. <source>J Med Chem</source>. <year>2022</year>;<volume>65</volume>:<fpage>3123</fpage>–<lpage>33</lpage>.<pub-id pub-id-type="pmid">34889605</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/acs.jmedchem.1c01688</pub-id></mixed-citation></ref><ref id="mol213341-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="mol213341-cit-0008">
+<string-name name-style="western">
+<surname>Hallin</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bowcut</surname>
+<given-names>V</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Calinisan</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Briere</surname>
+<given-names>DM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hargis</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Engstrom</surname>
+<given-names>LD</given-names>
+</string-name>, et al. <article-title>Anti‐tumor efficacy of a potent and selective non‐covalent KRASG12D inhibitor</article-title>. <source>Nat Med</source>. <year>2022</year>;<volume>28</volume>:<fpage>2171</fpage>–<lpage>82</lpage>.<pub-id pub-id-type="pmid">36216931</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41591-022-02007-7</pub-id></mixed-citation></ref><ref id="mol213341-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="mol213341-cit-0009">
+<string-name name-style="western">
+<surname>Strickler</surname>
+<given-names>JH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Satake</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hollebecque</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sunakawa</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tomasini</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bajor</surname>
+<given-names>DL</given-names>
+</string-name>, et al. <article-title>First data for sotorasib in patients with pancreatic cancer with KRAS p.G12C mutation: a phase I/II study evaluating efficacy and safety</article-title>. <source>J Clin Oncol</source>. <year>2022</year>;<volume>40</volume>(<issue>36_suppl</issue>):<elocation-id>360490</elocation-id>.</mixed-citation></ref><ref id="mol213341-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="mol213341-cit-0010">
+<string-name name-style="western">
+<surname>Bekaii‐Saab</surname>
+<given-names>TS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Spira</surname>
+<given-names>AI</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yaeger</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Buchschacher</surname>
+<given-names>GL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>McRee</surname>
+<given-names>AJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sabari</surname>
+<given-names>JK</given-names>
+</string-name>, et al. <article-title>KRYSTRAL‐1: updated activity and safety of adagrasib (MRTX849) in patients with unresectable or metastatic pancreatic cancer and other gastrointestinal tumors harboring a KRASG12C mutation</article-title>. <source>J Clin Oncol</source>. <year>2022</year>;<volume>40</volume>(<issue>4_suppl</issue>):<fpage>519</fpage>.34878805</mixed-citation></ref><ref id="mol213341-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="mol213341-cit-0011">
+<string-name name-style="western">
+<surname>Kapoor</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yao</surname>
+<given-names>W</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ying</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hua</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liewen</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>
+<given-names>Q</given-names>
+</string-name>, et al. <article-title>Yap1 activation enables bypass of oncogenic Kras addiction in pancreatic cancer</article-title>. <source>Cell</source>. <year>2014</year>;<volume>158</volume>:<fpage>185</fpage>–<lpage>97</lpage>.<pub-id pub-id-type="pmid">24954535</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cell.2014.06.003</pub-id><pub-id pub-id-type="pmcid">PMC4109295</pub-id></mixed-citation></ref><ref id="mol213341-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="mol213341-cit-0012">
+<string-name name-style="western">
+<surname>Hou</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kapoor</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>Q</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Li</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wu</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Li</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>Tumor microenvironment remodeling enables bypass of oncogenic KRAS dependency in pancreatic cancer</article-title>. <source>Cancer Discovery</source>. <year>2020</year>;<volume>10</volume>:<fpage>1058</fpage>–<lpage>77</lpage>.<pub-id pub-id-type="pmid">32341020</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/2159-8290.CD-19-0597</pub-id><pub-id pub-id-type="pmcid">PMC7334087</pub-id></mixed-citation></ref><ref id="mol213341-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="mol213341-cit-0013">
+<string-name name-style="western">
+<surname>Pfeiffer</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Qvortrup</surname>
+<given-names>C</given-names>
+</string-name>. <article-title>KRASG12C inhibition in colorectal cancer</article-title>. <source>Lancet Oncol</source>. <year>2022</year>;<volume>23</volume>:<fpage>10</fpage>–<lpage>1</lpage>.<pub-id pub-id-type="pmid">34919826</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/S1470-2045(21)00652-5</pub-id></mixed-citation></ref><ref id="mol213341-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="mol213341-cit-0014">
+<string-name name-style="western">
+<surname>Awad</surname>
+<given-names>MM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rybkin</surname>
+<given-names>II</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Arbour</surname>
+<given-names>KC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dilly</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhu</surname>
+<given-names>VW</given-names>
+</string-name>, et al. <article-title>Acquired resistance to KRASG12C inhibitionin cancer</article-title>. <source>N Engl J Med</source>. <year>2021</year>;<volume>384</volume>:<fpage>2382</fpage>–<lpage>93</lpage>.<pub-id pub-id-type="pmid">34161704</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa2105281</pub-id><pub-id pub-id-type="pmcid">PMC8864540</pub-id></mixed-citation></ref><ref id="mol213341-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="mol213341-cit-0015">
+<string-name name-style="western">
+<surname>Zhao</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Murciano‐Goroff</surname>
+<given-names>YR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Xue</surname>
+<given-names>JY</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ang</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lucas</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mai</surname>
+<given-names>TT</given-names>
+</string-name>, et al. <article-title>Diverse alterations associated with resistance to KRAS(G12C) inhibition</article-title>. <source>Nature</source>. <year>2021</year>;<volume>599</volume>:<fpage>679</fpage>–<lpage>83</lpage>.<pub-id pub-id-type="pmid">34759319</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41586-021-04065-2</pub-id><pub-id pub-id-type="pmcid">PMC8887821</pub-id></mixed-citation></ref></ref-list></back></article>

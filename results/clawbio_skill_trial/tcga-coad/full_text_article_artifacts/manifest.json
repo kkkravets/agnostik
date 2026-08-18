@@ -1,0 +1,3010 @@
+{
+  "query": "((COAD[Title/Abstract] OR \"colon adenocarcinoma\"[Title/Abstract] OR \"colorectal\"[Title/Abstract]) AND EGFR[Title/Abstract]) OR ((COAD[Title/Abstract] OR \"colon adenocarcinoma\"[Title/Abstract] OR \"colorectal\"[Title/Abstract]) AND ERBB2[Title/Abstract]) OR ((COAD[Title/Abstract] OR \"colon adenocarcinoma\"[Title/Abstract] OR \"colorectal\"[Title/Abstract]) AND KRAS[Title/Abstract]) OR ((COAD[Title/Abstract] OR \"colon adenocarcinoma\"[Title/Abstract] OR \"colorectal\"[Title/Abstract]) AND MYC[Title/Abstract]) OR ((COAD[Title/Abstract] OR \"colon adenocarcinoma\"[Title/Abstract] OR \"colorectal\"[Title/Abstract]) AND WRN[Title/Abstract]) OR ((COAD[Title/Abstract] OR \"colon adenocarcinoma\"[Title/Abstract] OR \"colorectal\"[Title/Abstract]) AND PRMT5[Title/Abstract])",
+  "requested": 300,
+  "downloaded": 300,
+  "generated_at": "2026-08-18T12:33:56.628999+00:00",
+  "source": "NCBI PubMed Central Open Access subset via E-utilities",
+  "source_directory": "C:\\Users\\neu\\PycharmProjects\\agnostik\\results\\clawbio_skill_trial\\tcga-coad\\full_text_articles",
+  "articles": [
+    {
+      "pmc_id": "PMC3967949",
+      "pmid": "24676216",
+      "doi": "10.1371/journal.pgen.1004271",
+      "title": "Changes in Colorectal Carcinoma Genomes under Anti-EGFR Therapy Identified by Whole-Genome Plasma DNA Sequencing",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3967949/",
+      "source_path": "full_text_articles\\PMC3967949.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC3967949.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC3967949.html"
+    },
+    {
+      "pmc_id": "PMC5706819",
+      "pmid": "29212173",
+      "doi": "10.18632/oncotarget.20510",
+      "title": "Comprehensive genomic sequencing detects important genetic differences between right-sided and left-sided colorectal cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5706819/",
+      "source_path": "full_text_articles\\PMC5706819.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC5706819.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC5706819.html"
+    },
+    {
+      "pmc_id": "PMC12384206",
+      "pmid": "40864819",
+      "doi": "10.3390/cimb47080665",
+      "title": "PRMT5 Inhibition as a Potential Strategy for KRAS Mutant CRC: Downstream Mediators of the PRMT5–KRAS Crosstalk",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12384206/",
+      "source_path": "full_text_articles\\PMC12384206.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC12384206.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC12384206.html"
+    },
+    {
+      "pmc_id": "PMC13336157",
+      "pmid": "42406708",
+      "doi": "10.1371/journal.pone.0351243",
+      "title": "Higher frequency of subclonal anti-EGFR resistance mutations in post-treatment samples from patients with colorectal cancer liver metastases following anti-EGFR-based conversion chemotherapy",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13336157/",
+      "source_path": "full_text_articles\\PMC13336157.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC13336157.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC13336157.html"
+    },
+    {
+      "pmc_id": "PMC13316694",
+      "pmid": "42349318",
+      "doi": "10.1016/j.tranon.2026.102878",
+      "title": "Establishment, biobanking, and multi-omics characterization of 41 patient-derived colorectal cancer organoids: MYC/PRC classification",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13316694/",
+      "source_path": "full_text_articles\\PMC13316694.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC13316694.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC13316694.html"
+    },
+    {
+      "pmc_id": "PMC6378102",
+      "pmid": "30304546",
+      "doi": "10.1002/ijc.31916",
+      "title": "ERBB2 and KRAS alterations mediate response to EGFR inhibitors in early stage gallbladder cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6378102/",
+      "source_path": "full_text_articles\\PMC6378102.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC6378102.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC6378102.html"
+    },
+    {
+      "pmc_id": "PMC5880263",
+      "pmid": "29438965",
+      "doi": "10.1101/mcs.a002535",
+      "title": "Molecular characterization of ERBB2-amplified colorectal cancer identifies potential mechanisms of resistance to targeted therapies: a report of two instructive cases",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5880263/",
+      "source_path": "full_text_articles\\PMC5880263.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC5880263.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC5880263.html"
+    },
+    {
+      "pmc_id": "PMC8756135",
+      "pmid": "34015890",
+      "doi": "10.4143/crt.2021.218",
+      "title": "Comparison of the Data of a Next-Generation Sequencing Panel from K-MASTER Project with That of Orthogonal Methods for Detecting Targetable Genetic Alterations",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8756135/",
+      "source_path": "full_text_articles\\PMC8756135.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC8756135.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC8756135.html"
+    },
+    {
+      "pmc_id": "PMC5743500",
+      "pmid": "29307989",
+      "doi": "10.3748/wjg.v23.i47.8291",
+      "title": "Gene mutations in stool from gastric and colorectal neoplasia patients by next-generation sequencing",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5743500/",
+      "source_path": "full_text_articles\\PMC5743500.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC5743500.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC5743500.html"
+    },
+    {
+      "pmc_id": "PMC5945518",
+      "pmid": "29755687",
+      "doi": "10.18632/oncotarget.25099",
+      "title": "Clinical application of targeted next-generation sequencing for colorectal cancer patients: a multicentric Belgian experience",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5945518/",
+      "source_path": "full_text_articles\\PMC5945518.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC5945518.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC5945518.html"
+    },
+    {
+      "pmc_id": "PMC9158132",
+      "pmid": "35664781",
+      "doi": "10.3389/fonc.2022.840241",
+      "title": "Identification of Synergistic Drug Combinations to Target KRAS-Driven Chemoradioresistant Cancers Utilizing Tumoroid Models of Colorectal Adenocarcinoma and Recurrent Glioblastoma",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9158132/",
+      "source_path": "full_text_articles\\PMC9158132.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC9158132.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC9158132.html"
+    },
+    {
+      "pmc_id": "PMC8478156",
+      "pmid": "34594355",
+      "doi": "10.3389/fgene.2021.608742",
+      "title": "Genomic Profiling Reveals the Molecular Landscape of Gastrointestinal Tract Cancers in Chinese Patients",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8478156/",
+      "source_path": "full_text_articles\\PMC8478156.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC8478156.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC8478156.html"
+    },
+    {
+      "pmc_id": "PMC7764102",
+      "pmid": "33322618",
+      "doi": "10.3390/cancers12123736",
+      "title": "Circulating Tumour DNA Sequencing Identifies a Genetic Resistance-Gap in Colorectal Cancers with Acquired Resistance to EGFR-Antibodies and Chemotherapy",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7764102/",
+      "source_path": "full_text_articles\\PMC7764102.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC7764102.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC7764102.html"
+    },
+    {
+      "pmc_id": "PMC8817753",
+      "pmid": "35154602",
+      "doi": "",
+      "title": "Assessment of colon cancer molecular mechanism: a system biology approach",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8817753/",
+      "source_path": "full_text_articles\\PMC8817753.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC8817753.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC8817753.html"
+    },
+    {
+      "pmc_id": "PMC5431418",
+      "pmid": "28473715",
+      "doi": "10.1038/s41598-017-01566-x",
+      "title": "Rationally co-targeting divergent pathways in KRAS wild-type colorectal cancers by CANscript technology reveals tumor dependence on Notch and Erbb2",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5431418/",
+      "source_path": "full_text_articles\\PMC5431418.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC5431418.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC5431418.html"
+    },
+    {
+      "pmc_id": "PMC4878148",
+      "pmid": "26416732",
+      "doi": "10.1038/nature14969",
+      "title": "The Genomic Landscape of Response to EGFR Blockade in Colorectal Cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4878148/",
+      "source_path": "full_text_articles\\PMC4878148.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC4878148.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC4878148.html"
+    },
+    {
+      "pmc_id": "PMC9510427",
+      "pmid": "34675090",
+      "doi": "10.1136/jclinpath-2021-207865",
+      "title": "Nationwide evaluation of mutation-tailored anti-EGFR therapy selection in patients with colorectal cancer in daily clinical practice",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9510427/",
+      "source_path": "full_text_articles\\PMC9510427.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC9510427.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC9510427.html"
+    },
+    {
+      "pmc_id": "PMC8647259",
+      "pmid": "34851763",
+      "doi": "10.1177/03000605211061040",
+      "title": "Mutation analysis of a 10-gene panel for colorectal cancer in Huizhou, Guangdong Province of China",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8647259/",
+      "source_path": "full_text_articles\\PMC8647259.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC8647259.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC8647259.html"
+    },
+    {
+      "pmc_id": "PMC8895744",
+      "pmid": "35641204",
+      "doi": "10.1093/oncolo/oyab028",
+      "title": "Mucinous Histology Is Associated with Resistance to Anti-EGFR Therapy in Patients with Left-Sided RAS/BRAF Wild-Type Metastatic Colorectal Cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8895744/",
+      "source_path": "full_text_articles\\PMC8895744.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC8895744.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC8895744.html"
+    },
+    {
+      "pmc_id": "PMC12941330",
+      "pmid": "41751558",
+      "doi": "10.3390/genes17020174",
+      "title": "Next-Generation Sequencing-Based Detection of KRAS G12D Variants in Colorectal Cancer: A Retrospective Cohort Study",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12941330/",
+      "source_path": "full_text_articles\\PMC12941330.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC12941330.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC12941330.html"
+    },
+    {
+      "pmc_id": "PMC7465151",
+      "pmid": "32731506",
+      "doi": "10.3390/cancers12082091",
+      "title": "Protein Arginine Methyltransferase 5 as a Therapeutic Target for KRAS Mutated Colorectal Cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7465151/",
+      "source_path": "full_text_articles\\PMC7465151.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC7465151.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC7465151.html"
+    },
+    {
+      "pmc_id": "PMC8688726",
+      "pmid": "34700030",
+      "doi": "10.1016/j.jcmgh.2021.10.008",
+      "title": "Disease Modeling on Tumor Organoids Implicates AURKA as a Therapeutic Target in Liver Metastatic Colorectal Cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8688726/",
+      "source_path": "full_text_articles\\PMC8688726.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC8688726.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC8688726.html"
+    },
+    {
+      "pmc_id": "PMC5527460",
+      "pmid": "28173629",
+      "doi": "10.1002/1878-0261.12040",
+      "title": "Enhanced dependency of KRAS‐mutant colorectal cancer cells on RAD51‐dependent homologous recombination repair identified from genetic interactions in Saccharomyces cerevisiae",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5527460/",
+      "source_path": "full_text_articles\\PMC5527460.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC5527460.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC5527460.html"
+    },
+    {
+      "pmc_id": "PMC11508137",
+      "pmid": "39457381",
+      "doi": "10.3390/genes15101257",
+      "title": "Molecular Mechanism of Radioresponsiveness in Colorectal Cancer: A Systematic Review",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11508137/",
+      "source_path": "full_text_articles\\PMC11508137.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC11508137.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC11508137.html"
+    },
+    {
+      "pmc_id": "PMC12316443",
+      "pmid": "40324346",
+      "doi": "10.1159/000545560",
+      "title": "Real-World Genomic Landscape of Gastrointestinal Cancers in Asia and the Middle East Using Comprehensive Circulating Tumor DNA Next-Generation Sequencing",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12316443/",
+      "source_path": "full_text_articles\\PMC12316443.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC12316443.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC12316443.html"
+    },
+    {
+      "pmc_id": "PMC12229642",
+      "pmid": "40610594",
+      "doi": "10.1038/s41698-025-00975-w",
+      "title": "Comprehensive analysis of PIK3CA mutations in advanced colorectal cancer using circulating tumor DNA profiling",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12229642/",
+      "source_path": "full_text_articles\\PMC12229642.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC12229642.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC12229642.html"
+    },
+    {
+      "pmc_id": "PMC6484865",
+      "pmid": "31032472",
+      "doi": "10.1200/PO.18.00158",
+      "title": "Genomic Assessment of Blood-Derived Circulating Tumor DNA in Patients With Colorectal Cancers: Correlation With Tissue Sequencing, Therapeutic Response, and Survival",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6484865/",
+      "source_path": "full_text_articles\\PMC6484865.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC6484865.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC6484865.html"
+    },
+    {
+      "pmc_id": "PMC10328004",
+      "pmid": "37386758",
+      "doi": "10.1177/10732748231167257",
+      "title": "Detection of Nine Oncogenes Amplification in Lung and Colorectal Cancer Formalin-Fixed Paraffin-Embedded Tissue Samples using Combined Next-Generation Sequencing-Based Script and Digital Droplet Polymerase Chain Reaction",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10328004/",
+      "source_path": "full_text_articles\\PMC10328004.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC10328004.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC10328004.html"
+    },
+    {
+      "pmc_id": "PMC8649836",
+      "pmid": "34888240",
+      "doi": "10.3389/fonc.2021.755578",
+      "title": "An Early-Onset Advanced Rectal Cancer Patient With Increased KRAS Gene Copy Number Showed A Primary Resistance to Cetuximab in Combination With Chemotherapy: A Case Report",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8649836/",
+      "source_path": "full_text_articles\\PMC8649836.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC8649836.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC8649836.html"
+    },
+    {
+      "pmc_id": "PMC13182816",
+      "pmid": "42133901",
+      "doi": "10.1200/PO-26-00037",
+      "title": "Genomics of MTAP Loss in >500,000 Solid Tumor Specimens Profiled Using Comprehensive Genomic Profiling Platforms",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13182816/",
+      "source_path": "full_text_articles\\PMC13182816.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC13182816.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC13182816.html"
+    },
+    {
+      "pmc_id": "PMC6814827",
+      "pmid": "31653970",
+      "doi": "10.1038/s41598-019-51981-5",
+      "title": "Genomic characterization of intrinsic and acquired resistance to cetuximab in colorectal cancer patients",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6814827/",
+      "source_path": "full_text_articles\\PMC6814827.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC6814827.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC6814827.html"
+    },
+    {
+      "pmc_id": "PMC3401966",
+      "pmid": "22810696",
+      "doi": "10.1038/nature11252",
+      "title": "Comprehensive molecular characterization of human colon and rectal cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3401966/",
+      "source_path": "full_text_articles\\PMC3401966.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC3401966.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC3401966.html"
+    },
+    {
+      "pmc_id": "PMC4984915",
+      "pmid": "27002940",
+      "doi": "10.1038/bjc.2016.74",
+      "title": "Prognostic role of ERBB2, MET and VEGFA expression in metastatic colorectal cancer patients treated with anti-EGFR antibodies",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4984915/",
+      "source_path": "full_text_articles\\PMC4984915.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC4984915.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC4984915.html"
+    },
+    {
+      "pmc_id": "PMC5729470",
+      "pmid": "29024937",
+      "doi": "10.1038/bjc.2017.353",
+      "title": "Protein biomarkers predictive for response to anti-EGFR treatment in RAS wild-type metastatic colorectal carcinoma",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5729470/",
+      "source_path": "full_text_articles\\PMC5729470.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC5729470.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC5729470.html"
+    },
+    {
+      "pmc_id": "PMC5299780",
+      "pmid": "28179005",
+      "doi": "10.1186/s13045-017-0411-5",
+      "title": "Clinical impact of extensive molecular profiling in advanced cancer patients",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5299780/",
+      "source_path": "full_text_articles\\PMC5299780.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC5299780.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC5299780.html"
+    },
+    {
+      "pmc_id": "PMC13453661",
+      "pmid": "42577044",
+      "doi": "10.31662/jmaj.2026-0123",
+      "title": "Molecular Characterization of Ovarian Metastases from Colorectal Cancer Using Circulating Tumor DNA Analysis",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13453661/",
+      "source_path": "full_text_articles\\PMC13453661.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC13453661.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC13453661.html"
+    },
+    {
+      "pmc_id": "PMC8024718",
+      "pmid": "33325154",
+      "doi": "10.1002/1878-0261.12885",
+      "title": "Genomic and prognostic heterogeneity among RAS/BRAF V600E/TP53 co‐mutated resectable colorectal liver metastases",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8024718/",
+      "source_path": "full_text_articles\\PMC8024718.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC8024718.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC8024718.html"
+    },
+    {
+      "pmc_id": "PMC12140595",
+      "pmid": "39342926",
+      "doi": "10.1159/000541571",
+      "title": "Genomic Landscape of Advanced Solid Tumors in Middle East and North Africa Using Circulating Tumor DNA in Routine Clinical Practice",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12140595/",
+      "source_path": "full_text_articles\\PMC12140595.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC12140595.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC12140595.html"
+    },
+    {
+      "pmc_id": "PMC6970031",
+      "pmid": "31782259",
+      "doi": "10.1002/cam4.2727",
+      "title": "Gene mutation profiling in Chinese colorectal cancer patients and its association with clinicopathological characteristics and prognosis",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6970031/",
+      "source_path": "full_text_articles\\PMC6970031.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC6970031.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC6970031.html"
+    },
+    {
+      "pmc_id": "PMC8666826",
+      "pmid": "33436496",
+      "doi": "10.1136/gutjnl-2020-323553",
+      "title": "PI3K-driven HER2 expression is a potential therapeutic target in colorectal cancer stem cells",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8666826/",
+      "source_path": "full_text_articles\\PMC8666826.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC8666826.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC8666826.html"
+    },
+    {
+      "pmc_id": "PMC5703385",
+      "pmid": "29211816",
+      "doi": "10.1136/esmoopen-2017-000177",
+      "title": "Clinical outcome and molecular characterisation of chemorefractory metastatic colorectal cancer patients with long-term efficacy of regorafenib treatment",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5703385/",
+      "source_path": "full_text_articles\\PMC5703385.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC5703385.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC5703385.html"
+    },
+    {
+      "pmc_id": "PMC12064836",
+      "pmid": "40346041",
+      "doi": "10.1038/s41467-025-59588-3",
+      "title": "Ligand-activated EGFR/MAPK signaling but not PI3K, are key resistance mechanisms to EGFR-therapy in colorectal cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12064836/",
+      "source_path": "full_text_articles\\PMC12064836.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC12064836.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC12064836.html"
+    },
+    {
+      "pmc_id": "PMC7906165",
+      "pmid": "33495409",
+      "doi": "10.18632/aging.202407",
+      "title": "PRMT5 regulates colorectal cancer cell growth and EMT via EGFR/Akt/GSK3β signaling cascades",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7906165/",
+      "source_path": "full_text_articles\\PMC7906165.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC7906165.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC7906165.html"
+    },
+    {
+      "pmc_id": "PMC5522060",
+      "pmid": "28178681",
+      "doi": "10.18632/oncotarget.15030",
+      "title": "Molecular profiling of metastatic colorectal tumors using next-generation sequencing: a single-institution experience",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5522060/",
+      "source_path": "full_text_articles\\PMC5522060.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC5522060.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC5522060.html"
+    },
+    {
+      "pmc_id": "PMC12605060",
+      "pmid": "41161130",
+      "doi": "10.1016/j.esmoop.2025.105877",
+      "title": "Genomic profiling of high tumor mutational load in microsatellite-stable colorectal cancer uncovers MAPK signaling pathway alterations following anti-EGFR therapy",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12605060/",
+      "source_path": "full_text_articles\\PMC12605060.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC12605060.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC12605060.html"
+    },
+    {
+      "pmc_id": "PMC10403953",
+      "pmid": "36108931",
+      "doi": "10.1016/j.humpath.2022.09.003",
+      "title": "Molecular characterization of adenocarcinomas arising in the urinary bladder following augmentation cystoplasty: a multi-institutional study✩",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10403953/",
+      "source_path": "full_text_articles\\PMC10403953.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC10403953.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC10403953.html"
+    },
+    {
+      "pmc_id": "PMC8700603",
+      "pmid": "34943546",
+      "doi": "10.3390/diagnostics11122308",
+      "title": "Association between Altered Oncogenic Signaling Pathways and Overall Survival of Patients with Metastatic Colorectal Cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8700603/",
+      "source_path": "full_text_articles\\PMC8700603.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC8700603.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC8700603.html"
+    },
+    {
+      "pmc_id": "PMC9870216",
+      "pmid": "36007218",
+      "doi": "10.1200/JCO.22.00364",
+      "title": "Circulating Tumor DNA Identifies Diverse Landscape of Acquired Resistance to Anti–Epidermal Growth Factor Receptor Therapy in Metastatic Colorectal Cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9870216/",
+      "source_path": "full_text_articles\\PMC9870216.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC9870216.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC9870216.html"
+    },
+    {
+      "pmc_id": "PMC5053731",
+      "pmid": "27050078",
+      "doi": "10.18632/oncotarget.8541",
+      "title": "Mutation profiling in chinese patients with metastatic colorectal cancer and its correlation with clinicopathological features and anti-EGFR treatment response",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5053731/",
+      "source_path": "full_text_articles\\PMC5053731.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC5053731.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC5053731.html"
+    },
+    {
+      "pmc_id": "PMC11507460",
+      "pmid": "39456850",
+      "doi": "10.3390/ijms252011071",
+      "title": "Multigene Panel Next-Generation Sequencing Techniques in the Management of Patients with Metastatic Colorectal Carcinoma: The Way Forward for Personalized Treatment? A Single-Center Experience",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11507460/",
+      "source_path": "full_text_articles\\PMC11507460.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC11507460.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC11507460.html"
+    },
+    {
+      "pmc_id": "PMC7281075",
+      "pmid": "32455893",
+      "doi": "10.3390/cancers12051319",
+      "title": "WRN-Mutated Colorectal Cancer Is Characterized by a Distinct Genetic Phenotype",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7281075/",
+      "source_path": "full_text_articles\\PMC7281075.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC7281075.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC7281075.html"
+    },
+    {
+      "pmc_id": "PMC9334343",
+      "pmid": "35901658",
+      "doi": "10.1016/j.ebiom.2022.104165",
+      "title": "Genomic and epigenomic profiles distinguish pulmonary enteric adenocarcinoma from lung metastatic colorectal cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9334343/",
+      "source_path": "full_text_articles\\PMC9334343.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC9334343.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC9334343.html"
+    },
+    {
+      "pmc_id": "PMC8908369",
+      "pmid": "35280779",
+      "doi": "10.3389/fonc.2022.830816",
+      "title": "Longitudinal Circulating Tumor DNA Profiling in Metastatic Colorectal Cancer During Anti-EGFR Therapy",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8908369/",
+      "source_path": "full_text_articles\\PMC8908369.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC8908369.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC8908369.html"
+    },
+    {
+      "pmc_id": "PMC13139892",
+      "pmid": "42094816",
+      "doi": "10.3892/ol.2026.15613",
+      "title": "Emerging role of protein arginine methyltransferase 5 in gastrointestinal cancer (Review)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13139892/",
+      "source_path": "full_text_articles\\PMC13139892.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC13139892.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC13139892.html"
+    },
+    {
+      "pmc_id": "PMC4734822",
+      "pmid": "26869800",
+      "doi": "10.2147/OTT.S86966",
+      "title": "Biomarkers predicting resistance to epidermal growth factor receptor-targeted therapy in metastatic colorectal cancer with wild-type KRAS",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4734822/",
+      "source_path": "full_text_articles\\PMC4734822.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC4734822.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC4734822.html"
+    },
+    {
+      "pmc_id": "PMC2758310",
+      "pmid": "19738166",
+      "doi": "10.1093/jnci/djp280",
+      "title": "Biomarkers Predicting Clinical Outcome of Epidermal Growth Factor Receptor–Targeted Therapy in Metastatic Colorectal Cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2758310/",
+      "source_path": "full_text_articles\\PMC2758310.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC2758310.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC2758310.html"
+    },
+    {
+      "pmc_id": "PMC7213293",
+      "pmid": "",
+      "doi": "10.1093/noajnl/vdz014.083",
+      "title": "OTHR-06. ANALYSIS OF GENOMIC ALTERATIONS IN 154 BRAIN METASTASES",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7213293/",
+      "source_path": "full_text_articles\\PMC7213293.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC7213293.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC7213293.html"
+    },
+    {
+      "pmc_id": "PMC13415011",
+      "pmid": "42515723",
+      "doi": "10.3390/ph19071041",
+      "title": "Overcoming Resistance to Anti-EGFR Therapies: Mechanisms of Cetuximab and Panitumumab Resistance and Emerging Combination Strategies",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13415011/",
+      "source_path": "full_text_articles\\PMC13415011.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC13415011.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC13415011.html"
+    },
+    {
+      "pmc_id": "PMC11657448",
+      "pmid": "39695441",
+      "doi": "10.1186/s12885-024-13287-2",
+      "title": "Plasma mutation profile of precursor lesions and colorectal cancer using the Oncomine Colon cfDNA Assay",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11657448/",
+      "source_path": "full_text_articles\\PMC11657448.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC11657448.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC11657448.html"
+    },
+    {
+      "pmc_id": "PMC2766396",
+      "pmid": "19832985",
+      "doi": "10.1186/1472-6890-9-8",
+      "title": "Experiences from treatment-predictive KRAS testing; high mutation frequency in rectal cancers from females and concurrent mutations in the same tumor",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2766396/",
+      "source_path": "full_text_articles\\PMC2766396.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC2766396.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC2766396.html"
+    },
+    {
+      "pmc_id": "PMC8165703",
+      "pmid": "34094546",
+      "doi": "10.3892/mco.2021.2310",
+      "title": "Drug sensitivity profile of minor KRAS mutations in colorectal cancer using mix culture assay: The effect of AMG-510, a novel KRAS G12C selective inhibitor, on colon cancer cells is markedly enhanced by the combined inhibition of MEK and BCL-XL",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8165703/",
+      "source_path": "full_text_articles\\PMC8165703.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC8165703.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC8165703.html"
+    },
+    {
+      "pmc_id": "PMC3511283",
+      "pmid": "23226389",
+      "doi": "10.1371/journal.pone.0050806",
+      "title": "Tumor Phosphatidylinositol-3-Kinase Signaling and Development of Metastatic Disease in Locally Advanced Rectal Cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3511283/",
+      "source_path": "full_text_articles\\PMC3511283.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC3511283.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC3511283.html"
+    },
+    {
+      "pmc_id": "PMC9200389",
+      "pmid": "35544729",
+      "doi": "10.1200/PO.22.00037",
+      "title": "Negative Ultraselection of Patients With RAS/BRAF Wild-Type, Microsatellite-Stable Metastatic Colorectal Cancer Receiving Anti–EGFR-Based Therapy",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9200389/",
+      "source_path": "full_text_articles\\PMC9200389.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC9200389.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC9200389.html"
+    },
+    {
+      "pmc_id": "PMC9792609",
+      "pmid": "36582540",
+      "doi": "10.3389/fphar.2022.1022129",
+      "title": "Regulation of IFN-γ-mediated PD-L1 expression by MYC in colorectal cancer with wild-type KRAS and TP53 and its clinical implications",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9792609/",
+      "source_path": "full_text_articles\\PMC9792609.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC9792609.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC9792609.html"
+    },
+    {
+      "pmc_id": "PMC4454194",
+      "pmid": "26060408",
+      "doi": "10.2147/OTT.S80017",
+      "title": "Positive feedback between oncogenic KRAS and HIF-1α confers drug resistance in colorectal cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4454194/",
+      "source_path": "full_text_articles\\PMC4454194.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC4454194.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC4454194.html"
+    },
+    {
+      "pmc_id": "PMC7826680",
+      "pmid": "33435234",
+      "doi": "10.3390/cancers13020233",
+      "title": "Molecular Heterogeneity of High Grade Colorectal Adenocarcinoma",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7826680/",
+      "source_path": "full_text_articles\\PMC7826680.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC7826680.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC7826680.html"
+    },
+    {
+      "pmc_id": "PMC5297828",
+      "pmid": "28106826",
+      "doi": "10.3390/ijms18010197",
+      "title": "Colorectal Carcinoma: A General Overview and Future Perspectives in Colorectal Cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5297828/",
+      "source_path": "full_text_articles\\PMC5297828.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC5297828.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC5297828.html"
+    },
+    {
+      "pmc_id": "PMC11361911",
+      "pmid": "39220126",
+      "doi": "10.32604/or.2024.047309",
+      "title": "Genomic profiling of colorectal cancer in large-scale Chinese patients: amplification and somatic mutations in ERBB2",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11361911/",
+      "source_path": "full_text_articles\\PMC11361911.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC11361911.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC11361911.html"
+    },
+    {
+      "pmc_id": "PMC10889120",
+      "pmid": "38406172",
+      "doi": "10.3389/fonc.2023.1307545",
+      "title": "Molecular screening with liquid biopsy for anti-EGFR retreatment in metastatic colorectal cancer: preliminary data from the randomized phase 2 PARERE trial",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10889120/",
+      "source_path": "full_text_articles\\PMC10889120.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC10889120.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC10889120.html"
+    },
+    {
+      "pmc_id": "PMC4951343",
+      "pmid": "26980732",
+      "doi": "10.18632/oncotarget.8006",
+      "title": "Genomic markers of panitumumab resistance including ERBB2/HER2 in a phase II study of KRAS wild-type (wt) metastatic colorectal cancer (mCRC)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4951343/",
+      "source_path": "full_text_articles\\PMC4951343.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC4951343.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC4951343.html"
+    },
+    {
+      "pmc_id": "PMC4007559",
+      "pmid": "24621249",
+      "doi": "10.1186/1471-2164-15-190",
+      "title": "Immunomic, genomic and transcriptomic characterization of CT26 colorectal carcinoma",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4007559/",
+      "source_path": "full_text_articles\\PMC4007559.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC4007559.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC4007559.html"
+    },
+    {
+      "pmc_id": "PMC3706612",
+      "pmid": "23874486",
+      "doi": "10.1371/journal.pone.0068022",
+      "title": "Colorectal Cancer Patients with Low Abundance of KRAS Mutation May Benefit from EGFR Antibody Therapy",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3706612/",
+      "source_path": "full_text_articles\\PMC3706612.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC3706612.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC3706612.html"
+    },
+    {
+      "pmc_id": "PMC12944506",
+      "pmid": "41745738",
+      "doi": "10.3390/toxins18020072",
+      "title": "Indoxyl Sulfate in the Gut–Kidney Axis: Pathophysiology and Clinical Significance in CKD-Associated Colorectal Cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12944506/",
+      "source_path": "full_text_articles\\PMC12944506.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC12944506.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC12944506.html"
+    },
+    {
+      "pmc_id": "PMC7667164",
+      "pmid": "33191401",
+      "doi": "10.1038/s41419-020-03191-5",
+      "title": "A small natural molecule CADPE kills residual colorectal cancer cells by inhibiting key transcription factors and translation initiation factors",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7667164/",
+      "source_path": "full_text_articles\\PMC7667164.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC7667164.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC7667164.html"
+    },
+    {
+      "pmc_id": "PMC13466721",
+      "pmid": "42536421",
+      "doi": "10.1093/oncolo/oyag302",
+      "title": "Genomic landscape and clinical characteristics of ERBB2/HER2-mutated colorectal cancers",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13466721/",
+      "source_path": "full_text_articles\\PMC13466721.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC13466721.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC13466721.html"
+    },
+    {
+      "pmc_id": "PMC11494295",
+      "pmid": "39388269",
+      "doi": "10.1073/pnas.2406936121",
+      "title": "TRIM21 induces selective autophagic degradation of c-Myc and sensitizes regorafenib therapy in colorectal cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11494295/",
+      "source_path": "full_text_articles\\PMC11494295.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC11494295.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC11494295.html"
+    },
+    {
+      "pmc_id": "PMC4946708",
+      "pmid": "27116474",
+      "doi": "10.1111/cas.12959",
+      "title": "Utility of KRAS mutation detection using circulating cell‐free DNA from patients with colorectal cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4946708/",
+      "source_path": "full_text_articles\\PMC4946708.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC4946708.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC4946708.html"
+    },
+    {
+      "pmc_id": "PMC11885200",
+      "pmid": "40048017",
+      "doi": "10.1007/s12672-025-01960-2",
+      "title": "Molecular characterization of colorectal cancer (CRC) using next generation sequencing (NGS) in bridging the gap between research and clinical practice: from biomarker discovery to clinical implementation",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11885200/",
+      "source_path": "full_text_articles\\PMC11885200.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC11885200.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC11885200.html"
+    },
+    {
+      "pmc_id": "PMC5392288",
+      "pmid": "28147317",
+      "doi": "10.18632/oncotarget.14863",
+      "title": "EZH2 expression is a prognostic biomarker in patients with colorectal cancer treated with anti-EGFR therapeutics",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5392288/",
+      "source_path": "full_text_articles\\PMC5392288.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC5392288.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC5392288.html"
+    },
+    {
+      "pmc_id": "PMC10240782",
+      "pmid": "37277698",
+      "doi": "10.1186/s12876-023-02694-7",
+      "title": "Correlation between KRAS and NRAS mutational status and clinicopathological features in 414 cases of metastatic colorectal cancer in Morocco: the largest North African case series",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10240782/",
+      "source_path": "full_text_articles\\PMC10240782.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC10240782.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC10240782.html"
+    },
+    {
+      "pmc_id": "PMC7567075",
+      "pmid": "33060766",
+      "doi": "10.1038/s41598-020-74530-x",
+      "title": "Evaluation of the RAS signaling network in response to MEK inhibition using organoids derived from a familial adenomatous polyposis patient",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7567075/",
+      "source_path": "full_text_articles\\PMC7567075.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC7567075.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC7567075.html"
+    },
+    {
+      "pmc_id": "PMC4051153",
+      "pmid": "24885062",
+      "doi": "10.1186/1476-4598-13-135",
+      "title": "Analyses of clinicopathological, molecular, and prognostic associations of KRAS codon 61 and codon 146 mutations in colorectal cancer: cohort study and literature review",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4051153/",
+      "source_path": "full_text_articles\\PMC4051153.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC4051153.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC4051153.html"
+    },
+    {
+      "pmc_id": "PMC7643456",
+      "pmid": "33153459",
+      "doi": "10.1186/s12964-020-00645-3",
+      "title": "Discernment between candidate mechanisms for KRAS G13D colorectal cancer sensitivity to EGFR inhibitors",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7643456/",
+      "source_path": "full_text_articles\\PMC7643456.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC7643456.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC7643456.html"
+    },
+    {
+      "pmc_id": "PMC7051129",
+      "pmid": "32158916",
+      "doi": "10.1080/23723556.2019.1701914",
+      "title": "A mechanism for the response of KRASG13D expressing colorectal cancers to EGFR inhibitors",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7051129/",
+      "source_path": "full_text_articles\\PMC7051129.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC7051129.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC7051129.html"
+    },
+    {
+      "pmc_id": "PMC8934835",
+      "pmid": "35307764",
+      "doi": "10.1186/s43556-022-00070-7",
+      "title": "Targeting Myc-driven stress vulnerability in mutant KRAS colorectal cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8934835/",
+      "source_path": "full_text_articles\\PMC8934835.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC8934835.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC8934835.html"
+    },
+    {
+      "pmc_id": "PMC2792724",
+      "pmid": "20020061",
+      "doi": "10.1371/journal.pone.0008199",
+      "title": "KRAS Mutations in Primary Colorectal Cancer Tumors and Related Metastases: A Potential Role in Prediction of Lung Metastasis",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2792724/",
+      "source_path": "full_text_articles\\PMC2792724.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC2792724.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC2792724.html"
+    },
+    {
+      "pmc_id": "PMC7504481",
+      "pmid": "32839411",
+      "doi": "10.3390/ijms21176037",
+      "title": "Anti-Metastatic Activity of an Anti-EGFR Monoclonal Antibody against Metastatic Colorectal Cancer with KRAS p.G13D Mutation",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7504481/",
+      "source_path": "full_text_articles\\PMC7504481.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC7504481.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC7504481.html"
+    },
+    {
+      "pmc_id": "PMC13384395",
+      "pmid": "41237766",
+      "doi": "10.1016/j.ccell.2025.10.010",
+      "title": "Paneth-like transition drives resistance to dual targeting of KRAS and EGFR in colorectal cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13384395/",
+      "source_path": "full_text_articles\\PMC13384395.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC13384395.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC13384395.html"
+    },
+    {
+      "pmc_id": "PMC3192787",
+      "pmid": "21943394",
+      "doi": "10.1186/1471-2407-11-406",
+      "title": "Clinical pharmacogenomic testing of KRAS, BRAF and EGFR mutations by high resolution melting analysis and ultra-deep pyrosequencing",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3192787/",
+      "source_path": "full_text_articles\\PMC3192787.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC3192787.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC3192787.html"
+    },
+    {
+      "pmc_id": "PMC4017411",
+      "pmid": "24834160",
+      "doi": "",
+      "title": "The role of kras mutations and MSI status in diagnosis of colorectal cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4017411/",
+      "source_path": "full_text_articles\\PMC4017411.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC4017411.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC4017411.html"
+    },
+    {
+      "pmc_id": "PMC4692059",
+      "pmid": "26678268",
+      "doi": "10.1371/journal.pone.0144708",
+      "title": "Multi-Scale Genomic, Transcriptomic and Proteomic Analysis of Colorectal Cancer Cell Lines to Identify Novel Biomarkers",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4692059/",
+      "source_path": "full_text_articles\\PMC4692059.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC4692059.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC4692059.html"
+    },
+    {
+      "pmc_id": "PMC11813463",
+      "pmid": "30171333",
+      "doi": "10.1007/s00432-018-2742-1",
+      "title": "The gene mutational discrepancies between primary and paired metastatic colorectal carcinoma detected by next-generation sequencing",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11813463/",
+      "source_path": "full_text_articles\\PMC11813463.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC11813463.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC11813463.html"
+    },
+    {
+      "pmc_id": "PMC3717960",
+      "pmid": "23045412",
+      "doi": "10.18632/oncotarget.628",
+      "title": "Up-regulation of c-MYC and SIRT1 expression correlates with malignant transformation in the serrated route to colorectal cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3717960/",
+      "source_path": "full_text_articles\\PMC3717960.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC3717960.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC3717960.html"
+    },
+    {
+      "pmc_id": "PMC6195818",
+      "pmid": "29755130",
+      "doi": "10.1038/s41388-018-0289-x",
+      "title": "Restoring PUMA induction overcomes KRAS-mediated resistance to anti-EGFR antibodies in colorectal cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6195818/",
+      "source_path": "full_text_articles\\PMC6195818.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC6195818.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC6195818.html"
+    },
+    {
+      "pmc_id": "PMC4302689",
+      "pmid": "24890702",
+      "doi": "10.1002/cam4.279",
+      "title": "Let-7 microRNA-binding-site polymorphism in the 3′UTR of KRAS and colorectal cancer outcome: a systematic review and meta-analysis",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4302689/",
+      "source_path": "full_text_articles\\PMC4302689.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC4302689.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC4302689.html"
+    },
+    {
+      "pmc_id": "PMC2686726",
+      "pmid": "19386128",
+      "doi": "10.1186/1756-8722-2-18",
+      "title": "Individualized therapies in colorectal cancer: KRAS as a marker for response to EGFR-targeted therapy",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2686726/",
+      "source_path": "full_text_articles\\PMC2686726.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC2686726.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC2686726.html"
+    },
+    {
+      "pmc_id": "PMC8700616",
+      "pmid": "34943612",
+      "doi": "10.3390/diagnostics11122375",
+      "title": "Development and Validation of a Targeted ‘Liquid’ NGS Panel for Treatment Customization in Patients with Metastatic Colorectal Cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8700616/",
+      "source_path": "full_text_articles\\PMC8700616.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC8700616.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC8700616.html"
+    },
+    {
+      "pmc_id": "PMC12851494",
+      "pmid": "41604371",
+      "doi": "10.1371/journal.pone.0338123",
+      "title": "Computational repurposing of approved drugs targeting KRAS G12D and EGFR for colorectal cancer therapy",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12851494/",
+      "source_path": "full_text_articles\\PMC12851494.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC12851494.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC12851494.html"
+    },
+    {
+      "pmc_id": "PMC3004666",
+      "pmid": "21188126",
+      "doi": "",
+      "title": "Evolving role of cetuximab in the treatment of colorectal cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3004666/",
+      "source_path": "full_text_articles\\PMC3004666.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC3004666.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC3004666.html"
+    },
+    {
+      "pmc_id": "PMC6042707",
+      "pmid": "30001368",
+      "doi": "10.1371/journal.pone.0200163",
+      "title": "Downregulation of PIK3CA via antibody-esiRNA-complexes suppresses human xenograft tumor growth",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6042707/",
+      "source_path": "full_text_articles\\PMC6042707.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC6042707.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC6042707.html"
+    },
+    {
+      "pmc_id": "PMC9410344",
+      "pmid": "36005485",
+      "doi": "10.3390/md20080482",
+      "title": "Heteronemin and Tetrac Induce Anti-Proliferation by Blocking EGFR-Mediated Signaling in Colorectal Cancer Cells",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9410344/",
+      "source_path": "full_text_articles\\PMC9410344.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC9410344.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC9410344.html"
+    },
+    {
+      "pmc_id": "PMC4886432",
+      "pmid": "27246726",
+      "doi": "10.1186/s12885-016-2389-8",
+      "title": "ICECREAM: randomised phase II study of cetuximab alone or in combination with irinotecan in patients with metastatic colorectal cancer with either KRAS, NRAS, BRAF and PI3KCA wild type, or G13D mutated tumours",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4886432/",
+      "source_path": "full_text_articles\\PMC4886432.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC4886432.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC4886432.html"
+    },
+    {
+      "pmc_id": "PMC2837901",
+      "pmid": "20300583",
+      "doi": "10.1155/2009/831626",
+      "title": "Concordance of KRAS/BRAF Mutation Status in Metastatic Colorectal Cancer before and after Anti-EGFR Therapy",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2837901/",
+      "source_path": "full_text_articles\\PMC2837901.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC2837901.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC2837901.html"
+    },
+    {
+      "pmc_id": "PMC7612401",
+      "pmid": "35091678",
+      "doi": "10.1038/s41388-021-02162-0",
+      "title": "An mRNA expression-based signature for oncogene-induced replication-stress",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7612401/",
+      "source_path": "full_text_articles\\PMC7612401.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC7612401.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC7612401.html"
+    },
+    {
+      "pmc_id": "PMC6350302",
+      "pmid": "30691487",
+      "doi": "10.1186/s13046-019-1035-0",
+      "title": "Receptor tyrosine kinase-dependent PI3K activation is an escape mechanism to vertical suppression of the EGFR/RAS/MAPK pathway in KRAS-mutated human colorectal cancer cell lines",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6350302/",
+      "source_path": "full_text_articles\\PMC6350302.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC6350302.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC6350302.html"
+    },
+    {
+      "pmc_id": "PMC10196928",
+      "pmid": "37200022",
+      "doi": "10.1001/jamaoncol.2023.0655",
+      "title": "Panitumumab Plus Trifluridine-Tipiracil as Anti–Epidermal Growth Factor Receptor Rechallenge Therapy for Refractory RAS Wild-Type Metastatic Colorectal Cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10196928/",
+      "source_path": "full_text_articles\\PMC10196928.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC10196928.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC10196928.html"
+    },
+    {
+      "pmc_id": "PMC11340593",
+      "pmid": "39175850",
+      "doi": "10.33696/cancerimmunol.6.086",
+      "title": "Combining EGFR and KRAS G12C Inhibitors for KRAS G12C Mutated Advanced Colorectal Cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11340593/",
+      "source_path": "full_text_articles\\PMC11340593.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC11340593.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC11340593.html"
+    },
+    {
+      "pmc_id": "PMC3409212",
+      "pmid": "22860045",
+      "doi": "10.1371/journal.pone.0042001",
+      "title": "A Comprehensive Characterization of Genome-Wide Copy Number Aberrations in Colorectal Cancer Reveals Novel Oncogenes and Patterns of Alterations",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3409212/",
+      "source_path": "full_text_articles\\PMC3409212.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC3409212.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC3409212.html"
+    },
+    {
+      "pmc_id": "PMC3142805",
+      "pmid": "21694725",
+      "doi": "10.1038/bjc.2011.223",
+      "title": "EGFR gene copy number assessment from areas with highest EGFR expression predicts response to anti-EGFR therapy in colorectal cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3142805/",
+      "source_path": "full_text_articles\\PMC3142805.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC3142805.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC3142805.html"
+    },
+    {
+      "pmc_id": "PMC13357833",
+      "pmid": "42056442",
+      "doi": "10.1038/s41698-026-01447-5",
+      "title": "Molecular heterogeneity of ERBB2-altered cancers: A pan-cancer landscape across US and Japanese cohorts",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13357833/",
+      "source_path": "full_text_articles\\PMC13357833.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC13357833.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC13357833.html"
+    },
+    {
+      "pmc_id": "PMC4422999",
+      "pmid": "25983749",
+      "doi": "10.1155/2015/753903",
+      "title": "KRAS and BRAF Mutation Detection: Is Immunohistochemistry a Possible Alternative to Molecular Biology in Colorectal Cancer?",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4422999/",
+      "source_path": "full_text_articles\\PMC4422999.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC4422999.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC4422999.html"
+    },
+    {
+      "pmc_id": "PMC2453041",
+      "pmid": "18577988",
+      "doi": "10.1038/sj.bjc.6604439",
+      "title": "Primary resistance to cetuximab therapy in EGFR FISH-positive colorectal cancer patients",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2453041/",
+      "source_path": "full_text_articles\\PMC2453041.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC2453041.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC2453041.html"
+    },
+    {
+      "pmc_id": "PMC6439419",
+      "pmid": "30967998",
+      "doi": "10.3389/fonc.2019.00170",
+      "title": "Circulating Tumor DNA Detection in the Management of Anti-EGFR Therapy for Advanced Colorectal Cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6439419/",
+      "source_path": "full_text_articles\\PMC6439419.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC6439419.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC6439419.html"
+    },
+    {
+      "pmc_id": "PMC7139947",
+      "pmid": "32155907",
+      "doi": "10.3390/cancers12030614",
+      "title": "EGFR Protein Expression in KRAS Wild-Type Metastatic Colorectal Cancer Is Another Negative Predictive Factor of the Cetuximab Therapy",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7139947/",
+      "source_path": "full_text_articles\\PMC7139947.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC7139947.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC7139947.html"
+    },
+    {
+      "pmc_id": "PMC2579485",
+      "pmid": "19002263",
+      "doi": "10.1371/journal.pone.0003698",
+      "title": "Comprehensive Biostatistical Analysis of CpG Island Methylator Phenotype in Colorectal Cancer Using a Large Population-Based Sample",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2579485/",
+      "source_path": "full_text_articles\\PMC2579485.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC2579485.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC2579485.html"
+    },
+    {
+      "pmc_id": "PMC4062406",
+      "pmid": "24940619",
+      "doi": "10.1371/journal.pone.0099590",
+      "title": "Heterogeneous EGFR Gene Copy Number Increase Is Common in Colorectal Cancer and Defines Response to Anti-EGFR Therapy",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4062406/",
+      "source_path": "full_text_articles\\PMC4062406.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC4062406.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC4062406.html"
+    },
+    {
+      "pmc_id": "PMC11448363",
+      "pmid": "39039804",
+      "doi": "10.1111/cas.16262",
+      "title": "Clinicopathological, molecular, and prognostic features of colorectal carcinomas with KRAS c.34G>T (p.G12C) mutation",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11448363/",
+      "source_path": "full_text_articles\\PMC11448363.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC11448363.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC11448363.html"
+    },
+    {
+      "pmc_id": "PMC2965865",
+      "pmid": "20842128",
+      "doi": "10.1038/sj.bjc.6605853",
+      "title": "Prognostic role of EGFR gene copy number and KRAS mutation in patients with locally advanced rectal cancer treated with preoperative chemoradiotherapy",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2965865/",
+      "source_path": "full_text_articles\\PMC2965865.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC2965865.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC2965865.html"
+    },
+    {
+      "pmc_id": "PMC6934288",
+      "pmid": "31881025",
+      "doi": "10.1371/journal.pone.0226473",
+      "title": "KRAS and NRAS mutational gene profile of metastatic colorectal cancer patients in Jordan",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6934288/",
+      "source_path": "full_text_articles\\PMC6934288.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC6934288.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC6934288.html"
+    },
+    {
+      "pmc_id": "PMC5312323",
+      "pmid": "27509063",
+      "doi": "10.18632/oncotarget.11118",
+      "title": "TIMP-1 is under regulation of the EGF signaling axis and promotes an aggressive phenotype in KRAS-mutated colorectal cancer cells: A potential novel approach to the treatment of metastatic colorectal cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5312323/",
+      "source_path": "full_text_articles\\PMC5312323.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC5312323.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC5312323.html"
+    },
+    {
+      "pmc_id": "PMC8699097",
+      "pmid": "34944853",
+      "doi": "10.3390/cancers13246233",
+      "title": "Therapeutic Targets of KRAS in Colorectal Cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8699097/",
+      "source_path": "full_text_articles\\PMC8699097.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC8699097.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC8699097.html"
+    },
+    {
+      "pmc_id": "PMC4848940",
+      "pmid": "27043547",
+      "doi": "10.3390/ijms17040484",
+      "title": "KRAS G12V Mutation Detection by Droplet Digital PCR in Circulating Cell-Free DNA of Colorectal Cancer Patients",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4848940/",
+      "source_path": "full_text_articles\\PMC4848940.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC4848940.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC4848940.html"
+    },
+    {
+      "pmc_id": "PMC12162862",
+      "pmid": "40329096",
+      "doi": "10.1038/s44321-025-00240-4",
+      "title": "EGFR controls transcriptional and metabolic rewiring in KRASG12D colorectal cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12162862/",
+      "source_path": "full_text_articles\\PMC12162862.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC12162862.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC12162862.html"
+    },
+    {
+      "pmc_id": "PMC11944112",
+      "pmid": "40142219",
+      "doi": "10.3390/medicina61030408",
+      "title": "A Narrative Review of RAS Mutations in Early-Stage Colorectal Cancer: Mechanisms and Clinical Implications",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11944112/",
+      "source_path": "full_text_articles\\PMC11944112.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC11944112.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC11944112.html"
+    },
+    {
+      "pmc_id": "PMC10181928",
+      "pmid": "37020035",
+      "doi": "10.1038/s41388-023-02676-9",
+      "title": "Feedback activation of EGFR/wild-type RAS signaling axis limits KRASG12D inhibitor efficacy in KRASG12D-mutated colorectal cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10181928/",
+      "source_path": "full_text_articles\\PMC10181928.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC10181928.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC10181928.html"
+    },
+    {
+      "pmc_id": "PMC6244225",
+      "pmid": "30459318",
+      "doi": "10.1038/s12276-018-0182-2",
+      "title": "A small molecule approach to degrade RAS with EGFR repression is a potential therapy for KRAS mutation-driven colorectal cancer resistance to cetuximab",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6244225/",
+      "source_path": "full_text_articles\\PMC6244225.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC6244225.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC6244225.html"
+    },
+    {
+      "pmc_id": "PMC7618057",
+      "pmid": "40512191",
+      "doi": "10.1158/1078-0432.CCR-24-2763",
+      "title": "Circulating Tumor DNA Analysis in ERBB2-Amplified Colorectal Cancer: Biomarker Analysis of the MyPathway Trial",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7618057/",
+      "source_path": "full_text_articles\\PMC7618057.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC7618057.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC7618057.html"
+    },
+    {
+      "pmc_id": "PMC3343383",
+      "pmid": "22043994",
+      "doi": "10.2174/187152012799014968",
+      "title": "Are KRAS/BRAF Mutations Potent Prognostic and/or Predictive Biomarkers in Colorectal Cancers?",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3343383/",
+      "source_path": "full_text_articles\\PMC3343383.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC3343383.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC3343383.html"
+    },
+    {
+      "pmc_id": "PMC9277212",
+      "pmid": "35847359",
+      "doi": "10.1155/2022/3216285",
+      "title": "Construction of a Novel MYC-Associated ceRNA Regulatory Network to Identify Prognostic Biomarkers in Colon Adenocarcinoma",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9277212/",
+      "source_path": "full_text_articles\\PMC9277212.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC9277212.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC9277212.html"
+    },
+    {
+      "pmc_id": "PMC7139615",
+      "pmid": "32164324",
+      "doi": "10.3390/cancers12030638",
+      "title": "c-MYC Expression Is a Possible Keystone in the Colorectal Cancer Resistance to EGFR Inhibitors",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7139615/",
+      "source_path": "full_text_articles\\PMC7139615.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC7139615.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC7139615.html"
+    },
+    {
+      "pmc_id": "PMC3049558",
+      "pmid": "21206494",
+      "doi": "10.1038/sj.bjc.6606054",
+      "title": "Tumour gene expression predicts response to cetuximab in patients with KRAS wild-type metastatic colorectal cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3049558/",
+      "source_path": "full_text_articles\\PMC3049558.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC3049558.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC3049558.html"
+    },
+    {
+      "pmc_id": "PMC5056326",
+      "pmid": "27777877",
+      "doi": "10.5306/wjco.v7.i5.340",
+      "title": "Oncogenic fingerprint of epidermal growth factor receptor pathway and emerging epidermal growth factor receptor blockade resistance in colorectal cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5056326/",
+      "source_path": "full_text_articles\\PMC5056326.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC5056326.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC5056326.html"
+    },
+    {
+      "pmc_id": "PMC8984468",
+      "pmid": "35402217",
+      "doi": "10.3389/fonc.2022.769709",
+      "title": "ERBB2 Mutations as Potential Predictors for Recurrence in Colorectal Serrated Polyps by Targeted Next-Generation Sequencing",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8984468/",
+      "source_path": "full_text_articles\\PMC8984468.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC8984468.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC8984468.html"
+    },
+    {
+      "pmc_id": "PMC9273901",
+      "pmid": "35837349",
+      "doi": "10.2147/OTT.S340392",
+      "title": "Targeting KRASG12C-Mutated Advanced Colorectal Cancer: Research and Clinical Developments",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9273901/",
+      "source_path": "full_text_articles\\PMC9273901.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC9273901.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC9273901.html"
+    },
+    {
+      "pmc_id": "PMC7376720",
+      "pmid": "32703218",
+      "doi": "10.1186/s12964-020-00584-z",
+      "title": "AMPK activation overcomes anti-EGFR antibody resistance induced by KRAS mutation in colorectal cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7376720/",
+      "source_path": "full_text_articles\\PMC7376720.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC7376720.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC7376720.html"
+    },
+    {
+      "pmc_id": "PMC5630427",
+      "pmid": "29029527",
+      "doi": "10.18632/oncotarget.20185",
+      "title": "Targeted first-line therapies for advanced colorectal cancer: a Bayesian meta-analysis",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5630427/",
+      "source_path": "full_text_articles\\PMC5630427.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC5630427.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC5630427.html"
+    },
+    {
+      "pmc_id": "PMC10205207",
+      "pmid": "37228916",
+      "doi": "10.1097/MS9.0000000000000694",
+      "title": "Identification of KRAS mutation and HER2 expression in Indonesian colorectal cancer population: a cross-sectional study",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10205207/",
+      "source_path": "full_text_articles\\PMC10205207.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC10205207.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC10205207.html"
+    },
+    {
+      "pmc_id": "PMC3317853",
+      "pmid": "22409860",
+      "doi": "10.1186/1471-2407-12-88",
+      "title": "Amphiregulin and Epiregulin mRNA expression in primary colorectal cancer and corresponding liver metastases",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3317853/",
+      "source_path": "full_text_articles\\PMC3317853.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC3317853.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC3317853.html"
+    },
+    {
+      "pmc_id": "PMC5129933",
+      "pmid": "27283768",
+      "doi": "10.18632/oncotarget.9828",
+      "title": "Mutations of KRAS, NRAS, BRAF, EGFR, and PIK3CA genes in urachal carcinoma: Occurence and prognostic significance",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5129933/",
+      "source_path": "full_text_articles\\PMC5129933.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC5129933.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC5129933.html"
+    },
+    {
+      "pmc_id": "PMC3634474",
+      "pmid": "23459231",
+      "doi": "10.3390/ijms14035170",
+      "title": "EGFR Expression and KRAS and BRAF Mutational Status in Intestinal-Type Sinonasal Adenocarcinoma",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3634474/",
+      "source_path": "full_text_articles\\PMC3634474.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC3634474.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC3634474.html"
+    },
+    {
+      "pmc_id": "PMC11669641",
+      "pmid": "39722096",
+      "doi": "10.1186/s41824-024-00233-5",
+      "title": "Predictive role of [18F]FDG PET-CT radiomic parameters for KRAS/BRAF/EGFR mutations in metastatic colorectal cancer patients",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11669641/",
+      "source_path": "full_text_articles\\PMC11669641.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC11669641.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC11669641.html"
+    },
+    {
+      "pmc_id": "PMC4728071",
+      "pmid": "26812617",
+      "doi": "10.1371/journal.pone.0147672",
+      "title": "Validation of a Multiplex Allele-Specific Polymerase Chain Reaction Assay for Detection of KRAS Gene Mutations in Formalin-Fixed, Paraffin-Embedded Tissues from Colorectal Cancer Patients",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4728071/",
+      "source_path": "full_text_articles\\PMC4728071.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC4728071.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC4728071.html"
+    },
+    {
+      "pmc_id": "PMC4016273",
+      "pmid": "24152305",
+      "doi": "10.1186/1755-8794-6-43",
+      "title": "Association of candidate single nucleotide polymorphisms with somatic mutation of the epidermal growth factor receptor pathway",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4016273/",
+      "source_path": "full_text_articles\\PMC4016273.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC4016273.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC4016273.html"
+    },
+    {
+      "pmc_id": "PMC10970443",
+      "pmid": "38542278",
+      "doi": "10.3390/ijms25063304",
+      "title": "Targeting KRAS G12C Mutation in Colorectal Cancer, A Review: New Arrows in the Quiver",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10970443/",
+      "source_path": "full_text_articles\\PMC10970443.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC10970443.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC10970443.html"
+    },
+    {
+      "pmc_id": "PMC13402710",
+      "pmid": "42209458",
+      "doi": "10.1038/s41419-026-08900-0",
+      "title": "Efficacy of dual KRASG12D–EGFR blockade versus triple combinations in patient-derived models of KRASG12D-mutant colorectal cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13402710/",
+      "source_path": "full_text_articles\\PMC13402710.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC13402710.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC13402710.html"
+    },
+    {
+      "pmc_id": "PMC6928876",
+      "pmid": "31771279",
+      "doi": "10.3390/ijms20235894",
+      "title": "Promising Therapeutic Efficacy of GC1118, an Anti-EGFR Antibody, against KRAS Mutation-Driven Colorectal Cancer Patient-Derived Xenografts",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6928876/",
+      "source_path": "full_text_articles\\PMC6928876.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC6928876.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC6928876.html"
+    },
+    {
+      "pmc_id": "PMC4198623",
+      "pmid": "25267307",
+      "doi": "10.1186/s13000-014-0187-7",
+      "title": "KRAS and BRAF mutational status in colon cancer from Albanian patients",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4198623/",
+      "source_path": "full_text_articles\\PMC4198623.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC4198623.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC4198623.html"
+    },
+    {
+      "pmc_id": "PMC4891042",
+      "pmid": "26824184",
+      "doi": "10.18632/oncotarget.7008",
+      "title": "Does bevacizumab impact anti-EGFR therapy efficacy in metastatic colorectal cancer?",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4891042/",
+      "source_path": "full_text_articles\\PMC4891042.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC4891042.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC4891042.html"
+    },
+    {
+      "pmc_id": "PMC3423757",
+      "pmid": "22933967",
+      "doi": "10.2478/v10019-011-0039-y",
+      "title": "Efficacy of first-line systemic treatment in correlation with BRAF V600E and different KRAS mutations in metastatic colorectal cancer – a single institution retrospective analysis",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3423757/",
+      "source_path": "full_text_articles\\PMC3423757.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC3423757.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC3423757.html"
+    },
+    {
+      "pmc_id": "PMC3062096",
+      "pmid": "21437184",
+      "doi": "10.4061/2011/219309",
+      "title": "Impact of KRAS Mutations on Management of Colorectal Carcinoma",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3062096/",
+      "source_path": "full_text_articles\\PMC3062096.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC3062096.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC3062096.html"
+    },
+    {
+      "pmc_id": "PMC6488202",
+      "pmid": "30791232",
+      "doi": "10.1002/cam4.2032",
+      "title": "DNA methylation‐regulated and tumor‐suppressive roles of miR‐487b in colorectal cancer via targeting MYC, SUZ12, and KRAS",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6488202/",
+      "source_path": "full_text_articles\\PMC6488202.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC6488202.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC6488202.html"
+    },
+    {
+      "pmc_id": "PMC12852667",
+      "pmid": "41361014",
+      "doi": "10.1038/s41416-025-03270-4",
+      "title": "Survival outcomes of ERBB2-amplified metastatic colorectal cancer treated with first-line chemotherapy",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12852667/",
+      "source_path": "full_text_articles\\PMC12852667.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC12852667.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC12852667.html"
+    },
+    {
+      "pmc_id": "PMC4687460",
+      "pmid": "25500543",
+      "doi": "10.1038/onc.2014.416",
+      "title": "Oncogenic KRAS signalling promotes the Wnt/β-catenin pathway through LRP6 in colorectal cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4687460/",
+      "source_path": "full_text_articles\\PMC4687460.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC4687460.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC4687460.html"
+    },
+    {
+      "pmc_id": "PMC4506361",
+      "pmid": "26244165",
+      "doi": "10.18632/oncoscience.175",
+      "title": "Durable clinical benefit to trastuzumab and chemotherapy in a patient with metastatic colon adenocarcinoma harboring ERBB2 amplification",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4506361/",
+      "source_path": "full_text_articles\\PMC4506361.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC4506361.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC4506361.html"
+    },
+    {
+      "pmc_id": "PMC12323406",
+      "pmid": "40619745",
+      "doi": "10.1080/14796694.2025.2524311",
+      "title": "Adagrasib in the treatment of colorectal cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12323406/",
+      "source_path": "full_text_articles\\PMC12323406.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC12323406.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC12323406.html"
+    },
+    {
+      "pmc_id": "PMC5356876",
+      "pmid": "27965461",
+      "doi": "10.18632/oncotarget.13884",
+      "title": "KRAS mutant colorectal cancer gene signatures identified angiotensin II receptor blockers as potential therapies",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5356876/",
+      "source_path": "full_text_articles\\PMC5356876.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC5356876.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC5356876.html"
+    },
+    {
+      "pmc_id": "PMC3878756",
+      "pmid": "24330663",
+      "doi": "10.1186/1471-2407-13-599",
+      "title": "The prognostic values of EGFR expression and KRAS mutation in patients with synchronous or metachronous metastatic colorectal cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3878756/",
+      "source_path": "full_text_articles\\PMC3878756.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC3878756.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC3878756.html"
+    },
+    {
+      "pmc_id": "PMC5042411",
+      "pmid": "27685259",
+      "doi": "10.1371/journal.pone.0163444",
+      "title": "Multi-Center Evaluation of the Fully Automated PCR-Based Idylla™ KRAS Mutation Assay for Rapid KRAS Mutation Status Determination on Formalin-Fixed Paraffin-Embedded Tissue of Human Colorectal Cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5042411/",
+      "source_path": "full_text_articles\\PMC5042411.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC5042411.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC5042411.html"
+    },
+    {
+      "pmc_id": "PMC3436069",
+      "pmid": "22722843",
+      "doi": "10.1038/nature11219",
+      "title": "The molecular evolution of acquired resistance to targeted EGFR blockade in colorectal cancers",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3436069/",
+      "source_path": "full_text_articles\\PMC3436069.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC3436069.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC3436069.html"
+    },
+    {
+      "pmc_id": "PMC6369974",
+      "pmid": "30792807",
+      "doi": "10.3332/ecancer.2019.890",
+      "title": "Anticancer response to disulfiram may be enhanced by co-treatment with MEK inhibitor or oxaliplatin: modulation by tetrathiomolybdate, KRAS/BRAF mutations and c-MYC/p53 status",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6369974/",
+      "source_path": "full_text_articles\\PMC6369974.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC6369974.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC6369974.html"
+    },
+    {
+      "pmc_id": "PMC3839845",
+      "pmid": "24294007",
+      "doi": "10.2147/CMAR.S35025",
+      "title": "Personalized treatment for advanced colorectal cancer: KRAS and beyond",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3839845/",
+      "source_path": "full_text_articles\\PMC3839845.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC3839845.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC3839845.html"
+    },
+    {
+      "pmc_id": "PMC11704227",
+      "pmid": "39762482",
+      "doi": "10.1038/s41698-024-00793-6",
+      "title": "Mechanisms of KRAS inhibitor resistance in KRAS-mutant colorectal cancer harboring Her2 amplification and aberrant KRAS localization",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11704227/",
+      "source_path": "full_text_articles\\PMC11704227.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC11704227.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC11704227.html"
+    },
+    {
+      "pmc_id": "PMC7610573",
+      "pmid": "33795873",
+      "doi": "10.1038/s41556-021-00654-5",
+      "title": "Quantifying single-cell ERK dynamics in colorectal cancer organoids reveals EGFR as an amplifier of oncogenic MAPK pathway signaling",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7610573/",
+      "source_path": "full_text_articles\\PMC7610573.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC7610573.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC7610573.html"
+    },
+    {
+      "pmc_id": "PMC7016634",
+      "pmid": "31952366",
+      "doi": "10.3390/cells9010219",
+      "title": "KRAS and BRAF Mutations as Prognostic and Predictive Biomarkers for Standard Chemotherapy Response in Metastatic Colorectal Cancer: A Single Institutional Study",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7016634/",
+      "source_path": "full_text_articles\\PMC7016634.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC7016634.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC7016634.html"
+    },
+    {
+      "pmc_id": "PMC4086227",
+      "pmid": "25032217",
+      "doi": "10.1155/2014/591867",
+      "title": "Current Approaches for Predicting a Lack of Response to Anti-EGFR Therapy in KRAS Wild-Type Patients",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4086227/",
+      "source_path": "full_text_articles\\PMC4086227.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC4086227.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC4086227.html"
+    },
+    {
+      "pmc_id": "PMC6966481",
+      "pmid": "31805664",
+      "doi": "10.3390/cancers11121907",
+      "title": "Proteogenomics of Colorectal Cancer Liver Metastases: Complementing Precision Oncology with Phenotypic Data",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6966481/",
+      "source_path": "full_text_articles\\PMC6966481.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC6966481.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC6966481.html"
+    },
+    {
+      "pmc_id": "PMC3517778",
+      "pmid": "23173730",
+      "doi": "10.1186/1471-2407-12-548",
+      "title": "Competitive amplification of differentially melting amplicons (CADMA) improves KRAS hotspot mutation testing in colorectal cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3517778/",
+      "source_path": "full_text_articles\\PMC3517778.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC3517778.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC3517778.html"
+    },
+    {
+      "pmc_id": "PMC10190927",
+      "pmid": "37323700",
+      "doi": "10.1002/EXP.20210176",
+      "title": "SERS characterization of colorectal cancer cell surface markers upon anti‐EGFR treatment",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10190927/",
+      "source_path": "full_text_articles\\PMC10190927.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC10190927.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC10190927.html"
+    },
+    {
+      "pmc_id": "PMC9367374",
+      "pmid": "35954382",
+      "doi": "10.3390/cancers14153718",
+      "title": "Precision Medicine in Metastatic Colorectal Cancer: Targeting ERBB2 (HER-2) Oncogene",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9367374/",
+      "source_path": "full_text_articles\\PMC9367374.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC9367374.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC9367374.html"
+    },
+    {
+      "pmc_id": "PMC5223326",
+      "pmid": "28068936",
+      "doi": "10.1186/s12885-016-2994-6",
+      "title": "Retrospective study of RAS/PIK3CA/BRAF tumor mutations as predictors of response to first-line chemotherapy with bevacizumab in metastatic colorectal cancer patients",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5223326/",
+      "source_path": "full_text_articles\\PMC5223326.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC5223326.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC5223326.html"
+    },
+    {
+      "pmc_id": "PMC4372129",
+      "pmid": "25815366",
+      "doi": "10.1016/j.gendis.2014.10.002",
+      "title": "Mutant KRAS as a critical determinant of the therapeutic response of colorectal cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4372129/",
+      "source_path": "full_text_articles\\PMC4372129.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC4372129.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC4372129.html"
+    },
+    {
+      "pmc_id": "PMC2432064",
+      "pmid": "18544172",
+      "doi": "10.1186/1471-2407-8-169",
+      "title": "A polymorphism of EGFR extracellular domain is associated with progression free-survival in metastatic colorectal cancer patients receiving cetuximab-based treatment",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2432064/",
+      "source_path": "full_text_articles\\PMC2432064.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC2432064.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC2432064.html"
+    },
+    {
+      "pmc_id": "PMC3398915",
+      "pmid": "22714415",
+      "doi": "10.4161/sgtp.18751",
+      "title": "KRAS mutant colorectal tumors",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3398915/",
+      "source_path": "full_text_articles\\PMC3398915.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC3398915.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC3398915.html"
+    },
+    {
+      "pmc_id": "PMC5784580",
+      "pmid": "29403291",
+      "doi": "10.2147/OTT.S149110",
+      "title": "Subsequent anti-VEGF therapy after first-line anti-EGFR therapy improved overall survival of patients with metastatic colorectal cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5784580/",
+      "source_path": "full_text_articles\\PMC5784580.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC5784580.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC5784580.html"
+    },
+    {
+      "pmc_id": "PMC3472558",
+      "pmid": "23091721",
+      "doi": "10.1155/2012/198197",
+      "title": "Antiepidermal Growth Factor Receptor Monoclonal Antibodies: Applications in Colorectal Cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3472558/",
+      "source_path": "full_text_articles\\PMC3472558.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC3472558.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC3472558.html"
+    },
+    {
+      "pmc_id": "PMC12685750",
+      "pmid": "41377575",
+      "doi": "10.2147/CMAR.S555932",
+      "title": "Prevalence and Clinical Characteristics Associated with KRAS Gene Mutations in Colorectal Cancer in Ecuadorian Patients: A Cross-Sectional Study",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12685750/",
+      "source_path": "full_text_articles\\PMC12685750.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC12685750.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC12685750.html"
+    },
+    {
+      "pmc_id": "PMC3699841",
+      "pmid": "23930206",
+      "doi": "10.1002/cam4.82",
+      "title": "EGFR, KRAS, BRAF, and HER-2 molecular status in brain metastases from 77 NSCLC patients",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3699841/",
+      "source_path": "full_text_articles\\PMC3699841.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC3699841.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC3699841.html"
+    },
+    {
+      "pmc_id": "PMC4968864",
+      "pmid": "27555788",
+      "doi": "10.2147/OTT.S102891",
+      "title": "Mutational analysis of primary and metastatic colorectal cancer samples underlying the resistance to cetuximab-based therapy",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4968864/",
+      "source_path": "full_text_articles\\PMC4968864.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC4968864.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC4968864.html"
+    },
+    {
+      "pmc_id": "PMC10249423",
+      "pmid": "36288238",
+      "doi": "10.1093/oncolo/oyac222",
+      "title": "Phase II Single-Arm Study of Palbociclib and Cetuximab Rechallenge in Patients with KRAS/NRAS/BRAF Wild-Type Colorectal Cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10249423/",
+      "source_path": "full_text_articles\\PMC10249423.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC10249423.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC10249423.html"
+    },
+    {
+      "pmc_id": "PMC10653454",
+      "pmid": "37972012",
+      "doi": "10.1371/journal.pone.0294491",
+      "title": "p53-armed oncolytic adenovirus induces autophagy and apoptosis in KRAS and BRAF-mutant colorectal cancer cells",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10653454/",
+      "source_path": "full_text_articles\\PMC10653454.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC10653454.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC10653454.html"
+    },
+    {
+      "pmc_id": "PMC11276370",
+      "pmid": "39057088",
+      "doi": "10.3390/cimb46070447",
+      "title": "Erlotinib Treatment in Colorectal Cancer Suppresses Autophagy Based on KRAS Mutation",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11276370/",
+      "source_path": "full_text_articles\\PMC11276370.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC11276370.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC11276370.html"
+    },
+    {
+      "pmc_id": "PMC4695021",
+      "pmid": "26336987",
+      "doi": "10.18632/oncotarget.4834",
+      "title": "Clonal origins and parallel evolution of regionally synchronous colorectal adenoma and carcinoma",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4695021/",
+      "source_path": "full_text_articles\\PMC4695021.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC4695021.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC4695021.html"
+    },
+    {
+      "pmc_id": "PMC6627713",
+      "pmid": "31226844",
+      "doi": "10.3390/cancers11060859",
+      "title": "Genomic Profiling of KRAS/NRAS/BRAF/PIK3CA Wild-Type Metastatic Colorectal Cancer Patients Reveals Novel Mutations in Genes Potentially Associated with Resistance to Anti-EGFR Agents",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6627713/",
+      "source_path": "full_text_articles\\PMC6627713.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC6627713.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC6627713.html"
+    },
+    {
+      "pmc_id": "PMC4049792",
+      "pmid": "24642870",
+      "doi": "10.4161/cbt.28550",
+      "title": "Characterization of rare transforming KRAS mutations in sporadic colorectal cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4049792/",
+      "source_path": "full_text_articles\\PMC4049792.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC4049792.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC4049792.html"
+    },
+    {
+      "pmc_id": "PMC7743328",
+      "pmid": "33331426",
+      "doi": "10.1590/0102-672020200003e1524",
+      "title": "IMPACT OF KRAS MUTATIONS IN CLINICAL FEATURES IN COLORECTAL CANCER",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7743328/",
+      "source_path": "full_text_articles\\PMC7743328.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC7743328.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC7743328.html"
+    },
+    {
+      "pmc_id": "PMC11015038",
+      "pmid": "38402342",
+      "doi": "10.1038/s41416-024-02604-y",
+      "title": "Fluoropyrimidine type, patient age, tumour sidedness and mutation status as determinants of benefit in patients with metastatic colorectal cancer treated with EGFR monoclonal antibodies: individual patient data pooled analysis of randomised trials from the ARCAD database",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11015038/",
+      "source_path": "full_text_articles\\PMC11015038.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC11015038.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC11015038.html"
+    },
+    {
+      "pmc_id": "PMC6430077",
+      "pmid": "30949599",
+      "doi": "10.1016/j.heliyon.2019.e01330",
+      "title": "KRAS and NRAS pyrosequencing screening in Tunisian colorectal cancer patients in 2015",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6430077/",
+      "source_path": "full_text_articles\\PMC6430077.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC6430077.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC6430077.html"
+    },
+    {
+      "pmc_id": "PMC4481110",
+      "pmid": "26081767",
+      "doi": "10.1186/s13046-015-0179-9",
+      "title": "The mutation rates of EGFR in non-small cell lung cancer and KRAS in colorectal cancer of Chinese patients as detected by pyrosequencing using a novel dispensation order",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4481110/",
+      "source_path": "full_text_articles\\PMC4481110.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC4481110.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC4481110.html"
+    },
+    {
+      "pmc_id": "PMC13371228",
+      "pmid": "42432994",
+      "doi": "10.12659/AJCR.953084",
+      "title": "Rectal Adenocarcinoma With Enteroblastic Differentiation and Hepatic Metastases: A Rare and Aggressive Variant of Colorectal Carcinoma",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13371228/",
+      "source_path": "full_text_articles\\PMC13371228.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC13371228.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC13371228.html"
+    },
+    {
+      "pmc_id": "PMC3965831",
+      "pmid": "24500024",
+      "doi": "10.1007/s00280-014-2401-4",
+      "title": "Overexpression of MET is a new predictive marker for anti-EGFR therapy in metastatic colorectal cancer with wild-type KRAS",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3965831/",
+      "source_path": "full_text_articles\\PMC3965831.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC3965831.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC3965831.html"
+    },
+    {
+      "pmc_id": "PMC9600272",
+      "pmid": "36291943",
+      "doi": "10.3390/cancers14205160",
+      "title": "Emerging Role of ERBB2 in Targeted Therapy for Metastatic Colorectal Cancer: Signaling Pathways to Therapeutic Strategies",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9600272/",
+      "source_path": "full_text_articles\\PMC9600272.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC9600272.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC9600272.html"
+    },
+    {
+      "pmc_id": "PMC11853609",
+      "pmid": "40001243",
+      "doi": "10.1186/s13046-025-03338-2",
+      "title": "Genome-wide CRISPR screening identifies PHF8 as an effective therapeutic target for KRAS- or BRAF-mutant colorectal cancers",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11853609/",
+      "source_path": "full_text_articles\\PMC11853609.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC11853609.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC11853609.html"
+    },
+    {
+      "pmc_id": "PMC4393591",
+      "pmid": "25886136",
+      "doi": "10.1186/s12885-015-1276-z",
+      "title": "A retrospective observational study of clinicopathological features of KRAS, NRAS, BRAF and PIK3CA mutations in Japanese patients with metastatic colorectal cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4393591/",
+      "source_path": "full_text_articles\\PMC4393591.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC4393591.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC4393591.html"
+    },
+    {
+      "pmc_id": "PMC3515485",
+      "pmid": "23227266",
+      "doi": "10.1371/journal.pone.0051449",
+      "title": "Synergistic Effects of Combined Wnt/KRAS Inhibition in Colorectal Cancer Cells",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3515485/",
+      "source_path": "full_text_articles\\PMC3515485.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC3515485.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC3515485.html"
+    },
+    {
+      "pmc_id": "PMC11446768",
+      "pmid": "39364024",
+      "doi": "10.3389/fmed.2024.1433120",
+      "title": "Frequency of KRAS and BRAF mutations in colorectal carcinoma and their association with clinical-pathological characteristics in a tertiary hospital in Kenya",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11446768/",
+      "source_path": "full_text_articles\\PMC11446768.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC11446768.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC11446768.html"
+    },
+    {
+      "pmc_id": "PMC5448326",
+      "pmid": "28580315",
+      "doi": "10.22074/cellj.2017.5123",
+      "title": "Coexistence of KRAS and BRAF Mutations in Colorectal Cancer: A Case Report Supporting The Concept of Tumoral Heterogeneity",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5448326/",
+      "source_path": "full_text_articles\\PMC5448326.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC5448326.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC5448326.html"
+    },
+    {
+      "pmc_id": "PMC4636092",
+      "pmid": "26586952",
+      "doi": "10.2147/OTT.S82453",
+      "title": "Combination of cetuximab and PP242 synergistically suppress the progression of wild-type KRAS colorectal carcinoma",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4636092/",
+      "source_path": "full_text_articles\\PMC4636092.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC4636092.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC4636092.html"
+    },
+    {
+      "pmc_id": "PMC11184284",
+      "pmid": "38887984",
+      "doi": "10.1002/jev2.12465",
+      "title": "Stress‐induced Rab11a‐exosomes induce amphiregulin‐mediated cetuximab resistance in colorectal cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11184284/",
+      "source_path": "full_text_articles\\PMC11184284.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC11184284.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC11184284.html"
+    },
+    {
+      "pmc_id": "PMC11506008",
+      "pmid": "39456549",
+      "doi": "10.3390/cancers16203455",
+      "title": "KRAS, a New Target for Precision Medicine in Colorectal Cancer?",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11506008/",
+      "source_path": "full_text_articles\\PMC11506008.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC11506008.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC11506008.html"
+    },
+    {
+      "pmc_id": "PMC11531595",
+      "pmid": "39488539",
+      "doi": "10.1038/s41598-024-75048-2",
+      "title": "Association between KRAS mutation and alcohol consumption in Brazilian patients with colorectal cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11531595/",
+      "source_path": "full_text_articles\\PMC11531595.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC11531595.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC11531595.html"
+    },
+    {
+      "pmc_id": "PMC10045351",
+      "pmid": "36979659",
+      "doi": "10.3390/biomedicines11030678",
+      "title": "Overcoming EGFR Resistance in Metastatic Colorectal Cancer Using Vitamin C: A Review",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10045351/",
+      "source_path": "full_text_articles\\PMC10045351.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC10045351.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC10045351.html"
+    },
+    {
+      "pmc_id": "PMC12526856",
+      "pmid": "40990835",
+      "doi": "10.1093/oncolo/oyaf305",
+      "title": "Phase II single-arm study of palbociclib and cetuximab in anti-EGFR naïve patients with KRAS/NRAS/BRAF wild-type, metastatic colorectal cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12526856/",
+      "source_path": "full_text_articles\\PMC12526856.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC12526856.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC12526856.html"
+    },
+    {
+      "pmc_id": "PMC12818278",
+      "pmid": "41567617",
+      "doi": "10.1016/j.gore.2025.102008",
+      "title": "Identifying and capitalizing on unique molecular alterations of mucinous ovarian carcinoma for the development of novel therapeutic strategies",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12818278/",
+      "source_path": "full_text_articles\\PMC12818278.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC12818278.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC12818278.html"
+    },
+    {
+      "pmc_id": "PMC2853100",
+      "pmid": "20234366",
+      "doi": "10.1038/sj.bjc.6605612",
+      "title": "Mitogen-activated protein kinase phosphatase-1 (MKP-1) impairs the response to anti-epidermal growth factor receptor (EGFR) antibody cetuximab in metastatic colorectal cancer patients",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2853100/",
+      "source_path": "full_text_articles\\PMC2853100.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC2853100.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC2853100.html"
+    },
+    {
+      "pmc_id": "PMC3008616",
+      "pmid": "21139621",
+      "doi": "10.1038/sj.bjc.6606008",
+      "title": "Molecular determinants of anti-EGFR sensitivity and resistance in metastatic colorectal cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3008616/",
+      "source_path": "full_text_articles\\PMC3008616.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC3008616.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC3008616.html"
+    },
+    {
+      "pmc_id": "PMC6981206",
+      "pmid": "31980649",
+      "doi": "10.1038/s41467-019-14224-9",
+      "title": "Extensive rewiring of the EGFR network in colorectal cancer cells expressing transforming levels of KRASG13D",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6981206/",
+      "source_path": "full_text_articles\\PMC6981206.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC6981206.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC6981206.html"
+    },
+    {
+      "pmc_id": "PMC5423043",
+      "pmid": "28533663",
+      "doi": "10.3748/wjg.v23.i17.3066",
+      "title": "Low-grade slightly elevated and polypoid colorectal adenomas display differential β-catenin-TCF/LEF activity, c-Myc, and cyclin D1 expression",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5423043/",
+      "source_path": "full_text_articles\\PMC5423043.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC5423043.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC5423043.html"
+    },
+    {
+      "pmc_id": "PMC5706840",
+      "pmid": "29212194",
+      "doi": "10.18632/oncotarget.21291",
+      "title": "Association between miR-31-3p expression and cetuximab efficacy in patients with KRAS wild-type metastatic colorectal cancer: a post-hoc analysis of the New EPOC trial",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5706840/",
+      "source_path": "full_text_articles\\PMC5706840.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC5706840.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC5706840.html"
+    },
+    {
+      "pmc_id": "PMC13249833",
+      "pmid": "41951768",
+      "doi": "10.1038/s41698-026-01384-3",
+      "title": "High-throughput screening identifies NT-1 that synergizes with MRTX1133 against acquired resistant KRASG12D colorectal cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13249833/",
+      "source_path": "full_text_articles\\PMC13249833.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC13249833.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC13249833.html"
+    },
+    {
+      "pmc_id": "PMC12028875",
+      "pmid": "40282985",
+      "doi": "10.3390/medicina61040694",
+      "title": "Regional and Gender-Based Distribution of KRAS Mutations in Metastatic Colorectal Cancer Patients in Turkey: An Observational Study",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12028875/",
+      "source_path": "full_text_articles\\PMC12028875.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC12028875.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC12028875.html"
+    },
+    {
+      "pmc_id": "PMC4714671",
+      "pmid": "26426205",
+      "doi": "10.1111/cas.12827",
+      "title": "DNA methylation status as a biomarker of anti‐epidermal growth factor receptor treatment for metastatic colorectal cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4714671/",
+      "source_path": "full_text_articles\\PMC4714671.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC4714671.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC4714671.html"
+    },
+    {
+      "pmc_id": "PMC4296683",
+      "pmid": "25551625",
+      "doi": "10.1186/s12876-014-0221-y",
+      "title": "Mutational profiles of different macroscopic subtypes of colorectal adenoma reveal distinct pathogenetic roles for KRAS, BRAF and PIK3CA",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4296683/",
+      "source_path": "full_text_articles\\PMC4296683.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC4296683.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC4296683.html"
+    },
+    {
+      "pmc_id": "PMC2750753",
+      "pmid": "19806185",
+      "doi": "10.1371/journal.pone.0007287",
+      "title": "Multi-Determinants Analysis of Molecular Alterations for Predicting Clinical Benefit to EGFR-Targeted Monoclonal Antibodies in Colorectal Cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2750753/",
+      "source_path": "full_text_articles\\PMC2750753.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC2750753.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC2750753.html"
+    },
+    {
+      "pmc_id": "PMC11512843",
+      "pmid": "38609520",
+      "doi": "10.1007/s10689-024-00370-7",
+      "title": "Evaluation of EGFR and COX pathway inhibition in human colon organoids of serrated polyposis and other hereditary cancer syndromes",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11512843/",
+      "source_path": "full_text_articles\\PMC11512843.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC11512843.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC11512843.html"
+    },
+    {
+      "pmc_id": "PMC10869969",
+      "pmid": "38370387",
+      "doi": "10.7150/jca.91089",
+      "title": "Dual Inhibition of B7-H3 and EGFR Overcomes Acquired Chemoresistance in Colon Adenocarcinoma",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10869969/",
+      "source_path": "full_text_articles\\PMC10869969.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC10869969.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC10869969.html"
+    },
+    {
+      "pmc_id": "PMC4971616",
+      "pmid": "27485514",
+      "doi": "10.1186/s12885-016-2589-2",
+      "title": "A rational two-step approach to KRAS mutation testing in colorectal cancer using high resolution melting analysis and pyrosequencing",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4971616/",
+      "source_path": "full_text_articles\\PMC4971616.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC4971616.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC4971616.html"
+    },
+    {
+      "pmc_id": "PMC10465226",
+      "pmid": "37649607",
+      "doi": "10.7150/thno.85855",
+      "title": "Oleic acid-induced metastasis of KRAS/p53-mutant colorectal cancer relies on concurrent KRAS activation and IL-8 expression bypassing EGFR activation",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10465226/",
+      "source_path": "full_text_articles\\PMC10465226.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC10465226.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC10465226.html"
+    },
+    {
+      "pmc_id": "PMC4178055",
+      "pmid": "25260023",
+      "doi": "10.1371/journal.pone.0107926",
+      "title": "PCR-Based Assays versus Direct Sequencing for Evaluating the Effect of KRAS Status on Anti-EGFR Treatment Response in Colorectal Cancer Patients: A Systematic Review and Meta-Analysis",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4178055/",
+      "source_path": "full_text_articles\\PMC4178055.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC4178055.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC4178055.html"
+    },
+    {
+      "pmc_id": "PMC10381461",
+      "pmid": "37511664",
+      "doi": "10.3390/jpm13071051",
+      "title": "Evaluation of the Prognostic Value of Low-Frequency KRAS Mutation Detection in Circulating Tumor DNA of Patients with Metastatic Colorectal Cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10381461/",
+      "source_path": "full_text_articles\\PMC10381461.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC10381461.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC10381461.html"
+    },
+    {
+      "pmc_id": "PMC6303337",
+      "pmid": "30575780",
+      "doi": "10.1038/s41598-018-36387-z",
+      "title": "Expression of the human antimicrobial peptide β-defensin-1 is repressed by the EGFR-ERK-MYC axis in colonic epithelial cells",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6303337/",
+      "source_path": "full_text_articles\\PMC6303337.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC6303337.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC6303337.html"
+    },
+    {
+      "pmc_id": "PMC8018481",
+      "pmid": "33855169",
+      "doi": "10.1080/23723556.2021.1884034",
+      "title": "Tuning protein synthesis for cancer therapy",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8018481/",
+      "source_path": "full_text_articles\\PMC8018481.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC8018481.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC8018481.html"
+    },
+    {
+      "pmc_id": "PMC9718111",
+      "pmid": "36383067",
+      "doi": "10.1002/1878-0261.13341",
+      "title": "KRAS inhibitors: going noncovalent",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9718111/",
+      "source_path": "full_text_articles\\PMC9718111.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC9718111.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC9718111.html"
+    },
+    {
+      "pmc_id": "PMC3599697",
+      "pmid": "23374602",
+      "doi": "10.1186/1471-2407-13-49",
+      "title": "Biomarkers of benefit from cetuximab-based therapy in metastatic colorectal cancer: interaction of EGFR ligand expression with RAS/RAF, PIK3CA genotypes",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3599697/",
+      "source_path": "full_text_articles\\PMC3599697.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC3599697.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC3599697.html"
+    },
+    {
+      "pmc_id": "PMC10037609",
+      "pmid": "36961000",
+      "doi": "10.3390/tomography9020041",
+      "title": "Feasibility of [18F]FSPG PET for Early Response Assessment to Combined Blockade of EGFR and Glutamine Metabolism in Wild-Type KRAS Colorectal Cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10037609/",
+      "source_path": "full_text_articles\\PMC10037609.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC10037609.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC10037609.html"
+    },
+    {
+      "pmc_id": "PMC13166808",
+      "pmid": "42130526",
+      "doi": "10.1097/RC9.0000000000000382",
+      "title": "Therapy optimization in metastatic colorectal cancer guided by discordant KRAS mutation status between primary and metachronous recurrent lesions: a precision oncology case report",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13166808/",
+      "source_path": "full_text_articles\\PMC13166808.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC13166808.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC13166808.html"
+    },
+    {
+      "pmc_id": "PMC3723748",
+      "pmid": "23935912",
+      "doi": "10.1371/journal.pone.0068945",
+      "title": "Performance and Cost Efficiency of KRAS Mutation Testing for Metastatic Colorectal Cancer in Routine Diagnosis: The MOKAECM Study, a Nationwide Experience",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3723748/",
+      "source_path": "full_text_articles\\PMC3723748.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC3723748.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC3723748.html"
+    },
+    {
+      "pmc_id": "PMC7665856",
+      "pmid": "33224365",
+      "doi": "10.14740/gr1167",
+      "title": "A Systematic Literature Review and Meta-Analysis Describing the Prevalence of KRAS, NRAS, and BRAF Gene Mutations in Metastatic Colorectal Cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7665856/",
+      "source_path": "full_text_articles\\PMC7665856.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC7665856.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC7665856.html"
+    },
+    {
+      "pmc_id": "PMC13157579",
+      "pmid": "42117066",
+      "doi": "10.1177/17588359261445706",
+      "title": "Comprehensive genomic landscape of ERBB2 in Chinese GI tumors: mutation-centered landscapes and precision treatment opportunities",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13157579/",
+      "source_path": "full_text_articles\\PMC13157579.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC13157579.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC13157579.html"
+    },
+    {
+      "pmc_id": "PMC6818206",
+      "pmid": "31673240",
+      "doi": "10.7150/ijms.35269",
+      "title": "MicroRNA-425-5p Expression Affects BRAF/RAS/MAPK Pathways In Colorectal Cancers",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6818206/",
+      "source_path": "full_text_articles\\PMC6818206.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC6818206.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC6818206.html"
+    },
+    {
+      "pmc_id": "PMC7027203",
+      "pmid": "32066410",
+      "doi": "10.1186/s12885-020-6586-0",
+      "title": "BRAF mutant colorectal cancer: ErbB2 expression levels as predictive factor for the response to combined BRAF/ErbB inhibitors",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7027203/",
+      "source_path": "full_text_articles\\PMC7027203.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC7027203.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC7027203.html"
+    },
+    {
+      "pmc_id": "PMC12378792",
+      "pmid": "40855221",
+      "doi": "10.1038/s42003-025-08740-2",
+      "title": "A feedforward loop between STAT1 and YAP1 stimulates lipid biosynthesis, accelerates tumor growth, and promotes chemotherapy resistance in mutant KRAS colorectal cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12378792/",
+      "source_path": "full_text_articles\\PMC12378792.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC12378792.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC12378792.html"
+    },
+    {
+      "pmc_id": "PMC4154892",
+      "pmid": "25210463",
+      "doi": "10.2147/OTT.S65496",
+      "title": "The involvement of Kras gene 3′-UTR polymorphisms in risk of cancer and influence on patient response to anti-EGFR therapy in metastatic colorectal cancer: a meta-analysis",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4154892/",
+      "source_path": "full_text_articles\\PMC4154892.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC4154892.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC4154892.html"
+    },
+    {
+      "pmc_id": "PMC5331244",
+      "pmid": "28265402",
+      "doi": "10.1002/ccr3.779",
+      "title": "A novel KRAS gene mutation report in sporadic colorectal cancer, from Northwest of Iran",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5331244/",
+      "source_path": "full_text_articles\\PMC5331244.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC5331244.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC5331244.html"
+    },
+    {
+      "pmc_id": "PMC6952822",
+      "pmid": "31816869",
+      "doi": "10.3390/cells8121557",
+      "title": "Non-Redundant and Overlapping Oncogenic Readouts of Non-Canonical and Novel Colorectal Cancer KRAS and NRAS Mutants",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6952822/",
+      "source_path": "full_text_articles\\PMC6952822.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC6952822.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC6952822.html"
+    },
+    {
+      "pmc_id": "PMC10721761",
+      "pmid": "37819586",
+      "doi": "10.1007/s41669-023-00444-9",
+      "title": "Real-World Cost Effectiveness of a Policy of KRAS Testing to Inform Cetuximab or Panitumumab for Third-Line Therapy of Metastatic Colorectal Cancer in British Columbia, Canada",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10721761/",
+      "source_path": "full_text_articles\\PMC10721761.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC10721761.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC10721761.html"
+    },
+    {
+      "pmc_id": "PMC6307535",
+      "pmid": "30594039",
+      "doi": "10.1016/j.tranon.2018.12.003",
+      "title": "Oncologic Outcomes in Metastatic Colorectal Cancer with Regorafenib with FOLFIRI as a Third- or Fourth-Line Setting123",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6307535/",
+      "source_path": "full_text_articles\\PMC6307535.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC6307535.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC6307535.html"
+    },
+    {
+      "pmc_id": "PMC7617415",
+      "pmid": "39751654",
+      "doi": "10.1158/1541-7786.MCR-24-0464",
+      "title": "Coevolution of Atypical BRAF and KRAS Mutations in Colorectal Tumorigenesis",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7617415/",
+      "source_path": "full_text_articles\\PMC7617415.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC7617415.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC7617415.html"
+    },
+    {
+      "pmc_id": "PMC4247672",
+      "pmid": "25416285",
+      "doi": "10.1186/1471-2407-14-863",
+      "title": "Localization of phosphorylated ErbB1-4 and heregulin in colorectal cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4247672/",
+      "source_path": "full_text_articles\\PMC4247672.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC4247672.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC4247672.html"
+    },
+    {
+      "pmc_id": "PMC3623853",
+      "pmid": "23548132",
+      "doi": "10.1186/1471-2407-13-169",
+      "title": "High resolution melting analysis of KRAS, BRAF and PIK3CA in KRAS exon 2 wild-type metastatic colorectal cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3623853/",
+      "source_path": "full_text_articles\\PMC3623853.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC3623853.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC3623853.html"
+    },
+    {
+      "pmc_id": "PMC6849194",
+      "pmid": "31711486",
+      "doi": "10.1186/s12920-019-0610-8",
+      "title": "Accurate detection of KRAS, NRAS and BRAF mutations in metastatic colorectal cancers by bridged nucleic acid-clamp real-time PCR",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6849194/",
+      "source_path": "full_text_articles\\PMC6849194.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC6849194.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC6849194.html"
+    },
+    {
+      "pmc_id": "PMC4157814",
+      "pmid": "25198428",
+      "doi": "10.1371/journal.pone.0107165",
+      "title": "EGFR-Targeted TRAIL and a Smac Mimetic Synergize to Overcome Apoptosis Resistance in KRAS Mutant Colorectal Cancer Cells",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4157814/",
+      "source_path": "full_text_articles\\PMC4157814.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC4157814.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC4157814.html"
+    },
+    {
+      "pmc_id": "PMC2736831",
+      "pmid": "19603018",
+      "doi": "10.1038/sj.bjc.6605177",
+      "title": "KRAS codon 61, 146 and BRAF mutations predict resistance to cetuximab plus irinotecan in KRAS codon 12 and 13 wild-type metastatic colorectal cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2736831/",
+      "source_path": "full_text_articles\\PMC2736831.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC2736831.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC2736831.html"
+    },
+    {
+      "pmc_id": "PMC4376442",
+      "pmid": "25800101",
+      "doi": "10.1111/cas.12595",
+      "title": "Japanese Society of Medical Oncology Clinical Guidelines: RAS (KRAS/NRAS) mutation testing in colorectal cancer patients11",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4376442/",
+      "source_path": "full_text_articles\\PMC4376442.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC4376442.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC4376442.html"
+    },
+    {
+      "pmc_id": "PMC4694794",
+      "pmid": "26318427",
+      "doi": "10.18632/oncotarget.4959",
+      "title": "New findings on primary and acquired resistance to anti-EGFR therapy in metastatic colorectal cancer: do all roads lead to RAS?",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4694794/",
+      "source_path": "full_text_articles\\PMC4694794.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC4694794.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC4694794.html"
+    },
+    {
+      "pmc_id": "PMC8195465",
+      "pmid": "34133521",
+      "doi": "10.1590/0102-672020210001e1574",
+      "title": "CYTOPLASMIC-MEMBRANE EGFR PREDICTS EXPANDED RAS MUTATION STATUS IN COLORECTAL CARCINOMAS?",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8195465/",
+      "source_path": "full_text_articles\\PMC8195465.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC8195465.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC8195465.html"
+    },
+    {
+      "pmc_id": "PMC3419946",
+      "pmid": "22805329",
+      "doi": "10.1038/bjc.2012.275",
+      "title": "KRAS mutation detection by high-resolution melting analysis significantly predicts clinical benefit of cetuximab in metastatic colorectal cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3419946/",
+      "source_path": "full_text_articles\\PMC3419946.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC3419946.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC3419946.html"
+    },
+    {
+      "pmc_id": "PMC4616741",
+      "pmid": "26448020",
+      "doi": "10.1097/MD.0000000000001698",
+      "title": "Combined Analysis of EGFR and PTEN Status in Patients With KRAS Wild-Type Metastatic Colorectal Cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4616741/",
+      "source_path": "full_text_articles\\PMC4616741.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC4616741.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC4616741.html"
+    },
+    {
+      "pmc_id": "PMC4245100",
+      "pmid": "25427200",
+      "doi": "10.1371/journal.pone.0113186",
+      "title": "c-Met Targeting Enhances the Effect of Irradiation and Chemical Agents against Malignant Colon Cells Harboring a KRAS Mutation",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4245100/",
+      "source_path": "full_text_articles\\PMC4245100.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC4245100.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC4245100.html"
+    },
+    {
+      "pmc_id": "PMC3508829",
+      "pmid": "22804917",
+      "doi": "10.1186/1471-2407-12-292",
+      "title": "Beyond KRAS mutation status: influence of KRAS copy number status and microRNAs on clinical outcome to cetuximab in metastatic colorectal cancer patients",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3508829/",
+      "source_path": "full_text_articles\\PMC3508829.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC3508829.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC3508829.html"
+    },
+    {
+      "pmc_id": "PMC4482484",
+      "pmid": "26110767",
+      "doi": "10.1371/journal.pone.0130543",
+      "title": "EGF-Induced Acetylation of Heterogeneous Nuclear Ribonucleoproteins Is Dependent on KRAS Mutational Status in Colorectal Cancer Cells",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4482484/",
+      "source_path": "full_text_articles\\PMC4482484.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC4482484.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC4482484.html"
+    },
+    {
+      "pmc_id": "PMC3511401",
+      "pmid": "23226426",
+      "doi": "10.1371/journal.pone.0050925",
+      "title": "No Survival Benefit from Adding Cetuximab or Panitumumab to Oxaliplatin-Based Chemotherapy in the First-Line Treatment of Metastatic Colorectal Cancer in KRAS Wild Type Patients: A Meta-Analysis",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3511401/",
+      "source_path": "full_text_articles\\PMC3511401.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC3511401.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC3511401.html"
+    },
+    {
+      "pmc_id": "PMC11674416",
+      "pmid": "39727997",
+      "doi": "10.3390/cimb46120869",
+      "title": "Limited Efficacy of Anti-EGFR Monoclonal Antibodies in Colorectal Cancer Patients with Rare RAS Variants: Analysis of the C-CAT Database",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11674416/",
+      "source_path": "full_text_articles\\PMC11674416.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC11674416.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC11674416.html"
+    },
+    {
+      "pmc_id": "PMC4648436",
+      "pmid": "25639985",
+      "doi": "10.1038/srep08065",
+      "title": "Concordant analysis of KRAS, BRAF, PIK3CA mutations, and PTEN expression between primary colorectal cancer and matched metastases",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4648436/",
+      "source_path": "full_text_articles\\PMC4648436.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC4648436.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC4648436.html"
+    },
+    {
+      "pmc_id": "PMC10417087",
+      "pmid": "37325970",
+      "doi": "10.1002/cam4.6196",
+      "title": "Treatment outcome comparisons of first‐line targeted therapy in patients with KRAS wild‐type metastatic colorectal cancer: A nationwide database study",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10417087/",
+      "source_path": "full_text_articles\\PMC10417087.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC10417087.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC10417087.html"
+    },
+    {
+      "pmc_id": "PMC3394966",
+      "pmid": "22617127",
+      "doi": "10.1038/bjc.2012.218",
+      "title": "KRAS mutations in primary tumours and post-FOLFOX metastatic lesions in cases of colorectal cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3394966/",
+      "source_path": "full_text_articles\\PMC3394966.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC3394966.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC3394966.html"
+    },
+    {
+      "pmc_id": "PMC10601219",
+      "pmid": "37880688",
+      "doi": "10.1186/s12957-023-03222-3",
+      "title": "The efficacy and safety of anti-EGFR target agents in patients with potentially resectable metastatic colorectal cancer: a meta-analysis of randomized controlled trials",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10601219/",
+      "source_path": "full_text_articles\\PMC10601219.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC10601219.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC10601219.html"
+    },
+    {
+      "pmc_id": "PMC7611134",
+      "pmid": "34017094",
+      "doi": "10.1038/s41559-021-01470-8",
+      "title": "Mutational signatures impact the evolution of anti-EGFR antibody resistance in colorectal cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7611134/",
+      "source_path": "full_text_articles\\PMC7611134.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC7611134.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC7611134.html"
+    },
+    {
+      "pmc_id": "PMC6519276",
+      "pmid": "30194764",
+      "doi": "10.1002/ijc.31859",
+      "title": "PDEδ inhibition impedes the proliferation and survival of human colorectal cancer cell lines harboring oncogenic KRas",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6519276/",
+      "source_path": "full_text_articles\\PMC6519276.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC6519276.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC6519276.html"
+    },
+    {
+      "pmc_id": "PMC6858340",
+      "pmid": "31729406",
+      "doi": "10.1038/s41598-019-53039-y",
+      "title": "Somatic mutation profiling and HER2 status in KRAS-positive Chinese colorectal cancer patients",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6858340/",
+      "source_path": "full_text_articles\\PMC6858340.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC6858340.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC6858340.html"
+    },
+    {
+      "pmc_id": "PMC5755028",
+      "pmid": "29301589",
+      "doi": "10.1186/s13073-017-0511-4",
+      "title": "Linking FOXO3, NCOA3, and TCF7L2 to Ras pathway phenotypes through a genome-wide forward genetic screen in human colorectal cancer cells",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5755028/",
+      "source_path": "full_text_articles\\PMC5755028.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC5755028.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC5755028.html"
+    },
+    {
+      "pmc_id": "PMC11816235",
+      "pmid": "39941797",
+      "doi": "10.3390/cancers17030428",
+      "title": "The Role of KRAS Mutations in Colorectal Cancer: Biological Insights, Clinical Implications, and Future Therapeutic Perspectives",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11816235/",
+      "source_path": "full_text_articles\\PMC11816235.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC11816235.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC11816235.html"
+    },
+    {
+      "pmc_id": "PMC4695045",
+      "pmid": "26363448",
+      "doi": "10.18632/oncotarget.4872",
+      "title": "FCGR2A, FCGR3A polymorphisms and therapeutic efficacy of anti-EGFR monoclonal antibody in metastatic colorectal cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4695045/",
+      "source_path": "full_text_articles\\PMC4695045.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC4695045.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC4695045.html"
+    },
+    {
+      "pmc_id": "PMC9400741",
+      "pmid": "36046264",
+      "doi": "10.37349/etat.2020.00004",
+      "title": "Colorectal cancer genomic biomarkers in the clinical management of patients with metastatic colorectal carcinoma",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9400741/",
+      "source_path": "full_text_articles\\PMC9400741.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC9400741.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC9400741.html"
+    },
+    {
+      "pmc_id": "PMC6915948",
+      "pmid": "31842958",
+      "doi": "10.1186/s13046-019-1497-0",
+      "title": "Triple blockade of EGFR, MEK and PD-L1 has antitumor activity in colorectal cancer models with constitutive activation of MAPK signaling and PD-L1 overexpression",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6915948/",
+      "source_path": "full_text_articles\\PMC6915948.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC6915948.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC6915948.html"
+    },
+    {
+      "pmc_id": "PMC8127841",
+      "pmid": "34012917",
+      "doi": "10.3389/fonc.2021.651299",
+      "title": "Cost-Effectiveness of Anti-Epidermal Growth Factor Receptor Therapy Versus Bevacizumab in KRAS Wild-Type (WT), Pan-RAS WT, and Pan-RAS WT Left-Sided Metastatic Colorectal Cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8127841/",
+      "source_path": "full_text_articles\\PMC8127841.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC8127841.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC8127841.html"
+    },
+    {
+      "pmc_id": "PMC3663254",
+      "pmid": "23606169",
+      "doi": "10.1007/s40291-013-0025-8",
+      "title": "KRAS and BRAF Mutation Analysis in Colorectal Adenocarcinoma Specimens with a Low Percentage of Tumor Cells",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3663254/",
+      "source_path": "full_text_articles\\PMC3663254.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC3663254.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC3663254.html"
+    },
+    {
+      "pmc_id": "PMC4037834",
+      "pmid": "24800946",
+      "doi": "10.1038/bjc.2014.230",
+      "title": "Serum levels of hepatocyte growth factor and epiregulin are associated with the prognosis on anti-EGFR antibody treatment in KRAS wild-type metastatic colorectal cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4037834/",
+      "source_path": "full_text_articles\\PMC4037834.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC4037834.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC4037834.html"
+    },
+    {
+      "pmc_id": "PMC11735137",
+      "pmid": "39816392",
+      "doi": "10.3332/ecancer.2024.1797",
+      "title": "Evaluation of SNaPshot and Sanger sequencing for the detection of KRAS and NRAS mutations in a sample of Venezuelan patients with colorectal cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11735137/",
+      "source_path": "full_text_articles\\PMC11735137.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC11735137.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC11735137.html"
+    },
+    {
+      "pmc_id": "PMC11506651",
+      "pmid": "39452477",
+      "doi": "10.3390/diseases12100234",
+      "title": "CDX2-Suppressed Colorectal Cancers Possess Potentially Targetable Alterations in Receptor Tyrosine Kinases and Other Colorectal-Cancer-Associated Pathways",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11506651/",
+      "source_path": "full_text_articles\\PMC11506651.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC11506651.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC11506651.html"
+    },
+    {
+      "pmc_id": "PMC9161494",
+      "pmid": "35650607",
+      "doi": "10.1186/s13046-022-02389-z",
+      "title": "Depleting receptor tyrosine kinases EGFR and HER2 overcomes resistance to EGFR inhibitors in colorectal cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9161494/",
+      "source_path": "full_text_articles\\PMC9161494.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC9161494.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC9161494.html"
+    },
+    {
+      "pmc_id": "PMC4624582",
+      "pmid": "26508446",
+      "doi": "10.1186/s12885-015-1752-5",
+      "title": "Prediction of response to anti-EGFR antibody-based therapies by multigene sequencing in colorectal cancer patients",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4624582/",
+      "source_path": "full_text_articles\\PMC4624582.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC4624582.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC4624582.html"
+    },
+    {
+      "pmc_id": "PMC9808369",
+      "pmid": "36343387",
+      "doi": "10.1158/1535-7163.MCT-22-0101",
+      "title": "Genotype-Tailored ERK/MAPK Pathway and HDAC Inhibition Rewires the Apoptotic Rheostat to Trigger Colorectal Cancer Cell Death",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9808369/",
+      "source_path": "full_text_articles\\PMC9808369.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC9808369.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC9808369.html"
+    },
+    {
+      "pmc_id": "PMC5412337",
+      "pmid": "28368335",
+      "doi": "10.3390/ijms18040752",
+      "title": "Recent Advances in Targeting the EGFR Signaling Pathway for the Treatment of Metastatic Colorectal Cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5412337/",
+      "source_path": "full_text_articles\\PMC5412337.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC5412337.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC5412337.html"
+    },
+    {
+      "pmc_id": "PMC2687459",
+      "pmid": "19439077",
+      "doi": "10.1186/1471-2407-9-145",
+      "title": "A gene expression predictor of response to EGFR-targeted therapy stratifies progression-free survival to cetuximab in KRAS wild-type metastatic colorectal cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2687459/",
+      "source_path": "full_text_articles\\PMC2687459.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC2687459.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC2687459.html"
+    },
+    {
+      "pmc_id": "PMC12291525",
+      "pmid": "40708044",
+      "doi": "10.1186/s12967-025-06864-x",
+      "title": "KRAS amplification in colorectal cancer: correlations with clinicopathological features and prognosis in patients and prediction of response to targeted therapy",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12291525/",
+      "source_path": "full_text_articles\\PMC12291525.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC12291525.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC12291525.html"
+    },
+    {
+      "pmc_id": "PMC5540452",
+      "pmid": "28764718",
+      "doi": "10.1186/s12967-017-1265-x",
+      "title": "Comparative analysis of the EGFR, HER2, c-MYC, and MET variations in colorectal cancer determined by three different measures: gene copy number gain, amplification status and the 2013 ASCO/CAP guideline criterion for HER2 testing of breast cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5540452/",
+      "source_path": "full_text_articles\\PMC5540452.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC5540452.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC5540452.html"
+    },
+    {
+      "pmc_id": "PMC4591346",
+      "pmid": "26426996",
+      "doi": "10.1371/journal.pone.0139727",
+      "title": "c-MYC Copy-Number Gain Is an Independent Prognostic Factor in Patients with Colorectal Cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4591346/",
+      "source_path": "full_text_articles\\PMC4591346.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC4591346.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC4591346.html"
+    },
+    {
+      "pmc_id": "PMC8606106",
+      "pmid": "34900144",
+      "doi": "",
+      "title": "A Cross-Sectional Study for Evaluation of KRAS and BRAF Mutations by Reverse Dot Blot, PCR-RFLP, and Allele-Specific PCR Methods Among Patients with Colorectal Cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8606106/",
+      "source_path": "full_text_articles\\PMC8606106.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC8606106.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC8606106.html"
+    },
+    {
+      "pmc_id": "PMC9238170",
+      "pmid": "35761395",
+      "doi": "10.1186/s12920-022-01294-w",
+      "title": "Somatic targeted mutation profiling of colorectal cancer precursor lesions",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9238170/",
+      "source_path": "full_text_articles\\PMC9238170.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC9238170.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC9238170.html"
+    },
+    {
+      "pmc_id": "PMC13126134",
+      "pmid": "42063916",
+      "doi": "10.4314/ahs.v26i1.12",
+      "title": "Differences in anatomoclinical profiles between RAS-Mutated and Wild-Type colorectal cancers in an Eastern Algerian Cohort",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13126134/",
+      "source_path": "full_text_articles\\PMC13126134.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC13126134.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC13126134.html"
+    },
+    {
+      "pmc_id": "PMC11413778",
+      "pmid": "39310106",
+      "doi": "10.7150/thno.97180",
+      "title": "Honokiol enhances the sensitivity of cetuximab in KRASG13D mutant colorectal cancer through destroying SNX3-retromer complex",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11413778/",
+      "source_path": "full_text_articles\\PMC11413778.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC11413778.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC11413778.html"
+    },
+    {
+      "pmc_id": "PMC12658183",
+      "pmid": "41299036",
+      "doi": "10.1038/s41698-025-01166-3",
+      "title": "KRAS-targeted therapies in colorectal cancer: a systematic analysis of mutations, inhibitors, and clinical trials",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12658183/",
+      "source_path": "full_text_articles\\PMC12658183.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC12658183.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC12658183.html"
+    },
+    {
+      "pmc_id": "PMC6738054",
+      "pmid": "31363167",
+      "doi": "10.1038/s41416-019-0537-z",
+      "title": "A phase 2 study of panitumumab with irinotecan as salvage therapy in chemorefractory KRAS exon 2 wild-type metastatic colorectal cancer patients",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6738054/",
+      "source_path": "full_text_articles\\PMC6738054.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC6738054.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC6738054.html"
+    },
+    {
+      "pmc_id": "PMC5064898",
+      "pmid": "27737711",
+      "doi": "10.1186/s12967-016-1053-z",
+      "title": "Prognostic impact of KRAS, NRAS, BRAF, and PIK3CA mutations in primary colorectal carcinomas: a population-based study",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5064898/",
+      "source_path": "full_text_articles\\PMC5064898.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC5064898.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC5064898.html"
+    },
+    {
+      "pmc_id": "PMC13003971",
+      "pmid": "41868170",
+      "doi": "10.2147/DDDT.S574116",
+      "title": "Circulating Butyrate Attenuates Cetuximab Efficacy in Colorectal Cancer Through EGFR and AMPK–Wip1 Signaling",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13003971/",
+      "source_path": "full_text_articles\\PMC13003971.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC13003971.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC13003971.html"
+    },
+    {
+      "pmc_id": "PMC2840670",
+      "pmid": "19936839",
+      "doi": "10.1245/s10434-009-0811-z",
+      "title": "KRAS Mutation in Colon Cancer: A Marker of Resistance to EGFR-I Therapy",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2840670/",
+      "source_path": "full_text_articles\\PMC2840670.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC2840670.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC2840670.html"
+    },
+    {
+      "pmc_id": "PMC7365993",
+      "pmid": "32685110",
+      "doi": "10.4081/oncol.2020.454",
+      "title": "KRAS-associated microRNAs in colorectal cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7365993/",
+      "source_path": "full_text_articles\\PMC7365993.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC7365993.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC7365993.html"
+    },
+    {
+      "pmc_id": "PMC3235081",
+      "pmid": "22117530",
+      "doi": "10.1186/1471-2407-11-496",
+      "title": "Pharmacogenetic profiling and cetuximab outcome in patients with advanced colorectal cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3235081/",
+      "source_path": "full_text_articles\\PMC3235081.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC3235081.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC3235081.html"
+    },
+    {
+      "pmc_id": "PMC11238369",
+      "pmid": "38992694",
+      "doi": "10.1186/s12929-024-01060-3",
+      "title": "Dual inhibition of SUMOylation and MEK conquers MYC-expressing KRAS-mutant cancers by accumulating DNA damage",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11238369/",
+      "source_path": "full_text_articles\\PMC11238369.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC11238369.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC11238369.html"
+    },
+    {
+      "pmc_id": "PMC3699713",
+      "pmid": "23725851",
+      "doi": "10.1016/S1470-2045(13)70163-3",
+      "title": "Panitumumab and irinotecan versus irinotecan alone for patients with KRAS wild-type, fluorouracil-resistant advanced colorectal cancer (PICCOLO): a prospectively stratified randomised trial",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3699713/",
+      "source_path": "full_text_articles\\PMC3699713.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC3699713.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC3699713.html"
+    },
+    {
+      "pmc_id": "PMC6738113",
+      "pmid": "31133691",
+      "doi": "10.1038/s41416-019-0477-7",
+      "title": "Transcriptional and metabolic rewiring of colorectal cancer cells expressing the oncogenic KRASG13D mutation",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6738113/",
+      "source_path": "full_text_articles\\PMC6738113.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC6738113.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC6738113.html"
+    },
+    {
+      "pmc_id": "PMC3073939",
+      "pmid": "21439039",
+      "doi": "10.1186/1471-2407-11-107",
+      "title": "EGFR related mutational status and association to clinical outcome of third-line cetuximab-irinotecan in metastatic colorectal cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3073939/",
+      "source_path": "full_text_articles\\PMC3073939.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC3073939.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC3073939.html"
+    },
+    {
+      "pmc_id": "PMC7526699",
+      "pmid": "33015522",
+      "doi": "10.1200/PO.19.00141",
+      "title": "Identification of Actionable Fusions as an Anti-EGFR Resistance Mechanism Using a Circulating Tumor DNA Assay",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7526699/",
+      "source_path": "full_text_articles\\PMC7526699.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC7526699.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC7526699.html"
+    },
+    {
+      "pmc_id": "PMC3364114",
+      "pmid": "22549179",
+      "doi": "10.1038/bjc.2012.175",
+      "title": "Down-regulation of KRAS-interacting miRNA-143 predicts poor prognosis but not response to EGFR-targeted agents in colorectal cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3364114/",
+      "source_path": "full_text_articles\\PMC3364114.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC3364114.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC3364114.html"
+    },
+    {
+      "pmc_id": "PMC5585496",
+      "pmid": "28858102",
+      "doi": "10.1097/MD.0000000000007882",
+      "title": "Prognostic value of KRAS codon 13 gene mutation for overall survival in colorectal cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5585496/",
+      "source_path": "full_text_articles\\PMC5585496.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC5585496.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC5585496.html"
+    },
+    {
+      "pmc_id": "PMC8987589",
+      "pmid": "35402275",
+      "doi": "10.3389/fonc.2022.843561",
+      "title": "Genetic Characteristics Associated With Drug Resistance in Lung Cancer and Colorectal Cancer Using Whole Exome Sequencing of Cell-Free DNA",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8987589/",
+      "source_path": "full_text_articles\\PMC8987589.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC8987589.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC8987589.html"
+    },
+    {
+      "pmc_id": "PMC5328292",
+      "pmid": "28260928",
+      "doi": "10.2147/OTT.S129275",
+      "title": "Long-term survival after a favorable response to anti-EGFR antibody plus chemotherapy to treat bone marrow metastasis: a case report of KRAS-wildtype rectal cancer",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5328292/",
+      "source_path": "full_text_articles\\PMC5328292.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC5328292.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC5328292.html"
+    },
+    {
+      "pmc_id": "PMC3596735",
+      "pmid": "22798500",
+      "doi": "10.1136/gutjnl-2012-302423",
+      "title": "A combined oncogenic pathway signature of BRAF, KRAS and PI3KCA mutation improves colorectal cancer classification and cetuximab treatment prediction",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3596735/",
+      "source_path": "full_text_articles\\PMC3596735.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC3596735.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC3596735.html"
+    },
+    {
+      "pmc_id": "PMC11246022",
+      "pmid": "39006025",
+      "doi": "10.7717/peerj.17582",
+      "title": "Identification and validation of calcium extrusion-related genes prognostic signature in colon adenocarcinoma",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11246022/",
+      "source_path": "full_text_articles\\PMC11246022.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC11246022.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC11246022.html"
+    },
+    {
+      "pmc_id": "PMC11986171",
+      "pmid": "40210882",
+      "doi": "10.1038/s41598-025-95513-w",
+      "title": "Aquaporin 9 downregulation in KRASG12V colorectal cancer and associated with increased proliferation and decreased apoptosis in cancer cells",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11986171/",
+      "source_path": "full_text_articles\\PMC11986171.txt",
+      "xml_path": "full_text_article_artifacts\\xml\\PMC11986171.xml",
+      "html_path": "full_text_article_artifacts\\html\\PMC11986171.html"
+    }
+  ]
+}

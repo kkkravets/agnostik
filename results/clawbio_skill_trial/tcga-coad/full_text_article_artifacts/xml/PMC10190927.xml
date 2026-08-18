@@ -1,0 +1,1652 @@
+<?xml version='1.0' encoding='utf-8'?>
+<article xmlns:ns0="http://www.niso.org/schemas/ali/1.0/" xmlns:ns1="http://www.w3.org/1999/xlink" id="exp20210176" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Exploration (Beijing)</journal-id><journal-id journal-id-type="iso-abbrev">Exploration (Beijing)</journal-id><journal-id journal-id-type="pmc-domain-id">4441</journal-id><journal-id journal-id-type="pmc-domain">explore</journal-id><journal-id journal-id-type="nlm-id">9918383883006676</journal-id><journal-id journal-id-type="publisher-id">EXP2</journal-id><journal-title-group><journal-title>Exploration</journal-title></journal-title-group><issn pub-type="ppub">2766-8509</issn><issn pub-type="epub">2766-2098</issn><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC10190927</article-id><article-id pub-id-type="pmcid-ver">PMC10190927.1</article-id><article-id pub-id-type="pmcaid">10190927</article-id><article-id pub-id-type="pmcaiid">10190927</article-id><article-id pub-id-type="pmid">37323700</article-id><article-id pub-id-type="doi">10.1002/EXP.20210176</article-id><article-id pub-id-type="publisher-id">EXP20210176</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Articles</subject></subj-group></article-categories><title-group><article-title>SERS characterization of colorectal cancer cell surface markers upon anti‐EGFR treatment</article-title></title-group><contrib-group><contrib id="exp20210176-cr-0001" contrib-type="author"><name name-style="western"><surname>Lyu</surname><given-names initials="N">Nana</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-1384-9308</contrib-id><xref rid="exp20210176-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="exp20210176-cr-0002" contrib-type="author"><name name-style="western"><surname>Pedersen</surname><given-names initials="B">Bernadette</given-names></name><xref rid="exp20210176-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="exp20210176-cr-0003" contrib-type="author"><name name-style="western"><surname>Shklovskaya</surname><given-names initials="E">Elena</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-6155-1020</contrib-id><xref rid="exp20210176-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="exp20210176-cr-0004" contrib-type="author"><name name-style="western"><surname>Rizos</surname><given-names initials="H">Helen</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-2094-9198</contrib-id><xref rid="exp20210176-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="exp20210176-cr-0005" contrib-type="author" corresp="yes"><name name-style="western"><surname>Molloy</surname><given-names initials="MP">Mark P.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-4679-5868</contrib-id><xref rid="exp20210176-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref><address><email>m.molloy@sydney.edu.au</email></address></contrib><contrib id="exp20210176-cr-0006" contrib-type="author" corresp="yes"><name name-style="western"><surname>Wang</surname><given-names initials="Y">Yuling</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-3627-7397</contrib-id><xref rid="exp20210176-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><address><email>yuling.wang@mq.edu.au</email></address></contrib></contrib-group><aff id="exp20210176-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">ARC Center of Excellence for Nanoscale BioPhotonics and School of Natural Sciences, Faculty of Science and Engineering</named-content>
+<institution>Macquarie University</institution>
+<city>Sydney</city>
+<named-content content-type="country-part">New South Wales</named-content>
+<country country="AU">Australia</country>
+</aff><aff id="exp20210176-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Department of Biomedical Sciences, Faculty of Medicine, Health and Human Sciences</named-content>
+<institution>Macquarie University</institution>
+<city>Sydney</city>
+<named-content content-type="country-part">New South Wales</named-content>
+<country country="AU">Australia</country>
+</aff><aff id="exp20210176-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">Bowel Cancer and Biomarker Laboratory, School of Medical Sciences, Kolling Institute</named-content>
+<institution>The University of Sydney</institution>
+<city>Sydney</city>
+<named-content content-type="country-part">New South Wales</named-content>
+<country country="AU">Australia</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence</bold>
+<break />Mark P. Molloy, Bowel Cancer and Biomarker Laboratory, School of Medical Sciences, Kolling Institute, The University of Sydney, NSW 2006, Australia.<break />Email: <email>m.molloy@sydney.edu.au</email>
+<break />Yuling Wang, ARC Center of Excellence for Nanoscale BioPhotonics and School of Natural Sciences, Faculty of Science and Engineering, Macquarie University, Sydney, NSW 2109, Australia.<break />Email: <email>yuling.wang@mq.edu.au</email>
+<break />
+</corresp></author-notes><pub-date pub-type="epub"><day>09</day><month>5</month><year>2022</year></pub-date><pub-date pub-type="collection"><month>6</month><year>2022</year></pub-date><volume>2</volume><issue seq="140">3</issue><issue-id pub-id-type="pmc-issue-id">436012</issue-id><issue-id pub-id-type="doi">10.1002/exp2.v2.3</issue-id><elocation-id>20210176</elocation-id><history><date date-type="received"><day>10</day><month>12</month><year>2021</year></date><date date-type="accepted"><day>11</day><month>4</month><year>2022</year></date></history><pub-history><event event-type="pmc-release"><date><day>09</day><month>05</month><year>2022</year></date></event><event event-type="pmc-live"><date><day>14</day><month>06</month><year>2023</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2025-09-26 14:25:37.950"><day>26</day><month>09</month><year>2025</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2022 The Authors. <italic toggle="yes">Exploration</italic> published by Henan University and John Wiley &amp; Sons Australia, Ltd.</copyright-statement><license><ns0:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ns0:license_ref><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" ns1:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pmc-pdf" ns1:href="EXP2-2-20210176.pdf" /><self-uri content-type="pdf" ns1:href="file:EXP2-2-20210176.pdf" /><abstract><title>Abstract</title><p>Colorectal cancer (CRC) is the third most diagnosed and the second lethal cancer worldwide. Approximately 30–50% of CRC are driven by mutations in the <italic toggle="yes">KRAS</italic> oncogene, which is a strong negative predictor for response to anti‐epidermal growth factor receptor (anti‐EGFR) therapy. Examining the phenotype of <italic toggle="yes">KRAS</italic> mutant and wild‐type (WT) CRC cells in response to anti‐EGFR treatment may provide significant insights into drug response and resistance. Herein, surface‐enhanced Raman spectroscopy (SERS) assay was applied to phenotype four cell surface proteins (EpCAM, EGFR, HER2, HER3) in <italic toggle="yes">KRAS</italic> mutant (SW480) and WT (SW48) cells over a 24‐day time course of anti‐EGFR treatment with cetuximab. Cell phenotypes were obtained using Raman reporter‐coated and antibody‐conjugated gold nanoparticles (SERS nanotags), where a characteristic Raman spectrum was generated upon single laser excitation, reflecting the presence of the targeted surface marker proteins. Compared to the <italic toggle="yes">KRAS</italic> mutant cells, <italic toggle="yes">KRAS</italic> WT cells were more sensitive to anti‐EGFR treatment and displayed a significant decrease in HER2 and HER3 expression. The SERS results were validated with flow cytometry, confirming the SERS assay is promising as an alternative method for multiplexed characterization of cell surface biomarkers using a single laser excitation system.</p></abstract><abstract id="exp20210176-abs-0001" abstract-type="graphical"><p>Examining the phenotypes of KRAS mutant and wild‐type colorectal cancer cells during anti‐EGFR treatment may provide significant insights into drug resistance. Herein, we applied surface‐enhanced Raman spectroscopy (SERS) assay to detect four cell surface proteins on KRAS mutant and wild‐type cells over a 24‐day treatment, where SERS assay achieved multiplexed characterization of cell surface markers using a single laser excitation.
+<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic position="anchor" id="jats-graphic-1" orientation="portrait" ns1:href="EXP2-2-20210176-g006.jpg" /></boxed-text>
+</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="exp20210176-kwd-0001">anti‐EGFR treatment</kwd><kwd id="exp20210176-kwd-0002">colorectal cancer</kwd><kwd id="exp20210176-kwd-0003">epidermal growth factor receptor</kwd><kwd id="exp20210176-kwd-0004">phenotypic evolution</kwd><kwd id="exp20210176-kwd-0005">surface‐enhanced Raman spectroscopy (SERS)</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>ARC Centre of Excellence for Nanoscale BioPhotonics</funding-source><award-id>CE140100003</award-id></award-group></funding-group><funding-group><award-group id="funding-0002"><funding-source>Macquarie University (iMQRES Scheme)</funding-source></award-group></funding-group><counts><fig-count count="6" /><table-count count="0" /><page-count count="10" /><word-count count="7055" /></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>June 2022</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.2.8 mode:remove_FC converted:10.05.2023</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="exp20210176-cit-0066">
+<string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Lyu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Pedersen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Shklovskaya</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Rizos</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. P.</given-names>
+<surname>Molloy</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Wang</surname>
+</string-name>, <source>Exploration</source>
+<year>2022</year>, <volume>2</volume>, <elocation-id>20210176</elocation-id>. <pub-id pub-id-type="doi">10.1002/EXP.20210176</pub-id>
+<pub-id pub-id-type="pmcid">PMC10190927</pub-id><pub-id pub-id-type="pmid">37323700</pub-id></mixed-citation>
+</p></notes></front><body><sec id="exp20210176-sec-0010"><label>1</label><title>INTRODUCTION</title><p>Colorectal cancer (CRC) is the third most diagnosed and the second most lethal cancer.<sup>[</sup>
+<xref rid="exp20210176-bib-0001" ref-type="bibr">
+<sup>1</sup>
+</xref>
+<sup>]</sup> It has been reported that up to 50% of patients will develop metastases during their disease course,<sup>[</sup>
+<xref rid="exp20210176-bib-0002" ref-type="bibr">
+<sup>2</sup>
+</xref>
+<sup>]</sup> and the 5‐year survival from patients diagnosed with advanced CRC is only 13% (data from Australia Institute of Health and Welfare 2019). Targeted therapy approaches have focussed on the epidermal growth factor receptor (EGFR), which is overexpressed in approximately 80% of CRC.<sup>[</sup>
+<xref rid="exp20210176-bib-0003" ref-type="bibr">
+<sup>3</sup>
+</xref>
+<sup>]</sup> Activation of EGFR upon ligand binding and its subsequent downstream signalling pathways will promote cell growth and proliferation.<sup>[</sup>
+<xref rid="exp20210176-bib-0003" ref-type="bibr">
+<sup>3c</sup>
+</xref>
+<sup>]</sup> The emergence of cetuximab and panitumumab, which are two anti‐EGFR monoclonal antibodies, marks an era toward the personalized therapy for metastatic CRC (mCRC).<sup>[</sup>
+<xref rid="exp20210176-bib-0003" ref-type="bibr">
+<sup>3</sup>
+</xref>, <xref rid="exp20210176-bib-0004" ref-type="bibr">
+<sup>4</sup>
+</xref>
+<sup>]</sup> However, the overexpression of EGFR does not always indicate a positive answer to anti‐EGFR therapy.<sup>[</sup>
+<xref rid="exp20210176-bib-0003" ref-type="bibr">
+<sup>3b</sup>
+</xref>
+<sup>]</sup> The downstream signalling effector, <italic toggle="yes">KRAS</italic>, is the mediator for linking the binding of extracellular ligand with the intracellular signal transduction from EGFR to the nucleus. Thus, the activation of <italic toggle="yes">KRAS</italic> mutation is used as a negative indicator for a lack of answer to anti‐EGFR treating.<sup>[</sup>
+<xref rid="exp20210176-bib-0003" ref-type="bibr">
+<sup>3</sup>
+</xref>, <xref rid="exp20210176-bib-0004" ref-type="bibr">
+<sup>4</sup>
+</xref>
+<sup>]</sup> While WT <italic toggle="yes">KRAS</italic> tumours are indicated for adoption of anti‐EGFR treatment, not all patients will respond,<sup>[</sup>
+<xref rid="exp20210176-bib-0005" ref-type="bibr">
+<sup>5</sup>
+</xref>
+<sup>]</sup> so predictive features are required for insights into the response and resistance to EGFR‐targeted therapy in CRC.</p><p>The innate (primary) and acquired mechanisms of EGFR inhibitor resistance have been proposed.<sup>[</sup>
+<xref rid="exp20210176-bib-0006" ref-type="bibr">
+<sup>6</sup>
+</xref>
+<sup>]</sup> Innate resistance refers to the refractoriness to initial therapy and could be explained by pre‐existing resistance mechanisms, such as activating mutations in downstream EGFR effectors, including <italic toggle="yes">KRAS</italic>, <italic toggle="yes">BRAF</italic> and <italic toggle="yes">PIK3CA</italic> mutations or <italic toggle="yes">PTEN</italic> loss. These alterations cause continuous activation of the downstream signalling despite inhibition of EGFR. Acquired resistance is defined as development of treatment resistance after an initial response to therapy.<sup>[</sup>
+<xref rid="exp20210176-bib-0007" ref-type="bibr">
+<sup>7</sup>
+</xref>
+<sup>]</sup> Nearly all patients with mCRC who respond to EGFR‐targeted therapy at beginning, will finally progress on treatment.<sup>[</sup>
+<xref rid="exp20210176-bib-0004" ref-type="bibr">
+<sup>4</sup>
+</xref>, <xref rid="exp20210176-bib-0006" ref-type="bibr">
+<sup>6</sup>
+</xref>
+<sup>]</sup> The acquired resistance to EGFR‐targeted treatment includes acquired alterations that directly activate EGFR signalling (e.g. <italic toggle="yes">EGFR</italic> mutations, <italic toggle="yes">KRAS/BRAF</italic> alterations) or activation of alternate signalling pathways (e.g. activation of epidermal growth factor receptor‐2 (HER2) and mesenchymal‐epithelial transition factor receptor (MET)).<sup>[</sup>
+<xref rid="exp20210176-bib-0004" ref-type="bibr">
+<sup>4</sup>
+</xref>, <xref rid="exp20210176-bib-0007" ref-type="bibr">
+<sup>7</sup>
+</xref>, <xref rid="exp20210176-bib-0008" ref-type="bibr">
+<sup>8</sup>
+</xref>
+<sup>]</sup> Therefore, monitoring phenotypic features of cancer cells during therapy will provide new insights on cancer cells treatment response and resistance.</p><p>The strategies for phenotyping the cells involve protein‐based methods for instance flow cytometry, while commonly used, a large number of cells are required and the capabilities for multiplexed detection are limited due to the overlapping of fluorescence signals.<sup>[</sup>
+<xref rid="exp20210176-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref>
+<sup>]</sup> Though Western blotting is one of the most common procedures for protein detection, it is applied to detect specific protein molecules from a variety of proteins associated with a particular tissue or cell type, where the target protein was detected by probing with antibodies after separation of the proteins by gel electrophoresis and membrane blotting.<sup>[</sup>
+<xref rid="exp20210176-bib-0010" ref-type="bibr">
+<sup>10</sup>
+</xref>
+<sup>]</sup> Cytometry by time of flight (CyTOF) as an emerging approach may overcome some of these limitations, but does not allow analysis of live cells, the equipment is not widely available, and the cost of metal conjugated antibodies and antibody conjunction kits are expensive.<sup>[</sup>
+<xref rid="exp20210176-bib-0011" ref-type="bibr">
+<sup>11</sup>
+</xref>
+<sup>]</sup> Other techniques such as real‐time quantitative reverse transcription PCR (qRT‐PCR) which is based on the analysis of nucleic acid, are able to detect the relative expression of epithelial or tumour specific mRNAs, it is unable to directly characterize multiple cell surface markers and determine their heterogeneity.<sup>[</sup>
+<xref rid="exp20210176-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref>, <xref rid="exp20210176-bib-0012" ref-type="bibr">
+<sup>12</sup>
+</xref>
+<sup>]</sup> More recently, single‐cell RNA sequencing (scRNA‐seq) has become the choice method for investigating key biological questions of cell heterogeneity, but this technology is expensive and requires significant expertise.<sup>[</sup>
+<xref rid="exp20210176-bib-0013" ref-type="bibr">
+<sup>13</sup>
+</xref>
+<sup>]</sup> Thus, an innovative assay allowing direct phenotypic characterization of multiple surface biomarkers on the same cells in a single sample is highly desired.</p><p>Herein, we describe a strategy for monitoring the phenotypic evolution of <italic toggle="yes">KRAS</italic> mutant and WT CRC cells during anti‐EGFR treatment by simultaneous detection of multiple cell surface markers by surface‐enhanced Raman spectroscopy (SERS), which is based on a Raman spectroscopic assay to detect molecules in close proximity to the nanostructure surface, the characteristic Raman spectra resulting from localized surface plasmon resonance endows detection of the target molecules with ultra‐sensitivity.<sup>[</sup>
+<xref rid="exp20210176-bib-0014" ref-type="bibr">
+<sup>14</sup>
+</xref>
+<sup>]</sup> In recent years, SERS assay has demonstrated core superiorities including ultra‐sensitivity for probing single molecule,<sup>[</sup>
+<xref rid="exp20210176-bib-0015" ref-type="bibr">
+<sup>15</sup>
+</xref>
+<sup>]</sup> multiplexing capabilities due to the sharp Raman bands, peak intensity based quantification, high photostability, minimal auto‐fluorescence from biological samples under a single laser excitation with red to near‐infrared laser wavelength.<sup>[</sup>
+<xref rid="exp20210176-bib-0014" ref-type="bibr">
+<sup>14</sup>
+</xref>, <xref rid="exp20210176-bib-0016" ref-type="bibr">
+<sup>16</sup>
+</xref>
+<sup>]</sup> Therefore, compared to the conventional flow cytometry, SERS assay offers the key advantages including (i) simple and affordable single laser system for characterizing multiple cell surface proteins expression in one measurement, while flow cytometry requires different and multiple laser excitation wavelength for different fluorophores; (ii) high sensitivity as only 100–1000 cells are required for SERS analysis; (iii) highly multiplexed capability of SERS nanotags owing to the narrow peaks of Raman spectrum, while spectral overlapping with flow cytometry fluorophores requires compensation. The main disadvantage of SERS assay lies on the preparation of SERS nanotags, which requires the monodisperse and stable nanoparticles to ensure the reproducibility of the measurement, this limitation can be overcome by adopting the automated nanoparticle synthesis system.<sup>[</sup>
+<xref rid="exp20210176-bib-0017" ref-type="bibr">
+<sup>17</sup>
+</xref>
+<sup>]</sup>
+</p><p>Herein, the aim of this report is to propose the application of SERS assay in analysing the responses of multiple markers on cell surface during treatment, by fully taking the advantages of SERS assay. To study the phenotypic evolution of <italic toggle="yes">KRAS</italic> mutant cells (SW480) and <italic toggle="yes">KRAS</italic> WT cells (SW48), we selected four cell surface markers, which involve 1) epithelial cell adhesion molecule (EpCAM) with expression in 85% of colorectal carcinomas;<sup>[</sup>
+<xref rid="exp20210176-bib-0018" ref-type="bibr">
+<sup>18</sup>
+</xref>
+<sup>]</sup> 2) EGFR, a member of EGFR family, overexpressed in approximately 80% of CRC;<sup>[</sup>
+<xref rid="exp20210176-bib-0003" ref-type="bibr">
+<sup>3b,c</sup>
+</xref>
+<sup>]</sup> 3) HER2, a member of EGFR family whose overexpression was potentially predictive of anti‐EGFR resistance in CRC;<sup>[</sup>
+<xref rid="exp20210176-bib-0019" ref-type="bibr">
+<sup>19</sup>
+</xref>
+<sup>]</sup> and 4) HER3, another EGFR family member expressed in 70% of primary CRC, and the high expression of HER3 is correlated with worse outcomes in clinic.<sup>[</sup>
+<xref rid="exp20210176-bib-0020" ref-type="bibr">
+<sup>20</sup>
+</xref>
+<sup>]</sup> The specific antibodies for targeting the respective markers were conjugated to SERS nanotags (AuNPs coated with Raman reporter), where the fingerprint of Raman spectrum for each SERS nanotag was generated upon excitation with only a single laser wavelength, indicating the presence of SERS nanotags and reflecting the existence of the targeting surface marker. The SERS assay was thus used for monitoring the phenotypic evolution of these marker proteins during cetuximab treatments, and the results were validated by a standard technique, namely flow cytometry. The SERS assay and flow cytometry delivered comparable results demonstrating that SW48 cells were more sensitive to EGFR‐targeted therapy with significant downregulation of HER2 and HER3 expression levels compared to SW480 cells. The expression of EpCAM and EGFR in both SW48 and SW480 remained stable during EGFR‐targeted therapy.</p></sec><sec id="exp20210176-sec-0020"><label>2</label><title>RESULTS AND DISCUSSION</title><sec id="exp20210176-sec-0030"><label>2.1</label><title>Working scheme</title><p>Figure <xref rid="exp20210176-fig-0001" ref-type="fig">1</xref> illustrates the working scheme of our proposed SERS approach for phenotypic characterization of four cell surface markers of CRC cells. Briefly, the cells were collected and resuspended in PBS, followed by incubating with the four different Ab‐SERS nanotags which were functionalized with specific Raman reporters and antibodies for targeting EpCAM, EGFR, HER2 and HER3 (Figure <xref rid="exp20210176-fig-0001" ref-type="fig">1A</xref>) to allow the simultaneous detection of cell surface markers by Raman spectroscopy.<sup>[</sup>
+<xref rid="exp20210176-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref>
+<sup>]</sup> Given that the distinct peaks of the SERS nanotags are easily identified, the multivariate statistical methods are thus not required in this analysis.<sup>[</sup>
+<xref rid="exp20210176-bib-0021" ref-type="bibr">
+<sup>21</sup>
+</xref>
+<sup>]</sup> The averaged SERS spectrum (Figure <xref rid="exp20210176-fig-0001" ref-type="fig">1B</xref>) represents the bulk overall of the cells with labelling for Raman scattering, in which the intensity of Raman signal reflects the relative expression levels of the four cell surface markers. SERS signal intensity at the characteristic peak was read from the y‐axis (Intensity) of Raman spectrum for the corresponding SERS nanotags (Figure <xref rid="exp20210176-fig-0001" ref-type="fig">1B</xref>). The SERS signal intensities of the characteristic peaks are specific for the respective biomarkers including 1078, 1180, 1340 and 1380 cm<sup>−1</sup> for EpCAM, HER2, EGFR and HER3, respectively.<sup>[</sup>
+<xref rid="exp20210176-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref>, <xref rid="exp20210176-bib-0022" ref-type="bibr">
+<sup>22</sup>
+</xref>
+<sup>]</sup> The cell surface markers expression distribution (Figure <xref rid="exp20210176-fig-0001" ref-type="fig">1C</xref>) of each sample was analysed by plotting the frequency and Raman signal intensity of the characteristic peaks (Figure <xref rid="exp20210176-fig-0001" ref-type="fig">1B</xref>) at 1078 cm<sup>−1</sup> (EpCAM), 1180 cm<sup>−1</sup> (HER2), 1340 cm<sup>−1</sup> (EGFR) and 1380 cm<sup>−1</sup> (HER3), respectively.</p><fig position="float" fig-type="FIGURE" id="exp20210176-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>(A) Schematic illustration of cell surface markers labelling using antibody‐conjugated SERS nanotags for targeting EpCAM, EGFR, HER2 and HER3. (B) Averaged SERS spectrum for the bulk ensemble of the labelled cells in the scattering volume. (C) The expression level distribution of surface markers for each sample plotted by the frequency and the Raman signal intensity with the characteristic peaks at 1078, 1180, 1340 and 1380 cm<sup>−1</sup> for EpCAM, HER2, EGFR and HER3, respectively</p></caption><graphic position="anchor" id="jats-graphic-3" orientation="portrait" ns1:href="EXP2-2-20210176-g001.jpg" /></fig></sec><sec id="exp20210176-sec-0040"><label>2.2</label><title>Synthesis and characterization of SERS nanotags</title><p>Our previous study has demonstrated that higher SERS activity could be obtained by using AuNPs (60 nm) as compared to smaller AuNPs (i.e., 25 and 40 nm).<sup>[</sup>
+<xref rid="exp20210176-bib-0023" ref-type="bibr">
+<sup>23</sup>
+</xref>
+<sup>]</sup> Meanwhile, 60 nm AuNPs are less prone to aggregation compared to larger AuNPs at size of 80 nm.<sup>[</sup>
+<xref rid="exp20210176-bib-0023" ref-type="bibr">
+<sup>23</sup>
+</xref>
+<sup>]</sup> Thus, AuNPs (60 nm) were used in this study. The size and morphology of AuNPs were investigated with transmission electron microscopy (TEM), where the quasi‐spherical shape of as‐prepared AuNPs was observed (Figure <xref rid="exp20210176-fig-0002" ref-type="fig">2A</xref>). UV–vis absorption spectroscopy was tested to characterize the surface plasmon resonance of AuNPs (60 nm) (Figure <xref rid="exp20210176-fig-0002" ref-type="fig">2B</xref>), in which the wavelength of maximum absorption for AuNPs shows red shift from 535 to 539 nm after adsorption of Raman molecules (Ra, DTNB) and conjugation with antibody (Ab, anti‐EGFR antibody).</p><fig position="float" fig-type="FIGURE" id="exp20210176-fig-0002" orientation="portrait"><label>FIGURE 2</label><caption><p>Characterization of gold nanoparticles (AuNPs) and AuNPs‐Ra‐Ab. TEM images (A), normalized UV–vis spectra (B) and SERS spectra (C) of AuNPs before and after coating with Raman molecule (Ra, DTNB)) and anti‐EGFR antibody</p></caption><graphic position="anchor" id="jats-graphic-5" orientation="portrait" ns1:href="EXP2-2-20210176-g005.jpg" /></fig><p>Dynamic light scattering (DLS) was adopted for analysing AuNPs size distribution with and without functionalization with Ra and Ab (AuNPs‐Ra‐Ab) (Figure <xref rid="exp20210176-supinfo-0001" ref-type="">S1</xref>), which shows the size increases from 68.1 to 78.8 nm, demonstrating the binding of Ra and Ab on the surface of AuNPs. Electrophoretic light scattering (ELS) was used to determine the zeta potential of AuNPs and AuNPs‐Ra‐Ab, where the AuNPs with citrate‐capping show negative charge with zeta potential of −23.4 mV (Table <xref rid="exp20210176-supinfo-0001" ref-type="">S1</xref>). AuNPs became less negative with the change of zeta potential from −23.4 to −20.1 mV after conjugating with anti‐EGFR antibody (isoelectric point 8.5), which was positively charged in PBS of pH 7.4.<sup>[</sup>
+<xref rid="exp20210176-bib-0023" ref-type="bibr">
+<sup>23</sup>
+</xref>, <xref rid="exp20210176-bib-0024" ref-type="bibr">
+<sup>24</sup>
+</xref>
+<sup>]</sup> The Raman spectrum of a typical SERS nanotag (coated by DTNB and Ab) displayed distinct signal enhancement effect for DTNB (Figure <xref rid="exp20210176-fig-0002" ref-type="fig">2C</xref>), which is attributed to the electromagnetic effect induced by localized surface plasmon resonance.<sup>[</sup>
+<xref rid="exp20210176-bib-0021" ref-type="bibr">
+<sup>21</sup>
+</xref>, <xref rid="exp20210176-bib-0025" ref-type="bibr">
+<sup>25</sup>
+</xref>
+<sup>]</sup>
+</p></sec><sec id="exp20210176-sec-0050"><label>2.3</label><title>Cell surface biomarkers characterization before drug treatment</title><p>SERS technique was used to study the expression levels of four cell surface proteins in <italic toggle="yes">KRAS</italic> mutant (Figure <xref rid="exp20210176-fig-0003" ref-type="fig">3</xref>, left) and WT cells (Figure <xref rid="exp20210176-supinfo-0001" ref-type="">S2</xref>, left). The narrower expression frequency vs. intensity curve for the respective markers indicated the more homogeneity of phenotypes, which usually resulted from the selection or adaptation of subclones in response to treatment.<sup>[</sup>
+<xref rid="exp20210176-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref>
+<sup>]</sup> In contrast, the wider frequency vs. intensity distribution reflects the more diverse and heterogeneous cells population.<sup>[</sup>
+<xref rid="exp20210176-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref>
+<sup>]</sup> The expression level of the respective biomarkers was identified by comparing the overlap of expression distribution curve between the biomarkers and isotype‐matched IgG control. Therefore, SERS assay for SW480 and SW48 cells shows that EpCAM and EGFR have higher expression levels with well‐separated distribution curves compared with IgG control, HER2 curve shows a slightly lower expression exhibiting only a small portion of overlapping with that of IgG control (Figure <xref rid="exp20210176-fig-0003" ref-type="fig">3</xref>), while HER3 on SW480 shows lower expression exhibiting more overlapping distribution profile with IgG control, compared to SW48 cells (Figure <xref rid="exp20210176-supinfo-0001" ref-type="">S2</xref>, left). The sensitivity of using each Ab‐SERS nanotag alone and in combination for cell detection was explored by titrating 10–1000 cells into 1 ml of PBS, each Ab‐SERS nanotag alone and in combination enable the detection down to 10 cells, demonstrating that the SERS assay is sensitive for cell characterization.<sup>[</sup>
+<xref rid="exp20210176-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref>
+<sup>]</sup>
+</p><fig position="float" fig-type="FIGURE" id="exp20210176-fig-0003" orientation="portrait"><label>FIGURE 3</label><caption><p>Surface marker expression distribution/profile for SW480 cells before drug treatment. Distribution of four markers (EpCAM, EGFR, HER2 and HER3) on cells’ surface obtained by SERS assay (left) and flow cytometry (right)</p></caption><graphic position="anchor" id="jats-graphic-7" orientation="portrait" ns1:href="EXP2-2-20210176-g003.jpg" /></fig><p>Flow cytometry (Figure <xref rid="exp20210176-fig-0003" ref-type="fig">3</xref>, right) was adopted as a conventional assay to verify the results from SERS assay. As shown in Figure <xref rid="exp20210176-fig-0003" ref-type="fig">3</xref> (right), EpCAM, EGFR and HER2 illustrated higher expression levels (99.9%, 99.9% and 95.5%, respectively) on SW480 cell surface, while relatively lower expression (16.9%) of HER3 aligns well with SERS distribution profiles (Figure <xref rid="exp20210176-fig-0003" ref-type="fig">3</xref>, left). It was reported that mRNA expression of HER3 in tumor may be conceived as a useful biomarker for predicting anti‐EGFR therapeutic efficacy in CRC, where the heregulin activation of HER3 may activate an alternate signalling pathway to circumvent EGFR‐inhibition, which supports the overexpression of HER3 as a negative indicator for anti‐EGFR therapy in CRC.<sup>[</sup>
+<xref rid="exp20210176-bib-0026" ref-type="bibr">
+<sup>26</sup>
+</xref>
+<sup>]</sup>
+</p><p>The cell surface markers EpCAM, EGFR and HER2 of WT SW48 cells were detected with high expression (99.7%, 99.6% and 99.7%, respectively). While HER3 showed slightly higher expression (83.6%) on WT SW48 cells compared to <italic toggle="yes">KRAS</italic> mutant SW480 cells, which is in line with the published reports.<sup>[</sup>
+<xref rid="exp20210176-bib-0020" ref-type="bibr">
+<sup>20</sup>
+</xref>, <xref rid="exp20210176-bib-0027" ref-type="bibr">
+<sup>27</sup>
+</xref>
+<sup>]</sup> The intensity distribution obtained by SERS detection is comparable to the flow cytometry, demonstrating that both techniques were capable of distinguishing the positive cell markers from the isotype control.</p></sec><sec id="exp20210176-sec-0060"><label>2.4</label><title>Cell surface protein changes in response to EGFR‐inhibition</title><p>We further used SERS assay and flow cytometry to evaluate cell surface expression in SW480 cells following anti‐EGFR (cetuximab) treatment over a 24‐day time course, where the intensity distribution of cell surface markers obtained by SERS assay (Figures <xref rid="exp20210176-supinfo-0001" ref-type="">S3–S7</xref> left, and Figure <xref rid="exp20210176-supinfo-0001" ref-type="">S8</xref>) is comparable to the results from flow cytometry (Figures <xref rid="exp20210176-supinfo-0001" ref-type="">S3–S7</xref> right, and Figure <xref rid="exp20210176-supinfo-0001" ref-type="">S9</xref>).</p><p>The expression of cell surface markers was further demonstrated by the ratio of stained and control samples for median intensity from SERS assay and median fluorescence intensity (MFI) from flow cytometry, as indicated in Figure <xref rid="exp20210176-fig-0004" ref-type="fig">4</xref>. The SW480 EpCAM expression detected by SERS assay showed a slight decrease after treatment for 3 days, then it increased with the treatment course (7, 10, 17 and 24 days), as shown in Figure <xref rid="exp20210176-fig-0004" ref-type="fig">4A</xref>. The expression of EGFR on SW480 cells determined by flow cytometry showed no significant changes upon treatment for 24 days (Figure <xref rid="exp20210176-fig-0004" ref-type="fig">4B</xref>), while the expression level from SERS assay presented fluctuations during treatment (Figure <xref rid="exp20210176-fig-0004" ref-type="fig">4B</xref>). Furthermore, the SERS assay demonstrated that EGFR on SW480 cells slightly increased, and signal distribution broadened with longer time of treatment (7, 10 and 17 days, Figure <xref rid="exp20210176-supinfo-0001" ref-type="">S8B</xref>), reflecting the more diverse and heterogeneous cell populations evolving during cetuximab treatment. Therefore, EpCAM and EGFR were characterized with high expression by both SERS assay and flow cytometry, and the more dramatic change of the expression upon treatment detected by SERS (Figure <xref rid="exp20210176-fig-0004" ref-type="fig">4A,B</xref>) may be ascribed to the ultra‐sensitivity of SERS assay for identifying the subtle variations of phenotypic characters of treated cells.</p><fig position="float" fig-type="FIGURE" id="exp20210176-fig-0004" orientation="portrait"><label>FIGURE 4</label><caption><p>Evolution of surface marker expression profiles for <italic toggle="yes">SW480</italic> cells before drug treatment (0 day) and upon cetuximab treatment for 3, 7, 10, 17 and 24 days. The expression of four markers (EpCAM, EGFR, HER2 and HER3) was presented by the ratio of stained and control samples for median intensity from SERS assay and MFI from flow cytometry</p></caption><graphic position="anchor" id="jats-graphic-9" orientation="portrait" ns1:href="EXP2-2-20210176-g002.jpg" /></fig><p>Decreased expression of HER2 was observed during treatment with cetuximab for 24 days (Figure <xref rid="exp20210176-fig-0004" ref-type="fig">4C</xref>) compared to cells before treating (0 day), the consistent evolution trend for HER2 expression were obtained from both SERS assay and flow cytometry, where obvious decrease of HER2 expression was observed upon treatment, overall, the expression of HER2 decreased significantly from 95.5% (Figure <xref rid="exp20210176-fig-0003" ref-type="fig">3</xref>) to 0.26% (Figure <xref rid="exp20210176-supinfo-0001" ref-type="">S7</xref>) after cetuximab treatment for 24 days. HER3 was observed with decreased levels upon cetuximab treatment for 3, 7 and 10 days, then the expression of HER3 increased after longer time of treatment for 17 and 24 days (Figure <xref rid="exp20210176-fig-0004" ref-type="fig">4D</xref>), the results were also validated with flow cytometry, where the evolution trend of HER3 expression showed fluctuations during treatment. While for HER2 with slightly lower expression and HER3 with lower expression, the evolution upon treatment detected by SERS shows similar pattern with that of flow cytometry.</p><p>With regards to WT (SW48) cells, the evolution of four markers (EpCAM, EGFR, HER2 and HER3) expression was monitored before (0 day) and during drug treatment (3, 7, 10, 17 and 24 days), as illustrated in Figures <xref rid="exp20210176-supinfo-0001" ref-type="">S10–S16</xref>. The expression of EpCAM and EGFR showed no significant change during cetuximab treatment for different time points (3, 7, 10, 17 and 24 days) compared to cells without treatment (0 day), as illustrated in SERS assay (Figure <xref rid="exp20210176-supinfo-0001" ref-type="">S15</xref>; Figure <xref rid="exp20210176-fig-0005" ref-type="fig">5A,B</xref>). The results were also validated with flow cytometry, where the expression of EpCAM and EGFR kept stable with &gt; 99.0% expression over cetuximab treatment for 24 days (Figure <xref rid="exp20210176-supinfo-0001" ref-type="">S16</xref>). While, SERS assay (Figure <xref rid="exp20210176-supinfo-0001" ref-type="">S15</xref>) showed significant decrease of HER2 and HER3. SERS results were also validated with flow cytometry, which showed significant expression decrease of HER2 and HER3 from 99.7% to 0.03% and 83.6% to 0.04%, respectively, during the treatment time of 24 days.</p><fig position="float" fig-type="FIGURE" id="exp20210176-fig-0005" orientation="portrait"><label>FIGURE 5</label><caption><p>Evolution of surface marker expression profiles for <italic toggle="yes">SW48</italic> cells before drug treatment (0 day) and upon cetuximab treatment for 3, 7, 10, 17 and 24 days. The expression of four makers (EpCAM, EGFR, HER2 and HER3) was also presented by the ratio of stained and control samples for median intensity from SERS detection and MFI from flow cytometry</p></caption><graphic position="anchor" id="jats-graphic-11" orientation="portrait" ns1:href="EXP2-2-20210176-g004.jpg" /></fig><p>In addition, the expression changes of surface markers over time detected by both SERS assay and flow cytometry were analysed by the ratio of stained and control samples for median intensity from SERS assay and MFI from flow cytometry. Although the median intensity ratio of stained and control samples from these two assays are not identical at all‐time points during treatment, the overall trends of the curves from these two assays during treatment are consistent, the results are also validated by surface maker expression profiles (Figures <xref rid="exp20210176-supinfo-0001" ref-type="">S2–S7</xref> and <xref rid="exp20210176-supinfo-0001" ref-type="">S10–S14</xref>). As indicated in Figure <xref rid="exp20210176-fig-0005" ref-type="fig">5</xref>, the downregulation of both HER2 and HER3 has been demonstrated for SW48 cells.</p><p>Overall, CRC <italic toggle="yes">KRAS</italic> mutant cells (SW480) and WT cells (SW48) displayed distinct phenotypic evolution after cetuximab exposure for 24 days with respect to the four markers measured. For <italic toggle="yes">KRAS</italic> mutant SW480 cells, expression levels of EpCAM, EGFR showed slight increase within treatment for 17 days, then decreased at 24 days; HER2 and HER3 expression showed slight decrease with 24 days of treatment. In contrast, for <italic toggle="yes">KRAS</italic> WT SW48 cells, the expression levels of EpCAM and EGFR kept stable during the treatment within 24 days; HER2 and HER3 expression showed significant decrease during the 24 days treatment. It should also be mentioned that despite fewer binding sites on the cells surface for anti‐EGFR SERS nanotags may be expected upon cetuximab treatment, the expression of EGFR detected by both SERS assay and flow cytometry showed no significant decrease for both SW480 (Figure <xref rid="exp20210176-fig-0004" ref-type="fig">4B</xref>) and SW48 (Figure <xref rid="exp20210176-fig-0005" ref-type="fig">5B</xref>) cells during treatment, which may be ascribed to the non‐saturating amount of cetuximab used in the assay, allowing for a consistent anti‐EGFR SERS binding before and after treatment.</p><p>The discrepancy of treatment response to cetuximab between <italic toggle="yes">KRAS</italic> mutant (SW480) and WT (SW48) cell lines is attributed to the following factors: (i) <italic toggle="yes">KRAS</italic> is the downstream effector of EGFR signalling pathway, thus, the genomic alterations (<italic toggle="yes">KRAS</italic> mutant) allow sustained MAPK signalling despite EGFR inhibition, leading to cell growth and proliferation.<sup>[</sup>
+<xref rid="exp20210176-bib-0003" ref-type="bibr">
+<sup>3</sup>
+</xref>, <xref rid="exp20210176-bib-0007" ref-type="bibr">
+<sup>7</sup>
+</xref>, <xref rid="exp20210176-bib-0028" ref-type="bibr">
+<sup>28</sup>
+</xref>
+<sup>]</sup> (ii) The increase in cell heterogeneity is common in the adaptive resistant group to treatment, which could be ascribed to the changes in gene expression or clonal selection of the resistant cells during treatment.<sup>[</sup>
+<xref rid="exp20210176-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref>, <xref rid="exp20210176-bib-0029" ref-type="bibr">
+<sup>29</sup>
+</xref>
+<sup>]</sup> Aberrant activation by HER2 gene amplification is correlated with worse prognosis, and amplification of HER2 also leads to the failure response during anti‐EGFR therapy.<sup>[</sup>
+<xref rid="exp20210176-bib-0019" ref-type="bibr">
+<sup>19</sup>
+</xref>, <xref rid="exp20210176-bib-0030" ref-type="bibr">
+<sup>30</sup>
+</xref>
+<sup>]</sup> In this study, HER2 overexpression was observed in SW480 cells before treatment and no increase in expression was observed within 24 days treatment. It may be beneficial to examine HER2 expression over a longer time. (iii) It is interesting that in SW48 <italic toggle="yes">KRAS</italic> WT cells, treatment with anti‐EGFR caused a rapid reduction in HER2 and HER3 expression, while mean EGFR was unchanged. It has been demonstrated that dual HER2‐targeted treatment with trastuzumab and pertuzumab, could prevent the formation of heterodimers HER2−HER3,<sup>[</sup>
+<xref rid="exp20210176-bib-0031" ref-type="bibr">
+<sup>31</sup>
+</xref>
+<sup>]</sup> and our data suggest such a treatment may further boost the effectiveness of anti‐EGFR to reduce signalling through this axis. Moreover, our data raise the prospect to treat patients with HER2‐amplified CRC with anti‐EGRF drugs, to reduce HER2/3 expression.</p></sec></sec><sec id="exp20210176-sec-0070"><label>3</label><title>CONCLUSIONS AND PERSPECTIVES</title><p>In summary, we used a SERS assay to measure the phenotypic evolution of four cell surface markers on <italic toggle="yes">KRAS</italic> mutant SW480 cells and <italic toggle="yes">KRAS</italic> wild‐type SW48 cells before and during anti‐EGFR treatment. Quantitation from SERS was in accordance with results from flow cytometry, which confirmed that SW48 cells (<italic toggle="yes">KRAS</italic> WT) are more sensitive to EGFR‐targeted inhibition, with a greater decrease of HER2 and HER3 expression levels during treatment, while EpCAM and EGFR expression remained stable. For <italic toggle="yes">KRAS</italic> mutant SW480 cells, HER2 expression slightly decreased, and HER3 expression increased within 24 days of treatment while the expression levels of EpCAM and EGFR remained stable throughout the experiment. Most importantly, the broadening of SERS signal distribution curves was observed for all the four biomarkers in SW480 cells in response to treatment, which is related to the tumor cell heterogeneity. Although it's still too early to confirm the prognostic marker because more tests in cell lines and clinical patient samples are required in the future work, the use of SERS has been demonstrated the great advantages in a simple (single laser excitation) and affordable laboratory system (assay time of 1 h) for characterizing multiple cell surface protein expression which is useful for investigating responses to drug treatments. We thus believe the SERS assay has the great potential for monitoring tumor evolution and therapeutic response non‐invasively in real‐time using blood samples. The future work on different patient cohorts will be conducted to demonstrate the translational pathway of the proposed SERS assay in clinical settings.</p></sec><sec id="exp20210176-sec-0080"><label>4</label><title>EXPERIMENTAL SECTION</title><sec id="exp20210176-sec-0090"><label>4.1</label><title>Materials and reagents</title><p>4‐mercaptobenzoic acid (MBA), 7‐mercapto‐4‐methylcoumarin (MMC), and 5,5′‐dithiobis‐(2‐nitrobenzoic acid) (DTNB) were provided by Merck. 2,3,5,6‐tetrafluoro‐4‐mercaptobenzoic acid (TFMBA) was supplied by TCI (Japan). AuNPs were synthesized with HAuCl<sub>4</sub>·3H<sub>2</sub>O and sodium citrate tribasic dihydrate, both were ordered from Merck. IgG isotype control (monoclonal mouse IgG<sub>1</sub>, MAB002), anti‐EGFR monoclonal antibody (cetuximab biosimilar, recombinant monoclonal human IgG<sub>1</sub> clone, MAB9577), anti‐EpCAM (monoclonal mouse IgG<sub>2B</sub> Clone, MAB9601), anti‐HER2 (monoclonal mouse IgG<sub>2B</sub> clone, MAB1129), and anti‐HER3 (monoclonal mouse IgG<sub>1</sub> clone, MAB3481) were provided by R&amp;D systems (Australia). The same antibodies were used for both SERS and flow cytometry. 3,3′‐dithiobis(sulfosuccinimidyl propionate) (DTSSP) were provided by Merck for conjugation of antibodies with AuNPs. The secondary antibody Alexa Fluor 488 goat anti‐mouse IgG antibody was ordered from Life Technologies (A‐11001, Australia), human IgG APC‐conjugated antibody (F0135) was supplied by R&amp;D systems. Cell line SW480 and SW48 were supplied by ATCC.</p></sec><sec id="exp20210176-sec-0100"><label>4.2</label><title>Apparatus</title><p>The size and shape of AuNPs were observed with transmission electron microscope (Philips CM10). The hydrodynamic size and zeta potential of AuNPs were determined by Zetasizer (Malvern, UK). The optical characteristics of AuNPs were examined with UV–vis spectroscopy (Cary 5000, Agilent, USA) to investigate the optical properties of AuNPs. The shaker Intelli‐Mixer (RM‐2M, ELMI Ltd, Riga, Latvia) and ThermoMixer C (Eppendorf, Hamburg, Germany) were used for incubation purposes. SERS measurements were performed with the Raman microscope (IM‐52, Snowy Range Instruments) with a 785‐nm wavelength laser for excitation. Flow cytometry was tested by BD LSRFortessa X‐20 flow cytometer.</p></sec><sec id="exp20210176-sec-0110"><label>4.3</label><title>Gold nanoparticles synthesis</title><p>AuNPs were made as reported,<sup>[</sup>
+<xref rid="exp20210176-bib-0032" ref-type="bibr">
+<sup>32</sup>
+</xref>
+<sup>]</sup> where gold chloride was reduced with sodium citrate. In brief, HAuCl<sub>4</sub> (0.01% w/v, 50 ml) was heated until boiling point followed by addition of sodium citrate (1% w/v, 0.35 ml). The solution was kept boiling with stirring for 15 min, which generates 60 nm AuNPs in diameter.</p></sec><sec id="exp20210176-sec-0120"><label>4.4</label><title>SERS nanotags preparation</title><p>AuNPs were functionalized with Raman molecules and antibodies to prepare Ab‐SERS nanotags, as previously reported.<sup>[</sup>
+<xref rid="exp20210176-bib-0033" ref-type="bibr">
+<sup>33</sup>
+</xref>
+<sup>]</sup> To be brief, 1.5 ml of the as‐prepared AuNPs colloidal was concentrated into 1.0 ml, followed by the addition of 10 µl of 1 mM ethanolic solution of Raman reporter. The mixture was then incubated at room temperature (RT) under shaking (60 rpm, Mode 45, Intelli‐Mixer) for 5 h, which will ensure the form of self‐assembled monolayer (SAM) on AuNPs surface. Subsequently, the residual reactants were removed by centrifugation of the mixture at 5500 rpm for 8 min. The mixture was then re‐dispersed in PBS (0.1 mM, 300 µl) to reach with DTSSP‐linked antibody, which was prepared by mixing 5 µl of 1 mg/ml DTSSP (in 5 mM sodium citrate buffer, pH 5.3) and 10 µl of 0.5 mg/ml antibody (in PBS) under shaking (300 rpm, ThermoMixer C, Eppendorf) for 30 min. The mixture was then incubated under shaking (300 rpm) at RT for 30 min and kept at 4°C overnight. After that, the mixture was centrifuged at 4°C using the speed of 3300 rpm for 10 min to remove the excess antibodies. To block the non‐specific binding sites on surface of nanotags, SERS nanotags were re‐dispersed in 300 µl of BSA solution (0.05% w/v in PBS) under 350 rpm shaking for 30 min at RT.</p></sec><sec id="exp20210176-sec-0130"><label>4.5</label><title>Cell surface proteins profiling</title><p>The two cell lines SW480 and SW48 were validated by short‐tandem repeat profiling. Specifically, SW480 cells were cultured using RPMI 1640 medium with 10% v/v fetal bovine serum (FBS) and a mix of the antibiotics (penicillin of 100 IU/ml, and streptomycin of 100 µg/ml) at 37°C, 5% CO<sub>2</sub>. The existing gene of S480 cell was not disrupted or knocked out, thus the KRAS mutant in SW480 cell was in its active state. Instead, SW48 cells were cultured using L­15 Medium with FBS (10% v/v) and a mix of the antibiotics under 37°C but without gas exchange with atmospheric air.</p><p>To profile the cell surface markers after treatment with cetuximab, cells (5 × 10<sup>5</sup> cells/flask in 5 ml cell culture media) were seeded in a T25 flask (Greiner Bio‐One, Austria). The cells were then treated with 1 µg/ml of cetuximab for 3, 7, 10, 17 and 24 days. For the longer treatment time (7, 10, 17 and 24 day), cells were passaged every 3 or 4 days, in which 5 × 10<sup>5</sup> cetuximab‐treated cells were planted in 5 ml cell culture media with 1 µg/ml of cetuximab. The cells were then collected, washed and re‐dispersed in the PBS buffer (with 1% v/v FBS) to get 5 × 10<sup>5</sup> cells/ml of cells suspension for the profiling of cell surface proteins with SERS nanotags and flow cytometry, both assays were conducted with live cells.</p><p>The method for labelling cells with Ab‐SERS nanotags has been reported.<sup>[</sup>
+<xref rid="exp20210176-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref>
+<sup>]</sup> The four Raman reporters MBA, DTNB, MMC, and TFMBA were adopted for functionalizing AuNPs and detecting EpCAM, EGFR, HER2, and HER3, respectively. The Ab‐SERS nanotags has variable signal enhancement, which is ascribed to the different cross section of Raman scattering for the Raman reporter MBA, DTNB, MMC and TFMBA.<sup>[</sup>
+<xref rid="exp20210176-bib-0034" ref-type="bibr">
+<sup>34</sup>
+</xref>
+<sup>]</sup> IgG‐conjugated AuNPs (IgG‐SERS nanotags) were used as an internal negative control, which will minimize the variation of SERS signals when multiple nanotags are present. Cells suspension (5 × 10<sup>5</sup> cells/ml, 200 µl) were incubated with the four Ab‐SERS nanotags mixes (30 µl each) under 300 rpm shaking for 30 min at 37°C, followed by being centrifuged (2000 rpm, 1 min) and washed with buffer (PBS with 1% v/v of FBS) for 4 times, where 200 µl of buffer was used for each wash. Subsequently, the labelled cells were re‐dispersed in 60 µl of buffer for SERS reading. SERS spectra were acquired with 785‐nm excitation laser by the Raman Microscope under incident laser power of 70 mW and integration of 1 s. For each sample of labelled cells, 150 SERS spectra were continuously acquired with Raman spectroscopy to reflect different portion of cells in the solution that were undergoing Brownian movement. The assay time including cell collection, cell labelling with Ab‐SERS nanotags and Raman detection was about 1 h. It should also be mentioned that tumor cells in the clinical samples could be identified using similar approach of the proposed assay, however, the blood sample needs to be pre‐treated to remove the red blood cells and leucocytes.<sup>[</sup>
+<xref rid="exp20210176-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref>
+<sup>]</sup> For each SERS spectrum (Figure <xref rid="exp20210176-fig-0001" ref-type="fig">1B</xref>), SERS signal intensities of the characteristic peaks represent the expression levels of the respective biomarkers (1078, 1180, 1340 and 1380 cm<sup>−1</sup> for EpCAM, HER2, EGFR and HER3, respectively). The SERS frequency vs. intensity curve was generated by counting the frequency of Raman intensity from 150 measurements (i.e., 150 intensity data at 1078 cm<sup>−1</sup> for EpCAM, the frequency of each intensity interval (0–50, 50–100, …) were counted, respectively). 150 SERS spectra were also recorded for each sample of cells labelled with four Raman reporter‐IgG SERS nanotags. The SERS frequency vs. intensity at 1078, 1180, 1340 and 1380 cm<sup>−1</sup> were also plotted when the IgG‐SERS nanotags were used.</p><p>For flow cytometry, cells (2 × 10<sup>6</sup>/ml, 100 µl) re‐suspended in FACS buffer (PBS with 3% v/v FBS, 0.5% w/v BSA and 1 mM EDTA) were mixed with antibody (0.5 µg/µl, 5 µl of either anti‐EpCAM, anti‐EGFR, anti‐HER2, or anti‐HER3 antibody or IgG) at RT for 30 min under gentle rotation (60 rpm, Mode 03, Intelli‐Mixer) to avoid the sedimentation of cells and facilitate receptor and antibody interaction. After being washed 2 times with FACS buffer (200 µl for each wash), the cells labelled with anti‐EpCAM, anti‐HER2 or anti‐HER3 antibody were dispersed in 200 µl Alexa Fluor 488 goat anti‐mouse IgG antibody (1 µg/ml) and incubated at RT for 30 min under gentle rotation (60 rpm, Mode 03, Intelli‐Mixer). The cells labelled with anti‐EGFR antibody were redispersed in FACS buffer (200 µl) and then 10 µl of secondary antibody (human IgG APC‐conjugated antibody) was added for 30 min under gentle rotation (60 rpm, Mode 03, Intelli‐Mixer). After being washed with FACS buffer to discard the excess secondary antibody, the cells were resuspended in FACS buffer (500 µl) supplemented with 5 µl of DAPI solution (0.5 µg/ml) for flow cytometry. The experiments were performed with three technical replicates. It should be noted that the different sources of primary antibody may generate the curves of IgG control slightly different in flow cytometry. The percentage of cells expressing the corresponding biomarker is presented by using isotype‐matched IgG as control, and the gate is set where the “expression” for IgG control should be less than 1.0%.<sup>[</sup>
+<xref rid="exp20210176-bib-0035" ref-type="bibr">
+<sup>35</sup>
+</xref>
+<sup>]</sup> The assay time including cell collection, cell labelling with primary and secondary antibodies, and detection with flow cytometer was about 1.7 h. The expression of each biomarker could also be presented by the ratio of MFI for stained and control samples.</p></sec></sec><sec sec-type="COI-statement" id="exp20210176-sec-0150"><title>CONFLICT OF INTEREST</title><p>There is no conflict of interest to declare.</p></sec><sec id="exp20210176-sec-0160"><title>AUTHOR CONTRIBUTIONS</title><p>Nana Lyu, Mark P. Molloy and Yuling Wang designed the research, analysed the results, and wrote the manuscript. Bernadette Pedersen and Elena Shklovskaya involved in the sample preparation, detection and data analysis by flow cytometry. Helen Rizos, Mark P. Molloy and Yuling Wang commented on the draft.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="exp20210176-supinfo-0001" position="float" content-type="local-data" orientation="portrait" /><supplementary-material id="exp20210176-supitem-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Supporting Information</bold>: The supplementary materials are available online. Figure S1: Hydrodynamic size distribution (by number) of AuNPs before and after conjugation with Raman reporter molecule and antibody measured by DLS; Table S1: Hydrodynamic size of AuNPs before and after functionalization measured by DLS and zeta potential measured by ELS; Figure S2: Surface marker expression profiles for SW48 cells before drug treatment (0 day) measured by SERS assay and flow cytometry; Figures S3–S7: Cell surface expression in SW480 cells upon cetuximab treatment for 3, 7, 10, 17 and 24 day measured by SERS assay and flow cytometry; Figure S8: The histogram overlay of surface marker expression profiles for SW480 cells measured by SERS assay over a 24‐day time course of cetuximab treatment; Figure S9: The histogram overlay of surface marker expression profiles for SW480 cells measured by flow cytometry over a 24‐day time course of cetuximab treatment; Figures S10–S14: Cell surface expression in SW48 cells upon cetuximab treatment for 3, 7, 10, 17 and 24 day measured by SERS assay and flow cytometry; Figure S15: The histogram overlay of surface marker expression profiles for SW48 cells measured by SERS assay over a 24‐day time course of cetuximab treatment; Figure S16: The histogram overlay of surface marker expression profiles for SW48 cells measured by flow cytometry over a 24‐day time course of cetuximab treatment.</p></caption><media ns1:href="EXP2-2-20210176-s001.DOCX" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="exp20210176-sec-0140"><title>ACKNOWLEDGEMENTS</title><p>This work was supported by the ARC Centre of Excellence for Nanoscale BioPhotonics (CE140100003). Nana Lyu acknowledges the funding support from the Macquarie University (iMQRES Scheme).</p></ack><ref-list id="exp20210176-bibl-0001"><title>REFERENCES</title><ref id="exp20210176-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="exp20210176-cit-0001">
+<string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Rawla</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Sunkara</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Barsouk</surname>
+</string-name>, <source>Przegl. Gastroenterol.</source>
+<year>2019</year>, <volume>14</volume>, <fpage>89</fpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.5114/pg.2018.81072</pub-id><pub-id pub-id-type="pmcid">PMC6791134</pub-id><pub-id pub-id-type="pmid">31616522</pub-id></mixed-citation></ref><ref id="exp20210176-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="exp20210176-cit-0002">
+<string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Frattini</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Saletti</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>De Dosso</surname>
+</string-name>, <source>Gastrointest. Cancer Targets Ther.</source>
+<year>2015</year>, <volume>2015</volume>, <fpage>21</fpage>.</mixed-citation></ref><ref id="exp20210176-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="exp20210176-cit-0003">a) <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Heinemann</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Stintzing</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Kirchner</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Boeck</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Jung</surname>
+</string-name>, <source>Cancer Treat. Rev.</source>
+<year>2009</year>, <volume>35</volume>, <fpage>262</fpage>;<pub-id pub-id-type="pmid">19117687</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ctrv.2008.11.005</pub-id></mixed-citation><mixed-citation publication-type="journal" id="exp20210176-cit-0004">b) <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Tan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Du</surname>
+</string-name>, <source>World J. Gastroenterol.</source>
+<year>2012</year>, <volume>18</volume>, <fpage>5171</fpage>;<pub-id pub-id-type="pmid">23066310</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3748/wjg.v18.i37.5171</pub-id><pub-id pub-id-type="pmcid">PMC3468848</pub-id></mixed-citation><mixed-citation publication-type="journal" id="exp20210176-cit-0005">c) <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Knickelbein</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Zhang</surname>
+</string-name>, <source>Genes Dis.</source>
+<year>2015</year>, <volume>2</volume>, <fpage>4</fpage>.<pub-id pub-id-type="pmid">25815366</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.gendis.2014.10.002</pub-id><pub-id pub-id-type="pmcid">PMC4372129</pub-id></mixed-citation></ref><ref id="exp20210176-bib-0004"><label>4</label><mixed-citation publication-type="book" id="exp20210176-cit-0006">
+<string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Martins</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Mansinho</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Cruz‐Duarte</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. L.</given-names>
+<surname>Martins</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Costa</surname>
+</string-name>, in <source>Targeted Therapy of Colorectal Cancer Subtypes</source>, Vol. <volume>1110</volume> (Ed: <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Jordan</surname>
+</string-name>
+</person-group>), <publisher-name>Springer</publisher-name>, <publisher-loc>Cham</publisher-loc>
+<year>2018</year>, Ch. 8.</mixed-citation></ref><ref id="exp20210176-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="exp20210176-cit-0007">a) <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Mao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.‐Y.</given-names>
+<surname>Liao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Q.</given-names>
+<surname>Chen</surname>
+</string-name>, <source>J. Cancer Res. Clin. Oncol.</source>
+<year>2010</year>, <volume>136</volume>, <fpage>1293</fpage>;<pub-id pub-id-type="pmid">20514492</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s00432-010-0922-8</pub-id><pub-id pub-id-type="pmcid">PMC11827788</pub-id></mixed-citation><mixed-citation publication-type="journal" id="exp20210176-cit-0008">b) <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Misale</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Di Nicolantonio</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Sartore‐Bianchi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Siena</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Bardelli</surname>
+</string-name>, <source>Cancer Discovery</source>
+<year>2014</year>, <volume>4</volume>, <fpage>1269</fpage>.<pub-id pub-id-type="pmid">25293556</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/2159-8290.CD-14-0462</pub-id></mixed-citation></ref><ref id="exp20210176-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="exp20210176-cit-0009">a) <string-name name-style="western">
+<given-names>Q.‐H.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.‐Z.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Tu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.‐W.</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.‐J.</given-names>
+<surname>Yuan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Lin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W.‐L.</given-names>
+<surname>He</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.‐R.</given-names>
+<surname>Cai</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.‐L.</given-names>
+<surname>He</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.‐N.</given-names>
+<surname>Ye</surname>
+</string-name>, <source>Gastroenterol. Rep.</source>
+<year>2020</year>, <volume>8</volume>, <fpage>179</fpage>;<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/gastro/goaa026</pub-id><pub-id pub-id-type="pmcid">PMC7333932</pub-id><pub-id pub-id-type="pmid">32665850</pub-id></mixed-citation><mixed-citation publication-type="journal" id="exp20210176-cit-0010">b) <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Zhao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Qiu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Sun</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Peng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Q.</given-names>
+<surname>Yu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Yuan</surname>
+</string-name>, <source>Oncotarget</source>
+<year>2017</year>, <volume>8</volume>, <fpage>3980</fpage>;<pub-id pub-id-type="pmid">28002810</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.18632/oncotarget.14012</pub-id><pub-id pub-id-type="pmcid">PMC5354808</pub-id></mixed-citation><mixed-citation publication-type="journal" id="exp20210176-cit-0011">c) <string-name name-style="western">
+<given-names>Y.‐H.</given-names>
+<surname>Xie</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.‐X.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.‐Y.</given-names>
+<surname>Fang</surname>
+</string-name>, <source>Signal Transduct. Target. Ther.</source>
+<year>2020</year>, <volume>5</volume>, <fpage>22</fpage>.<pub-id pub-id-type="pmid">32296018</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41392-020-0116-z</pub-id><pub-id pub-id-type="pmcid">PMC7082344</pub-id></mixed-citation></ref><ref id="exp20210176-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="exp20210176-cit-0012">
+<string-name name-style="western">
+<given-names>S. M.</given-names>
+<surname>Leto</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Trusolino</surname>
+</string-name>, <source>J. Mol. Med.</source>
+<year>2014</year>, <volume>92</volume>, <fpage>709</fpage>.<pub-id pub-id-type="pmid">24811491</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s00109-014-1161-2</pub-id><pub-id pub-id-type="pmcid">PMC4055851</pub-id></mixed-citation></ref><ref id="exp20210176-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="exp20210176-cit-0013">a) <string-name name-style="western">
+<given-names>M. M.</given-names>
+<surname>Weber</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Fottner</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. B.</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. C.</given-names>
+<surname>Jung</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Engelhardt</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G. B.</given-names>
+<surname>Baretton</surname>
+</string-name>, <source>Cancer</source>
+<year>2002</year>, <volume>95</volume>, <fpage>2086</fpage>;<pub-id pub-id-type="pmid">12412161</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/cncr.10945</pub-id></mixed-citation><mixed-citation publication-type="journal" id="exp20210176-cit-0014">b) <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Bardelli</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Corso</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Bertotti</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Hobor</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Valtorta</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Siravegna</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Sartore‐Bianchi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Scala</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Cassingena</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Zecchin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Apicella</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Migliardi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Galimi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Lauricella</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Zanon</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Perera</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Veronese</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Corti</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Amatu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Gambacorta</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L. A.</given-names>
+<surname>Diaz</surname>
+<suffix>Jr.</suffix>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Sausen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>V. E.</given-names>
+<surname>Velculescu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Comoglio</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Trusolino</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Di Nicolantonio</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Giordano</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Siena</surname>
+</string-name>, <source>Cancer Discovery</source>
+<year>2013</year>, <volume>3</volume>, <fpage>658</fpage>;<pub-id pub-id-type="pmid">23729478</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/2159-8290.CD-12-0558</pub-id><pub-id pub-id-type="pmcid">PMC4078408</pub-id></mixed-citation><mixed-citation publication-type="journal" id="exp20210176-cit-0015">c) <string-name name-style="western">
+<given-names>D. L.</given-names>
+<surname>Wheeler</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Huang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T. J.</given-names>
+<surname>Kruser</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. M.</given-names>
+<surname>Nechrebecki</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E. A.</given-names>
+<surname>Armstrong</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Benavente</surname>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Gondi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K. T.</given-names>
+<surname>Hsu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. M.</given-names>
+<surname>Harari</surname>
+</string-name>, <source>Oncogene</source>
+<year>2008</year>, <volume>27</volume>, <fpage>3944</fpage>.<pub-id pub-id-type="pmid">18297114</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/onc.2008.19</pub-id><pub-id pub-id-type="pmcid">PMC2903615</pub-id></mixed-citation></ref><ref id="exp20210176-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="exp20210176-cit-0016">
+<string-name name-style="western">
+<given-names>S. C.‐H.</given-names>
+<surname>Tsao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Behren</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Cebon</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Trau</surname>
+</string-name>, <source>Nat. Commun.</source>
+<year>2018</year>, <volume>9</volume>, <fpage>1482</fpage>.<pub-id pub-id-type="pmid">29662054</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41467-018-03725-8</pub-id><pub-id pub-id-type="pmcid">PMC5902511</pub-id></mixed-citation></ref><ref id="exp20210176-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="exp20210176-cit-0017">
+<string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Mahmood</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.‐C.</given-names>
+<surname>Yang</surname>
+</string-name>, <source>North Am. J. Med. Sci.</source>
+<year>2012</year>, <volume>4</volume>, <fpage>429</fpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.4103/1947-2714.100998</pub-id><pub-id pub-id-type="pmcid">PMC3456489</pub-id><pub-id pub-id-type="pmid">23050259</pub-id></mixed-citation></ref><ref id="exp20210176-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="exp20210176-cit-0018">a) <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Gadalla</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Noamani</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B. L.</given-names>
+<surname>MacLeod</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. J.</given-names>
+<surname>Dickson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Guo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Xu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Lukhele</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H. J.</given-names>
+<surname>Elsaesser</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. R. A.</given-names>
+<surname>Razak</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Hirano</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T. L.</given-names>
+<surname>McGaha</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Butler</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. J.</given-names>
+<surname>Guidos</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. S.</given-names>
+<surname>Ohashi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L. L.</given-names>
+<surname>Siu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. G.</given-names>
+<surname>Brooks</surname>
+</string-name>, <source>Front. Oncol.</source>
+<year>2019</year>, <volume>9</volume>, <fpage>415</fpage>;<pub-id pub-id-type="pmid">31165047</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3389/fonc.2019.00415</pub-id><pub-id pub-id-type="pmcid">PMC6534060</pub-id></mixed-citation><mixed-citation publication-type="journal" id="exp20210176-cit-0019">b) <string-name name-style="western">
+<given-names>P. K.</given-names>
+<surname>Chattopadhyay</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Roederer</surname>
+</string-name>, <source>Methods</source>
+<year>2012</year>, <volume>57</volume>, <fpage>251</fpage>.<pub-id pub-id-type="pmid">22391486</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ymeth.2012.02.009</pub-id><pub-id pub-id-type="pmcid">PMC3374038</pub-id></mixed-citation></ref><ref id="exp20210176-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="exp20210176-cit-0020">
+<string-name name-style="western">
+<given-names>U.</given-names>
+<surname>Andergassen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. C.</given-names>
+<surname>Kölbl</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Mahner</surname>
+</string-name>, <string-name name-style="western">
+<given-names>U.</given-names>
+<surname>Jeschke</surname>
+</string-name>, <source>Oncol. Rep.</source>
+<year>2016</year>, <volume>35</volume>, <fpage>1905</fpage>.<pub-id pub-id-type="pmid">26848098</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3892/or.2016.4608</pub-id></mixed-citation></ref><ref id="exp20210176-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="exp20210176-cit-0021">a) <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Kashima</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Sakamoto</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Kaneko</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Seki</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Suzuki</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Suzuki</surname>
+</string-name>, <source>Exp. Mol. Med.</source>
+<year>2020</year>, <volume>52</volume>, <fpage>1419</fpage>;<pub-id pub-id-type="pmid">32929221</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s12276-020-00499-2</pub-id><pub-id pub-id-type="pmcid">PMC8080663</pub-id></mixed-citation><mixed-citation publication-type="journal" id="exp20210176-cit-0022">b) <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Ning</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Shi</surname>
+</string-name>, <source>Front. Genet.</source>
+<year>2019</year>, <volume>10</volume>, <fpage>317</fpage>.<pub-id pub-id-type="pmid">31024627</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3389/fgene.2019.00317</pub-id><pub-id pub-id-type="pmcid">PMC6460256</pub-id></mixed-citation></ref><ref id="exp20210176-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="exp20210176-cit-0023">a) <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Schlucker</surname>
+</string-name>, <source>Analyst</source>
+<year>2013</year>, <volume>138</volume>, <fpage>2224</fpage>;<pub-id pub-id-type="pmid">23420174</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1039/c3an36866a</pub-id></mixed-citation><mixed-citation publication-type="journal" id="exp20210176-cit-0024">b) <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K. M.</given-names>
+<surname>Koo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Trau</surname>
+</string-name>, <source>Adv. Sci.</source>
+<year>2019</year>, <volume>6</volume>, <elocation-id>1900730</elocation-id>;<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/advs.201900730</pub-id><pub-id pub-id-type="pmcid">PMC6891916</pub-id><pub-id pub-id-type="pmid">31832306</pub-id></mixed-citation><mixed-citation publication-type="journal" id="exp20210176-cit-0025">c) <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Zong</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Wu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Zhu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Cui</surname>
+</string-name>, <source>Chem. Rev.</source>
+<year>2017</year>, <volume>117</volume>, <fpage>7910</fpage>;<pub-id pub-id-type="pmid">28534612</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/acs.chemrev.7b00027</pub-id></mixed-citation><mixed-citation publication-type="journal" id="exp20210176-cit-0026">d) <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Shan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Pu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Liao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Li</surname>
+</string-name>, <source>Coord. Chem. Rev.</source>
+<year>2018</year>, <volume>371</volume>, <fpage>11</fpage>;</mixed-citation><mixed-citation publication-type="journal" id="exp20210176-cit-0027">e) <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Lyu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>V. K.</given-names>
+<surname>Rajendran</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. J.</given-names>
+<surname>Diefenbach</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Charles</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. J.</given-names>
+<surname>Clarke</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Engel</surname>
+</string-name>, <collab collab-type="authors">Sydney 1000 Colorectal Cancer Study Investigators</collab>
+, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Rizos</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. P.</given-names>
+<surname>Molloy</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Wang</surname>
+</string-name>, <source>Nanotheranostics</source>
+<year>2020</year>, <volume>4</volume>, <fpage>224</fpage>.<pub-id pub-id-type="pmid">32923312</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.7150/ntno.48905</pub-id><pub-id pub-id-type="pmcid">PMC7484630</pub-id></mixed-citation></ref><ref id="exp20210176-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="exp20210176-cit-0028">a) <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Nie</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. R.</given-names>
+<surname>Emory</surname>
+</string-name>, <source>Science</source>
+<year>1997</year>, <volume>275</volume>, <fpage>1102</fpage>;<pub-id pub-id-type="pmid">9027306</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.275.5303.1102</pub-id></mixed-citation><mixed-citation publication-type="journal" id="exp20210176-cit-0029">b) <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Lang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Yamaguchi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Iwasaki</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Inouye</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Q.</given-names>
+<surname>Xue</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Chen</surname>
+</string-name>, <source>Sci. Rep.</source>
+<year>2011</year>, <volume>1</volume>, <fpage>112</fpage>;<pub-id pub-id-type="pmid">22355629</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/srep00112</pub-id><pub-id pub-id-type="pmcid">PMC3216594</pub-id></mixed-citation><mixed-citation publication-type="journal" id="exp20210176-cit-0030">c) <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Kneipp</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Kneipp</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L. T.</given-names>
+<surname>Perelman</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Itzkan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. R.</given-names>
+<surname>Dasari</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. S.</given-names>
+<surname>Feld</surname>
+</string-name>, <source>Phys. Rev. Lett.</source>
+<year>1997</year>, <volume>78</volume>, <fpage>1667</fpage>;<pub-id pub-id-type="doi" assigning-authority="pmc">10.1103/PhysRevLett.76.2444</pub-id><pub-id pub-id-type="pmid">10060701</pub-id></mixed-citation><mixed-citation publication-type="journal" id="exp20210176-cit-0031">d) <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Zhou</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Q.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Liu</surname>
+</string-name>, <source>ACS Nano</source>
+<year>2017</year>, <volume>11</volume>, <fpage>3532</fpage>.<pub-id pub-id-type="pmid">28264152</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/acsnano.7b00531</pub-id></mixed-citation></ref><ref id="exp20210176-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="exp20210176-cit-0032">a) <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Jiang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. A.</given-names>
+<surname>Piper</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Wang</surname>
+</string-name>, <source>J. Anal. Test.</source>
+<year>2018</year>, <volume>2</volume>, <fpage>26</fpage>;</mixed-citation><mixed-citation publication-type="journal" id="exp20210176-cit-0033">b) <string-name name-style="western">
+<given-names>Y. W.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N. P.</given-names>
+<surname>Reder</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Kang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. K.</given-names>
+<surname>Glaser</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. T. C.</given-names>
+<surname>Liu</surname>
+</string-name>, <source>Nanotheranostics</source>
+<year>2017</year>, <volume>1</volume>, <fpage>369</fpage>;<pub-id pub-id-type="pmid">29071200</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.7150/ntno.21136</pub-id><pub-id pub-id-type="pmcid">PMC5647764</pub-id></mixed-citation><mixed-citation publication-type="journal" id="exp20210176-cit-0034">c) <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Wu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Ma</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Feng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Mi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Rong</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Liu</surname>
+</string-name>, <source>Nanotheranostics</source>
+<year>2019</year>, <volume>3</volume>, <fpage>113</fpage>.<pub-id pub-id-type="pmid">30899639</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.7150/ntno.30924</pub-id><pub-id pub-id-type="pmcid">PMC6427935</pub-id></mixed-citation></ref><ref id="exp20210176-bib-0017"><label>17</label><mixed-citation publication-type="book" id="exp20210176-cit-0035">
+<string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Cao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Zheng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Piper</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Packer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Lu</surname>
+</string-name>, in <source>Biophotonics Australasia 2019</source>, Vol. <volume>11202</volume> (Eds: <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>E. M.</given-names>
+<surname>Goldys</surname>
+</string-name>
+</person-group>, <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>B. C.</given-names>
+<surname>Gibson</surname>
+</string-name>
+</person-group>), <publisher-name>SPIE</publisher-name>, <publisher-loc>Bellingham, WA</publisher-loc>
+<year>2019</year>.</mixed-citation></ref><ref id="exp20210176-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="exp20210176-cit-0036">a) <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Sun</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Zhu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Zhou</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Zhang</surname>
+</string-name>, <source>Oncol. Lett.</source>
+<year>2014</year>, <volume>7</volume>, <fpage>1544</fpage>;<pub-id pub-id-type="pmid">24765173</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3892/ol.2014.1907</pub-id><pub-id pub-id-type="pmcid">PMC3997707</pub-id></mixed-citation><mixed-citation publication-type="journal" id="exp20210176-cit-0037">b) <string-name name-style="western">
+<given-names>B. T.</given-names>
+<surname>van der Gun</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L. J.</given-names>
+<surname>Melchers</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. H.</given-names>
+<surname>Ruiters</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L. F.</given-names>
+<surname>de Leij</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. M.</given-names>
+<surname>McLaughlin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. G.</given-names>
+<surname>Rots</surname>
+</string-name>, <source>Carcinogenesis</source>
+<year>2010</year>, <volume>31</volume>, <fpage>1913</fpage>;<pub-id pub-id-type="pmid">20837599</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/carcin/bgq187</pub-id></mixed-citation><mixed-citation publication-type="journal" id="exp20210176-cit-0038">c) <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Gires</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Pan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Schinke</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Canis</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. A.</given-names>
+<surname>Baeuerle</surname>
+</string-name>, <source>Cancer Metastasis Rev.</source>
+<year>2020</year>, <volume>39</volume>, <fpage>969</fpage>.<pub-id pub-id-type="pmid">32507912</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s10555-020-09898-3</pub-id><pub-id pub-id-type="pmcid">PMC7497325</pub-id></mixed-citation></ref><ref id="exp20210176-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="exp20210176-cit-0039">a) <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Ni</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Peng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Huang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Xu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Tan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>SUN</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Cai</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Sheng</surname>
+</string-name>, <source>J. Clin. Oncol.</source>
+<year>2017</year>, <volume>35</volume>, <elocation-id>e15099</elocation-id>;</mixed-citation><mixed-citation publication-type="journal" id="exp20210176-cit-0040">b) <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Siena</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Sartore‐Bianchi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Marsoni</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H. I.</given-names>
+<surname>Hurwitz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. J.</given-names>
+<surname>McCall</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Penault‐Llorca</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Srock</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Bardelli</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Trusolino</surname>
+</string-name>, <source>Ann. Oncol.</source>
+<year>2018</year>, <volume>29</volume>, <fpage>1108</fpage>;<pub-id pub-id-type="pmid">29659677</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/annonc/mdy100</pub-id><pub-id pub-id-type="pmcid">PMC5961091</pub-id></mixed-citation><mixed-citation publication-type="journal" id="exp20210176-cit-0041">c) <string-name name-style="western">
+<given-names>X.‐Y.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.‐X.</given-names>
+<surname>Zheng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Sun</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.‐H.</given-names>
+<surname>Bai</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.‐F.</given-names>
+<surname>Shi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.‐X.</given-names>
+<surname>Zhou</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.‐F.</given-names>
+<surname>Yao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.‐W.</given-names>
+<surname>Wu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.‐F.</given-names>
+<surname>Cao</surname>
+</string-name>, <source>World. J. Gastrointest. Oncol.</source>
+<year>2019</year>, <volume>11</volume>, <fpage>335</fpage>.<pub-id pub-id-type="pmid">31040898</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.4251/wjgo.v11.i4.335</pub-id><pub-id pub-id-type="pmcid">PMC6475672</pub-id></mixed-citation></ref><ref id="exp20210176-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="exp20210176-cit-0042">a) <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Lédel</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Stenstedt</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Hallström</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Ragnhammar</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Edler</surname>
+</string-name>, <source>Acta Oncol.</source>
+<year>2015</year>, <volume>54</volume>, <fpage>480</fpage>;<pub-id pub-id-type="pmid">25601452</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3109/0284186X.2014.983654</pub-id></mixed-citation><mixed-citation publication-type="journal" id="exp20210176-cit-0043">b) <string-name name-style="western">
+<given-names>L.‐C.</given-names>
+<surname>Conradi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Spitzner</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.‐L.</given-names>
+<surname>Metzger</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Kisly</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Middel</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Bohnenberger</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Gaedcke</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. B.</given-names>
+<surname>Ghadimi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Liersch</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Rüschoff</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Beißbarth</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>König</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Grade</surname>
+</string-name>, <source>BMC Cancer</source>
+<year>2019</year>, <volume>19</volume>, <fpage>880</fpage>.<pub-id pub-id-type="pmid">31488078</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s12885-019-6051-0</pub-id><pub-id pub-id-type="pmcid">PMC6727342</pub-id></mixed-citation></ref><ref id="exp20210176-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="exp20210176-cit-0044">a) <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Lyu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>V. K.</given-names>
+<surname>Rajendran</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Piper</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Rodger</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Wang</surname>
+</string-name>, <source>Anal. Chem.</source>
+<year>2020</year>, <volume>92</volume>, <fpage>5708</fpage>;<pub-id pub-id-type="pmid">32223184</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/acs.analchem.9b04183</pub-id></mixed-citation><mixed-citation publication-type="journal" id="exp20210176-cit-0045">b) <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K. M.</given-names>
+<surname>Koo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E. J. H.</given-names>
+<surname>Wee</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Trau</surname>
+</string-name>, <source>Nanoscale</source>
+<year>2017</year>, <volume>9</volume>, <fpage>3496</fpage>.<pub-id pub-id-type="pmid">28240336</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1039/c6nr09928a</pub-id></mixed-citation></ref><ref id="exp20210176-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="exp20210176-cit-0046">
+<string-name name-style="western">
+<given-names>E. J.</given-names>
+<surname>Wee</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. C.</given-names>
+<surname>Tsao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Trau</surname>
+</string-name>, <source>Theranostics</source>
+<year>2016</year>, <volume>6</volume>, <fpage>1506</fpage>.<pub-id pub-id-type="pmid">27446486</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.7150/thno.15871</pub-id><pub-id pub-id-type="pmcid">PMC4955051</pub-id></mixed-citation></ref><ref id="exp20210176-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="exp20210176-cit-0047">
+<string-name name-style="western">
+<given-names>R.</given-names>
+<surname>El Hallal</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Lyu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Wang</surname>
+</string-name>, <source>Molecules</source>
+<year>2021</year>, <volume>26</volume>, <fpage>567</fpage>.<pub-id pub-id-type="pmid">33499047</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/molecules26030567</pub-id><pub-id pub-id-type="pmcid">PMC7865832</pub-id></mixed-citation></ref><ref id="exp20210176-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="exp20210176-cit-0048">
+<string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Qian</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Qiu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Q.</given-names>
+<surname>Wu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Tian</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Gu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Xu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Yin</surname>
+</string-name>, <source>Sci. Rep.</source>
+<year>2014</year>, <volume>4</volume>, <fpage>7490</fpage>.<pub-id pub-id-type="pmid">25502402</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/srep07490</pub-id><pub-id pub-id-type="pmcid">PMC4265789</pub-id></mixed-citation></ref><ref id="exp20210176-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="exp20210176-cit-0049">a) <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Ammari</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Deng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Millien</surname>
+</string-name>, <source>Arch. Ration. Mech. Anal.</source>
+<year>2016</year>, <volume>220</volume>, <fpage>109</fpage>;</mixed-citation><mixed-citation publication-type="journal" id="exp20210176-cit-0050">b) <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Lee</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. Y.</given-names>
+<surname>Lee</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. M.</given-names>
+<surname>Briber</surname>
+</string-name>, <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Rabin</surname>
+</string-name>, <source>Adv. Funct. Mater.</source>
+<year>2011</year>, <volume>21</volume>, <fpage>3424</fpage>.</mixed-citation></ref><ref id="exp20210176-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="exp20210176-cit-0051">a) <string-name name-style="western">
+<given-names>J. F.</given-names>
+<surname>Seligmann</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. J.</given-names>
+<surname>Hatch</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S. D.</given-names>
+<surname>Richman</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Elliott</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Jacobs</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Brown</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Hurwitz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. H.</given-names>
+<surname>Barrett</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Quirke</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. B.</given-names>
+<surname>Nixon</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. T.</given-names>
+<surname>Seymour</surname>
+</string-name>, <source>JAMA Oncol.</source>
+<year>2018</year>, <volume>4</volume>, <fpage>564</fpage>;<pub-id pub-id-type="pmid">29075780</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1001/jamaoncol.2017.3168</pub-id><pub-id pub-id-type="pmcid">PMC5933356</pub-id></mixed-citation><mixed-citation publication-type="journal" id="exp20210176-cit-0052">b) <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Duan</surname>
+</string-name>, <source>Oncotarget</source>
+<year>2015</year>, <volume>6</volume>, <elocation-id>42868</elocation-id>;<pub-id pub-id-type="pmid">26517355</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.18632/oncotarget.5998</pub-id><pub-id pub-id-type="pmcid">PMC4767477</pub-id></mixed-citation><mixed-citation publication-type="journal" id="exp20210176-cit-0053">c) <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Beji</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Horst</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Engel</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Kirchner</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Ullrich</surname>
+</string-name>, <source>Clin. Cancer Res.</source>
+<year>2012</year>, <volume>18</volume>, <fpage>956</fpage>;<pub-id pub-id-type="pmid">22142822</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/1078-0432.CCR-11-1186</pub-id></mixed-citation><mixed-citation publication-type="journal" id="exp20210176-cit-0054">d) <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Bon</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Loria</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. A.</given-names>
+<surname>Amoreo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Verdina</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Sperduti</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Mastrofrancesco</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Soddu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. G.</given-names>
+<surname>Diodoro</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Mottolese</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Todaro</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Stassi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Milella</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>De Maria</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Falcioni</surname>
+</string-name>, <source>Oncotarget</source>
+<year>2016</year>, <volume>8</volume>, <elocation-id>108463</elocation-id>.<pub-id pub-id-type="pmid">29312543</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.18632/oncotarget.11400</pub-id><pub-id pub-id-type="pmcid">PMC5752456</pub-id></mixed-citation></ref><ref id="exp20210176-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="exp20210176-cit-0055">
+<string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T. M.</given-names>
+<surname>Brand</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Iida</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Huang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E. A.</given-names>
+<surname>Armstrong</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>van der Kogel</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. L.</given-names>
+<surname>Wheeler</surname>
+</string-name>, <source>Discovery Med.</source>
+<year>2013</year>, <volume>16</volume>, <fpage>79</fpage>.<pub-id pub-id-type="pmcid">PMC3901945</pub-id><pub-id pub-id-type="pmid">23998444</pub-id></mixed-citation></ref><ref id="exp20210176-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="exp20210176-cit-0056">
+<string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Schuch</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Kobold</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Bokemeyer</surname>
+</string-name>, <source>Cancer Manage. Res.</source>
+<year>2009</year>, <volume>1</volume>, <fpage>79</fpage>.<pub-id pub-id-type="pmcid">PMC3004666</pub-id><pub-id pub-id-type="pmid">21188126</pub-id></mixed-citation></ref><ref id="exp20210176-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="exp20210176-cit-0057">a) <string-name name-style="western">
+<given-names>Z.‐F.</given-names>
+<surname>Lim</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. C.</given-names>
+<surname>Ma</surname>
+</string-name>, <source>J. Hematol. Oncol.</source>
+<year>2019</year>, <volume>12</volume>, <fpage>134</fpage>;<pub-id pub-id-type="pmid">31815659</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s13045-019-0818-2</pub-id><pub-id pub-id-type="pmcid">PMC6902404</pub-id></mixed-citation><mixed-citation publication-type="journal" id="exp20210176-cit-0058">b) <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Dagogo‐Jack</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. T.</given-names>
+<surname>Shaw</surname>
+</string-name>, <source>Nat. Rev. Clin. Oncol.</source>
+<year>2018</year>, <volume>15</volume>, <fpage>81</fpage>.<pub-id pub-id-type="pmid">29115304</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nrclinonc.2017.166</pub-id></mixed-citation></ref><ref id="exp20210176-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="exp20210176-cit-0059">
+<string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Valtorta</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Martino</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Sartore‐Bianchi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Penaullt‐Llorca</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Viale</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Risio</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Rugge</surname>
+</string-name>, <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Grigioni</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Bencardino</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Lonardi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Zagonel</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Leone</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Noe</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Ciardiello</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Pinto</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Labianca</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Mosconi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Graiff</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Aprile</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Frau</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Garufi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Loupakis</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Racca</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Tonini</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Lauricella</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Veronese</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Truini</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Siena</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Marsoni</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Gambacorta</surname>
+</string-name>, <source>Mod. Pathol.</source>
+<year>2015</year>, <volume>28</volume>, <fpage>1481</fpage>.<pub-id pub-id-type="pmid">26449765</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/modpathol.2015.98</pub-id></mixed-citation></ref><ref id="exp20210176-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="exp20210176-cit-0060">a) <string-name name-style="western">
+<given-names>E. A.</given-names>
+<surname>Abdul Razzaq</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Venkatachalam</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Bajbouj</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Rahmani</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Mahdami</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Rawat</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Mansuri</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Alhashemi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. A.</given-names>
+<surname>Hamoudi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Bendardaf</surname>
+</string-name>, <source>Libyan J. Med.</source>
+<year>2021</year>, <volume>16</volume>, <elocation-id>1955462</elocation-id>;<pub-id pub-id-type="pmid">34319852</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1080/19932820.2021.1955462</pub-id><pub-id pub-id-type="pmcid">PMC8330780</pub-id></mixed-citation><mixed-citation publication-type="journal" id="exp20210176-cit-0061">b) <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Meric‐Bernstam</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Hurwitz</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K. P. S.</given-names>
+<surname>Raghav</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. R.</given-names>
+<surname>McWilliams</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Fakih</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>VanderWalde</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Swanton</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Kurzrock</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Burris</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Sweeney</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Bose</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. R.</given-names>
+<surname>Spigel</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. S.</given-names>
+<surname>Beattie</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Blotner</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Stone</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Schulze</surname>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Cuchelkar</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Hainsworth</surname>
+</string-name>, <source>Lancet Oncol.</source>
+<year>2019</year>, <volume>20</volume>, <fpage>518</fpage>.<pub-id pub-id-type="pmid">30857956</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/S1470-2045(18)30904-5</pub-id><pub-id pub-id-type="pmcid">PMC6781620</pub-id></mixed-citation></ref><ref id="exp20210176-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="exp20210176-cit-0062">
+<string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Frens</surname>
+</string-name>, <source>Nat. Phys. Sci.</source>
+<year>1973</year>, <volume>241</volume>, <fpage>20</fpage>.</mixed-citation></ref><ref id="exp20210176-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="exp20210176-cit-0063">
+<string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Jiang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. J.</given-names>
+<surname>Diefenbach</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. H.</given-names>
+<surname>Campbell</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B. J.</given-names>
+<surname>Walsh</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N. H.</given-names>
+<surname>Packer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Wang</surname>
+</string-name>, <source>ACS Sens.</source>
+<year>2020</year>, <volume>5</volume>, <fpage>764</fpage>.<pub-id pub-id-type="pmid">32134252</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/acssensors.9b02377</pub-id></mixed-citation></ref><ref id="exp20210176-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="exp20210176-cit-0064">
+<string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Qiu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Fan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Cui</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Xiao</surname>
+</string-name>, <source>Acta Pharm. Sin. B</source>
+<year>2018</year>, <volume>8</volume>, <fpage>381</fpage>.<pub-id pub-id-type="pmid">29881677</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.apsb.2018.01.010</pub-id><pub-id pub-id-type="pmcid">PMC5989826</pub-id></mixed-citation></ref><ref id="exp20210176-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="exp20210176-cit-0065">
+<string-name name-style="western">
+<given-names>J. S.</given-names>
+<surname>Han</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. P.</given-names>
+<surname>Nair</surname>
+</string-name>, <source>Cancer</source>
+<year>1995</year>, <volume>76</volume>, <fpage>195</fpage>.<pub-id pub-id-type="pmid">8625091</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/1097-0142(19950715)76:2&lt;195::aid-cncr2820760206&gt;3.0.co;2-e</pub-id></mixed-citation></ref></ref-list></back></article>

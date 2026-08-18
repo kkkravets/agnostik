@@ -1,0 +1,301 @@
+# Somatic targeted mutation profiling of colorectal cancer precursor lesions
+
+Authors: Wellington dos Santos, Mariana Bisarro dos Reis, Jun Porto, Ana Carolina de Carvalho, Marcus Matsushita, Gabriela Oliveira, Kari Syrjänen, Rui Manuel Reis, Denise Peixoto Guimarães
+
+Journal: BMC Medical Genomics
+
+PMCID: PMC9238170
+
+PMID: 35761395
+
+DOI: 10.1186/s12920-022-01294-w
+
+Canonical source: https://pmc.ncbi.nlm.nih.gov/articles/PMC9238170/
+
+## Abstract
+
+## Background
+
+Most colorectal cancers (CRC) arise from precursor lesions. This study aimed to characterize the mutation profile of colorectal cancer precursor lesions in a Brazilian population.
+
+## Methods
+
+In total, 90 formalin-fixed paraffin-embedded colorectal precursor lesions, including 67 adenomas, 7 sessile serrated lesions, and 16 hyperplastic polyps, were analyzed by next-generation sequencing using a panel of 50 oncogenes and tumor suppressor genes. The genetic ancestry of the patients was estimated.
+
+## Results
+
+Somatic driver mutations were identified in 66.7% of cases, including alterations in APC (32.2%), TP53 (20.0%), KRAS (18.9%), BRAF (13.3%) and EGFR (7.8%). Adenomas displayed a higher number of mutations, mainly in APC, compared to serrated polyps (73.1% vs. 47.8%, p = 0.026). Advanced adenomas had a significantly higher frequency of mutation in KRAS and a high overall mutation rate than early adenomas (92.9% vs. 59%, p = 0.006). A high degree of ancestry admixture was observed in the population studied, with a predominance of European components (mean of 73%) followed by African (mean of 11.3%). No association between genetic ancestry and type of lesions was found. The mutation profile of Brazilian colorectal precursor lesions exhibits alteration in APC, KRAS, TP53, and BRAF at different frequencies according to lesion type.
+
+## Conclusions
+
+These results bestow the knowledge of CRC's biologic history and support the potential of these biomarkers for precursor lesions detection in CRC screening of the Brazilian population.
+
+## Supplementary Information
+
+The online version contains supplementary material available at 10.1186/s12920-022-01294-w.
+
+## Full article
+
+## Background
+
+Colorectal cancer (CRC) is the third most incident cancer worldwide, resulting in 915,880 deaths in 2020 [1]. In Brazil, CRC ranks second in incidence in men and women [2], and a continuous increase in both incidence and mortality is expected in the coming years [3–5]. The development of colorectal cancer is a multi-stage evolution process that occurs through a progressive accumulation of molecular alterations in the colon epithelium cells, which can be transformed into pre-malignant lesions and cancer [6, 7].
+
+Although viewed as a single disease, from the molecular and morphological point of view, CRC is a heterogeneous disease that is believed to arise mainly from two different types of precursor lesions: adenoma and serrated polyps [7, 8]. In the classic sequence of adenoma to carcinoma progression model, the development of colorectal cancer originates from aberrant crypts, progressing to early adenoma, advanced adenoma, and subsequently carcinoma [7]. Serrated polyps have recently been recognized as important precursor lesions and account for approximately 15%-30% of all cases of CRC [8–11]. According to the updated World Health Organization (WHO) classification, serrated polyps include hyperplastic polyp (HP), sessile serrated lesion (SSL), and traditional serrated adenoma (TSA) [12]. Among these lesions, the sessile serrated lesion and traditional serrated adenoma are more likely to evolve into cancer. Despite being the most frequent type of lesion, hyperplastic polyps are considered to have no malignant potential [13, 14]. Moreover, patients with proximal serrated polyps, particularly those larger than 10 mm, are associated with an increased risk of developing CRC [8].
+
+The molecular mechanisms underlying the progression through the canonical pathway frequently comprise somatic mutations in oncogenes such as KRAS and tumor suppressor genes, such as APC, TP53, and SMAD4 [7]. In addition, mutations in BRAF have an important play in the serrated pathway [7, 15]. Recently, our group performed a mutational portrait of Brazilian CRC patients and observed a similar molecular portrait than reported worldwide [16].
+
+Screening for CRC can reduce incidence and mortality by detecting and removing precursor lesions [17]. This strategy is possible due to the long period of progression from a precursor lesion (adenoma) to cancer, which ranges from 7 to 10 years [17]. Colonoscopy is the most suitable and reliable diagnostic tool for CRC screening, yet it is not feasible for large-scale due to its risks and high cost. In organized population-based screening, fecal occult blood tests are preferred [18], with the FIT (fecal immunochemical test) widely used. Still, FIT is not perfect; its sensitivity for CRC ranges from 60 to 80% and only 20–30% for advanced adenoma [19]. To overcome these limitations, DNA-based analysis of body fluids–liquid biopsy–such as blood or feces, can increase the accuracy of FIT. Two commercialized assays are FDA approved for CRC screening: Epi ProColon 2.0, analyzing SEPT9 DNA methylation in blood; Cologuard test®, stool-based that analyses NDRG4 and BMP3 methylation and KRAS mutation [20, 21].
+
+Therefore, identifying genetic alterations in precursor lesions can lead to molecular-based strategies, improving the sensitivity, specificity, and impact of colorectal screening and surveillance programs. Nevertheless, few studies evaluated the mutation status in South America CRC precursor lesions [22, 23]. Results of the first two years (first round) of our colorectal cancer screening program (from Barretos Cancer Hospital program) in Brazil showed a successful implementation with a high test return participation rate, colonoscopy completion, and detection lesion rates. In addition, participant’s blood and FIT (fecal immunochemical test) tests has been stored in the Barretos Cancer Hospital biobank to allow future biomarker studies and consequently improve lesions detection rates [24].
+
+Herein, we performed the mutation analysis by next-generation sequencing (NGS) of 50 oncogenes and tumor suppressor genes in colorectal cancer precursor lesions and also evaluated the genetic ancestry composition of the Brazilian samples included in the study. Somatic nucleotide variants were identified in all types of precursor lesions, most of them more prevalent in the adenoma group. Moreover, the spectrum of mutated genes was different between adenomas and serrated polyps. These results extend our knowledge of the molecular biological features of precursor lesions and the natural history of colorectal cancer.
+
+## Methods
+
+### Study population
+
+This retrospective study analyzed a total of 90 formalin-fixed paraffin-embedded (FFPE) samples removed from 87 patients during diagnostic colonoscopy from 2014 to 2016 at Barretos Cancer Hospital [25]. Samples included 67 adenomas (39 early and 28 advanced adenomas), 7 sessile serrated lesions and 16 hyperplastic polyps. The 87 patients were between 49 and 88 years of age. Subjects with a personal history of familial adenomatous polyposis (FAP) or Lynch syndrome were excluded [26, 27].
+
+The Institutional Research Board of the Barretos Cancer Hospital approved the study on Feb 4, 2016 (number ID: 1074/2016). Informed consent was waived due to the retrospective nature of this study. The study protocol conforms to the ethical guidelines of the 1975 Declaration of Helsinki.
+
+Lesions were classified according to Paris classification [28] and histological analysis using WHO criteria [12]. Villous structures in > 25% of adenoma was required for tubulovillous adenoma. If > 75% of the adenoma has a villous architecture, it was diagnosed as villous adenoma. Adenomas were classified as advanced if > 1 cm in diameter or presented more than 25% of villous structures in histology or high-grade intraepithelial neoplasia. Table 1 summarizes the histopathological data of the 90 samples.Table 1Clinical, morphological and histopathological features of the lesions analyzed in the studyCharacteristicNumber of cases(%)Age (mean ± sd)62.9 ± 9.09–Gender Male4349.4 Female4450.6Histology Adenoma6774.4 Tubular5156.7 Tubulovillous1314.4 Villous33.3 Serrated polyps2325.6 Hyperplastic polyps1617.8 MVHP910.0 GCHP77.8 Sessile Serrated Lesion77.8Morphology Polypoid7684.4 Non polypoid1415.6Location Proximal colon4044.4 Distal colon5055.6Size mm < 106976.7 ≥ 102123.3Sd standard deviationN = 87 patients and 90 precursor lesions
+
+### DNA isolation
+
+DNA was isolated from FFPE tissue as previously reported [23]. Hematoxylin and eosin stained slides were reviewed by a pathologist and the contents of precursor lesions samples were more than 50%. The lesion area was delimited and macrodissected from six 10-μm-thick unstained tissue sections. Xylene and ethanol (100%, 70%, 50%) were used for paraffin removal.
+
+FFPE genomic DNA was extracted using the QiaAmp DNA micro Kit (Qiagen, Hilden, Germany) according to the manufacturer’s instructions. DNA concentration was determined using Qubit™ dsDNA HS assay kit (Thermo Fisher Scientific, Eugene, Oregon, USA) on the Qubit 2.0 Fluorometer (Thermo Fisher Scientific).
+
+### Library preparation and sequencing
+
+Next-generation sequencing library preparation was conducted to amplify 10 ng of genomic DNA using AmpliSeq™ Cancer HotSpot Panel v2 panel kit (Thermo Fisher Scientific) and was performed with Ion Ampliseq™ Kit for Chef DL8 in the Ion Chef instrument. This panel includes primer for regions of the following 50 cancer driver genes—SMARCB1, RB1, TP53, ERBB4, FBXW7, BRAF, KIT, GNAS, HRAS, EGFR, PDGFRA, PIK3CA, CDKN2A, ERBB2, ABL1, JAK2, KRAS, NRAS, NOTCH1, ATM, FGFR1, STK11, PTPN11, APC, SMAD4, PTEN, SMO, CTNNB1, RET, IDH2, SRC, EZH2, VHL, MPL, NPM1, FLT3, FGFR3, CDH1, KDR, HNF1A, MLH1, ALK, IDH1, GNAQ, AKT1, JAK3, FGFR2, GNA11, MET, CSF1R. Pooled libraries were submitted to emulsion PCR, enrichment of beads containing the template and chip loading in the Ion Chef instrument using Ion PGM™ Hi-Q™ View Chef Kit according to the manufacturer’s instructions (Thermo Fisher Scientific, Waltham, MA). The final library was sequenced in an Ion 318 v2 chip on Ion Torrent PGM using Ion PGM™ Hi-Q™ View supplies.
+
+### Data analysis
+
+Sequencing data were processed in the Ion PGM™ Torrent Server and generated reads were aligned to the reference genome (hg19) using TMAP (Torrent Mapping Alignment Program) in the Torrent Suite™ Software (ThermoFisher). Variant calling and annotation were performed using the Ion Reporter™ Software (version 5.10).
+
+Only variants with sequencing depth of at least 200 × and variant allele frequency (VAF) > 10% were retained. Intronic and synonymous variants were filtered out, as well variants with frequency higher than 1% in population database (ExAC), available in The Cancer Genome Interpreter tool (CGI). This platform was also employed to verify the status of driver variants and only known variants or predicted as driver in colorectal cancer-related genes were retained. In addition, the remaining variants with frequency higher than 1% in the Brazilian genomic variants database (ABraOM) were excluded from further analysis.
+
+### Validation
+
+Samples harboring the BRAF V600E mutation (n = 3) were selected for the qualitative validation of the variant with the real-time PCR assay cobas 4800 BRAF V600 Mutation Test (Roche Molecular Diagnostics). The test was performed using cobas 4800 System according to the manufacturer’s instructions.
+
+### Genetic ancestry analysis
+
+DNA isolation from peripheral blood samples was performed using the QIAmp DNA Blood Mini Kit (QIAGEN, Hilden, Germany) following the manufacturer’s instructions and by Biobank Barretos procedures [29]. DNA concentration was determined using NanoDrop™ Spectrophotometer (Thermo Scientific).
+
+The genetic ancestry of 81 patients with colorectal precursor lesions with available blood was determined by 46 autosomal ancestry informative markers (AIMs), which consist of insertion-deletion polymorphisms (INDELs) as described [30]. A multiplex PCR was followed by a fragment analysis performed by ABI 3500xL Genetic Analyzer (Applied Biosystems). The analysis of genotypes was performed with GeneMapper Software v4.1(Applied Biosystems).
+
+Genetic data of the Human Genome Diversity Project Center d’Etude du Polymorphisme Humain (HGDP-CEPH) [31] was used for the classification of the proportion of ancestry for each of the main populations: African, European, East Asian and, Native American using the Structure Software v2.3.4 [32, 33].
+
+### Statistical analysis
+
+Descriptive statistics were expressed in number, percentage, mean and standard deviation. The Chi-square test and Fisher's exact test were used to compare the mutation rates between the different pathological and clinical features of colorectal lesions. The association of the genetic ancestry component (AFR-African, EUR-European, EAS-Asian, NAM-Native American) with precursor lesions was performed using the Kruskal–Wallis test. P values were adjusted by Bonferroni correction for multiple comparisons analysis.
+
+All statistical analyses were performed using SPSS software (v.21) and R software (v. 3.6.1).
+
+## Results
+
+### Summary of identified driver variants
+
+The mean amplicon sequence coverage of 200 × used in AmpliSeq Cancer HotSpot v2 panel was 99.27%. The average coverage per amplicon, number of mapped reads, on target percent and mean depth per sample are shown in Additional file 1: Fig. S1 and Additional file 4: Table S1.
+
+Among the 90 lesions included in this study, 60 (66.7%) showed at least one driver variant. Overall, a total of 124 somatic non-synonymous driver variants were identified in 16 genes. Sequencing of colorectal lesions showed a mean of 1.4 (range of 1–8) driver mutations per lesion. The following mutation frequencies were identified: 33.3% (30/90) of lesions showed no driver mutations, 34.4% (31/90) of lesions carried one mutation per case, 14.4% (13/90) had two, 5.6% (5/90) had three mutations and 11 samples (12.2%) had four or more mutations.
+
+The spectrum of identified mutations included 92 missense, 20 nonsense, 10 frameshift and 2 splice site variants. APC alterations were the most common in our samples (32.2%), followed by TP53 (20.0%), KRAS (18.9%), BRAF (13.3%) and EGFR (7.8%) (Fig. 1, Additional file 2: Fig. S2 and Additional file 5: Table S2 and Additional file 6: Table S3). Mutations in three selected BRAF V600E mutated cases were validated using cobas® 4800 BRAF V600 Mutation Test.Fig. 1Waterfall plot of the driver mutation spectrum of colorectal cancer precursor lesions. Plots show the frequency of samples mutated for adenoma lesions (a) and serrated polyps (b). The upper panel demonstrates the frequency of mutation for each sample. Left panel shows the frequency of samples harboring mutations according to the gene. The lower panel indicates the lesion site and classification of the lesion. Adenomas are more likely to harbor mutations in APC while serrated polyps frequently harbor BRAF mutations. HP: hyperplastic polyp; SSL: sessile serrated lesion
+
+### Variants in colorectal lesions exhibit differences based on lesion histological type
+
+We further analyzed the variants according to the lesion histological type and localization (Fig. 1). The frequency of driver mutations in adenomas was slightly higher (73.1% of cases with at least one variant) when compared to serrated polyps (47.8%, p = 0.117) (Table 2). In addition, a mean of 1.6 driver mutations per case were identified in adenomas and 0.7 in serrated polyps (p = 0.01).Table 2Comparison of driver mutations frequency among different features of colorectal lesionsDriver mutationsAdjusted p valueNoYesn%n%Histological type Adenomas1826.94973.10.117a Serrated polyps1252.21147.8Adenoma Early adenoma1642.02359.00.006a Advanced adenoma27.12692.9Serrated polyps Hyperplastic polyps1168.7531.30.081b Sessile serrated lesions114.3685.7aχ2 TestbFisher's exact test; p values were adjusted for multiple comparisons with Bonferroni method
+
+Number of variants were significantly higher in advanced adenomas than early adenomas with 2.2 vs.1.2 variants per lesion (p = 0.03), respectively, and were detected in 92.9% and 59.0% of the lesions, respectively (p = 0.006). Slightly differences were also observed between serrated polyps, although not significant, with more variants detected in sessile serrated lesions when compared to hyperplastic polyps (85.7% vs 31.3%, p = 0.081). The mean numbers of mutations were 1.4 in SSL and 0.4 in hyperplastic polyps (p = 0.096) (Additional file 3: Fig. S3).
+
+Differences in frequency of variants in the 16 genes between adenoma, sessile serrated lesions and hyperplastic polyps are shown in Table 3. The differences observed were higher frequency of APC mutations in adenomas when compared to serrated sessile lesion and hyperplastic polyp, while variants in BRAF were more prevalent in sessile serrated lesions (Table 3). When comparing early and advanced adenomas, a higher frequency of mutations in KRAS was observed in the late stage of the lesion (p = 0.001, Fig. 1a, Additional file 7: Table S4). Although we observed a higher frequency in BRAF when comparing hyperplastic polyps and SSL (Fig. 1b, Additional file 7: Table S4), this difference was not significant when adjusted analysis were performed.Table 3Frequency of the most common altered genes in different groups of lesionsGeneAdenomaHPSSLAdjusted p valuen(%)n(%)n(%)APC2841.800.0114.30.016aTP531725.400.0114.30.816aKRAS1522.4212.500.0> 0.999aBRAF46.0318.8571.40.001aEGFR69.016.300.0> 0.999aFBXW769.000.000.00.752aGNAS57.500.000.00.721aSMAD434.500.000.0> 0.999aCTNNB134.500.000.0> 0.999aPTEN23.000.000.0> 0.999aPIK3CA11.500.0114.3> 0.999aMLH111.500.000.0> 0.999aIDH200.000.0114.3> 0.999aHRAS11.500.000.0> 0.999aFGFR311.500.000.0> 0.999aATM11.500.000.0> 0.999aaFisher's exact test; p values were adjusted for multiple comparisons with Bonferroni method
+
+Analysis comparing mutational status in adenomas according to the location of lesions revealed that GNAS (p = 0.003) was significantly mutated in rectal adenomas (Additional file 8: Table S5). In serrated polyps, none of the genes were significant altered according to the location (Additional file 9: Table S6).
+
+### Molecular pathways associated to colorectal cancer in precursor lesions
+
+Several genes associated with important signaling pathways in cancer were identified as frequently mutated (Fig. 2). The Wnt pathway (APC, SMAD4 and, CTNNB1 genes) was the signaling pathway with the highest frequency of alterations (37.8%). The highest frequency of alteration in this pathway was found among samples of adenoma group when compared to serrated polyps (49.3% vs 4.3%, p < 0.001), with increased frequency of mutations in advanced adenomas, followed by early adenomas, SSLs and hyperplastic polyps (p = 0.001, Fig. 2).Fig. 2Colorectal cancer associated pathways in precursor lesions. Genetic alterations in precursor lesions occur in genes of the Wnt, MAPK, PI3K-AKT and p53 pathways
+
+KRAS, BRAF, EGFR, HRAS and FGFR3 genes of MAPK pathway were mutated in 33.3% of the cases. BRAF and KRAS genes were mutually exclusive mutated, except for one advanced adenoma. Mutations were more frequently identified among SSLs, followed by advanced adenomas, hyperplastic polyps, and early adenomas (p < 0.001).
+
+Regarding the PI3K-AKT pathway, mutations in the EGFR, PTEN, PIK3CA, and FGFR3 genes were found in 13.3% of the cases. Mutations in genes involved in the p53 pathway (TP53 and ATM) were found in 20% of the lesions, mostly with mutations in the TP53 gene.
+
+### Genetic ancestry of patients with colorectal lesions
+
+The genetic ancestry component was obtained for 80 patients (91.9%) included in the study. The results indicated a high admixture and heterogeneity of the ancestry proportion of Brazilian samples, with the mean of ancestral proportions as follow: 73% (SD = 23.6%) for EUR, 11.3% (SD = 13.2%) for AFR, 9.1% (SD = 18.0%) for EAS and 6.6% (SD = 7.9%) for NAM (Fig. 3). We further compared the average genetic ancestry according to the lesion type, but no significant association was found (Additional file 10: Table S7). According to the mutation status, no differences were observed between the patient’s ancestry (Additional file 11: Table S8). Fig. 3Individual ancestry estimates for the precursor lesions. Individuals are represented by a vertical bar and colors indicate the proportion of ancestry
+
+## Discussion
+
+In the present study, we carried out a molecular profile of 50 cancer-related genes in precursor lesions of CRC. Adenomas exhibited mutations in genes already known to be involved in colorectal carcinogenesis, such as APC, KRAS, TP53, and FBXW7. On the other hand, serrated polyps showed low frequency in APC and TP53 genes and a high frequency of BRAF gene mutations.
+
+Our findings corroborate the molecular differences previously reported in these two major distinct pathways of carcinogenesis [7]. According to the classic adenoma-carcinoma progression model, the progressive accumulation of genetic alterations leads to carcinoma development from the normal mucosa [34]. Recent studies have added complexity to this model, demonstrating the presence of molecular heterogeneity in the early stages of the development of colorectal lesions and mutations in several genes considered drivers for CRC [35–38]. As expected, we found a higher average of driver mutations in advanced adenomas than in early adenomas. The acquisition rate of mutations is increased in adenomas than normal tissue, and the mutational burden in advanced adenomas has been reported to be similar to cancer tissues, even when only driver mutations are analyzed [35, 36, 39].
+
+We also reported a slightly lower frequency of mutations among serrated polyps when compared to adenomas. Few studies addressed this issue [38, 40]. When comparing only SSL and adenomas, these authors show no difference in the frequency of mutations among these groups, likewise our study. Further, we also observed a slightly higher mutation frequency in SSLs than in hyperplastic polyps, which are lesions with lower malignancy potential. Recently, hyperplastic polyps and serrated sessile lesions were associated with the Consensus Molecular Subtype 1 (CMS1), which often has microsatellite instability (MSI) and hypermutation [41, 42].
+
+Additionally, we found a significant difference in the Wnt, MAPK, PI3K-AKT, and p53 signaling pathways between adenomas and serrated polyps. Alterations in the Wnt pathway are an initial event in the adenoma-carcinoma progression, predominantly due to mutations in the APC (40.3% to 80.0%) followed by the CTNNB1 gene (11.9–20.0%) [43–45]. Our study found a lower frequency of APC (41.8%) and CTNNB1 (3.3%) mutations, which can be because we did not analyze the whole coding sequence, but the major hotspot regions of both genes. In the serrated polyps pathway, the Wnt signaling is reported to be less targeted [40, 46], following our findings.
+
+Activation of the MAPK pathway is also observed in CRC, with mutations mainly found in KRAS and BRAF oncogenes [47, 48]. We found 33.3% of our samples harboring mutations in this pathway, with mutations in the KRAS gene slightly more frequent in the adenoma group (22.4%) and BRAF predominantly present in the SSL group. In the adenoma group, the KRAS mutation frequency is within the variation observed in other studies (10.7% to 60.0%) [38, 43, 49, 50]. For the Brazilian population, previous reports on the frequency of KRAS mutation in adenomas have reported a lower frequency than we found (13.6%) [23]. This difference could be explained by the higher sensitivity of NGS used in this study compared to Sanger sequencing to detect low-frequency variants [51, 52]. We also observed a higher frequency of mutations in the KRAS gene in advanced adenomas than in early adenomas, similar to previous studies [38, 53], including reports on the Brazilian population [23].
+
+A high frequency of mutations in the MAPK pathway genes was observed in serrated polyps, mainly due to the activating BRAF gene mutations in SSLs. This is consistent with a previously reported frequency of BRAF mutations in our population [23]. Mutations in the BRAF gene have been consistently related to SSL with a high frequency of samples (8.7–88%) harboring mutations [23, 40, 45, 50, 54]. Interestingly, the main activating mutation BRAF V600E was found only in serrated polyps, as previously reported [23, 49].
+
+Mutations in TP53 are generally observed during the transition from adenoma to carcinoma [35, 55, 56]. Recent studies reported a lower frequency of TP53 mutations in early or low growth rate adenomas and a higher mutation frequency during the progression of early to advanced adenomas [38, 49]. No significant difference was observed between early and advanced adenomas in our data. Nevertheless, our results agree with the Vogelstein model, where TP53 is associated with the adenoma-carcinoma transition. The frequency of mutations in adenomas was lower when compared to the frequency of mutations in CRC cases previously reported in our population (25.4% in adenomas vs. 56.0% in cancer) [16]. Besides, mutations in TP53 in the serrated polyps were found only in SSLs, which was already described [40, 57].
+
+According to previous reports, genes of the PI3K-AKT pathway were also mutated in our samples [47, 58]. This pathway may present mutations in precursor lesions, focusing on advanced adenomas or traditional sessile adenomas [59], suggesting a role in the late steps of both adenoma-carcinoma and serrated pathways progression. In agreement with these data, we observed a slightly higher frequency of mutations in genes of this pathway in advanced adenomas than in early adenomas. In the advanced adenomas, we found 3.6% of samples harboring mutations in PIK3CA. Mutations in this gene are found in regions of carcinoma in situ [36]. However, it is not an initial event during clonal diversification in carcinogenesis, as observed in studies of clonal evolution in CRC [35, 56, 60]. Also, PIK3CA mutations are found in cancer-associated adenomas (20.0–30.0%) [36, 43], or lower frequency in advanced adenomas (3.2%) [61], similar to the frequency observed in our study.
+
+The presence of mutations in the GNAS gene is frequent in CRC [7] and has been reported in advanced adenomas [35, 54, 62]. Although mutations in GNAS in serrated polyps have already been reported, its frequency is not high and is related to more advanced lesions [63]. Corroborating these data, we identified mutations in this gene only in advanced adenomas samples and absent in serrated polyps.
+
+Previous studies have reported that polyps and colorectal cancer are more frequent among African Americans than non-Hispanic Whites [64–66]. In the present study, as expected [30, 67, 68], we observed a high heterogeneity of the ancestry proportions in our study population, yet, we did not find any difference between genetic ancestry and the groups of precursor lesions evaluated. This result could be due to the small number of cases within each group analyzed. Nevertheless, this is the first study to analyze the mutation profile of CRC precursor lesions in this high admixture population, contributing to overcoming disparities and reducing inequalities in the knowledge of colorectal genomic studies [69, 70]. Yet, the identification of somatic alteration in a heterogeneous ancestry population may have distinct medical significance across population groups [69]. Despite major findings, our study’s limitations lie in the absence of paired normal tissue samples compared to the profile mutation of lesion samples. To overcome this issue, the variants identified were filtered in databases, such as ABraOM (Brazilian population) and ExAC (international population). Also, the nature of the targeted sequencing, which does not cover the whole coding sequencing of the cancer genes, could underestimate the mutation frequencies. Finally, the absence of critical CRC-related genes, such as TCF7L2 and FAM123B [58], could limit our results’ interpretation.
+
+## Conclusions
+
+In summary, our study reports the mutation profile of colorectal precursor lesions in Brazilian patients for the first time. We observed the highest mutation frequency in known CRC driver genes, including APC, TP53, KRAS, and BRAF, with differences according to the type of lesion analyzed, with a higher rate of mutations in adenomas. Moreover, a higher number of mutations were found in advanced adenomas compared to early adenomas and in SSL compared to hyperplastic polyps. Collectively, these findings support the potential of these biomarkers for precursor lesions detection in CRC screening of the Brazilian population.
+
+## Supplementary Information
+
+### Section
+
+Additional file 1: Figure S1. Boxplots reporting the median coverage of the 207 amplicons sequenced across the 50 genes for all precursor lesion samples. The average depth of all amplicons was 1631.5x per sample (ranging from 0x to 13823x).Additional file 2: Figure S2. Lollipop plots showing the distribution of mutations in 16 genes identified altered in colorectal cancer precursor lesions. The Y-axis represents the number of mutations at each residue. Truncating mutations are represented by black circles and green circles indicated a missense mutation. Plot from cBioPortal (http://www.cBioPortal).Additional file 3: Figure S3. Number of driver mutations detected in the sequencing differs between the four classes of precursor lesions (Kruskal-Wallis test p < 0.001). The boxplot shows the median number of mutations observed across the early adenomas, advanced adenomas, hyperplastic polyps and sessile serrated lesion. Mann-Whitney test was used to determine the statistical significance with Bonferroni multiple comparisons correction: *p < 0.05; **p < 0.001.Additional file 4: Table S1. Sequencing metrics per sample.Additional file 5: Table S2. Frequency of detected mutations in colorectal cancer precursor lesions.Additional file 6: Table S3. Detected mutations in colorectal cancer precursor lesions per patient.Additional file 7: Table S4. Frequency of the most common altered genes in early and advanced adenoma, and serrated polyps.Additional file 8: Table S5. Association between mutation status and location for adenoma samples.Additional file 9: Table S6. Association between mutation status and location for serrated polyp samples.Additional file 10: Table S7. Ancestry background proportions for all four ethnic groups according to lesion type.Additional file 11: Table S8. Ancestry background proportions for all four ethnic groups according to mutation status.
+
+Brazilian genomic variants database
+
+African
+
+Autosomal ancestry informative markers
+
+The Cancer Genome Interpreter
+
+Consensus Molecular Subtype 1
+
+Colorectal cancer
+
+Asian
+
+European
+
+Exome Aggregation Consortium
+
+Familial adenomatous polyposis
+
+Fecal Immunochemical Test
+
+Formalin-fixed paraffin-embedded
+
+Human Genome Diversity Project Center d’Etude du Polymorphisme Humain
+
+Hyperplastic polyp
+
+Insertion-deletion polymorphisms
+
+Microsatellite instability
+
+Native American
+
+Next-generation sequencing
+
+Polymerase Chain Reaction
+
+Standard Deviation
+
+Sessile serrated lesion
+
+Traditional serrated adenoma
+
+Torrent Mapping Alignment Program
+
+Variant allele frequency
+
+World Health Organization
+
+Publisher's Note
+
+Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+
+Wellington dos Santos and Mariana Bisarro dos Reis these authors have contributed equally to this work and share the first authorship.
+
+The authors thank the Barretos Cancer Hospital and Biobank for the processing of blood samples. WS is a recipient of a fellowship of the postgraduate program of Barretos Cancer Hospital. MBR is a recipient of a post-doc fellowship of the Brazilian Federal Agency for the Support and Evaluation of Graduate Education (CAPES, Brazil). JP is a recipient of an undergraduate fellowship from Barretos Cancer Hospital. RMR is a recipient of the National Council for Scientific and Technological Development (CNPq, Brazil) Productivity Fellowship.
+
+W.S. and M.B.R. designed and performed experiments, analyzed the data and wrote the manuscript. J.P performed the ancestry analysis. A.C.C contributed to the interpretation of the results. M.M reviewed the FFPE slides and delimited the lesion area. G.O collect the data. K.S. contributed to data collection and interpretation. R.M.R and D.P.G conceived the original idea and supervised the project. A.C.C, K.S., R.M.R, and D.P.G edited and revised the manuscript critically for important intellectual content. All authors critically reviewed and approved the final manuscript.
+
+This study was supported by Public Ministry of Labor Campinas (Research, Prevention and Education of Occupational Cancer, Brazil).
+
+The original contributions presented in the study are publicly available. This data can be found here: http://www.ncbi.nlm.nih.gov/bioproject/772782 (BIOPROJECT accession number: PRJNA772782).
+
+The Ethics Committee - Barretos Cancer Hospital approved the study on number ID: 1074/2016. The need for Informed consent was waived by the Ethics Committee of Barretos Cancer Hospital due to the retrospective nature of this study.
+
+Not applicable.
+
+The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.
+
+## References
+1. 1.SungHFerlayJSiegelRLLaversanneMSoerjomataramIJemalAGlobal cancer statistics 2020: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countriesCA Cancer J Clin2021712092493353833810.3322/caac.21660
+2. 2.INCA. Estimativa 2020: Incidência de Câncer no Brasil. Ministério da Saúde: Instituto Nacional de Câncer José de alencar Gomes da Silva (INCA); 2019.
+3. 3.MartinFLMoraisCLMSakitaJYUyemuraSAKannenVAge-related and gender-related increases in colorectal cancer mortality rates in Brazil between 1979 and 2015: projections for continuing rises in diseaseJ Gastrointest Cancer.20203114710.1007/s12029-020-00399-8PMC790002232248507
+4. 4.SouzaDLBJerez-RoigJCabralFJDe LimaJRFRutaliraMKCostaJAGColorectal cancer mortality in Brazil: predictions until the year 2025 and cancer control implicationsDis Colon Rectum201457108210892510160410.1097/DCR.0000000000000186
+5. 5.ArnoldMSierraMSLaversanneMSoerjomataramIJemalABrayFGlobal patterns and trends in colorectal cancer incidence and mortalityGut2017666836912681861910.1136/gutjnl-2015-310912
+6. 6.VogelsteinBFearonERHamiltonSRKernSEPreisingerACLeppertMGenetic alterations during CRC developmentN Engl J Med1988319525532284159710.1056/NEJM198809013190901
+7. 7.KuipersEJGradyWMLiebermanDSeufferleinTSungJJBoelensPGColorectal cancerNat Rev Dis Prim.2015188710.1038/nrdp.2015.65PMC487465527189416
+8. 8.LiDLiuLFevrierHBAlexeeffSEDohertyARRajuMIncreased risk of colorectal cancer in individuals with a history of serrated polypsGastroenterology2020159502511.e23227795010.1053/j.gastro.2020.04.004
+9. 9.EastJEViethMRexDKSerrated lesions in colorectal cancer screening: detection, resection, pathology and surveillanceGut20156499110002574864710.1136/gutjnl-2014-309041
+10. 10.KedrinDGalaMKGenetics of the serrated pathway to colorectal cancerClin Transl Gastroenterol20156e84e932585620710.1038/ctg.2015.12PMC4459531
+11. 11.YamaneLScapulatempo-NetoCReisRMGuimarãesDPSerrated pathway in colorectal carcinogenesisWorld J Gastroenterol201420263426402462759910.3748/wjg.v20.i10.2634PMC3949272
+12. 12.WHO Classification of Tumours Editorial Board. WHO classification of Tumours. Digestive System Tumours. 5th edition. Lyon: World Health Organization; 2019.
+13. 13.LeggettBWhitehallVRole of the serrated pathway in colorectal cancer pathogenesisGastroenterology2010138208821002042094810.1053/j.gastro.2009.12.066
+14. 14.PataiÁVMolnárBTulassayZSiposFSerrated pathway: alternative route to colorectal cancerWorld J Gastroenterol2013196076152343104410.3748/wjg.v19.i5.607PMC3574586
+15. 15.NoffsingerAESerrated polyps and colorectal cancer: new pathway to malignancyAnnu Rev Pathol Mech Dis2009434336410.1146/annurev.pathol.4.110807.09231719400693
+16. 16.dos SantosWSobanskiTde CarvalhoACEvangelistaAFMatsushitaMBerardinelliGNMutation profiling of cancer drivers in Brazilian colorectal cancerSci Rep201991133154856610.1038/s41598-019-49611-1PMC6757044
+17. 17.WinawerSZauberAHoMO’BrienMGottliebLSSSPrevention of colorectal cancer by colonoscopic polypectomy. The National Polyp Study WorkgroupN Engl J Med.1993329197781824707210.1056/NEJM199312303292701
+18. 18.SchreudersEHRucoARabeneckLSchoenRESungJJYYoungGPColorectal cancer screening: a global overview of existing programmesGut201564163716492604175210.1136/gutjnl-2014-309086
+19. 19.RobertsonDJLeeJKBolandCRDominitzJAGiardielloFMJohnsonDARecommendations on fecal immunochemical testing to screen for colorectal neoplasia: a consensus statement by the US multi-society task force on colorectal cancerGastroenterology201715212171237.e32776951710.1053/j.gastro.2016.08.053
+20. 20.ImperialeTFRansohoffDFItzkowitzSHLevinTRLavinPLidgardGPMultitarget stool DNA testing for colorectal-cancer screeningN Engl J Med2014370128712972464580010.1056/NEJMoa1311194
+21. 21.DeVosTTetznerRModelFWeissGSchusterMDistlerJCirculating methylated SEPT9 DNA in plasma is a biomarker for colorectal cancerClin Chem200955133713461940691810.1373/clinchem.2008.115808
+22. 22.Cruvinel-CarloniAYamaneLScapulatempo-NetoCGuimarãesDReisRMAbsence of TERT promoter mutations in colorectal precursor lesions and cancerGenet Mol Biol20184182842947393410.1590/1678-4685-GMB-2017-0133PMC5901499
+23. 23.YamaneLSScapulatempo-NetoCAlvarengaLOliveiraCZBerardinelliGNAlmodovaEKRAS and BRAF mutations and MSI status in precursor lesions of colorectal cancer detected by colonoscopyOncol Rep201432141914262505058610.3892/or.2014.3338
+24. 24.GuimarãesDPMantuanLAde OliveiraMAJuniorRLda CostaAMRossiSThe performance of colorectal cancer screening in Brazil: the first two years of the implementation program in barretos cancer hospitalCancer Prev Res20211424125210.1158/1940-6207.CAPR-20-017932998941
+25. 25.GuimarãesDPFregnaniJHReisRMTaveiraLNScapulatempo-NetoCMatsushitaMComparison of a new-generation fecal immunochemical test (FIT) with guaiac fecal occult blood test (gFOBT) in detecting colorectal neoplasia among colonoscopy-referral patientsAnticancer Res2019392612693059146710.21873/anticanres.13106
+26. 26.de OliveiraJCVianaDVZanardoCSantosEMMde PaulaAEPalmeroEIGenotype-phenotype correlation in 99 familial adenomatous polyposis patients: a prospective prevention protocolCancer Med20198211421223089730710.1002/cam4.2098PMC6536935
+27. 27.SchneiderNBPastorTde PaulaAEAchatzMIdos SantosÂRViannaFSLGermline MLH1, MSH2 and MSH6 variants in Brazilian patients with colorectal cancer and clinical features suggestive of Lynch SyndromeCancer Med20187207820882957571810.1002/cam4.1316PMC5943474
+28. 28.Participants in the Paris WorkshopThe Paris endoscopic classification of superficial neoplastic lesions: esophagus, stomach, and colonGastrointest Endosc2003586 SupplementS3431465254110.1016/s0016-5107(03)02159-x
+29. 29.NeuberACTostesCHRibeiroAGMarczynskiGTKomotoTTRogeriCDThe biobank of barretos cancer hospital: 14 years of experience in cancer researchCell Tissue Bank.2021944710.1007/s10561-021-09941-934216325
+30. 30.DurãesROBerardinelliGNda CostaAMScapulatempo-NetoCPereiraROliveiraMARole of genetic ancestry in 1002 Brazilian colorectal cancer patients from barretos cancer hospitalFront Oncol.2020108853219516810.3389/fonc.2020.00145PMC7065467
+31. 31.PereiraRPhillipsCPintoNSantosCdos SantosSEBAmorimAStraightforward inference of ancestry and admixture proportions through ancestry-informative insertion deletion multiplexingPLoS One.20127334710.1371/journal.pone.0029684PMC326017922272242
+32. 32.FalushDStephensMPritchardJKInference of population structure using multilocus genotype data: linked loci and correlated allele frequenciesGenetics2003164156715871293076110.1093/genetics/164.4.1567PMC1462648
+33. 33.PritchardJKStephensMDonnellyPInference of population structure using multilocus genotype dataGenetics20001559459591083541210.1093/genetics/155.2.945PMC1461096
+34. 34.FearonEVogelsteinBA genetic model for colorectal tumorigenesisCell199061759767218873510.1016/0092-8674(90)90186-i
+35. 35.CrossWKovacMMustonenVTemkoDDavisHBakerAMThe evolutionary landscape of colorectal tumorigenesisNat Ecol Evol20182166116723017780410.1038/s41559-018-0642-zPMC6152905
+36. 36.SaitoTNiidaAUchiRHirataHKomatsuHSakimuraSA temporal shift of the evolutionary principle shaping intratumor heterogeneity in colorectal cancerNat Commun201891113003826910.1038/s41467-018-05226-0PMC6056524
+37. 37.SottorivaAKangHMaZGrahamTASalomonMPZhaoJA Big Bang model of human colorectal tumor growthNat Genet2015472092162566500610.1038/ng.3214PMC4575589
+38. 38.LinSHRajuGSHuffCYeYGuJChenJSThe somatic mutation landscape of premalignant colorectal adenomaGut201867129913052860709610.1136/gutjnl-2016-313573PMC6031265
+39. 39.LugliNDionellisVSOrdóñez-MoránPKamileriISotiriouSKHuelskenJEnhanced rate of acquisition of point mutations in mouse intestinal adenomas compared to normal tissueCell Rep201719218521922861470610.1016/j.celrep.2017.05.051
+40. 40.MurakamiTAkazawaYYatagaiNHiromotoTSasaharaNSaitoTMolecular characterization of sessile serrated adenoma/polyps with dysplasia/carcinoma based on immunohistochemistry, next-generation sequencing, and microsatellite instability testing: a case series studyDiagn Pathol2018131103045881810.1186/s13000-018-0771-3PMC6247685
+41. 41.ChangKWillisJAReumersJTaggartMWSan LucasFAThirumurthiSColorectal premalignancy is associated with consensus molecular subtypes 1 and 2Ann Oncol201829206120673041222410.1093/annonc/mdy337PMC6225810
+42. 42.KomorMABoschLJWBounovaGBolijnASDelis-van DiemenPMRauschCConsensus molecular subtype classification of colorectal adenomasJ Pathol20182462662762996825210.1002/path.5129PMC6221003
+43. 43.DrulinerBRWangPBaeTBahetiSSlettedahlSMahoneyDMolecular characterization of colorectal adenomas with and without malignancy reveals distinguishing genome, transcriptome and methylome alterationsSci Rep201881102945341010.1038/s41598-018-21525-4PMC5816667
+44. 44.LiuZYangCLiXLuoWRoyBXiongTThe landscape of somatic mutation in sporadic Chinese colorectal cancerOncotarget2018927412274222993799410.18632/oncotarget.25287PMC6007951
+45. 45.van LanschotMCJCarvalhoBRauschCSnaebjornssonPvan EngelandMKuipersEJMolecular profiling of longitudinally observed small colorectal polyps: a cohort studyEBioMedicine2019392923003055504410.1016/j.ebiom.2018.12.009PMC6354708
+46. 46.PataiÁVBartákBKPéterfiaBMicsikTHorváthRSumánszkiCComprehensive DNA methylation and mutation analyses reveal a methylation signature in colorectal sessile serrated adenomasPathol Oncol Res2017235895942789661710.1007/s12253-016-0154-6
+47. 47.BaileyMHTokheimCPorta-PardoESenguptaSBertrandDWeerasingheAComprehensive characterization of cancer driver genes and mutationsCell2018173371385.e182962505310.1016/j.cell.2018.02.060PMC6029450
+48. 48.GuinneyJDienstmannRWangXDe ReynièsASchlickerASonesonCThe consensus molecular subtypes of colorectal cancerNat Med201521135013562645775910.1038/nm.3967PMC4636487
+49. 49.SieversCKZouLSPickhardtPJMatkowskyjKAAlbrechtDMClipsonLSubclonal diversity arises early even in small colorectal tumours and contributes to differential growth fatesGut201766213221402760983010.1136/gutjnl-2016-312232PMC5342955
+50. 50.YiCHuangYYuXLiXZhengSDingKClinicopathologic distribution of KRAS and BRAF mutations in a Chinese population with colorectal cancer precursor lesionsOncotarget2016717265172742691089410.18632/oncotarget.7504PMC4941386
+51. 51.RohlinAWernerssonJEngwallYWiklundLBjörkJNordlingMParallel sequencing used in detection of mosaic mutations: comparison with four diagnostic DNA screening techniquesHum Mutat200930101210201934796510.1002/humu.20980
+52. 52.JamuarSSLamA-TNKircherMD’GamaAMWangJBarryBJSomatic mutations in cerebral cortical malformationsN Engl J Med.2014371733432514095910.1056/NEJMoa1314432PMC4274952
+53. 53.YanHHNLaiJCWHoSLLeungWKLawWLLeeJFYRNF43 germline and somatic mutation in serrated neoplasia pathway and its association with BRAF mutationGut201766164516562732924410.1136/gutjnl-2016-311849
+54. 54.NikolaevSISotiriouSKPaterasISSantoniFSougioultzisSEdgrenHA single-nucleotide substitution mutator phenotype revealed by exome sequencing of human colon adenomasCancer Res201272627962892320432210.1158/0008-5472.CAN-12-3869
+55. 55.KimRSchellMJTeerJKGreenawaltDMYangMYeatmanTJCo-evolution of somatic variation in primary and metastatic colorectal cancer may expand biopsy indications in the molecular eraPLoS ONE20151011210.1371/journal.pone.0126670PMC443173325974029
+56. 56.UchiRTakahashiYNiidaAShimamuraTHirataHSugimachiKIntegrated multiregional analysis proposing a new model of colorectal cancer evolutionPLoS Genet20161212410.1371/journal.pgen.1005778PMC475866426890883
+57. 57.KonishiKYamochiTMakinoRKanekoKYamamotoTNozawaHMolecular differences between sporadic serrated and conventional colorectal adenomasClin Cancer Res200410308230901513104710.1158/1078-0432.ccr-03-0334
+58. 58.MuznyDMBainbridgeMNChangKDinhHHDrummondJAFowlerGComprehensive molecular characterization of human colon and rectal cancerNature20124873303372281069610.1038/nature11252PMC3401966
+59. 59.YamamotoESuzukiHYamanoHOMaruyamaRNojimaMKamimaeSMolecular dissection of premalignant colorectal lesions reveals early onset of the CpG island methylator phenotypeAm J Pathol2012181184718612299525210.1016/j.ajpath.2012.08.007
+60. 60.KimTMAnCHRheeJKJungSHLeeSHBaekIPClonal origins and parallel evolution of regionally synchronous colorectal adenoma and carcinomaOncotarget2015627725277352633698710.18632/oncotarget.4834PMC4695021
+61. 61.WhitehallVLJRickmanCBondCERamsnesIGrecoSAUmapathyAOncogenic PIK3CA mutations in colorectal cancers and polypsInt J Cancer20121318138202193242010.1002/ijc.26440
+62. 62.ChangP-YChenJ-SChangS-CWangM-CChangN-CWenY-HAcquired somatic TP53 or PIK3CA mutations are potential predictors of when polyps evolve into colorectal cancerOncotarget2017872352723622906979210.18632/oncotarget.20376PMC5641135
+63. 63.HashimotoTYamashitaSYoshidaHTaniguchiHUshijimaTYamadaTWNT pathway gene mutations are associated with the presence of dysplasia in colorectal sessile serrated adenoma/polypsAm J Surg Pathol201741118811972861419910.1097/PAS.0000000000000877
+64. 64.Hernandez-SuarezGSanabriaMCSerranoMHerranOFPerezJPlataJLGenetic ancestry is associated with colorectal adenomas and adenocarcinomas in Latino populationsEur J Hum Genet201422120812162451883810.1038/ejhg.2013.310PMC4169534
+65. 65.LebwohlBCapiakKNeugutAIKastrinosFRisk of colorectal adenomas and advanced neoplasia in Hispanic, black and white patients undergoing screening colonoscopyAliment Pharmacol Ther201235146714732254088710.1111/j.1365-2036.2012.05119.xPMC3396558
+66. 66.SchroyPCCoeAChenCAO’BrienMJHeerenTCPrevalence of advanced colorectal neoplasia in white and black patients undergoing screening colonoscopy in a Safety-Net HospitalAnn Intern Med2013159132381770010.7326/0003-4819-159-1-201307020-00004PMC4218749
+67. 67.Alves-SilvaJda SilvaSMGuimarãesPEMFerreiraACSBandeltHJPenaSDJThe ancestry of Brazilian mtDNA lineagesAm J Hum Genet2000674444611087379010.1086/303004PMC1287189
+68. 68.GioloSRSolerJMPGreenwaySCAlmeidaMAADe AndradeMSeidmanJGBrazilian urban population genetic structure reveals a high degree of admixtureEur J Hum Genet2012201111162186305810.1038/ejhg.2011.144PMC3234512
+69. 69.SaulsberryLOlopadeOIPrecision oncology: directing genomics and pharmacogenomics toward reducing cancer inequitiesCancer Cell2021397307333401980510.1016/j.ccell.2021.04.013PMC8323992
+70. 70.PopejoyABFullertonSMGenomics is failing on diversityNature20165381611642773487710.1038/538161aPMC5089703

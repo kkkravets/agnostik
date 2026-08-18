@@ -1,0 +1,364 @@
+<?xml version='1.0' encoding='utf-8'?>
+<article xmlns:ns0="http://www.niso.org/schemas/ali/1.0/" xmlns:ns1="http://www.w3.org/1999/xlink" xml:lang="en" article-type="brief-report" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">J Clin Pathol</journal-id><journal-id journal-id-type="iso-abbrev">J Clin Pathol</journal-id><journal-id journal-id-type="pmc-domain-id">694</journal-id><journal-id journal-id-type="pmc-domain">bmjgroup</journal-id><journal-id journal-id-type="nlm-id">0376601</journal-id><journal-id journal-id-type="publisher-id">jcp</journal-id><journal-title-group><journal-title>Journal of Clinical Pathology</journal-title></journal-title-group><issn pub-type="ppub">0021-9746</issn><issn pub-type="epub">1472-4146</issn><custom-meta-group><custom-meta><meta-name>pmc-is-collection-domain</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-collection-title</meta-name><meta-value>BMJ Open Access</meta-value></custom-meta></custom-meta-group></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC9510427</article-id><article-id pub-id-type="pmcid-ver">PMC9510427.1</article-id><article-id pub-id-type="pmcaid">9510427</article-id><article-id pub-id-type="pmcaiid">9510427</article-id><article-id pub-id-type="pmid">34675090</article-id><article-id pub-id-type="doi">10.1136/jclinpath-2021-207865</article-id><article-id pub-id-type="publisher-id">jclinpath-2021-207865</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="heading"><subject>Short Report</subject></subj-group><subj-group subj-group-type="hwp-journal-coll"><subject>1506</subject></subj-group></article-categories><title-group><article-title>Nationwide evaluation of mutation-tailored anti-EGFR therapy selection in patients with colorectal cancer in daily clinical practice</article-title></title-group><contrib-group><contrib id="author-90791935" contrib-type="author"><name name-style="western"><surname>Steeghs</surname><given-names initials="EMP">Elisabeth M P</given-names></name><xref rid="aff1" ref-type="aff">1</xref><xref rid="aff2" ref-type="aff">2</xref><xref rid="aff3" ref-type="aff">3</xref></contrib><contrib id="author-90791982" contrib-type="author"><name name-style="western"><surname>Vink</surname><given-names initials="GR">Geraldine R</given-names></name><xref rid="aff4" ref-type="aff">4</xref><xref rid="aff5" ref-type="aff">5</xref></contrib><contrib id="author-90792016" contrib-type="author"><name name-style="western"><surname>Elferink</surname><given-names initials="MAG">Marloes A G</given-names></name><xref rid="aff4" ref-type="aff">4</xref></contrib><contrib id="author-90792224" contrib-type="author"><name name-style="western"><surname>Voorham</surname><given-names initials="QJM">Quirinus J M</given-names></name><xref rid="aff6" ref-type="aff">6</xref></contrib><contrib id="author-70384487" contrib-type="author"><name name-style="western"><surname>Gelderblom</surname><given-names initials="H">Hans</given-names></name><xref rid="aff7" ref-type="aff">7</xref></contrib><contrib id="author-39322655" contrib-type="author"><name name-style="western"><surname>Nagtegaal</surname><given-names initials="ID">Iris D</given-names></name><xref rid="aff1" ref-type="aff">1</xref></contrib><contrib contrib-type="author"><collab>PATH Consortium Members</collab></contrib><contrib id="author-90792296" contrib-type="author"><name name-style="western"><surname>Grünberg</surname><given-names initials="K">Katrien</given-names></name><xref rid="aff1" ref-type="aff">1</xref></contrib><contrib id="author-37545908" contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-1290-1474</contrib-id><name name-style="western"><surname>Ligtenberg</surname><given-names initials="MJL">Marjolijn J L</given-names></name><xref rid="aff1" ref-type="aff">1</xref><xref rid="aff8" ref-type="aff">8</xref></contrib></contrib-group><contrib-group content-type="collaborators"><contrib contrib-type="collab"><collab>PATH consortium members</collab></contrib><contrib contrib-type="collab"><name name-style="western"><surname>Drillenburg</surname><given-names initials="P">P</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>Nijhuis</surname><given-names initials="EWP">E W P</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>van de Vijver</surname><given-names initials="MJ">M J</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>van Noesel</surname><given-names initials="CJ">C J</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>Bloemena</surname><given-names initials="E">E</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>Heideman</surname><given-names initials="DAM">D A M</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>Radonic</surname><given-names initials="T">T</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>Thunissen</surname><given-names initials="E">E</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>Nederlof</surname><given-names initials="PM">P M</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>Meijer</surname><given-names initials="GA">G A</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>Monkhorst</surname><given-names initials="K">K</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>Doornewaard</surname><given-names initials="H">H</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>van Dijk</surname><given-names initials="MCRF">M C R F</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>Ruijter</surname><given-names initials="E">E</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>Duthoi</surname><given-names initials="K">K</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>Meijers</surname><given-names initials="C">C</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>van de Brule</surname><given-names initials="AJC">A J C</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>Nooijen</surname><given-names initials="PTGA">P T G A</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>Bot</surname><given-names initials="FJ">F J</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>Hazalbag</surname><given-names initials="HM">H M</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>Clahsen</surname><given-names initials="P">P</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>van Nederveen</surname><given-names initials="FH">F H</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>Westenend</surname><given-names initials="PJ">P J</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>Jeuken</surname><given-names initials="JWM">J W M</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>Ahsmann</surname><given-names initials="EJM">E J M</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>Meulbroek</surname><given-names initials="P">P</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>Timens</surname><given-names initials="W">W</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>Schuuring</surname><given-names initials="E">E</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>van Kempen</surname><given-names initials="LC">L C</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>Geuken</surname><given-names initials="W">W</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>Bulkmans</surname><given-names initials="NWJ">N W J</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>Bellot</surname><given-names initials="FE">F E</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>Clarijs</surname><given-names initials="R">R</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>Riemersma</surname><given-names initials="S">S</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>van der Geize</surname><given-names initials="R">R</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>Meijer</surname><given-names initials="J">J</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>van Slooten</surname><given-names initials="HJ">H J</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>Kibbelaar</surname><given-names initials="RE">R E</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>van der Logt</surname><given-names initials="EMJ">E M J</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>van Wezel</surname><given-names initials="T">T</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>Morreau</surname><given-names initials="H">H</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>Bovee</surname><given-names initials="JVMG">J V M G</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>Zur Hausen</surname><given-names initials="A">A</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>Speel</surname><given-names initials="EJM">E J M</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>de Bruin</surname><given-names initials="PC">P C</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>Huijsmans</surname><given-names initials="CJ">C J</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>Dusseljee</surname><given-names initials="S">S</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>Willems</surname><given-names initials="RW">R W</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>Prinsen</surname><given-names initials="CF">C F</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>Zomer</surname><given-names initials="S">S</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>van Kemenade</surname><given-names initials="FJ">F J</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>Dinjens</surname><given-names initials="WNM">W N M</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>Geurts-Giele</surname><given-names initials="WRR">W R R</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>van der Valk</surname><given-names initials="H">H</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>Smits</surname><given-names initials="AJJ">A J J</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>Hoogduin</surname><given-names initials="KJ">K J</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>Kliffen</surname><given-names initials="M">M</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>den Bakker</surname><given-names initials="MA">M A</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>Stavast</surname><given-names initials="J">J</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>van Diest</surname><given-names initials="PJ">P J</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>de Leng</surname><given-names initials="WWJ">W W J</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>de Bruïne</surname><given-names initials="AP">A P</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>Hinrichs</surname><given-names initials="JWJ">J W J</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>Meischl</surname><given-names initials="C">C</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>Gaal</surname><given-names initials="J">J</given-names></name></contrib><contrib contrib-type="collab"><name name-style="western"><surname>Niemantsverdriet</surname><given-names initials="M">M</given-names></name></contrib></contrib-group><aff id="aff1">
+<label>1</label>
+<institution content-type="department">Pathology</institution>, <institution>Radboudumc</institution>, <addr-line content-type="city">Nijmegen</addr-line>, <country>The Netherlands</country>
+</aff><aff id="aff2">
+<label>2</label>
+<institution content-type="department">Pathology</institution>, <institution>Antoni van Leeuwenhoek Hospital, the Netherlands Cancer Institute</institution>, <addr-line content-type="city">Amsterdam</addr-line>, <country>The Netherlands</country>
+</aff><aff id="aff3">
+<label>3</label>
+<institution content-type="department">Pathology</institution>, <institution>Leiden University Medical Center</institution>, <addr-line content-type="city">Leiden</addr-line>, <country>The Netherlands</country>
+</aff><aff id="aff4">
+<label>4</label>
+<institution content-type="department">Research &amp; Development</institution>, <institution>Integraal Kankercentrum Nederland</institution>, <addr-line content-type="city">Utrecht</addr-line>, <country>The Netherlands</country>
+</aff><aff id="aff5">
+<label>5</label>
+<institution content-type="department">Medical Oncology</institution>, <institution>Universitair Medisch Centrum Utrecht</institution>, <addr-line content-type="city">Utrecht</addr-line>, <country>The Netherlands</country>
+</aff><aff id="aff6">
+<label>6</label>
+<institution>PALGA Foundation</institution>, <addr-line content-type="city">Houten</addr-line>, <country>The Netherlands</country>
+</aff><aff id="aff7">
+<label>7</label>
+<institution content-type="department">Medical Oncology</institution>, <institution>Leiden University Medical Center</institution>, <addr-line content-type="city">Leiden</addr-line>, <country>The Netherlands</country>
+</aff><aff id="aff8">
+<label>8</label>
+<institution content-type="department">Human Genetics</institution>, <institution>Radboudumc</institution>, <addr-line content-type="city">Nijmegen</addr-line>, <country>The Netherlands</country>
+</aff><author-notes><corresp>
+<label>Correspondence to</label> Professor Marjolijn J L Ligtenberg, Pathology, Radboudumc, Nijmegen 6500 HB, The Netherlands; <email>Marjolijn.Ligtenberg@radboudumc.nl</email>
+</corresp></author-notes><pub-date pub-type="ppub"><month>10</month><year>2022</year></pub-date><pub-date pub-type="epub"><day>21</day><month>10</month><year>2021</year></pub-date><volume>75</volume><issue>10</issue><issue-id pub-id-type="pmc-issue-id">417925</issue-id><fpage>706</fpage><lpage>711</lpage><history><date date-type="received"><day>02</day><month>8</month><year>2021</year></date><date date-type="accepted"><day>04</day><month>10</month><year>2021</year></date></history><pub-history><event event-type="pmc-release"><date><day>26</day><month>09</month><year>2022</year></date></event><event event-type="pmc-live"><date><day>27</day><month>09</month><year>2022</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2025-08-19 14:25:15.533"><day>19</day><month>08</month><year>2025</year></date></event></pub-history><permissions><copyright-statement>© Author(s) (or their employer(s)) 2022. Re-use permitted under CC BY-NC. No commercial re-use. See rights and permissions. Published by BMJ.</copyright-statement><copyright-year>2022</copyright-year><ns0:free_to_read /><license><ns0:license_ref specific-use="textmining" content-type="ccbynclicense" start_date="2021-10-21">https://creativecommons.org/licenses/by-nc/4.0/</ns0:license_ref><license-p>This is an open access article distributed in accordance with the Creative Commons Attribution Non Commercial (CC BY-NC 4.0) license, which permits others to distribute, remix, adapt, build upon this work non-commercially, and license their derivative works on different terms, provided the original work is properly cited, appropriate credit is given, any changes made indicated, and the use is non-commercial. See: <ext-link ext-link-type="uri" ns1:href="https://creativecommons.org/licenses/by-nc/4.0/">http://creativecommons.org/licenses/by-nc/4.0/</ext-link>.</license-p></license></permissions><self-uri content-type="pmc-pdf" ns1:href="jclinpath-2021-207865.pdf" /><self-uri ns1:title="pdf" ns1:href="jclinpath-2021-207865.pdf" /><abstract><p>For a nationwide real-word data study on the application of predictive mutation testing of patients with colorectal cancer (CRC) for anti-epidermal growth factor receptor (EGFR) therapy stratification, pathology data were collected from the Dutch Pathology Registry from October 2017 until June 2019 (N=4060) and linked with the Netherlands Cancer Registry. Mutation testing rates increased from 24% at diagnosis of stage IV disease to 60% after 20–23 months of follow-up (p&lt;0.001). Application of anti-EGFR therapy in <italic toggle="yes">KRAS/NRAS</italic> wild-type patients was mainly observed from the third treatment line onwards (65% vs 17% in first/second treatment line (p&lt;0.001)). The national average <italic toggle="yes">KRAS/NRAS/BRAF</italic> mutation rate was 63.9%, being similar for next-generation sequencing (NGS)-based approaches and single gene tests (64.4% vs 61.2%, p=ns). NGS-based approaches detected more additional potential biomarkers, for example, <italic toggle="yes">ERBB2</italic> amplifications (p&lt;0.05). Therefore, single gene tests are suitable to stratify patients with mCRC for anti-EGFR therapy, but NGS is superior enabling upfront identification of therapy resistance or facilitate enrolment into clinical trials.</p></abstract><kwd-group><kwd>colorectal neoplasms</kwd><kwd>pathology</kwd><kwd>molecular</kwd><kwd>diagnostic techniques and procedures</kwd></kwd-group><funding-group specific-use="FundRef"><award-group id="funding-1"><funding-source>
+<institution-wrap><institution-id institution-id-type="FundRef">http://dx.doi.org/10.13039/501100001826</institution-id><institution>ZonMw</institution></institution-wrap>
+</funding-source><award-id>846001001</award-id></award-group></funding-group><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY-NC</meta-value></custom-meta><custom-meta><meta-name>special-feature</meta-name><meta-value>unlocked</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec sec-type="intro" id="s1"><title>Introduction</title><p>Treatment for patients with metastatic colorectal cancer (mCRC) mainly involves chemotherapy in combination with targeted therapy. Targeted therapy such as anti-epidermal growth factor receptor (EGFR) antibodies (ie, cetuximab and panitumumab) block EGFR activation and hence its downstream signalling cascade.<xref rid="R1" ref-type="bibr">1</xref> However, tumours with mutations in the downstream effectors <italic toggle="yes">KRAS</italic> or <italic toggle="yes">NRAS</italic> respond poorly to anti-EGFR therapy.<xref rid="R2" ref-type="bibr">2</xref> Therefore, the <italic toggle="yes">KRAS/NRAS</italic> mutation status should be evaluated prior to anti-EGFR therapy. Additional potential predictive biomarkers for resistance to anti-EGFR therapy include <italic toggle="yes">BRAF</italic> p.V600E, <italic toggle="yes">PIK3CA</italic> mutations and <italic toggle="yes">ERBB2</italic> amplifications.<xref rid="R3" ref-type="bibr">3 4</xref> Moreover, <italic toggle="yes">BRAF</italic> p.V600E mutations are associated with a poor prognosis of patients with mCRC.<xref rid="R5" ref-type="bibr">5 6</xref>
+</p><p>Several (inter)national clinical practice guidelines have been developed to provide evidence-based recommendations to assist in the treatment and management of patients with mCRC.<xref rid="R7" ref-type="bibr">7–10</xref> Predictive biomarker analysis has been recommended for a decade now. However, uptake of <italic toggle="yes">KRAS</italic> mutation analysis to stratify patients for anti-EGFR therapy ranges between 35% and 69%.<xref rid="R11" ref-type="bibr">11–15</xref> We performed a nationwide real-world data study on the application of predictive mutation testing of patients with CRC for anti-EGFR therapy selection and analysed the results of multi-institutional mutation analyses using different analytical methods, performed between October 2017 to June 2019. In addition, mutation testing rates and uptake of anti-EGFR therapy were studied in the last quarter of 2017.</p></sec><sec sec-type="methods" id="s2"><title>Methods</title><sec id="s2-1"><title>Databases</title><p>Clinical and pathology data were obtained from data linkage between the Netherlands Cancer Registry (NCR) and the nationwide network and registry of histopathology and cytopathology in the Netherlands (PALGA).<xref rid="R16" ref-type="bibr">16</xref> Both databases cover the whole Dutch population (~17 million inhabitants). All newly diagnosed malignancies are registered in the NCR. A standardised structured dataset is collected from patient records consisting of basic patient and disease characteristics, including age, gender, histology, tumor-node-metastasis stage, performance score, the site(s) of metastasis, and type of first-line treatment. All pathology reports from the 46 Dutch pathology departments are digitally archived in PALGA.</p></sec><sec id="s2-2"><title>Data collection mutation analyses</title><p>Diagnostic yield of mutation analysis was studied from pathology reports of patients with CRC that were collected from PALGA using specific queries from 1 October 2017 to 30 June 2019. Manual curation of these reports showed 4060 patients with CRC undergoing predictive mutation analyses in this 21-month study period. Details of the mutation analyses (ie, technique, gene panel, diagnostic yield) were manually extracted from these reports.</p></sec><sec id="s2-3"><title>Data collection mutation testing rates</title><p>To study uptake of molecular testing, all patients that were initially diagnosed with stage IV CRC between 1 October 2017 and 31 December 2017 were selected from the NCR (N=653). A trusted third party (ZorgTTP<xref rid="R17" ref-type="bibr">17</xref>) linked these data in September 2019 to PALGA, which was successful for 620/653 (94%) patients.</p></sec><sec id="s2-4"><title>Data collection uptake anti-EGFR therapy</title><p>Uptake of anti-EGFR therapy was examined in patients with CRC that underwent molecular testing between 1 October 2017 and 31 December 2017 (N=547). A trusted third party<xref rid="R17" ref-type="bibr">17</xref> linked these pathology reports from PALGA to the NCR, which was successful for 511/547 (93%) patients. In this linked dataset, mutation-tailored uptake of anti-EGFR therapy was studied. Four hundred eighty-six patients harboured metastatic disease. For 402 of these patients, all lines of treatment were registered, while for 84 patients it was only known whether anti-EGFR therapy was applied or not. Maintenance or partial modification (eg, due to toxicity) of therapy was not considered as new treatment line.</p></sec><sec id="s2-5"><title>Statistical analysis</title><p>Associations between variables were studied using the Fisher’s exact test using IBM SPSS Statistics (V.25). Two-sided p-values are reported. Turnaround time was compared using the Mann-Whitney U test. Funnel plots were generated to study interpathology department variation in diagnostic yield.<xref rid="R18" ref-type="bibr">18</xref> Differences in mutation testing rates over time were studied using the McNemar test.</p></sec></sec><sec sec-type="results" id="s3"><title>Results</title><sec id="s3-1"><title>Multi-institutional molecular characterisation of CRC cases</title><p>Mutation analysis results were obtained of 4060 patients with mCRC (<xref rid="F1" ref-type="fig">figure 1A</xref>). Forty-eight per cent of these patients harboured a (likely) pathogenic mutation in <italic toggle="yes">KRAS</italic>, 5% in <italic toggle="yes">NRAS</italic> and 12% in <italic toggle="yes">BRAF</italic> (<xref rid="F1" ref-type="fig">figure 1B</xref>). The KRAS p.G12C mutation was reported in 3.4% of the patients, for which a small molecule inhibitor recently showed encouraging anticancer activity in a phase I trial.<xref rid="R19" ref-type="bibr">19</xref> Mutation analyses were performed by 23 different pathology departments. Limited variation was observed in <italic toggle="yes">KRAS/NRAS/BRAF</italic> mutation rates among pathology departments (<xref rid="F1" ref-type="fig">figure 1B, C</xref>, <xref rid="SP1" ref-type="supplementary-material">online supplemental figure 1A</xref>). One department reported a significantly higher frequency (69.4%; p=0.026) and one department a significantly lower frequency (55.3%; p=0.04) than the national average (63.9%). The median turnaround time from initial request of the molecular analysis until authorisation of the pathology report was 7 working days.</p><supplementary-material id="SP1" position="float" content-type="local-data" orientation="portrait"><object-id pub-id-type="doi">10.1136/jclinpath-2021-207865.supp1</object-id><label>Supplementary data</label><p>
+<inline-supplementary-material id="SS1" ns1:href="jclinpath-2021-207865supp001.pdf" content-type="local-data" />
+</p></supplementary-material><fig position="float" id="F1" orientation="portrait"><label>Figure 1</label><caption><p>Molecular characterisation of patients with colorectal cancer (CRC). (A) Timeline and flow chart showing the search strategy to obtain all nationwide pathology reports of mutation analysis of patients with CRC performed between 1 October 2017 until 30 June 2019. A large proportion of reports was excluded as no mutation analyses were present (ie, the queries ‘molecular biology’, ‘MSI’ (microsatellite instability) and ‘MLH1’ obtained high amount of reports with immunohistochemistry of mismatch repair proteins). Manual curation of obtained pathology reports showed 4060 patients with CRC undergoing predictive mutation analyses in this 21-month study period. (B) Frequency of reported <italic toggle="yes">KRAS, NRAS</italic> and <italic toggle="yes">BRAF</italic> mutations obtained from the pathology reports depicted in panel A. (C) Funnel plot showing the reported diagnostic yield (ie, percentage of <italic toggle="yes">KRAS, NRAS</italic> and <italic toggle="yes">BRAF</italic> mutations) per pathology department. Nationwide percentage and 95% CI are shown. (D) Frequency of reported <italic toggle="yes">KRAS</italic>, <italic toggle="yes">NRAS</italic> and <italic toggle="yes">BRAF</italic> mutations by multigene panel next-generation sequencing (NGS) and non-NGS analysis. (E)Mutational landscapes of CRC cases concerning <italic toggle="yes">KRAS, NRAS, BRAF, PIK3CA</italic> and <italic toggle="yes">ERBB2</italic> alterations. Results of multigene panel NGS approaches are shown left and non-NGS approaches right. Each column represents a tumour sample. Each row represents a gene. A coloured bar represents a variant (see legend), a white bar represents no alteration and a grey bar represents not analysed (ie, not present in NGS panel or single gene analysis).</p></caption><graphic position="float" orientation="portrait" ns1:href="jclinpath-2021-207865f01.jpg" /></fig><p>Eighty-one per cent of the mutation analyses were performed with next-generation sequencing (NGS) using targeted gene panels encompassing mainly hotspot regions of 15–75 genes (<xref rid="SP1" ref-type="supplementary-material">online supplemental figure 1B, C</xref>). All methods covered at least exons 2 and 3 of <italic toggle="yes">KRAS</italic> and <italic toggle="yes">NRAS,</italic> and exon 15 of <italic toggle="yes">BRAF</italic>. Neither in overall reported mutation frequencies of <italic toggle="yes">KRAS, NRAS</italic> and <italic toggle="yes">BRAF</italic> nor in the number of failed analyses significant differences between NGS and the remaining techniques were observed (<xref rid="F1" ref-type="fig">figure 1D</xref>). Studying the different mutation types in more detail showed enriched detection of <italic toggle="yes">BRAF</italic> mutations other than codon 600 by multigene panel NGS (1.7% vs 0.5%, p=0.018; <xref rid="F1" ref-type="fig">figure 1E</xref>). Also (likely) pathogenic <italic toggle="yes">PIK3CA</italic> mutations (10% vs 2%), (likely) pathogenic <italic toggle="yes">ERBB2</italic> mutations (0.6% vs 0%) and <italic toggle="yes">ERBB2</italic> amplifications (0.6% vs 0%) were enriched on NGS analyses (p&lt;0.05). These differences were due to more comprehensive testing of NGS-approaches. An overview of reported variants in other genes in the NGS panels is shown in <xref rid="SP1" ref-type="supplementary-material">online supplemental figure 2</xref>.</p></sec><sec id="s3-2"><title>Mutation testing rates of patients with mCRC</title><p>Uptake of mutation analysis was studied in patients with mCRC that were diagnosed with stage IV disease in the fourth quarter of 2017 (<xref rid="F2" ref-type="fig">figure 2A</xref>). Mutation testing rates gradually increased over time from diagnosis, that is, from 24% after 1–3 months of follow-up to 60% after 20–23 months of follow-up (p&lt;0.001; <xref rid="F2" ref-type="fig">figure 2B</xref>). Uptake of mutation analysis was enriched in patients diagnosed with mCRC below age 70 years, left-sided tumours, metastases in multiple organs (M1b), metastasis in peritoneum only (M1c), moderately differentiated tumours, and a good performance status (<xref rid="SP1 SP2" ref-type="supplementary-material">online supplemental table 1 and figure 3</xref>).</p><supplementary-material id="SP2" position="float" content-type="local-data" orientation="portrait"><object-id pub-id-type="doi">10.1136/jclinpath-2021-207865.supp2</object-id><label>Supplementary data</label><p>
+<inline-supplementary-material id="SS2" ns1:href="jclinpath-2021-207865supp002.pdf" content-type="local-data" />
+</p></supplementary-material><fig position="float" id="F2" orientation="portrait"><label>Figure 2</label><caption><p>Mutation testing rates of patients with metastatic colorectal cancer (CRC). (A) Timeline and flow chart showing the data collection of the pathology reports of all patients with CRC diagnosed with synchronous metastasis between 1 October and 31 December 2017. These patients were obtained from the Netherlands Cancer Registry and linked to the Dutch Pathology Registry (PALGA) by a trusted third party in September 2019. This linked dataset was used to study the mutation testing rates. Unlinked patients with CRC were mainly caused by absence of a pathological diagnosis. (B)The uptake of mutation analysis for patients with stage IV CRC after different periods of follow-up: 1–3 months, 6–9 months, 12–15 months and 20–23 months of follow-up. Data are shown for the whole cohort (N=620) and corrected for patients alive 1 month after initial diagnosis (N=571), 6 months after diagnosis (N=436), 12 months after diagnosis (N=321) and after 21 months (N=227). The McNemar test was applied to study significance. <sup>**</sup>P &lt;0.001.</p></caption><graphic position="float" orientation="portrait" ns1:href="jclinpath-2021-207865f02.jpg" /></fig></sec><sec id="s3-3"><title>Mutation informed targeted therapy choices</title><p>Uptake of anti-EGFR therapy was studied for patients with mCRC that underwent mutation analysis in 2017-Q4 (<xref rid="F3" ref-type="fig">figure 3A</xref>). Forty-seven point nine per cent (233/486) of the patients with mCRC were reported to have no mutations in <italic toggle="yes">KRAS</italic> or <italic toggle="yes">NRAS</italic> and hence were candidates for anti-EGFR therapy. Thirty-three per cent (76/233) of these patients indeed received anti-EGFR therapy. Uptake was 17% (23/135) for patients without <italic toggle="yes">KRAS</italic> or <italic toggle="yes">NRAS</italic> mutations that received one or two lines of treatment compared with 67% (42/63) for patients without <italic toggle="yes">KRAS</italic> or <italic toggle="yes">NRAS</italic> mutations that received three or more lines of treatment (p&lt;0.001; <xref rid="F3" ref-type="fig">figure 3B, C</xref>). Anti-EGFR therapy was applied in 4.9% (4/81) mCRC with mutations in <italic toggle="yes">KRAS</italic> or <italic toggle="yes">NRAS</italic> (N=3 codon 12; N=1 codon 13), and in 7.4% (6/81) of cases with a <italic toggle="yes">BRAF</italic> p.V600E mutation.</p><fig position="float" id="F3" orientation="portrait"><label>Figure 3</label><caption><p>Uptake of anti-epidermal growth factor receptor (EGFR) therapy in patients with metastatic colorectal cancer (mCRC). (A) Time line and flow chart showing the data collection of both synchronous and metachronous mCRC that underwent mutation analysis between October and December 2017. These patients were linked to the Netherlands Cancer Registry by a trusted third party, enabling therapy registration of these patients. Twenty-five of the patients were excluded for further analysis, as they were diagnosed with stage I–III CRC in 2017 and hence were no candidates for anti-EGFR therapy. Patient records were fully updated including specification of all treatment lines for patients with diagnosis of the primary tumour from 2015 onwards (N=402). For patients with a primary tumour before 2015 (N=84), registration was limited to whether anti-EGFR therapy was applied or not. Unlinked cases were caused by limitations in the linkage procedures. (B) Uptake of anti-EGFR therapy in patients without a <italic toggle="yes">KRAS</italic> or <italic toggle="yes">NRAS</italic> mutation merged over all treatment lines (left). In the right panel of the graph uptake for patients that received one or two treatment lines is compared with patients receiving three or more treatment lines. NB: for 35 patients without a <italic toggle="yes">KRAS</italic> or <italic toggle="yes">NRAS</italic> mutation it was only registered whether anti-EGFR therapy was applied or not. The Fisher’s exact test was applied to study differences in molecular testing rates. **P&lt;0.001. (C) Overview of the proportions of patients that were treated with anti-EGFR therapy per treatment line. The number of patients present in each line is depicted on top of each bar.</p></caption><graphic position="float" orientation="portrait" ns1:href="jclinpath-2021-207865f03.jpg" /></fig></sec></sec><sec sec-type="discussion" id="s4"><title>Discussion</title><p>Mutation analyses of patients with mCRC generated consistent <italic toggle="yes">KRAS/NRAS/BRAF</italic> mutation rates independent of the analytical method, showing that both multigene NGS panels and single gene tests can be used to stratify patients with mCRC for anti-EGFR therapy. The current number of predictive biomarkers for mCRC is modest and all molecular targets required for currently registered targeted therapeutics can be adequately assessed by single gene tests combined with immunohistochemical analysis of mismatch repair proteins and <italic toggle="yes">NTRK</italic> fusions. Nevertheless, multigene panel NGS is a more comprehensive alternative, if used cost-effectively, enabling upfront identification of patients with rare alterations linked to anti-EGFR therapy resistance (eg, <italic toggle="yes">ERBB2</italic> amplifications) and rare driver mutations that facilitate enrolment into clinical trials.</p><p>Limited variation was observed in <italic toggle="yes">KRAS, NRAS</italic> and <italic toggle="yes">BRAF</italic> mutation rates among the 23 pathology departments that performed mutation analyses as only two departments showed aberrant mutation frequencies compared with the national average. However, large variation was observed in the number of predictive biomarker tests performed per laboratory, ranging from less than 1–30 analyses per month, which limited the comparative power.</p><p>Unlike international guidelines,<xref rid="R7" ref-type="bibr">7–9</xref> the Dutch guidelines in 2017 recommended to use anti-EGFR therapy only in later treatment lines.<xref rid="R10" ref-type="bibr">10</xref> This recommendation likely explains our observations that molecular testing rates increased over time after diagnosis of stage IV disease and anti-EGFR therapy was mainly applied in later treatment lines. In turn, these observations indicate that a selective, costs-saving approach was used to perform mutation analysis to select patients for anti-EGFR therapy. Nevertheless, mutation testing rates of 60% suggest that anti-EGFR is not considered for all patients with mCRC. These data are in line with previously reported studies, showing an uptake of <italic toggle="yes">KRAS</italic> testing varying between 35% and 69%.<xref rid="R11" ref-type="bibr">11–15</xref> New guidelines as well as the availability of promising therapy for patients with <italic toggle="yes">BRAF</italic> p.V600E and <italic toggle="yes">KRAS</italic> p.G12C mutant mCRC will likely accelerate mutation testing rates.<xref rid="R19" ref-type="bibr">19–22</xref>
+</p><p>The use of real-world clinical and pathology data on a nationwide scale shows the strength of linkage of both the NCR and PALGA. However, the use of existing registries also necessitates accepting limited data collection due to predefined collection strategies. In the current study design, we could not confirm that all patients with mCRC receiving anti-EGFR therapy were evaluated for presence of <italic toggle="yes">KRAS</italic>, <italic toggle="yes">NRAS</italic> and <italic toggle="yes">BRAF</italic> mutations before start of the therapy. This requires attention in future research as inferior response rates for patients with <italic toggle="yes">KRAS</italic> mutations and high costs of anti-EGFR therapy compared with the costs of mutation analysis, clearly necessitate mutation analysis for patients who are candidates for anti-EGFR therapy.<xref rid="R23" ref-type="bibr">23–26</xref>
+</p><p>In conclusion, nationwide real-world data show that hotspot mutations in <italic toggle="yes">KRAS</italic>, <italic toggle="yes">NRAS</italic> and <italic toggle="yes">BRAF</italic> for stratification of anti-EGFR therapy in patients with mCRC were consistently detected by both multigene NGS panels and single gene tests, which were selectively applied depending on the treatment line. Combined with immunohistochemical analysis of mismatch repair deficiency proteins and NTRK fusions, these genomic alterations encompass all molecular biomarkers to stratify patients with mCRC for currently registered targeted therapeutics. Multigene panel NGS is a comprehensive alternative for single gene tests if used cost effectively or to identify patients with CRC for clinical trials.</p></sec></body><back><ack><p>The authors thank the pathology departments that participate in the PATH project, Riki Willems for the annotation of the pathology data, and the registration team of the Netherlands Comprehensive Cancer Organisation (IKNL) for the collection of data for the Netherlands Cancer Registry.</p></ack><fn-group><fn fn-type="other"><p><bold>Handling editor:</bold> Runjan Chetty.</p></fn><fn fn-type="other"><p><bold>Collaborators:</bold> PATH consortium members: P Drillenburg, E W P Nijhuis: Onze Lieve Vrouwe Gasthuis, Amsterdam; M J van de Vijver, C J van Noesel: Amsterdam UMC, locatie AMC, Amsterdam; E Bloemena, D A M Heideman, T Radonic, E Thunissen: Amsterdam UMC, locatie VUmc, Amsterdam; P M Nederlof, G A Meijer, K Monkhorst: Antoni van Leeuwenhoek, Amsterdam; H Doornewaard: Gelre ziekenhuis, Apeldoorn; M C R F van Dijk, E Ruijter: Rijnstate, Arnhem; K Duthoi: Pathologisch en Cytologisch Laboratorium Amphia, Breda; C Meijers: Reinier de Graaf Arash, Delft; A J C van de Brule, P T G A Nooijen: Jeroen Bosch Ziekenhuis, Den Bosch; F J Bot: Hagaziekenhuis, Den Haag; H M Hazalbag, P Clahsen: Medisch Centrum Haaglanden/ Bronovo, Den Haag; F H van Nederveen, P J Westenend: Laboratorium voor Pathologie, Dordrecht; J W M Jeuken: Stichting PAMM, Eindhoven; E J M Ahsmann, P Meulbroek: Groene Hart Ziekenhuis, Gouda; W Timens, E Schuuring, L C van Kempen: Universitair Medisch Centrum Groningen, Groningen; W Geuken: Martini Ziekenhuis, Groningen; N W J Bulkmans, F E Bellot: Spaarne Gasthuis, Haarlem; R Clarijs: Zuyderland Medisch centrum, Sittard-Geleen; S Riemersma, R van der Geize: Laboratorium Pathologie Oost Nederland, Hengelo; J Meijer, H J van Slooten: PALGA, Houten; R E Kibbelaar, E M J van der Logt: Pathologie Friesland, Leeuwarden; T van Wezel, H Morreau, J V M G Bovee: Leids Universitair Medisch Centrum, Leiden; A Zur Hausen, E J M Speel: Maastricht Universitair Medisch Centrum, Maastricht; P C de Bruin, C J Huijsmans: St. Antonius Ziekenhuis, Nieuwegein; S Dusseljee, R W Willems: Radboud universitair medisch centrum, Nijmegen; C F Prinsen, S Zomer: Canisius-Wilhelmina Ziekenhuis, Nijmegen; F J van Kemenade, W N M Dinjens, W R R Geurts-Giele: Erasmus MC, Rotterdam; H van der Valk, A J J Smits, K J Hoogduin: Pathan BV, Rotterdam; M Kliffen, M A den Bakker: Maasstad ziekenhuis, Rotterdam; J Stavast: Elisabeth ziekenhuis, Tilburg; P J van Diest, W W J de Leng: Universitair Medisch Centrum Utrecht, Utrecht; A P de Bruïne: VieCuri Medisch Centrum, Venlo; J.W J Hinrichs, C Meischl: Symbiant BV, Alkmaar/Hoorn/Den Helder/Zaandam; J Gaal, M Niemantsverdriet: Isala, Zwolle.</p></fn><fn fn-type="other"><p><bold>Contributors:</bold> EMPS, KG and MJLL were involved in the study design. GRV and MAGE were involved in the data collection from the Netherlands Cancer Registry. QJMV was involved in the data collection from PALGA. PATH consortium members reported turnaround times and were available for questions. EMPS was involved in the data extraction and annotation from the pathology reports, and performed the data analyses. EMPS, GRV, MAGE, HG, IDN, KG and MJLL interpreted the data and drafted the manuscript. The manuscript was revised and approved by all authors.</p></fn><fn fn-type="other"><p><bold>Funding:</bold> This work was supported by the research programme Personalised Medicine of the Netherlands Organisation for Health research and Development (ZonMw, project number 846001001).</p></fn><fn fn-type="COI-statement"><p><bold>Competing interests:</bold> None declared.</p></fn><fn fn-type="other"><p><bold>Provenance and peer review:</bold> Not commissioned; externally peer reviewed.</p></fn><fn fn-type="other"><p><bold>Supplemental material:</bold> This content has been supplied by the author(s). It has not been vetted by BMJ Publishing Group Limited (BMJ) and may not have been peer-reviewed. Any opinions or recommendations discussed are solely those of the author(s) and are not endorsed by BMJ. BMJ disclaims all liability and responsibility arising from any reliance placed on the content. Where the content includes any translated material, BMJ does not warrant the accuracy and reliability of the translations (including but not limited to local regulations, clinical guidelines, terminology, drug names and drug dosages), and is not responsible for any error and/or omissions arising from translation and adaptation or otherwise.</p></fn></fn-group><sec sec-type="ethics-statement"><title>Ethics statements</title><sec><title>Patient consent for publication</title><p content-type="ethics-consent-to-publish">Not applicable.</p></sec><sec><title>Ethics approval</title><p content-type="ethics-approval">The study was conducted in accordance with the Declaration of Helsinki and approved by the Local Ethical Committee of the Radboudumc (CMO 2016–2967). All data were handled according to the General Data Protection Regulation.</p></sec></sec><ref-list><title>References</title><ref id="R1"><label>1</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Kuipers</surname>
+<given-names>EJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Grady</surname>
+<given-names>WM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lieberman</surname>
+<given-names>D</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>Colorectal cancer</article-title>. <source>Nat Rev Dis Primers</source>
+<year>2015</year>;<volume>1</volume>:<fpage>15065</fpage>. <pub-id pub-id-type="doi">10.1038/nrdp.2015.65</pub-id>
+<pub-id pub-id-type="pmid">27189416</pub-id><pub-id pub-id-type="pmcid">PMC4874655</pub-id></mixed-citation></ref><ref id="R2"><label>2</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Linardou</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dahabreh</surname>
+<given-names>IJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kanaloupiti</surname>
+<given-names>D</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>Assessment of somatic K-ras mutations as a mechanism associated with resistance to EGFR-targeted agents: a systematic review and meta-analysis of studies in advanced non-small-cell lung cancer and metastatic colorectal cancer</article-title>. <source>Lancet Oncol</source>
+<year>2008</year>;<volume>9</volume>:<fpage>962</fpage>–<lpage>72</lpage>. <pub-id pub-id-type="doi">10.1016/S1470-2045(08)70206-7</pub-id>
+<pub-id pub-id-type="pmid">18804418</pub-id></mixed-citation></ref><ref id="R3"><label>3</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>De Roock</surname>
+<given-names>W</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Claes</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bernasconi</surname>
+<given-names>D</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>Effects of KRAS, BRAF, NRAS, and PIK3CA mutations on the efficacy of cetuximab plus chemotherapy in chemotherapy-refractory metastatic colorectal cancer: a retrospective Consortium analysis</article-title>. <source>Lancet Oncol</source>
+<year>2010</year>;<volume>11</volume>:<fpage>753</fpage>–<lpage>62</lpage>. <pub-id pub-id-type="doi">10.1016/S1470-2045(10)70130-3</pub-id>
+<pub-id pub-id-type="pmid">20619739</pub-id></mixed-citation></ref><ref id="R4"><label>4</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Raghav</surname>
+<given-names>KPS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Overman</surname>
+<given-names>MJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yu</surname>
+<given-names>R</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>HER2 amplification as a negative predictive biomarker for anti-epidermal growth factor receptor antibody therapy in metastatic colorectal cancer</article-title>. <source>J Clin Oncol</source>
+<year>2016</year>;<volume>34</volume>:<elocation-id>3517</elocation-id>. <pub-id pub-id-type="doi">10.1200/JCO.2016.34.15_suppl.3517</pub-id>
+<pub-id pub-id-type="pmid">35100667</pub-id></mixed-citation></ref><ref id="R5"><label>5</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Souglakos</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Philips</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>
+<given-names>R</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>Prognostic and predictive value of common mutations for treatment response and survival in patients with metastatic colorectal cancer</article-title>. <source>Br J Cancer</source>
+<year>2009</year>;<volume>101</volume>:<fpage>465</fpage>–<lpage>72</lpage>. <pub-id pub-id-type="doi">10.1038/sj.bjc.6605164</pub-id>
+<pub-id pub-id-type="pmid">19603024</pub-id><pub-id pub-id-type="pmcid">PMC2720232</pub-id></mixed-citation></ref><ref id="R6"><label>6</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Tol</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nagtegaal</surname>
+<given-names>ID</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Punt</surname>
+<given-names>CJA</given-names>
+</string-name>
+</person-group>. <article-title>BRAF mutation in metastatic colorectal cancer</article-title>. <source>N Engl J Med</source>
+<year>2009</year>;<volume>361</volume>:<fpage>98</fpage>–<lpage>9</lpage>. <pub-id pub-id-type="doi">10.1056/NEJMc0904160</pub-id>
+<pub-id pub-id-type="pmid">19571295</pub-id></mixed-citation></ref><ref id="R7"><label>7</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Van Cutsem</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cervantes</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Adam</surname>
+<given-names>R</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>ESMO consensus guidelines for the management of patients with metastatic colorectal cancer</article-title>. <source>Ann Oncol</source>
+<year>2016</year>;<volume>27</volume>:<fpage>1386</fpage>–<lpage>422</lpage>. <pub-id pub-id-type="doi">10.1093/annonc/mdw235</pub-id>
+<pub-id pub-id-type="pmid">27380959</pub-id></mixed-citation></ref><ref id="R8"><label>8</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Engstrom</surname>
+<given-names>PF</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Arnoletti</surname>
+<given-names>JP</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Benson</surname>
+<given-names>AB</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>NCCN clinical practice guidelines in oncology: colon cancer</article-title>. <source>J Natl Compr Canc Netw</source>
+<year>2009</year>;<volume>7</volume>:<fpage>778</fpage>–<lpage>831</lpage>. <pub-id pub-id-type="doi">10.6004/jnccn.2009.0056</pub-id>
+<pub-id pub-id-type="pmid">19755046</pub-id></mixed-citation></ref><ref id="R9"><label>9</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Taniguchi</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yamazaki</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yoshino</surname>
+<given-names>T</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>Japanese Society of medical oncology clinical guidelines: Ras (KRAS/NRAS) mutation testing in colorectal cancer patients</article-title>. <source>Cancer Sci</source>
+<year>2015</year>;<volume>106</volume>:<fpage>324</fpage>–<lpage>7</lpage>. <pub-id pub-id-type="doi">10.1111/cas.12595</pub-id>
+<pub-id pub-id-type="pmid">25800101</pub-id><pub-id pub-id-type="pmcid">PMC4376442</pub-id></mixed-citation></ref><ref id="R10"><label>10</label><mixed-citation publication-type="other">
+<article-title>The knowledge Institute of the Fededation of medical specialists, comprehensive cancer Centrethe Netherlands. Dutch national guidelines colorectal carcinoma</article-title>
+<year>2014</year>.</mixed-citation></ref><ref id="R11"><label>11</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Carter</surname>
+<given-names>GC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Landsman-Blumberg</surname>
+<given-names>PB</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Johnson</surname>
+<given-names>BH</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>KRAS testing of patients with metastatic colorectal cancer in a community-based oncology setting: a retrospective database analysis</article-title>. <source>J Exp Clin Cancer Res</source>
+<year>2015</year>;<volume>34</volume>:<fpage>29</fpage>. <pub-id pub-id-type="doi">10.1186/s13046-015-0146-5</pub-id>
+<pub-id pub-id-type="pmid">25888436</pub-id><pub-id pub-id-type="pmcid">PMC4380249</pub-id></mixed-citation></ref><ref id="R12"><label>12</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Charlton</surname>
+<given-names>ME</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kahl</surname>
+<given-names>AR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Greenbaum</surname>
+<given-names>AA</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>KRAS Testing, Tumor Location, and Survival in Patients With Stage IV Colorectal Cancer: SEER 2010-2013</article-title>. <source>J Natl Compr Canc Netw</source>
+<year>2017</year>;<volume>15</volume>:<fpage>1484</fpage>–<lpage>93</lpage>. <pub-id pub-id-type="doi">10.6004/jnccn.2017.7011</pub-id>
+<pub-id pub-id-type="pmid">29223986</pub-id><pub-id pub-id-type="pmcid">PMC7458121</pub-id></mixed-citation></ref><ref id="R13"><label>13</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Gutierrez</surname>
+<given-names>ME</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Price</surname>
+<given-names>KS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lanman</surname>
+<given-names>RB</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>Genomic Profiling for KRAS, NRAS, BRAF, Microsatellite Instability, and Mismatch Repair Deficiency Among Patients With Metastatic Colon Cancer</article-title>. <source>JCO Precis Oncol</source>
+<year>2019</year>;<volume>3</volume>:<fpage>1</fpage>–<lpage>9</lpage>. <pub-id pub-id-type="doi">10.1200/PO.19.00274</pub-id>
+<pub-id pub-id-type="pmcid">PMC7448804</pub-id><pub-id pub-id-type="pmid">32923867</pub-id></mixed-citation></ref><ref id="R14"><label>14</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Webster</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kauffman</surname>
+<given-names>TL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Feigelson</surname>
+<given-names>HS</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>KRAS testing and epidermal growth factor receptor inhibitor treatment for colorectal cancer in community settings</article-title>. <source>Cancer Epidemiol Biomarkers Prev</source>
+<year>2013</year>;<volume>22</volume>:<fpage>91</fpage>–<lpage>101</lpage>. <pub-id pub-id-type="doi">10.1158/1055-9965.EPI-12-0545</pub-id>
+<pub-id pub-id-type="pmid">23155138</pub-id><pub-id pub-id-type="pmcid">PMC3567775</pub-id></mixed-citation></ref><ref id="R15"><label>15</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Ciardiello</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tejpar</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Normanno</surname>
+<given-names>N</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>Uptake of KRAS mutation testing in patients with metastatic colorectal cancer in Europe, Latin America and Asia</article-title>. <source>Target Oncol</source>
+<year>2011</year>;<volume>6</volume>:<fpage>133</fpage>–<lpage>45</lpage>. <pub-id pub-id-type="doi">10.1007/s11523-011-0181-x</pub-id>
+<pub-id pub-id-type="pmid">21630045</pub-id></mixed-citation></ref><ref id="R16"><label>16</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Casparie</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tiebosch</surname>
+<given-names>ATMG</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Burger</surname>
+<given-names>G</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>Pathology databanking and biobanking in the Netherlands, a central role for PALGA, the nationwide histopathology and cytopathology data network and archive</article-title>. <source>Cell Oncol</source>
+<year>2007</year>;<volume>29</volume>:<fpage>19</fpage>–<lpage>24</lpage>. <pub-id pub-id-type="doi">10.1155/2007/971816</pub-id>
+<pub-id pub-id-type="pmid">17429138</pub-id><pub-id pub-id-type="pmcid">PMC4618410</pub-id></mixed-citation></ref><ref id="R17"><label>17</label><mixed-citation publication-type="webpage">
+<person-group person-group-type="author">
+<collab>ZorgTTP</collab>
+</person-group>, <year>2020</year>. Available: <uri ns1:href="http://www.zorgttp.nl/,http://www.zorgttp.nl/">http://www.zorgttp.nl/,http://www.zorgttp.nl/</uri>
+</mixed-citation></ref><ref id="R18"><label>18</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Spiegelhalter</surname>
+<given-names>DJ</given-names>
+</string-name>
+</person-group>. <article-title>Funnel plots for comparing institutional performance</article-title>. <source>Stat Med</source>
+<year>2005</year>;<volume>24</volume>:<fpage>1185</fpage>–<lpage>202</lpage>. <pub-id pub-id-type="doi">10.1002/sim.1970</pub-id>
+<pub-id pub-id-type="pmid">15568194</pub-id></mixed-citation></ref><ref id="R19"><label>19</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Hong</surname>
+<given-names>DS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fakih</surname>
+<given-names>MG</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Strickler</surname>
+<given-names>JH</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>KRAS<sup>G12C</sup> Inhibition with Sotorasib in Advanced Solid Tumors</article-title>. <source>N Engl J Med</source>
+<year>2020</year>;<volume>383</volume>:<fpage>1207</fpage>–<lpage>17</lpage>. <pub-id pub-id-type="doi">10.1056/NEJMoa1917239</pub-id>
+<pub-id pub-id-type="pmid">32955176</pub-id><pub-id pub-id-type="pmcid">PMC7571518</pub-id></mixed-citation></ref><ref id="R20"><label>20</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Van Cutsem</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Huijberts</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Grothey</surname>
+<given-names>A</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>Binimetinib, Encorafenib, and Cetuximab Triplet Therapy for Patients With BRAF V600E-Mutant Metastatic Colorectal Cancer: Safety Lead-In Results From the Phase III BEACON Colorectal Cancer Study</article-title>. <source>J Clin Oncol</source>
+<year>2019</year>;<volume>37</volume>:<fpage>1460</fpage>–<lpage>9</lpage>. <pub-id pub-id-type="doi">10.1200/JCO.18.02459</pub-id>
+<pub-id pub-id-type="pmid">30892987</pub-id><pub-id pub-id-type="pmcid">PMC7370699</pub-id></mixed-citation></ref><ref id="R21"><label>21</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Tabernero</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Grothey</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Van Cutsem</surname>
+<given-names>E</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>Encorafenib Plus Cetuximab as a New Standard of Care for Previously Treated BRAF V600E-Mutant Metastatic Colorectal Cancer: Updated Survival Results and Subgroup Analyses from the BEACON Study</article-title>. <source>J Clin Oncol</source>
+<year>2021</year>;<volume>39</volume>:<fpage>273</fpage>–<lpage>84</lpage>. <pub-id pub-id-type="doi">10.1200/JCO.20.02088</pub-id>
+<pub-id pub-id-type="pmid">33503393</pub-id><pub-id pub-id-type="pmcid">PMC8078423</pub-id></mixed-citation></ref><ref id="R22"><label>22</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Fakih</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Desai</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kuboki</surname>
+<given-names>Y</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>CodeBreak 100: Activity of AMG 510, a novel small molecule inhibitor of KRAS <sup>G12C</sup>, in patients with advanced colorectal cancer</article-title>. <source>J Clin Oncol</source>
+<year>2020</year>;<volume>38</volume>:<elocation-id>4018</elocation-id>. <pub-id pub-id-type="doi">10.1200/JCO.2020.38.15_suppl.4018</pub-id>
+</mixed-citation></ref><ref id="R23"><label>23</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Behl</surname>
+<given-names>AS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Goddard</surname>
+<given-names>KAB</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Flottemesch</surname>
+<given-names>TJ</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>Cost-effectiveness analysis of screening for KRAS and BRAF mutations in metastatic colorectal cancer</article-title>. <source>J Natl Cancer Inst</source>
+<year>2012</year>;<volume>104</volume>:<fpage>1785</fpage>–<lpage>95</lpage>. <pub-id pub-id-type="doi">10.1093/jnci/djs433</pub-id>
+<pub-id pub-id-type="pmid">23197490</pub-id><pub-id pub-id-type="pmcid">PMC3514165</pub-id></mixed-citation></ref><ref id="R24"><label>24</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Tol</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Koopman</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cats</surname>
+<given-names>A</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>Chemotherapy, bevacizumab, and cetuximab in metastatic colorectal cancer</article-title>. <source>N Engl J Med</source>
+<year>2009</year>;<volume>360</volume>:<fpage>563</fpage>–<lpage>72</lpage>. <pub-id pub-id-type="doi">10.1056/NEJMoa0808268</pub-id>
+<pub-id pub-id-type="pmid">19196673</pub-id></mixed-citation></ref><ref id="R25"><label>25</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<string-name name-style="western">
+<surname>Bokemeyer</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bondarenko</surname>
+<given-names>I</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hartmann</surname>
+<given-names>JT</given-names>
+</string-name>, <etal>et al</etal>
+</person-group>. <article-title>Kras status and efficacy of first-line treatment of patients with metastatic colorectal cancer (mCRC) with FOLFOX with or without cetuximab: the OPUS experience</article-title>. <source>J Clin Oncol</source>
+<year>2008</year>;<volume>26</volume>:<elocation-id>4000</elocation-id>. <pub-id pub-id-type="doi">10.1200/jco.2008.26.15_suppl.4000</pub-id>
+</mixed-citation></ref><ref id="R26"><label>26</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<collab>Medical Advisory Secretariat</collab>
+</person-group>. <article-title>KRAS testing for anti-EGFR therapy in advanced colorectal cancer: an evidence-based and economic analysis</article-title>. <source>Ont Health Technol Assess Ser</source>
+<year>2010</year>;<volume>10</volume>:<fpage>1</fpage>–<lpage>49</lpage>.
+<pub-id pub-id-type="pmcid">PMC3377508</pub-id><pub-id pub-id-type="pmid">23074403</pub-id></mixed-citation></ref></ref-list></back></article>

@@ -1,0 +1,217 @@
+# Accurate detection of KRAS, NRAS and BRAF mutations in metastatic colorectal cancers by bridged nucleic acid-clamp real-time PCR
+
+Authors: Yuki Nagakubo, Yosuke Hirotsu, Kenji Amemiya, Toshio Oyama, Hitoshi Mochizuki, Masao Omata
+
+Journal: BMC Medical Genomics
+
+PMCID: PMC6849194
+
+PMID: 31711486
+
+DOI: 10.1186/s12920-019-0610-8
+
+Canonical source: https://pmc.ncbi.nlm.nih.gov/articles/PMC6849194/
+
+## Abstract
+
+## Background
+
+Patients with metastatic colorectal cancer can benefit from anti-EGFR therapy, such as cetuximab and panitumumab. However, colorectal cancers harboring constitutive activating mutations in KRAS, NRAS and BRAF genes are not responsive to anti-EGFR therapy. To select patients for appropriate treatment, genetic testing of these three genes is routinely performed.
+
+## Methods
+
+We applied bridged nucleic acid-clamp real-time PCR (BNA-clamp PCR) to detect somatic hotspot mutations in KRAS, NRAS and BRAF. PCR products from BNA-clamp PCR were subsequently analyzed Sanger sequencing. We then compared results with those from the PCR–reverse sequence-specific oligonucleotide probe (PCR-rSSO) method, which has been used as in vitro diagnostic test in Japan. To validate the mutation status, we also performed next generation sequencing using all samples.
+
+## Results
+
+In 50 formalin-fixed paraffin-embedded tissues, KRAS mutations were detected at frequencies of 50% (25/50) and 52% (26/50) by PCR-rSSO and BNA-clamp PCR with Sanger sequencing, respectively, and NRAS mutations were detected at 12% (6/50) and 12% (6/50) by PCR-rSSO and BNA-clamp PCR with Sanger sequencing, respectively. The concordance rate for detection of KRAS and NRAS mutations between the two was 94% (47/50). However, there were three discordant results. We validated these three discordant and 47 concordant results by next generation sequencing. All mutations identified by BNA-clamp PCR with Sanger sequencing were also identified by next generation sequencing. BNA-clamp PCR detected BRAF mutations in 6% (3/50) of tumor samples.
+
+## Conclusions
+
+Our results indicate that BNA-clamp PCR with Sanger sequencing detects somatic mutations in KRAS, NRAS and BRAF with high accuracy.
+
+## Full article
+
+## Background
+
+The incidence of colorectal cancer has been increasing. Metastatic colorectal cancers have a high mortality rate with a five-year survival rate of less than 10%. Genetic alterations in RAS–MAPK and PI3K–AKT pathway are common in colorectal cancers. The most recurrently mutated genes in these pathways are KRAS (Kirsten rat sarcoma viral oncogene homolog, OMIM: 190070), NRAS (neuroblastoma RAS viral oncogene homolog, OMIM: 164790) and BRAF (v-raf murine sarcoma viral oncogene homolog B1, OMIM: 164757). Monoclonal antibodies against the epidermal growth factor receptor (EGFR), including cetuximab and panitumumab, have been used to treat patients with metastatic colorectal cancer. These antibodies bind to the extracellular domain of EGFR and inhibit its downstream signaling, which mainly affects cell proliferation and survival via RAS-RAF-MEK-ERK and PI3K-AKT pathways.
+
+Anti-EGFR therapy is beneficial in approximately 15% of patients with wild-type KRAS metastatic colorectal tumors, whereas patients with KRAS-mutated tumors show little response [1–5]. Furthermore, anti-EGFR therapy is more beneficial to patients with wild-type NRAS and BRAF [6–8]. It is well-known that somatic hotspot mutations are located in codons 12 and 13 (exon 2), codons 59 and 61 (exon 3), and codons 117 and 146 (exon 4) of KRAS and NRAS genes, and in codon 600 (exon 15) in BRAF. In colorectal cancers, KRAS mutations are observed in 42% of cases, while mutations in NRAS (10%) and BRAF (10%) are less frequent [9, 10]. KRAS, NRAS and BRAF mutations occur in colorectal cancers in a mutually exclusive manner [10].
+
+Genetic analysis of somatic hotspot mutations in KRAS, NRAS and BRAF is now standard practice for selecting patients for anti-EGFR therapies. To simultaneously detect different types of mutations by real-time PCR, we tested the bridged nucleic acid (BNA)-clamp technique [11]. A BNA is an artificial nucleic acid that strongly binds to a complementary DNA structure [12]. BNA-clamp PCR enables mutations to be detected because the melting temperature of a perfectly matched BNA-DNA duplex is much higher than that of DNA-DNA duplex [13–15]. Furthermore, mutated alleles can be selectively amplified because the BNA clamp oligonucleotide inhibits amplification of the wild-type allele.
+
+In this study, we examined the clinical utility of the BNA-clamp PCR technique to detect KRAS, NRAS and BRAF mutations. To this end, we determined the mutation status of 50 patients with colorectal cancer from formalin-fixed paraffin embedded (FFPE) tissues and compared these results with those from the PCR–reverse sequence-specific oligonucleotide probe (PCR-rSSO) method, which is approved for in vitro diagnostic test for analyzing KRAS, NRAS and BRAF in patients with colorectal cancer in Japan [16]. To validate the mutations status in three genes, we conducted panel sequencing by next generation sequencing (NGS) [17–27].
+
+## Methods
+
+### Samples and study design
+
+We collected tumor tissues from 50 patients with colorectal cancer between November 2010 and February 2016 and prepared FFPE samples from these tissues. The samples were analyzed by SRL Inc. (Tokyo, Japan) using an in-vitro diagnostic PCR-rSSO kit. We analyzed the same tumor samples by the BNA-clamp method.
+
+To estimate the concordant and discordant results were obtained by the two methods, validation was performed by next generation sequencing (NGS) analysis using an Ion PGM system (Thermo Fisher Scientific, MA, USA) [17, 18, 24, 28]. The Institutional Review Board of clinical research and genome research committee at Yamanashi Central Hospital approved this retrospective study and written informed consent was obtained from patients. Patients had the opportunity to refuse to participate in the study.
+
+### PCR-rSSO
+
+Five 10-μm thick sections from each of the 50 FFPE tissues were analyzed by PCR-rSSO using a MEBGEN™ RASKET kit (MBL, Nagoya, Japan) [29, 30]. This analysis was performed by SRL Inc. (Tokyo, Japan). The PCR-rSSO kit detected 48 types of mutation in KRAS and NRAS, but did not target BRAF. In brief, multiplex PCR amplified codons 12, 13, 59, 61, 117 and 146 in KRAS and NRAS using eight sets of biotinylated primer pairs. PCR products were hybridized with complementary mutated probes immobilized on fluorescent-beads. After washing, the hybridized beads were mixed with phycoerythrin-labeled streptavidin (SA-PE) solution. Fluorescence was detected on a Luminex100/200 instrument (Luminex) and the types of mutation Identified.
+
+### BNA-clamp PCR
+
+For each of the 50 samples, DNA was extracted from two 10-μm thick FFPE sections and from five 10-μm thick tumor biopsy sections using an Agencourt FormaPure DNA kit (Beckman Coulter, CA, USA) according to the manufacturer’s protocol. DNA concentration was determined using a NanoDrop 2000 spectrophotometer (Thermo Fisher Scientific). If tumor purity was less than 10%, we performed laser capture microdissection to enrich for tumor cells. To this end, tumor tissues were stained with hematoxylin and eosin, and then microdissected using an ArcturusXT laser capture microdissection system (Thermo Fisher Scientific).
+
+To detect mutations in KRAS, NRAS and BRAF, we used a BNA Real-time PCR Mutation Detection Kit Extended RAS (Riken Genesis, Tokyo, Japan). This kit contains nine types of BNA-probe, primers and PCR enzymes for detecting mutations by quantitative real-time PCR. Nine types of primer/probes were designed in house to target KRAS at codons 12/13, 59/61, 117 and 146, NRAS at codons 12/13, 59/61, 117 and 146, and BRAF at codon 600. The BNA is an artificial nucleic acid that hybridizes to a perfectly matched template with high affinity. A BNA clamp selectively inhibits PCR of the wild-type template, but does not influence a mutated template [12]. According to the manufacturer’s protocol, the reaction mixture comprised 12.5 μL 2x Master Mix, 2.5 μL 10x Oligo mix, 0.4 μL 25 μM ROX™ Reference Dye, 0.25 μL Uracil-N-glycosylase (UNG), and 20–100 ng FFPE DNA in a 25 μL total volume. Real-time PCR was conducted on a ViiA7 Real Time System (Thermo Fisher Scientific) with the following cycling conditions: 50 °C for 3 min, 95 °C for 2 min, and 40 cycles of 95 °C for 30 s and 60 °C for 45 s. The data were analyzed using ViiA7 software v2.2.2 (Thermo Fisher Scientific). The threshold line was set at 0.04. The threshold cycle (Ct) value was assigned to each PCR reaction and amplification curve was visually assessed. When amplification plot did not reach to threshold line, we examined whether the sample harbored mutations by Sanger sequencing using BNA-clamp PCR products (Additional file 4: Table S1).
+
+### Sanger sequencing
+
+To further determine nucleotide changes and to characterize the deduced amino acid changes, we performed Sanger sequencing on samples, in which PCR amplification plot was observed but did not reached to threshold line by BNA-clamp PCR. BNA-clamp PCR products were purified using ExoSAP-IT Express PCR Cleanup Reagent (Thermo Fisher Scientific) [31, 32]. Purified products were used as templates and Sanger sequencing was performed using the BNA Real-time PCR Extended RAS Mutation Sequencing Primer (Riken Genesis) and the BigDye® Terminator v3.1 Cycle Sequencing Kit (Thermo Fisher Scientific). Sequencing reactions consisted of 1.0 μL template PCR product, 0.5 μL 3.2 μM forward primer or 0.5 μL 3.2 μM reverse primer, 2 μL Big Dye Buffer, 1 μL BigDye v3.1 and 5.5 μL nuclease free water. PCR was conducted on a Veriti Thermal Cycler (Thermo Fisher Scientific) with the following cycling conditions (BigDye_Kit _Fast): 96 °C for 1 min, 25 cycles of 96 °C for 10 s, 50 °C for 5 s and 60 °C for 75 s, and hold at 4 °C. PCR products were purified with a BigDye XTerminator Purification Kit (Thermo Fisher Scientific) and subsequently sequenced on a 3500 Genetic Analyzer (Thermo Fisher Scientific). The data were analyzed by Sequencing Analysis Software v5.4 (Thermo Fisher Scientific) [18, 25, 33].
+
+### Validation by NGS
+
+Sequencing libraries were prepared using the Ion AmpliSeq Library Kit Plus (Thermo Fisher Scientific) as previously described [17, 19, 23, 28, 34]. Briefly, multiplex PCR was performed using the Ion AmpliSeq™ Cancer Hotspot Panel v2 (Thermo Fisher Scientific), which targets the hotspot regions of 50 oncogenes and tumour suppressor genes [17–28, 32–37]. PCR products were partially digested with FuPa reagent and subsequently ligated to adaptors and barcodes using the Ion Xpress Barcode Adapters Kit (Thermo Fisher Scientific). The ligated library was purified with Agencourt AMPure XP reagent (Beckman Coulter, Brea, CA), and the library concentration was determined using an Ion Library Quantitation Kit (Thermo Fisher Scientific). Each library was diluted and the same amount of each was pooled. Emulsion PCR and chip loading was performed on an Ion Chef with the Ion PGM Hi-Q View Chef Kit. Sequencing was performed using an Ion PGM Hi-Q View Sequencing Kit on the Ion PGM (Thermo Fisher Scientific). Variant calling and annotation were performed using an Ion Reporter Server System (Thermo Fisher Scientific). We identified nonsynonymous mutations with the AmpliSeq CHPv2 single sample workflow (version 5.10) and used the following filtering parameters: (i) a minimum count of ≥10 for mutant allele reads, (ii) coverage depth ≥ 20 at the somatic variant site, (iii) variant allele faction ≥5%, and p-value cut-off of 0.05, and (iv) variants present in the dbSNP database (version 138) were filtered out (UCSC Common SNPs = Not In) [24, 27]. Binary SAM (BAM) files were visualized by Ion Reporter™ Genomic Viewer.
+
+### Sensitivity determination
+
+To examine sensitivity testing experiments, TaqMan™ Control Genomic DNA (human) (Thermo Fisher Scientific) was spiked with different amounts of Horizon Tru-Q 7 (1.3% Tier) Reference Standard (Horizon Discovery, Cambridge, UK) harboring engineered mutations. The mixtures represented 1–33% and 0.4–12% variant allele fraction range in KRAS at codon 12/13 and BRAF at codon 600, respectively. The total number of DNA molecules was kept in constant.
+
+## Results
+
+### KRAS and NRAS mutations detected by PCR-rSSO
+
+We analyzed FFPE tissues from 50 patients with colorectal cancer. DNA was extracted from sections and subjected to PCR-rSSO (Fig. 1). Of 50 samples, at least one mutation in either KRAS or NRAS was detected in 31 samples (Table 1). Twenty five mutations were found in KRAS (17 at codon 12, 5 at codon 13, 1 at codon 61, and 2 at codon 146). Six mutations were detected in NRAS (2 at codon 12, 1 at codon 13, and 3 at codon 61). Fig. 1Experimental design. We tested FFPE samples from 50 patients with colorectal cancer. Tissue sections were subjected to PCR-rSSO and BNA-clamp PCR. BNA-clamp PCR involved real-time PCR and amplified the mutated allele. The amplification plot was verified using mutation-positive samples and an internal control was amplified to confirm assay integrity. PCR products from BNA-clamp PCR were subsequently analyzed by Sanger sequencing to confirm the nucleotide changes Table 1Comparison of KRAS and NRAS mutation status determined by PCR-rSSO, BNA-clamp PCR and NGSPCR-rSSOBNA-clamp PCRDeep sequencing by NGSSample No.Nucleotide changesDeduced amino acid changesNucleotide changesDeduced amino acid changesNucleotide changesDeduced amino acid changes#1Wild-typeWild-typec.180_181delTCinsAAKRAS Q61Kc.180_181delTCinsAAKRAS Q61K#2c.34G > TNRAS G12CWild-typeWild-typeWild-typeWild-type#3c.436G > AKRAS A146Tc.436G > AKRAS A146Tc.436G > AKRAS A146TWild-typeWild-typec.35G > ANRAS G12Dc.35G > ANRAS G12D#4c.35G > CKRAS G12Ac.35G > CKRAS G12Ac.35G > CKRAS G12A#5c.35G > CKRAS G12Ac.35G > CKRAS G12Ac.35G > CKRAS G12A#6c.35G > CKRAS G12Ac.35G > CKRAS G12Ac.35G > CKRAS G12A#7c.34G > TKRAS G12Cc.34G > TKRAS G12Cc.34G > TKRAS G12C#8c.35G > AKRAS G12Dc.35G > AKRAS G12Dc.35G > AKRAS G12D#9c.35G > AKRAS G12Dc.35G > AKRAS G12Dc.35G > AKRAS G12D#10c.35G > AKRAS G12Dc.35G > AKRAS G12Dc.35G > AKRAS G12D#11c.35G > AKRAS G12Dc.35G > AKRAS G12Dc.35G > AKRAS G12D#12c.35G > AKRAS G12Dc.35G > AKRAS G12Dc.35G > AKRAS G12D#13c.35G > AKRAS G12Dc.35G > AKRAS G12Dc.35G > AKRAS G12D#14c.35G > AKRAS G12Dc.35G > AKRAS G12Dc.35G > AKRAS G12D#15c.35G > AKRAS G12Dc.35G > AKRAS G12Dc.35G > AKRAS G12D#16c.34G > AKRAS G12Sc.34G > AKRAS G12Sc.34G > AKRAS G12S#17c.34G > AKRAS G12Sc.34G > AKRAS G12Sc.34G > AKRAS G12S#18c.35G > TKRAS G12 Vc.35G > TKRAS G12 Vc.35G > TKRAS G12 V#19c.35G > TKRAS G12 Vc.35G > TKRAS G12 Vc.35G > TKRAS G12 V#20c.35G > TKRAS G12 Vc.35G > TKRAS G12 Vc.35G > TKRAS G12 V#21c.38G > AKRAS G13Dc.38G > AKRAS G13Dc.38G > AKRAS G13D#22c.38G > AKRAS G13Dc.38G > AKRAS G13Dc.38G > AKRAS G13D#23c.38G > AKRAS G13Dc.38G > AKRAS G13Dc.38G > AKRAS G13D#24c.38G > AKRAS G13Dc.38G > AKRAS G13Dc.38G > AKRAS G13D#25c.38G > AKRAS G13Dc.38G > AKRAS G13Dc.38G > AKRAS G13D#26c.182A > TKRAS Q61Lc.182A > TKRAS Q61Lc.182A > TKRAS Q61L#27c.436G > AKRAS A146Tc.436G > AKRAS A146Tc.436G > AKRAS A146T#28c.35G > ANRAS G12Dc.35G > ANRAS G12Dc.35G > ANRAS G12D#29c.38G > TNRAS G13 Vc.38G > TNRAS G13 Vc.38G > TNRAS G13 V#30c.181C > ANRAS Q61Kc.181C > ANRAS Q61Kc.181C > ANRAS Q61K#31c.181C > ANRAS Q61Kc.181C > ANRAS Q61Kc.181C > ANRAS Q61K#32c.182A > GNRAS Q61Rc.182A > GNRAS Q61Rc.182A > GNRAS Q61R#33NANAc.1799 T > ABRAF V600Ec.1799 T > ABRAF V600E#34NANAc.1799 T > ABRAF V600Ec.1799 T > ABRAF V600E#35NANAc.1799 T > ABRAF V600Ec.1799 T > ABRAF V600E#36–50Wild-typeWild-typeWild-typeWild-typeWild-typeWild-typeNA not applicable
+
+### KRAS and NRAS mutations detected by BNA-clamp PCR with Sanger sequencing
+
+We also analyzed the 50 samples for KRAS and NRAS mutations using BNA-clamp PCR (Fig. 1). Of 50 samples, amplification plots of 26 samples reached to threshold, but those of five samples did not reached (Supplemental Table 1). In these five samples, we detected either KRAS and/or NRAS mutations by Sanger sequencing using PCR product of BNA-clamp PCR. Therefore, at least one mutation in KRAS or NRAS was identified in 31 samples (Table 1). Twenty six mutations were found in KRAS (17 at codon 12, 5 at codon 13, 2 at codon 61, and 2 at codon 146). Six mutations were identified in NRAS (2 at codon 12, 1 at codon 13, and 3 at codon 61). In one sample (sample #3), two mutations (KRAS at codon 146 and NRAS at codon 12) were identified (Table 1).
+
+### Comparison of identified mutations by PCR-rSSO and BNA-clamp PCR with Sanger sequencing
+
+We next compared the KRAS and NRAS mutation status identified by the two different methods. There was 94% (47/50) concordance between PCR-rSSO and BNA-clamp PCR with Sanger sequencing. Positive percent agreement was 94% (29/31) and negative percent agreement was 95% (18/19). In three samples (sample #1-#3 in Table 1), there were discordant results. In sample #1, KRAS c.180_181delTCinsAA (p.Q61K) was detected by BNA-clamp PCR, but not by PCR-rSSO (Table 1). In sample #2, NRAS c.34G > T (p.G12C) was detected by PCR-rSSO, but not by BNA-clamp PCR. In sample #3, BNA-clamp PCR with Sanger sequencing identified two nucleotide changes, KRAS c.436G > A (p.A146T) and NRAS c.35G > A (p.G12D), whereas PCR-rSSO identified only one nucleotide change, KRAS c.436G > A.
+
+### Validation by NGS
+
+To validate the results from the two methods, we subjected the three discordant samples (samples #1-#3) as well as 47 concordant samples (#4-#50) to NGS covering hotspot mutations of 50 cancer-associated genes. NGS yielded the sufficient sequencing reads mapped on the target regions (mean: 97%) and an average base coverage depth on targeted reference region (mean: 10,849-fold) (Table 2). Table 2Quality and coverage depth of next generation sequencingSampleMapped readsOn targetMean depthUniformity#13,896,30898%17,98498%#22,686,90398%12,26296%#31,202,87098%505780%#42,101,69798%946792%#52,069,59394%893599%#62,623,48898%11,77590%#72,950,28997%13,05699%#81,834,91798%822787%#93,270,77298%14,83696%#103,957,90699%18,101100%#112,980,02698%13,450100%#121,518,77098%686486%#132,569,73991%10,930100%#143,089,05399%14,112100%#153,471,55799%15,934100%#162,385,27298%10,83290%#172,990,67099%14,066100%#182,803,95498%12,871100%#191,818,39397%808699%#20649,51097%279492%#213,236,15699%14,95099%#222,215,85498%9819100%#232,600,28999%11,94298%#242,487,26797%11,07796%#252,127,00698%955585%#261,227,27068%334175%#272,386,36095%10,36699%#283,042,16298%13,66595%#293,321,95298%14,75696%#302,905,12398%12,93492%#312,437,11498%10,95890%#323,031,33997%13,56698%#332,819,33598%12,76693%#342,335,61098%10,53282%#353,136,40197%14,13898%#362,583,62597%11,88599%#371,987,56196%888697%#381,161,90995%518198%#391,592,15398%733797%#401,421,96698%649091%#411,716,68398%785493%#422,121,08599%992097%#431,970,85198%892899%#442,510,67099%11,60899%#451,398,96298%623199%#462,872,51797%13,06398%#471,760,82897%792897%#482,259,83297%991590%#491,948,99998%892199%#503,134,12698%14,28796%Mapped reads: number of sequencing reads that were mapped to the human genomeOn target: percentage of mapped reads that were aligned over the target regionMean depth: Average base coverage depth over all bases targeted in the referenceUniformity: percentage of target bases covered by at least 0.2x the average base read depth
+
+NGS detected KRAS c.180_181delTCinsAA (p.Q61K) in sample #1, KRAS c.205G > A (p.D69N) in sample #2 and KRAS c.436G > A (p.A146T) and NRAS c.35G > A (p.G12D) mutations in sample #3 (Table 3). Although NRAS c.34G > T (p.G12C) was identified by PCR-rSSO in sample #2, this mutation was not identified by NGS. Both BNA-clamp PCR and PCR-rSSO methods did not detect NRAS p.D69N in sample #2, because this variant was not covered by either method (Table 3). Furthermore, remaining 47 samples were concordant among PCR-rSSO, BNA-clamp PCR with Sanger sequencing and NGS. Overall, the NGS results were concordant with those of BNA-clamp PCR with Sanger sequencing. These results indicate that KRAS and NRAS mutations were accurately detected by BNA-clamp PCR with Sanger sequencing. Table 3Mutations in discordant samples identified by next generation sequencing using a panel of 50 cancer-associated genesSample No.PositionReferenceVariantGeneNucleotide changesDeduced amino acid changesVAF (%)coverage#1chr12:25380277GATTKRASc.180_181delTCinsAAQ61K23.51982#2chr1:115256506CTNRASc.205G > AD69N17.51995chr14:105246470CTAKT1c.130G > AD44N5.52000chr17:7578431GATP53c.499C > TQ167*21.11970chr19:1223030CTSTK11c.967C > TP323S5.12000chr19:1223054CTSTK11c.991C > TR331W5.11997#3chr12:25378562CTKRASc.436G > AA146T28.31161chr1:115258747CTNRASc.35G > AG12D9.11998chr3:37067240TAMLH1c.1151 T > AV384D21.61998chr5:112173917CTAPCc.2626C > TR876*16.12000chr5:112175589CTAPCc.4298C > TP1433L7.42000chr13:49033902TCRB1c.2039 T > CI680T6.51628chr17:7577551CATP53c.730G > TG244C12.62000chr17:7578479GATP53c.451C > TP151S18.02000chr19:1223125CGSTK11c.1062C > GF354 L41.2818Bold text indicates mutations covered by BNA-clamp and PCR-rSSOVAF variant allele frequency
+
+To examine the reasons for the discordant results, we checked the NGS results and BNA-clamp PCR with Sanger sequencing. In sample #1, harboring KRAS p.Q61K, there were multi-nucleotide variants (c.180_181delTCinsAA) across codon 60 and 61 (Fig. 2 and Table 3). The nucleotide change at codon 60 (GGT > GGA) led to a synonymous mutation (KRAS p.G60G). Because PCR-rSSO detects only perfectly-matched single nucleotide variants, it did not detect the multi-nucleotide variants [29]. In sample #2, NRAS c.34G > T (p.G12C) was not identified by either BNA-clamp PCR or NGS (Fig. 2 and Additional file 2: Figure S2). Fig. 2Discordant results were validated by NGS and Sanger sequencing. a-c Representative images of read alignments (BAM files) of sample #1 (a), #2 (b) and #3 (c) were visualized with Ion Reporter Genome Viewer (upper images). PCR products produced by BNA-clamp PCR were purified and used as templates for Sanger sequencing. Sequencing chromatograms show the mutations in each sample (lower image). Arrows indicate the position of the mutations. a In sample #1, KRAS p.Q61K was detected by NGS. At this site, multi-nucleotide variants (c.180_181delTCinsAA) existed in codons 60 and 61. b In sample #2, there was no apparent variant at codon 12 of NRAS. We did not observe an amplification plot signal by real-time PCR and obtained no visible PCR product for subsequent Sanger sequencing analysis. c Two different mutations (NRAS p.G12D and KRAS p.A146T) were observed in sample #3
+
+### BRAF mutations
+
+BRAF mutations occur in approximately 10% of colorectal cancers and are associated with resistance to anti-EGFR therapy [9]. PCR-rSSO using the MEBGEN™ RASKET kit did not cover BRAF mutations. However, BRAF mutations were detected by BNA-clamp PCR and NGS in 3 of the 50 (6%) samples (sample #33–35), which were wild-type for KRAS and NRAS (Table 1).
+
+### Turnaround time
+
+We assessed the turnaround time of PCR-rSSO and BNA-clamp PCR methods. It takes approximately 4.5 h with PCR-rSSO, whereas 2 h with BNA-clamp PCR. Because PCR-rSSO method uses DNA-probe for hybridization to detect mutated DNA, it takes more long time for hybridize reaction. Contrary, BNA-clamp method contains mixed BNA-clamping probe and primers in reaction reagent and needs one-step real-time PCR reaction for detecting mutation. If PCR product of BNA-clamp PCR is analyzed by Sanger sequencing, it additionally takes about 3 h. Combined with BNA-clamp PCR and Sanger sequencing, it takes a total of 5 h.
+
+## Discussion
+
+In this study, we compared mutation detection in KRAS and NRAS genes between PCR-rSSO and BNA-clamp PCR with Sanger sequencing. Overall, the concordance rate was 94% (47/50 samples) between the two methods. However, there were three discordant results which were further analyzed by NGS with high-depth coverage. The NGS results were consistent with the results of BNA-clamp PCR with Sanger sequencing. Our results demonstrated the BNA-clamp PCR method with Sanger sequencing have high accuracy for the detection of KRAS, NRAS and BRAF mutations in colorectal cancer.
+
+According to manufacturer’s instructions, the limit of detections of both BNA-clamp PCR and PCR-rSSO methods were 1–5%. We confirmed the sensitivity by diluted experiment of BNA-clamp PCR (Additional file 3: Figure S3). Although the performance of sensitivity is comparable, BNA-clamp PCR with Sanger sequencing has several advantages. First, it requires only standard clinical laboratory equipment (e.g. a real-time PCR and capillary sequencer). We could qualitatively evaluate the presence of mutations by real-time PCR. The BNA probe binds to wild-type template DNA and inhibits its PCR amplification, whereas mutated alleles are selectively amplified during real-time PCR (Additional file 1: Figure S1). Second, BNA-clamp PCR can analyze multi-nucleotide variants within KRAS, NRAS and BRAF genes. Third, BNA-clamp PCR is a simple method with a short turnaround time. PCR-rSSO takes 4.5 h per run: PCR reaction (2.3 h), hybridization (1.4 h) and detection of fluorescence with dedicated equipment (0.8 h). BNA-clamp PCR takes only 2 h per run: preparation of PCR master mix (0.5 h) and real time PCR reaction (1.5 h). Even when PCR products of BNA-clamp PCR were investigate by the Sanger sequencing, it takes about 30 min longer compared to PCR-rSSO. Fourth, the running cost is lower than PCR-rSSO; it costs approximately 50 USD per BNA-clamp PCR reaction compared with approximately 178 USD per PCR-rSSO reaction. It costs additionally 20 USD when Sanger sequencing is conducted.
+
+We examined the three discordant results between PCR-rSSO with Sanger sequencing and BNA-clamp methods. The reason for discordance was explained in only sample #1. The PCR-rSSO method detects perfectly-matched mutated alleles in tumor samples; therefore, it missed the KRAS multi-nucleotide variant, c.180_181delTCinsAA, and reported this site as wild type (Table 1). A previous report also showed PCR-rSSO could not detect KRAS p.G12C because of a multi-nucleotide variant at codon 11 (c.33_34delTGinsCT) [29]. In sample #2, PCR-rSSO reported an NRAS c.34G > T (p.G12C) mutation but both BNA-clamp PCR and deep sequencing did not. To exclude the possibility that the variant calling filtered out the NRAS mutation, we further visualized BAM data using Ion Reporter™ Genomic Viewer. However, we could not confirm the corresponding mutated reads in NRAS (Additional file 2: Figure S2). In sample #3, both BNA-clamp PCR and NGS detected the NRAS (c.35G > A) p.G12D mutation at 9.1% variant allele fraction. Although the reagent kit included a perfectly-matched probe corresponding to NRAS c.35G > A (p.G12D), PCR-rSSO did not detect this mutation.
+
+The reasons for these two discordant results remain unclear, but one possible explanation is tumor heterogeneity. We prepared sections from patient FFPE tissues and each method analyzed different sections (Fig. 1). PCR-rSSO was conducted by a commercial laboratory on tissue without microdissection. In contrast, BNA-clamp PCR with Sanger sequencing and NGS used microdissected tumor tissue samples (Arcturus; Thermo Fisher Scientific, MA, USA) [19, 38]. Alternatively, there may be differences in quality control between laboratories. Our laboratory (GAC-Genome Analysis Center) sent specimens to the College of American Pathologists (CAP) for proficiency testing and achieved a 100% match.
+
+BNA-clamp PCR has limitations. Although we could identify the presence of mutations in samples by real-time PCR, Sanger sequencing is needed to determine the nucleotide changes. In addition, the kit contains nine primer/probe mixtures, which are designed to interrogate KRAS, NRAS and BRAF exons. When a small number of samples (less than eight) is to be tested, they can be analyzed in one reaction in a 96-well format. When more samples need to be analyzed, several real-time PCRs are needed. Therefore, small to medium numbers of samples are suitable for analysis by BNA-clamp PCR. In one sample (#3), the amplification plot did not reached to threshold line by BNA-clam PCR, though variant allele fraction of KRAS A146T and NRAS G12D by the NGS were 28.3 and 9.1%, respectively. Although the precise reason is not unclear, there are several possibilities. One is the quality of the DNA from FFPE tissue. Fragmented FFPE DNA may be not effectively amplified by BNA-clamp PCR in this sample. Second possibility may be the difference of DNA polymerase enzyme used for reaction. In general, high-activity and fidelity DNA polymerase is used in NGS library construction. The PCR amplification efficiency may be different between BNA-clamp PCR and NGS. According to these possibilities, NGS could detect the mutation nevertheless less quality of DNA was used as long as targeted regions was successfully amplified and NGS library was constructed.
+
+Overall, we confirmed the clinical utility of BNA-clamp PCR for detecting KRAS, NRAS and BRAF mutations in colorectal cancers. This less time-consuming and less laborious method can enable precision medicine to be offered to patients with metastatic colorectal cancers, such as anti-EGFR therapy. Furthermore, circulating tumor DNA (ctDNA) was shed into the blood stream and body fluids, called as liquid biopsy. The detection of ctDNA is useful for monitoring tumor recurrence, predicting treatment effect and detecting drug-resistant mutation in patients with colorectal cancer. BNA-clamp PCR would be one of the candidate methods for detecting rare mutations in liquid biopsy in a clinical laboratory.
+
+## Conclusions
+
+In this study, we estimated the performance of BNA-clamp PCR with Sanger sequencing method to detect KRAS, NRAS and BRAF mutations in colorectal cancers and compared the results from PCR-rSSO and NGS. BNA-clamp PCR accurately detected KRAS, NRAS and BRAF mutations in patients with colorectal cancer. Genetic testing by BNA-clamp PCR with Sanger sequencing has potential to be used in routine clinical practice for the selection of appropriate patients for anti-EGFR therapy.
+
+## Supplementary information
+
+### Section
+
+Additional file 1: Figure S1. Principle of BNA-clamp PCR. Forward and reverse primers amplify the targeted mutation. A BNA probe binds to the wild-type allele but not to the mutated allele. The BNA probe selectively inhibits PCR amplification of the wild-type allele. F, fluorescence; Q, quencher. Additional file 2: Figure S2. Sequence reads were visualized by Ion Reporter Genome Viewer. Representative images of read alignments (BAM files) of sample #2 were visualized with Ion Reporter Genome Viewer. There are no mutated reads corresponding to NRAS p.G12C (c.34G > T: chr1:115,258,748) in the next generation sequencing data. Additional file 3: Figure S3. Amplification plot of dilution experiment by BNA-clamp PCR method. Wild-type control DNA was spiked in the Tru-Q 7 (1.3% Tier) Reference Standard. BNA-clamp PCR was performed using serial dilution DNA. (A) DNA containing KRAS mutation at codon 12/13 (dilution range: 1–33% variant allele fraction) and (B) BRAF mutation at codon 600 (dilution range: 0.4–12% variant allele fraction). Additional file 4: Table S1. Threshold cycle values of real-time PCR using BNA-clamp PCR method.
+
+Binary SAM
+
+Bridged nucleic acid
+
+bridged nucleic acid-clamp real-time PCR
+
+v-raf murine sarcoma viral oncogene homolog B1
+
+College of American Pathologists
+
+Epidermal growth factor receptor
+
+Formalin-fixed paraffin embedded
+
+Kirsten rat sarcoma viral oncogene homolog
+
+Next generation sequencing
+
+Neuroblastoma RAS viral oncogene homolog
+
+PCR–reverse sequence-specific oligonucleotide probe
+
+Phycoerythrin-labeled streptavidin
+
+Uracil-N-glycosylase
+
+Publisher’s Note
+
+Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+
+Yuki Nagakubo and Yosuke Hirotsu contributed equally to this work.
+
+## Supplementary information
+
+Supplementary information accompanies this paper at 10.1186/s12920-019-0610-8.
+
+We thank all medical and ancillary staff of the hospital and the patients for consenting to participate. We thank Jeremy Allen, PhD, from Edanz Group (www.edanzediting.com/ac) for editing a draft of this manuscript.
+
+YN and YH drafted the work and wrote the manuscript. YN, YH and KA performed experiments, acquired and interpreted data. TO participated in pathological examination and acquisition of data. YH, HM, and MO designed of the work and supervised this study. MO was involved in the final editing. All authors have read and approved the final manuscript.
+
+This study was supported by a Grant-in-Aid for Genome Research Project from Yamanashi Prefecture (to M.O. and Y.H.), The Japan Society for the Promotion of Science (JSPS) KAKENHI Early-Career Scientists (Grant Number JP18K16292 to Y.H.), a Research Grant for Young Scholars (to Y.H.), The YASUDA Medical Foundation (to Y.H.) and The Uehara Memorial Foundation (to Y.H.). The funding bodies played no role in the design of the study and collection, analysis, and interpretation of data and in writing the manuscript.
+
+The datasets used and/or analysed during the current study are available from the corresponding author on reasonable request.
+
+Written informed consent was obtained from all participants and this study was approved by the Institutional Review Board of clinical research and genome research committee at Yamanashi Central Hospital. The study complied with Declaration of Helsinki principles.
+
+Not applicable.
+
+The authors declare that they have no competing interests.
+
+## References
+1. 1.AmadoRGWolfMPeetersMVan CutsemESienaSFreemanDJJuanTSikorskiRSuggsSRadinskyRWild-type KRAS is required for panitumumab efficacy in patients with metastatic colorectal cancerJ Clin Oncol200826101626163410.1200/JCO.2007.14.711618316791
+2. 2.KarapetisCSKhambata-FordSJonkerDJO'CallaghanCJTuDTebbuttNCSimesRJChalchalHShapiroJDRobitailleSK-ras mutations and benefit from Cetuximab in advanced colorectal CancerN Engl J Med2008359171757176510.1056/NEJMoa080438518946061
+3. 3.SaltzLBMeropolNJLoehrerPJSrNeedleMNKopitJMayerRJPhase II trial of cetuximab in patients with refractory colorectal cancer that expresses the epidermal growth factor receptorJ Clin Oncol20042271201120810.1200/JCO.2004.10.18214993230
+4. 4.CunninghamDHumbletYSienaSKhayatDBleibergHSantoroABetsDMueserMHarstrickAVerslypeCChauICetuximab Monotherapy and Cetuximab plus Irinotecan in Irinotecan-refractory metastatic colorectal CancerN Engl J Med2004351433734510.1056/NEJMoa03302515269313
+5. 5.Van CutsemEPeetersMSienaSHumbletYHendliszANeynsBCanonJLVan LaethemJLMaurelJRichardsonGOpen-label phase III trial of panitumumab plus best supportive care compared with best supportive care alone in patients with chemotherapy-refractory metastatic colorectal cancerJ Clin Oncol200725131658166410.1200/JCO.2006.08.162017470858
+6. 6.Di NicolantonioFMartiniMMolinariFSartore-BianchiAArenaSSalettiPDe DossoSMazzucchelliLFrattiniMSienaSWild-type BRAF is required for response to panitumumab or cetuximab in metastatic colorectal cancerJ Clin Oncol200826355705571210.1200/JCO.2008.18.078619001320
+7. 7.SorichMJWieseMDRowlandAKichenadasseGMcKinnonRAKarapetisCSExtended RAS mutations and anti-EGFR monoclonal antibody survival benefit in metastatic colorectal cancer: a meta-analysis of randomized, controlled trialsAnn Oncol2015261132110.1093/annonc/mdu37825115304
+8. 8.De RoockWClaesBBernasconiDDeSJBiesmansBFountzilasGKalogerasKTKotoulaVPapamichaelDLaurent-PuigPEffects of KRAS, BRAF, NRAS, and PIK3CA mutations on the efficacy of cetuximab plus chemotherapy in chemotherapy-refractory metastatic colorectal cancer: a retrospective consortium analysisLancet Oncol201011875376210.1016/S1470-2045(10)70130-320619739
+9. 9.VaughnCPZobellSDFurtadoLVBakerCLSamowitzWSFrequency of KRAS, BRAF, and NRAS mutations in colorectal cancerGenes Chromosomes Cancer201150530731210.1002/gcc.2085421305640
+10. 10.Cancer Genome Atlas NComprehensive molecular characterization of human colon and rectal cancerNature2012487740733033710.1038/nature1125222810696PMC3401966
+11. 11.TorigoeHHariYSekiguchiMObikaSImanishiT2′-O,4′-C-methylene bridged nucleic acid modification promotes pyrimidine motif triplex DNA formation at physiological pH: thermodynamic and kinetic studiesJ Biol Chem200127642354236010.1074/jbc.M00778320011035027
+12. 12.RahmanSSekiSObikaSYoshikawaHMiyashitaKImanishiTDesign, synthesis, and properties of 2′,4′-BNA (NC): a bridged nucleic acid analogueJ Am Chem Soc2008130144886489610.1021/ja710342q18341342
+13. 13.ShivarovVIvanovaMNaumovaERapid detection of DNMT3A R882 mutations in hematologic malignancies using a novel bead-based suspension assay with BNA (NC) probesPLoS One201496e9976910.1371/journal.pone.009976924914952PMC4051762
+14. 14.MorishitaSTakahashiKArakiMHironakaYSunamiYEdahiroYTsutsuiMOhsakaATsunedaSKomatsuNMelting curve analysis after T allele enrichment (MelcaTle) as a highly sensitive and reliable method for detecting the JAK2V617F mutationPLoS One2015103e012200310.1371/journal.pone.012200325794279PMC4368779
+15. 15.IidaTMizunoYKaizakiYReal-time PCR-based method for the rapid detection of extended RAS mutations using bridged nucleic acids in colorectal cancerClin Chim Acta201948916416810.1016/j.cca.2017.10.02629111094
+16. 16.MizukiNOhnoSSugimuraKSekiTKikutiYAndoAOtaMTsujiKInokoHPCR-RFLP is as sensitive and reliable as PCR-SSO in HLA class II genotypingTissue Antigens199240210010310.1111/j.1399-0039.1992.tb01967.x1357778
+17. 17.IijimaYHirotsuYAmemiyaKOokaYMochizukiHOyamaTNakagomiTUchidaYKobayashiYTsutsuiTVery early response of circulating tumour-derived DNA in plasma predicts efficacy of nivolumab treatment in patients with non-small cell lung cancerEur J Cancer20178634935710.1016/j.ejca.2017.09.00429078173
+18. 18.SakamotoIHirotsuYNakagomiHOuchiHIkegamiATeramotoKAmemiyaKMochizukiHOmataMBRCA1 and BRCA2 mutations in Japanese patients with ovarian, fallopian tube, and primary peritoneal cancerCancer20161221849010.1002/cncr.2970726439132
+19. 19.AmemiyaKHirotsuYGotoTNakagomiHMochizukiHOyamaTOmataMTouch imprint cytology with massively parallel sequencing (TIC-seq): a simple and rapid method to snapshot genetic alterations in tumorsCancer Med20165123426343610.1002/cam4.95027774772PMC5224853
+20. 20.GotoTHirotsuYNakagomiTShikataDYokoyamaYAmemiyaKTsutsuiTKakizakiYOyamaTMochizukiHDetection of tumor-derived DNA dispersed in the airway improves the diagnostic accuracy of bronchoscopy for lung cancerOncotarget2017845794047941310.18632/oncotarget.1815929108319PMC5668052
+21. 21.GotoTHirotsuYAmemiyaKNakagomiTShikataDYokoyamaYOkimotoKOyamaTMochizukiHOmataMDistribution of circulating tumor DNA in lung cancer: analysis of the primary lung and bone marrow along with the pulmonary venous and peripheral bloodOncotarget2017835592685928110.18632/oncotarget.1953828938635PMC5601731
+22. 22.GotoTHirotsuYMochizukiHNakagomiTOyamaTAmemiyaKOmataMStepwise addition of genetic changes correlated with histological change from "well-differentiated" to "sarcomatoid" phenotypes: a case reportBMC Cancer20171716510.1186/s12885-017-3059-128103823PMC5248474
+23. 23.GotoTHirotsuYMochizukiHNakagomiTShikataDYokoyamaYOyamaTAmemiyaKOkimotoKOmataMMutational analysis of multiple lung cancers: discrimination between primary and metastatic lung cancers by genomic profileOncotarget2017831133311432841571110.18632/oncotarget.16096PMC5458195
+24. 24.HirotsuYKojimaYOkimotoKAmemiyaKMochizukiHOmataMComparison between two amplicon-based sequencing panels of different scales in the detection of somatic mutations associated with gastric cancerBMC Genomics201617183310.1186/s12864-016-3166-427782820PMC5080794
+25. 25.HirotsuYNakagomiHSakamotoIAmemiyaKMochizukiHOmataMDetection of BRCA1 and BRCA2 germline mutations in Japanese population using next-generation sequencingMol Genet Genomic Med20153212112910.1002/mgg3.12025802882PMC4367084
+26. 26.HirotsuYZhengTHAmemiyaKMochizukiHGulengBOmataMTargeted and exome sequencing identified somatic mutations in hepatocellular carcinomaHepatol Res201646111145115110.1111/hepr.1266326850916
+27. 27.TakaokaShinyaHirotsuYosukeOhyamaHiroshiMochizukiHitoshiAmemiyaKenjiOyamaToshioAshizawaHiroshiYoshimuraDaiNakagomiKeikoHosodaKenjiSuzukiYojiKojimaYuichiroOmataMasaoMolecular subtype switching in early-stage gastric cancers with multiple occurrencesJournal of Gastroenterology201954867468610.1007/s00535-019-01547-z30666417
+28. 28.AmemiyaKHirotsuYOyamaTOmataMRelationship between formalin reagent and success rate of targeted sequencing analysis using formalin fixed paraffin embedded tissuesClin Chim Acta201948812913410.1016/j.cca.2018.11.00230395866
+29. 29.YoshinoTMuroKYamaguchiKNishinaTDendaTKudoTOkamotoWTaniguchiHAkagiKKajiwaraTClinical validation of a multiplex kit for RAS mutations in colorectal Cancer: results of the RASKET (RAS KEy testing) prospective, Multicenter StudyEBioMedicine20152431732310.1016/j.ebiom.2015.02.00726137573PMC4486202
+30. 30.TaniguchiHOkamotoWMuroKAkagiKHaraHNishinaTKajiwaraTDendaTHironakaSKudoTClinical validation of newly developed multiplex kit using Luminex xMAP Technology for Detecting Simultaneous RAS and BRAF mutations in colorectal Cancer: results of the RASKET-B studyNeoplasia201820121219122610.1016/j.neo.2018.10.00430412858PMC6226617
+31. 31.KojimaYHirotsuYOmataWSugimoriMTakaokaSAshizawaHNakagomiKYoshimuraDHosodaKSuzukiYInfluence of NUDT15 variants on hematological pictures of patients with inflammatory bowel disease treated with thiopurinesWorld J Gastroenterol201824451151810.3748/wjg.v24.i4.51129398872PMC5787786
+32. 32.HirotsuYNakagomiHAmemiyaKOyamaTInoueMMochizukiHOmataMIntrinsic HER2 V777L mutation mediates resistance to trastuzumab in a breast cancer patientMed Oncol2017341310.1007/s12032-016-0857-227900589
+33. 33.HirotsuYNakagomiHSakamotoIAmemiyaKOyamaTMochizukiHOmataMMultigene panel analysis identified germline mutations of DNA repair genes in breast and ovarian cancerMol Genet Genomic Med20153545946610.1002/mgg3.15726436112PMC4585454
+34. 34.HirotsuYOokaYSakamotoINakagomiHOmataMSimultaneous detection of genetic and copy number alterations in BRCA1/2 genesOncotarget201787011446311447310.18632/oncotarget.2296229383094PMC5777706
+35. 35.TakanoAHirotsuYAmemiyaKNakagomiHOishiNOyamaTMochizukiHOmataMGenetic basis of a common tumor origin in the development of pancreatic mixed acinar-neuroendocrine-ductal carcinoma: a case reportOncol Lett20171444428443210.3892/ol.2017.678629085438PMC5649539
+36. 36.MiyashitaYHirotsuYTsutsuiTHigashiSSogamiYKakizakiYGotoTAmemiyaKOyamaTOmataMAnalysis of significantly mutated genes as a clinical tool for the diagnosis in a case of lung cancerRespir Med Case Rep2017201711752827553810.1016/j.rmcr.2017.02.008PMC5328745
+37. 37.NakagomiTGotoTHirotsuYShikataDYokoyamaYHiguchiRAmemiyaKOkimotoKOyamaTMochizukiHNew therapeutic targets for pulmonary sarcomatoid carcinomas based on their genomic and phylogenetic profilesOncotarget2018912106351064910.18632/oncotarget.2436529535832PMC5828205
+38. 38.Amemiya K, Hirotsu Y, Oyama T, Omata M: Simple and rapid method to obtain high-quality tumor DNA from clinical-pathological specimens using touch imprint cytology. J Vis Exp. 2018(133). 10.3791/56943.10.3791/56943PMC593323829630047

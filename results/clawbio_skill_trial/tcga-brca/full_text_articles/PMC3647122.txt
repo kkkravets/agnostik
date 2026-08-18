@@ -1,0 +1,147 @@
+# EGFR Gene Amplification and Protein Expression in Invasive Ductal Carcinoma of the Breast
+
+Authors: Won Hwangbo, Jeong Hyeon Lee, Sangjeong Ahn, Seojin Kim, Kyong Hwa Park, Chul Hwan Kim, Insun Kim
+
+Journal: Korean Journal of Pathology
+
+PMCID: PMC3647122
+
+PMID: 23667369
+
+DOI: 10.4132/KoreanJPathol.2013.47.2.107
+
+Canonical source: https://pmc.ncbi.nlm.nih.gov/articles/PMC3647122/
+
+## Abstract
+
+## Background
+
+The epidermal growth factor receptor (EGFR) is a surrogate marker for basal-like breast cancer. A recent study suggested that EGFR may be used as a target for breast cancer treatment.
+
+## Methods
+
+A total of 706 invasive ductal carcinomas (IDC) of the breast were immunophenotyped, and 82 cases with EGFR protein expression were studied for EGFR gene amplification.
+
+## Results
+
+EGFR protein was expressed in 121 of 706 IDCs (17.1%); 5.9% were of luminal type, 25.3% of epidermal growth factor receptor 2 (HER-2) type, and 79.3% of basal-like tumors. EGFR gene amplification and high polysomy (fluorescent in situ hybridization [FISH]-positive) were found in 18 of 82 cases (22.0%); 41.2% of the HER-2+, EGFR+, cytokeratin 5/6- (CK5/6-) group, 11.2% of the HER-2-, EGFR+, CK5/6- group, and 19.1% of the HER-2-, EGFR+, CK5/6+ group. FISH-positive cases were detected in 8.3% of the EGFR protein 1+ expression cases, 15.9% of 2+ expression cases, and 38.5% of 3+ expression cases. In group 2, the tumors had a high Ki-67 labeling (>60%), but the patients showed better disease-free survival than those with tumors that co-expressed HER-2 or CK5/6.
+
+## Conclusions
+
+EGFR-directed therapy can be considered in breast cancer patients with EGFR protein overexpression and gene amplification, and its therapeutic implication should be determined in HER-2 type breast cancer patients.
+
+## Full article
+
+Most breast cancers are invasive ductal carcinomas (IDC), and the prognosis for patients with IDC is affected by the size and histological grade of the tumor, the presence or absence of expression of the estrogen receptor (ER) and the progesterone receptor (PR), overexpression of human epidermal growth factor receptor 2 (HER-2) protein, lymph node metastasis, and vascular or perineural invasion. Currently, IDC is classified according to the immunoexpression of ER, PR, and HER-2.1 Among triple-negative (ER-, PR-, and HER-2-) breast cancers (TNBC), the basal-like breast cancer (BLBC) group that expresses epidermal growth factor receptor 1 (EGFR) and/or cytokeratin (CK) 5/6 is associated with distinctive histological features, high histological grade, and worse overall and disease-free survival compared with hormone receptor-positive and HER-2-overexpressing groups.2
+
+EGFR is an important biomarker for the diagnosis of BLBC, and its expression has been reported in 5-36% of Asian breast cancers, as determined by immunohistochemistry; its expression is inversely correlated with ER expression.3,4 Overexpression of EGFR in TNBC patients confers improved response to neo-adjuvant treatment; however, co-expression of HER-2 and EGFR has been associated with enhanced tumorigenesis and increased metastatic potential in breast cancer cell lines.5,6
+
+EGFR is a member of the EGFR family of tyrosine kinase receptor proteins and is a molecular target in a variety of cancers, including colorectal cancer, non-small cell lung cancer (NSCLC), and squamous cell carcinoma of the head and neck.7,8 Tyrosine kinase inhibitors and monoclonal antibodies have been evaluated in patients with mutations in the corresponding gene, EGFR, and increase in EGFR copy numbers.9,10 However, EGFR gene amplification occurs with low frequency, and activating mutations are extremely rare in breast cancers.4,11-15 Thus, to date, EGFR-targeted therapy has yielded disappointing results.
+
+In this study, the EGFR expression was studied and compared with changes in the gene copy number in IDC. The clinicopathological features of breast cancer were compared among patients with HER-2 and EGFR co-expressing tumors, those with tumors that co-expressed EGFR and CK5/6, and patients with EGFR-expressing tumors that lacked HER-2 and CK5/6 expression.
+
+## MATERIALS AND METHODS
+
+### Selection of cases
+
+Among 946 breast cancer patients whose cancer was diagnosed at the Anam Hospital of Korea University Medical Center between September 2005 and July 2011, 706 patients with IDCs were identified and analyzed in this study. All cases were routinely processed and diagnosed with immunohistochemical stains for ER, PR, HER-2, CK5/6, EGFR, p53, and Ki-67. All clinicopathological findings, including age of the patient, tumor size, histological grade, lymph node metastasis, treatment modality, and patient survival were retrieved from the pathological and clinical records.
+
+### Immunohistochemical staining
+
+The routinely processed paraffin blocks were cut into sections of 4 µm thickness; these sections were deparaffinized in xylene and hydrated by immersing in a series of graded ethanol. Antigen retrieval was performed in a microwave by placing the sections in epitope retrieval solution (0.01 M citrate buffer, pH 6.0 or 10 mM ethylenediaminetetraacetic acid, pH 8.0) for 20 minutes; endogenous peroxidase was blocked by immersing the sections in 0.3% hydrogen peroxide for 10 minutes. Immunostaining was performed using the Dako Autostainer plus Universal Staining System (Dako Cytomation, Carpinteria, CA, USA) with a ChemMate DAKO EnVision detection kit. The characteristics of the primary antibodies against ER, PR, HER-2, CK5/6, EGFR, p53, and Ki-67 are summarized in Table 1.
+
+Expression of ER and PR was evaluated according to the Allred scoring system, and HER-2 expression was scored according to the criteria described in the HercepTest. In the case with 2+ HER-2 expression, a fluorescent in situ hybridization (FISH) study was performed. For EGFR expression, the same criteria were applied as for HER-2 (Table 2, Fig. 1).5,6,16 The expression of p53 and Ki-67 was counted in 1,000 tumor cells, and the percentage of positive cells was categorized as ≤60% or >60%.
+
+### Construction of tissue microarray (TMA)
+
+Hematoxylin and eosin-stained slides were reviewed and the appropriate area was marked. The corresponding formalin-fixed, paraffin-embedded tissue block was retrieved, and the selected area was marked. One 5 mm diameter core was punched out from each block sample and incorporated into a recipient paraffin block using a precision instrument (UNITMA Co. Ltd., Seoul, Korea). The TMA block was heated in an oven at 60℃ for 30 minutes and then embedded in a paraffin block.
+
+### FISH analysis of EGFR copy number
+
+EGFR copy number was analyzed by FISH in a 4 µm-thick tissue section derived from the TMA block. A probe for the EGFR locus (7p11.2), labeled with Texas Red, was used in combination with a fluorescein isothiocyanate-labeled centromeric probe for chromosome 7. The procedure was performed according to the manufacturer's instructions (Cytocell, Cambridge, UK). The tissue section was incubated at 56℃ overnight, deparaffinized in xylene, hydrated in 100% and 70% ethanol, and treated in 0.1 M HCl at room temperature for 20 minutes. After incubation in the pretreatment reagent (Abbott Molecular Inc., Des Plaines, IL, USA) at 80℃ for 30 minutes, the section was digested with pepsin (2 mg/mL in 0.01 M HCl) at 37℃ for 10-20 minutes and dehydrated in an ethanol series. The probe set was applied, and the section was covered with a coverslip and sealed with rubber cement. For denaturation, the slides were incubated at 75℃ for 5 minutes; for hybridization, they were left in a humidified chamber at 37℃ overnight. Post-hybridization washes were performed in 0.4× saline sodium citrate buffer (0.4× SSC)/Nonidet P-40 (NP-40; pH 7.0) at 72℃ for 2 minutes and in 2× SSC/NP-40 (pH 7.0) at room temperature for 1 minute. After washing and drying at room temperature, the slide was counterstained with 4'-6-diamidino-2-phenylindole I (10 ng/µL; Abbott Molecular Inc.) and analyzed via FISH.
+
+FISH results were represented as the ratio of EGFR to chromosome 7 centromeric signals from 50 non-overlapping tumor cell nuclei. Gene amplification was defined as the presence of EGFR gene clusters and ≥2.0 or ≥15 copies of EGFR per cell in ≥10% of total cells. High polysomy was defined as a ratio of <2.0 but displaying ≥4 copies in ≥40% of cells, whereas low polysomy was defined as 10-40% of cells in the population displaying ≥4 copies. Disomy was defined as ≥90% of cells containing ≤2 copies of both EGFR and centromeric probes. Low trisomy was defined when ≥40% of cells in a population displayed ≤2 copies, 10-40% of cells displayed three copies, and <10% of cells displayed ≥4 copies, whereas high trisomy was defined as ≥40% of cells displaying ≤2 copies, ≥40% of cells containing three copies, and <10% of cells containing ≥4 copies (Fig. 2).17,18 High polysomy and gene amplification were determined from an increase of gene copy number.
+
+### Statistical analysis
+
+The dichotomized variables among the groups were statistically compared using Pearson's χ2 test. If the two-sided p-value was <0.0167, the difference was regarded as significant. Disease-free survival was analyzed by constructing a Kaplan-Meier survival curve and compared with a log rank test. All statistical analyses were performed using the SPSS ver. 14.0.1 (SPSS Inc., Chicago, IL, USA).
+
+## RESULTS
+
+### EGFR protein expression
+
+The 706 IDCs identified here were classified into molecular subtypes according to immunohistochemical expression profiles; 378 belonged to the luminal A type (ER+ and/or PR+, HER-2-), 141 to the luminal B type (ER+ and/or PR+, HER-2+), 99 to the HER-2 type (ER-, PR-, HER-2+), 82 to the basal-like type (ER-, PR-, HER-2-, CK5/6+, and/or EGFR+), and six to the triple-negative, non-basal-like type (ER-, PR-, HER-2-, CK5/6-, EGFR-). HER-2+ was defined as HER-2 3+ or 2+ upon gene amplification analysis using FISH.
+
+EGFR expression was found in 121 cases (17.1%): 31 of the 519 luminal A/B type (5.9%), 25 of the 99 HER-2 type (25.3%), and 65 of the 82 basal-like type (79.3%) cases. The luminal and HER-2 types that were EGFR+ and CK5/6+ were excluded; thus, 82 cases were selected and assigned to one of three groups on the basis of immunohistochemical expression profile (Fig. 3) as follows: group 1 (HER-2+, EGFR+, CK5/6-), group 2 (HER-2-, EGFR+, CK5/6-), and group 3 (HER-2-, EGFR+, CK5/6+).
+
+EGFR expression was scored as 1+ in 12 cases (14.6%), 2+ in 44 cases (53.7%), and 3+ in 26 cases (31.7%).
+
+### Changes in EGFR gene copy number
+
+EGFR disomy, trisomy, polysomy, and gene amplification were found in 28, 20, 18, and 16 of the 82 EGFR+ cases, respectively. Two high polysomy and 16 gene amplification cases (22.0%) were identified using FISH. Gene amplification and high polysomy in group 1 (seven of 17, 41.2%) was higher than that in group 2 (two of 18 cases, 11.2%) and group 3 (nine of 47 cases, 19.1%), but this difference was not statistically significant (Table 3).
+
+### EGFR protein expression and changes in the gene copy number
+
+FISH analysis of EGFR showed only one case of gene amplification among 12 cases with EGFR 1+ expression (8.3%), six cases of amplifications and one case of high polysomy among 44 cases with EGFR 2+ expression (15.9%), and nine cases of amplification and one case of high polysomy among 26 cases with EGFR 3+ expression (38.5%) (Table 4). EGFR gene amplification and high polysomy were more frequent in cases with EGFR 3+ expression (p=0.021).
+
+### Clinicopathological characteristics of patients in the EGFR expression groups
+
+The clinicopathological characteristics of 82 patients with EGFR expression are summarized according to the various groups in Table 5. The age of the patients ranged from 25 to 75 years (mean, 50.4 years) at the time of diagnosis, and this criterion did not differ significantly among the groups. The mean tumor size was 1.4 cm in group 1, 2.5 cm in group 2, and 2.3 cm in group 3. The tumor size in group 1 was significantly smaller than that in group 2 (p=0.009), and cases scored as histological grade 3 were significantly more frequent in group 3 than in group 1 (p=0.001) and group 2 (p<0.001). Lymph node metastasis was more frequent in group 1 patients than in group 2 and 3 patients, but this difference did not reach statistical significance. High Ki-67 labeling (>60%) occurred significantly more frequently in tumors from group 2 patients than in those from group 1 (p=0.004) and group 3 (p=0.009) patients. There was no significant difference in high p53 expression (>60%) among groups.
+
+### Disease-free survival of patients in different groups
+
+The treatment modality and recurrence of the tumor in the patients are summarized in Table 6. Group 1 patients with HER-2-expressing tumors were mainly treated with Herceptin and/or chemotherapy, with or without radiotherapy. Most of the patients in groups 2 and 3 with basal-like tumors were treated with chemotherapy only or in combination with radiotherapy. No additional treatment was administered to four patients.
+
+Patients were followed up for a period ranging from 1 to 100 months (mean, 20 months). During this follow-up period, 14 patients experienced recurrence, and one of the group 2 patients died because of disease progression. The recurrence rate in group 1 patients (5/17, 29.4%) was higher than that in group 2 patients (2/18, 11.1%) and group 3 patients (7/47, 14.9%), but this difference did not reach statistical significance.
+
+Kaplan-Meier survival curves for group-specific disease-free-survival are presented in Fig. 4. Patients in group 2 had significantly better disease-free survival than did patients in groups 1 and 3 (p=0.0112). Patients in group 3 had better disease-free survival than did those in group 1, but this difference was not statistically significant. In three of eight patients with HER-2-expressing tumors, who were treated with Herceptin and experienced recurrence, EGFR expression was scored as 2+ or 3+. Patient survival showed no statistical correlation with either EGFR gene amplification and polysomy or the level of EGFR expression.
+
+## DISCUSSION
+
+Among breast cancers, those described as HER-2, basal-like, or triple-negative types are characterized by earlier age of onset, late clinical stage, and larger tumor size at diagnosis. These subtypes also have a higher histological grade, lymph node metastasis, and poorer overall and disease-free survival rates than do the hormone receptor-positive subtypes.19,20 Because patients with an ER-/HER-2+ immunophenotype may be treated with anti-HER-2 therapy, they have better overall and disease-free survival rates than do patients with TNBC.21,22 EGFR is used as a basal marker, but it also plays a role as a prognostic marker, because EGFR-expressing breast cancers are associated with poor overall and disease-free survival rates.3,14
+
+The incidence of EGFR expression in breast cancer is extremely variable according to published data.3,4 The most important factors underlying this variation seem to be differences in the study groups and the criteria used for scoring cells as positive. For example, some studies score only EGFR expression levels 2+ and 3+ as EGFR overexpression, whereas others also include EGFR protein expression level 1+.22,23
+
+In this study, all cases with EGFR expression from 1+ to 3+ were considered positive because EGFR gene amplification was reported in EGFR protein 1+ breast cancers.12,15 EGFR protein expression rate was 17.1% of 706 IDCs; 5.9% of luminal type, 25.3% of HER-2 type, and 79.3% of basal-like tumors. The tumors with HER-2+, EGFR+, CK5/6- expression were smaller than the BLBC tumors with expression of EGFR and with or without CK5/6 expression. The tumors with expression of both EGFR and CK5/6 were in histologic grade 3 compared with tumors expressing EGFR alone or with HER-2. Tumors with expression of EGFR without HER-2 or CK5/6 had high Ki-67 labeling, and patients with this phenotype had better survival than the other patients. This may be partly due to the increased chemosensitivity of highly proliferative tumors.
+
+HER-2, a member of the EGFR family, is overexpressed in 15-25% of IDCs, and this overexpression is mainly associated with gene amplification. Because adjuvant treatment with trastuzumab improves the survival of patients with HER-2 type breast cancers, HER-2 overexpression and/or gene amplification is now routinely evaluated in every primary breast cancer at the time of initial diagnosis or upon recurrence to select patients eligible for HER-targeted therapy.24
+
+EGFR overexpression in a variety of human cancers is due to gene amplification and/or activating mutation. In breast cancers, both EGFR gene amplification and mutation are rare.13 Studies using a chromogenic approach or FISH reported amplification in 0.8-14% of breast cancers.4,11-15 More importantly, gene amplification was reported in up to 21% of BLBCs and 37% of metaplastic carcinomas.13 Although EGFR gene amplification was more commonly found in tumors that express high levels of EGFR, no positive correlation was observed between protein expression and gene amplification.12 Another mechanism has been proposed for EGFR overexpression-alternative splicing of EGFR mRNA.13 In the present study, the authors used FISH-positivity to score high polysomy and gene amplification. FISH-positive tumors were found at a frequency of 20.0% (18/82) in EGFR protein-positive breast cancers; the frequency was higher in HER-2 and EGFR co-expressing tumors than in BLBCs. The EGFR FISH-positive rate was associated with increased protein expression (8.3% in 1+, 15.9% in 2+, and 38.5% in 3+), and EGFR gene amplification and high polysomy were more frequent in cases where the EGFR protein level was scored as 3+. However, EGFR protein expression was not always accompanied by gene amplification.
+
+Recent studies on NSCLC have reported that approximately 10% of NSCLC patients showed a clinical response to EGFR-targeted therapy.7-9 Small-molecule EGFR inhibitors (tyrosine kinase inhibitors) and anti-EGFR monoclonal antibodies have been used in the clinic as molecular-targeted agents against EGFR for the treatment of patients with EGFR-expressing tumors; however, the results have not been promising.13,14
+
+Our current study and those of others demonstrate that EGFR protein expression and gene amplification are significantly associated with HER-2 protein expression and/or gene amplification.25 The EGFR/HER-2 heterodimer is biologically more active than the EGFR homodimer, and it increases the growth potential of the cells. However, the results of clinical trials of dual inhibitors for EGFR and HER-2 revealed that the response depends more on the expression of HER-2 than on EGFR expression. This result is consistent with the finding that interaction of EGFR with other receptor kinases such as c-MET and IGF-1R is associated with resistance to EGFR-targeted therapy.26 In the present study, three of five patients with recurrent HER-2- and EGFR-expressing tumors had EGFR protein expression levels of either 2+ or 3+. Further studies should be performed to define the significance of EGFR protein expression and/or gene amplification in HER-2-positive tumors. Because EGFR regulates the epithelial-mesenchymal transition, EGFR-targeted therapies have been performed in combination with cytotoxic drugs to inhibit invasion or metastasis.14,27,28
+
+Recent studies confirm that EGFR is a potentially important target in EGFR-expressing breast cancer, in particular, in BLBC cases. Because the frequencies of EGFR gene amplification and mutation are low, EGFR protein expression may be a more useful biologic predictor.4 However, standardization of the methodology and scoring system for protein expression and understanding the pathogenetic mechanisms responsible for protein overexpression are essential to stratify patients for EGFR-targeted therapy.
+
+No potential conflict of interest relevant to this article was reported.
+
+## References
+1. 1OnitiloAAEngelJMGreenleeRTMukeshBNBreast cancer subtypes based on ER/PR and HER2 expression: comparison of clinicopathologic features and survivalClin Med Res200974131957448610.3121/cmr.2009.825PMC2705275
+2. 2LinCChienSYChenLSKuoSJChangTWChenDRTriple negative breast carcinoma is a prognostic factor in Taiwanese womenBMC Cancer200991921953482510.1186/1471-2407-9-192PMC2706258
+3. 3TsutsuiSKataokaAOhnoSMurakamiSKinoshitaJHachitandaYPrognostic and predictive value of epidermal growth factor receptor in recurrent breast cancerClin Cancer Res200283454346012429634
+4. 4ChoEYChoiYLHanJJKimKMOhYLExpression and amplification of HER2, EGFR and cyclin D1 in breast cancer: immunohistochemistry and chromogenic in situ hybridizationPathol Int20085817251806763610.1111/j.1440-1827.2007.02183.x
+5. 5TangYZhuLLiYOverexpression of epithelial growth factor receptor (EGFR) predicts better response to neo-adjuvant chemotherapy in patients with triple-negative breast cancerJ Transl Med201210Suppl 1S42304663310.1186/1479-5876-10-S1-S4PMC3445857
+6. 6YuHGongXLuoXCo-expression of EGFRvIII with ErbB-2 enhances tumorigenesis: EGFRvIII mediated constitutively activated and sustained signaling pathways, whereas EGF-induced a transient effect on EGFR-mediated signaling pathwaysCancer Biol Ther20087181818281878741810.4161/cbt.7.11.6847
+7. 7HirschFRVarella-GarciaMCappuzzoFCombination of EGFR gene copy number and protein expression predicts outcome for advanced non-small-cell lung cancer patients treated with gefitinibAnn Oncol2007187527601731767710.1093/annonc/mdm003
+8. 8MoroniMVeroneseSBenvenutiSGene copy number for epidermal growth factor receptor (EGFR) and clinical response to antiEGFR treatment in colorectal cancer: a cohort studyLancet Oncol200562792861586337510.1016/S1470-2045(05)70102-9
+9. 9VokesEEChuEAnti-EGFR therapies: clinical experience in colorectal, lung, and head and neck cancersOncology (Williston Park)2006205 Suppl 2152516736979
+10. 10NguyenKSNealJWFirst-line treatment of EGFR-mutant non-small-cell lung cancer: the role of erlotinib and other tyrosine kinase inhibitorsBiologics201263373452305569110.2147/BTT.S26558PMC3459550
+11. 11Al-KurayaKSchramlPTorhorstJPrognostic relevance of gene amplifications and coamplifications in breast cancerCancer Res200464853485401557475910.1158/0008-5472.CAN-04-1945
+12. 12ShaoMMZhangFMengGEpidermal growth factor receptor gene amplification and protein overexpression in basal-like carcinoma of the breastHistopathology2011592642732188420510.1111/j.1365-2559.2011.03921.x
+13. 13BhargavaRGeraldWLLiAREGFR gene amplification in breast cancer: correlation with epidermal growth factor receptor mRNA and protein expression and HER-2 status and absence of EGFR-activating mutationsMod Pathol200518102710331592054410.1038/modpathol.3800438
+14. 14MasudaHZhangDBartholomeuszCDoiharaHHortobagyiGNUenoNTRole of epidermal growth factor receptor in breast cancerBreast Cancer Res Treat20121363313452307375910.1007/s10549-012-2289-9PMC3832208
+15. 15NakajimaHIshikawaYFuruyaMProtein expression, gene amplification, and mutational analysis of EGFR in triple-negative breast cancerBreast Cancer2012406[Epub]. http://dx.doi.org/10.1007/s12282-012-0354-110.1007/s12282-012-0354-122481575
+16. 16MilaneziFCarvalhoSSchmittFCEGFR/HER2 in breast cancer: a biological approach for molecular diagnosis and therapyExpert Rev Mol Diagn200884174341859822410.1586/14737159.8.4.417
+17. 17Varella-GarciaMDieboldJEberhardDAEGFR fluorescence in situ hybridisation assay: guidelines for application to non-small-cell lung cancerJ Clin Pathol2009629709771986155710.1136/jcp.2009.066548PMC2771853
+18. 18GumuskayaBAlperMHucumenogluSAltundagKUnerAGulerGEGFR expression and gene copy number in triple-negative breast carcinomaCancer Genet Cytogenet20102032222292115623710.1016/j.cancergencyto.2010.07.118
+19. 19FulfordLGEastonDFReis-FilhoJSSpecific morphological features predictive for the basal phenotype in grade 3 invasive ductal carcinoma of breastHistopathology20064922341684224310.1111/j.1365-2559.2006.02453.x
+20. 20LivasyCAKaracaGNandaRPhenotypic evaluation of the basal-like subtype of invasive breast carcinomaMod Pathol2006192642711634114610.1038/modpathol.3800528
+21. 21Piccart-GebhartMJProcterMLeyland-JonesBTrastuzumab after adjuvant chemotherapy in HER2-positive breast cancerN Engl J Med2005353165916721623673710.1056/NEJMoa052306
+22. 22ElkinEBWeinsteinMCWinerEPKuntzKMSchnittSJWeeksJCHER-2 testing and trastuzumab therapy for metastatic breast cancer: a cost-effectiveness analysisJ Clin Oncol2004228548631499064110.1200/JCO.2004.04.158
+23. 23ParkKHanSShinEKimHJKimJYEGFR gene and protein expression in breast cancersEur J Surg Oncol2007339569601737447410.1016/j.ejso.2007.01.033
+24. 24WolffACHammondMESchwartzJNAmerican Society of Clinical Oncology/College of American Pathologists guideline recommendations for human epidermal growth factor receptor 2 testing in breast cancerJ Clin Oncol2007251181451715918910.1200/JCO.2006.09.2775
+25. 25QianXLeVeaCMFreemanJKDougallWCGreeneMIHeterodimerization of epidermal growth factor receptor and wild-type or kinase-deficient Neu: a mechanism of interreceptor kinase activation and transphosphorylationProc Natl Acad Sci U S A19949115001504750907510.1073/pnas.91.4.1500PMC43187
+26. 26JinQEstevaFJCross-talk between the ErbB/HER family and the type I insulin-like growth factor receptor signaling pathway in breast cancerJ Mammary Gland Biol Neoplasia2008134854981903463210.1007/s10911-008-9107-3
+27. 27ZhangDLaFortuneTAKrishnamurthySEpidermal growth factor receptor tyrosine kinase inhibitor reverses mesenchymal to epithelial phenotype and inhibits metastasis in inflammatory breast cancerClin Cancer Res200915663966481982594910.1158/1078-0432.CCR-09-0951PMC2783487
+28. 28CareyLADeesECSawyerLThe triple negative paradox: primary tumor chemosensitivity of breast cancer subtypesClin Cancer Res200713232923341743809110.1158/1078-0432.CCR-06-1109

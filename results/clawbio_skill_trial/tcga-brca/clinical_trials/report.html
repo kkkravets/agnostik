@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Clinical Trial Finder Report</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+           max-width: 900px; margin: 40px auto; padding: 0 20px; color: #333; }
+    h1 { border-bottom: 2px solid #2ecc71; padding-bottom: 8px; }
+    table { border-collapse: collapse; width: 100%; margin: 16px 0; }
+    th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+    th { background: #f5f5f5; }
+    .disclaimer { background: #fff3cd; padding: 12px; border-radius: 4px;
+                   margin-top: 24px; font-size: 0.9em; }
+    .filters { background: #f0f4f8; padding: 12px 16px; border-radius: 6px;
+               margin: 16px 0; display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+    .filters input, .filters select { padding: 6px 10px; border: 1px solid #ccc;
+               border-radius: 4px; font-size: 0.9em; }
+    .filters input { flex: 1; min-width: 200px; }
+    .filter-count { font-size: 0.85em; color: #666; margin-left: auto; }
+    .trial-card { transition: opacity 0.15s; }
+    .trial-card.hidden { display: none; }
+  </style>
+</head>
+<body>
+  <h1>Clinical Trial Finder Report</h1>
+  <p><strong>Query:</strong> EGFR breast cancer<br>
+     <strong>Generated:</strong> 2026-08-18T12:19:59+00:00<br>
+     <strong>Trials found:</strong> 10 (1 recruiting)</p>
+
+  <table>
+    <tr><th>Metric</th><th>Value</th></tr>
+    <tr><td>Total trials</td><td>10</td></tr>
+    <tr><td>Recruiting now</td><td>1</td></tr>
+  </table>
+
+  <h2>Trials</h2>
+
+  <div class="filters">
+    <input type="text" id="searchBox" placeholder="Search trials..." oninput="filterTrials()">
+    <select id="statusFilter" onchange="filterTrials()">
+      <option value="">All statuses</option>
+      <option value="ACTIVE_NOT_RECRUITING">ACTIVE_NOT_RECRUITING</option><option value="COMPLETED">COMPLETED</option><option value="NOT_YET_RECRUITING">NOT_YET_RECRUITING</option><option value="RECRUITING">RECRUITING</option><option value="UNKNOWN">UNKNOWN</option>
+    </select>
+    <select id="phaseFilter" onchange="filterTrials()">
+      <option value="">All phases</option>
+      <option value="N/A">N/A</option><option value="Phase 1">Phase 1</option><option value="Phase 1/2">Phase 1/2</option><option value="Phase 2">Phase 2</option><option value="Phase 3">Phase 3</option>
+    </select>
+    <span class="filter-count" id="filterCount">10 trials</span>
+  </div>
+
+  
+        <div class="trial-card" data-status="COMPLETED" data-phase="Phase 2"
+             style="border-left:4px solid #95a5a6;padding:12px 16px;margin:8px 0;
+                    background:#fafafa;border-radius:0 4px 4px 0">
+          <div style="font-weight:bold">
+            <span style="background:#95a5a6;color:white;padding:2px 8px;border-radius:3px;
+                         font-size:0.8em;margin-right:8px">COMPLETED</span>
+            <a href="https://clinicaltrials.gov/study/NCT01494662" target="_blank">HKI-272 for HER2-Positive Breast Cancer and Brain Metastases</a>
+          </div>
+          <div style="margin-top:6px;color:#555;font-size:0.9em">
+            NCT01494662 | Phase: PHASE2 |
+            2012-02 -- 2024-04-19
+          </div>
+          <div style="margin-top:4px;font-size:0.85em;color:#777">Breast Cancer</div>
+        </div>
+        <div class="trial-card" data-status="RECRUITING" data-phase="N/A"
+             style="border-left:4px solid #2ecc71;padding:12px 16px;margin:8px 0;
+                    background:#fafafa;border-radius:0 4px 4px 0">
+          <div style="font-weight:bold">
+            <span style="background:#2ecc71;color:white;padding:2px 8px;border-radius:3px;
+                         font-size:0.8em;margin-right:8px">RECRUITING</span>
+            <a href="https://clinicaltrials.gov/study/NCT07180056" target="_blank">Adjuvant CDK4/6 Inhibitor Use in HR+/HER2- Breast Cancer</a>
+          </div>
+          <div style="margin-top:6px;color:#555;font-size:0.9em">
+            NCT07180056 | Phase: N/A |
+            2025-08-28 -- 2033-02
+          </div>
+          <div style="margin-top:4px;font-size:0.85em;color:#777">Breast Cancer</div>
+        </div>
+        <div class="trial-card" data-status="COMPLETED" data-phase="Phase 3"
+             style="border-left:4px solid #95a5a6;padding:12px 16px;margin:8px 0;
+                    background:#fafafa;border-radius:0 4px 4px 0">
+          <div style="font-weight:bold">
+            <span style="background:#95a5a6;color:white;padding:2px 8px;border-radius:3px;
+                         font-size:0.8em;margin-right:8px">COMPLETED</span>
+            <a href="https://clinicaltrials.gov/study/NCT02896855" target="_blank">A Study to Evaluate the Efficacy and Safety of Pertuzumab + Trastuzumab + Docetaxel Versus Placebo + Trastuzumab + Docetaxel in Previously Untreated Human Epidermal Growth Factor Receptor 2 (HER2)-Positive Metastatic Breast Cancer</a>
+          </div>
+          <div style="margin-top:6px;color:#555;font-size:0.9em">
+            NCT02896855 | Phase: PHASE3 |
+            2016-09-13 -- 2021-01-22
+          </div>
+          <div style="margin-top:4px;font-size:0.85em;color:#777">Breast Cancer</div>
+        </div>
+        <div class="trial-card" data-status="UNKNOWN" data-phase="Phase 1/2"
+             style="border-left:4px solid #bdc3c7;padding:12px 16px;margin:8px 0;
+                    background:#fafafa;border-radius:0 4px 4px 0">
+          <div style="font-weight:bold">
+            <span style="background:#bdc3c7;color:white;padding:2px 8px;border-radius:3px;
+                         font-size:0.8em;margin-right:8px">UNKNOWN</span>
+            <a href="https://clinicaltrials.gov/study/NCT00353717" target="_blank">Combined Treatment of Cetuximab and Paclitaxel in Basal Like Breast Carcinoma</a>
+          </div>
+          <div style="margin-top:6px;color:#555;font-size:0.9em">
+            NCT00353717 | Phase: PHASE1 / PHASE2 |
+            2006-11 -- 2009-09
+          </div>
+          <div style="margin-top:4px;font-size:0.85em;color:#777">Breast Neoplasms</div>
+        </div>
+        <div class="trial-card" data-status="COMPLETED" data-phase="Phase 2"
+             style="border-left:4px solid #95a5a6;padding:12px 16px;margin:8px 0;
+                    background:#fafafa;border-radius:0 4px 4px 0">
+          <div style="font-weight:bold">
+            <span style="background:#95a5a6;color:white;padding:2px 8px;border-radius:3px;
+                         font-size:0.8em;margin-right:8px">COMPLETED</span>
+            <a href="https://clinicaltrials.gov/study/NCT01441596" target="_blank">Lux-Breast 3; Afatinib Alone or in Combination With Vinorelbine in Patients With Human Epidermal Growth Factor Receptor 2 (HER2) Positive Breast Cancer Suffering From Brain Metastases</a>
+          </div>
+          <div style="margin-top:6px;color:#555;font-size:0.9em">
+            NCT01441596 | Phase: PHASE2 |
+            2011-10 -- 2014-08
+          </div>
+          <div style="margin-top:4px;font-size:0.85em;color:#777">Breast Neoplasms, Neoplasm Metastasis</div>
+        </div>
+        <div class="trial-card" data-status="COMPLETED" data-phase="Phase 1"
+             style="border-left:4px solid #95a5a6;padding:12px 16px;margin:8px 0;
+                    background:#fafafa;border-radius:0 4px 4px 0">
+          <div style="font-weight:bold">
+            <span style="background:#95a5a6;color:white;padding:2px 8px;border-radius:3px;
+                         font-size:0.8em;margin-right:8px">COMPLETED</span>
+            <a href="https://clinicaltrials.gov/study/NCT01526473" target="_blank">A Phase I Study To Evaluate The Antitumor Activity And Safety Of AVX901</a>
+          </div>
+          <div style="margin-top:6px;color:#555;font-size:0.9em">
+            NCT01526473 | Phase: PHASE1 |
+            2012-02 -- 2017-12
+          </div>
+          <div style="margin-top:4px;font-size:0.85em;color:#777">HER2+ Cancer</div>
+        </div>
+        <div class="trial-card" data-status="COMPLETED" data-phase="Phase 1"
+             style="border-left:4px solid #95a5a6;padding:12px 16px;margin:8px 0;
+                    background:#fafafa;border-radius:0 4px 4px 0">
+          <div style="font-weight:bold">
+            <span style="background:#95a5a6;color:white;padding:2px 8px;border-radius:3px;
+                         font-size:0.8em;margin-right:8px">COMPLETED</span>
+            <a href="https://clinicaltrials.gov/study/NCT00622674" target="_blank">Bortezomib and Cetuximab in Treating Patients With Advanced Solid Tumors</a>
+          </div>
+          <div style="margin-top:6px;color:#555;font-size:0.9em">
+            NCT00622674 | Phase: PHASE1 |
+            2005-11 -- 2010-02
+          </div>
+          <div style="margin-top:4px;font-size:0.85em;color:#777">Breast Cancer, Colorectal Cancer, Head and Neck Cancer</div>
+        </div>
+        <div class="trial-card" data-status="ACTIVE_NOT_RECRUITING" data-phase="Phase 3"
+             style="border-left:4px solid #f1c40f;padding:12px 16px;margin:8px 0;
+                    background:#fafafa;border-radius:0 4px 4px 0">
+          <div style="font-weight:bold">
+            <span style="background:#f1c40f;color:white;padding:2px 8px;border-radius:3px;
+                         font-size:0.8em;margin-right:8px">ACTIVE_NOT_RECRUITING</span>
+            <a href="https://clinicaltrials.gov/study/NCT02513394" target="_blank">PALbociclib CoLlaborative Adjuvant Study</a>
+          </div>
+          <div style="margin-top:6px;color:#555;font-size:0.9em">
+            NCT02513394 | Phase: PHASE3 |
+            2015-08 -- 2028-12
+          </div>
+          <div style="margin-top:4px;font-size:0.85em;color:#777">Breast Cancer</div>
+        </div>
+        <div class="trial-card" data-status="COMPLETED" data-phase="Phase 1"
+             style="border-left:4px solid #95a5a6;padding:12px 16px;margin:8px 0;
+                    background:#fafafa;border-radius:0 4px 4px 0">
+          <div style="font-weight:bold">
+            <span style="background:#95a5a6;color:white;padding:2px 8px;border-radius:3px;
+                         font-size:0.8em;margin-right:8px">COMPLETED</span>
+            <a href="https://clinicaltrials.gov/study/NCT03319459" target="_blank">FATE-NK100 as Monotherapy and in Combination With Monoclonal Antibody in Subjects With Advanced Solid Tumors</a>
+          </div>
+          <div style="margin-top:6px;color:#555;font-size:0.9em">
+            NCT03319459 | Phase: PHASE1 |
+            2018-01-18 -- 2020-12-15
+          </div>
+          <div style="margin-top:4px;font-size:0.85em;color:#777">HER2 Positive Gastric Cancer, Colorectal Cancer, Head and Neck Squamous Cell Carcinoma</div>
+        </div>
+        <div class="trial-card" data-status="NOT_YET_RECRUITING" data-phase="N/A"
+             style="border-left:4px solid #3498db;padding:12px 16px;margin:8px 0;
+                    background:#fafafa;border-radius:0 4px 4px 0">
+          <div style="font-weight:bold">
+            <span style="background:#3498db;color:white;padding:2px 8px;border-radius:3px;
+                         font-size:0.8em;margin-right:8px">NOT_YET_RECRUITING</span>
+            <a href="https://clinicaltrials.gov/study/NCT07593196" target="_blank">HER2-positive Metastatic Breast Cancer in Kazakhstan</a>
+          </div>
+          <div style="margin-top:6px;color:#555;font-size:0.9em">
+            NCT07593196 | Phase: N/A |
+            2026-05-19 -- 2027-01-30
+          </div>
+          <div style="margin-top:4px;font-size:0.85em;color:#777">Metastatic Breast Cancer</div>
+        </div>
+
+  <script>
+  function filterTrials() {
+    const search = document.getElementById('searchBox').value.toLowerCase();
+    const status = document.getElementById('statusFilter').value;
+    const phase = document.getElementById('phaseFilter').value;
+    let visible = 0;
+    document.querySelectorAll('.trial-card').forEach(card => {
+      const text = card.textContent.toLowerCase();
+      const matchSearch = !search || text.includes(search);
+      const matchStatus = !status || card.dataset.status === status;
+      const matchPhase = !phase || card.dataset.phase === phase;
+      const show = matchSearch && matchStatus && matchPhase;
+      card.classList.toggle('hidden', !show);
+      if (show) visible++;
+    });
+    document.getElementById('filterCount').textContent = visible + ' of 10 trials';
+  }
+  </script>
+
+  <div class="disclaimer">ClawBio is a research and educational tool. It is not a medical device and does not provide clinical diagnoses. Consult a healthcare professional before making any medical decisions.</div>
+  <p style="color:#999;font-size:0.8em;margin-top:24px">
+    Generated by ClawBio clinical-trial-finder v0.1.0</p>
+</body>
+</html>

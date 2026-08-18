@@ -139,6 +139,43 @@ Exit the shell with `exit`. To execute a one-off command instead:
 docker compose run --rm analysis uv run agnostik BRCA
 ```
 
+## Collect literature and trial evidence
+
+The `agnostik-evidence` pipeline step applies one base disease query to every
+predefined candidate gene. For COAD, each PubMed/PMC expression has this form:
+
+```text
+(COAD[Title/Abstract] OR "colon adenocarcinoma"[Title/Abstract] OR colorectal[Title/Abstract])
+AND GENE[Title/Abstract]
+```
+
+Run all six predefined genes from the host console, requesting up to 300
+complete open-access articles per gene:
+
+```bash
+uv run agnostik-evidence COAD \
+  --max-articles-per-gene 300 \
+  --output results/evidence \
+  --skip-existing
+```
+
+Run the identical step through Docker:
+
+```bash
+docker compose run --rm analysis \
+  uv run agnostik-evidence COAD \
+  --max-articles-per-gene 300 \
+  --output results/evidence \
+  --skip-existing
+```
+
+All runs are grouped beneath the single tumour root `results/evidence/coad/`.
+Gene and run-ID subdirectories prevent parallel or repeated runs from
+overwriting one another, while `results/evidence/coad/batch_manifest.json`
+records every generated query and result location. Use repeated `--gene`
+options to run a subset, or `--article-query` to replace the base disease
+expression; the pipeline still appends `AND GENE[Title/Abstract]` to each one.
+
 ## Access ClawBio skill scripts directly
 
 The installed ClawBio distribution bundles its `skills` directory. Resolve its

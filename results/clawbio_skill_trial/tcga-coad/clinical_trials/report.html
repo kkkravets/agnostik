@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Clinical Trial Finder Report</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+           max-width: 900px; margin: 40px auto; padding: 0 20px; color: #333; }
+    h1 { border-bottom: 2px solid #2ecc71; padding-bottom: 8px; }
+    table { border-collapse: collapse; width: 100%; margin: 16px 0; }
+    th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+    th { background: #f5f5f5; }
+    .disclaimer { background: #fff3cd; padding: 12px; border-radius: 4px;
+                   margin-top: 24px; font-size: 0.9em; }
+    .filters { background: #f0f4f8; padding: 12px 16px; border-radius: 6px;
+               margin: 16px 0; display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+    .filters input, .filters select { padding: 6px 10px; border: 1px solid #ccc;
+               border-radius: 4px; font-size: 0.9em; }
+    .filters input { flex: 1; min-width: 200px; }
+    .filter-count { font-size: 0.85em; color: #666; margin-left: auto; }
+    .trial-card { transition: opacity 0.15s; }
+    .trial-card.hidden { display: none; }
+  </style>
+</head>
+<body>
+  <h1>Clinical Trial Finder Report</h1>
+  <p><strong>Query:</strong> colon adenocarcinoma<br>
+     <strong>Generated:</strong> 2026-08-18T12:34:53+00:00<br>
+     <strong>Trials found:</strong> 10 (1 recruiting)</p>
+
+  <table>
+    <tr><th>Metric</th><th>Value</th></tr>
+    <tr><td>Total trials</td><td>10</td></tr>
+    <tr><td>Recruiting now</td><td>1</td></tr>
+  </table>
+
+  <h2>Trials</h2>
+
+  <div class="filters">
+    <input type="text" id="searchBox" placeholder="Search trials..." oninput="filterTrials()">
+    <select id="statusFilter" onchange="filterTrials()">
+      <option value="">All statuses</option>
+      <option value="ACTIVE_NOT_RECRUITING">ACTIVE_NOT_RECRUITING</option><option value="COMPLETED">COMPLETED</option><option value="RECRUITING">RECRUITING</option><option value="UNKNOWN">UNKNOWN</option>
+    </select>
+    <select id="phaseFilter" onchange="filterTrials()">
+      <option value="">All phases</option>
+      <option value="N/A">N/A</option><option value="Phase 1">Phase 1</option><option value="Phase 1/2">Phase 1/2</option><option value="Phase 2">Phase 2</option>
+    </select>
+    <span class="filter-count" id="filterCount">10 trials</span>
+  </div>
+
+  
+        <div class="trial-card" data-status="UNKNOWN" data-phase="N/A"
+             style="border-left:4px solid #bdc3c7;padding:12px 16px;margin:8px 0;
+                    background:#fafafa;border-radius:0 4px 4px 0">
+          <div style="font-weight:bold">
+            <span style="background:#bdc3c7;color:white;padding:2px 8px;border-radius:3px;
+                         font-size:0.8em;margin-right:8px">UNKNOWN</span>
+            <a href="https://clinicaltrials.gov/study/NCT06363123" target="_blank">Plasma Metabolic Biomarkers for Multi-Cancer Diagnosis</a>
+          </div>
+          <div style="margin-top:6px;color:#555;font-size:0.9em">
+            NCT06363123 | Phase: N/A |
+            2024-03-29 -- 2025-04
+          </div>
+          <div style="margin-top:4px;font-size:0.85em;color:#777">Lung Cancer, Breast Cancer, Colorectal Cancer</div>
+        </div>
+        <div class="trial-card" data-status="COMPLETED" data-phase="Phase 1/2"
+             style="border-left:4px solid #95a5a6;padding:12px 16px;margin:8px 0;
+                    background:#fafafa;border-radius:0 4px 4px 0">
+          <div style="font-weight:bold">
+            <span style="background:#95a5a6;color:white;padding:2px 8px;border-radius:3px;
+                         font-size:0.8em;margin-right:8px">COMPLETED</span>
+            <a href="https://clinicaltrials.gov/study/NCT03724851" target="_blank">Vactosertib in Combination with Pembrolizumab in Metastatic Colorectal or Gastric Cancer</a>
+          </div>
+          <div style="margin-top:6px;color:#555;font-size:0.9em">
+            NCT03724851 | Phase: PHASE1 / PHASE2 |
+            2018-12-20 -- 2024-05-07
+          </div>
+          <div style="margin-top:4px;font-size:0.85em;color:#777">Metastatic Colorectal Cancer, Gastric Cancer, Gastroesophageal Junction Adenocarcinoma</div>
+        </div>
+        <div class="trial-card" data-status="COMPLETED" data-phase="Phase 1"
+             style="border-left:4px solid #95a5a6;padding:12px 16px;margin:8px 0;
+                    background:#fafafa;border-radius:0 4px 4px 0">
+          <div style="font-weight:bold">
+            <span style="background:#95a5a6;color:white;padding:2px 8px;border-radius:3px;
+                         font-size:0.8em;margin-right:8px">COMPLETED</span>
+            <a href="https://clinicaltrials.gov/study/NCT03871959" target="_blank">Pembrolizumab In Combination With Debio 1143 In Pancreatic and Colorectal Advanced/Metastatic Adenocarcinoma</a>
+          </div>
+          <div style="margin-top:6px;color:#555;font-size:0.9em">
+            NCT03871959 | Phase: PHASE1 |
+            2019-09-15 -- 2022-06-08
+          </div>
+          <div style="margin-top:4px;font-size:0.85em;color:#777">Adenocarcinoma of the Pancreas, Adenocarcinoma of the Colon, Adenocarcinoma of the Rectum</div>
+        </div>
+        <div class="trial-card" data-status="COMPLETED" data-phase="Phase 1"
+             style="border-left:4px solid #95a5a6;padding:12px 16px;margin:8px 0;
+                    background:#fafafa;border-radius:0 4px 4px 0">
+          <div style="font-weight:bold">
+            <span style="background:#95a5a6;color:white;padding:2px 8px;border-radius:3px;
+                         font-size:0.8em;margin-right:8px">COMPLETED</span>
+            <a href="https://clinicaltrials.gov/study/NCT03373188" target="_blank">VX15/2503 and Immunotherapy in Resectable Pancreatic and Colorectal Cancer</a>
+          </div>
+          <div style="margin-top:6px;color:#555;font-size:0.9em">
+            NCT03373188 | Phase: PHASE1 |
+            2017-12-15 -- 2021-10-28
+          </div>
+          <div style="margin-top:4px;font-size:0.85em;color:#777">Colon Carcinoma Metastatic in the Liver, Colorectal Adenocarcinoma, Pancreatic Adenocarcinoma</div>
+        </div>
+        <div class="trial-card" data-status="RECRUITING" data-phase="N/A"
+             style="border-left:4px solid #2ecc71;padding:12px 16px;margin:8px 0;
+                    background:#fafafa;border-radius:0 4px 4px 0">
+          <div style="font-weight:bold">
+            <span style="background:#2ecc71;color:white;padding:2px 8px;border-radius:3px;
+                         font-size:0.8em;margin-right:8px">RECRUITING</span>
+            <a href="https://clinicaltrials.gov/study/NCT04510129" target="_blank">A Multicenter Cancer Biospecimen Collection Study</a>
+          </div>
+          <div style="margin-top:6px;color:#555;font-size:0.9em">
+            NCT04510129 | Phase: N/A |
+            2020-02-05 -- 2027-02
+          </div>
+          <div style="margin-top:4px;font-size:0.85em;color:#777">Cancer of Head and Neck, Lung Cancer, Nonsmall Cell, Small-cell Lung Cancer</div>
+        </div>
+        <div class="trial-card" data-status="ACTIVE_NOT_RECRUITING" data-phase="Phase 1"
+             style="border-left:4px solid #f1c40f;padding:12px 16px;margin:8px 0;
+                    background:#fafafa;border-radius:0 4px 4px 0">
+          <div style="font-weight:bold">
+            <span style="background:#f1c40f;color:white;padding:2px 8px;border-radius:3px;
+                         font-size:0.8em;margin-right:8px">ACTIVE_NOT_RECRUITING</span>
+            <a href="https://clinicaltrials.gov/study/NCT05462717" target="_blank">Dose Escalation and Dose Expansion Study of RMC-6291 Monotherapy in Subjects With Advanced KRASG12C Mutant Solid Tumors</a>
+          </div>
+          <div style="margin-top:6px;color:#555;font-size:0.9em">
+            NCT05462717 | Phase: PHASE1 |
+            2022-09-19 -- 2027-09-30
+          </div>
+          <div style="margin-top:4px;font-size:0.85em;color:#777">Non-Small Cell Lung Cancer (NSCLC), Colorectal Cancer (CRC), Pancreatic Ductal Adenocarcinoma</div>
+        </div>
+        <div class="trial-card" data-status="COMPLETED" data-phase="Phase 2"
+             style="border-left:4px solid #95a5a6;padding:12px 16px;margin:8px 0;
+                    background:#fafafa;border-radius:0 4px 4px 0">
+          <div style="font-weight:bold">
+            <span style="background:#95a5a6;color:white;padding:2px 8px;border-radius:3px;
+                         font-size:0.8em;margin-right:8px">COMPLETED</span>
+            <a href="https://clinicaltrials.gov/study/NCT03929666" target="_blank">A Safety and Efficacy Study of ZW25 (Zanidatamab) Plus Combination Chemotherapy in HER2-expressing Gastrointestinal Cancers, Including Gastroesophageal Adenocarcinoma, Biliary Tract Cancer, and Colorectal Cancer</a>
+          </div>
+          <div style="margin-top:6px;color:#555;font-size:0.9em">
+            NCT03929666 | Phase: PHASE2 |
+            2019-08-29 -- 2025-08-30
+          </div>
+          <div style="margin-top:4px;font-size:0.85em;color:#777">HER2-expressing Gastrointestinal Cancers, Including Gastroesophageal Adenocarcinoma, Biliary Tract Cancer, and Colorectal Cancer</div>
+        </div>
+        <div class="trial-card" data-status="UNKNOWN" data-phase="N/A"
+             style="border-left:4px solid #bdc3c7;padding:12px 16px;margin:8px 0;
+                    background:#fafafa;border-radius:0 4px 4px 0">
+          <div style="font-weight:bold">
+            <span style="background:#bdc3c7;color:white;padding:2px 8px;border-radius:3px;
+                         font-size:0.8em;margin-right:8px">UNKNOWN</span>
+            <a href="https://clinicaltrials.gov/study/NCT06524362" target="_blank">Effect of Pelvic Rehabilitation After Low Anterior Resection for Cancer Rectum. - A Randomised Controlled Trial</a>
+          </div>
+          <div style="margin-top:6px;color:#555;font-size:0.9em">
+            NCT06524362 | Phase: NA |
+            2024-08 -- 2026-03
+          </div>
+          <div style="margin-top:4px;font-size:0.85em;color:#777">Rectal Cancer, Rectum Neoplasm, Rectal Neoplasms</div>
+        </div>
+        <div class="trial-card" data-status="COMPLETED" data-phase="Phase 2"
+             style="border-left:4px solid #95a5a6;padding:12px 16px;margin:8px 0;
+                    background:#fafafa;border-radius:0 4px 4px 0">
+          <div style="font-weight:bold">
+            <span style="background:#95a5a6;color:white;padding:2px 8px;border-radius:3px;
+                         font-size:0.8em;margin-right:8px">COMPLETED</span>
+            <a href="https://clinicaltrials.gov/study/NCT01417494" target="_blank">1st Line Chemotherapy Alone or With Bevacizumab in Treating Older Patients With Metastatic Colorectal Cancer</a>
+          </div>
+          <div style="margin-top:6px;color:#555;font-size:0.9em">
+            NCT01417494 | Phase: PHASE2 |
+            2011-07 -- 2016-04
+          </div>
+          <div style="margin-top:4px;font-size:0.85em;color:#777">Colorectal Cancer</div>
+        </div>
+        <div class="trial-card" data-status="UNKNOWN" data-phase="Phase 1/2"
+             style="border-left:4px solid #bdc3c7;padding:12px 16px;margin:8px 0;
+                    background:#fafafa;border-radius:0 4px 4px 0">
+          <div style="font-weight:bold">
+            <span style="background:#bdc3c7;color:white;padding:2px 8px;border-radius:3px;
+                         font-size:0.8em;margin-right:8px">UNKNOWN</span>
+            <a href="https://clinicaltrials.gov/study/NCT00007826" target="_blank">Monoclonal Antibody Therapy and/or Vaccine Therapy in Treating Patients With Locally Advanced or Metastatic Colorectal Cancer</a>
+          </div>
+          <div style="margin-top:6px;color:#555;font-size:0.9em">
+            NCT00007826 | Phase: PHASE1 / PHASE2 |
+            2000-04 -- ?
+          </div>
+          <div style="margin-top:4px;font-size:0.85em;color:#777">Colorectal Cancer</div>
+        </div>
+
+  <script>
+  function filterTrials() {
+    const search = document.getElementById('searchBox').value.toLowerCase();
+    const status = document.getElementById('statusFilter').value;
+    const phase = document.getElementById('phaseFilter').value;
+    let visible = 0;
+    document.querySelectorAll('.trial-card').forEach(card => {
+      const text = card.textContent.toLowerCase();
+      const matchSearch = !search || text.includes(search);
+      const matchStatus = !status || card.dataset.status === status;
+      const matchPhase = !phase || card.dataset.phase === phase;
+      const show = matchSearch && matchStatus && matchPhase;
+      card.classList.toggle('hidden', !show);
+      if (show) visible++;
+    });
+    document.getElementById('filterCount').textContent = visible + ' of 10 trials';
+  }
+  </script>
+
+  <div class="disclaimer">ClawBio is a research and educational tool. It is not a medical device and does not provide clinical diagnoses. Consult a healthcare professional before making any medical decisions.</div>
+  <p style="color:#999;font-size:0.8em;margin-top:24px">
+    Generated by ClawBio clinical-trial-finder v0.1.0</p>
+</body>
+</html>

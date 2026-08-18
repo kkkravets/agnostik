@@ -1,0 +1,1543 @@
+<?xml version='1.0' encoding='utf-8'?>
+<article xmlns:ns0="http://www.niso.org/schemas/ali/1.0/" xmlns:ns1="http://www.w3.org/1999/xlink" article-type="research-article" xml:lang="en" dtd-version="1.4"><front><journal-meta><journal-id journal-id-type="nlm-ta">Mol Oncol</journal-id><journal-id journal-id-type="iso-abbrev">Mol Oncol</journal-id><journal-id journal-id-type="pmc-domain-id">3199</journal-id><journal-id journal-id-type="pmc-domain">moloncol</journal-id><journal-id journal-id-type="nlm-id">101308230</journal-id><journal-id journal-id-type="publisher-id">MOL2</journal-id><journal-title-group><journal-title>Molecular Oncology</journal-title></journal-title-group><issn pub-type="ppub">1574-7891</issn><issn pub-type="epub">1878-0261</issn><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC8024718</article-id><article-id pub-id-type="pmcid-ver">PMC8024718.1</article-id><article-id pub-id-type="pmcaid">8024718</article-id><article-id pub-id-type="pmcaiid">8024718</article-id><article-id pub-id-type="pmid">33325154</article-id><article-id pub-id-type="doi">10.1002/1878-0261.12885</article-id><article-id pub-id-type="publisher-id">MOL212885</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Articles</subject></subj-group></article-categories><title-group><article-title>Genomic and prognostic heterogeneity among <italic toggle="yes">RAS/BRAF</italic>
+<sup>V600E</sup>/<italic toggle="yes">TP53</italic> co‐mutated resectable colorectal liver metastases</article-title><alt-title alt-title-type="right-running-head">Genomic heterogeneity in CRC liver metastases</alt-title><alt-title alt-title-type="left-running-head">K. C. G. BERG <italic toggle="yes">et al</italic>.</alt-title></title-group><contrib-group><contrib id="mol212885-cr-0001" contrib-type="author"><name name-style="western"><surname>Berg</surname><given-names initials="KCG">Kaja C. G.</given-names></name><xref ref-type="aff" rid="mol212885-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="mol212885-aff-0002">
+<sup>2</sup>
+</xref><xref ref-type="aff" rid="mol212885-aff-0003">
+<sup>3</sup>
+</xref></contrib><contrib id="mol212885-cr-0002" contrib-type="author"><name name-style="western"><surname>Brunsell</surname><given-names initials="TH">Tuva H.</given-names></name><xref ref-type="aff" rid="mol212885-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="mol212885-aff-0002">
+<sup>2</sup>
+</xref><xref ref-type="aff" rid="mol212885-aff-0003">
+<sup>3</sup>
+</xref><xref ref-type="aff" rid="mol212885-aff-0004">
+<sup>4</sup>
+</xref></contrib><contrib id="mol212885-cr-0003" contrib-type="author"><name name-style="western"><surname>Sveen</surname><given-names initials="A">Anita</given-names></name><xref ref-type="aff" rid="mol212885-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="mol212885-aff-0002">
+<sup>2</sup>
+</xref><xref ref-type="aff" rid="mol212885-aff-0003">
+<sup>3</sup>
+</xref></contrib><contrib id="mol212885-cr-0004" contrib-type="author"><name name-style="western"><surname>Alagaratnam</surname><given-names initials="S">Sharmini</given-names></name><xref ref-type="aff" rid="mol212885-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="mol212885-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="mol212885-cr-0005" contrib-type="author"><name name-style="western"><surname>Bjørnslett</surname><given-names initials="M">Merete</given-names></name><xref ref-type="aff" rid="mol212885-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="mol212885-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="mol212885-cr-0006" contrib-type="author"><name name-style="western"><surname>Hektoen</surname><given-names initials="M">Merete</given-names></name><xref ref-type="aff" rid="mol212885-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="mol212885-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="mol212885-cr-0007" contrib-type="author"><name name-style="western"><surname>Brudvik</surname><given-names initials="KW">Kristoffer W.</given-names></name><xref ref-type="aff" rid="mol212885-aff-0002">
+<sup>2</sup>
+</xref><xref ref-type="aff" rid="mol212885-aff-0004">
+<sup>4</sup>
+</xref></contrib><contrib id="mol212885-cr-0008" contrib-type="author"><name name-style="western"><surname>Røsok</surname><given-names initials="BI">Bård I.</given-names></name><xref ref-type="aff" rid="mol212885-aff-0002">
+<sup>2</sup>
+</xref><xref ref-type="aff" rid="mol212885-aff-0004">
+<sup>4</sup>
+</xref></contrib><contrib id="mol212885-cr-0009" contrib-type="author"><name name-style="western"><surname>Bjørnbeth</surname><given-names initials="BA">Bjørn Atle</given-names></name><xref ref-type="aff" rid="mol212885-aff-0002">
+<sup>2</sup>
+</xref><xref ref-type="aff" rid="mol212885-aff-0004">
+<sup>4</sup>
+</xref></contrib><contrib id="mol212885-cr-0010" contrib-type="author"><name name-style="western"><surname>Nesbakken</surname><given-names initials="A">Arild</given-names></name><xref ref-type="aff" rid="mol212885-aff-0002">
+<sup>2</sup>
+</xref><xref ref-type="aff" rid="mol212885-aff-0003">
+<sup>3</sup>
+</xref><xref ref-type="aff" rid="mol212885-aff-0004">
+<sup>4</sup>
+</xref></contrib><contrib id="mol212885-cr-0011" contrib-type="author" corresp="yes"><name name-style="western"><surname>Lothe</surname><given-names initials="RA">Ragnhild A.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-1693-1032</contrib-id><xref ref-type="aff" rid="mol212885-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="mol212885-aff-0002">
+<sup>2</sup>
+</xref><xref ref-type="aff" rid="mol212885-aff-0003">
+<sup>3</sup>
+</xref><address><email>ragnhild.a.lothe@rr-research.no</email></address></contrib></contrib-group><aff id="mol212885-aff-0001">
+<label><sup>1</sup></label>
+<named-content content-type="organisation-division">Department of Molecular Oncology</named-content>
+<named-content content-type="organisation-division">Institute for Cancer Research</named-content>
+<institution>Oslo University Hospital</institution>
+<country country="NO">Norway</country>
+</aff><aff id="mol212885-aff-0002">
+<label><sup>2</sup></label>
+<named-content content-type="organisation-division">K.G.Jebsen Colorectal Cancer Research Centre</named-content>
+<named-content content-type="organisation-division">Division for Cancer Medicine</named-content>
+<institution>Oslo University Hospital</institution>
+<country country="NO">Norway</country>
+</aff><aff id="mol212885-aff-0003">
+<label><sup>3</sup></label>
+<named-content content-type="organisation-division">Institute for Clinical Medicine</named-content>
+<named-content content-type="organisation-division">Faculty of Medicine</named-content>
+<institution>University of Oslo</institution>
+<country country="NO">Norway</country>
+</aff><aff id="mol212885-aff-0004">
+<label><sup>4</sup></label>
+<named-content content-type="organisation-division">Department of Gastrointestinal Surgery</named-content>
+<institution>Oslo University Hospital</institution>
+<country country="NO">Norway</country>
+</aff><author-notes><corresp id="correspondenceTo"><label>*</label><bold>Correspondence</bold><break />
+R. A. Lothe, Department of Molecular Oncology, Institute for Cancer Research, Oslo University Hospital, P.O. Box 4953 Nydalen, NO‐0424 Oslo, Norway<break />
+Tel: +47 915 02 770<break />
+E‐mail: <email>ragnhild.a.lothe@rr-research.no</email><break /></corresp></author-notes><pub-date pub-type="epub"><day>08</day><month>1</month><year>2021</year></pub-date><pub-date pub-type="ppub"><month>4</month><year>2021</year></pub-date><volume>15</volume><issue>4</issue><issue-id pub-id-type="pmc-issue-id">379090</issue-id><issue-id pub-id-type="doi">10.1002/mol2.v15.4</issue-id><fpage>830</fpage><lpage>845</lpage><history><date date-type="rev-recd"><day>06</day><month>11</month><year>2020</year></date><date date-type="received"><day>03</day><month>9</month><year>2020</year></date><date date-type="accepted"><day>14</day><month>12</month><year>2020</year></date></history><pub-history><event event-type="pmc-release"><date><day>01</day><month>04</month><year>2021</year></date></event><event event-type="pmc-live"><date><day>12</day><month>04</month><year>2021</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2021-04-13 00:16:29.303"><day>13</day><month>04</month><year>2021</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2020 The Authors. Molecular Oncology published by John Wiley &amp; Sons Ltd on behalf of Federation of European Biochemical Societies.</copyright-statement><license license-type="creativeCommonsBy"><ns0:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ns0:license_ref><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" ns1:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pmc-pdf" ns1:href="MOL2-15-830.pdf" /><self-uri content-type="pdf" ns1:href="file:MOL2-15-830.pdf" /><abstract abstract-type="graphical" id="mol212885-abs-0001"><p>Colorectal cancer commonly metastasizes into multiple liver foci, but intermetastatic heterogeneity remains poorly described. Here, we demonstrate that mutations of <italic toggle="yes">RAS/BRAF/TP53</italic> are homogeneous within patients, while DNA copy number aberrations can vary greatly. <italic toggle="yes">RAS/BRAF/TP53</italic> co‐mutations conferred a dismal prognosis, and co‐mutations combined with a high burden and heterogeneity of copy number aberrations identified patients with the poorest outcome.<boxed-text position="anchor" content-type="graphic" id="mol212885-blkfxd-0001" orientation="portrait"><graphic position="anchor" id="jats-graphic-1" orientation="portrait" ns1:href="MOL2-15-830-g005.jpg" /></boxed-text>
+</p></abstract><abstract id="mol212885-abs-0002"><p>Hepatic resection is potentially curative for patients with colorectal liver metastases, but the treatment benefit varies. <italic toggle="yes">KRAS</italic>/<italic toggle="yes">NRAS</italic> (<italic toggle="yes">RAS)</italic>/<italic toggle="yes">TP53</italic> co‐mutations are associated with a poor prognosis after resection, but there is large variation in patient outcome within the mutation groups, and genetic testing is currently not used to evaluate benefit from surgery. We have investigated the potential for improved prognostic stratification by combined biomarker analysis with DNA copy number aberrations (CNAs), and taking tumor heterogeneity into account. We determined the mutation status of <italic toggle="yes">RAS</italic>, <italic toggle="yes">BRAF</italic>
+<sup>V600</sup>, and <italic toggle="yes">TP53</italic> in 441 liver lesions from 171 patients treated by partial hepatectomy for metastatic colorectal cancer. CNAs were profiled in 232 tumors from 67 of the patients. Mutations and high‐level amplifications of cancer‐critical genes, the latter including <italic toggle="yes">ERBB2</italic> and <italic toggle="yes">EGFR</italic>, were predominantly homogeneous within patients. <italic toggle="yes">RAS</italic>/<italic toggle="yes">BRAF</italic>
+<sup>V600E</sup> and <italic toggle="yes">TP53</italic> co‐mutations were associated with a poor patient outcome (hazard ratio, HR, 3.9, 95% confidence interval, CI, 1.3–11.1, <italic toggle="yes">P</italic> = 0.012) in multivariable analyses with clinicopathological variables. The genome‐wide CNA burden and intrapatient intermetastatic CNA heterogeneity varied within the mutation groups, and the CNA burden had prognostic associations in univariable analysis. Combined prognostic analyses of <italic toggle="yes">RAS</italic>/<italic toggle="yes">BRAF</italic>
+<sup>V600E</sup>/<italic toggle="yes">TP53</italic> mutations and CNAs, either as a high CNA burden or high intermetastatic CNA heterogeneity, identified patients with a particularly poor outcome (co‐mutation/high CNA burden: HR 2.7, 95% CI 1.2–5.9, <italic toggle="yes">P</italic> = 0.013; co‐mutation/high CNA heterogeneity: HR 2.5, 95% CI 1.1–5.6, <italic toggle="yes">P</italic> = 0.022). In conclusion, DNA copy number profiling identified genomic and prognostic heterogeneity among patients with resectable colorectal liver metastases with co‐mutated <italic toggle="yes">RAS</italic>/<italic toggle="yes">BRAF</italic>
+<sup>V600E</sup>/<italic toggle="yes">TP53</italic>.</p></abstract><kwd-group><kwd id="mol212885-kwd-0001">colorectal liver metastases</kwd><kwd id="mol212885-kwd-0002">DNA copy number aberrations</kwd><kwd id="mol212885-kwd-0003">gene mutations</kwd><kwd id="mol212885-kwd-0004">tumor heterogeneity</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source><institution-wrap><institution>Research Council of Norway </institution><institution-id institution-id-type="open-funder-registry">10.13039/501100005416</institution-id></institution-wrap></funding-source><award-id>287899</award-id></award-group><award-group id="funding-0002"><funding-source><institution-wrap><institution>Research Council of Norway and University of Oslo </institution><institution-id institution-id-type="open-funder-registry">10.13039/501100005366</institution-id></institution-wrap></funding-source><award-id>250993</award-id></award-group><award-group id="funding-0003"><funding-source><institution-wrap><institution>Stiftelsen K.G. Jebsen </institution><institution-id institution-id-type="open-funder-registry">10.13039/100007793</institution-id></institution-wrap></funding-source></award-group><award-group id="funding-0004"><funding-source>The South‐Eastern Norway Regional Health Authority</funding-source></award-group><award-group id="funding-0005"><funding-source><institution-wrap><institution>Norwegian Cancer Society </institution><institution-id institution-id-type="open-funder-registry">10.13039/100008730</institution-id></institution-wrap></funding-source><award-id>6824048‐2016</award-id><award-id>182759‐2016</award-id></award-group></funding-group><counts><fig-count count="7" /><table-count count="3" /><page-count count="16" /><word-count count="9527" /></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>April 2021</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.0.1 mode:remove_FC converted:07.04.2021</meta-value></custom-meta></custom-meta-group></article-meta><notes><fn-group id="mol212885-ntgp-0001"><fn id="mol212885-note-0001"><p>Kaja C. G. Berg and Tuva H. Brunsell are shared first authors.</p></fn></fn-group></notes></front><body id="mol212885-body-0001"><def-list list-content="abbreviations" id="mol212885-lp-0001"><title>Abbreviations</title><def-item><term>5y‐CSS</term><def><p>five‐year cancer‐specific survival</p></def></def-item><def-item><term>CNA</term><def><p>copy number aberrations</p></def></def-item><def-item><term>CRC</term><def><p>colorectal cancer</p></def></def-item><def-item><term>CRLM</term><def><p>colorectal liver metastases</p></def></def-item><def-item><term>MSI</term><def><p>microsatellite instable</p></def></def-item><def-item><term>MSS</term><def><p>microsatellite stable</p></def></def-item></def-list><sec id="mol212885-sec-0001"><label>1</label><title>Introduction</title><p>Approximately 30% of all colorectal cancer (CRC) patients develop metastases to the liver during their disease course, of whom 20% undergo hepatic resection as a potentially curable treatment [<xref rid="mol212885-bib-0001" ref-type="ref">1</xref>, <xref rid="mol212885-bib-0002" ref-type="ref">2</xref>]. In a Norwegian study, the five‐year overall and disease‐free survival was 46% and 24%, respectively, after partial hepatectomy [<xref rid="mol212885-bib-0003" ref-type="ref">3</xref>], compared to a 5‐year relative survival rate of 15–22% for patients with distant metastases from CRC overall [<xref rid="mol212885-bib-0004" ref-type="ref">4</xref>]. Around one third of the patients experience early recurrence following resection [<xref rid="mol212885-bib-0003" ref-type="ref">3</xref>, <xref rid="mol212885-bib-0005" ref-type="ref">5</xref>, <xref rid="mol212885-bib-0006" ref-type="ref">6</xref>], and there are currently no strong markers for prediction of long‐term benefit from surgery [<xref rid="mol212885-bib-0007" ref-type="ref">7</xref>, <xref rid="mol212885-bib-0008" ref-type="ref">8</xref>].</p><p>Mutations in <italic toggle="yes">RAS (KRAS</italic> and <italic toggle="yes">NRAS)</italic> have consistently been associated with a poor prognosis among patients with resectable colorectal liver metastases (CRLM) [<xref rid="mol212885-bib-0009" ref-type="ref">9</xref>, <xref rid="mol212885-bib-0010" ref-type="ref">10</xref>, <xref rid="mol212885-bib-0011" ref-type="ref">11</xref>], and it has been suggested that surgical treatment is less beneficial in patients with <italic toggle="yes">RAS</italic> mutations [<xref rid="mol212885-bib-0012" ref-type="ref">12</xref>]. However, the prognostic effect size is modest [<xref rid="mol212885-bib-0013" ref-type="ref">13</xref>] and it was recently proposed that the effect is limited to tumors with co‐occurring <italic toggle="yes">TP53</italic> mutations [<xref rid="mol212885-bib-0014" ref-type="ref">14</xref>, <xref rid="mol212885-bib-0015" ref-type="ref">15</xref>], or co‐occurring <italic toggle="yes">TP53</italic> and <italic toggle="yes">SMAD4</italic> mutations [<xref rid="mol212885-bib-0016" ref-type="ref">16</xref>]. <italic toggle="yes">BRAF</italic>
+<sup>V600E</sup> mutations have a stronger prognostic effect size, but the prognostic value is limited by the low prevalence of this marker among patients with resectable CRLM [<xref rid="mol212885-bib-0017" ref-type="ref">17</xref>].</p><p>Colorectal liver metastases commonly present with multiple distinct liver lesions. Cancer‐critical genes with a high mutation prevalence in CRC generally have a homogeneous mutation pattern across metastatic lesions from the same patient [<xref rid="mol212885-bib-0018" ref-type="ref">18</xref>, <xref rid="mol212885-bib-0019" ref-type="ref">19</xref>], although treatment pressure may cause subclonal expansion, as illustrated by the emergence of resistant subclones with pre‐existing or acquired <italic toggle="yes">KRAS</italic> mutations during anti‐EGFR therapy [<xref rid="mol212885-bib-0020" ref-type="ref">20</xref>, <xref rid="mol212885-bib-0021" ref-type="ref">21</xref>]. More extensive mutation heterogeneity has been demonstrated in other protein‐coding genes, both in intratumor and intertumor comparisons [<xref rid="mol212885-bib-0022" ref-type="ref">22</xref>, <xref rid="mol212885-bib-0023" ref-type="ref">23</xref>, <xref rid="mol212885-bib-0024" ref-type="ref">24</xref>]. We have previously shown that there is considerable intrapatient intermetastatic heterogeneity also on the DNA copy number level [<xref rid="mol212885-bib-0025" ref-type="ref">25</xref>]. The clinical impact of such intermetastatic molecular heterogeneity remains poorly defined [<xref rid="mol212885-bib-0022" ref-type="ref">22</xref>, <xref rid="mol212885-bib-0023" ref-type="ref">23</xref>, <xref rid="mol212885-bib-0026" ref-type="ref">26</xref>], although our study suggested that a high degree of heterogeneity of DNA copy number aberrations (CNAs) is associated with a poor prognosis [<xref rid="mol212885-bib-0025" ref-type="ref">25</xref>]. We have previously also reported differential radiological responses to standard neoadjuvant treatment among metastatic lesions in a subgroup of approximately 10% of patients with resectable CRLM [<xref rid="mol212885-bib-0027" ref-type="ref">27</xref>]. How this phenotypic heterogeneity relates to molecular heterogeneity is currently not clear, but the poor survival rate of this patient subgroup after surgery highlights the potential clinical importance of intermetastatic heterogeneity.</p><p>Here, we performed combined biomarker analyses in relation to outcome among patients with resectable CRLM, taking tumor heterogeneity into account. We investigated mutations in <italic toggle="yes">KRAS, NRAS, BRAF</italic>
+<sup>V600E</sup>, and <italic toggle="yes">TP53</italic>, combined with the overall burden and intermetastatic heterogeneity of CNAs.</p></sec><sec sec-type="methods" id="mol212885-sec-0002"><label>2</label><title>Methods</title><sec id="mol212885-sec-0003"><label>2.1</label><title>Patient samples</title><p>The study included fresh‐frozen samples of 460 liver metastases from 176 patients who underwent resection for CRLM at Oslo University Hospital, Oslo, Norway, between October 2013 and February 2018. All patients provided signed informed consents, and the study was conducted in line with the Helsinki declaration with approval by the Norwegian Data Protection Authority and the Regional Committee for Medical and Health Research Ethics, South‐Eastern Norway (ref no.: 1.2005.1629;2010/1805).</p><p>Fresh‐frozen tumor tissue samples (15–30 mg) were homogenized in liquid nitrogen and DNA was extracted using the AllPrep Universal DNA/RNA/miRNA protocol (Qiagen, Hilden, Germany). DNA quality and concentrations were assessed by NanoDrop 1000 spectrophotometer (version 3.7.1, Thermo Fisher Scientific, Waltham, MA, USA) and Qubit fluorometer (Thermo Fischer Scientific).</p><p>Five patients were excluded from analyses due to mucinous tumor tissue, poor DNA quality, or suspicion of low tumor cell content. In total, 441 liver metastases from 171 patients were included for mutation analyses (Fig. <xref rid="mol212885-fig-0001" ref-type="fig">1</xref>), of which 102 patients had multiple lesions analyzed (median of 3 metastatic lesions per patient, range 2–9).</p><fig fig-type="Fig." xml:lang="en" id="mol212885-fig-0001" orientation="portrait" position="float"><label>Fig. 1</label><caption><p>Overview of the included patients and samples in the study.</p></caption><graphic id="jats-graphic-3" position="float" orientation="portrait" ns1:href="MOL2-15-830-g004.jpg" /></fig></sec><sec id="mol212885-sec-0004"><label>2.2</label><title>Mutation and microsatellite instability analyses</title><p>A total of 355 metastatic tumor samples from 103 patients have previously been analyzed for hotspot mutations in <italic toggle="yes">BRAF</italic> exon 15 and <italic toggle="yes">KRAS</italic> and <italic toggle="yes">NRAS</italic> exons 2–4 by Sanger sequencing [<xref rid="mol212885-bib-0019" ref-type="ref">19</xref>]. The remaining 86 tumor samples and 68 patients were analyzed in the present study.</p><p>All 441 tumor samples were also sequenced for all coding regions of <italic toggle="yes">TP53</italic> (exons 2–11). In summary, three singleplex PCR reactions were used to analyze <italic toggle="yes">TP53</italic> exons 2–4, 5–6, and 7–9, respectively, by amplifying 50 ng of DNA in a reaction mix containing 10× HotStar‐buffer, dNTP, HotStar Taq polymerase (Qiagen), and the primers described in Table <xref rid="mol212885-sup-0006" ref-type="supplementary-material">S1</xref>. <italic toggle="yes">TP53</italic> exons 10 and 11 were analyzed in a separate multiplex PCR reaction by amplification of 50 ng of DNA using the 2× Multiplex PCR kit (Qiagen). PCR products were purified using Illustra ExoProStar 1‐step (GE Healthcare, Chicago, IL, USA), and the Applied Biosystems BigDye Terminator v1.1 Cycle Sequencing Kit and Applied Biosystems 3730 DNA Analyzer were used for sequencing (both Thermo Fisher Scientific). DNA from the blood of two healthy donors was used as controls. The results were analyzed using Applied Biosystems Sequencing Analysis software v5.3.1 and SeqScape software v2.5 (Thermo Fisher Scientific) and scored independently by two investigators. Synonymous mutations were not reported. All mutations and cases of intrapatient mutation heterogeneity were validated in independent PCR reactions, some also with ultra‐deep targeted sequencing with the Illumina TruSight Tumor 15 gene panel as described in [<xref rid="mol212885-bib-0019" ref-type="ref">19</xref>].</p><p>All tumors were analyzed for microsatellite instability (MSI) status using PCR‐based marker analyses, either as previously described using BAT25/BAT26 [<xref rid="mol212885-bib-0028" ref-type="ref">28</xref>], or using the five markers incorporated in the MSI Analysis System version 1.2 (Promega, Fitchburg, WI, USA). Uncertain cases after analyses of BAT25/BAT26 were re‐analyzed with the MSI Analysis System.</p></sec><sec id="mol212885-sec-0005"><label>2.3</label><title>DNA copy number analyses</title><p>A total of 232 lesions from the first 67 patients with multiple metastases sampled were analyzed by genome‐wide DNA copy number profiling using the Applied Biosystems CytoScanHD array (Thermo Fisher Scientific). The procedure was conducted according to the manufacturer’s instructions, following the CytoScan Assay Manual Protocol. Resulting raw‐intensity CEL files were preprocessed with the R package rawcopy (v1.1) [<xref rid="mol212885-bib-0029" ref-type="ref">29</xref>], and subsequently segmented by <sc>ascat</sc> (v2.5) [<xref rid="mol212885-bib-0030" ref-type="ref">30</xref>], with penalty parameter set to 25 and chromosomes X and Y excluded. A primary interest was to estimate the level of CNA heterogeneity among samples from the same patient. This estimate is highly sensitive to poor data quality, and strict quality control was therefore performed on the segmented data by careful visual inspection of copy number profiles and Sunrise plots produced by ASCAT. Samples with nonaberrant profiles (no/few CNAs) or poor Sunrise plots were excluded, retaining 192 lesions from 64 patients for further analyses. Copy number gain and loss was called for segments with ≥ 1 or ≤ −1 copies relative to the median genome‐wide copy number estimated by ASCAT, respectively. For comparison with the data processing approach used in our previous study [<xref rid="mol212885-bib-0025" ref-type="ref">25</xref>], the preprocessed data from rawcopy was additionally segmented by the PCF algorithm implemented in the R package copynumber [<xref rid="mol212885-bib-0031" ref-type="ref">31</xref>] with the penalty parameter (gamma) set to 100.</p><p>To enable analyses across samples, the sample‐wise segmented data were further split into their smallest genomic regions of overlap by computationally introducing breakpoints at every unique breakpoint occurring in any sample in the total dataset.</p><p>The COSMIC Cancer Gene Census version 86 [<xref rid="mol212885-bib-0032" ref-type="ref">32</xref>] was used to define cancer‐critical genes, (both Tier 1 and Tier 2 genes considered). Of the 719 genes, 672 were covered in the CNA data.</p><p>A sample‐wise estimate of the overall CNA burden was calculated as the fraction of the genome (per cent of base pairs) with aberrant copy number. For patients with multiple lesions, the mean CNA burden was used for patient‐wise analyses. Estimates of ploidy were derived from ASCAT.</p><p>Unpublished DNA copy number data were available for three matching primary tumors for comparison of amplification status in the metastases.</p></sec><sec id="mol212885-sec-0006"><label>2.4</label><title>Estimation of intrapatient intermetastatic copy number heterogeneity</title><p>Intrapatient intermetastatic DNA copy number heterogeneity was analyzed by three different approaches. First, the genome‐wide matrix of estimated copy numbers was used to perform pairwise comparisons among metastatic lesions from each patient based on Euclidean distances, using the <italic toggle="yes">dist</italic> function implemented in the R stats package. To obtain one heterogeneity measure per patient, the mean Euclidean distance of all pairwise comparisons was calculated, in accordance with the approach used in our previous study [<xref rid="mol212885-bib-0025" ref-type="ref">25</xref>]. Second, the pairwise distance was calculated as in the first approach but using Pearson correlation‐based distance. Third, CNA heterogeneity was assessed by a gene‐wise estimation (protein‐coding genes from UCSC known genes) of the fraction of CNAs within a patient that were not common across the lesions, that is, genes with aberrant copy number in one or more lesions but not in all. The heterogeneity calling was more conservative with this approach, as only events exceeding the copy number gain/loss thresholds were considered heterogeneous, while genes consistently affected by gain (or loss) but with varying amplitudes were regarded as homogeneous CNA events.</p><p>The patient‐wise CNA heterogeneity measure was categorized as high or low relative to the median across the patients.</p><p>For robustness, data segmented with the PCF algorithm were used to estimate copy number heterogeneity (distance‐based) in the same manner as in our previous study [<xref rid="mol212885-bib-0025" ref-type="ref">25</xref>], by calculating the average pairwise Euclidean distance between DNA segments with a variance of &gt; 0.03 among samples from each patient. The distance measured obtained from ASCAT and PCF showed good correlation (Spearman’s rho 0.58, <italic toggle="yes">P</italic> &lt; 0.001; Fig. <xref rid="mol212885-sup-0001" ref-type="supplementary-material">S1</xref>a).</p></sec><sec id="mol212885-sec-0007"><label>2.5</label><title>Statistical analyses</title><p>Pairwise comparisons of variables between groups were done by nonparametric Wilcoxon rank‐sum tests for continuous variables and with Fisher’s exact test for categorical data, both implemented in the R stats package.</p><p>Survival analyses were performed with 5‐year cancer‐specific survival (5y‐CSS) as the end point. Time to death from CRC was measured from start of treatment of the liver metastases (either neoadjuvant systemic treatment or surgery), and deaths from other causes were censored [<xref rid="mol212885-bib-0033" ref-type="ref">33</xref>]. Only patients with MSS cancers and R0 or R1 status in the liver after resection were included in survival analyses (<italic toggle="yes">n</italic> = 165 of 171 patients in the full cohort, <italic toggle="yes">n</italic> = 62 of 64 patients in CNA burden analyses, <italic toggle="yes">n</italic> = 46 of 48 in CNA heterogeneity analyses). Kaplan–Meier estimates and log rank tests were used for comparisons of variables with only two groups, using the <italic toggle="yes">survdiff</italic> function in the R survival package. For comparisons of more than two groups, log rank tests for trend were performed using the <italic toggle="yes">comp</italic> function in the R survMisc package. All Kaplan–Meier plots were made with the <italic toggle="yes">ggsurvplot</italic> function in the R survminer package. Univariable and multivariable Cox regression analyses were performed with the <italic toggle="yes">coxph</italic> function in the R survival package. <italic toggle="yes">P</italic> values were not adjusted for multiple testing. The prognostic markers evaluated (mutations in <italic toggle="yes">KRAS</italic>, <italic toggle="yes">NRAS</italic>, <italic toggle="yes">BRAF,</italic> and <italic toggle="yes">TP53,</italic> as well as the two CNA measures) were predetermined based on previous work; however, the size of the study population was determined based on availability of material, and the study was therefore exploratory.</p></sec></sec><sec sec-type="results" id="mol212885-sec-0008"><label>3</label><title>Results</title><sec id="mol212885-sec-0009"><label>3.1</label><title>Concordant driver gene mutation profiles among multiple resected CRLM</title><p>Among resected CRLM from 171 patients, the patient‐wise mutation prevalence was 42.7% (73/171) for <italic toggle="yes">KRAS</italic>, 4.7% (8/171) for <italic toggle="yes">NRAS</italic>, 1.8% (3/171) for <italic toggle="yes">BRAF</italic>
+<sup>V600E</sup> and 72.5% (124/171) for <italic toggle="yes">TP53</italic>. <italic toggle="yes">KRAS</italic>, <italic toggle="yes">NRAS,</italic> and <italic toggle="yes">BRAF</italic>
+<sup>V600E</sup> mutations were mutually exclusive, while <italic toggle="yes">RAS</italic>/<italic toggle="yes">BRAF</italic>
+<sup>V600E</sup> co‐occurred with TP53 mutations in 31% of the patients (Fig. <xref rid="mol212885-fig-0002" ref-type="fig">2A,B</xref>). The mutation status of the four genes was homogeneous in all metastatic deposits from each patient when ultra‐deep targeted sequencing was applied; however, three patients had unconfirmed heterogeneity (Fig. <xref rid="mol212885-fig-0002" ref-type="fig">2B</xref>) due to the lack of high‐sensitivity data. Another patient had intermetastatic heterogeneity in the specific loci affected by <italic toggle="yes">TP53</italic> mutation and displayed p. Asp184fs mutations in two lesions and p. Arg273His mutations in three lesions (all five lesions had the same <italic toggle="yes">KRAS</italic> mutation). These patients were classified as mutated.</p><fig fig-type="Fig." xml:lang="en" id="mol212885-fig-0002" orientation="portrait" position="float"><label>Fig. 2</label><caption><p>(A) Prevalence of <italic toggle="yes">RAS</italic>/<italic toggle="yes">BRAF</italic>
+<sup>V600E</sup> mutation only, <italic toggle="yes">TP53</italic> mutation only, and co‐mutation of <italic toggle="yes">RAS/BRAF</italic>
+<sup>V600E</sup>/<italic toggle="yes">TP53</italic> in the full cohort (<italic toggle="yes">n</italic> = 171) and in the subset of patients with associated DNA copy number data from multiple lesions (<italic toggle="yes">n</italic> = 48). (B) The upper panel shows patients with multiple metastases that were analyzed by sequencing only (<italic toggle="yes">n</italic> = 54 patients). The lower panel shows patients with multiple metastases analyzed for both mutations and CNAs (<italic toggle="yes">n</italic> = 48 patients), and only lesions with good quality CNA data from the same resection were included. Vertical gray lines separate each patient. Cancer‐critical genes are marked in red writing and the red horizontal boxes highlight the therapeutically relevant targets <italic toggle="yes">EGFR</italic> and <italic toggle="yes">ERBB2</italic>. The mutation status was the same in all metastatic deposits analyzed from each patient, with the exception of <italic toggle="yes">TP53</italic> in four patients. One patient had <italic toggle="yes">TP53</italic> mutations at two different loci among the lesions (pale green), and three patients had unavailable high‐sensitivity sequencing data to rule out heterogeneity. Both mutations in the driver genes <italic toggle="yes">BRAF</italic>, <italic toggle="yes">NRAS</italic>, <italic toggle="yes">KRAS,</italic> and <italic toggle="yes">TP53</italic>, as well as high‐level amplifications (&gt; 15 additional copies), were predominantly homogeneous within patients. *<italic toggle="yes">MLLT6</italic> and <italic toggle="yes">LASP1</italic>: only amplified in the patient to the far right of the heatmap.</p></caption><graphic id="jats-graphic-5" position="float" orientation="portrait" ns1:href="MOL2-15-830-g006.jpg" /></fig><p>All patients except one (99%) had microsatellite stable (MSS) tumors. DNA copy number profiling indicated larger intrapatient intermetastatic variation in the sequenced genes, and heterogeneous DNA copy number status was found in 16/48 patients (33%) for <italic toggle="yes">BRAF</italic>, 24/48 patients (50%) for <italic toggle="yes">KRAS</italic>, 19/48 patients (40%) for <italic toggle="yes">NRAS</italic>, and 9/48 (19%) for <italic toggle="yes">TP53</italic> (Fig. <xref rid="mol212885-sup-0001" ref-type="supplementary-material">S1</xref>b). However, this was associated with a larger genome‐wide level of CNA heterogeneity in the same patients (Fig. <xref rid="mol212885-sup-0001" ref-type="supplementary-material">S1</xref>c), indicating that these four genes were not specifically targeted.</p><p>None of the four genes had any high‐level amplifications events (≤ 6 additional copies), but a genome‐wide search identified high‐level amplifications (≥ 15 additional copies) in CRLM from 22 (34%) of the 64 patients analyzed. Among cancer‐critical genes (defined in the COSMIC Cancer Gene Census), recurrent high‐level amplifications were found only of <italic toggle="yes">ERBB2</italic> in two patients, while <italic toggle="yes">EGFR</italic> and the cell cycle genes <italic toggle="yes">CDK6</italic>, <italic toggle="yes">CCND2</italic>, and <italic toggle="yes">CCND3</italic> were amplified in one patient each (Table <xref rid="mol212885-tbl-0001" ref-type="table">1</xref>). Notably, none of the patients with <italic toggle="yes">ERBB2</italic> or <italic toggle="yes">EGFR</italic> amplifications had received anti‐EGFR therapy. Additionally, the nominated target <italic toggle="yes">TOX3</italic> [<xref rid="mol212885-bib-0034" ref-type="ref">34</xref>] was amplified in one patient. The amplification events were commonly concordant in intrapatient intermetastatic comparisons, albeit with variation in the amplitude (Fig. <xref rid="mol212885-fig-0002" ref-type="fig">2B</xref>). Among patients with multiple metastases analyzed, 31% of high‐level amplifications were homogeneous, and an additional 38% of the amplifications had lower‐amplitude gains (≥ 5 additional copies) in all other metastases from the same patient. Corresponding numbers for amplification events affecting cancer‐critical genes were 50% and 25% (Fig. <xref rid="mol212885-sup-0002" ref-type="supplementary-material">S2</xref>). Notably, intrapatient concordance was also found for the clinically relevant target genes <italic toggle="yes">ERBB2</italic> and <italic toggle="yes">EGFR</italic>, including in comparison with the primary tumor of one patient with <italic toggle="yes">ERBB2</italic> amplification (9 additional copies in the primary and 17 and 18 additional copies in the two metastases). For the patient with two CRLM with <italic toggle="yes">CCND2</italic> amplifications (29 and 47 additional copies), the primary tumor had 32 additional copies of this gene. The patient with <italic toggle="yes">CCND3</italic> amplification in the range of 14–16 additional copies in all 7 metastases did not have a detectable <italic toggle="yes">CCND3</italic> amplification in the primary tumor.</p><table-wrap id="mol212885-tbl-0001" xml:lang="en" content-type="Table" orientation="portrait" position="float"><label>Table 1</label><caption><p>Intermetastatic heterogeneity status for high‐level amplifications of cancer‐critical genes.</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1" /><col style="border-right:solid 1px #000000" span="1" /><col style="border-right:solid 1px #000000" span="1" /><col style="border-right:solid 1px #000000" span="1" /><col style="border-right:solid 1px #000000" span="1" /><col style="border-right:solid 1px #000000" span="1" /><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1">Patient</th><th align="left" valign="top" rowspan="1" colspan="1">Number of tumors analyzed</th><th align="left" valign="top" rowspan="1" colspan="1">Region (hg19)</th><th align="left" valign="top" rowspan="1" colspan="1">Cancer‐critical genes in region</th><th align="left" valign="top" rowspan="1" colspan="1">Copy number (range among tumors)<xref ref-type="fn" rid="mol212885-note-0002">
+<sup>a</sup>
+</xref>
+</th><th align="left" valign="top" rowspan="1" colspan="1">Intrapatient intermetastatic heterogeneity</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">7</td><td align="left" rowspan="1" colspan="1">chr6:39863162‐42671542</td><td align="left" rowspan="1" colspan="1">
+<italic toggle="yes">CCND3, TFEB</italic>
+</td><td align="left" rowspan="1" colspan="1">14–16<xref ref-type="fn" rid="mol212885-note-0003">
+<sup>b</sup>
+</xref>
+</td><td align="left" rowspan="1" colspan="1">No (when also counting intermediate‐level amplifications of 14 copies)</td></tr><tr><td align="left" rowspan="4" colspan="1">2</td><td align="left" rowspan="4" colspan="1">3</td><td align="left" rowspan="1" colspan="1">chr1:65183880‐66527443</td><td align="left" rowspan="1" colspan="1">
+<italic toggle="yes">JAK1</italic>
+</td><td align="left" rowspan="1" colspan="1">10–15</td><td align="left" rowspan="1" colspan="1">No (when also counting intermediate‐level amplifications of 10–14 copies)</td></tr><tr><td align="left" rowspan="1" colspan="1">chr7:54576560‐56118007</td><td align="left" rowspan="1" colspan="1">
+<italic toggle="yes">EGFR</italic>
+</td><td align="left" rowspan="1" colspan="1">37–58</td><td align="left" rowspan="1" colspan="1">No</td></tr><tr><td align="left" rowspan="1" colspan="1">chr7:90792390‐92573683</td><td align="left" rowspan="1" colspan="1">
+<italic toggle="yes">AKAP9, CDK6</italic>
+</td><td align="left" rowspan="1" colspan="1">0–22</td><td align="left" rowspan="1" colspan="1">Yes</td></tr><tr><td align="left" rowspan="1" colspan="1">chr18:41497284‐42716881</td><td align="left" rowspan="1" colspan="1">
+<italic toggle="yes">SETBP1</italic>
+</td><td align="left" rowspan="1" colspan="1">18–20</td><td align="left" rowspan="1" colspan="1">No</td></tr><tr><td align="left" rowspan="2" colspan="1">3</td><td align="left" rowspan="2" colspan="1">2</td><td align="left" rowspan="1" colspan="1">chr12:4279446‐4431071</td><td align="left" rowspan="1" colspan="1">
+<italic toggle="yes">CCND2</italic>
+</td><td align="left" rowspan="1" colspan="1">29–47<xref ref-type="fn" rid="mol212885-note-0004">
+<sup>c</sup>
+</xref>
+</td><td align="left" rowspan="1" colspan="1">No</td></tr><tr><td align="left" rowspan="1" colspan="1">chr16:40873444‐53153010</td><td align="left" rowspan="1" colspan="1">
+<italic toggle="yes">CYLD, TOX3</italic>
+<xref ref-type="fn" rid="mol212885-note-0005">
+<sup>d</sup>
+</xref>
+</td><td align="left" rowspan="1" colspan="1">0–16<xref ref-type="fn" rid="mol212885-note-0004">
+<sup>c</sup>
+</xref>
+</td><td align="left" rowspan="1" colspan="1">Yes</td></tr><tr><td align="left" rowspan="2" colspan="1">4</td><td align="left" rowspan="2" colspan="1">6</td><td align="left" rowspan="1" colspan="1">chr13:20528021‐21570265</td><td align="left" rowspan="1" colspan="1">
+<italic toggle="yes">ZMYM2</italic>
+</td><td align="left" rowspan="1" colspan="1">3–15</td><td align="left" rowspan="1" colspan="1">Yes</td></tr><tr><td align="left" rowspan="1" colspan="1">chr13:28302602‐28662578</td><td align="left" rowspan="1" colspan="1">
+<italic toggle="yes">CDX2</italic>, <italic toggle="yes">FLT3</italic>
+</td><td align="left" rowspan="1" colspan="1">3–15</td><td align="left" rowspan="1" colspan="1">Yes</td></tr><tr><td align="left" rowspan="2" colspan="1">5</td><td align="left" rowspan="2" colspan="1">5</td><td align="left" rowspan="1" colspan="1">chr17:37604254‐37701703</td><td align="left" rowspan="1" colspan="1">
+<italic toggle="yes">CDK12</italic>
+</td><td align="left" rowspan="1" colspan="1">16–41</td><td align="left" rowspan="1" colspan="1">No</td></tr><tr><td align="left" rowspan="1" colspan="1">chr17:37704051‐38191836</td><td align="left" rowspan="1" colspan="1">
+<italic toggle="yes">ERBB2</italic>
+</td><td align="left" rowspan="1" colspan="1">41–55</td><td align="left" rowspan="1" colspan="1">No</td></tr><tr><td align="left" rowspan="4" colspan="1">6</td><td align="left" rowspan="4" colspan="1">2</td><td align="left" rowspan="1" colspan="1">chr17:36841569‐37669141</td><td align="left" rowspan="1" colspan="1">
+<italic toggle="yes">LASP1, MLLT6</italic>
+</td><td align="left" rowspan="1" colspan="1">12–18<xref ref-type="fn" rid="mol212885-note-0006">
+<sup>e</sup>
+</xref>
+</td><td align="left" rowspan="1" colspan="1">No (when also counting intermediate‐level amplifications of 12–14 copies)</td></tr><tr><td align="left" rowspan="1" colspan="1">chr17:37669142‐37993556</td><td align="left" rowspan="1" colspan="1">
+<italic toggle="yes">CDK12, ERBB2</italic>
+</td><td align="left" rowspan="1" colspan="1">17–18<xref ref-type="fn" rid="mol212885-note-0006">
+<sup>e</sup>
+</xref>
+</td><td align="left" rowspan="1" colspan="1">No</td></tr><tr><td align="left" rowspan="1" colspan="1">chr17:53268056‐53593625</td><td align="left" rowspan="1" colspan="1">
+<italic toggle="yes">HLF</italic>
+</td><td align="left" rowspan="1" colspan="1">14–18<xref ref-type="fn" rid="mol212885-note-0006">
+<sup>e</sup>
+</xref>
+</td><td align="left" rowspan="1" colspan="1">No (when also counting intermediate‐level amplifications of 14 copies)</td></tr><tr><td align="left" rowspan="1" colspan="1">chr17:56250122‐57541594</td><td align="left" rowspan="1" colspan="1">
+<italic toggle="yes">RNF43</italic>
+</td><td align="left" rowspan="1" colspan="1">14–18<xref ref-type="fn" rid="mol212885-note-0006">
+<sup>e</sup>
+</xref>
+</td><td align="left" rowspan="1" colspan="1">No (when also counting intermediate‐level amplifications of 14 copies)</td></tr></tbody></table><table-wrap-foot id="mol212885-ntgp-0002"><fn id="mol212885-note-0002"><label><sup>a</sup></label><p>Number of additional copies, relative to the estimated ploidy.</p></fn><fn id="mol212885-note-0003"><label><sup>b</sup></label><p>Primary tumor: no amplification.</p></fn><fn id="mol212885-note-0004"><label><sup>c</sup></label><p>Primary tumor: 32 copies of <italic toggle="yes">CCDN2</italic> and a neutral copy number state for <italic toggle="yes">CYLD</italic> and <italic toggle="yes">TOX3</italic>.</p></fn><fn id="mol212885-note-0005"><label><sup>d</sup></label><p>Not a COSMIC gene.</p></fn><fn id="mol212885-note-0006"><label><sup>e</sup></label><p>Primary tumor: 7 copies of <italic toggle="yes">MLLT6</italic>, 9 copies of LASP1, <italic toggle="yes">CDK12</italic>, <italic toggle="yes">ERBB2</italic>, 7 copies of <italic toggle="yes">HLF</italic> and 8 copies of <italic toggle="yes">RNF43</italic>.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &amp; Sons, Ltd</copyright-holder></permissions></table-wrap></sec><sec id="mol212885-sec-0010"><label>3.2</label><title>Frequent intermetastatic DNA copy number heterogeneity on the genome‐wide scale</title><p>The genome‐wide CNA frequencies, summarized patient‐wise, were in accordance with the well‐known aberration profiles of CRC (among 192 lesions from 64 patients; Fig. <xref rid="mol212885-sup-0003" ref-type="supplementary-material">S3</xref>). Frequent copy number gains were found on chromosome arms 7p and q, 8q, 13q, and 20q, and copy number losses on 1p, 4p and q, 8p, 17p, and 18p and q.</p><p>High‐quality DNA copy number data were available for at least two metastatic lesions from 48 patients (Fig. <xref rid="mol212885-fig-0001" ref-type="fig">1</xref>), including a total of 176 tumors and a median of 4 tumors per patient (range 2–8). For these patients, intermetastatic CNA heterogeneity was estimated by three different approaches (<xref rid="mol212885-sec-0002" ref-type="sec">Methods</xref>) and with three different sets of input data of varying width of genomic coverage (across the whole genome, from protein‐coding genes, or from only the subset of 672 cancer‐critical genes). The different estimates were strongly correlated, indicating robustness to both the approach (Spearman’s rho ≥ 0.63, <italic toggle="yes">P</italic> &lt; 0.001) and to the width of genomic coverage (Spearman’s rho ≥ 0.93, <italic toggle="yes">P</italic> &lt; 0.001; Fig. <xref rid="mol212885-sup-0004" ref-type="supplementary-material">S4</xref>). Further analyses were performed using the genome‐wide Euclidean distance‐derived heterogeneity measure, consistent with our previous study [<xref rid="mol212885-bib-0025" ref-type="ref">25</xref>]. There was a large variation among patients in the degree of intermetastatic CNA heterogeneity (Fig. <xref rid="mol212885-fig-0003" ref-type="fig">3A</xref>). This CNA heterogeneity was independent of the number of lesions analyzed per patient, the patient‐wise median aberrant cell fraction and the <italic toggle="yes">RAS</italic>/<italic toggle="yes">BRAF</italic>
+<sup>V600E</sup> mutation status, but was correlated with the patient‐wise median ploidy state and ploidy range, and the <italic toggle="yes">TP53</italic> mutation status (Fig. <xref rid="mol212885-fig-0003" ref-type="fig">3B,C</xref>; Table <xref rid="mol212885-sup-0006" ref-type="supplementary-material">S2</xref>). The CNA heterogeneity score was also weakly correlated with the mean patient‐wise CNA burden of the metastases (analyzed as the fraction of the genome with aberrant copy numbers; Spearman’s rho 0.33, <italic toggle="yes">P = </italic>0.02; Fig. <xref rid="mol212885-fig-0003" ref-type="fig">3C</xref>).</p><fig fig-type="Fig." xml:lang="en" id="mol212885-fig-0003" orientation="portrait" position="float"><label>Fig. 3</label><caption><p>(A) Genomic characteristics of 48 patients analyzed for DNA copy number heterogeneity. Top: Pairwise Euclidean distance measures ranged between 21 and 319, and heterogeneity scores per patient (mean pairwise distance measure per patient) ranged from 21 to 287 (median 104). Bottom: the bars indicate the fraction of CNAs found in one or more metastatic lesions but not all (discordant CNAs), the patient‐wise average CNA burden (proportion of the genome with aberrant copy number), the patient‐wise median and range of ploidy states among the metastases, and <italic toggle="yes">RAS</italic>/<italic toggle="yes">BRAF</italic>
+<sup>V600E</sup> and <italic toggle="yes">TP53</italic> mutation status. (B) CNA heterogeneity was significantly associated with <italic toggle="yes">TP53</italic>, but not <italic toggle="yes">RAS</italic>/BRAF<sup>V600E</sup> mutation status (<italic toggle="yes">n</italic> = 42/<italic toggle="yes">n</italic> = 6 <italic toggle="yes">TP53</italic> mutated/wild‐type; <italic toggle="yes">n</italic> = 29/<italic toggle="yes">n</italic> = 19 <italic toggle="yes">RAS</italic>/<italic toggle="yes">BRAF</italic>
+<sup>V600E</sup> mutated/wild‐type). <italic toggle="yes">TP53</italic> mutation was also associated with higher CNA burden, while <italic toggle="yes">RAS</italic>/<italic toggle="yes">BRAF</italic>
+<sup>V600E</sup> mutations were associated with lower CNA burden (<italic toggle="yes">n</italic> = 51/<italic toggle="yes">n</italic> = 13 <italic toggle="yes">TP53</italic> mutated/wild‐type; <italic toggle="yes">n</italic> = 42/<italic toggle="yes">n</italic> = 22 <italic toggle="yes">RAS</italic>/<italic toggle="yes">BRAF</italic>
+<sup>V600E</sup> mutated/wild‐type). The CNA estimates still varied within the mutational subgroups, with interquartile range between 27 and 65 for CNA heterogeneity (Euclidean distance) and 10–33 for CNA burden (%). (C) CNA heterogeneity assessed as the mean Euclidean distance was not correlated with the number of lesions analyzed, and only weakly to the overall CNA burden.</p></caption><graphic id="jats-graphic-7" position="float" orientation="portrait" ns1:href="MOL2-15-830-g007.jpg" /></fig></sec><sec id="mol212885-sec-0011"><label>3.3</label><title>Co‐mutated <italic toggle="yes">RAS</italic>/<italic toggle="yes">BRAF</italic>
+<sup>V600E</sup> and <italic toggle="yes">TP53</italic> are associated with poor patient outcome</title><p>The 165 patients with MSS cancers that were treated with R0 or R1 hepatic resection had a median cancer‐specific survival of 48 months and a 5y‐CSS rate of 40%. The 139 patients with R0 or R1 status overall had a median cancer‐specific survival of 50 months and a 5y‐CSS rate of 44%. Several clinicopathological factors (Table <xref rid="mol212885-tbl-0002" ref-type="table">2</xref>) were associated with poor patient outcome in univariable Cox regression analysis, and gender, size of the largest metastasis, R‐status in the liver and presence of extrahepatic disease remained significant in multivariable analyses (Table <xref rid="mol212885-tbl-0003" ref-type="table">3</xref>).</p><table-wrap id="mol212885-tbl-0002" xml:lang="en" content-type="Table" orientation="portrait" position="float"><label>Table 2</label><caption><p>Clinicopathological characteristics of all 171 patients and 48 patients with multiple metastases and associated CNA data.</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1" /><col style="border-right:solid 1px #000000" span="1" /><col style="border-right:solid 1px #000000" span="1" /><col style="border-right:solid 1px #000000" span="1" /><col style="border-right:solid 1px #000000" span="1" /><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="2" valign="bottom" colspan="1">Variable</th><th align="left" colspan="2" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">Total patient series, <italic toggle="yes">n</italic> = 171</th><th align="left" colspan="2" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">Subset for copy number heterogeneity analyses, <italic toggle="yes">n</italic> = 48</th></tr><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">
+<italic toggle="yes">n</italic> (range)</th><th align="left" valign="bottom" rowspan="1" colspan="1">%</th><th align="left" valign="bottom" rowspan="1" colspan="1">
+<italic toggle="yes">n</italic> (range)</th><th align="left" valign="bottom" rowspan="1" colspan="1">%</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Age at surgery, median (range)</td><td align="left" rowspan="1" colspan="1">66 (21–85)</td><td align="char" char="." rowspan="1" colspan="1">–</td><td align="left" rowspan="1" colspan="1">67 (21–85)</td><td align="left" rowspan="1" colspan="1">–</td></tr><tr><td align="left" rowspan="1" colspan="1">Male sex</td><td align="left" rowspan="1" colspan="1">106</td><td align="char" char="." rowspan="1" colspan="1">62</td><td align="left" rowspan="1" colspan="1">34</td><td align="left" rowspan="1" colspan="1">71</td></tr><tr><td align="left" rowspan="1" colspan="1">Primary tumor in right colon<xref ref-type="fn" rid="mol212885-note-0007">
+<sup>a</sup>
+</xref>
+</td><td align="left" rowspan="1" colspan="1">36</td><td align="char" char="." rowspan="1" colspan="1">21</td><td align="left" rowspan="1" colspan="1">12</td><td align="left" rowspan="1" colspan="1">25</td></tr><tr><td align="left" rowspan="1" colspan="1">Positive nodal status primary</td><td align="left" rowspan="1" colspan="1">116<xref ref-type="fn" rid="mol212885-note-0008">
+<sup>b</sup>
+</xref>
+</td><td align="char" char="." rowspan="1" colspan="1">68</td><td align="left" rowspan="1" colspan="1">28</td><td align="left" rowspan="1" colspan="1">58</td></tr><tr><td align="left" rowspan="1" colspan="1">Synchronous liver metastases<xref ref-type="fn" rid="mol212885-note-0009">
+<sup>c</sup>
+</xref>
+</td><td align="left" rowspan="1" colspan="1">134</td><td align="char" char="." rowspan="1" colspan="1">78</td><td align="left" rowspan="1" colspan="1">39</td><td align="left" rowspan="1" colspan="1">81</td></tr><tr><td align="left" rowspan="1" colspan="1">Previous resection of CRLM</td><td align="left" rowspan="1" colspan="1">37</td><td align="char" char="." rowspan="1" colspan="1">22</td><td align="left" rowspan="1" colspan="1">9</td><td align="left" rowspan="1" colspan="1">19</td></tr><tr><td align="left" rowspan="1" colspan="1">Previous chemotherapy</td><td align="left" rowspan="1" colspan="1">52</td><td align="char" char="." rowspan="1" colspan="1">30</td><td align="left" rowspan="1" colspan="1">9</td><td align="left" rowspan="1" colspan="1">19</td></tr><tr><td align="left" rowspan="1" colspan="1">Chemotherapy for these CRLM</td><td align="left" rowspan="1" colspan="1">131</td><td align="char" char="." rowspan="1" colspan="1">77</td><td align="left" rowspan="1" colspan="1">43</td><td align="left" rowspan="1" colspan="1">90</td></tr><tr><td align="left" rowspan="1" colspan="1">Targeted agents for these CRLM</td><td align="left" rowspan="1" colspan="1">47</td><td align="char" char="." rowspan="1" colspan="1">27</td><td align="left" rowspan="1" colspan="1">17</td><td align="left" rowspan="1" colspan="1">35</td></tr><tr><td align="left" rowspan="1" colspan="1">Median (range) number of chemotherapy cycles</td><td align="left" rowspan="1" colspan="1">4 (1–41)</td><td align="char" char="." rowspan="1" colspan="1">–</td><td align="left" rowspan="1" colspan="1">5 (1–41)</td><td align="left" rowspan="1" colspan="1">–</td></tr><tr><td align="left" rowspan="1" colspan="1">Median (range) size largest CRLM, mm<xref ref-type="fn" rid="mol212885-note-0010">
+<sup>d</sup>
+</xref>
+</td><td align="left" rowspan="1" colspan="1">27 (6–120)</td><td align="char" char="." rowspan="1" colspan="1">–</td><td align="left" rowspan="1" colspan="1">29 (10–113)</td><td align="left" rowspan="1" colspan="1">–</td></tr><tr><td align="left" rowspan="1" colspan="1">Median (range) number of CRLM<xref ref-type="fn" rid="mol212885-note-0010">
+<sup>d</sup>
+</xref>
+</td><td align="left" rowspan="1" colspan="1">4 (1–23)</td><td align="char" char="." rowspan="1" colspan="1">–</td><td align="left" rowspan="1" colspan="1">6 (1–20)</td><td align="left" rowspan="1" colspan="1">–</td></tr><tr><td align="left" rowspan="1" colspan="1">Median (range) number of analyzed CRLM</td><td align="left" rowspan="1" colspan="1">2 (1–9)</td><td align="char" char="." rowspan="1" colspan="1">–</td><td align="left" rowspan="1" colspan="1">4 (2–8)</td><td align="left" rowspan="1" colspan="1">–</td></tr><tr><td align="left" rowspan="1" colspan="1">Laparoscopic procedure</td><td align="left" rowspan="1" colspan="1">39</td><td align="char" char="." rowspan="1" colspan="1">23</td><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">6</td></tr><tr><td align="left" rowspan="1" colspan="1">Two‐stage hepatectomy</td><td align="left" rowspan="1" colspan="1">33</td><td align="char" char="." rowspan="1" colspan="1">19</td><td align="left" rowspan="1" colspan="1">18</td><td align="left" rowspan="1" colspan="1">38</td></tr><tr><td align="left" rowspan="1" colspan="1">Radiofrequency ablation</td><td align="left" rowspan="1" colspan="1">23</td><td align="char" char="." rowspan="1" colspan="1">13</td><td align="left" rowspan="1" colspan="1">4</td><td align="left" rowspan="1" colspan="1">8</td></tr><tr><td align="left" rowspan="1" colspan="1">R‐status liver</td><td align="left" rowspan="1" colspan="1" /><td align="char" char="." rowspan="1" colspan="1" /><td align="left" rowspan="1" colspan="1" /><td align="left" rowspan="1" colspan="1" /></tr><tr><td align="left" rowspan="1" colspan="1">R0‐resection</td><td align="left" rowspan="1" colspan="1">71</td><td align="char" char="." rowspan="1" colspan="1">42</td><td align="left" rowspan="1" colspan="1">14</td><td align="left" rowspan="1" colspan="1">29</td></tr><tr><td align="left" rowspan="1" colspan="1">R1‐resection<xref ref-type="fn" rid="mol212885-note-0011">
+<sup>e</sup>
+</xref>
+</td><td align="left" rowspan="1" colspan="1">95</td><td align="char" char="." rowspan="1" colspan="1">56</td><td align="left" rowspan="1" colspan="1">32</td><td align="left" rowspan="1" colspan="1">67</td></tr><tr><td align="left" rowspan="1" colspan="1">R2‐resection<xref ref-type="fn" rid="mol212885-note-0012">
+<sup>f</sup>
+</xref>
+</td><td align="left" rowspan="1" colspan="1">5<xref ref-type="fn" rid="mol212885-note-0013">
+<sup>g</sup>
+</xref>
+</td><td align="char" char="." rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">2<xref ref-type="fn" rid="mol212885-note-0014">
+<sup>h</sup>
+</xref>
+</td><td align="left" rowspan="1" colspan="1">4</td></tr><tr><td align="left" rowspan="1" colspan="1">Extrahepatic disease (%)</td><td align="left" rowspan="1" colspan="1">32</td><td align="char" char="." rowspan="1" colspan="1">19</td><td align="left" rowspan="1" colspan="1">10</td><td align="left" rowspan="1" colspan="1">21</td></tr></tbody></table><table-wrap-foot id="mol212885-ntgp-0003"><fn id="mol212885-note-0007"><label><sup>a</sup></label><p>Including the transverse colon.</p></fn><fn id="mol212885-note-0008"><label><sup>b</sup></label><p>Missing data for six patients.</p></fn><fn id="mol212885-note-0009"><label><sup>c</sup></label><p>First liver metastases detected within 6 months of primary tumor diagnosis.</p></fn><fn id="mol212885-note-0010"><label><sup>d</sup></label><p>On radiologic imaging before treatment.</p></fn><fn id="mol212885-note-0011"><label><sup>e</sup></label><p>&lt; 1 mm margin or RFA treatment.</p></fn><fn id="mol212885-note-0012"><label><sup>f</sup></label><p>Not completed second‐stage hepatectomy due to disease progression in observation period (<italic toggle="yes">n</italic> = 2) and missing lesions after neoadjuvant chemotherapy (<italic toggle="yes">n</italic> = 3).</p></fn><fn id="mol212885-note-0013"><label><sup>g</sup></label><p>Two patients with R2‐resection of the liver also had extrahepatic disease.</p></fn><fn id="mol212885-note-0014"><label><sup>h</sup></label><p>One patient with R2‐resection of the liver also had extrahepatic disease.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &amp; Sons, Ltd</copyright-holder></permissions></table-wrap><table-wrap id="mol212885-tbl-0003" xml:lang="en" content-type="Table" orientation="portrait" position="float"><label>Table 3</label><caption><p>Cox regression analyses.</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1" /><col style="border-right:solid 1px #000000" span="1" /><col style="border-right:solid 1px #000000" span="1" /><col style="border-right:solid 1px #000000" span="1" /><col style="border-right:solid 1px #000000" span="1" /><col style="border-right:solid 1px #000000" span="1" /><col style="border-right:solid 1px #000000" span="1" /><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="2" colspan="2" valign="bottom">Variable</th><th align="left" colspan="2" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">Univariable analysis</th><th align="left" colspan="2" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">Multivariable analysis</th><th align="left" rowspan="2" valign="bottom" colspan="1">
+<italic toggle="yes">N</italic> patients (events)</th></tr><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">HR<xref ref-type="fn" rid="mol212885-note-0015">
+<sup>a</sup>
+</xref> (95% CI<xref ref-type="fn" rid="mol212885-note-0016">
+<sup>b</sup>
+</xref>)</th><th align="left" valign="bottom" rowspan="1" colspan="1">
+<italic toggle="yes">P</italic>‐value</th><th align="left" valign="bottom" rowspan="1" colspan="1">HR<xref ref-type="fn" rid="mol212885-note-0015">
+<sup>a</sup>
+</xref> (95% CI<xref ref-type="fn" rid="mol212885-note-0016">
+<sup>b</sup>
+</xref>)</th><th align="left" valign="bottom" rowspan="1" colspan="1">
+<italic toggle="yes">P</italic>‐value</th></tr></thead><tbody><tr><td align="left" colspan="2" rowspan="1">Age at surgery &gt; cohort median</td><td align="char" char="(" rowspan="1" colspan="1">1.2 (0.8–1.8)</td><td align="char" char="." rowspan="1" colspan="1">0.444</td><td align="char" char="." rowspan="1" colspan="1" /><td align="char" char="." rowspan="1" colspan="1" /><td align="char" char="(" rowspan="1" colspan="1">165 (92)</td></tr><tr><td align="left" colspan="2" rowspan="1">Male sex</td><td align="char" char="(" rowspan="1" colspan="1">2.7 (1.7–4.3)</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>&lt; 0.001</bold>
+</td><td align="char" char="(" rowspan="1" colspan="1">2.7 (1.7–4.4)</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>&lt; 0.001</bold>
+</td><td align="char" char="." rowspan="1" colspan="1" /></tr><tr><td align="left" colspan="2" rowspan="1">Primary tumor in right colon</td><td align="char" char="(" rowspan="1" colspan="1">1.4 (0.8–2.2)</td><td align="char" char="." rowspan="1" colspan="1">0.213</td><td align="char" char="." rowspan="1" colspan="1" /><td align="char" char="." rowspan="1" colspan="1" /><td align="char" char="." rowspan="1" colspan="1" /></tr><tr><td align="left" colspan="2" rowspan="1">Positive nodal status primary</td><td align="char" char="(" rowspan="1" colspan="1">0.9 (0.6–1.4)</td><td align="char" char="." rowspan="1" colspan="1">0.617</td><td align="char" char="." rowspan="1" colspan="1" /><td align="char" char="." rowspan="1" colspan="1" /><td align="char" char="." rowspan="1" colspan="1" /></tr><tr><td align="left" colspan="2" rowspan="1">Synchronous liver metastases</td><td align="char" char="(" rowspan="1" colspan="1">0.8 (0.5–1.2)</td><td align="char" char="." rowspan="1" colspan="1">0.269</td><td align="char" char="." rowspan="1" colspan="1" /><td align="char" char="." rowspan="1" colspan="1" /><td align="char" char="." rowspan="1" colspan="1" /></tr><tr><td align="left" colspan="2" rowspan="1">Previous resection of CRLM</td><td align="char" char="(" rowspan="1" colspan="1">0.6 (0.4–1.1)</td><td align="char" char="." rowspan="1" colspan="1">0.094</td><td align="char" char="." rowspan="1" colspan="1" /><td align="char" char="." rowspan="1" colspan="1" /><td align="char" char="." rowspan="1" colspan="1" /></tr><tr><td align="left" colspan="2" rowspan="1">Previous chemotherapy</td><td align="char" char="(" rowspan="1" colspan="1">1.2 (0.8–1.9)</td><td align="char" char="." rowspan="1" colspan="1">0.356</td><td align="char" char="." rowspan="1" colspan="1" /><td align="char" char="." rowspan="1" colspan="1" /><td align="char" char="." rowspan="1" colspan="1" /></tr><tr><td align="left" colspan="2" rowspan="1">Chemotherapy for these CRLM</td><td align="char" char="(" rowspan="1" colspan="1">1.4 (0.9–2.4)</td><td align="char" char="." rowspan="1" colspan="1">0.169</td><td align="char" char="." rowspan="1" colspan="1" /><td align="char" char="." rowspan="1" colspan="1" /><td align="char" char="." rowspan="1" colspan="1" /></tr><tr><td align="left" colspan="2" rowspan="1">Targeted agents for these CRLM</td><td align="char" char="(" rowspan="1" colspan="1">0.9 (0.6–1.4)</td><td align="char" char="." rowspan="1" colspan="1">0.665</td><td align="char" char="." rowspan="1" colspan="1" /><td align="char" char="." rowspan="1" colspan="1" /><td align="char" char="." rowspan="1" colspan="1" /></tr><tr><td align="left" colspan="2" rowspan="1">Number of cycles &gt; cohort median</td><td align="char" char="(" rowspan="1" colspan="1">1.6 (1.1–2.5)</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>0.018</bold>
+</td><td align="char" char="(" rowspan="1" colspan="1">1.4 (0.9–2.1)</td><td align="char" char="." rowspan="1" colspan="1">0.168</td><td align="char" char="." rowspan="1" colspan="1" /></tr><tr><td align="left" colspan="2" rowspan="1">Size largest CRLM, mm &gt; cohort median</td><td align="char" char="(" rowspan="1" colspan="1">1.7 (1.1–2.6)</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>0.010</bold>
+</td><td align="char" char="(" rowspan="1" colspan="1">1.6 (1.1–2.5)</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>0.026</bold>
+</td><td align="char" char="." rowspan="1" colspan="1" /></tr><tr><td align="left" colspan="2" rowspan="1">Single metastasis</td><td align="char" char="(" rowspan="1" colspan="1">0.6 (0.4–1.1)</td><td align="char" char="." rowspan="1" colspan="1">0.124</td><td align="char" char="." rowspan="1" colspan="1" /><td align="char" char="." rowspan="1" colspan="1" /><td align="char" char="." rowspan="1" colspan="1" /></tr><tr><td align="left" colspan="2" rowspan="1">Number of CRLM &gt; cohort median<xref ref-type="fn" rid="mol212885-note-0017">
+<sup>c</sup>
+</xref>
+</td><td align="char" char="(" rowspan="1" colspan="1">1.2 (0.8–1.9)</td><td align="char" char="." rowspan="1" colspan="1">0.328</td><td align="char" char="." rowspan="1" colspan="1" /><td align="char" char="." rowspan="1" colspan="1" /><td align="char" char="." rowspan="1" colspan="1" /></tr><tr><td align="left" colspan="2" rowspan="1">Laparoscopic procedure</td><td align="char" char="(" rowspan="1" colspan="1">0.8 (0.5–1.3)</td><td align="char" char="." rowspan="1" colspan="1">0.303</td><td align="char" char="." rowspan="1" colspan="1" /><td align="char" char="." rowspan="1" colspan="1" /><td align="char" char="." rowspan="1" colspan="1" /></tr><tr><td align="left" colspan="2" rowspan="1">Two‐stage hepatectomy</td><td align="char" char="(" rowspan="1" colspan="1">1.3 (0.8–2.1)</td><td align="char" char="." rowspan="1" colspan="1">0.236</td><td align="char" char="." rowspan="1" colspan="1" /><td align="char" char="." rowspan="1" colspan="1" /><td align="char" char="." rowspan="1" colspan="1" /></tr><tr><td align="left" colspan="2" rowspan="1">Radiofrequency ablation</td><td align="char" char="(" rowspan="1" colspan="1">0.9 (0.5–1.7)</td><td align="char" char="." rowspan="1" colspan="1">0.778</td><td align="char" char="." rowspan="1" colspan="1" /><td align="char" char="." rowspan="1" colspan="1" /><td align="char" char="." rowspan="1" colspan="1" /></tr><tr><td align="left" colspan="2" rowspan="1">R‐status liver<xref ref-type="fn" rid="mol212885-note-0018">
+<sup>d</sup>
+</xref>
+</td><td align="char" char="(" rowspan="1" colspan="1">1.6 (1.0–2.4)</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>0.034</bold>
+</td><td align="char" char="(" rowspan="1" colspan="1">1.7 (1.1–2.7)</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>0.013</bold>
+</td><td align="char" char="." rowspan="1" colspan="1" /></tr><tr><td align="left" colspan="2" rowspan="1">Extrahepatic disease</td><td align="char" char="(" rowspan="1" colspan="1">2.7 (1.7–4.3)</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>&lt; 0.001</bold>
+</td><td align="char" char="(" rowspan="1" colspan="1">2.2 (1.3–3.6)</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>0.003</bold>
+</td><td align="char" char="." rowspan="1" colspan="1" /></tr><tr><td align="left" colspan="2" rowspan="1">RAS/BRAF<sup>V600E</sup> and TP53 co‐mutation yes/no</td><td align="char" char="(" rowspan="1" colspan="1">1.9 (1.2–2.9)</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>0.003</bold>
+</td><td align="char" char="." rowspan="1" colspan="1" /><td align="char" char="." rowspan="1" colspan="1" /><td align="char" char="." rowspan="1" colspan="1" /></tr><tr><td align="left" rowspan="3" colspan="1">RAS/BRAF<sup>V600E</sup> and TP53 co‐mutation<xref ref-type="fn" rid="mol212885-note-0019">
+<sup>e</sup>
+</xref>
+</td><td align="left" rowspan="1" colspan="1">TP53 only</td><td align="char" char="(" rowspan="1" colspan="1">2.3 (0.8–6.6)</td><td align="char" char="." rowspan="1" colspan="1">0.106</td><td align="char" char="(" rowspan="1" colspan="1">2.4 (0.9–6.9)</td><td align="char" char="." rowspan="1" colspan="1">0.096</td><td align="char" char="." rowspan="1" colspan="1" /></tr><tr><td align="left" rowspan="1" colspan="1">RAS/BRAF<sup>V600E</sup> only</td><td align="char" char="(" rowspan="1" colspan="1">2.6 (0.9–7.8)</td><td align="char" char="." rowspan="1" colspan="1">0.089</td><td align="char" char="(" rowspan="1" colspan="1">3.0 (1.0–9.0)</td><td align="char" char="." rowspan="1" colspan="1">0.054</td><td align="char" char="." rowspan="1" colspan="1" /></tr><tr><td align="left" rowspan="1" colspan="1">co‐mut</td><td align="char" char="(" rowspan="1" colspan="1">4.1 (1.5–11.6)</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>0.007</bold>
+</td><td align="char" char="(" rowspan="1" colspan="1">3.9 (1.3–11.1)</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>0.012</bold>
+</td><td align="char" char="." rowspan="1" colspan="1" /></tr><tr><td align="left" rowspan="2" colspan="1">RAS/BRAF<sup>V600E</sup> and TP53 co‐mutation and high mean patient‐wise CNA burden<xref ref-type="fn" rid="mol212885-note-0020">
+<sup>f</sup>
+</xref>
+</td><td align="left" rowspan="1" colspan="1">Co‐mutation and low CNA burden</td><td align="char" char="(" rowspan="1" colspan="1">1.5 (0.7–3.2)</td><td align="char" char="." rowspan="1" colspan="1">0.281</td><td align="char" char="." rowspan="1" colspan="1" /><td align="char" char="." rowspan="1" colspan="1" /><td align="char" char="(" rowspan="1" colspan="1">62 (40)</td></tr><tr><td align="left" rowspan="1" colspan="1">Co‐mutation and high CNA burden</td><td align="char" char="(" rowspan="1" colspan="1">2.7 (1.2–5.9)</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>0.013</bold>
+</td><td align="char" char="." rowspan="1" colspan="1" /><td align="char" char="." rowspan="1" colspan="1" /><td align="char" char="." rowspan="1" colspan="1" /></tr><tr><td align="left" rowspan="2" colspan="1">RAS/BRAF<sup>V600E</sup> and TP53 co‐mutation and high intermetastatic CNA heterogeneity<xref ref-type="fn" rid="mol212885-note-0020">
+<sup>f</sup>
+</xref>
+</td><td align="left" rowspan="1" colspan="1">Co‐mutation and low CNA heterogeneity</td><td align="char" char="(" rowspan="1" colspan="1">1.6 (0.6–4.5)</td><td align="char" char="." rowspan="1" colspan="1">0.365</td><td align="char" char="." rowspan="1" colspan="1" /><td align="char" char="." rowspan="1" colspan="1" /><td align="char" char="(" rowspan="1" colspan="1">46 (30)</td></tr><tr><td align="left" rowspan="1" colspan="1">Co‐mutation and high CNA heterogeneity</td><td align="char" char="(" rowspan="1" colspan="1">2.5 (1.1–5.6)</td><td align="char" char="." rowspan="1" colspan="1">
+<bold>0.022</bold>
+</td><td align="char" char="." rowspan="1" colspan="1" /><td align="char" char="." rowspan="1" colspan="1" /><td align="char" char="." rowspan="1" colspan="1" /></tr></tbody></table><table-wrap-foot id="mol212885-ntgp-0004"><fn id="mol212885-note-0115"><p>
+<italic toggle="yes">P</italic>‐values significant on a 5% level are highlighted in bold.</p></fn><fn id="mol212885-note-0015"><label><sup>a</sup></label><p>Hazard ratio.</p></fn><fn id="mol212885-note-0016"><label><sup>b</sup></label><p>Confidence interval.</p></fn><fn id="mol212885-note-0017"><label><sup>c</sup></label><p>As seen on radiological evaluation (CT/MRI) before surgery.</p></fn><fn id="mol212885-note-0018"><label><sup>d</sup></label><p>R0 versus R1.</p></fn><fn id="mol212885-note-0019"><label><sup>e</sup></label><p>Reference group: co‐wt.</p></fn><fn id="mol212885-note-0020"><label><sup>f</sup></label><p>Reference group: no co‐mutation.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &amp; Sons, Ltd</copyright-holder></permissions></table-wrap><p>
+<italic toggle="yes">RAS</italic>/<italic toggle="yes">BRAF</italic>
+<sup>V600E</sup> mutations, but not <italic toggle="yes">TP53</italic> mutations, were associated with a poor 5y‐CSS in univariable analyses (<italic toggle="yes">RAS</italic>/<italic toggle="yes">BRAF</italic>
+<sup>V600E</sup>: 32% for mutated versus 47% for wild‐type, <italic toggle="yes">P</italic> = 0.01; <italic toggle="yes">TP53:</italic> 35% for mutated versus 55% for wild‐type, <italic toggle="yes">P</italic> = 0.1; Fig. <xref rid="mol212885-fig-0004" ref-type="fig">4</xref>). Co‐mutations of <italic toggle="yes">RAS</italic>/<italic toggle="yes">BRAF</italic>
+<sup>V600E</sup> and <italic toggle="yes">TP53</italic> had a strong prognostic impact, with a 5y‐CSS of 25%, compared to 46% for patients with <italic toggle="yes">RAS</italic>/<italic toggle="yes">BRAF</italic>
+<sup>V600E</sup> mutation only, 42% for <italic toggle="yes">TP53</italic> mutation only, and 71% in patients with wild‐type status for all four genes (<italic toggle="yes">P</italic> = 0.001, test for trend, Fig. <xref rid="mol212885-fig-0004" ref-type="fig">4</xref>). Co‐mutated <italic toggle="yes">RAS</italic>/<italic toggle="yes">BRAF</italic>
+<sup>V600E</sup> and <italic toggle="yes">TP53</italic> was not significant compared to patients with <italic toggle="yes">RAS</italic>/<italic toggle="yes">BRAF</italic>
+<sup>V600E</sup> mutations only (<italic toggle="yes">P</italic> = 0.2). The prognostic role of co‐mutations was not driven by patients with <italic toggle="yes">BRAF</italic>
+<sup>V600E</sup> mutations, as the analyses remained significant upon exclusion of 3 patients with BRAF<sup>V600E</sup> mutations (Fig. <xref rid="mol212885-sup-0005" ref-type="supplementary-material">S5</xref>a).</p><fig fig-type="Fig." xml:lang="en" id="mol212885-fig-0004" orientation="portrait" position="float"><label>Fig. 4</label><caption><p>Five‐year CSS according to mutation status. <italic toggle="yes">P</italic> values are derived from log rank tests for comparisons of two groups and log rank tests for trend for comparisons of more than two groups. For pairwise comparisons, <italic toggle="yes">RAS</italic>/<italic toggle="yes">BRAF</italic>
+<sup>V600E</sup>/<italic toggle="yes">TP53</italic> co‐mutation was associated with significantly worse survival than double wild‐type (<italic toggle="yes">P</italic> = 0.006) and <italic toggle="yes">TP53</italic> mutation only (<italic toggle="yes">P</italic> = 0.01), but not compared to <italic toggle="yes">RAS</italic>/<italic toggle="yes">BRAF</italic>
+<sup>V600E</sup> mutations only (<italic toggle="yes">P</italic> = 0.2). Wt = wild‐type.</p></caption><graphic id="jats-graphic-9" position="float" orientation="portrait" ns1:href="MOL2-15-830-g001.jpg" /></fig><p>Co‐mutations of <italic toggle="yes">RAS</italic>/<italic toggle="yes">BRAF</italic>
+<sup>V600E</sup> and <italic toggle="yes">TP53</italic> were enriched in patients with a right‐sided primary tumor location and with extrahepatic metastases and depleted among patients with positive nodal status and those receiving neoadjuvant anti‐EGFR or VEGF treatment (Table <xref rid="mol212885-sup-0006" ref-type="supplementary-material">S3</xref>). However, co‐mutation remained significant in multivariable analyses including clinicopathological factors (Table <xref rid="mol212885-tbl-0003" ref-type="table">3</xref>).</p></sec><sec id="mol212885-sec-0012"><label>3.4</label><title>Genome‐wide CNA profiles have poor prognostic associations</title><p>Two measures of the CNA profiles of the CRLM were analyzed for prognostic associations among patients with MSS cancers and R0/R1 resection: the genome‐wide CNA burden (<italic toggle="yes">n</italic> = 62, the mean across lesions for patients with multiple CRLM analyzed) and the intrapatient intermetastatic CNA heterogeneity estimate (<italic toggle="yes">n</italic> = 48). Both these patient‐wise CNA measures were categorized into a high and low group relative to the respective median in the patient series. High CNA heterogeneity or CNA burden was not overrepresented according to any of the clinical variables listed in Table <xref rid="mol212885-tbl-0002" ref-type="table">2</xref>. A high overall CNA burden was significantly associated with a poor 5y‐CSS rate in univariable analyses, with survival rates of 15% and 44% in the high and low groups, respectively (<italic toggle="yes">P</italic> = 0.02; Fig. <xref rid="mol212885-fig-0005" ref-type="fig">5</xref>). CNA burden, measured as the fraction of the genome affected by copy number aberrations, was also significantly associated with a poor patient outcome when analyzed as a continuous variable (HR 1.03, 95% CI 1.01–1.05, <italic toggle="yes">P</italic> = 0.009). Furthermore, patients with high intrapatient intermetastatic CNA heterogeneity also had a poorer survival rate than patients with a low heterogeneity, although not statistically significant in this smaller patient subgroup (5y‐CSS of 23% and 37%, respectively, <italic toggle="yes">P</italic> = 0.2; Fig. <xref rid="mol212885-fig-0005" ref-type="fig">5</xref>). The combination of a high CNA burden and a high CNA heterogeneity was associated with a particularly poor patient outcome, and patients in this subgroup had a 5yr‐CSS rate of 9%, compared to 30% among patients with only one of the variables high and 50% among patients low for both CNA measures (<italic toggle="yes">P</italic> = 0.02, test for trend; Fig. <xref rid="mol212885-fig-0005" ref-type="fig">5</xref>). The median survival rates in the three groups were 25, 36, and 50 months, respectively.</p><fig fig-type="Fig." xml:lang="en" id="mol212885-fig-0005" orientation="portrait" position="float"><label>Fig. 5</label><caption><p>Five‐year CSS according to CNA burden (left), CNA heterogeneity (middle), and both measures combined (right). <italic toggle="yes">P</italic> values are derived from log rank tests for comparisons of two groups and log rank tests for trend for comparisons of more than two groups.</p></caption><graphic id="jats-graphic-11" position="float" orientation="portrait" ns1:href="MOL2-15-830-g003.jpg" /></fig></sec><sec id="mol212885-sec-0013"><label>3.5</label><title>Combined biomarker analyses suggest potential for stratification of the <italic toggle="yes">RAS/BRAF</italic>
+<sup>V600E</sup>
+<italic toggle="yes">/TP53‐</italic>mutated subgroup by CNA profiles</title><p>Both CNA heterogeneity and CNA burden were significantly higher in patients with <italic toggle="yes">TP53</italic>‐mutated compared to wild‐type tumors, but the CNA estimates were not associated with <italic toggle="yes">RAS</italic>/<italic toggle="yes">BRAF</italic>
+<sup>V600E</sup> mutation status. Furthermore, there was a substantial variation in the CNA estimates within the mutational subgroups (Fig. <xref rid="mol212885-fig-0003" ref-type="fig">3B</xref>), motivating us to analyze the different prognostic biomarkers individually and combined. Within the <italic toggle="yes">RAS</italic>/<italic toggle="yes">BRAF</italic>
+<sup>V600E</sup>
+<italic toggle="yes">‐</italic>mutated subgroup, the 5y‐CSS was 15% in patients with a high level of intermetastatic CNA heterogeneity versus 42% in patients with low CNA heterogeneity (<italic toggle="yes">P</italic> = 0.08). Similarly, the 5y CSS was 0% in the <italic toggle="yes">RAS</italic>/<italic toggle="yes">BRAF</italic>
+<sup>V600E</sup>
+<italic toggle="yes">‐</italic>mutated patients with a high CNA burden versus 44% in <italic toggle="yes">RAS</italic>/<italic toggle="yes">BRAF</italic>
+<sup>V600E</sup>‐mutated patients with a low CNA burden (<italic toggle="yes">P</italic> = 0.02; Fig. <xref rid="mol212885-fig-0006" ref-type="fig">6A</xref>). Prognostic stratification of the <italic toggle="yes">TP53</italic>‐mutated subgroup by either of the CNA estimates was not statistically significant (<italic toggle="yes">P</italic> ≥ 0.2; Fig. <xref rid="mol212885-sup-0005" ref-type="supplementary-material">S5</xref>b). The triple combination of co‐mutation in <italic toggle="yes">RAS</italic>/<italic toggle="yes">BRAF</italic>
+<sup>V600E</sup> and <italic toggle="yes">TP53</italic> and high intermetastatic CNA heterogeneity was associated with a worse 5y‐CSS compared with co‐mutations/low heterogeneity and the remaining patients (<italic toggle="yes">P</italic> = 0.02 for analysis of trend among the three groups; Fig. <xref rid="mol212885-fig-0006" ref-type="fig">6B</xref>). Similar stratification of patients with co‐mutations by the CNA burden showed a prognostic association also for patients with a triple combination of co‐mutations and high CNA burden (<italic toggle="yes">P</italic> = 0.01, test for trend; Fig. <xref rid="mol212885-fig-0006" ref-type="fig">6B</xref>). Both associations were also supported by univariable Cox regression analyses (Table <xref rid="mol212885-tbl-0003" ref-type="table">3</xref>). Similar results were found when excluding patients with extrahepatic metastases from the analyses (Fig. <xref rid="mol212885-sup-0005" ref-type="supplementary-material">S5</xref>c).</p><fig fig-type="Fig." xml:lang="en" id="mol212885-fig-0006" orientation="portrait" position="float"><label>Fig. 6</label><caption><p>(A) The <italic toggle="yes">RAS/BRAF</italic>
+<sup>V600E</sup>
+<italic toggle="yes">‐</italic>mutated patient subgroup stratified by CNA heterogeneity (<italic toggle="yes">n</italic> = 27; left) and CNA burden (<italic toggle="yes">n</italic> = 40; right). (B) Patients with co‐mutated <italic toggle="yes">RAS/BRAF</italic>
+<sup>V600E</sup>/TP53 stratified according to CNA heterogeneity (<italic toggle="yes">n</italic> = 46; left) and CNA burden (<italic toggle="yes">n</italic> = 62; right). <italic toggle="yes">P</italic> values are derived from log rank tests for comparisons of two groups and log rank tests for trend for comparisons of more than two groups.</p></caption><graphic id="jats-graphic-13" position="float" orientation="portrait" ns1:href="MOL2-15-830-g002.jpg" /></fig></sec></sec><sec sec-type="discussion" id="mol212885-sec-0014"><label>4</label><title>Discussion</title><p>Intrapatient molecular heterogeneity is anticipated to have clinical implications [<xref rid="mol212885-bib-0035" ref-type="ref">35</xref>], and current evidence in metastatic CRC suggests that heterogeneity on the DNA copy number level is more widespread than heterogeneity of single nucleotide variants (SNVs) and small insertions/deletions (indels), at least in cancer‐critical genes [<xref rid="mol212885-bib-0023" ref-type="ref">23</xref>, <xref rid="mol212885-bib-0025" ref-type="ref">25</xref>, <xref rid="mol212885-bib-0026" ref-type="ref">26</xref>]. We have shown that mutations in <italic toggle="yes">KRAS, NRAS, BRAF</italic>
+<sup>V600E</sup> [<xref rid="mol212885-bib-0019" ref-type="ref">19</xref>], and <italic toggle="yes">TP53</italic> are predominantly homogeneously present among multiple resected CRLM from each patient. The DNA copy number states of the four genes were more heterogeneous among metastases and correlated with the genome‐wide intermetastatic CNA heterogeneity, consistent with a lower selection pressure for these genes on the DNA copy number level than on the point mutation level. Furthermore, high‐level amplifications targeting cancer‐critical genes, including the therapeutic targets <italic toggle="yes">ERBB2</italic> and <italic toggle="yes">EGFR</italic>, were also typically homogeneously present within patients, both among multiple metastatic lesions and in the primary tumor. The timing of cancer‐critical amplifications is poorly studied in CRC, and our results suggest that driver amplicons commonly arise before metastatic dissemination. In contrast, the level of genome‐wide intermetastatic DNA copy number heterogeneity beyond amplification events varied substantially among patients. There was no enrichment or depletion of cancer‐related genes among genomic regions with heterogeneous DNA copy number, suggesting that CNA heterogeneity is a genome‐wide and target‐ignorant characteristic.</p><p>There is an urgent clinical need for markers to identify patients with resectable or potentially resectable CRLM who are likely to have a long‐term benefit from surgery and systemic perioperative treatment. Analysis of circulating tumor DNA has demonstrated strong potential in the adjuvant or nonresectable settings, for detection of minimal residual disease and monitoring of response to systemic therapy [<xref rid="mol212885-bib-0036" ref-type="ref">36</xref>]. Such noninvasive testing of prognostic markers prior to surgery is currently limited, although a trend for a prognostic effect of <italic toggle="yes">KRAS</italic> mutations in preoperative ctDNA was seen in a recent study [<xref rid="mol212885-bib-0037" ref-type="ref">37</xref>]. <italic toggle="yes">BRAF</italic>
+<sup>V600E</sup> and <italic toggle="yes">RAS</italic> mutations are the molecular markers with best documented prognostic value, but their use in selection of patients for hepatectomy is currently not supported. <italic toggle="yes">BRAF</italic>
+<sup>V600E</sup> has been shown to have the strongest prognostic effect size, but a low prevalence of only 3–5% among patients with resectable CRLM [<xref rid="mol212885-bib-0017" ref-type="ref">17</xref>], and &lt; 2% in this study. <italic toggle="yes">RAS</italic> mutations identify a larger patient subgroup, but have weaker prognostic value, which suggests molecular heterogeneity among patients with <italic toggle="yes">RAS</italic>‐mutated cancers. In primary CRC, the prognostic value of <italic toggle="yes">KRAS</italic> has been suggested to be limited to MSS cancers and to depend on the consensus molecular subtypes [<xref rid="mol212885-bib-0038" ref-type="ref">38</xref>]. In patients with resectable CRLM, the prognostic value may depend on co‐occurring <italic toggle="yes">TP53</italic> mutations [<xref rid="mol212885-bib-0014" ref-type="ref">14</xref>, <xref rid="mol212885-bib-0015" ref-type="ref">15</xref>] or <italic toggle="yes">TP53</italic>/<italic toggle="yes">SMAD4</italic> mutations [<xref rid="mol212885-bib-0016" ref-type="ref">16</xref>]. Our study supports the potential for improved prognostic stratification of patients with resectable CRLM based on <italic toggle="yes">RAS</italic>/<italic toggle="yes">BRAF</italic>
+<sup>V600E</sup> and <italic toggle="yes">TP53</italic> co‐mutations, although the study is not sufficiently powered to conclude on the independent prognostic value of individual mutations, in particular the low‐prevalence <italic toggle="yes">BRAF</italic>
+<sup>V600E</sup> and <italic toggle="yes">NRAS</italic> mutations. Another potential limitation of our study is the weaker sensitivity of Sanger sequencing than high‐throughput sequencing for mutation detection, although this concern was reduced by multiple sampling and the generally low level of tumor heterogeneity of CRC‐critical mutations.</p><p>We further suggest that high intermetastatic genomic heterogeneity confers poor outcome within the <italic toggle="yes">RAS‐</italic>mutated subgroup and show a potential for further prognostic stratification of the <italic toggle="yes">RAS</italic>/<italic toggle="yes">BRAF</italic>
+<sup>V600E</sup> and <italic toggle="yes">TP53</italic> co‐mutated subgroup by combined analyses with genome‐wide CNA profiles. Although CNA burden and the level of CNA heterogeneity were independent of <italic toggle="yes">RAS</italic> mutation status, patients with <italic toggle="yes">TP53‐</italic>mutated tumors had more extensive intermetastatic CNA heterogeneity and a higher CNA burden than patients with wild‐type tumors, suggesting a confounding prognostic effect. Loss of normal <italic toggle="yes">TP53</italic> expression has previously been associated with tolerability to aneuploidy [<xref rid="mol212885-bib-0039" ref-type="ref">39</xref>, <xref rid="mol212885-bib-0040" ref-type="ref">40</xref>, <xref rid="mol212885-bib-0041" ref-type="ref">41</xref>, <xref rid="mol212885-bib-0042" ref-type="ref">42</xref>, <xref rid="mol212885-bib-0043" ref-type="ref">43</xref>, <xref rid="mol212885-bib-0044" ref-type="ref">44</xref>, <xref rid="mol212885-bib-0045" ref-type="ref">45</xref>], and it is conceivable that <italic toggle="yes">TP53</italic> mutations are needed for a submissive state that allows extensive copy number heterogeneity to evolve. The CNA heterogeneity estimate had nonsignificant prognostic associations, while a high CNA burden was significantly associated with poor cancer‐specific survival. The latter is in line with a recent pan‐cancer study of metastatic disease [<xref rid="mol212885-bib-0046" ref-type="ref">46</xref>]. Our study cannot conclude on the independent prognostic value of CNA heterogeneity and <italic toggle="yes">TP53</italic> mutations in patients with <italic toggle="yes">RAS‐</italic>mutated CRLM, although there was a significant trend for poorer patient survival in the <italic toggle="yes">RAS/BRAF</italic>
+<sup>V600E</sup>
+<italic toggle="yes">/TP53</italic> co‐mutated/high CNA heterogeneity group versus co‐mutated/low heterogeneity versus remaining patients. In accordance with a recent report [<xref rid="mol212885-bib-0014" ref-type="ref">14</xref>], multivariable analysis with clinicopathological variables supports the independent poor‐prognostic associations of co‐mutated <italic toggle="yes">RAS</italic>/<italic toggle="yes">BRAF</italic>
+<sup>V600E</sup> and <italic toggle="yes">TP53</italic> CRLMs.</p><p>It has been debated whether the association between residual disease and outcome may reflect underlying cancer biology, as mutated <italic toggle="yes">RAS</italic> is associated with both a positive resection margin and early development of lung metastases [<xref rid="mol212885-bib-0010" ref-type="ref">10</xref>, <xref rid="mol212885-bib-0011" ref-type="ref">11</xref>, <xref rid="mol212885-bib-0047" ref-type="ref">47</xref>]. However, excluding the patients with extra‐hepatic metastases did not impact on the prognostic associations found in this study.</p></sec><sec sec-type="conclusions" id="mol212885-sec-0015"><label>5</label><title>Conclusions</title><p>We have described genomic heterogeneity on the DNA copy number level in patients with resectable CRLM, also within patient subgroups defined by <italic toggle="yes">RAS</italic>/<italic toggle="yes">BRAF</italic>
+<sup>V600E</sup> and <italic toggle="yes">TP53</italic> mutations. By combined biomarker analyses, we support the superior prognostic value of <italic toggle="yes">RAS</italic>/<italic toggle="yes">BRAF</italic>
+<sup>V600E</sup> and <italic toggle="yes">TP53</italic> co‐mutations compared with either mutation alone. Furthermore, a high level of intrapatient intermetastatic CNA heterogeneity or CNA burden may identify a subgroup of <italic toggle="yes">RAS</italic>/<italic toggle="yes">BRAF</italic>
+<sup>V600E</sup>/<italic toggle="yes">TP53‐</italic>mutated cancers associated with a particularly poor outcome.</p></sec><sec sec-type="COI-statement" id="mol212885-sec-0017"><title>Conflict of interest</title><p>The authors declare no conflict of interest.</p></sec><sec id="mol212885-sec-0018"><title>Author contributions</title><p>KCGB, AS, AN, and RAL involved in study concept and design; all authors performed the acquisition of data; KCGB, THB, AS, AN, and RAL performed the analysis and interpretation of data; KCGB, THB, AS, and RAL drafted the manuscript; all authors involved in critical revision and approval of the final manuscript; AN and RAL supervised the study.</p></sec><sec id="mol212885-sec-0019"><sec disp-level="2" id="mol212885-sec-0020"><title>Peer Review</title><p>The peer review history for this article is available at <ext-link ext-link-type="uri" ns1:href="https://publons.com/publon/10.1002/mol2.12885">https://publons.com/publon/10.1002/mol2.12885</ext-link>.</p></sec></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material content-type="local-data" id="mol212885-sup-0001" position="float" orientation="portrait"><caption><p>
+<bold>Fig. S1.</bold> a) An alternative pipeline for estimation of CNA heterogeneity was tested, where the CNA heterogeneity score was calculated based on data segmented by the PCF algorithm from the R copy number package, including only segments with variance &gt; 0.3 per comparison, similar to Sveen et al. 2016. The heterogeneity measures derived from the alternative pipeline (x‐axis) and that from the main analysis, using the ASCAT algorithm (y‐axis) were correlated. b) The copy number states for <italic toggle="yes">KRAS</italic>, <italic toggle="yes">NRAS</italic>, <italic toggle="yes">BRAF</italic>
+<sup>V600E</sup> and <italic toggle="yes">TP53</italic> were heterogeneous across samples. The four panels show the number of additional copies of the four genes in 176 metastatic lesions from 48 patients, sorted patient‐wise and grouped according to the mutation statuses of the two genes. The gray bars below the heatmaps denotes the change from one patient to the next. d) Heterogenous copy number states for <italic toggle="yes">KRAS</italic>, <italic toggle="yes">NRAS</italic>, <italic toggle="yes">BRAF</italic>
+<sup>V600E</sup> and <italic toggle="yes">TP53</italic> reflected the genome‐wide CNA heterogeneity score, with a higher genome‐wide heterogeneity scores in patients where the particular genes had intermetastatic heterogeneous copy number states.</p></caption><media ns1:href="MOL2-15-830-s003.pdf" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="mol212885-sup-0002" position="float" orientation="portrait"><caption><p>
+<bold>Fig. S2.</bold> a) Overview of intrapatient concordance of the 35 amplification events in 19 patients. Each count (y‐axis) is a unique amplification event in one patient. The x‐axis shows the fraction of the metastases from the given patient with concordant amplification. For example, a fraction of 0.5 indicates that half of the metastases from the patient in question have concordant amplification, while a fraction of 1 indicates that all metastases from the given patient have concordant amplification. Thirty‐one per cent of the amplification events were fully concordant at a ≥ 15 additional copies level (i.e., all the metastatic lesions from the given patient had ≥ 15 additional copies), a threshold of 5 additional copies to accept concordance resulted in 69% intrapatient concordance. b) For the 12 amplification events affecting cancer‐critical genes, 50% were concordant at ≥ 15 additional copies in all lesions from the affected patient, while a threshold of 5 additional copies to accept concordance resulted in 75% intrapatient concordance.</p></caption><media ns1:href="MOL2-15-830-s005.pdf" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="mol212885-sup-0003" position="float" orientation="portrait"><caption><p>
+<bold>Fig. S3.</bold> Summarized frequencies of DNA copy number aberrations across 64 patients (192 lesions). For patients with more than one lesion available, the frequencies were summarized per patient by calling gains and losses in any given genomic region when they occurred in at least one lesion from that patient. In cases where at least one lesion had gain while at least one lesion had loss in the same genomic region, both a gain and a loss in this region was called.</p></caption><media ns1:href="MOL2-15-830-s002.pdf" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="mol212885-sup-0004" position="float" orientation="portrait"><caption><p>
+<bold>Fig. S4.</bold> Heterogeneity measures based on either Euclidean distance, correlation‐based distance or fraction of discordant CNAs were highly concordant irrespective of whether they were estimated based on a genome‐wide approach or based on cancer‐critical genes only (Spearman’s rho ≥0.93). Also, the heterogeneity estimates from the three different methods were correlated to one another (Spearman’s rho ≥0.63).</p></caption><media ns1:href="MOL2-15-830-s001.pdf" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="mol212885-sup-0005" position="float" orientation="portrait"><caption><p>
+<bold>Fig. S5.</bold> a) <italic toggle="yes">RAS</italic> mutations and <italic toggle="yes">RAS</italic>/<italic toggle="yes">TP53</italic> co‐mutations were persistently associated with poor patient outcome when excluding patients with <italic toggle="yes">BRAF</italic>
+<sup>V600E</sup> mutations from the analysis. b) A high CNA heterogeneity or CNA burden did not significantly stratify patients with <italic toggle="yes">TP53</italic> mutated tumors according to patient outcome. d) A high CNA heterogeneity and CNA burden still stratified patients with <italic toggle="yes">RAS</italic>/<italic toggle="yes">BRAF</italic>
+<sup>V600E</sup> and <italic toggle="yes">TP53</italic> co‐mutated tumors in terms of outcome when patients with extrahepatic metastases where excluded from the analysis, although nonsignificantly for CNA burden. P values are derived from log rank tests for comparisons of two groups and log rank tests for trend for comparisons of more than two groups.</p></caption><media ns1:href="MOL2-15-830-s004.pdf" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="mol212885-sup-0006" position="float" orientation="portrait"><caption><p>
+<bold>Table S1.</bold> Primers for Sanger sequencing.</p><p>
+<bold>Table S2.</bold> Correlation between CNA heterogeneity score (calculated as the intrapatient mean pairwise Euclidean distance) and other CNA variables.</p><p>
+<bold>Table S3.</bold> Overrepresentation of <italic toggle="yes">RAS</italic>/<italic toggle="yes">BRAF</italic>
+<sup>V600E</sup> and <italic toggle="yes">TP53</italic> co‐mutation according to key clinicopathological variables (n = 171 patients).</p></caption><media ns1:href="MOL2-15-830-s006.xlsx" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="mol212885-sec-0016"><title>Acknowledgements</title><p>We are grateful to Stine A. Danielsen for excellent technical assistance with the CytoScanHD arrays. This study was supported by grants from the Research Council of Norway (grant no 287899), the Research Council of Norway in cooperation with University of Oslo (Toppforsk—grant no 250993), the foundation ‘Stiftelsen K.G. Jebsen’, The South‐Eastern Norway Regional Health Authority and the Norwegian Cancer Society (grant no 6824048‐2016 and 182759‐2016).</p></ack><sec sec-type="data-availability" id="mol212885-sec-0021"><title>Data accessibility</title><p>The datasets supporting the conclusions of this article can be obtained from the authors upon reasonable request.</p></sec><ref-list content-type="cited-references" id="mol212885-bibl-0001"><title>References</title><ref id="mol212885-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="mol212885-cit-0001">
+<string-name name-style="western">
+<surname>Angelsen</surname>
+<given-names>J‐H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Horn</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sorbye</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Eide</surname>
+<given-names>GE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Løes</surname>
+<given-names>IM</given-names>
+</string-name> &amp; <string-name name-style="western">
+<surname>Viste</surname>
+<given-names>A</given-names>
+</string-name> (<year>2017</year>) <article-title>Population‐based study on resection rates and survival in patients with colorectal liver metastasis in Norway</article-title>. <source xml:lang="en">Br J Surg</source>
+<volume>104</volume>, <fpage>580</fpage>–<lpage>589</lpage>.<pub-id pub-id-type="pmid">28181674</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/bjs.10457</pub-id></mixed-citation></ref><ref id="mol212885-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="mol212885-cit-0002">
+<string-name name-style="western">
+<surname>Engstrand</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nilsson</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Strömberg</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jonas</surname>
+<given-names>E</given-names>
+</string-name> &amp; <string-name name-style="western">
+<surname>Freedman</surname>
+<given-names>J</given-names>
+</string-name> (<year>2018</year>) <article-title>Colorectal cancer liver metastases – a population‐based study on incidence, management and survival</article-title>. <source xml:lang="en">BMC Cancer</source>
+<volume>18</volume>, <fpage>78</fpage>.<pub-id pub-id-type="pmid">29334918</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s12885-017-3925-x</pub-id><pub-id pub-id-type="pmcid">PMC5769309</pub-id></mixed-citation></ref><ref id="mol212885-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="mol212885-cit-0003">
+<string-name name-style="western">
+<surname>Brudvik</surname>
+<given-names>KW</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bains</surname>
+<given-names>SJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Seeberg</surname>
+<given-names>LT</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Labori</surname>
+<given-names>KJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Waage</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Taskén</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Aandahl</surname>
+<given-names>EM</given-names>
+</string-name> &amp; <string-name name-style="western">
+<surname>Bjørnbeth</surname>
+<given-names>BA</given-names>
+</string-name> (<year>2013</year>) <article-title>Aggressive treatment of patients with metastatic colorectal cancer increases survival: a Scandinavian single‐center experience</article-title>. <source xml:lang="en">HPB Surg</source>
+<volume>2013</volume>, <fpage>727095</fpage>.<pub-id pub-id-type="pmid">23840074</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1155/2013/727095</pub-id><pub-id pub-id-type="pmcid">PMC3690245</pub-id></mixed-citation></ref><ref id="mol212885-bib-0004"><label>4</label><mixed-citation publication-type="book" id="mol212885-cit-0004">
+<collab collab-type="authors">Cancer Registry of Norway</collab>
+(<year>2018</year>) <source xml:lang="en">Cancer in Norway 2018 – Cancer Incidence, Mortality, Survival and Prevalence in Norway</source>. <publisher-name>Cancer Registry of Norway</publisher-name>, <publisher-loc>Oslo</publisher-loc>. Available at: <ext-link ext-link-type="uri" ns1:href="https://www.kreftregisteret.no/globalassets/cancer-in-norway/2018/cin2018.pdf">https://www.kreftregisteret.no/globalassets/cancer‐in‐norway/2018/cin2018.pdf</ext-link>. Accessed May 8, 2020.</mixed-citation></ref><ref id="mol212885-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="mol212885-cit-0005">
+<string-name name-style="western">
+<surname>Imai</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Allard</surname>
+<given-names>M‐A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Benitez</surname>
+<given-names>CC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vibert</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sa Cunha</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cherqui</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Castaing</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bismuth</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Baba</surname>
+<given-names>H</given-names>
+</string-name> &amp; <string-name name-style="western">
+<surname>Adam</surname>
+<given-names>R</given-names>
+</string-name> (<year>2016</year>) <article-title>Early recurrence after hepatectomy for colorectal liver metastases: what optimal definition and what predictive factors?</article-title>
+<source xml:lang="en">Oncologist</source>
+<volume>21</volume>, <fpage>887</fpage>–<lpage>894</lpage>.<pub-id pub-id-type="pmid">27125753</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1634/theoncologist.2015-0468</pub-id><pub-id pub-id-type="pmcid">PMC4943389</pub-id></mixed-citation></ref><ref id="mol212885-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="mol212885-cit-0006">
+<string-name name-style="western">
+<surname>de Jong</surname>
+<given-names>MC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pulitano</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ribero</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Strub</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mentha</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schulick</surname>
+<given-names>RD</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Choti</surname>
+<given-names>MA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Aldrighetti</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Capussotti</surname>
+<given-names>L</given-names>
+</string-name> &amp; <string-name name-style="western">
+<surname>Pawlik</surname>
+<given-names>TM</given-names>
+</string-name> (<year>2009</year>) <article-title>Rates and patterns of recurrence following curative intent surgery for colorectal liver metastasis: an international multi‐institutional analysis of 1669 patients</article-title>. <source xml:lang="en">Ann Surg</source>
+<volume>250</volume>, <fpage>440</fpage>–<lpage>448</lpage>.<pub-id pub-id-type="pmid">19730175</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1097/SLA.0b013e3181b4539b</pub-id></mixed-citation></ref><ref id="mol212885-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="mol212885-cit-0007">
+<string-name name-style="western">
+<surname>Roberts</surname>
+<given-names>KJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>White</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cockbain</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hodson</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hidalgo</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Toogood</surname>
+<given-names>GJ</given-names>
+</string-name> &amp; <string-name name-style="western">
+<surname>Lodge</surname>
+<given-names>JPA</given-names>
+</string-name> (<year>2014</year>) <article-title>Performance of prognostic scores in predicting long‐term outcome following resection of colorectal liver metastases</article-title>. <source xml:lang="en">Br J Surg</source>
+<volume>101</volume>, <fpage>856</fpage>–<lpage>866</lpage>.<pub-id pub-id-type="pmid">24817653</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/bjs.9471</pub-id></mixed-citation></ref><ref id="mol212885-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="mol212885-cit-0008">
+<string-name name-style="western">
+<surname>Chow</surname>
+<given-names>FCL</given-names>
+</string-name> &amp; <string-name name-style="western">
+<surname>Chok</surname>
+<given-names>KSH</given-names>
+</string-name> (<year>2019</year>) <article-title>Colorectal liver metastases: an update on multidisciplinary approach</article-title>. <source xml:lang="en">World J Hepatol</source>
+<volume>11</volume>, <fpage>150</fpage>–<lpage>172</lpage>.<pub-id pub-id-type="pmid">30820266</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.4254/wjh.v11.i2.150</pub-id><pub-id pub-id-type="pmcid">PMC6393711</pub-id></mixed-citation></ref><ref id="mol212885-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="mol212885-cit-0009">
+<string-name name-style="western">
+<surname>Kemeny</surname>
+<given-names>NE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chou</surname>
+<given-names>JF</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Capanu</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gewirtz</surname>
+<given-names>AN</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cercek</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kingham</surname>
+<given-names>TP</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jarnagin</surname>
+<given-names>WR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fong</surname>
+<given-names>YC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>DeMatteo</surname>
+<given-names>RP</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Allen</surname>
+<given-names>PJ</given-names>
+</string-name>
+<italic toggle="yes">et al</italic>. (<year>2014</year>) <article-title>KRAS mutation influences recurrence patterns in patients undergoing hepatic resection of colorectal metastases</article-title>. <source xml:lang="en">Cancer</source>
+<volume>120</volume>, <fpage>3965</fpage>–<lpage>3971</lpage>.<pub-id pub-id-type="pmid">25155157</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/cncr.28954</pub-id><pub-id pub-id-type="pmcid">PMC4574496</pub-id></mixed-citation></ref><ref id="mol212885-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="mol212885-cit-0010">
+<string-name name-style="western">
+<surname>Brudvik</surname>
+<given-names>KW</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mise</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chung</surname>
+<given-names>MH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chun</surname>
+<given-names>YS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kopetz</surname>
+<given-names>SE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Passot</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Conrad</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Maru</surname>
+<given-names>DM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Aloia</surname>
+<given-names>TA</given-names>
+</string-name> &amp; <string-name name-style="western">
+<surname>Vauthey</surname>
+<given-names>J‐N</given-names>
+</string-name> (<year>2016</year>) <article-title>RAS mutation predicts positive resection margins and narrower resection margins in patients undergoing resection of colorectal liver metastases</article-title>. <source xml:lang="en">Ann Surg Oncol</source>
+<volume>23</volume>, <fpage>2635</fpage>–<lpage>2643</lpage>.<pub-id pub-id-type="pmid">27016292</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1245/s10434-016-5187-2</pub-id><pub-id pub-id-type="pmcid">PMC5527830</pub-id></mixed-citation></ref><ref id="mol212885-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="mol212885-cit-0011">
+<string-name name-style="western">
+<surname>Vauthey</surname>
+<given-names>J‐N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zimmitti</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kopetz</surname>
+<given-names>SE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shindoh</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chen</surname>
+<given-names>SS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Andreou</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Curley</surname>
+<given-names>SA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Aloia</surname>
+<given-names>TA</given-names>
+</string-name> &amp; <string-name name-style="western">
+<surname>Maru</surname>
+<given-names>DM</given-names>
+</string-name> (<year>2013</year>) <article-title>RAS mutation status predicts survival and patterns of recurrence in patients undergoing hepatectomy for colorectal liver metastases</article-title>. <source xml:lang="en">Ann Surg</source>
+<volume>258</volume>, <fpage>619</fpage>.<pub-id pub-id-type="pmid">24018645</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1097/SLA.0b013e3182a5025a</pub-id><pub-id pub-id-type="pmcid">PMC3856211</pub-id></mixed-citation></ref><ref id="mol212885-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="mol212885-cit-0012">
+<string-name name-style="western">
+<surname>Passot</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Denbo</surname>
+<given-names>JW</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yamashita</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kopetz</surname>
+<given-names>SE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chun</surname>
+<given-names>YS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Maru</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Overman</surname>
+<given-names>MJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brudvik</surname>
+<given-names>KW</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Conrad</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Aloia</surname>
+<given-names>TA</given-names>
+</string-name>
+<italic toggle="yes">et al</italic>. (<year>2017</year>) <article-title>Is hepatectomy justified for patients with RAS mutant colorectal liver metastases? An analysis of 524 patients undergoing curative liver resection</article-title>. <source xml:lang="en">Surgery</source>
+<volume>161</volume>, <fpage>332</fpage>–<lpage>340</lpage>.<pub-id pub-id-type="pmid">27592215</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.surg.2016.07.032</pub-id></mixed-citation></ref><ref id="mol212885-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="mol212885-cit-0013">
+<string-name name-style="western">
+<surname>Tosi</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Magni</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Amatu</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mauri</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bencardino</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Truini</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Veronese</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>De Carlis</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ferrari</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nichelatti</surname>
+<given-names>M</given-names>
+</string-name>
+<italic toggle="yes">et al</italic>. (<year>2017</year>) <article-title>Effect of KRAS and BRAF mutations on survival of metastatic colorectal cancer after liver resection: a systematic review and meta‐analysis</article-title>. <source xml:lang="en">Clin Colorectal Cancer</source>
+<volume>16</volume>, <fpage>e153</fpage>–<lpage>163</lpage>.<pub-id pub-id-type="pmid">28216246</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.clcc.2017.01.004</pub-id></mixed-citation></ref><ref id="mol212885-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="mol212885-cit-0014">
+<string-name name-style="western">
+<surname>Chun</surname>
+<given-names>YS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Passot</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yamashita</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nusrat</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Katsonis</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Loree</surname>
+<given-names>JM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Conrad</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tzeng</surname>
+<given-names>C‐WD</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Xiao</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Aloia</surname>
+<given-names>TA</given-names>
+</string-name>
+<italic toggle="yes">et al</italic>. (<year>2019</year>) <article-title>Deleterious effect of RAS and evolutionary high‐risk TP53 double mutation in colorectal liver metastases</article-title>. <source xml:lang="en">Ann Surg</source>
+<volume>269</volume>, <fpage>917</fpage>–<lpage>923</lpage>.<pub-id pub-id-type="pmid">28767562</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1097/SLA.0000000000002450</pub-id><pub-id pub-id-type="pmcid">PMC7462436</pub-id></mixed-citation></ref><ref id="mol212885-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="mol212885-cit-0015">
+<string-name name-style="western">
+<surname>Datta</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Smith</surname>
+<given-names>JJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chatila</surname>
+<given-names>WK</given-names>
+</string-name>, <string-name name-style="western">
+<surname>McAuliffe</surname>
+<given-names>JC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kandoth</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vakiani</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Frankel</surname>
+<given-names>TL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ganesh</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wasserman</surname>
+<given-names>I</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lipsyc‐Sharf</surname>
+<given-names>M</given-names>
+</string-name>
+<italic toggle="yes">et al</italic>. (<year>2020</year>) <article-title>Co‐Altered Ras/B‐raf and TP53 is associated with extremes of survivorship and distinct patterns of metastasis in metastatic colorectal cancer patients</article-title>. <source xml:lang="en">Clin Cancer Res</source>
+<volume>26</volume>, <fpage>1077</fpage>–<lpage>1085</lpage>.<pub-id pub-id-type="pmid">31719050</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/1078-0432.CCR-19-2390</pub-id><pub-id pub-id-type="pmcid">PMC7056517</pub-id></mixed-citation></ref><ref id="mol212885-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="mol212885-cit-0016">
+<string-name name-style="western">
+<surname>Kawaguchi</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kopetz</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Newhook</surname>
+<given-names>TE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bellis</surname>
+<given-names>MD</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chun</surname>
+<given-names>YS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tzeng</surname>
+<given-names>C‐WD</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Aloia</surname>
+<given-names>TA</given-names>
+</string-name> &amp; <string-name name-style="western">
+<surname>Vauthey</surname>
+<given-names>J‐N</given-names>
+</string-name> (<year>2019</year>) <article-title>Mutation status of RAS, TP53, and SMAD4 is superior to mutation status of RAS alone for predicting prognosis after resection of colorectal liver metastases</article-title>. <source xml:lang="en">Clin Cancer Res</source>
+<volume>25</volume>, <fpage>5843</fpage>–<lpage>5851</lpage>.<pub-id pub-id-type="pmid">31221662</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/1078-0432.CCR-19-0863</pub-id><pub-id pub-id-type="pmcid">PMC6774854</pub-id></mixed-citation></ref><ref id="mol212885-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="mol212885-cit-0017">
+<string-name name-style="western">
+<surname>Margonis</surname>
+<given-names>GA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Buettner</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Andreatos</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kim</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wagner</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sasaki</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Beer</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schwarz</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Løes</surname>
+<given-names>IM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Smolle</surname>
+<given-names>M</given-names>
+</string-name>
+<italic toggle="yes">et al</italic>. (<year>2018</year>) <article-title>Association of <italic toggle="yes">BRAF</italic> mutations with survival and recurrence in surgically treated patients with metastatic colorectal liver cancer</article-title>. <source xml:lang="en">JAMA Surg</source>
+<volume>153</volume>, <elocation-id>e180996</elocation-id>.<pub-id pub-id-type="pmid">29799910</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1001/jamasurg.2018.0996</pub-id><pub-id pub-id-type="pmcid">PMC6137519</pub-id></mixed-citation></ref><ref id="mol212885-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="mol212885-cit-0018">
+<string-name name-style="western">
+<surname>Brannon</surname>
+<given-names>AR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vakiani</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sylvester</surname>
+<given-names>BE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Scott</surname>
+<given-names>SN</given-names>
+</string-name>, <string-name name-style="western">
+<surname>McDermott</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shah</surname>
+<given-names>RH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kania</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Viale</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Oschwald</surname>
+<given-names>DM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vacic</surname>
+<given-names>V</given-names>
+</string-name>
+<italic toggle="yes">et al</italic>. (<year>2014</year>) <article-title>Comparative sequencing analysis reveals high genomic concordance between matched primary and metastatic colorectal cancer lesions</article-title>. <source xml:lang="en">Genome Biol</source>
+<volume>15</volume>, <fpage>454</fpage>.<pub-id pub-id-type="pmid">25164765</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s13059-014-0454-7</pub-id><pub-id pub-id-type="pmcid">PMC4189196</pub-id></mixed-citation></ref><ref id="mol212885-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="mol212885-cit-0019">
+<string-name name-style="western">
+<surname>Brunsell</surname>
+<given-names>TH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sveen</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bjørnbeth</surname>
+<given-names>BA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Røsok</surname>
+<given-names>BI</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Danielsen</surname>
+<given-names>SA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brudvik</surname>
+<given-names>KW</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Berg</surname>
+<given-names>KCG</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Johannessen</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cengija</surname>
+<given-names>V</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Abildgaard</surname>
+<given-names>A</given-names>
+</string-name>
+<italic toggle="yes">et al</italic>. (<year>2020</year>) <article-title>High concordance and negative prognostic impact of RAS/BRAF/PIK3CA mutations in multiple resected colorectal liver metastases</article-title>. <source xml:lang="en">Clin Colorectal Cancer</source>
+<volume>19</volume>, <fpage>e26</fpage>–<lpage>e47</lpage>.<pub-id pub-id-type="pmid">31982351</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.clcc.2019.09.003</pub-id></mixed-citation></ref><ref id="mol212885-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="mol212885-cit-0020">
+<string-name name-style="western">
+<surname>Morelli</surname>
+<given-names>MP</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Overman</surname>
+<given-names>MJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dasari</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kazmi</surname>
+<given-names>SMA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mazard</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vilar</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Morris</surname>
+<given-names>VK</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lee</surname>
+<given-names>MS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Herron</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Eng</surname>
+<given-names>C</given-names>
+</string-name>
+<italic toggle="yes">et al</italic>. (<year>2015</year>) <article-title>Characterizing the patterns of clonal selection in circulating tumor DNA from patients with colorectal cancer refractory to anti‐EGFR treatment</article-title>. <source xml:lang="en">Ann Oncol</source>
+<volume>26</volume>, <fpage>731</fpage>–<lpage>736</lpage>.<pub-id pub-id-type="pmid">25628445</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/annonc/mdv005</pub-id><pub-id pub-id-type="pmcid">PMC4374387</pub-id></mixed-citation></ref><ref id="mol212885-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="mol212885-cit-0021">
+<string-name name-style="western">
+<surname>Siravegna</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mussolin</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Buscarino</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Corti</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cassingena</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Crisafulli</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ponzetti</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cremolini</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Amatu</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lauricella</surname>
+<given-names>C</given-names>
+</string-name>
+<italic toggle="yes">et al</italic>. (<year>2015</year>) <article-title>Clonal evolution and resistance to EGFR blockade in the blood of colorectal cancer patients</article-title>. <source xml:lang="en">Nat Med</source>
+<volume>21</volume>, <fpage>795</fpage>–<lpage>801</lpage>.<pub-id pub-id-type="pmid">26030179</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nm.3870</pub-id><pub-id pub-id-type="pmcid">PMC4868598</pub-id></mixed-citation></ref><ref id="mol212885-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="mol212885-cit-0022">
+<string-name name-style="western">
+<surname>Kim</surname>
+<given-names>T‐M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jung</surname>
+<given-names>S‐H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>An</surname>
+<given-names>CH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lee</surname>
+<given-names>SH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Baek</surname>
+<given-names>I‐P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kim</surname>
+<given-names>MS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Park</surname>
+<given-names>S‐W</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rhee</surname>
+<given-names>J‐K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lee</surname>
+<given-names>S‐H</given-names>
+</string-name> &amp; <string-name name-style="western">
+<surname>Chung</surname>
+<given-names>Y‐J</given-names>
+</string-name> (<year>2015</year>) <article-title>Subclonal genomic architectures of primary and metastatic colorectal cancer based on intratumoral genetic heterogeneity</article-title>. <source xml:lang="en">Clin Cancer Res</source>
+<volume>21</volume>, <fpage>4461</fpage>–<lpage>4472</lpage>.<pub-id pub-id-type="pmid">25979483</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/1078-0432.CCR-14-2413</pub-id></mixed-citation></ref><ref id="mol212885-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="mol212885-cit-0023">
+<string-name name-style="western">
+<surname>Jesinghaus</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wolf</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pfarr</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Muckenhuber</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ahadova</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Warth</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Goeppert</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sers</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kloor</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Endris</surname>
+<given-names>V</given-names>
+</string-name>
+<italic toggle="yes">et al</italic>. (<year>2015</year>) <article-title>Distinctive spatiotemporal stability of somatic mutations in metastasized microsatellite‐stable colorectal cancer</article-title>. <source xml:lang="en">Am J Surg Pathol</source>
+<volume>39</volume>, <fpage>1140</fpage>–<lpage>1147</lpage>.<pub-id pub-id-type="pmid">25786087</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1097/PAS.0000000000000423</pub-id></mixed-citation></ref><ref id="mol212885-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="mol212885-cit-0024">
+<string-name name-style="western">
+<surname>Hu</surname>
+<given-names>Z</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ding</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ma</surname>
+<given-names>Z</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sun</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Seoane</surname>
+<given-names>JA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shaffer</surname>
+<given-names>JS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Suarez</surname>
+<given-names>CJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Berghoff</surname>
+<given-names>AS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cremolini</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Falcone</surname>
+<given-names>A</given-names>
+</string-name>
+<italic toggle="yes">et al</italic>. (<year>2019</year>) <article-title>Quantitative evidence for early metastatic seeding in colorectal cancer</article-title>. <source xml:lang="en">Nat Genet</source>
+<volume>51</volume>, <fpage>1113</fpage>–<lpage>1122</lpage>.<pub-id pub-id-type="pmid">31209394</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41588-019-0423-x</pub-id><pub-id pub-id-type="pmcid">PMC6982526</pub-id></mixed-citation></ref><ref id="mol212885-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="mol212885-cit-0025">
+<string-name name-style="western">
+<surname>Sveen</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Løes</surname>
+<given-names>IM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Alagaratnam</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nilsen</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Høland</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lingjærde</surname>
+<given-names>OC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sorbye</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Berg</surname>
+<given-names>KCG</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Horn</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Angelsen</surname>
+<given-names>J‐H</given-names>
+</string-name>
+<italic toggle="yes">et al</italic>. (<year>2016</year>) <article-title>Intra‐patient inter‐metastatic genetic heterogeneity in colorectal cancer as a key determinant of survival after curative liver resection</article-title>. <source xml:lang="en">PLoS Genet</source>
+<volume>12</volume>, <elocation-id>e1006225</elocation-id>.<pub-id pub-id-type="pmid">27472274</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pgen.1006225</pub-id><pub-id pub-id-type="pmcid">PMC4966938</pub-id></mixed-citation></ref><ref id="mol212885-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="mol212885-cit-0026">
+<string-name name-style="western">
+<surname>Mamlouk</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Childs</surname>
+<given-names>LH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Aust</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Heim</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Melching</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Oliveira</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wolf</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Durek</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schumacher</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bläker</surname>
+<given-names>H</given-names>
+</string-name>
+<italic toggle="yes">et al</italic>. (<year>2017</year>) <article-title>DNA copy number changes define spatial patterns of heterogeneity in colorectal cancer</article-title>. <source xml:lang="en">Nat Commun</source>
+<volume>8</volume>, <fpage>14093</fpage>.<pub-id pub-id-type="pmid">28120820</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ncomms14093</pub-id><pub-id pub-id-type="pmcid">PMC5288500</pub-id></mixed-citation></ref><ref id="mol212885-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="mol212885-cit-0027">
+<string-name name-style="western">
+<surname>Brunsell</surname>
+<given-names>TH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cengija</surname>
+<given-names>V</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sveen</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bjørnbeth</surname>
+<given-names>BA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Røsok</surname>
+<given-names>BI</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brudvik</surname>
+<given-names>KW</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Guren</surname>
+<given-names>MG</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lothe</surname>
+<given-names>RA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Abildgaard</surname>
+<given-names>A</given-names>
+</string-name> &amp; <string-name name-style="western">
+<surname>Nesbakken</surname>
+<given-names>A</given-names>
+</string-name> (<year>2019</year>) <article-title>Heterogeneous radiological response to neoadjuvant therapy is associated with poor prognosis after resection of colorectal liver metastases</article-title>. <source xml:lang="en">Eur J Surg Oncol</source>
+<volume>45</volume>, <fpage>2340</fpage>–<lpage>2346</lpage>.<pub-id pub-id-type="pmid">31350075</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ejso.2019.07.017</pub-id></mixed-citation></ref><ref id="mol212885-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="mol212885-cit-0028">
+<string-name name-style="western">
+<surname>Ahmed</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Eide</surname>
+<given-names>PW</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Eilertsen</surname>
+<given-names>IA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Danielsen</surname>
+<given-names>SA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Eknæs</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hektoen</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lind</surname>
+<given-names>GE</given-names>
+</string-name> &amp; <string-name name-style="western">
+<surname>Lothe</surname>
+<given-names>RA</given-names>
+</string-name> (<year>2013</year>) <article-title>Epigenetic and genetic features of 24 colon cancer cell lines</article-title>. <source xml:lang="en">Oncogenesis</source>
+<volume>2</volume>, <elocation-id>e71</elocation-id>.<pub-id pub-id-type="pmid">24042735</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/oncsis.2013.35</pub-id><pub-id pub-id-type="pmcid">PMC3816225</pub-id></mixed-citation></ref><ref id="mol212885-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="mol212885-cit-0029">
+<string-name name-style="western">
+<surname>Mayrhofer</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Viklund</surname>
+<given-names>B</given-names>
+</string-name> &amp; <string-name name-style="western">
+<surname>Isaksson</surname>
+<given-names>A</given-names>
+</string-name> (<year>2016</year>) <article-title>Rawcopy: Improved copy number analysis with Affymetrix arrays</article-title>. <source xml:lang="en">Sci Rep</source>
+<volume>6</volume>, <elocation-id>36158</elocation-id>.<pub-id pub-id-type="pmid">27796336</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/srep36158</pub-id><pub-id pub-id-type="pmcid">PMC5086940</pub-id></mixed-citation></ref><ref id="mol212885-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="mol212885-cit-0030">
+<string-name name-style="western">
+<surname>Loo</surname>
+<given-names>PV</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nordgard</surname>
+<given-names>SH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lingjærde</surname>
+<given-names>OC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Russnes</surname>
+<given-names>HG</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rye</surname>
+<given-names>IH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sun</surname>
+<given-names>W</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Weigman</surname>
+<given-names>VJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Marynen</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zetterberg</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Naume</surname>
+<given-names>B</given-names>
+</string-name>
+<italic toggle="yes">et al</italic>. (<year>2010</year>) <article-title>Allele‐specific copy number analysis of tumors</article-title>. <source xml:lang="en">Proc Natl Acad Sci USA</source>
+<volume>107</volume>, <fpage>16910</fpage>–<lpage>16915</lpage>.<pub-id pub-id-type="pmid">20837533</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.1009843107</pub-id><pub-id pub-id-type="pmcid">PMC2947907</pub-id></mixed-citation></ref><ref id="mol212885-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="mol212885-cit-0031">
+<string-name name-style="western">
+<surname>Nilsen</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liestøl</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Van Loo</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Moen Vollan</surname>
+<given-names>HK</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Eide</surname>
+<given-names>MB</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rueda</surname>
+<given-names>OM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chin</surname>
+<given-names>S‐F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Russell</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Baumbusch</surname>
+<given-names>LO</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Caldas</surname>
+<given-names>C</given-names>
+</string-name>
+<italic toggle="yes">et al</italic>. (<year>2012</year>) <article-title>Copynumber: efficient algorithms for single‐ and multi‐track copy number segmentation</article-title>. <source xml:lang="en">BMC Genom</source>
+<volume>13</volume>, <fpage>591</fpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/1471-2164-13-591</pub-id><pub-id pub-id-type="pmcid">PMC3582591</pub-id><pub-id pub-id-type="pmid">23442169</pub-id></mixed-citation></ref><ref id="mol212885-bib-0032"><label>32</label><mixed-citation publication-type="miscellaneous" id="mol212885-cit-0032">
+<article-title>COSMIC Cancer Gene Census v86</article-title>. Available at: <ext-link ext-link-type="uri" ns1:href="https://cancer.sanger.ac.uk/census">https://cancer.sanger.ac.uk/census</ext-link>. Accessed June 28, 2018.</mixed-citation></ref><ref id="mol212885-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="mol212885-cit-0033">
+<string-name name-style="western">
+<surname>Punt</surname>
+<given-names>CJA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Buyse</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Köhne</surname>
+<given-names>C‐H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hohenberger</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Labianca</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schmoll</surname>
+<given-names>HJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Påhlman</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sobrero</surname>
+<given-names>A</given-names>
+</string-name> &amp; <string-name name-style="western">
+<surname>Douillard</surname>
+<given-names>J‐Y</given-names>
+</string-name> (<year>2007</year>) <article-title>Endpoints in adjuvant treatment trials: a systematic review of the literature in colon cancer and proposed definitions for future trials</article-title>. <source xml:lang="en">J Natl Cancer Inst</source>
+<volume>99</volume>, <fpage>998</fpage>–<lpage>1003</lpage>.<pub-id pub-id-type="pmid">17596575</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/jnci/djm024</pub-id></mixed-citation></ref><ref id="mol212885-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="mol212885-cit-0034">
+<string-name name-style="western">
+<surname>Berg</surname>
+<given-names>KCG</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sveen</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Høland</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Alagaratnam</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Berg</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Danielsen</surname>
+<given-names>SA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nesbakken</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Søreide</surname>
+<given-names>K</given-names>
+</string-name> &amp; <string-name name-style="western">
+<surname>Lothe</surname>
+<given-names>RA</given-names>
+</string-name> (<year>2019</year>) <article-title>Gene expression profiles of CMS2‐epithelial/canonical colorectal cancers are largely driven by DNA copy number gains</article-title>. <source xml:lang="en">Oncogene</source>
+<volume>38</volume>, <fpage>6109</fpage>–<lpage>6122</lpage>.<pub-id pub-id-type="pmid">31308487</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41388-019-0868-5</pub-id><pub-id pub-id-type="pmcid">PMC6756070</pub-id></mixed-citation></ref><ref id="mol212885-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="mol212885-cit-0035">
+<string-name name-style="western">
+<surname>McGranahan</surname>
+<given-names>N</given-names>
+</string-name> &amp; <string-name name-style="western">
+<surname>Swanton</surname>
+<given-names>C</given-names>
+</string-name> (<year>2017</year>) <article-title>Clonal heterogeneity and tumor evolution: past, present, and the future</article-title>. <source xml:lang="en">Cell</source>
+<volume>168</volume>, <fpage>613</fpage>–<lpage>628</lpage>.<pub-id pub-id-type="pmid">28187284</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cell.2017.01.018</pub-id></mixed-citation></ref><ref id="mol212885-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="mol212885-cit-0036">
+<string-name name-style="western">
+<surname>Dasari</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Morris</surname>
+<given-names>VK</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Allegra</surname>
+<given-names>CJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Atreya</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Benson</surname>
+<given-names>AB</given-names>
+<suffix>III</suffix>
+</string-name>, <string-name name-style="western">
+<surname>Boland</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chung</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Copur</surname>
+<given-names>MS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Corcoran</surname>
+<given-names>RB</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Deming</surname>
+<given-names>DA</given-names>
+</string-name>
+<italic toggle="yes">et al</italic>. (<year>2020</year>) <article-title>ctDNA applications and integration in colorectal cancer: an NCI Colon and Rectal‐Anal Task Forces whitepaper</article-title>. <source xml:lang="en">Nat Rev Clin Oncol</source>
+<volume>17</volume>, <fpage>757</fpage>–<lpage>770</lpage>.<pub-id pub-id-type="pmid">32632268</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41571-020-0392-0</pub-id><pub-id pub-id-type="pmcid">PMC7790747</pub-id></mixed-citation></ref><ref id="mol212885-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="mol212885-cit-0037">
+<string-name name-style="western">
+<surname>Polivka</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Windrichova</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pesta</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Houfkova</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rezackova</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Macanova</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vycital</surname>
+<given-names>O</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kucera</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Slouka</surname>
+<given-names>D</given-names>
+</string-name> &amp; <string-name name-style="western">
+<surname>Topolcan</surname>
+<given-names>O</given-names>
+</string-name> (<year>2020</year>) <article-title>The level of preoperative plasma KRAS mutations and CEA predict survival of patients undergoing surgery for colorectal cancer liver metastases</article-title>. <source xml:lang="en">Cancers (Basel)</source>
+<volume>12</volume>, <fpage>2434</fpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/cancers12092434</pub-id><pub-id pub-id-type="pmcid">PMC7565270</pub-id><pub-id pub-id-type="pmid">32867151</pub-id></mixed-citation></ref><ref id="mol212885-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="mol212885-cit-0038">
+<string-name name-style="western">
+<surname>Smeby</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sveen</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Merok</surname>
+<given-names>MA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Danielsen</surname>
+<given-names>SA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Eilertsen</surname>
+<given-names>IA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Guren</surname>
+<given-names>MG</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dienstmann</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nesbakken</surname>
+<given-names>A</given-names>
+</string-name> &amp; <string-name name-style="western">
+<surname>Lothe</surname>
+<given-names>RA</given-names>
+</string-name> (<year>2018</year>) <article-title>CMS‐dependent prognostic impact of KRAS and BRAFV600E mutations in primary colorectal cancer</article-title>. <source xml:lang="en">Ann Oncol</source>
+<volume>29</volume>, <fpage>1227</fpage>–<lpage>1234</lpage>.<pub-id pub-id-type="pmid">29518181</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/annonc/mdy085</pub-id><pub-id pub-id-type="pmcid">PMC5961317</pub-id></mixed-citation></ref><ref id="mol212885-bib-0039"><label>39</label><mixed-citation publication-type="journal" id="mol212885-cit-0039">
+<string-name name-style="western">
+<surname>Dalton</surname>
+<given-names>WB</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yu</surname>
+<given-names>B</given-names>
+</string-name> &amp; <string-name name-style="western">
+<surname>Yang</surname>
+<given-names>VW</given-names>
+</string-name> (<year>2010</year>) <article-title>p53 suppresses structural chromosome instability after mitotic arrest in human cells</article-title>. <source xml:lang="en">Oncogene</source>
+<volume>29</volume>, <fpage>1929</fpage>–<lpage>1940</lpage>.<pub-id pub-id-type="pmid">20062083</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/onc.2009.477</pub-id><pub-id pub-id-type="pmcid">PMC2848712</pub-id></mixed-citation></ref><ref id="mol212885-bib-0040"><label>40</label><mixed-citation publication-type="journal" id="mol212885-cit-0040">
+<string-name name-style="western">
+<surname>Ho</surname>
+<given-names>CC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hau</surname>
+<given-names>PM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Marxer</surname>
+<given-names>M</given-names>
+</string-name> &amp; <string-name name-style="western">
+<surname>Poon</surname>
+<given-names>RYC</given-names>
+</string-name> (<year>2010</year>) <article-title>The requirement of p53 for maintaining chromosomal stability during tetraploidization</article-title>. <source xml:lang="en">Oncotarget</source>
+<volume>1</volume>, <fpage>583</fpage>–<lpage>595</lpage>.<pub-id pub-id-type="pmid">21317454</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.18632/oncotarget.193</pub-id><pub-id pub-id-type="pmcid">PMC3248137</pub-id></mixed-citation></ref><ref id="mol212885-bib-0041"><label>41</label><mixed-citation publication-type="journal" id="mol212885-cit-0041">
+<string-name name-style="western">
+<surname>Rausch</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jones</surname>
+<given-names>DTW</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zapatka</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Stütz</surname>
+<given-names>AM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zichner</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Weischenfeldt</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jäger</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Remke</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shih</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Northcott</surname>
+<given-names>PA</given-names>
+</string-name>
+<italic toggle="yes">et al</italic>. (<year>2012</year>) <article-title>Genome sequencing of pediatric medulloblastoma links catastrophic DNA rearrangements with TP53 mutations</article-title>. <source xml:lang="en">Cell</source>
+<volume>148</volume>, <fpage>59</fpage>–<lpage>71</lpage>.<pub-id pub-id-type="pmid">22265402</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cell.2011.12.013</pub-id><pub-id pub-id-type="pmcid">PMC3332216</pub-id></mixed-citation></ref><ref id="mol212885-bib-0042"><label>42</label><mixed-citation publication-type="journal" id="mol212885-cit-0042">
+<string-name name-style="western">
+<surname>Andreassen</surname>
+<given-names>PR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lohez</surname>
+<given-names>OD</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lacroix</surname>
+<given-names>FB</given-names>
+</string-name> &amp; <string-name name-style="western">
+<surname>Margolis</surname>
+<given-names>RL</given-names>
+</string-name> (<year>2001</year>) <article-title>Tetraploid state induces p53‐dependent arrest of nontransformed mammalian cells in G1</article-title>. <source xml:lang="en">Mol Biol Cell</source>
+<volume>12</volume>, <fpage>1315</fpage>–<lpage>1328</lpage>.<pub-id pub-id-type="pmid">11359924</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1091/mbc.12.5.1315</pub-id><pub-id pub-id-type="pmcid">PMC34586</pub-id></mixed-citation></ref><ref id="mol212885-bib-0043"><label>43</label><mixed-citation publication-type="journal" id="mol212885-cit-0043">
+<string-name name-style="western">
+<surname>Zack</surname>
+<given-names>TI</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schumacher</surname>
+<given-names>SE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Carter</surname>
+<given-names>SL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cherniack</surname>
+<given-names>AD</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Saksena</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tabak</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lawrence</surname>
+<given-names>MS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>C‐Z</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wala</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mermel</surname>
+<given-names>CH</given-names>
+</string-name>
+<italic toggle="yes">et al</italic>. (<year>2013</year>) <article-title>Pan‐cancer patterns of somatic copy number alteration</article-title>. <source xml:lang="en">Nat Genet</source>
+<volume>45</volume>, <fpage>1134</fpage>–<lpage>1140</lpage>.<pub-id pub-id-type="pmid">24071852</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ng.2760</pub-id><pub-id pub-id-type="pmcid">PMC3966983</pub-id></mixed-citation></ref><ref id="mol212885-bib-0044"><label>44</label><mixed-citation publication-type="journal" id="mol212885-cit-0044">
+<string-name name-style="western">
+<surname>Thompson</surname>
+<given-names>SL</given-names>
+</string-name> &amp; <string-name name-style="western">
+<surname>Compton</surname>
+<given-names>DA</given-names>
+</string-name> (<year>2010</year>) <article-title>Proliferation of aneuploid human cells is limited by a p53‐dependent mechanism</article-title>. <source xml:lang="en">J Cell Biol</source>
+<volume>188</volume>, <fpage>369</fpage>–<lpage>381</lpage>.<pub-id pub-id-type="pmid">20123995</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1083/jcb.200905057</pub-id><pub-id pub-id-type="pmcid">PMC2819684</pub-id></mixed-citation></ref><ref id="mol212885-bib-0045"><label>45</label><mixed-citation publication-type="journal" id="mol212885-cit-0045">
+<string-name name-style="western">
+<surname>Dewhurst</surname>
+<given-names>SM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>McGranahan</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Burrell</surname>
+<given-names>RA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rowan</surname>
+<given-names>AJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gronroos</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Endesfelder</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Joshi</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mouradov</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gibbs</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ward</surname>
+<given-names>RL</given-names>
+</string-name>
+<italic toggle="yes">et al</italic>. (<year>2014</year>) <article-title>Tolerance of whole‐genome doubling propagates chromosomal instability and accelerates cancer genome evolution</article-title>. <source xml:lang="en">Cancer Discov</source>
+<volume>4</volume>, <fpage>175</fpage>–<lpage>185</lpage>.<pub-id pub-id-type="pmid">24436049</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/2159-8290.CD-13-0285</pub-id><pub-id pub-id-type="pmcid">PMC4293454</pub-id></mixed-citation></ref><ref id="mol212885-bib-0046"><label>46</label><mixed-citation publication-type="journal" id="mol212885-cit-0046">
+<string-name name-style="western">
+<surname>Hieronymus</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Murali</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tin</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yadav</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Abida</surname>
+<given-names>W</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Moller</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Berney</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Scher</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Carver</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Scardino</surname>
+<given-names>P</given-names>
+</string-name>
+<italic toggle="yes">et al</italic>. (<year>2018</year>) <article-title>Tumor copy number alteration burden is a pan‐cancer prognostic factor associated with recurrence and death</article-title>. <source xml:lang="en">eLife</source>
+<volume>7</volume>, <elocation-id>e37294</elocation-id>.<pub-id pub-id-type="pmid">30178746</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.7554/eLife.37294</pub-id><pub-id pub-id-type="pmcid">PMC6145837</pub-id></mixed-citation></ref><ref id="mol212885-bib-0047"><label>47</label><mixed-citation publication-type="journal" id="mol212885-cit-0047">
+<string-name name-style="western">
+<surname>Pereira</surname>
+<given-names>AAL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rego</surname>
+<given-names>JFM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Morris</surname>
+<given-names>V</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Overman</surname>
+<given-names>MJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Eng</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Garrett</surname>
+<given-names>CR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Boutin</surname>
+<given-names>AT</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ferrarotto</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lee</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jiang</surname>
+<given-names>Z‐Q</given-names>
+</string-name>
+<italic toggle="yes">et al</italic>. (<year>2015</year>) <article-title>Association between KRAS mutation and lung metastasis in advanced colorectal cancer</article-title>. <source xml:lang="en">Br J Cancer</source>
+<volume>112</volume>, <fpage>424</fpage>–<lpage>428</lpage>.<pub-id pub-id-type="pmid">25535726</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/bjc.2014.619</pub-id><pub-id pub-id-type="pmcid">PMC4453646</pub-id></mixed-citation></ref></ref-list></back></article>

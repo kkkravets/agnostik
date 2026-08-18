@@ -1,0 +1,147 @@
+# IMPACT OF KRAS MUTATIONS IN CLINICAL FEATURES IN COLORECTAL CANCER
+
+Authors: Renato Morato ZANATTO, Gianni SANTOS, Júnea Caris OLIVEIRA, Eduardo Marcucci PRACUCHO, Adauto José Ferreira NUNES, Gaspar Jesus LOPES-FILHO, Sarhan Sydney SAAD
+
+Journal: Arquivos Brasileiros de Cirurgia Digestiva : ABCD
+
+PMCID: PMC7743328
+
+PMID: 33331426
+
+DOI: 10.1590/0102-672020200003e1524
+
+Canonical source: https://pmc.ncbi.nlm.nih.gov/articles/PMC7743328/
+
+## Abstract
+
+## Background:
+
+KRAS mutations are important events in colorectal carcinogenesis, as well as negative predictors of response to EGFR inhibitors treatment.
+
+## Aim:
+
+To investigate the association of clinical-pathological features with KRAS mutations in colorectal cancer patients treated.
+
+## Methods:
+
+Data from 69 patients with colorectal cancer either metastatic at diagnosis or later, were retrospectively analyzed. The direct sequencing and pyrosequencing techniques were related to KRAS exon 2. The mutation diagnosis and its type were determined.
+
+## Results:
+
+KRAS mutation was identified in 43.4% of patients. The most common was c.35G>T (p.G12V), c.35G>A (p.G12D) and c.38G>A (p.G13D). No correlation was found between KRAS mutation and age (p=0.646) or gender (p=0.815). However, mutated group had higher CEA levels at admission (p=0.048) and codon 13 mutation was associated with involvement of more than one metastatic site in disease progression (p=0.029). Although there was no association between primary tumor site and mutation diagnosis (p=0.568), primary colon was associated with worse overall survival (p=0.009).
+
+## Conclusion:
+
+The KRAS mutation was identified in almost half of patients. Mutated KRAS group had higher levels of CEA at admission and the mutation at codon 13 was associated with involvement of more than one metastatic site in the course of the disease. Colon disease was associated with the worst overall survival.
+
+## Full article
+
+## INTRODUCTION
+
+Colorectal cancer (CRC) is a common and lethal disease. It is the third most frequently diagnosed cancer in men and the second in women worldwide, with 1.65 million new cases and almost 835,000 deaths in 20157. In Brazil, for the 2018-2019 biennium, an estimated 36,360 new cases occur every year 14 .
+
+The treatment is based on the presentation of the disease, that is, depending on the location and stage of the tumor, strategies that use surgical treatment, combined or not with chemotherapy and radiotherapy. Most patients are not expected to be cured in situations of metastatic disease, except for those with isolated liver and/or pulmonary involvement that can be treated with curative intent and rescued with operations. Most patients are treated with systemic palliative chemotherapy, with the clinical objective of improving quality of life and survival 21 .
+
+Recently, epidermal growth factor receptor (EGFR) inhibitors, such as cetuximab and panitumumab, have been incorporated into the treatment of metastatic CRC in combination with chemotherapy. They act in blocking receptors and have demonstrated improved treatment efficacy for many tumors. In metastatic colorectal cancer, it resulted in a progression-free survival gain and a significant benefit has been reported in the continuation of these drugs after progression as a first-line treatment 27 , 5 . However, EGFR inhibitors are ineffective when KRAS is mutated 26 . The mutation rate varies from 30-50% and causes continuous activation of the EGFR intracellular pathway, regardless of the pharmacological blockade of the receptor, promoting tumor proliferation and survival 23 , 13 . Therefore, since the KRAS mutation is a predictor of a negative response, mutational analysis of the gene becomes mandatory before the institution of treatment with EGFR inhibitors. This strategy, in addition to optimizing health costs, avoids adverse effects related to these drugs, especially skin toxicity 19 , 16 .
+
+Approximately 90% of the genetic mutations in the RAS family (H, N and K-RAS) occur in exon 2 of KRAS (codons 12 and 13). The most frequent mutation of codon 12 is c.35G> A (p.G12D) and at codon 13 is c.38G> A (p.G13D), both result from the exchange of the amino acid glycine for aspartic acid in positions 35 and 38, respectively 19 . Other mutations in KRAS such as exon 3 (codons 59, 60, 61), exon 4 (codons 119, 146, 147) and NRAS represent a small proportion of these mutations 11 .
+
+The KRAS mutation is a predictor of a negative response to treatment with EGFR inhibitors and, according to other studies, confers a worse prognosis, but not in all patients 3 , 24 , 6 .
+
+Therefore, this study aims to analyze the frequency, the types of mutation of the KRAS gene and the correlation with clinical and pathological data in patients diagnosed with metastatic CRC.
+
+## METHODS
+
+### Study design and ethical standards
+
+Retrospective, transversal and single center study. All clinical information was obtained from medical records and included patients diagnosed and treated between August 2005 and February 2017. The study was reviewed and approved by the Research Ethics Committee of Hospital Amaral Carvalho on November 3, 2016 under the registration number 1,803,348. Individual consent for patient participation was not required due to the retrospective nature of the study and is in accordance with Brazilian regulatory legislation.
+
+Sixty-nine patients with colon and rectal adenocarcinoma were evaluated, regardless of the treatment performed. They were divided into two groups: metastatic at diagnosis (n=43) and who developed metastases during postoperative oncological follow-up (n=26). The clinicopathological characteristics recorded and analyzed included age, gender, primary tumor site, metastasis and CEA levels at admission. All paraffin blocks were tested in representative areas of the tumor and sent to the laboratories to perform the extraction and sequencing of KRAS exon 2 DNA (codons 12 and 13). The DNA samples were derived from a primary tumor (n=58) or metastasis (n=11). Twenty-four were sequenced at Progenetics Molecular Diagnostics using the direct sequencing technique and 45 samples at the AC Camargo Cancer Center using the pyrosequencing technique 13 , 10 .
+
+### Statistical analysis
+
+After descriptive analysis of the data, two inferential analyzes were performed to confirm or refute the correlation: Pearson’s chi-square test or Fisher’s exact extension test, comparing gender, age, primary location, CEA level at admission, pathological staging and metastatic location according to the mutation of the KRAS1 gene, Cox multiple regression comparing the survival time, primary site and mutation of the KRAS12 gene. In all conclusions obtained through inferential analyzes, the level of alpha significance was 5%. The data was inserted and stored in Excel 2010 for Windows spreadsheets. Statistical analyzes were performed using the statistical program R, version 3.3.225.
+
+## RESULTS
+
+The KRAS mutation was diagnosed in 30 patients (43.5%). Twenty-two were at codon 12 (73.3%) and eight (26.7%) at codon 13. The most frequent mutations were c.35G> T (p.G12V), 33.3%, followed by mutation c .35G> A (p.G12D), 23.3% and c.38G> A (p.G13D), 23, 3%. These three mutations corresponded to 79.9% of the total mutations in the series. In one case, the double mutation c.34_36GGT> TGG (p.G12W), 0.03%, was identified, which involves the exchange of the amino acid glycine for tyrosine at position 34 and tyrosine for glycine at position 36 (Figure 1).
+
+FIGURE 1Types of mutations and corresponding amino acid changes
+
+The correlation of the KRAS mutation with epidemiological data is described in Table 1. The wild KRAS group was composed mainly of men (53.8%), over 50 years old (71.8%), with primary colon location (66,7%), CEA admission level of up to 5 ng/ml (53.8%) and pathological staging IV (64.1%). The preferred metastatic site was the liver (46.2%), followed by peritoneum (12.8%), retroperitoneal lymph node (7.7%) and lung (5.1%). The KRAS mutated group was also formed by the majority with men (56.7%), over 50 years old (66.7%), primary colon site (60.0%), CEA level at admission above 5 ng/ml (70.0%) and pathological staging IV (60.0%). The preferred metastatic site was liver (43.3%), and after lung (23.3%), peritoneum (10.0%) and retroperitoneal lymph node (3.3%). The KRAS mutation was not related to gender (p=0.815), age group (p=0.646), primary site (p=0.568), pathological staging (p=0.935) and metastatic site (p=0.263). Patients with mutated KRAS had higher levels of CEA when compared to those with tumors with wild-type KRAS. Mutated KRAS patients had CEA levels greater than 5 ng/ml in 70% of cases, against 46.2% of those with wild KRAS (p=0.048).
+
+TABLE 1Distribution of the general characteristics of the patients according to the KRAS mutation KRAS Wild%KRAS Mutated%Total%pGender 0.815aMen21(53.8%)17(56.7%)38(55.1%)Women18(46.2%)13(43.3%)31(44.9%)Total39(100%)30(100%)69(100%)Age range 0.646aUp to 50 y11(28.2%)10(33.3%)21(30.4%)Above 50 y28(71.8%)20(66.7%)48(69.6%)Total39(100%)30(100%)69(100.0%)Primaru site 0.568aColon26(66.7%)18(60.0%)44(63.8%)Rectum13(33.3%)12(40%)25(36.2%)Total39(100%)30(100%)69(100%)CEA level at admission Up to 5 ng/ml21(53.8%)9(30.0%)30(43.5%)0.048aAbove 5 ng/ml18(46.2%)21(70.0%)39(56.5%)Total39(100%)30(100%)69(100%)Pathological stage I1(2.6%)--1(1.4%)0.935bII7(17.9%)6(20.0%)13(18.8%)III6(15.4%)6(20.0%)12(17.4%)IV25(64.1%)18(60.0%)43(62.3%)Total39(100%)30(100%)69(100%)Metastatic site Liver18(46.2%)13(43.3%)31(44.9%)0.263bPeritoneum5(12.8%)3(10.0%)8(11.6%)Lung2(5.1%)7(23.3%)9(13.0%)Retroperitoneum lymph node3(7.7%)1(3.3%)4(5.8%)More than a site11(28.2%)6(20.0%)17(24.6%)Total39(100%)30(100%)69(100%)
+
+The distribution of the number of metastatic sites, according to the type of mutation in the CRC, is described in Table 2. Of the 30 patients with KRAS mutation, a mutation was found in codon 12 (22), most had only one metastatic site (90.9%). The same did not occur with patients with mutations in codon 13 (8), of which half (50.0%) had only one metastatic site (p=0.029).
+
+TABLE 2Distribution of the number of metastasis sites, according to the type of KRAS mutation Number of metastatic sites Mutation typeOnly one More than one Total n%n%n%p.G12A312.5%--310.0%p.G12C14.2%--13.3%p.G12D729.2%--723.3%p.G12V833.3%233.3%1033.3%p.G13C--116.7%13.3%p.G13D416.7%350.0%723.3%p.G12W14.2%--13.3%Total24100%6100%30100%n=mutation number
+
+Figure 2 illustrates the patient’s overall survival by primary site and KRAS status. According to it, the overall survival of patients estimated at 60 months was 26.7%. Investigating survival, according to the primary site and KRAS, Cox’s regression model was adjusted, and the effect of the interaction between the primary site and KRAS status was not detected (p=0.961). Thus, the primary survival site was not influenced by KRAS. The results revealed that patients with primary rectal tumors had better survival when compared to those diagnosed with primary colon tumors (p=0.009). It was not possible to show a KRAS-type relationship with patient survival (p=0.144).
+
+FIGURE 2Patients’ overall survival curve, according to primary site and KRAS mutation
+
+## DISCUSSION
+
+In this study, the prevalence of the KRAS mutation was 43.4%. In most series, it is identified in 30-50% of cases and are important genetic factors that contribute to the occurrence of the disease 13 . The most frequent mutations were c.35G> T (p.G12V), 33.3%, c.35G> A (p.G12D), 23.3% and c.38G> A (p.G13D), 23, 3% that corresponded to 79.9% of the total mutations in this sample. Reports show a 39.3% prevalence of mutations in KRAS among 1018 German patients, and the most prevalent mutation was p.G12D followed by p.G12V and p.G13D19.
+
+In Brazil, variations in the prevalence of the KRAS mutation are observed according to the region, for example, about 18.3% among 60 patients in the Amazon region 9 . In the largest Brazilian study that evaluated 8234 patients, the frequency of this mutation was 31.9%. In the analysis of separate regions, in the southeastern region it was 34.7% 13 .
+
+Therefore, the codon distribution and the three most prevalent mutations in the present study are similar to those described in other series, denoting a representative sample compared to the global findings 13 , 29 , 28 .
+
+In the present study, the frequency of KRAS mutation did not correlate with gender (p=0.815), age group (p=0.646), primary site (p=0.568), pathological staging (p=0.935) and metastatic site (p=0.263). Reports show a high prevalence among women (34.8% women vs. 32.5% men, p=0.03) 13 . Thus, gender, age or hormonal influence on the KRAS mutation are conflicting because some studies show a higher frequency of mutations for women 22 , but others do not 17 . The ethnological differences in the populations studied may explain the disparity.
+
+Regarding the primary site and the multimodal therapy generally used, two groups of patients were identified: extraperitoneal rectum, in which radiotherapy is part of the local therapy, plus surgical resection and adjuvant chemotherapy, and intraperitoneal colon/rectum, in which the resection operation is the basis of local therapy, with complementary adjuvant chemotherapy according to risk stratification. In addition, systemic chemotherapy with fluoropyrimidine-based chemotherapy, with or without panitumumab/cetuximab or bevacizumab monoclonal antibody is the basis of therapy for patients with metastatic disease. Although the KRAS mutation is not correlated with the primary site in the present study, by a different group, tumors on the right side (before the left flexure) and tumors on the left side (after the left flexure) showed influence of the primary site on the prognosis in previously untreated tumors. However, these data are still the subject of investigation 18 .
+
+The mutation status of KRAS appears to influence the pattern of metastatic spread in CRC. Studies show a difference in the frequency of KRAS mutations in patients with liver, lung and brain metastases 24 . In the study, KRAS mutations were less prevalent in liver metastases (32.3%), but more in pulmonary (62.0%) and brain (56.5%, p=0.003). There are some reports that metastatic CRC with KRAS mutation is more likely to spread to the lungs compared to wild-type KRAS (22% vs. 13%, p<0.01) 30 . Although this information was not reported in the present study, mutations in the codon distribution were correlated with the number of affected metastatic sites and, in codon 12, most had only one metastatic site. The same did not happen with the codon 13 mutation group, because half of the group had more than one metastatic site (p=0.029).
+
+In the mutated KRAS group, CEA levels above 5 ng/ml were identified more frequently when compared to the wild-type KRAS group (p=0.048). A recent study does not show a correlation between CEA levels (cut-off point 200) and KRAS status among 193 patients with metastatic CRC 8 . Therefore, it is difficult to sustain the correlation between CEA levels and KRAS status due to the heterogeneity of the cutoff points, the diversified laboratory methodology employed, the number and ethnicity of patients between studies.
+
+The overall estimated 60-month survival rate for patients was 26.7%. The effect of the interaction between the primary site and the KRAS status was not detected (p=0.961). In addition, the results revealed that patients with rectal location had longer survival when compared to those with location in the colon (p=0.009). It was not possible to show a KRAS-type relationship with survival (p=0.144).
+
+The KRAS mutation provides a worse prognosis, as shown in many studies 3 , 24 , but some discordant findings have been reported 6 . One explanation for this controversy is that different mutations in the same gene can cause different prognostic influences. For example, in the multicenter RASCAL study, the prognostic significance of mutations at codon 12 or 13 in 2721 patients from 13 countries was assessed. Multivariate analysis showed that only codon 12 mutations were independently associated with an increased risk of recurrence and death. However, after expanding the sample to include 4268 patients, subsequent analyzes show 12 possible mutations in codons 12 and 13, but only one specific mutation in codon 12 (9%) was significantly associated with an adverse outcome, and especially in patients with lymph nodes positive 2 . Although less information is available, mutations in the NRAS are also associated with a worse prognosis 4
+
+Although the effectiveness of the treatment and the evaluation of clinical results are not the objectives of this study, it can also influence survival, since the results of the frequency of RAS mutations can also, but unfortunately these data were not available (except KRAS exon 2). In addition, considering the possible impact of RAS mutations on the overall results of the analyzed population, this may not be significant due to the few frequencies of non-KRAS exon 2 mutations recorded. In addition, it was only in 2015 that the American Society of Clinical Oncology (ASCO) recommended the prolonged use of the RAS test for all patients who are candidates for treatment with EGRF inhibitors.
+
+The DNA samples in this study were derived from a primary tumor or metastasis, because the literature showed that mutations in KRAS, NRAS and BRAF are similar in both types of samples15,20,29 and there is no disagreement in the status of KRAS in different periods of patients evaluated, including at the time of the initial diagnosis of the tumor and later in the course of the disease in the metastatic period and after cytotoxic chemotherapy. However, challenging data have recently been demonstrated that the primary tumor test at a single site in synchronic metastatic colorectal disease can result in an incomplete profile of the KRAS mutation and, consequently, an incorrect choice of the use of EGFR inhibitors as treatment 10 . This study showed a statistically significant difference in survival in Brazilian metastatic patients with primary colon tumors treated at a medical oncology center, according to the established routine of clinical practice. There is an expectation that, with future research, it will lead to expanding our recognition by characterizing several biomarkers involved in colorectal carcinogenesis and establishing clinicopathological variables to seek new effective and personalized treatments.
+
+## CONCLUSION
+
+The KRAS mutation was identified in almost half of the patients. Elevated levels of CEA were seen more frequently in the mutated group, and the codon 13 mutation was associated with the involvement of more than one metastatic site in the course of the disease. Primary colon disease was associated with worse overall survival. None of the other clinicopathological characteristics evaluated were related to mutation presence.
+
+Financial source: none
+
+Central message: Mutations in the KRAS gene are present in almost half of patients with colorectal cancer and the codon 13 mutation is associated with more than one metastasis site.
+
+Perspective: High prevalence of KRAS gene mutation has been identified in almost half of patients with colorectal cancer. The mutated KRAS group showed higher levels of CEA at admission and the mutation at codon 13 was associated with the involvement of more than one metastasis site throughout treatment in the course of the disease. Colon disease compared to the rectum was associated with worse overall survival.
+
+## REFERENCES
+1. 1AgrestiACategorical data analysisNew YorkWiley1990
+2. 2AndreyevHJNormanARCunninghamDOatesJDixBRIacopettaBJKirsten ras mutations in patients with colorectal cancer: the “RASCAL II” studyBr J Cancer2001855692696https://pubmed.ncbi.nlm.nih.gov/115312541153125410.1054/bjoc.2001.1964PMC2364126
+3. 3AndreyevHJNNormanARClarkePACunninghamDOatesJRKirsten ras Mutations in Patients With Colorectal Cancer: the Multicenter “RASCAL” StudyJNCI J Natl Cancer Inst [Internet]199890967568410.1093/jnci/90.9.6759586664
+4. 4CercekABraghiroliMIChouJFHechtmanJFKemenyNSaltzLClinical Features and Outcomes of Patients with Colorectal Cancers Harboring NRAS MutationsClin Cancer Res201723164753 LP 475 4760http://clincancerres.aacrjournals.org/content/23/16/4753.abstract2844650510.1158/1078-0432.CCR-17-0400PMC5788017
+5. 5CiardielloFNormannoNMartinelliETroianiTPiscontiSCardoneCCetuximab continuation after first progression in metastatic colorectal cancer (CAPRI-GOIM): a randomized phase II trial of FOLFOX plus cetuximab versus FOLFOXAnn Oncol20162761055106110.1093/annonc/mdw13627002107
+6. 6ClarkeGARyanECroweJPO’KeaneJCMacMathúnaPTumour-derived mutated K-ras codon 12 expression in regional lymph nodes of stage II colorectal cancer patients is not associated with increased risk of cancer-related deathInt J Colorectal Dis200116210811110.1007/s00384010029111355316
+7. 7Collaboration GB ofDCFitzmauriceCAllenCBarberRMBarregardLBhuttaZAGlobal, Regional, and National Cancer Incidence, Mortality, Years of Life Lost, Years Lived With Disability, and Disability-Adjusted Life-years for 32 Cancer Groups, 1990 to 2015: A Systematic Analysis for the Global Burden of Disease StudyJAMA Oncol2017345245482791877710.1001/jamaoncol.2016.5688PMC6103527
+8. 8ConnellLCChouJFBoucherTMCapanuMKemenyNERelevance of CEA and LDH in relation to KRAS status in patients with unresectable colorectal liver metastasesJ Clin Oncol2016344_suppl76276210.1200/jco.2016.34.4_suppl.762PMC540068828008623
+9. 9de CarvalhoLEWSarrafJSOliveiraACMBNDNetoCâmaraTFFonsecaFLAWhat Is Different in the Population of the Brazilian Amazon Region so that They Have a Low Frequency of KRAS Gene MutationsCase Rep Oncol2017102777782https://pubmed.ncbi.nlm.nih.gov/289665822896658210.1159/000479733PMC5618447
+10. 10de MacedoMPde MeloFMRibeiro J daSde MelloCALde Souza BegnamiMDFSoaresFARAS mutations vary between lesions in synchronous primary colorectal cancer: testing only one lesion is not sufficient to guide anti-EGFR treatment decisionsOncoscience201522125130https://pubmed.ncbi.nlm.nih.gov/258595552585955510.18632/oncoscience.118PMC4381705
+11. 11DouillardJ-YOlinerKSSienaSTaberneroJBurkesRBarugelMPanitumumab-FOLFOX4 Treatment and RAS Mutations in Colorectal CancerN Engl J Med2013369111023103410.1056/NEJMoa130527524024839
+12. 12Enrico Antônio Colosimo SRGAnálise de Sobrevivência AplicadaBlucher2006392
+13. 13Gil FerreiraCAranVZalcberg-RenaultIVictorinoAPSalemJHBonaminoMHKRAS mutations: variable incidences in a Brazilian cohort of 8,234 metastatic colorectal cancer patientsBMC Gastroenterol2014147373https://pubmed.ncbi.nlm.nih.gov/247207242472072410.1186/1471-230X-14-73PMC3997472
+14. 14INCAEstimativa 2018-Incidência de câncer no Brasil [Internet]Instituto Nacional de Câncer José Alencar Gomes da Silva2017130http://www.inca.gov.br/estimativa/2018/estimativa-2018.pdf
+15. 15KnijnNMekenkampLJMKlompMVink-BörgerMETolJTeerenstraSKRAS mutation analysis: a comparison between primary tumours and matched liver metastases in 305 colorectal cancer patientsBr J Cancer2011104610201026https://pubmed.ncbi.nlm.nih.gov/213645792136457910.1038/bjc.2011.26PMC3065268
+16. 16LièvreABachetJ-BBoigeVCayreALe CorreDBucEKRAS Mutations As an Independent Prognostic Factor in Patients With Advanced Colorectal Cancer Treated With CetuximabJ Clin Oncol200826337437910.1200/JCO.2007.12.590618202412
+17. 17LiuZZhangYNiuYLiKLiuXChenHA systematic review and meta-analysis of diagnostic and prognostic serum biomarkers of colorectal cancerPLoS One201498e103910e103910https://pubmed.ncbi.nlm.nih.gov/251057622510576210.1371/journal.pone.0103910PMC4126674
+18. 18LoupakisFYangDYauLFengSCremoliniCZhangWPrimary tumor location as a prognostic factor in metastatic colorectal cancerJ Natl Cancer Inst20151073dju427dju427https://pubmed.ncbi.nlm.nih.gov/257131482571314810.1093/jnci/dju427PMC4565528
+19. 19NeumannJZeindl-EberhartEKirchnerTJungAFrequency and type of KRAS mutations in routine diagnostic analysis of metastatic colorectal cancerPathol - Res Pract200920512858862http://www.sciencedirect.com/science/article/pii/S03440338090020031967940010.1016/j.prp.2009.07.010
+20. 20PaliogiannisPCossuATandaFPalmieriGPalombaGKRAS mutational concordance between primary and metastatic colorectal adenocarcinomaOncol Lett20148414221426https://pubmed.ncbi.nlm.nih.gov/252023442520234410.3892/ol.2014.2411PMC4156255
+21. 21ShahSAHaddadRAl-SukhniWKimRDGreigPDGrantDRSurgical resection of hepatic and pulmonary metastases from colorectal carcinomaJ Am Coll Surg200620234684751650025210.1016/j.jamcollsurg.2005.11.008
+22. 22ShenHYuanYHuH-GZhongXYeX-XLiM-DClinical significance of K-ras and BRAF mutations in Chinese colorectal cancer patientsWorld J Gastroenterol2011176809816https://pubmed.ncbi.nlm.nih.gov/213901542139015410.3748/wjg.v17.i6.809PMC3042662
+23. 23SoulièresDGreerWMaglioccoAMHuntsmanDYoungSTsaoM-SKRAS mutation testing in the treatment of metastatic colorectal cancer with anti-EGFR therapiesCurr Oncol2010S31S40https://pubmed.ncbi.nlm.nih.gov/206801062068010610.3747/co.v17is1.614PMC2901795
+24. 24TaiebJZaananALe MalicotKJuliéCBlonsHMineurLPrognostic Effect of BRAF and KRAS Mutations in Patients With Stage III Colon Cancer Treated With Leucovorin, Fluorouracil, and Oxaliplatin With or Without Cetuximab: A Post Hoc Analysis of the PETACC-8 TrialJAMA Oncol20162564365310.1001/jamaoncol.2015.522526768652
+25. 25TeamRCR: A language and environment for statistical computingR Foundation for Statistical Computing2018https://www.r-project.org
+26. 26Van CutsemEKöhneC-HHitreEZaluskiJChang ChienC-RMakhsonACetuximab and Chemotherapy as Initial Treatment for Metastatic Colorectal CancerN Engl J Med2009360141408141710.1056/NEJMoa080501919339720
+27. 27Van CutsemEKöhneC-HLángIFolprechtGNowackiMPCascinuSCetuximab Plus Irinotecan, Fluorouracil, and Leucovorin As First-Line Treatment for Metastatic Colorectal Cancer: Updated Analysis of Overall Survival According to Tumor KRAS and BRAF Mutation StatusJ Clin Oncol201129152011201910.1200/JCO.2010.33.509121502544
+28. 28Van CutsemELenzH-JKöhneC-HHeinemannVTejparSMelezínekIFluorouracil, Leucovorin, and Irinotecan Plus Cetuximab Treatment and RAS Mutations in Colorectal CancerJ Clin Oncol201533769270010.1200/JCO.2014.59.481225605843
+29. 29VeldoreVRaoRPrabhudesaiSATejaswiRKakaraSPattanayakSPrevalence of KRAS mutations in metastatic colorectal cancer: A retrospective observational study from IndiaIndian J Cancer2014515315312684218610.4103/0019-509X.175371
+30. 30YaegerRCowellEChouJFGewirtzANBorsuLVakianiERAS mutations affect pattern of metastatic spread and increase propensity for brain metastasis in colorectal cancerCancer2014121811951203https://pubmed.ncbi.nlm.nih.gov/254911722549117210.1002/cncr.29196PMC4523078

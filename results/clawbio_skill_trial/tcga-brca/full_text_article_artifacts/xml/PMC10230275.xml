@@ -1,0 +1,678 @@
+<?xml version='1.0' encoding='utf-8'?>
+<article xmlns:ns0="http://www.w3.org/1999/xlink" xmlns:ns1="http://www.niso.org/schemas/ali/1.0/" xml:lang="en" article-type="case-report" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Front Oncol</journal-id><journal-id journal-id-type="iso-abbrev">Front Oncol</journal-id><journal-id journal-id-type="pmc-domain-id">1755</journal-id><journal-id journal-id-type="pmc-domain">frontonco</journal-id><journal-id journal-id-type="nlm-id">101568867</journal-id><journal-id journal-id-type="publisher-id">Front. Oncol.</journal-id><journal-title-group><journal-title>Frontiers in Oncology</journal-title></journal-title-group><issn pub-type="epub">2234-943X</issn><publisher><publisher-name>Frontiers Media SA</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC10230275</article-id><article-id pub-id-type="pmcid-ver">PMC10230275.1</article-id><article-id pub-id-type="pmcaid">10230275</article-id><article-id pub-id-type="pmcaiid">10230275</article-id><article-id pub-id-type="pmid">37265791</article-id><article-id pub-id-type="doi">10.3389/fonc.2023.1176868</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="heading"><subject>Oncology</subject><subj-group><subject>Case Report</subject></subj-group></subj-group></article-categories><title-group><article-title>Case report: Neuroendocrine breast carcinoma with a germline EGFR T790M mutation</article-title></title-group><contrib-group><contrib contrib-type="author"><name name-style="western"><surname>Sagan</surname><given-names initials="OA">Olivia A.</given-names></name><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><uri ns0:href="https://loop.frontiersin.org/people/2246879" /></contrib><contrib contrib-type="author"><name name-style="western"><surname>Rothstein</surname><given-names initials="A">Anna</given-names></name><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><uri ns0:href="https://loop.frontiersin.org/people/2258782" /></contrib><contrib contrib-type="author"><name name-style="western"><surname>Jambunathan</surname><given-names initials="B">Bhaghyasree</given-names></name><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref><uri ns0:href="https://loop.frontiersin.org/people/2223117" /></contrib><contrib contrib-type="author"><name name-style="western"><surname>Hadziahmetovic</surname><given-names initials="M">Mersiha</given-names></name><xref rid="aff1" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib contrib-type="author"><name name-style="western"><surname>Antoniolli</surname><given-names initials="A">Anita</given-names></name><xref rid="aff2" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib contrib-type="author" corresp="yes"><name name-style="western"><surname>Rashid</surname><given-names initials="MH">M. Hammad</given-names></name><xref rid="aff3" ref-type="aff">
+<sup>3</sup>
+</xref><xref rid="fn001" ref-type="author-notes">
+<sup>*</sup>
+</xref><uri ns0:href="https://loop.frontiersin.org/people/2277467" /></contrib></contrib-group><aff id="aff1">
+<sup>1</sup>
+<institution>The University of Toledo College of Medicine and Life Sciences</institution>, <addr-line>Toledo, OH</addr-line>, <country>United States</country>
+</aff><aff id="aff2">
+<sup>2</sup>
+<institution>Promedica Physicians</institution>, <addr-line>Sylvania, OH</addr-line>, <country>United States</country>
+</aff><aff id="aff3">
+<sup>3</sup>
+<institution>University of Toledo Medical Center – Dana Cancer Center</institution>, <addr-line>Toledo, OH</addr-line>, <country>United States</country>
+</aff><author-notes><fn fn-type="edited-by"><p>Edited by: Charles Theillet, Institut du Cancer de Montpellier (ICM), France</p></fn><fn fn-type="edited-by"><p>Reviewed by: Irene Konstantopoulou, National Centre of Scientific Research Demokritos, Greece; Moom Rahman Roosan, Chapman University, United States</p></fn><corresp id="fn001">*Correspondence: M. Hammad Rashid, <email ns0:href="mailto:Mohammad.Rashid@utoledo.edu">Mohammad.Rashid@utoledo.edu</email>
+</corresp></author-notes><pub-date pub-type="epub"><day>17</day><month>5</month><year>2023</year></pub-date><pub-date pub-type="collection"><year>2023</year></pub-date><volume>13</volume><issue-id pub-id-type="pmc-issue-id">427504</issue-id><elocation-id>1176868</elocation-id><history><date date-type="received"><day>01</day><month>3</month><year>2023</year></date><date date-type="accepted"><day>02</day><month>5</month><year>2023</year></date></history><pub-history><event event-type="pmc-release"><date><day>01</day><month>01</month><year>2023</year></date></event><event event-type="pmc-live"><date><day>01</day><month>06</month><year>2023</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2023-06-02 17:25:20.527"><day>02</day><month>06</month><year>2023</year></date></event></pub-history><permissions><copyright-statement>Copyright © 2023 Sagan, Rothstein, Jambunathan, Hadziahmetovic, Antoniolli and Rashid</copyright-statement><copyright-year>2023</copyright-year><copyright-holder>Sagan, Rothstein, Jambunathan, Hadziahmetovic, Antoniolli and Rashid</copyright-holder><license><ns1:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ns1:license_ref><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.</license-p></license></permissions><self-uri content-type="pmc-pdf" ns0:href="fonc-13-1176868.pdf" /><abstract><sec><title>Background</title><p>The epidermal growth factor receptor (EGFR) p.Thr790Met (T790M) mutation was discovered as a resistance mechanism in patients with lung cancer treated with first- and second-generation tyrosine kinase inhibitors. Further studies revealed the EGFR T790M mutation in treatment-naive non-small cell lung carcinoma (NSCLC) and as a rare germline mutation strongly associated with NSCLC. Somatic EGFR T790M mutations have been reported in a limited population of patients with triple-negative breast cancer. There are no previous reports of a germline EGFR T790M mutation found in a patient with breast cancer.</p></sec><sec><title>Case presentation</title><p>We present a rare case of a 42-year-old woman with a rapidly progressing 8 cm mass in the right lateral breast. An additional right breast mass with multiple lymph nodes characteristic or suspicious of metastasis was found. Ultrasound-guided biopsy showed high-grade, poorly differentiated invasive neuroendocrine carcinoma of the right breast and metastatic carcinoma of a right axillary lymph node. Genetic testing revealed a germline EGFR T790M mutation. The patient underwent neoadjuvant chemotherapy, right mastectomy with lymph node dissection, adjuvant radiation to the right chest wall and axilla, and adjuvant chemotherapy.</p></sec><sec><title>Conclusion</title><p>This is the first reported case of a patient with high-grade neuroendocrine carcinoma, triple-negative breast cancer and a germline EGFR T790M mutation. Further investigation is needed to find a possible correlation between the cancer in this patient and her mutation. Since there are no current guidelines, further research is also needed to define screening protocols for patients with germline EGFR T790M mutations. Additional treatment options and cancer risk could also be found with further research, which would benefit all patients with a germline EGFR T790M mutation.</p></sec></abstract><kwd-group><kwd>neuroendocrine breast cancer</kwd><kwd>germline EGFR T790M mutation</kwd><kwd>triple-negative breast cancer (TNBC)</kwd><kwd>EGFR mutation</kwd><kwd>chemotherapy</kwd></kwd-group><funding-group><funding-statement>The University of Toledo, College of Medicine and Life Sciences, Department of Medicine provided funding.</funding-statement></funding-group><counts><fig-count count="2" /><table-count count="1" /><equation-count count="0" /><ref-count count="67" /><page-count count="7" /><word-count count="2989" /></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>section-in-acceptance</meta-name><meta-value>Breast Cancer</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec id="s1"><title>Background</title><p>As our understanding of molecular genetics in health care expands, specific gene mutations have been characterized and targeted for various cancer treatments. One of these genes is the epidermal growth factor receptor (EGF-receptor or EGFR) gene. The EGF receptor actuates several downstream pathways that regulate a variety of different cellular processes, including DNA synthesis and cell proliferation, which makes it crucial for cancer development (<xref rid="B1" ref-type="bibr">1</xref>, <xref rid="B2" ref-type="bibr">2</xref>). In 2004, the presence of activating somatic mutations in the EGF receptor tyrosine kinase domain was identified in non-small cell lung carcinoma (NSCLC) after seeing an increased response in patients treated with wild-type EGFR tyrosine kinase inhibitors (TKI) compared to standard platinum-based chemotherapy (<xref rid="B3" ref-type="bibr">3</xref>–<xref rid="B7" ref-type="bibr">7</xref>). These mutations are found on exon 19 (deletion), exon 20 (insertion), and exon 21 (L858R point mutation) (<xref rid="B8" ref-type="bibr">8</xref>–<xref rid="B15" ref-type="bibr">15</xref>). These developments led to first- and second-generation TKIs becoming the standard of care for patients with EGFR-mutated NSCLC (<xref rid="B6" ref-type="bibr">6</xref>, <xref rid="B7" ref-type="bibr">7</xref>, <xref rid="B16" ref-type="bibr">16</xref>–<xref rid="B18" ref-type="bibr">18</xref>).</p><p>However, a specific subset of patients with NSCLC was found to progress while on first- or second-generation TKI. In more than 50% of these patients, the point mutation of EGFR p.Thr790Met (T790M) on Exon 20 was acquired after exposure to TKI, making the first- and second-generation TKI ineffective (<xref rid="B19" ref-type="bibr">19</xref>–<xref rid="B21" ref-type="bibr">21</xref>). Osimertinib was approved in 2018 as a third-generation TKI for any patient with EGFR-mutated NSCLC who had progressed to first- or second-generation TKI, regardless of the EGFR T790M mutation status (<xref rid="B22" ref-type="bibr">22</xref>). Although most patients develop the EGFR T790M mutation after treatment with TKIs, there have been documented cases of patients with treatment-naive EGFR T790M positive NSCLC. The prevalence of the EGFR T790M mutation has been reported between less than 5% and 40% in treatment-naive NSCLC (<xref rid="B11" ref-type="bibr">11</xref>, <xref rid="B23" ref-type="bibr">23</xref>–<xref rid="B27" ref-type="bibr">27</xref>). The prevalence can vary greatly depending on the study and the technique used (<xref rid="B28" ref-type="bibr">28</xref>). Even with this variation, it is clear that the EGFR T790M mutation is not simply a post-TKI treatment resistance mechanism. Although these reports are rare, cases of germline EGFR T790M mutations have also been documented (<xref rid="B29" ref-type="bibr">29</xref>, <xref rid="B30" ref-type="bibr">30</xref>). These cases have been of isolated individuals and families, and up to 90% of these patients have been diagnosed with lung adenocarcinoma (<xref rid="B30" ref-type="bibr">30</xref>–<xref rid="B39" ref-type="bibr">39</xref>).</p><p>The EGFR gene also plays an important role in breast cancer (BC). When the EGFR gene is abnormally expressed in BC, it is usually overexpressed or amplified. Although there have been isolated cases of activation of EGFR mutations in BC, this is very rare (<xref rid="B3" ref-type="bibr">3</xref>, <xref rid="B40" ref-type="bibr">40</xref>–<xref rid="B50" ref-type="bibr">50</xref>). To investigate the role of TKIs in BC, the prevalence of EGFR T790M mutations has been researched. Few patients were found to have this somatic mutation, mainly in patients with triple-negative BC (TNBC) (<xref rid="B50" ref-type="bibr">50</xref>, <xref rid="B51" ref-type="bibr">51</xref>). There have not been previously documented cases of patients with a germline EGFR T790M mutation and BC. The importance of the EGFR gene in BC has been clearly defined, but the extent and prevalence of the EGFR T790M mutation in BC have not yet been fully determined.</p><p>We present a rare and interesting case of a young woman who developed high-grade neuroendocrine carcinoma, TNBC and was found to have a germline EGFR T790M mutation.</p></sec><sec id="s2"><title>Case presentation</title><p>Our patient is a 42-year-old woman who initially presented with a small palpable mass on her right breast with accompanying burning pain. She stated that it had been growing rapidly over 6 to 8 weeks. She also reported night sweats, back pain, headaches, depression, anxiety, and memory loss. In particular, her respiratory review of the systems was negative and she had no smoking history. The patient has a history of hypertension, depression, intramural uterine leiomyoma, and a left breast fibroadenoma removed 20 years ago. In particular, her family history of cancer includes her daughter (leukemia) and her maternal aunt (colon cancer). Her father’s medical history is unknown. An initial physical exam showed swelling of the right breast. Palpation demonstrated an 8 cm mass in the right upper outer and lower outer quadrants and a walnut-sized mass in the right axillary tail. No tenderness, skin d’orange appearance, nipple discharge, or supraclavicular lymphadenopathy were documented.</p><p>The further imaging was promptly completed. A diagnostic mammogram with ultrasound of the right breast showed an irregular hypoechoic mass of 2.9 x 2.1 x 1.9 cm in the position of 10:00 of the right breast, which was highly suggestive of malignancy. An ultrasound of the right axilla showed an abnormally enlarged lymph node (LN) measuring 2.8 x 1.9 x 1.5 cm with an abnormal cortical thickness of 1 cm. This was noted to be highly concerning for a metastatic LN. An ultrasound-guided biopsy of the right breast mass and the right axillary LN was performed. The specimen of the right breast mass showed invasive high-grade neuroendocrine carcinoma of the breast with extensive necrosis. The LN was positive for metastatic carcinoma. By immunohistochemistry, breast markers were ER negative, PR negative and HER2neu equivocal and not amplified by fluorescence <italic toggle="yes">in situ</italic> hybridization (FISH). It is noteworthy that BRCA1 and BRCA2 were wild-type. Testing for germline mutations in 83 genes associated with genetic disorders was performed. Only one likely pathogenic variant was identified in the EGFR gene: c.2369 C&gt;T {p. Thr790Met}. This mutation was heterozygous. Somatic alterations were checked using an assay that interrogates 324 genes and introns of 36 genes involved in rearrangements. Somatic alterations frequently observed in malignancies and variants of unknown significance were discovered (see <xref rid="T1" ref-type="table">
+<bold>Table 1</bold>
+</xref>). The tumor was Microsatellite stable, and Mutational Burden was 3 Muts/Mb. Tumor-infiltrating Immune Cell score was 10%, and Tumor Cell score was 0%. Tumor characteristics included that it was GATA-3 negative, CK7 patchy positivity with many cells showing a “dot-pattern” of staining, GCDFP-15 negative, Mammaglobin patchy moderately strong positivity in malignant cells with majority of cells negative, Synaptophysin positive, Chromogranin rare strong positivity in malignant infiltrate with “dot-pattern”, TTF-1 scattered positive cells, and CK20 negative. The patient declined testing of family members, primarily due to a history of Acute Lymphoblastic Leukemia in her child and fear of stigmatization.</p><table-wrap position="float" id="T1" orientation="portrait"><label>Table 1</label><caption><p>Results of somatic alterations and variants of unknown significance found in patient.</p></caption><table frame="hsides" rules="groups"><thead><tr><th valign="top" align="left" rowspan="1" colspan="1">Gene</th><th valign="top" align="left" rowspan="1" colspan="1">Alteration</th><th valign="top" align="left" rowspan="1" colspan="1">Gene</th><th valign="top" align="left" rowspan="1" colspan="1">Variant of Unknown Significance</th></tr></thead><tbody><tr><td valign="top" align="left" rowspan="1" colspan="1">EGFR</td><td valign="top" align="left" rowspan="1" colspan="1">T790M</td><td valign="top" align="left" rowspan="1" colspan="1">BRAF</td><td valign="top" align="left" rowspan="1" colspan="1">E26D</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">PTEN</td><td valign="top" align="left" rowspan="1" colspan="1">splice site 209 + 5G&gt;A</td><td valign="top" align="left" rowspan="1" colspan="1">IGF1R</td><td valign="top" align="left" rowspan="1" colspan="1">N747S</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">RB1</td><td valign="top" align="left" rowspan="1" colspan="1">loss</td><td valign="top" align="left" rowspan="1" colspan="1">PTCH1</td><td valign="top" align="left" rowspan="1" colspan="1">E48_N49insE</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1">TP53</td><td valign="top" align="left" rowspan="1" colspan="1">P58fs*65</td><td valign="top" align="left" rowspan="1" colspan="1">SDHA</td><td valign="top" align="left" rowspan="1" colspan="1">amplification</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1" /><td valign="top" align="left" rowspan="1" colspan="1" /><td valign="top" align="left" rowspan="1" colspan="1">CDKN2A/B</td><td valign="top" align="left" rowspan="1" colspan="1">amplification</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1" /><td valign="top" align="left" rowspan="1" colspan="1" /><td valign="top" align="left" rowspan="1" colspan="1">IRS2</td><td valign="top" align="left" rowspan="1" colspan="1">N28_H29insN</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1" /><td valign="top" align="left" rowspan="1" colspan="1" /><td valign="top" align="left" rowspan="1" colspan="1">RAF1</td><td valign="top" align="left" rowspan="1" colspan="1">Q255P</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1" /><td valign="top" align="left" rowspan="1" colspan="1" /><td valign="top" align="left" rowspan="1" colspan="1">EPHA3</td><td valign="top" align="left" rowspan="1" colspan="1">T406N</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1" /><td valign="top" align="left" rowspan="1" colspan="1" /><td valign="top" align="left" rowspan="1" colspan="1">NF1</td><td valign="top" align="left" rowspan="1" colspan="1">S665F</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1" /><td valign="top" align="left" rowspan="1" colspan="1" /><td valign="top" align="left" rowspan="1" colspan="1">RB1</td><td valign="top" align="left" rowspan="1" colspan="1">rearrangement</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1" /><td valign="top" align="left" rowspan="1" colspan="1" /><td valign="top" align="left" rowspan="1" colspan="1">FGF10</td><td valign="top" align="left" rowspan="1" colspan="1">amplification</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1" /><td valign="top" align="left" rowspan="1" colspan="1" /><td valign="top" align="left" rowspan="1" colspan="1">PARK2</td><td valign="top" align="left" rowspan="1" colspan="1">R191W</td></tr><tr><td valign="top" align="left" rowspan="1" colspan="1" /><td valign="top" align="left" rowspan="1" colspan="1" /><td valign="top" align="left" rowspan="1" colspan="1">RICTOR</td><td valign="top" align="left" rowspan="1" colspan="1">amplification</td></tr></tbody></table></table-wrap><p>Magnetic resonance imaging further characterized the previously biopsied right 10:00 breast lesion as irregular and lobulated with central areas of necrosis and heterogeneous enhancement predominantly in the periphery. The mass was measured 3 x 2.8 x 2.6 cm without skin invasion. Another mass was observed at 9:00 in the right breast, measuring 6 mm in greatest dimension and 2.7 cm away from the mass at 10:00. The previously biopsied right axillary LN was measured as 3.7 x 2.7 x 2.7 cm. There was also an 11 mm round LN with a near complete loss of normal fatty hilum superficial to the biopsy-proven metastatic LN in the axillary tail. At least six additional level I right axillary LNs were highly suspicious of metastatic LNs. Also, there was an abnormally enlarged level II LN, measuring 1.6 cm, that was suspicious for a metastatic LN. Three adjacent level II LNs were not enlarged, but did look suspicious relative to their left-sided counterparts. No internal mammary or level III lymphadenopathy was observed. A PET-CT showed abnormally increased FDG activity within the lateral aspect of the right breast and right axilla, but no other sites.</p><p>The patient’s diagnosis was high-grade neuroendocrine carcinoma of the right breast (cT3 cN1-2 M0), clinical prognostic stage IIIC. Neoadjuvant chemotherapy consisting of four cycles of doxorubicin and cyclophosphamide followed by 12 cycles of paclitaxel and carboplatin was started. Carboplatin was discontinued after ten cycles due to neuropathy, which is managed with gabapentin. Once the chemotherapy regimen was completed, the patient’s breast mass was significantly decreased in size. The patient then underwent a right mastectomy with dissection of the right LNs, which showed residual ypT1aN1a. She developed lymphedema after surgery, but received treatment in the lymphedema clinic. A postoperative CTA-Chest showed multiple sub-centimeter indeterminate pulmonary nodules. She completed 25 adjuvant radiation fractions to the right chest wall and LN and developed grade 2 radiation dermatitis, which improved with treatment. The metastatic study completed after radiation showed no change in previously known sub-centimeter lung nodules. The patient then completed 8 cycles of adjuvant oral capecitabine. CT of chest/abdomen/pelvis done immediately after adjuvant chemotherapy revealed no change in lung nodules and no evidence of metastatic disease. CT of chest/abdomen/pelvis, brain MRI, and bone scan 7 months after adjuvant chemotherapy revealed no evidence of metastatic disease and stable appearance of chest (see <xref rid="f1" ref-type="fig">
+<bold>Figure 1</bold>
+</xref>). The patient remains clinically disease free as of the last follow-up.</p><fig position="float" id="f1" orientation="portrait"><label>Figure 1</label><caption><p>Timeline of Patient Diagnosis and Treatment. LN, lymph node; CT CAP, CT of chest/abdomen/pelvis; TNBC, triple negative breast cancer; NEC, neuroendocrine carcinoma.</p></caption><graphic position="float" orientation="portrait" ns0:href="fonc-13-1176868-g001.jpg" /></fig></sec><sec sec-type="discussion" id="s3"><title>Discussion</title><p>The EGFR gene is important in many different types of cancer. Most commonly found at exon 19, 20 or 21 of the EGFR gene, activating somatic mutations are important targets in the treatment of NSCLC with TKI and monoclonal antibody (<xref rid="B3" ref-type="bibr">3</xref>–<xref rid="B14" ref-type="bibr">14</xref>, <xref rid="B52" ref-type="bibr">52</xref>). Additionally, the EGFR T790M mutation, located in exon 20 of the EGFR gene, was first discovered as a somatic resistance mechanism in patients with NSCLC who underwent treatment with first- or second-generation TKIs. A third-generation TKI, osimertinib, was approved in 2018 for patients with EGFR-mutated NSCLC, regardless of the status of the EGFR T790M mutation (<xref rid="B22" ref-type="bibr">22</xref>). Unfortunately, some patients also developed resistance to osimertinib through additional resistance mechanisms, including HER2 amplification and histologic transformation from NSCLC to high-grade, poorly differentiated, neuroendocrine lung cancer (<xref rid="B18" ref-type="bibr">18</xref>, <xref rid="B53" ref-type="bibr">53</xref>–<xref rid="B55" ref-type="bibr">55</xref>).</p><p>Germline EGFR T790M mutations have been implicated in the development of lung cancer by acting as weak oncogenes (<xref rid="B37" ref-type="bibr">37</xref>, <xref rid="B38" ref-type="bibr">38</xref>). Most patients with NSCLC and a germline EGFR T790M mutation also have a concurrent activating somatic EGFR mutation (<xref rid="B35" ref-type="bibr">35</xref>, <xref rid="B36" ref-type="bibr">36</xref>). Only a minority of patients have a T790M mutation as their only EGFR mutation (<xref rid="B33" ref-type="bibr">33</xref>). Germline EGFR T790M mutations are estimated to occur in 1% of patients with NSCLC and between 0.15 and 0.54% of all cancer patients (<xref rid="B29" ref-type="bibr">29</xref>, <xref rid="B30" ref-type="bibr">30</xref>, <xref rid="B38" ref-type="bibr">38</xref>, <xref rid="B56" ref-type="bibr">56</xref>). Germline mutations have been reported primarily in white patients, with few reported in those with East Indian or Asian ancestry (<xref rid="B29" ref-type="bibr">29</xref>, <xref rid="B36" ref-type="bibr">36</xref>). This mutation is typically associated with a young age at the time of cancer diagnosis. It has been suggested that patients exhibit anticipation, with the youngest recorded patient diagnosed with this mutation and NSCLC at 29 years old (<xref rid="B36" ref-type="bibr">36</xref>). This highlights the importance of the EGFR T790M mutation in NSCLC as a resistance mechanism to treatment and also increases the risk of lung cancer without a significant predisposition to other types of cancer.</p><p>Although the EGFR T790M mutation has been associated with NSCLC, there are only rare cases of the EGFR T790M mutation associated with BC. Teng et al. (<xref rid="B50" ref-type="bibr">50</xref>) reported EGFR mutations in 11.8% of 70 TNBC cases studied. The two most common mutations found were exon 19 deletions and exon 21 substitutions. In particular, no EGFR mutations were found at exon 20, which is the location of the EGFR T790M mutation (<xref rid="B50" ref-type="bibr">50</xref>) (see <xref rid="f2" ref-type="fig">
+<bold>Figure 2</bold>
+</xref>). In a review of 131 BC patients, three patients were reported to have infiltrating ductal carcinoma with lone EGFR T790M mutations. While two of these patients had TNBC, all three mutations were somatic (<xref rid="B51" ref-type="bibr">51</xref>). Another interesting case is of a non-smoking woman with a history of BC who developed mutated lung adenocarcinoma; however, this mutation was not present in the breast connective tissue and was determined to be somatic (<xref rid="B33" ref-type="bibr">33</xref>).</p><fig position="float" id="f2" orientation="portrait"><label>Figure 2</label><caption><p>Intracellular Pathways of EGFR T790M Mutation in Pathogenesis of Breast Cancer.</p></caption><graphic position="float" orientation="portrait" ns0:href="fonc-13-1176868-g002.jpg" /></fig><p>The case we have presented is the first reported case of a germline EGFR T790M mutation in a patient with high-grade neuroendocrine TNBC. Since this is the first reported case, no association between the germline EGFR T790M mutation and TNBC can be made at this time. However, with the increasing amount of genetic testing performed on cancer patients and the ever-expanding testing options, there could be more cases in the future that would allow us to conclude germline EGFR T790M mutations and BC. Additional research on the EGFR T790M mutation may provide more treatment options for patients with any cancer mutated by EGFR T790M. This patient was not treated with a TKI, as no specific treatment guidelines are defined for breast neuroendocrine carcinomas (<xref rid="B57" ref-type="bibr">57</xref>). Still, third-generation TKIs may be a possible treatment option for them in the future based on their mutation. This case also highlights the importance of understanding the resistance mechanisms of the EGFR T790M mutation to third-generation TKI. Since one of the resistance mechanisms of EGFR T790M-mutated NSCLC is to histologically transform into high-grade, poorly differentiated, small cell lung cancer after treatment with osimertinib, studying this resistance mechanism may lead to a connection between the patient’s EGFR T790M mutation and neuroendocrine TNBC. Caution, however, will need to be exercised for such correlations as BC is a prevalent disease, and this is currently an incidental discovery.</p><p>There is a lack of high-quality data regarding therapeutic options in patients with disease progression of neuroendocrine carcinoma of the breast (<xref rid="B58" ref-type="bibr">58</xref>). Neuroendocrine carcinoma follows a more aggressive course than ductal carcinoma (<xref rid="B57" ref-type="bibr">57</xref>, <xref rid="B59" ref-type="bibr">59</xref>). Options for treatment include chemotherapy according to neuroendocrine malignancy guidelines (<xref rid="B60" ref-type="bibr">60</xref>). There are case reports of response with immunotherapy (<xref rid="B61" ref-type="bibr">61</xref>, <xref rid="B62" ref-type="bibr">62</xref>); however, there is no well-described correlation with conventional predictors of response to immunotherapy such as PD-L1 expression, high tumor mutational burden, and microsatellite instability. There are reports of response with peptide receptor radionuclide therapy in patients with metastatic neuroendocrine breast carcinoma and overexpression of somatostatin receptors as evidenced by nuclear scintigraphy (<xref rid="B63" ref-type="bibr">63</xref>, <xref rid="B64" ref-type="bibr">64</xref>). The somatic PTEN mutation in this patient also provides the theoretical option of using mTOR inhibition for clinical benefit (<xref rid="B65" ref-type="bibr">65</xref>). TROP-2 protein expression has been observed in some patients with neuroendocrine breast carcinoma, suggesting a role for targeted therapy with sacituzumab govitecan (<xref rid="B66" ref-type="bibr">66</xref>, <xref rid="B67" ref-type="bibr">67</xref>). Similarly, predictive expression of FOLR1 and H3K36Me3 has been observed in subsets of neuroendocrine BC, which may pave the way for future usage of newer drugs such as farletuzumab and mirvetuximab soravtansine (FOLR1) and histone deacetylase inhibitors (H3K36Me3) (<xref rid="B66" ref-type="bibr">66</xref>).</p><p>This case also highlights the complicated nature of genetic testing. While specific mutations have provided patients with life-changing treatments, there are many other times when a mutation is found with no particular significance at the time of the test or when the mutations found lead to more questions than answers. In the case of our patient, these new questions revolve around what other cancer screening must be done beyond screening and surveillance of her known disease. There are no standard guidelines for cancer screening in patients with identified EGFR T790M mutations. Patients who have germline EGFR T790M mutations require further studies to assess the presence of lung cancer. Our patient is no different due to her germline mutation and the multiple sub-centimeter indeterminate pulmonary nodules found on her postoperative CTA chest. Although these could be benign, serial imaging should be done to properly characterize these nodules. However, this patient does not have any other EGFR mutations, which is a rarity in germline EGFR T790M-mutated NSCLC patients (<xref rid="B33" ref-type="bibr">33</xref>). While no significance can be tied to this currently, this can affect her risk of developing lung cancer. A detailed family history is essential, as this germline mutation is most commonly associated with lung adenocarcinoma. The unknown paternal health history of this patient could provide more information about her case. Furthermore, patients with germline EGFR T790M mutations should seek genetic counseling for themselves and their first-degree relatives. Oxnard et al. (<xref rid="B35" ref-type="bibr">35</xref>) also recommend following those with germline EGFR T790M to determine optimal screening and counseling strategies. As more is learned about the EGFR T790M mutation, screening protocols for patients with germline EGFR T790M mutations should be clearly defined to increase the chance of survival of these patients and possibly their families.</p></sec><sec sec-type="conclusions" id="s4"><title>Conclusion</title><p>This case is unique due to the patient’s presentation and her mutation status. At this time, no association can be made between BC and EGFR T790M mutation. Further investigation of the EGFR T790M mutation could elucidate an increased risk of breast or other types of cancer beyond NSCLC. Additional uses for TKIs could also be found along with defined cancer screening protocols to benefit patients who have a germline EGFR T790M mutation. Continued research on the EGFR T790M mutation will help this patient and many others today and in the future with their cancer prevention and treatment.</p></sec><sec id="s5"><title>Patient perspective</title><p>The patient had struggled emotionally throughout the process. She had developed grade 1 neuropathy while receiving adjuvant chemotherapy and palmar-plantar erythrodysesthesia while receiving capecitabine.</p></sec><sec sec-type="data-availability" id="s6"><title>Data availability statement</title><p>The original contributions presented in the study are included in the article/supplementary material. Further inquiries can be directed to the corresponding author.</p></sec><sec sec-type="ethics-statement" id="s7"><title>Ethics statement</title><p>The authors have obtained written informed consent from the patient for the publication of this case history and applicable data.</p></sec><sec sec-type="author-contributions" id="s8"><title>Author contributions</title><p>OS contributed to the review of the literature and the writing and editing of the case report. AR contributed to the review of the literature and the writing and editing of the case report. BJ contributed to the editing of the case report. MH contributed to reviewing the case history. AA contributed to reviewing the case history. MR was critical to the direction, editing, and submission of the case report. All authors contributed to the article and approved the submitted version.</p></sec></body><back><fn-group><title>Abbreviations</title><fn fn-type="abbr"><p>EGFR/EGF receptor, epidermal growth factor receptor; NSCLC, non-small cell lung carcinoma; TKI, tyrosine kinase inhibitor; T790M, p.Thr790Met; BC, breast cancer; TNBC, triple-negative breast cancer; LN, lymph node; FISH, fluorescence <italic toggle="yes">in situ</italic> hybridization.</p></fn></fn-group><sec sec-type="COI-statement" id="s10"><title>Conflict of interest</title><p>The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.</p></sec><sec sec-type="disclaimer" id="s11"><title>Publisher’s note</title><p>All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher.</p></sec><ref-list><title>References</title><ref id="B1"><label>1</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Russo</surname><given-names>A</given-names></name>
+<name name-style="western"><surname>Franchina</surname><given-names>T</given-names></name>
+<name name-style="western"><surname>Ricciardi</surname><given-names>GRR</given-names></name>
+<name name-style="western"><surname>Picone</surname><given-names>A</given-names></name>
+<name name-style="western"><surname>Ferraro</surname><given-names>G</given-names></name>
+<name name-style="western"><surname>Zanghì</surname><given-names>M</given-names></name>
+<etal />
+</person-group>. <article-title>A decade of EGFR inhibition in EGFR-mutated non small cell lung cancer (NSCLC): old successes and future perspectives</article-title>. <source>Oncotarget.</source> (<year>2015</year>) <volume>6</volume>(<issue>29</issue>):<page-range>26814–25</page-range>. doi: <pub-id pub-id-type="doi">10.18632/oncotarget.4254</pub-id>
+<pub-id pub-id-type="pmcid">PMC4694955</pub-id><pub-id pub-id-type="pmid">26308162</pub-id></mixed-citation></ref><ref id="B2"><label>2</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Zhang</surname><given-names>Z</given-names></name>
+<name name-style="western"><surname>Stiegler</surname><given-names>AL</given-names></name>
+<name name-style="western"><surname>Boggon</surname><given-names>TJ</given-names></name>
+<name name-style="western"><surname>Kobayashi</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Halmos</surname><given-names>B</given-names></name>
+</person-group>. <article-title>EGFR-mutated lung cancer: a paradigm of molecular oncology</article-title>. <source>Oncotarget.</source> (<year>2010</year>) <volume>1</volume>(<issue>7</issue>):<fpage>497</fpage>–<lpage>514</lpage>. doi: <pub-id pub-id-type="doi">10.18632/oncotarget.186</pub-id>
+<pub-id pub-id-type="pmid">21165163</pub-id><pub-id pub-id-type="pmcid">PMC3001953</pub-id></mixed-citation></ref><ref id="B3"><label>3</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Lynch</surname><given-names>TJ</given-names></name>
+<name name-style="western"><surname>Bell</surname><given-names>DW</given-names></name>
+<name name-style="western"><surname>Sordella</surname><given-names>R</given-names></name>
+<name name-style="western"><surname>Gurubhagavatula</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Okimoto</surname><given-names>RA</given-names></name>
+<name name-style="western"><surname>Brannigan</surname><given-names>BW</given-names></name>
+<etal />
+</person-group>. <article-title>Activating mutations in the epidermal growth factor receptor underlying responsiveness of non-small-cell lung cancer to gefitinib</article-title>. <source>N Engl J Med</source> (<year>2004</year>) <volume>350</volume>(<issue>21</issue>):<page-range>2129–39</page-range>. doi: <pub-id pub-id-type="doi">10.1056/NEJMoa040938</pub-id>
+<pub-id pub-id-type="pmid">15118073</pub-id></mixed-citation></ref><ref id="B4"><label>4</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Paez</surname><given-names>JG</given-names></name>
+<name name-style="western"><surname>Jänne</surname><given-names>PA</given-names></name>
+<name name-style="western"><surname>Lee</surname><given-names>JC</given-names></name>
+<name name-style="western"><surname>Tracy</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Greulich</surname><given-names>H</given-names></name>
+<name name-style="western"><surname>Gabriel</surname><given-names>S</given-names></name>
+<etal />
+</person-group>. <article-title>EGFR mutations in lung cancer: correlation with clinical response to gefitinib therapy</article-title>. <source>Science.</source> (<year>2004</year>) <volume>304</volume>(<issue>5676</issue>):<page-range>1497–500</page-range>. doi: <pub-id pub-id-type="doi">10.1126/science.1099314</pub-id>
+<pub-id pub-id-type="pmid">15118125</pub-id></mixed-citation></ref><ref id="B5"><label>5</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Pao</surname><given-names>W</given-names></name>
+<name name-style="western"><surname>Miller</surname><given-names>V</given-names></name>
+<name name-style="western"><surname>Zakowski</surname><given-names>M</given-names></name>
+<name name-style="western"><surname>Doherty</surname><given-names>J</given-names></name>
+<name name-style="western"><surname>Politi</surname><given-names>K</given-names></name>
+<name name-style="western"><surname>Sarkaria</surname><given-names>I</given-names></name>
+<etal />
+</person-group>. <article-title>EGF receptor gene mutations are common in lung cancers from “never smokers” and are associated with sensitivity of tumors to gefitinib and erlotinib</article-title>. <source>Proc Natl Acad Sci U S A.</source> (<year>2004</year>) <volume>101</volume>(<issue>36</issue>):<page-range>13306–11</page-range>. doi: <pub-id pub-id-type="doi">10.1073/pnas.0405220101</pub-id>
+<pub-id pub-id-type="pmcid">PMC516528</pub-id><pub-id pub-id-type="pmid">15329413</pub-id></mixed-citation></ref><ref id="B6"><label>6</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Cross</surname><given-names>DAE</given-names></name>
+<name name-style="western"><surname>Ashton</surname><given-names>SE</given-names></name>
+<name name-style="western"><surname>Ghiorghiu</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Eberlein</surname><given-names>C</given-names></name>
+<name name-style="western"><surname>Nebhan</surname><given-names>CA</given-names></name>
+<name name-style="western"><surname>Spitzler</surname><given-names>PJ</given-names></name>
+<etal />
+</person-group>. <article-title>AZD9291, an irreversible EGFR TKI, overcomes T790M-mediated resistance to EGFR inhibitors in lung cancer</article-title>. <source>Cancer Discovery</source> (<year>2014</year>) <volume>4</volume>(<issue>9</issue>):<page-range>1046–61</page-range>. doi: <pub-id pub-id-type="doi">10.1158/2159-8290.CD-14-0337</pub-id>
+<pub-id pub-id-type="pmcid">PMC4315625</pub-id><pub-id pub-id-type="pmid">24893891</pub-id></mixed-citation></ref><ref id="B7"><label>7</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Recondo</surname><given-names>G</given-names></name>
+<name name-style="western"><surname>Facchinetti</surname><given-names>F</given-names></name>
+<name name-style="western"><surname>Olaussen</surname><given-names>KA</given-names></name>
+<name name-style="western"><surname>Besse</surname><given-names>B</given-names></name>
+<name name-style="western"><surname>Friboulet</surname><given-names>L</given-names></name>
+</person-group>. <article-title>Making the first move in EGFR-driven or ALK-driven NSCLC: first-generation or next-generation TKI</article-title>? <source>Nat Rev Clin Oncol</source> (<year>2018</year>) <volume>15</volume>(<issue>11</issue>):<fpage>694</fpage>–<lpage>708</lpage>. doi: <pub-id pub-id-type="doi">10.1038/s41571-018-0081-4</pub-id>
+<pub-id pub-id-type="pmid">30108370</pub-id></mixed-citation></ref><ref id="B8"><label>8</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Ramlau</surname><given-names>R</given-names></name>
+<name name-style="western"><surname>Cufer</surname><given-names>T</given-names></name>
+<name name-style="western"><surname>Berzinec</surname><given-names>P</given-names></name>
+<name name-style="western"><surname>Dziadziuszko</surname><given-names>R</given-names></name>
+<name name-style="western"><surname>Olszewski</surname><given-names>W</given-names></name>
+<name name-style="western"><surname>Popper</surname><given-names>H</given-names></name>
+<etal />
+</person-group>. <article-title>Epidermal growth factor receptor mutation-positive non-Small-Cell lung cancer in the real-world setting in central Europe: the INSIGHT study</article-title>. <source>J Thorac Oncol Off Publ Int Assoc Study Lung Cancer.</source> (<year>2015</year>) <volume>10</volume>(<issue>9</issue>):<page-range>1370–4</page-range>. doi: <pub-id pub-id-type="doi">10.1097/JTO.0000000000000621</pub-id>
+<pub-id pub-id-type="pmid">26291014</pub-id></mixed-citation></ref><ref id="B9"><label>9</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Shi</surname><given-names>Y</given-names></name>
+<name name-style="western"><surname>Li</surname><given-names>J</given-names></name>
+<name name-style="western"><surname>Zhang</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Wang</surname><given-names>M</given-names></name>
+<name name-style="western"><surname>Yang</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Li</surname><given-names>N</given-names></name>
+<etal />
+</person-group>. <article-title>Molecular epidemiology of EGFR mutations in Asian patients with advanced non-Small-Cell lung cancer of adenocarcinoma histology - mainland China subset analysis of the PIONEER study</article-title>. <source>PloS One</source> (<year>2015</year>) <volume>10</volume>(<issue>11</issue>):<elocation-id>e0143515</elocation-id>. doi: <pub-id pub-id-type="doi">10.1371/journal.pone.0143515</pub-id>
+<pub-id pub-id-type="pmid">26599344</pub-id><pub-id pub-id-type="pmcid">PMC4657882</pub-id></mixed-citation></ref><ref id="B10"><label>10</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Zhang</surname><given-names>YL</given-names></name>
+<name name-style="western"><surname>Yuan</surname><given-names>JQ</given-names></name>
+<name name-style="western"><surname>Wang</surname><given-names>KF</given-names></name>
+<name name-style="western"><surname>Fu</surname><given-names>XH</given-names></name>
+<name name-style="western"><surname>Han</surname><given-names>XR</given-names></name>
+<name name-style="western"><surname>Threapleton</surname><given-names>D</given-names></name>
+<etal />
+</person-group>. <article-title>The prevalence of EGFR mutation in patients with non-small cell lung cancer: a systematic review and meta-analysis</article-title>. <source>Oncotarget.</source> (<year>2016</year>) <volume>7</volume>(<issue>48</issue>):<page-range>78985–93</page-range>. doi: <pub-id pub-id-type="doi">10.18632/oncotarget.12587</pub-id>
+<pub-id pub-id-type="pmcid">PMC5346692</pub-id><pub-id pub-id-type="pmid">27738317</pub-id></mixed-citation></ref><ref id="B11"><label>11</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Rosell</surname><given-names>R</given-names></name>
+<name name-style="western"><surname>Molina</surname><given-names>MA</given-names></name>
+<name name-style="western"><surname>Costa</surname><given-names>C</given-names></name>
+<name name-style="western"><surname>Simonetti</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Gimenez-Capitan</surname><given-names>A</given-names></name>
+<name name-style="western"><surname>Bertran-Alamillo</surname><given-names>J</given-names></name>
+<etal />
+</person-group>. <article-title>Pretreatment EGFR T790M mutation and BRCA1 mRNA expression in erlotinib-treated advanced non-small-cell lung cancer patients with EGFR mutations</article-title>. <source>Clin Cancer Res Off J Am Assoc Cancer Res</source> (<year>2011</year>) <volume>17</volume>(<issue>5</issue>):<page-range>1160–8</page-range>. doi: <pub-id pub-id-type="doi">10.1158/1078-0432.CCR-10-2158</pub-id>
+<pub-id pub-id-type="pmid">21233402</pub-id></mixed-citation></ref><ref id="B12"><label>12</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Chou</surname><given-names>TY</given-names></name>
+<name name-style="western"><surname>Chiu</surname><given-names>CH</given-names></name>
+<name name-style="western"><surname>Li</surname><given-names>LH</given-names></name>
+<name name-style="western"><surname>Hsiao</surname><given-names>CY</given-names></name>
+<name name-style="western"><surname>Tzen</surname><given-names>CY</given-names></name>
+<name name-style="western"><surname>Chang</surname><given-names>KT</given-names></name>
+<etal />
+</person-group>. <article-title>Mutation in the tyrosine kinase domain of epidermal growth factor receptor is a predictive and prognostic factor for gefitinib treatment in patients with non-small cell lung cancer</article-title>. <source>Clin Cancer Res Off J Am Assoc Cancer Res</source> (<year>2005</year>) <volume>11</volume>(<issue>10</issue>):<page-range>3750–7</page-range>. doi: <pub-id pub-id-type="doi">10.1158/1078-0432.CCR-04-1981</pub-id>
+<pub-id pub-id-type="pmid">15897572</pub-id></mixed-citation></ref><ref id="B13"><label>13</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Shigematsu</surname><given-names>H</given-names></name>
+<name name-style="western"><surname>Lin</surname><given-names>L</given-names></name>
+<name name-style="western"><surname>Takahashi</surname><given-names>T</given-names></name>
+<name name-style="western"><surname>Nomura</surname><given-names>M</given-names></name>
+<name name-style="western"><surname>Suzuki</surname><given-names>M</given-names></name>
+<name name-style="western"><surname>Wistuba</surname><given-names>II</given-names></name>
+<etal />
+</person-group>. <article-title>Clinical and biological features associated with epidermal growth factor receptor gene mutations in lung cancers</article-title>. <source>J Natl Cancer Inst</source> (<year>2005</year>) <volume>97</volume>(<issue>5</issue>):<page-range>339–46</page-range>. doi: <pub-id pub-id-type="doi">10.1093/jnci/dji055</pub-id>
+<pub-id pub-id-type="pmid">15741570</pub-id></mixed-citation></ref><ref id="B14"><label>14</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Kosaka</surname><given-names>T</given-names></name>
+<name name-style="western"><surname>Yatabe</surname><given-names>Y</given-names></name>
+<name name-style="western"><surname>Endoh</surname><given-names>H</given-names></name>
+<name name-style="western"><surname>Kuwano</surname><given-names>H</given-names></name>
+<name name-style="western"><surname>Takahashi</surname><given-names>T</given-names></name>
+<name name-style="western"><surname>Mitsudomi</surname><given-names>T</given-names></name>
+</person-group>. <article-title>Mutations of the epidermal growth factor receptor gene in lung cancer: biological and clinical implications</article-title>. <source>Cancer Res</source> (<year>2004</year>) <volume>64</volume>(<issue>24</issue>):<page-range>8919–23</page-range>. doi: <pub-id pub-id-type="doi">10.1158/0008-5472.CAN-04-2818</pub-id>
+<pub-id pub-id-type="pmid">15604253</pub-id></mixed-citation></ref><ref id="B15"><label>15</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Friedlaender</surname><given-names>A</given-names></name>
+<name name-style="western"><surname>Subbiah</surname><given-names>V</given-names></name>
+<name name-style="western"><surname>Russo</surname><given-names>A</given-names></name>
+<name name-style="western"><surname>Banna</surname><given-names>GL</given-names></name>
+<name name-style="western"><surname>Malapelle</surname><given-names>U</given-names></name>
+<name name-style="western"><surname>Rolfo</surname><given-names>C</given-names></name>
+<etal />
+</person-group>. <article-title>EGFR and HER2 exon 20 insertions in solid tumours: from biology to treatment</article-title>. <source>Nat Rev Clin Oncol</source> (<year>2022</year>) <volume>19</volume>(<issue>1</issue>):<fpage>51</fpage>–<lpage>69</lpage>. doi: <pub-id pub-id-type="doi">10.1038/s41571-021-00558-1</pub-id>
+<pub-id pub-id-type="pmid">34561632</pub-id></mixed-citation></ref><ref id="B16"><label>16</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Barker</surname><given-names>AJ</given-names></name>
+<name name-style="western"><surname>Gibson</surname><given-names>KH</given-names></name>
+<name name-style="western"><surname>Grundy</surname><given-names>W</given-names></name>
+<name name-style="western"><surname>Godfrey</surname><given-names>AA</given-names></name>
+<name name-style="western"><surname>Barlow</surname><given-names>JJ</given-names></name>
+<name name-style="western"><surname>Healy</surname><given-names>MP</given-names></name>
+<etal />
+</person-group>. <article-title>Studies leading to the identification of ZD1839 (IRESSA): an orally active, selective epidermal growth factor receptor tyrosine kinase inhibitor targeted to the treatment of cancer</article-title>. <source>Bioorg Med Chem Lett</source> (<year>2001</year>) <volume>11</volume>(<issue>14</issue>):<page-range>1911–4</page-range>. doi: <pub-id pub-id-type="doi">10.1016/S0960-894X(01)00344-4</pub-id>
+<pub-id pub-id-type="pmid">11459659</pub-id></mixed-citation></ref><ref id="B17"><label>17</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Moyer</surname><given-names>JD</given-names></name>
+<name name-style="western"><surname>Barbacci</surname><given-names>EG</given-names></name>
+<name name-style="western"><surname>Iwata</surname><given-names>KK</given-names></name>
+<name name-style="western"><surname>Arnold</surname><given-names>L</given-names></name>
+<name name-style="western"><surname>Boman</surname><given-names>B</given-names></name>
+<name name-style="western"><surname>Cunningham</surname><given-names>A</given-names></name>
+<etal />
+</person-group>. <article-title>Induction of apoptosis and cell cycle arrest by CP-358,774, an inhibitor of epidermal growth factor receptor tyrosine kinase</article-title>. <source>Cancer Res</source> (<year>1997</year>) <volume>57</volume>(<issue>21</issue>):<page-range>4838–48</page-range>. Available at: <uri ns0:href="https://aacrjournals.org/cancerres">https://aacrjournals.org/cancerres</uri>
+<pub-id pub-id-type="pmid">9354447</pub-id></mixed-citation></ref><ref id="B18"><label>18</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Leonetti</surname><given-names>A</given-names></name>
+<name name-style="western"><surname>Sharma</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Minari</surname><given-names>R</given-names></name>
+<name name-style="western"><surname>Perego</surname><given-names>P</given-names></name>
+<name name-style="western"><surname>Giovannetti</surname><given-names>E</given-names></name>
+<name name-style="western"><surname>Tiseo</surname><given-names>M</given-names></name>
+</person-group>. <article-title>Resistance mechanisms to osimertinib in EGFR-mutated non-small cell lung cancer</article-title>. <source>Br J Cancer.</source> (<year>2019</year>) <volume>121</volume>(<issue>9</issue>):<page-range>725–37</page-range>. doi: <pub-id pub-id-type="doi">10.1038/s41416-019-0573-8</pub-id>
+<pub-id pub-id-type="pmcid">PMC6889286</pub-id><pub-id pub-id-type="pmid">31564718</pub-id></mixed-citation></ref><ref id="B19"><label>19</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Yu</surname><given-names>HA</given-names></name>
+<name name-style="western"><surname>Arcila</surname><given-names>ME</given-names></name>
+<name name-style="western"><surname>Rekhtman</surname><given-names>N</given-names></name>
+<name name-style="western"><surname>Sima</surname><given-names>CS</given-names></name>
+<name name-style="western"><surname>Zakowski</surname><given-names>MF</given-names></name>
+<name name-style="western"><surname>Pao</surname><given-names>W</given-names></name>
+<etal />
+</person-group>. <article-title>Analysis of tumor specimens at the time of acquired resistance to EGFR-TKI therapy in 155 patients with EGFR-mutant lung cancers</article-title>. <source>Clin Cancer Res Off J Am Assoc Cancer Res</source> (<year>2013</year>) <volume>19</volume>(<issue>8</issue>):<page-range>2240–7</page-range>. doi: <pub-id pub-id-type="doi">10.1158/1078-0432.CCR-12-2246</pub-id>
+<pub-id pub-id-type="pmcid">PMC3630270</pub-id><pub-id pub-id-type="pmid">23470965</pub-id></mixed-citation></ref><ref id="B20"><label>20</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Oxnard</surname><given-names>GR</given-names></name>
+<name name-style="western"><surname>Arcila</surname><given-names>ME</given-names></name>
+<name name-style="western"><surname>Sima</surname><given-names>CS</given-names></name>
+<name name-style="western"><surname>Riely</surname><given-names>GJ</given-names></name>
+<name name-style="western"><surname>Chmielecki</surname><given-names>J</given-names></name>
+<name name-style="western"><surname>Kris</surname><given-names>MG</given-names></name>
+<etal />
+</person-group>. <article-title>Acquired resistance to EGFR tyrosine kinase inhibitors in EGFR-mutant lung cancer: distinct natural history of patients with tumors harboring the T790M mutation</article-title>. <source>Clin Cancer Res Off J Am Assoc Cancer Res</source> (<year>2011</year>) <volume>17</volume>(<issue>6</issue>):<page-range>1616–22</page-range>. doi: <pub-id pub-id-type="doi">10.1158/1078-0432.CCR-10-2692</pub-id>
+<pub-id pub-id-type="pmcid">PMC3060283</pub-id><pub-id pub-id-type="pmid">21135146</pub-id></mixed-citation></ref><ref id="B21"><label>21</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Pao</surname><given-names>W</given-names></name>
+<name name-style="western"><surname>Miller</surname><given-names>VA</given-names></name>
+<name name-style="western"><surname>Politi</surname><given-names>KA</given-names></name>
+<name name-style="western"><surname>Riely</surname><given-names>GJ</given-names></name>
+<name name-style="western"><surname>Somwar</surname><given-names>R</given-names></name>
+<name name-style="western"><surname>Zakowski</surname><given-names>MF</given-names></name>
+<etal />
+</person-group>. <article-title>Acquired resistance of lung adenocarcinomas to gefitinib or erlotinib is associated with a second mutation in the EGFR kinase domain</article-title>. <source>PloS Med</source> (<year>2005</year>) <volume>2</volume>(<issue>3</issue>):<fpage>e73</fpage>. doi: <pub-id pub-id-type="doi">10.1371/journal.pmed.0020073</pub-id>
+<pub-id pub-id-type="pmid">15737014</pub-id><pub-id pub-id-type="pmcid">PMC549606</pub-id></mixed-citation></ref><ref id="B22"><label>22</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Soria</surname><given-names>JC</given-names></name>
+<name name-style="western"><surname>Ohe</surname><given-names>Y</given-names></name>
+<name name-style="western"><surname>Vansteenkiste</surname><given-names>J</given-names></name>
+<name name-style="western"><surname>Reungwetwattana</surname><given-names>T</given-names></name>
+<name name-style="western"><surname>Chewaskulyong</surname><given-names>B</given-names></name>
+<name name-style="western"><surname>Lee</surname><given-names>KH</given-names></name>
+<etal />
+</person-group>. <article-title>Osimertinib in untreated EGFR-mutated advanced non-Small-Cell lung cancer</article-title>. <source>N Engl J Med</source> (<year>2018</year>) <volume>378</volume>(<issue>2</issue>):<page-range>113–25</page-range>. doi: <pub-id pub-id-type="doi">10.1056/NEJMoa1713137</pub-id>
+<pub-id pub-id-type="pmid">29151359</pub-id></mixed-citation></ref><ref id="B23"><label>23</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Sequist</surname><given-names>LV</given-names></name>
+<name name-style="western"><surname>Martins</surname><given-names>RG</given-names></name>
+<name name-style="western"><surname>Spigel</surname><given-names>D</given-names></name>
+<name name-style="western"><surname>Grunberg</surname><given-names>SM</given-names></name>
+<name name-style="western"><surname>Spira</surname><given-names>A</given-names></name>
+<name name-style="western"><surname>Jänne</surname><given-names>PA</given-names></name>
+<etal />
+</person-group>. <article-title>First-line gefitinib in patients with advanced non-small-cell lung cancer harboring somatic EGFR mutations</article-title>. <source>J Clin Oncol Off J Am Soc Clin Oncol</source> (<year>2008</year>) <volume>26</volume>(<issue>15</issue>):<page-range>2442–9</page-range>. doi: <pub-id pub-id-type="doi">10.1200/JCO.2007.14.8494</pub-id>
+<pub-id pub-id-type="pmid">18458038</pub-id></mixed-citation></ref><ref id="B24"><label>24</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Mok</surname><given-names>TS</given-names></name>
+<name name-style="western"><surname>Wu</surname><given-names>YL</given-names></name>
+<name name-style="western"><surname>Thongprasert</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Yang</surname><given-names>CH</given-names></name>
+<name name-style="western"><surname>Chu</surname><given-names>DT</given-names></name>
+<name name-style="western"><surname>Saijo</surname><given-names>N</given-names></name>
+<etal />
+</person-group>. <article-title>Gefitinib or carboplatin-paclitaxel in pulmonary adenocarcinoma</article-title>. <source>N Engl J Med</source> (<year>2009</year>) <volume>361</volume>(<issue>10</issue>):<page-range>947–57</page-range>. doi: <pub-id pub-id-type="doi">10.1056/NEJMoa0810699</pub-id>
+<pub-id pub-id-type="pmid">19692680</pub-id></mixed-citation></ref><ref id="B25"><label>25</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Inukai</surname><given-names>M</given-names></name>
+<name name-style="western"><surname>Toyooka</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Ito</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Asano</surname><given-names>H</given-names></name>
+<name name-style="western"><surname>Ichihara</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Soh</surname><given-names>J</given-names></name>
+<etal />
+</person-group>. <article-title>Presence of epidermal growth factor receptor gene T790M mutation as a minor clone in non-small cell lung cancer</article-title>. <source>Cancer Res</source> (<year>2006</year>) <volume>66</volume>(<issue>16</issue>):<page-range>7854–8</page-range>. doi: <pub-id pub-id-type="doi">10.1158/0008-5472.CAN-06-1951</pub-id>
+<pub-id pub-id-type="pmid">16912157</pub-id></mixed-citation></ref><ref id="B26"><label>26</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Su</surname><given-names>KY</given-names></name>
+<name name-style="western"><surname>Chen</surname><given-names>HY</given-names></name>
+<name name-style="western"><surname>Li</surname><given-names>KC</given-names></name>
+<name name-style="western"><surname>Kuo</surname><given-names>ML</given-names></name>
+<name name-style="western"><surname>Yang</surname><given-names>JCH</given-names></name>
+<name name-style="western"><surname>Chan</surname><given-names>WK</given-names></name>
+<etal />
+</person-group>. <article-title>Pretreatment epidermal growth factor receptor (EGFR) T790M mutation predicts shorter EGFR tyrosine kinase inhibitor response duration in patients with non-small-cell lung cancer</article-title>. <source>J Clin Oncol Off J Am Soc Clin Oncol</source> (<year>2012</year>) <volume>30</volume>(<issue>4</issue>):<page-range>433–40</page-range>. doi: <pub-id pub-id-type="doi">10.1200/JCO.2011.38.3224</pub-id>
+<pub-id pub-id-type="pmid">22215752</pub-id></mixed-citation></ref><ref id="B27"><label>27</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Maheswaran</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Sequist</surname><given-names>LV</given-names></name>
+<name name-style="western"><surname>Nagrath</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Ulkus</surname><given-names>L</given-names></name>
+<name name-style="western"><surname>Brannigan</surname><given-names>B</given-names></name>
+<name name-style="western"><surname>Collura</surname><given-names>CV</given-names></name>
+<etal />
+</person-group>. <article-title>Detection of mutations in EGFR in circulating lung-cancer cells</article-title>. <source>N Engl J Med</source> (<year>2008</year>) <volume>359</volume>(<issue>4</issue>):<page-range>366–77</page-range>. doi: <pub-id pub-id-type="doi">10.1056/NEJMoa0800668</pub-id>
+<pub-id pub-id-type="pmcid">PMC3551471</pub-id><pub-id pub-id-type="pmid">18596266</pub-id></mixed-citation></ref><ref id="B28"><label>28</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Ye</surname><given-names>X</given-names></name>
+<name name-style="western"><surname>Zhu</surname><given-names>ZZ</given-names></name>
+<name name-style="western"><surname>Zhong</surname><given-names>L</given-names></name>
+<name name-style="western"><surname>Lu</surname><given-names>Y</given-names></name>
+<name name-style="western"><surname>Sun</surname><given-names>Y</given-names></name>
+<name name-style="western"><surname>Yin</surname><given-names>X</given-names></name>
+<etal />
+</person-group>. <article-title>High T790M detection rate in TKI-naive NSCLC with EGFR sensitive mutation: truth or artifact</article-title>? <source>J Thorac Oncol Off Publ Int Assoc Study Lung Cancer.</source> (<year>2013</year>) <volume>8</volume>(<issue>9</issue>):<page-range>1118–20</page-range>. doi: <pub-id pub-id-type="doi">10.1097/JTO.0b013e31829f691f</pub-id>
+<pub-id pub-id-type="pmid">23945382</pub-id></mixed-citation></ref><ref id="B29"><label>29</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Girard</surname><given-names>N</given-names></name>
+<name name-style="western"><surname>Lou</surname><given-names>E</given-names></name>
+<name name-style="western"><surname>Azzoli</surname><given-names>CG</given-names></name>
+<name name-style="western"><surname>Reddy</surname><given-names>R</given-names></name>
+<name name-style="western"><surname>Robson</surname><given-names>M</given-names></name>
+<name name-style="western"><surname>Harlan</surname><given-names>M</given-names></name>
+<etal />
+</person-group>. <article-title>Analysis of genetic variants in never-smokers with lung cancer facilitated by an Internet-based blood collection protocol: a preliminary report</article-title>. <source>Clin Cancer Res Off J Am Assoc Cancer Res</source> (<year>2010</year>) <volume>16</volume>(<issue>2</issue>):<page-range>755–63</page-range>. doi: <pub-id pub-id-type="doi">10.1158/1078-0432.CCR-09-2437</pub-id>
+<pub-id pub-id-type="pmcid">PMC2808124</pub-id><pub-id pub-id-type="pmid">20068085</pub-id></mixed-citation></ref><ref id="B30"><label>30</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Hu</surname><given-names>Y</given-names></name>
+<name name-style="western"><surname>Alden</surname><given-names>RS</given-names></name>
+<name name-style="western"><surname>Odegaard</surname><given-names>JI</given-names></name>
+<name name-style="western"><surname>Fairclough</surname><given-names>SR</given-names></name>
+<name name-style="western"><surname>Chen</surname><given-names>R</given-names></name>
+<name name-style="western"><surname>Heng</surname><given-names>J</given-names></name>
+<etal />
+</person-group>. <article-title>Discrimination of germline EGFR T790M mutations in plasma cell-free DNA allows study of prevalence across 31,414 cancer patients</article-title>. <source>Clin Cancer Res Off J Am Assoc Cancer Res</source> (<year>2017</year>) <volume>23</volume>(<issue>23</issue>):<page-range>7351–9</page-range>. doi: <pub-id pub-id-type="doi">10.1158/1078-0432.CCR-17-1745</pub-id>
+<pub-id pub-id-type="pmcid">PMC5712272</pub-id><pub-id pub-id-type="pmid">28947568</pub-id></mixed-citation></ref><ref id="B31"><label>31</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Shukuya</surname><given-names>T</given-names></name>
+<name name-style="western"><surname>Takahashi</surname><given-names>K</given-names></name>
+</person-group>. <article-title>Germline mutations in lung cancer</article-title>. <source>Respir Investig</source> (<year>2019</year>) <volume>57</volume>(<issue>3</issue>):<page-range>201–6</page-range>. doi: <pub-id pub-id-type="doi">10.1016/j.resinv.2018.12.005</pub-id>
+<pub-id pub-id-type="pmid">30639082</pub-id></mixed-citation></ref><ref id="B32"><label>32</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Bell</surname><given-names>DW</given-names></name>
+<name name-style="western"><surname>Gore</surname><given-names>I</given-names></name>
+<name name-style="western"><surname>Okimoto</surname><given-names>RA</given-names></name>
+<name name-style="western"><surname>Godin-Heymann</surname><given-names>N</given-names></name>
+<name name-style="western"><surname>Sordella</surname><given-names>R</given-names></name>
+<name name-style="western"><surname>Mulloy</surname><given-names>R</given-names></name>
+<etal />
+</person-group>. <article-title>Inherited susceptibility to lung cancer may be associated with the T790M drug resistance mutation in EGFR</article-title>. <source>Nat Genet</source> (<year>2005</year>) <volume>37</volume>(<issue>12</issue>):<page-range>1315–6</page-range>. doi: <pub-id pub-id-type="doi">10.1038/ng1671</pub-id>
+<pub-id pub-id-type="pmid">16258541</pub-id></mixed-citation></ref><ref id="B33"><label>33</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Prudkin</surname><given-names>L</given-names></name>
+<name name-style="western"><surname>Tang</surname><given-names>X</given-names></name>
+<name name-style="western"><surname>Wistuba</surname><given-names>II</given-names></name>
+</person-group>. <article-title>Germ-line and somatic presentations of the EGFR T790M mutation in lung cancer</article-title>. <source>J Thorac Oncol Off Publ Int Assoc Study Lung Cancer.</source> (<year>2009</year>) <volume>4</volume>(<issue>1</issue>):<page-range>139–41</page-range>. doi: <pub-id pub-id-type="doi">10.1097/JTO.0b013e3181915f92</pub-id>
+<pub-id pub-id-type="pmcid">PMC4512946</pub-id><pub-id pub-id-type="pmid">19096324</pub-id></mixed-citation></ref><ref id="B34"><label>34</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Thomas</surname><given-names>A</given-names></name>
+<name name-style="western"><surname>Xi</surname><given-names>L</given-names></name>
+<name name-style="western"><surname>Carter</surname><given-names>CA</given-names></name>
+<name name-style="western"><surname>Rajan</surname><given-names>A</given-names></name>
+<name name-style="western"><surname>Khozin</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Szabo</surname><given-names>E</given-names></name>
+<etal />
+</person-group>. <article-title>Concurrent molecular alterations in tumors with germ line epidermal growth factor receptor T790M mutations</article-title>. <source>Clin Lung Cancer.</source> (<year>2013</year>) <volume>14</volume>(<issue>4</issue>):<page-range>452–6</page-range>. doi: <pub-id pub-id-type="doi">10.1016/j.cllc.2013.01.005</pub-id>
+<pub-id pub-id-type="pmcid">PMC5002228</pub-id><pub-id pub-id-type="pmid">23540867</pub-id></mixed-citation></ref><ref id="B35"><label>35</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Oxnard</surname><given-names>GR</given-names></name>
+<name name-style="western"><surname>Miller</surname><given-names>VA</given-names></name>
+<name name-style="western"><surname>Robson</surname><given-names>ME</given-names></name>
+<name name-style="western"><surname>Azzoli</surname><given-names>CG</given-names></name>
+<name name-style="western"><surname>Pao</surname><given-names>W</given-names></name>
+<name name-style="western"><surname>Ladanyi</surname><given-names>M</given-names></name>
+<etal />
+</person-group>. <article-title>Screening for germline EGFR T790M mutations through lung cancer genotyping</article-title>. <source>J Thorac Oncol Off Publ Int Assoc Study Lung Cancer.</source> (<year>2012</year>) <volume>7</volume>(<issue>6</issue>):<page-range>1049–52</page-range>. doi: <pub-id pub-id-type="doi">10.1097/JTO.0b013e318250ed9d</pub-id>
+<pub-id pub-id-type="pmcid">PMC3354706</pub-id><pub-id pub-id-type="pmid">22588155</pub-id></mixed-citation></ref><ref id="B36"><label>36</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Lou</surname><given-names>Y</given-names></name>
+<name name-style="western"><surname>Pecot</surname><given-names>CV</given-names></name>
+<name name-style="western"><surname>Tran</surname><given-names>HT</given-names></name>
+<name name-style="western"><surname>DeVito</surname><given-names>VJ</given-names></name>
+<name name-style="western"><surname>Tang</surname><given-names>XM</given-names></name>
+<name name-style="western"><surname>Heymach</surname><given-names>JV</given-names></name>
+<etal />
+</person-group>. <article-title>Germline mutation of T790M and Dual/Multiple EGFR mutations in patients with lung adenocarcinoma</article-title>. <source>Clin Lung Cancer.</source> (<year>2016</year>) <volume>17</volume>(<issue>2</issue>):<fpage>e5</fpage>–<lpage>11</lpage>. doi: <pub-id pub-id-type="doi">10.1016/j.cllc.2015.11.003</pub-id>
+<pub-id pub-id-type="pmid">26700910</pub-id><pub-id pub-id-type="pmcid">PMC5119523</pub-id></mixed-citation></ref><ref id="B37"><label>37</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Yu</surname><given-names>HA</given-names></name>
+<name name-style="western"><surname>Arcila</surname><given-names>ME</given-names></name>
+<name name-style="western"><surname>Harlan Fleischut</surname><given-names>M</given-names></name>
+<name name-style="western"><surname>Stadler</surname><given-names>Z</given-names></name>
+<name name-style="western"><surname>Ladanyi</surname><given-names>M</given-names></name>
+<name name-style="western"><surname>Berger</surname><given-names>MF</given-names></name>
+<etal />
+</person-group>. <article-title>Germline EGFR T790M mutation found in multiple members of a familial cohort</article-title>. <source>J Thorac Oncol Off Publ Int Assoc Study Lung Cancer.</source> (<year>2014</year>) <volume>9</volume>(<issue>4</issue>):<page-range>554–8</page-range>. doi: <pub-id pub-id-type="doi">10.1097/JTO.0000000000000052</pub-id>
+<pub-id pub-id-type="pmcid">PMC4412273</pub-id><pub-id pub-id-type="pmid">24736080</pub-id></mixed-citation></ref><ref id="B38"><label>38</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Gazdar</surname><given-names>A</given-names></name>
+<name name-style="western"><surname>Robinson</surname><given-names>L</given-names></name>
+<name name-style="western"><surname>Oliver</surname><given-names>D</given-names></name>
+<name name-style="western"><surname>Xing</surname><given-names>C</given-names></name>
+<name name-style="western"><surname>Travis</surname><given-names>WD</given-names></name>
+<name name-style="western"><surname>Soh</surname><given-names>J</given-names></name>
+<etal />
+</person-group>. <article-title>Hereditary lung cancer syndrome targets never smokers with germline EGFR gene T790M mutations</article-title>. <source>J Thorac Oncol Off Publ Int Assoc Study Lung Cancer.</source> (<year>2014</year>) <volume>9</volume>(<issue>4</issue>):<page-range>456–63</page-range>. doi: <pub-id pub-id-type="doi">10.1097/JTO.0000000000000130</pub-id>
+<pub-id pub-id-type="pmcid">PMC4509739</pub-id><pub-id pub-id-type="pmid">24736066</pub-id></mixed-citation></ref><ref id="B39"><label>39</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Tibaldi</surname><given-names>C</given-names></name>
+<name name-style="western"><surname>Giovannetti</surname><given-names>E</given-names></name>
+<name name-style="western"><surname>Vasile</surname><given-names>E</given-names></name>
+<name name-style="western"><surname>Boldrini</surname><given-names>L</given-names></name>
+<name name-style="western"><surname>Gallegos-Ruiz</surname><given-names>MI</given-names></name>
+<name name-style="western"><surname>Bernardini</surname><given-names>I</given-names></name>
+<etal />
+</person-group>. <article-title>Inherited germline T790M mutation and somatic epidermal growth factor receptor mutations in non-small cell lung cancer patients</article-title>. <source>J Thorac Oncol Off Publ Int Assoc Study Lung Cancer.</source> (<year>2011</year>) <volume>6</volume>(<issue>2</issue>):<page-range>395–6</page-range>. doi: <pub-id pub-id-type="doi">10.1097/JTO.0b013e3182059a6f</pub-id>
+<pub-id pub-id-type="pmid">21252721</pub-id></mixed-citation></ref><ref id="B40"><label>40</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Lv</surname><given-names>N</given-names></name>
+<name name-style="western"><surname>Xie</surname><given-names>X</given-names></name>
+<name name-style="western"><surname>Ge</surname><given-names>Q</given-names></name>
+<name name-style="western"><surname>Lin</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Wang</surname><given-names>X</given-names></name>
+<name name-style="western"><surname>Kong</surname><given-names>Y</given-names></name>
+<etal />
+</person-group>. <article-title>Epidermal growth factor receptor in breast carcinoma: association between gene copy number and mutations</article-title>. <source>Diagn Pathol</source> (<year>2011</year>) <volume>6</volume>:<fpage>118</fpage>. doi: <pub-id pub-id-type="doi">10.1186/1746-1596-6-118</pub-id>
+<pub-id pub-id-type="pmid">22132735</pub-id><pub-id pub-id-type="pmcid">PMC3248849</pub-id></mixed-citation></ref><ref id="B41"><label>41</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Gumuskaya</surname><given-names>B</given-names></name>
+<name name-style="western"><surname>Alper</surname><given-names>M</given-names></name>
+<name name-style="western"><surname>Hucumenoglu</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Altundag</surname><given-names>K</given-names></name>
+<name name-style="western"><surname>Uner</surname><given-names>A</given-names></name>
+<name name-style="western"><surname>Guler</surname><given-names>G</given-names></name>
+</person-group>. <article-title>EGFR expression and gene copy number in triple-negative breast carcinoma</article-title>. <source>Cancer Genet Cytogenet.</source> (<year>2010</year>) <volume>203</volume>(<issue>2</issue>):<page-range>222–9</page-range>. doi: <pub-id pub-id-type="doi">10.1016/j.cancergencyto.2010.07.118</pub-id>
+<pub-id pub-id-type="pmid">21156237</pub-id></mixed-citation></ref><ref id="B42"><label>42</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Park</surname><given-names>HS</given-names></name>
+<name name-style="western"><surname>Jang</surname><given-names>MH</given-names></name>
+<name name-style="western"><surname>Kim</surname><given-names>EJ</given-names></name>
+<name name-style="western"><surname>Kim</surname><given-names>HJ</given-names></name>
+<name name-style="western"><surname>Lee</surname><given-names>HJ</given-names></name>
+<name name-style="western"><surname>Kim</surname><given-names>YJ</given-names></name>
+<etal />
+</person-group>. <article-title>High EGFR gene copy number predicts poor outcome in triple-negative breast cancer</article-title>. <source>Mod Pathol Off J U S Can Acad Pathol Inc.</source> (<year>2014</year>) <volume>27</volume>(<issue>9</issue>):<page-range>1212–22</page-range>. doi: <pub-id pub-id-type="doi">10.1038/modpathol.2013.251</pub-id>
+<pub-id pub-id-type="pmid">24406864</pub-id></mixed-citation></ref><ref id="B43"><label>43</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Uramoto</surname><given-names>H</given-names></name>
+<name name-style="western"><surname>Shimokawa</surname><given-names>H</given-names></name>
+<name name-style="western"><surname>Nagata</surname><given-names>Y</given-names></name>
+<name name-style="western"><surname>Ono</surname><given-names>K</given-names></name>
+<name name-style="western"><surname>Hanagiri</surname><given-names>T</given-names></name>
+</person-group>. <article-title>EGFR-activating mutations are not present in breast tumors of Japanese patients</article-title>. <source>Anticancer Res</source> (<year>2010</year>) <volume>30</volume>(<issue>10</issue>):<page-range>4219–22</page-range>. Available at: <uri ns0:href="https://ar.iiarjournals.org/">https://ar.iiarjournals.org/</uri>
+<pub-id pub-id-type="pmid">21036744</pub-id></mixed-citation></ref><ref id="B44"><label>44</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Tilch</surname><given-names>E</given-names></name>
+<name name-style="western"><surname>Seidens</surname><given-names>T</given-names></name>
+<name name-style="western"><surname>Cocciardi</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Reid</surname><given-names>LE</given-names></name>
+<name name-style="western"><surname>Byrne</surname><given-names>D</given-names></name>
+<name name-style="western"><surname>Simpson</surname><given-names>PT</given-names></name>
+<etal />
+</person-group>. <article-title>Mutations in EGFR, BRAF and RAS are rare in triple-negative and basal-like breast cancers from Caucasian women</article-title>. <source>Breast Cancer Res Treat</source> (<year>2014</year>) <volume>143</volume>(<issue>2</issue>):<page-range>385–92</page-range>. doi: <pub-id pub-id-type="doi">10.1007/s10549-013-2798-1</pub-id>
+<pub-id pub-id-type="pmid">24318467</pub-id></mixed-citation></ref><ref id="B45"><label>45</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Nakajima</surname><given-names>H</given-names></name>
+<name name-style="western"><surname>Ishikawa</surname><given-names>Y</given-names></name>
+<name name-style="western"><surname>Furuya</surname><given-names>M</given-names></name>
+<name name-style="western"><surname>Sano</surname><given-names>T</given-names></name>
+<name name-style="western"><surname>Ohno</surname><given-names>Y</given-names></name>
+<name name-style="western"><surname>Horiguchi</surname><given-names>J</given-names></name>
+<etal />
+</person-group>. <article-title>Protein expression, gene amplification, and mutational analysis of EGFR in triple-negative breast cancer</article-title>. <source>Breast Cancer Tokyo Jpn</source> (<year>2014</year>) <volume>21</volume>(<issue>1</issue>):<fpage>66</fpage>–<lpage>74</lpage>. doi: <pub-id pub-id-type="doi">10.1007/s12282-012-0354-1</pub-id>
+<pub-id pub-id-type="pmid">22481575</pub-id></mixed-citation></ref><ref id="B46"><label>46</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Bhargava</surname><given-names>R</given-names></name>
+<name name-style="western"><surname>Gerald</surname><given-names>WL</given-names></name>
+<name name-style="western"><surname>Li</surname><given-names>AR</given-names></name>
+<name name-style="western"><surname>Pan</surname><given-names>Q</given-names></name>
+<name name-style="western"><surname>Lal</surname><given-names>P</given-names></name>
+<name name-style="western"><surname>Ladanyi</surname><given-names>M</given-names></name>
+<etal />
+</person-group>. <article-title>EGFR gene amplification in breast cancer: correlation with epidermal growth factor receptor mRNA and protein expression and HER-2 status and absence of EGFR-activating mutations</article-title>. <source>Mod Pathol Off J U S Can Acad Pathol Inc.</source> (<year>2005</year>) <volume>18</volume>(<issue>8</issue>):<page-range>1027–33</page-range>. doi: <pub-id pub-id-type="doi">10.1038/modpathol.3800438</pub-id>
+<pub-id pub-id-type="pmid">15920544</pub-id></mixed-citation></ref><ref id="B47"><label>47</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Reis-Filho</surname><given-names>JS</given-names></name>
+<name name-style="western"><surname>Pinheiro</surname><given-names>C</given-names></name>
+<name name-style="western"><surname>Lambros</surname><given-names>MBK</given-names></name>
+<name name-style="western"><surname>Milanezi</surname><given-names>F</given-names></name>
+<name name-style="western"><surname>Carvalho</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Savage</surname><given-names>K</given-names></name>
+<etal />
+</person-group>. <article-title>EGFR amplification and lack of activating mutations in metaplastic breast carcinomas</article-title>. <source>J Pathol</source> (<year>2006</year>) <volume>209</volume>(<issue>4</issue>):<page-range>445–53</page-range>. doi: <pub-id pub-id-type="doi">10.1002/path.2004</pub-id>
+<pub-id pub-id-type="pmid">16739104</pub-id></mixed-citation></ref><ref id="B48"><label>48</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Generali</surname><given-names>D</given-names></name>
+<name name-style="western"><surname>Leek</surname><given-names>R</given-names></name>
+<name name-style="western"><surname>Fox</surname><given-names>SB</given-names></name>
+<name name-style="western"><surname>Moore</surname><given-names>JW</given-names></name>
+<name name-style="western"><surname>Taylor</surname><given-names>C</given-names></name>
+<name name-style="western"><surname>Chambers</surname><given-names>P</given-names></name>
+<etal />
+</person-group>. <article-title>EGFR mutations in exons 18-21 in sporadic breast cancer</article-title>. <source>Ann Oncol Off J Eur Soc Med Oncol</source> (<year>2007</year>) <volume>18</volume>(<issue>1</issue>):<page-range>203–5</page-range>. doi: <pub-id pub-id-type="doi">10.1093/annonc/mdl322</pub-id>
+<pub-id pub-id-type="pmid">17220285</pub-id></mixed-citation></ref><ref id="B49"><label>49</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Secq</surname><given-names>V</given-names></name>
+<name name-style="western"><surname>Villeret</surname><given-names>J</given-names></name>
+<name name-style="western"><surname>Fina</surname><given-names>F</given-names></name>
+<name name-style="western"><surname>Carmassi</surname><given-names>M</given-names></name>
+<name name-style="western"><surname>Carcopino</surname><given-names>X</given-names></name>
+<name name-style="western"><surname>Garcia</surname><given-names>S</given-names></name>
+<etal />
+</person-group>. <article-title>Triple negative breast carcinoma EGFR amplification is not associated with EGFR, kras or ALK mutations</article-title>. <source>Br J Cancer.</source> (<year>2014</year>) <volume>110</volume>(<issue>4</issue>):<page-range>1045–52</page-range>. doi: <pub-id pub-id-type="doi">10.1038/bjc.2013.794</pub-id>
+<pub-id pub-id-type="pmcid">PMC3929875</pub-id><pub-id pub-id-type="pmid">24423920</pub-id></mixed-citation></ref><ref id="B50"><label>50</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Teng</surname><given-names>YHF</given-names></name>
+<name name-style="western"><surname>Tan</surname><given-names>WJ</given-names></name>
+<name name-style="western"><surname>Thike</surname><given-names>AA</given-names></name>
+<name name-style="western"><surname>Cheok</surname><given-names>PY</given-names></name>
+<name name-style="western"><surname>Tse</surname><given-names>GMK</given-names></name>
+<name name-style="western"><surname>Wong</surname><given-names>NS</given-names></name>
+<etal />
+</person-group>. <article-title>Mutations in the epidermal growth factor receptor (EGFR) gene in triple negative breast cancer: possible implications for targeted therapy</article-title>. <source>Breast Cancer Res BCR</source> (<year>2011</year>) <volume>13</volume>(<issue>2</issue>):<fpage>R35</fpage>. doi: <pub-id pub-id-type="doi">10.1186/bcr2857</pub-id>
+<pub-id pub-id-type="pmid">21457545</pub-id><pub-id pub-id-type="pmcid">PMC3219198</pub-id></mixed-citation></ref><ref id="B51"><label>51</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Bemanian</surname><given-names>V</given-names></name>
+<name name-style="western"><surname>Sauer</surname><given-names>T</given-names></name>
+<name name-style="western"><surname>Touma</surname><given-names>J</given-names></name>
+<name name-style="western"><surname>Lindstedt</surname><given-names>BA</given-names></name>
+<name name-style="western"><surname>Chen</surname><given-names>Y</given-names></name>
+<name name-style="western"><surname>Ødegård</surname><given-names>HP</given-names></name>
+<etal />
+</person-group>. <article-title>The epidermal growth factor receptor (EGFR / HER-1) gatekeeper mutation T790M is present in European patients with early breast cancer</article-title>. <source>PloS One</source> (<year>2015</year>) <volume>10</volume>(<issue>8</issue>):<elocation-id>e0134398</elocation-id>. doi: <pub-id pub-id-type="doi">10.1371/journal.pone.0134398</pub-id>
+<pub-id pub-id-type="pmid">26267891</pub-id><pub-id pub-id-type="pmcid">PMC4534377</pub-id></mixed-citation></ref><ref id="B52"><label>52</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Park</surname><given-names>K</given-names></name>
+<name name-style="western"><surname>Haura</surname><given-names>EB</given-names></name>
+<name name-style="western"><surname>Leighl</surname><given-names>NB</given-names></name>
+<name name-style="western"><surname>Mitchell</surname><given-names>P</given-names></name>
+<name name-style="western"><surname>Shu</surname><given-names>CA</given-names></name>
+<name name-style="western"><surname>Girard</surname><given-names>N</given-names></name>
+<etal />
+</person-group>. <article-title>Amivantamab in EGFR exon 20 insertion–mutated non–Small-Cell lung cancer progressing on platinum chemotherapy: initial results from the CHRYSALIS phase I study</article-title>. <source>J Clin Oncol</source> (<year>2021</year>) <volume>39</volume>(<issue>30</issue>):<page-range>3391–402</page-range>. doi: <pub-id pub-id-type="doi">10.1200/JCO.21.00662</pub-id>
+<pub-id pub-id-type="pmcid">PMC8791812</pub-id><pub-id pub-id-type="pmid">34339292</pub-id></mixed-citation></ref><ref id="B53"><label>53</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Takezawa</surname><given-names>K</given-names></name>
+<name name-style="western"><surname>Okamoto</surname><given-names>I</given-names></name>
+<name name-style="western"><surname>Tanizaki</surname><given-names>J</given-names></name>
+<name name-style="western"><surname>Kuwata</surname><given-names>K</given-names></name>
+<name name-style="western"><surname>Yamaguchi</surname><given-names>H</given-names></name>
+<name name-style="western"><surname>Fukuoka</surname><given-names>M</given-names></name>
+<etal />
+</person-group>. <article-title>Enhanced anticancer effect of the combination of BIBW2992 and thymidylate synthase-targeted agents in non-small cell lung cancer with the T790M mutation of epidermal growth factor receptor</article-title>. <source>Mol Cancer Ther</source> (<year>2010</year>) <volume>9</volume>(<issue>6</issue>):<page-range>1647–56</page-range>. doi: <pub-id pub-id-type="doi">10.1158/1535-7163.MCT-09-1009</pub-id>
+<pub-id pub-id-type="pmid">20530710</pub-id></mixed-citation></ref><ref id="B54"><label>54</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Sequist</surname><given-names>LV</given-names></name>
+<name name-style="western"><surname>Waltman</surname><given-names>BA</given-names></name>
+<name name-style="western"><surname>Dias-Santagata</surname><given-names>D</given-names></name>
+<name name-style="western"><surname>Digumarthy</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Turke</surname><given-names>AB</given-names></name>
+<name name-style="western"><surname>Fidias</surname><given-names>P</given-names></name>
+<etal />
+</person-group>. <article-title>Genotypic and histological evolution of lung cancers acquiring resistance to EGFR inhibitors</article-title>. <source>Sci Transl Med</source> (<year>2011</year>) <volume>3</volume>(<issue>75</issue>):<fpage>75ra26</fpage>. doi: <pub-id pub-id-type="doi">10.1126/scitranslmed.3002003</pub-id>
+<pub-id pub-id-type="pmcid">PMC3132801</pub-id><pub-id pub-id-type="pmid">21430269</pub-id></mixed-citation></ref><ref id="B55"><label>55</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Jänne</surname><given-names>PA</given-names></name>
+<name name-style="western"><surname>Yang</surname><given-names>JCH</given-names></name>
+<name name-style="western"><surname>Kim</surname><given-names>DW</given-names></name>
+<name name-style="western"><surname>Planchard</surname><given-names>D</given-names></name>
+<name name-style="western"><surname>Ohe</surname><given-names>Y</given-names></name>
+<name name-style="western"><surname>Ramalingam</surname><given-names>SS</given-names></name>
+<etal />
+</person-group>. <article-title>AZD9291 in EGFR inhibitor-resistant non-small-cell lung cancer</article-title>. <source>N Engl J Med</source> (<year>2015</year>) <volume>372</volume>(<issue>18</issue>):<page-range>1689–99</page-range>. doi: <pub-id pub-id-type="doi">10.1056/NEJMoa1411817</pub-id>
+<pub-id pub-id-type="pmid">25923549</pub-id></mixed-citation></ref><ref id="B56"><label>56</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Wu</surname><given-names>JY</given-names></name>
+<name name-style="western"><surname>Yu</surname><given-names>CJ</given-names></name>
+<name name-style="western"><surname>Chang</surname><given-names>YC</given-names></name>
+<name name-style="western"><surname>Yang</surname><given-names>CH</given-names></name>
+<name name-style="western"><surname>Shih</surname><given-names>JY</given-names></name>
+<name name-style="western"><surname>Yang</surname><given-names>PC</given-names></name>
+</person-group>. <article-title>Effectiveness of tyrosine kinase inhibitors on “uncommon” epidermal growth factor receptor mutations of unknown clinical significance in non-small cell lung cancer</article-title>. <source>Clin Cancer Res Off J Am Assoc Cancer Res</source> (<year>2011</year>) <volume>17</volume>(<issue>11</issue>):<page-range>3812–21</page-range>. doi: <pub-id pub-id-type="doi">10.1158/1078-0432.CCR-10-3408</pub-id>
+<pub-id pub-id-type="pmid">21531810</pub-id></mixed-citation></ref><ref id="B57"><label>57</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Wei</surname><given-names>B</given-names></name>
+<name name-style="western"><surname>Ding</surname><given-names>T</given-names></name>
+<name name-style="western"><surname>Xing</surname><given-names>Y</given-names></name>
+<name name-style="western"><surname>Wei</surname><given-names>W</given-names></name>
+<name name-style="western"><surname>Tian</surname><given-names>Z</given-names></name>
+<name name-style="western"><surname>Tang</surname><given-names>F</given-names></name>
+<etal />
+</person-group>. <article-title>Invasive neuroendocrine carcinoma of the breast: a distinctive subtype of aggressive mammary carcinoma</article-title>. <source>Cancer.</source> (<year>2010</year>) <volume>116</volume>(<issue>19</issue>):<page-range>4463–73</page-range>. doi: <pub-id pub-id-type="doi">10.1002/cncr.25352</pub-id>
+<pub-id pub-id-type="pmid">20572042</pub-id></mixed-citation></ref><ref id="B58"><label>58</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Sun</surname><given-names>H</given-names></name>
+<name name-style="western"><surname>Dai</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Xu</surname><given-names>J</given-names></name>
+<name name-style="western"><surname>Liu</surname><given-names>L</given-names></name>
+<name name-style="western"><surname>Yu</surname><given-names>J</given-names></name>
+<name name-style="western"><surname>Sun</surname><given-names>T</given-names></name>
+</person-group>. <article-title>Primary neuroendocrine tumor of the breast: current understanding and future perspectives</article-title>. <source>Front Oncol</source> (<year>2022</year>) <volume>12</volume>:<elocation-id>848485</elocation-id>. doi: <pub-id pub-id-type="doi">10.3389/fonc.2022.848485</pub-id>
+<pub-id pub-id-type="pmid">35692784</pub-id><pub-id pub-id-type="pmcid">PMC9174548</pub-id></mixed-citation></ref><ref id="B59"><label>59</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Martinez</surname><given-names>EO</given-names></name>
+<name name-style="western"><surname>Jorns</surname><given-names>JM</given-names></name>
+<name name-style="western"><surname>Kong</surname><given-names>AL</given-names></name>
+<name name-style="western"><surname>Kijak</surname><given-names>J</given-names></name>
+<name name-style="western"><surname>Lee</surname><given-names>WY</given-names></name>
+<name name-style="western"><surname>Huang</surname><given-names>CC</given-names></name>
+<etal />
+</person-group>. <article-title>Primary breast neuroendocrine tumors: an analysis of the national cancer database</article-title>. <source>Ann Surg Oncol</source> (<year>2022</year>) <volume>29</volume>(<issue>10</issue>):<page-range>6339–46</page-range>. doi: <pub-id pub-id-type="doi">10.1245/s10434-022-12123-w</pub-id>
+<pub-id pub-id-type="pmcid">PMC9464685</pub-id><pub-id pub-id-type="pmid">35789311</pub-id></mixed-citation></ref><ref id="B60"><label>60</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Özdirik</surname><given-names>B</given-names></name>
+<name name-style="western"><surname>Kayser</surname><given-names>A</given-names></name>
+<name name-style="western"><surname>Ullrich</surname><given-names>A</given-names></name>
+<name name-style="western"><surname>Savic</surname><given-names>LJ</given-names></name>
+<name name-style="western"><surname>Reiss</surname><given-names>M</given-names></name>
+<name name-style="western"><surname>Tacke</surname><given-names>F</given-names></name>
+<etal />
+</person-group>. <article-title>Primary neuroendocrine neoplasms of the breast: case series and literature review</article-title>. <source>Cancers.</source> (<year>2020</year>) <volume>12</volume>(<issue>3</issue>):<fpage>733</fpage>. doi: <pub-id pub-id-type="doi">10.3390/cancers12030733</pub-id>
+<pub-id pub-id-type="pmid">32244940</pub-id><pub-id pub-id-type="pmcid">PMC7140078</pub-id></mixed-citation></ref><ref id="B61"><label>61</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Stimes</surname><given-names>N</given-names></name>
+<name name-style="western"><surname>Stanbery</surname><given-names>L</given-names></name>
+<name name-style="western"><surname>Albrethsen</surname><given-names>M</given-names></name>
+<name name-style="western"><surname>Trivedi</surname><given-names>C</given-names></name>
+<name name-style="western"><surname>Hamouda</surname><given-names>D</given-names></name>
+<name name-style="western"><surname>Dworkin</surname><given-names>L</given-names></name>
+<etal />
+</person-group>. <article-title>Small-cell breast carcinoma with response to atezolizumab: a case report</article-title>. <source>Immunotherapy.</source> (<year>2022</year>) <volume>14</volume>(<issue>9</issue>):<page-range>669–74</page-range>. doi: <pub-id pub-id-type="doi">10.2217/imt-2021-0100</pub-id>
+<pub-id pub-id-type="pmid">35481350</pub-id></mixed-citation></ref><ref id="B62"><label>62</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Symeonidis</surname><given-names>D</given-names></name>
+<name name-style="western"><surname>Papageorgiou</surname><given-names>G</given-names></name>
+<name name-style="western"><surname>Liatsos</surname><given-names>A</given-names></name>
+<name name-style="western"><surname>Trihia</surname><given-names>H</given-names></name>
+<name name-style="western"><surname>Lianos</surname><given-names>E</given-names></name>
+<name name-style="western"><surname>Kosmas</surname><given-names>C</given-names></name>
+</person-group>. <article-title>High grade neuroendocrine carcinoma of the breast, first line and maintenance immunotherapy</article-title>. <source>Anti-Cancer Drugs</source> (<year>2022</year>) <volume>33</volume>(<issue>1</issue>):<fpage>91</fpage>. doi: <pub-id pub-id-type="doi">10.1097/CAD.0000000000001126</pub-id>
+<pub-id pub-id-type="pmid">34232940</pub-id></mixed-citation></ref><ref id="B63"><label>63</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Savelli</surname><given-names>G</given-names></name>
+<name name-style="western"><surname>Zaniboni</surname><given-names>A</given-names></name>
+<name name-style="western"><surname>Bertagna</surname><given-names>F</given-names></name>
+<name name-style="western"><surname>Bosio</surname><given-names>G</given-names></name>
+<name name-style="western"><surname>Nisa</surname><given-names>L</given-names></name>
+<name name-style="western"><surname>Rodella</surname><given-names>C</given-names></name>
+<etal />
+</person-group>. <article-title>Peptide receptor radionuclide therapy (PRRT) in a patient affected by metastatic breast cancer with neuroendocrine differentiation</article-title>. <source>Breast Care</source> (<year>2012</year>) <volume>7</volume>(<issue>5</issue>):<page-range>408–10</page-range>. doi: <pub-id pub-id-type="doi">10.1159/000343612</pub-id>
+<pub-id pub-id-type="pmcid">PMC3518936</pub-id><pub-id pub-id-type="pmid">24647781</pub-id></mixed-citation></ref><ref id="B64"><label>64</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Liu</surname><given-names>Q</given-names></name>
+<name name-style="western"><surname>Zhang</surname><given-names>J</given-names></name>
+<name name-style="western"><surname>Kulkarni</surname><given-names>HR</given-names></name>
+<name name-style="western"><surname>Baum</surname><given-names>RP</given-names></name>
+</person-group>. <article-title>177Lu-DOTATOC peptide receptor radionuclide therapy in a patient with neuroendocrine breast carcinoma and breast invasive ductal carcinoma</article-title>. <source>Clin Nucl Med</source> (<year>2020</year>) <volume>45</volume>(<issue>5</issue>):<elocation-id>e232</elocation-id>. doi: <pub-id pub-id-type="doi">10.1097/RLU.0000000000003005</pub-id>
+<pub-id pub-id-type="pmid">32209879</pub-id></mixed-citation></ref><ref id="B65"><label>65</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Weeber</surname><given-names>F</given-names></name>
+<name name-style="western"><surname>Cirkel</surname><given-names>GA</given-names></name>
+<name name-style="western"><surname>Hoogstraat</surname><given-names>M</given-names></name>
+<name name-style="western"><surname>Bins</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Gadellaa-van Hooijdonk</surname><given-names>CGM</given-names></name>
+<name name-style="western"><surname>Ooft</surname><given-names>S</given-names></name>
+<etal />
+</person-group>. <article-title>Predicting clinical benefit from everolimus in patients with advanced solid tumors, the CPCT-03 study</article-title>. <source>Oncotarget.</source> (<year>2017</year>) <volume>8</volume>(<issue>33</issue>):<page-range>55582–92</page-range>. doi: <pub-id pub-id-type="doi">10.18632/oncotarget.16029</pub-id>
+<pub-id pub-id-type="pmcid">PMC5589684</pub-id><pub-id pub-id-type="pmid">28903445</pub-id></mixed-citation></ref><ref id="B66"><label>66</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Vranic</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Palazzo</surname><given-names>J</given-names></name>
+<name name-style="western"><surname>Sanati</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Florento</surname><given-names>E</given-names></name>
+<name name-style="western"><surname>Contreras</surname><given-names>E</given-names></name>
+<name name-style="western"><surname>Xiu</surname><given-names>J</given-names></name>
+<etal />
+</person-group>. <article-title>Potential novel therapy targets in neuroendocrine carcinomas of the breast</article-title>. <source>Clin Breast Cancer.</source> (<year>2019</year>) <volume>19</volume>(<issue>2</issue>):<page-range>131–6</page-range>. doi: <pub-id pub-id-type="doi">10.1016/j.clbc.2018.09.001</pub-id>
+<pub-id pub-id-type="pmid">30268765</pub-id></mixed-citation></ref><ref id="B67"><label>67</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author">
+<name name-style="western"><surname>Bardia</surname><given-names>A</given-names></name>
+<name name-style="western"><surname>Mayer</surname><given-names>IA</given-names></name>
+<name name-style="western"><surname>Diamond</surname><given-names>JR</given-names></name>
+<name name-style="western"><surname>Moroose</surname><given-names>RL</given-names></name>
+<name name-style="western"><surname>Isakoff</surname><given-names>SJ</given-names></name>
+<name name-style="western"><surname>Starodub</surname><given-names>AN</given-names></name>
+<etal />
+</person-group>. <article-title>Efficacy and safety of anti-Trop-2 antibody drug conjugate sacituzumab govitecan (IMMU-132) in heavily pretreated patients with metastatic triple-negative breast cancer</article-title>. <source>J Clin Oncol</source> (<year>2017</year>) <volume>35</volume>(<issue>19</issue>):<page-range>2141–8</page-range>. doi: <pub-id pub-id-type="doi">10.1200/JCO.2016.70.8297</pub-id>
+<pub-id pub-id-type="pmcid">PMC5559902</pub-id><pub-id pub-id-type="pmid">28291390</pub-id></mixed-citation></ref></ref-list></back></article>

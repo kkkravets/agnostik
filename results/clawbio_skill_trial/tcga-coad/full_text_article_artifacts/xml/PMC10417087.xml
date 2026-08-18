@@ -1,0 +1,729 @@
+<?xml version='1.0' encoding='utf-8'?>
+<article xmlns:ns0="http://www.niso.org/schemas/ali/1.0/" xmlns:ns1="http://www.w3.org/1999/xlink" id="cam46196" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Cancer Med</journal-id><journal-id journal-id-type="iso-abbrev">Cancer Med</journal-id><journal-id journal-id-type="pmc-domain-id">1974</journal-id><journal-id journal-id-type="pmc-domain">canmed</journal-id><journal-id journal-id-type="nlm-id">101595310</journal-id><journal-id journal-id-type="publisher-id">CAM4</journal-id><journal-title-group><journal-title>Cancer Medicine</journal-title></journal-title-group><issn pub-type="epub">2045-7634</issn><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC10417087</article-id><article-id pub-id-type="pmcid-ver">PMC10417087.1</article-id><article-id pub-id-type="pmcaid">10417087</article-id><article-id pub-id-type="pmcaiid">10417087</article-id><article-id pub-id-type="pmid">37325970</article-id><article-id pub-id-type="doi">10.1002/cam4.6196</article-id><article-id pub-id-type="publisher-id">CAM46196</article-id><article-id pub-id-type="other">CAM4-2022-10-4546.R2</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>RESEARCH ARTICLES</subject><subj-group subj-group-type="heading"><subject>Clinical Cancer Research</subject></subj-group></subj-group></article-categories><title-group><article-title>Treatment outcome comparisons of <styled-content style="fixed-case" toggle="no">first‐line</styled-content> targeted therapy in patients with <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">KRAS</italic> wild‐type</styled-content> metastatic colorectal cancer: A nationwide database study</article-title><alt-title alt-title-type="left-running-head">Liang et al.</alt-title></title-group><contrib-group><contrib id="cam46196-cr-0001" contrib-type="author"><name name-style="western"><surname>Liang</surname><given-names initials="YH">Yi‐Hsin</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-7224-9687</contrib-id><xref rid="cam46196-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="cam46196-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="cam46196-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref><xref rid="cam46196-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="cam46196-cr-0002" contrib-type="author"><name name-style="western"><surname>Chen</surname><given-names initials="KH">Kuo‐Hsing</given-names></name><xref rid="cam46196-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="cam46196-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="cam46196-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref><xref rid="cam46196-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="cam46196-cr-0003" contrib-type="author" corresp="yes"><name name-style="western"><surname>Shao</surname><given-names initials="YY">Yu‐Yun</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-7334-1912</contrib-id><xref rid="cam46196-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="cam46196-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref><xref rid="cam46196-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref><address><email>yuyunshao@gmail.com</email></address></contrib></contrib-group><aff id="cam46196-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Graduate Institutes of Oncology</named-content>
+<institution>National Taiwan University College of Medicine</institution>
+<city>Taipei</city>
+<country country="TW">Taiwan</country>
+</aff><aff id="cam46196-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Center of Genomic and Precision Medicine</named-content>
+<institution>National Taiwan University College of Medicine</institution>
+<city>Taipei</city>
+<country country="TW">Taiwan</country>
+</aff><aff id="cam46196-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">Department of Oncology</named-content>
+<institution>National Taiwan University Hospital</institution>
+<city>Taipei</city>
+<country country="TW">Taiwan</country>
+</aff><aff id="cam46196-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<named-content content-type="organisation-division">Department of Medical Oncology</named-content>
+<institution>National Taiwan University Cancer Center</institution>
+<city>Taipei</city>
+<country country="TW">Taiwan</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence</bold>
+<break />
+Yu‐Yun Shao, MD, Ph.D., Department of Oncology, National Taiwan University Hospital, No 7, Chung‐Shan South Rd, Taipei 10002, Taiwan.<break />
+Email: <email>yuyunshao@gmail.com</email>
+<break />
+</corresp></author-notes><pub-date pub-type="epub"><day>16</day><month>6</month><year>2023</year></pub-date><pub-date pub-type="collection"><month>7</month><year>2023</year></pub-date><volume>12</volume><issue seq="280">14</issue><issue-id pub-id-type="pmc-issue-id">442978</issue-id><issue-id pub-id-type="doi">10.1002/cam4.v12.14</issue-id><fpage>15176</fpage><lpage>15186</lpage><history><date date-type="rev-recd"><day>18</day><month>5</month><year>2023</year></date><date date-type="received"><day>17</day><month>10</month><year>2022</year></date><date date-type="accepted"><day>23</day><month>5</month><year>2023</year></date></history><pub-history><event event-type="pmc-release"><date><day>16</day><month>06</month><year>2023</year></date></event><event event-type="pmc-live"><date><day>12</day><month>08</month><year>2023</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2023-08-12 13:25:09.940"><day>12</day><month>08</month><year>2023</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2023 The Authors. <italic toggle="yes">Cancer Medicine</italic> published by John Wiley &amp; Sons Ltd.</copyright-statement><license><ns0:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ns0:license_ref><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" ns1:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pmc-pdf" ns1:href="CAM4-12-15176.pdf" /><self-uri content-type="pdf" ns1:href="file:CAM4-12-15176.pdf" /><abstract><title>Abstract</title><sec id="cam46196-sec-0001"><title>Background</title><p>The first‐line systemic therapy for metastatic colorectal cancer (mCRC) is a combination of one targeted therapy agent and a chemotherapy doublet. Whether bevacizumab or anti‐epidermal growth factor receptor (anti‐EGFR) monoclonal antibody (mAb) is the more effective addition to a chemotherapy doublet as the first‐line treatment for inoperable <italic toggle="no">KRAS</italic> wild‐type mCRC remains controversial in prior clinical trials. Moreover, the association between the sidedness of primary tumors and the efficacy of anti‐EGFR mAb needs to be addressed.</p></sec><sec id="cam46196-sec-0002"><title>Methods</title><p>We established a cohort of patients with <italic toggle="no">KRAS</italic> wild‐type mCRC who were treated with first‐line targeted therapy plus doublet chemotherapy between 2013 and 2018 using Taiwan's National Health Insurance Research Database. Secondary surgery was defined as either resection of primary tumors, liver metastases, lung metastases, or radiofrequency ablation.</p></sec><sec id="cam46196-sec-0003"><title>Results</title><p>A total of 6482 patients were included; bevacizumab and anti‐EGFR mAb were the first‐line targeted therapies in 3334 (51.4%) and 3148 (48.6%) patients, respectively. Compared with those who received bevacizumab, patients who received anti‐EGFR mAb exhibited significantly longer overall survival (OS; median, 23.1 vs. 20.2 months, <italic toggle="no">p</italic> = 0.012) and time to treatment failure (TTF; median, 11.3 vs. 10 months, <italic toggle="no">p</italic> &lt; 0.001). Among left‐sided primary tumors, the OS and TTF benefits of anti‐EGFR mAb remained. Among right‐sided primary tumors, the OS and TTF were similar regardless of the type of targeted therapy. In multivariate analyses, first‐line anti‐EGFR mAb therapy remained an independent predictor of longer OS and TTF for left‐sided primary tumors. Patients who received anti‐EGFR mAb were more likely to receive secondary surgery (29.6% vs. 22.6%, <italic toggle="no">p</italic> &lt; 0.0001) than patients who received bevacizumab.</p></sec><sec id="cam46196-sec-0004"><title>Conclusion</title><p>For patients who received first‐line doublet chemotherapy for <italic toggle="no">KRAS</italic> wild‐type mCRC, adding anti‐EGFR mAb was associated with significantly longer OS and TTF, especially for left‐sided primary tumors.</p></sec></abstract><abstract abstract-type="graphical"><p>Anti‐EGFR mAb was associated with significantly longer OS and TTF than the addition of bevacizumab.<boxed-text position="anchor" content-type="graphic" id="cam46196-blkfxd-0001" orientation="portrait"><graphic position="anchor" id="jats-graphic-1" orientation="portrait" ns1:href="CAM4-12-15176-g001.jpg" /></boxed-text>
+</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="cam46196-kwd-0001">bevacizumab</kwd><kwd id="cam46196-kwd-0002">cetuximab</kwd><kwd id="cam46196-kwd-0003">EGFR</kwd><kwd id="cam46196-kwd-0004">metastatic colorectal cancer</kwd><kwd id="cam46196-kwd-0005">panitumumab</kwd><kwd id="cam46196-kwd-0006">secondary surgery</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source><institution-wrap><institution>Ministry of Science and Technology, Taiwan
+</institution><institution-id institution-id-type="doi">10.13039/501100004663</institution-id></institution-wrap></funding-source><award-id>MOST 105‐2314‐B‐002‐194</award-id><award-id>MOST 106‐2314‐B‐002‐213</award-id><award-id>MOST 108‐2314‐B‐002‐072‐MY3</award-id><award-id>MOST 111‐2314‐B‐002‐120</award-id></award-group><award-group id="funding-0002"><funding-source><institution-wrap><institution>National Taiwan University Hospital, Taipei, Taiwan
+</institution><institution-id institution-id-type="doi">10.13039/501100005762</institution-id></institution-wrap></funding-source><award-id>NTUH 108‐S4150</award-id><award-id>NTUH 105‐S2954</award-id></award-group><award-group id="funding-0003"><funding-source>the Science and Technology Unit, Ministry of Health and Welfare, Taiwan</funding-source><award-id>MOHW112‐TDU‐B‐211‐144‐002</award-id><award-id>DOH102‐NH‐9002</award-id></award-group></funding-group><counts><fig-count count="4" /><table-count count="3" /><page-count count="11" /><word-count count="5150" /></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>July 2023</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.3.2 mode:remove_FC converted:11.08.2023</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="CAM46196-cit-2001">
+<string-name name-style="western">
+<surname>Liang</surname>
+<given-names>Y‐H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chen</surname>
+<given-names>K‐H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shao</surname>
+<given-names>Y‐Y</given-names>
+</string-name>. <article-title>Treatment outcome comparisons of <styled-content style="fixed-case" toggle="no">first‐line</styled-content> targeted therapy in patients with <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">KRAS</italic> wild‐type</styled-content> metastatic colorectal cancer: A nationwide database study</article-title>. <source>Cancer Med</source>. <year>2023</year>;<volume>12</volume>:<fpage>15176</fpage>‐<lpage>15186</lpage>. doi:<pub-id pub-id-type="doi">10.1002/cam4.6196</pub-id>
+<pub-id pub-id-type="pmid">37325970</pub-id><pub-id pub-id-type="pmcid">PMC10417087</pub-id></mixed-citation>
+</p></notes></front><body id="cam46196-body-0001"><sec id="cam46196-sec-0005"><label>1</label><title>INTRODUCTION</title><p>Colorectal cancer (CRC) is one of most common cancers globally.<xref rid="cam46196-bib-0001" ref-type="bibr">
+<sup>1</sup>
+</xref>, <xref rid="cam46196-bib-0002" ref-type="bibr">
+<sup>2</sup>
+</xref> For inoperable metastatic colorectal cancer (mCRC), systemic therapy is the main treatment. The main frontline systemic chemotherapy agents include irinotecan, oxaliplatin, and 5‐fluorouracil. Doublet combination chemotherapy is usually recommended, such as irinotecan in combination with 5‐FU (FOLFIRI) or oxaliplatin in combination with 5‐FU (FOLFOX). The first‐line systemic therapy for mCRC is a combination of one targeted therapy agent and a chemotherapy doublet, such as FOLFIRI or FOLFOX, or a chemotherapy triplet in highly selected patients.<xref rid="cam46196-bib-0003" ref-type="bibr">
+<sup>3</sup>
+</xref>, <xref rid="cam46196-bib-0004" ref-type="bibr">
+<sup>4</sup>
+</xref> For <italic toggle="yes">KRAS</italic> wild‐type mCRC, if a chemotherapy doublet backbone is applied instead of a triplet, two types of targeted therapy agents can be considered in combination. One is antivascular endothelial growth factor (VEGF) monoclonal antibody (mAb) bevacizumab, and the other is anti‐epidermal growth factor receptor (anti‐EGFR) mAb such as cetuximab or panitumumab.</p><p>Regarding which targeted therapy is the more suitable companion of a chemotherapy doublet for <italic toggle="yes">KRAS</italic> wild‐type mCRC, randomized clinical trials have reported conflicting results. In the CALGB 80405 study, overall survival (OS) and progression‐free survival (PFS) were similar between patients who received bevacizumab or cetuximab in combination with a chemotherapy doublet.<xref rid="cam46196-bib-0005" ref-type="bibr">
+<sup>5</sup>
+</xref>, <xref rid="cam46196-bib-0006" ref-type="bibr">
+<sup>6</sup>
+</xref> In the FIRE‐3 study, patients who received cetuximab plus FOLFIRI had similar PFS but significantly longer OS compared with patients who received bevacizumab plus FOLFIRI.<xref rid="cam46196-bib-0007" ref-type="bibr">
+<sup>7</sup>
+</xref>, <xref rid="cam46196-bib-0008" ref-type="bibr">
+<sup>8</sup>
+</xref> By contrast, in the PEAK study, patients who received panitumumab plus FOLFOX had significantly longer PFS and OS compared with patients who received panitumumab plus FOLFOX.<xref rid="cam46196-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref>, <xref rid="cam46196-bib-0010" ref-type="bibr">
+<sup>10</sup>
+</xref>, <xref rid="cam46196-bib-0011" ref-type="bibr">
+<sup>11</sup>
+</xref> Furthermore, although the PFS was similar, patients who received panitumumab plus FOLFOX had significantly longer OS compared with patients who received panitumumab plus FOLFOX in the PARADIGM study.<xref rid="cam46196-bib-0012" ref-type="bibr">
+<sup>12</sup>
+</xref> Therefore, whether anti‐VEGF mAb or anti‐EGFR mAb is suitable for incorporation in this first‐line systemic therapy remains unclear. Larger scale of clinical evidence is warranted to address this uncertainty on a realistic level.</p><p>Taiwan's National Health Insurance (NHI) program is a mandatory single‐payer system covering 97%–98% of the population.<xref rid="cam46196-bib-0013" ref-type="bibr">
+<sup>13</sup>
+</xref> The associated database provided an opportunity to examine an unselected national population who had received fully reimbursed systemic anticancer therapies. Thus, we conducted this study to compare the treatment outcomes of first‐line targeted therapy agents added to a chemotherapy doublet as first‐line therapy for mCRC.</p></sec><sec id="cam46196-sec-0006"><label>2</label><title>PATIENTS AND METHODS</title><sec id="cam46196-sec-0007"><label>2.1</label><title>Data source</title><p>In this retrospective population‐based cohort study, we linked data from three national databases, namely Taiwan's National Health Insurance Research Database for all inpatient and outpatient prescriptions, Taiwan Cancer Registry for patient demographics and disease status, and National Death Registry for death records. We retrieved data from Health and Welfare Data Science Center, Ministry of Health and Welfare, Taiwan. Detailed processes have been described in our previous studies.<xref rid="cam46196-bib-0014" ref-type="bibr">
+<sup>14</sup>
+</xref>, <xref rid="cam46196-bib-0015" ref-type="bibr">
+<sup>15</sup>
+</xref> In brief, all personal data extracted from these databases were encrypted and analyzed anonymously. Any results that applied to less than 3% of the targeted group were not processed to ensure privacy. The study was approved by the Institutional Review Board of National Taiwan University Hospital.</p></sec><sec id="cam46196-sec-0008"><label>2.2</label><title>Study population and variables</title><p>All patients who fulfilled the following criteria were included in this study: (1) patients who received a diagnosis of histology‐proven primary CRC (ICD‐O‐3 C180 to C189, C19, and C20); (2) patients who were diagnosed as KRAS wild‐type mCRC; (3) patients who were aged 18 years or over; (4) patients who received first‐line targeted therapy of either bevacizumab, cetuximab, or panitumumab between January 1, 2013 and December 31, 2018, as the first‐line systemic therapy for <italic toggle="yes">KRAS</italic> wild‐type mCRC; and (5) received the targeted therapy in combination with either irinotecan or oxaliplatin. The exclusion criteria were as follows: (1) patients who had missing clinical data; (2) patients who had received a diagnosis of hematological malignancies or Kaposi's sarcoma (ICD‐O‐3 morphology code 9140, 9590–9989); (3) patients who received irinotecan and oxaliplatin at the same time; and (4) patients who had received another targeted agent before.</p><p>According to the targeted therapy agents used in the first‐line treatment regimen, patients were classified into the bevacizumab group and the anti‐EGFR mAb group. The index date was the date of the first dose of targeted therapy and chemotherapy. Secondary surgery referred to resection of primary tumors, liver metastases, or lung metastases or radiofrequency ablation to liver metastases after the index date. Left‐sided CRC was defined as the primary tumor origin in the rectum, sigmoid colon, descending colon, or splenic flexure. Right‐sided CRC was defined as the primary tumor origin in the cecum, ascending colon, hepatic flexure colon, or transverse colon. Elderly patients were defined as age ≧70 years old.<xref rid="cam46196-bib-0016" ref-type="bibr">
+<sup>16</sup>
+</xref>
+</p></sec><sec id="cam46196-sec-0009"><label>2.3</label><title>Statistical analysis</title><p>OS was calculated from the index date to the date of death; the data were censored if patients survived beyond the last follow‐up date of December 31, 2019. The time to treatment failure (TTF) was calculated from the index date to the first dose of the next line of chemotherapy. Continuous variables expressed as mean were compared using the independent <italic toggle="yes">t</italic> test or Wilcoxon rank‐sum test, whereas categorical variables expressed as frequency was compared using the chi‐squared test or Fisher's exact test, as appropriate. OS and TTF were estimated using the Kaplan–Meier method, and the log‐rank test was employed to compare between‐group differences. The Cox proportional hazards model was applied to explore potential predictors of OS and TTF in multivariate analysis. Two‐sided <italic toggle="yes">p</italic> values &lt;0.05 were considered statistically significant. All analyses were performed using SAS version 9.4 (SAS Institute, Cary, NC, USA).</p></sec></sec><sec sec-type="results" id="cam46196-sec-0010"><label>3</label><title>RESULTS</title><sec id="cam46196-sec-0011"><label>3.1</label><title>Patient demographics</title><p>A total of 6482 patients were included in our study (Figure <xref rid="cam46196-supitem-0001" ref-type="supplementary-material">S1</xref>); 3334 (51.4%) of them received bevacizumab in combination with doublet chemotherapy, and 3148 (48.6%) received anti‐EGFR mAb (i.e., cetuximab or panitumumab) in combination with doublet chemotherapy. Over a median follow‐up of 18.6 months (95% confidence interval: 11.1–29.8 months), 4496 (69.4%) death events were observed.</p><p>Compared with those who received bevacizumab, the patients who received anti‐EGFR mAb as part of their first‐line systemic therapy were more likely to be men (<italic toggle="yes">p</italic> &lt; 0.001), be aged 70 years or over (<italic toggle="yes">p</italic> &lt; 0.001), undergo therapy at medical centers (<italic toggle="yes">p</italic> &lt; 0.001), and have left‐sided primary tumors (<italic toggle="yes">p</italic> &lt; 0.001); by contrast, they were less likely to have initial stage IV disease (<italic toggle="yes">p</italic> &lt; 0.001), have adenocarcinoma histology (<italic toggle="yes">p</italic> &lt; 0.001), and receive irinotecan as a part of the combination chemotherapy (<italic toggle="yes">p</italic> &lt; 0.001; Table <xref rid="cam46196-tbl-0001" ref-type="table">1</xref>).</p><table-wrap position="float" id="cam46196-tbl-0001" content-type="TABLE" orientation="portrait"><label>TABLE 1</label><caption><p>Demographics of study patients, classified according to the first‐line targeted therapy agents received in combination with chemotherapy.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1" /><col align="left" span="1" /><col align="left" span="1" /><col align="char" char="." span="1" /><col align="left" span="1" /><col align="char" char="." span="1" /><col align="left" span="1" /><col align="char" char="." span="1" /><col align="char" char="." span="1" /><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="2" colspan="2" style="border-bottom:solid 1px #000000" valign="bottom" /><th align="left" colspan="2" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">Total (<italic toggle="yes">N</italic> = 6482)</th><th align="left" colspan="2" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">Bevacizumab (<italic toggle="yes">N</italic> = 3334)</th><th align="left" colspan="2" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">Anti‐EGFR mAb (<italic toggle="yes">N</italic> = 3148)</th><th align="left" rowspan="2" style="border-bottom:solid 1px #000000" valign="bottom" colspan="1">
+<italic toggle="yes">p</italic>
+</th></tr><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">
+<italic toggle="yes">n</italic>
+</th><th align="left" valign="bottom" rowspan="1" colspan="1">(%)</th><th align="left" valign="bottom" rowspan="1" colspan="1">
+<italic toggle="yes">n</italic>
+</th><th align="left" valign="bottom" rowspan="1" colspan="1">(%)</th><th align="left" valign="bottom" rowspan="1" colspan="1">
+<italic toggle="yes">n</italic>
+</th><th align="left" valign="bottom" rowspan="1" colspan="1">(%)</th></tr></thead><tbody valign="top"><tr><td rowspan="2" align="left" valign="top" colspan="1">Gender</td><td align="left" valign="top" rowspan="1" colspan="1">Male</td><td align="left" valign="top" rowspan="1" colspan="1">3950</td><td align="char" valign="top" rowspan="1" colspan="1">(60.9)</td><td align="left" valign="top" rowspan="1" colspan="1">1958</td><td align="char" valign="top" rowspan="1" colspan="1">(58.7)</td><td align="left" valign="top" rowspan="1" colspan="1">1992</td><td align="char" valign="top" rowspan="1" colspan="1">(63.3)</td><td align="char" valign="top" rowspan="1" colspan="1">&lt;0.001<xref rid="cam46196-note-0004" ref-type="table-fn">
+<sup>b</sup>
+</xref>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Female</td><td align="left" valign="top" rowspan="1" colspan="1">2532</td><td align="char" valign="top" rowspan="1" colspan="1">(39.1)</td><td align="left" valign="top" rowspan="1" colspan="1">1376</td><td align="char" valign="top" rowspan="1" colspan="1">(41.3)</td><td align="left" valign="top" rowspan="1" colspan="1">1156</td><td align="char" valign="top" rowspan="1" colspan="1">(36.7)</td><td align="char" valign="top" rowspan="1" colspan="1" /></tr><tr><td rowspan="3" align="left" valign="top" colspan="1">Treatment age</td><td align="left" valign="top" rowspan="1" colspan="1">Median (min, max)</td><td align="left" valign="top" rowspan="1" colspan="1">60</td><td align="char" valign="top" rowspan="1" colspan="1">(18,92)</td><td align="left" valign="top" rowspan="1" colspan="1">59</td><td align="char" valign="top" rowspan="1" colspan="1">(19,92)</td><td align="left" valign="top" rowspan="1" colspan="1">60</td><td align="char" valign="top" rowspan="1" colspan="1">(18,92)</td><td align="char" valign="top" rowspan="1" colspan="1">&lt;0.001<xref rid="cam46196-note-0004" ref-type="table-fn">
+<sup>b</sup>
+</xref>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">&lt;70</td><td align="left" valign="top" rowspan="1" colspan="1">5071</td><td align="char" valign="top" rowspan="1" colspan="1">(78.2)</td><td align="left" valign="top" rowspan="1" colspan="1">2681</td><td align="char" valign="top" rowspan="1" colspan="1">(80.4)</td><td align="left" valign="top" rowspan="1" colspan="1">2390</td><td align="char" valign="top" rowspan="1" colspan="1">(75.9)</td><td align="char" valign="top" rowspan="1" colspan="1">&lt;0.001<xref rid="cam46196-note-0004" ref-type="table-fn">
+<sup>b</sup>
+</xref>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">≥70</td><td align="left" valign="top" rowspan="1" colspan="1">1411</td><td align="char" valign="top" rowspan="1" colspan="1">(21.8)</td><td align="left" valign="top" rowspan="1" colspan="1">653</td><td align="char" valign="top" rowspan="1" colspan="1">(19.6)</td><td align="left" valign="top" rowspan="1" colspan="1">758</td><td align="char" valign="top" rowspan="1" colspan="1">(24.1)</td><td align="char" valign="top" rowspan="1" colspan="1" /></tr><tr><td rowspan="2" align="left" valign="top" colspan="1">Hospital level</td><td align="left" valign="top" rowspan="1" colspan="1">Medical center</td><td align="left" valign="top" rowspan="1" colspan="1">3867</td><td align="char" valign="top" rowspan="1" colspan="1">(59.7)</td><td align="left" valign="top" rowspan="1" colspan="1">1910</td><td align="char" valign="top" rowspan="1" colspan="1">(57.3)</td><td align="left" valign="top" rowspan="1" colspan="1">1957</td><td align="char" valign="top" rowspan="1" colspan="1">(62.2)</td><td align="char" valign="top" rowspan="1" colspan="1">&lt;0.001<xref rid="cam46196-note-0004" ref-type="table-fn">
+<sup>b</sup>
+</xref>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Others</td><td align="left" valign="top" rowspan="1" colspan="1">2615</td><td align="char" valign="top" rowspan="1" colspan="1">(40.3)</td><td align="left" valign="top" rowspan="1" colspan="1">1424</td><td align="char" valign="top" rowspan="1" colspan="1">(42.7)</td><td align="left" valign="top" rowspan="1" colspan="1">1191</td><td align="char" valign="top" rowspan="1" colspan="1">(37.8)</td><td align="char" valign="top" rowspan="1" colspan="1" /></tr><tr><td rowspan="3" align="left" valign="top" colspan="1">Primary site</td><td align="left" valign="top" rowspan="1" colspan="1">Left</td><td align="left" valign="top" rowspan="1" colspan="1">4931</td><td align="char" valign="top" rowspan="1" colspan="1">(76.1)</td><td align="left" valign="top" rowspan="1" colspan="1">2419</td><td align="char" valign="top" rowspan="1" colspan="1">(72.6)</td><td align="left" valign="top" rowspan="1" colspan="1">2512</td><td align="char" valign="top" rowspan="1" colspan="1">(79.8)</td><td align="char" valign="top" rowspan="1" colspan="1">&lt;0.001<xref rid="cam46196-note-0004" ref-type="table-fn">
+<sup>b</sup>
+</xref>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Right</td><td align="left" valign="top" rowspan="1" colspan="1">1463</td><td align="char" valign="top" rowspan="1" colspan="1">(22.6)</td><td align="left" valign="top" rowspan="1" colspan="1">873</td><td align="char" valign="top" rowspan="1" colspan="1">(26.2)</td><td align="left" valign="top" rowspan="1" colspan="1">590</td><td align="char" valign="top" rowspan="1" colspan="1">(18.7)</td><td align="char" valign="top" rowspan="1" colspan="1" /></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Others</td><td align="left" valign="top" rowspan="1" colspan="1">88</td><td align="char" valign="top" rowspan="1" colspan="1">(1.4)</td><td align="left" valign="top" rowspan="1" colspan="1">42</td><td align="char" valign="top" rowspan="1" colspan="1">(1.3)</td><td align="left" valign="top" rowspan="1" colspan="1">46</td><td align="char" valign="top" rowspan="1" colspan="1">(1.5)</td><td align="char" valign="top" rowspan="1" colspan="1" /></tr><tr><td rowspan="2" align="left" valign="top" colspan="1">Initial stage</td><td align="left" valign="top" rowspan="1" colspan="1">IV</td><td align="left" valign="top" rowspan="1" colspan="1">4703</td><td align="char" valign="top" rowspan="1" colspan="1">(72.6)</td><td align="left" valign="top" rowspan="1" colspan="1">2658</td><td align="char" valign="top" rowspan="1" colspan="1">(79.7)</td><td align="left" valign="top" rowspan="1" colspan="1">2045</td><td align="char" valign="top" rowspan="1" colspan="1">(65.0)</td><td align="char" valign="top" rowspan="1" colspan="1">&lt;0.001<xref rid="cam46196-note-0004" ref-type="table-fn">
+<sup>b</sup>
+</xref>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">I‐III</td><td align="left" valign="top" rowspan="1" colspan="1">1779</td><td align="char" valign="top" rowspan="1" colspan="1">(27.4)</td><td align="left" valign="top" rowspan="1" colspan="1">676</td><td align="char" valign="top" rowspan="1" colspan="1">(20.3)</td><td align="left" valign="top" rowspan="1" colspan="1">1103</td><td align="char" valign="top" rowspan="1" colspan="1">(35.0)</td><td align="char" valign="top" rowspan="1" colspan="1" /></tr><tr><td rowspan="2" align="left" valign="top" colspan="1">Histology</td><td align="left" valign="top" rowspan="1" colspan="1">Adenocarcinoma</td><td align="left" valign="top" rowspan="1" colspan="1">6219</td><td align="char" valign="top" rowspan="1" colspan="1">(95.9)</td><td align="left" valign="top" rowspan="1" colspan="1">3227</td><td align="char" valign="top" rowspan="1" colspan="1">(96.8)</td><td align="left" valign="top" rowspan="1" colspan="1">2992</td><td align="char" valign="top" rowspan="1" colspan="1">(95.0)</td><td align="char" valign="top" rowspan="1" colspan="1">&lt;0.001<xref rid="cam46196-note-0004" ref-type="table-fn">
+<sup>b</sup>
+</xref>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Others</td><td align="left" valign="top" rowspan="1" colspan="1">263</td><td align="char" valign="top" rowspan="1" colspan="1">(4.1)</td><td align="left" valign="top" rowspan="1" colspan="1">107</td><td align="char" valign="top" rowspan="1" colspan="1">(3.2)</td><td align="left" valign="top" rowspan="1" colspan="1">156</td><td align="char" valign="top" rowspan="1" colspan="1">(5.0)</td><td align="char" valign="top" rowspan="1" colspan="1" /></tr><tr><td rowspan="5" align="left" valign="top" colspan="1">Chemotherapy</td><td align="left" valign="top" rowspan="1" colspan="1">Irinotecan</td><td align="left" valign="top" rowspan="1" colspan="1">5990</td><td align="char" valign="top" rowspan="1" colspan="1">(92.4)</td><td align="left" valign="top" rowspan="1" colspan="1">3220</td><td align="char" valign="top" rowspan="1" colspan="1">(96.6)</td><td align="left" valign="top" rowspan="1" colspan="1">2770</td><td align="char" valign="top" rowspan="1" colspan="1">(88.0)</td><td align="char" valign="top" rowspan="1" colspan="1">&lt;0.001<xref rid="cam46196-note-0004" ref-type="table-fn">
+<sup>b</sup>
+</xref>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Oxaliplatin</td><td align="left" valign="top" rowspan="1" colspan="1">492</td><td align="char" valign="top" rowspan="1" colspan="1">(7.6)</td><td align="left" valign="top" rowspan="1" colspan="1">114</td><td align="char" valign="top" rowspan="1" colspan="1">(3.4)</td><td align="left" valign="top" rowspan="1" colspan="1">378</td><td align="char" valign="top" rowspan="1" colspan="1">(12.0)</td><td align="char" valign="top" rowspan="1" colspan="1" /></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">5‐FU combination<xref rid="cam46196-note-0003" ref-type="table-fn">
+<sup>a</sup>
+</xref>
+</td><td align="left" valign="top" rowspan="1" colspan="1">5932</td><td align="char" valign="top" rowspan="1" colspan="1">(91.5)</td><td align="left" valign="top" rowspan="1" colspan="1">3037</td><td align="char" valign="top" rowspan="1" colspan="1">(91.1)</td><td align="left" valign="top" rowspan="1" colspan="1">2895</td><td align="char" valign="top" rowspan="1" colspan="1">(92.0)</td><td align="char" valign="top" rowspan="1" colspan="1">0.208</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Tegafur combination</td><td align="left" valign="top" rowspan="1" colspan="1">92</td><td align="char" valign="top" rowspan="1" colspan="1">(1.4)</td><td align="left" valign="top" rowspan="1" colspan="1">40</td><td align="char" valign="top" rowspan="1" colspan="1">(1.2)</td><td align="left" valign="top" rowspan="1" colspan="1">52</td><td align="char" valign="top" rowspan="1" colspan="1">(1.7)</td><td align="char" valign="top" rowspan="1" colspan="1">0.124</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Capecitabine</td><td align="left" valign="top" rowspan="1" colspan="1">241</td><td align="char" valign="top" rowspan="1" colspan="1">(3.7)</td><td align="left" valign="top" rowspan="1" colspan="1">137</td><td align="char" valign="top" rowspan="1" colspan="1">(4.1)</td><td align="left" valign="top" rowspan="1" colspan="1">104</td><td align="char" valign="top" rowspan="1" colspan="1">(3.3)</td><td align="char" valign="top" rowspan="1" colspan="1">0.087</td></tr></tbody></table><table-wrap-foot id="cam46196-ntgp-0001"><fn id="cam46196-note-0001"><p>Abbreviations: EGFR, epidermal growth factor receptor; mAb, monoclonal antibody; 5‐FU, 5‐fluorourocil.</p></fn><fn id="cam46196-note-0002"><p>
+<italic toggle="yes">Note</italic>: All data are presented as <italic toggle="yes">N</italic> (%) unless indicated otherwise.</p></fn><fn id="cam46196-note-0003"><label>
+<sup>a</sup>
+</label><p>Patients may shift between 5‐FU and its analogs.</p></fn><fn id="cam46196-note-0004"><label>
+<sup>b</sup>
+</label><p>
+<italic toggle="yes">p</italic> &lt; 0.05.</p></fn></table-wrap-foot></table-wrap></sec><sec id="cam46196-sec-0012"><label>3.2</label><title>Treatment outcomes</title><p>Compared with the patients who received bevacizumab, the patients who received anti‐EGFR mAb in their first‐line systemic therapy exhibited significantly longer OS (median, 23.1 vs. 20.2 months, <italic toggle="yes">p</italic> = 0.012; Figure <xref rid="cam46196-fig-0001" ref-type="fig">1A</xref>) and TTF (median, 11.3 vs. 10 months, <italic toggle="yes">p</italic> &lt; 0.001; Figure <xref rid="cam46196-fig-0001" ref-type="fig">1B</xref>).</p><fig position="float" fig-type="FIGURE" id="cam46196-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>Kaplan–Meier plots illustrating (A) overall survival and (B) time to treatment failure according to the treatment regimen. <italic toggle="yes">p</italic> values were determined using the log‐rank test. OS, overall survival; TTF, time to treatment failure; anti‐EGFR, anti‐epidermal growth factor receptor.</p></caption><graphic position="anchor" id="jats-graphic-3" orientation="portrait" ns1:href="CAM4-12-15176-g003.jpg" /></fig><p>We further analyzed the treatment outcomes according to the sidedness of the primary tumor. Among the patients with left‐sided mCRC, those who received anti‐EGFR mAb in first‐line systemic therapy exhibited significantly longer OS (median, 24.9 vs. 22.9 months, <italic toggle="yes">p</italic> = 0.021; Figure <xref rid="cam46196-fig-0002" ref-type="fig">2A</xref>) and TTF (median, 12.2 vs. 10.4 months, <italic toggle="yes">p</italic> &lt; 0.001; Figure <xref rid="cam46196-fig-0002" ref-type="fig">2B</xref>) compared with those who received bevacizumab. Among the patients with right‐sided mCRC, those who received either anti‐EGFR mAb or bevacizumab in their first‐line systemic therapy exhibited similar OS (median, 15.6 vs. 16.1 months, <italic toggle="yes">p</italic> = 0.385; Figure <xref rid="cam46196-fig-0002" ref-type="fig">2C</xref>) and TTF (median, 7.6 vs. 8.8 months, <italic toggle="yes">p</italic> = 0.146; Figure <xref rid="cam46196-fig-0002" ref-type="fig">2D</xref>).</p><fig position="float" fig-type="FIGURE" id="cam46196-fig-0002" orientation="portrait"><label>FIGURE 2</label><caption><p>(A–B) Kaplan–Meier plots illustrating (A) overall survival and (B) time to treatment failure according to the treatment regimens of patients with left‐sided primary tumors; (C–D) Kaplan–Meier plots illustrating (C) overall survival and (D) time to treatment failure according to the treatment regimens of patients with right‐sided primary tumors. <italic toggle="yes">p</italic> values were determined using the log‐rank test. OS, overall survival; TTF, time to treatment failure; anti‐EGFR, anti‐epidermal growth factor receptor.</p></caption><graphic position="anchor" id="jats-graphic-5" orientation="portrait" ns1:href="CAM4-12-15176-g002.jpg" /></fig></sec><sec id="cam46196-sec-0013"><label>3.3</label><title>Multivariate analysis</title><p>In the multivariate analyses of the entire cohort data with adjustment for age, gender, sidedness of the primary tumor, initial CRC stage, histology, combination chemotherapy, and hospital level, receiving anti‐EGFR mAb or bevacizumab in combination with first‐line chemotherapy was not associated with OS (hazard ratio [HR] = 0.96, <italic toggle="yes">p</italic> = 0.195). By contrast, the addition of anti‐EGFR mAb as the first‐line targeted therapy remained an independent predictor of longer TTF (HR = 0.91, <italic toggle="yes">p</italic> &lt; 0.001; Table <xref rid="cam46196-tbl-0002" ref-type="table">2</xref>, Table <xref rid="cam46196-supitem-0001" ref-type="supplementary-material">S1</xref>). In addition, right‐sided primary tumor and initial stage IV disease were independent predictors of poor OS and TTF (Table <xref rid="cam46196-supitem-0001" ref-type="supplementary-material">S1</xref>).</p><table-wrap position="float" id="cam46196-tbl-0002" content-type="TABLE" orientation="portrait"><label>TABLE 2</label><caption><p>Cox proportional hazards models for potential predictors of overall survival (OS) and time to treatment failure (TTF).</p></caption><table frame="hsides" rules="groups"><col align="left" span="1" /><col align="char" char="." span="1" /><col align="char" char="." span="1" /><col align="char" char="." span="1" /><col align="char" char="." span="1" /><col align="char" char="." span="1" /><col align="char" char="." span="1" /><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="2" style="border-bottom:solid 1px #000000" valign="bottom" colspan="1">Variable</th><th align="left" colspan="3" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">OS</th><th align="left" colspan="3" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">TTF</th></tr><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">HR</th><th align="left" valign="bottom" rowspan="1" colspan="1">(95% CI)</th><th align="left" valign="bottom" rowspan="1" colspan="1">p</th><th align="left" valign="bottom" rowspan="1" colspan="1">HR</th><th align="left" valign="bottom" rowspan="1" colspan="1">(95% CI)</th><th align="left" valign="bottom" rowspan="1" colspan="1">p</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">Anti‐EGFR mAb (vs. bevacizumab)</td><td align="char" valign="top" rowspan="1" colspan="1">0.96</td><td align="char" valign="top" rowspan="1" colspan="1">(0.90–1.02)</td><td align="char" valign="top" rowspan="1" colspan="1">0.195</td><td align="char" valign="top" rowspan="1" colspan="1">0.91</td><td align="char" valign="top" rowspan="1" colspan="1">(0.86–0.96)</td><td align="char" valign="top" rowspan="1" colspan="1">&lt;0.001<xref rid="cam46196-note-0006" ref-type="table-fn">
+<sup>a</sup>
+</xref>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Age ≥ 70 years</td><td align="char" valign="top" rowspan="1" colspan="1">1.35</td><td align="char" valign="top" rowspan="1" colspan="1">(1.27–1.45)</td><td align="char" valign="top" rowspan="1" colspan="1">&lt;0.001<xref rid="cam46196-note-0006" ref-type="table-fn">
+<sup>a</sup>
+</xref>
+</td><td align="char" valign="top" rowspan="1" colspan="1">1.05</td><td align="char" valign="top" rowspan="1" colspan="1">(0.99‐1.12)</td><td align="char" valign="top" rowspan="1" colspan="1">0.121</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Female</td><td align="char" valign="top" rowspan="1" colspan="1">0.93</td><td align="char" valign="top" rowspan="1" colspan="1">(0.88–0.99)</td><td align="char" valign="top" rowspan="1" colspan="1">0.023<xref rid="cam46196-note-0006" ref-type="table-fn">
+<sup>a</sup>
+</xref>
+</td><td align="char" valign="top" rowspan="1" colspan="1">0.98</td><td align="char" valign="top" rowspan="1" colspan="1">(0.93‐1.03)</td><td align="char" valign="top" rowspan="1" colspan="1">0.413</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Left‐sided (vs. right‐sided)</td><td align="char" valign="top" rowspan="1" colspan="1">0.70</td><td align="char" valign="top" rowspan="1" colspan="1">(0.65–0.75)</td><td align="char" valign="top" rowspan="1" colspan="1">&lt;0.001<xref rid="cam46196-note-0006" ref-type="table-fn">
+<sup>a</sup>
+</xref>
+</td><td align="char" valign="top" rowspan="1" colspan="1">0.79</td><td align="char" valign="top" rowspan="1" colspan="1">(0.74‐0.84)</td><td align="char" valign="top" rowspan="1" colspan="1">&lt;0.001<xref rid="cam46196-note-0006" ref-type="table-fn">
+<sup>a</sup>
+</xref>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Initial stage IV</td><td align="char" valign="top" rowspan="1" colspan="1">1.17</td><td align="char" valign="top" rowspan="1" colspan="1">(1.09–1.25)</td><td align="char" valign="top" rowspan="1" colspan="1">&lt;0.001<xref rid="cam46196-note-0006" ref-type="table-fn">
+<sup>a</sup>
+</xref>
+</td><td align="char" valign="top" rowspan="1" colspan="1">1.26</td><td align="char" valign="top" rowspan="1" colspan="1">(1.19‐1.34)</td><td align="char" valign="top" rowspan="1" colspan="1">&lt;0.001<xref rid="cam46196-note-0006" ref-type="table-fn">
+<sup>a</sup>
+</xref>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Adenocarcinoma histology (vs. others)</td><td align="char" valign="top" rowspan="1" colspan="1">0.94</td><td align="char" valign="top" rowspan="1" colspan="1">(0.81–1.09)</td><td align="char" valign="top" rowspan="1" colspan="1">0.425</td><td align="char" valign="top" rowspan="1" colspan="1">0.95</td><td align="char" valign="top" rowspan="1" colspan="1">(0.83–1.08)</td><td align="char" valign="top" rowspan="1" colspan="1">0.432</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Combination with oxaliplatin (vs. irinotecan)</td><td align="char" valign="top" rowspan="1" colspan="1">1.00</td><td align="char" valign="top" rowspan="1" colspan="1">(0.89–1.13)</td><td align="char" valign="top" rowspan="1" colspan="1">0.994</td><td align="char" valign="top" rowspan="1" colspan="1">1.14</td><td align="char" valign="top" rowspan="1" colspan="1">(1.03–1.26)</td><td align="char" valign="top" rowspan="1" colspan="1">0.014<xref rid="cam46196-note-0006" ref-type="table-fn">
+<sup>a</sup>
+</xref>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Medical center (vs. others)</td><td align="char" valign="top" rowspan="1" colspan="1">0.97</td><td align="char" valign="top" rowspan="1" colspan="1">(0.91–1.03)</td><td align="char" valign="top" rowspan="1" colspan="1">0.271</td><td align="char" valign="top" rowspan="1" colspan="1">1.01</td><td align="char" valign="top" rowspan="1" colspan="1">(0.96–1.07)</td><td align="char" valign="top" rowspan="1" colspan="1">0.675</td></tr></tbody></table><table-wrap-foot id="cam46196-ntgp-0002"><fn id="cam46196-note-0005"><p>Abbreviations: CI, confidence interval; EGFR, epidermal growth factor receptor; HR, Hazard ratio; mAb, monoclonal antibody; OS, overall survival; TTF, time to treatment failure.</p></fn><fn id="cam46196-note-0006"><label>
+<sup>a</sup>
+</label><p>
+<italic toggle="yes">p</italic> &lt; 0.05.</p></fn></table-wrap-foot></table-wrap><p>Because the sidedness of the primary tumor was associated with the choice of first‐line targeted therapy, OS, and TTF (Tables <xref rid="cam46196-tbl-0001" ref-type="table">1</xref> and <xref rid="cam46196-tbl-0002" ref-type="table">2</xref>), we performed separate multivariate analyses for the patients with left‐sided and right‐sided primary tumors. For the patients with left‐sided primary tumors, first‐line anti‐EGFR mAb was an independent predictor of OS (HR = 0.93, <italic toggle="yes">p</italic> = 0.030) and TTF (HR = 0.84, <italic toggle="yes">p</italic> &lt; 0.001; Table <xref rid="cam46196-tbl-0003" ref-type="table">3</xref>). For the patients with right‐sided primary tumors, first‐line anti‐EGFR mAb was not associated with OS (<italic toggle="yes">p</italic> = 0.270) but was an independent predictor of shorter TTF (HR = 1.12, <italic toggle="yes">p</italic> = 0.047; Table <xref rid="cam46196-tbl-0003" ref-type="table">3</xref>). Initial stage IV disease was an independent predictor of poor OS and TTF, regardless of the sidedness of primary tumors (Table <xref rid="cam46196-supitem-0001" ref-type="supplementary-material">S1</xref>).</p><table-wrap position="float" id="cam46196-tbl-0003" content-type="TABLE" orientation="portrait"><label>TABLE 3</label><caption><p>Cox proportional hazards models for potential predictors of overall survival and time to treatment failure, in left‐sided and right‐sided primary tumors, respectively.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1" /><col align="char" char="." span="1" /><col align="char" char="." span="1" /><col align="char" char="." span="1" /><col align="char" char="." span="1" /><col align="char" char="." span="1" /><col align="char" char="." span="1" /><col align="char" char="." span="1" /><col align="char" char="." span="1" /><col align="char" char="." span="1" /><col align="char" char="." span="1" /><col align="char" char="." span="1" /><col align="char" char="." span="1" /><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="3" style="border-bottom:solid 1px #000000" valign="bottom" colspan="1">Variable</th><th align="left" colspan="6" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">Overall Survival</th><th align="left" colspan="6" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">Time to treatment failure</th></tr><tr style="border-bottom:solid 1px #000000"><th align="left" colspan="3" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">Left‐sided</th><th align="left" colspan="3" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">Right‐sided</th><th align="left" colspan="3" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">Left‐sided</th><th align="left" colspan="3" style="border-bottom:solid 1px #000000" valign="bottom" rowspan="1">Right‐sided</th></tr><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">HR</th><th align="left" valign="bottom" rowspan="1" colspan="1">(95% CI)</th><th align="left" valign="bottom" rowspan="1" colspan="1">
+<italic toggle="yes">p</italic>
+</th><th align="left" valign="bottom" rowspan="1" colspan="1">HR</th><th align="left" valign="bottom" rowspan="1" colspan="1">(95% CI)</th><th align="left" valign="bottom" rowspan="1" colspan="1">
+<italic toggle="yes">p</italic>
+</th><th align="left" valign="bottom" rowspan="1" colspan="1">HR</th><th align="left" valign="bottom" rowspan="1" colspan="1">(95% CI)</th><th align="left" valign="bottom" rowspan="1" colspan="1">
+<italic toggle="yes">p</italic>
+</th><th align="left" valign="bottom" rowspan="1" colspan="1">HR</th><th align="left" valign="bottom" rowspan="1" colspan="1">(95% CI)</th><th align="left" valign="bottom" rowspan="1" colspan="1">
+<italic toggle="yes">p</italic>
+</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">Anti‐EGFR mAb (vs. bevacizumab)</td><td align="char" valign="top" rowspan="1" colspan="1">0.93</td><td align="char" valign="top" rowspan="1" colspan="1">(0.86–0.99)</td><td align="char" valign="top" rowspan="1" colspan="1">0.030<xref rid="cam46196-note-0008" ref-type="table-fn">
+<sup>a</sup>
+</xref>
+</td><td align="char" valign="top" rowspan="1" colspan="1">1.07</td><td align="char" valign="top" rowspan="1" colspan="1">(0.95–1.21)</td><td align="char" valign="top" rowspan="1" colspan="1">0.270</td><td align="char" valign="top" rowspan="1" colspan="1">0.84</td><td align="char" valign="top" rowspan="1" colspan="1">(0.79–0.90)</td><td align="char" valign="top" rowspan="1" colspan="1">&lt;0.001<xref rid="cam46196-note-0008" ref-type="table-fn">
+<sup>a</sup>
+</xref>
+</td><td align="char" valign="top" rowspan="1" colspan="1">1.12</td><td align="char" valign="top" rowspan="1" colspan="1">(1.00–1.26)</td><td align="char" valign="top" rowspan="1" colspan="1">0.047<xref rid="cam46196-note-0008" ref-type="table-fn">
+<sup>a</sup>
+</xref>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Age ≥ 70 years</td><td align="char" valign="top" rowspan="1" colspan="1">1.43</td><td align="char" valign="top" rowspan="1" colspan="1">(1.32–1.56)</td><td align="char" valign="top" rowspan="1" colspan="1">&lt;0.001<xref rid="cam46196-note-0008" ref-type="table-fn">
+<sup>a</sup>
+</xref>
+</td><td align="char" valign="top" rowspan="1" colspan="1">1.18</td><td align="char" valign="top" rowspan="1" colspan="1">(1.04–1.35)</td><td align="char" valign="top" rowspan="1" colspan="1">0.011<xref rid="cam46196-note-0008" ref-type="table-fn">
+<sup>a</sup>
+</xref>
+</td><td align="char" valign="top" rowspan="1" colspan="1">1.10</td><td align="char" valign="top" rowspan="1" colspan="1">(1.02‐1.18)</td><td align="char" valign="top" rowspan="1" colspan="1">0.017<xref rid="cam46196-note-0008" ref-type="table-fn">
+<sup>a</sup>
+</xref>
+</td><td align="char" valign="top" rowspan="1" colspan="1">0.95</td><td align="char" valign="top" rowspan="1" colspan="1">(0.84–1.08)</td><td align="char" valign="top" rowspan="1" colspan="1">0.419</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Female</td><td align="char" valign="top" rowspan="1" colspan="1">0.89</td><td align="char" valign="top" rowspan="1" colspan="1">(0.83–0.96)</td><td align="char" valign="top" rowspan="1" colspan="1">0.002<xref rid="cam46196-note-0008" ref-type="table-fn">
+<sup>a</sup>
+</xref>
+</td><td align="char" valign="top" rowspan="1" colspan="1">1.05</td><td align="char" valign="top" rowspan="1" colspan="1">(0.94–1.18)</td><td align="char" valign="top" rowspan="1" colspan="1">0.388</td><td align="char" valign="top" rowspan="1" colspan="1">0.96</td><td align="char" valign="top" rowspan="1" colspan="1">(0.90–1.02)</td><td align="char" valign="top" rowspan="1" colspan="1">0.203</td><td align="char" valign="top" rowspan="1" colspan="1">1.05</td><td align="char" valign="top" rowspan="1" colspan="1">(0.94–1.17)</td><td align="char" valign="top" rowspan="1" colspan="1">0.366</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Initial stage IV</td><td align="char" valign="top" rowspan="1" colspan="1">1.13</td><td align="char" valign="top" rowspan="1" colspan="1">(1.04–1.22)</td><td align="char" valign="top" rowspan="1" colspan="1">0.003<xref rid="cam46196-note-0008" ref-type="table-fn">
+<sup>a</sup>
+</xref>
+</td><td align="char" valign="top" rowspan="1" colspan="1">1.26</td><td align="char" valign="top" rowspan="1" colspan="1">(1.10–1.45)</td><td align="char" valign="top" rowspan="1" colspan="1">0.001<xref rid="cam46196-note-0008" ref-type="table-fn">
+<sup>a</sup>
+</xref>
+</td><td align="char" valign="top" rowspan="1" colspan="1">1.25</td><td align="char" valign="top" rowspan="1" colspan="1">(1.16–1.34)</td><td align="char" valign="top" rowspan="1" colspan="1">&lt;0.001<xref rid="cam46196-note-0008" ref-type="table-fn">
+<sup>a</sup>
+</xref>
+</td><td align="char" valign="top" rowspan="1" colspan="1">1.27</td><td align="char" valign="top" rowspan="1" colspan="1">(1.12–1.46)</td><td align="char" valign="top" rowspan="1" colspan="1">&lt;0.001<xref rid="cam46196-note-0008" ref-type="table-fn">
+<sup>a</sup>
+</xref>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Adenocarcinoma histology (vs. others)</td><td align="char" valign="top" rowspan="1" colspan="1">0.82</td><td align="char" valign="top" rowspan="1" colspan="1">(0.69–0.97)</td><td align="char" valign="top" rowspan="1" colspan="1">0.022<xref rid="cam46196-note-0008" ref-type="table-fn">
+<sup>a</sup>
+</xref>
+</td><td align="char" valign="top" rowspan="1" colspan="1">1.27</td><td align="char" valign="top" rowspan="1" colspan="1">(0.93–1.73)</td><td align="char" valign="top" rowspan="1" colspan="1">0.132</td><td align="char" valign="top" rowspan="1" colspan="1">0.87</td><td align="char" valign="top" rowspan="1" colspan="1">(0.75–1.02)</td><td align="char" valign="top" rowspan="1" colspan="1">0.082</td><td align="char" valign="top" rowspan="1" colspan="1">1.16</td><td align="char" valign="top" rowspan="1" colspan="1">(0.87–1.53)</td><td align="char" valign="top" rowspan="1" colspan="1">0.307</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Combination with oxaliplatin (vs. irinotecan)</td><td align="char" valign="top" rowspan="1" colspan="1">0.98</td><td align="char" valign="top" rowspan="1" colspan="1">(0.85–1.14)</td><td align="char" valign="top" rowspan="1" colspan="1">0.821</td><td align="char" valign="top" rowspan="1" colspan="1">1.04</td><td align="char" valign="top" rowspan="1" colspan="1">(0.82–1.32)</td><td align="char" valign="top" rowspan="1" colspan="1">0.737</td><td align="char" valign="top" rowspan="1" colspan="1">1.14</td><td align="char" valign="top" rowspan="1" colspan="1">(1.01–1.28)</td><td align="char" valign="top" rowspan="1" colspan="1">0.037<xref rid="cam46196-note-0008" ref-type="table-fn">
+<sup>a</sup>
+</xref>
+</td><td align="char" valign="top" rowspan="1" colspan="1">1.11</td><td align="char" valign="top" rowspan="1" colspan="1">(0.90–1.38)</td><td align="char" valign="top" rowspan="1" colspan="1">0.331</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Medical center (vs. others)</td><td align="char" valign="top" rowspan="1" colspan="1">0.97</td><td align="char" valign="top" rowspan="1" colspan="1">(0.90–1.04)</td><td align="char" valign="top" rowspan="1" colspan="1">0.368</td><td align="char" valign="top" rowspan="1" colspan="1">0.97</td><td align="char" valign="top" rowspan="1" colspan="1">(0.86–1.09)</td><td align="char" valign="top" rowspan="1" colspan="1">0.605</td><td align="char" valign="top" rowspan="1" colspan="1">1.02</td><td align="char" valign="top" rowspan="1" colspan="1">(0.96–1.08)</td><td align="char" valign="top" rowspan="1" colspan="1">0.550</td><td align="char" valign="top" rowspan="1" colspan="1">0.99</td><td align="char" valign="top" rowspan="1" colspan="1">(0.89–1.11)</td><td align="char" valign="top" rowspan="1" colspan="1">0.920</td></tr></tbody></table><table-wrap-foot id="cam46196-ntgp-0003"><fn id="cam46196-note-0007"><p>Abbreviations: CI, confidence interval; EGFR, epidermal growth factor receptor; HR, Hazard ratio; mAb, monoclonal antibody.</p></fn><fn id="cam46196-note-0008"><label>
+<sup>a</sup>
+</label><p>
+<italic toggle="yes">p</italic> &lt; 0.05.</p></fn></table-wrap-foot></table-wrap></sec><sec id="cam46196-sec-0014"><label>3.4</label><title>Secondary surgery</title><p>Among the 6482 patients in this study, 1685 (26.0%) received secondary surgery after the initiation of first‐line systemic therapy. The patients who received secondary surgery exhibited significantly longer OS than the patients who did not (median, 37.9 vs. 17.2 months, <italic toggle="yes">p</italic> &lt; 0.001; Figure <xref rid="cam46196-fig-0003" ref-type="fig">3A</xref>). The patients who received anti‐EGFR had a significantly higher chance of undergoing secondary surgery (29.6% vs. 22.6%, <italic toggle="yes">p</italic> &lt; 0.001) and a significantly shorter time to secondary surgery compared with the patients who received bevacizumab (<italic toggle="yes">p</italic> &lt; 0.001, Figure <xref rid="cam46196-fig-0003" ref-type="fig">3B</xref>). Among the patients who received secondary surgery, the median time to secondary surgery was 5.7 months in the anti‐EGFR mAb group and 7.1 months in the bevacizumab group.</p><fig position="float" fig-type="FIGURE" id="cam46196-fig-0003" orientation="portrait"><label>FIGURE 3</label><caption><p>(A) Kaplan–Meier plots illustrating the overall survival of patients according to whether they received secondary surgery or radiofrequency ablation (RFA); (B–D) Kaplan–Meier plots illustrating time to secondary surgery or RFA according to the treatment regimens of the (B) whole population, (C) patients with left‐sided primary tumors, and (D) patients with right‐sided primary tumors. <italic toggle="yes">p</italic> values were determined using the log‐rank test. OS, overall survival; anti‐EGFR, anti‐epidermal growth factor; 2nd, secondary.</p></caption><graphic position="anchor" id="jats-graphic-7" orientation="portrait" ns1:href="CAM4-12-15176-g004.jpg" /></fig><p>For the patients with left‐sided primary tumors, those who received anti‐EGFR had a significantly higher chance of undergoing secondary surgery (31.1% vs. 23.6%, <italic toggle="yes">p</italic> &lt; 0.001) and a significantly shorter time to secondary surgery compared with those who received bevacizumab (Figure <xref rid="cam46196-fig-0003" ref-type="fig">3C</xref>). Among the patients with left‐sided primary tumors who received secondary surgery, the median time to secondary surgery was 5.7 months in the anti‐EGFR mAb group and 7.2 months in the bevacizumab group.</p><p>For the patients with right‐sided primary tumors, those who received anti‐EGFR had a higher chance of undergoing secondary surgery (23.4% vs. 19.9%, <italic toggle="yes">p</italic> = 0.113) and a significantly shorter time to secondary surgery compared with those who received bevacizumab (Figure <xref rid="cam46196-fig-0003" ref-type="fig">3D</xref>). Among the patients with right‐sided primary tumors who underwent secondary surgery, the median time to secondary surgery was 5.8 months in the anti‐EGFR mAb group and 6.7 months in the bevacizumab group.</p></sec></sec><sec sec-type="discussion" id="cam46196-sec-0015"><label>4</label><title>DISCUSSION</title><p>In this nationwide cohort study, we demonstrated that among patients who received first‐line chemotherapy doublets for inoperable <italic toggle="yes">KRAS</italic> wild‐type mCRC, the addition of anti‐EGFR mAb led to significantly longer OS and TTF compared with the addition of bevacizumab. This benefit was mainly observed in the patients with left‐sided primary tumors. In the multivariate analysis, anti‐EGFR mAb treatment remained an independent predictor of longer OS and TTF among those with left‐sided primary tumors. To the best of our knowledge, this is the largest (<italic toggle="yes">n</italic> = 6482) cohort study focusing on this topic.</p><p>Our study results are compatible with those of the FIRE‐3 and PARADIGM randomized clinical trial studies, which have demonstrated that patients who receive anti‐EGFR mAb exhibit significantly longer OS than patients who receive bevacizumab in combination with a chemotherapy doublet.<xref rid="cam46196-bib-0007" ref-type="bibr">
+<sup>7</sup>
+</xref>, <xref rid="cam46196-bib-0008" ref-type="bibr">
+<sup>8</sup>
+</xref>, <xref rid="cam46196-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref>, <xref rid="cam46196-bib-0010" ref-type="bibr">
+<sup>10</sup>
+</xref>, <xref rid="cam46196-bib-0011" ref-type="bibr">
+<sup>11</sup>
+</xref>, <xref rid="cam46196-bib-0017" ref-type="bibr">
+<sup>17</sup>
+</xref> However, the phase III CALGB 80405 study reported similar OS between patients who received either bevacizumab or cetuximab as the combination targeted therapy agents.<xref rid="cam46196-bib-0005" ref-type="bibr">
+<sup>5</sup>
+</xref>, <xref rid="cam46196-bib-0006" ref-type="bibr">
+<sup>6</sup>
+</xref>, <xref rid="cam46196-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref> A pooled analysis of these three studies indicated that anti‐EGFR mAb as the first‐line targeted agent for <italic toggle="yes">RAS</italic> wild‐type mCRC significantly benefitted OS, especially in patients with left‐sided mCRC.<xref rid="cam46196-bib-0018" ref-type="bibr">
+<sup>18</sup>
+</xref> In Taiwan, our recent treatment consensus also addressed the importance of first‐line anti‐EGFR mAb in combination with the chemotherapy doublet, especially for left‐sided tumors and for therapy with curative intent.<xref rid="cam46196-bib-0019" ref-type="bibr">
+<sup>19</sup>
+</xref>
+</p><p>The association between the sidedness of primary tumors and the efficacy of anti‐EGFR mAb has been reported in many unplanned subgroup analyses of randomized studies.<xref rid="cam46196-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref>, <xref rid="cam46196-bib-0020" ref-type="bibr">
+<sup>20</sup>
+</xref>, <xref rid="cam46196-bib-0021" ref-type="bibr">
+<sup>21</sup>
+</xref>, <xref rid="cam46196-bib-0022" ref-type="bibr">
+<sup>22</sup>
+</xref> A meta‐analysis of 12 randomized studies with propensity score matching verified this association<xref rid="cam46196-bib-0023" ref-type="bibr">
+<sup>23</sup>
+</xref>; however, this study did not include the aforementioned FIRE‐3 and PEAK studies. Thus, it was not surprising that the study did not reveal anti‐EGFR mAb to be more effective than bevacizumab as the companion targeted therapy in first‐line systemic treatment for left‐sided <italic toggle="yes">KRAS</italic> wild‐type mCRC. In another meta‐analysis of six main clinical studies including FIRE‐3 and PEAK studies, the benefit of anti‐EGFR mAb for left‐sided <italic toggle="yes">KRAS</italic> wild‐type mCRC was disclosed.<xref rid="cam46196-bib-0024" ref-type="bibr">
+<sup>24</sup>
+</xref> Currently, anti‐EGFR mAb is suggested with the preferred regimen for left‐sided <italic toggle="yes">KRAS</italic> wild‐type mCRC in most updated guidelines.<xref rid="cam46196-bib-0025" ref-type="bibr">
+<sup>25</sup>
+</xref>, <xref rid="cam46196-bib-0026" ref-type="bibr">
+<sup>26</sup>
+</xref>
+</p><p>We determined several possible reasons for the survival benefit of first‐line anti‐EGFR mAb, especially in patients with left‐sided primary tumors, in a single population without the need for combining multiple cohorts. We studied an unselected nationwide cohort with a large sample size through multivariate analysis. In addition, over 90% of the patients received irinotecan as the companion chemotherapy instead of oxaliplatin. The results of several clinical trials revealed that irinotecan‐based doublet chemotherapy in combination with targeted therapy led to longer PFS and OS, although these were nonsignificant, than oxaliplatin‐based doublet chemotherapy.<xref rid="cam46196-bib-0027" ref-type="bibr">
+<sup>27</sup>
+</xref>, <xref rid="cam46196-bib-0028" ref-type="bibr">
+<sup>28</sup>
+</xref>, <xref rid="cam46196-bib-0029" ref-type="bibr">
+<sup>29</sup>
+</xref> These results imply that irinotecan might exert more synergistic effects in combination with targeted therapy than oxaliplatin.<xref rid="cam46196-bib-0030" ref-type="bibr">
+<sup>30</sup>
+</xref>
+</p><p>Whether anti‐EGFR mAb can be considered a first‐line targeted therapy option for patients with right‐sided primary tumors remains controversial. In the National Comprehensive Cancer Network guideline, its use is not favored in patients with expanded <italic toggle="yes">RAS</italic> wild‐type right‐sided mCRC.<xref rid="cam46196-bib-0031" ref-type="bibr">
+<sup>31</sup>
+</xref> Contrarily, in the pan‐Asian adapted European Society for Medical Oncology guideline, anti‐EGFR mAb plus a chemotherapy doublet is as an option for patients who were unsuitable for bevacizumab plus a chemotherapy triplet.<xref rid="cam46196-bib-0004" ref-type="bibr">
+<sup>4</sup>
+</xref> In our data, among the patients with right‐sided primary tumors, those who received bevacizumab exhibited significantly longer TTF than those who received anti‐EGFR mAb, but this difference in TTF did not translate to longer OS. Our data support the use of anti‐EGFR mAb as one of the first‐line options for targeted therapy for right‐sided mCRC, which is in line with a consensus guideline in Taiwan.<xref rid="cam46196-bib-0019" ref-type="bibr">
+<sup>19</sup>
+</xref>
+</p><p>Secondary surgery after first‐line treatment for mCRC provides a crucial chance of cure.<xref rid="cam46196-bib-0008" ref-type="bibr">
+<sup>8</sup>
+</xref>, <xref rid="cam46196-bib-0032" ref-type="bibr">
+<sup>32</sup>
+</xref> When combined with doublet chemotherapy, anti‐EGFR mAb resulted in more frequent early tumor shrinkage and a deeper objective tumor response than bevacizumab,<xref rid="cam46196-bib-0033" ref-type="bibr">
+<sup>33</sup>
+</xref> which could lead to a higher secondary resection rate. However, in the PEAK study, the secondary resection rate was 14.7% and 16.2% in the panitumumab and bevacizumab arms, respectively.<xref rid="cam46196-bib-0034" ref-type="bibr">
+<sup>34</sup>
+</xref> In the DEEPER trial, cetuximab in combination with triplet chemotherapy induced significantly deeper tumor responses compared with bevacizumab plus a chemotherapy triplet<xref rid="cam46196-bib-0035" ref-type="bibr">
+<sup>35</sup>
+</xref>; however, the secondary resection rate was similar between the two arms. Furthermore, in the PARADIGM study, the secondary resection rate was 16.5% and 10.9% in the panitumumab and bevacizumab arms, respectively.<xref rid="cam46196-bib-0017" ref-type="bibr">
+<sup>17</sup>
+</xref> Our study indicated that anti‐EGFR mAb plus chemotherapy led to significantly higher secondary resection rates, regardless of the primary tumor location, which was compatible with the results in the PARADIGM study. Because of the retrospective nature of our study, we could not adjust for other critical confounding factors, such as tumor size and metastatic site. Whether anti‐EGFR mAb results in a higher secondary surgery rate must be further explored.</p><p>Our current study had some limitations. First, the data of prescriptions not reimbursed through NHI were unavailable, including those of second‐line bevacizumab treatment or immunotherapy paid for by patients themselves. However, our data reflected the actual scenario when second‐line targeted therapy was not reimbursed. Second, information on genetic aberrations other than <italic toggle="yes">KRAS</italic> mutations, such as <italic toggle="yes">BRAF</italic> and DNA mismatch repair status, was unavailable. Instead, our data implied that even in the population that exhibited the <italic toggle="yes">NRAS</italic> or <italic toggle="yes">BRAF</italic> mutation, bevacizumab as a first‐line targeted therapy did not offer greater survival benefits over anti‐EGFR mAb. Immunotherapy was proven to be beneficial for microsatellite instability‐high colorectal cancer in multiple clinical trials,<xref rid="cam46196-bib-0036" ref-type="bibr">
+<sup>36</sup>
+</xref>, <xref rid="cam46196-bib-0037" ref-type="bibr">
+<sup>37</sup>
+</xref>, <xref rid="cam46196-bib-0038" ref-type="bibr">
+<sup>38</sup>
+</xref> but the enrollment period of our study was before the publication of these results. Many genetic alterations were found to be predictive of the efficacy of specific therapies, such as <italic toggle="yes">HER2</italic> amplification and tumor mutation burden.<xref rid="cam46196-bib-0039" ref-type="bibr">
+<sup>39</sup>
+</xref> However, the evidence of these genetic alterations were for salvage therapy rather than first‐line therapy. Finally, as mentioned, we could not verify whether the disease extent before systemic therapy differed between the anti‐EGFR mAb group and bevacizumab group.</p><p>In conclusion, for the patients who received first‐line doublet chemotherapy for <italic toggle="yes">KRAS</italic> wild‐type mCRC, the addition of anti‐EGFR mAb was associated with significantly longer OS and TTF than the addition of bevacizumab, especially for those with left‐sided primary tumors.</p></sec><sec id="cam46196-sec-0022"><title>AUTHOR CONTRIBUTIONS</title><p>
+<bold>Yi‐Hsin Liang:</bold> Conceptualization (equal); funding acquisition (equal); investigation (equal); methodology (equal); project administration (equal); resources (equal); writing – original draft (equal). <bold>Kuo‐Hsing Chen:</bold> Conceptualization (equal); validation (equal); writing – review and editing (equal). <bold>Yu‐Yun Shao:</bold> Resources (equal); software (equal); supervision (equal); validation (equal); visualization (equal); writing – original draft (equal); writing – review and editing (equal).</p></sec><sec id="cam46196-sec-0017"><title>FUNDING INFORMATION</title><p>This study was supported by Ministry of Science and Technology, Taiwan (MOST 105‐2314‐B‐002‐194, MOST 106‐2314‐B‐002‐213, MOST 108‐2314‐B‐002‐072‐MY3, and MOST 111‐2314‐B‐002‐120); National Taiwan University Hospital, Taipei, Taiwan(NTUH 105‐S2954, NTUH 108‐S4150); and the Science and Technology Unit, Ministry of Health and Welfare, Taiwan (DOH102‐NH‐9002 and MOHW112‐TDU‐B‐211‐144‐002).</p></sec><sec sec-type="COI-statement" id="cam46196-sec-0018"><title>CONFLICT OF INTEREST STATEMENT</title><p>All authors claim that there is no any conflict of interest.</p></sec><sec id="cam46196-sec-0021"><title>ETHICS STATEMENT</title><p>All results in our study were approved by the Institutional Review Board of National Taiwan University Hospital (Certification number: NTUH#202206062 W).</p><p>All personal data were encrypted and analyzed anonymously.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="cam46196-supitem-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>
+Appendix S1
+</p></caption><media ns1:href="CAM4-12-15176-s001.docx" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="cam46196-sec-0016"><title>ACKNOWLEDGEMENTS</title><p>We would like to acknowledge the service provided by the RCF5 Lab. of the Department of Medical Research at National Taiwan University Hospital.</p></ack><sec sec-type="data-availability" id="cam46196-sec-0020"><title>DATA AVAILABILITY STATEMENT</title><p>These three national databases were stored separately and are available only to researchers who officially apply for access. Requests for copies of the data set can be made directly to the authoritative body.<xref rid="cam46196-bib-0040" ref-type="bibr">
+<sup>40</sup>
+</xref>, <xref rid="cam46196-bib-0041" ref-type="bibr">
+<sup>41</sup>
+</xref>
+</p></sec><ref-list content-type="cited-references" id="cam46196-bibl-0001"><title>REFERENCES</title><ref id="cam46196-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="cam46196-cit-0001">
+<string-name name-style="western">
+<surname>Kao</surname>
+<given-names>CW</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chiang</surname>
+<given-names>CJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lin</surname>
+<given-names>LJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Huang</surname>
+<given-names>CW</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lee</surname>
+<given-names>WC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lee</surname>
+<given-names>MY</given-names>
+</string-name>. <article-title>Accuracy of long‐form data in the Taiwan cancer registry</article-title>. <source>J Formos Med Assoc</source>. <year>2021</year>;<volume>120</volume>:<fpage>2037</fpage>‐<lpage>2041</lpage>.<pub-id pub-id-type="pmid">34020856</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.jfma.2021.04.022</pub-id></mixed-citation></ref><ref id="cam46196-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="cam46196-cit-0002">
+<string-name name-style="western">
+<surname>Sung</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ferlay</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Siegel</surname>
+<given-names>RL</given-names>
+</string-name>, et al. <article-title>Global cancer statistics 2020: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries</article-title>. <source>CA Cancer J Clin</source>. <year>2021</year>;<volume>71</volume>:<fpage>209</fpage>‐<lpage>249</lpage>.<pub-id pub-id-type="pmid">33538338</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3322/caac.21660</pub-id></mixed-citation></ref><ref id="cam46196-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="cam46196-cit-0003">
+<string-name name-style="western">
+<surname>Van Cutsem</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cervantes</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Adam</surname>
+<given-names>R</given-names>
+</string-name>, et al. <article-title>ESMO consensus guidelines for the management of patients with metastatic colorectal cancer</article-title>. <source>Ann Oncol</source>. <year>2016</year>;<volume>27</volume>:<fpage>1386</fpage>‐<lpage>1422</lpage>.<pub-id pub-id-type="pmid">27380959</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/annonc/mdw235</pub-id></mixed-citation></ref><ref id="cam46196-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="cam46196-cit-0004">
+<string-name name-style="western">
+<surname>Yoshino</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Arnold</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Taniguchi</surname>
+<given-names>H</given-names>
+</string-name>, et al. <article-title>Pan‐Asian adapted ESMO consensus guidelines for the management of patients with metastatic colorectal cancer: a JSMO‐ESMO initiative endorsed by CSCO, KACO, MOS, SSO and TOS</article-title>. <source>Ann Oncol</source>. <year>2018</year>;<volume>29</volume>:<fpage>44</fpage>‐<lpage>70</lpage>.<pub-id pub-id-type="pmid">29155929</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/annonc/mdx738</pub-id></mixed-citation></ref><ref id="cam46196-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="cam46196-cit-0005">
+<string-name name-style="western">
+<surname>Innocenti</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ou</surname>
+<given-names>FS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Qu</surname>
+<given-names>X</given-names>
+</string-name>, et al. <article-title>Mutational analysis of patients with colorectal cancer in CALGB/SWOG 80405 identifies new roles of microsatellite instability and tumor mutational burden for patient outcome</article-title>. <source>J Clin Oncol</source>. <year>2019</year>;<volume>37</volume>:<fpage>1217</fpage>‐<lpage>1227</lpage>.<pub-id pub-id-type="pmid">30865548</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1200/JCO.18.01798</pub-id><pub-id pub-id-type="pmcid">PMC6506418</pub-id></mixed-citation></ref><ref id="cam46196-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="cam46196-cit-0006">
+<string-name name-style="western">
+<surname>Venook</surname>
+<given-names>AP</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Niedzwiecki</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lenz</surname>
+<given-names>HJ</given-names>
+</string-name>, et al. <article-title>Effect of first‐line chemotherapy combined with cetuximab or bevacizumab on overall survival in patients with KRAS wild‐type advanced or metastatic colorectal cancer: a randomized clinical trial</article-title>. <source>JAMA</source>. <year>2017</year>;<volume>317</volume>:<fpage>2392</fpage>‐<lpage>2401</lpage>.<pub-id pub-id-type="pmid">28632865</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1001/jama.2017.7105</pub-id><pub-id pub-id-type="pmcid">PMC5545896</pub-id></mixed-citation></ref><ref id="cam46196-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="cam46196-cit-0007">
+<string-name name-style="western">
+<surname>Heinemann</surname>
+<given-names>V</given-names>
+</string-name>, <string-name name-style="western">
+<surname>von Weikersthal</surname>
+<given-names>LF</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Decker</surname>
+<given-names>T</given-names>
+</string-name>, et al. <article-title>FOLFIRI plus cetuximab or bevacizumab for advanced colorectal cancer: final survival and per‐protocol analysis of FIRE‐3, a randomised clinical trial</article-title>. <source>Br J Cancer</source>. <year>2021</year>;<volume>124</volume>:<fpage>587</fpage>‐<lpage>594</lpage>.<pub-id pub-id-type="pmid">33154570</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41416-020-01140-9</pub-id><pub-id pub-id-type="pmcid">PMC7851157</pub-id></mixed-citation></ref><ref id="cam46196-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="cam46196-cit-0008">
+<string-name name-style="western">
+<surname>Modest</surname>
+<given-names>DP</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Heinemann</surname>
+<given-names>V</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Folprecht</surname>
+<given-names>G</given-names>
+</string-name>, et al. <article-title>Factors that influence conversion to Resectability and survival after resection of metastases in RAS WT metastatic colorectal cancer (mCRC): analysis of FIRE‐3‐ AIOKRK0306</article-title>. <source>Ann Surg Oncol</source>. <year>2020</year>;<volume>27</volume>:<fpage>2389</fpage>‐<lpage>2401</lpage>.<pub-id pub-id-type="pmid">32172334</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1245/s10434-020-08219-w</pub-id><pub-id pub-id-type="pmcid">PMC7311511</pub-id></mixed-citation></ref><ref id="cam46196-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="cam46196-cit-0009">
+<string-name name-style="western">
+<surname>Boeckx</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Koukakis</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Op de Beeck</surname>
+<given-names>K</given-names>
+</string-name>, et al. <article-title>Primary tumor sidedness has an impact on prognosis and treatment outcome in metastatic colorectal cancer: results from two randomized first‐line panitumumab studies</article-title>. <source>Ann Oncol</source>. <year>2017</year>;<volume>28</volume>:<fpage>1862</fpage>‐<lpage>1868</lpage>.<pub-id pub-id-type="pmid">28449055</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/annonc/mdx119</pub-id><pub-id pub-id-type="pmcid">PMC5834073</pub-id></mixed-citation></ref><ref id="cam46196-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="cam46196-cit-0010">
+<string-name name-style="western">
+<surname>Froelich</surname>
+<given-names>MF</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Petersen</surname>
+<given-names>EL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Heinemann</surname>
+<given-names>V</given-names>
+</string-name>, et al. <article-title>Impact of size and location of metastases on early tumor shrinkage and depth of response in patients with metastatic colorectal cancer: subgroup findings of the randomized, open‐label phase 3 trial FIRE‐3/AIO KRK‐0306</article-title>. <source>Clin Colorectal Cancer</source>. <year>2020</year>;<volume>19</volume>:<fpage>291</fpage>‐<lpage>300.e295</lpage>.<pub-id pub-id-type="pmid">32917529</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.clcc.2020.06.005</pub-id></mixed-citation></ref><ref id="cam46196-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="cam46196-cit-0011">
+<string-name name-style="western">
+<surname>Taieb</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rivera</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Siena</surname>
+<given-names>S</given-names>
+</string-name>, et al. <article-title>Exploratory analyses assessing the impact of early tumour shrinkage and depth of response on survival outcomes in patients with RAS wild‐type metastatic colorectal cancer receiving treatment in three randomised panitumumab trials</article-title>. <source>J Cancer Res Clin Oncol</source>. <year>2018</year>;<volume>144</volume>:<fpage>321</fpage>‐<lpage>335</lpage>.<pub-id pub-id-type="pmid">29080924</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s00432-017-2534-z</pub-id><pub-id pub-id-type="pmcid">PMC5794806</pub-id></mixed-citation></ref><ref id="cam46196-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="cam46196-cit-0012">
+<string-name name-style="western">
+<surname>Watanabe</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Muro</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shitara</surname>
+<given-names>K</given-names>
+</string-name>, et al. <article-title>Panitumumab vs bevacizumab added to standard first‐line chemotherapy and overall survival among patients with RAS wild‐type, left‐sided metastatic colorectal cancer: a randomized clinical trial</article-title>. <source>JAMA</source>. <year>2023</year>;<volume>329</volume>:<fpage>1271</fpage>‐<lpage>1282</lpage>.<pub-id pub-id-type="pmid">37071094</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1001/jama.2023.4428</pub-id><pub-id pub-id-type="pmcid">PMC10114040</pub-id></mixed-citation></ref><ref id="cam46196-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="cam46196-cit-0013">
+<string-name name-style="western">
+<surname>Fang</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shia</surname>
+<given-names>BC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ma</surname>
+<given-names>S</given-names>
+</string-name>. <article-title>Health insurance coverage, medical expenditure and coping strategy: evidence from Taiwan</article-title>. <source>BMC Health Serv Res</source>. <year>2012</year>;<volume>12</volume>:<elocation-id>442</elocation-id>.<pub-id pub-id-type="pmid">23206690</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/1472-6963-12-442</pub-id><pub-id pub-id-type="pmcid">PMC3519736</pub-id></mixed-citation></ref><ref id="cam46196-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="cam46196-cit-0014">
+<string-name name-style="western">
+<surname>Liang</surname>
+<given-names>YH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shao</surname>
+<given-names>YY</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chen</surname>
+<given-names>HM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cheng</surname>
+<given-names>AL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lai</surname>
+<given-names>MS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yeh</surname>
+<given-names>KH</given-names>
+</string-name>. <article-title>Irinotecan and oxaliplatin might provide equal benefit as adjuvant chemotherapy for patients with Resectable synchronous colon cancer and liver‐confined metastases: a Nationwide database study</article-title>. <source>Anticancer Res</source>. <year>2017</year>;<volume>37</volume>:<fpage>7095</fpage>‐<lpage>7104</lpage>.<pub-id pub-id-type="pmid">29187501</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.21873/anticanres.12183</pub-id></mixed-citation></ref><ref id="cam46196-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="cam46196-cit-0015">
+<string-name name-style="western">
+<surname>Liang</surname>
+<given-names>YH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shao</surname>
+<given-names>YY</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liao</surname>
+<given-names>BC</given-names>
+</string-name>, et al. <article-title>Cytotoxic chemotherapy as first‐line therapy for advanced non‐small‐cell lung cancer in Taiwan: daily practice</article-title>. <source>J Cancer</source>. <year>2016</year>;<volume>7</volume>:<fpage>1515</fpage>‐<lpage>1523</lpage>.<pub-id pub-id-type="pmid">27471567</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.7150/jca.15180</pub-id><pub-id pub-id-type="pmcid">PMC4964135</pub-id></mixed-citation></ref><ref id="cam46196-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="cam46196-cit-0016">
+<string-name name-style="western">
+<surname>Cunningham</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lang</surname>
+<given-names>I</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Marcuello</surname>
+<given-names>E</given-names>
+</string-name>, et al. <article-title>Bevacizumab plus capecitabine versus capecitabine alone in elderly patients with previously untreated metastatic colorectal cancer (AVEX): an open‐label, randomised phase 3 trial</article-title>. <source>Lancet Oncol</source>. <year>2013</year>;<volume>14</volume>:<fpage>1077</fpage>‐<lpage>1085</lpage>.<pub-id pub-id-type="pmid">24028813</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/S1470-2045(13)70154-2</pub-id></mixed-citation></ref><ref id="cam46196-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="cam46196-cit-0017">
+<string-name name-style="western">
+<surname>Yoshino</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Watanabe</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shitara</surname>
+<given-names>K</given-names>
+</string-name>, et al. <article-title>Panitumumab (PAN) plus mFOLFOX6 versus bevacizumab (BEV) plus mFOLFOX6 as first‐line treatment in patients with RAS wild‐type (WT) metastatic colorectal cancer (mCRC): results from the phase 3 PARADIGM trial</article-title>. <source>J Clin Oncol</source>. <year>2022</year>;<volume>40</volume>:<elocation-id>LBA1‐LBA1</elocation-id>.</mixed-citation></ref><ref id="cam46196-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="cam46196-cit-0018">
+<string-name name-style="western">
+<surname>Jiang</surname>
+<given-names>W</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yu</surname>
+<given-names>Q</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ning</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhao</surname>
+<given-names>W</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wei</surname>
+<given-names>C</given-names>
+</string-name>. <article-title>Efficacy of bevacizumab versus epidermal growth factor receptor inhibitors for wild‐type RAS metastatic colorectal cancer: a meta‐analysis</article-title>. <source>Onco Targets Ther</source>. <year>2018</year>;<volume>11</volume>:<fpage>4271</fpage>‐<lpage>4281</lpage>.<pub-id pub-id-type="pmid">30100734</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.2147/OTT.S168695</pub-id><pub-id pub-id-type="pmcid">PMC6065471</pub-id></mixed-citation></ref><ref id="cam46196-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="cam46196-cit-0019">
+<string-name name-style="western">
+<surname>Chen</surname>
+<given-names>HH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ke</surname>
+<given-names>TW</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Huang</surname>
+<given-names>CW</given-names>
+</string-name>, et al. <article-title>Taiwan Society of Colon and Rectal Surgeons Consensus on mCRC treatment</article-title>. <source>Front Oncol</source>. <year>2021</year>;<volume>11</volume>:<elocation-id>764912</elocation-id>.<pub-id pub-id-type="pmid">34868987</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3389/fonc.2021.764912</pub-id><pub-id pub-id-type="pmcid">PMC8634841</pub-id></mixed-citation></ref><ref id="cam46196-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="cam46196-cit-0020">
+<string-name name-style="western">
+<surname>Grassadonia</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Di Marino</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ficorella</surname>
+<given-names>C</given-names>
+</string-name>, et al. <article-title>Impact of primary tumor location in patients with RAS wild‐type metastatic colon cancer treated with first‐line chemotherapy plus anti‐EGFR or anti‐VEGF monoclonal antibodies: a retrospective multicenter study</article-title>. <source>J Cancer</source>. <year>2019</year>;<volume>10</volume>:<fpage>5926</fpage>‐<lpage>5934</lpage>.<pub-id pub-id-type="pmid">31762802</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.7150/jca.34550</pub-id><pub-id pub-id-type="pmcid">PMC6856567</pub-id></mixed-citation></ref><ref id="cam46196-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="cam46196-cit-0021">
+<string-name name-style="western">
+<surname>Benavides</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Díaz‐Rubio</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Carrato</surname>
+<given-names>A</given-names>
+</string-name>, et al. <article-title>Tumour location and efficacy of first‐line EGFR inhibitors in KRAS/RAS wild‐type metastatic colorectal cancer: retrospective analyses of two phase II randomised Spanish TTD trials</article-title>. <source>ESMO Open</source>. <year>2019</year>;<volume>4</volume>:<elocation-id>e000599</elocation-id>.<pub-id pub-id-type="pmid">31803504</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1136/esmoopen-2019-000599</pub-id><pub-id pub-id-type="pmcid">PMC6890384</pub-id></mixed-citation></ref><ref id="cam46196-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="cam46196-cit-0022">
+<string-name name-style="western">
+<surname>Modest</surname>
+<given-names>DP</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Stintzing</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>von Weikersthal</surname>
+<given-names>LF</given-names>
+</string-name>, et al. <article-title>Exploring the effect of primary tumor sidedness on therapeutic efficacy across treatment lines in patients with metastatic colorectal cancer: analysis of FIRE‐3 (AIOKRK0306)</article-title>. <source>Oncotarget</source>. <year>2017</year>;<volume>8</volume>:<fpage>105749</fpage>‐<lpage>105760</lpage>.<pub-id pub-id-type="pmid">29285289</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.18632/oncotarget.22396</pub-id><pub-id pub-id-type="pmcid">PMC5739676</pub-id></mixed-citation></ref><ref id="cam46196-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="cam46196-cit-0023">
+<string-name name-style="western">
+<surname>Yin</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cohen</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jin</surname>
+<given-names>Z</given-names>
+</string-name>, et al. <article-title>Prognostic and predictive impact of primary tumor sidedness for previously untreated advanced colorectal cancer</article-title>. <source>J Natl Cancer Inst</source>. <year>2021</year>;<volume>113</volume>:<fpage>1705</fpage>‐<lpage>1713</lpage>.<pub-id pub-id-type="pmid">34061178</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/jnci/djab112</pub-id></mixed-citation></ref><ref id="cam46196-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="cam46196-cit-0024">
+<string-name name-style="western">
+<surname>Arnold</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lueza</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Douillard</surname>
+<given-names>JY</given-names>
+</string-name>, et al. <article-title>Prognostic and predictive value of primary tumour side in patients with RAS wild‐type metastatic colorectal cancer treated with chemotherapy and EGFR directed antibodies in six randomized trials</article-title>. <source>Ann Oncol</source>. <year>2017</year>;<volume>28</volume>:<fpage>1713</fpage>‐<lpage>1729</lpage>.<pub-id pub-id-type="pmid">28407110</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/annonc/mdx175</pub-id><pub-id pub-id-type="pmcid">PMC6246616</pub-id></mixed-citation></ref><ref id="cam46196-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="cam46196-cit-0025">
+<string-name name-style="western">
+<surname>Cervantes</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Adam</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Roselló</surname>
+<given-names>S</given-names>
+</string-name>, et al. <article-title>Metastatic colorectal cancer: ESMO clinical practice guideline for diagnosis, treatment and follow‐up</article-title>. <source>Ann Oncol</source>. <year>2023</year>;<volume>34</volume>:<fpage>10</fpage>‐<lpage>32</lpage>.<pub-id pub-id-type="pmid">36307056</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.annonc.2022.10.003</pub-id></mixed-citation></ref><ref id="cam46196-bib-0026"><label>26</label><mixed-citation publication-type="miscellaneous" id="cam46196-cit-0026">
+<collab collab-type="authors">Network NCC</collab>
+. <article-title>Colon cancer Guideline Version 1.2023. NCCN Guideline</article-title>. <year>2023</year>.</mixed-citation></ref><ref id="cam46196-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="cam46196-cit-0027">
+<string-name name-style="western">
+<surname>Parikh</surname>
+<given-names>AR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lee</surname>
+<given-names>FC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yau</surname>
+<given-names>L</given-names>
+</string-name>, et al. <article-title>MAVERICC, a randomized, biomarker‐stratified, phase II study of mFOLFOX6‐bevacizumab versus FOLFIRI‐bevacizumab as first‐line chemotherapy in metastatic colorectal cancer</article-title>. <source>Clin Cancer Res</source>. <year>2019</year>;<volume>25</volume>:<fpage>2988</fpage>‐<lpage>2995</lpage>.<pub-id pub-id-type="pmid">30224341</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/1078-0432.CCR-18-1221</pub-id><pub-id pub-id-type="pmcid">PMC9022943</pub-id></mixed-citation></ref><ref id="cam46196-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="cam46196-cit-0028">
+<string-name name-style="western">
+<surname>Yamazaki</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nagase</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tamagawa</surname>
+<given-names>H</given-names>
+</string-name>, et al. <article-title>Randomized phase III study of bevacizumab plus FOLFIRI and bevacizumab plus mFOLFOX6 as first‐line treatment for patients with metastatic colorectal cancer (WJOG4407G)</article-title>. <source>Ann Oncol</source>. <year>2016</year>;<volume>27</volume>:<fpage>1539</fpage>‐<lpage>1546</lpage>.<pub-id pub-id-type="pmid">27177863</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/annonc/mdw206</pub-id></mixed-citation></ref><ref id="cam46196-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="cam46196-cit-0029">
+<string-name name-style="western">
+<surname>Yamada</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Denda</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gamoh</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>S‐1 and irinotecan plus bevacizumab versus mFOLFOX6 or CapeOX plus bevacizumab as first‐line treatment in patients with metastatic colorectal cancer (TRICOLORE): a randomized, open‐label, phase III, noninferiority trial</article-title>. <source>Ann Oncol</source>. <year>2018</year>;<volume>29</volume>:<fpage>624</fpage>‐<lpage>631</lpage>.<pub-id pub-id-type="pmid">29293874</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/annonc/mdx816</pub-id><pub-id pub-id-type="pmcid">PMC5889030</pub-id></mixed-citation></ref><ref id="cam46196-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="cam46196-cit-0030">
+<string-name name-style="western">
+<surname>Santoro</surname>
+<given-names>V</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jia</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Thompson</surname>
+<given-names>H</given-names>
+</string-name>, et al. <article-title>Role of reactive oxygen species in the abrogation of oxaliplatin activity by cetuximab in colorectal cancer</article-title>. <source>J Natl Cancer Inst</source>. <year>2016</year>;<volume>108</volume>:<elocation-id>djv394</elocation-id>.<pub-id pub-id-type="pmid">26719345</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/jnci/djv394</pub-id><pub-id pub-id-type="pmcid">PMC4864961</pub-id></mixed-citation></ref><ref id="cam46196-bib-0031"><label>31</label><mixed-citation publication-type="miscellaneous" id="cam46196-cit-0031">
+<collab collab-type="authors">Network NCC</collab>
+. <article-title>Colon Cancer Guideline</article-title>. <ext-link ns1:href="https://www.nccn.org/professionals/physician_gls/pdf/colon.pdf" ext-link-type="uri">https://www.nccn.org/professionals/physician_gls/pdf/colon.pdf</ext-link>. 2021;Ver.2.2021.</mixed-citation></ref><ref id="cam46196-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="cam46196-cit-0032">
+<string-name name-style="western">
+<surname>Viganò</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Russolillo</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ferrero</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Langella</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sperti</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Capussotti</surname>
+<given-names>L</given-names>
+</string-name>. <article-title>Evolution of long‐term outcome of liver resection for colorectal metastases: analysis of actual 5‐year survival rates over two decades</article-title>. <source>Ann Surg Oncol</source>. <year>2012</year>;<volume>19</volume>:<fpage>2035</fpage>‐<lpage>2044</lpage>.<pub-id pub-id-type="pmid">22219066</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1245/s10434-011-2186-1</pub-id></mixed-citation></ref><ref id="cam46196-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="cam46196-cit-0033">
+<string-name name-style="western">
+<surname>Chen</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gu</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>
+<given-names>H</given-names>
+</string-name>. <article-title>Optimizing sequential treatment with anti‐EGFR and VEGF mAb in metastatic colorectal cancer: current results and controversies</article-title>. <source>Cancer Manag Res</source>. <year>2019</year>;<volume>11</volume>:<fpage>1705</fpage>‐<lpage>1716</lpage>.<pub-id pub-id-type="pmid">30863179</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.2147/CMAR.S196170</pub-id><pub-id pub-id-type="pmcid">PMC6388996</pub-id></mixed-citation></ref><ref id="cam46196-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="cam46196-cit-0034">
+<string-name name-style="western">
+<surname>Peeters</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Price</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Taieb</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>Relationships between tumour response and primary tumour location, and predictors of long‐term survival, in patients with RAS wild‐type metastatic colorectal cancer receiving first‐line panitumumab therapy: retrospective analyses of the PRIME and PEAK clinical trials</article-title>. <source>Br J Cancer</source>. <year>2018</year>;<volume>119</volume>:<fpage>303</fpage>‐<lpage>312</lpage>.<pub-id pub-id-type="pmid">30013091</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41416-018-0165-z</pub-id><pub-id pub-id-type="pmcid">PMC6068172</pub-id></mixed-citation></ref><ref id="cam46196-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="cam46196-cit-0035">
+<string-name name-style="western">
+<surname>Tsuji</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ohori</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yamaguchi</surname>
+<given-names>T</given-names>
+</string-name>, et al. <article-title>The randomized phase II study of FOLFOXIRI plus cetuximab versus FOLFOXIRI plus bevacizumab as the first‐line treatment in metastatic colorectal cancer with RAS wild‐type tumors: the DEEPER trial (JACCRO CC‐13)</article-title>. <source>J Clin Oncol</source>. <year>2021</year>;<volume>39</volume>:<elocation-id>3501</elocation-id>.</mixed-citation></ref><ref id="cam46196-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="cam46196-cit-0036">
+<string-name name-style="western">
+<surname>Diaz</surname>
+<given-names>LA</given-names>
+<suffix>Jr</suffix>
+</string-name>, <string-name name-style="western">
+<surname>Shiu</surname>
+<given-names>KK</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kim</surname>
+<given-names>TW</given-names>
+</string-name>, et al. <article-title>Pembrolizumab versus chemotherapy for microsatellite instability‐high or mismatch repair‐deficient metastatic colorectal cancer (KEYNOTE‐177): final analysis of a randomised, open‐label, phase 3 study</article-title>. <source>Lancet Oncol</source>. <year>2022</year>;<volume>23</volume>:<fpage>659</fpage>‐<lpage>670</lpage>.<pub-id pub-id-type="pmid">35427471</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/S1470-2045(22)00197-8</pub-id><pub-id pub-id-type="pmcid">PMC9533375</pub-id></mixed-citation></ref><ref id="cam46196-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="cam46196-cit-0037">
+<string-name name-style="western">
+<surname>Le</surname>
+<given-names>DT</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Diaz</surname>
+<given-names>LA</given-names>
+<suffix>Jr</suffix>
+</string-name>, <string-name name-style="western">
+<surname>Kim</surname>
+<given-names>TW</given-names>
+</string-name>, et al. <article-title>Pembrolizumab for previously treated, microsatellite instability‐high/mismatch repair‐deficient advanced colorectal cancer: final analysis of KEYNOTE‐164</article-title>. <source>Eur J Cancer</source>. <year>2023</year>;<volume>186</volume>:<fpage>185</fpage>‐<lpage>195</lpage>.<pub-id pub-id-type="pmid">37141828</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ejca.2023.02.016</pub-id></mixed-citation></ref><ref id="cam46196-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="cam46196-cit-0038">
+<string-name name-style="western">
+<surname>Ludford</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ho</surname>
+<given-names>WJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Thomas</surname>
+<given-names>JV</given-names>
+</string-name>, et al. <article-title>Neoadjuvant pembrolizumab in localized microsatellite instability high/deficient mismatch repair solid tumors</article-title>. <source>J Clin Oncol</source>. <year>2023</year>;<volume>41</volume>:<fpage>2181</fpage>‐<lpage>2190</lpage>.<pub-id pub-id-type="pmid">36623241</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1200/JCO.22.01351</pub-id><pub-id pub-id-type="pmcid">PMC10489404</pub-id></mixed-citation></ref><ref id="cam46196-bib-0039"><label>39</label><mixed-citation publication-type="journal" id="cam46196-cit-0039">
+<string-name name-style="western">
+<surname>Mosele</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Remon</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mateo</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>Recommendations for the use of next‐generation sequencing (NGS) for patients with metastatic cancers: a report from the ESMO precision medicine working group</article-title>. <source>Ann Oncol</source>. <year>2020</year>;<volume>31</volume>:<fpage>1491</fpage>‐<lpage>1505</lpage>.<pub-id pub-id-type="pmid">32853681</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.annonc.2020.07.014</pub-id></mixed-citation></ref><ref id="cam46196-bib-0040"><label>40</label><mixed-citation publication-type="miscellaneous" id="cam46196-cit-0040">
+<collab collab-type="authors">Registry TC</collab>
+. <article-title>Taiwan Cancer Registry</article-title>. <year>2023</year>.</mixed-citation></ref><ref id="cam46196-bib-0041"><label>41</label><mixed-citation publication-type="miscellaneous" id="cam46196-cit-0041">
+<collab collab-type="authors">Database NR</collab>
+. <article-title>Taiwan's National Health Insurance (NHI) Administration</article-title>. 2023 <ext-link ns1:href="https://nhird.nhri.org.tw/" ext-link-type="uri">https://nhird.nhri.org.tw/</ext-link>.</mixed-citation></ref></ref-list></back></article>

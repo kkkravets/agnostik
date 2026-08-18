@@ -1,0 +1,66 @@
+# Long-term survival after a favorable response to anti-EGFR antibody plus chemotherapy to treat bone marrow metastasis: a case report of KRAS-wildtype rectal cancer
+
+Authors: Sho Nakamura, Tadahisa Fukui, Shuhei Suzuki, Hiroyuki Takeda, Kaname Watanabe, Takashi Yoshioka
+
+Journal: OncoTargets and therapy
+
+PMCID: PMC5328292
+
+PMID: 28260928
+
+DOI: 10.2147/OTT.S129275
+
+Canonical source: https://pmc.ncbi.nlm.nih.gov/articles/PMC5328292/
+
+## Abstract
+
+Bone marrow metastasis is a rare consequence of colorectal cancer that results in a poor prognosis; few reports describe a favorable response to doublet chemotherapy combined with targeted therapy, which is currently the standard treatment. We experienced a case where anti-epidermal growth factor receptor (EGFR) antibody produced a marked anti-tumor response to bone marrow metastasis that led to long-term survival. A 51-year-old man was diagnosed with a primary KRAS-wildtype rectal cancer with multiple metastases, including the bone marrow. Disease control was achieved for 10.8 months following chemotherapy with a modified FOLFOX6 regimen combined with an anti-EGFR antibody. He died of cancer 22.7 and 16.6 months after disease onset and first-line chemotherapy, respectively. This case shows that early tumor shrinkage and deepness of response to the anti-EGFR antibody were observed even in a patient with bone marrow metastasis. Anti-EGFR antibody therapy should therefore be considered even when a patient’s medical condition appears to be poor owing to bone marrow metastasis. Moreover, tumors that are likely to be sensitive to chemotherapy, such as RAS-wildtype colorectal cancers, can be considered for anti-EGFR antibody therapy even if the patient is considered unfit for chemotherapy.
+
+## Full article
+
+## Introduction
+
+Bone marrow metastasis of colorectal cancer is rare, and the prognosis is poor.1,2 Previous case reports suggest that administering chemotherapy would be beneficial even in the event of bone marrow metastasis; however, such approaches only prolong overall survival for a short period.3–5 Even if it is beneficial, metastasis to the bone marrow often causes detrimental clinical manifestations such as myelosuppression or disseminated intravascular coagulation (DIC), causing hesitation to administer chemotherapy.3 We report a patient with primary KRAS-wildtype rectal cancer and bone marrow metastasis who was in poor medical condition before starting treatment. Chemotherapy combined with anti-epidermal growth factor receptor (EGFR) antibody showed a clinically significant response. Clinical symptoms also improved, and the patient survived for 16.6 months after the first-line chemotherapy.
+
+## Case
+
+A 51-year-old man began experiencing back pain in May 2014. Myelofibrosis was suspected because of the significant signal change in the spinal body on magnetic resonance imaging (MRI) and dry-tap bone marrow aspiration. He did not have a Janus Kinase 2 (JAK2) mutation.
+
+The patient was administered analgesic agents for 4 months until blood examination showed a worsening of anemia, emergence of nucleated erythrocytes, and a left shift of leukocytes. Adenocarcinoma (well-to-moderately differentiated) was observed in a bone marrow biopsy specimen obtained in September 2014. A subsequent colonoscopy revealed a circumferential diffuse infiltrative lesion in the rectum (Ra-Rb) causing a narrowing of the lumen; a biopsy showed poorly differentiated adenocarcinoma. Imaging examinations (computed tomography [CT], MRI, and positron-emission tomography-CT) at the time of the onset of back pain had not shown any suspicious lesions, but reexamination in September and October showed a rectal tumor with multiple metastatic lesions (bone, liver, left pararenal gland, peritoneum, and pleura; Figure 1); the cancer was diagnosed as clinical stage T4N0M1 (Union for International Cancer Control, 7th edition).6
+
+The patient underwent ureteral stenting for hydroneph-rosis due to ureteral stricture, as well as emergency surgical decompression and colostomy for colon obstruction caused by the primary tumor and severe peritoneal metastasis. The patient’s condition deteriorated most severely on postoperative day (POD) 3; his Eastern Cooperative Oncology Group performance status (PS) was 3, and he experienced a recurrent fever >39°C due to rhabdomyolysis, sepsis, and the neoplasm. Blood tests at POD 3 showed prothrombin time-international normalized ratio (PT-INR) 1.65 (6.8 s prolonged), fibrin and fibrinogen degradation product (FDP) 73.5 mg/L, creatine kinase (CK) 15.45 µkat/L (925 U/L), lactate dehydrogenase (LDH) 61.71 µkat/L (3,695 U/L), C-reactive protein (CRP) 313.91 nmol/L (32.96 mg/dL), procalcitonin 1.81 µg/L, white blood cell (WBC) count 13.05×109/L, hemoglobin 65 g/L, and platelet count 114×109/L. DIC treatment (including recombinant human thrombomodulin), antibacterial and antifungal agents, and red blood cell transfusion, improved the patient’s blood test results as follows: PT-INR 1.39 (4.7 s prolonged), FDP 44.5 mg/L, CK 1.95 µkat/L (117 U/L), LDH 6.03 µkat/L (361 U/L), CRP 118.38 nmol/L (12.43 mg/dL), WBC 5.76×109/L, hemoglobin 85 g/L, and platelet count 114×109/L. However, his eligibility for chemotherapy remained uncertain. Surgery was deemed to be the principal cause of rhabdomyolysis, and recurrent fever was eventually diagnosed as neoplastic fever after no bacterial growth was observed in culture tests. Prompt relief from pyrexia was achieved with naproxen.
+
+We administered chemotherapy in the form of infusional 5-fluorouracil (5-FU) plus levoleucovorin. Details of the chemotherapy regimens are shown in Table 1. CT after two cycles of chemotherapy showed progressive disease with worsening liver metastasis (Figure 1). Despite disease progression, the patient’s PS score had improved to 2 owing to the amelioration of rhabdomyolysis and recurrent fever. Additionally, molecular testing at this time showed no KRAS mutation. Thus, he was administered modified FOLFOX6 combined with anti-EGFR antibody therapy as a second-line therapy. CT after two cycles showed a partial response; his primary lesion and liver metastasis shrank, and pleural effusion and ascites decreased (Figure 1). Furthermore, his PS score improved to 1, leukoerythroblastosis disappeared, and red blood cell transfusion was no longer required because his anemia improved. Moreover, his tumor markers normalized, as shown in Figure 2. Observed adverse events (per the Common Terminology Criteria for Adverse Events version 4.0)7 were as follows: rash (grade 2), paronychia (grade 2), peripheral neuropathy (grade 2), fatigue (grade 2), neutrophil count decrease (grade 3), anemia (grade 3), platelet count decrease (grade 2), and hypomagnesemia (grade 1). We switched the anti-EGFR antibody from panitumumab to cetuximab owing to the development of a rash; we did not wish to discontinue anti-EGFR antibody therapy outright.
+
+The patient performed well for 20 cycles (10.8 months) until CT showed worsening of the primary lesion and liver metastases. The patient then received FOLFIRI plus bevacizumab as a third-line therapy; response lasted for nine cycles (4.8 months) until bone marrow metastasis progressed and leukoerythroblastosis and anemia relapsed, necessitating red blood cell transfusion. He died following the progression of the left pararenal gland metastasis, impairment of renal function, and uncontrollable hemorrhage 22.7 months after diagnosis and 16.6 months after commencing first-line therapy.
+
+The patient’s next of kin provided written informed consent for the publication of this case report.
+
+## Discussion
+
+To our knowledge, no KRAS-wildtype rectal cancer patients with initial findings of bone marrow metastasis were previously reported to have survived long-term after responding to anti-EGFR antibody therapy combined with doublet chemotherapy (the standard treatment). Even if bone marrow metastasis causes clinical deterioration, such patients are considered eligible for chemotherapy according to European Society for Medical Oncology consensus guidelines for colorectal cancer.8 There are several reports on the benefit of chemotherapy against metastatic colorectal cancer in the bone marrow.3–5 However, there is no English language literature reporting anti-EGFR antibody therapy to be affective against bone marrow metastasis of colon cancer. Clinical symptoms caused by bone marrow metastasis significantly improved following anti-EGFR antibody therapy in our patient, who survived for more than 22 months. A strong cytoreduction effect and early tumor shrinkage due to anti-EGFR antibody treatment have been observed in bone marrow metastases of RAS-wildtype colorectal cancers;9 we suspect that the favorable clinical response in our patient was likely due to such cytoreduction of the bone marrow metastatic lesion.
+
+Our patient was a man with rectal cancer, and favorable response to treatment was expected10,11 as anti-EGFR antibody therapy shows relatively favorable response in RAS-wildtype colorectal cancer patients, especially men.10 Our patient provided an example of this notion being true even for cases with bone marrow metastasis that exhibit poor clinical features such as myelosuppression, hemorrhagic diathesis, and/or poor PS. Clinicians are often hesitant to administer chemotherapy to patients with bone marrow metastasis because of their poor prognoses and a high risk of rapid deterioration. In our case, no serious hematological or non-hematological adverse events occurred; peripheral blood findings improved (ie, leukoerythroblastosis disappeared), the rash was tolerable upon switching panitumumab to cetuximab, and peripheral neuropathy and fatigue were managed by reducing the dose (Table 1). It was unclear whether the uncontrollable hemorrhage that led to death was itself caused by hemorrhagic diathesis due to bone marrow metastasis, or was an adverse event following anti-vascular endothelial growth factor (VEGF) antibody administration. However, clinicians usually avoid administering anti-VEGF antibody to colorectal cancer patients with bone marrow metastasis if their conditions deteriorate, because life-threatening adverse events such as hemorrhagic or thromboembolic events as well as gastrointestinal perforation have been reported. Anti-EGFR antibody, which has milder adverse events whether administered alone or with other regimens, is recommended in patients with myelosuppression or poor PS owing to bone marrow metastasis when possible.
+
+## Conclusion
+
+Anti-EGFR antibody therapy, with or without chemotherapy, appears to benefit colorectal cancer patients with bone marrow metastasis, for which the prognoses and general conditions tend to be poor. Moreover, patients likely to show a favorable response, namely, men with RAS-wildtype, ought to be considered for anti-EGFR antibody therapy, even for seemingly unfit cases.
+
+We would like to thank Editage (www.editage.jp) for English language editing.
+
+Disclosure
+
+The authors declare no conflicts of interest in this work.
+
+## References
+1. 1LimDHLeeSIParkKWBone marrow metastasis of colon cancer as the first site of recurrence: a case reportOncol Lett201486267226742536444710.3892/ol.2014.2581PMC4214508
+2. 2XiaoLLuxiSYingTYizhiLLingyunWQuanPDiagnosis of unknown nonhematological tumors by bone marrow biopsy: a retrospective analysis of 10,112 samplesJ Cancer Res Clin Oncol200913556876931895621310.1007/s00432-008-0503-2PMC12160163
+3. 3HungYSChouWCChenTDPrognostic factors in adult patients with solid cancers and bone marrow metastasesAsian Pac J Cancer Prev201415161672452808210.7314/apjcp.2014.15.1.61
+4. 4NakashimaYTakeishiKGuntaniARectal cancer with disseminated carcinomatosis of the bone marrow: report of a caseInt Surg20149955185222521641410.9738/INTSURG-D-13-00130.1PMC4253917
+5. 5NaitoMYoshidaYAisuNA report of disseminated carcinomatosis of the bone marrow originating from transverse colon cancer successfully treated with chemotherapy using XELOX plus bevacizumabCase Rep Oncol2014724264342512607210.1159/000365001PMC4130823
+6. 6International union against cancerTNM classification of malignant tumors7th edSobinLGospodarowiczMWittekindCNew YorkWiley-Blackwell2010
+7. 7National Cancer InstituteCommon Terminology Criteria for Adverse Events v4.0NCI, NIH, DHHSNIH publication # 09-74732009
+8. 8Van CutsemECervantesAAdamRESMO consensus guidelines for the management of patients with metastatic colorectal cancerAnn Oncol2016278138614222738095910.1093/annonc/mdw235
+9. 9HeinemannVStintzingSModestDPGiessen-JungCMichlMMansmannUREarly tumour shrinkage (ETS) and depth of response (DpR) in the treatment of patients with metastatic colorectal cancer (mCRC)Eur J Cancer20155114192719362618885010.1016/j.ejca.2015.06.116
+10. 10HeinemannVModestDPFischerWLGender and tumor location as predictors for efficacy: influence on endpoints in first-line treatment with FOLFIRI in combination with cetuximab or bevacizumab in the AIO KRK 0306 (FIRE3) trialJ Clin Oncol201432Suppl; abstr 3600
+11. 11AlanPVDonnaNFedericoIImpact of primary (1°) tumor location on overall survival (OS) and progression-free survival (PFS) in patients (pts) with metastatic colorectal cancer (mCRC): analysis of CALGB/SWOG 80405 (Alliance)J Clin Oncol201634Suppl; abstr 3504

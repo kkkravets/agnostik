@@ -1,0 +1,522 @@
+{
+  "query": "colon adenocarcinoma",
+  "timestamp": "2026-08-18T12:34:53.526234+00:00",
+  "source": "clinicaltrials.gov/api/v2",
+  "total": 10,
+  "recruiting": 1,
+  "trials": [
+    {
+      "nct_id": "NCT06363123",
+      "title": "Plasma Metabolic Biomarkers for Multi-Cancer Diagnosis",
+      "status": "UNKNOWN",
+      "phase": "",
+      "study_type": "OBSERVATIONAL",
+      "start_date": "2024-03-29",
+      "completion_date": "2025-04",
+      "conditions": [
+        "Lung Cancer",
+        "Breast Cancer",
+        "Colorectal Cancer",
+        "Thyroid Cancer",
+        "Gastric Cancer",
+        "Cervical Cancer",
+        "Liver Cancer",
+        "Pancreatic Cancer",
+        "Cholangiocarcinoma",
+        "Prostate Cancer",
+        "Esophageal Cancer",
+        "Ovarian Cancer",
+        "Renal Cell Carcinoma"
+      ],
+      "condition_meshes": [
+        {
+          "id": "D008175",
+          "term": "Lung Neoplasms"
+        },
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        },
+        {
+          "id": "D015179",
+          "term": "Colorectal Neoplasms"
+        },
+        {
+          "id": "D013964",
+          "term": "Thyroid Neoplasms"
+        },
+        {
+          "id": "D013274",
+          "term": "Stomach Neoplasms"
+        },
+        {
+          "id": "D002583",
+          "term": "Uterine Cervical Neoplasms"
+        },
+        {
+          "id": "D008113",
+          "term": "Liver Neoplasms"
+        },
+        {
+          "id": "D010190",
+          "term": "Pancreatic Neoplasms"
+        },
+        {
+          "id": "D018281",
+          "term": "Cholangiocarcinoma"
+        },
+        {
+          "id": "D011471",
+          "term": "Prostatic Neoplasms"
+        },
+        {
+          "id": "D004938",
+          "term": "Esophageal Neoplasms"
+        },
+        {
+          "id": "D010051",
+          "term": "Ovarian Neoplasms"
+        },
+        {
+          "id": "D002292",
+          "term": "Carcinoma, Renal Cell"
+        }
+      ],
+      "interventions": [],
+      "summary": "The aim of this observational study is to comprehensively analyze the metabolites in plasma samples from multi-cancer patients using advanced mass spectrometry detection technology, in conjunction with metabolomics approaches. The goal is to construct a plasma metabolite database for multi-cancer pa..."
+    },
+    {
+      "nct_id": "NCT03724851",
+      "title": "Vactosertib in Combination with Pembrolizumab in Metastatic Colorectal or Gastric Cancer",
+      "status": "COMPLETED",
+      "phase": "PHASE1 / PHASE2",
+      "study_type": "INTERVENTIONAL",
+      "start_date": "2018-12-20",
+      "completion_date": "2024-05-07",
+      "conditions": [
+        "Metastatic Colorectal Cancer",
+        "Gastric Cancer",
+        "Gastroesophageal Junction Adenocarcinoma"
+      ],
+      "condition_meshes": [
+        {
+          "id": "D015179",
+          "term": "Colorectal Neoplasms"
+        },
+        {
+          "id": "D013274",
+          "term": "Stomach Neoplasms"
+        }
+      ],
+      "interventions": [
+        "TEW-7197"
+      ],
+      "summary": "This is an open-label, multicenter study to assess the safety, tolerability, pharmacokinetics, and antitumor activity of vactosertib in combination with pembrolizumab in patients with metastatic or locally advanced colorectal or gastric/gastroesophageal junction adenocarcinoma"
+    },
+    {
+      "nct_id": "NCT03871959",
+      "title": "Pembrolizumab In Combination With Debio 1143 In Pancreatic and Colorectal Advanced/Metastatic Adenocarcinoma",
+      "status": "COMPLETED",
+      "phase": "PHASE1",
+      "study_type": "INTERVENTIONAL",
+      "start_date": "2019-09-15",
+      "completion_date": "2022-06-08",
+      "conditions": [
+        "Adenocarcinoma of the Pancreas",
+        "Adenocarcinoma of the Colon",
+        "Adenocarcinoma of the Rectum"
+      ],
+      "condition_meshes": [
+        {
+          "id": "D003110",
+          "term": "Colonic Neoplasms"
+        },
+        {
+          "id": "D012004",
+          "term": "Rectal Neoplasms"
+        }
+      ],
+      "interventions": [
+        "Pembrolizumab",
+        "DEBIO1143"
+      ],
+      "summary": "This trial is a Phase I study to be conducted in patients with non-MSI-high advanced/metastatic pancreatic ductal adenocarcinoma (PDAC) or colorectal cancer (CRC) and is divided in two Parts.\n\n* Dose escalation Part :To determine the Maximum Tolerated Dose (MTD) and the Recommended Dose for Phase 2 ..."
+    },
+    {
+      "nct_id": "NCT03373188",
+      "title": "VX15/2503 and Immunotherapy in Resectable Pancreatic and Colorectal Cancer",
+      "status": "COMPLETED",
+      "phase": "PHASE1",
+      "study_type": "INTERVENTIONAL",
+      "start_date": "2017-12-15",
+      "completion_date": "2021-10-28",
+      "conditions": [
+        "Colon Carcinoma Metastatic in the Liver",
+        "Colorectal Adenocarcinoma",
+        "Pancreatic Adenocarcinoma",
+        "Resectable Pancreatic Carcinoma",
+        "Stage I Pancreatic Cancer",
+        "Stage IA Pancreatic Cancer",
+        "Stage IB Pancreatic Cancer",
+        "Stage II Pancreatic Cancer",
+        "Stage IIA Pancreatic Cancer",
+        "Stage IIB Pancreatic Cancer",
+        "Stage III Pancreatic Cancer",
+        "Stage IV Colorectal Cancer",
+        "Stage IVA Colorectal Cancer",
+        "Stage IVB Colorectal Cancer"
+      ],
+      "condition_meshes": [
+        {
+          "id": "D010190",
+          "term": "Pancreatic Neoplasms"
+        },
+        {
+          "id": "D015179",
+          "term": "Colorectal Neoplasms"
+        }
+      ],
+      "interventions": [
+        "Anti-SEMA4D Monoclonal Antibody VX15/2503",
+        "Ipilimumab",
+        "Nivolumab",
+        "Surgery"
+      ],
+      "summary": "This randomized phase I trial studies how well anti-semaphorin 4D (anti-SEMA4D) monoclonal antibody VX15/2503 with or without ipilimumab or nivolumab work in treating patients with stage I-III pancreatic cancer that can be removed by surgery or stage IV colorectal cancer that has spread to the liver..."
+    },
+    {
+      "nct_id": "NCT04510129",
+      "title": "A Multicenter Cancer Biospecimen Collection Study",
+      "status": "RECRUITING",
+      "phase": "",
+      "study_type": "OBSERVATIONAL",
+      "start_date": "2020-02-05",
+      "completion_date": "2027-02",
+      "conditions": [
+        "Cancer of Head and Neck",
+        "Lung Cancer, Nonsmall Cell",
+        "Small-cell Lung Cancer",
+        "Urothelial Carcinoma",
+        "Gastroesophageal Junction Adenocarcinoma",
+        "Cervical Cancer",
+        "Esophageal Squamous Cell Carcinoma",
+        "Triple Negative Breast Cancer",
+        "Hepatocellular Carcinoma",
+        "Renal Cell Carcinoma",
+        "Colorectal Cancer"
+      ],
+      "condition_meshes": [
+        {
+          "id": "D006258",
+          "term": "Head and Neck Neoplasms"
+        },
+        {
+          "id": "D002289",
+          "term": "Carcinoma, Non-Small-Cell Lung"
+        },
+        {
+          "id": "D055752",
+          "term": "Small Cell Lung Carcinoma"
+        },
+        {
+          "id": "D002295",
+          "term": "Carcinoma, Transitional Cell"
+        },
+        {
+          "id": "D002583",
+          "term": "Uterine Cervical Neoplasms"
+        },
+        {
+          "id": "D000077277",
+          "term": "Esophageal Squamous Cell Carcinoma"
+        },
+        {
+          "id": "D064726",
+          "term": "Triple Negative Breast Neoplasms"
+        },
+        {
+          "id": "D006528",
+          "term": "Carcinoma, Hepatocellular"
+        },
+        {
+          "id": "D002292",
+          "term": "Carcinoma, Renal Cell"
+        },
+        {
+          "id": "D015179",
+          "term": "Colorectal Neoplasms"
+        }
+      ],
+      "interventions": [
+        "OncoPrism\u2122 assay"
+      ],
+      "summary": "This study will collect de-identified tumor samples, with correlated clinical/demographic data and tissue histology, from patients selected or scheduled for pre-treatment tumor biopsy or who have had a recent pre-treatment tumor biopsy. These specimens and clinical data may be used in subsequent stu..."
+    },
+    {
+      "nct_id": "NCT05462717",
+      "title": "Dose Escalation and Dose Expansion Study of RMC-6291 Monotherapy in Subjects With Advanced KRASG12C Mutant Solid Tumors",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": "PHASE1",
+      "study_type": "INTERVENTIONAL",
+      "start_date": "2022-09-19",
+      "completion_date": "2027-09-30",
+      "conditions": [
+        "Non-Small Cell Lung Cancer (NSCLC)",
+        "Colorectal Cancer (CRC)",
+        "Pancreatic Ductal Adenocarcinoma",
+        "Advanced Solid Tumor"
+      ],
+      "condition_meshes": [
+        {
+          "id": "D002289",
+          "term": "Carcinoma, Non-Small-Cell Lung"
+        },
+        {
+          "id": "D015179",
+          "term": "Colorectal Neoplasms"
+        },
+        {
+          "id": "D009362",
+          "term": "Neoplasm Metastasis"
+        },
+        {
+          "id": "D008175",
+          "term": "Lung Neoplasms"
+        },
+        {
+          "id": "D013899",
+          "term": "Thoracic Neoplasms"
+        },
+        {
+          "id": "D003110",
+          "term": "Colonic Neoplasms"
+        },
+        {
+          "id": "D001063",
+          "term": "Appendiceal Neoplasms"
+        },
+        {
+          "id": "D001984",
+          "term": "Bronchial Neoplasms"
+        },
+        {
+          "id": "D012142",
+          "term": "Respiratory Tract Neoplasms"
+        },
+        {
+          "id": "D009371",
+          "term": "Neoplasms by Site"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D012004",
+          "term": "Rectal Neoplasms"
+        },
+        {
+          "id": "D008171",
+          "term": "Lung Diseases"
+        },
+        {
+          "id": "D012140",
+          "term": "Respiratory Tract Diseases"
+        },
+        {
+          "id": "D010190",
+          "term": "Pancreatic Neoplasms"
+        },
+        {
+          "id": "D021441",
+          "term": "Carcinoma, Pancreatic Ductal"
+        },
+        {
+          "id": "D005770",
+          "term": "Gastrointestinal Neoplasms"
+        },
+        {
+          "id": "D007414",
+          "term": "Intestinal Neoplasms"
+        },
+        {
+          "id": "D004938",
+          "term": "Esophageal Neoplasms"
+        },
+        {
+          "id": "D013274",
+          "term": "Stomach Neoplasms"
+        },
+        {
+          "id": "D010051",
+          "term": "Ovarian Neoplasms"
+        },
+        {
+          "id": "D016889",
+          "term": "Endometrial Neoplasms"
+        }
+      ],
+      "interventions": [
+        "RMC-6291"
+      ],
+      "summary": "The purpose of this study is to evaluate the safety, tolerability, and pharmacokinetics (PK) of escalating doses of RMC-6291 (KRAS G12C(ON) inhibitor) monotherapy in adult subjects with advanced solid tumors and to identify the maximum tolerated dose (MTD), and the recommended Phase 2 dose."
+    },
+    {
+      "nct_id": "NCT03929666",
+      "title": "A Safety and Efficacy Study of ZW25 (Zanidatamab) Plus Combination Chemotherapy in HER2-expressing Gastrointestinal Cancers, Including Gastroesophageal Adenocarcinoma, Biliary Tract Cancer, and Colorectal Cancer",
+      "status": "COMPLETED",
+      "phase": "PHASE2",
+      "study_type": "INTERVENTIONAL",
+      "start_date": "2019-08-29",
+      "completion_date": "2025-08-30",
+      "conditions": [
+        "HER2-expressing Gastrointestinal Cancers, Including Gastroesophageal Adenocarcinoma, Biliary Tract Cancer, and Colorectal Cancer"
+      ],
+      "condition_meshes": [
+        {
+          "id": "D001661",
+          "term": "Biliary Tract Neoplasms"
+        },
+        {
+          "id": "D015179",
+          "term": "Colorectal Neoplasms"
+        },
+        {
+          "id": "D013274",
+          "term": "Stomach Neoplasms"
+        },
+        {
+          "id": "D004938",
+          "term": "Esophageal Neoplasms"
+        },
+        {
+          "id": "D009369",
+          "term": "Neoplasms"
+        },
+        {
+          "id": "D005770",
+          "term": "Gastrointestinal Neoplasms"
+        },
+        {
+          "id": "D018281",
+          "term": "Cholangiocarcinoma"
+        }
+      ],
+      "interventions": [
+        "ZW25 (Zanidatamab)",
+        "Capecitabine",
+        "Cisplatin",
+        "Fluorouracil",
+        "Leucovorin",
+        "Oxaliplatin",
+        "Bevacizumab",
+        "Gemcitabine"
+      ],
+      "summary": "This is a multicenter, global, Phase 2, open-label, 2-part, first-line study to investigate the safety, tolerability, and anti-tumor activity of ZW25 (zanidatamab) plus standard first-line combination chemotherapy regimens for selected gastrointestinal (GI) cancers. Eligible patients include those w..."
+    },
+    {
+      "nct_id": "NCT06524362",
+      "title": "Effect of Pelvic Rehabilitation After Low Anterior Resection for Cancer Rectum. - A Randomised Controlled Trial",
+      "status": "UNKNOWN",
+      "phase": "NA",
+      "study_type": "INTERVENTIONAL",
+      "start_date": "2024-08",
+      "completion_date": "2026-03",
+      "conditions": [
+        "Rectal Cancer",
+        "Rectum Neoplasm",
+        "Rectal Neoplasms",
+        "Rectal Adenocarcinoma",
+        "Low Anterior Resection Syndrome",
+        "Fecal Incontinence",
+        "Bowel Dysfunction"
+      ],
+      "condition_meshes": [
+        {
+          "id": "D012004",
+          "term": "Rectal Neoplasms"
+        },
+        {
+          "id": "D000094123",
+          "term": "Low Anterior Resection Syndrome"
+        },
+        {
+          "id": "D005242",
+          "term": "Fecal Incontinence"
+        },
+        {
+          "id": "D007410",
+          "term": "Intestinal Diseases"
+        }
+      ],
+      "interventions": [
+        "Pelvic Floor Physiotherapy (PFR)",
+        "Conventional group"
+      ],
+      "summary": "Study Purpose:\n\nThis study aims to understand how pelvic floor rehabilitation (PFR) after low anterior resection (LAR) surgery for rectal cancer affects bowel control and quality of life compared to usual care.\n\nBackground:\n\nRectal cancer and its treatments can significantly impact patients' lives, ..."
+    },
+    {
+      "nct_id": "NCT01417494",
+      "title": "1st Line Chemotherapy Alone or With Bevacizumab in Treating Older Patients With Metastatic Colorectal Cancer",
+      "status": "COMPLETED",
+      "phase": "PHASE2",
+      "study_type": "INTERVENTIONAL",
+      "start_date": "2011-07",
+      "completion_date": "2016-04",
+      "conditions": [
+        "Colorectal Cancer"
+      ],
+      "condition_meshes": [
+        {
+          "id": "D015179",
+          "term": "Colorectal Neoplasms"
+        },
+        {
+          "id": "D003110",
+          "term": "Colonic Neoplasms"
+        },
+        {
+          "id": "D012004",
+          "term": "Rectal Neoplasms"
+        }
+      ],
+      "interventions": [
+        "Chemotherapy ( FOLFIRI regimen, FOLFOX regimen or LV5FU2 regimen)",
+        "Chemotherapy ( FOLFIRI regimen, FOLFOX regimen or LV5FU2 regimen) + bevacizumab"
+      ],
+      "summary": "RATIONALE: Drugs used in chemotherapy, such as leucovorin calcium, fluorouracil, irinotecan hydrochloride, and oxaliplatin, work in different ways to stop the growth of tumor cells, either by killing the cells or by stopping them from dividing. Monoclonal antibodies, such as bevacizumab, can block t..."
+    },
+    {
+      "nct_id": "NCT00007826",
+      "title": "Monoclonal Antibody Therapy and/or Vaccine Therapy in Treating Patients With Locally Advanced or Metastatic Colorectal Cancer",
+      "status": "UNKNOWN",
+      "phase": "PHASE1 / PHASE2",
+      "study_type": "INTERVENTIONAL",
+      "start_date": "2000-04",
+      "completion_date": "",
+      "conditions": [
+        "Colorectal Cancer"
+      ],
+      "condition_meshes": [
+        {
+          "id": "D015179",
+          "term": "Colorectal Neoplasms"
+        },
+        {
+          "id": "D003110",
+          "term": "Colonic Neoplasms"
+        },
+        {
+          "id": "D012004",
+          "term": "Rectal Neoplasms"
+        }
+      ],
+      "interventions": [
+        "BCG vaccine",
+        "monoclonal antibody 105AD7 anti-idiotype vaccine",
+        "alum adjuvant"
+      ],
+      "summary": "RATIONALE: Monoclonal antibodies can locate tumor cells and either kill them or deliver tumor-killing substances to them without harming normal cells. Vaccines made from cancer cells may make the body build an immune response to kill colorectal tumor cells.\n\nPURPOSE: Phase I/II trial to study the ef..."
+    }
+  ]
+}

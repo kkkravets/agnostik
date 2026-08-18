@@ -1,0 +1,571 @@
+<?xml version='1.0' encoding='utf-8'?>
+<article xmlns:ns0="http://www.niso.org/schemas/ali/1.0/" xmlns:ns1="http://www.w3.org/1999/xlink" article-type="research-article" xml:lang="en" dtd-version="1.4"><front><journal-meta><journal-id journal-id-type="nlm-ta">Cancer Med</journal-id><journal-id journal-id-type="iso-abbrev">Cancer Med</journal-id><journal-id journal-id-type="pmc-domain-id">1974</journal-id><journal-id journal-id-type="pmc-domain">canmed</journal-id><journal-id journal-id-type="nlm-id">101595310</journal-id><journal-id journal-id-type="publisher-id">CAM4</journal-id><journal-title-group><journal-title>Cancer Medicine</journal-title></journal-title-group><issn pub-type="epub">2045-7634</issn><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC6488202</article-id><article-id pub-id-type="pmcid-ver">PMC6488202.1</article-id><article-id pub-id-type="pmcaid">6488202</article-id><article-id pub-id-type="pmcaiid">6488202</article-id><article-id pub-id-type="pmid">30791232</article-id><article-id pub-id-type="doi">10.1002/cam4.2032</article-id><article-id pub-id-type="publisher-id">CAM42032</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Original Research</subject></subj-group><subj-group subj-group-type="heading"><subject>Cancer Biology</subject><subj-group subj-group-type="heading"><subject>Original Research</subject></subj-group></subj-group></article-categories><title-group><article-title>DNA methylation‐regulated and tumor‐suppressive roles of miR‐487b in colorectal cancer via targeting MYC, SUZ12, and KRAS</article-title><alt-title alt-title-type="left-running-head">CHEN et al.</alt-title></title-group><contrib-group><contrib id="cam42032-cr-0001" contrib-type="author"><name name-style="western"><surname>Chen</surname><given-names initials="X">Xu</given-names></name><xref ref-type="aff" rid="cam42032-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="cam42032-cr-0002" contrib-type="author"><name name-style="western"><surname>Lin</surname><given-names initials="ZF">Zhi‐feng</given-names></name><xref ref-type="aff" rid="cam42032-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="cam42032-cr-0003" contrib-type="author"><name name-style="western"><surname>Xi</surname><given-names initials="WJ">Wen‐jin</given-names></name><xref ref-type="aff" rid="cam42032-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="cam42032-cr-0004" contrib-type="author"><name name-style="western"><surname>Wang</surname><given-names initials="W">Wei</given-names></name><xref ref-type="aff" rid="cam42032-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="cam42032-cr-0005" contrib-type="author"><name name-style="western"><surname>Zhang</surname><given-names initials="D">Dan</given-names></name><xref ref-type="aff" rid="cam42032-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="cam42032-cr-0006" contrib-type="author"><name name-style="western"><surname>Yang</surname><given-names initials="F">Fan</given-names></name><xref ref-type="aff" rid="cam42032-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="cam42032-cr-0007" contrib-type="author"><name name-style="western"><surname>Li</surname><given-names initials="YF">Yu‐fang</given-names></name><xref ref-type="aff" rid="cam42032-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="cam42032-cr-0008" contrib-type="author"><name name-style="western"><surname>Huo</surname><given-names initials="Y">Yi</given-names></name><xref ref-type="aff" rid="cam42032-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="cam42032-cr-0009" contrib-type="author"><name name-style="western"><surname>Zhang</surname><given-names initials="TZ">Tian‐ze</given-names></name><xref ref-type="aff" rid="cam42032-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="cam42032-cr-0010" contrib-type="author"><name name-style="western"><surname>Jiang</surname><given-names initials="YH">Yi‐hong</given-names></name><xref ref-type="aff" rid="cam42032-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="cam42032-cr-0011" contrib-type="author"><name name-style="western"><surname>Qin</surname><given-names initials="WW">Wei‐wei</given-names></name><xref ref-type="aff" rid="cam42032-aff-0003">
+<sup>3</sup>
+</xref></contrib><contrib id="cam42032-cr-0012" contrib-type="author" corresp="yes"><name name-style="western"><surname>Yang</surname><given-names initials="AG">An‐gang</given-names></name><address><email>agyang@fmmu.edu.cn</email></address><xref ref-type="aff" rid="cam42032-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="cam42032-cr-0013" contrib-type="author" corresp="yes"><name name-style="western"><surname>Wang</surname><given-names initials="T">Tao</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-8839-6158</contrib-id><address><email>wangt@fmmu.edu.cn</email></address><xref ref-type="aff" rid="cam42032-aff-0004">
+<sup>4</sup>
+</xref></contrib></contrib-group><aff id="cam42032-aff-0001">
+<label><sup>1</sup></label>
+<named-content content-type="organisation-division">State Key Laboratory of Cancer Biology, Department of Immunology</named-content>
+<institution>Fourth Military Medical University</institution>
+<named-content content-type="city">Xi’an, Shaanxi</named-content>
+<country country="CN">P.R. China</country>
+</aff><aff id="cam42032-aff-0002">
+<label><sup>2</sup></label>
+<institution>Fourth Military Medical University</institution>
+<named-content content-type="city">Xi’an, Shaanxi</named-content>
+<country country="CN">P.R. China</country>
+</aff><aff id="cam42032-aff-0003">
+<label><sup>3</sup></label>
+<named-content content-type="organisation-division">Department of Hematology</named-content>
+<institution>Tangdu Hospital, Fourth Military Medical University</institution>
+<named-content content-type="city">Xi’an, Shaanxi</named-content>
+<country country="CN">P.R. China</country>
+</aff><aff id="cam42032-aff-0004">
+<label><sup>4</sup></label>
+<named-content content-type="organisation-division">Department of Medical Genetics and Developmental Biology</named-content>
+<institution>Fourth Military Medical University</institution>
+<named-content content-type="city">Xi’an, Shaanxi</named-content>
+<country country="CN">P.R. China</country>
+</aff><author-notes><corresp id="correspondenceTo"><label>*</label><bold>Correspondence</bold><break />
+Tao Wang, Department of Medical Genetics and Developmental Biology, Fourth Military Medical University, Xi'an, Shaanxi, P.R. China.<break />
+Email: <email>wangt@fmmu.edu.cn</email><break />
+and<break />
+An‐gang Yang, State Key Laboratory of Cancer Biology, Department of Immunology, Fourth Military Medical University, Xi'an, Shaanxi, P.R. China.<break />
+Email: <email>agyang@fmmu.edu.cn</email><break /></corresp></author-notes><pub-date pub-type="epub"><day>21</day><month>2</month><year>2019</year></pub-date><pub-date pub-type="collection"><month>4</month><year>2019</year></pub-date><volume>8</volume><issue>4</issue><issue-id pub-id-type="pmc-issue-id">333512</issue-id><issue-id pub-id-type="doi">10.1002/cam4.2019.8.issue-4</issue-id><fpage>1694</fpage><lpage>1709</lpage><history><date date-type="received"><day>06</day><month>8</month><year>2018</year></date><date date-type="rev-recd"><day>22</day><month>1</month><year>2019</year></date><date date-type="accepted"><day>29</day><month>1</month><year>2019</year></date></history><pub-history><event event-type="pmc-release"><date><day>21</day><month>02</month><year>2019</year></date></event><event event-type="pmc-live"><date><day>23</day><month>05</month><year>2019</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-03-03 17:25:12.880"><day>03</day><month>03</month><year>2026</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2019 The Authors. <italic toggle="yes">Cancer Medicine</italic> published by John Wiley &amp; Sons Ltd.</copyright-statement><license license-type="creativeCommonsBy"><ns0:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ns0:license_ref><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" ns1:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pmc-pdf" ns1:href="CAM4-8-1694.pdf" /><self-uri content-type="pdf" ns1:href="file:CAM4-8-1694.pdf" /><abstract id="cam42032-abs-0001"><title>Abstract</title><p>Human colorectal cancer (CRC), characterized by its high morbidity and lethality, seriously threatens human health and lives. MicroRNA‐487b (miR‐487b) is currently reported to be aberrantly expressed in several tumors, but the detailed functions and underlying mechanisms of miR‐487b in CRC remain unclear. Here, we found that miR‐487b is downregulated in CRC cell lines and is markedly decreased in tumor specimens derived from CRC patients. MiR‐487b inhibits cell proliferation, migration and invasion and promotes the apoptosis of CRC cells in vitro. Statistical analysis of clinical samples indicates that miR‐487b may serve as a biomarker for early CRC diagnosis. Inverse correlations between the expression levels of MYC, SUZ12, and KRAS and that of miR‐487b exist in vitro and in CRC patient tissue specimens. Further experiments demonstrated the regulatory effects of miR‐487b on MYC, SUZ12, and KRAS, and the disruption of these genes partially restores the miR‐487b inhibitor‐induced phenotype. Additionally, miR‐487b promoter region is in a DNA hypermethylated condition and the DNA methyltransferase inhibitor 5‐aza‐2’‐deoxycytidine (5‐Aza) increases the levels of miR‐487b but suppresses the expression of MYC, SUZ12, and KRAS in a time‐ and concentration‐dependent manner in CRC cells. Collectively, miR‐487b is regulated by DNA methylation and it functions as a tumor suppressor in CRC mainly through targeting MYC, SUZ12, and KRAS. Our study provides insight into the regulatory network in CRC cells, offering a new target for treating CRC patients.</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="cam42032-kwd-0001">colorectal cancer</kwd><kwd id="cam42032-kwd-0002">DNA methylation</kwd><kwd id="cam42032-kwd-0003">EMT</kwd><kwd id="cam42032-kwd-0004">miR‐487b</kwd><kwd id="cam42032-kwd-0005">tumorigenesis</kwd></kwd-group><funding-group><award-group><funding-source>National Natural Science Foundation of China</funding-source><award-id>81472633</award-id><award-id>81773003</award-id></award-group></funding-group><counts><fig-count count="7" /><table-count count="0" /><page-count count="16" /><word-count count="8046" /></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>component-id</meta-name><meta-value>cam42032</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>April 2019</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_NLMPMC version:5.6.2.1 mode:remove_FC converted:15.05.2019</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="cam42032-cit-1001">
+<string-name name-style="western">
+<surname>Chen</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lin</surname>
+<given-names>Z‐F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Xi</surname>
+<given-names>W‐J</given-names>
+</string-name>, et al. <article-title>DNA methylation‐regulated and tumor‐suppressive roles of miR‐487b in colorectal cancer via targeting MYC, SUZ12, and KRAS</article-title>. <source xml:lang="en">Cancer Med</source>. <year>2019</year>;<volume>8</volume>:<fpage>1694</fpage>–<lpage>1709</lpage>. <pub-id pub-id-type="doi">10.1002/cam4.2032</pub-id>
+<pub-id pub-id-type="pmid">30791232</pub-id><pub-id pub-id-type="pmcid">PMC6488202</pub-id></mixed-citation>
+</p><fn-group id="cam42032-ntgp-0001"><fn fn-type="equal" id="cam42032-note-0001"><p>Xu Chen, Zhi‐feng Lin and Wen‐jin Xi contributed equally to this work.</p></fn></fn-group></notes></front><body><sec id="cam42032-sec-0001"><label>1</label><title>INTRODUCTION</title><p>Human colorectal cancer (CRC) is one of the most common digestive malignancies in the world. Accumulated data derived from the World Cancer Trend Analysis showed that CRC is the third most common malignant tumor in males and second most common malignant tumor in females, making it a serious threat to human health and lives.<xref rid="cam42032-bib-0001" ref-type="ref">1</xref> Characterized by its high recurrence and mortality rate, CRC causes more than 600 000 deaths per year globally.<xref rid="cam42032-bib-0002" ref-type="ref">2</xref> Metastasis is a pivotal feature that helps CRC cells to survive and escape immune surveillance, exerting negative effects on therapy and the prognosis of CRC patients.<xref rid="cam42032-bib-0003" ref-type="ref">3</xref> However, the mechanisms underlying CRC metastasis has not yet been fully understood. Therefore, the identification of sensitive biomarkers is of urgent significance for better CRC diagnosis and therapeutics.</p><p>MicroRNAs (miRNAs) typically suppress translation or degrade transcripts via direct interactions with the complementary mRNA sequences in 3’‐untranslated regions (3’‐UTRs) during the posttranscriptional phase, and they participate in various biological processes, particularly tumorigenesis.<xref rid="cam42032-bib-0004" ref-type="ref">4</xref>, <xref rid="cam42032-bib-0005" ref-type="ref">5</xref> Multiple miRNAs, functioning either as onco‐miRs or tumor suppressors, are implicated in the regulatory networks of CRC development and progression to date.<xref rid="cam42032-bib-0006" ref-type="ref">6</xref> In addition, aberrant expression of miRNAs in CRC may be attributed to the genetic or epigenetic alterations, such as DNA methylation and histone modification.<xref rid="cam42032-bib-0007" ref-type="ref">7</xref>, <xref rid="cam42032-bib-0008" ref-type="ref">8</xref> MiR‐487b, which was first identified as a negative regulator for acute ischemic stroke<xref rid="cam42032-bib-0009" ref-type="ref">9</xref> and pulmonary fibrosis,<xref rid="cam42032-bib-0010" ref-type="ref">10</xref> is currently reported to be involved in the modulation of several tumors, such as preventing pulmonary carcinogenesis<xref rid="cam42032-bib-0011" ref-type="ref">11</xref> and serving as a favorable biomarker for prostate cancer.<xref rid="cam42032-bib-0012" ref-type="ref">12</xref> Recently, miR‐487b was reported to play a role in regulating CRC tumorigenesis via directly targeting GRM3 and Kirsten rat sarcoma viral oncogene homolog (KRAS).<xref rid="cam42032-bib-0013" ref-type="ref">13</xref>, <xref rid="cam42032-bib-0014" ref-type="ref">14</xref> Nevertheless, the function of miR‐487b in CRC and mechanism that accounts for the aberrant expression of miR‐487b in tumors are not fully elucidated. Further investigations are needed to fill in these blanks.</p><p>Epithelial‐mesenchymal transition (EMT), a canonical process of morphology alteration in diverse tumors, is closely associated with the malignant phenotypes of cancer cells and significantly facilitates tumor transformation and development.<xref rid="cam42032-bib-0015" ref-type="ref">15</xref> Disruption of epithelial marker cadherin 1, type 1, E‐cadherin (epithelial) (CDH1) and enhancement of mesenchymal marker Vimentin are critical molecular changes during EMT.<xref rid="cam42032-bib-0016" ref-type="ref">16</xref> Various signaling pathways, including transforming growth factor beta (TGF‐β), tyrosine kinase receptor (RTK), Notch and wingless integrated (Wnt) pathways,<xref rid="cam42032-bib-0017" ref-type="ref">17</xref> as well as miRNAs—for example, miR‐122,<xref rid="cam42032-bib-0018" ref-type="ref">18</xref> miR‐145,<xref rid="cam42032-bib-0019" ref-type="ref">19</xref> and miR‐154<xref rid="cam42032-bib-0020" ref-type="ref">20</xref>—directly or indirectly regulate the expression of CDH1, Vimentin or the entire process of EMT.<xref rid="cam42032-bib-0021" ref-type="ref">21</xref> Note, miR‐154 gene family members miR‐300<xref rid="cam42032-bib-0022" ref-type="ref">22</xref> and miR‐369<xref rid="cam42032-bib-0023" ref-type="ref">23</xref> have been verified to participate in the EMT in several cancers. Thus, we hypothesize that, as a member of the miR‐154 gene family, miR‐487b also likely plays a similar role in the regulation of EMT.</p><p>In this study, we demonstrated that endogenous miR‐487b inhibition is an advantageous condition for CRC cells to transfer from the epithelial phenotype to mesenchymal phenotype and acquire the capability to proliferate, migrate, and invade uncontrollably. Mechanistically, miR‐487b reduced the expression of v‐myc avian myelocytomatosis viral oncogene homolog (MYC), suppressor of zeste 12 protein homolog (SUZ12) and KRAS, and blocked the development of EMT via increasing CDH1 and decreasing Vimentin in vitro and in vivo. Additionally, our studies indicated that DNA methylation might be the reason for the aberrantly low expression of miR‐487b in CRC. In summary, we identified miR‐487b as a CRC suppressor and provide a novel target for CRC diagnosis and therapy.</p></sec><sec id="cam42032-sec-0002"><label>2</label><title>MATERIALS AND METHODS</title><sec id="cam42032-sec-0003"><label>2.1</label><title>CRC patient specimens</title><p>Forty‐one CRC patients with matched adjacent normal mucosae, primary tumors, and metastatic tissues derived from the lymph nodes or hepatocellular carcinomas were collected from the Gastroenterology Department of Xijing Hospital affiliated with the Fourth Military Medical University (FMMU). All the patients included in this study had definite pathological diagnoses and underwent surgery on primary and metastatic tumors from 2008 to 2015. Our research was approved by the Medical Ethics Committee of FMMU, and written informed consent was obtained from all patients ahead of the experiments. Information on these CRC patients is listed in the Supporting information section (Table <xref rid="cam42032-sup-0001" ref-type="supplementary-material">S1</xref>).</p></sec><sec id="cam42032-sec-0004"><label>2.2</label><title>Cell cultivation and transient transfection</title><p>The normal colorectal cell line, HIEC and CRC cell lines, HCT116, HT29, SW480, and SW620 were all purchased from the Cell Bank of Chinese Academy of Science (SIBS, Shanghai, China). Authentications by STR profiling of all the above cell lines were performed in the Center for DNA Typing of the Fourth Military Medical University (FMMU). For cell cultivation, HIEC cells were cultured in Roswell Park Memorial Institute‐1640 (RPMI‐1640) medium (Gibco, Los Angeles). HCT116 and HT29 cells were cultured in McCoy's 5A medium (Gibco). SW480 and SW620 cells were cultured in Leibovitz's L‐15 medium (Gibco). All of the mediums were supplemented with 10% fetal bovine serum (FBS) (Gibco) and 1% penicillin‐streptomycin. The cells were maintained in a constant 5% CO<sub>2</sub>, 37°C incubator (Thermo, MA). Transient transfection was performed according to manufacturer's instructions by using the Lipofectamine 2000 Transfection Reagent (Invitrogen, Carlsbad). Oligonucleotides were transfected at a final concentration of 2 μg/mL for 48 h. Cells were treated with 5‐aza‐2’‐deoxycytidine (5‐Aza) (Sigma‐Aldrich, Santa Clara) for the in vitro assays. Information on oligonucleotides and reagents is listed in the Supporting information section (Table <xref rid="cam42032-sup-0001" ref-type="supplementary-material">S3</xref> and <xref rid="cam42032-sup-0001" ref-type="supplementary-material">S5</xref>), respectively.</p></sec><sec id="cam42032-sec-0005"><label>2.3</label><title>RNA isolation, reverse transcription, and quantitative real‐time polymerase chain reaction (qRT‐PCR)</title><p>Total RNA of cells was extracted by TRIzol (Invitrogen) and sequentially purified via the chloroform, isopropanol, and 70% ethanol. Reverse transcription for miRNA and mRNA relied on a SYBR<sup>®</sup> PrimeScript™ miRNA RT‐PCR Kit and PrimeScript™ RT Master Mix (TaKaRa, Shiga, Japan), respectively. Quantitative real‐time polymerase chain reaction (qRT‐PCR) was applied on Bio‐Rad CFX96 system (Bio‐Rad, Hercules) with FastStart Essential DNA Green Master (Roche, Indianapolis). The U6 and β‐actin were used to normalize the miRNA and mRNA samples, respectively. Relative quantification of target primers was calculated by the 2<sup>−ΔΔCT</sup> method. All experiments were repeated in triplicate. Primers used for qRT‐PCR analysis are listed in the Supporting information section (Table <xref rid="cam42032-sup-0001" ref-type="supplementary-material">S2</xref>).</p></sec><sec id="cam42032-sec-0006"><label>2.4</label><title>Protein isolation and Western blot analysis</title><p>Total protein of cell lysates was isolated by the RIPA lysis buffer (Genshare, Xi'an, China) and quantified via a bicinchoninic assay (BCA). Twenty‐five micrograms of protein samples was separated by the 10% SDS‐PAGE gel and then transferred onto the polyvinylidene fluoride (PVDF) membranes (Millipore, Billerica). After 1 hour block through 5% BSA at room temperature, the PVDF membranes were incubated with the appropriate primary antibodies at 4°C overnight. The PVDF membranes were then washed with TBST (Tris Buffered Saline with 0.05% Tween‐20) multiple times and incubated with the secondary antibodies at room temperature for 1 hour. FluorChem FC2 system (Alpha Innotech, San Leandro) was used to measure the protein signals with different exposure time ranging from 1‐60 s. Antibodies used for Western blot analysis are listed in the Supporting information section (Table <xref rid="cam42032-sup-0001" ref-type="supplementary-material">S4</xref>).</p></sec><sec id="cam42032-sec-0007"><label>2.5</label><title>Cell proliferation assays</title><p>Proliferative ability of CRC cells was analyzed by MTT and colony formation assays. Briefly, for the MTT assay, 2 × 10<sup>3</sup> cells were seeded into the 96‐well plates in 200 μL serum medium. Twenty microliters of MTT was added to each well and incubated with the cells at 37°C, 5% CO<sub>2</sub> for 4 hours. Supernatant was removed by a vacuum extractor and 150 μL dimethylsulfoxide (DMSO) was added to dissolve the cell lysates. Single absorbance at 490 nm was examined by a multiwell plate reader (Bio‐Rad). Each experiment was performed in six repetitions. For the colony formation assay, 2 × 10<sup>3</sup> cells were plated into the 6 cm‐dishes with 10 mL serum medium at 37°C, 5% CO<sub>2</sub> for 10‐14 days. Then, cells were washed with phosphate buffer saline (PBS) multiple times and fixed by 5 mL methyl alcohol for 20 minutes. Colonies were stained with Giemsa and visually counted behind a transparent mash paper. Each experiment was repeated in triplicate.</p></sec><sec id="cam42032-sec-0008"><label>2.6</label><title>Cell cycle and apoptosis analysis</title><p>Flow cytometry was used to determine the cell cycle distribution and cell apoptosis. Briefly, for cell cycle analysis, 1 × 10<sup>6</sup> cells were washed three times with PBS and were fixed in 70% ethanol at 4°C overnight. Fixed cells were then stained with propidium iodide (PI) for 2 hours at 4°C in the dark. The distribution and percentage of cells in different cycle phases were analyzed by CellQuest software. For cell apoptosis analysis, 1 × 10<sup>6</sup> cells were harvested and washed three times with PBS. According to the manufacturer's instructions, the cells were then stained with an Annexin V‐FITC plus PI mixture. Cell apoptosis was detected at 488 nm and was analyzed using CellQuest software.</p></sec><sec id="cam42032-sec-0009"><label>2.7</label><title>Cell migration and invasion analysis</title><p>Wound‐healing and Transwell assays were performed to examine the migration and invasion of CRC cells in vitro. Briefly, for the wound‐healing assay, a 100‐μL pipette tip was applied to scratch the monolayer of cells that were cultivated to 90% confluence vertically. The created wound was observed and photographed under a microscope at the indicated times (0, 24, 48 and 72 hours). For the Transwell assay, 200 μL serum‐free medium containing resuspended 1 × 10<sup>4</sup> cells were plated into the upper chamber membrane (24‐well insert; pore size, 8 μm; Millipore) with 500 μL serum medium in the lower chamber. After 24‐36 hours of incubation at 37°C, the cells were fixed with 4% paraformaldehyde, stained with 0.1% crystal violet, and counted under a light microscope. Each experiment was performed at least in triplicate.</p></sec><sec id="cam42032-sec-0010"><label>2.8</label><title>Pyrosequencing analysis</title><p>Genomic DNA from the human tissues was extracted using the Blood and Tissue DNA Kit (Qiagen, Hilden, Germany) and was subjected to bisulfite treatment using the EpiTect Bisulfite Kit (Qiagen) according to the manufacturer's instructions. Next, the genomic DNA samples were PCR amplified and the site‐specific methylation levels were quantified via pyrosequencing analysis. Briefly, the sequencing samples were first prepared using the Vacuum Prep workstation (Biotage, Uppsala, Sweden) and then were transferred to a plate harboring 0.4 μmol/L of sequencing primers in 40 μL of annealing buffer, followed by heating at 80°C for 2 minutes. Pyrosequencing analysis was performed using the PyroMark Gold Q96 Reagent and PyroMark ID System (Qiagen), and the results were analyzed using Pyro Q‐CpG™ software v. 1.0.9 (Sangon Biotech, Shanghai, China). The primer sequences of the pyrosequencing analysis are listed as follows:</p><p>Primer 1: F 5′‐GTTAAAAGTATGTAYGATGTGTGTGG‐3′</p><p>R 5′‐ATAACAACAAAAACCACAAAACC‐3′</p><p>Primer 2: F 5′‐TTGTTGGGGTTGAAYGAGTTAAG‐3′</p><p>R 5′‐AACACACAAAAATCCTAACTACCAC‐3′</p></sec><sec id="cam42032-sec-0011"><label>2.9</label><title>Statistical analysis</title><p>Statistical analysis was performed using SPSS 17.0 software. The data are represented as the means ± standard division (SD) of at least three independent experiments. Student's <italic toggle="yes">t </italic>test was used to evaluate the statistical significance between two independent samples or groups. Analysis of more than two groups was performed by one‐way analysis of variance. Spearman's rank correlation test was applied to evaluate the correlation significance between miRNA and mRNA. Receiver operating characteristic (ROC) curves were used to assess diagnostic accuracy through area under the curve (AUC) analysis. A difference was considered statistically significant when *<italic toggle="yes">P</italic> &lt; 0.05, **<italic toggle="yes">P</italic> &lt; 0.01 and ***<italic toggle="yes">P</italic> &lt; 0.001.</p></sec></sec><sec id="cam42032-sec-0012"><label>3</label><title>RESULTS</title><sec id="cam42032-sec-0013"><label>3.1</label><title>MiR‐487b is aberrantly expressed in CRC cell lines and prevents the abnormal proliferation of CRC cells in vitro</title><p>To determine the endogenous miR‐487b expression and select experimental subjects, we first performed qRT‐PCR analysis on five different colorectal cell lines. As shown in Figure <xref rid="cam42032-fig-0001" ref-type="fig">1</xref>A, HIEC, a normal intestinal epithelial cell line, harbored a higher miR‐487b level than that of the other four CRC cell lines. Additionally, miR‐487b was predominantly expressed in three epithelial CRC cells (HCT116, HT29, and SW480) but was barely detectable in mesenchymal CRC cells (SW620). Moreover, among the three CRC cell lines with elevated miR‐487b expression, SW480 belongs to the Dukes grade B group that lacks invasiveness, while the lowest miR‐487b‐expressing cell line, SW620, is featured by high metastasis potential and identified as Dukes grade C.<xref rid="cam42032-bib-0024" ref-type="ref">24</xref> These results support the hypothesis that miR‐487b is markedly inhibited in CRC cell lines and serves as a metastasis suppressor in vitro.</p><fig fig-type="Figure" xml:lang="en" id="cam42032-fig-0001" orientation="portrait" position="float"><label>Figure 1</label><caption><p>MiR‐487b is downregulated in colorectal cancer (CRC) cells and inhibits CRC cell proliferation. A, The expression level of endogenous miR‐487b was measured in five colorectal cell lines. Vertical dotted lines are used to differentiate normal epithelial, tumor epithelial, and mesenchymal cells from each other. B, qRT‐PCR analysis for the efficiency of miR‐487b knockdown in HCT116 (<italic toggle="yes">left</italic>) cells and overexpression in SW620 (<italic toggle="yes">right</italic>) cells with the indicated oligonucleotide transfection. C, The proliferative ability of HCT116 miR‐487b inhibitor/NC (<italic toggle="yes">upper</italic>) cells and SW620 miR‐487b mimic/NC (<italic toggle="yes">lower</italic>) cells was measured via the MTT assay. D and E, Flow cytometry analysis was used to determine the cell apoptosis (D) and cell cycle (E) of HCT116 miR‐487b inhibitor/NC cells (<italic toggle="yes">upper</italic>) and SW620 miR‐487b mimic/NC cells (<italic toggle="yes">lower</italic>). F, The HCT116 and SW620 cells with the indicated transfection were subjected to the colony formation assay. The data are represented as the means ± SD of no less than three independent experiments. NS, no significance, *<italic toggle="yes">P</italic> &lt; 0.05, **<italic toggle="yes">P</italic> &lt; 0.01 and ***<italic toggle="yes">P</italic> &lt; 0.001</p></caption><graphic id="nlm-graphic-3" position="float" orientation="portrait" ns1:href="CAM4-8-1694-g001.jpg" /></fig><p>Based on the detection results in CRC cell lines, we next performed a series of gain‐ and loss‐of‐function assays in HCT116 and SW620 cells to explore what role, if any, miR‐487b plays in CRC tumorigenesis. Because miR‐487b was relatively higher in HCT116 cells than in SW620 cells (Figure <xref rid="cam42032-fig-0001" ref-type="fig">1</xref>A), we knocked down miR‐487b in HCT116 cells via its inhibitor and enhanced miR‐487b in SW620 cells by its mimic compared with each NC group (Figure <xref rid="cam42032-fig-0001" ref-type="fig">1</xref>B). An MTT assay was applied to determine the effects of miR‐487b on CRC cell proliferation. As shown in Figure <xref rid="cam42032-fig-0001" ref-type="fig">1</xref>C, the proliferation ability of HCT116 cells was elevated with the downregulation of miR‐487b, but the amplified proportion of SW620 cells was decreased via miR‐487b overexpression. In addition, cell apoptosis analysis through flow cytometry exhibited that the miR‐487b inhibitor‐treated HCT116 cells resulted in a remarkable decline in cell apoptosis, whereas the opposite result was observed in miR‐487b mimic‐treated SW620 cells (Figure <xref rid="cam42032-fig-0001" ref-type="fig">1</xref>D). However, significant changes in the cell cycle did not appear in the HCT116 miR‐487b inhibitor/NC or SW620 miR‐487b mimic/NC cells (Figure <xref rid="cam42032-fig-0001" ref-type="fig">1</xref>E), indicating that the miR‐487b‐induced CRC cell proliferation limitation mainly relied on its stimulatory effect on apoptosis rather than on cell cycle arrest. Furthermore, in agreement with the MTT assay, colony amounts of the HCT116 cells were notably boosted with the transient transfection of the miR‐487b inhibitor compared with that in the NC group, and vice versa in SW620 miR‐487b mimic/NC cells (Figure <xref rid="cam42032-fig-0001" ref-type="fig">1</xref>F). Taken together, these findings demonstrate that miR‐487b can prevent the proliferation of CRC cells in vitro, as suggested by the data acquired from HCT116 and SW620 cells.</p></sec><sec id="cam42032-sec-0014"><label>3.2</label><title>MiR‐487b is downregulated in metastatic CRC specimens and suppresses the migration and invasion of CRC cells</title><p>In accordance with the endogenous miR‐487b level in CRC cell lines (Figure <xref rid="cam42032-fig-0001" ref-type="fig">1</xref>A), we speculated that miR‐487b might play an antimetastasis role because it was restrained in mesenchymal SW620 cells and elevated in epithelial cells (HIEC, HCT116, HT29, and SW480). To investigate this assumption, we conducted wound‐healing and Transwell assays in HCT116 and SW620 cells. Knockdown of miR‐487b significantly promoted healing (Figure <xref rid="cam42032-fig-0002" ref-type="fig">2</xref>A) and invasion through the Transwell membranes of the chambers (Figure <xref rid="cam42032-fig-0002" ref-type="fig">2</xref>B) in HCT116 cells. In contrast with the observations of HCT116 cells, overexpression of miR‐487b markedly prevented SW620 cells from migrating into a monolayer of the wounded cells (Figure <xref rid="cam42032-fig-0002" ref-type="fig">2</xref>A) and abolished the invasive cell amounts onto the other side of Transwell membranes (Figure <xref rid="cam42032-fig-0002" ref-type="fig">2</xref>B). These results support miR‐487b participation in repressing the metastasis and invasiveness of CRC cells in vitro.</p><fig fig-type="Figure" xml:lang="en" id="cam42032-fig-0002" orientation="portrait" position="float"><label>Figure 2</label><caption><p>MiR‐487b serves as an antimetastatic regulator and a potential diagnostic biomarker in colorectal cancer (CRC). A, The wound‐healing assay was performed in HCT116 miR‐487b inhibitor/NC cells and SW620 miR‐487b mimic/NC cells to assess cell migration for 0, 24, 48, and 72 h (<italic toggle="yes">left</italic>). Statistical analysis (<italic toggle="yes">right</italic>) for HCT116 (<italic toggle="yes">upper</italic>) and SW620 (<italic toggle="yes">lower</italic>) cells is shown. The <italic toggle="yes">Scale bars</italic> represent 200 μm. B, The migratory and invasive ability of HCT116 and SW620 cells with indicated transfection was evaluated via Transwell experiments. The <italic toggle="yes">Scale bars</italic> represent 100 μm. C, MiR‐487b was differentially expressed in normal (N, 1137.0 ± 282.6), tumor (T, 122.2 ± 29.4), and metastatic (M, 26.5 ± 8.1) tissues as determined by qRT‐PCR analysis. D, Receiver operating characteristic (ROC) curve analysis for the accuracy of miR‐487b in the diagnosis of primary tumor (l<italic toggle="yes">eft</italic>) and metastasis (r<italic toggle="yes">ight</italic>) in CRC. The data are shown as area under the curves (AUCs). The data are presented as the means ± SD of three independent experiments. *<italic toggle="yes">P</italic> &lt; 0.05 and **<italic toggle="yes">P</italic> &lt; 0.01</p></caption><graphic id="nlm-graphic-5" position="float" orientation="portrait" ns1:href="CAM4-8-1694-g002.jpg" /></fig><p>Although the anti‐CRC role of miR‐487b was validated through a series of in vitro experiments according to our present data, the in vivo function of miR‐487b remained unclear. Therefore, we measured the expression of miR‐487b in 41 matched adjacent normal mucosae (N), primary CRC tissues (T) and metastasis tissues derived from the lymph nodes or hepatic tumors (M) from Xijing Hospital using qRT‐PCR. The results showed that miR‐487b was significantly upregulated in group N (1137.0 ± 282.6) compared with group T (122.2 ± 29.4) and M (26.5 ± 8.1) (Figure <xref rid="cam42032-fig-0002" ref-type="fig">2</xref>C), indicating the antitumor and antimetastasis functions of miR‐487b in CRC in vivo. Next, receiver operating characteristic (ROC) curve analysis was performed depending on the miR‐487b level in CRC patient specimens to further evaluate the association between miR‐487b and the primary tumor or metastasis. Intriguingly, we found that miR‐487b might be an effective diagnosis biomarker to differentiate between the occurrence of the primary tumor, with an area under the curve (AUC) of 0.691 (<italic toggle="yes">P = </italic>0.0029), and metastasis, with an AUC of 0.689 (<italic toggle="yes">P = </italic>0.0032) (Figure <xref rid="cam42032-fig-0002" ref-type="fig">2</xref>D). These data clarify an anti‐CRC role, especially an antimetastatic role, of miR‐487b in vivo, and its potential clinical value for CRC.</p></sec><sec id="cam42032-sec-0015"><label>3.3</label><title>MiR‐487b positively correlates with CDH1 expression and suppresses the process of EMT</title><p>To further investigate the modulation that miR‐487b inhibits CRC metastasis, we first discovered the morphological alterations of HCT116 and SW620 cells by the indicated oligonucleotide transfection under a microscope. As shown in Figure <xref rid="cam42032-fig-0003" ref-type="fig">3</xref>A, knockdown of miR‐487b in HCT116 cells caused a loose cell‐cell adhesion and fibroblast‐like change, whereas SW620 cells with miR‐487b overexpression appeared to form tight junctions in contact with each other and a reverse mesenchymal phenotype, suggesting the potential anti‐EMT function of miR‐487b. Next, alterations in EMT hallmarks were further assessed following the intracellular up‐ or downregulation of miR‐487b in SW620 and HCT116 cells. The EMT hallmarks—for example, the ETS proto‐oncogene 1 (ETS1), fibronectin 1 (FN1), snail family transcriptional repressor 1, 2 (SNAI1 and SNAI2), and zinc finger E‐box binding homeobox 1, 2 (ZEB1 and ZEB2)—exhibited different degrees of elevation when miR‐487b was decreased in HCT116 cells and generally descended concomitantly with the increase in miR‐487b in SW620 cells (Figure <xref rid="cam42032-fig-0003" ref-type="fig">3</xref>B), providing evidence for the identification of miR‐487b as an EMT suppressor in CRC cells.</p><fig fig-type="Figure" xml:lang="en" id="cam42032-fig-0003" orientation="portrait" position="float"><label>Figure 3</label><caption><p>MiR‐487b blocks the development of epithelial‐mesenchymal transition (EMT). A, The altered morphology of HCT116 miR‐487b inhibitor/NC cells and SW620 miR‐487b mimic/NC cells was observed under a light microscope. Representative alterations of morphology are marked by <italic toggle="yes">black arrows</italic>. B, The mRNA levels of six EMT hallmarks in the indicated miR‐487b oligonucleotide‐treated HCT116 and SW620 cells. C, Endogenous expression of miR‐487b, CDH1, and Vimentin in HCT116, SW480, and SW620 cells was tested by qRT‐PCR (<italic toggle="yes">upper</italic>) and Western blot analysis (<italic toggle="yes">lower</italic>). D and E, The expression of CDH1 and Vimentin in HCT116 miR‐487b inhibitor/NC cells and SW620 miR‐487b mimic/NC cells was measured via qRT‐PCR (D) and Western blot analysis (E). F, Spearman's rank correlation test was applied to evaluate the probable relationship between miR‐487b and CDH1 as well as between miR‐487b and Vimentin. The data are shown as the means ± SD of three independent experiments. *<italic toggle="yes">P</italic> &lt; 0.05, **<italic toggle="yes">P</italic> &lt; 0.01, and ***<italic toggle="yes">P</italic> &lt; 0.001</p></caption><graphic id="nlm-graphic-7" position="float" orientation="portrait" ns1:href="CAM4-8-1694-g003.jpg" /></fig><p>The epithelial marker CDH1 and the mesenchymal marker Vimentin are pivotal hallmarks of the EMT process. We first compared the endogenous expression levels of these two hallmarks in HCT116, SW480, and SW620 cells. Our experiments showed that miR‐487b had the highest expression in HCT116 and the lowest expression in SW620 along with moderate expression in SW480, a finding that was consistent with the expression trend of CDH1 and opposite trend of Vimentin (Figure <xref rid="cam42032-fig-0003" ref-type="fig">3</xref>C). Next, we detected the expression levels of CDH1 and Vimentin in HCT116 miR‐487b inhibitor/NC cells and SW620 miR‐487b mimic/NC cells at both mRNA (Figure <xref rid="cam42032-fig-0003" ref-type="fig">3</xref>D) and protein (Figure <xref rid="cam42032-fig-0003" ref-type="fig">3</xref>E) levels. The results showed that reducing miR‐487b in HCT116 cells induced the elevation of Vimentin and decline of CDH1, whereas enhancement of miR‐487b mediated an opposite effect on CDH1 or Vimentin in SW620 cells. Finally, we examined the levels of CDH1 and Vimentin in the 41 matched CRC patient specimens to clarify the potential relationship between miR‐487b and these two EMT hallmarks. Spearman's rank correlation test analysis showed that miR‐487b expression was positively related to CDH1 (r = 0.389, ***<italic toggle="yes">P</italic> &lt; 0.001) but negatively associated with Vimentin (r = −0.310, **<italic toggle="yes">P</italic> &lt; 0.01) (Figure <xref rid="cam42032-fig-0003" ref-type="fig">3</xref>F). Taken together, these results suggest a positive correlation between miR‐487b and CDH1, thus further highlighting the anti‐EMT role of miR‐487b.</p></sec><sec id="cam42032-sec-0016"><label>3.4</label><title>MiR‐487b is an endogenous inhibitor of MYC, SUZ12, and KRAS in CRC cells and patient specimens</title><p>A previous study has reported that MYC, SUZ12, and KRAS are the biotargets of miR‐487b in cigarette smoke‐induced lung cancer,<xref rid="cam42032-bib-0011" ref-type="ref">11</xref> leading us to speculate that miR‐487b could also suppress CRC tumorigenesis by inhibiting these three genes. The expression patterns of endogenous MYC, SUZ12, and KRAS in colorectal cells revealed an analogous trend via qRT‐PCR analysis. The normal cells, HIEC, possessed the lowest levels of MYC, SUZ12, and KRAS, while the mRNAs of these genes were dramatically elevated in SW620 cells. Among the three cell lines with moderate miR‐487b levels, MYC, SUZ12, or KRAS levels were increased in HCT116, HT29, and SW480, in that order (Figure <xref rid="cam42032-fig-0004" ref-type="fig">4</xref>A). MYC, SUZ12, and KRAS levels were also markedly upregulated in SW620 cells compared with those in both HCT116 cells and SW480 cells at the protein level (Figure <xref rid="cam42032-fig-0004" ref-type="fig">4</xref>B). Therefore, a strong inverse correlation between miR‐487b and MYC, SUZ12, or KRAS was observed by overlapping the miR‐487b broken line with those of the three targets (Figures <xref rid="cam42032-fig-0001" ref-type="fig">1</xref>A and <xref rid="cam42032-fig-0004" ref-type="fig">4</xref>C). Additionally, we knocked down or overexpressed miR‐487b in HCT116 and SW620 cells to discuss the exogenous impact on the expression levels of MYC, SUZ12, and KRAS. As shown in Figure <xref rid="cam42032-fig-0004" ref-type="fig">4</xref>D, repressing miR‐487b by a pool of inhibitors led to promotion in MYC, SUZ12, and KRAS levels in HCT116 cells, while enhancing miR‐487b via its mimic in SW620 cells significantly restrained the expression of these three genes at the mRNA level. Western blot analysis displayed a similar result in CRC cells with the indicated transfections (Figure <xref rid="cam42032-fig-0004" ref-type="fig">4</xref>E). In summary, these data strongly exhibit an inverse relationship between miR‐487b and MYC/SUZ12/KRAS in CRC cells in vitro.</p><fig fig-type="Figure" xml:lang="en" id="cam42032-fig-0004" orientation="portrait" position="float"><label>Figure 4</label><caption><p>MYC, SUZ12, and KRAS are the targets of miR‐487b in colorectal cancer (CRC) cells and patient specimens. A, Expression levels of MYC, SUZ12, and KRAS mRNA in HIEC, HCT116, HT29, SW480, and SW620 cells were detected by qRT‐PCR. B, Endogenous protein levels of MYC, SUZ12, and KRAS in HCT116, SW480, and SW620 cells were tested via Western blot analysis. C, Comparisons between the expression curves of miR‐487b and MYC/SUZ12/KRAS in the five colorectal cell lines. (D and E) The expression of MYC, SUZ12, and KRAS was examined following the transfection of the miR‐487b inhibitor in HCT116 cells and miR‐487b mimic in SW620 cells compared with that in each NC group at the mRNA (D) and protein (E) levels. F, Expression levels of MYC, SUZ12, and KRAS in the 41 matched CRC patient specimens. G, The correlation between miR‐487b and MYC/SUZ12/KRAS was evaluated by the Spearman's rank correlation test. Error bars represent the SD of three independent experiments. NS, no significance, *<italic toggle="yes">P</italic> &lt; 0.05, **<italic toggle="yes">P</italic> &lt; 0.01, and ***<italic toggle="yes">P</italic> &lt; 0.001</p></caption><graphic id="nlm-graphic-9" position="float" orientation="portrait" ns1:href="CAM4-8-1694-g004.jpg" /></fig><p>Additional experiments were performed to investigate the negative correlation between miR‐487b and its three targets in vivo. We detected the distribution of MYC, SUZ12, and KRAS in patient samples from the 41 paired normal (N), tumorous (T), and metastatic (M) tissues, respectively. Consistent with the colorectal cell lines (Figure <xref rid="cam42032-fig-0004" ref-type="fig">4</xref>A), MYC, SUZ12, and KRAS were all upregulated in the primary tumors compared with those in normal tissues, indicating the intrinsic oncogenes of these biotargets in CRC. Additionally, the expression levels of both SUZ12 and KRAS were pronouncedly higher in metastatic tissues than in primary tumor tissues, suggesting the functions of SUZ12 and KRAS were also closely metastasis related (Figure <xref rid="cam42032-fig-0004" ref-type="fig">4</xref>F). Next, the association between miR‐487b and these three genes was further analyzed by Spearman's rank correlation test analysis. The correlation coefficients of miR‐487b and its targets, MYC (r = −0.241, ***<italic toggle="yes">P</italic> &lt; 0.001), SUZ12 (r = −0.312, ***<italic toggle="yes">P</italic> &lt; 0.001), and KRAS (r = −0.519, ***<italic toggle="yes">P</italic> &lt; 0.001), were revealed when plotted with each other (Figure <xref rid="cam42032-fig-0004" ref-type="fig">4</xref>G). In conclusion, these results demonstrate MYC, SUZ12, and KRAS as intrinsic biological targets of miR‐487b within the inhibition of CRC progression.</p></sec><sec id="cam42032-sec-0017"><label>3.5</label><title>MYC, SUZ12, and KRAS participate in miR‐487b‐induced CRC suppression</title><p>Motivated by our previous observation that miR‐487b could inhibit the expression of MYC, SUZ12, and KRAS at the mRNA and protein levels (Figure <xref rid="cam42032-fig-0004" ref-type="fig">4</xref>D,E), we continued to ask whether MYC, SUZ12, and KRAS were involved in the miR‐487b‐mediated suppressive effect. To study this assumption, we introduced the specific small interfering RNAs (siRNAs) and negative control (NC) of these three genes into our study. As shown in Figure <xref rid="cam42032-fig-0005" ref-type="fig">5</xref>A, MYC, SUZ12, and KRAS could effectively be decreased by specific siRNAs compared with the NC group at the mRNA and protein levels.</p><fig fig-type="Figure" xml:lang="en" id="cam42032-fig-0005" orientation="portrait" position="float"><label>Figure 5</label><caption><p>Inhibition of MYC/SUZ12/KRAS suppresses the miR‐487b inhibitor‐mediated colorectal cancer (CRC) progression. A, Expression levels of MYC, SUZ12, and KRAS in specific siRNA‐treated HCT116 cells compared with those in the NC groups at the mRNA and protein levels. B and C, Proliferative capacity of HCT116 miR‐487b inhibitor/NC cells with cotransfection of the MYC‐, SUZ12‐, or KRAS‐specific siRNAs, as indicated by MTT (B) and colony formation (C) assays. D, The migratory and invasive ability of HCT116 miR‐487b inhibitor/NC cells following transfection with specific siRNAs of MYC, SUZ12, or KRAS was evaluated via the Transwell assay. The <italic toggle="yes">Scale bars</italic> represent 100 μm. The data are presented as the means ± SD of at least three independent experiments. *<italic toggle="yes">P</italic> &lt; 0.05, **<italic toggle="yes">P</italic> &lt; 0.01, and ***<italic toggle="yes">P</italic> &lt; 0.001</p></caption><graphic id="nlm-graphic-11" position="float" orientation="portrait" ns1:href="CAM4-8-1694-g005.jpg" /></fig><p>Based on the knockdown effects of siRNAs on MYC, SUZ12, and KRAS, we proceeded to explore whether the enhanced proliferative, metastatic, and invasive capabilities of miR‐487b inhibitor‐treated HCT116 cells could be restored compared with those in the NC group. Increasing proliferation caused by miR‐487b repression was partially abolished by a pool of small interfering RNAs of MYC, SUZ12, or KRAS in an MTT assay (Figure <xref rid="cam42032-fig-0005" ref-type="fig">5</xref>B). Additionally, the strengthened colony‐forming ability induced by miR‐487b inhibition was eliminated when MYC, SUZ12, or KRAS was simultaneously suppressed (Figure <xref rid="cam42032-fig-0005" ref-type="fig">5</xref>C). In addition, the silencing of MYC, SUZ12, or KRAS could neutralize the miR‐487b inhibitor‐mediated promotion of cell migration and invasion in the Transwell assay (Figure <xref rid="cam42032-fig-0005" ref-type="fig">5</xref>D). Together, these data suggest that miR‐487b suppresses CRC progression, at least in part by preventing the expression of MYC, SUZ12, or KRAS.</p></sec><sec id="cam42032-sec-0018"><label>3.6</label><title>5‐Aza relieves the endogenous inhibition of miR‐487b in CRC cell lines</title><p>According to our former observation that miR‐487b was significantly restrained in both CRC cell lines (Figure <xref rid="cam42032-fig-0001" ref-type="fig">1</xref>A) and primary tumors (Figure <xref rid="cam42032-fig-0002" ref-type="fig">2</xref>C) compared with normal tissues, we hypothesized that a potential inhibiting factor existed during the transcription of miR‐487b in CRC tumorigenesis. Epigenetic modifications, especially DNA methylation, are implicated in multiple cancers and impair the transcriptional initiation of various tumor suppressive miRNAs.<xref rid="cam42032-bib-0025" ref-type="ref">25</xref> In this regard, we first detected the DNA methylation levels on the miR‐487b promoter region in normal and CRC tissues through pyrosequencing analysis. As shown in Figure <xref rid="cam42032-fig-0006" ref-type="fig">6</xref>A, compared with the normal tissues, the DNA methylation levels of the CpG_2, CpG_4, CpG_5, CpG_6, CpG_7, and CpG_8 sites were markedly increased in CRC tissues, indicating a DNA hypermethylated condition of the miR‐487b promoter, partially explaining the relatively low expression in the CRC patients.</p><fig fig-type="Figure" xml:lang="en" id="cam42032-fig-0006" orientation="portrait" position="float"><label>Figure 6</label><caption><p>MiR‐487b is under the regulation of DNA methylation in colorectal cancer (CRC) cells. A, Methylation levels in the miR‐487b promoter region within the target sequences containing eight CpG sites in the three normal and CRC tissues were examined by pyrosequencing analysis, respectively. Representative results of specimens (<italic toggle="yes">upper</italic>) and statistical histogram (<italic toggle="yes">lower</italic>) are shown. B, qRT‐PCR analysis of miR‐487b expression in HCT116 and SW620 cells with 5‐Aza (4 μmol/L) treatment compared with that in the DMSO group. C, Different concentrations (0, 1, 4 μmol/L) and times (12, 24, 48 h) were applied to determine the effects of 5‐Aza on the miR‐487b expression in CRC cells. D and E, The mRNA and protein levels of miR‐487b biotargets (MYC, SUZ12, KRAS, Vimentin, and CDH1) were determined by qRT‐PCR (D) and Western blotting (E), respectively, in HCT116 and SW620 cells when treated with 5‐Aza/DMSO. The data are shown as the means ± SD of three independent experiments. NS, no significance, *<italic toggle="yes">P</italic> &lt; 0.05, **<italic toggle="yes">P</italic> &lt; 0.01, and ***<italic toggle="yes">P</italic> &lt; 0.001</p></caption><graphic id="nlm-graphic-13" position="float" orientation="portrait" ns1:href="CAM4-8-1694-g006.jpg" /></fig><p>Next, we used 5‐Aza, a DNA methyltransferase inhibitor, to investigate the mechanism of miR‐487b upstream regulation. We treated HCT116 and SW620 cells with 5‐Aza (4 μmol/L) for 48 hours and measured the expression level of miR‐487b in each cell line. 5‐Aza notably relieved transcription inhibition and promoted miR‐487b expression in both HCT116 and SW620 cells (Figure <xref rid="cam42032-fig-0006" ref-type="fig">6</xref>B). In addition, when exposed to 5‐Aza for different time periods (12, 24, and 48 hours) or concentrations (0, 1, and 4 μmol/L), the level of miR‐487b in SW620 cells gradually increased in a time‐ and dose‐dependent manner (Figure <xref rid="cam42032-fig-0006" ref-type="fig">6</xref>C). By contrast, when treated with 5‐Aza, the mRNAs of MYC, SUZ12, KRAS, and Vimentin were all dramatically reduced, whereas CDH1 mRNA was increased in HCT116 and SW620 cells (Figure <xref rid="cam42032-fig-0006" ref-type="fig">6</xref>D). Western blot analysis also revealed analogous protein changes in MYC, SUZ12, KRAS, Vimentin, and CDH1 after 5‐Aza induction (Figure <xref rid="cam42032-fig-0006" ref-type="fig">6</xref>E). Together, these data confirmed that miR‐487b is under the control of DNA methylation in CRC cells, suggesting removing DNA methylation might be a potential CRC therapeutic strategy in clinical applications.</p></sec></sec><sec id="cam42032-sec-0019"><label>4</label><title>DISCUSSION</title><p>MiRNAs function as critical modulators of human CRC tumorigenesis and malignant phenotypes. Through specific interactions with target mRNAs, miRNAs can play either onco‐miR or tumor suppressor roles. The miR‐154 gene family constitutes one of the largest miRNA clusters in the human genome, and several members of this family have been confirmed to play important roles in CRC. For example, by targeting TLR2, miR‐154 inhibits the ectopic proliferation and migration of CRC cells.<xref rid="cam42032-bib-0026" ref-type="ref">26</xref> Additionally, miR‐377, miR‐381, and miR‐409, another three members of the miR‐154 gene family, are involved in either invasion or drug sensitivity.<xref rid="cam42032-bib-0027" ref-type="ref">27</xref>, <xref rid="cam42032-bib-0028" ref-type="ref">28</xref> In this regard, as a member of the miR‐154 gene family, we have reasons to speculate miR‐487b is likely to play a role in cancer.</p><p>According to our observations, miR‐487b can prevent the overproliferation of CRC cells. Notably, the acceleration of apoptosis and deceleration of the cell cycle are two mechanisms for cell proliferation suppression. Consistent with Tsuyoshi Hata,<xref rid="cam42032-bib-0014" ref-type="ref">14</xref> we identified miR‐487b as a cell apoptosis promoter and KRAS inhibitor. However, we failed to identify its influence on the CRC cell cycle because there was no significant difference in the miR‐487b inhibitor‐ or mimic‐treated CRC cells compared with that in each NC group. Particularly, apart from KRAS, we also verified MYC and SUZ12 as the biotargets of miR‐487b in both CRC cells and patient specimens. Intriguingly, these three genes are all closely correlated with cell cycle progression in CRC. MYC triggers the stimulation of the CRC cell cycle by repressing p21.<xref rid="cam42032-bib-0030" ref-type="ref">30</xref> SUZ12 inhibits the levels of p16 and p21 via an H3K27me3‐mediated suppressive effect, ultimately launching CRC cell proliferation.<xref rid="cam42032-bib-0031" ref-type="ref">31</xref> KRAS‐associated genes exhibit functional enrichment in cell cycle and mitosis, and CDK4/6 inhibition is an effectively therapeutic response in KRAS‐dependent CRC.<xref rid="cam42032-bib-0032" ref-type="ref">32</xref> Because of this paradox, further investigations are still needed to clarify whether a negative feedback loop exists or if other cell cycle enhancement‐related genes are activated to block the miR‐487b‐mediated CRC cell cycle arrest. Currently, miR‐487b‐induced cell apoptosis elevation is the determining factor of CRC cell proliferation inhibition.</p><p>The epithelial‐mesenchymal transition (EMT) significantly contributes to the CRC development because normal intestinal epithelial cells can be vested with the malignant phenotypes during this process.<xref rid="cam42032-bib-0015" ref-type="ref">15</xref> In this study, we observed that miR‐487b could inhibit EMT morphology alterations of CRC cells, strengthen CDH1 and suppress Vimentin at the mRNA and protein levels both in vitro and in vivo. Nevertheless, this circumstance seems to be because of the lack of mediators due to the intrinsic function rather than because of regulatory genes such as CDH1 or Vimentin. In fact, MYC, SUZ12, and KRAS are all implicated in the regulation of EMT during CRC tumorigenesis. MYC facilitates the sLe (x/a) glycan in CRC cells to initiate the EMT process.<xref rid="cam42032-bib-0033" ref-type="ref">33</xref> SUZ12 is positively related to EMT characteristics in oxaliplatin‐resistant DLD1 cells.<xref rid="cam42032-bib-0034" ref-type="ref">34</xref> KRAS suppresses the miR‐200 family, which is the vital negative regulator of EMT in multiple human CRC subtypes.<xref rid="cam42032-bib-0035" ref-type="ref">35</xref> Furthermore, specific siRNAs of MYC, SUZ12, and KRAS can restore the miR‐487b inhibitor‐induced EMT phenotypes, further demonstrating that MYC, SUZ12, and KRAS are EMT regulatory mediators belonging to miR‐487b in CRC cells. Recently, Yi<xref rid="cam42032-bib-0013" ref-type="ref">13</xref> reported that miR‐487b participated in the interaction between GRM3 and TGF‐β, providing evidence to support our data highlighting the correlation between miR‐487b and the EMT process during CRC tumorigenesis.</p><p>Although small‐molecule compounds have been successively explored in recent decades and are widely used in different biological fields, only a small minority of these compounds is approved in disease therapy by the Food and Drug Administration (FDA). 5‐Aza, a representative candidate of these small compounds, is permitted to be coapplied with other drugs in different diseases, especially cancer.<xref rid="cam42032-bib-0036" ref-type="ref">36</xref> Additionally, as a DNA methyltransferase inhibitor (DNMTi), 5‐Aza was confirmed to be implicated in restraining the development and progression of CRC. 5‐Aza decreases the growth and increases the apoptosis of CACO2 cells by relieving the transcriptional limitation of RASSF1A.<xref rid="cam42032-bib-0037" ref-type="ref">37</xref> NALP1 can be restored by 5‐Aza to restrict CRC proliferation.<xref rid="cam42032-bib-0038" ref-type="ref">38</xref> Ultimately, 5‐Aza stimulates p53‐dependent tumor cell senescence and induces DNA double‐strand breaks.<xref rid="cam42032-bib-0039" ref-type="ref">39</xref> Furthermore, aberrant expression of miRNAs in CRC is frequently due to the inappropriate enrichment of epigenetic alterations, including DNA methylation and histone modification.<xref rid="cam42032-bib-0025" ref-type="ref">25</xref> Based on these clues, we attempted to build the connection between miR‐487b and this small‐molecule compound in CRC. First, we found that the miR‐487b promoter region was in a DNA hypermethylation condition in CRC tissues compared with normal ones. Next, the miR‐487b level was markedly upregulated in both HCT116 and SW620 cells in the presence of 5‐Aza. 5‐Aza was then proven to promote miR‐487b expression in a time‐ and concentration‐dependent manner. Finally, we compared the expression levels of MYC, SUZ12, KRAS, Vimentin, and CDH1 in HCT116 and SW620 cells under 5‐Aza treatment with each DMSO group and observed that 5‐Aza markedly suppressed the downstream genes of miR‐487b at both mRNA and protein levels. Notably, MYC, SUZ12, and KRAS can also be suppressed by 5‐Aza in other manners, especially with the involvement of miRNAs in different tumor microenvironments. For instance, 5‐Aza contributes to the upregulation of miR‐212 in gastric cancer,<xref rid="cam42032-bib-0040" ref-type="ref">40</xref> leading to the inhibition of MYC expression. 5‐Aza can also markedly reverse the aberrant level of miR‐200b,<xref rid="cam42032-bib-0041" ref-type="ref">41</xref> which may inhibit SUZ12 in cholangiocarcinoma.<xref rid="cam42032-bib-0042" ref-type="ref">42</xref> By removing the hypermethylation on the promoter regions of miR‐134,<xref rid="cam42032-bib-0043" ref-type="ref">43</xref> miR‐181c,<xref rid="cam42032-bib-0044" ref-type="ref">44</xref> and miR‐193b,<xref rid="cam42032-bib-0045" ref-type="ref">45</xref> 5‐Aza can restrain KRAS expression in the glioma, gastric carcinogenesis, and esophageal adenocarcinoma, respectively. However, our results did show that the inhibitory effect of 5‐Aza on MYC, SUZ12, and KRAS is at least partially achieved by miR‐487b in colon cancer cells. Therefore, our data strongly suggest that miR‐487b is under the control of DNA methylation, further providing an effective method to treat CRC by removing DNA methylation on the miR‐487b regulatory domains.</p><p>Tsuyoshi Hata<xref rid="cam42032-bib-0014" ref-type="ref">14</xref> revealed that the expression level of miR‐487b in normal tissues is notably lower than that in paired primary CRC tissues; however, our data showed an opposite result. We further clarified that miR‐487b was significantly downregulated in metastatic tissues compared with matched tumor tissues. Likewise, lower levels of miR‐487b can also be found in primary, high‐risk, or high‐stage tumor tissues than in normal specimens within the pulmonary carcinogenesis<xref rid="cam42032-bib-0011" ref-type="ref">11</xref> and neuroblastoma.<xref rid="cam42032-bib-0046" ref-type="ref">46</xref> Considering the above evidence, it is reasonable to further determine the applicable potential of miR‐487b as a diagnostic biomarker because miR‐487b acts as an antitumor and antimetastasis regulator of CRC in our study. Hence, we evaluated the clinical diagnosis value of miR‐487b through ROC curve analysis. MiR‐487b is useful to distinguish primary tumor tissues (T) from normal tissues (N) using an AUC (N/T) of 0.691 (<italic toggle="yes">P</italic> = 0.0029) and to differentiate metastatic tissues (M) from primary tumor tissues (T) with an AUC (T/M) of 0.689 (<italic toggle="yes">P</italic> = 0.0032) (Figure <xref rid="cam42032-fig-0002" ref-type="fig">2</xref>D). These findings are important for clinical applications because miR‐487b can be regarded as a biomarker for early CRC diagnosis and a criterion to judge metastasis.</p><p>In summary, we confirmed that miR‐487b is a CRC suppressor that prevents the EMT process and targets MYC, SUZ12, and KRAS to inhibit the proliferation, migration and invasion of CRC cells. Meanwhile, miR‐487b is negatively regulated by DNA methylation (Figure <xref rid="cam42032-fig-0007" ref-type="fig">7</xref>). Hence, we identified miR‐487b as a diagnosis‐related biomarker and a novel target for CRC therapy.</p><fig fig-type="Figure" xml:lang="en" id="cam42032-fig-0007" orientation="portrait" position="float"><label>Figure 7</label><caption><p>A schematic diagram is used to illuminate regulation in our study. MiR‐487b was forced to be inhibited due to high enrichment of DNA methylation on its promoter region, which can be partially reversed in the presence of 5‐Aza in colorectal cancer (CRC) cells. In addition, miR‐487b can suppress epithelial‐mesenchymal transition (EMT) through increasing CDH1 expression and decreasing Vimentin expression in vitro and in vivo. Additionally, miR‐487b can also repress MYC, SUZ12, and KRAS to promote apoptosis and restrain the proliferation and metastasis of CRC cells, thus indicating an intrinsic tumor suppressor role of miR‐487b in CRC</p></caption><graphic id="nlm-graphic-15" position="float" orientation="portrait" ns1:href="CAM4-8-1694-g007.jpg" /></fig></sec><sec sec-type="COI-statement" id="cam42032-sec-0020"><title>CONFLICT OF INTEREST</title><p>The authors declare that they have no conflict of interest in this manuscript.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material content-type="local-data" id="cam42032-sup-0001" position="float" orientation="portrait"><caption><p> </p></caption><media ns1:href="CAM4-8-1694-s001.docx" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="cam42032-sec-0021"><title>ACKNOWLEDGMENTS</title><p>This work was supported by the grants from National Natural Science Foundation of China (81773003 and 81472633).</p></ack><ref-list content-type="cited-references" id="cam42032-bibl-0001"><title>REFERENCES</title><ref id="cam42032-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="cam42032-cit-0001">
+<string-name name-style="western">
+<surname>Siegel</surname>
+<given-names>RL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Miller</surname>
+<given-names>KD</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fedewa</surname>
+<given-names>SA</given-names>
+</string-name>, et al. <article-title>Colorectal cancer statistics, 2017</article-title>. <source xml:lang="en">CA Cancer J Clin</source>. <year>2017</year>;<volume>67</volume>(<issue>3</issue>):<fpage>177</fpage>‐<lpage>193</lpage>.<pub-id pub-id-type="pmid">28248415</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3322/caac.21395</pub-id></mixed-citation></ref><ref id="cam42032-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="cam42032-cit-0002">
+<string-name name-style="western">
+<surname>Brenner</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kloor</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pox</surname>
+<given-names>CP</given-names>
+</string-name>. <article-title>Colorectal cancer</article-title>. <source xml:lang="en">Lancet</source>. <year>2014</year>;<volume>383</volume>(<issue>9927</issue>):<fpage>1490</fpage>‐<lpage>1502</lpage>.<pub-id pub-id-type="pmid">24225001</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/S0140-6736(13)61649-9</pub-id></mixed-citation></ref><ref id="cam42032-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="cam42032-cit-0003">
+<string-name name-style="western">
+<surname>Miyamoto</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hayashi</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sakamoto</surname>
+<given-names>Y</given-names>
+</string-name>, et al. <article-title>Predictors of long‐term survival in patients with stage IV colorectal cancer with multi‐organ metastases: a single‐center retrospective analysis</article-title>. <source xml:lang="en">Int J Clin Oncol</source>. <year>2015</year>;<volume>20</volume>(<issue>6</issue>):<fpage>1140</fpage>‐<lpage>1146</lpage>.<pub-id pub-id-type="pmid">25947545</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s10147-015-0835-2</pub-id></mixed-citation></ref><ref id="cam42032-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="cam42032-cit-0004">
+<string-name name-style="western">
+<surname>Nishimura</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fabian</surname>
+<given-names>MR</given-names>
+</string-name>. <article-title>Scanning for a unified model for translational repression by microRNAs</article-title>. <source xml:lang="en">EMBO J</source>. <year>2016</year>;<volume>35</volume>(<issue>11</issue>):<fpage>1158</fpage>‐<lpage>1159</lpage>.<pub-id pub-id-type="pmid">27099299</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.15252/embj.201694324</pub-id><pub-id pub-id-type="pmcid">PMC4888241</pub-id></mixed-citation></ref><ref id="cam42032-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="cam42032-cit-0005">
+<string-name name-style="western">
+<surname>Xiang</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hu</surname>
+<given-names>AX</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sun</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Xiao</surname>
+<given-names>Y</given-names>
+</string-name>. <article-title>Identification of four potential predicting miRNA biomarkers for multiple myeloma from published datasets</article-title>. <source xml:lang="en">PeerJ</source>. <year>2017</year>;<volume>5</volume>:<fpage>e2831</fpage>.<pub-id pub-id-type="pmid">28168095</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.7717/peerj.2831</pub-id><pub-id pub-id-type="pmcid">PMC5289111</pub-id></mixed-citation></ref><ref id="cam42032-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="cam42032-cit-0006">
+<string-name name-style="western">
+<surname>Koduru</surname>
+<given-names>SV</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tiwari</surname>
+<given-names>AK</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hazard</surname>
+<given-names>SW</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mahajan</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ravnic</surname>
+<given-names>DJ</given-names>
+</string-name>. <article-title>Exploration of small RNA‐seq data for small non‐coding RNAs in Human Colorectal Cancer</article-title>. <source xml:lang="en">J Genomics</source>. <year>2017</year>;<volume>5</volume>:<fpage>16</fpage>‐<lpage>31</lpage>.<pub-id pub-id-type="pmid">28348640</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.7150/jgen.18856</pub-id><pub-id pub-id-type="pmcid">PMC5362762</pub-id></mixed-citation></ref><ref id="cam42032-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="cam42032-cit-0007">
+<string-name name-style="western">
+<surname>Lv</surname>
+<given-names>LV</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhou</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lin</surname>
+<given-names>C</given-names>
+</string-name>, et al. <article-title>DNA methylation is involved in the aberrant expression of miR‐133b in colorectal cancer cells</article-title>. <source xml:lang="en">Oncol Lett</source>. <year>2015</year>;<volume>10</volume>(<issue>2</issue>):<fpage>907</fpage>‐<lpage>912</lpage>.<pub-id pub-id-type="pmid">26622593</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3892/ol.2015.3336</pub-id><pub-id pub-id-type="pmcid">PMC4509424</pub-id></mixed-citation></ref><ref id="cam42032-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="cam42032-cit-0008">
+<string-name name-style="western">
+<surname>Wang</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jia</surname>
+<given-names>LT</given-names>
+</string-name>, et al. <article-title>c‐Myc‐mediated epigenetic silencing of MicroRNA‐101 contributes to dysregulation of multiple pathways in hepatocellular carcinoma</article-title>. <source xml:lang="en">Hepatology</source>. <year>2014</year>;<volume>59</volume>(<issue>5</issue>):<fpage>1850</fpage>‐<lpage>1863</lpage>.<pub-id pub-id-type="pmid">24002871</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/hep.26720</pub-id></mixed-citation></ref><ref id="cam42032-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="cam42032-cit-0009">
+<string-name name-style="western">
+<surname>Jickling</surname>
+<given-names>GC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ander</surname>
+<given-names>BP</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhan</surname>
+<given-names>XH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Noblett</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Stamova</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>DZ</given-names>
+</string-name>. <article-title>microRNA expression in peripheral blood cells following acute ischemic stroke and their predicted gene targets</article-title>. <source xml:lang="en">PLoS ONE</source>. <year>2014</year>;<volume>9</volume>(<issue>6</issue>):<fpage>e99283</fpage>.<pub-id pub-id-type="pmid">24911610</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pone.0099283</pub-id><pub-id pub-id-type="pmcid">PMC4050059</pub-id></mixed-citation></ref><ref id="cam42032-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="cam42032-cit-0010">
+<string-name name-style="western">
+<surname>Milosevic</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pandit</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Magister</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>Profibrotic role of miR‐154 in pulmonary fibrosis</article-title>. <source xml:lang="en">Am J Respir Cell Mol Biol</source>. <year>2012</year>;<volume>47</volume>(<issue>6</issue>):<fpage>879</fpage>‐<lpage>887</lpage>.<pub-id pub-id-type="pmid">23043088</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1165/rcmb.2011-0377OC</pub-id><pub-id pub-id-type="pmcid">PMC3547095</pub-id></mixed-citation></ref><ref id="cam42032-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="cam42032-cit-0011">
+<string-name name-style="western">
+<surname>Xi</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Xu</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shan</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>Cigarette smoke mediates epigenetic repression of miR‐487b during pulmonary carcinogenesis</article-title>. <source xml:lang="en">J Clin Invest</source>. <year>2013</year>;<volume>123</volume>(<issue>3</issue>):<fpage>1241</fpage>‐<lpage>1261</lpage>.<pub-id pub-id-type="pmid">23426183</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1172/JCI61271</pub-id><pub-id pub-id-type="pmcid">PMC3582115</pub-id></mixed-citation></ref><ref id="cam42032-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="cam42032-cit-0012">
+<string-name name-style="western">
+<surname>Formosa</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Markert</surname>
+<given-names>Ek</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lena</surname>
+<given-names>Am</given-names>
+</string-name>, et al. <article-title>MicroRNAs, miR‐154, miR‐299‐5p, miR‐376a, miR‐376c, miR‐377, miR‐381, miR‐487b, miR‐485‐3p, miR‐495 and miR‐654‐3p, mapped to the 14q32.31 locus, regulate proliferation, apoptosis, migration and invasion in metastatic prostate cancer cells</article-title>. <source xml:lang="en">Oncogene</source>. <year>2014</year>;<volume>33</volume>(<issue>44</issue>):<fpage>5173</fpage>–<lpage>5182</lpage>.<pub-id pub-id-type="pmid">24166498</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/onc.2013.451</pub-id></mixed-citation></ref><ref id="cam42032-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="cam42032-cit-0013">
+<string-name name-style="western">
+<surname>Yi</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Geng</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Black</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Talmon</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Berim</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>
+<given-names>J</given-names>
+</string-name>. <article-title>The miR‐487b‐3p/GRM3/TGFbeta signaling axis is an important regulator of colon cancer tumorigenesis</article-title>. <source xml:lang="en">Oncogene</source>. <year>2017</year>;<volume>36</volume>(<issue>24</issue>):<fpage>3477</fpage>‐<lpage>3489</lpage>.<pub-id pub-id-type="pmid">28114282</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/onc.2016.499</pub-id><pub-id pub-id-type="pmcid">PMC5472494</pub-id></mixed-citation></ref><ref id="cam42032-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="cam42032-cit-0014">
+<string-name name-style="western">
+<surname>Hata</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mokutani</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Takahashi</surname>
+<given-names>H</given-names>
+</string-name>, et al. <article-title>Identification of microRNA‐487b as a negative regulator of liver metastasis by regulation of KRAS in colorectal cancer</article-title>. <source xml:lang="en">Int J Oncol</source>. <year>2017</year>;<volume>50</volume>(<issue>2</issue>):<fpage>487</fpage>‐<lpage>496</lpage>.<pub-id pub-id-type="pmid">28000854</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3892/ijo.2016.3813</pub-id></mixed-citation></ref><ref id="cam42032-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="cam42032-cit-0015">
+<string-name name-style="western">
+<surname>Nieto</surname>
+<given-names>MA</given-names>
+</string-name>. <article-title>The ins and outs of the epithelial to mesenchymal transition in health and disease</article-title>. <source xml:lang="en">Annu Rev Cell Dev Biol</source>. <year>2011</year>;<volume>27</volume>:<fpage>347</fpage>‐<lpage>376</lpage>.<pub-id pub-id-type="pmid">21740232</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1146/annurev-cellbio-092910-154036</pub-id></mixed-citation></ref><ref id="cam42032-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="cam42032-cit-0016">
+<string-name name-style="western">
+<surname>Huber</surname>
+<given-names>MA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kraut</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Beug</surname>
+<given-names>H</given-names>
+</string-name>. <article-title>Molecular requirements for epithelial‐mesenchymal transition during tumor progression</article-title>. <source xml:lang="en">Curr Opin Cell Biol</source>. <year>2005</year>;<volume>17</volume>(<issue>5</issue>):<fpage>548</fpage>‐<lpage>558</lpage>.<pub-id pub-id-type="pmid">16098727</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ceb.2005.08.001</pub-id></mixed-citation></ref><ref id="cam42032-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="cam42032-cit-0017">
+<string-name name-style="western">
+<surname>Zaravinos</surname>
+<given-names>A</given-names>
+</string-name>. <article-title>The Regulatory Role of MicroRNAs in EMT and Cancer</article-title>. <source xml:lang="en">J Oncol</source>. <year>2015</year>;<volume>2015</volume>:<fpage>865816</fpage>.<pub-id pub-id-type="pmid">25883654</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1155/2015/865816</pub-id><pub-id pub-id-type="pmcid">PMC4389820</pub-id></mixed-citation></ref><ref id="cam42032-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="cam42032-cit-0018">
+<string-name name-style="western">
+<surname>Fan</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ma</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Li</surname>
+<given-names>H</given-names>
+</string-name>, et al. <article-title>miR‐122 promotes metastasis of clear‐cell renal cell carcinoma by downregulating Dicer</article-title>. <source xml:lang="en">Int J Cancer</source>. <year>2018</year>;<volume>142</volume>(<issue>3</issue>):<fpage>547</fpage>‐<lpage>560</lpage>.<pub-id pub-id-type="pmid">28921581</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/ijc.31050</pub-id></mixed-citation></ref><ref id="cam42032-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="cam42032-cit-0019">
+<string-name name-style="western">
+<surname>Wang</surname>
+<given-names>W</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Xiao</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chen</surname>
+<given-names>X</given-names>
+</string-name>, et al. <article-title>Tumor‐suppressive miR‐145 co‐repressed by TCF4‐beta‐catenin and PRC2 complexes forms double‐negative regulation loops with its negative regulators in colorectal cancer</article-title>. <source xml:lang="en">Int J Cancer</source>. <year>2018</year>;<volume>142</volume>(<issue>2</issue>):<fpage>308</fpage>‐<lpage>321</lpage>.<pub-id pub-id-type="pmid">28921929</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/ijc.31056</pub-id></mixed-citation></ref><ref id="cam42032-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="cam42032-cit-0020">
+<string-name name-style="western">
+<surname>Lin</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yang</surname>
+<given-names>Z</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shao</surname>
+<given-names>G</given-names>
+</string-name>. <article-title>miR‐154 inhibits migration and invasion of human non‐small cell lung cancer by targeting ZEB2</article-title>. <source xml:lang="en">Oncol Lett</source>. <year>2016</year>;<volume>12</volume>(<issue>1</issue>):<fpage>301</fpage>‐<lpage>306</lpage>.<pub-id pub-id-type="pmid">27347142</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3892/ol.2016.4577</pub-id><pub-id pub-id-type="pmcid">PMC4906674</pub-id><related-article related-article-type="retraction-forward" ext-link-type="pmc" ns1:href="PMC8227641" /></mixed-citation></ref><ref id="cam42032-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="cam42032-cit-0021">
+<string-name name-style="western">
+<surname>Legras</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pecuchet</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Imbeaud</surname>
+<given-names>S</given-names>
+</string-name>, et al. <article-title>Epithelial‐to‐Mesenchymal Transition and MicroRNAs in Lung Cancer</article-title>. <source xml:lang="en">Cancers (Basel)</source>. <year>2017</year>;<volume>9</volume>(<issue>8</issue>).<pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/cancers9080101</pub-id><pub-id pub-id-type="pmcid">PMC5575604</pub-id><pub-id pub-id-type="pmid">28771186</pub-id></mixed-citation></ref><ref id="cam42032-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="cam42032-cit-0022">
+<string-name name-style="western">
+<surname>Wang</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yu</surname>
+<given-names>P</given-names>
+</string-name>. <article-title>miR‐300 promotes proliferation and EMT‐mediated colorectal cancer migration and invasion by targeting p53</article-title>. <source xml:lang="en">Oncol Rep</source>. <year>2016</year>;<volume>36</volume>(<issue>6</issue>):<fpage>3225</fpage>‐<lpage>3232</lpage>.<pub-id pub-id-type="pmid">27779716</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3892/or.2016.5193</pub-id></mixed-citation></ref><ref id="cam42032-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="cam42032-cit-0023">
+<string-name name-style="western">
+<surname>Castilla</surname>
+<given-names>MA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Moreno‐Bueno</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Romero‐Perez</surname>
+<given-names>L</given-names>
+</string-name>, et al. <article-title>Micro‐RNA signature of the epithelial‐mesenchymal transition in endometrial carcinosarcoma</article-title>. <source xml:lang="en">J Pathol</source>. <year>2011</year>;<volume>223</volume>(<issue>1</issue>):<fpage>72</fpage>‐<lpage>80</lpage>.<pub-id pub-id-type="pmid">21125666</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/path.2802</pub-id></mixed-citation></ref><ref id="cam42032-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="cam42032-cit-0024">
+<string-name name-style="western">
+<surname>Ye</surname>
+<given-names>GD</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sun</surname>
+<given-names>GB</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jiao</surname>
+<given-names>P</given-names>
+</string-name>, et al. <article-title>OVOL2, an inhibitor of WNT signaling, reduces invasive activities of human and mouse cancer cells and is down‐regulated in human colorectal tumors</article-title>. <source xml:lang="en">Gastroenterology</source>. <year>2016</year>;<volume>150</volume>(<issue>3</issue>):<fpage>659</fpage>‐<lpage>671</lpage>.<pub-id pub-id-type="pmid">26619963</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1053/j.gastro.2015.11.041</pub-id></mixed-citation></ref><ref id="cam42032-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="cam42032-cit-0025">
+<string-name name-style="western">
+<surname>Lopez‐Serra</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Esteller</surname>
+<given-names>M</given-names>
+</string-name>. <article-title>DNA methylation‐associated silencing of tumor‐suppressor microRNAs in cancer</article-title>. <source xml:lang="en">Oncogene</source>. <year>2012</year>;<volume>31</volume>(<issue>13</issue>):<fpage>1609</fpage>‐<lpage>1622</lpage>.<pub-id pub-id-type="pmid">21860412</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/onc.2011.354</pub-id><pub-id pub-id-type="pmcid">PMC3325426</pub-id></mixed-citation></ref><ref id="cam42032-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="cam42032-cit-0026">
+<string-name name-style="western">
+<surname>Xin</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>Z</given-names>
+</string-name>. <article-title>miR‐154 suppresses colorectal cancer cell growth and motility by targeting TLR2</article-title>. <source xml:lang="en">Mol Cell Biochem</source>. <year>2014</year>;<volume>387</volume>(<issue>1–2</issue>):<fpage>271</fpage>‐<lpage>277</lpage>.<pub-id pub-id-type="pmid">24242044</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s11010-013-1892-3</pub-id></mixed-citation></ref><ref id="cam42032-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="cam42032-cit-0027">
+<string-name name-style="western">
+<surname>Li</surname>
+<given-names>WH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chang</surname>
+<given-names>JJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tong</surname>
+<given-names>D</given-names>
+</string-name>, et al. <article-title>Differential microRNA expression profiling in primary tumors and matched liver metastasis of patients with colorectal cancer</article-title>. <source xml:lang="en">Oncotarget</source>. <year>2017</year>;<volume>8</volume>(<issue>22</issue>):<fpage>35783</fpage>‐<lpage>35791</lpage>.<pub-id pub-id-type="pmid">28415758</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.18632/oncotarget.16206</pub-id><pub-id pub-id-type="pmcid">PMC5482617</pub-id></mixed-citation></ref><ref id="cam42032-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="cam42032-cit-0028">
+<string-name name-style="western">
+<surname>He</surname>
+<given-names>XX</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wei</surname>
+<given-names>YN</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>
+<given-names>W</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Li</surname>
+<given-names>NF</given-names>
+</string-name>. <article-title>MiR‐381 functions as a tumor suppressor in colorectal cancer by targeting Twist1</article-title>. <source xml:lang="en">Onco Targets Ther</source>. <year>2016</year>;<volume>9</volume>:<fpage>1231</fpage>‐<lpage>1239</lpage>.<pub-id pub-id-type="pmid">27094913</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.2147/OTT.S99228</pub-id><pub-id pub-id-type="pmcid">PMC4789845</pub-id></mixed-citation></ref><ref id="cam42032-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="cam42032-cit-0029">
+<string-name name-style="western">
+<surname>Tan</surname>
+<given-names>SF</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shi</surname>
+<given-names>HJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ba</surname>
+<given-names>MC</given-names>
+</string-name>, et al. <article-title>miR‐409‐3p sensitizes colon cancer cells to oxaliplatin by inhibiting Beclin‐1‐mediated autophagy</article-title>. <source xml:lang="en">Int J Mol Med</source>. <year>2016</year>;<volume>37</volume>(<issue>4</issue>):<fpage>1030</fpage>‐<lpage>1038</lpage>.<pub-id pub-id-type="pmid">26935807</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3892/ijmm.2016.2492</pub-id></mixed-citation></ref><ref id="cam42032-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="cam42032-cit-0030">
+<string-name name-style="western">
+<surname>Jung</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hermeking</surname>
+<given-names>H</given-names>
+</string-name>. <article-title>The c‐MYC‐AP4‐p21 cascade</article-title>. <source xml:lang="en">Cell Cycle</source>. <year>2009</year>;<volume>8</volume>(<issue>7</issue>):<fpage>982</fpage>‐<lpage>989</lpage>.<pub-id pub-id-type="pmid">19270520</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.4161/cc.8.7.7949</pub-id></mixed-citation></ref><ref id="cam42032-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="cam42032-cit-0031">
+<string-name name-style="western">
+<surname>Sun</surname>
+<given-names>DF</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lin</surname>
+<given-names>YW</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hong</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>Th22 cells control colon tumorigenesis through STAT3 and Polycomb Repression complex 2 signaling</article-title>. <source xml:lang="en">Oncoimmunology</source>. <year>2016</year>;<volume>5</volume>(<issue>8</issue>):<fpage>e1082704</fpage>.<pub-id pub-id-type="pmid">27622053</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1080/2162402X.2015.1082704</pub-id><pub-id pub-id-type="pmcid">PMC5007968</pub-id></mixed-citation></ref><ref id="cam42032-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="cam42032-cit-0032">
+<string-name name-style="western">
+<surname>Pek</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yatim</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chen</surname>
+<given-names>Y</given-names>
+</string-name>, et al. <article-title>Oncogenic KRAS‐associated gene signature defines co‐targeting of CDK4/6 and MEK as a viable therapeutic strategy in colorectal cancer</article-title>. <source xml:lang="en">Oncogene</source>. <year>2017</year>;<volume>36</volume>(<issue>35</issue>):<fpage>4975</fpage>‐<lpage>4986</lpage>.<pub-id pub-id-type="pmid">28459468</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/onc.2017.120</pub-id></mixed-citation></ref><ref id="cam42032-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="cam42032-cit-0033">
+<string-name name-style="western">
+<surname>Sakuma</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Aoki</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kannagi</surname>
+<given-names>R</given-names>
+</string-name>. <article-title>Transcription factors c‐Myc and CDX2 mediate E‐selectin ligand expression in colon cancer cells undergoing EGF/bFGF‐induced epithelial‐mesenchymal transition</article-title>. <source xml:lang="en">Proc Natl Acad Sci U S A</source>. <year>2012</year>;<volume>109</volume>(<issue>20</issue>):<fpage>7776</fpage>‐<lpage>7781</lpage>.<pub-id pub-id-type="pmid">22547830</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.1111135109</pub-id><pub-id pub-id-type="pmcid">PMC3356678</pub-id></mixed-citation></ref><ref id="cam42032-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="cam42032-cit-0034">
+<string-name name-style="western">
+<surname>San</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Horita</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ganapathy</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chinnadurai</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ezekiel</surname>
+<given-names>UR</given-names>
+</string-name>. <article-title>Deregulated expression of microRNA‐200b/c and SUZ12, a Polycomb repressive complex 2 subunit, in chemoresistant colorectal cancer cells</article-title>. <source xml:lang="en">Genes Cancer</source>. <year>2017</year>;<volume>8</volume>(<issue>7–8</issue>):<fpage>673</fpage>‐<lpage>681</lpage>.<pub-id pub-id-type="pmid">28966728</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.18632/genesandcancer.152</pub-id><pub-id pub-id-type="pmcid">PMC5620012</pub-id></mixed-citation></ref><ref id="cam42032-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="cam42032-cit-0035">
+<string-name name-style="western">
+<surname>Zhong</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zheng</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shen</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>Suppression of microRNA 200 family expression by oncogenic KRAS activation promotes cell survival and epithelial‐mesenchymal transition in KRAS‐driven cancer</article-title>. <source xml:lang="en">Mol Cell Biol</source>. <year>2016</year>;<volume>36</volume>(<issue>21</issue>):<fpage>2742</fpage>‐<lpage>2754</lpage>.<pub-id pub-id-type="pmid">27550813</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1128/MCB.00079-16</pub-id><pub-id pub-id-type="pmcid">PMC5064220</pub-id></mixed-citation></ref><ref id="cam42032-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="cam42032-cit-0036">
+<string-name name-style="western">
+<surname>Meng</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sun</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhong</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yu</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brewer</surname>
+<given-names>MA</given-names>
+</string-name>. <article-title>Anticancer efficacy of cisplatin and trichostatin A or 5‐aza‐2'‐deoxycytidine on ovarian cancer</article-title>. <source xml:lang="en">Br J Cancer</source>. <year>2013</year>;<volume>108</volume>(<issue>3</issue>):<fpage>579</fpage>‐<lpage>586</lpage>.<pub-id pub-id-type="pmid">23370212</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/bjc.2013.10</pub-id><pub-id pub-id-type="pmcid">PMC3593556</pub-id></mixed-citation></ref><ref id="cam42032-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="cam42032-cit-0037">
+<string-name name-style="western">
+<surname>Li</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Qin</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>BO</given-names>
+</string-name>. <article-title>Delineating the effect of demethylating agent 5‐aza‐2'‐deoxycytidine on human Caco‐2 colonic carcinoma cells</article-title>. <source xml:lang="en">Oncol Lett</source>. <year>2016</year>;<volume>12</volume>(<issue>1</issue>):<fpage>139</fpage>‐<lpage>143</lpage>.<pub-id pub-id-type="pmid">27347114</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3892/ol.2016.4551</pub-id><pub-id pub-id-type="pmcid">PMC4906626</pub-id></mixed-citation></ref><ref id="cam42032-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="cam42032-cit-0038">
+<string-name name-style="western">
+<surname>Chen</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sun</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>DAC can restore expression of NALP1 to suppress tumor growth in colon cancer</article-title>. <source xml:lang="en">Cell Death Dis</source>. <year>2015</year>;<volume>6</volume>:<fpage>e1602</fpage>.<pub-id pub-id-type="pmid">25611377</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/cddis.2014.532</pub-id><pub-id pub-id-type="pmcid">PMC4669739</pub-id></mixed-citation></ref><ref id="cam42032-bib-0039"><label>39</label><mixed-citation publication-type="journal" id="cam42032-cit-0039">
+<string-name name-style="western">
+<surname>Venturelli</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Berger</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Weiland</surname>
+<given-names>T</given-names>
+</string-name>, et al. <article-title>Differential Induction of Apoptosis and Senescence by the DNA Methyltransferase Inhibitors 5‐Azacytidine and 5‐Aza‐2 '‐Deoxycytidine in Solid Tumor Cells</article-title>. <source xml:lang="en">Mol Cancer Ther</source>. <year>2013</year>;<volume>12</volume>(<issue>10</issue>):<fpage>2226</fpage>‐<lpage>2236</lpage>.<pub-id pub-id-type="pmid">23924947</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/1535-7163.MCT-13-0137</pub-id></mixed-citation></ref><ref id="cam42032-bib-0040"><label>40</label><mixed-citation publication-type="journal" id="cam42032-cit-0040">
+<string-name name-style="western">
+<surname>Xu</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Xu</surname>
+<given-names>XF</given-names>
+</string-name>, et al. <article-title>Down‐regulation of miR‐212 expression by DNA hypermethylation in human gastric cancer cells</article-title>. <source xml:lang="en">Med Oncol</source>. <year>2011</year>;<volume>28</volume>(<issue>Suppl 1</issue>):<fpage>S189</fpage>‐<lpage>196</lpage>.<pub-id pub-id-type="pmid">21053104</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s12032-010-9691-0</pub-id></mixed-citation></ref><ref id="cam42032-bib-0041"><label>41</label><mixed-citation publication-type="journal" id="cam42032-cit-0041">
+<string-name name-style="western">
+<surname>Chekhun</surname>
+<given-names>VF</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lozovska</surname>
+<given-names>YV</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Naleskina</surname>
+<given-names>LA</given-names>
+</string-name>, et al. <article-title>Modifying effects of 5‐azacytidine on metal‐containing proteins profile in Guerin carcinoma with different sensitivity to cytostatics</article-title>. <source xml:lang="en">Exp Oncol</source>. <year>2016</year>;<volume>38</volume>(<issue>4</issue>):<fpage>283</fpage>‐<lpage>287</lpage>.<pub-id pub-id-type="pmid">28230826</pub-id></mixed-citation></ref><ref id="cam42032-bib-0042"><label>42</label><mixed-citation publication-type="journal" id="cam42032-cit-0042">
+<string-name name-style="western">
+<surname>Peng</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jiang</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yu</surname>
+<given-names>Y</given-names>
+</string-name>, et al. <article-title>Direct targeting of SUZ12/ROCK2 by miR‐200b/c inhibits cholangiocarcinoma tumourigenesis and metastasis</article-title>. <source xml:lang="en">Br J Cancer</source>. <year>2013</year>;<volume>109</volume>(<issue>12</issue>):<fpage>3092</fpage>‐<lpage>3104</lpage>.<pub-id pub-id-type="pmid">24169343</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/bjc.2013.655</pub-id><pub-id pub-id-type="pmcid">PMC3859942</pub-id></mixed-citation></ref><ref id="cam42032-bib-0043"><label>43</label><mixed-citation publication-type="journal" id="cam42032-cit-0043">
+<string-name name-style="western">
+<surname>Wang</surname>
+<given-names>ZL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>CB</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>
+<given-names>Z</given-names>
+</string-name>, et al. <article-title>MiR‐134, epigenetically silenced in gliomas, could mitigate the malignant phenotype by targeting KRAS</article-title>. <source xml:lang="en">Carcinogenesis</source>. <year>2018</year>;<volume>39</volume>(<issue>3</issue>):<fpage>389</fpage>‐<lpage>396</lpage>.<pub-id pub-id-type="pmid">29432532</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/carcin/bgy022</pub-id></mixed-citation></ref><ref id="cam42032-bib-0044"><label>44</label><mixed-citation publication-type="journal" id="cam42032-cit-0044">
+<string-name name-style="western">
+<surname>Hashimoto</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Akiyama</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Otsubo</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shimada</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yuasa</surname>
+<given-names>Y</given-names>
+</string-name>. <article-title>Involvement of epigenetically silenced microRNA‐181c in gastric carcinogenesis</article-title>. <source xml:lang="en">Carcinogenesis</source>. <year>2010</year>;<volume>31</volume>(<issue>5</issue>):<fpage>777</fpage>‐<lpage>784</lpage>.<pub-id pub-id-type="pmid">20080834</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/carcin/bgq013</pub-id></mixed-citation></ref><ref id="cam42032-bib-0045"><label>45</label><mixed-citation publication-type="journal" id="cam42032-cit-0045">
+<string-name name-style="western">
+<surname>Lu</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gao</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>Aberrant methylation of microRNA‐193b in human Barrett's esophagus and esophageal adenocarcinoma</article-title>. <source xml:lang="en">Mol Med Rep</source>. <year>2016</year>;<volume>14</volume>(<issue>1</issue>):<fpage>283</fpage>‐<lpage>288</lpage>.<pub-id pub-id-type="pmid">27176876</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3892/mmr.2016.5225</pub-id></mixed-citation></ref><ref id="cam42032-bib-0046"><label>46</label><mixed-citation publication-type="journal" id="cam42032-cit-0046">
+<string-name name-style="western">
+<surname>Gattolliat</surname>
+<given-names>CH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Thomas</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ciafre</surname>
+<given-names>SA</given-names>
+</string-name>, et al. <article-title>Expression of miR‐487b and miR‐410 encoded by 14q32.31 locus is a prognostic marker in neuroblastoma</article-title>. <source xml:lang="en">Br J Cancer</source>. <year>2011</year>;<volume>105</volume>(<issue>9</issue>): <fpage>1352</fpage>–<lpage>1361</lpage>.<pub-id pub-id-type="pmid">21970883</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/bjc.2011.388</pub-id><pub-id pub-id-type="pmcid">PMC3241557</pub-id></mixed-citation></ref></ref-list></back></article>

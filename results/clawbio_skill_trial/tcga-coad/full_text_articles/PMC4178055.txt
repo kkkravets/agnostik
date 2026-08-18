@@ -1,0 +1,158 @@
+# PCR-Based Assays versus Direct Sequencing for Evaluating the Effect of KRAS Status on Anti-EGFR Treatment Response in Colorectal Cancer Patients: A Systematic Review and Meta-Analysis
+
+Authors: Lianfeng Shan, Ming Li, Jianzhong Ma, Huidan Zhang
+
+Journal: PLoS ONE
+
+PMCID: PMC4178055
+
+PMID: 25260023
+
+DOI: 10.1371/journal.pone.0107926
+
+Canonical source: https://pmc.ncbi.nlm.nih.gov/articles/PMC4178055/
+
+## Abstract
+
+## Background
+
+The survival rate of colorectal cancer (CRC) patients carrying wild-type KRAS is significantly increased by combining anti-EGFR monoclonal antibody (mAb) with standard chemotherapy. However, conflicting data exist in both the wild-type KRAS and mutant KRAS groups, which strongly challenge CRC anti-EGFR treatment. Here we conducted a meta-analysis in an effort to provide more reliable information regarding anti-EGFR treatment in CRC patients.
+
+## Methods
+
+We searched full reports of randomized clinical trials using Medline, the American Society of Clinical Oncology (ASCO), and the European Society for Medical Oncology (ESMO). Two investigators independently screened the published literature according to our inclusive and exclusive criteria and the relative data were extracted. We used Review Manager 5.2 software to analyze the data.
+
+## Results
+
+The addition of anti-EGFR mAb to standard chemotherapy significantly improved both progression-free survival (PFS) and median overall survival (mOS) in the wild-type KRAS group; hazard ratios (HRs) for PFS and mOS were 0.70 [95% confidence interval (CI), 0.58–0.84] and 0.83 [95% CI, 0.75–0.91], respectively. In sub-analyses of the wild-type KRAS group, when PCR-based assays are employed, PFS and mOS notably increase: the HRs were 0.74 [95% CI, 0.62–0.88] and 0.87 [95% CI, 0.78–0.96], respectively. In sub-analyses of the mutant KRAS group, neither PCR-based assays nor direct sequencing enhance PFS or mOS.
+
+## Conclusion
+
+Our data suggest that PCR-based assays with high sensitivity and specificity allow accurate identification of patients with wild-type KRAS and thus increase PFS and mOS. Furthermore, such assays liberate patients with mutant KRAS from unnecessary drug side effects, and provide them an opportunity to receive appropriate treatment. Thus, establishing a precise standard reference test will substantially optimize CRC-targeted therapies.
+
+## Full article
+
+## Introduction
+
+Over the last two decades, considerable progress regarding the molecular biology of colorectal cancer (CRC) has remarkably increased the biologic therapeutic options [1]. A key breakthrough was the discovery of two monoclonal antibodies (mAb) targeting epidermal growth factor receptor (EGFR): chimeric immunoglobulin G1 mAb (cetuximab) and a fully humanized immunoglobulin G2 mAb (panitumumab). These antibodies have been found to be very effective in combination with standard chemotherapy or as single therapeutic agents for chemotherapy-resistant metastatic CRC (mCRC) [2], [3]. In 2004, the United States Food and Drug Administration (FDA) approved cetuximab as the first mAb inhibiting EGFR for the treatment of mCRC, which was followed by approval of panitumumab in 2006 [4], [5]. Unfortunately, nearly one third of mCRC patients do not benefit from this targeted therapy but also experience consequential side effects [6], [7]. Thus, it is crucial to identify those patients who are most likely to respond to achieve personalized treatment. KRAS protein is a key signaling molecule between extracellular EGFR ligands and signaling in cells. Extensive retrospective studies and phase III trials disclosed that KRAS gene activating mutations are the main negative predictor of mCRC anti-EGFR therapy [8]–[10]. Based on these findings, the FDA changed the guidelines to recommend that cetuximab and panitumumab only be given to CRC patients with wild-type KRAS [11]. However, researchers continue reporting conflicting facts in both the KRAS wild-type and mutant groups: for example, patients carrying wild-type KRAS do not respond, whereas those carrying mutant KRAS did [12]–[15]. Such contradictory data strongly challenge mCRC treatment. Regardless of the sporadically reported contribution of other gene variations, such as BRAF mutations, PIK3CA mutations, and loss of PTEN expression [16]–[19], the accuracy of genotyping methods might explain this phenomenon. For example, one experimental study supports this hypothesis by showing highly sensitive methods for detection of KRAS mutations identified 13 additional mCRC patients resistant to anti-EGFR mAb compared with direct sequencing [20].
+
+To systematically address this issue, we conducted a systematic review and meta-analysis to assess progression-free survival (PFS) and median overall survival (mOS) in patients whose KRAS status were detected by either PCR-based assays or direct sequencing. We compared the ability of these two genotyping methods to evaluate the effect of KRAS status on response to CRC anti-EGFR treatment.
+
+## Methods
+
+### Search strategy
+
+The deadline for trial publication was December 31, 2013. Full reports of randomized clinical trials that addressed the effect of KRAS status on response to CRC anti-EGFR treatment were gathered through Medline (PubMed: www.ncbi.nlm.nih.gov/PubMed), the American Society of Clinical Oncology (ASCO, www.asco.org), and the European Society for Medical Oncology (ESMO, www.esmo.org). The keywords used for searching were: CRC, KRAS mutation, cetuximab, panitumumab, chemotherapy, randomized, and anti-EGFR mAb. We first excluded double antibody protocols that also evaluated vascular endothelial growth factor (VEGF) antibody. We then searched the target trials according to the workflow shown in Figure 1.
+
+Figure 1: Flow chart of the trial selection.
+
+### Patient groups and subgroups
+
+To evaluate the overall effect of anti-EGFR mAb drugs as an addition to standard chemotherapy, we divided all enrolled patients into two groups: the experimental group, treated with a combination of anti-EGFR mAb and standard chemotherapy; and the control group, treated with standard chemotherapy only. We then analyzed the effect of KRAS status on response to anti-EGFR treatment by further dividing patients into the wild-type KRAS and mutant KRAS groups. To perform sub-analyses to compare the ability of different genotyping methods to evaluate the effect of KRAS status on response to CRC anti-EGFR treatment, we separated patients with different KRAS status into two subgroups: the PCR-based assay subgroup and the direct sequencing subgroup.
+
+### Statistical analyses
+
+We extracted hazard ratios (HRs) for PFS and mOS with 95% confidence intervals (CIs) from the enrolled trials. PFS and mOS data for each trial are represented by the log of the HR and its variance of experimental compared with the control group in both patients with wild-type and mutant KRAS, according to a previously described method [21]. A HR <1 indicates an improvement in PFS or mOS. If the trials reported log HR and variance, we used them directly. If the trials did not provide these values, we extracted the data from survival curves, when available, to estimate the values of the log HR and variance. When survival curves for the treatment groups were not available, other data, such as log-rank test P values and the number of events in each group, were extracted to allow estimation of the log HR and variance. To obtain summary HRs of the experimental group compared with the control group, the log HRs were pooled using a random-effect model or fixed-effect model for continuous outcomes with CIs set at 95% significance [22]. To determine the appropriate model, we employed Review Manager 5.2 software to analyze inter-study heterogeneity. When the P value for heterogeneity was less than 0.05, we chose a random-effect model. When the P value for heterogeneity was greater than or equal to 0.05, we chose a fixed-effect model.
+
+## Results
+
+### Selected Trials
+
+We identified ten trials according to the workflow shown in Figure 1 [13], [23]–[31]. These trials are listed in Table 1. A total of 6699 patients were evaluated in this meta-analysis.
+
+Characteristics of trials enrolled in the meta-analysis.
+Study	Wild-type	Mutant	Detection Method	Major Findings
+	Anti-EGFR	Control	Anti-EGFR	Control		
+Karapetis 2008	110	105	75	75	Direct sequencing	PFS	OS
+Langer 2008	86	86	54	54	Direct sequencing	PFS	-
+Amado 2008	124	119	84	100	PCR assay	PFS	OS
+Bokemayer 2009	61	73	52	47	PCR assay	PFS	-
+Van Cutsem 2009	172	176	105	87	PCR assay	PFS	OS
+Douillard 2010	325	331	221	219	PCR assay	PFS	OS
+Maughan 2010	362	367	281	281	PCR assay	PFS	-
+Peeters 2010	303	294	238	248	PCR assay	PFS	OS
+Kjell 2012	97	97	72	58	PCR assay	PFS	OS
+Douillard 2013	259	253	272	276	PCR assay	PFS	OS
+
+### Progression-Free Survival (PFS)
+
+The results showing the addition of anti-EGFR therapy to standard chemotherapy are presented in Figure 2. For all patients, with or without KRAS mutations, addition of anti-EGFR therapy remarkably improved PFS [HR 0.84, (95% CI, 0.73–0.98), P = 0.02] according to a random-effect model (P value for heterogeneity <0.00001). When we evaluated the data based on KRAS status, we observed a significant improvement in PFS in patients with wild-type status [HR 0.70, (95% CI, 0.58–0.84), P = 0.0001] according to a random-effect model (P value for heterogeneity <0.00001), but not in patients with mutant KRAS [HR 1.06, (95% CI, 0.91–1.25), P = 0.44] according to a random-effect model (P value for heterogeneity = 0.009). In sub-analyses of the wild-type KRAS group, PFS considerably increased in the PCR-based assay subgroup [HR 0.74, (95% CI, 0.62–0.88), p = 0.0009] according to a random-effect model (P value for heterogeneity <0.0001), but not in the direct sequencing subgroup [HR 0.55, (95% CI, 0.29–1.05), P = 0.07] according to a random-effect model (P value for heterogeneity = 0.002). In sub-analyses of the mutant KRAS group, neither PCR-based assay nor direct sequencing enhanced PFS [HR 0.99, (95% CI, 0.78–1.27), p = 0.96], according to a fixed-effect model (P value for heterogeneity = 0.97) and [HR 1.08, (95% CI, 0.89–1.32), p = 0.43] according to a random-effect model (P value for heterogeneity = 0.0003), respectively.
+
+Figure 2: Progression-free survival (PFS) associated with anti-EGFR plus chemotherapy versus chemotherapy alone, according to KRAS status and genotyping methods.
+
+### Median Overall Survival (mOS)
+
+For overall patients, addition of anti-EGFR does not remarkably improve the mOS [HR 0.94, (95% CI, 0.83–1.05), p = 0.26] according to a random-effect model (P value for heterogeneity = 0.002). However, we observed significant enhancement in mOS in the wild-type KRAS group [HR 0.83, (95% CI, 0.75–0.91), P<0.0001] according to a fixed-effect model (P value for heterogeneity = 0.06). In sub-analyses of the wild-type KRAS group, mOS increased in the PCR-based assay subgroup, [HR 0.87, (95% CI, 0.78–0.96), P = 0.004] according to a fixed-effect model (P value for heterogeneity = 0.55). The direct sequencing subgroup only included one trial and is not applicable for meta-analysis. In the mutant KRAS group, there was no obvious improvement in mOS [HR 1.09, (95% CI, 0.98–1.21), P = 0.11] according to a fixed-effect model (P value for heterogeneity = 0.49). In sub-analyses of the mutant-type KRAS subgroup, PCR-based assays did not obviously change the therapeutics for CRC [HR 1.10, (95% CI, 0.99–1.23), P = 0.009] according to a fixed-effect model (P value for heterogeneity = 0.42). In the direct sequencing subgroup, the single trial does not allow for meta-analysis. These data are shown in Figure 3.
+
+Figure 3: Median overall survivals (mOS) associated with anti-EGFR plus chemotherapy versus chemotherapy alone, according to KRAS status and genotyping methods.
+
+## Discussion
+
+New molecular-targeted therapies have been widely used in CRC treatment with the distinguished advantages of high specificity and low toxicity [32]. Current evidence has approved that CRC patients with wild-type KRAS will respond to anti-EGFR treatment. However, some patients with wild-type KRAS do not exhibit the expected response, whereas some patients with mutant KRAS do respond well. A major explanation for such contradictory observation might be because the accuracy of current genotyping methods varied among different labs and different clinical trials. In this study, we systematically analyze the capabilities of PCR-based assays versus direct sequencing to evaluate the effect of KRAS status on response to anti-EGFR treatment.
+
+As expected, the present meta-analysis confirms the clinical benefits when anti-EGFR therapy is added to standard chemotherapy for the treatment of mCRC patients harboring wild-type KRAS, with a significant improvement in PFS. When we performed sub-analyses based on the different genotyping methods, both PFS and mOS improved when PCR-based assays were employed. In these 10 trials, researchers used PCR-based assays, including the PCR clamping-melting curve method and allele-specific real-time PCR, to detect KRAS mutations. The sensitivities of these two methods are 0.1% and 0.5% [33], [34], respectively. In comparison, the sensitivity of direct sequencing is 10–20% [35]. Thus, PCR-based methods enable sensitive detection of low abundance KRAS mutations, increase the detection rate, exclude most patients with mutant KRAS, and therefore improve PFS and mOS. Thus, we have exposed a new clue regarding the contradiction in mCRC treatment: there is a subpopulation of mCRC patients carrying low-level KRAS mutations between patients with wild-type KRAS and those with abundant mutant KRAS. Due to limited sensitivity of the analysis methods, this subpopulation of patients is typically not grouped correctly, causing the treatment to go in the wrong direction. This results in an unpredictable outcome for individual patients, as well as dramatically confuses the mCRC treatment strategy. A solution for this issue will significantly improve treatment of mCRC patients.
+
+Compared to the high specificity of direct sequencing, we must consider the specificity of PCR-based assays when we use genotyping results to estimate the efficiency of anti-EGFR targeted therapy. The potentially high false-positive error rate of PCR-based assays might exclude patients carrying wild-type KRAS from receiving the correct treatment. Here we propose that PCR-based assays will group some wild-type KRAS patients into the mutant group, and thus incorrectly increase PFS and mOS of the mutant group. Interestingly, we did not observe this phenomenon in our study, which suggests that the PCR-based assays used in these trials are specific enough to disclose mutant KRAS. One of these assays is PCR clamping and the melting curve method. The clamp used here is peptide nucleic acid (PNA) in which the sugar phosphate backbone of natural nucleic acid is replaced by a synthetic peptide backbone and recognizes a sequence specific DNA obeying the Watson-Crick hydrogen bonding scheme [36]. The PNA-DNA heteroduplex exhibits extraordinary thermal stability, whereas incorporation of any mismatch in the duplex will lower the thermal stability by more than 10°C; this enables highly specific mutation detection [33], [36]. Mutation detection by allele-specific real-time PCR is based on the principle that extension is efficient when the 3′ terminal base of a primer matches its target, whereas extension is inefficient or nonexistent when the terminal base is mismatched, and also showed good specificity in previous applications [37], [38]. The allele-specific real-time PCR utilized in the current enrolled clinical trials is an assay commercialized by DxS Ltd., which further guaranteed the high specificity [39]. In sum, to precisely direct personalized CRC treatment, we strongly recommend such highly specific methods or other methods with high specificity.
+
+Other aspects to evaluate a PCR-based assay include throughput, contamination and convenience. The combination of PCR amplification and real-time PCR in these two types of PCR-based methods, PCR clamping-melting curve analysis and allele-specific real-time PCR, allows high-throughput and closed-tube test for detecting DNA mutations without cumbersome post-PCR methods. In addition, real-time monitoring template amplification significantly improved interpretation of PCR results [40]. At present, both methods have been successfully applied to search for different gene mutations in various tumor samples. For example, KRAS mutations in Bile [41], EGFR mutations in NSCLC [42], BRAF mutations in CRC [35]. The DxS also provides validated biomarker kit for EGFR, RAF, BCR-ABL and other genes that show a correlation between patient mutation status and drug response [39].
+
+## Conclusion
+
+In CRC anti-EGFR treatment, PCR-based assays with high sensitivity and specificity enable effective exclusion of patients with mutant KRAS, as well as reduce drug side effects and increase PFS and mOS in the wild-type KRAS patients. Simultaneously, such methods allow accurate identification of KRAS mutant patients so we can genuinely narrow the patient subgroup with KRAS mutations and investigate more effective treatment options for these patients. Therefore, an accurate standard reference test is urgently required to optimize mCRC-targeted therapy. Although the current PCR-based methods have performed much better than before, their sensitivity and specificity cannot be further improved due to the limited resolution of the analog signal and the unavoidable background molecules. This limitation considerably reduces the value of certain important clinical samples like stool and blood where target DNA only represents a small fraction of the total DNA. For example, tumor-derived DNA in the blood of patents with lower stage tumors is 0.01–0.12% [43]. The lately developed digital PCR (dPCR) method possesses the highest potential to improve detection accuracy in terms of both sensitivity and specificity. In dPCR, templates in a sample are compartmentalized into many minute individual reactions, each containing at most a single template. Such compartmentalization effectively decreases the noise and increases the amplification specificity of low-level templates [44], [45]. The reported sensitivity of dPCR reached 0.0005% [44]. More convenient than real-time PCR, dPCR doesn’t require the establishment of standard curve, and in terms of throughput the 96-well version dPCR has been developed [44], [45]. This promising method will allow us to substantially understand tumor heterogeneity and improve targeted cancer therapy [46], [47]. In conclusion, this research provides a much broader vision for the entire cancer therapy field.
+
+## Supporting Information
+
+PRISMA checklist.
+
+(DOC)
+
+Click here for additional data file.
+
+## References
+1. 1 MarkowitzSD, BertagnolliMM (2009) Molecular origins of cancer: Molecular basis of colorectal cancer. N Engl J Med 361: 2449–2460.2001896610.1056/NEJMra0804588PMC2843693
+2. 2 CunninghamD, HumbletY, SienaS, KhayatD, BleibergH, et al (2004) Cetuximab monotherapy and cetuximab plus irinotecan in irinotecan-refractory metastatic colorectal cancer. N Engl J Med 351: 337–345.1526931310.1056/NEJMoa033025
+3. 3 Van CutsemE, PeetersM, SienaS, HumbletY, HendliszA, et al (2007) Open-label phase III trial of panitumumab plus best supportive care compared with best supportive care alone in patients with chemotherapy-refractory metastatic colorectal cancer. J Clin Oncol 25: 1658–1664.1747085810.1200/JCO.2006.08.1620
+4. 4FDA Press Release (2004) FDA approves Erbitux for colorectal cancer: US Food and Drug Administration.
+5. 5FDA Press Release (2006) FDA approves Vectibix for colorectal cancer: US Food and Drug Administration.
+6. 6 LenzHJ, Van CutsemE, Khambata-FordS, MayerRJ, GoldP, et al (2006) Multicenter phase II and translational study of cetuximab in metastatic colorectal carcinoma refractory to irinotecan, oxaliplatin, and fluoropyrimidines. J Clin Oncol 24: 4914–4921.1705087510.1200/JCO.2006.06.7595
+7. 7 SaltzLB, MeropolNJ, LoehrerPJSr, NeedleMN, KopitJ, et al (2004) Phase II trial of cetuximab in patients with refractory colorectal cancer that expresses the epidermal growth factor receptor. J Clin Oncol 22: 1201–1208.1499323010.1200/JCO.2004.10.182
+8. 8 LievreA, BachetJB, Le CorreD, BoigeV, LandiB, et al (2006) KRAS mutation status is predictive of response to cetuximab therapy in colorectal cancer. Cancer Res 66: 3992–3995.1661871710.1158/0008-5472.CAN-06-0191
+9. 9 Di FioreF, BlanchardF, CharbonnierF, Le PessotF, LamyA, et al (2007) Clinical relevance of KRAS mutation detection in metastatic colorectal cancer treated by Cetuximab plus chemotherapy. Br J Cancer 96: 1166–1169.1737505010.1038/sj.bjc.6603685PMC2360149
+10. 10 Khambata-FordS, GarrettCR, MeropolNJ, BasikM, HarbisonCT, et al (2007) Expression of epiregulin and amphiregulin and K-ras mutation status predict disease control in metastatic colorectal cancer patients treated with cetuximab. J Clin Oncol 25: 3230–3237.1766447110.1200/JCO.2006.10.5437
+11. 11 AllegraCJ, JessupJM, SomerfieldMR, HamiltonSR, HammondEH, et al (2009) American Society of Clinical Oncology provisional clinical opinion: testing for KRAS gene mutations in patients with metastatic colorectal carcinoma to predict response to anti-epidermal growth factor receptor monoclonal antibody therapy. J Clin Oncol 27: 2091–2096.1918867010.1200/JCO.2009.21.9170
+12. 12 De RoockW, PiessevauxH, De SchutterJ, JanssensM, De HertoghG, et al (2008) KRAS wild-type state predicts survival and is associated to early radiological response in metastatic colorectal cancer treated with cetuximab. Ann Oncol 19: 508–515.1799828410.1093/annonc/mdm496
+13. 13 KarapetisCS, Khambata-FordS, JonkerDJ, O'CallaghanCJ, TuD, et al (2008) K-ras mutations and benefit from cetuximab in advanced colorectal cancer. N Engl J Med 359: 1757–1765.1894606110.1056/NEJMoa0804385
+14. 14 LievreA, BachetJB, BoigeV, CayreA, Le CorreD, et al (2008) KRAS mutations as an independent prognostic factor in patients with advanced colorectal cancer treated with cetuximab. J Clin Oncol 26: 374–379.1820241210.1200/JCO.2007.12.5906
+15. 15 Garm SpindlerKL, PallisgaardN, RasmussenAA, LindebjergJ, AndersenRF, et al (2009) The importance of K-RAS mutations and EGF61A>G polymorphism to the effect of cetuximab and irinotecan in metastatic colorectal cancer. Ann Oncol 20: 879–884.1917954810.1093/annonc/mdn712
+16. 16 De RoockW, De VriendtV, NormannoN, CiardielloF, TejparS (2011) KRAS, BRAF, PIK3CA, and PTEN mutations: implications for targeted therapies in metastaticcolorectal cancer. Lancet Oncol 12: 594–603.2116370310.1016/S1470-2045(10)70209-6
+17. 17 MaoC, YangZY, HuXF, ChenQ, TangJL (2012) PIK3CA exon 20 mutations as a potential biomarker for resistance to anti-EGFR monoclonal antibodies in KRAS wild-type metastatic colorectal cancer: a systematic review and meta-analysis. Ann Oncol 23: 1518–1525.2203908810.1093/annonc/mdr464
+18. 18 WangZH, GaoQY, FangJY (2012) Loss of PTEN expression as a predictor of resistance to anti-EGFR monoclonal therapy in metastatic colorectal cancer: evidence from retrospective studies. Cancer Chemother Pharmacol 69: 1647–1655.2261035610.1007/s00280-012-1886-y
+19. 19 SoodA, McClainD, MaitraR, Basu-MallickA, SeetharamR, et al (2012) PTEN gene expression and mutations in the PIK3CA gene as predictors of clinical benefit to anti-epidermal growth factor receptor antibody therapy in patients with KRAS wild-type metastaticcolorectal cancer. Clin Colorectal Cancer 11: 143–150.2228570610.1016/j.clcc.2011.12.001PMC3350566
+20. 20 MolinariF, FelicioniL, BuscarinoM, De DossoS, ButtittaF, et al (2011) Increased detection sensitivity for KRAS mutations enhances the prediction of anti-EGFR monoclonal antibodyresistance in metastatic colorectal cancer. Clin Cancer Res 17: 4901–4914.2163286010.1158/1078-0432.CCR-10-3137
+21. 21 ParmarMK, TorriV, StewartL (1998) Extracting summary statistics to perform meta-analyses of the published literature for survival endpoints. Stat Med 17: 2815–2834.992160410.1002/(sici)1097-0258(19981230)17:24<2815::aid-sim110>3.0.co;2-8
+22. 22 DerSimonianR, LairdN (1986) Meta-analysis in clinical trials. Control Clin Trials 7: 177–188.380283310.1016/0197-2456(86)90046-2
+23. 23 LangerC, KopitJ, AwadM, et al (2008) Analysis of KRAS mutations in patients with metastatic colorectal cancer receiving cetuximab in combination with irinotecan: Results from the EPIC trial. Ann Oncol 19: VIII133.
+24. 24 AmadoRG, WolfM, PeetersM, Van CutsemE, SienaS, et al (2008) Wild-type KRAS is required for panitumumab efficacy in patients with metastatic colorectal cancer. J Clin Oncol 26: 1626–1634.1831679110.1200/JCO.2007.14.7116
+25. 25 BokemeyerC, BondarenkoI, MakhsonA, HartmannJT, AparicioJ, et al (2009) Fluorouracil, leucovorin, and oxaliplatin with and without cetuximab in the first-line treatment of metastatic colorectal cancer. J Clin Oncol 27: 663–671.1911468310.1200/JCO.2008.20.8397
+26. 26 Van CutsemE, KöhneCH, HitreE, ZaluskiJ, Chang ChienCR, et al (2009) Cetuximab and chemotherapy as initial treatment for metastatic colorectal cancer. N Engl J Med 360: 1408–1417.1933972010.1056/NEJMoa0805019
+27. 27 DouillardJY, SienaS, CassidyJ, TaberneroJ, BurkesR, et al (2010) Randomized, phase III trial of panitumumab with infusional fluorouracil, leucovorin, and oxaliplatin (FOLFOX4) versus FOLFOX4 alone as first-line treatment in patients with previously untreated metastatic colorectal cancer: the PRIME study. J Clin Oncol 28: 4697–4705.2092146510.1200/JCO.2009.27.4860
+28. 28Maughan TS, Adams R, Smith CG, Seymour MT, Wilson RH, et al. (2010) Oxaliplatin and fluoropyrimidine chemotherapy plus or minus cetuximab: the effect of infusion 5-FU or capecitabine on the outcomes of the MRC COIN trial in advanced colorectal cancer (ACRC). Presented at: the American Society of Clinical Oncology Gastrointestinal Cancers Symposium March 26, Abstract 402.
+29. 29 PeetersM, PriceTJ, CervantesA, SobreroAF, DucreuxM, et al (2010) Randomized Phase III Study of Panitumumab With Fluorouracil, Leucovorin, and Irinotecan (FOLFIRI) Compared With FOLFIRI Alone As Second-Line Treatment in Patients With Metastatic Colorectal Cancer. J Clin Oncol 28: 4706–4713.2092146210.1200/JCO.2009.27.6055
+30. 30 TveitKM, GurenT, GlimeliusB, PfeifferP, SorbyeH, et al (2012) Phase III Trial of Cetuximab With Continuous or Intermittent Fluorouracil, Leucovorin, and Oxaliplatin (Nordic FLOX) Versus FLOX Alone in First-Line Treatment of Metastatic Colorectal Cancer: The NORDIC-VII Study. J Clin Oncol 30: 1755–1762.2247315510.1200/JCO.2011.38.0915
+31. 31 DouillardJY, OlinerKS, SienaS, TaberneroJ, BurkesR, et al (2013) Panitumumab–FOLFOX4 Treatment and RAS Mutations in Colorectal Cancer. N Engl J Med 369: 1023–1034.2402483910.1056/NEJMoa1305275
+32. 32 WaldnerMJ, NeurathMF (2010) The molecular therapy of colorectal cancer. Mol Aspects Med31: 171–178.10.1016/j.mam.2010.02.00520171980
+33. 33 OhJE, LimHS, AnCH, JeongEG, HanJY, et al (2010) Detection of Low-Level KRAS Mutations Using PNA-Mediated Asymmetric PCR Clamping and Melting Curve Analysis with Unlabeled Probes. J Mol Diagn 12: 418–424.2041367810.2353/jmoldx.2010.090146PMC2893625
+34. 34 BaeAS, KuKS, MillerMD, MoH, SvarovskaiaES (2011) Allele-Specific Real-Time PCR System for Detection of Subpopulations of Genotype 1a and 1b Hepatitis C NS5B Y448H Mutant Viruses in Clinical Samples. J Clin Microbiol 49: 3168–3174.2171559010.1128/JCM.00274-11PMC3165570
+35. 35 LangAH, DrexelH, Geller-RhombergS, StarkN, WinderT, et al (2010) Optimized allele-specific real-time PCR assays for the detection of common mutations in KRAS and BRAF. J Mol Diagn 13: 23–28.2122739110.1016/j.jmoldx.2010.11.007PMC3070579
+36. 36 RayA1, NordénB (2000) Peptide nucleic acid (PNA): its medical and biotechnical applications and promise for the future. FASEB J 14: 1041–1060.1083492610.1096/fasebj.14.9.1041
+37. 37 MattarucchiE, MarsoniM, BinelliG, PassiA, Lo CurtoF, et al (2005) Different real time PCR approaches for the fine quantification of SNP's alleles in DNA pools: assays development, characterization and pre-validation. Biochem Mol Biol 38: 555–562.10.5483/bmbrep.2005.38.5.55516202235
+38. 38 BillardA, LavalV, FillingerS, LerouxP, LachaiseH, et al (2012) The allele-specific probe and primer amplification assay, a new real-time PCR method for fine quantification of single-nucleotide polymorphisms in pooled DNA. Appl Environ Microbiol 78: 1063–1068.2215641310.1128/AEM.06957-11PMC3272996
+39. 39 CrossJ (2008) DxS Ltd. Pharmacogenomics 9: 463–467.1838425910.2217/14622416.9.4.463
+40. 40 LangAH, DrexelH, Geller-RhombergS, StarkN, WinderT, et al (2011) Optimized allele-specific real-time PCR assays for the detection of common mutations in KRAS and BRAF. J Mol Diagn 13: 23–28.2122739110.1016/j.jmoldx.2010.11.007PMC3070579
+41. 41 ChenCY, ShieshSC, WuSJ (2004) Rapid detection of K-ras mutations in bile by peptide nucleic acid-mediated PCR clamping and melting curve analysis: comparison with restriction fragment length polymorphism analysis. Clin Chem 50: 481–489.1471839510.1373/clinchem.2003.024505
+42. 42 RomaC, EspositoC, RachiglioAM, PasqualeR, IannacconeA, et al (2013) Detection of EGFR mutations by TaqMan mutation detection assays powered by competitive allele-specific TaqMan PCR technology. Biomed Res Int 2013: 385087.2436403310.1155/2013/385087PMC3864078
+43. 43 DiehlF, LiM, DressmanD, HeY, ShenD, et al (2005) Detection and quantification of mutations in the plasma of patients with colorectal tumors. Proc Natl Acad Sci USA 102: 16368–16373.1625806510.1073/pnas.0507904102PMC1283450
+44. 44 PekinD, SkhiriY, BaretJC, Le CorreD, MazutisL, et al (2011) Quantitative and sensitive detection of rare mutations using droplet-based microfluidics. Lab Chip 11: 2156–2166.2159429210.1039/c1lc20128j
+45. 45 HindsonBJ1, NessKD, MasquelierDA, BelgraderP, HerediaNJ, et al (2011) High-throughput droplet digital PCR system for absolute quantitation of DNA copy number. Anal Chem 83: 8604–8610.2203519210.1021/ac202028gPMC3216358
+46. 46 BabayanA, HannemannJ, SpötterJ, MüllerV, PantelK, et al (2013) Heterogeneity of estrogen receptor expression in circulating tumor cells from metastaticbreast cancer patients. PLoS One 8: e75038.2405864910.1371/journal.pone.0075038PMC3776726
+47. 47 BurrellRA, McGranahanN, BartekJ, SwantonC (2013) The causes and consequences of genetic heterogeneity in cancer evolution. Nature 501: 338–345.2404806610.1038/nature12625

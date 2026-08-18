@@ -1,0 +1,306 @@
+# Circulating Tumor DNA Identifies Diverse Landscape of Acquired Resistance to Anti–Epidermal Growth Factor Receptor Therapy in Metastatic Colorectal Cancer
+
+Authors: James T. Topham, Chris J. O'Callaghan, Harriet Feilotter, Hagen F. Kennecke, Young S. Lee, Weimin Li, Kimberly C. Banks, Katie Quinn, Daniel J. Renouf, Derek J. Jonker, Dongsheng Tu, Eric X. Chen, Jonathan M. Loree
+
+Journal: Journal of Clinical Oncology
+
+PMCID: PMC9870216
+
+PMID: 36007218
+
+DOI: 10.1200/JCO.22.00364
+
+Canonical source: https://pmc.ncbi.nlm.nih.gov/articles/PMC9870216/
+
+## Abstract
+
+Anti–epidermal growth factor receptor (EGFR) antibodies are effective treatments for metastatic colorectal cancer. Improved understanding of acquired resistance mechanisms may facilitate circulating tumor DNA (ctDNA) monitoring, anti-EGFR rechallenge, and combinatorial strategies to delay resistance.
+
+## METHODS
+
+Patients with treatment-refractory metastatic colorectal cancer (n = 169) enrolled on the CO.26 trial had pre–anti-EGFR tissue whole-exome sequencing (WES) compared with baseline and week 8 ctDNA assessments with the GuardantOMNI assay. Acquired alterations were compared between patients with prior anti-EGFR therapy (n = 66) and those without. Anti-EGFR therapy occurred a median of 111 days before ctDNA assessment.
+
+## RESULTS
+
+ctDNA identified 12 genes with increased mutation frequency after anti-EGFR therapy, including EGFR (P = .0007), KRAS (P = .0017), LRP1B (P = .0046), ZNF217 (P = .0086), MAP2K1 (P = .018), PIK3CG (P = .018), BRAF (P = .048), and NRAS (P = .048). Acquired mutations appeared as multiple concurrent subclonal alterations, with most showing decay over time. Significant increases in copy-gain frequency were noted in 29 genes after anti-EGFR exposure, with notable alterations including EGFR (P < .0001), SMO (P < .0001), BRAF (P < .0001), MET (P = .0002), FLT3 (P = .0002), NOTCH4 (P = .0006), ERBB2 (P = .004), and FGFR1 (P = .006). Copy gains appeared stable without decay 8 weeks later. There were 13 gene fusions noted among 11 patients, all but one of which was associated with prior anti-EGFR therapy. Polyclonal resistance was common with acquisition of ≥ 10 resistance related alterations noted in 21% of patients with previous anti-EGFR therapy compared with 5% in those without (P = .010). Although tumor mutation burden (TMB) did not differ pretreatment (P = .63), anti-EGFR exposure increased TMB (P = .028), whereas lack of anti-EGFR exposure resulted in declining TMB (P = .014).
+
+## CONCLUSION
+
+Paired tissue and ctDNA sequencing identified multiple novel mutations, copy gains, and fusions associated with anti-EGFR therapy that frequently co-occur as subclonal alterations in the same patient.
+
+## Full article
+
+## INTRODUCTION
+
+Primary tumor location and presence of mutations in KRAS, NRAS, and BRAF are important considerations for treatment with anti–epidermal growth factor receptor (EGFR) antibodies in metastatic colorectal cancer (mCRC). Tumors with mutations in these genes do not respond to anti-EGFR antibodies.1,2 Similarly, patients with right-sided tumors derive less benefit from these agents, resulting in their use in later lines of therapy.3-5 Unfortunately, patients eventually develop resistance to anti-EGFR antibodies, with acquired KRAS, NRAS, BRAF, and EGFR ectodomain mutations accounting for approximately 50% of acquired resistance and less common alterations, such as gene fusions, also being reported.6-11
+
+### CONTEXT
+
+Key Objective Understanding therapeutic resistance in patients with colorectal cancer is critical for guiding therapy rechallenge and identifying vulnerabilities that emerge during treatment. Our study aims to profile the somatic mutation landscape of tumors exposed to anti–epidermal growth factor receptor (EGFR) therapy using circulating tumor DNA (ctDNA) across multiple time points. Knowledge Generated Exposure to anti-EGFR therapy was associated with multiple polyclonal mutations affecting a spectrum of genes, and encompassed single-nucleotide variant/indel, copy-amplification, and gene fusion events. Although blood-based tumor mutation burden levels were increased in anti–EGFR-treated patients, this population was not differentially sensitive to downstream immunotherapy. Relevance This work provides serial identification and tracking of resistance patterns for 169 patients using a ctDNA panel assaying 500 genes, surpassing the genomic breadth of previous studies. This study supports the utility of serial ctDNA in guiding anti-EGFR rechallenge while also identifying new vulnerabilities that may emerge during the course of treatment.
+
+Longitudinal circulating tumor DNA (ctDNA) studies have shown that among patients with acquired mutations, resistant clones decay with time, resulting in an opportunity for anti-EGFR rechallenge.12,13 In the CRICKET and CHRONOS trials, patients previously treated with chemotherapy plus anti-EGFR antibodies were rechallenged with cetuximab + irinotecan or panitumumab, respectively, and demonstrated meaningful progression-free survival with retreatment.14,15 In addition, the CAVE trial demonstrated that cetuximab + avelumab can be an active and well-tolerated rechallenge strategy in patients with pretreated RAS wild-type mCRC.16
+
+Other mechanisms of acquired resistance have been described, including transcriptional programming, alterations in genes not associated with innate anti-EGFR resistance, like NF1, and paracrine signaling.17,18 However, a large proportion of patients develop unexplained resistance to anti-EGFR therapy. Improved understanding of acquired resistance may improve mCRC outcomes by (1) informing ctDNA panels that can track tumor kinetics and monitor for resistance before radiographic progression, (2) identifying combination strategies with anti-EGFR antibodies to prevent the development of resistance, and (3) improving patient selection for anti-EGFR rechallenge by identifying non RAS/BRAF/EGFR alterations that preclude benefit. We interrogated matched pretreatment tissue and serial ctDNA from the CO.26 trial, which compared durvalumab + tremelimumab versus best supportive care (BSC) in treatment-refractory mCRC to identify novel mechanisms of resistance and describe their kinetics.19 At the time of recruitment to CO.26, anti-EGFR antibodies were used almost exclusively in the third-line setting in Canada, and there was limited access to regorafenib or trifluridine/tipiracil. As such, pre-enrollment blood draws for CO.26 occurred immediately after anti-EGFR agents in patients who received these drugs and could be compared with archival tissue to identify alterations that occurred during therapy and that differed from patients who had baseline RAS/BRAF mutations and did not receive anti-EGFR therapy.
+
+## METHODS
+
+### Patients
+
+CO.26 was a phase II trial that randomly assigned 180 patients with refractory mCRC 2:1 to either durvalumab 1,500 mg intravenously once every 4 weeks + tremelimumab 75 mg intravenously once every 4 weeks for the initial four cycles + BSC or BSC alone. Full study details and the study Protocol (online only) were previously published.19 Access to clinical data for patients during the course of therapy before trial enrollment was not available, as CO.26 recruited patients from 15 referral sites that would not have treated patients in all prior lines of therapy. As such, we were unable to incorporate data on prior anti-EGFR therapy response into the study.
+
+The study enrolled and consented patients at participating sites after institutional review board approval.
+
+### Whole-Exome Sequencing and Tumor Mutation Burden Assessment
+
+Archival formalin-fixed and paraffin-embedded tumor tissue and leukocytes from peripheral blood were used for tumor/matched normal sequencing. Full sequencing and bioinformatic details are available in the Data Supplement (online only). Tissue was sequenced with an average coverage before deduplication of 100× for normal or 400× for tumor samples. Tumor mutation burden (TMB) was calculated according to the TMB harmonization project guidelines.20 Relative variant allele fraction (rVAF) was calculated as the allele frequency of a variant divided by the maximum detected allele frequency of any somatic variant in the sample. Copy-number amplification was defined as a segment having a total copy number greater than or equal to twice tumor ploidy.
+
+### ctDNA Sequencing
+
+Plasma was isolated from blood collected in Streck tubes before treatment on the CO.26 trial (baseline) and at 8 weeks after initiation of therapy (week 8). DNA extraction and next-generation sequencing were subsequently performed at Guardant Health using the GuardantOMNI (Redwood City, CA) 2.15 Mb, 500 gene panel.21 Plasma TMB was reported by the GuardantOMNI algorithm, which includes all somatic synonymous and nonsynonymous single-nucleotide variants (SNVs) and indels, excluding germline, clonal hematopoiesis of indeterminate potential, driver, and resistance variants with statistical adjustment for sample-specific tumor shedding of ctDNA and coverage.22 A threshold rVAF = 10% was used to define subclonal variants and was chosen on the basis of distribution of rVAF across baseline ctDNA samples.
+
+### Statistical Analysis
+
+Fisher's exact tests were used to compare mutation frequencies between treatment groups. Wilcoxon mean rank-sum tests were used for two-group comparison of continuous variables. All two-group comparisons were two-tailed. All P values were subjected to Benjamini-Hochberg multiple test correction when applicable. A threshold false discovery rate of 5% (adjusted P = .05) was used for all analyses. P values < .0001 are listed in common notation (P < .0001). Analyses were performed using R v3.6.3 (Vienna, Austria).
+
+## RESULTS
+
+Of 180 patients enrolled on CO.26 (trial CONSORT diagram provided in Fig 1), 169 had samples from at least one time point available for analysis and 62 patients had samples from all three time points (Fig 2A). Whole-exome sequencing (WES) was available for 110/169 (65%) patients and will be referred to as archival samples. ctDNA results were available for 168/169 patients (99%) at baseline and 97/169 (57%) at week 8. Historical treatment information pre-enrollment on CO.26 was available for 167/169 patients (99%). Before enrollment on CO.26 (and collection of baseline plasma samples), all patients who were RAS wild-type by local testing received anti-EGFR therapy. Among patients with available treatment history, 66 (40%) received prior cetuximab (n = 9) or panitumumab (n = 57) with a median treatment duration of 132 days. Among patients who received anti-EGFR therapy, treatment was discontinued a median of 111 days (IQR, 42-192 days) before baseline plasma collection. Baseline characteristics of the trial population were balanced between anti-EGFR and non–anti-EGFR groups (Data Supplement) apart from sex, which showed a higher proportion of female patients among the non–anti-EGFR group (40.6%) compared with the anti-EGFR group (21.2%; P = .01). Comparison of other treatment regimens, beyond anti-EGFR therapy, that were received by patients before enrollment in the CO.26 trial showed no significant differences between anti-EGFR and non–anti-EGFR groups (Data Supplement). Across all patients, 47/169 (28%) of tumors were right-sided (Fig 2B) and primary tumor sidedness was not associated with prior anti-EGFR therapy (P = .22). Frequencies of alterations affecting BRAF and ERBB2 were not significantly different between groups at the archival diagnosis time point (P = .11 and .56, respectively). Microsatellite instability was noted in 2/169 (1.2%) patients.
+
+FIG 1.: CONSORT diagram showing study design for the Canadian Cancer Trials Group (CCTG) CO.26 trial. BSC, best supportive care; Durva + Treme, durvalumab and tremelimumab.
+
+FIG 2.: Data overview. Study schema showing (A) sequencing availability at studied time points for 169 patients with metastatic colorectal cancer included in this study and (B) pie charts showing distribution of clinical metadata relevant to assessing anti-EGFR resistance. ctDNA, circulating tumor DNA; EGFR, epidermal growth factor receptor; WES, whole-exome sequencing.
+
+Mutations likely to affect protein function (frameshift and in-frame indels, missense, and nonsense SNVs) were selected for analysis from the 500 genes included in the ctDNA panel. In archival samples, 109/110 (99%) had ≥ 1 mutation in these genes. At least one mutation was detected in 168/168 (100%) baseline ctDNA samples and 96/97 (99%) week 8 ctDNA samples. The frequency of SNV/indels affecting each individual gene was compared between archival and baseline samples within each treatment group to identify mutations uniquely associated with prior anti-EGFR therapy (Figs 3A and 3B). Among anti-EGFR–treated patients, mutation frequency significantly changed in 12 genes (P < .05) between archival tissue and baseline ctDNA, whereas mutation frequency changed significantly among patients not receiving prior anti-EGFR in two genes. In the anti-EGFR–treated, 10/12 (83%) genes increased in mutation frequency (Data Supplement). CREBBP decreased in mutation frequency for both anti-EGFR (P = .0091) and non–anti-EGFR (P = .0028) groups, whereas APC showed increased mutation frequency in both groups (P = .046 and P = .043, respectively). Genes with significantly increased mutation frequency exclusive to the anti-EGFR–treated group (EGFR, KRAS, LRP1B, ZNF217, MAP2K1, PIK3CG, BRAF, and NRAS) were selected for further analysis, along with DNA damage repair genes ATM, ATR, and BRCA1, which showed trends (adjusted P ≤ .1) toward increased frequency exclusive to the anti-EGFR group (Fig 3C). In the anti-EGFR–treated, 56% and 58% of patients with KRAS and EGFR mutations (respectively) detected in baseline ctDNA had > 1 mutation affecting each gene. A similar trend was observed for baseline ctDNA mutations affecting NRAS (39% of mutated tumors bearing > 1 mutation), LRP1B (40%), and ATM (37%). KRAS and LRP1B mutations occurred at lower rVAF (P < .0001 and P = .0004, respectively) in the anti-EGFR–treated group compared with the non–anti-EGFR group.
+
+FIG 3.: Mutation analysis identifies known and novel acquired resistance patterns in patients treated with anti-EGFR antibodies. (A) Scatter plot depicting the difference in percentage (baseline ctDNA frequency minus archival tissue frequency) of patients bearing a mutation in each gene, for anti-EGFR (y-axis) and non–anti-EGFR (x-axis) groups. Genes with relatively higher frequency of mutation in the anti-EGFR group are labeled. (B) Bar plot showing Benjamini-Hochberg-adjusted P values (–log10 transformed) from Fisher's exact tests for differences in mutation frequency between time points in anti-EGFR (red) and non–anti-EGFR (green) groups. Dotted lines indicate adjusted P = .05. For each gene shown, significant increases in mutation frequency post-treatment are unique to the anti-EGFR group. (C) Detailed analysis of genes of interest. First row (bar plots) indicates frequency (percentage of patients) of variant types at archival tissue (A) and baseline ctDNA (B) time points for each treatment group (anti-EGFR ±). The second row (bar plots) indicates the number of patients bearing multiple variants in the same gene. Third row (boxplots) indicates rVAF of mutations in each group and are compared with Wilcoxon mean rank-sum P values. ctDNA, circulating tumor DNA; EGFR, epidermal growth factor receptor; rVAF, relative variant allele fraction; SNV, single-nucleotide variant.
+
+Prior studies have demonstrated that acquired alterations in RAS and EGFR decay upon anti-EGFR withdrawal (Fig 4A).12,13 Given that many acquired alterations we noted occurred multiple times in the same gene for the same patient and at low allele frequency, these findings suggest convergent subclonal resistance mechanisms developing in patients. To investigate subclonal resistance dynamics, the rVAF of mutations acquired during anti-EGFR therapy (mutations with archival rVAF = 0% and nonzero baseline rVAF< 10%) were tracked across archival, baseline, and week 8 time points (Fig 4B). Subclonal mutations acquired in baseline ctDNA showed variable decay across resistance genes, including EGFR (38% of mutations lost [rVAF = 0%] at week 8 ctDNA), KRAS (13%), LRP1B (58%), ZNF217 (50%), BRAF (83%), and ATM (43%). Meanwhile, all acquired subclonal mutations affecting PIK3CG, NRAS, and BRCA1 remained detectable at week 8.
+
+FIG 4.: Acquired resistance mutations show variable patterns of decay over time in patients previously treated with anti-EGFR. (A) Schematic demonstrating possible kinetics of acquired resistance mutations pretreatment (left; subclonal), at treatment stoppage (middle; clonal), and after treatment stoppage (right; variant decay or retention). (B) Bar and scatter plots showing rVAF levels of subclonal (rVAF< 10%) variants that were acquired (archival tissue rVAF = 0%) during anti-EGFR treatment. Acquired subclonal mutations in PIK3CG, NRAS, ATR, and BRCA1 are maintained at 8 weeks after baseline ctDNA, whereas other variants show decay upon removal of anti-EGFR stimulus. A, archival tissue; B, baseline; ctDNA; ctDNA, circulating tumor DNA; EGFR, epidermal growth factor receptor; rVAF, relative variant allele fraction; W, week 8 ctDNA.
+
+We next sought to investigate copy number variants (CNVs) acquired during anti-EGFR treatment. The majority of CNVs detected in ctDNA were copy-gain events (2,114/2,218; 95%), which were therefore chosen as the focus of our analysis as copy losses can be difficult to detect in ctDNA. Copy gains were identified in 71/110 (65%) archival tissue, 109/168 (65%) baseline ctDNA, and 69/97 (71%) week 8 ctDNA samples. Copy-gain frequency was compared between baseline ctDNA and archival WES (Fig 5A; Data Supplement) in each treatment group. There were 29 and seven genes with increased frequency of copy gains (P < .05) at baseline ctDNA in the anti-EGFR and non–anti-EGFR groups, respectively. Apart from MYC, which showed lower frequency of copy gain at baseline in both anti-EGFR (P = .030) and non–anti-EGFR (P = .0011) groups, all statistically significant genes in both groups showed increased frequency of copy gain at baseline. Although EGFR copy gain showed significant increase in frequency at baseline ctDNA for both treatment groups, increases were more extreme in the anti-EGFR group (archival tissue and baseline ctDNA frequency of 2% and 53%, respectively; P < .0001) compared with the non–anti-EGFR group (2% and 21%; P = .0034; Fig 5B). Genes with significant increases in frequency of copy gains exclusively in the anti-EGFR group included MET (P = .0002), FLT3 (P = .0002), NOTCH4 (P = .0006), ZNF217 (P = .001), and KMT2A (P = .0022). We next assessed changes in copy-gain frequency between baseline and week 8 ctDNA (Fig 5C). In the anti-EGFR group, the proportion of patients with GNAS copy gain continued to increase between baseline (48%) and week 8 (73%; P = .022). For all other genes, copy gains were detected at similar frequency at week 8 and baseline, indicating that acquired CNV-based resistance may remain clonally stable after treatment cessation.
+
+FIG 5.: Landscape of copy-amplification events acquired during anti-EGFR therapy. (A) Scatter plot depicting the difference in percentage (baseline ctDNA minus archival tissue frequency) of patients bearing amplification of each gene, for anti-EGFR (y-axis) and non–anti-EGFR (x-axis) groups. Genes with unique increases in post-treatment amplification frequency in anti-EGFR patients are labeled. (B) Bar plot showing Benjamini-Hochberg-adjusted P values (–log10 transformed) from Fisher's exact tests for differences in amplification frequency between time points in anti-EGFR (red) and non–anti-EGFR (green) groups. Dotted lines indicate adjusted P = .05. (C) Bar plots depicting the percentage of patients with amplification at each gene across archival tissue (A), baseline ctDNA (B), and week 8 ctDNA (W) time points, for the two treatment groups (anti-EGFR ±). A, archival tissue; B, baseline; CNV, copy number variant; ctDNA, circulating tumor DNA; EGFR, epidermal growth factor receptor; W, week 8 ctDNA.
+
+There were 13 fusion events detected in the baseline ctDNA of 11 patients that included FGFR3 (three patients; fusion partner TACC3), RET (three patients; partners CCD6 and NCOA4), ROS1 (two patients; partner GOPC), MERTK (two patients; partner TMEM87B), BRAF (two patients; partners TRIM24 and MKRN1), and ETV6 (one patient; partner BCL2L14). All patients with detectable fusions at baseline ctDNA belonged to the anti-EGFR group, except one patient with the ETV6-BCL2L14 fusion. Several (4/11; 36%) fusion-positive patients had archival tissue available, and manual analysis of WES reads did not indicate the existence of any of the fusion events before anti-EGFR therapy. Week 8 ctDNA was available for 4/11 (36%) fusion-positive cases, and two patients did not have fusions detected at week 8 (two MERTK fusions) and two patients had fusions detected at both baseline and week 8 (FGFR3 and RET fusions).
+
+To investigate the breadth of resistance mechanisms, we constructed an overview of acquired somatic anti-EGFR resistance (Fig 6A). Across the 20 genes included, copy-number amplification was observed in ≥ 1 gene in 82% of patients treated with anti-EGFR, compared with 49% of patients not exposed to anti-EGFR therapy (P < .0001). Patients receiving anti-EGFR antibodies often showed acquisition of multiple resistance-related alterations, with 21% of patients acquiring ≥ 10 mutations, significantly higher compared with the non–anti-EGFR group (5%; P = .010, Fig 6B). For each gene, frequency of acquired mutations was not significantly different between right- and left-sided primary tumor groups. Although relative tumor mutation burden (rTMB) did not differ between treatment groups in archival tissue (P = .63), rTMB was significantly higher in the anti-EGFR compared with the non–anti-EGFR group in baseline ctDNA (median rTMB = 0.11 and –0.44, respectively; P < .0001; Fig 6C). Higher rTMB was also observed in the anti-EGFR compared with non–anti-EGFR group in the week 8 ctDNA (median rTMB = 0.15 and –0.40, respectively; P < .0001). When comparing rTMB levels within each treatment group between archival tissue and baseline ctDNA, we observed opposing patterns of rTMB changes, with the anti-EGFR group increasing in rTMB (median archival and baseline rTMB = –0.31 and 0.11, respectively; P = .028) and the non–anti-EGFR group decreasing in rTMB (median archival and baseline rTMB = –0.36 and –0.44, respectively; P = .014). rTMB levels did not change between baseline and week 8 ctDNA time points within either the anti-EGFR group (P = .63) or the non–anti-EGFR group (P = .49).
+
+FIG 6.: ctDNA identifies multiple, independent resistance mutations acquired in patients receiving anti-EGFR therapy. (A) Oncoprint showing SNV/indel, CNV, and fusion patterns. Each column represents an individual patient. SNV/indel/CNV (top) and fusion (bottom) patterns are depicted on the basis of differences between baseline ctDNA and archival tissue time points. Patients who did not have archival data available are labeled as archival unknown. Upper bars depict TMB levels in baseline ctDNA samples. Lowest track indicates patient-level characteristics including primary tumor location, time between final therapy dose and baseline ctDNA collection, and MSI status at the archival time point. (B) Pie charts showing the proportion of patients with acquired mutations (SNV/indel/CNV/fusion) in multiple resistance genes for patients with both archival and baseline data available. Fisher's exact test P value is shown. (C) Line chart depicting relative TMB (rTMB) levels (z-scores) in anti-EGFR (red) and non–anti-EGFR (green) groups, across archival tissue (A), baseline ctDNA (B), and week 8 ctDNA (W) time points. Wilcoxon mean rank-sum P values are shown. Error bars indicate 25th and 75th quantiles; each dot represents the median rTMB among that treatment group at that time point. CNV, copy number variant; ctDNA, circulating tumor DNA; EGFR, epidermal growth factor receptor; MSI, microsatellite instability; MSS, microsatellite stable; NA, not available; rTMB, relative tumor mutation burden.
+
+We next assessed whether prior exposure to anti-EGFR therapy affected response to dual checkpoint inhibition (durvalumab + tremelimumab) in treatment-refractory mCRC that patients received as part of the CO.26 trial. Overall survival analysis revealed no significant differences between durvalumab + tremelimumab versus BSC groups in the anti-EGFR (hazard ratio, 0.62; 90% CI, 0.40 to 0.96; P = .073) and non–anti-EGFR (hazard ratio, 0.71; 90% CI, 0.47 to 1.1; P = .15) groups (Data Supplement). The test for interaction between immunotherapy treatment and prior anti-EGFR exposure was not significant (P = .57). As treatment-based overall survival differences in the anti-EGFR group were significant at the P < .1 level, and the 90% CI did not cross 1.0, these data warrant future investigation to ascertain the capability of anti-EGFR therapy to prime a tumor for immunotherapy response.
+
+## DISCUSSION
+
+Anti-EGFR antibodies are effective treatments for RAS wild-type mCRC; however, resistance eventually develops. We used ctDNA with paired exome sequencing from archival tissues to discover novel mechanisms of resistance and found that acquired resistance to anti-EGFR antibodies occurs via a multiplicity of concurrent subclonal alterations, with 21% of anti-EGFR–treated patients having ≥ 10 putative concurrent resistance mechanisms. We also uncover significantly more copy-number amplifications in patients with anti-EGFR exposure compared with those without anti-EGFR exposure (82% v 49%, P < .0001). Similarly, fusions were found to occur in 10/66 (15%) anti-EGFR–treated patients compared with 1% of patients without prior anti-EGFR therapy. Serial ctDNA samples showed that while most acquired SNVs and fusions decay, CNVs appeared stable over time. Patients with prior anti-EGFR therapies also had an increase in relative TMB and although acquired SNVs decayed over time, this induction of TMB remained stable at 8 weeks.
+
+In addition to KRAS, NRAS, BRAF, and EGFR, we noted a significant increase in SNVs among tumors receiving prior anti-EGFR in the genes ZNF217, MAP2K1, PIK3CG, LRP1B, ATM, ATR, and BRCA1. These alterations fell into two categories: genes with potential signaling ramifications and those in DNA repair pathways. ZNF217 functions as a gene repressor and can promote phosphorylation of AKT1 and drive mammalian target of rapamycin activity.23 Similarly, PIK3CG is a phosphoinositide-3-kinase, which facilitates AKT1 membrane recruitment and downstream signaling activation.24 These two variants converge on AKT1 signaling, which may promote anti-EGFR resistance. Mutations in AKT1 have been noted after cetuximab.25 MAP2K1 is a protein kinase that facilitates transduction of signaling from MEK to ERK, and its acquisition after anti-EGFR therapy has been previously documented.10,26,27 LRP1B encodes an LDL receptor and prior in vitro work suggests LRP1B impedes growth, migration, colony formation, and inhibits beta-catenin signaling, a key pathway for colorectal carcinogenesis.28 Similar to AKT1 bypass signaling, beta-catenin activation may be another pathway to escape EGFR inhibition. However, LRP1B is a very large gene, and mutations may represent passenger mutations because of genomic instability from evolutionary pressures and functional mismatch repair deficiency induced by anti-EGFR therapy. Anti-EGFR therapy has been shown to downregulate mismatch repair and homologous recombination repair while concomitantly upregulating error-prone polymerases that can drive acquisition of alterations.29 Interestingly, we observed higher frequency of mutations in ATM, ATR, and BRCA1 following anti-EGFR exposure, which has not been described. These alterations may facilitate evolutionary adaptation to targeted therapy and may also explain increases in rTMB among patients with anti-EGFR exposure. Taken together, our results suggest that sequencing of therapies and prior exposure to agents that cause evolutionary pressures, such as anti-EGFR antibodies, may reveal future susceptibilities.
+
+Among the strengths of our study is the ability to investigate mechanisms of resistance beyond SNVs. This is unique compared with most prior studies that used smaller, more targeted ctDNA assays focused on SNVs. In addition to fusions, we noted significant copy gains among patients with prior anti-EGFR therapy compared with archival samples that were absent in patients without prior anti-EGFR exposure, and these alterations remained stable throughout treatment. This may be due to evolutionary stability of acquired clones with copy-number alterations, or the fact that cancers with a detectible copy gain needed the gain in a large proportion of the relative cancer burden to be detected in plasma. As such, we may only be detecting clonal copy gains while missing subclonal chromosomal instability. Therefore, the reason that the copy-number alterations appear stable may be the technical ability to detect changes in copy number and not be evolutionary differences in trajectory between CNVs and SNVs. Conversely, we noted that acquired fusions decayed on serial assays, although stability of these alterations remains unclear because of their rare frequency.
+
+This study must be interpreted in the context of several limitations. First, neither a secondary data set nor sufficient patient numbers to split the current data set into discovery and validation cohorts was possible, and orthogonal validation of our study is therefore absent and presents an important limitation. Second, the archival tissue used for WES was standard-of-care pathology tissue, which was often a diagnostic biopsy from the time of diagnosis and was not collected immediately before anti-EGFR therapy. As such, acquired alterations could have occurred during cytotoxic chemotherapy and before any anti-EGFR therapy. Most patients received infusional fluorouracil, leucovorin, and oxaliplatin, or fluorouracil, leucovorin, and irinotecan ± bevacizumab, switched to the other doublet and then received third-line panitumumab/cetuximab. Attempts to control for the lack of tissue immediately before anti-EGFR treatment included comparing acquired alterations in patients receiving anti-EGFR agents to patients who did not receive anti-EGFR therapy. These patients all had a previous RAS mutation noted on standard-of-care testing that precluded anti-EGFR therapy. It is possible that acquired mutations from doublet chemotherapy may differ between RAS mutant and wild-type cancers because of clonal architecture within the tumors; however, the majority of acquired alterations we noted that differed between groups have strong biologic rationale supporting anti-EGFR resistance. This study is also limited by the absence of ctDNA data before anti-EGFR treatment, as tissue-based WES for archival mutation detection may not capture the full mutational catalog of a tumor because of intratumoral heterogeneity. Time between anti-EGFR treatment cessation and the first ctDNA time point varied across patients, with some patients exceeding 6 months. It is therefore possible that some acquired resistance mutations may have undergone clonal decay during this time and would be undetected in our analysis. Finally, functional characterization of acquired mutations was not performed as such an undertaking remained outside the scope of this study.
+
+Despite the above limitations, this study presents one of the most comprehensive overviews of anti-EGFR resistance mechanisms to date. We demonstrate a diverse landscape of acquired resistance mechanisms occurring in patients, typically with polyclonal nature that decays over time, indicating potential for serial ctDNA analysis to guide therapeutic rechallenge in patients. Meanwhile, our results indicate that CNVs may be more clonally stable over time. This work also demonstrates how prior therapies affect TMB. Awareness of the mechanisms we identified will facilitate improved tracking of and potential combinatorial strategies to delay or overcome resistance.
+
+See accompanying editorial on page 436
+
+NCT02870920
+
+Supported by philanthropic donations received through the BC Cancer Foundation and funding provided by the Terry Fox Research Institute. Costs associated with running the CO.26 clinical trial and sequencing were supported by AstraZeneca. The Canadian Cancer Trials Group (CCTG) is funded by the Canadian Cancer Society. DJR and JML are recipients of the MSFHR Health Professional-Investigator Award.
+
+## DATA SHARING STATEMENT
+
+Data collected from this study, including individual participant data and a data dictionary defining each field, will be made available to interested researchers. The Canadian Cancer Trials Group (CCTG) has an established request procedure, and interested investigators should submit a brief proposal using the Request for Data Proposal Form available at http://www.ctg.queensu.ca/. Upon approval, deidentified individual participant data and relevant study documents (protocol and statistical analysis plan) will be made available.
+
+## AUTHOR CONTRIBUTIONS
+
+Conception and design: James T. Topham, Hagen F. Kennecke, Derek J. Jonker, Eric X. Chen, Jonathan M. Loree
+
+Financial support: Jonathan M. Loree
+
+Provision of study materials or patients: Hagen F. Kennecke, Derek J. Jonker, Eric X. Chen, Jonathan M. Loree
+
+Collection and assembly of data: James T. Topham, Young S. Lee, Weimin Li, Katie Quinn, Daniel J. Renouf, Derek J. Jonker, Dongsheng Tu, Eric X. Chen, Jonathan M. Loree
+
+Data analysis and interpretation: James T. Topham, Harriet Feilotter, Weimin Li, Kimberly C. Banks, Katie Quinn, Daniel J. Renouf, Derek J. Jonker, Dongsheng Tu, Eric X. Chen, Jonathan M. Loree
+
+Manuscript writing: All authors
+
+Final approval of manuscript: All authors
+
+Accountable for all aspects of the work: All authors
+
+## AUTHORS' DISCLOSURES OF POTENTIAL CONFLICTS OF INTEREST
+
+### Circulating Tumor DNA Identifies Diverse Landscape of Acquired Resistance to Anti–Epidermal Growth Factor Receptor Therapy in Metastatic Colorectal Cancer
+
+The following represents disclosure information provided by authors of this manuscript. All relationships are considered compensated unless otherwise noted. Relationships are self-held unless noted. I = Immediate Family Member, Inst = My Institution. Relationships may not relate to the subject matter of this manuscript. For more information about ASCO's conflict of interest policy, please refer to www.asco.org/rwc or ascopubs.org/jco/authors/author-center.
+
+Open Payments is a public database containing information reported by companies about payments made to US-licensed physicians (Open Payments).
+
+Harriet Feilotter
+
+Honoraria: Janssen Diagnostics, Roche Canada, Precision RxDx, Bristol Myers Squibb, Diaceutics, Astellas Pharma, Bayer, EMD Serono, Novartis Canada Pharmaceuticals Inc, AstraZeneca, Pfizer
+
+Consulting or Advisory Role: Janssen Diagnostics, Roche Canada, Precision RxDx, Astellas Pharma, Bayer
+
+Speakers' Bureau: Bayer, EMD Serono, AstraZeneca
+
+Research Funding: AstraZeneca (Inst), Bayer (Inst), EMD Serono (Inst), Delphi Diagnostics (Inst), Lilly (Inst), Amgen (Inst), Roche Canada (Inst)
+
+Hagen F. Kennecke
+
+Honoraria: Natera, Tersera, Novartis
+
+Consulting or Advisory Role: Tersera
+
+Speakers' Bureau: Natera
+
+Research Funding: Taiho Pharmaceutical (Inst), Novartis (Inst), Exelixis (Inst)
+
+Young S. Lee
+
+Employment: AstraZeneca
+
+Stock and Other Ownership Interests: AstraZeneca
+
+Weimin Li
+
+Employment: Overland Pharmaceuticals, Takeda
+
+Stock and Other Ownership Interests: Overland Pharmaceuticals, Takeda
+
+Kimberly C. Banks
+
+Employment: Guardant Health
+
+Stock and Other Ownership Interests: Guardant Health
+
+Patents, Royalties, Other Intellectual Property: Guardant Health
+
+Katie Quinn
+
+Employment: Guardant Health
+
+Stock and Other Ownership Interests: Guardant Health
+
+Daniel J. Renouf
+
+Honoraria: Roche, Bayer
+
+Consulting or Advisory Role: Roche
+
+Research Funding: Bayer (Inst), Roche (Inst)
+
+Eric X. Chen
+
+Honoraria: Eisai, Roche Canada, Bayer, AstraZeneca Canada, Ipsen
+
+Research Funding: Merck Sharp & Dohme, AstraZeneca/MedImmune, Bristol Myers Squibb, Novartis, Mirati Therapeutics, Roche Canada, 1Globe Health Institute, Repare Therapeutics, Nubiyota
+
+Jonathan M. Loree
+
+Consulting or Advisory Role: Taiho Pharmaceutical, Ipsen, Novartis, Bayer, Amgen, Eisai, Pfizer
+
+Research Funding: Ipsen (Inst), Amgen (Inst)
+
+No other potential conflicts of interest were reported.
+
+Harriet Feilotter
+
+Honoraria: Janssen Diagnostics, Roche Canada, Precision RxDx, Bristol Myers Squibb, Diaceutics, Astellas Pharma, Bayer, EMD Serono, Novartis Canada Pharmaceuticals Inc, AstraZeneca, Pfizer
+
+Consulting or Advisory Role: Janssen Diagnostics, Roche Canada, Precision RxDx, Astellas Pharma, Bayer
+
+Speakers' Bureau: Bayer, EMD Serono, AstraZeneca
+
+Research Funding: AstraZeneca (Inst), Bayer (Inst), EMD Serono (Inst), Delphi Diagnostics (Inst), Lilly (Inst), Amgen (Inst), Roche Canada (Inst)
+
+Hagen F. Kennecke
+
+Honoraria: Natera, Tersera, Novartis
+
+Consulting or Advisory Role: Tersera
+
+Speakers' Bureau: Natera
+
+Research Funding: Taiho Pharmaceutical (Inst), Novartis (Inst), Exelixis (Inst)
+
+Young S. Lee
+
+Employment: AstraZeneca
+
+Stock and Other Ownership Interests: AstraZeneca
+
+Weimin Li
+
+Employment: Overland Pharmaceuticals, Takeda
+
+Stock and Other Ownership Interests: Overland Pharmaceuticals, Takeda
+
+Kimberly C. Banks
+
+Employment: Guardant Health
+
+Stock and Other Ownership Interests: Guardant Health
+
+Patents, Royalties, Other Intellectual Property: Guardant Health
+
+Katie Quinn
+
+Employment: Guardant Health
+
+Stock and Other Ownership Interests: Guardant Health
+
+Daniel J. Renouf
+
+Honoraria: Roche, Bayer
+
+Consulting or Advisory Role: Roche
+
+Research Funding: Bayer (Inst), Roche (Inst)
+
+Eric X. Chen
+
+Honoraria: Eisai, Roche Canada, Bayer, AstraZeneca Canada, Ipsen
+
+Research Funding: Merck Sharp & Dohme, AstraZeneca/MedImmune, Bristol Myers Squibb, Novartis, Mirati Therapeutics, Roche Canada, 1Globe Health Institute, Repare Therapeutics, Nubiyota
+
+Jonathan M. Loree
+
+Consulting or Advisory Role: Taiho Pharmaceutical, Ipsen, Novartis, Bayer, Amgen, Eisai, Pfizer
+
+Research Funding: Ipsen (Inst), Amgen (Inst)
+
+No other potential conflicts of interest were reported.
+
+## REFERENCES
+1. 1.LoreeJM DowersA TuD : Expanded low allele frequency RAS and BRAF V600E testing in metastatic colorectal cancer as predictive biomarkers for cetuximab in the randomized CO.17 trial. Clin Cancer Res 27:52-59, 20213308733010.1158/1078-0432.CCR-20-2710PMC7785657
+2. 2.AmadoRG WolfM PeetersM : Wild-type KRAS is required for panitumumab efficacy in patients with metastatic colorectal cancer. J Clin Oncol 26:1626-1634, 20081831679110.1200/JCO.2007.14.7116
+3. 3.ArnoldD LuezaB DouillardJ-YY : Prognostic and predictive value of primary tumour side in patients with RAS wild-type metastatic colorectal cancer treated with chemotherapy and EGFR directed antibodies in six randomized trials. Ann Oncol 28:1713-1729, 20172840711010.1093/annonc/mdx175PMC6246616
+4. 4.LoreeJM PereiraAAL LamM : Classifying colorectal cancer by tumor location rather than sidedness highlights a continuum in mutation profiles and consensus molecular subtypes. Clin Cancer Res 24:1062-1072, 20182918060410.1158/1078-0432.CCR-17-2484PMC5844818
+5. 5.HolchJW RicardI StintzingS : The relevance of primary tumour location in patients with metastatic colorectal cancer: A meta-analysis of first-line clinical trials. Eur J Cancer 70:87-98, 20172790785210.1016/j.ejca.2016.10.007
+6. 6.MorelliMP OvermanMJ DasariA : Characterizing the patterns of clonal selection in circulating tumor DNA from patients with colorectal cancer refractory to anti-EGFR treatment. Ann Oncol 26:731-736, 20152562844510.1093/annonc/mdv005PMC4374387
+7. 7.ParseghianCM NapolitanoS LoreeJM : Mechanisms of innate and acquired resistance to anti-EGFR therapy: A review of current knowledge with a focus on rechallenge therapies. Clin Cancer Res 25:6899-6908, 20193126302910.1158/1078-0432.CCR-19-0823PMC6891150
+8. 8.PietrantonioF VernieriC SiravegnaG : Heterogeneity of acquired resistance to anti-EGFR monoclonal antibodies in patients with metastatic colorectal cancer. Clin Cancer Res 23:2414-2422, 20172778085610.1158/1078-0432.CCR-16-1863
+9. 9.Van EmburghBO ArenaS SiravegnaG : Acquired RAS or EGFR mutations and duration of response to EGFR blockade in colorectal cancer. Nat Commun 7:13665, 20162792906410.1038/ncomms13665PMC5155160
+10. 10.SiravegnaG MussolinB BuscarinoM : Clonal evolution and resistance to EGFR blockade in the blood of colorectal cancer patients. Nat Med 21:795-801, 20152603017910.1038/nm.3870PMC4868598
+11. 11.CliftonK RichTA ParseghianC : Identification of actionable fusions as an anti-EGFR resistance mechanism using a circulating tumor DNA assay. JCO Precis Oncol 3:1-15, 201910.1200/PO.19.00141PMC752669933015522
+12. 12.ParseghianCM LoreeJM MorrisVK : Anti-EGFR resistant clones decay exponentially after progression: Implications for anti-EGFR Re-challenge. Ann Oncol 30:243-249, 20193046216010.1093/annonc/mdy509PMC6657008
+13. 13.KhanKH CunninghamD WernerB : Longitudinal liquid biopsy and mathematical modeling of clonal evolution forecast time to treatment failure in the PROSPECT-C phase II colorectal cancer clinical trial. Cancer Discov 8:1270-1285, 20183016634810.1158/2159-8290.CD-17-0891PMC6380469
+14. 14.CremoliniC RossiniD Dell’AquilaE : Rechallenge for patients with RAS and BRAF wild-type metastatic colorectal cancer with acquired resistance to first-line cetuximab and irinotecan. JAMA Oncol 5:343-350, 20193047696810.1001/jamaoncol.2018.5080PMC6439839
+15. 15.Sartore-BianchiA PietrantonioF LonardiS : Phase II study of anti-EGFR rechallenge therapy with panitumumab driven by circulating tumor DNA molecular selection in metastatic colorectal cancer: The CHRONOS trial. J Clin Oncol 39:3506, 202134270348
+16. 16.MartinelliE MartiniG FamigliettiV : Cetuximab rechallenge plus avelumab in pretreated patients with RAS wild-type metastatic colorectal cancer: The phase 2 single-arm clinical CAVE trial. JAMA Oncol 7:1529-1535, 20213438299810.1001/jamaoncol.2021.2915PMC8531995
+17. 17.WoolstonA KhanK SpainG : Genomic and transcriptomic determinants of therapy resistance and immune landscape evolution during anti-EGFR treatment in colorectal cancer. bioRxiv:448076, 2018. https://www.biorxiv.org/content/early/2018/10/19/448076.article-metrics10.1016/j.ccell.2019.05.013PMC661739231287991
+18. 18.HoborS Van EmburghBO CrowleyE : TGFα and amphiregulin paracrine network promotes resistance to EGFR blockade in colorectal cancer cells. Clin Cancer Res 20:6429-6438, 20142491670010.1158/1078-0432.CCR-14-0774
+19. 19.ChenEX JonkerDJ LoreeJM : Effect of combined immune checkpoint inhibition vs best supportive care alone in patients with advanced colorectal cancer: The Canadian Cancer Trials Group CO.26 study. JAMA Oncol 6:831-838, 20203237928010.1001/jamaoncol.2020.0910PMC7206536
+20. 20.MerinoDM McShaneLM FabrizioD : Establishing guidelines to harmonize tumor mutational burden (TMB): In silico assessment of variation in TMB quantification across diagnostic platforms: Phase I of the Friends of Cancer Research TMB Harmonization Project. J Immunother Cancer 8:e000147, 20203221775610.1136/jitc-2019-000147PMC7174078
+21. 21.HelmanE ArtieriC VowlesJV : Analytical validation of a comprehensive 500-gene ctDNA panel designed for immuno-oncology and DNA damage research. Cancer Res 78, 2018 (abstr 5603)
+22. 22.SiH KuzioraM QuinnKJ : A blood-based assay for assessment of tumor mutational burden in first-line metastatic NSCLC treatment: Results from the MYSTIC study. Clin Cancer Res 27:1631-1640, 20213335520010.1158/1078-0432.CCR-20-3771
+23. 23.ZNF217—Zinc finger protein 217—Homo sapiens (Human)—ZNF217 gene & protein. https://www.uniprot.org/uniprot/O75362
+24. 24.PIK3CG—Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit gamma isoform—Homo sapiens (Human)—PIK3CG gene & protein. https://www.uniprot.org/uniprot/P48736
+25. 25.BraySM LeeJ KimST : Genomic characterization of intrinsic and acquired resistance to cetuximab in colorectal cancer patients. Sci Rep 9:15365, 20193165397010.1038/s41598-019-51981-5PMC6814827
+26. 26.MAP2K1—Mitogen-activated protein kinase kinase 1—Homo sapiens (Human)—MAP2K1 gene & protein. https://www.uniprot.org/uniprot/A4QPA9
+27. 27.ParikhAR LeshchinerI ElaginaL : Liquid versus tissue biopsy for detecting acquired resistance and tumor heterogeneity in gastrointestinal cancers. Nat Med 25:1415-1421, 20193150160910.1038/s41591-019-0561-9PMC6741444
+28. 28.WangZ SunP GaoC : Down-regulation of LRP1B in colon cancer promoted the growth and migration of cancer cells. Exp Cell Res 357:1-8, 20172840831610.1016/j.yexcr.2017.04.010
+29. 29.RussoM CrisafulliG SogariA : Adaptive mutability of colorectal cancers in response to targeted therapies. Science:1-14, 4474201910.1126/science.aav447431699882

@@ -1,0 +1,160 @@
+# Somatic mutation profiling and HER2 status in KRAS-positive Chinese colorectal cancer patients
+
+Authors: Zhouhuan Dong, Linghong Kong, Zhiyi Wan, Fengwei Zhu, Mei Zhong, Yali Lv, Po Zhao, Huaiyin Shi
+
+Journal: Scientific Reports
+
+PMCID: PMC6858340
+
+PMID: 31729406
+
+DOI: 10.1038/s41598-019-53039-y
+
+Canonical source: https://pmc.ncbi.nlm.nih.gov/articles/PMC6858340/
+
+## Abstract
+
+KRAS is an independent negative predictor for anti-epidermal growth factor receptor (anti-EGFR) treatment in colorectal cancers (CRCs). However, 30% to 50% of CRC patients are KRAS-positive and do not benefit from anti-EGFR therapy. In this study, we investigated the mutational features and clinical significance of KRAS-positive Chinese CRC patients. A total of 139 Chinese CRC patients who received clinical KRAS testing (Sanger sequencing) were examined by immunohistochemistry (IHC) and fluorescence in situ hybridization (FISH). Fifty KRAS-positive specimens were further detected by next-generation sequencing (NGS). The most prevalent mutation in KRAS was G12D (46%), followed by G12V (20%), and G13D (18%). In addition to KRAS, 72 unique alterations in another 12 genes were also detected. The most common mutated genes were TP53 (62%), APC (46%), and PIK3CA (22%). The proportion of HER2 amplifications in KRAS-positive CRC patients was 4.4%, which was lower than that in KRAS -negative CRC patients (14.3%). No relationship was found between HER2 amplification and KRAS status (p = 0.052). However, the odds ratio is very low (0.279). In addition, these gene mutations were not significantly associated with age, sex, tumor size, lymph node metastasis, mismatch repair–deficient, or tumor differentiation. However, TP53 mutations were more prevalent in colon cancer with KRAS mutations than in rectal cancer (75.0% vs 28.6%, respectively, p = 0.004). The negative predictive value of the IHC analysis for predicting HER2 amplification reached to 98.39%, while the positive predictive value reached only 50%. Overall, the mutation profiling of Chinese CRC patients with KRAS mutations is different from that of Western CRC patients. Our results will help us to understand the molecular features of Chinese CRC patients.
+
+## Full article
+
+## Introduction
+
+In 2018, colorectal cancer (CRC) was the third most common malignancy worldwide1. In China, CRC was the fourth most commonly diagnosed cancer and the fifth leading cause of cancer-related death in 20152. In addition, the incidence of CRC steadily increased from 2000 to 20133.
+
+The pathogenesis of CRC is influenced by the local colonic environment and the individual’s genetic background. A large number of cancer-relevant genes with specific clinical significance have been identified, such as epidermal growth factor receptor (EGFR), KRAS, ERBB2, BRAF, and PIK3CA4. The EGFR pathway, which is activated by mutations in KRAS, NRAS, BRAF, and PIK3CA, plays a crucial role in the regulation of cell proliferation, apoptosis, and angiogenesis in CRC4. Therefore, mutations in KRAS, NRAS, BRAF, and PIK3CA are important predictive and prognostic markers for anti-EGFR therapy5–7. Current guidelines have recommended that the mutation status of KRAS, NRAS, and BRAF should be tested when considering anti-EGFR treatment8–10. However, a rapidly growing list of genes should be examined for improving CRC management, such as human epidermal growth factor receptor 2 (ERBB2) and ERBB3.
+
+ERBB2, also known as HER2, encodes a transmembrane receptor tyrosine kinase11. It is a target for patients with breast cancer or gastric cancer12,13. In CRC, HER2 overexpression and amplification have also been used as potential therapeutic targets14–16. In addition, HER2 overexpression will cause resistance to anti-EGFR therapy17. Although a few studies have reported the incidence rate of HER2 overexpression or amplification in CRC, it varies considerably, ranging from 0% to 83%18–22. Moreover, HER2 status in Chinese CRC has not yet been fully studied.
+
+The relationship between KRAS and HER2 status also remains to be elucidated. One report showed that KRAS mutations and HER2 amplification were mutually exclusive22, while another study showed no relationship between HER2 amplification and KRAS mutations18. Thus, anti-HER2 therapy, like trastuzumab, may be a possible treatment option for CRCs with KRAS mutations18.
+
+HER2 overexpression is usually detected by the immunohistochemistry (IHC) analysis of HER2 protein or the fluorescence in situ hybridization (FISH) analysis of gene amplification. Although several IHC scoring systems of HER2 for CRC have been provided23,24, there is currently no broad consensus on the diagnostic criteria. Moreover, the concordance between the results of IHC and FISH has yet to be verified.
+
+Therefore, we investigated the mutational features and clinical significance of KRAS-positive Chinese CRCs by next-generation sequencing (NGS), IHC, and FISH. We further explored the relationship between KRAS and HER2 and the concordance between the results of IHC and FISH for HER2 testing in CRCs.
+
+## Results
+
+### Mutational spectrum of Chinese CRC patients with KRAS mutations
+
+Based on the results of KRAS by Sanger sequencing, fifty KRAS-positive specimens were further detected by NGS using SGI OncoAim™DNA panel (Singlera Genomics, Shanghai, China), an amplification-based enrichment method that covers more than 6000 known hotspots, yielding a median depth of 816× and a median uniformity of 95.25%. According to the quality control standards, all these specimens produced qualified sequencing data. All 50 samples harbored a mutation in exon 2 of the KRAS gene, in accordance with the results of Sanger sequencing. The most prevalent mutation in KRAS was G12D (46%), followed by G12V (20%) and G13D (18%) (Fig. 1a).Figure 1Mutational landscape of 50 KRAS-positive Chinese colorectal cancer (CRC) patients and Western patients. (a) Proportions of KRAS mutation subtypes. The data of Western patients were obtained from TCGA-COAD and TCGA- READ (n = 209). G12D, OR = 2.208, 95% confidence intervals (CI) = 1.157–4.214, p = 0.025. (b) Distribution of somatic mutated genes other than KRAS. The data of Western patients with KRAS mutations were obtained from the TCGA PanCancer Atlas (n = 218). APC, OR = 0.168, 95% CI = 0.087–0.326, p = 0.000; PIK3CA, OR = 0.459, 95% CI = 0.223–0.945, p = 0.033; FBXM7, OR = 0.180, 95% CI = 0.042–0.77, p = 0.009. Statistically significant differences were analyzed by Fisher’s exact test; *P < 0.05, **P < 0.01.
+
+In addition to KRAS mutation, at least one other alteration was detected in 48 patients (96%). A total of 72 unique alterations in 12 other genes were identified, averaging 1.44 alterations per sample (range, 0–5). Most patients harbored 1–3 mutations, while only one patient harbored 5 concomitant mutations. In addition to KRAS, the mutated genes with a frequency ≥5% were TP53 (62%), APC (46%), PIK3CA (22%), SMAD4 (14%), and ERBB3 (6%) (Fig. 1b). The distribution of all gene mutations in all patients is shown in Table S2. In addition, no mutation (SNVs or InDels) was detected in NRAS, HRAS, BRAF, or ERBB2. Some hotspot mutations were detected, such as R1450* and T1556fs*3 in APC, and R361C/H in SMAD4. These mutations were all observed in 10% (5/50) patients. The HER2 status of these 50 KRAS-positive specimens was assessed using IHC and FISH. However, HER2 amplification was not detected.
+
+Finally, we compared somatic mutation profiling in Chinese CRCs with KRAS mutations to that in Western CRCs with KRAS mutations. For analysis of KRAS mutation subtypes, the data on Western CRC patients were obtained from the TCGA-COAD and TCGA- READ (https://portal.gdc.cancer.gov/exploration). There are currently 209 CRCs with KRAS mutations, which include 176 colon adenocarcinomas and 33 rectal adenocarcinomas. The specific types of KRAS mutations in Chinese patients were slightly different from those in Western patients (Fig. 1a). The proportion of G12D in Chinese CRC patients with KRAS mutations was significantly higher than that in Western CRC patients (Fig. 1a, Fisher’s exact test, OR = 2.208, 95% CI = 1.157–4.214, p = 0.025). For comparative analysis of somatic mutation spectrum, according to the TCGA PanCancer Atlas (http://www.cbioportal.org/study/summary?id = coadread_tcga_pan_can_atlas_2018), the molecular spectrum of 218 CRC patients with KRAS mutations was available. The mutation profiling of Chinese CRC patients with KRAS mutations was also different from that of Western CRC patients (Fig. 1b). The mutation frequencies of APC, PIK3CA, and FBXW7 in Chinese CRC patients with KRAS mutations were significantly lower than that in Western CRC patients with KRAS mutations (Fig. 1b, Fisher’s exact test).
+
+### Correlation of gene mutations with clinicopathological features
+
+In these samples, the prevalence of CRC was higher in males (n = 30) than in females (n = 20). The locations of the primary tumors included the left side of the colon (n = 16), the right side of the colon (n = 14), the transverse colon (n = 3), the rectosigmoid colon (n = 3), and the rectum (n = 14). In addition to KRAS mutation, a summary of the relationships among the mutated genes with a frequency ≥10% and various clinicopathological features is shown in Table 1 and Fig. 2. No significant relationship was observed between these four mutated genes and age, gender, tumor size, tumor differentiation, mismatch repair–deficient (dMMR), or lymph node metastasis. However, TP53 mutations were significantly more prevalent in tumors in the colon than in tumors in the rectum (27/36, 75% vs 4/14, 28.57%, respectively; p = 0.004, Table 1).Table 1Correlation between the mutated genes with frequency ≥10% and clinicopathological parameters in KRAS-positive CRC patients.Clinicopathological featuresnumberTP53p valueAPCp valuePIK3CAp valueSMAD4p valueGender Male30191.000130.77480.48950.687 Female20121032Age (years) ≥5046300.147200.322101.00071.000 <5041310Tumor site Colon36270.004150.36181.00040.384 Rectum144833Differentiation Well/Moderate1271.00030.18631.00021.000 Poor38232085Lymph node metastasis Positive33210.767151.00080.72840.677 Negative1710833Tumor size ≤3 cm1170.55170.30440.40320.200 3~5 cm2517945 >5 cm147730KRAS mutation G1241280.067191.000110.17770.325 G1393400dMMR/pMMR pMMR44290.184190.395101.00070.576 dMMR62410Abbreviations: dMMR = mismatch-repair deficiency; pMMR = mismatch repair–proficient.Figure 2Tumor site distribution of TP53, APC, PIK3CA, and SMAD4.
+
+### Relationship between HER2 and KRAS status
+
+To further assess the consistency of IHC and FISH for HER2, another 89 unselected colorectal cancer patients were enrolled and analyzed. The results are shown in Table S3. IHC 0/1+ was found in 62 of 139 patients (44.60%), IHC 2+ was found in 69 patients (49.64%), and IHC 3+ was found in 8 patients (5.76%). Representative images of IHC and FISH analyses are shown in Fig. S1. In comparison with the FISH results, the positive and negative predictive values of the IHC analysis for predicting HER2 amplification were 50.00% and 98.39%, respectively. In addition, of 69 samples with equivocal IHC results, only 6 (8.70%) were confirmed as harboring HER2 amplification by FISH.
+
+To assess the relationship between HER2 and KRAS status, a Fisher’s exact test was performed on these 139 CRCs. No significant relationship was found between HER2 amplification and KRAS status (OR = 0.279, 95% CI = 0.077–1.006, p = 0.052, Table 2).Table 2Comparison of HER2 and KRAS status in 139 primary CRC patients.KRAS+KRAS−Odds Ratio (95% CI)PHER2 FISH+470.279 (0.077–1.006)0.052HER2 FISH−8642Abbreviations: CI = confidence interval.
+
+## Discussion
+
+After the comprehensive molecular characterization of colorectal cancer was reported by the TCGA22, an increasing amount of data have accumulated rapidly in different genetic or clinical backgrounds25–28. Molecular testing has become increasingly significant for the treatment of CRCs. Mutations in genes such as KRAS, NRAS, and BRAF have become important negative predictive markers for EGFR-targeted therapies5,6,9. However, 30% to 50% of CRC patients were KRAS positive22,25–27, which suggests that a considerable number of patients do not benefit from anti-EGFR therapy29. Therefore, it is particularly necessary to understand the genetic profiling of patients with KRAS mutations for their prediction and prognosis. In this study, 50 KRAS-positive Chinese CRCs and 89 additional unselected Chinese CRCs were examined by NGS, IHC, and FISH. The correlations of these genetic mutations with clinicopathological features were also assessed.
+
+All 50 KRAS-positive samples (Sanger sequencing) were also positively detected by NGS, showing that the NGS method used in this study is highly accurate. No mutation was detected in NRAS, HRAS, or BRAF, consistent with the report that the genes in the RAS family are mutually exclusive22. In addition to KRAS, TP53 was the most frequently mutated gene (62%), consistent with published data22,26, followed by APC (46%), PIK3CA (22%), SMAD4 (14%), and ERBB3 (6%). In addition, there was a higher co-mutation rate of KRAS and TP53 in colon cancer than in rectal cancer.
+
+APC, as a gatekeeper gene in CRC, is mutated in 50%-80% of unselected CRC patients in Western countries22,30,31. Based on the data from the TCGA PanCancer Atlas, the frequency of APC mutations was 83.5% in KRAS-positive CRC patients, which was significantly higher than that in our study. However, considering the influence of factors such as the small sample size and the different sequencing technology, this difference needs further verification. For example, APC mutations are more difficult to detect in a hotspot panel for this cohort compared to the entire exonic sequence for the TCGA.
+
+During the last decade, HER2 has been investigated as a therapeutic target in metastatic colorectal cancer (mCRC) in several small studies15,16. Although the results of MyPathway indicated that patients with HER2-amplified, KRAS-mutant tumors were not sensitive to anti-HER2 therapy, this finding is more likely due to the lower HER2 copy numbers in these patients32. The incidence of HER2 amplification and/or protein overexpression ranges from 1% to 6% in the unselected population32–34, which is lower than that in patients with breast cancer (~25%) or gastric cancer (13–22%)35,36. In our study, HER2 amplification was observed in 4.4% of CRC patients with KRAS mutations (n = 90), which is in accordance with previous reports18,32. Although the incidence of HER2 amplification in KRAS negative CRCs reached up to 14.3%, there was no statistical significance between HER2 amplification and KRAS status (p = 0.052). This result is also consistent with the earlier report18. However, the OR is very low (0.279), and the p-value is right at the cut-off point. There is also a previous report for KRAS being mutually exclusive with HER2 amplification37. Therefore, we speculated that there is reduced likelihood of having a HER2 amplification event in CRCs with KRAS mutations.
+
+HER2 overexpression is usually detected by the IHC analysis of the HER2 protein or the FISH analysis of gene amplification. The results of these two methods are usually consistent in breast and gastric cancers11,14. However, the consistency of these two methods in CRCs is unknown, which is partly because that the criteria for HER2-positivity in CRCs has not yet reached a broad consensus, although some pathologists believe that the criteria for HER2-positivity in CRC should differ from that in breast or gastric cancer14. In this study, as in the previous report32, the scoring was performed according to the guidelines of HER2 testing in gastric cancer24. In comparison with the FISH results, the negative predictive value of the IHC analysis for predicting HER2 amplification reached 98.39%, while the positive predictive value reached only 50%. In addition, for 69 samples with an IHC score of 2, only 6 (8.70%) harbored HER2 amplification confirmed by FISH. These two ratios were significantly lower than those in breast or gastric cancer. This difference may be explained by the criteria used for HER2-positivity in gastric cancer, which is not particularly suitable for the assessment of HER2 scoring in CRC. More data are needed to correct the IHC testing guidelines for HER2 in CRC.
+
+In the study reported by Park et al.38, only 7.4% (2/27) CRC with HER2 IHC scores of 3+ were HER2 amplification. However, in the report described by Wang et al.39, 11.8% (12/102) of CRCs with HER2 IHC scores of 2+ and in 82.8% (24/29) of CRCs with HER2 IHC scores of 3+ were identified as HER2 amplification. One explanation for these differences may be that antibodies used for IHC or positive criteria for FISH varied among research groups. In the study reported by Park et al.38, the IHC staining was performed using a polyclonal antibody of uncertain reliability, which may produce more HER2 IHC scores of 3+. In the study reported by Wang et al.39, the positive criteria for HER2 amplification was defined as a HER2/CEP17 ratio of ≥2.0. While, HER2 amplification was defined as a HER2/CEP17 ratio of ≥2.2 in our study.
+
+In conclusion, we described a mutational profile of Chinese CRCs with KRAS mutations by multiple genes and performed an exploratory analysis to make clinical correlations. The mutation profiling of Chinese CRC patients with KRAS mutations is maybe different from that of Western CRC patients. We also assessed the consistency of IHC and FISH analyses for HER2 in CRCs. These findings will help us understand the molecular subtypes of Chinese CRCs and refine management decisions for individual patients. However, the reference values of mutation frequencies of different genes were limited due to the small number of samples and mutation-detecting method. More CRC samples are needed for comprehensive genetic testing.
+
+## Methods
+
+### Clinical patients and specimens
+
+We retrospectively investigated 139 CRC patients who received clinical KRAS testing (Sanger sequencing) at the Chinese PLA General Hospital (Beijing, China) between May 2015 and October 2017. Sections from formalin-fixed paraffin-embedded (FFPE) tissue samples were stained with hematoxylin–eosin and examined by experienced pathologists to ensure a tumor content ≥20%. All 139 specimens were detected by IHC and FISH, while 50 KRAS-positive specimens were further detected by NGS. This study was conducted with the approval of the Ethics Committee of the Chinese PLA General Hospital, and informed consent was obtained from all patients. The methods were carried out in accordance with approved guidelines.
+
+### DNA extraction
+
+DNA was extracted using a QIAamp DNA FFPE Tissue Kit (Qiagen, Hilden, Germany) according to the manufacturer’s protocol. The quantity and quality of the isolated DNA were tested using a Qubit 3.0 fluorimeter (Life Technologies, Eugene, Oregon, USA).
+
+### Sanger sequencing
+
+Primers were designed to amplify exon 2 of the KRAS gene to investigate the mutational status of codons 12 and 13. The forward and reverse oligonucleotide primers were: 5′- ATTACGATACACGTCTGCAGTCAACTG-3′ and 5′-CAATTTAAACCCACCTATA ATGGT-3′, respectively. Purified PCR products were sequenced on an ABI 3730xL sequencer using a BigDye Terminator v3.1 Sequencing Kit (Applied Biosystems, Waltham, MA, USA) according to the manufacturer’s protocol.
+
+### NGS analysis
+
+DNA libraries and sequencing were performed using an SGI OncoAim™DNA Kit (Singlera Genomics, Shanghai, China) according to the manufacturer’s protocol25. The SGI OncoAim™ DNA Panel covers more than 6000 hotspots (single nucleotide variants (SNVs) and short insertions and deletions (InDels)) in 59 genes (Table S1). Next, 150 bp paired-end sequencing was performed on the Illumina MiSeq (Illumina, Hayward, CA, USA). Bioinformatics analysis of NGS sequencing data was performed according to the pipeline of the SGI OncoAim™ DNA Kit. Sequencing data with a minimum median read depth of 500× and a minimum uniformity of 80% were considered qualified. Mutations with a mutation allele frequency (MAF) ≥5% were reported.
+
+### IHC analysis
+
+Sections of FFPE tissue (4 um thick) were obtained. HER2 immunostaining was performed using a PATHWAY anti-HER2/neu (4B5; rabbit monoclonal; predilution; Ventana Medical Systems, Tucson, AZ, USA) antibody and an ultraView Universal DAB Kit (Ventana Medical Systems) on an automatic immunostainer (BenchMark XT, Ventana Medical Systems), according to the manufacturer’s instructions. HER2 immunoreactivity was evaluated by two pathologists according to the scoring system described by Josef Ru¨ schoff et al.24 as follows: 0, no reactivity or membrane staining in <10% of tumor cells; 1+, faint/barely perceptible membranous reactivity in ≥10% of tumor cells; 2+, weak-to-moderate complete, basolateral, or lateral membranous reactivity in ≥10% of tumor cells; and 3+, strong basolateral, or lateral membranous reactivity in ≥10% of tumor cells.
+
+### FISH analysis
+
+FISH analysis was performed using the PathVysion HER2 DNA Probe Kit (Abbott Molecular Inc, Des Plaines, IL, USA), according to the manufacturer’s protocols. FISH signal assessment was performed by visual counting using an epifluorescence microscope (BX53F; Olympus, Tokyo, Japan). At least 50 tumor cells per case with a minimum of one signal for the HER2 gene and centromere 17 were randomly selected, and the mean HER2 and centromere 17 count was calculated. Amplification was defined as a HER2/CEP17 ratio of ≥2.2 in 20 tumor nuclei. The equivocal cases (ratio: 1.8 to 2.2) were recounted in at least 20 nonoverlapping nuclei of different tumor cells at a second target area, and a new HER2/CEP17 ratio was recalculated.
+
+### Statistical analysis
+
+Statistical analysis was carried out with SPSS 19.0 statistical software (SPSS, Inc., Chicago, IL, USA). The Fisher’s exact test was used to compare the rates among groups with different features. Odds ratios (OR) and their 95% confidence intervals (CI) were calculated. Statistical tests were two-sided, and p < 0.05 was considered significant.
+
+## Supplementary information
+
+### Section
+
+Somatic mutation profiling and HER2 status in KRAS-positive Chinese colorectal cancer patients
+
+Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+
+These authors contributed equally: Zhouhuan Dong and Linghong Kong.
+
+## Supplementary information
+
+is available for this paper at 10.1038/s41598-019-53039-y.
+
+D.Z., K.L., W.Z., Z.F. and Z.M. performed the research. D.Z., K.L. and W.Z. designed the research and the experiments and analyzed the data. Z.F., Z.M. and Z.P. provided samples and discussed the results. L.Y. and S.H. supervised the research. D.Z. and K.L. wrote the manuscript. S.H. review and edit the manuscript. All authors read and approved the final manuscript.
+
+All data generated or analyzed during this study are included in this published article and its supplementary information files.
+
+The authors declare no competing interests.
+
+## References
+1. 1.BrayFGlobal cancer statistics 2018: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countriesCa: A Cancer Journal for Clinicians2018683944243020759310.3322/caac.21492
+2. 2.ChenWCancer statistics in China, 2015Ca: A Cancer Journal for Clinicians2016661151322680834210.3322/caac.21338
+3. 3.ChenWCancer incidence and mortality in China, 2013Cancer Letters2017401637110.1016/j.canlet.2017.04.02428476483
+4. 4.BergMSoreideKEGFR and downstream genetic alterations in KRAS/BRAF and PI3K/AKT pathways in colorectal cancer: implications for targeted therapyDiscovery Medicine20121420721423021375
+5. 5.GattenlohnerSGermerCMuller-HermelinkHKK-ras mutations and cetuximab in colorectal cancerThe New England Journal of Medicine200936083519238678
+6. 6.De RoockWEffects of KRAS, BRAF, NRAS, and PIK3CA mutations on the efficacy of cetuximab plus chemotherapy in chemotherapy-refractory metastatic colorectal cancer: a retrospective consortium analysisThe Lancet. Oncology20101175376210.1016/S1470-2045(10)70130-320619739
+7. 7.Sartore-BianchiAPIK3CA mutations in colorectal cancer are associated with clinical resistance to EGFR-targeted monoclonal antibodiesCancer Research2009691851185710.1158/0008-5472.CAN-08-246619223544
+8. 8.Van CutsemEESMO consensus guidelines for the management of patients with metastatic colorectal cancerAnnals of Oncology2016271386142210.1093/annonc/mdw23527380959
+9. 9.BensonABColon Cancer, Version 1.2017, NCCN Clinical Practice Guidelines in OncologyJournal of the National Comprehensive Cancer Network20171537039810.6004/jnccn.2017.003628275037
+10. 10.BensonABRectal Cancer, Version 2.2018, NCCN Clinical Practice Guidelines in OncologyJournal of the National Comprehensive Cancer Network20181687490110.6004/jnccn.2018.006130006429PMC10203817
+11. 11.PyoJSSohnJHKimWHConcordance rate between HER2 immunohistochemistry and in situ hybridization in gastric carcinoma: systematic review and meta-analysisThe International Journal of Biological Markers201631e11010.5301/jbm.500017126349670
+12. 12.PaikSPathologic findings from the National Surgical Adjuvant Breast and Bowel Project: prognostic significance of erbB-2 protein overexpression in primary breast cancerJournal of Clinical Oncology1990810311210.1200/JCO.1990.8.1.1031967301
+13. 13.BangYJTrastuzumab in combination with chemotherapy versus chemotherapy alone for treatment of HER2-positive advanced gastric or gastro-oesophageal junction cancer (ToGA): a phase 3, open-label, randomised controlled trialLancet201037668769710.1016/S0140-6736(10)61121-X20728210
+14. 14.GreallyMKellyCMCercekAHER2: An emerging target in colorectal cancerCurrent Problems in Cancer20184256057110.1016/j.currproblcancer.2018.07.00130100092
+15. 15.Sartore-BianchiADual-targeted therapy with trastuzumab and lapatinib in treatment-refractory, KRAS codon 12/13 wild-type, HER2-positive metastatic colorectal cancer (HERACLES): a proof-of-concept, multicentre, open-label, phase 2 trialThe Lancet Oncology20161773874610.1016/S1470-2045(16)00150-927108243
+16. 16.RichmanSDHER2 overexpression and amplification as a potential therapeutic target in colorectal cancer: analysis of 3256 patients enrolled in the QUASAR, FOCUS and PICCOLO colorectal cancer trialsThe Journal of Pathology201623856257010.1002/path.467926690310PMC4785607
+17. 17.YonesakaKActivation of ERBB2 signaling causes resistance to the EGFR-directed therapeutic antibody cetuximabScience Translational Medicine2011399ra8610.1126/scitranslmed.3002442PMC326867521900593
+18. 18.LeeW-SComparison of HER2 expression between primary colorectal cancer and their corresponding metastasesCancer Medicine2014367468010.1002/cam4.22824668895PMC4101759
+19. 19.SchuellBGruenbergerTScheithauerWZielinskiCWrbaFHER 2/neu protein expression in colorectal cancerBMC Cancer2006612310.1186/1471-2407-6-12316681853PMC1475876
+20. 20.RossJSMcKennaBJThe HER-2/neu oncogene in tumors of the gastrointestinal tractCancer Investigation20011955456810.1081/CNV-10010385211458821
+21. 21.ConradiLCFrequency of HER-2 positivity in rectal cancer and prognosisThe American Journal of Surgical Pathology20133752253110.1097/PAS.0b013e318272ff4d23282976
+22. 22.The Cancer Genome AtlasNComprehensive molecular characterization of human colon and rectal cancerNature201248733010.1038/nature1125222810696PMC3401966
+23. 23.ValtortaEAssessment of a HER2 scoring system for colorectal cancer: results from a validation studyModern Pathology2015281481149110.1038/modpathol.2015.9826449765
+24. 24.RuschoffJHER2 testing in gastric cancer: a practical approachModern Pathology20122563765010.1038/modpathol.2011.19822222640
+25. 25.WangYPerformance validation of an amplicon-based targeted next-generation sequencing assay and mutation profiling of 648 Chinese colorectal cancer patientsVirchows Archiv2018911010.1007/s00428-018-2359-429705968
+26. 26.ChangYSChangSJYehKTLinTHChangJGRAS, BRAF, and TP53 gene mutations in Taiwanese colorectal cancer patientsOnkologie2013367197242435656310.1159/000356814
+27. 27.ZhangJMolecular spectrum of KRAS, NRAS, BRAF and PIK3CA mutations in Chinese colorectal cancer patients: analysis of 1,110 casesScientific Reports201551867810.1038/srep1867826691448PMC4687048
+28. 28.ChiuJWMolecular Profiling of Patients With Advanced Colorectal Cancer: Princess Margaret Cancer Centre ExperienceClinical Colorectal Cancer201817737910.1016/j.clcc.2017.10.01029128266
+29. 29.LinardouHAssessment of somatic k-RAS mutations as a mechanism associated with resistance to EGFR-targeted agents: a systematic review and meta-analysis of studies in advanced non-small-cell lung cancer and metastatic colorectal cancerThe Lancet. Oncology2008996297210.1016/S1470-2045(08)70206-718804418
+30. 30.LaurentpuigPBéroudCSoussiTAPC gene: database of germline and somatic mutations in human tumors and cell linesNucleic Acids Research19982626927010.1093/nar/26.1.2699399850PMC147178
+31. 31.CarethersJMJungBHGenetics and Genetic Biomarkers in Sporadic Colorectal CancerGastroenterology201514911771190.e117310.1053/j.gastro.2015.06.04726216840PMC4589489
+32. 32.SeoANHER2 status in colorectal cancer: its clinical significance and the relationship between HER2 gene amplification and expressionPloS One20149e9852810.1371/journal.pone.009852824879338PMC4039475
+33. 33.MarxAHHeterogenous high-level HER-2 amplification in a small subset of colorectal cancersHuman Pathology2010411577158510.1016/j.humpath.2010.02.01820656317
+34. 34.KavuriSMHER2 Activating Mutations Are Targets for Colorectal Cancer TreatmentCancer Discovery2015583284110.1158/2159-8290.CD-14-121126243863PMC4527087
+35. 35.SlamonDJStudies of the HER-2/neu proto-oncogene in human breast and ovarian cancerScience198924470771210.1126/science.24701522470152
+36. 36.GravalosCJimenoAHER2 in gastric cancer: a new prognostic factor and a novel therapeutic targetAnnals of Oncology2008191523152910.1093/annonc/mdn16918441328
+37. 37.RossJSTargeting HER2 in colorectal cancer: The landscape of amplification and short variant mutations in ERBB2 and ERBB3Cancer20181241358137310.1002/cncr.3112529338072PMC5900732
+38. 38.ParkDIHER-2/neu overexpression is an independent prognostic factor in colorectal cancerInternational Journal of Colorectal Disease20072249149710.1007/s00384-006-0192-816947041
+39. 39.WangXYSignificance of HER2 protein expression and HER2 gene amplification in colorectal adenocarcinomasWorld Journal of Gastrointestinal Oncology20191133534710.4251/wjgo.v11.i4.33531040898PMC6475672

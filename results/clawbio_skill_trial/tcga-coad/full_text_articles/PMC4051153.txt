@@ -1,0 +1,387 @@
+# Analyses of clinicopathological, molecular, and prognostic associations of KRAS codon 61 and codon 146 mutations in colorectal cancer: cohort study and literature review
+
+Authors: Yu Imamura, Paul Lochhead, Mai Yamauchi, Aya Kuchiba, Zhi Rong Qian, Xiaoyun Liao, Reiko Nishihara, Seungyoun Jung, Kana Wu, Katsuhiko Nosho, Yaoyu E Wang, Shouyong Peng, Adam J Bass, Kevin M Haigis, Jeffrey A Meyerhardt, Andrew T Chan, Charles S Fuchs, Shuji Ogino
+
+Journal: Molecular Cancer
+
+PMCID: PMC4051153
+
+PMID: 24885062
+
+DOI: 10.1186/1476-4598-13-135
+
+Canonical source: https://pmc.ncbi.nlm.nih.gov/articles/PMC4051153/
+
+## Abstract
+
+## Background
+
+KRAS mutations in codons 12 and 13 are established predictive biomarkers for anti-EGFR therapy in colorectal cancer. Previous studies suggest that KRAS codon 61 and 146 mutations may also predict resistance to anti-EGFR therapy in colorectal cancer. However, clinicopathological, molecular, and prognostic features of colorectal carcinoma with KRAS codon 61 or 146 mutation remain unclear.
+
+## Methods
+
+We utilized a molecular pathological epidemiology database of 1267 colon and rectal cancers in the Nurse’s Health Study and the Health Professionals Follow-up Study. We examined KRAS mutations in codons 12, 13, 61 and 146 (assessed by pyrosequencing), in relation to clinicopathological features, and tumor molecular markers, including BRAF and PIK3CA mutations, CpG island methylator phenotype (CIMP), LINE-1 methylation, and microsatellite instability (MSI). Survival analyses were performed in 1067 BRAF-wild-type cancers to avoid confounding by BRAF mutation. Cox proportional hazards models were used to compute mortality hazard ratio, adjusting for potential confounders, including disease stage, PIK3CA mutation, CIMP, LINE-1 hypomethylation, and MSI.
+
+## Results
+
+KRAS codon 61 mutations were detected in 19 cases (1.5%), and codon 146 mutations in 40 cases (3.2%). Overall KRAS mutation prevalence in colorectal cancers was 40% (=505/1267). Of interest, compared to KRAS-wild-type, overall, KRAS-mutated cancers more frequently exhibited cecal location (24% vs. 12% in KRAS-wild-type; P < 0.0001), CIMP-low (49% vs. 32% in KRAS-wild-type; P < 0.0001), and PIK3CA mutations (24% vs. 11% in KRAS-wild-type; P < 0.0001). These trends were evident irrespective of mutated codon, though statistical power was limited for codon 61 mutants. Neither KRAS codon 61 nor codon 146 mutation was significantly associated with clinical outcome or prognosis in univariate or multivariate analysis [colorectal cancer-specific mortality hazard ratio (HR) = 0.81, 95% confidence interval (CI) = 0.29-2.26 for codon 61 mutation; colorectal cancer-specific mortality HR = 0.86, 95% CI = 0.42-1.78 for codon 146 mutation].
+
+## Conclusions
+
+Tumors with KRAS mutations in codons 61 and 146 account for an appreciable proportion (approximately 5%) of colorectal cancers, and their clinicopathological and molecular features appear generally similar to KRAS codon 12 or 13 mutated cancers. To further assess clinical utility of KRAS codon 61 and 146 testing, large-scale trials are warranted.
+
+## Full article
+
+## Introduction
+
+Use of Standardized Official Symbols: We use HUGO (Human Genome Organisation)-approved official symbols for genes and gene products, including BRAF; EGFR; KRAS; PIK3CA; all of which are described at http://www.genenames.org.
+
+Colorectal cancer represents a heterogeneous group of diseases, and its molecular classification is increasingly important. Colorectal cancers can be classified using mutations in oncogenes such as KRAS, BRAF and PIK3CA[1]. In addition, microsatellite instability (MSI) and epigenomic instability, such as the CpG island methylator phenotype (CIMP) and LINE-1 hypomethylation, have been associated with the oncogene mutations and clinical outcomes [1-4].
+
+Approximately 30-40% of colorectal cancers harbor KRAS mutations, typically in codon 12 or 13 [5-9]. Features of colorectal cancers with KRAS codon 12 and 13 mutations include associations with cecal location [5,8], low-level CIMP (CIMP-low) [10-14], and PIK3CA mutation [15-18]. KRAS codon 12 and 13 mutations are widely accepted as a predictive biomarker of lack of response to anti-EGFR therapy in metastatic colorectal cancer [19-23], though a few exploratory studies suggest that codon 13 mutants may benefit from EGFR-targeted therapy [24,25].
+
+KRAS codons 61 and 146 are additional hotspots for mutation in colorectal cancer, and data from a small number of studies suggest that KRAS mutation at these sites may predict resistance to anti-EGFR therapy [26-28]. Recently, Douillard et al., utilizing existing clinical trial data, reported that KRAS mutations in codons 61, 146, and 117, and mutations in NRAS, might identify patients with metastatic colorectal cancer who fail to derive benefit from panitumumab plus FOLFOX4 [29]. Despite growing clinical relevance, the clinicopathological and molecular features of colorectal cancers with KRAS codon 61 or 146 mutation remain largely unknown. It is of interest to examine the characteristics of colorectal cancers with KRAS mutations in codons 61 and 146, compared to those in codons 12 and 13, and KRAS-wild-type cases. In the near future, routine clinical testing of these additional KRAS codons may be warranted.
+
+We therefore investigated the clinicopathological, molecular, and prognostic characteristics of tumors harboring KRAS codon 61 and 146 mutations, utilizing a molecular pathological epidemiology [30,31] database of 1267 colorectal cancers from two U.S. nationwide prospective cohort studies. We also performed a comprehensive review on KRAS codon 61 and 146 mutations in colorectal cancer, and our curated literature data can be readily useful for public databases such as the COSMIC (Catalogue of Somatic Mutations in Cancer) database.
+
+## Results
+
+### KRAS codon 12, 13, 61 and 146 mutations, in relation to clinicopathological and molecular features
+
+We detected KRAS mutations in 505 (40%) cases in 1267 colorectal cancers (Table 1). Codon 12 mutations were present in 344 cases (27%), codon 13 mutations in 115 cases (9.1%), codon 61 mutations in 19 cases (1.5%), and codon 146 mutations in 40 cases (3.2%). There were 493 cases with KRAS mutations identified in only one of codons 12, 13, 61 and 146, and 12 cases with KRAS mutations identified in two or more of the four codons (Table 1).
+
+Frequencies of KRAS mutations in 1267 colorectal cancer cases
+Codon	Nucleotide change	Amino acid change	Codon change	No. of cases	Proportion among 1267 cases
+Any	Any	Any	Any	505	40%
+12	Any	Any	Any	344	27%
+13	Any	Any	Any	115	9.1%
+61	Any	Any	Any	19	1.5%
+146	Any	Any	Any	40	3.2%
+Mutations identified in only one of codons 12, 13, 61 and 146		
+12	c.34G>A	p.G12S	GGT>AGT	12	1.0%
+12	c.34G>C	p.G12R	GGT>CGT	7	0.6%
+12	c.34G>T	p.G12C	GGT>TGT	43	3.4%
+12	c.35G>A	p.G12D	GGT>GAT	157	12%
+12	c.35G>C	p.G12A	GGT>GCT	20	1.6%
+12	c.35G>T	p.G12V	GGT>GTT	93	7.3%
+12	c.35_36delinsCA	p.G12A	GGT>GCA	1	0.1%
+13	c.37G>C	p.G13R	GGC>CGC	1	0.1%
+13	c.37G>T	p.G13C	GGC>TGC	2	0.2%
+13	c.38G>A	p.G13D	GGC>GAC	103	8.1%
+13	c.38G>T	p.G13V	GGC>GTC	2	0.2%
+61	c.182A>G	p.Q61R	CAA>CGA	2	0.2%
+61	c.182A>T	p.Q61L	CAA>CTA	4	0.3%
+61	c.183A>C	p.Q61H	CAA>CAC	7	0.6%
+60, 61	c.180_181delinsAA	p.Q61K	GGT + CAA>GGA + AAA	4	0.3%
+146	c.436G>A	p.A146T	GCA>ACA	21	1.7%
+146	c.436G>C	p.A146P	GCA>CCA	3	0.2%
+146	c.437C>T	p.A146V	GCA>GTA	11	0.9%
+Mutations identified in two or more of codons 12, 13, 61 and 146		
+12, 13	c.35G>A, c.38G>A	p.G12D, p.G13D	GGT>GAT, GGC>GAC	4	0.3%
+12, 13	c.35G>T, c.37G>T	p.G12V, p.G13C	GGT>GTT, GGC>TGC	1	0.1%
+12,	c.35G>T,	p.G12V,	GGT>GTT, GGT + CAA>GGA + AAA	1	0.1%
+60, 61	c.180_181delinsAA	p.Q61K
+12, 146	c.34G>C, c.436G>A	p.G12R, p.A146T	GGT>CGT, GCA>ACA	1	0.1%
+12, 146	c.34G>T, c.436G>A	p.G12C, p.A146T	GGT>TGT, GCA>ACA	1	0.1%
+12, 146	c.34G>T, c.437C>T	p.G12C, p.A146V	GGT>TGT, GCA>GTA	1	0.1%
+12, 146	c.35G>T, c.436G>A	p.G12V, p.A146T	GGT>GTT, GCA>ACA	1	0.1%
+13, 146	c.38G>A, c.436G>A	p.G13D, p.A146T	GGC>GAC, GCA>ACA	1	0.1%
+12, 13, 61	c.35G>A, c.38G>A, c.183A>T	p.G12D, p.G13D, p.Q61H	GGT>GAT, GGC>GAC, CAA>CAT	1	0.1%
+
+The baseline characteristics of study subjects are summarized in Table 2, according to tumor KRAS mutation status. Compared to KRAS-wild-type tumors, overall KRAS-mutated cancers were less likely to exhibit poor differentiation (5.8%, P < 0.0001), MSI-high (6.2%, P < 0.0001), and BRAF mutation (1.4%, P < 0.0001), and more likely to demonstrate cecal location (24%, P < 0.0001), CIMP-low (49%, P < 0.0001), and PIK3CA mutation (24%, P < 0.0001). Of note, these trends were generally evident across case groups with specific mutated codons (Table 2). KRAS mutation status was not significantly associated with sex, age, body mass index (BMI), year of diagnosis, family history of colorectal cancer, disease stage, peritumoral lymphocytic reaction, or tumor LINE-1 methylation level. There was no significant difference in any of the features between the cases with KRAS mutations identified in only one codon (N = 493) and those with KRAS mutations identified in two or more codons (N = 12), though statistical power was limited, given only 12 cases with KRAS mutations identified in multiple codons (Additional file 1: Table S1).
+
+Clinicopathological, and molecular characteristics according to KRAS mutation status in 1267 colorectal cancer cases
+Clinicopathological or molecular feature	Total No.	KRAS	P (Wild-type vs. mutant)	KRAS mutations identified in only one codon	P (Across four mutants)
+Wild-type	Mutant	Codon 12	Codon 13	Codon 61	Codon 146
+Total No. of patients	1267	762	505		333	108	17	35	
+Sex				0.0091					0.11
+Male	573 (45%)	322 (42%)	251 (50%)		162 (49%)	59 (55%)	4 (24%)	19 (54%)	
+Female	694 (55%)	440 (58%)	254 (50%)		171 (51%)	49 (45%)	13 (76%)	16 (46%)	
+Mean age (years) ± SD	68.6 ± 8.7	68.4 ± 8.6	68.8 ± 8.8	0.47	69.5 ± 8.5	67.5 ± 9.2	70.0 ± 9.3	66.0 ± 9.8	0.065
+BMI (kg/m2)				0.13					0.43
+<30	1025 (81%)	607 (80%)	418 (83%)		278 (84%)	88 (81%)	11 (69%)	30 (86%)	
+≥30	240 (19%)	155 (20%)	85 (17%)		54 (16%)	20 (19%)	5 (31%)	5 (14%)	
+Year of diagnosis				0.26					0.032
+Prior to 1998	640 (51%)	375 (49%)	265 (52%)		164 (49%)	63 (58%)	5 (29%)	23 (66%)	
+1998 - 2006	627 (49%)	387 (51%)	240 (48%)		169 (51%)	45 (42%)	12 (71%)	12 (34%)	
+Family history of colorectal cancer in first degree relative(s)				0.76					0.87
+Absent	1026 (81%)	612 (80%)	414 (82%)		273 (82%)	89 (82%)	14 (82%)	27 (77%)	
+Present in one first degree relative	179 (14%)	111 (15%)	68 (13%)		44 (13%)	15 (14%)	3 (18%)	5 (14%)	
+Present in two or more first degree relatives	62 (5%)	39 (5%)	23 (5%)		16 (5%)	4 (4%)	0	3 (9%)	
+Tumor location				<0.0001					0.50
+Cecum	209 (17%)	90 (12%)	119 (24%)		79 (24%)	27 (25%)	4 (24%)	6 (18%)	
+Ascending colon	262 (21%)	171 (23%)	91 (18%)		52 (16%)	25 (24%)	3 (18%)	7 (21%)	
+Hepatic flexure to transverse colon	117 (9%)	78 (10%)	39 (8%)		26 (8%)	7 (6%)	4 (24%)	2 (5%)	
+Splenic flexure to descending colon	90 (7%)	57 (8%)	33 (6%)		22 (7%)	7 (6%)	0	3 (8%)	
+Sigmoid colon	297 (24%)	182 (24%)	115 (23%)		83 (25%)	22 (20%)	1 (5%)	8 (24%)	
+Rectum	279 (22%)	176 (23%)	103 (21%)		67 (20%)	20 (19%)	5 (29%)	8 (24%)	
+Disease stage				0.028					0.89
+I	298 (23%)	190 (25%)	108 (21%)		77 (23%)	20 (19%)	4 (23%)	4 (11%)	
+II	354 (28%)	230 (30%)	124 (25%)		77 (23%)	30 (28%)	5 (29%)	11 (32%)	
+III	328 (26%)	183 (24%)	145 (29%)		97 (29%)	29 (27%)	3 (18%)	11 (32%)	
+IV	173 (14%)	93 (12%)	80 (16%)		51 (15%)	18 (16%)	2 (12%)	6 (17%)	
+Unknown	114 (9%)	66 (9%)	48 (9%)		31 (10%)	11 (10%)	3 (18%)	3 (8%)	
+Tumor differentiation				<0.0001					0.55
+Well-moderate	1137 (90%)	663 (88%)	474 (94%)		314 (95%)	99 (92%)	16 (94%)	34 (97%)	
+Poor	123 (10%)	94 (12%)	29 (6%)		17 (5%)	9 (8%)	1 (6%)	1 (3%)	
+Peritumoral lymphocytic reaction				0.042					0.48
+Absent-minimal	164 (14%)	96 (13%)	68 (14%)		47 (15%)	14 (13%)	2 (12%)	4 (12%)	
+Mild	878 (72%)	515 (71%)	363 (75%)		237 (75%)	76 (71%)	12 (76%)	28 (85%)	
+Moderate-marked	170 (14%)	117 (16%)	53 (11%)		32 (10%)	17 (16%)	2 (12%)	1 (3%)	
+MSI status				<0.0001					0.078
+MSI-low/MSS	1057 (85%)	587 (79%)	470 (94%)		315 (95%)	100 (94%)	14 (82%)	31 (89%)	
+MSI-high	191 (15%)	160 (21%)	31 (6.2%)		16 (4.8%)	6 (5.7%)	3 (18%)	4 (11%)	
+CIMP status				<0.0001					0.014
+CIMP-negative	521 (44%)	311 (44%)	210 (44%)		139 (44%)	37 (36%)	8 (50%)	19 (54%)	
+CIMP-low	460 (39%)	224 (32%)	236 (49%)		154 (49%)	59 (57%)	4 (25%)	16 (46%)	
+CIMP-high	206 (17%)	172 (24%)	34 (7%)		21 (7%)	7 (7%)	4 (25%)	0	
+PIK3CA mutation status				<0.0001					0.63
+Wild-type	983 (84%)	632 (89%)	351 (76%)		242 (78%)	72 (74%)	12 (80%)	19 (68%)	
+Mutant	190 (16%)	78 (11%)	112 (24%)		70 (22%)	25 (26%)	3 (20%)	9 (32%)	
+BRAF mutation status				<0.0001					0.25
+Wild-type	1078 (85%)	582 (77%)	496 (99%)		328 (99%)	106 (98%)	16 (94%)	35 (100%)	
+Mutant	184 (15%)	177 (23%)	7 (1%)		3 (1%)	2 (2%)	1 (6%)	0	
+Mean LINE-1 methylation level (%) ± SD	62.7 ± 9.3	62.8 ± 9.6	62.5 ± 9.0	0.33	62.7 ± 9.2	61.5 ± 8.2	64.2 ± 10.1	63.1 ± 9.0	0.42
+
+### KRAS mutation status and patient survival in BRAF-wild-type cases
+
+To examine the prognostic role of KRAS mutation independent of BRAF mutation, within 1067 BRAF-wild-type cases (excluding BRAF mutants), we compared KRAS-mutated cancers to cases with wild-type KRAS in all four codons 12, 13, 61 and 146 (Additional file 2: Table S2). We evaluated clinicopathological, molecular and survival data of 51 cases with KRAS codon 61 and 146 mutations (Additional file 3: Table S3). There were 514 deaths, including 307 colorectal cancer-specific deaths, during a median follow-up of 11.7 years (interquartile range, 8.3-16.1 years) for censored cases.
+
+The 5-year colorectal cancer-specific survival probabilities were 80.6% for cases with KRAS-wild-type/BRAF-wild-type tumors, 67.9% for cases with codon 12 mutations, 75.8% for cases with codon 13 mutations, 79.4% for cases with codon 61 mutations, and 76.7% for cases with codon 146 mutations. Specific KRAS mutations were significantly associated with patient survival in Kaplan-Meier analysis (log-rank P = 0.0014, Figure 1). In multivariate analysis, compared to KRAS-wild-type/BRAF-wild-type tumors, we observed a significant prognostic association for KRAS codon 12 mutation [multivariate hazard ratio (HR) = 1.45; 95% confidence interval (CI), 1.12-1.87; P = 0.0048; Table 3). However, neither mutation of KRAS codon 61 nor codon 146 was associated with patient outcome (Table 3). For cases with the 10 most common KRAS mutations across all four codons examined, those with the c.34G>T (p.G12C) mutation, and those with the c.35G>T (p.G12V) mutation experienced significantly higher colorectal cancer-specific mortality in Cox regression analysis [multivariate HR = 2.33; 95% CI, 1.36-3.99; P = 0.0021 for c.34G>T (p.G12C); multivariate HR = 2.13; 95% CI, 1.47-3.09; P < 0.0001 for c.35G>T (p.G12V); Table 3], even after adjusting a statistical significance level for multiple testing (P < 0.005). None of the three most common KRAS mutations in codons 61 and 146 [c.183A>C (p.Q61H), c.436G>A (p.A146T) and c.437C>T (p.A146V)] was associated with patient prognosis (Table 3), although statistical power was limited. Subgroup analyses of stage I-II cases (N = 544, Additional file 4: Table S4), and stage III-IV cases (N = 414, Additional file 5: Table S5) yielded similar results, although statistical power was limited.
+
+Figure 1: Kaplan-Meier curves for colorectal cancer patients with BRAF-wild-type tumors, according to tumor KRAS mutation status. (A) Colorectal cancer-specific survival. (B) Overall survival. Table indicates the number of patients who were alive and at risk of death at each time point after diagnosis of colorectal cancer.
+
+Colorectal cancer patient mortality according to KRAS mutation status in 1067 BRAF -wild-type cases
+KRAS	Total No.	Colorectal cancer-specific mortality	Overall mortality
+No. of events	Univariate HR (95% CI)	Multivariate stage-stratified HR (95% CI)	No. of events	Univariate HR (95% CI)	Multivariate stage-stratified HR (95% CI)
+Wild-type (codons 12, 13, 61 and 146)	582	144	1 (referent)	1 (referent)	258	1 (referent)	1 (referent)
+All mutants together	485	163	1.46 (1.17-1.83)	1.19 (0.94-1.51)	256	1.32 (1.11-1.57)	1.14 (0.95-1.38)
+			P = 0.0009			P = 0.0018	
+Codons 12 and 13, and codons 61 and 146							
+Codons 12 and 13	434	151	1.51 (1.20-1.90)	1.27 (0.99-1.62)	235	1.36 (1.14-1.62)	1.15 (0.95-1.40)
+			P = 0.0004			P = 0.0007	
+Codons 61 and 146	51	12	1.02 (0.57-1.85)	0.85 (0.47-1.56)	21	1.00 (0.64-1.56)	1.07 (0.68-1.68)
+Codons 12, 13, 61 and 146							
+Codon 12 mutants	328	121	1.64 (1.29-2.09)	1.45 (1.12-1.87)	183	1.45 (1.20-1.76)	1.24 (1.01-1.52)
+			P < 0.0001	P = 0.0048		P = 0.0001	P = 0.037
+Codon 13 mutants	106	30	1.16 (0.78-1.72)	0.83 (0.55-1.25)	52	1.11 (0.82-1.49)	0.90 (0.66-1.24)
+Codon 61 mutants	16	4	1.11 (0.41-3.01)	0.81 (0.29-2.26)	8	1.43 (0.71-2.90)	1.55 (0.75-3.18)
+Codon 146 mutants	35	8	0.98 (0.48-2.01)	0.86 (0.42-1.78)	13	0.84 (0.48-1.48)	0.88 (0.50-1.56)
+The 10 most common mutations in codons 12, 13, 61 and 146				
+c.34G>A (p.G12S)	12	6	2.44 (1.07-5.54)	0.94 (0.39-2.23)	7	1.57 (0.74-3.33)	0.77 (0.35-1.70)
+			P = 0.033				
+c.34G>C (p.G12R)	7	5	5.25 (2.13-12.9)	3.44 (1.25-9.43)	6	4.69 (2.06-10.6)	3.51 (1.42-8.70)
+			P = 0.0003	P = 0.017		P = 0.0002	P = 0.0067
+c.34G>T (p.G12C)	42	16	1.70 (1.01-2.86)	2.33 (1.36-3.99)	25	1.56 (1.03-2.35)	1.57 (1.02-2.42)
+			P = 0.044	P = 0.0021		P = 0.035	P = 0.039
+c.35G>A (p.G12D)	155	51	1.46 (1.06-2.01)	1.18 (0.84-1.66)	80	1.37 (1.06-1.76)	1.16 (0.89-1.51)
+			P = 0.021			P = 0.015	
+c.35G>C (p.G12A)	19	6	1.28 (0.56-2.90)	0.61 (0.26-1.42)	9	1.00 (0.51-1.95)	0.59 (0.30-1.17)
+c.35G>T (p.G12V)	92	37	1.76 (1.22-2.52)	2.13 (1.47-3.09)	56	1.54 (1.16-2.06)	1.54 (1.14-2.08)
+			P = 0.0024	P < 0.0001		P = 0.0033	P = 0.0048
+c.38G>A (p.G13D)	101	30	1.23 (0.83-1.82)	0.83 (0.55-1.26)	50	1.14 (0.84-1.54)	0.91 (0.66-1.25)
+c.183A>C (p.Q61H)	7	2	1.06 (0.26-4.28)	0.46 (0.11-1.93)	4	1.28 (0.48-3.45)	1.16 (0.42-3.18)
+c.436G>A (p.A146T)	21	3	0.55 (0.17-1.71)	0.50 (0.16-1.59)	5	0.45 (0.19-1.10)	0.51 (0.21-1.26)
+c.437C>T (p.A146V)	11	4	1.94 (0.72-5.26)	1.77 (0.64-4.90)	7	2.02 (0.95-4.29)	2.10 (0.97-4.56)
+
+## Discussion
+
+Although a number of studies have examined codon 61 or 146 hotspot mutations in colorectal cancer (Additional file 6: Table S6) [26-29,32-74], clinicopathological, molecular, and prognostic characteristics of those mutations have not been well investigated. Our data, from 1267 tumors, suggest that approximately 5% of all colorectal cancers harbor KRAS mutations in codon 61 or 146, and those colorectal cancers generally show similar characteristics to tumors with KRAS mutations in codon 12 or 13 (including associations with cecal location, CIMP-low and PIK3CA mutations).
+
+A variety of methods have been used for KRAS codon 61 and 146 analyses (Additional file 6: Table S6) [26-29,32-74], which might have contributed to a wide variation in the prevalence of those mutations. Generally, nonsequencing methods make it cumbersome to confirm multiple independent mutations, and make it difficult to detect multiple variations at one allele without employing an expanded panel of probes or primers. Of the sequencing-based methodologies, pyrosequencing has been shown to be more sensitive than Sanger sequencing in paraffin-embedded archival tissue, with the capacity to reliably detect mutant alleles at low abundance (5-10% mutant), which is common in solid tumors [75].
+
+The association between cecal cancers and KRAS mutations is intriguing. Emerging data suggest that gut luminal contents and microbiota, which change along bowel subsites, play important roles in colorectal carcinogenesis [8,76]. Our recent study on colorectal cancers in detailed subsites (from cecum to rectum) has shown that tumor molecular features (including BRAF mutation, MSI and CIMP-high) change along the bowel subsites, and that cecal cancers are associated with KRAS codon 12 and 13 mutations [5,8]. In our current study, cecal cancers appeared to be significantly associated with overall KRAS mutation status, and this trend was evident across all four mutated codons. Further studies are needed to elucidate why KRAS mutations, irrespective of mutated codon, are particularly common in cecal cancers.
+
+Examining associations of tumor molecular features can provide insights into carcinogenesis processes, and is important in cancer research [77-83]. Previous studies have demonstrated that KRAS codon 12 and 13 mutations are associated with aberrant DNA methylation patterns, namely CIMP-low [10,11]. Our current study suggests that KRAS mutation, irrespective of mutated codon (statistical power was limited for codon 61 mutants), is associated with CIMP-low. It remains to be investigated why KRAS mutations are associated with CIMP-low in colorectal cancer. KRAS have been positively associated with PIK3CA mutations in colorectal cancer [15-18]. Our data suggest that KRAS mutations, irrespective of mutated codon, are associated with PIK3CA mutations. It has been reported that activated RAS signaling potentiates PI3K (phosphatidylinositol-4,5-bisphosphonate 3-kinase)/AKT signaling, which is augmented by the presence of PIK3CA mutations [84]. Considering a possible role for PIK3CA mutation as a predictive biomarker of response to adjuvant aspirin therapy in colorectal cancer [16], our finding may be of interest. KRAS codon 12 and 13 mutations have been inversely associated with BRAF mutation in colorectal cancer [17,26,33,41]. Our current data suggest that KRAS mutations, irrespective of mutated codon, are inversely associated with MSI-high and BRAF mutations in colorectal cancer. LINE-1 methylation level is a surrogate marker for global DNA methylation, and has been reported to be associated with MSI-high and CIMP-high in colorectal cancer [85]. This study showed that LINE-1 methylation level in average did not significantly differ according to KRAS mutation status.
+
+Experimental studies are consistent with our observations that both KRAS codon 61 and 146 mutations can contribute to carcinogenesis in a similar manner to oncogenic mutations in codons 12 and 13. As KRAS codon 12 and 13 mutations, codon 61 mutation results in oncogenic RAS with impaired GTPase activity, resulting in constitutive activation [86,87]. KRAS codon 146 mutation-transfected HEK-293FT cells showed a larger amount of RAS-GTP compared to KRAS-wild-type-transfected cells [28]. These experimental data provide an insights into plausible functional roles of codon 61 and 146 mutations in carcinogenesis.
+
+In our current survival analysis, there was no significant association between KRAS codon 61 and 146 mutations, and patient outcome. The prognostic value of KRAS mutation in colorectal cancer remains controversial [7,88-92]. Of note, in our current study, when we separately examined specific KRAS mutations, codon 12 mutations [especially c.34G>T (p.G12C) and c.35G>T (p.G12V)] were significantly associated with inferior survival, which is consistent with the ‘RASCAL II’ meta-analysis [88]. Accordingly, the prognostic associations of KRAS mutations in colorectal cancer may vary by specific mutation. Considered in conjunction with evidence that KRAS codon 61 and 146 mutations possess weaker transforming potential than codon 12 mutations [40], it may be the case that KRAS codon 61 or 146 mutation is not associated with patient prognosis. However, considering the limited case and event numbers for KRAS codon 61 and 146 mutations, our survival analyses should be considered exploratory. Additional larger studies, perhaps necessitating pooling of data, are required to definitively assess the prognostic roles codon 61 and 146 mutations in colorectal cancer.
+
+Several studies have examined the predictive value of KRAS mutation in codon 61 and/or 146 in metastatic colorectal cancer treated with anti-EGFR therapy (cetuximab or panitumumab) [26-28,41,43]. Pentheroudakis et al. did not observe any association between KRAS codon 61 or 146 mutation (N =11) and survival [41]. De Roock et al. showed that KRAS mutation in codon 61 (N =13), but not that in codon 146 (N =11), was significantly associated with lack of response to cetuximab [27]. Seymour et al. reported that KRAS codon 146 mutations (N =17) were not associated with overall or progression-free survival [43]. In contrast, Loupakis et al. reported that, among BRAF-wild-type cancers, KRAS codon 61 or 146 mutant cases (N = 8) experienced a significantly lower response rate and progression-free survival [26]. Indeed, a few experimental studies also reported that tumors harboring KRAS mutations in codons 61 and 146 were resistant to anti-EGFR therapy [28,93]. In addition, a recent published study reported by Douillard et al., showed that RAS mutants (N = 108) with any mutation in KRAS codons 61, 117 and 146, or NRAS codons 12, 13, 61, 117 and 146, did not benefit from combined panitumumab plus FOLFOX4 chemotherapy [29]. In our dataset, due to scarcity of data on cancer treatment, we were unable to examine the important question of the predictive value of KRAS mutations in relation to anti-EGFR therapy. Further clinical studies in this area are clearly required.
+
+The question arises as to whether it is worth investigating these relatively rare mutations in the clinical setting. Given that over 250,000 individuals each year die of colorectal cancer in Europe and the U.S., and most of these unfavorable outcomes are due to distant metastases, we estimate that every year approximately 10,000 cases have KRAS mutations in codon 61 or 146, and would be regarded as KRAS-wild-type through current KRAS codon 12 and 13 testing protocols. Considering that KRAS codon 61 and 146 mutations may also confer resistance to EGFR inhibitors [26-29,93], patients who have metastatic colorectal cancer with KRAS mutation in codon 61 or 146 could receive more tailored management through clinical testing of these additional KRAS codons.
+
+A limitation of this study is the absence of data on KRAS codon 117 mutation and NRAS mutations. As a result, we could not refine purer RAS-wild-type (both KRAS- and NRAS-wild-type in codons 12, 13, 61, 117 and 146), or examine clinicopathological, molecular and prognostic features of those whole RAS mutations in this study. Considering that RAS mutations in those codons have been reported to predict lack of response to anti-EGFR therapy in colorectal cancer [29], further studies are necessary to answer important questions about features across various RAS mutants. Nonetheless, KRAS codons 61 and 146 are the most frequent mutational hotspots after KRAS codons 12 and 13. In addition, our current analysis (N>1200) represents a large single study to date (Additional file 6: Table S6) [26-29,32-74], examining KRAS codon 61 and 146 mutations, in relation to other important molecular features in colorectal cancers, such as status of CIMP, MSI, BRAF and PIK3CA mutations. Sample size is a critical issue when assessing these relatively infrequent mutations. Indeed, smaller studies (N < 300, Additional file 6: Table S6) demonstrate considerable variability in the frequencies and distribution of reported KRAS mutations, ranging from 0.4% to 9.3% for KRAS codon 61 mutations, and from 1.3% to 6.6% for KRAS codon 146 mutations (Additional file 6: Table S6) [26-29,32-74]. Given the relatively low frequencies of these mutations, a large sample size is a prerequisite for assessing the prevalence of these mutations and their associations with other tumor molecular characteristics.
+
+There are advantages in utilizing the molecular pathological epidemiology [30,31] database of the two U.S. nationwide prospective cohort studies to assess prevalence and associations of KRAS codon 61 and 146 mutations. Selection bias is an inevitable issue when analyzing cases identified from a few academic hospitals, since patients have selected hospitals based on referral, health insurance applicability, and/or their own preference. In contrast, a large population-based or multicenter study is desirable to decrease the degree of such selection bias. In this study, cohort participants who were diagnosed with colorectal cancer were treated at hospitals throughout the U.S., and thus constitute a more representative sample of colorectal cancers in the U.S. population than patients in a few academic hospitals.
+
+## Conclusions
+
+Our data from over 1200 colorectal cancers demonstrate that KRAS codon 61 or 146 hotspot mutations are present in approximately up to 5% of colorectal cancers, and those cancers exhibit similar clinicopathological and molecular features to cancers with KRAS codon 12 or 13 mutation. Our current findings suggest that additional large-scale studies are warranted to assess clinical utility of KRAS codon 61 and 146 testing in colorectal cancer.
+
+## Materials and methods
+
+### Study population
+
+We utilized two prospective cohort studies, the Nurses’ Health Study (N = 121,701 women followed since 1976) and the Health Professionals Follow-up Study (N = 51,529 men followed since 1986) [16]. Every two years, cohort participants have been sent follow-up questionnaires to identify newly diagnosed cancers in themselves and their first degree relatives. The National Death Index was used to ascertain deaths of participants as well as unreported lethal cancers. The cause of death was assigned by study physicians. Formalin-fixed paraffin-embedded tissue blocks were collected from hospitals where participants with colorectal cancer had undergone colorectal resection or diagnostic biopsy (for preoperatively-treated rectal cancers). We used 1267 colorectal cancer cases, diagnosed up to 2006, based on the availability of KRAS sequencing data. In order to examine the prognostic role of specific KRAS mutations, independent of BRAF mutation, BRAF-mutated cancers (N = 184), cases with missing BRAF mutation status (N = 5), and tumors with KRAS mutations identified in two or more of codons 12, 13, 61 and 146 (N = 11) were excluded. As a result, a final total of 1067 BRAF-wild-type cases were used for survival analyses (Figure 2, Additional file 2: Table S2). Informed consent was obtained from all study subjects. This study was approved by the Human Subjects Committees at Harvard School of Public Health and Brigham and Women’s Hospital. All clinicopathological and molecular analyses were performed blinded to other data, including patient outcome.
+
+Figure 2: Flow chart of the current study. Cases with BRAF mutation (N = 184) and those without available BRAF mutation data (N = 5), were excluded from survival analyses. In addition, cases with KRAS mutations identified in two or more of codons 12, 13, 61 and 146 (N = 11) were excluded, in order to assess a prognostic effect of specific KRAS mutations individually.
+
+### Histopathological evaluation
+
+Hematoxylin and eosin-stained sections of all cases were examined by a pathologist (SO) unaware of other data. Tumor differentiation was categorized as well-moderate or poor (>50% vs. ≤50% gland formation). Peritumoral lymphocytic reaction was examined as previously described [94].
+
+### Sequencing of KRAS codons 61 and 146
+
+DNA was extracted from paraffin embedded tissue as previously described, [16] and polymerase chain reaction (PCR) and pyrosequencing, targeted for KRAS codons 61 and 146, were performed. The PCR primers for amplifying KRAS codon 61 were, 5′-biotin-TGGAGAAACCTGTCTCTTGGATAT-3′ (for forward primer), and 5′-TACTGGTCCCTCATTGCACTGTA-3′ (for reverse primer), and those for KRAS codon 146 were 5′-ATGGAATTCCTTTTATTGAAACATC-3′ (for forward primer), and 5′-biotin-TTGCAGAAAACAGATCTGTATTTAT-3′(for reverse primer). The sequencing primers were 5′-TCATTGCACTGTACTCCTC-3′ (for codon 61), and 5′-AATTCCTTTTATTGAAACATCA-3′ (for codon 146). Dispensation orders were designed such that all possible mutations would be detected (Additional file 7: Figure S1). All mutations were confirmed by replicate analysis.
+
+### Sequencing of KRAS codons 12 and 13, BRAF, and PIK3CA, and MSI analysis
+
+We performed PCR and pyrosequencing targeted for KRAS (codons 12 and 13) [75], BRAF (codon 600) and PIK3CA (exons 9 and 20) as previously described [16]. MSI analysis was performed using 10 microsatellite markers (D2S123, D5S346, D17S250, BAT25, BAT26, BAT40, D18S55, D18S56, D18S67 and D18S487) [8]. MSI-high was defined as instability in ≥30% of the markers. MSI-low (<30% unstable markers) tumors were grouped with microsatellite stable (MSS) tumors (no unstable markers) because we have previously demonstrated that these two groups show similar features [8].
+
+### Methylation analyses for CpG islands and LINE-1
+
+Using validated bisulfite DNA treatment and real-time PCR (MethyLight), we quantified DNA methylation in eight CIMP-specific promoters [CACNA1G, CDKN2A (p16), CRABP1, IGF2, MLH1, NEUROG1, RUNX3 and SOCS1] [8]. CIMP-high was defined as the presence of ≥6/8 methylated promoters, CIMP-low as 1-5/8 methylated promoters, and CIMP-negative as the absence of methylated promoters, according to established criteria [8]. In order to accurately quantify LINE-1 methylation levels, we used bisulfite pyrosequencing as previously described [8].
+
+### Statistical analysis
+
+All statistical analyses were performed using SAS (Version 9.2, SAS Institute, Cary, NC). All P-values were two-sided. Univariate analyses were performed to investigate clinicopathological and molecular characteristics according to KRAS mutation status; a chi-square test or Fisher’s exact test was used for categorical data, while a Wilcoxon or Kruskal-Wallis test was applied to continuous data (age and LINE-1 methylation). To account for multiple hypothesis testing in associations between KRAS mutation and other 14 covariates, the P-value for significance was adjusted by Bonferroni correction to P = 0.0036 (=0.05/14).
+
+The Kaplan-Meier method and log-rank test were used to estimate survival distribution according to KRAS mutation status. Cases were observed until death, or January 1st 2011, whichever came first. For analyses of colorectal cancer-specific mortality, deaths as a result of other causes were censored. Cox proportional hazards regression models were used to compute mortality HRs for specific KRAS mutations. A multivariate model initially included the following clinicopathological and molecular variables with less than 10% of patients showing missing information among those we have previously published; sex, age (continuous), BMI (<30 vs. ≥30 kg/m2), year of diagnosis (continuous), family history of colorectal cancer in any first-degree relative (present vs. absent), tumor location (cecum vs. ascending colon to sigmoid colon vs. rectum), tumor differentiation (well-moderate vs. poor), peritumoral lymphocytic reaction (absent-minimal vs. mild-marked), MSI (high vs. low/MSS), CIMP (high vs. low vs. negative), PIK3CA mutation (present vs. absent) and LINE-1 methylation (continuous), with stratification by disease stage (I, II, III, IV or unknown) was performed using the “strata” option in the SAS “proc phreg” command. A backward elimination was performed with a threshold of P = 0.20, to avoid overfitting. Cases with missing information for any of the categorical covariates [BMI (0.2%), tumor location (1.0%), tumor differentiation (0.7%), peritumoral lymphocytic reaction (4.6%), MSI (1.6%), CIMP (6.7%), and PIK3CA (7.6%)], were included in the majority category of the given covariate to avoid overfitting. We confirmed that excluding cases with missing information in any of the covariates did not substantially alter results (data not shown). To account for multiple hypothesis testing in associations between KRAS mutations and patient outcome, the P-value for significance was adjusted by Bonferroni correction to P = 0.025 [=0.05/2, for the two groups of codons (codons 12 and 13, and codons 61 and 146)], P = 0.013 (=0.05/4, for the four codons), or P = 0.005 (=0.05/10, for the 10 most common mutations). The proportionality of hazards assumption was satisfied by evaluating time-dependent variables, which were the cross products of the KRAS indicator variables and survival time (all P-values>0.07).
+
+### Literature search
+
+A systematic literature search was performed in Pubmed, up to April 5, 2014, using combinations of the following search terms; KRAS, codon, (61 or 146), (colon, rectal or colorectal), and (cancer, carcinoma or adenocarcinoma). All eligible publications were retrieved, and their references were checked to identify further relevant studies. In addition, we contacted some corresponding authors to obtain detailed data.
+
+## Abbreviations
+
+CI: Confidence interval; CIMP: CpG island methylator phenotype; HR: Hazard ratio; MSI: Microsatellite instability; MSS: Microsatellite stable; PCR: Polymerase chain reaction; PI3K: Phosphatidylinositol-4,5-bisphosphonate 3-kinase.
+
+## Competing interests
+
+ATC previously served as a consultant for Bayer Healthcare, Millennium Pharmaceuticals, and Pfizer Inc. This study was not funded by Bayer Healthcare, Millennium Pharmaceuticals, or Pfizer Inc. No other conflict of interest exists.
+
+## Authors’ contributions
+
+YI, SO and KMH conceived of the study. YI, PL, MY, ZRQ, XL and KN carried out molecular analysis. YI and SO interpreted the data and drafted the manuscript. AK, RN, SJ, KW, YEW, SP and AJB helped the statistical analysis and participated in interpretation of data. JAM, ATC and CSF helped to draft the manuscript, and participated in interpretation of data. All authors read and approved the final manuscript.
+
+## Supplementary Material
+
+Clinicopathological, and molecular characteristics of KRAS-wild-type, only-one-KRAS-codon mutated, or two-or-more-KRAS-codons mutated cases.
+
+Click here for file
+
+Clinicopathological, and molecular characteristics according to KRAS mutation status in 1067 BRAF-wild-type cases.
+
+Click here for file
+
+Clinicopathological features of 51 KRAS codon 61 or 146 mutated cases in 1067 BRAF-wild-type cases.
+
+Click here for file
+
+Stage I-II, BRAF-wild-type colorectal cancer patient mortality according to KRAS mutation status.
+
+Click here for file
+
+Stage III-IV, BRAF-wild-type colorectal cancer patient mortality according to KRAS mutation status.
+
+Click here for file
+
+Previous studies examining KRAS codon 61 and 146 mutations in colorectal cancer.
+
+Click here for file
+
+Pyrosequencing assay design and pyrograms for KRAS codons 61 and 146.
+
+Click here for file
+
+## Acknowledgments
+
+We deeply thank hospitals and pathology departments throughout the U.S. for generously providing us with tissue specimens. In addition, we would like to thank the participants and staff of the Nurses’ Health Study and the Health Professionals Follow-Up Study, for their valuable contributions as well as the following state cancer registries for their help: AL, AZ, AR, CA, CO, CT, DE, FL, GA, ID, IL, IN, IA, KY, LA, ME, MD, MA, MI, NE, NH, NJ, NY, NC, ND, OH, OK, OR, PA, RI, SC, TN, TX, VA, WA, WY. This work was supported by U.S. National Institute of Health (NIH) grants [P01 CA87969 to S.E. Hankinson; P01 CA55075 to W.C. Willett; UM1 CA167552 to W.C. Willett; P50 CA127003 to CSF; R01 CA137178 to ATC; and R01 CA151993 to SO]; and by grants from the Bennett Family Fund and the Entertainment Industry Foundation through National Colorectal Cancer Research Alliance. ATC is a Damon Runyon Clinical Investigator. PL is a Scottish Government Clinical Academic Fellow and was supported by a Harvard University Frank Knox Memorial Fellowship. The content is solely the responsibility of the authors and does not necessarily represent the official views of NIH. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+
+## References
+1. LaoVVGradyWMEpigenetics and colorectal cancerNat Rev Gastroenterol Hepatol2011868670010.1038/nrgastro.2011.17322009203PMC3391545
+2. FebboPGLadanyiMAldapeKDDe MarzoAMHammondMEHayesDFIafrateAJKelleyRKMarcucciGOginoSPaoWSgroiDCBirkelandMLNCCN Task Force report: evaluating the clinical utility of tumor markers in oncologyJ Natl Compr Canc Netw20119Suppl 5S1S3210.6004/jnccn.2011.013722138009
+3. ColussiDBrandiGBazzoliFRicciardielloLMolecular pathways involved in colorectal cancer: implications for disease behavior and preventionInt J Mol Sci201314163651638510.3390/ijms14081636523965959PMC3759916
+4. BardhanKLiuKEpigenetics and colorectal cancer pathogenesisCancers2013567671310.3390/cancers502067624216997PMC3730326
+5. RostyCYoungJPWalshMDClendenningMWaltersRJPearsonSPavlukENaglerBPakenasDJassJRJenkinsMAWinAKSoutheyMCParrySHopperJLGilesGGWilliamsonEEnglishDRBuchananDDColorectal carcinomas with KRAS mutation are associated with distinctive morphological and molecular featuresMod Pathol20132682583410.1038/modpathol.2012.24023348904
+6. DayFLJorissenRNLiptonLMouradovDSakthianandeswarenAChristieMLiSTsuiCTieJDesaiJXuZZMolloyPWhitehallVLeggettBAJonesITMcLaughlinSWardRLHawkinsNJRuszkiewiczARMooreJBusamDZhaoQStrausbergRLGibbsPSieberOMPIK3CA and PTEN gene and exon mutation-specific clinicopathologic and molecular associations in colorectal cancerClin Cancer Res2013193285329610.1158/1078-0432.CCR-12-361423633456
+7. EklofVWikbergMLEdinSDahlinAMJonssonBAObergARutegardJPalmqvistRThe prognostic role of KRAS, BRAF, PIK3CA and PTEN in colorectal cancerBr J Cancer20131082153216310.1038/bjc.2013.21223660947PMC3670497
+8. YamauchiMMorikawaTKuchibaAImamuraYQianZRNishiharaRLiaoXWaldronLHoshidaYHuttenhowerCChanATGiovannucciEFuchsCOginoSAssessment of colorectal cancer molecular features along bowel subsites challenges the conception of distinct dichotomy of proximal versus distal colorectumGut20126184785410.1136/gutjnl-2011-30086522427238PMC3345105
+9. WangefjordSSundstromMZendehrokhNLindquistKENodinBJirstromKEberhardJSex differences in the prognostic significance of KRAS codons 12 and 13, and BRAF mutations in colorectal cancer: a cohort studyBiol Sex Differ201341710.1186/2042-6410-4-1724020794PMC3846575
+10. HinoueTWeisenbergerDJLangeCPShenHByunHMVan Den BergDMalikSPanFNoushmehrHvan DijkCMTollenaarRALairdPWGenome-scale analysis of aberrant DNA methylation in colorectal cancerGenome Res20122227128210.1101/gr.117523.11021659424PMC3266034
+11. OginoSKawasakiTKirknerGJLodaMFuchsCSCpG island methylator phenotype-low (CIMP-low) in colorectal cancer: possible associations with male sex and KRAS mutationsJ Mol Diagn2006858258810.2353/jmoldx.2006.06008217065427PMC1876166
+12. KimJHShinSHKwonHJChoNYKangGHPrognostic implications of CpG island hypermethylator phenotype in colorectal cancersVirchows Arch200945548549410.1007/s00428-009-0857-019911194
+13. BaraultLCharon-BarraCJoosteVde la VegaMFMartinLRoignotPRatPBouvierAMLaurent-PuigPFaivreJChapusotCPiardFHypermethylator phenotype in sporadic colon cancer: study on a population-based series of 582 casesCancer Res2008688541854610.1158/0008-5472.CAN-08-117118922929
+14. DahlinAMPalmqvistRHenrikssonMLJacobssonMEklofVRutegardJObergAVan GuelpenBRThe role of the CpG island methylator phenotype in colorectal cancer prognosis depends on microsatellite instability screening statusClin Cancer Res2010161845185510.1158/1078-0432.CCR-09-259420197478
+15. WhitehallVLRickmanCBondCERamsnesIGrecoSAUmapathyAMcKeoneDFaleiroRJButtenshawRLWorthleyDLNaylerSZhaoZZMontgomeryGWMallittKAJassJRMatsubaraNNotoharaKIshiiTLeggettBAOncogenic PIK3CA mutations in colorectal cancers and polypsInt J Cancer201213181382010.1002/ijc.2644021932420
+16. LiaoXLochheadPNishiharaRMorikawaTKuchibaAYamauchiMImamuraYQianZRBabaYShimaKSunRNoshoKMeyerhardtJAGiovannucciEFuchsCSChanATOginoSAspirin use, tumor PIK3CA mutation, and colorectal-cancer survivalN Engl J Med20123671596160610.1056/NEJMoa120775623094721PMC3532946
+17. De RoockWDe VriendtVNormannoNCiardielloFTejparSKRAS, BRAF, PIK3CA, and PTEN mutations: implications for targeted therapies in metastatic colorectal cancerLancet Oncol20111259460310.1016/S1470-2045(10)70209-621163703
+18. HeYVan’t VeerLJMikolajewska-HanclichIvan VelthuysenMLZeestratenECNagtegaalIDvan de VeldeCJMarijnenCAPIK3CA mutations predict local recurrences in rectal cancer patientsClin Cancer Res2009156956696210.1158/1078-0432.CCR-09-116519903786
+19. Van CutsemEKohneCHLangIFolprechtGNowackiMPCascinuSShchepotinIMaurelJCunninghamDTejparSSchlichtingMZubelACelikIRougierPCiardielloFCetuximab plus irinotecan, fluorouracil, and leucovorin as first-line treatment for metastatic colorectal cancer: updated analysis of overall survival according to tumor KRAS and BRAF mutation statusJ Clin Oncol2011292011201910.1200/JCO.2010.33.509121502544
+20. BokemeyerCBondarenkoIMakhsonAHartmannJTAparicioJde BraudFDoneaSLudwigHSchuchGStrohCLoosAHZubelAKoralewskiPFluorouracil, leucovorin, and oxaliplatin with and without cetuximab in the first-line treatment of metastatic colorectal cancerJ Clin Oncol20092766367110.1200/JCO.2008.20.839719114683
+21. DouillardJYSienaSCassidyJTaberneroJBurkesRBarugelMHumbletYBodokyGCunninghamDJassemJRiveraFKocakovaIRuffPBlasinska-MorawiecMSmakalMCanonJLRotherMOlinerKSWolfMGansertJRandomized, phase III trial of panitumumab with infusional fluorouracil, leucovorin, and oxaliplatin (FOLFOX4) versus FOLFOX4 alone as first-line treatment in patients with previously untreated metastatic colorectal cancer: the PRIME studyJ Clin Oncol2010284697470510.1200/JCO.2009.27.486020921465
+22. CustodioAFeliuJPrognostic and predictive biomarkers for epidermal growth factor receptor-targeted therapy in colorectal cancer: beyond KRAS mutationsCrit Rev Oncol Hematol201385458110.1016/j.critrevonc.2012.05.00122647972
+23. ReimersMSZeestratenECMKuppenPJKLiefersGJVeldeCJHBiomarkers in precision therapy in colorectal cancerGastroenterol Rep2013116618310.1093/gastro/got022PMC393799724759962
+24. De RoockWJonkerDJDi NicolantonioFSartore-BianchiATuDSienaSLambaSArenaSFrattiniMPiessevauxHVan CutsemEO’CallaghanCJKhambata-FordSZalcbergJRSimesJKarapetisCSBardelliATejparSAssociation of KRAS p.G13D mutation with outcome in patients with chemotherapy-refractory metastatic colorectal cancer treated with cetuximabJAMA20103041812182010.1001/jama.2010.153520978259
+25. TejparSCelikISchlichtingMSartoriusUBokemeyerCVan CutsemEAssociation of KRAS G13D tumor mutations with outcome in patients with metastatic colorectal cancer treated with first-line chemotherapy with or without cetuximabJ Clin Oncol2012303570357710.1200/JCO.2012.42.259222734028
+26. LoupakisFRuzzoACremoliniCVincenziBSalvatoreLSantiniDMasiGStasiICanestrariERulliEFlorianiIBencardinoKGalluccioNCatalanoVToniniGMagnaniMFontaniniGBasoloFFalconeAGrazianoFKRAS codon 61, 146 and BRAF mutations predict resistance to cetuximab plus irinotecan in KRAS codon 12 and 13 wild-type metastatic colorectal cancerBr J Cancer200910171572110.1038/sj.bjc.660517719603018PMC2736831
+27. De RoockWClaesBBernasconiDDe SchutterJBiesmansBFountzilasGKalogerasKTKotoulaVPapamichaelDLaurent-PuigPPenault-LlorcaFRougierPVincenziBSantiniDToniniGCappuzzoFFrattiniMMolinariFSalettiPDe DossoSMartiniMBardelliASienaSSartore-BianchiATaberneroJMacarullaTDi FioreFGangloffAOCiardielloFPfeifferPEffects of KRAS, BRAF, NRAS, and PIK3CA mutations on the efficacy of cetuximab plus chemotherapy in chemotherapy-refractory metastatic colorectal cancer: a retrospective consortium analysisLancet Oncol20101175376210.1016/S1470-2045(10)70130-320619739
+28. JanakiramanMVakianiEZengZPratilasCATaylorBSChitaleDHalilovicEWilsonMHubermanKRicarte FilhoJCPersaudYLevineDAFaginJAJhanwarSCMariadasonJMLashALadanyiMSaltzLBHeguyAPatyPBSolitDBGenomic and biological characterization of exon 4 KRAS mutations in human cancerCancer Res2010705901591110.1158/0008-5472.CAN-10-019220570890PMC2943514
+29. DouillardJYOlinerKSSienaSTaberneroJBurkesRBarugelMHumbletYBodokyGCunninghamDJassemJRiveraFKocakovaIRuffPBlasinska-MorawiecMSmakalMCanonJLRotherMWilliamsRRongAWiezorekJSidhuRPattersonSDPanitumumab-FOLFOX4 treatment and RAS mutations in colorectal cancerN Engl J Med20133691023103410.1056/NEJMoa130527524024839
+30. OginoSChanATFuchsCSGiovannucciEMolecular pathological epidemiology of colorectal neoplasia: an emerging transdisciplinary and interdisciplinary fieldGut20116039741110.1136/gut.2010.21718221036793PMC3040598
+31. OginoSStampferMLifestyle factors and microsatellite instability in colorectal cancer: the evolving field of molecular pathological epidemiologyJ Natl Cancer Inst201010236536710.1093/jnci/djq03120208016PMC2841039
+32. TongJHLungRWSinFMLawPPKangWChanAWMaBBMakTWNgSSToKFCharacterization of rare transforming mutations in sporadic colorectal cancerCancer Biol Therin press10.4161/cbt.28550PMC404979224642870
+33. VaughnCPZobellSDFurtadoLVBakerCLSamowitzWSFrequency of KRAS, BRAF, and NRAS mutations in colorectal cancerGenes Chromosomes Cancer20115030731210.1002/gcc.2085421305640
+34. The Cancer Genome Atlas NetworkComprehensive molecular characterization of human colon and rectal cancerNature201248733033710.1038/nature1125222810696PMC3401966
+35. GaedckeJGradeMJungKSchirmerMJoPObermeyerCWolffHAHerrmannMKBeissbarthTBeckerHRiedTGhadimiMKRAS and BRAF mutations in patients with rectal cancer treated with preoperative chemoradiotherapyRadiother Oncol201094768110.1016/j.radonc.2009.10.00119913317PMC7373270
+36. ChangYSYehKTChangTJChaiCLuHCHsuNCChangJGFast simultaneous detection of K-RAS mutations in colorectal cancerBMC Cancer2009917910.1186/1471-2407-9-17919515263PMC2702390
+37. VakianiEJanakiramanMShenRSinhaRZengZShiaJCercekAKemenyND’AngelicaMVialeAHeguyAPatyPChanTASaltzLBWeiserMSolitDBComparative genomic analysis of primary versus metastatic colorectal carcinomasJ Clin Oncol2012302956296210.1200/JCO.2011.38.299422665543PMC3417049
+38. BandoHYoshinoTShinozakiENishinaTYamazakiKYamaguchiKYukiSKajiuraSFujiiSYamanakaTTsuchiharaKOhtsuASimultaneous identification of 36 mutations in KRAS codons 61and 146, BRAF, NRAS, and PIK3CA in a single reaction by multiplex assay kitBMC Cancer20131340510.1186/1471-2407-13-40524006859PMC3844320
+39. EdkinsSO’MearaSParkerAStevensCReisMJonesSGreenmanCDaviesHDalglieshGForbesSHunterCSmithRStephensPGoldstrawPNicholsonAChanTLVelculescuVEYuenSTLeungSYStrattonMRFutrealPARecurrent KRAS codon 146 mutations in human colorectal cancerCancer Biol Ther2006592893210.4161/cbt.5.8.325116969076PMC2714972
+40. SmithGBoundsRWolfHSteeleRJCareyFAWolfCRActivating K-Ras mutations outwith ‘hotspot’ codons in sporadic colorectal tumours - implications for personalised cancer medicineBr J Cancer201010269370310.1038/sj.bjc.660553420147967PMC2837563
+41. PentheroudakisGKotoulaVDe RoockWKouvatseasGPapakostasPMakatsorisTPapamichaelDXanthakisISgourosJTelevantouDKafiriGTsamandasACRazisEGalaniEBafaloukosDEfstratiouIBompolakiIPectasidesDPavlidisNTejparSFountzilasGBiomarkers of benefit from cetuximab-based therapy in metastatic colorectal cancer: interaction of EGFR ligand expression with RAS/RAF, PIK3CA genotypesBMC Cancer2013134910.1186/1471-2407-13-4923374602PMC3599697
+42. FadhilWIbrahemSSethRAbuAliGRagunathKKayePIlyasMThe utility of diagnostic biopsy specimens for predictive molecular testing in colorectal cancerHistopathology2012611117112410.1111/j.1365-2559.2012.04321.x22882224
+43. SeymourMTBrownSRMiddletonGMaughanTRichmanSGwytherSLoweCSeligmannJFWadsleyJMaiseyNChauIHillMDawsonLFalkSO’CallaghanABensteadKChambersPOliverAMarshallHNappVQuirkePPanitumumab and irinotecan versus irinotecan alone for patients with KRAS wild-type, fluorouracil-resistant advanced colorectal cancer (PICCOLO): a prospectively stratified randomised trialLancet Oncol20131474975910.1016/S1470-2045(13)70163-323725851PMC3699713
+44. KosmidouVOikonomouEVlassiMAvlonitisSKatseliATsiprasIMourtzoukouDKontogeorgosGZografosGPintzasATumor heterogeneity revealed by KRAS, BRAF, and PIK3CA pyrosequencing: KRAS and PIK3CA intratumor mutation profile differences and their therapeutic implicationsHum Mutat20143532934010.1002/humu.2249624352906
+45. RichmanSDSeymourMTChambersPElliottFDalyCLMeadeAMTaylorGBarrettJHQuirkePKRAS and BRAF mutations in advanced colorectal cancer are associated with poor prognosis but do not preclude benefit from oxaliplatin or irinotecan: results from the MRC FOCUS trialJ Clin Oncol2009275931593710.1200/JCO.2009.22.429519884549
+46. ShenYWangJHanXYangHWangSLinDShiYEffectors of epidermal growth factor receptor pathway: the genetic profiling ofKRAS, BRAF, PIK3CA, NRAS mutations in colorectal cancer characteristics and personalized medicinePLoS One20138e8162810.1371/journal.pone.008162824339949PMC3858242
+47. WangJYangHShenYWangSLinDMaLHanXShiYDirect sequencing is a reliable assay with good clinical applicability for KRAS mutation testing in colorectal cancerCancer Biomark20131389972383813710.3233/CBM-130334PMC12928280
+48. PeetersMOlinerKSParkerASienaSVan CutsemEHuangJHumbletYVan LaethemJLAndreTWiezorekJReeseDPattersonSDMassively parallel tumor multigene sequencing to evaluate response to panitumumab in a randomized phase III study of metastatic colorectal cancerClin Cancer Res2013191902191210.1158/1078-0432.CCR-12-191323325582
+49. FumagalliDGavinPGTaniyamaYKimSIChoiHJPaikSPogue-GeileKLA rapid, sensitive, reproducible and cost-effective method for mutation profiling of colon cancer and metastatic lymph nodesBMC Cancer20101010110.1186/1471-2407-10-10120233444PMC2845115
+50. ChaiyapanWDuangpakdeePBoonpipattanapongTKanngernSSangkhathatSSomatic mutations of K-Ras and BRAF in Thai colorectal cancer and their prognostic valueAsian Pac J Cancer Prev20131432933210.7314/APJCP.2013.14.1.32923534748
+51. SundstromMEdlundKLindellMGlimeliusBBirgissonHMickePBotlingJKRAS analysis in colorectal carcinoma: analytical aspects of Pyrosequencing and allele-specific PCR in clinical practiceBMC Cancer20101066010.1186/1471-2407-10-66021122130PMC3002357
+52. LurkinIStoehrRHurstCDvan TilborgAAKnowlesMAHartmannAZwarthoffECTwo multiplex assays that simultaneously identify 22 possible mutation sites in the KRAS, BRAF, NRAS and PIK3CA genesPLoS One20105e880210.1371/journal.pone.000880220098682PMC2809099
+53. KimMJLeeHSKimJHKimYJKwonJHLeeJOBangSMParkKUKimDWKangSBKimJSLeeJSLeeKWDifferent metastatic pattern according to the KRAS mutational status and site-specific discordance of KRAS status in patients with colorectal cancerBMC Cancer20121234710.1186/1471-2407-12-34722876814PMC3488475
+54. NetzelBCGrebeSKCompanion-diagnostic testing limited to KRAS codons 12 and 13 misses 17% of potentially relevant RAS mutations in colorectal cancerClin Chim Acta2013425C122383206610.1016/j.cca.2013.06.025
+55. MolinariFFelicioniLBuscarinoMDe DossoSButtittaFMalatestaSMoviliaALuoniMBoldoriniRAlabisoOGirlandoSSoiniBSpitaleADi NicolantonioFSalettiPCrippaSMazzucchelliLMarchettiABardelliAFrattiniMIncreased detection sensitivity for KRAS mutations enhances the prediction of anti-EGFR monoclonal antibody resistance in metastatic colorectal cancerClin Cancer Res2011174901491410.1158/1078-0432.CCR-10-313721632860
+56. KimSYShimEKYeoHYBaekJYHongYSKimDYKimTWKimJHImSAJungKHChangHJKRAS mutation status and clinical outcome of preoperative chemoradiation with cetuximab in locally advanced rectal cancer: a pooled analysis of 2 phase II trialsInt J Radiat Oncol Biol Phys20138520120710.1016/j.ijrobp.2012.03.04822672749
+57. AndreTBlonsHMabroMChibaudelBBachetJBTournigandCBennamounMArtruPNguyenSEbenezerCAissatNCayreAPenault-LlorcaFLaurent-PuigPde GramontAGercor. Panitumumab combined with irinotecan for patients with KRAS wild-type metastatic colorectal cancer refractory to standard chemotherapy: a GERCOR efficacy, tolerance, and translational molecular studyAnn Oncol20132441241910.1093/annonc/mds46523041588
+58. LewandowskaMAJozwickiWZurawskiBKRAS and BRAF mutation analysis in colorectal adenocarcinoma specimens with a low percentage of tumor cellsMol Diagn Ther20131719320310.1007/s40291-013-0025-823606169PMC3663254
+59. WinderTMundleinARhombergSDirschmidKHartmannBLKnauerMDrexelHWenzlEDe VriesALangADifferent types of K-Ras mutations are conversely associated with overall survival in patients with colorectal cancerOncol Rep200921128312871936030510.3892/or_00000352
+60. BishehsariFMahdaviniaMMalekzadehRVerginelliFCatalanoTSotoudehMBazanVAgneseVEspositoDLDe LellisLSemeraroDColucciGHormazdiMRakhshaniNCamaAPiantelliMIacobelliSRussoAMariani-CostantiniRPatterns of K-ras mutation in colorectal carcinomas from Iran and Italy (a Gruppo Oncologico dell’Italia Meridionale study): influence of microsatellite instability status and country of originAnn Oncol200617Suppl 7vii91vii961676030210.1093/annonc/mdl959
+61. Luna-PerezPSeguraJAlvaradoILabastidaSSantiago-PayanHQuinteroASpecific c-K-ras gene mutations as a tumor-response marker in locally advanced rectal cancer treated with preoperative chemoradiotherapyAnn Surg Oncol2000772773110.1007/s10434-000-0727-011129419
+62. ServomaaKKiuruAKosmaVMHirvikoskiPRytomaaTp53 and K-ras gene mutations in carcinoma of the rectum among Finnish womenMol Pathol200053243010.1136/mp.53.1.2410884918PMC1186898
+63. VogelsteinBFearonERHamiltonSRKernSEPreisingerACLeppertMNakamuraYWhiteRSmitsAMBosJLGenetic alterations during colorectal-tumor developmentN Engl J Med198831952553210.1056/NEJM1988090131909012841597
+64. PoehlmannAKuesterDMeyerFLippertHRoessnerASchneider-StockRK-ras mutation detection in colorectal cancer using the Pyrosequencing techniquePathol Res Pract200720348949710.1016/j.prp.2007.06.00117629419
+65. BosJLFearonERHamiltonSRVerlaan-de VriesMvan BoomJHvan der EbAJVogelsteinBPrevalence of ras gene mutations in human colorectal cancersNature198732729329710.1038/327293a03587348
+66. ShenHYuanYHuHGZhongXYeXXLiMDFangWJZhengSClinical significance of K-ras and BRAF mutations in Chinese colorectal cancer patientsWorld J Gastroenterol20111780981610.3748/wjg.v17.i6.80921390154PMC3042662
+67. WistubaIIBehrensCAlbores-SaavedraJDelgadoRLopezFGazdarAFDistinct K-ras mutation pattern characterizes signet ring cell colorectal carcinomaClin Cancer Res200393615361914506148
+68. StefaniusKYlitaloLTuomistoAKuivilaRKantolaTSirnioPKarttunenTJMakinenMJFrequent mutations of KRAS in addition to BRAF in colorectal serrated adenocarcinomaHistopathology20115867969210.1111/j.1365-2559.2011.03821.x21457162PMC3107946
+69. OzenFOzdemirSZemheriEHacimutoGSilanFOzdemirOThe proto-oncogene KRAS and BRAF profiles and some clinical characteristics in colorectal cancer in the Turkish populationGenet Test Mol Biomarkers20131713513910.1089/gtmb.2012.029023297805
+70. DelordJPTaberneroJGarcia-CarboneroRCervantesAGomez-RocaCBergeYCapdevilaJPaz-AresLRodaDDelmarPOppenheimDBrossardSSFarzanehFManentiLPassioukovAOttMGSoriaJCOpen-label, multicentre expansion cohort to evaluate imgatuzumab in pre-treated patients with KRAS-mutant advanced colorectal carcinomaEur J Cancer20145049650510.1016/j.ejca.2013.10.01524262587
+71. TianSSimonIMorenoVRoepmanPTaberneroJSnelMVan’t VeerLSalazarRBernardsRCapellaGA combined oncogenic pathway signature of BRAF, KRAS and PI3KCA mutation improves colorectal cancer classification and cetuximab treatment predictionGut20136254054910.1136/gutjnl-2012-30242322798500PMC3596735
+72. OliveiraCWestraJLArangoDOllikainenMDomingoEFerreiraAVelhoSNiessenRLagerstedtKAlhopuroPLaihoPVeigaITeixeiraMRLigtenbergMKleibeukerJHSijmonsRHPlukkerJTImaiKLagePHamelinRAlbuquerqueCSchwartzSJrLindblomAPeltomakiPYamamotoHAaltonenLASerucaRHofstraRMDistinct patterns of KRAS mutations in colorectal carcinomas according to germline mismatch repair defects and hMLH1 methylation statusHum Mol Genet2004132303231110.1093/hmg/ddh23815294875
+73. HarleABusserBRouyerMHarterVGeninPLerouxAMerlinJLComparison of COBAS 4800 KRAS, TaqMan PCR and high resolution melting PCR assays for the detection of KRAS somatic mutations in formalin-fixed paraffin embedded colorectal carcinomasVirchows Arch201346232933510.1007/s00428-013-1380-x23400679
+74. RichmanSDChambersPSeymourMTDalyCGrantSHemmingsGQuirkePIntra-tumoral heterogeneity of KRAS and BRAF mutation status in patients with advanced colorectal cancer (aCRC) and cost-effectiveness of multiple sample testingAnal Cell Pathol (Amst)20113461662148310410.3233/ACP-2011-0005PMC4605581
+75. OginoSKawasakiTBrahmandamMYanLCantorMNamgyalCMino-KenudsonMLauwersGYLodaMFuchsCSSensitive sequencing method for KRAS mutation detection by PyrosequencingJ Mol Diagn2005741342110.1016/S1525-1578(10)60571-516049314PMC1867544
+76. KosticADGeversDPedamalluCSMichaudMDukeFEarlAMOjesinaAIJungJBassAJTaberneroJBaselgaJLiuCShivdasaniRAOginoSBirrenBWHuttenhowerCGarrettWSMeyersonMGenomic analysis identifies association of Fusobacterium with colorectal carcinomaGenome Res20122229229810.1101/gr.126573.11122009990PMC3266036
+77. GaurSChenLAnnVLinWCWangYChangVHHsuNYShiaHSYenYDovitinib synergizes with oxaliplatin in suppressing cell proliferation and inducing apoptosis in colorectal cancer cells regardless of RAS-RAF mutation statusMol Cancer2014132110.1186/1476-4598-13-2124495750PMC3996163
+78. DuanFTQianFFangKLinKYWangWTChenYQmiR-133b, a muscle-specific microRNA, is a novel prognostic marker that participates in the progression of human colorectal cancer via regulation of CXCR4 expressionMol Cancer20131216410.1186/1476-4598-12-16424330809PMC3866930
+79. GuoHChenYHuXQianGGeSZhangJThe regulation of Toll-like receptor 2 by miR-143 suppresses the invasion and migration of a subset of human colorectal carcinoma cellsMol Cancer2013127710.1186/1476-4598-12-7723866094PMC3750391
+80. WuWYangJFengXWangHYeSYangPTanWWeiGZhouYMicroRNA-32 (miR-32) regulates phosphatase and tensin homologue (PTEN) expression and promotes growth, migration, and invasion in colorectal carcinoma cellsMol Cancer2013123010.1186/1476-4598-12-3023617834PMC3653742
+81. ZorattoFRossiLVerricoMPapaABassoEZulloATomaoLRomitiARussoGTomaoSFocus on genetic and epigenetic events of colorectal cancer pathogenesis: implications for molecular diagnosisTumour Biol2014doi:10.1007/s13277-014-1845-910.1007/s13277-014-1845-925051912
+82. YoonHHTougeronDShiQAlbertsSRMahoneyMRNelsonGDNairSGThibodeauSNGoldbergRMSargentDJSinicropeFAKRAS codon 12 and 13 mutations in relation to disease-free survival in BRAF-wild type stage III colon cancers from an adjuvant chemotherapy trial (N0147 Alliance)Clin Cancer Res2014in press10.1158/1078-0432.CCR-13-3140PMC404032624687927
+83. TougeronDShaDManthravadiSSinicropeFAAspirin and colorectal cancer: back to the futureClin Cancer Res2014201087109410.1158/1078-0432.CCR-13-256324327271PMC3947439
+84. KimALeeJELeeSSKimCLeeSJJangWSParkSCoexistent mutations of KRAS and PIK3CA affect the efficacy of NVP-BEZ235, a dual PI3K/MTOR inhibitor, in regulating the PI3K/MTOR pathway in colorectal cancerInt J Cancer201313398499610.1002/ijc.2807323475782
+85. OginoSKawasakiTNoshoKOhnishiMSuemotoYKirknerGJFuchsCSLINE-1 hypomethylation is inversely associated with microsatellite instability and CpG island methylator phenotype in colorectal cancerInt J Cancer20081222767277310.1002/ijc.2347018366060PMC2630175
+86. BollagGMcCormickFIntrinsic and GTPase-activating protein-stimulated Ras GTPase assaysMethods Enzymol1995255161170852410010.1016/s0076-6879(95)55020-8
+87. JohnJFrechMWittinghoferABiochemical properties of Ha-ras encoded p21 mutants and mechanism of the autophosphorylation reactionJ Biol Chem198826311792117993042780
+88. AndreyevHJNormanARCunninghamDOatesJDixBRIacopettaBJYoungJWalshTWardRHawkinsNBeranekMJandikPBenamouzigRJullianELaurent-PuigPOlschwangSMullerOHoffmannIRabesHMZietzCTroungosCValavanisCYuenSTHoJWCrokeCTO’DonoghueDPGiarettiWRapalloARussoABazanVKirsten ras mutations in patients with colorectal cancer: the ‘RASCAL II’ studyBr J Cancer20018569269610.1054/bjoc.2001.196411531254PMC2364126
+89. OginoSMeyerhardtJAIraharaNNiedzwieckiDHollisDSaltzLBMayerRJSchaeferPWhittomRHantelABensonAB3rdGoldbergRMBertagnolliMMFuchsCSCancer, Leukemia Group B, North Central Cancer Treatment G, Canadian Cancer Society Research I, Southwest Oncology GKRAS mutation in stage III colon cancer and clinical outcome following intergroup trial CALGB 89803Clin Cancer Res2009157322732910.1158/1078-0432.CCR-09-157019934290PMC2787689
+90. RothADTejparSDelorenziMYanPFioccaRKlingbielDDietrichDBiesmansBBodokyGBaroneCArandaENordlingerBCisarLLabiancaRCunninghamDVan CutsemEBosmanFPrognostic role of KRAS and BRAF in stage II and III resected colon cancer: results of the translational study on the PETACC-3, EORTC 40993, SAKK 60–00 trialJ Clin Oncol20102846647410.1200/JCO.2009.23.345220008640
+91. HutchinsGSouthwardKHandleyKMagillLBeaumontCStahlschmidtJRichmanSChambersPSeymourMKerrDGrayRQuirkePValue of mismatch repair, KRAS, and BRAF mutations in predicting recurrence and benefits from chemotherapy in colorectal cancerJ Clin Oncol2011291261127010.1200/JCO.2010.30.136621383284
+92. PhippsAIBuchananDDMakarKWWinAKBaronJALindorNMPotterJDNewcombPAKRAS-mutation status in relation to colorectal cancer survival: the joint impact of correlated tumour markersBr J Cancer20131081757176410.1038/bjc.2013.11823511557PMC3668469
+93. MessnerICadedduGHuckenbeckWKnowlesHJGabbertHEBaldusSESchaeferKLKRAS p.G13D mutations are associated with sensitivity to anti-EGFR antibody treatment in colorectal cancer cell linesJ Cancer Res Clin Oncol201313920120910.1007/s00432-012-1319-723015072PMC11824176
+94. OginoSNoshoKIraharaNMeyerhardtJABabaYShimaKGlickmanJNFerroneCRMino-KenudsonMTanakaNDranoffGGiovannucciELFuchsCSLymphocytic reaction to colorectal cancer is associated with longer survival, independent of lymph node count, microsatellite instability, and CpG island methylator phenotypeClin Cancer Res2009156412642010.1158/1078-0432.CCR-09-143819825961PMC2771425

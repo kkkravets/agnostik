@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PubMed Research Briefing: breast invasive carcinoma</title>
+<style>
+:root {
+  /* Brand palette */
+  --cb-green-900: #1b5e20;
+  --cb-green-700: #2e7d32;
+  --cb-green-500: #43a047;
+  --cb-green-100: #e8f5e9;
+  --cb-green-50:  #f1f8e9;
+
+  /* Severity */
+  --cb-red-700:   #c62828;
+  --cb-red-100:   #ffebee;
+  --cb-red-50:    #fff5f5;
+  --cb-amber-700: #f57f17;
+  --cb-amber-100: #fff8e1;
+  --cb-grey-700:  #616161;
+  --cb-grey-500:  #9e9e9e;
+  --cb-grey-300:  #e0e0e0;
+  --cb-grey-100:  #f5f5f5;
+  --cb-grey-50:   #fafafa;
+
+  /* Surfaces */
+  --cb-bg:        #fafafa;
+  --cb-surface:   #ffffff;
+  --cb-text:      #212121;
+  --cb-text-secondary: #616161;
+  --cb-border:    #e0e0e0;
+
+  /* Spacing */
+  --cb-space-xs: 4px;
+  --cb-space-sm: 8px;
+  --cb-space-md: 16px;
+  --cb-space-lg: 24px;
+  --cb-space-xl: 32px;
+  --cb-space-2xl: 48px;
+
+  /* Radii */
+  --cb-radius-sm: 6px;
+  --cb-radius-md: 10px;
+  --cb-radius-lg: 16px;
+
+  /* Shadows */
+  --cb-shadow-sm: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.06);
+  --cb-shadow-md: 0 4px 6px rgba(0,0,0,0.07), 0 2px 4px rgba(0,0,0,0.06);
+
+  /* Backward-compat aliases */
+  --clawbio-green: var(--cb-green-700);
+  --clawbio-amber: var(--cb-amber-700);
+  --clawbio-red: var(--cb-red-700);
+  --clawbio-grey: var(--cb-grey-700);
+  --clawbio-bg: var(--cb-bg);
+  --clawbio-card-bg: var(--cb-surface);
+}
+*, *::before, *::after { box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  color: var(--cb-text);
+  background: var(--cb-bg);
+  margin: 0;
+  padding: var(--cb-space-md);
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1 { color: var(--cb-green-700); border-bottom: 3px solid var(--cb-green-700); padding-bottom: 8px; }
+h2 { color: #424242; margin-top: var(--cb-space-xl); }
+h3 { color: var(--cb-grey-700); margin-top: var(--cb-space-lg); }
+
+/* Branded header */
+.report-header {
+  background: linear-gradient(135deg, #1b5e20 0%, #2e7d32 50%, #388e3c 100%);
+  color: white;
+  padding: var(--cb-space-lg) var(--cb-space-xl);
+  border-radius: var(--cb-radius-lg);
+  margin: 0 0 var(--cb-space-xl) 0;
+  position: relative;
+  overflow: hidden;
+}
+.report-header .header-logo {
+  position: absolute;
+  right: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0.10;
+  width: 200px;
+  height: 200px;
+}
+.report-header h1 {
+  margin: 0; font-size: 1.8em; font-weight: 700; border: none; padding: 0;
+  color: white; letter-spacing: -0.02em; position: relative;
+}
+.report-header .subtitle {
+  margin: var(--cb-space-xs) 0 0 0; font-size: 0.95em; opacity: 0.9; font-weight: 400;
+  position: relative;
+}
+
+/* Metadata block */
+.metadata { background: var(--cb-green-100); border-radius: var(--cb-radius-sm); padding: 12px 16px; margin-bottom: var(--cb-space-lg); }
+.metadata p { margin: 4px 0; font-size: 0.95em; }
+.metadata strong { color: var(--cb-green-900); }
+
+/* Tables */
+table { width: 100%; border-collapse: collapse; margin: var(--cb-space-md) 0; font-size: 0.9em; }
+th { background: var(--cb-green-100); color: var(--cb-green-900); text-align: left; padding: 10px 12px; border-bottom: 2px solid #a5d6a7; }
+td { padding: 8px 12px; border-bottom: 1px solid var(--cb-border); }
+tr:nth-child(even) { background: var(--cb-grey-100); }
+tr:hover { background: var(--cb-green-100); }
+
+/* Table wrapper for mobile scroll */
+.table-wrap {
+  overflow-x: auto; -webkit-overflow-scrolling: touch;
+  margin: var(--cb-space-md) 0; border-radius: var(--cb-radius-md); border: 1px solid var(--cb-border);
+}
+.table-wrap table { margin: 0; border: none; }
+
+/* Severity-banded table rows */
+tr.row-avoid { background: var(--cb-red-50); }
+tr.row-avoid:hover { background: var(--cb-red-100); }
+tr.row-caution { background: #fffde7; }
+tr.row-caution:hover { background: var(--cb-amber-100); }
+tr.row-indeterminate { background: var(--cb-grey-50); }
+tr.row-indeterminate:hover { background: var(--cb-grey-100); }
+tr.row-standard { background: var(--cb-green-50); }
+tr.row-standard:hover { background: var(--cb-green-100); }
+
+/* Badges */
+.badge { display: inline-flex; align-items: center; gap: 4px; padding: 3px 12px;
+         border-radius: 20px; font-size: 0.78em; font-weight: 700;
+         text-transform: uppercase; letter-spacing: 0.05em; white-space: nowrap; }
+.badge-standard { background: #c8e6c9; color: #1b5e20; }
+.badge-caution { background: #fff9c4; color: #e65100; }
+.badge-avoid { background: #ffcdd2; color: #b71c1c; }
+.badge-indeterminate { background: #e0e0e0; color: #424242; }
+
+/* Alert boxes */
+.alert-box { border-left: 4px solid; border-radius: var(--cb-radius-sm); padding: 12px 16px; margin: 12px 0; }
+.alert-box-avoid { border-color: var(--cb-red-700); background: var(--cb-red-100); }
+.alert-box-caution { border-color: var(--cb-amber-700); background: var(--cb-amber-100); }
+.alert-box-info { border-color: var(--cb-grey-700); background: var(--cb-grey-100); }
+.alert-box h4 { margin: 0 0 8px 0; }
+.alert-box-avoid h4 { color: var(--cb-red-700); }
+.alert-box-caution h4 { color: var(--cb-amber-700); }
+.alert-box-info h4 { color: var(--cb-grey-700); }
+
+/* Summary cards */
+.summary-cards {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: var(--cb-space-md); margin: var(--cb-space-md) 0 var(--cb-space-xl) 0;
+}
+.summary-card {
+  background: var(--cb-surface); border-radius: var(--cb-radius-md);
+  padding: var(--cb-space-lg) var(--cb-space-md); text-align: center;
+  box-shadow: var(--cb-shadow-sm); border-top: 4px solid transparent;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+.summary-card:hover { box-shadow: var(--cb-shadow-md); transform: translateY(-2px); }
+.summary-card .count { font-size: 2.5em; font-weight: 800; display: block; line-height: 1.1; }
+.summary-card .label {
+  font-size: 0.8em; text-transform: uppercase; letter-spacing: 0.08em;
+  color: var(--cb-text-secondary); margin-top: var(--cb-space-xs); display: block;
+}
+.summary-card.avoid { border-top-color: var(--cb-red-700); }
+.summary-card.avoid .count { color: var(--cb-red-700); }
+.summary-card.caution { border-top-color: var(--cb-amber-700); }
+.summary-card.caution .count { color: var(--cb-amber-700); }
+.summary-card.standard { border-top-color: var(--cb-green-700); }
+.summary-card.standard .count { color: var(--cb-green-700); }
+.summary-card.indeterminate { border-top-color: var(--cb-grey-500); }
+.summary-card.indeterminate .count { color: var(--cb-grey-500); }
+
+/* Executive summary */
+.exec-summary {
+  margin: var(--cb-space-lg) 0;
+}
+.exec-summary h3 { margin: 0 0 var(--cb-space-sm) 0; color: var(--cb-green-900); font-size: 1.1em; }
+.exec-summary-grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--cb-space-md); }
+.exec-stat {
+  display: flex; align-items: flex-start; gap: var(--cb-space-md);
+  background: var(--cb-surface); border: 1px solid var(--cb-border);
+  border-left: 4px solid var(--cb-grey-300); border-radius: var(--cb-radius-sm);
+  padding: var(--cb-space-md); box-shadow: var(--cb-shadow-sm);
+}
+.exec-stat.stat-avoid { border-left-color: var(--cb-red-700); }
+.exec-stat.stat-caution { border-left-color: var(--cb-amber-700); }
+.exec-stat.stat-ok { border-left-color: var(--cb-green-700); }
+.exec-stat .stat-icon { font-size: 1.6em; flex-shrink: 0; line-height: 1; }
+.exec-stat .stat-text { font-size: 0.9em; line-height: 1.5; color: var(--cb-text-secondary); }
+.exec-stat .stat-text strong { display: block; font-size: 1.05em; color: var(--cb-text); margin-bottom: 2px; }
+
+/* Donut chart */
+.donut-chart-section {
+  display: flex; align-items: center; gap: var(--cb-space-xl);
+  margin: var(--cb-space-lg) 0; flex-wrap: wrap; justify-content: center;
+}
+.donut-chart-section svg { flex-shrink: 0; }
+.donut-legend { display: flex; flex-direction: column; gap: var(--cb-space-sm); }
+.donut-legend-item { display: flex; align-items: center; gap: var(--cb-space-sm); font-size: 0.9em; }
+.donut-legend-swatch { width: 14px; height: 14px; border-radius: 3px; flex-shrink: 0; }
+
+/* Progress bars */
+.progress-bar-container {
+  width: 100%; background: var(--cb-grey-300); border-radius: 20px;
+  overflow: hidden; height: 12px; margin: var(--cb-space-xs) 0;
+}
+.progress-bar-fill { height: 100%; border-radius: 20px; }
+.progress-bar-fill.fill-green { background: linear-gradient(90deg, #43a047, #2e7d32); }
+.progress-bar-fill.fill-amber { background: linear-gradient(90deg, #ffa726, #f57f17); }
+.progress-bar-fill.fill-red { background: linear-gradient(90deg, #ef5350, #c62828); }
+.progress-bar-fill.fill-grey { background: linear-gradient(90deg, #bdbdbd, #757575); }
+
+/* Disclaimer */
+.disclaimer { background: #fff3e0; border: 1px solid #ffcc80; border-radius: var(--cb-radius-sm);
+              padding: var(--cb-space-xs) var(--cb-space-md); margin: 0 0 var(--cb-space-sm) 0; font-size: 0.8em; color: #e65100; line-height: 1.4; }
+.disclaimer-bottom { margin: var(--cb-space-xl) 0 0 0; }
+
+/* Gene links (smaller text) */
+.gene-links { font-size: 0.82em; line-height: 1.6; }
+
+/* Collapsible details */
+details { border: 1px solid var(--cb-border); border-radius: var(--cb-radius-md); margin: var(--cb-space-md) 0; overflow: hidden; }
+details summary {
+  cursor: pointer; padding: var(--cb-space-md); font-weight: 600; color: var(--cb-text);
+  background: var(--cb-grey-50); border-radius: var(--cb-radius-md);
+  list-style: none; display: flex; align-items: center; justify-content: space-between;
+}
+details summary::-webkit-details-marker { display: none; }
+details summary::after {
+  content: "\25B6"; font-size: 0.7em; color: var(--cb-grey-500); transition: transform 0.2s ease;
+}
+details[open] summary::after { transform: rotate(90deg); }
+details[open] summary { border-bottom: 1px solid var(--cb-border); border-radius: var(--cb-radius-md) var(--cb-radius-md) 0 0; }
+details > :not(summary) { padding: 0 var(--cb-space-md); }
+
+/* Branded footer */
+.report-footer {
+  margin-top: var(--cb-space-2xl); padding-top: var(--cb-space-lg);
+  border-top: 2px solid var(--cb-green-100); text-align: center;
+  color: var(--cb-text-secondary); font-size: 0.85em;
+}
+.report-footer .footer-brand { font-weight: 700; color: var(--cb-green-700); }
+
+/* Responsive */
+@media (max-width: 600px) {
+  body { padding: var(--cb-space-sm); }
+  table { font-size: 0.8em; }
+  th, td { padding: 6px 8px; }
+  .summary-cards { grid-template-columns: repeat(2, 1fr); }
+  .summary-card { padding: var(--cb-space-md); }
+  .summary-card .count { font-size: 1.8em; }
+  .exec-summary-grid { grid-template-columns: 1fr; }
+  .report-header { padding: var(--cb-space-md); }
+  .report-header h1 { font-size: 1.4em; }
+}
+
+/* Evidence badges */
+.badge-evidence-high { background: #c8e6c9; color: #1b5e20; }
+.badge-evidence-moderate { background: #bbdefb; color: #0d47a1; }
+.badge-evidence-low { background: #fff9c4; color: #e65100; }
+.badge-evidence-minimal { background: #e0e0e0; color: #424242; }
+.badge-evidence-na { background: #e0e0e0; color: #757575; }
+.evidence-verified { color: #2e7d32; font-size: 0.82em; font-weight: 600; }
+.evidence-unverified { color: #9e9e9e; font-size: 0.82em; font-style: italic; }
+.evidence-source { color: #757575; font-size: 0.78em; display: block; margin-top: 2px; }
+.rec-action { margin: 4px 0 0; font-size: 0.88em; line-height: 1.5; }
+.evidence-recs { margin-top: 6px; padding-top: 6px; border-top: 1px solid var(--cb-grey-300); font-size: 0.78em; line-height: 1.5; }
+.evidence-rec-source {
+  display: inline-block; font-weight: 700; color: #fff; background: var(--cb-green-700);
+  border-radius: 3px; padding: 0 5px; font-size: 0.85em; margin-right: 4px; vertical-align: middle;
+}
+.evidence-rec-text { color: var(--cb-text-secondary); }
+
+/* Print */
+@media print {
+  body { background: white; max-width: 100%; padding: 0; }
+  .report-header { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .summary-card { break-inside: avoid; box-shadow: none; border: 1px solid #ccc; }
+  details { break-inside: avoid; }
+  .disclaimer { break-inside: avoid; }
+  a::after { content: " (" attr(href) ")"; font-size: 0.8em; color: #666; }
+  tr { break-inside: avoid; }
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="report-header"><svg class="header-logo" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><g fill="white" fill-rule="evenodd"><path d="M60 30 C55 80, 40 130, 50 170 C55 175, 65 175, 68 168 C78 130, 70 80, 75 35 Z"/><path d="M95 20 C90 75, 85 130, 90 175 C93 182, 103 182, 106 175 C111 130, 106 75, 101 20 Z"/><path d="M132 30 C137 80, 152 130, 142 170 C139 175, 129 175, 126 168 C116 130, 124 80, 119 35 Z"/></g></svg><h1>PubMed Research Briefing: breast invasive carcinoma</h1><p class="subtitle">5 recent English-language papers</p></div>
+<div class="metadata"><p><strong>Query:</strong> breast invasive carcinoma</p><p><strong>Results:</strong> 5</p><p><strong>Sorted by:</strong> Date (newest first)</p><p><strong>Language filter:</strong> English only</p></div>
+<div class="disclaimer"><strong>Disclaimer:</strong> ClawBio is a research and educational tool. It is not a medical device and does not provide clinical diagnoses. Consult a healthcare professional before making any medical decisions.</div>
+<h2>Papers</h2>
+<div style='border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin:12px 0;background:#fff;'><h3 style='margin:0 0 8px 0;font-size:1em;'><a href="https://pubmed.ncbi.nlm.nih.gov/42606651/" target='_blank'>1. Multidisciplinary Management Considerations in Invasive Lobular Breast Cancer: It Isn&#x27;t Just Ductal.</a></h3><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Authors:</strong> Beck AC, Carroll EF, Mukhtar RA, et al.</p><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Journal:</strong> Annals of surgical oncology &middot; 2026-08-17</p><p style='margin:8px 0 0 0;font-size:0.9em;'>Invasive lobular carcinoma (ILC) is the second most common histologic subtype of breast cancer and presents histologically with a unique pattern of discohesive growth.</p></div>
+<div style='border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin:12px 0;background:#fff;'><h3 style='margin:0 0 8px 0;font-size:1em;'><a href="https://pubmed.ncbi.nlm.nih.gov/42605478/" target='_blank'>2. Revisiting the Prognostic Significance of CD155 in Invasive Breast Carcinoma.</a></h3><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Authors:</strong> Yılmaz BS</p><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Journal:</strong> Iranian journal of pathology &middot; 2026-08-01</p></div>
+<div style='border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin:12px 0;background:#fff;'><h3 style='margin:0 0 8px 0;font-size:1em;'><a href="https://pubmed.ncbi.nlm.nih.gov/42605446/" target='_blank'>3. Clinicopathological and Immunohistochemical Correlation of Stromal CD10 Expression in Invasive Breast Carcinoma: A Prospective Observational Study.</a></h3><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Authors:</strong> P CK, Ramasamy J, Moorthi V, et al.</p><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Journal:</strong> Iranian journal of pathology &middot; 2026-08-01</p><p style='margin:8px 0 0 0;font-size:0.9em;'>Breast cancer is a major global health concern, with tumor heterogeneity and tumor microenvironment (TME) dynamics limiting the predictive value of conventional prognostic markers such as age, tumor size, grade, nodal status, lymphovascular invasion (LVI), and ER/PR/HER2 status.</p></div>
+<div style='border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin:12px 0;background:#fff;'><h3 style='margin:0 0 8px 0;font-size:1em;'><a href="https://pubmed.ncbi.nlm.nih.gov/42605413/" target='_blank'>4. Metachronous Double Primary Malignancies of Invasive Ductal Carcinoma of the Breast and Primary Ovarian Angiosarcoma.</a></h3><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Authors:</strong> Nugrohowati N, Ratri LA, Kusuma T, et al.</p><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Journal:</strong> Iranian journal of pathology &middot; 2026-08-01</p><p style='margin:8px 0 0 0;font-size:0.9em;'>Primary ovarian angiosarcoma (POA) is an exceptionally rare and aggressive endothelial malignancy, accounting for less than 1% of all ovarian cancers.</p></div>
+<div style='border:1px solid #e0e0e0;border-radius:8px;padding:16px;margin:12px 0;background:#fff;'><h3 style='margin:0 0 8px 0;font-size:1em;'><a href="https://pubmed.ncbi.nlm.nih.gov/42605406/" target='_blank'>5. Clinicopathological significance of lymphovascular invasion in carcinoma breast and its correlation with other Prognostic markers: An experience at a tertiary care centre.</a></h3><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Authors:</strong> Prakash O, Gupta D, Patel T, et al.</p><p style='margin:4px 0;color:#616161;font-size:0.9em;'><strong>Journal:</strong> Nigerian medical journal : journal of the Nigeria Medical Association &middot; 2026-07-10</p><p style='margin:8px 0 0 0;font-size:0.9em;'>Breast cancer is a biologically diverse condition that exhibits varied clinical outcomes and responses to treatment.</p></div>
+<div class="report-footer"><p>Generated by <span class="footer-brand">ClawBio</span> · pubmed-summariser v0.1.0 · 2026-08-18 11:39 UTC</p><p style="font-size:0.8em;margin-top:4px;">Genetic data processed locally. No data was transmitted to external servers.</p></div>
+<div class="disclaimer disclaimer-bottom"><strong>Disclaimer:</strong> ClawBio is a research and educational tool. It is not a medical device and does not provide clinical diagnoses. Consult a healthcare professional before making any medical decisions.</div>
+
+</body>
+</html>

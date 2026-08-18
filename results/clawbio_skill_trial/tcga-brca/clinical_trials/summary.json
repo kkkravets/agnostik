@@ -1,0 +1,346 @@
+{
+  "query": "EGFR breast cancer",
+  "timestamp": "2026-08-18T12:19:59.290404+00:00",
+  "source": "clinicaltrials.gov/api/v2",
+  "total": 10,
+  "recruiting": 1,
+  "trials": [
+    {
+      "nct_id": "NCT01494662",
+      "title": "HKI-272 for HER2-Positive Breast Cancer and Brain Metastases",
+      "status": "COMPLETED",
+      "phase": "PHASE2",
+      "study_type": "INTERVENTIONAL",
+      "start_date": "2012-02",
+      "completion_date": "2024-04-19",
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "condition_meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "interventions": [
+        "HKI-272",
+        "Surgical Resection",
+        "Capecitabine",
+        "HKI-272",
+        "Ado-Trastuzumab Emtansine"
+      ],
+      "summary": "The purpose of this research study is to determine how well neratinib works in treating breast cancer that has spread to the brain. Neratinib is a recently discovered oral drug that may stop breast cancer cells from growing abnormally by inhibiting (or blocking) members of a family of proteins that ..."
+    },
+    {
+      "nct_id": "NCT07180056",
+      "title": "Adjuvant CDK4/6 Inhibitor Use in HR+/HER2- Breast Cancer",
+      "status": "RECRUITING",
+      "phase": "",
+      "study_type": "OBSERVATIONAL",
+      "start_date": "2025-08-28",
+      "completion_date": "2033-02",
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "condition_meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "interventions": [
+        "CDK4/6 inhibitor"
+      ],
+      "summary": "To evaluate the efficacy and safety of adjuvant CDK4/6 inhibitors in patients with hormone receptor-positive/human epidermal growth factor receptor 2-negative breast cancer."
+    },
+    {
+      "nct_id": "NCT02896855",
+      "title": "A Study to Evaluate the Efficacy and Safety of Pertuzumab + Trastuzumab + Docetaxel Versus Placebo + Trastuzumab + Docetaxel in Previously Untreated Human Epidermal Growth Factor Receptor 2 (HER2)-Positive Metastatic Breast Cancer",
+      "status": "COMPLETED",
+      "phase": "PHASE3",
+      "study_type": "INTERVENTIONAL",
+      "start_date": "2016-09-13",
+      "completion_date": "2021-01-22",
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "condition_meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "interventions": [
+        "Docetaxel",
+        "Pertuzumab",
+        "Placebo",
+        "Trastuzumab"
+      ],
+      "summary": "This Phase III, randomized, double-blind, placebo-controlled, multicenter clinical trial in China will evaluate the efficacy and safety of pertuzumab + trastuzumab + docetaxel compared with placebo + trastuzumab + docetaxel in participants with previously untreated HER2-positive metastatic breast ca..."
+    },
+    {
+      "nct_id": "NCT00353717",
+      "title": "Combined Treatment of Cetuximab and Paclitaxel in Basal Like Breast Carcinoma",
+      "status": "UNKNOWN",
+      "phase": "PHASE1 / PHASE2",
+      "study_type": "INTERVENTIONAL",
+      "start_date": "2006-11",
+      "completion_date": "2009-09",
+      "conditions": [
+        "Breast Neoplasms"
+      ],
+      "condition_meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        },
+        {
+          "id": "D002277",
+          "term": "Carcinoma"
+        },
+        {
+          "id": "D009362",
+          "term": "Neoplasm Metastasis"
+        }
+      ],
+      "interventions": [
+        "cetuximab paclitaxel"
+      ],
+      "summary": "Basal like breast carcinoma is a Her2, estrogen receptor (ER) progesterone receptor (PR) negative breast cancer. It is notable for the high level of epidermal growth factor receptor (EGFR) expression in this tumor subtype .\n\nThus the investigators wanted to combine the use of anti EGFR therapy in th..."
+    },
+    {
+      "nct_id": "NCT01441596",
+      "title": "Lux-Breast 3; Afatinib Alone or in Combination With Vinorelbine in Patients With Human Epidermal Growth Factor Receptor 2 (HER2) Positive Breast Cancer Suffering From Brain Metastases",
+      "status": "COMPLETED",
+      "phase": "PHASE2",
+      "study_type": "INTERVENTIONAL",
+      "start_date": "2011-10",
+      "completion_date": "2014-08",
+      "conditions": [
+        "Breast Neoplasms",
+        "Neoplasm Metastasis"
+      ],
+      "condition_meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        },
+        {
+          "id": "D009362",
+          "term": "Neoplasm Metastasis"
+        }
+      ],
+      "interventions": [
+        "Vinorelbine",
+        "Investigator's choice of treatment",
+        "afatinib",
+        "afatinib"
+      ],
+      "summary": "The aim of this study is to investigate the efficacy and safety of afatinib alone or in combination with vinorelbine, as treatment in patients with HER2-overexpressing metastatic breast cancer, who have progressive brain lesions after trastuzumab and/or lapatinib based therapy"
+    },
+    {
+      "nct_id": "NCT01526473",
+      "title": "A Phase I Study To Evaluate The Antitumor Activity And Safety Of AVX901",
+      "status": "COMPLETED",
+      "phase": "PHASE1",
+      "study_type": "INTERVENTIONAL",
+      "start_date": "2012-02",
+      "completion_date": "2017-12",
+      "conditions": [
+        "HER2+ Cancer"
+      ],
+      "condition_meshes": [],
+      "interventions": [
+        "AVX901"
+      ],
+      "summary": "HER2 is a protein that is over expressed in 20-30% of breast cancers. It is also found associated with lung, gastric, ovarian, and pancreatic cancers. Although there are existing therapies that can target HER2, most patients will eventually experience progression of their disease even though their c..."
+    },
+    {
+      "nct_id": "NCT00622674",
+      "title": "Bortezomib and Cetuximab in Treating Patients With Advanced Solid Tumors",
+      "status": "COMPLETED",
+      "phase": "PHASE1",
+      "study_type": "INTERVENTIONAL",
+      "start_date": "2005-11",
+      "completion_date": "2010-02",
+      "conditions": [
+        "Breast Cancer",
+        "Colorectal Cancer",
+        "Head and Neck Cancer",
+        "Kidney Cancer",
+        "Lung Cancer",
+        "Pancreatic Cancer",
+        "Sarcoma",
+        "Unspecified Adult Solid Tumor, Protocol Specific"
+      ],
+      "condition_meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        },
+        {
+          "id": "D015179",
+          "term": "Colorectal Neoplasms"
+        },
+        {
+          "id": "D006258",
+          "term": "Head and Neck Neoplasms"
+        },
+        {
+          "id": "D007680",
+          "term": "Kidney Neoplasms"
+        },
+        {
+          "id": "D008175",
+          "term": "Lung Neoplasms"
+        },
+        {
+          "id": "D010190",
+          "term": "Pancreatic Neoplasms"
+        },
+        {
+          "id": "D012509",
+          "term": "Sarcoma"
+        },
+        {
+          "id": "D002289",
+          "term": "Carcinoma, Non-Small-Cell Lung"
+        },
+        {
+          "id": "D055752",
+          "term": "Small Cell Lung Carcinoma"
+        },
+        {
+          "id": "D003110",
+          "term": "Colonic Neoplasms"
+        },
+        {
+          "id": "D002292",
+          "term": "Carcinoma, Renal Cell"
+        }
+      ],
+      "interventions": [
+        "cetuximab",
+        "bortezomib"
+      ],
+      "summary": "RATIONALE: Bortezomib may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth. Monoclonal antibodies, such as cetuximab, can block tumor growth in different ways. Some block the ability of tumor cells to grow and spread. Others find tumor cells and help kill them or..."
+    },
+    {
+      "nct_id": "NCT02513394",
+      "title": "PALbociclib CoLlaborative Adjuvant Study",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": "PHASE3",
+      "study_type": "INTERVENTIONAL",
+      "start_date": "2015-08",
+      "completion_date": "2028-12",
+      "conditions": [
+        "Breast Cancer"
+      ],
+      "condition_meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "interventions": [
+        "Palbociclib",
+        "Standard Adjuvant Endocrine Therapy"
+      ],
+      "summary": "This is a prospective, two arm, international, multicenter, randomized, open-label Phase III study evaluating the addition of 2 years of palbociclib to standard adjuvant endocrine therapy for patients with HR+ / HER2- early breast cancer (EBC).\n\nThe purpose of the PALLAS study is to determine whethe..."
+    },
+    {
+      "nct_id": "NCT03319459",
+      "title": "FATE-NK100 as Monotherapy and in Combination With Monoclonal Antibody in Subjects With Advanced Solid Tumors",
+      "status": "COMPLETED",
+      "phase": "PHASE1",
+      "study_type": "INTERVENTIONAL",
+      "start_date": "2018-01-18",
+      "completion_date": "2020-12-15",
+      "conditions": [
+        "HER2 Positive Gastric Cancer",
+        "Colorectal Cancer",
+        "Head and Neck Squamous Cell Carcinoma",
+        "EGFR Positive Solid Tumor",
+        "Advanced Solid Tumors",
+        "HER2-positive Breast Cancer",
+        "Hepatocellular Carcinoma",
+        "Non Small Cell Lung Cancer",
+        "Renal Cell Carcinoma",
+        "Pancreatic Cancer",
+        "Melanoma"
+      ],
+      "condition_meshes": [
+        {
+          "id": "D015179",
+          "term": "Colorectal Neoplasms"
+        },
+        {
+          "id": "D000077195",
+          "term": "Squamous Cell Carcinoma of Head and Neck"
+        },
+        {
+          "id": "D006528",
+          "term": "Carcinoma, Hepatocellular"
+        },
+        {
+          "id": "D002289",
+          "term": "Carcinoma, Non-Small-Cell Lung"
+        },
+        {
+          "id": "D002292",
+          "term": "Carcinoma, Renal Cell"
+        },
+        {
+          "id": "D010190",
+          "term": "Pancreatic Neoplasms"
+        },
+        {
+          "id": "D008545",
+          "term": "Melanoma"
+        },
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        },
+        {
+          "id": "D006258",
+          "term": "Head and Neck Neoplasms"
+        },
+        {
+          "id": "D013274",
+          "term": "Stomach Neoplasms"
+        },
+        {
+          "id": "D007680",
+          "term": "Kidney Neoplasms"
+        }
+      ],
+      "interventions": [
+        "FATE-NK100",
+        "Cetuximab",
+        "Trastuzumab"
+      ],
+      "summary": "This is a Phase 1, single-dose, open-label, dose-escalation study. The study will be conducted in three parts (i.e. regimens) in an outpatient setting as follows:\n\n* Regimen A: FATE-NK100 as a monotherapy in subjects with advanced solid tumor malignancies.\n* Regimen B: FATE-NK100 in combination with..."
+    },
+    {
+      "nct_id": "NCT07593196",
+      "title": "HER2-positive Metastatic Breast Cancer in Kazakhstan",
+      "status": "NOT_YET_RECRUITING",
+      "phase": "",
+      "study_type": "OBSERVATIONAL",
+      "start_date": "2026-05-19",
+      "completion_date": "2027-01-30",
+      "conditions": [
+        "Metastatic Breast Cancer"
+      ],
+      "condition_meshes": [
+        {
+          "id": "D001943",
+          "term": "Breast Neoplasms"
+        }
+      ],
+      "interventions": [],
+      "summary": "Planned study population consists of approximately 240 adult patients with HER2-positive mBC receiving anti-HER2 therapy in 12 oncological centers (in each center it is expected to recruit about 20 patients) in different regions in order to provide representative study sample. Patients will be inclu..."
+    }
+  ]
+}

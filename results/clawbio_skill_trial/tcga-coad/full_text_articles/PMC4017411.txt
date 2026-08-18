@@ -1,0 +1,176 @@
+# The role of kras mutations and MSI status in diagnosis of colorectal cancer
+
+Authors: Atena Irani Shemirani, Mahdi Montazer Haghighi, Saman Milanizadeh, Mohammad Yaghoob Taleghani, Seyed Reza Fatemi, Behzad Damavand, Zahra Akbari, Mohammad Reza Zali
+
+Journal: Gastroenterology and Hepatology From Bed to Bench
+
+PMCID: PMC4017411
+
+PMID: 24834160
+
+DOI: 
+
+Canonical source: https://pmc.ncbi.nlm.nih.gov/articles/PMC4017411/
+
+## Abstract
+
+## Aim
+
+The aim of the current investigation was to examine the profile of Kras mutations accompanied with MSI (microsattelite instability) status in polyps and colorectal carcinoma tissues in an Iranian population.
+
+## Background
+
+Kras mutations in colorectal cancer cause resistance to anti-Epidermal Growth Factor Receptor (EGFR). So it can be considered as a true indicator of EGFR pathway activation status. Kras mutations can be detected in approximately 30% to 40% of all patients with colorectal cancer. The most hot spot of the gene is located in exons 2 and 3.
+
+## Patients and methods
+
+In this study we examined exons 2 and 3 Kras gene using polymerase chain reactions and subsequent sequencing of the exons in 95 patients with sporadic colorectal cancer including 48 tumors and 47 polyps. This study was performed using biopsy samples from the patients. We sequenced the Kras gene in a panel of human colorectal tumors and polyps in addition to detecting MSI status using fluorescent technique.
+
+## Results
+
+We could detect 6 mutations in tumors including 5 mutations in codon 12 and one mutation in codon 13. Moreover, in polyps 2 mutations were determined in codon 13 and one in codon 12. Microsatellite instability assay revealed the presence of 5 and 6 MSI in tumors and polyps, respectively. Among the MSI mononucleotide markers, NR-21 marker demonstrated the most frequency (60%) in the both groups.
+
+## Conclusion
+
+Our findings showed that probably the profile of mutations in tumors is not entirely compatible with the pattern of mutations in polyps. However, just one of the mutations, Gly12Asp, was similar in both groups.
+
+## Full article
+
+## Introduction
+
+The development of colorectal cancer (CRC) is a multi-step process characterized by the accumulation of genetic alterations (1). The evolution of colorectal cancer from polyps was first proposed by Morson (2). Since the seminal publication of Vogelstein and Fearon (3), we understand that most colorectal cancers arise in a multistep process progressing from mucosal hyperplasia to adenomas and carcinomas. The transformation of normal colonic epithelium to cancer is a multi-step process which is characterized by activating oncogenes and inactivating tumor suppressor genes. Kras (Kirsten rat sarcoma viral oncogene homologue) is a small GTPase (guanosin triphosphate cleaving enzyme) involved in intracellular signal transduction. It is a member of MAP kinase (MAPK) pathway (4). Kras mutations lead to the deregulation of Kras protein activity, which results in the loss of GTPase activity and gain of oncogenic activity (5). Specific mutations in the Kras gene leads to the formation of constitutively active protein, which triggers the transduction of proliferative and/or differentiative signals, even in the absence of extracellular stimuli (6). Mutations in the Kras gene which are responsible for malignant transformation are point mutations in exons 2 and 3. Kras mutations are observed in approximately 37.4% of the Iranian patients with colorectal cancer.
+
+Mutations in the Kras gene contribute at an early stage to the development in the colon tumourigenesis pathway (7). Kras mutations occur in both microsatellite instable (MSI) in about 20% and Microsatellite stability (MSS) in about 35% subsets of sporadic CRC (8, 9). There have been approximately 3000 kras point mutations in colorectal cancer reported in the literature (10). According to a previous study in Iran, most mutations were in codons 12 and 13 therefore, theses codons were examined. This confirms that codons 12 and 13 are preferentially involved in Iranian population as well (7).
+
+The aim of the study was to evaluate point mutations in exon 2 and 3 Kras gene in 95 carcinomas and polyps samples, furthered by the comparison of mutations profile in the polyp and tumor samples. Moreover, the MSI status in both groups was examined. Finding the probable mutation and most frequent MSI marker will be useful for early detection of sporadic colorectal cancer.
+
+## Patients and Methods
+
+This investigation was a case series study. Samples of cancer and polyps tissues were collected from 95 patients with sporadic colorectal cancers who underwent colonoscopy in Taleghani hospital Tehran from June 2008 to December 2009. The colonoscopy results were confirmed by pathological examinations. Patients with FAP and HNPCC or individuals with familial background were excluded. The use of patient samples was approved by the local ethics committee at Research Center for Gastroenterology and Liver Disease. The patient panel was comprised of 73 men and 22 women, age ranging from 13 to 85 years with a median 49 years. Samples were taken immediately after resection and placed in liquid nitrogen. Genomic DNA was obtained from all colorectal fresh tissue using QiaGen kit. Patients characteristics are presented in Table 1. The 493 bp region in the exon 2 and 402 bp in exon 3 of Kras gene that encompasses the mutation hotspots were amplified by PCR using specific forward and reverse primer, and Taq DNA polymerase (Table 1, Figure 1, 2).
+
+Specific primers for exon 2 and 3
+Name	Gene	Primer Sequence	Tm	Size
+F-exon2	Kras	5′-GACCCTGACATACTCCCAAG-3′	63	493
+R-exon2	Kras	5′-TACAGTTCATTACGATACACG-3′	63	494
+F-exon3	Kras	5′-GACTGTGTTTCTCCCTTCTC-3′	59	402
+R-exon3	Kras	5′-TTTCAATCCCAGCACCACCAC-3′	59	402
+
+Figure 1: PCR-product related to exon2
+
+Figure 2: PCR-product related to exon3
+
+The PCR was conducted with denaturing step at 94 ºC for 5 min, then 30 sec at 94 ºC, 30 sec at 56/63 ºC and 30 sec at 72 ºC for 30 cycles, followed by a final 5 min at 72 ºC. The PCR products were then subjected to direct sequencing using the same primers, and all mutations were confirmed by sequence originating from both the upstream and downstream primers.
+
+Direct sequencing was performed using fluorescent dideoxy on ABI sequencing 3130 XL according to manufacturer instructions. Samples were then subjected to direct sequencing of single-strand PCR product using the Big Dye Terminator v1.1 cycle sequencing kit and the ABI Prism 3130XL genetic analyzer (Applied Biosystems). All products were sequenced bidirectionally. The electropherograms were processed using Lasergene software version 6 (DNA star). Microsatellite analysis using fluorescence labeled primers and automated DNA sequencer (ABI 3130XL Applied Biosystems, Foster City, CA, USA) were performed. Five human mononucleotide microsatellite, NR-24, NR-21, NR-27, BAT-25 and BAT-26 were used as the markers (11).
+
+Microsatellite analysis using five fluorescent-labeled primers were performed according to following PCR condition, 94 ºC for 5 min, then 30 sec at 94 ºC, 40 sec at 55 ºC and 30 sec at 72 ºC for 35 cycles, followed by a final 7 min at 72 ºC and automated DNA sequencer. Analysis of MSI status was based on multiplex amplification of the 5 quasimonomorphic mononucleotide repeat microsatellite (11). As a result of Microsatellite instability, MSI was considered when one or more than one marker was altered but in MSS no marker was changed.
+
+## Results
+
+Kras mutations in exons 2 and 3 were evaluated in 95 patients with colorectal cancer including 47 polyps and 48 tumors.
+
+In polyp samples three (6.4%) mutations were detected. The mutations were in codon 12 and 13. They were three different types of mutations, Gly13Ala, Gly13Gly and Gly12Asp. Furthermore, we detected the MSI status of all polyps using pentaplex set of microsatellite markers. Our finding showed 8 (17%) polyps samples with MSI and 39 (83%) samples with MSS (Table 2, 3).
+
+Characteristics of samples with mutation
+Patient No.	Location Age	Sex	Pathology results	Mutation	MSI-result
+3T	F	43	colon	Adenocacinoma	c.35 G>A, p.Gly12 Asp	MSI-L (NR-21)
+26T	F	57	colon	Adenocacinoma	c.38 G>A, p.Gly12 Asp	MSS
+40T	F	51	colon	Adenocacinoma	c.35 G>A, p.Gly12 Asp	MSI-L ( NR-21)
+75T	F	58	colon	Adenocacinoma	c.35G>A, p.Gly12 Asp	MSS
+80T	M	80	rectum	Adenocacinoma	c.35 G>A, p.Gly12 Cys	MSS
+81T	F	56	colon	Adenocacinoma	c.35 G>A, p.Gly12 Asp	MSS
+124P	M	61	rectum	Adenoma	c.37 G>T,p.Gly13 Asp	MSI-L (NR-25)
+45P	F	43	colon	Adenoma	c.35 G>C, p.Gly13 Ala	MSS
+57P	F	43	rectum	Adenoma	c.37 T>A, p.Gly12	MSS
+
+MSI results related to tumor and polyp specimens
+Patients No.	Type of Samples	MSI Results	Changed MSI marker
+3	Tumor	MSI-L	(BAT-25)
+6	Tumor	MSI-L	(NR-21)
+8	Polyp	MSI-L	(NR-21)
+10	Polyp	MSI-H	(NR-21), (NR-24)
+24	Polyp	MSI-L	(BAT-25)
+29	Polyp	MSI-L	(NR-21)
+40	Tumor	MSI-L	(NR-21)
+41	Tumor	MSI-L	(NR-24)
+50	Polyp	MSI-L	(NR-24)
+55	Polyp	MSI-L	(NR-21)
+62	Polyp	MSI-L	(NR-21)
+79	Tumor	MSI-L	(NR-21)
+124	Polyp	MSI-L	(BAT-25)
+
+Six out of 48 (12.5%) carcinoma specimens exhibited Kras mutation including five in codon 12 (Gly12Asp) and one in codon 13 (Gly13Cys). All of the Kras amino acid change in codon 12 was glycine to aspartic acid (G12A). Five out of six (83.4%) mutations occurred in females and just one (16.6%) of them happened in a male. MSI analysis revealed that 5 MSI (10.4%) and 43 (89.6%) MSS (Table 2, 3).
+
+Furthermore, we could detect 9 intronic mutations in 48 tumor samples including five int.2271A>C (55.6%), three int.2271C (33.3%) and one int.2271T>C (11.1%). While in 47 polyp samples 15 intronic mutations were found. They consist of, 13 int.2271A>C (86.7%) and two int.2271C. (13.3%) (Table 4).
+
+Profile of intronic mutations in polyp and tumor samples
+Patients No.	Intronic Mutations	MSI assay
+1T	Int.2271A>C	MSI-L (BAT-25)
+3T	Int.2271A>C	MSS
+12P	Int.2271A>C	MSS
+22T	Int.2271A>C	MSS
+32P	Int.2271A>C	MSS
+39P	Int.2271A>C	MSS
+41T	Int.2271A>C	MSI-L (NR-24)
+42P	Int.2271A>C	MSS
+46P	Int.2271A>C	MSS
+48P	Int.2271A>C	MSS
+49P	Int.2271A>C	MSS
+52P	Int.2271A>C	MSS
+54P	Int.2271C	MSS
+58P	Int.2271C	MSS
+60P	Int.2271A>C	MSS
+62P	Int.2271A>C	MSI-L(NR-21)
+64T	Int.2271C	MSS
+66P	Int.2271A>C	MSS
+69P	Int.2271A>C	MSS
+72T	Int.2271T>C	MSS
+75T	Int.2271C	MSS
+76T	Int.2271A>C	MSS
+79T	Int.2271A>C	MSI-L(NR-21)
+80T	Int.2271C	MSS
+
+As Table 2 shows location of 5 out of 6 tumors with Kras mutation were in colon and only one tumor was detected in rectum. In contrast, 2 out of 3 polyps with Kras mutation were located in rectum and just one of them was determined in colon.
+
+Of the 6 tumors with Kras mutations, 5 (83%) were G to A (Gly12Asp) and one was (17%) G to C (Gly12Cys). The type of Kras mutation was investigated in each MSI status. The frequency of G to A transition mutations in MSI-L and MSS was identical but they were higher than in MSI-H cancer. There was not any significant correlation between polyps or tumors with mutation and individuals clinical features (data was not shown) (Table 2).
+
+## Discussion
+
+Mutations in the Kras oncogene are thought to occur at an early stage in the adenoma-carcinoma sequence, with the frequency of mutations increasing with the adenoma size in Western countries, with an age-adjusted incidence of 49 out of 100,000 per year. Colorectal cancer is one of the most frequent malignant human tumors however, in Iranian population CRC incidence rate is 6-7.9 per 100,000 persons/ year (7, 12–14). These reports reflect that such incidence is remarkably lower than the rates reported in Western countries. This study investigated the ratio of Kras exon 2 and 3 in adenoma and adenomcarcinoma tissues in order to compare the mutations in two types of samples.
+
+Replacement of glycine 12 of Kras with any amino acid, except proline, causes the biochemical activation of Kras by the reduction of its intrinsic GTPase activity of Kras (15). Substitution of glycine 12 with proline renders Kras resistant to the catalysis of GAPs yet increases intrinsic GTPase activity, which is biologically significant in hydrolyzing GTP to GDP and reverting Kras back to its inactive form. This phenotype is not aggressive in nature (16).
+
+Comparing the frequency of Kras mutations highlighted, it is found that the frequency of Kras mutations detected in polyps is not statistically different from the frequency observed in MSI and MSS colorectal tumors.
+
+Various studies in colorectal cancer have suggested that Kras codon 12 and 13 mutations are generally predictive of a poorer prognosis, with evidence being presented for mutation-specific prognostic as well as histopathology correlates (13–16).
+
+The most frequent of exonic mutation was related to Gly12Asp. It could be considered as a biomarker before chemotherapy and also to evaluate prognosis. We could find Gly12Asp is a common mutation in tumor and polyp samples.
+
+The rate of mutation in intronic region in polyp samples was higher than mutation rate in tumor samples. Therefore it is confirmed that these regions probably are not located in alternative splicing of the kras gene. Five of the 6 mutations that were identified in tumor samples were missense and led to the substitution of glycine to aspartate.
+
+Our finding in respect of the most frequent mutation, Gly12Asp, in the studied population is compatible with the results revealed from Italian population. However, it was in contrast with another study from Iranian population in a similar investigation (7).
+
+These G → A transition mutations occurred in two ways - either by misreplication of the unrepaired endogenously produced O6-methylguanidine DNA methyltransferase (MGMT) from faulty S-adenosylmethionine methylation or due to exposure to nitrosamines (17–19). In this respect other DNA repair systems, such as O6 methylguanine-DNA methyltransferase activity, are linked to the inability to protect from G to A transition in Kras induced by alkylating agents (20, 21). It has been suggested that other repair systems could also contribute to this repair mechanism (21). Further grouping of Kras mutations with regard to type and nucleotide position was shown to be significantly less frequent. The most frequent of MSI marker in this study was NR-21. In summary, we could consider mutation Gly12Asp in exon 2 as a biomarker to prediagnosis susceptible individuals before tumorgenesis. Nevertheless, how the Kras mutation may specifically modulate intracellular signaling is not well understood and remains a matter of ongoing research.
+
+## References
+1. 1LubomierskiNPlotzGWormekMEngelsKKrienerSTrojanJBRAF mutations in colorectal carcinoma suggest two entities of microsatellite-unstable tumorsCancer2005104952611601562910.1002/cncr.21266
+2. 2MorsonBThe polyp-cancer sequence in the large bowelProc R Soc Med19746745157485375410.1177/00359157740676P115PMC1645739
+3. 3VogelsteinBFearonERHamiltonSRKernSEPreisingerACLeppertMGenetic alterations during colorectal-tumor developmentN Engl J Med198831952532284159710.1056/NEJM198809013190901
+4. 4MullerPAJCaswellPTDoyleBIwanickiMPTanEHKarimSMutant p53 drives invasion by promoting integrin recyclingCell20091391327412006437810.1016/j.cell.2009.11.026
+5. 5VelhoSMoutinhoCCirnesLAlbuquerqueCHamelinRSchmittFBRAF, KRAS and PIK3CA mutations in colorectal serrated polyps and cancer: Primary or secondary genetic events in colorectal carcinogenesis?BMC Cancer200882551878244410.1186/1471-2407-8-255PMC2553419
+6. 6SameerASChowdhriNAAbdullahSShahZASiddiqiMAMutation pattern of K-ras gene in colorectal cancer patients of Kashmir: a reportIndian J Cancer200946219251957467410.4103/0019-509X.52956
+7. 7BishehsariFMahdaviniaMMalekzadehRVerginelliFCatalanoTSotoudehMK-ras mutation in colorectal carcinomas from Iran and Italy (a Gruppo Oncologico dell’Italia Meridionale study): influence of microsatellite instability status and country of originAnn Oncol200617vii91vii961676030210.1093/annonc/mdl959
+8. 8OliveiraCVelhoSMoutinhoCFerreiraAPretoADomingoEKRAS and BRAF oncogenic mutations in MSS colorectal carcinoma progressionOncogene200726158631695323310.1038/sj.onc.1209758
+9. 9OliveiraCWestraJLArangoDOllikainenMDomingoEFerreiraADistinct patterns of KRAS mutations in colorectal carcinomas according to germline mismatch repair defects and hMLH1 methylation statusHum Mol Genet2004132303111529487510.1093/hmg/ddh238
+10. 10Catalogue of somatic mutations in cancersAvailable from www.sanger.ac.uk/genetics/CGP/cosmic
+11. 11BuhardOSuraweeraNLectardADuvalAHamelinRQuasimonomorphic mononucleotide repeats for high-level microsatellite instability analysisDis Markers200420251571552879010.1155/2004/159347PMC3888729
+12. 12SantiniDLoupakisFVincenziBFlorianiIStasiICanestrariEHigh concordance of Kras status between primary colorectal tumors and related metastatic sites: implications for clinical practiceOncologist2008131270751905685710.1634/theoncologist.2008-0181
+13. 13ZauberPSabbath-SolitareMMarottaSPBishopDTMolecular changes in the Ki-ras and APC genes in primary colorectal carcinoma and synchronous metastases compared with the findings in accompanying adenomasMol Pathol200356137401278275910.1136/mp.56.3.137PMC1187308
+14. 14WickiaAHerrmannbRChristoforicGKras in metastatic colorectal cancerCurr Opin20101119
+15. 15FrankenSMScheidigAJKrengelURenslandHLautweinAGeyerMThree-dimensional structures and properties of a transforming and a nontransforming glycine-12 mutant of p21H-rasBiochemistry199332841120835779210.1021/bi00084a005
+16. 16StensonPDBallEVMortMPhillipsADShielJAThomasNSHuman Gene Mutation Database (HGMD): 2003 updateHum Mutat200321577811275470210.1002/humu.10212
+17. 17RydbergBLindahlTNonenzymatic methylation of DNA by the intracellular methyl group donor S-adenosyl-L-methionine is a potentially mutagenic reactionEMBO J1982121116718818110.1002/j.1460-2075.1982.tb01149.xPMC553022
+18. 18LijinskyWN-Nitroso compounds in the dietMutat Res1999443129381041543610.1016/s1383-5742(99)00015-0
+19. 19ColeDNCarlsonJAWilsonVLHuman germline and somatic cells have similar TP53 and Kirsten-RAS gene single base mutation frequenciesEnviron Mol Mutagen200849417251841886410.1002/em.20390
+20. 20CalistriDRengucciCSeymourILattunedduAPolifemoAMMontiFMutation Analysis of p53, K-ras, and BRAF Genes in Colorectal Cancer ProgressionJ Cell Physiol200520448481570247810.1002/jcp.20310
+21. 21ChiangJMWu ChouYHMaSCChenJRInfluence of age on adenomatous polyposis coli and p53 mutation frequency in sporadic colorectal cancerrarity of co-occurrence of mutations in APC, K-ras, and p53 genesVirchows Arch2004445465711544905410.1007/s00428-004-1116-z

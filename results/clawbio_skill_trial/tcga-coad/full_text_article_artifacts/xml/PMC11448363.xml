@@ -1,0 +1,1068 @@
+<?xml version='1.0' encoding='utf-8'?>
+<article xmlns:ns0="http://www.niso.org/schemas/ali/1.0/" xmlns:ns1="http://www.w3.org/1999/xlink" id="cas16262" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Cancer Sci</journal-id><journal-id journal-id-type="iso-abbrev">Cancer Sci</journal-id><journal-id journal-id-type="pmc-domain-id">2682</journal-id><journal-id journal-id-type="pmc-domain">cas</journal-id><journal-id journal-id-type="nlm-id">101168776</journal-id><journal-id journal-id-type="publisher-id">CAS</journal-id><journal-title-group><journal-title>Cancer Science</journal-title></journal-title-group><issn pub-type="ppub">1347-9032</issn><issn pub-type="epub">1349-7006</issn><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC11448363</article-id><article-id pub-id-type="pmcid-ver">PMC11448363.1</article-id><article-id pub-id-type="pmcaid">11448363</article-id><article-id pub-id-type="pmcaiid">11448363</article-id><article-id pub-id-type="pmid">39039804</article-id><article-id pub-id-type="doi">10.1111/cas.16262</article-id><article-id pub-id-type="publisher-id">CAS16262</article-id><article-id pub-id-type="other">CAS-OA-0782-2024.R1</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Original Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Original Article</subject><subj-group subj-group-type="heading"><subject>Pathology</subject></subj-group></subj-group></article-categories><title-group><article-title>Clinicopathological, molecular, and prognostic features of colorectal carcinomas with <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">KRAS</italic>
+</styled-content> c.<styled-content style="fixed-case" toggle="no">34G</styled-content>&gt;T (p.<styled-content style="fixed-case" toggle="no">G12C</styled-content>) mutation</article-title><alt-title alt-title-type="left-running-head">Ugai et al.</alt-title></title-group><contrib-group><contrib id="cas16262-cr-0001" contrib-type="author"><name name-style="western"><surname>Ugai</surname><given-names initials="S">Satoko</given-names></name><xref rid="cas16262-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="cas16262-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="cas16262-cr-0002" contrib-type="author"><name name-style="western"><surname>Yao</surname><given-names initials="Q">Qian</given-names></name><xref rid="cas16262-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="cas16262-cr-0003" contrib-type="author"><name name-style="western"><surname>Takashima</surname><given-names initials="Y">Yasutoshi</given-names></name><xref rid="cas16262-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="cas16262-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="cas16262-cr-0004" contrib-type="author"><name name-style="western"><surname>Zhong</surname><given-names initials="Y">Yuxue</given-names></name><xref rid="cas16262-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="cas16262-cr-0005" contrib-type="author"><name name-style="western"><surname>Matsuda</surname><given-names initials="K">Kosuke</given-names></name><xref rid="cas16262-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="cas16262-cr-0006" contrib-type="author"><name name-style="western"><surname>Kawamura</surname><given-names initials="H">Hidetaka</given-names></name><xref rid="cas16262-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="cas16262-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="cas16262-cr-0007" contrib-type="author"><name name-style="western"><surname>Imamura</surname><given-names initials="Y">Yu</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-0036-0124</contrib-id><xref rid="cas16262-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib id="cas16262-cr-0008" contrib-type="author"><name name-style="western"><surname>Okadome</surname><given-names initials="K">Kazuo</given-names></name><xref rid="cas16262-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="cas16262-cr-0009" contrib-type="author"><name name-style="western"><surname>Mima</surname><given-names initials="K">Kosuke</given-names></name><xref rid="cas16262-aff-0006" ref-type="aff">
+<sup>6</sup>
+</xref></contrib><contrib id="cas16262-cr-0010" contrib-type="author"><name name-style="western"><surname>Arima</surname><given-names initials="K">Kota</given-names></name><xref rid="cas16262-aff-0006" ref-type="aff">
+<sup>6</sup>
+</xref></contrib><contrib id="cas16262-cr-0011" contrib-type="author"><name name-style="western"><surname>Kosumi</surname><given-names initials="K">Keisuke</given-names></name><xref rid="cas16262-aff-0006" ref-type="aff">
+<sup>6</sup>
+</xref></contrib><contrib id="cas16262-cr-0012" contrib-type="author"><name name-style="western"><surname>Song</surname><given-names initials="M">Mingyang</given-names></name><xref rid="cas16262-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="cas16262-aff-0007" ref-type="aff">
+<sup>7</sup>
+</xref><xref rid="cas16262-aff-0008" ref-type="aff">
+<sup>8</sup>
+</xref><xref rid="cas16262-aff-0009" ref-type="aff">
+<sup>9</sup>
+</xref></contrib><contrib id="cas16262-cr-0013" contrib-type="author"><name name-style="western"><surname>Meyerhardt</surname><given-names initials="JA">Jeffrey A.</given-names></name><xref rid="cas16262-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="cas16262-cr-0014" contrib-type="author"><name name-style="western"><surname>Giannakis</surname><given-names initials="M">Marios</given-names></name><xref rid="cas16262-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref><xref rid="cas16262-aff-0010" ref-type="aff">
+<sup>10</sup>
+</xref><xref rid="cas16262-aff-0011" ref-type="aff">
+<sup>11</sup>
+</xref></contrib><contrib id="cas16262-cr-0015" contrib-type="author"><name name-style="western"><surname>Nowak</surname><given-names initials="JA">Jonathan A.</given-names></name><xref rid="cas16262-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="cas16262-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="cas16262-cr-0016" contrib-type="author" corresp="yes"><name name-style="western"><surname>Ugai</surname><given-names initials="T">Tomotaka</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-0182-5269</contrib-id><xref rid="cas16262-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="cas16262-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><address><email>tugai@bwh.harvard.edu</email></address></contrib><contrib id="cas16262-cr-0017" contrib-type="author" corresp="yes"><name name-style="western"><surname>Ogino</surname><given-names initials="S">Shuji</given-names></name><xref rid="cas16262-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="cas16262-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="cas16262-aff-0010" ref-type="aff">
+<sup>10</sup>
+</xref><xref rid="cas16262-aff-0012" ref-type="aff">
+<sup>12</sup>
+</xref><xref rid="cas16262-aff-0013" ref-type="aff">
+<sup>13</sup>
+</xref><address><email>sogino@bwh.harvard.edu</email></address></contrib></contrib-group><aff id="cas16262-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Program in MPE Molecular Pathological Epidemiology, Department of Pathology</named-content>
+<institution>Brigham and Women's Hospital, and Harvard Medical School</institution>
+<city>Boston</city>
+<named-content content-type="country-part">Massachusetts</named-content>
+<country country="US">USA</country>
+</aff><aff id="cas16262-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Department of Epidemiology</named-content>
+<institution>Harvard T.H. Chan School of Public Health</institution>
+<city>Boston</city>
+<named-content content-type="country-part">Massachusetts</named-content>
+<country country="US">USA</country>
+</aff><aff id="cas16262-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">Department of Medical Oncology</named-content>
+<institution>Dana‐Farber Cancer Institute and Harvard Medical</institution>
+<city>Boston</city>
+<named-content content-type="country-part">Massachusetts</named-content>
+<country country="US">USA</country>
+</aff><aff id="cas16262-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<named-content content-type="organisation-division">Department of Surgery</named-content>
+<institution>Fukushima Medical University</institution>
+<city>Fukushima</city>
+<country country="JP">Japan</country>
+</aff><aff id="cas16262-aff-0005">
+<label>
+<sup>5</sup>
+</label>
+<named-content content-type="organisation-division">Department of Esophageal Surgery</named-content>
+<institution>The Cancer Institute Hospital of the Japanese Foundation of Cancer Research</institution>
+<city>Tokyo</city>
+<country country="JP">Japan</country>
+</aff><aff id="cas16262-aff-0006">
+<label>
+<sup>6</sup>
+</label>
+<named-content content-type="organisation-division">Department of Gastroenterological Surgery, Graduate School of Medical Sciences</named-content>
+<institution>Kumamoto University</institution>
+<city>Kumamoto</city>
+<country country="JP">Japan</country>
+</aff><aff id="cas16262-aff-0007">
+<label>
+<sup>7</sup>
+</label>
+<named-content content-type="organisation-division">Department of Nutrition</named-content>
+<institution>Harvard T.H. Chan School of Public Health</institution>
+<city>Boston</city>
+<named-content content-type="country-part">Massachusetts</named-content>
+<country country="US">USA</country>
+</aff><aff id="cas16262-aff-0008">
+<label>
+<sup>8</sup>
+</label>
+<named-content content-type="organisation-division">Clinical and Translational Epidemiology Unit</named-content>
+<institution>Massachusetts General Hospital and Harvard Medical School</institution>
+<city>Boston</city>
+<named-content content-type="country-part">Massachusetts</named-content>
+<country country="US">USA</country>
+</aff><aff id="cas16262-aff-0009">
+<label>
+<sup>9</sup>
+</label>
+<named-content content-type="organisation-division">Division of Gastroenterology</named-content>
+<institution>Massachusetts General Hospital</institution>
+<city>Boston</city>
+<named-content content-type="country-part">Massachusetts</named-content>
+<country country="US">USA</country>
+</aff><aff id="cas16262-aff-0010">
+<label>
+<sup>10</sup>
+</label>
+<institution>Broad Institute of MIT and Harvard</institution>
+<city>Cambridge</city>
+<named-content content-type="country-part">Massachusetts</named-content>
+<country country="US">USA</country>
+</aff><aff id="cas16262-aff-0011">
+<label>
+<sup>11</sup>
+</label>
+<named-content content-type="organisation-division">Department of Medicine</named-content>
+<institution>Brigham and Women's Hospital and Harvard Medical School</institution>
+<city>Boston</city>
+<named-content content-type="country-part">Massachusetts</named-content>
+<country country="US">USA</country>
+</aff><aff id="cas16262-aff-0012">
+<label>
+<sup>12</sup>
+</label>
+<named-content content-type="organisation-division">Cancer Immunology Program</named-content>
+<institution>Dana‐Farber/Harvard Cancer Center</institution>
+<city>Boston</city>
+<named-content content-type="country-part">Massachusetts</named-content>
+<country country="US">USA</country>
+</aff><aff id="cas16262-aff-0013">
+<label>
+<sup>13</sup>
+</label>
+<institution>Tokyo Medical and Dental University (Institute of Science Tokyo)</institution>
+<city>Tokyo</city>
+<country country="JP">Japan</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence</bold>
+<break />
+Tomotaka Ugai, Program in MPE Molecular Pathological Epidemiology, Department of Pathology, Brigham and Women's Hospital, and Harvard Medical School 221 Longwood Ave., EBRC Room 404, Boston, MA 02215, USA.<break />
+Email: <email>tugai@bwh.harvard.edu</email>
+<break />
+Shuji Ogino, Program in MPE Molecular Pathological Epidemiology, Department of Pathology, Brigham and Women's Hospital and Harvard Medical School 221 Longwood Ave., EBRC Room LM‐422B, Boston, MA 02115, USA.<break />
+Email: <email>sogino@bwh.harvard.edu</email>
+<break />
+</corresp></author-notes><pub-date pub-type="epub"><day>22</day><month>7</month><year>2024</year></pub-date><pub-date pub-type="collection"><month>10</month><year>2024</year></pub-date><volume>115</volume><issue seq="220">10</issue><issue-id pub-id-type="pmc-issue-id">472059</issue-id><issue-id pub-id-type="doi">10.1111/cas.v115.10</issue-id><fpage>3455</fpage><lpage>3465</lpage><history><date date-type="rev-recd"><day>15</day><month>6</month><year>2024</year></date><date date-type="received"><day>28</day><month>3</month><year>2024</year></date><date date-type="accepted"><day>18</day><month>6</month><year>2024</year></date></history><pub-history><event event-type="pmc-release"><date><day>22</day><month>07</month><year>2024</year></date></event><event event-type="pmc-live"><date><day>04</day><month>10</month><year>2024</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-01-27 16:25:13.737"><day>27</day><month>01</month><year>2026</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2024 The Author(s). <italic toggle="yes">Cancer Science</italic> published by John Wiley &amp; Sons Australia, Ltd on behalf of Japanese Cancer Association.</copyright-statement><license><ns0:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ns0:license_ref><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" ns1:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pmc-pdf" ns1:href="CAS-115-3455.pdf" /><self-uri content-type="pdf" ns1:href="file:CAS-115-3455.pdf" /><abstract><title>Abstract</title><p>Evidence indicates that combinations of anti‐EGFR antibodies and KRAS p.G12C (c.34G&gt;T) inhibitors can be an effective treatment strategy for advanced colorectal cancer. We hypothesized that <italic toggle="no">KRAS</italic> c.34G&gt;T (p.G12C)‐mutated colorectal carcinoma might be a distinct tumor subtype. We utilized a prospective cohort incident tumor biobank (including 1347 colorectal carcinomas) and detected <italic toggle="no">KRAS</italic> c.34G&gt;T (p.G12C) mutation in 43 cases (3.2%) and other <italic toggle="no">KRAS</italic> mutations (in codon 12, 13, 61, or 146) in 467 cases (35%). The CpG island methylator phenotype (CIMP)‐low prevalence was similarly higher in <italic toggle="no">KRAS</italic> c.34G&gt;T mutants (52%) and other <italic toggle="no">KRAS</italic> mutants (49%) than in <italic toggle="no">KRAS</italic>‐wild‐type tumors (31%). <italic toggle="no">KRAS</italic> c.34G&gt;T mutants showed higher CIMP‐high prevalence (14%) and lower CIMP‐negative prevalence (33%) compared with other <italic toggle="no">KRAS</italic> mutants (6% and 45%, respectively; <italic toggle="no">p</italic> = 0.0036). Similar to other <italic toggle="no">KRAS</italic> mutants, <italic toggle="no">KRAS</italic> c.34G&gt;T‐mutated tumors were associated with cecal location, non‐microsatellite instability (MSI)‐high status, <italic toggle="no">BRAF</italic> wild type, and <italic toggle="no">PIK3CA</italic> mutation when compared with <italic toggle="no">KRAS</italic>‐wild‐type tumors. Compared with <italic toggle="no">BRAF</italic>‐mutated tumors, <italic toggle="no">KRAS</italic> c.34G&gt;T mutants showed more frequent LINE‐1 hypomethylation, a biomarker for early‐onset colorectal carcinoma. <italic toggle="no">KRAS</italic> c.34G&gt;T mutants were not associated with other features, including the tumor tissue abundance of <italic toggle="no">Fusobacterium nucleatum</italic> (<italic toggle="no">F. animalis</italic>), <italic toggle="no">pks</italic>
+<sup>+</sup>
+<italic toggle="no">Escherichia coli</italic>, <italic toggle="no">Bifidobacterium</italic>, or (enterotoxigenic) <italic toggle="no">Bacteroides fragilis</italic>. Among 1122 <italic toggle="no">BRAF</italic>‐wild‐type colorectal carcinomas, compared with <italic toggle="no">KRAS</italic>‐wild‐type tumors, multivariable‐adjusted colorectal cancer‐specific mortality hazard ratios (95% confidence interval) were 1.82 (1.05–3.17) in <italic toggle="no">KRAS</italic> c.34G&gt;T (p.G12C)‐mutated tumors (<italic toggle="no">p</italic> = 0.035) and 1.57 (1.22–2.02) in other <italic toggle="no">KRAS</italic>‐mutated tumors (<italic toggle="no">p</italic> = 0.0004). Our study provides novel evidence for clinical and tumor characteristics of <italic toggle="no">KRAS</italic> c.34G&gt;T (p.G12C)‐mutated colorectal carcinoma.</p></abstract><abstract abstract-type="graphical"><p>The CpG island methylator phenotype (CIMP)‐low prevalence was similarly higher in <italic toggle="no">KRAS</italic> c.34G&gt;T mutants and other <italic toggle="no">KRAS</italic> mutants than in <italic toggle="no">KRAS</italic>‐wild‐type tumors. <italic toggle="no">KRAS</italic> c.34G&gt;T mutants showed higher CIMP‐high prevalence and lower CIMP‐negative prevalence compared with other <italic toggle="no">KRAS</italic> mutants. Similar to other <italic toggle="no">KRAS</italic> mutants, <italic toggle="no">KRAS</italic> c.34G&gt;T‐mutated tumors were associated with cecal location, non‐microsatellite instability (MSI)‐high status, <italic toggle="yes">BRAF</italic> wild type, and <italic toggle="yes">PIK3CA</italic> mutation when compared with <italic toggle="no">KRAS</italic>‐wild‐type tumors.<boxed-text position="anchor" content-type="graphic" id="cas16262-blkfxd-0001" orientation="portrait"><graphic position="anchor" id="jats-graphic-1" orientation="portrait" ns1:href="CAS-115-3455-g002.jpg" /></boxed-text>
+</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="cas16262-kwd-0006">adagrasib</kwd><kwd id="cas16262-kwd-0001">colorectal tumor</kwd><kwd id="cas16262-kwd-0002">CpG island methylator phenotype</kwd><kwd id="cas16262-kwd-0003"><italic toggle="no">KRAS</italic></kwd><kwd id="cas16262-kwd-0005">sotorasib</kwd></kwd-group><counts><fig-count count="3" /><table-count count="2" /><page-count count="11" /><word-count count="6900" /></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>October 2024</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.4.9 mode:remove_FC converted:03.10.2024</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="CAS16262-cit-2001">
+<string-name name-style="western">
+<surname>Ugai</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yao</surname>
+<given-names>Q</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Takashima</surname>
+<given-names>Y</given-names>
+</string-name>, et al. <article-title>Clinicopathological, molecular, and prognostic features of colorectal carcinomas with <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">KRAS</italic>
+</styled-content> c.<styled-content style="fixed-case" toggle="no">34G</styled-content>&gt;T (p.<styled-content style="fixed-case" toggle="no">G12C</styled-content>) mutation</article-title>
+<source>Cancer Sci</source>. <year>2024</year>;<volume>115</volume>:<fpage>3455</fpage>‐<lpage>3465</lpage>. doi:<pub-id pub-id-type="doi">10.1111/cas.16262</pub-id>
+<pub-id pub-id-type="pmcid">PMC11448363</pub-id><pub-id pub-id-type="pmid">39039804</pub-id></mixed-citation>
+</p><fn-group id="cas16262-ntgp-0001"><fn fn-type="equal" id="cas16262-note-0001"><p>Satoko Ugai, Qian Yao, Yasutoshi Takashima, and Yuxue Zhong contributed equally.</p></fn><fn fn-type="equal" id="cas16262-note-0002"><p>Marios Giannakis, Jonathan A. Nowak, Tomotaka Ugai, and Shuji Ogino contributed equally.</p></fn></fn-group></notes></front><body id="cas16262-body-0001"><def-list list-content="abbreviations" id="cas16262-dl-0001"><title>Abbreviations</title><def-item><term id="cas16262-li-0001">AJCC</term><def id="cas16262-li-0002"><p>American Joint Committee on Cancer</p></def></def-item><def-item><term id="cas16262-li-0003">CI</term><def id="cas16262-li-0004"><p>confidence interval</p></def></def-item><def-item><term id="cas16262-li-0005">CIMP</term><def id="cas16262-li-0006"><p>CpG island methylator phenotype</p></def></def-item><def-item><term id="cas16262-li-0007">FFPE</term><def id="cas16262-li-0008"><p>formalin‐fixed paraffin‐embedded</p></def></def-item><def-item><term id="cas16262-li-0009">HGNC</term><def id="cas16262-li-0010"><p>Human Genome Organisation Gene Nomenclature Committee</p></def></def-item><def-item><term id="cas16262-li-0011">HR</term><def id="cas16262-li-0012"><p>hazard ratio</p></def></def-item><def-item><term id="cas16262-li-0013">LINE‐1</term><def id="cas16262-li-0014"><p>long interspersed nucleotide element‐1</p></def></def-item><def-item><term id="cas16262-li-0015">MSI</term><def id="cas16262-li-0016"><p>microsatellite instability</p></def></def-item><def-item><term id="cas16262-li-0017">PCITB</term><def id="cas16262-li-0018"><p>prospective cohort incident tumor biobank</p></def></def-item><def-item><term id="cas16262-li-0019">PCR</term><def id="cas16262-li-0020"><p>polymerase chain reaction</p></def></def-item></def-list><sec id="cas16262-sec-0001"><label>1</label><title>INTRODUCTION</title><p>Colorectal cancer is a complex disease with a variety of somatic mutations in oncogenes and tumor suppressor genes.<xref rid="cas16262-bib-0001" ref-type="bibr">
+<sup>1</sup>
+</xref>, <xref rid="cas16262-bib-0002" ref-type="bibr">
+<sup>2</sup>
+</xref>
+<italic toggle="yes">KRAS</italic> is a proto‐oncogene related to the RAS/mitogen‐activated protein kinase (MAPK) pathway. Approximately 40% of colorectal cancers harbor <italic toggle="yes">KRAS</italic> mutations, most commonly in codons 12, 13, and 61.<xref rid="cas16262-bib-0003" ref-type="bibr">
+<sup>3</sup>
+</xref>
+<italic toggle="yes">KRAS</italic>‐mutated tumors are insensitive to treatment with anti‐EGFR antibodies, including cetuximab and panitumumab.<xref rid="cas16262-bib-0004" ref-type="bibr">
+<sup>4</sup>
+</xref>, <xref rid="cas16262-bib-0005" ref-type="bibr">
+<sup>5</sup>
+</xref>, <xref rid="cas16262-bib-0006" ref-type="bibr">
+<sup>6</sup>
+</xref>
+</p><p>Of <italic toggle="yes">KRAS</italic> oncogenic mutations, <italic toggle="yes">KRAS</italic> c.34G&gt;T (p.G12C) mutation occurs in 3%–4% of colorectal cancer patients.<xref rid="cas16262-bib-0007" ref-type="bibr">
+<sup>7</sup>
+</xref> Compared with other <italic toggle="yes">KRAS</italic> mutations, <italic toggle="yes">KRAS</italic> c.34G&gt;T (p.G12C) mutation has been associated with worse survival in advanced colorectal cancer patients who received conventional chemotherapy.<xref rid="cas16262-bib-0008" ref-type="bibr">
+<sup>8</sup>
+</xref>, <xref rid="cas16262-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref>, <xref rid="cas16262-bib-0010" ref-type="bibr">
+<sup>10</sup>
+</xref> Recently, novel specific KRAS c.34G&gt;T (p.G12C) protein inhibitors have shown promising results for better survival in non‐small cell lung cancer patients with <italic toggle="yes">KRAS</italic> c.34G&gt;T (p.G12C)‐mutated tumors.<xref rid="cas16262-bib-0011" ref-type="bibr">
+<sup>11</sup>
+</xref>, <xref rid="cas16262-bib-0012" ref-type="bibr">
+<sup>12</sup>
+</xref> Clinical studies have indicated that a combination of anti‐EGFR targeted therapy and <italic toggle="yes">KRAS</italic> c.34G&gt;T (p.G12C) inhibitor could be an effective treatment strategy in <italic toggle="yes">KRAS</italic> c.34G&gt;T (p.G12C)‐mutated colorectal cancer.<xref rid="cas16262-bib-0013" ref-type="bibr">
+<sup>13</sup>
+</xref>, <xref rid="cas16262-bib-0014" ref-type="bibr">
+<sup>14</sup>
+</xref> However, unique features of <italic toggle="yes">KRAS</italic> c.34G&gt;T‐mutated colorectal carcinoma (compared with <italic toggle="yes">KRAS</italic>‐wild‐type and other <italic toggle="yes">KRAS</italic>‐mutated tumors) need to be further elucidated.</p><p>Therefore, we tested a hypothesis that clinical and tumor characteristics of <italic toggle="yes">KRAS</italic> c.34G&gt;T (p.G12C)‐mutated tumors might differ from those of other <italic toggle="yes">KRAS</italic>‐mutated tumors and <italic toggle="yes">KRAS</italic>‐wild‐type tumors. To test our hypothesis, we used the integrated database of colorectal carcinoma patients within two United States‐wide prospective cohort studies.</p></sec><sec sec-type="materials-and-methods" id="cas16262-sec-0002"><label>2</label><title>MATERIALS AND METHODS</title><sec id="cas16262-sec-0003"><label>2.1</label><title>Study population</title><p>We used two United States‐wide prospective cohort studies: the Nurses' Health Study including 121,701 women aged 30–55 years at enrollment in 1976 and the Health Professionals Follow‐up Study including 51,529 men aged 40–75 years at enrollment in 1986.<xref rid="cas16262-bib-0015" ref-type="bibr">
+<sup>15</sup>
+</xref>, <xref rid="cas16262-bib-0016" ref-type="bibr">
+<sup>16</sup>
+</xref> Every 2 years, cohort participants have been sent follow‐up questionnaires to identify newly diagnosed cancers in themselves and their first‐degree relatives. The response rate exceeded 90% for each follow‐up questionnaire cycle in both cohorts. The National Death Index was used to ascertain death and identify participants with unreported lethal colorectal cancer. Study physicians, blinded to exposure data, reviewed documents of identified colorectal cancer cases to confirm the diagnosis, record clinical and tumor characteristics, and determine the cause of death if it had occurred. Formalin‐fixed paraffin‐embedded (FFPE) tissue blocks were collected from hospitals where surgeons resected colorectal cancers of cohort participants, which led to the creation of the prospective cohort incident tumor biobank (PCITB). A single pathologist (S. Ogino), unaware of other data, examined hematoxylin and eosin‐stained sections of all cases, and recorded pathological features including tumor differentiation.</p><p>Among 4716 incident colorectal cancer cases that had occurred in the Nurses' Health Study and the Health Professionals Follow‐up Study up to 2014, the current study included 1347 colorectal carcinoma cases with enough tumor tissue materials and available <italic toggle="yes">KRAS</italic> mutation data in the PCITB (Figure <xref rid="cas16262-fig-0001" ref-type="fig">1</xref>). When assessing the prognostic effect of <italic toggle="yes">KRAS</italic> mutations, it is important to assess their prognostic effect independent of <italic toggle="yes">BRAF</italic> c.1799T&gt;A (p.V600E) mutation because this <italic toggle="yes">BRAF</italic> mutation has been associated with poorer prognosis and strongly inversely associated with <italic toggle="yes">KRAS</italic> mutation.<xref rid="cas16262-bib-0017" ref-type="bibr">
+<sup>17</sup>
+</xref>, <xref rid="cas16262-bib-0018" ref-type="bibr">
+<sup>18</sup>
+</xref> There were only seven patients with <italic toggle="yes">KRAS</italic> mutations (with no c.34G&gt;T mutant) among 211 <italic toggle="yes">BRAF</italic>‐mutated tumor cases, which made it impossible to robustly assess the prognostic role of <italic toggle="yes">KRAS</italic> mutations in the <italic toggle="yes">BRAF</italic>‐mutated tumor stratum. For patient survival analyses, we excluded 211 <italic toggle="yes">BRAF</italic> c.1799T&gt;A‐mutated cases, six cases with missing <italic toggle="yes">BRAF</italic> mutation status, and eight cases with missing survival data, leaving 1122 tumors, which were designated as “<italic toggle="yes">BRAF</italic> wild type” (though we did not analyze other less frequent <italic toggle="yes">BRAF</italic> mutations that can alter protein functions) (Figure <xref rid="cas16262-fig-0001" ref-type="fig">1</xref>).</p><fig position="float" fig-type="FIGURE" id="cas16262-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>Flow diagram of the study participants.</p></caption><graphic position="anchor" id="jats-graphic-3" orientation="portrait" ns1:href="CAS-115-3455-g003.jpg" /></fig><p>The study protocol was approved by the institutional review boards of the Brigham and Women's Hospital and Harvard T.H. Chan School of Public Health, and those of participating registries as required.</p></sec><sec id="cas16262-sec-0004"><label>2.2</label><title>Tumor tissue analyses</title><p>Genomic DNA was extracted from FFPE tumor tissue (and paired normal tissue) sections, using guide slides of tissue sections with marked tumor areas. Polymerase chain reaction (PCR) and pyrosequencing were used to detect mutations in <italic toggle="yes">KRAS</italic> (codons 12, 13, 61, and 146),<xref rid="cas16262-bib-0019" ref-type="bibr">
+<sup>19</sup>
+</xref>, <xref rid="cas16262-bib-0020" ref-type="bibr">
+<sup>20</sup>
+</xref>
+<italic toggle="yes">BRAF</italic> (codon 600), and <italic toggle="yes">PIK3CA</italic> (exons 9 and 20)<xref rid="cas16262-bib-0021" ref-type="bibr">
+<sup>21</sup>
+</xref> as previously described.<xref rid="cas16262-bib-0022" ref-type="bibr">
+<sup>22</sup>
+</xref> MSI analysis was performed using 10 microsatellite markers (D2S123, D5S346, D17S250, BAT25, BAT26, BAT40, D18S55, D18S56, D18S67, and D18S487). MSI‐high was defined as instability in ≥30% of the markers.<xref rid="cas16262-bib-0023" ref-type="bibr">
+<sup>23</sup>
+</xref> Using validated bisulfite DNA treatment and real‐time PCR (MethyLight),<xref rid="cas16262-bib-0024" ref-type="bibr">
+<sup>24</sup>
+</xref> we quantified DNA methylation in eight CpG island methylator phenotype (CIMP)‐specific promoters (<italic toggle="yes">CACNA1G</italic>, <italic toggle="yes">CDKN2A</italic> [p16], <italic toggle="yes">CRABP1</italic>, <italic toggle="yes">IGF2</italic>, <italic toggle="yes">MLH1</italic>, <italic toggle="yes">NEUROG1</italic>, <italic toggle="yes">RUNX3</italic>, and <italic toggle="yes">SOCS1</italic>).<xref rid="cas16262-bib-0025" ref-type="bibr">
+<sup>25</sup>
+</xref>, <xref rid="cas16262-bib-0026" ref-type="bibr">
+<sup>26</sup>
+</xref> CIMP‐high, CIMP‐low, and CIMP‐negative statuses were defined as ≥5/8 methylated markers, 1/8 to 4/8 methylated markers, and 0/8 methylated markers, respectively, using the 8‐marker CIMP panel. These criteria were modified ones from the original ones, considering the prevalence of both <italic toggle="yes">KRAS</italic> and <italic toggle="yes">BRAF</italic> mutations.<xref rid="cas16262-bib-0025" ref-type="bibr">
+<sup>25</sup>
+</xref> To accurately quantify long interspersed nucleotide element 1 (LINE‐1) methylation levels, bisulfite pyrosequencing was used as previously described.<xref rid="cas16262-bib-0027" ref-type="bibr">
+<sup>27</sup>
+</xref>, <xref rid="cas16262-bib-0028" ref-type="bibr">
+<sup>28</sup>
+</xref> To measure the relative DNA amount of <italic toggle="yes">Fusobacterium nucleatum</italic> (now named, <italic toggle="yes">F. animalis</italic>), <italic toggle="yes">pks</italic>
+<sup>+</sup>
+<italic toggle="yes">Escherichia coli</italic>, <italic toggle="yes">Bacteroides fragilis</italic>, enterotoxigenic <italic toggle="yes">B. fragilis</italic> (ETBF), and <italic toggle="yes">Bifidobacterium</italic> in tumor tissue, we performed quantitative PCR with primers targeting the <italic toggle="yes">nusG</italic> gene of <italic toggle="yes">F. nucleatum</italic>, the <italic toggle="yes">clbB</italic> gene of <italic toggle="yes">pks</italic>
+<sup>+</sup>
+<italic toggle="yes">E. coli</italic>, the <italic toggle="yes">RecA</italic> and <italic toggle="yes">bft</italic> genes of <italic toggle="yes">B. fragilis</italic>, and the 16S ribosomal RNA gene DNA sequences of <italic toggle="yes">Bifidobacterium</italic>, as previously described.<xref rid="cas16262-bib-0029" ref-type="bibr">
+<sup>29</sup>
+</xref>, <xref rid="cas16262-bib-0030" ref-type="bibr">
+<sup>30</sup>
+</xref>, <xref rid="cas16262-bib-0031" ref-type="bibr">
+<sup>31</sup>
+</xref>, <xref rid="cas16262-bib-0032" ref-type="bibr">
+<sup>32</sup>
+</xref>
+</p></sec><sec id="cas16262-sec-0005"><label>2.3</label><title>Statistical analysis</title><p>The chi‐square test or Fisher's exact test was used to compare categorical data, while an analysis of variance was applied to continuous variables (age and LINE‐1 methylation). To compare ordinal variables, including the American Joint Committee on Cancer (AJCC) disease stage, and tumor location, the Spearman correlation test was performed. The Kaplan–Meier method and log‐rank test were used to estimate survival distribution according to <italic toggle="yes">KRAS</italic> mutation status. Cases were observed until death, or January 1, 2020, whichever came first. For analyses of colorectal cancer‐specific mortality, deaths as a result of other causes were censored. Cox proportional hazards regression models were used to compute the mortality hazard ratio (HR) for patient groups. The multivariate Cox model initially included the following variables: sex, age at colorectal cancer diagnosis (continuous), year of diagnosis (prior to 1995 vs. 1996–2000 vs. 2001–2014), family history of colorectal cancer in any first‐degree relative (present vs. absent), tumor location (cecum vs. ascending/transverse colon vs. distal colon vs. rectum), tumor differentiation (well to moderate vs. poor), CIMP (high vs. low/negative), <italic toggle="yes">PIK3CA</italic> mutation (mutant vs. wild‐type), and LINE‐1 methylation (continuous). A backward elimination was performed with a threshold of <italic toggle="yes">p</italic> = 0.05 to limit the number of covariates and avoid overfitting of the final multivariable models. Cases with missing information for any of the categorical covariates (family history of colorectal cancer [0.4%], tumor differentiation [0.6%], MSI [1.9%], CIMP [7.1%], and <italic toggle="yes">PIK3CA</italic> [7.6%]) were included in the majority category of the given covariate to avoid overfitting. We made a missing indicator variable for cases of missing tumor location information (0.5%). Eventually, all tumor location variables were eliminated by the selection procedure. The proportional hazards assumption was assessed by a time‐varying covariate (i.e., the cross‐product of the <italic toggle="yes">KRAS</italic> mutation status and survival time). The assumption was satisfied for 5‐year survival analyses. Therefore, we analyzed the prognostic association of <italic toggle="yes">KRAS</italic> mutation status with censoring of all 5‐year survivors in the survival analysis. All statistical analyses were performed using SAS version 9.2 (SAS Institute). All <italic toggle="yes">p</italic>‐values were two‐sided. We used the two‐sided alpha level of 0.005 as recommended by the expert panel<xref rid="cas16262-bib-0033" ref-type="bibr">
+<sup>33</sup>
+</xref> and regarded <italic toggle="yes">p</italic>‐values between 0.005 and 0.05 as suggestive evidence.</p></sec></sec><sec sec-type="results" id="cas16262-sec-0006"><label>3</label><title>RESULTS</title><p>Among 1347 colorectal carcinoma cases with <italic toggle="yes">KRAS</italic> mutation data in the two United States‐wide prospective cohort studies, we detected <italic toggle="yes">KRAS</italic> c.34G&gt;T (p.G12C) mutation in 43 cases (3.2%) and other <italic toggle="yes">KRAS</italic> mutations (i.e., <italic toggle="yes">KRAS</italic> mutations that were not c.34G&gt;T) in 467 cases (35%). Table <xref rid="cas16262-tbl-0001" ref-type="table">1</xref> shows the characteristics of study participants according to <italic toggle="yes">KRAS</italic> mutation status.</p><table-wrap position="float" id="cas16262-tbl-0001" content-type="TABLE" orientation="portrait"><label>TABLE 1</label><caption><p>Clinicopathological, molecular, and microbial characteristics according to <italic toggle="no">KRAS</italic> mutation status in 1347 colorectal cancer cases.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1" /><col align="left" span="1" /><col align="left" span="1" /><col align="left" span="1" /><col align="left" span="1" /><col align="left" span="1" /><col align="left" span="1" /><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="3" valign="bottom" colspan="1">Characteristics<xref rid="cas16262-note-0005" ref-type="table-fn">
+<sup>a</sup>
+</xref>
+</th><th align="left" rowspan="2" valign="bottom" colspan="1">All cases</th><th align="left" colspan="3" valign="bottom" rowspan="1">
+<italic toggle="yes">KRAS</italic>
+</th><th align="left" rowspan="3" valign="bottom" colspan="1">
+<italic toggle="yes">p</italic> value (c.34G&gt;T vs. wild‐type)<xref rid="cas16262-note-0006" ref-type="table-fn">
+<sup>b</sup>
+</xref>
+</th><th align="left" rowspan="3" valign="bottom" colspan="1">
+<italic toggle="yes">p</italic> value (c.34G&gt;T vs. mutations other than c.34G&gt;T)<xref rid="cas16262-note-0006" ref-type="table-fn">
+<sup>b</sup>
+</xref>
+</th></tr><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">Wild‐type</th><th align="left" valign="bottom" rowspan="1" colspan="1">Mutations other than c.34G&gt;T (p.G12C)</th><th align="left" valign="bottom" rowspan="1" colspan="1">c.34G&gt;T (p.G12C)</th></tr><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">(<italic toggle="yes">N</italic> = 1347)</th><th align="left" valign="bottom" rowspan="1" colspan="1">(<italic toggle="yes">N</italic> = 837)</th><th align="left" valign="bottom" rowspan="1" colspan="1">(<italic toggle="yes">N</italic> = 467)</th><th align="left" valign="bottom" rowspan="1" colspan="1">(<italic toggle="yes">N</italic> = 43)</th></tr></thead><tbody valign="top"><tr><td align="left" colspan="7" valign="top" rowspan="1">Sex</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Male (HPFS)</td><td align="left" valign="top" rowspan="1" colspan="1">601 (45%)</td><td align="left" valign="top" rowspan="1" colspan="1">345 (41%)</td><td align="left" valign="top" rowspan="1" colspan="1">235 (50%)</td><td align="left" valign="top" rowspan="1" colspan="1">21 (49%)</td><td align="char" char="." rowspan="2" valign="top" colspan="1">0.32</td><td align="char" char="." rowspan="2" valign="top" colspan="1">0.85</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Female (NHS)</td><td align="left" valign="top" rowspan="1" colspan="1">746 (55%)</td><td align="left" valign="top" rowspan="1" colspan="1">492 (59%)</td><td align="left" valign="top" rowspan="1" colspan="1">232 (50%)</td><td align="left" valign="top" rowspan="1" colspan="1">22 (51%)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Mean age ± SD (years)</td><td align="left" valign="top" rowspan="1" colspan="1">69.0 ± 10.1</td><td align="left" valign="top" rowspan="1" colspan="1">69.1 ± 8.9</td><td align="left" valign="top" rowspan="1" colspan="1">69.0 ± 8.9</td><td align="left" valign="top" rowspan="1" colspan="1">70.3 ± 8.9</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.39</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.29</td></tr><tr><td align="left" colspan="7" valign="top" rowspan="1">Cumulative pack‐years smoked</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">0</td><td align="left" valign="top" rowspan="1" colspan="1">528 (41%)</td><td align="left" valign="top" rowspan="1" colspan="1">334 (41%)</td><td align="left" valign="top" rowspan="1" colspan="1">174 (40%)</td><td align="left" valign="top" rowspan="1" colspan="1">20 (50%)</td><td align="char" char="." rowspan="4" valign="top" colspan="1">0.64</td><td align="char" char="." rowspan="4" valign="top" colspan="1">0.36</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">1–19</td><td align="left" valign="top" rowspan="1" colspan="1">313 (24%)</td><td align="left" valign="top" rowspan="1" colspan="1">194 (24%)</td><td align="left" valign="top" rowspan="1" colspan="1">109 (25%)</td><td align="left" valign="top" rowspan="1" colspan="1">10 (25%)</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">20–39</td><td align="left" valign="top" rowspan="1" colspan="1">225 (17%)</td><td align="left" valign="top" rowspan="1" colspan="1">140 (17%)</td><td align="left" valign="top" rowspan="1" colspan="1">73 (19%)</td><td align="left" valign="top" rowspan="1" colspan="1">4 (10%)</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">≥40</td><td align="left" valign="top" rowspan="1" colspan="1">224 (17%)</td><td align="left" valign="top" rowspan="1" colspan="1">145 (18%)</td><td align="left" valign="top" rowspan="1" colspan="1">30 (17%)</td><td align="left" valign="top" rowspan="1" colspan="1">6 (15%)</td></tr><tr><td align="left" colspan="7" valign="top" rowspan="1">Family history of colorectal cancer in a first‐degree relative</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Absent</td><td align="left" valign="top" rowspan="1" colspan="1">1067 (80%)</td><td align="left" valign="top" rowspan="1" colspan="1">658 (79%)</td><td align="left" valign="top" rowspan="1" colspan="1">376 (81%)</td><td align="left" valign="top" rowspan="1" colspan="1">33 (77%)</td><td align="char" char="." rowspan="2" valign="top" colspan="1">0.71</td><td align="char" char="." rowspan="2" valign="top" colspan="1">0.48</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Present</td><td align="left" valign="top" rowspan="1" colspan="1">271 (20%)</td><td align="left" valign="top" rowspan="1" colspan="1">174 (21%)</td><td align="left" valign="top" rowspan="1" colspan="1">87 (19%)</td><td align="left" valign="top" rowspan="1" colspan="1">10 (23%)</td></tr><tr><td align="left" colspan="7" valign="top" rowspan="1">Year of diagnosis</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Prior to 1995</td><td align="left" valign="top" rowspan="1" colspan="1">466 (35%)</td><td align="left" valign="top" rowspan="1" colspan="1">274 (33%)</td><td align="left" valign="top" rowspan="1" colspan="1">179 (38%)</td><td align="left" valign="top" rowspan="1" colspan="1">13 (30%)</td><td align="char" char="." rowspan="3" valign="top" colspan="1">0.28</td><td align="char" char="." rowspan="3" valign="top" colspan="1">0.38</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">1996–2000</td><td align="left" valign="top" rowspan="1" colspan="1">424 (31%)</td><td align="left" valign="top" rowspan="1" colspan="1">257 (31%)</td><td align="left" valign="top" rowspan="1" colspan="1">149 (32%)</td><td align="left" valign="top" rowspan="1" colspan="1">18 (42%)</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">2001–2018</td><td align="left" valign="top" rowspan="1" colspan="1">457 (34%)</td><td align="left" valign="top" rowspan="1" colspan="1">306 (36%)</td><td align="left" valign="top" rowspan="1" colspan="1">139 (30%)</td><td align="left" valign="top" rowspan="1" colspan="1">12 (28%)</td></tr><tr><td align="left" colspan="7" valign="top" rowspan="1">Tumor location</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Cecum</td><td align="left" valign="top" rowspan="1" colspan="1">220 (16%)</td><td align="left" valign="top" rowspan="1" colspan="1">98 (12%)</td><td align="left" valign="top" rowspan="1" colspan="1">109 (23%)</td><td align="left" valign="top" rowspan="1" colspan="1">13 (31%)</td><td align="char" char="." rowspan="4" valign="top" colspan="1">0.006</td><td align="char" char="." rowspan="4" valign="top" colspan="1">0.11</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Ascending to transverse colon</td><td align="left" valign="top" rowspan="1" colspan="1">415 (31%)</td><td align="left" valign="top" rowspan="1" colspan="1">282 (34%)</td><td align="left" valign="top" rowspan="1" colspan="1">120 (26%)</td><td align="left" valign="top" rowspan="1" colspan="1">13 (31%)</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Distal colon</td><td align="left" valign="top" rowspan="1" colspan="1">410 (31%)</td><td align="left" valign="top" rowspan="1" colspan="1">261 (31%)</td><td align="left" valign="top" rowspan="1" colspan="1">139 (30%)</td><td align="left" valign="top" rowspan="1" colspan="1">10 (24%)</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Rectum</td><td align="left" valign="top" rowspan="1" colspan="1">295 (22%)</td><td align="left" valign="top" rowspan="1" colspan="1">191 (23%)</td><td align="left" valign="top" rowspan="1" colspan="1">98 (21%)</td><td align="left" valign="top" rowspan="1" colspan="1">6 (14%)</td></tr><tr><td align="left" colspan="7" valign="top" rowspan="1">Tumor differentiation</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Well to moderate</td><td align="left" valign="top" rowspan="1" colspan="1">1203 (90%)</td><td align="left" valign="top" rowspan="1" colspan="1">725 (87%)</td><td align="left" valign="top" rowspan="1" colspan="1">437 (94%)</td><td align="left" valign="top" rowspan="1" colspan="1">41 (95%)</td><td align="char" char="." rowspan="2" valign="top" colspan="1">0.11</td><td align="char" char="." rowspan="2" valign="top" colspan="1">0.72</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Poor</td><td align="left" valign="top" rowspan="1" colspan="1">137 (10%)</td><td align="left" valign="top" rowspan="1" colspan="1">107 (13%)</td><td align="left" valign="top" rowspan="1" colspan="1">28 (6%)</td><td align="left" valign="top" rowspan="1" colspan="1">2 (5%)</td></tr><tr><td align="left" colspan="7" valign="top" rowspan="1">AJCC disease stage</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">I</td><td align="left" valign="top" rowspan="1" colspan="1">319 (26%)</td><td align="left" valign="top" rowspan="1" colspan="1">212 (28%)</td><td align="left" valign="top" rowspan="1" colspan="1">97 (23%)</td><td align="left" valign="top" rowspan="1" colspan="1">10 (24%)</td><td align="char" char="." rowspan="4" valign="top" colspan="1">0.63</td><td align="char" char="." rowspan="4" valign="top" colspan="1">0.37</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">II</td><td align="left" valign="top" rowspan="1" colspan="1">382 (31%)</td><td align="left" valign="top" rowspan="1" colspan="1">256 (34%)</td><td align="left" valign="top" rowspan="1" colspan="1">113 (27%)</td><td align="left" valign="top" rowspan="1" colspan="1">13 (32%)</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">III</td><td align="left" valign="top" rowspan="1" colspan="1">344 (28%)</td><td align="left" valign="top" rowspan="1" colspan="1">199 (26%)</td><td align="left" valign="top" rowspan="1" colspan="1">131 (31%)</td><td align="left" valign="top" rowspan="1" colspan="1">14 (34%)</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">IV</td><td align="left" valign="top" rowspan="1" colspan="1">175 (14%)</td><td align="left" valign="top" rowspan="1" colspan="1">95 (12%)</td><td align="left" valign="top" rowspan="1" colspan="1">76 (18%)</td><td align="left" valign="top" rowspan="1" colspan="1">4 (10%)</td></tr><tr><td align="left" colspan="7" valign="top" rowspan="1">CIMP status</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Negative</td><td align="left" valign="top" rowspan="1" colspan="1">546 (43%)</td><td align="left" valign="top" rowspan="1" colspan="1">335 (43%)</td><td align="left" valign="top" rowspan="1" colspan="1">197 (45%)</td><td align="left" valign="top" rowspan="1" colspan="1">14 (33%)</td><td align="char" char="." rowspan="3" valign="top" colspan="1">0.0005</td><td align="char" char="." rowspan="3" valign="top" colspan="1">0.0036</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Low</td><td align="left" valign="top" rowspan="1" colspan="1">481 (38%)</td><td align="left" valign="top" rowspan="1" colspan="1">244 (31%)</td><td align="left" valign="top" rowspan="1" colspan="1">215 (49%)</td><td align="left" valign="top" rowspan="1" colspan="1">22 (52%)</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">High</td><td align="left" valign="top" rowspan="1" colspan="1">232 (18%)</td><td align="left" valign="top" rowspan="1" colspan="1">198 (25%)</td><td align="left" valign="top" rowspan="1" colspan="1">28 (6%)</td><td align="left" valign="top" rowspan="1" colspan="1">6 (14%)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Mean LINE‐1 methylation level (%) ± SD</td><td align="left" valign="top" rowspan="1" colspan="1">63.2 ± 10.1</td><td align="left" valign="top" rowspan="1" colspan="1">63.6 ± 10.5</td><td align="left" valign="top" rowspan="1" colspan="1">62.5 ± 9.1</td><td align="left" valign="top" rowspan="1" colspan="1">62.0 ± 9.1</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.3</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.69</td></tr><tr><td align="left" colspan="7" valign="top" rowspan="1">LINE‐1 methylation level</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">≤50</td><td align="left" valign="top" rowspan="1" colspan="1">114 (9%)</td><td align="left" valign="top" rowspan="1" colspan="1">69 (9%)</td><td align="left" valign="top" rowspan="1" colspan="1">41 (9%)</td><td align="left" valign="top" rowspan="1" colspan="1">4 (10%)</td><td align="char" char="." rowspan="3" valign="top" colspan="1">0.79</td><td align="char" char="." rowspan="3" valign="top" colspan="1">0.97</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">50‐60</td><td align="left" valign="top" rowspan="1" colspan="1">336 (26%)</td><td align="left" valign="top" rowspan="1" colspan="1">199 (25%)</td><td align="left" valign="top" rowspan="1" colspan="1">125 (27%)</td><td align="left" valign="top" rowspan="1" colspan="1">12 (29%)</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">&gt;60</td><td align="left" valign="top" rowspan="1" colspan="1">840 (65%)</td><td align="left" valign="top" rowspan="1" colspan="1">525 (66%)</td><td align="left" valign="top" rowspan="1" colspan="1">289 (64%)</td><td align="left" valign="top" rowspan="1" colspan="1">26 (62%)</td></tr><tr><td align="left" colspan="7" valign="top" rowspan="1">MSI status</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Non‐MSI‐high</td><td align="left" valign="top" rowspan="1" colspan="1">1106 (84%)</td><td align="left" valign="top" rowspan="1" colspan="1">633 (77%)</td><td align="left" valign="top" rowspan="1" colspan="1">431 (93%)</td><td align="left" valign="top" rowspan="1" colspan="1">42 (98%)</td><td align="char" char="." rowspan="2" valign="top" colspan="1">0.0016</td><td align="char" char="." rowspan="2" valign="top" colspan="1">0.26</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">MSI‐high</td><td align="left" valign="top" rowspan="1" colspan="1">218 (16%)</td><td align="left" valign="top" rowspan="1" colspan="1">186 (23%)</td><td align="left" valign="top" rowspan="1" colspan="1">31 (7%)</td><td align="left" valign="top" rowspan="1" colspan="1">1 (2%)</td></tr><tr><td align="left" colspan="7" valign="top" rowspan="1">
+<italic toggle="yes">BRAF</italic> mutation</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Wild‐type</td><td align="left" valign="top" rowspan="1" colspan="1">1130 (84%)</td><td align="left" valign="top" rowspan="1" colspan="1">629 (76%)</td><td align="left" valign="top" rowspan="1" colspan="1">459 (98.5%)</td><td align="left" valign="top" rowspan="1" colspan="1">42 (100%)</td><td align="char" char="." rowspan="2" valign="top" colspan="1">0.0002</td><td align="char" char="." rowspan="2" valign="top" colspan="1">0.42</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Mutant</td><td align="left" valign="top" rowspan="1" colspan="1">211 (16%)</td><td align="left" valign="top" rowspan="1" colspan="1">204 (24%)</td><td align="left" valign="top" rowspan="1" colspan="1">7 (1.5%)</td><td align="left" valign="top" rowspan="1" colspan="1">0 (0%)</td></tr><tr><td align="left" colspan="7" valign="top" rowspan="1">
+<italic toggle="yes">PIK3CA</italic> mutation</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Wild‐type</td><td align="left" valign="top" rowspan="1" colspan="1">1053 (84%)</td><td align="left" valign="top" rowspan="1" colspan="1">697 (89%)</td><td align="left" valign="top" rowspan="1" colspan="1">328 (76%)</td><td align="left" valign="top" rowspan="1" colspan="1">28 (74%)</td><td align="char" char="." rowspan="2" valign="top" colspan="1">0.0033</td><td align="char" char="." rowspan="2" valign="top" colspan="1">0.7</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Mutant</td><td align="left" valign="top" rowspan="1" colspan="1">195 (16%)</td><td align="left" valign="top" rowspan="1" colspan="1">84 (11%)</td><td align="left" valign="top" rowspan="1" colspan="1">101 (24%)</td><td align="left" valign="top" rowspan="1" colspan="1">10 (26%)</td></tr><tr><td align="left" colspan="7" valign="top" rowspan="1">
+<italic toggle="yes">Fusobacterium animalis (nucleatum)</italic>
+</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Negative</td><td align="left" valign="top" rowspan="1" colspan="1">1048 (87%)</td><td align="left" valign="top" rowspan="1" colspan="1">374 (87%)</td><td align="left" valign="top" rowspan="1" colspan="1">638 (86%)</td><td align="left" valign="top" rowspan="1" colspan="1">36 (92%)</td><td align="char" char="." rowspan="3" valign="top" colspan="1">0.61</td><td align="char" char="." rowspan="3" valign="top" colspan="1">0.47</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Low</td><td align="left" valign="top" rowspan="1" colspan="1">79 (6%)</td><td align="left" valign="top" rowspan="1" colspan="1">30 (7%)</td><td align="left" valign="top" rowspan="1" colspan="1">47 (6%)</td><td align="left" valign="top" rowspan="1" colspan="1">2 (5%)</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">High</td><td align="left" valign="top" rowspan="1" colspan="1">82 (7%)</td><td align="left" valign="top" rowspan="1" colspan="1">25 (6%)</td><td align="left" valign="top" rowspan="1" colspan="1">56 (8%)</td><td align="left" valign="top" rowspan="1" colspan="1">1 (3%)</td></tr><tr><td align="left" colspan="7" valign="top" rowspan="1">
+<italic toggle="yes">pks</italic>
+<sup>
+<italic toggle="yes">+</italic>
+</sup>
+<italic toggle="yes">Escherichia coli</italic>
+</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Negative</td><td align="left" valign="top" rowspan="1" colspan="1">1024 (91%)</td><td align="left" valign="top" rowspan="1" colspan="1">359 (90%)</td><td align="left" valign="top" rowspan="1" colspan="1">629 (91%)</td><td align="left" valign="top" rowspan="1" colspan="1">36 (92%)</td><td align="char" char="." rowspan="3" valign="top" colspan="1">0.6</td><td align="char" char="." rowspan="3" valign="top" colspan="1">0.86</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Low</td><td align="left" valign="top" rowspan="1" colspan="1">49 (4%)</td><td align="left" valign="top" rowspan="1" colspan="1">14 (4%)</td><td align="left" valign="top" rowspan="1" colspan="1">33 (5%)</td><td align="left" valign="top" rowspan="1" colspan="1">2 (5%)</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">High</td><td align="left" valign="top" rowspan="1" colspan="1">55 (5%)</td><td align="left" valign="top" rowspan="1" colspan="1">24 (6%)</td><td align="left" valign="top" rowspan="1" colspan="1">30 (4%)</td><td align="left" valign="top" rowspan="1" colspan="1">1 (3%)</td></tr><tr><td align="left" colspan="7" valign="top" rowspan="1">
+<italic toggle="yes">Bifidobacterium</italic>
+</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Negative</td><td align="left" valign="top" rowspan="1" colspan="1">874 (70%)</td><td align="left" valign="top" rowspan="1" colspan="1">316 (73%)</td><td align="left" valign="top" rowspan="1" colspan="1">529 (68%)</td><td align="left" valign="top" rowspan="1" colspan="1">29 (69%)</td><td align="char" char="." rowspan="3" valign="top" colspan="1">0.65</td><td align="char" char="." rowspan="3" valign="top" colspan="1">0.35</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Low</td><td align="left" valign="top" rowspan="1" colspan="1">207 (17%)</td><td align="left" valign="top" rowspan="1" colspan="1">58 (13%)</td><td align="left" valign="top" rowspan="1" colspan="1">144 (19%)</td><td align="left" valign="top" rowspan="1" colspan="1">5 (12%)</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">High</td><td align="left" valign="top" rowspan="1" colspan="1">168 (13%)</td><td align="left" valign="top" rowspan="1" colspan="1">60 (14%)</td><td align="left" valign="top" rowspan="1" colspan="1">100 (13%)</td><td align="left" valign="top" rowspan="1" colspan="1">8 (19%)</td></tr><tr><td align="left" colspan="7" valign="top" rowspan="1">
+<italic toggle="yes">Bacteroides fragilis</italic>
+</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Negative</td><td align="left" valign="top" rowspan="1" colspan="1">552 (50%)</td><td align="left" valign="top" rowspan="1" colspan="1">188 (49%)</td><td align="left" valign="top" rowspan="1" colspan="1">348 (50%)</td><td align="left" valign="top" rowspan="1" colspan="1">16 (44%)</td><td align="char" char="." rowspan="3" valign="top" colspan="1">0.83</td><td align="char" char="." rowspan="3" valign="top" colspan="1">0.76</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Low</td><td align="left" valign="top" rowspan="1" colspan="1">277 (25%)</td><td align="left" valign="top" rowspan="1" colspan="1">106 (28%)</td><td align="left" valign="top" rowspan="1" colspan="1">161 (23%)</td><td align="left" valign="top" rowspan="1" colspan="1">10 (28%)</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">High</td><td align="left" valign="top" rowspan="1" colspan="1">283 (25%)</td><td align="left" valign="top" rowspan="1" colspan="1">91 (24%)</td><td align="left" valign="top" rowspan="1" colspan="1">182 (26%)</td><td align="left" valign="top" rowspan="1" colspan="1">10 (28%)</td></tr><tr><td align="left" colspan="7" valign="top" rowspan="1">Enterotoxigenic <italic toggle="yes">Bacteroides fragilis</italic>
+</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Negative</td><td align="left" valign="top" rowspan="1" colspan="1">1013 (91%)</td><td align="left" valign="top" rowspan="1" colspan="1">349 (91%)</td><td align="left" valign="top" rowspan="1" colspan="1">629 (91%)</td><td align="left" valign="top" rowspan="1" colspan="1">35 (97%)</td><td align="char" char="." rowspan="3" valign="top" colspan="1">0.34</td><td align="char" char="." rowspan="3" valign="top" colspan="1">0.37</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">Low</td><td align="left" valign="top" rowspan="1" colspan="1">49 (4%)</td><td align="left" valign="top" rowspan="1" colspan="1">17 (4%)</td><td align="left" valign="top" rowspan="1" colspan="1">31 (5%)</td><td align="left" valign="top" rowspan="1" colspan="1">1 (3%)</td></tr><tr><td align="left" style="padding-left:10%" valign="top" rowspan="1" colspan="1">High</td><td align="left" valign="top" rowspan="1" colspan="1">50 (5%)</td><td align="left" valign="top" rowspan="1" colspan="1">19 (5%)</td><td align="left" valign="top" rowspan="1" colspan="1">31 (5%)</td><td align="left" valign="top" rowspan="1" colspan="1">0 (0%)</td></tr></tbody></table><table-wrap-foot id="cas16262-ntgp-0011"><fn id="cas16262-note-0004"><p>Abbreviations: AJCC, The American Joint Committee on Cancer; CIMP, CpG island methylator phenotype; HPFS, Health Professionals Follow‐up Study; LINE‐1, long‐interspersed nucleotide element‐1; MSI, microsatellite instability; NHS, Nurses’ Health Study; SD, standard deviation.</p></fn><fn id="cas16262-note-0005"><label>
+<sup>a</sup>
+</label><p>Data are presented as number (%) or as the mean ± standard deviation (SD). Percentage indicates the proportion of cases with a specific clinical, pathologic, or molecular characteristic among all colorectal cancer cases or in each stratum of <italic toggle="yes">KRAS</italic> mutation status.</p></fn><fn id="cas16262-note-0006"><label>
+<sup>b</sup>
+</label><p>To compare categorical data by <italic toggle="yes">KRAS</italic> mutation status, the chi‐square test or Fisher's exact test was performed. To compare age and LINE‐1 methylation level by <italic toggle="yes">KRAS</italic> mutation status, the analysis of variance was performed. To compare year of diagnosis by <italic toggle="yes">KRAS</italic> mutation status, AJCC disease stage, and tumour location, the Spearman correlation test was performed.</p></fn></table-wrap-foot></table-wrap><p>Notably, the prevalence of CIMP‐low status was similarly higher in <italic toggle="yes">KRAS</italic> c.34G&gt;T (p.G12C) mutants (52%) and other <italic toggle="yes">KRAS</italic> mutants (49%) than in <italic toggle="yes">KRAS</italic>‐wild‐type tumors (31%). In addition, the CIMP category distribution was significantly different in <italic toggle="yes">KRAS</italic> c.34G&gt;T (p.G12C) mutants compared with other <italic toggle="yes">KRAS</italic> mutants (<italic toggle="yes">p</italic> = 0.0036). Specifically, <italic toggle="yes">KRAS</italic> c.34G&gt;T (p.G12C) mutants showed higher CIMP‐high prevalence (14%) and lower CIMP‐negative prevalence (33%) compared with other <italic toggle="yes">KRAS</italic> mutants (6% and 45%, respectively).</p><p>Regarding other tumoral features, when compared with <italic toggle="yes">KRAS</italic>‐wild‐type tumors, <italic toggle="yes">KRAS</italic> c.34G&gt;T tumors were more likely to demonstrate cecal location (31% vs. 12%; <italic toggle="yes">p</italic> = 0.006), non‐MSI‐high status (98% vs. 77%; <italic toggle="yes">p</italic> = 0.0016), wild‐type <italic toggle="yes">BRAF</italic> (100% vs. 76%; <italic toggle="yes">p</italic> = 0.0002), and <italic toggle="yes">PIK3CA</italic> mutation (26% vs. 11%; <italic toggle="yes">p</italic> = 0.0033). These associations were similarly present in other <italic toggle="yes">KRAS‐</italic>mutated tumors compared with <italic toggle="yes">KRAS</italic>‐wild‐type tumors. Neither <italic toggle="yes">KRAS</italic> c.34G&gt;T mutants nor other <italic toggle="yes">KRAS</italic> mutants were associated with other features including the tumor tissue abundance of <italic toggle="yes">F. nucleatum</italic> (<italic toggle="yes">F. animalis</italic>), <italic toggle="yes">pks</italic>
+<sup>+</sup>
+<italic toggle="yes">E. coli</italic>, <italic toggle="yes">Bifidobacterium</italic>, or (enterotoxigenic) <italic toggle="yes">B. fragilis</italic>.</p><p>Additionally, because both <italic toggle="yes">KRAS</italic> c.34G&gt;T (p.G12C) mutation and <italic toggle="yes">BRAF</italic> mutation were associated with CIMP‐high status, we conducted exploratory analyses comparing clinical and tumor characteristics between <italic toggle="yes">KRAS</italic> c.34G&gt;T (p.G12C)‐mutated and <italic toggle="yes">BRAF‐</italic>mutated tumors (Table <xref rid="cas16262-supitem-0001" ref-type="supplementary-material">S1</xref>). Compared with <italic toggle="yes">BRAF‐</italic>mutated tumors, <italic toggle="yes">KRAS</italic> c.34G&gt;T (p.G12C)‐mutated tumors showed lower proportions of female (51% vs. 76%; <italic toggle="yes">p</italic> = 0.0011), lower poor differentiation prevalence (5% vs. 30%; <italic toggle="yes">p</italic> = 0.0004), lower CIMP‐high prevalence (15% vs. 74%), lower MSI‐high prevalence (2% vs. 58%; <italic toggle="yes">p</italic> &lt; 0.0001), lower <italic toggle="yes">F. nucleatum</italic>‐positivity (8% vs. 23%), lower prevalence of ETBF‐high tumors (0% vs. 10%), and lower mean LINE‐1 methylation level (62.0 vs. 67.7; <italic toggle="yes">p</italic> = 0.0017).</p><p>We examined the prognostic role of <italic toggle="yes">KRAS</italic> mutation within 1122 <italic toggle="yes">BRAF</italic>‐wild‐type colorectal carcinoma cases. Among these patients, there were 841 deaths including 347 colorectal cancer‐specific deaths, during a median follow‐up of 20.4 years (interquartile range, 16.2–24.0 years) for censored cases without 5‐year cutoffs. The 5‐year colorectal cancer‐specific survival probabilities were 81% in <italic toggle="yes">KRAS</italic>‐wild‐type patients, 66% in <italic toggle="yes">KRAS</italic> c.34G&gt;T (p.G12C)‐mutated patients, and 71% in other <italic toggle="yes">KRAS</italic>‐mutated patients (Figure <xref rid="cas16262-fig-0002" ref-type="fig">2</xref>). We observed significant differences in colorectal cancer‐specific mortality between <italic toggle="yes">KRAS</italic>‐wild‐type, <italic toggle="yes">KRAS</italic> c.34G&gt;T (p.G12C)‐mutated, and other <italic toggle="yes">KRAS‐</italic>mutated patients in Kaplan–Meier analysis (log‐rank <italic toggle="yes">p</italic> = 0.0002; Figure <xref rid="cas16262-fig-0002" ref-type="fig">2</xref>). In Cox proportional hazards regression analyses (Table <xref rid="cas16262-tbl-0002" ref-type="table">2</xref>), compared with <italic toggle="yes">KRAS</italic>‐wild‐type tumors, <italic toggle="yes">KRAS</italic> c.34G&gt;T (p.G12C)‐mutated tumors were associated with a higher 5‐year colorectal cancer‐specific mortality (with univariable HR, 1.97; 95% confidence interval [CI], 1.13–3.42; <italic toggle="yes">p</italic> = 0.017; and multivariable HR, 1.82; 95% CI, 1.05–3.17; <italic toggle="yes">p</italic> = 0.035). In addition, compared with <italic toggle="yes">KRAS</italic>‐wild‐type tumors, other <italic toggle="yes">KRAS</italic>‐mutated tumors were also associated with a higher 5‐year colorectal cancer‐specific mortality (with univariable HR, 1.63; 95% CI, 1.27–2.09; <italic toggle="yes">p</italic> = 0.0001; and multivariable HR, 1.57; 95% CI, 1.22–2.02; <italic toggle="yes">p</italic> = 0.0004).</p><fig position="float" fig-type="FIGURE" id="cas16262-fig-0002" orientation="portrait"><label>FIGURE 2</label><caption><p>Survival analyses of 1112 <italic toggle="yes">BRAF</italic>‐wild‐type colorectal cancer patients according to the <italic toggle="yes">KRAS</italic> mutation status.</p></caption><graphic position="anchor" id="jats-graphic-5" orientation="portrait" ns1:href="CAS-115-3455-g001.jpg" /></fig><table-wrap position="float" id="cas16262-tbl-0002" content-type="TABLE" orientation="portrait"><label>TABLE 2</label><caption><p>Survival analyses of 1112 <italic toggle="no">BRAF</italic>‐wild‐type colorectal cancer patients according to the <italic toggle="no">KRAS</italic> mutation status.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1" /><col align="left" span="1" /><col align="left" span="1" /><col align="left" span="1" /><col align="left" span="1" /><col align="left" span="1" /><col align="left" span="1" /><col align="left" span="1" /><col align="left" span="1" /><col align="left" span="1" /><col align="left" span="1" /><col align="left" span="1" /><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="2" valign="bottom" colspan="1">
+<italic toggle="yes">KRAS</italic> mutation status</th><th align="left" rowspan="2" valign="bottom" colspan="1">No. of cases</th><th align="left" colspan="5" valign="bottom" rowspan="1">Colorectal cancer‐specific mortality</th><th align="left" colspan="4" valign="bottom" rowspan="1">Overall mortality</th><th align="left" valign="bottom" rowspan="1" colspan="1" /></tr><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">No. of events</th><th align="left" valign="bottom" rowspan="1" colspan="1">Univariable HR (95% CI)<xref rid="cas16262-note-0008" ref-type="table-fn">*</xref>
+</th><th align="left" valign="bottom" rowspan="1" colspan="1">
+<italic toggle="yes">p</italic>‐Value</th><th align="left" valign="bottom" rowspan="1" colspan="1">Multivariable HR (95% CI)<xref rid="cas16262-note-0008" ref-type="table-fn">*</xref>
+</th><th align="left" valign="bottom" rowspan="1" colspan="1">
+<italic toggle="yes">p</italic>‐Value</th><th align="left" valign="bottom" rowspan="1" colspan="1">No. of events</th><th align="left" valign="bottom" rowspan="1" colspan="1">Univariable HR (95% CI)<xref rid="cas16262-note-0008" ref-type="table-fn">*</xref>
+</th><th align="left" valign="bottom" rowspan="1" colspan="1">
+<italic toggle="yes">p</italic> value</th><th align="left" valign="bottom" rowspan="1" colspan="1">Multivariable HR (95% CI)<xref rid="cas16262-note-0008" ref-type="table-fn">*</xref>
+</th><th align="left" valign="bottom" rowspan="1" colspan="1">
+<italic toggle="yes">p</italic>‐Value</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">Wild‐type</td><td align="left" valign="top" rowspan="1" colspan="1">626</td><td align="left" valign="top" rowspan="1" colspan="1">117</td><td align="left" colspan="2" valign="top" rowspan="1">1 (referent)</td><td align="left" colspan="2" valign="top" rowspan="1">1 (referent)</td><td align="left" valign="top" rowspan="1" colspan="1">160</td><td align="left" colspan="2" valign="top" rowspan="1">1 (referent)</td><td align="left" colspan="2" valign="top" rowspan="1">1 (referent)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">c.34G&gt;T (p.G12C)</td><td align="left" valign="top" rowspan="1" colspan="1">42</td><td align="left" valign="top" rowspan="1" colspan="1">14</td><td align="left" valign="top" rowspan="1" colspan="1">1.97 (1.13–3.42)</td><td align="left" valign="top" rowspan="1" colspan="1">0.017</td><td align="left" valign="top" rowspan="1" colspan="1">1.82 (1.05–3.17)</td><td align="left" valign="top" rowspan="1" colspan="1">0.035</td><td align="left" valign="top" rowspan="1" colspan="1">16</td><td align="left" valign="top" rowspan="1" colspan="1">1.66 (1.00–2.78)</td><td align="left" valign="top" rowspan="1" colspan="1">0.052</td><td align="left" valign="top" rowspan="1" colspan="1">1.50 (0.90–2.51)</td><td align="left" valign="top" rowspan="1" colspan="1">0.12</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Mutations other than c.34G&gt;T (p.G12C)</td><td align="left" valign="top" rowspan="1" colspan="1">454</td><td align="left" valign="top" rowspan="1" colspan="1">130</td><td align="left" valign="top" rowspan="1" colspan="1">1.63 (1.27–2.09)</td><td align="left" valign="top" rowspan="1" colspan="1">0.0001</td><td align="left" valign="top" rowspan="1" colspan="1">1.57 (1.22–2.02)</td><td align="left" valign="top" rowspan="1" colspan="1">0.0004</td><td align="left" valign="top" rowspan="1" colspan="1">155</td><td align="left" valign="top" rowspan="1" colspan="1">1.43 (1.15–1.78)</td><td align="left" valign="top" rowspan="1" colspan="1">0.0016</td><td align="left" valign="top" rowspan="1" colspan="1">1.37 (1.10–1.71)</td><td align="left" valign="top" rowspan="1" colspan="1">0.0055</td></tr></tbody></table><table-wrap-foot id="cas16262-ntgp-0003"><fn id="cas16262-note-0007"><p>Abbreviations: CI, confidence interval; HR, hazard ratio.</p></fn><fn id="cas16262-note-0008"><label>*</label><p>The multivariable Cox regression model initially included age at diagnosis, sex, year of diagnosis, family history of colorectal cancer, tumor location, microsatellite instability, CpG island methylator phenotype, <italic toggle="yes">PIK3CA</italic> mutation, and long interspersed nucleotide element‐1 methylation level. A backward elimination with a threshold of <italic toggle="yes">p</italic> = 0.05 was used to select variables in the final model.</p></fn></table-wrap-foot></table-wrap></sec><sec sec-type="discussion" id="cas16262-sec-0007"><label>4</label><title>DISCUSSION</title><p>The purpose of this study was to test the hypothesis that certain clinical and tumor characteristics of <italic toggle="yes">KRAS</italic> c.34G&gt;T (p.G12C)‐mutated colorectal carcinomas might differ from those of other <italic toggle="yes">KRAS</italic>‐mutated tumors and <italic toggle="yes">KRAS</italic>‐wild‐type tumors. Compared with other <italic toggle="yes">KRAS</italic>‐mutated tumors, <italic toggle="yes">KRAS</italic> c.34G&gt;T (p.G12C)‐mutated tumors exhibited higher CIMP‐high prevalence and lower CIMP‐negative prevalence. In addition, <italic toggle="yes">KRAS</italic> c.34G&gt;T (p.G12C)‐mutated tumors and other <italic toggle="yes">KRAS</italic>‐mutated tumors similarly showed high CIMP‐low prevalence compared with <italic toggle="yes">KRAS</italic>‐wild‐type tumors. Similar to other <italic toggle="yes">KRAS</italic>‐mutated tumors, <italic toggle="yes">KRAS</italic> c.34G&gt;T (p.G12C)‐mutated tumors were also associated with cecal location, non‐MSI‐high status, <italic toggle="yes">PIK3CA</italic> mutation, and wild‐type <italic toggle="yes">BRAF</italic>. In addition, we showed that, among <italic toggle="yes">BRAF</italic>‐wild‐type cases, both <italic toggle="yes">KRAS</italic> c.34G&gt;T (p.G12C) mutation and <italic toggle="yes">KRAS</italic> mutations other than c.34G&gt;T were associated with higher colorectal cancer‐specific mortality compared with <italic toggle="yes">KRAS</italic>‐wild‐type cases. Hence, our study has provided new intriguing findings on colorectal carcinomas with the specific <italic toggle="yes">KRAS</italic> c.34G&gt;T (p.G12C) mutation.</p><p>
+<italic toggle="yes">KRAS</italic> mutations, which are present in approximately 40% of colorectal carcinomas, have been implicated in tumor development, progression, treatment resistance, and recurrence.<xref rid="cas16262-bib-0003" ref-type="bibr">
+<sup>3</sup>
+</xref> Traditionally, developing targeted therapies for <italic toggle="yes">KRAS</italic> mutations has been challenging due to lack of binding pockets suitable for small‐molecule inhibitors.<xref rid="cas16262-bib-0034" ref-type="bibr">
+<sup>34</sup>
+</xref> Combination therapies with allele‐specific covalent KRAS p.G12C inhibitors and anti‐EGFR targeted therapy have recently shown promising results in advanced colorectal cancer patients with <italic toggle="yes">KRAS</italic> c.34G&gt;T (p.G12C) mutation.<xref rid="cas16262-bib-0013" ref-type="bibr">
+<sup>13</sup>
+</xref>, <xref rid="cas16262-bib-0014" ref-type="bibr">
+<sup>14</sup>
+</xref>, <xref rid="cas16262-bib-0035" ref-type="bibr">
+<sup>35</sup>
+</xref>, <xref rid="cas16262-bib-0036" ref-type="bibr">
+<sup>36</sup>
+</xref> Therefore, it is of particular interest to comprehensively understand the features of <italic toggle="yes">KRAS</italic> c.34G&gt;T (p.G12C)‐mutated colorectal carcinomas.</p><p>The clinicopathological features of <italic toggle="yes">KRAS</italic> c.34G&gt;T (p.G12C)‐mutated colorectal carcinomas, in particular, differences from those from other <italic toggle="yes">KRAS‐</italic>mutated carcinomas remain to be characterized. Studies showed that, compared with other <italic toggle="yes">KRAS‐</italic>mutated colorectal cancers, <italic toggle="yes">KRAS</italic> c.34G&gt;T (p.G12C)‐mutated colorectal cancer was associated with male sex, distal colorectal localization, and distant metastases to the lung, liver, and brain.<xref rid="cas16262-bib-0037" ref-type="bibr">
+<sup>37</sup>
+</xref>, <xref rid="cas16262-bib-0038" ref-type="bibr">
+<sup>38</sup>
+</xref>, <xref rid="cas16262-bib-0039" ref-type="bibr">
+<sup>39</sup>
+</xref> In contrast, other studies reported generally similar demographic and clinical characteristics of <italic toggle="yes">KRAS</italic> c.34G&gt;T (p.G12C)‐mutated colorectal cancer to those of other <italic toggle="yes">KRAS</italic>‐mutated colorectal cancers although these studies included only advanced colorectal cancer cases with limited tumor molecular information.<xref rid="cas16262-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref>, <xref rid="cas16262-bib-0019" ref-type="bibr">
+<sup>19</sup>
+</xref>, <xref rid="cas16262-bib-0040" ref-type="bibr">
+<sup>40</sup>
+</xref> All of these findings as well as results of the current study need to be replicated in multiple independent studies. We found the unique association of <italic toggle="yes">KRAS</italic> c.34G&gt;T‐mutated colorectal carcinoma with both CIMP‐high (when compared with other <italic toggle="yes">KRAS</italic>‐mutated tumors) and CIMP‐low statuses (when compared with <italic toggle="yes">KRAS</italic>‐wild‐type tumors). The link between <italic toggle="yes">KRAS</italic> mutations and CIMP‐low status in colorectal carcinoma was discovered in the past.<xref rid="cas16262-bib-0041" ref-type="bibr">
+<sup>41</sup>
+</xref> A recent study based on the cohorts and PCITB used in the current study has found a positive relationship of CIMP‐high with the tumor tissue abundance of <italic toggle="yes">B. fragilis</italic>, in particular ETBF,<xref rid="cas16262-bib-0029" ref-type="bibr">
+<sup>29</sup>
+</xref> which has been implicated in colorectal carcinogenesis.<xref rid="cas16262-bib-0042" ref-type="bibr">
+<sup>42</sup>
+</xref> With limited statistical power, we did not observe an association of <italic toggle="yes">KRAS</italic> c.34G&gt;T (p.G12C) mutation with <italic toggle="yes">B. fragilis</italic> or ETBF. CIMP‐high colorectal carcinomas are considered to arise through the serrated neoplasia pathway characterized by serrated morphologies of precursor lesions. Colorectal tumors arising through the serrated neoplasia pathway often carry <italic toggle="yes">BRAF</italic> mutations and only rarely <italic toggle="yes">KRAS</italic> mutations.<xref rid="cas16262-bib-0043" ref-type="bibr">
+<sup>43</sup>
+</xref> Considering our new findings, it is also of interest to study the <italic toggle="yes">KRAS</italic> c.34G&gt;T variant in serrated precursor lesions compared with conventional nonserrated adenomas.</p><p>We did not observe a significant association of <italic toggle="yes">KRAS</italic> c.34G&gt;T with the tissue abundance of <italic toggle="yes">F. nucleatum</italic> (<italic toggle="yes">F. animalis</italic>) or <italic toggle="yes">pks</italic>
+<sup>
+<italic toggle="yes">+</italic>
+</sup>
+<italic toggle="yes">E. coli</italic>. These bacteria have been implicated in colorectal carcinogenesis.<xref rid="cas16262-bib-0044" ref-type="bibr">
+<sup>44</sup>
+</xref>, <xref rid="cas16262-bib-0045" ref-type="bibr">
+<sup>45</sup>
+</xref>, <xref rid="cas16262-bib-0046" ref-type="bibr">
+<sup>46</sup>
+</xref>, <xref rid="cas16262-bib-0047" ref-type="bibr">
+<sup>47</sup>
+</xref> Previous studies have shown potential interrelated links between cecal location, <italic toggle="yes">KRAS</italic> mutation, and <italic toggle="yes">F. nucleatum</italic> in colorectal carcinomas.<xref rid="cas16262-bib-0048" ref-type="bibr">
+<sup>48</sup>
+</xref>, <xref rid="cas16262-bib-0049" ref-type="bibr">
+<sup>49</sup>
+</xref>, <xref rid="cas16262-bib-0050" ref-type="bibr">
+<sup>50</sup>
+</xref>, <xref rid="cas16262-bib-0051" ref-type="bibr">
+<sup>51</sup>
+</xref> The relationship between <italic toggle="yes">KRAS</italic> mutations and tissue microorganisms need to be clarified in future studies.</p><p>The incidence of early‐onset colorectal cancer has been rising since the 1990s in many parts of the world, which has drawn international attention.<xref rid="cas16262-bib-0052" ref-type="bibr">
+<sup>52</sup>
+</xref>, <xref rid="cas16262-bib-0053" ref-type="bibr">
+<sup>53</sup>
+</xref> We have shown that tumor LINE‐1 hypomethylation is a biomarker of early‐onset colorectal cancer and has been associated with aggressive tumor behaviors.<xref rid="cas16262-bib-0054" ref-type="bibr">
+<sup>54</sup>
+</xref> In this study, compared with <italic toggle="yes">BRAF</italic>‐mutated tumors, <italic toggle="yes">KRAS</italic> c.34G&gt;T mutants showed more frequent LINE‐1 hypomethylation. A possible link of <italic toggle="yes">KRAS</italic> c.34G&gt;T mutation to LINE‐1 hypomethylation and early‐onset carcinoma should be investigated in future larger studies because the sample size of early‐onset carcinoma is limited in this study.</p><p>In colorectal cancer, <italic toggle="yes">KRAS</italic> mutation has been reported as an unfavorable prognosis factor,<xref rid="cas16262-bib-0055" ref-type="bibr">
+<sup>55</sup>
+</xref> though the literature data are somewhat mixed likely due at least in part to the presence/absence of the adjustment for a strong confounder variable, <italic toggle="yes">BRAF</italic> mutation. Previous studies demonstrated that the <italic toggle="yes">KRAS</italic> c.34G&gt;T (p.G12C) mutation was associated with poorer prognosis compared with other <italic toggle="yes">KRAS</italic> mutations.<xref rid="cas16262-bib-0009" ref-type="bibr">
+<sup>9</sup>
+</xref>, <xref rid="cas16262-bib-0037" ref-type="bibr">
+<sup>37</sup>
+</xref>, <xref rid="cas16262-bib-0040" ref-type="bibr">
+<sup>40</sup>
+</xref> In our dataset, in addition to the c.34G&gt;T (p.G12C) mutation (shown by the current study), <italic toggle="yes">KRAS</italic> c.34G&gt;C (p.G12R) and c.35G&gt;T (p.G12V) mutations were associated with higher colorectal cancer‐specific mortalities among various <italic toggle="yes">KRAS</italic> mutations.<xref rid="cas16262-bib-0056" ref-type="bibr">
+<sup>56</sup>
+</xref> Therefore, the prognostic impact of various <italic toggle="yes">KRAS</italic> mutations including the c.34G&gt;T (p.G12C) mutation should be investigated by future studies with large sample sizes and detailed tumor molecular and treatment data.</p><p>The current study has some limitations. First, the number of <italic toggle="yes">KRAS</italic> c.34G&gt;T (p.G12C)‐mutated cases was modest, as this mutation is present in only 3%–4% of colorectal cancer patients. Second, the participants in our study consisted of health professionals and predominantly non‐Hispanic white individuals. Therefore, our findings should be replicated in different populations. Third, in survival analyses, cancer treatment data were not available in most cases. Nonetheless, our findings of the prognostic role of the <italic toggle="yes">KRAS</italic> c.34G&gt;T (p.G12C) mutation are consistent with prior studies by other investigators.</p><p>The current study has notable strengths. First, we conducted robust CIMP analyses using the rigorously validated bisulfite modification and MethyLight assay with high sensitivity and specificity to detect CIMP‐high status using FFPE tumor tissue.<xref rid="cas16262-bib-0024" ref-type="bibr">
+<sup>24</sup>
+</xref>, <xref rid="cas16262-bib-0026" ref-type="bibr">
+<sup>26</sup>
+</xref> Second, we assembled tumor tissue materials of colorectal carcinoma patients (in the PCITB within the well‐defined cohort populations) from hundreds of hospitals located throughout the United States, which increases the generalizability of study findings compared with a study based on a limited number of hospitals. Third, based on two large‐scale prospective cohort studies, our molecular pathological epidemiology database could assess the features of <italic toggle="yes">KRAS</italic> c.34G&gt;T‐mutated colorectal cancer, including the prognostic role of this specific <italic toggle="yes">KRAS</italic> c.34G&gt;T mutation independent of <italic toggle="yes">BRAF</italic> mutation and many other various clinicopathological and tumoral features.</p><p>In conclusion, this study provides novel evidence for clinical and tumor characteristics of <italic toggle="yes">KRAS</italic> c.34G&gt;T (p.G12C)‐mutated colorectal carcinoma, which needs to be replicated by independent datasets. Given that KRAS p.G12C protein variant inhibitors can be an effective treatment strategy for advanced colorectal cancer, our study is likely of clinical relevance.</p><p>Use of standardized official symbols: We use Human Genome Organisation (HUGO) Gene Nomenclature Committee (HGNC)‐approved official symbols (or root symbols), accompanied by unique HGNC ID where appropriate, for genes and gene products, including BRAF, CACNA1G, CDKN2A, CRABP1, EGFR, IGF2, KRAS, MAPK, MLH1, NEUROG1, PIK3CA, RAS, RUNX3, and SOCS1, all of which are described at <ext-link ns1:href="http://www.genenames.org" ext-link-type="uri">www.genenames.org</ext-link>. The official gene symbols are italicized to differentiate from nonitalicized gene product names and nonofficial colloquial names.</p></sec><sec id="cas16262-sec-0014"><title>AUTHOR CONTRIBUTIONS</title><p>
+<bold>Satoko Ugai:</bold> Formal analysis; funding acquisition; investigation; project administration; writing – original draft; writing – review and editing. <bold>Qian Yao:</bold> Writing – review and editing. <bold>Yasutoshi Takashima:</bold> Writing – review and editing. <bold>Yuxue Zhong:</bold> Writing – review and editing. <bold>Kosuke Matsuda:</bold> Writing – review and editing. <bold>Hidetaka Kawamura:</bold> Writing – review and editing. <bold>Yu Imamura:</bold> Writing – review and editing. <bold>Kazuo Okadome:</bold> Writing – review and editing. <bold>Kosuke Mima:</bold> Writing – review and editing. <bold>Kota Arima:</bold> Writing – review and editing. <bold>Keisuke Kosumi:</bold> Writing – review and editing. <bold>Mingyang Song:</bold> Writing – review and editing. <bold>Jeffrey A. Meyerhardt:</bold> Writing – review and editing. <bold>Marios Giannakis:</bold> Writing – review and editing. <bold>Jonathan A. Nowak:</bold> Writing – review and editing. <bold>Tomotaka Ugai:</bold> Formal analysis; funding acquisition; investigation; methodology; project administration; resources; supervision; writing – original draft; writing – review and editing. <bold>Shuji Ogino:</bold> Conceptualization; formal analysis; investigation; methodology; project administration; resources; supervision; validation; writing – original draft; writing – review and editing.</p></sec><sec id="cas16262-sec-0009"><title>FUNDING INFORMATION</title><p>This work was supported by US National Institutes of Health (NIH) grants (P01 CA87969; UM1 CA186107; P01 CA55075; UM1 CA167552; U01 CA167552; R35 CA197735 to S.O.; R01 CA151993 to S.O.; R21 CA230873 to S.O.; and R50 CA274122 to T.U.); by Cancer Research UK Grand Challenge Award (C10674/A27140 to M.G. and S.O.). The content is solely the responsibility of the authors and does not necessarily represent the official views of NIH. T.U. was supported by Prevent Cancer Foundation grant, Harvey V. Fineberg Cancer Prevention Fellowship, Brigham and Women's Hospital Faculty Career Development Award, an investigator‐initiated grant from the American Institute for Cancer Research (AICR). Each of K.M., H.K., T.U., and S.U. was separately supported by a fellowship grant from the Uehara Memorial Foundation. S.O. is an American Cancer Society Clinical Research Professor (CRP‐24‐1185864‐01‐PROF). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</p></sec><sec sec-type="COI-statement" id="cas16262-sec-0010"><title>CONFLICT OF INTEREST STATEMENT</title><p>M.G. receives research funding from Janssen, consulting fees from Nerviano Medical Sciences, and has received Honoraria from AstraZeneca and Chroma Code. No other conflicts of interest exist. The other authors have no conflicts of interest.</p></sec><sec id="cas16262-sec-0013"><title>ETHICS STATEMENT</title><p>Approval of the research protocol by an Institutional Reviewer Board: The study protocol was approved by the institutional review boards of the Brigham and Women's Hospital and Harvard T.H. Chan School of Public Health, and those of participating registries as required.</p><p>Informed Consent: Informed consent was obtained from all of the subjects.</p><p>Registry and the Registration No. of the study/trial: N/A.</p><p>Animal Studies: N/A.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="cas16262-supitem-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>
+Table S1.
+</p></caption><media ns1:href="CAS-115-3455-s001.docx" position="float" orientation="portrait" /></supplementary-material></sec></body><back><ack id="cas16262-sec-0008"><title>ACKNOWLEDGMENTS</title><p>The authors would like to acknowledge the contribution to this study from central cancer registries supported through the Centers for Disease Control and Prevention's National Program of Cancer Registries (NPCR) and/or the National Cancer Institute's Surveillance, Epidemiology, and End Results (SEER) Program. Central registries may also be supported by state agencies, universities, and cancer centers. Participating central cancer registries include the following: Alabama, Alaska, Arizona, Arkansas, California, Delaware, Colorado, Connecticut, Florida, Georgia, Hawaii, Idaho, Indiana, Iowa, Kentucky, Louisiana, Maine, Maryland, Massachusetts, Michigan, Mississippi, Montana, Nebraska, Nevada, New Hampshire, New Jersey, New Mexico, New York, North Carolina, North Dakota, Ohio, Oklahoma, Oregon, Pennsylvania, Puerto Rico, Rhode Island, Seattle SEER Registry, South Carolina, Tennessee, Texas, Utah, Virginia, West Virginia, and Wyoming. We would like to acknowledge the Channing Division of Network Medicine, Department of Medicine, Brigham and Women's Hospital and Harvard Medical School, Boston, MA, USA. The authors assume full responsibility for analyses and interpretation of these data.</p></ack><sec sec-type="data-availability" id="cas16262-sec-0012"><title>DATA AVAILABILITY STATEMENT</title><p>Further information including the procedures to obtain and access data from the Nurses' Health Studies and Health Professionals Follow‐up Study is described at <ext-link ns1:href="https://www.nurseshealthstudy.org/researchers" ext-link-type="uri" specific-use="software is-supplemented-by">https://www.nurseshealthstudy.org/researchers</ext-link> (contact email: <email>nhsaccess@channing.harvard.edu</email>) and <ext-link ns1:href="https://sites.sph.harvard.edu/hpfs/for-collaborators/" ext-link-type="uri" specific-use="software is-supplemented-by">https://sites.sph.harvard.edu/hpfs/for‐collaborators/</ext-link>.</p></sec><ref-list content-type="cited-references" id="cas16262-bibl-0001"><title>REFERENCES</title><ref id="cas16262-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="cas16262-cit-0001">
+<string-name name-style="western">
+<surname>Alzahrani</surname>
+<given-names>SM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Al Doghaither</surname>
+<given-names>HA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Al‐Ghafari</surname>
+<given-names>AB</given-names>
+</string-name>. <article-title>General insight into cancer: an overview of colorectal cancer (review)</article-title>. <source>Mol Clin Oncol</source>. <year>2021</year>;<volume>15</volume>:<fpage>271</fpage>.<pub-id pub-id-type="pmid">34790355</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3892/mco.2021.2433</pub-id><pub-id pub-id-type="pmcid">PMC8591689</pub-id></mixed-citation></ref><ref id="cas16262-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="cas16262-cit-0002">
+<string-name name-style="western">
+<surname>Fanelli</surname>
+<given-names>GN</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dal Pozzo</surname>
+<given-names>CA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Depetris</surname>
+<given-names>I</given-names>
+</string-name>, et al. <article-title>The heterogeneous clinical and pathological landscapes of metastatic Braf‐mutated colorectal cancer</article-title>. <source>Cancer Cell Int</source>. <year>2020</year>;<volume>20</volume>:<fpage>30</fpage>.<pub-id pub-id-type="pmid">32015690</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s12935-020-1117-2</pub-id><pub-id pub-id-type="pmcid">PMC6990491</pub-id></mixed-citation></ref><ref id="cas16262-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="cas16262-cit-0003">
+<string-name name-style="western">
+<surname>Zhu</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pei</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Xia</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tang</surname>
+<given-names>Q</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bi</surname>
+<given-names>F</given-names>
+</string-name>. <article-title>Role of oncogenic KRAS in the prognosis, diagnosis and treatment of colorectal cancer</article-title>. <source>Mol Cancer</source>. <year>2021</year>;<volume>20</volume>:<fpage>143</fpage>.<pub-id pub-id-type="pmid">34742312</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s12943-021-01441-4</pub-id><pub-id pub-id-type="pmcid">PMC8571891</pub-id></mixed-citation></ref><ref id="cas16262-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="cas16262-cit-0004">
+<string-name name-style="western">
+<surname>Misale</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yaeger</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hobor</surname>
+<given-names>S</given-names>
+</string-name>, et al. <article-title>Emergence of KRAS mutations and acquired resistance to anti‐EGFR therapy in colorectal cancer</article-title>. <source>Nature</source>. <year>2012</year>;<volume>486</volume>:<fpage>532</fpage>‐<lpage>536</lpage>.<pub-id pub-id-type="pmid">22722830</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature11156</pub-id><pub-id pub-id-type="pmcid">PMC3927413</pub-id></mixed-citation></ref><ref id="cas16262-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="cas16262-cit-0005">
+<string-name name-style="western">
+<surname>Karapetis</surname>
+<given-names>CS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Khambata‐Ford</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jonker</surname>
+<given-names>DJ</given-names>
+</string-name>, et al. <article-title>K‐ras mutations and benefit from cetuximab in advanced colorectal cancer</article-title>. <source>N Engl J Med</source>. <year>2008</year>;<volume>359</volume>:<fpage>1757</fpage>‐<lpage>1765</lpage>.<pub-id pub-id-type="pmid">18946061</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa0804385</pub-id></mixed-citation></ref><ref id="cas16262-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="cas16262-cit-0006">
+<string-name name-style="western">
+<surname>De Roock</surname>
+<given-names>W</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Claes</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bernasconi</surname>
+<given-names>D</given-names>
+</string-name>, et al. <article-title>Effects of KRAS, BRAF, NRAS, and PIK3CA mutations on the efficacy of cetuximab plus chemotherapy in chemotherapy‐refractory metastatic colorectal cancer: a retrospective consortium analysis</article-title>. <source>Lancet Oncol</source>. <year>2010</year>;<volume>11</volume>:<fpage>753</fpage>‐<lpage>762</lpage>.<pub-id pub-id-type="pmid">20619739</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/S1470-2045(10)70130-3</pub-id></mixed-citation></ref><ref id="cas16262-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="cas16262-cit-0007">
+<string-name name-style="western">
+<surname>Wang</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fakih</surname>
+<given-names>M</given-names>
+</string-name>. <article-title>Targeting KRAS in colorectal cancer</article-title>. <source>Curr Oncol Rep</source>. <year>2021</year>;<volume>23</volume>:<fpage>28</fpage>.<pub-id pub-id-type="pmid">33582927</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s11912-021-01022-0</pub-id></mixed-citation></ref><ref id="cas16262-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="cas16262-cit-0008">
+<string-name name-style="western">
+<surname>Ottaiano</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sabbatino</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Perri</surname>
+<given-names>F</given-names>
+</string-name>, et al. <article-title>G12C mutation in metastatic colorectal cancer: prognostic implications and advancements in targeted therapies</article-title>. <source>Cancers (Basel)</source>. <year>2023</year>;<volume>15</volume>:<elocation-id>5379</elocation-id>.<pub-id pub-id-type="pmid">37509241</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/cancers15143579</pub-id><pub-id pub-id-type="pmcid">PMC10377118</pub-id></mixed-citation></ref><ref id="cas16262-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="cas16262-cit-0009">
+<string-name name-style="western">
+<surname>Chida</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kotani</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Masuishi</surname>
+<given-names>T</given-names>
+</string-name>, et al. <article-title>The prognostic impact of KRAS G12C mutation in patients with metastatic colorectal cancer: a multicenter retrospective observational study</article-title>. <source>Oncologist</source>. <year>2021</year>;<volume>26</volume>:<fpage>845</fpage>‐<lpage>853</lpage>.<pub-id pub-id-type="pmid">34232546</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/onco.13870</pub-id><pub-id pub-id-type="pmcid">PMC8488780</pub-id></mixed-citation></ref><ref id="cas16262-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="cas16262-cit-0010">
+<string-name name-style="western">
+<surname>Modest</surname>
+<given-names>DP</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ricard</surname>
+<given-names>I</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Heinemann</surname>
+<given-names>V</given-names>
+</string-name>, et al. <article-title>Outcome according to KRAS‐, NRAS‐ and BRAF‐mutation as well as KRAS mutation variants: pooled analysis of five randomized trials in metastatic colorectal cancer by the AIO colorectal cancer study group</article-title>. <source>Ann Oncol</source>. <year>2016</year>;<volume>27</volume>:<fpage>1746</fpage>‐<lpage>1753</lpage>.<pub-id pub-id-type="pmid">27358379</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/annonc/mdw261</pub-id><pub-id pub-id-type="pmcid">PMC4999563</pub-id></mixed-citation></ref><ref id="cas16262-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="cas16262-cit-0011">
+<string-name name-style="western">
+<surname>Janne</surname>
+<given-names>PA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Riely</surname>
+<given-names>GJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gadgeel</surname>
+<given-names>SM</given-names>
+</string-name>, et al. <article-title>Adagrasib in non‐small‐cell lung cancer harboring a KRAS(G12C) mutation</article-title>. <source>N Engl J Med</source>. <year>2022</year>;<volume>387</volume>:<fpage>120</fpage>‐<lpage>131</lpage>.<pub-id pub-id-type="pmid">35658005</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa2204619</pub-id></mixed-citation></ref><ref id="cas16262-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="cas16262-cit-0012">
+<string-name name-style="western">
+<surname>Skoulidis</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Li</surname>
+<given-names>BT</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dy</surname>
+<given-names>GK</given-names>
+</string-name>, et al. <article-title>Sotorasib for lung cancers with KRAS p.G12C mutation</article-title>. <source>N Engl J Med</source>. <year>2021</year>;<volume>384</volume>:<fpage>2371</fpage>‐<lpage>2381</lpage>.<pub-id pub-id-type="pmid">34096690</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa2103695</pub-id><pub-id pub-id-type="pmcid">PMC9116274</pub-id></mixed-citation></ref><ref id="cas16262-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="cas16262-cit-0013">
+<string-name name-style="western">
+<surname>Fakih</surname>
+<given-names>MG</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Salvatore</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Esaki</surname>
+<given-names>T</given-names>
+</string-name>, et al. <article-title>Sotorasib plus panitumumab in refractory colorectal cancer with mutated KRAS G12C</article-title>. <source>N Engl J Med</source>. <year>2023</year>;<volume>389</volume>:<fpage>2125</fpage>‐<lpage>2139</lpage>.<pub-id pub-id-type="pmid">37870968</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa2308795</pub-id></mixed-citation></ref><ref id="cas16262-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="cas16262-cit-0014">
+<string-name name-style="western">
+<surname>Yaeger</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Weiss</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pelster</surname>
+<given-names>MS</given-names>
+</string-name>, et al. <article-title>Adagrasib with or without cetuximab in colorectal cancer with mutated KRAS G12C</article-title>. <source>N Engl J Med</source>. <year>2023</year>;<volume>388</volume>:<fpage>44</fpage>‐<lpage>54</lpage>.<pub-id pub-id-type="pmid">36546659</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa2212419</pub-id><pub-id pub-id-type="pmcid">PMC9908297</pub-id></mixed-citation></ref><ref id="cas16262-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="cas16262-cit-0015">
+<string-name name-style="western">
+<surname>Nishihara</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wu</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lochhead</surname>
+<given-names>P</given-names>
+</string-name>, et al. <article-title>Long‐term colorectal‐cancer incidence and mortality after lower endoscopy</article-title>. <source>N Engl J Med</source>. <year>2013</year>;<volume>369</volume>:<fpage>1095</fpage>‐<lpage>1105</lpage>.<pub-id pub-id-type="pmid">24047059</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa1301969</pub-id><pub-id pub-id-type="pmcid">PMC3840160</pub-id></mixed-citation></ref><ref id="cas16262-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="cas16262-cit-0016">
+<string-name name-style="western">
+<surname>Liao</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lochhead</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nishihara</surname>
+<given-names>R</given-names>
+</string-name>, et al. <article-title>Aspirin use, tumor PIK3CA mutation, and colorectal‐cancer survival</article-title>. <source>N Engl J Med</source>. <year>2012</year>;<volume>367</volume>:<fpage>1596</fpage>‐<lpage>1606</lpage>.<pub-id pub-id-type="pmid">23094721</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa1207756</pub-id><pub-id pub-id-type="pmcid">PMC3532946</pub-id></mixed-citation></ref><ref id="cas16262-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="cas16262-cit-0017">
+<string-name name-style="western">
+<surname>Richman</surname>
+<given-names>SD</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Seymour</surname>
+<given-names>MT</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chambers</surname>
+<given-names>P</given-names>
+</string-name>, et al. <article-title>KRAS and BRAF mutations in advanced colorectal cancer are associated with poor prognosis but do not preclude benefit from oxaliplatin or irinotecan: results from the MRC FOCUS trial</article-title>. <source>J Clin Oncol</source>. <year>2009</year>;<volume>27</volume>:<fpage>5931</fpage>‐<lpage>5937</lpage>.<pub-id pub-id-type="pmid">19884549</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1200/JCO.2009.22.4295</pub-id></mixed-citation></ref><ref id="cas16262-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="cas16262-cit-0018">
+<string-name name-style="western">
+<surname>Roth</surname>
+<given-names>AD</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tejpar</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Delorenzi</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>Prognostic role of KRAS and BRAF in stage II and III resected colon cancer: results of the translational study on the PETACC‐3, EORTC 40993, SAKK 60‐00 trial</article-title>. <source>J Clin Oncol</source>. <year>2010</year>;<volume>28</volume>:<fpage>466</fpage>‐<lpage>474</lpage>.<pub-id pub-id-type="pmid">20008640</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1200/JCO.2009.23.3452</pub-id></mixed-citation></ref><ref id="cas16262-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="cas16262-cit-0019">
+<string-name name-style="western">
+<surname>Imamura</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lochhead</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yamauchi</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>Analyses of clinicopathological, molecular, and prognostic associations of KRAS codon 61 and codon 146 mutations in colorectal cancer: cohort study and literature review</article-title>. <source>Mol Cancer</source>. <year>2014</year>;<volume>13</volume>:<fpage>135</fpage>.<pub-id pub-id-type="pmid">24885062</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/1476-4598-13-135</pub-id><pub-id pub-id-type="pmcid">PMC4051153</pub-id></mixed-citation></ref><ref id="cas16262-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="cas16262-cit-0020">
+<string-name name-style="western">
+<surname>Ogino</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kawasaki</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brahmandam</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>Sensitive sequencing method for KRAS mutation detection by pyrosequencing</article-title>. <source>J Mol Diagn</source>. <year>2005</year>;<volume>7</volume>:<fpage>413</fpage>‐<lpage>421</lpage>.<pub-id pub-id-type="pmid">16049314</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/S1525-1578(10)60571-5</pub-id><pub-id pub-id-type="pmcid">PMC1867544</pub-id></mixed-citation></ref><ref id="cas16262-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="cas16262-cit-0021">
+<string-name name-style="western">
+<surname>Nosho</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kawasaki</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ohnishi</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>PIK3CA mutation in colorectal cancer: relationship with genetic and epigenetic alterations</article-title>. <source>Neoplasia</source>. <year>2008</year>;<volume>10</volume>:<fpage>534</fpage>‐<lpage>541</lpage>.<pub-id pub-id-type="pmid">18516290</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1593/neo.08336</pub-id><pub-id pub-id-type="pmcid">PMC2386538</pub-id></mixed-citation></ref><ref id="cas16262-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="cas16262-cit-0022">
+<string-name name-style="western">
+<surname>Yamauchi</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Morikawa</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kuchiba</surname>
+<given-names>A</given-names>
+</string-name>, et al. <article-title>Assessment of colorectal cancer molecular features along bowel subsites challenges the conception of distinct dichotomy of proximal versus distal colorectum</article-title>. <source>Gut</source>. <year>2012</year>;<volume>61</volume>:<fpage>847</fpage>‐<lpage>854</lpage>.<pub-id pub-id-type="pmid">22427238</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1136/gutjnl-2011-300865</pub-id><pub-id pub-id-type="pmcid">PMC3345105</pub-id></mixed-citation></ref><ref id="cas16262-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="cas16262-cit-0023">
+<string-name name-style="western">
+<surname>Ogino</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nosho</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kirkner</surname>
+<given-names>GJ</given-names>
+</string-name>, et al. <article-title>CpG Island methylator phenotype, microsatellite instability, BRAF mutation and clinical outcome in colon cancer</article-title>. <source>Gut</source>. <year>2009</year>;<volume>58</volume>:<fpage>90</fpage>‐<lpage>96</lpage>.<pub-id pub-id-type="pmid">18832519</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1136/gut.2008.155473</pub-id><pub-id pub-id-type="pmcid">PMC2679586</pub-id></mixed-citation></ref><ref id="cas16262-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="cas16262-cit-0024">
+<string-name name-style="western">
+<surname>Ogino</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kawasaki</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brahmandam</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>Precision and performance characteristics of bisulfite conversion and real‐time PCR (MethyLight) for quantitative DNA methylation analysis</article-title>. <source>J Mol Diagn</source>. <year>2006</year>;<volume>8</volume>:<fpage>209</fpage>‐<lpage>217</lpage>.<pub-id pub-id-type="pmid">16645207</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.2353/jmoldx.2006.050135</pub-id><pub-id pub-id-type="pmcid">PMC1867588</pub-id></mixed-citation></ref><ref id="cas16262-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="cas16262-cit-0025">
+<string-name name-style="western">
+<surname>Ogino</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kawasaki</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kirkner</surname>
+<given-names>GJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kraft</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Loda</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fuchs</surname>
+<given-names>CS</given-names>
+</string-name>. <article-title>Evaluation of markers for CpG Island methylator phenotype (CIMP) in colorectal cancer by a large population‐based sample</article-title>. <source>J Mol Diagn</source>. <year>2007</year>;<volume>9</volume>:<fpage>305</fpage>‐<lpage>314</lpage>.<pub-id pub-id-type="pmid">17591929</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.2353/jmoldx.2007.060170</pub-id><pub-id pub-id-type="pmcid">PMC1899428</pub-id></mixed-citation></ref><ref id="cas16262-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="cas16262-cit-0026">
+<string-name name-style="western">
+<surname>Nosho</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Irahara</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shima</surname>
+<given-names>K</given-names>
+</string-name>, et al. <article-title>Comprehensive biostatistical analysis of CpG Island methylator phenotype in colorectal cancer using a large population‐based sample</article-title>. <source>PLoS One</source>. <year>2008</year>;<volume>3</volume>:<elocation-id>e3698</elocation-id>.<pub-id pub-id-type="pmid">19002263</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pone.0003698</pub-id><pub-id pub-id-type="pmcid">PMC2579485</pub-id></mixed-citation></ref><ref id="cas16262-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="cas16262-cit-0027">
+<string-name name-style="western">
+<surname>Ogino</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kawasaki</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nosho</surname>
+<given-names>K</given-names>
+</string-name>, et al. <article-title>LINE‐1 hypomethylation is inversely associated with microsatellite instability and CpG Island methylator phenotype in colorectal cancer</article-title>. <source>Int J Cancer</source>. <year>2008</year>;<volume>122</volume>:<fpage>2767</fpage>‐<lpage>2773</lpage>.<pub-id pub-id-type="pmid">18366060</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/ijc.23470</pub-id><pub-id pub-id-type="pmcid">PMC2630175</pub-id></mixed-citation></ref><ref id="cas16262-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="cas16262-cit-0028">
+<string-name name-style="western">
+<surname>Irahara</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nosho</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Baba</surname>
+<given-names>Y</given-names>
+</string-name>, et al. <article-title>Precision of pyrosequencing assay to measure LINE‐1 methylation in colon cancer, normal colonic mucosa, and peripheral blood cells</article-title>. <source>J Mol Diagn</source>. <year>2010</year>;<volume>12</volume>:<fpage>177</fpage>‐<lpage>183</lpage>.<pub-id pub-id-type="pmid">20093385</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.2353/jmoldx.2010.090106</pub-id><pub-id pub-id-type="pmcid">PMC2871724</pub-id></mixed-citation></ref><ref id="cas16262-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="cas16262-cit-0029">
+<string-name name-style="western">
+<surname>Takashima</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kawamura</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Okadome</surname>
+<given-names>K</given-names>
+</string-name>, et al. <article-title>Enrichment of <italic toggle="yes">Bacteroides fragilis</italic> and enterotoxigenic <italic toggle="yes">Bacteroides fragilis</italic> in CpG Island methylator phenotype (CIMP)‐high colorectal carcinoma</article-title>. <source>Clin Microbiol Infect</source>. <year>2024</year>;<volume>30</volume>:<fpage>630</fpage>‐<lpage>636</lpage>.<pub-id pub-id-type="pmid">38266708</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cmi.2024.01.013</pub-id><pub-id pub-id-type="pmcid">PMC11043012</pub-id></mixed-citation></ref><ref id="cas16262-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="cas16262-cit-0030">
+<string-name name-style="western">
+<surname>Kosumi</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hamada</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Koh</surname>
+<given-names>H</given-names>
+</string-name>, et al. <article-title>The amount of Bifidobacterium genus in colorectal carcinoma tissue in relation to tumor characteristics and clinical outcome</article-title>. <source>Am J Pathol</source>. <year>2018</year>;<volume>188</volume>:<fpage>2839</fpage>‐<lpage>2852</lpage>.<pub-id pub-id-type="pmid">30243655</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ajpath.2018.08.015</pub-id><pub-id pub-id-type="pmcid">PMC6284552</pub-id></mixed-citation></ref><ref id="cas16262-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="cas16262-cit-0031">
+<string-name name-style="western">
+<surname>Mima</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sukawa</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nishihara</surname>
+<given-names>R</given-names>
+</string-name>, et al. <article-title>
+<italic toggle="yes">Fusobacterium nucleatum</italic> and T cells in colorectal carcinoma</article-title>. <source>JAMA Oncol</source>. <year>2015</year>;<volume>1</volume>:<fpage>653</fpage>‐<lpage>661</lpage>.<pub-id pub-id-type="pmid">26181352</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1001/jamaoncol.2015.1377</pub-id><pub-id pub-id-type="pmcid">PMC4537376</pub-id></mixed-citation></ref><ref id="cas16262-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="cas16262-cit-0032">
+<string-name name-style="western">
+<surname>Arima</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhong</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ugai</surname>
+<given-names>T</given-names>
+</string-name>, et al. <article-title>Western‐style diet, pks Island‐carrying <italic toggle="yes">Escherichia coli</italic>, and colorectal cancer: analyses from two large prospective cohort studies</article-title>. <source>Gastroenterology</source>. <year>2022</year>;<volume>163</volume>:<fpage>862</fpage>‐<lpage>874</lpage>.<pub-id pub-id-type="pmid">35760086</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1053/j.gastro.2022.06.054</pub-id><pub-id pub-id-type="pmcid">PMC9509428</pub-id></mixed-citation></ref><ref id="cas16262-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="cas16262-cit-0033">
+<string-name name-style="western">
+<surname>Benjamin</surname>
+<given-names>DJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Berger</surname>
+<given-names>JO</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Johannesson</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>Redefine statistical significance. <italic toggle="yes">Nat</italic>
+</article-title>. <source>Hum Behav</source>. <year>2018</year>;<volume>2</volume>:<fpage>6</fpage>‐<lpage>10</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41562-017-0189-z</pub-id><pub-id pub-id-type="pmid">30980045</pub-id></mixed-citation></ref><ref id="cas16262-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="cas16262-cit-0034">
+<string-name name-style="western">
+<surname>Awad</surname>
+<given-names>MM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rybkin</surname>
+<given-names>II</given-names>
+</string-name>, et al. <article-title>Acquired resistance to KRAS(G12C) inhibition in cancer</article-title>. <source>N Engl J Med</source>. <year>2021</year>;<volume>384</volume>:<fpage>2382</fpage>‐<lpage>2393</lpage>.<pub-id pub-id-type="pmid">34161704</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa2105281</pub-id><pub-id pub-id-type="pmcid">PMC8864540</pub-id></mixed-citation></ref><ref id="cas16262-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="cas16262-cit-0035">
+<string-name name-style="western">
+<surname>Ottaiano</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Santorsola</surname>
+<given-names>M</given-names>
+</string-name>. <article-title>Revolutionizing KRAS p.G12C therapy in metastatic colorectal cancer: the triumph of dual inhibition</article-title>. <source>Fortschr Med</source>. <year>2023</year>;<volume>4</volume>:<fpage>857</fpage>‐<lpage>859</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.medj.2023.11.005</pub-id><pub-id pub-id-type="pmid">38070479</pub-id></mixed-citation></ref><ref id="cas16262-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="cas16262-cit-0036">
+<string-name name-style="western">
+<surname>Desai</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Alonso</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kim</surname>
+<given-names>SH</given-names>
+</string-name>, et al. <article-title>Divarasib plus cetuximab in KRAS G12C‐positive colorectal cancer: a phase 1b trial</article-title>. <source>Nat Med</source>. <year>2023</year>;<volume>30</volume>:<fpage>271</fpage>‐<lpage>278</lpage>.<pub-id pub-id-type="pmid">38052910</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41591-023-02696-8</pub-id><pub-id pub-id-type="pmcid">PMC10803265</pub-id></mixed-citation></ref><ref id="cas16262-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="cas16262-cit-0037">
+<string-name name-style="western">
+<surname>Schirripa</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nappo</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cremolini</surname>
+<given-names>C</given-names>
+</string-name>, et al. <article-title>KRAS G12C metastatic colorectal cancer: specific features of a new emerging target population</article-title>. <source>Clin Colorectal Cancer</source>. <year>2020</year>;<volume>19</volume>:<fpage>219</fpage>‐<lpage>225</lpage>.<pub-id pub-id-type="pmid">32605718</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.clcc.2020.04.009</pub-id></mixed-citation></ref><ref id="cas16262-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="cas16262-cit-0038">
+<string-name name-style="western">
+<surname>Potocki</surname>
+<given-names>PM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wojcik</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chmura</surname>
+<given-names>L</given-names>
+</string-name>, et al. <article-title>Clinical characterization of targetable mutations (BRAF V600E and KRAS G12C) in advanced colorectal cancer‐a nation‐wide study</article-title>. <source>Int J Mol Sci</source>. <year>2023</year>;<volume>24</volume>:<elocation-id>9073</elocation-id>.<pub-id pub-id-type="pmid">37240418</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/ijms24109073</pub-id><pub-id pub-id-type="pmcid">PMC10219350</pub-id></mixed-citation></ref><ref id="cas16262-bib-0039"><label>39</label><mixed-citation publication-type="journal" id="cas16262-cit-0039">
+<string-name name-style="western">
+<surname>Osterlund</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ristimaki</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kytola</surname>
+<given-names>S</given-names>
+</string-name>, et al. <article-title>KRAS‐G12C mutation in one real‐life and three population‐based Nordic cohorts of metastatic colorectal cancer</article-title>. <source>Front Oncol</source>. <year>2022</year>;<volume>12</volume>:<elocation-id>826073</elocation-id>.<pub-id pub-id-type="pmid">35251991</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3389/fonc.2022.826073</pub-id><pub-id pub-id-type="pmcid">PMC8889930</pub-id></mixed-citation></ref><ref id="cas16262-bib-0040"><label>40</label><mixed-citation publication-type="journal" id="cas16262-cit-0040">
+<string-name name-style="western">
+<surname>Fakih</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tu</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hsu</surname>
+<given-names>H</given-names>
+</string-name>, et al. <article-title>Real‐world study of characteristics and treatment outcomes among patients with KRAS p.G12C‐mutated or other KRAS mutated metastatic colorectal cancer</article-title>. <source>Oncologist</source>. <year>2022</year>;<volume>27</volume>:<fpage>663</fpage>‐<lpage>674</lpage>.<pub-id pub-id-type="pmid">35472176</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/oncolo/oyac077</pub-id><pub-id pub-id-type="pmcid">PMC9355827</pub-id></mixed-citation></ref><ref id="cas16262-bib-0041"><label>41</label><mixed-citation publication-type="journal" id="cas16262-cit-0041">
+<string-name name-style="western">
+<surname>Ogino</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kawasaki</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kirkner</surname>
+<given-names>GJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Loda</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fuchs</surname>
+<given-names>CS</given-names>
+</string-name>. <article-title>CpG Island methylator phenotype‐low (CIMP‐low) in colorectal cancer: possible associations with male sex and KRAS mutations</article-title>. <source>J Mol Diagn</source>. <year>2006</year>;<volume>8</volume>:<fpage>582</fpage>‐<lpage>588</lpage>.<pub-id pub-id-type="pmid">17065427</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.2353/jmoldx.2006.060082</pub-id><pub-id pub-id-type="pmcid">PMC1876166</pub-id></mixed-citation></ref><ref id="cas16262-bib-0042"><label>42</label><mixed-citation publication-type="journal" id="cas16262-cit-0042">
+<string-name name-style="western">
+<surname>Clay</surname>
+<given-names>SL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fonseca‐Pereira</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Garrett</surname>
+<given-names>WS</given-names>
+</string-name>. <article-title>Colorectal cancer: the facts in the case of the microbiota</article-title>. <source>J Clin Invest</source>. <year>2022</year>;<volume>132</volume>:<elocation-id>e155101</elocation-id>.<pub-id pub-id-type="pmid">35166235</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1172/JCI155101</pub-id><pub-id pub-id-type="pmcid">PMC8843708</pub-id></mixed-citation></ref><ref id="cas16262-bib-0043"><label>43</label><mixed-citation publication-type="journal" id="cas16262-cit-0043">
+<string-name name-style="western">
+<surname>Mezzapesa</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Losurdo</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Celiberto</surname>
+<given-names>F</given-names>
+</string-name>, et al. <article-title>Serrated colorectal lesions: an up‐to‐date review from histological pattern to molecular pathogenesis</article-title>. <source>Int J Mol Sci</source>. <year>2022</year>;<volume>23</volume>:<elocation-id>4461</elocation-id>.<pub-id pub-id-type="pmid">35457279</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/ijms23084461</pub-id><pub-id pub-id-type="pmcid">PMC9032676</pub-id></mixed-citation></ref><ref id="cas16262-bib-0044"><label>44</label><mixed-citation publication-type="journal" id="cas16262-cit-0044">
+<string-name name-style="western">
+<surname>Lin</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kong</surname>
+<given-names>DX</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>YN</given-names>
+</string-name>. <article-title>Does the microbiota composition influence the efficacy of colorectal cancer immunotherapy?</article-title>
+<source>Front Oncol</source>. <year>2022</year>;<volume>12</volume>:<elocation-id>852194</elocation-id>.<pub-id pub-id-type="pmid">35463305</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3389/fonc.2022.852194</pub-id><pub-id pub-id-type="pmcid">PMC9023803</pub-id></mixed-citation></ref><ref id="cas16262-bib-0045"><label>45</label><mixed-citation publication-type="journal" id="cas16262-cit-0045">
+<string-name name-style="western">
+<surname>Li</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>J</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zheng</surname>
+<given-names>X</given-names>
+</string-name>, et al. <article-title>Tumorigenic bacteria in colorectal cancer: mechanisms and treatments</article-title>. <source>Cancer Biol Med</source>. <year>2021</year>;<volume>19</volume>:<fpage>147</fpage>‐<lpage>162</lpage>.<pub-id pub-id-type="pmid">34586760</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.20892/j.issn.2095-3941.2020.0651</pub-id><pub-id pub-id-type="pmcid">PMC8832957</pub-id></mixed-citation></ref><ref id="cas16262-bib-0046"><label>46</label><mixed-citation publication-type="journal" id="cas16262-cit-0046">
+<string-name name-style="western">
+<surname>Yu</surname>
+<given-names>I</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wu</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tokumaru</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Terracina</surname>
+<given-names>KP</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Takabe</surname>
+<given-names>K</given-names>
+</string-name>. <article-title>The role of the microbiome on the pathogenesis and treatment of colorectal cancer</article-title>. <source>Cancers (Basel)</source>. <year>2022</year>;<volume>14</volume>:<fpage>14</fpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/cancers14225685</pub-id><pub-id pub-id-type="pmcid">PMC9688177</pub-id><pub-id pub-id-type="pmid">36428777</pub-id></mixed-citation></ref><ref id="cas16262-bib-0047"><label>47</label><mixed-citation publication-type="journal" id="cas16262-cit-0047">
+<string-name name-style="western">
+<surname>Mima</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hamada</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Inamura</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Baba</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ugai</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ogino</surname>
+<given-names>S</given-names>
+</string-name>. <article-title>The microbiome and rise of early‐onset cancers: knowledge gaps and research opportunities</article-title>. <source>Gut Microbes</source>. <year>2023</year>;<volume>15</volume>:<elocation-id>2269623</elocation-id>.<pub-id pub-id-type="pmid">37902043</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1080/19490976.2023.2269623</pub-id><pub-id pub-id-type="pmcid">PMC10730181</pub-id></mixed-citation></ref><ref id="cas16262-bib-0048"><label>48</label><mixed-citation publication-type="journal" id="cas16262-cit-0048">
+<string-name name-style="western">
+<surname>Rosty</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Young</surname>
+<given-names>JP</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Walsh</surname>
+<given-names>MD</given-names>
+</string-name>, et al. <article-title>Colorectal carcinomas with KRAS mutation are associated with distinctive morphological and molecular features</article-title>. <source>Mod Pathol</source>. <year>2013</year>;<volume>26</volume>:<fpage>825</fpage>‐<lpage>834</lpage>.<pub-id pub-id-type="pmid">23348904</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/modpathol.2012.240</pub-id></mixed-citation></ref><ref id="cas16262-bib-0049"><label>49</label><mixed-citation publication-type="journal" id="cas16262-cit-0049">
+<string-name name-style="western">
+<surname>Ugai</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Haruki</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Harrison</surname>
+<given-names>TA</given-names>
+</string-name>, et al. <article-title>Molecular characteristics of early‐onset colorectal cancer according to detailed anatomical locations: comparison with later‐onset cases</article-title>. <source>Am J Gastroenterol</source>. <year>2023</year>;<volume>118</volume>:<fpage>712</fpage>‐<lpage>726</lpage>.<pub-id pub-id-type="pmid">36707929</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.14309/ajg.0000000000002171</pub-id><pub-id pub-id-type="pmcid">PMC10065351</pub-id></mixed-citation></ref><ref id="cas16262-bib-0050"><label>50</label><mixed-citation publication-type="journal" id="cas16262-cit-0050">
+<string-name name-style="western">
+<surname>Mima</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cao</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chan</surname>
+<given-names>AT</given-names>
+</string-name>, et al. <article-title>
+<italic toggle="yes">Fusobacterium nucleatum</italic> in colorectal carcinoma tissue according to tumor location</article-title>. <source>Clin Transl Gastroenterol</source>. <year>2016</year>;<volume>7</volume>:<elocation-id>e200</elocation-id>.<pub-id pub-id-type="pmid">27811909</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ctg.2016.53</pub-id><pub-id pub-id-type="pmcid">PMC5543402</pub-id></mixed-citation></ref><ref id="cas16262-bib-0051"><label>51</label><mixed-citation publication-type="journal" id="cas16262-cit-0051">
+<string-name name-style="western">
+<surname>Takeda</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Koi</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Okita</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sajibu</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Keku</surname>
+<given-names>TO</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Carethers</surname>
+<given-names>JM</given-names>
+</string-name>. <article-title>
+<italic toggle="yes">Fusobacterium nucleatum</italic> load correlates with KRAS mutation and sessile serrated pathogenesis in colorectal adenocarcinoma</article-title>. <source>Cancer Res Commun</source>. <year>2023</year>;<volume>3</volume>:<fpage>1940</fpage>‐<lpage>1951</lpage>.<pub-id pub-id-type="pmid">37772997</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/2767-9764.CRC-23-0179</pub-id><pub-id pub-id-type="pmcid">PMC10530411</pub-id></mixed-citation></ref><ref id="cas16262-bib-0052"><label>52</label><mixed-citation publication-type="journal" id="cas16262-cit-0052">
+<string-name name-style="western">
+<surname>Ugai</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sasamoto</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lee</surname>
+<given-names>HY</given-names>
+</string-name>, et al. <article-title>Is early‐onset cancer an emerging global epidemic? Current evidence and future implications</article-title>. <source>Nat Rev Clin Oncol</source>. <year>2022</year>;<volume>19</volume>:<fpage>656</fpage>‐<lpage>673</lpage>.<pub-id pub-id-type="pmid">36068272</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41571-022-00672-8</pub-id><pub-id pub-id-type="pmcid">PMC9509459</pub-id></mixed-citation></ref><ref id="cas16262-bib-0053"><label>53</label><mixed-citation publication-type="journal" id="cas16262-cit-0053">
+<string-name name-style="western">
+<surname>Akimoto</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ugai</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhong</surname>
+<given-names>R</given-names>
+</string-name>, et al. <article-title>Rising incidence of early‐onset colorectal cancer – a call to action</article-title>. <source>Nat Rev Clin Oncol</source>. <year>2021</year>;<volume>18</volume>:<fpage>230</fpage>‐<lpage>243</lpage>.<pub-id pub-id-type="pmid">33219329</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41571-020-00445-1</pub-id><pub-id pub-id-type="pmcid">PMC7994182</pub-id></mixed-citation></ref><ref id="cas16262-bib-0054"><label>54</label><mixed-citation publication-type="journal" id="cas16262-cit-0054">
+<string-name name-style="western">
+<surname>Akimoto</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhao</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ugai</surname>
+<given-names>T</given-names>
+</string-name>, et al. <article-title>Tumor long interspersed nucleotide Element‐1 (LINE‐1) Hypomethylation in relation to age of colorectal cancer diagnosis and prognosis</article-title>. <source>Cancers (Basel)</source>. <year>2021</year>;<volume>13</volume>:<elocation-id>2016</elocation-id>.<pub-id pub-id-type="pmid">33922024</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/cancers13092016</pub-id><pub-id pub-id-type="pmcid">PMC8122644</pub-id></mixed-citation></ref><ref id="cas16262-bib-0055"><label>55</label><mixed-citation publication-type="journal" id="cas16262-cit-0055">
+<string-name name-style="western">
+<surname>Meng</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhong</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jiang</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>Z</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kwan</surname>
+<given-names>HY</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Su</surname>
+<given-names>T</given-names>
+</string-name>. <article-title>The current understanding on the impact of KRAS on colorectal cancer</article-title>. <source>Biomed Pharmacother</source>. <year>2021</year>;<volume>140</volume>:<elocation-id>111717</elocation-id>.<pub-id pub-id-type="pmid">34044280</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.biopha.2021.111717</pub-id></mixed-citation></ref><ref id="cas16262-bib-0056"><label>56</label><mixed-citation publication-type="journal" id="cas16262-cit-0056">
+<string-name name-style="western">
+<surname>Imamura</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Morikawa</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liao</surname>
+<given-names>X</given-names>
+</string-name>, et al. <article-title>Specific mutations in KRAS codons 12 and 13, and patient prognosis in 1075 BRAF wild‐type colorectal cancers</article-title>. <source>Clin Cancer Res</source>. <year>2012</year>;<volume>18</volume>:<fpage>4753</fpage>‐<lpage>4763</lpage>.<pub-id pub-id-type="pmid">22753589</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/1078-0432.CCR-11-3210</pub-id><pub-id pub-id-type="pmcid">PMC3624899</pub-id></mixed-citation></ref></ref-list></back></article>

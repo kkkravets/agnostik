@@ -1,0 +1,245 @@
+# MicroRNA-425-5p Expression Affects BRAF/RAS/MAPK Pathways In Colorectal Cancers
+
+Authors: Andrea Angius, Giovanna Pira, Antonio Mario Scanu, Paolo Uva, Giovanni Sotgiu, Laura Saderi, Alessandra Manca, Caterina Serra, Elena Uleri, Claudia Piu, Maurizio Caocci, Gabriele Ibba, Angelo Zinellu, Maria Rosaria Cesaraccio, Francesca Sanges, Maria Rosaria Muroni, Antonina Dolei, Paolo Cossu-Rocca, Maria Rosaria De Miglio
+
+Journal: International Journal of Medical Sciences
+
+PMCID: PMC6818206
+
+PMID: 31673240
+
+DOI: 10.7150/ijms.35269
+
+Canonical source: https://pmc.ncbi.nlm.nih.gov/articles/PMC6818206/
+
+## Abstract
+
+Colorectal cancer (CRC) is a leading cause of cancer death worldwide and about 20% is metastatic at diagnosis and untreatable. The anti-EGFR therapy in metastatic patients is led by the presence of KRAS-mutations in tumor tissue. KRAS-wild-type CRC patients showed a positive response rate of about 70% to cetuximab or panitumumab combined with chemotherapy. MiRNAs are promising markers in oncology and could improve our knowledge on pathogenesis and drug resistance in CRC patients. This class of molecules represents an opportunity for the development of miRNA-based strategies to overcome the ineffectiveness of anti-EGFR therapy.
+
+We performed an integrative analysis of miRNA expression profile between KRAS-mutated CRC and KRAS-wildtype CRC and paired normal colic tissue (NCT). We revealed an overexpression of miR-425-5p in KRAS-mutated CRC compared to KRAS-wild type CRC and NCT and demonstrated that miR-425-5p exerts regulatory effects on target genes involved in cellular proliferation, migration, invasion, apoptosis molecular networks. These epigenetic mechanisms could be responsible of the strong aggressiveness of KRAS-mutated CRC compared to KRAS-wildtype CRC. We proved that some miR-425-5p targeted genes are involved in EGFR tyrosine kinase inhibitor resistance pathway, suggesting that therapies based on miR-425-5p may have strong potential in targeting KRAS-driven CRC. Moreover, we demonstrated a role in the oncogenesis of miR-31-5p, miR-625-5p and miR-579 by comparing CRC versus NCT.
+
+Our results underlined that miR-425-5p might act as an oncogene to participate in the pathogenesis of KRAS-mutated CRC and contribute to increase the aggressiveness of this subcategory of CRC, controlling a complex molecular network.
+
+## Full article
+
+## Introduction
+
+Colorectal cancer is the most frequent carcinoma and the third most common cause of cancer-related death worldwide 1. About 20% of CRC patients already have metastases at diagnosis, and metastatic CRC is not a treatable disease 2. KRAS oncogene regulates the downstream effectors activation of several pathways, such as BRAF/RAS/MAPK, PI3K/AKT, RalGDS/p38MAPK, etc., thus influencing normal cell physiology, neoplastic cell biology and therapeutic responses. Almost 40% of CRCs reported KRAS mutations that were predictive biomarkers of treatment efficacy and patient outcome 3. The KRAS mutations in exon 2 are related to more advanced tumors and unfavorable prognosis 4,5. The identification of KRAS mutations is a widely accepted molecular test considering targeted therapies in metastatic CRC 6,7. The presence of wild-type KRAS sequences ensures successful targeting by monoclonal antibodies (Cetuximab or Panitumumab) of the anti-EGFR axis. A better understanding of the tumor biology and predictive factors is crucial for the identification of new therapeutic targets in KRAS-mutated CRC patients.
+
+MicroRNAs (miRNAs) are involved in the regulation of multiple signaling pathways (cell cycle regulation, proliferation, differentiation and apoptosis) 8,9, whose deregulation is involved in the development of tumors and could be potentially therapeutic targets 10. It is currently accepted that the miRNA expression profile shows high accuracy at classifying tumors 11. Specifically, miRNA expression level variations have identified between normal and neoplastic colorectal tissues. In vitro and in animal models, anti-cancer miRNA mimics inhibit CRC cancer cells proliferation, migration and induce apoptosis 12,13. Recent studies prove that several miRNAs are implicated in responding to chemotherapy 14 and that specific miRNAs have even shown prognostic potentials in CRC 15. MicroRNAs may be of critical importance for the diagnosis, treatment and prediction of outcomes in CRC patients.
+
+Our study focuses on miRNAs expression profile in CRC after KRAS mutations screening. These two subcategories, which show different therapeutic perspectives, could be instrumental in providing further insights into the molecular mechanisms of tumorigenesis and identifying new molecular targets to improve the therapeutic strategies of KRAS mutated CRC patients.
+
+## Material and Methods
+
+### Patients and samples
+
+The study was conducted according to the recommendations of the Helsinki Declaration and approved by the Bioethics Committee of the Azienda Sanitaria Locale Sassari, Italy (n. 2032/CE, 13/05/2014). All patients gave written informed consent for tissue banking and genetic analysis.
+
+We screened one hundred and twenty anonymized and consecutive patients diagnosed with CRC that underwent surgical resection at the Surgery Unit of University of Sassari starting from June 2014 to December 2015. Forty-seven primary colorectal carcinoma and related NCT were enrolled in the present study, after the exclusion of patients who received neoadjuvant chemo and/or radiotherapy and showed multiple recurrence and/or CRC familiarity. Tissue samples were stored in RNAlater solution at -80°C. All tumors were critically assessed by a pathologist, and achieved a final diagnosis of CRC according to WHO criteria 16. All clinical-pathologic and follow-up data were available from medicals records for all CRC patients. The follow-up started at time of diagnosis (June 2014 - December 2015) and ended on 28 February 2018.
+
+### DNA and RNA extraction
+
+Genomic DNA was extracted from neoplastic tissue by using the QIAamp DNA Mini Kit (Qiagen, Hilden, Germany). Total RNA was extracted from neoplastic and non-neoplastic tissues by homogenizing 100 mg of tissue in 1 ml of Qiazol (Qiagen) and using miRNeasy Mini Kit (Qiagen) according to the manufacturer's instructions. DNA and RNA concentration and purity were assessed using the Nanodrop ND-1000 spectrophotometer (Thermo Fisher Scientific, Waltham, MA, USA). RNA underwent a Qubit-fluorometric quantification using Qubit® RNA BR Assay Kit (Thermo Fisher Scientific). The RNA integrity was assessed by the RNA Integrity Number (RIN) using the Agilent RNA 6000 Nano Kit on the BioAnalyzer 2100 (Agilent, Santa Clara, CA, USA).
+
+### Mutation analysis
+
+KRAS gene mutation analysis was performed on codons 12 and 13 of exon 2 and codons 59 and 61 of exon 3, which are known to harbor the most frequent and significant activating mutations for this gene 17, resulting in impaired intrinsic and GTPase-activating protein (GAP)-mediated GTP hydrolysis and leading to elevated levels of cellular RAS-GTP 18. Amplification of entire exon 2 and 3 were performed using the following sequence primers, respectively: forward-GTTTGTATTAAAAGGTACTGGTGGA reverse-ATCAAAGAATGGTCCTGCAC and forward-TCAAGTCCTTTGCCCATTTT reverse-ACCCACCTATAATGGTGAATATC. Gene sequencing analysis was executed as previously reported 19. Whereas, the same CRC samples were analyzed by RNAseq (unpublished observations from manuscript under review), the results obtained were screened for the presence of other variant mutations in the entire KRAS gene; especially, for mutations on codons 117 and 146 of the exon 4.
+
+### Human miRNA card array and quantitative real-time PCR
+
+The high-throughput miRNA expression profiling was first performed on eight pairs of CRC and NCT tissues from the same samples. These patients are part of the subsequent validation cohort. We used the TaqMan® Array Human MicroRNA Card A and B set v3.0 (Thermo Fisher Scientific), which enables analysis of a total of 754 human miRNA assays present in the miRBase version 18.0. The cards contain three endogenous controls (MammU6, RUN44, and RUN48) for relative quantization, of which only MammU6 was present in four replicates while the other two controls appeared just once, and an assay unrelated to any mammalian species, ath-miR-159a, as a negative control. Total RNAs (1000 ng) were converted to cDNAs using Megaplex™ RT Primers Human Pool A and B (Thermo Fisher Scientific), each Pool A and B contain a set of 377 stem-looped reverse transcriptional primers and 4 controls, and TaqMan® MicroRNA Reverse Transcription kit (Thermo Fisher Scientific). The reverse transcription mix included 1.07x Megaplex™ RT Primers Human Pool A or Pool B, 1.07x RT buffer, 0.65mM each of dNTPs, 3mM MgCl2, 75U/μl MultiScribe reverse transcriptase, and 2U/μl RNase inhibitor. The 7.5 μl reactions were incubated at the following conditions: 40 cycles at 16°C for 2 minutes, 42°C for 1 minute and at 50°C for 1 second, and 1 final cycle at 85°C for 5 minutes.
+
+PCRs were performed using 450μl TaqMan® Universal PCR Master Mix, No AmpErase UNG (2X; Thermo Fisher Scientific), and 6 μl diluted pre-amplification product in a final volume of 900 μl. One hundred μl of the PCR mix were dispensed into each port of the TaqMan miRNA array, and then the fluidic cards was centrifuged and mechanically sealed. The 384-well format TaqMan Low Density Array (TLDA) arrays were run on an ABI 7900HT Fast Real-Time PCR system at the following conditions: 50°C for 2 minutes, 94.5°C for 1 minute, and 40 cycles at 97°C for 30 seconds and 59.7°C for 1 minute. RT-qPCR raw data were analyzed using SDS 2.4 and RQ Manager Software (Thermo Fisher Scientific).
+
+The differential expression of significantly deregulated miRNAs (p-value < 0.05) was further validated by RT-qPCR in the entire dataset (47 CRC and 47 NCT) according to 20.
+
+Briefly, the cDNA synthesis was performed as described above. The PCR reactions were carried out in final volumes of 10 μl using the Applied Biosystems 7900HT Fast Real-Time PCR System (Thermo Fisher Scientific). Reaction mix consisted of 54 ng of reverse-transcribed RNA, 1x TaqMan® Universal PCR Master Mix, 0.2 mM TaqMan® primer-probe mix (Thermo Fisher Scientific). An RT-negative control was included in each batch of reactions. Cycling conditions were: 10 minutes of denaturation at 95°C, 40 cycles at 95°C for 15 seconds and at 60°C for 1 minute. MiRNA U6 was used as reference for normalizing miRNA expression. All reactions were performed in triplicate.
+
+### Identification of miRNA experimental gene targets
+
+The target genes of CRC-related to differentially expressed miRNAs were predicted by seven algorithms: DianaMicroT_strict 21, miRanda-mirSVR_S_C 22, MirTarget2 23, picTar_chicken 24, PITA_Top 25, starBase 26 and TargetScan_v6.2 27. Experimentally validated targets were identified by literature and/or from miRecords 28 and mirTarBase v4.5 29 databases. Comparisons of target genes lists were performed with custom scripts using the computing environment R 30. Targets predicted by at least three of the seven algorithms or previously experimentally validated (i.e. reported in at least one database or in literature) were selected for subsequent analysis, in order to obtain improved results.
+
+To inspect the function of the differentially expressed miRNAs, the target genes were submitted to Gene Ontology (GO) and KEGG pathway enrichment analysis using ToppCluster (https://toppcluster.cchmc.org/) 31. Terms with False Discovery Rate (FDR) corrected enrichment p-values <0.05 were considered. ToppCluster results were displayed using Cytoscape, which is an open source software used to build and display the miRNA-target gene network (http://www.cytoscape.org/) 32.
+
+### Statistical analysis
+
+Evaluation of the relative miRNA expression was calculated by the comparative cycle threshold method (2-ΔΔCt) 33 and the Ct values normalization by the quantile method.
+
+The clustering based on expression profiles was carried out using an unsupervised hierarchical clustering, utilizing Pearson's correlation as a distance measure and average linkage as agglomerative algorithm. The statistical analysis of Microarray (SAM) analysis has identified miRNAs with statistically significant changes in expression profile. A FDR corrected p-value <0.05 was applied to identify statistically significant differences. All differential expression analyses were run in R using the samr package 34. Descriptive and inference statistics were carried out with the statistical software STATA version 15 (StatsCorp, Texas, US). A survival analysis was carried to assess the role played by the selected miRNAs. Logistic regression analyses were carried out to assess the relationship between miRNAs levels and clinical and epidemiological variables.
+
+## Results
+
+### KRAS mutational status
+
+Mutational analysis of the KRAS gene has been carried out in all CRCs. KRAS somatic missense mutations were detected in 18 out of 47 CRCs (38.2%), whereas 29 out of 47 CRCs (61.8%) had no variants. In exon 2, our results identified variants on codon 12 in 14 out of 18 CRC (77.8%) (p.Gly12Asp in 9 tumors, p.Gly13Val in 3 tumors, p.Gly12Ala and p.Gly12Ser in one tumor, respectively), while mutations on codon 13 are present only in 3 out of 18 CRC (16.7%; p. Gly13Asp). Analysis of the exon 3 revealed the mutation p.Glu61Leu in a single CRC (5.5%). RNASeq analysis was in accordance with Sanger Sequencing for all CRC samples. Moreover, RNASeq data did not identify any mutation on exon 4.
+
+### MiRNA expression profiles
+
+We performed RT-qPCR data using TaqMan Low-Density Array (TLDA) in CRC and NCT. After normalization and removal of miRNAs that were not expressed in our cohort, miRNAs expression levels were used to perform unsupervised hierarchical clustering analysis, which allowed clear separation of healthy colon mucosa from tumors. Afterwards, the cancer tissues were divided in two subgroups: CRC with mutation in KRAS gene and CRC with wildtype KRAS gene (Figure 1). SAM analysis identified five miRNAs differentially expressed between KRAS-mutated CRC and KRAS-wildtype CRC and between KRAS-wildtype CRC and NCT. The RT-qPCR analysis performed on 754 miRNAs has allowed identifying deregulated miRNAs included only in TLDA Card A.
+
+Specifically, overexpression of miR-31-5p and downregulation of miR-425-5p were found in KRAS-wildtype CRC compared to NCT. Overexpression of miR-625-5p was observed in KRAS-wildtype CRC respect to KRAS-mutated CRC and NCT. Downregulation of miR-579 and miR-132 were identified in KRAS-mutated CRC compared to KRAS-wildtype CRC and NCT. The differential expression determined by microarray analysis was validated by RT-qPCR for all five identified miRNAs. The RT-qPCR values did not confirm downregulation of miR-425-5p in KRAS-wildtype CRC compared to NCT, but strongly demonstrated that miR-425-5p was overexpressed in KRAS-mutated CRC compared to KRAS-wildtype CRC (p = 0.034) and to NCT (p = 0.0008) (Figure 2). RT-qPCR results showed no significant difference in expression of miR-31-5p, miR-625-5p and miR-579 comparing KRAS-mutated CRC and KRAS-wildtype CRC, but all miRNAs were showed overexpressed in CRC compared to NCT (p = 2.5E-08, p = 1.9E06, p = 3.1E05, respectively). No statistical evidence was found in the expression variations for miR-132 (Figure 3).
+
+### Gene targets of miRNAs and functional analysis
+
+A functional enrichment analysis was performed on experimentally validated or in silico predicted targets of miR-425-5p, showing that it affects important biological processes. Significantly enriched gene sets include the following genes: AKT1, CDC25B, CRKL, FGFR3, MAP2K6, MAP3K5, NRAS, STMN1, TAOK1 that have key roles in MAPK signaling pathway; AKT1, CCND1, CCND2, FGFR3, GNB5, GSK3B, HSP90AA1, MDM2, NRAS, PPP2CB, PTEN all members of PI3K/AKT signaling pathway; CCND1, CCND2, IGF1, MDM2, PTEN, RRM2, TNFRSF10B involved in p53 signaling pathway, etc. (Figure 4A). Our in silico analysis has highlighted the importance of specific target genes for miR-425-5p related to apoptosis (TNFRSF10B, GSK3B, MAP2KE, MAP3K5 and TAOK1), required by the RNA interference and temporal RNA pathways to produce the small active RNA component that suppresses gene expression (DICER1 ribonuclease), and the MAP2KE, MAP3K5 and PP2CB genes, which exercise a negatively effect on cell growth.
+
+CD44, HLA, RB1, HSPA1B, MAP3K7, MAPK14, MDM2, RAN, and YWHAH genes are members of Epstein-Barr virus infection pathway, identified as controlled by miR-579 (Figure 4B). Interestingly, miR-31-5p controls genes involved in pathways as well as Proteoglycans in cancer, Adherens and Tight junctions, Hippo signaling pathway, WNT signaling pathway, Colorectal cancer, Axon guidance, Cell Cycle, Viral carcinogenesis and Bacterial invasion of epithelial cells (Figure 4C).
+
+Moreover, different miR-625-5p target genes were involved in biological process, such as negative regulation of phosphorylation and of MAPK cascade, positive regulation of signal transduction and peptidyl-amino acid modification (see Table S1).
+
+### Association analysis of clinic-pathological and molecular features and miRNAs expression level
+
+The clinico-pathologic features at diagnosis of these tumors are characterized by a median (IQR) time of survival of 31.5 (27.5-38.5) months. No patients died of other diseases or casualties. Thirty-five CRC patients were reported to be alive with no evidence of disease (NED) at the ended follow-up date.
+
+The majority of the tumors has a right localization (24, 54.6%) and about half (20, 46.5%) were tumor stage III. The histologic grade was G2 in 68.2% of the cases and tumor infiltrating lymphocytes were present in the 31% of CRC samples. KRAS mutation was found in the 38.2%. MiR-31-5p, miR-579, and miR-625-5p were more frequently up-regulated (84.1%, 52.3%, and 52.3%, respectively), whereas miR-425-5p was down-regulated (81.4%).
+
+Right localization of the tumor was more prevalent when miR-31-5p (p-value: 0.002) and miR-625-5p (p-value: 0.007) were up-regulated and miR-425-5p down-regulated (p-value: 0.02) (Table 1). On the other side, left localization was more frequent when miR-31-5p was down-regulated (p-value: 0.03). MiR-579 was found up-regulated in tumor stage I (p-value: 0.005).
+
+The logistic regression analysis aimed to assess the relationship between miRNAs expression levels and clinico-pathological variables showed that miR-31-5p was significantly associated with a left localization of the tumor (OR: 0.1; p-value: 0.03), whereas miR-579 was significantly associated with tumor stage I (OR: 14.6; p-value: 0.02) (Table 2).
+
+Survival analyses did not show any statistically significant differences respect to miR-425-5p, miR-31-5p, miR-579 and miR-625-5p expression variations (Figures 5 and 6).
+
+## Discussion
+
+Our study confirmed a high percentage of KRAS missense somatic mutations (38.2%) in CRC samples, of which 94.5% of mutations were located in exon 2 and 5.5% in exon 3 of the KRAS gene, as evidenced in the literature. KRAS mutations were not identified on exon 4, codons 117 and 146, of KRAS gene, might be related to scare percentage of mutations, about 5% for two codons. The RASCAL study, which involved 2721 CRC patients from 13 different countries, have successfully clarified the role of KRAS mutations in the patient outcome and its poor prognostic significance 35. The RASCAL II study additionally proved that an increased risk of recurrence and/or death was associated to one mutation on codon 12, glycine to valine 35. In 2006, Lievre et al. reported for the first time the association between KRAS gene mutation and reduced response to anti-EGFR agents, proving that patients with KRAS wildtype genotype had the best overall survival 36. Therefore, RAS testing including KRAS exons 2, 3 and 4 (codons 12, 13, 59, 61, 117 and 146) is mandatory before treatment with anti-EGFR therapy in cancer patients 37. A better understanding of the CRC biology and establishing predictive factors are crucial for the identification of new therapeutic targets in CRC patients with KRAS-mutated gene to improve their outcome.
+
+Our extensive analysis of miRNAs expression profile performed in tumor samples of CRC patients, has primarily detected an overexpression of miR-425-5p in KRAS-mutated CRC compared to KRAS-wild type CRC and NCT. Despite the fact that the exact functional significance of miR-425-5p is not known, there is evidence in literature that this miRNA may act as an oncogenetic gene in cancer pathogenesis. The miR-425-5p is involved in the progression of hepatocellular carcinoma 38, renal cell carcinoma 39, prostate carcinoma 40, cervical carcinoma 41 and gastric carcinoma 42.
+
+Our in silico prediction demonstrates that miR-425-5p exerts regulatory effects on target genes involved in molecular networks, such as FOX-O, p53, PI3K-AKT, MAPK, Apelin and Hippo pathways, etc.. These pathways regulate cellular proliferation, migration/invasion, apoptosis and their deregulation contribute to the tumor development. These data could be correlated with the strong aggressiveness of KRAS-mutated CRC compared KRAS-wildtype CRC. Our data also contribute to supporting the correlation of different reporting patterns controlled by miR-425-5p with colorectal cancer pathogenesis 3,43,44.
+
+Interesting target genes of miR-425-5p, which we identify, regulate cellular processes such as apoptosis, miRNAs production and inhibition of cellular growth. DICER1 is a key enzyme involved in the miRNA processing pathway that regulates mRNA-based gene silencing by the cleavage of miRNA precursor 45. A reduced expression of mRNA DICER1 is associated with an unfavorable prognosis in CRC patients 46 and the critical role of miRNAs in the process of reprogramming and determining a differentiated phenotype of CRC cells is blocked in the absence of DICER1 47. Finally, it has been identified that inflammation-induced JAK/STAT3 signaling leads to the development of CRC through proteasomal degradation of DICER1 by ubiquitin ligase complex of CUL4A(DCAF1) 48. Based on this assumption, we might propose that the restarted DICER1 protein function should contribute to reprogramming/reverting the neoplastic phenotype of CRC cells.
+
+Several studies, supporting our data, have shown the importance of TNFRSF10B in TRAIL responsiveness in CRC 49,50. TNFRSF10B protein is a member of the TNF-receptor superfamily and contains an intracellular death domain. This receptor can be activated by ligand as TNFSF10/TRAIL/APO-2L transducing an apoptosis signal. Recently, Benoit et al. reported that treating the TRAIL-resistant HT29 and SW480 human cell lines with the PRC2 HMTase inhibitor 3-deazaneplanocin-A led to increased expression of the death receptor TNFRSF10B and consequently to cells apoptosis 51.
+
+Results of this study provide evidence that some miR-425-5p targeted genes are involved in EGFR tyrosine kinase inhibitor resistance pathway, suggesting that miR-425-5p-based therapies might have a strong potential in targeting KRAS-driven CRC. This hypothesis is supported by the role of miR-425-5p overexpression in the modulation of CRC cells chemosensitivity to 5-fluorouracil and oxaliplatin treatments, depending on PDCD10 protein modulation by miR-425-5p. Moreover, high PTEN expression has been also reported to be associated with chemosensitivity to 5-fluorouracil and oxaliplatin treatments in CRC 52.
+
+Our data proved that PDCD10 and PTEN proteins are involved in important cell biological process, such as positive regulation of kinase activity, transferase activity, and cell proliferation. PDCD10 protein alone controls the intrinsic apoptotic signaling pathway in response to oxidative stress. The overexpression of miR-425-5p in neoplastic cells might permit a failure modulation of these biological processes by downregulation of PDCD10 and PTEN proteins.
+
+By comparing CRC vs NCT, we demonstrated a role in the oncogenesis of miR-31-5p, miR-625-5p and miR-579. Previous data on miR-31-5p showed strongly altered expression levels in different tumors. This miRNA could act as an oncogene 53-55 or alternatively as a suppressor gene depending on the different type of cancers 56-58. The acting mechanism of miR-31-5p is closely related to its target gene: in the same pathway, it causes different cellular effects, depending on the type of tumor, while it has similar functions in different organs if the target is the same 59.
+
+We have proven that the target genes of miR-31-5p are involved in networks that control basic cell functions (growth, differentiation, apoptosis, etc.), and whose deregulation may explain the molecular mechanisms of tumorigenesis and the strong aggressiveness of CRC.
+
+Based on our findings, we might assume that miR-31-5p contributes to CRC metastasis by looking at EMT, cell migration/invasion, vascular invasion by regulating the Hippo pathway, WNT pathway, Adherens and Tight junctions, and Signaling pathways regulating pluripotency of stem cells.
+
+In the future, work will be done to characterize miR-31-5p and its signaling components by using them as informative clinical markers and promising therapeutic targets for treating cancer metastasis. Igarashi et al. stated that miR-31-5p overexpression, in absence of mutations in KRAS, NRAS and BRAF gene, was associated with short progression-free survival in patients with CRC treated with anti-EGFR therapies, suggesting that miR-31-5p could be a prognostic biomarker for anti-EGFR therapies 60.
+
+The role of miR-579 in cancer cells is still poorly investigated, but this miRNA has been found overexpressed in CRC tissue and significantly associated with a poor overall or cancer-specific survival 61. The dysregulation of miR-579 in CRC with liver metastases suggests its involvement in tumor progression 62. In our study miR-579 was shown overexpressed in CRC, and CD44, HLA, RB1, HSPA1B, MAP3K7, MAPK14, MDM2, RAN and YWHAH, involved in Epstein-Barr virus infection pathway, were identified as its target genes. These genes need further studies to better decipher their role in the pathogenesis of CRC.
+
+Our data identified, for the first time, an overexpression of miR-625-5p in CRC samples. The target genes of this miRNA are involved in the negative regulation of phosphorylation and of MAPK cascade, in the positive regulation of signal transduction and in the peptidyl-amino acid modification. Zhang et al. have reported that miR‐625‐5p negatively regulates melanoma glycolysis state by targeting PKM2 63. Upregulation of miR-625-5p was also identified in transient depletion of TIA-proteins in HeLa cells 64. Previous CRC studies have demonstrated deregulation of miR-625-3p associated with tumor metastasis and poor prognosis. Transfected miR‐625 mimics into HCT116 showed that miR‐625 can regulate CRC cell invasion and metastasis 65. Moreover, high expression of miR-625-3p has been associated with poor response to first-line oxaliplatin based-treatment of metastatic CRC patients 66.
+
+Additionally, our data showed that overexpression of miR-31-5p and miR-625-5p combined with downregulation of miR-425-5p was characterized of the CRC localization on right site of colon, suggesting a distinct biology of CRC based on the site of tumors development (right, left or rectum, respectively). MiR-579 overexpression was found to correlate with tumor stage I, suggesting that its deregulation might play a major role in early pathogenesis of CRC and its progression. The limited cohort of our study does not have the necessary statistical power to highlight a prognostic significance of deregulation of miRNAs expression levels, and we could not demonstrate associations between deregulation of miRNAs expression and OS. Extensive and independent studies will be needed to identify the role of these miRNAs in the prognosis of CRC patients.
+
+In conclusion, our results showed that miR-425-5p might act as an oncogene to participate in the pathogenesis of KRAS-mutated CRC and contribute to increase the aggressiveness of these subcategories of CRC, controlling a complex molecular network. Our study implies clinical applications, based on the involvement of miR-425-5p targeted genes in EGFR tyrosine kinase inhibitor resistance pathway, suggesting that miR-425-5p overexpression might represents in CRC an epigenetic mechanism of resistance to anti-EGFR therapies. MiR-425-5p-based treatments might have a strong potential in targeting KRAS-driven CRC to overcome the drug resistance and to dissect and control the molecular network related to cancer progression. Based on our results, we propose the possible use of miR-425-5p as a stool and/or blood-based biomarker, which could represent reliable and non-invasive methods of categorizing poor prognostic KRAS-mutated CRC patients.
+
+## Supplementary Material
+
+Supplementary tables.
+
+Click here for additional data file.
+
+All authors would like to thank the CRS4 HPC group for IT support and computational infrastructure. This work was supported in part by grants from Fondazione di Sardegna, Italy and from Regione Autonoma della Sardegna, Italy - Anno 2012, Legge Regionale 7 agosto 2007, n.7: "Promozione della Ricerca Scientifica e dell'Innovazione Tecnologica in Sardegna". We are grateful to Prof. Ciriaco Carru, from the Department of Biomedical Sciences of the University of Sassari, for his suggestions during the planning of the study and for the financial support, granted by Ministero dell'Istruzione, dell'Università e della Ricerca (MIUR, Italy) - Progetti di Ricerca di Rilevante Interesse Nazionale - PRIN 2015 (Prot. 20157ATSLF_002) and Consiglio Nazionale delle Ricerche Flagship InterOmics (cod. PB05).
+
+## Ethics Committee Approval and Patient Consent
+
+The study protocol was performed in accordance with the Declaration of Helsinki and approved by the Bioethics Committee of the Azienda Sanitaria Locale Sassari, Italy (n. 1140/L 05/21/2013). All patients gave written informed consent for tissue banking and genetic analysis.
+
+Colorectal Cancer
+
+Normal Colon Tissues
+
+microRNA
+
+World Health Organization
+
+RNA Integrity Number
+
+Quantitative-Real Time-PCR
+
+Gene Ontology
+
+Kyoto Encyclopedia of Genes and Genomes
+
+False Discovery Rate
+
+Statistical analysis of microarray
+
+TaqMan Low Density Array
+
+Interquartile range
+
+No evidence of disease
+
+Epithelial-Mesenchymal Transition
+
+Homo Sapiens
+
+Mus Musculus miRNA
+
+## References
+1. 1SiegelRLMillerKDJemalACancer statistics, 2017CA Cancer J Clin201767730doi:10.3322/caac.213872805510310.3322/caac.21387
+2. 2RiihimäkiMHemminkiASundquistJPatterns of metastasis in colon and rectal cancerSci Rep2016629765.doi:10.1038/srep297652741675210.1038/srep29765PMC4945942
+3. 3BahramiAHassanianSMShahid SalesSTargeting RAS signaling pathway as a potential therapeutic target in the treatment of colorectal cancerJ Cell Physiol2018233205866doi:10.1002/jcp.258902826292710.1002/jcp.25890
+4. 4LiWQiuTZhiWColorectal carcinomas with KRAS codon 12 mutation are associated with more advanced tumor stagesBMC Cancer201515340.doi:10.1186/s12885-015-1345-32592951710.1186/s12885-015-1345-3PMC4423107
+5. 5ChenJGuoFShiXBRAF V600E mutation and KRAS codon 13 mutations predict poor survival in Chinese colorectal cancer patientsBMC Cancer201414802.doi:10.1186/1471-2407-14-8022536719810.1186/1471-2407-14-802PMC4233032
+6. 6JimenoAMessersmithWAHirschFRKRAS Mutations and Susceptibility to Cetuximab and Panitumumab in Colorectal CancerCancer J2009151103doi:10.1097/PPO.0b013e31819e32021939030410.1097/PPO.0b013e31819e3202
+7. 7AmadoRGWolfMPeetersMWild-Type KRAS Is Required for Panitumumab Efficacy in Patients with Metastatic Colorectal CancerJ Clin Oncol200826162634doi:10.1200/JCO.2007.14.71161831679110.1200/JCO.2007.14.7116
+8. 8GuoLLuZThe Fate of miRNA* Strand through Evolutionary Analysis: Implication for Degradation as Merely Carrier Strand or Potential Regulatory Molecule?PLoS One20105e11387.doi:10.1371/journal.pone.00113872061398210.1371/journal.pone.0011387PMC2894941
+9. 9HeLHannonGJMicroRNAs: small RNAs with a big role in gene regulationNat Rev Genet2004552231doi:10.1038/nrg13791521135410.1038/nrg1379
+10. 10PengYCroceCMThe role of MicroRNAs in human cancerSignal Transduct Target Ther2016115004.doi:10.1038/sigtrans.2015.42926389110.1038/sigtrans.2015.4PMC5661652
+11. 11LuJGetzGMiskaEAMicroRNA expression profiles classify human cancersNature20054358348doi:10.1038/nature037021594470810.1038/nature03702
+12. 12BaoYChenZGuoYTumor Suppressor MicroRNA-27a in Colorectal Carcinogenesis and Progression by Targeting SGPP1 and Smad2PLoS One20149e105991.doi:10.1371/journal.pone.01059912516691410.1371/journal.pone.0105991PMC4148394
+13. 13LiuLChenLXuYmicroRNA-195 promotes apoptosis and suppresses tumorigenicity of human colorectal cancer cellsBiochem Biophys Res Commun201040023640doi:10.1016/j.bbrc.2010.08.0462072785810.1016/j.bbrc.2010.08.046
+14. 14HollisMNairKVyasAMicroRNAs potential utility in colon cancer: Early detection, prognosis, and chemosensitivityWorld J Gastroenterol2015218284.doi:10.3748/wjg.v21.i27.82842621708010.3748/wjg.v21.i27.8284PMC4507098
+15. 15YangJMaDFeslerAExpression analysis of microRNA as prognostic biomarkers in colorectal cancerOncotarget201785240312doi:10.18632/oncotarget.141752888173810.18632/oncotarget.14175PMC5581037
+16. 16HamiltonSRBosmanFTBoffettaPCarcinoma of the colon and rectumBomanFTCarneiroFHrubanRHTheiseTNWHO Classification of Tumours of the Digestive System, 4th edLyonIARC201013481
+17. 17ArringtonAKHeinrichELLeeWPrognostic and predictive roles of KRAS mutation in colorectal cancerInt J Mol Sci2012131215368doi:10.3390/ijms1310121532320288910.3390/ijms131012153PMC3497263
+18. 18JanakiramanMVakianiEZengZGenomic and biological characterization of exon 4 KRAS mutations in human cancerCancer Res201070590111doi: 10.1158/0008-5472.CAN-10-01922057089010.1158/0008-5472.CAN-10-0192PMC2943514
+19. 19De MiglioMRMuraAUrasMGHigh Sensitivity of Reverse-hybridization Methodology in the Detection of KRAS Mutations from Formalin-fixed Paraffin-embedded Colorectal Cancer SamplesDiagnostic Mol Pathol2010192018doi:10.1097/PDM.0b013e3181db67d510.1097/PDM.0b013e3181db67d521052001
+20. 20UvaPCossu-RoccaPLoiFmiRNA-135b Contributes to Triple Negative Breast Cancer Molecular Heterogeneity: Different Expression Profile in Basal-like versus non-Basal-like PhenotypesInt J Med Sci20181553648doi:10.7150/ijms.234022972524310.7150/ijms.23402PMC5930454
+21. 21ParaskevopoulouMDGeorgakilasGKostoulasNDIANA-microT web server v5.0: service integration into miRNA functional analysis workflowsNucleic Acids Res201341W16973doi:10.1093/nar/gkt3932368078410.1093/nar/gkt393PMC3692048
+22. 22BetelDWilsonMGabowAThe microRNA.org resource: targets and expressionNucleic Acids Res200836D14953doi:10.1093/nar/gkm9951815829610.1093/nar/gkm995PMC2238905
+23. 23WongNWangXmiRDB: an online resource for microRNA target prediction and functional annotationsNucleic Acids Res201543D14652doi:10.1093/nar/gku11042537830110.1093/nar/gku1104PMC4383922
+24. 24KrekAGrünDPoyMNCombinatorial microRNA target predictionsNat Genet200537495500doi:10.1038/ng15361580610410.1038/ng1536
+25. 25KerteszMIovinoNUnnerstallUThe role of site accessibility in microRNA target recognitionNat Genet200739127884doi:10.1038/ng21351789367710.1038/ng2135
+26. 26LiJ-HLiuSZhouHstarBase v2.0: decoding miRNA-ceRNA, miRNA-ncRNA and protein-RNA interaction networks from large-scale CLIP-Seq dataNucleic Acids Res201442D927doi:10.1093/nar/gkt12482429725110.1093/nar/gkt1248PMC3964941
+27. 27LewisBPBurgeCBBartelDPConserved seed pairing, often flanked by adenosines, indicates that thousands of human genes are microRNA targetsCell20051201520doi:10.1016/j.cell.2004.12.0351565247710.1016/j.cell.2004.12.035
+28. 28XiaoFZuoZCaiGmiRecords: an integrated resource for microRNA-target interactionsNucleic Acids Res200937D10510doi:10.1093/nar/gkn8511899689110.1093/nar/gkn851PMC2686554
+29. 29HsuS-DLinF-MWuW-YmiRTarBase: a database curates experimentally validated microRNA-target interactionsNucleic Acids Res201139D1639doi:10.1093/nar/gkq11072107141110.1093/nar/gkq1107PMC3013699
+30. 30IhakaRGentlemanRR: A Language for Data Analysis and GraphicsJ Comput Graph Stat19965299314
+31. 31KaimalVBardesEETabarSCToppCluster: a multiple gene list feature analyzer for comparative enrichment clustering and network-based dissection of biological systemsNucleic Acids Res201038W96102doi:10.1093/nar/gkq4182048437110.1093/nar/gkq418PMC2896202
+32. 32ShannonPMarkielAOzierOCytoscape: a software environment for integrated models of biomolecular interaction networksGenome Res2003132498504doi:10.1101/gr.12393031459765810.1101/gr.1239303PMC403769
+33. 33LivakKJSchmittgenTDAnalysis of relative gene expression data using real-time quantitative PCR and the 2(-Delta Delta C(T)) MethodMethods2001254028doi:10.1006/meth.2001.12621184660910.1006/meth.2001.1262
+34. 34TusherVGTibshiraniRChuGSignificance analysis of microarrays applied to the ionizing radiation responseProc Natl Acad Sci USA200198511621doi:10.1073/pnas.0910624981130949910.1073/pnas.091062498PMC33173
+35. 35AndreyevHJNormanARCunninghamDKirsten ras mutations in patients with colorectal cancer: the multicenter "RASCAL" studyJ Natl Cancer Inst19989067584doi:10.1093/jnci/90.9.675958666410.1093/jnci/90.9.675
+36. 36LièvreABachetJ-BLe CorreDKRAS mutation status is predictive of response to cetuximab therapy in colorectal cancerCancer Res20066639925doi:10.1158/0008-54721661871710.1158/0008-5472.CAN-06-0191
+37. 37PorruMPompiliLCarusoCTargeting KRAS in metastatic colorectal cancer: current strategies and emerging opportunitiesJ Exp Clin Cancer Res20183757.doi:10.1186/s13046-018-0719-12953474910.1186/s13046-018-0719-1PMC5850913
+38. 38FangFSongTZhangTMiR-425-5p promotes invasion and metastasis of hepatocellular carcinoma cells through SCAI-mediated dysregulation of multiple signaling pathwaysOncotarget201783174557doi:10.18632/oncotarget.159582842365010.18632/oncotarget.15958PMC5458244
+39. 39QuanJLiYPanXOncogenic miR-425-5p is associated with cellular migration, proliferation and apoptosis in renal cell carcinomaOncol Lett201816217584doi:10.3892/ol.2018.89483000891610.3892/ol.2018.8948PMC6036448
+40. 40ZhangJ-YSuX-PLiY-NMicroRNA-425-5p promotes the development of prostate cancer via targeting forkhead box J3Eur Rev Med Pharmacol Sci20192354754doi:10.26355/eurrev_201901_168673072016210.26355/eurrev_201901_16867
+41. 41SunLJiangRLiJMicroRNA-425-5p is a potential prognostic biomarker for cervical cancerAnn Clin Biochem20175412733doi:10.1177/00045632166493772716630610.1177/0004563216649377
+42. 42YanY-FGongF-MWangB-SMiR-425-5p promotes tumor progression via modulation of CYLD in gastric cancerEur Rev Med Pharmacol Sci2017212130628537672
+43. 43ChengXXuXChenDTherapeutic potential of targeting the Wnt/β-catenin signaling pathway in colorectal cancerBiomed Pharmacother201911047381doi:10.1016/j.biopha.2018.11.0823053005010.1016/j.biopha.2018.11.082
+44. 44WierzbickiPMRybarczykAThe Hippo pathway in colorectal cancerFolia Histochem Cytobiol20155310519doi:10.5603/FHC.a2015.00152616068210.5603/FHC.a2015.0015
+45. 45BartelDPMicroRNAs: genomics, biogenesis, mechanism, and functionCell200411628197doi:org/10.1016/S0092-8674(04)00045-51474443810.1016/s0092-8674(04)00045-5
+46. 46AkahaneTClinicopathological and prognostic significance of the microRNA processing enzyme DICER1 mRNA expression in colorectal cancer patientsMol Clin Oncol2013126773doi:10.3892/mco.2012.432464915910.3892/mco.2012.43PMC3956266
+47. 47DewiDLIshiiHHaraguchiNDicer 1, ribonuclease type III modulates a reprogramming effect in colorectal cancer cellsInt J Mol Med20122910604doi:10.3892/ijmm.2012.9452244688710.3892/ijmm.2012.945
+48. 48RenWShenSSunZJak-STAT3 pathway triggers DICER1 for proteasomal degradation by ubiquitin ligase complex of CUL4A(DCAF1) to promote colon cancer developmentCancer Lett201637520920doi:10.1016/j.canlet.2016.02.0552696599810.1016/j.canlet.2016.02.055
+49. 49StolfiCCarusoRFranzèE2-methoxy-5-amino-N-hydroxybenzamide sensitizes colon cancer cells to TRAIL-induced apoptosis by regulating death receptor 5 and survivin expressionMol Cancer Ther201110196981doi:10.1158/1535-7163.MCT-11-03162181711410.1158/1535-7163.MCT-11-0316
+50. 50SungBRavindranJPrasadSGossypol Induces Death Receptor-5 through Activation of the ROS-ERK-CHOP Pathway and Sensitizes Colon Cancer Cells to TRAILJ Biol Chem20102853541827doi:10.1074/jbc.M110.1727672083747310.1074/jbc.M110.172767PMC2975165
+51. 51BenoitYDLaursenKBWitherspoonMSInhibition of PRC2 histone methyltransferase activity increases TRAIL-mediated apoptosis sensitivity in human colon cancer cellsJ Cell Physiol201322876472doi:10.1002/jcp.242242300179210.1002/jcp.24224PMC3947628
+52. 52MaJLiuJWangZNF-kappaB-dependent MicroRNA-425 upregulation promotes gastric cancer cell growth by targeting PTEN upon IL-1β inductionMol Cancer20141340.doi:10.1186/1476-4598-13-402457166710.1186/1476-4598-13-40PMC3941686
+53. 53SunDYuFMaYMicroRNA-31 activates the RAS pathway and functions as an oncogenic MicroRNA in human colorectal cancer by repressing RAS p21 GTPase activating protein 1 (RASA1)J Biol Chem2013288950818doi:10.1074/jbc.M112.3677632332277410.1074/jbc.M112.367763PMC3611019
+54. 54AlderHTaccioliCChenHDysregulation of miR-31 and miR-21 induced by zinc deficiency promotes esophageal cancerCarcinogenesis201233173644doi:10.1093/carcin/bgs2042268992210.1093/carcin/bgs204PMC3514898
+55. 55LiuC-JLinS-CYangC-CExploiting salivary miR-31 as a clinical biomarker of oral squamous cell carcinomaHead Neck20123421924doi:10.1002/hed.217132208387210.1002/hed.21713
+56. 56ValastyanSReinhardtFBenaichNA Pleiotropically Acting MicroRNA, miR-31, Inhibits Breast Cancer MetastasisCell2009137103246doi:10.1016/j.cell.2009.03.0471952450710.1016/j.cell.2009.03.047PMC2766609
+57. 57ZhangYGuoJLiDDown-regulation of miR-31 expression in gastric cancer tissues and its clinical significanceMed Oncol2010276859doi:10.1007/s12032-009-9269-x1959801010.1007/s12032-009-9269-x
+58. 58IvanovSVGoparajuCMVLopezPPro-tumorigenic effects of miR-31 loss in mesotheliomaJ Biol Chem20102852280917doi:10.1074/jbc.M110.1003542046302210.1074/jbc.M110.100354PMC2906272
+59. 59YuTMaPWuDFunctions and mechanisms of microRNA-31 in human cancersBiomed Pharmacother201810811629doi:10.1016/j.biopha.2018.09.1323037281710.1016/j.biopha.2018.09.132
+60. 60IgarashiHKuriharaHMitsuhashiKAssociation of MicroRNA-31-5p with Clinical Efficacy of Anti-EGFR Therapy in Patients with Metastatic Colorectal CancerAnn Surg Oncol20152226408doi:10.1245/s10434-014-4264-72547264710.1245/s10434-014-4264-7
+61. 61AzizianAEppingIKramerFPrognostic Value of MicroRNAs in Preoperative Treated Rectal CancerInt J Mol Sci201617568.doi:10.3390/ijms170405682709249310.3390/ijms17040568PMC4849024
+62. 62LinMChenWHuangJMicroRNA expression profiles in human colorectal cancers with liver metastasesOncol Rep20112573947doi:10.3892/or.2010.11122117405810.3892/or.2010.1112
+63. 63ZhangHFengCZhangMmiR-625-5p/PKM2 negatively regulates melanoma glycolysis stateJ Cell Biochem2019120296472doi:org/10.1002/jcb.269173050099410.1002/jcb.26917
+64. 64Sánchez-JiménezCCarrascosoIBarreroJIdentification of a set of miRNAs differentially expressed in transiently TIA-depleted HeLa cells by genome-wide profilingBMC Mol Biol2013144.doi:10.1186/1471-2199-14-42338798610.1186/1471-2199-14-4PMC3600012
+65. 65LouXQiXZhangYDecreased expression of microRNA-625 is associated with tumor metastasis and poor prognosis in patients with colorectal cancerJ Surg Oncol20131082305doi:10.1002/jso.233802386121410.1002/jso.23380
+66. 66RasmussenMHJensenNFTarpgaardLSHigh expression of microRNA-625-3p is associated with poor response to first-line oxaliplatin based treatment of metastatic colorectal cancerMol Oncol2013763746doi:10.1016/j.molonc.2013.02.0162350697910.1016/j.molonc.2013.02.016PMC5528477

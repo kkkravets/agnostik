@@ -1,0 +1,201 @@
+# p53-armed oncolytic adenovirus induces autophagy and apoptosis in KRAS and BRAF-mutant colorectal cancer cells
+
+Authors: Shuta Tamura, Hiroshi Tazawa, Naoto Hori, Yuncheng Li, Motohiko Yamada, Satoru Kikuchi, Shinji Kuroda, Yasuo Urata, Shunsuke Kagawa, Toshiyoshi Fujiwara
+
+Journal: PLOS ONE
+
+PMCID: PMC10653454
+
+PMID: 37972012
+
+DOI: 10.1371/journal.pone.0294491
+
+Canonical source: https://pmc.ncbi.nlm.nih.gov/articles/PMC10653454/
+
+## Abstract
+
+Colorectal cancer (CRC) cells harboring KRAS or BRAF mutations show a more-malignant phenotype than cells with wild-type KRAS and BRAF. KRAS/BRAF–wild-type CRCs are sensitive to epidermal growth factor receptor (EGFR)-targeting agents, whereas KRAS/BRAF–mutant CRCs are resistant due to constitutive activation of the EGFR-downstream KRAS/BRAF signaling pathway. Novel therapeutic strategies to treat KRAS/BRAF mutant CRC cells are thus needed. We recently demonstrated that the telomerase-specific replication-competent oncolytic adenoviruses OBP-301 and p53-armed OBP-702 exhibit therapeutic potential against KRAS-mutant human pancreatic cancer cells. In this study, we evaluated the therapeutic potential of OBP-301 and OBP-702 against human CRC cells with differing KRAS/BRAF status. Human CRC cells with wild-type KRAS/BRAF (SW48, Colo320DM, CACO-2), mutant KRAS (DLD-1, SW620, HCT116), and mutant BRAF (RKO, HT29, COLO205) were used in this study. The antitumor effect of OBP-301 and OBP-702 against CRC cells was analyzed using the XTT assay. Virus-mediated modulation of apoptosis, autophagy, and the EGFR-MEK-ERK and AKT-mTOR signaling pathways was analyzed by Western blotting. Wild-type and KRAS-mutant CRC cells were sensitive to OBP-301 and OBP-702, whereas BRAF-mutant CRC cells were sensitive to OBP-702 but resistant to OBP-301. Western blot analysis demonstrated that OBP-301 induced autophagy and that OBP-702 induced autophagy and apoptosis in human CRC cells. In BRAF-mutant CRC cells, OBP-301 and OBP-702 suppressed the expression of EGFR, MEK, ERK, and AKT proteins, whereas mTOR expression was suppressed only by OBP-702. Our results suggest that p53-armed oncolytic virotherapy is a viable therapeutic option for treating KRAS/BRAF-mutant CRC cells via induction of autophagy and apoptosis.
+
+## Full article
+
+## Introduction
+
+Colorectal cancer (CRC) is the third leading cause of death worldwide [1]. CRCs harboring KRAS and BRAF mutations are often refractory to chemotherapy, resulting in a poorer prognosis than cases involving wild-type KRAS and BRAF due to tumor recurrence and metastasis [2]. KRAS/BRAF wild-type CRCs are sensitive to the epidermal growth factor receptor (EGFR)-targeting agents cetuximab and panitumumab [3]. However, KRAS/BRAF–mutant CRCs are highly resistant to EGFR-targeting therapy due to constitutive activation of the EGFR-downstream RAS-RAF-MEK-ERK signaling pathway [3]. Moreover, microsatellite stable (MSS) CRC reportedly exhibits greater resistance to immunotherapy compared with microsatellite instable (MSI) CRC [4]. Therefore, novel therapeutic strategies that will improve the clinical outcome in patients with KRAS/BRAF–mutant MSS CRC are needed.
+
+KRAS–mutant CRCs harboring mutations at codon 12 or 13 are associated with worse prognosis [5]. BRAF–mutant CRCs frequently exhibit V600E mutation, leading to poor prognosis [6]. Constitutive activation of the RAS-RAF-MEK-ERK pathway plays a crucial role in the resistance to EGFR-targeting agents in KRAS/BRAF–mutant CRC cells [7]. Targeting the RAS-RAF-MEK-ERK pathway using BRAF, MEK, and ERK inhibitors improves the resistance to EGFR-targeting therapy in KRAS/BRAF-mutant CRC cells [8]. Dual inhibition of the RAS-RAF-MEK-ERK and EGFR-downstream PI3K-AKT-mTOR pathways using BRAF, MEK, ERK, and EGFR inhibitors has been suggested to be effective for treating KRAS/BRAF–mutant CRC cells [9]. Therefore, novel therapeutic strategies that suppress the RAS-RAF-MEK-ERK and EGFR-PI3K-AKT-mTOR pathways is needed for treating KRAS/BRAF–mutant CRCs.
+
+Oncolytic virotherapy has recently emerged as a novel antitumor therapy against CRCs [10]. Oncolytic viruses induce tumor-specific death of malignant tumor cells via modulated viral replication [11]. Telomerase activity is higher in malignant tumor cells than normal cells [12]. To target malignant tumor cells with telomerase activity, we developed two types of telomerase-specific replication-competent oncolytic adenoviruses, OBP-301 [13] and OBP-702 armed with the wild-type p53 tumor suppressor gene [14]. We previously demonstrated that OBP-301 induces autophagy-related death in human lung cancer cells by suppressing EGFR expression [15]. Moreover, we recently demonstrated that OBP-301 and p53-armed OBP-702 exhibit high antitumor efficacy against KRAS-mutant human pancreatic cancer cells via the KRAS-MEK-ERK signaling pathway [16]. Therefore, we hypothesized that OBP-301 and OBP-702 would be effective for use in eliminating KRAS/BRAF–mutant CRC cells.
+
+In the present study, we investigated the therapeutic potential of the telomerase-specific replication-competent oncolytic adenoviruses OBP-301 and p53-armed OBP-702 for eliminating human CRC cells with differing KRAS/BRAF mutation status and microsatellite stability. The ability of OBP-301 and OBP-702 to induce apoptosis and autophagy and modulate the EGFR-MEK-ERK and AKT-mTOR signaling pathways was analyzed by Western blotting.
+
+## Materials and methods
+
+### Cell lines
+
+The human CRC cell line Colo320DM was obtained from the Japanese Collection of Research Bioresources Cell Bank (Osaka, Japan). The human CRC cell lines SW48, SW620, DLD-1, HCT116, HT29, and RKO were obtained from the American Type Culture Collection (Manassas, VA, USA). The human CRC cell lines CACO-2 and COLO205 were obtained from the Riken BioResource Research Center (Tsukuba, Ibaraki, Japan). Colo320DM cells were maintained in Dulbecco’s modified Eagle’s medium. SW48, SW620, DLD-1, and COLO205 cells were maintained in RPMI-1640 medium. CACO-2 and RKO cells were maintained in Eagle’s Minimal Essential Medium. HCT116 and HT-29 cells were maintained in McCoy’s 5A medium. All media were supplemented with 10% fetal bovine serum (FBS), 100 U/ml penicillin, and 100 μg/ml streptomycin. Culture medium for CACO-2 cells were supplemented with 20% FBS and 1% non-essential amino acids solution. The cells were routinely maintained at 37°C in a humidified atmosphere with 5% CO2.
+
+### Recombinant adenoviruses
+
+The telomerase-specific replication-competent adenovirus OBP-301 (suratadenoturev), in which the promoter element of the human telomerase reverse transcriptase gene drives expression of the E1A and E1B genes, was previously constructed and characterized [13,17] (Fig 1A). OBP-702 was generated by modifying OBP-301 via insertion of a human wild-type p53 gene expression cassette into the E3 region of OBP-301 [14,18] (Fig 1B).
+
+Fig 1: Structures of telomerase-specific replication-competent oncolytic adenoviruses.A OBP-301 is a telomerase-specific replication-competent oncolytic adenovirus in which the hTERT promoter drives expression of the E1A and E1B genes. B OBP-702 is a p53-armed OBP-301 variant in which the Egr1 promoter drives expression of the human wild-type p53 gene. Ad5, adenovirus serotype 5; hTERT, human telomerase reverse transcriptase; IRES, internal ribosome entry site; ITR, inverted terminal repeat.
+
+### Cell viability assay
+
+Cells were seeded in 96-well plates at a density of 103 cells/well. After 24 h, cells were infected with OBP-301 or OBP-702 at a multiplicity of infection (MOI) of 0, 1, 5, 10, 50, or 100 plaque-forming units (PFU)/cell. Uninfected (mock-treated) cells were used as virus-infected cells at an MOI of 0. Cell viability was determined on day 3 after virus infection using a Cell Proliferation Kit II (Roche Molecular Biochemicals, Indianapolis, IN, USA) according to the manufacturer’s protocol.
+
+### Western blot analysis
+
+Cells were seeded in a 100-mm dish at a density of 105 cells/dish 24 h before virus infection. The cells were then infected for 72 h with OBP-301 or OBP-702 at the indicated MOI. Uninfected (mock-treated) cells were used as virus-infected cells at an MOI of 0. Whole-cell lysates were prepared in lysis buffer (50 mM Tris-HCl [pH 7.4], 150 mM NaCl, 1% Triton X-100) containing a protease inhibitor cocktail (Complete Mini; Roche Applied Science, Mannheim, Germany). Proteins (20 μg per lane) were electrophoresed on 6–10% SDS polyacrylamide gels and then transferred onto polyvinylidene difluoride membranes (Hybond-P; GE Health Care, Buckinghamshire, UK). Blots were blocked with Blocking One (Nacalai Tesque, Kyoto, Japan) at room temperature for 30 min. The primary antibodies used were as follows: rabbit anti–poly (ADP-ribose) polymerase (PARP) polyclonal antibody (pAb) (1:1000, 9542; Cell Signaling Technology, Danvers, MA, USA), rabbit anti-p62 pAb (1:1000, 5114; Cell Signaling Technology), mouse anti-E1A monoclonal antibody (mAb) (1:500, 554155; BD Bioscience, Franklin Lakes, NJ, USA), mouse anti-p53 mAb (1:1000, 18032; Cell Signaling Technology), rabbit anti-EGFR pAb (1:1000, 2232; Cell Signaling Technology), mouse anti-MEK1/2 mAb (1:1000, 4694; Cell Signaling Technology), rabbit anti-ERK1/2 mAb (1:1000, 4695; Cell Signaling Technology), rabbit anti-AKT mAb (1:1000, 4691; Cell Signaling Technology), rabbit anti-mTOR mAb (1:1000, 2983; Cell Signaling Technology), and mouse anti–β-Actin mAb (1:5000, A5441; Sigma-Aldrich, St. Louis, MO, USA). The secondary antibodies used were horseradish peroxidase–conjugated antibodies against mouse IgG (1:2500, NA931; GE Healthcare) or rabbit IgG (1:5000, NA934; GE Healthcare). Immunoreactive bands on the blots were visualized using enhanced chemiluminescence substrate (ECL Prime; GE Healthcare).
+
+### Statistical analysis
+
+Data are expressed as means ± SD. The significance of differences was assessed using the Student’s t-test. Statistical significance was defined as P<0.05.
+
+## Results
+
+### In vitro cytopathic effect of OBP-301 against human CRC cells with different KRAS/BRAF mutation status
+
+To investigate the therapeutic potential of oncolytic adenoviruses against human CRC cells, we used three KRAS/BRAS wild-type human CRC cell lines, Colo320DM (MSS type), SW48 (MSI type), and CACO-2 (MSS type); three KRAS-mutant human CRC cell lines, SW620 (MSS type), DLD-1 (MSI type), and HCT116 (MSI type); and three BRAF-mutant human CRC cell lines, HT29 (MSS type), RKO (MSI type), and COLO205 (MSS type). The viability of CRC cells after infection with OBP-301 for 72 h was assessed using an XTT assay. OBP-301 treatment significantly suppressed the viability of KRAS/BRAF wild-type and KRAS-mutant CRC cells, independent of microsatellite status (Fig 2A and 2B). BRAF-mutant CRC cells were relatively less sensitive to OBP-301 compared with KRAS/BRAF wild-type or KRAS-mutant CRC cells (Fig 2C). These results suggest that OBP-301 has therapeutic potential against human CRC cells with wild-type KRAS/BRAF or mutant KRAS, but not mutant BRAF.
+
+Fig 2: OBP-301 reduces the viability of human CRC cells with wild-type and mutant KRAS.A, B, C Human CRC cells with different KRAS/BRAF mutation status, KRAS/BRAF wild type (A), mutant KRAS (B), and mutant BRAF (C), were treated with OBP-301 at the indicated multiplicity of infection (MOI) for 72 h. Cell viability was quantified using the XTT assay. Uninfected (mock-treated) cells were shown as virus-infected cells at an MOI of 0. Cell viability was calculated relative to that of the mock-treated group, which was set at 100%. Cell viability data are expressed as mean ± SD (n = 5). The Student’s t-test was used to evaluate the significance of differences. *P<0.05; **P<0.01 (versus an MOI of 0).
+
+### OBP-301 induces autophagy in human CRC cells with different KRAS/BRAF mutation status
+
+Oncolytic adenoviruses have been shown to induce autophagy-related cell death in tumor cells [19–21]. We previously demonstrated that OBP-301 and OBP-702 exhibit cytopathic activity in association with autophagy and apoptosis in a variety of human cancer cells [15,18]. To investigate whether OBP-301 induces autophagy and apoptosis in human CRC cells, human CRC cells with different KRAS/BRAF mutation status were infected with OBP-301 for 72 h, and cell lysates were then prepared and subjected to Western blotting. OBP-301 treatment induced apoptosis with upregulation of C-PARP (but not autophagy due to a lack of p62 expression) in KRAS/BRAF wild-type Colo320DM cells (Figs 3A and S1). Following OBP-301 treatment, KRAS/BRAF wild-type SW48 cells exhibited autophagy with downregulation of p62 (Figs 3A and S1). OBP-301 treatment further induced autophagy (but not apoptosis) in KRAS-mutant and BRAF-mutant CRC cells (Figs 3B, 3C, S2 and S3). The expression of p53 protein was decreased by OBP-301 treatment in both p53-intact (SW48, RKO) and p53-mutant (Colo320DM, SW620, HT29, DLD-1) CRC cells (Fig 3). These results suggest that OBP-301 has therapeutic potential to induce autophagy in human CRC cells with wild-type KRAS/BRAF or mutant KRAS. However, OBP-301-induced autophagy was not effective to treat BRAF-mutant CRC cells.
+
+Fig 3: OBP-301 induces autophagy in human CRC cells.A, B, C Human CRC cells with different KRAS/BRAF mutation status, KRAS/BRAF wild type (A), mutant KRAS (B), and mutant BRAF (C), were treated with OBP-301 at the indicated MOI for 72 h. Cell lysates were prepared and subjected to Western blot analysis of PARP, cleaved PARP (C-PARP), p62, E1A, and p53 expression. β-Actin was assayed as a loading control. Uninfected (mock-infected) cells were shown as virus-infected cells at an MOI of 0.
+
+### In vitro cytopathic effect of OBP-702 against human CRC cells with different KRAS/BRAF mutation status
+
+To investigate the therapeutic potential of p53-armed OBP-702 against human CRC cells, human CRC cells with different KRAS/BRAF mutation status were treated with OBP-702 for 72 h, and the viability of the cells was then assessed by XTT assay. OBP-702 treatment significantly decreased the viability of KRAS/BRAF wild-type, KRAS-mutant, and BRAF-mutant CRC cells, independent of microsatellite status (Fig 4). These results suggest that OBP-702 has therapeutic potential against human CRC cells independent of KRAS/BRAF mutation and microsatellite status.
+
+Fig 4: OBP-702 reduces the viability of human CRC cells independent of KRAS/BRAF mutation status.A, B, C Human CRC cells with different KRAS/BRAF mutation status, KRAS/BRAF wild type (A), mutant KRAS (B), and mutant BRAF (C), were treated with OBP-702 at the indicated MOI for 72 h. Cell viability was quantified using the XTT assay. Uninfected (mock-treated) cells were shown as virus-infected cells at an MOI of 0. Cell viability was calculated relative to that of the mock-treated group, which was set at 100%. Cell viability data are expressed as mean ± SD (n = 5). The Student’s t-test was used to evaluate the significance of differences. *P<0.05; **P<0.01 (versus an MOI of 0).
+
+### OBP-702 induces apoptosis and autophagy in human CRC cells with different KRAS/BRAF mutation status
+
+To investigate whether OBP-702 induces autophagy and apoptosis in human CRC cells, human CRC cells with different KRAS/BRAF mutation status were infected with OBP-702 for 72 h, after which cell lysates were prepared and subjected to Western blotting. OBP-702 treatment induced apoptosis in all CRC cells with different KRAS/BRAF mutation status (Figs 5 and S4–S6). Moreover, OBP-702 treatment induced autophagy in all CRC cells except KRAS/BRAF wild-type Colo320DM cells, which lack p62 expression (Figs 5 and S4–S6). The expression of p53 protein was increased by OBP-702 treatment in both p53-intact (SW48, RKO) and p53-mutant (Colo320DM, SW620, HT29, DLD-1) CRC cells (Figs 5 and S4–S6). These results suggest that OBP-702 has therapeutic potential to induce apoptosis and autophagy in human CRC cells independent of KRAS/BRAF mutation status.
+
+Fig 5: OBP-702 induces apoptosis and autophagy in human CRC cells.A, B, C Human CRC cells with different KRAS/BRAF mutation status, KRAS/BRAF wild type (A), mutant KRAS (B), and mutant BRAF (C), were treated with OBP-702 at the indicated MOI for 72 h. Cell lysates were prepared and subjected to Western blot analysis of PARP, cleaved PARP (C-PARP), p62, E1A, and p53 expression. β-Actin was assayed as a loading control. Uninfected (mock-infected) cells were shown as virus-infected cells at an MOI of 0.
+
+### OBP-702 suppresses the EGFR-MEK-ERK and AKT-mTOR signaling pathways in BRAF-mutant human CRC cells more strongly than OBP-301
+
+BRAF-mutant CRC cells have been shown to exhibit activation of the EGFR-MEK-ERK and AKT-mTOR signaling pathways, resulting in malignant progression [22]. To explore the underlying mechanism of differing sensitivity to OBP-301 and OBP-702 in BRAF-mutant CRC cells, we investigated whether OBP-301 and OBP-702 suppress the EGFR-MEK-ERK and AKT-mTOR signaling pathways in BRAF-mutant CRC cells. BRAF-mutant HT29 cells were treated with OBP-301 or OBP-702 for 72 h, after which cell lysates were prepared and subjected to Western blotting. OBP-301 and OBP-702 efficiently suppressed the expression of EGFR, MEK, ERK, and AKT proteins (Figs 6A, S7 and S8). However, mTOR expression was suppressed by OBP-702 but not OBP-301 (Figs 6A, S7 and S8). These results suggest that OBP-702 is superior to OBP-301 in suppressing the AKT-mTOR signaling pathway, although the EGFR-MEK-ERK signaling pathway was similarly suppressed by OBP-301 and OBP-702.
+
+Fig 6: OBP-702 suppresses the EGFR-MEK-ERK and AKT-mTOR signaling pathways in BRAF-mutant CRC cells.A BRAF-mutant HT29 cells were treated with OBP-301 or OBP-702 at the indicated MOI for 72 h. Cell lysates were prepared and subjected to Western blot analysis of EGFR, MEK, ERK, AKT, and mTOR expression. B BRAF-mutant HT29 cells were treated with OBP-301, DL312, or Ad-p53 at the indicated MOI for 72 h. Cell lysates were prepared and subjected to Western blot analysis of PARP, C-PARP, p62, E1A, p53, EGFR, MEK, ERK, AKT, and mTOR expression. β-Actin was assayed as a loading control. Uninfected (mock-infected) cells were shown as virus-infected cells at an MOI of 0. C Outline of the EGFR-MEK-ERK and AKT-mTOR signaling pathways in BRAF-mutant CRC cells infected with OBP-301 or OBP-702.
+
+To evaluate whether oncolytic virus–mediated p53 activation suppresses the expression of mTOR in BRAF-mutant CRC cells, BRAF-mutant HT29 cells were treated with OBP-301 and p53-expressing Ad-p53 or non-expressing control DL312 for 72 h. OBP-301 monotherapy induced autophagy with downregulation of p62, but it did not induce apoptosis, whereas treatment with Ad-p53 or DL312 did not induce either apoptosis or autophagy (Figs 6B and S9). Combination therapy with OBP-301 and Ad-p53 induced apoptosis with upregulation of C-PARP and p53, in addition to autophagy, more strongly than combination treatment with OBP-301 and DL312 (Figs 6B and S9). The expression of mTOR protein was suppressed by combination treatment with OBP-301 and Ad-p53 but not combination treatment with OBP-301 and DL312, although the expression of EGFR, MEK, ERK, and AKT proteins was similarly suppressed by combination treatment with OBP-301 and Ad-p53 or DL312 (Figs 6B and S9). These results suggest that oncolytic virus–mediated p53 activation plays a crucial role in suppression of the AKT-mTOR signaling pathway and apoptosis induction in BRAF-mutant CRC cells.
+
+## Discussion
+
+KRAS/BRAF-mutant CRC cells are thought to exhibit greater malignant potential in association with a greater likelihood of progression, metastasis, and resistance to EGFR-targeted therapies compared with KRAS/BRAF wild-type CRC cells [2,3]. Therefore, novel therapeutic strategies to treat KRAS/BRAF-mutant CRC are needed. In this study, we investigated the therapeutic potential of OBP-301 and OBP-702 against human CRC cells with different KRAS/BRAF mutation and microsatellite status. KRAS wild-type and KRAS-mutant CRC cells were sensitive to both OBP-301 and OBP-702 independent of microsatellite status. BRAF-mutant CRC cells were less sensitive to OBP-301 compared with OBP-702. OBP-301 induced autophagy in association with downregulation of p62 and p53 protein expression in CRC cells, whereas OBP-702 induced apoptosis and autophagy in association with upregulation of C-PARP and p53 protein expression in CRC cells. OBP-301 and OBP-702 efficiently suppressed the expression of EGFR, MEK, ERK, and AKT proteins in BRAF-mutant CRC cells (Fig 6C). However, mTOR expression was suppressed by OBP-702 but not OBP-301 (Fig 6C). Thus, p53-armed oncolytic virotherapy appears to be a promising antitumor strategy that strongly induces apoptosis and autophagy in KRAS/BRAF-mutant CRC cells by suppressing the EGFR-MEK-ERK and AKT-mTOR signaling pathways.
+
+Oncolytic virotherapy with various viruses has been shown to induce the antitumor effect against KRAS/BRAF-mutant cancers, including CRC [23–26]. Jiffry et al. demonstrated that oncolytic reovirus-induced autophagy is effective to treat KRAS-mutant CRC cells [24]. Oncolytic adenovirus-induced autophagy has also been suggested to contribute to antitumor effect via mediating oncolysis and autophagy-related cell death [27]. We previously reported that OBP-301 induces autophagy-related cell death in human lung cancer cells by suppressing the EGFR expression [15]. OBP-301 and OBP-702 efficiently induced autophagy in KRAS/BRAF wild-type and KRAS-mutant CRC cells, although p53 expression was differentially modulated by OBP-301 and OBP-702. These findings suggest that autophagy induction may be involved in the therapeutic effect of OBP-301 and OBP-702 independent of p53 modulation. Autophagy plays both pro-survival and antitumoral roles in CRC cells [28]. The EGFR signaling pathway modulates autophagy in association with cell survival and cell death [29]. Li et al. demonstrated that the anti-EGFR antibody cetuximab induces autophagy in association with cell death in human CRC cells by activating the Beclin 1/hVps34 complex [30]. Giannopoulou et al. showed that the anti-EGFR antibody pantitumumab induces autophagy-related death in KRAS-mutant CRC cells by increasing the Beclin 1 protein level [31]. We also demonstrated that OBP-301 and OBP-702 induce autophagy-related death in KRAS-mutant human pancreatic cancer cells by suppressing the KRAS signaling pathway [16]. Thus, oncolytic virotherapy appears to be a promising antitumor strategy for inducing autophagy-related death in KRAS/BRAF wild-type and KRAS-mutant CRC cells by suppressing the EGFR-KRAS signaling pathway.
+
+p53-armed OBP-702 induced apoptosis in BRAF-mutant CRC cells, whereas non-armed OBP-301 or p53-expressing Ad-p53 did not induce apoptosis, suggesting that p53-activating oncolytic virotherapy would be effective for treating BRAF-mutant CRC via apoptosis induction. With regard to the molecular mechanism of the OBP-702–mediated cytopathic effect against BRAF-mutant CRC cells, our data showed that OBP-702 suppresses the expression of mTOR protein in BRAF-mutant CRC cells. Accumulating evidence indicates that p53 activation inhibits the mTOR pathway at transcriptional and non-transcriptional levels [32]. With regard to the role of mTOR inhibition in BRAF-mutant CRC cells, Mao et al. demonstrated that suppression of the AKT-mTOR signaling pathway enhances the sensitivity to BRAF inhibition in BRAF-mutant CRC cells [33]. Garcia-Garcia et al. showed that dual blockade of the MEK-ERK and AKT-mTOR signaling pathways results in the induction of apoptosis in BRAF-mutant RKO cells (p53 wild-type) but not BRAF-mutant HT-29 cells (p53 mutant) [34], suggesting that p53 activation plays an important role in suppression of the MEK-ERK and AKT-mTOR signaling pathways, followed by apoptosis induction. Although whether suppression of mTOR is associated with OBP-702-induced apoptosis remains unclear, He et al. demonstrated that mTOR inhibitors induce apoptosis in KRAS/BRAF-mutant CRC cells via the extrinsic apoptotic pathway [35]. Thus, OBP-702 treatment may contribute to the induction of apoptosis in BRAF-mutant CRC cells by suppressing the AKT-mTOR and EGFR-MEK-ERK signaling pathways and activating the p53 signaling pathway.
+
+Combination of oncolytic virotherapy with small molecules targeting the MEK-ERK pathway has also been shown to induce more profound antitumor efficacy than monotherapy in in vivo tumor models with KRAS/BRAF mutations [36]. Lee et al. showed that combination of MEK inhibitor promotes the antitumor efficacy of oncolytic vaccinia virus against chemo-resistant human ovarian cancer cells via enhancement of virus replication [37]. Bommareddy et al. demonstrated that combination of MEK inhibitor enhances antitumor effect of oncolytic herpes simplex virus against KRAS-mutant murine CRC tumors via enhancement of cytopathic activity and antitumor immunity [38]. Thus, in vivo experiments using immune-deficient and immune-competent mice are warranted to evaluate the therapeutic potential of OBP-301 and OBP-702 against KRAS/BRAF-mutant CRC tumors in monotherapy and combination therapy with small molecules targeting the MEK-ERK pathway.
+
+Clinical application of OBP-301 and OBP-702 is expected as treatment modalities for CRC. Administration route of OBP-301 and OBP-702 is limited to intratumoral injection to avoid the antiviral immune response mediated by circulating neutralizing antibody. Therefore, rectal cancer may be suitable in treating accessible CRC tumors. We previously reported that intratumoral injection of OBP-301 suppresses lymph node metastasis in an orthotopic rectal tumor model with KRAS-mutant HCT116 cells [39]. It has also been shown that intratumoral injection of OBP-702 exhibits antitumor effect in subcutaneous and orthotopic tumor models with human pancreatic cancer cells harboring in-frame BRAF deletion [16]. More recently, we demonstrated that endoscopic intratumoral injection of OBP-301 with radiotherapy was feasible and well tolerated in esophageal cancer patients [40]. Although whether the feasibility and safety of intratumoral injection of OBP-702 in CRC patients remains to be elucidated, rectal cancers with KRAS/BRAF mutations may be potent candidate for treating with OBP-301 and OBP-702.
+
+In conclusion, we demonstrated that the telomerase-specific oncolytic adenoviruses OBP-301 and OBP-702 have therapeutic potential for inducing autophagy-related death in KRAS wild-type and KRAS-mutant CRC cells. Moreover, OBP-702–mediated p53 activation may provide a novel therapeutic option for inducing apoptosis in BRAF-mutant CRC cells. In vivo experiments are needed to evaluate the therapeutic potential of OBP-301 and OBP-702 against KRAS/BRAF-mutant CRC tumors.
+
+## Supporting information
+
+(PDF)
+
+Click here for additional data file.
+
+(PDF)
+
+Click here for additional data file.
+
+(PDF)
+
+Click here for additional data file.
+
+(PDF)
+
+Click here for additional data file.
+
+(PDF)
+
+Click here for additional data file.
+
+(PDF)
+
+Click here for additional data file.
+
+(PDF)
+
+Click here for additional data file.
+
+(PDF)
+
+Click here for additional data file.
+
+(PDF)
+
+Click here for additional data file.
+
+We thank Tomoko Sueishi, Yuko Hoshijma, and Tae Yamanishi for technical support.
+
+colorectal cancer
+
+epidermal growth factor receptor
+
+monoclonal antibody
+
+multiplicity of infection
+
+microsatellite instable
+
+microsatellite stable
+
+polyclonal antibody
+
+poly (ADP-ribose) polymerase
+
+plaque-forming units
+
+## References
+1. 1SiegelRL, MillerKD, WagleNS, JemalA. Cancer statistics, 2023. CA Cancer J Clin. 2023;73(1):17–48. Epub 2023/01/13. doi: 10.3322/caac.21763 .36633525
+2. 2Garcia-CarboneroN, Martinez-UserosJ, LiW, OrtaA, PerezN, CaramesC, et al. KRAS and BRAF Mutations as Prognostic and Predictive Biomarkers for Standard Chemotherapy Response in Metastatic Colorectal Cancer: A Single Institutional Study. Cells. 2020;9(1):219. Epub 2020/01/19. doi: 10.3390/cells9010219 ; PubMed Central PMCID: PMC7016634.31952366PMC7016634
+3. 3JananiB, VijayakumarM, PriyaK, KimJH, PrabakaranDS, ShahidM, et al. EGFR-Based Targeted Therapy for Colorectal Cancer-Promises and Challenges. Vaccines (Basel). 2022;10(4):499. Epub 2022/04/24. doi: 10.3390/vaccines10040499 ; PubMed Central PMCID: PMC9030067.35455247PMC9030067
+4. 4RosJ, BalconiF, BaraibarI, Saoudi GonzalezN, SalvaF, TaberneroJ, et al. Advances in immune checkpoint inhibitor combination strategies for microsatellite stable colorectal cancer. Front Oncol. 2023;13:1112276. Epub 2023/02/24. doi: 10.3389/fonc.2023.1112276 ; PubMed Central PMCID: PMC9932591.36816981PMC9932591
+5. 5ZhuG, PeiL, XiaH, TangQ, BiF. Role of oncogenic KRAS in the prognosis, diagnosis and treatment of colorectal cancer. Mol Cancer. 2021;20(1):143. Epub 2021/11/08. doi: 10.1186/s12943-021-01441-4 ; PubMed Central PMCID: PMC8571891.34742312PMC8571891
+6. 6Molina-CerrilloJ, San RomanM, PozasJ, Alonso-GordoaT, PozasM, CondeE, et al. BRAF Mutated Colorectal Cancer: New Treatment Approaches. Cancers (Basel). 2020;12(6):1571. Epub 2020/06/18. doi: 10.3390/cancers12061571 ; PubMed Central PMCID: PMC7353017.32545884PMC7353017
+7. 7BellioH, FumetJD, GhiringhelliF. Targeting BRAF and RAS in Colorectal Cancer. Cancers (Basel). 2021;13(9):2201. Epub 2021/06/03. doi: 10.3390/cancers13092201 ; PubMed Central PMCID: PMC8124706.34063682PMC8124706
+8. 8LiZN, ZhaoL, YuLF, WeiMJ. BRAF and KRAS mutations in metastatic colorectal cancer: future perspectives for personalized therapy. Gastroenterol Rep (Oxf). 2020;8(3):192–205. Epub 2020/07/16. doi: 10.1093/gastro/goaa022 ; PubMed Central PMCID: PMC7333923.32665851PMC7333923
+9. 9Hazar-RethinamM, KleymanM, HanGC, LiuD, AhronianLG, ShahzadeHA, et al. Convergent Therapeutic Strategies to Overcome the Heterogeneity of Acquired Resistance in BRAF(V600E) Colorectal Cancer. Cancer Discov. 2018;8(4):417–27. Epub 2018/02/13. doi: 10.1158/2159-8290.CD-17-1227 ; PubMed Central PMCID: PMC5882515.29431697PMC5882515
+10. 10MacedoN, MillerDM, HaqR, KaufmanHL. Clinical landscape of oncolytic virus research in 2020. J Immunother Cancer. 2020;8(2):e001486. Epub 2020/10/14. doi: 10.1136/jitc-2020-001486 ; PubMed Central PMCID: PMC7552841.33046622PMC7552841
+11. 11KaufmanHL, KohlhappFJ, ZlozaA. Oncolytic viruses: a new class of immunotherapy drugs. Nat Rev Drug Discov. 2015;14(9):642–62. Epub 2015/09/02. doi: 10.1038/nrd4663 ; PubMed Central PMCID: PMC7097180 authors have no competing interests to disclose.26323545PMC7097180
+12. 12RoakeCM, ArtandiSE. Regulation of human telomerase in homeostasis and disease. Nat Rev Mol Cell Biol. 2020;21(7):384–97. Epub 2020/04/04. doi: 10.1038/s41580-020-0234-z ; PubMed Central PMCID: PMC7377944.32242127PMC7377944
+13. 13KawashimaT, KagawaS, KobayashiN, ShirakiyaY, UmeokaT, TeraishiF, et al. Telomerase-specific replication-selective virotherapy for human cancer. Clin Cancer Res. 2004;10(1 Pt 1):285–92. Epub 2004/01/22. doi: 10.1158/1078-0432.ccr-1075-3 .14734481
+14. 14YamasakiY, TazawaH, HashimotoY, KojimaT, KurodaS, YanoS, et al. A novel apoptotic mechanism of genetically engineered adenovirus-mediated tumour-specific p53 overexpression through E1A-dependent p21 and MDM2 suppression. Eur J Cancer. 2012;48(14):2282–91. Epub 2012/01/17. doi: 10.1016/j.ejca.2011.12.020 .22244827
+15. 15TazawaH, YanoS, YoshidaR, YamasakiY, SasakiT, HashimotoY, et al. Genetically engineered oncolytic adenovirus induces autophagic cell death through an E2F1-microRNA-7-epidermal growth factor receptor axis. Int J Cancer. 2012;131(12):2939–50. Epub 2012/04/12. doi: 10.1002/ijc.27589 .22492316
+16. 16KoujimaT, TazawaH, IedaT, ArakiH, FushimiT, ShojiR, et al. Oncolytic Virus-Mediated Targeting of the ERK Signaling Pathway Inhibits Invasive Propensity in Human Pancreatic Cancer. Mol Ther Oncolytics. 2020;17:107–17. Epub 2020/04/24. doi: 10.1016/j.omto.2020.03.016 ; PubMed Central PMCID: PMC7163052.32322667PMC7163052
+17. 17HashimotoY, WatanabeY, ShirakiyaY, UnoF, KagawaS, KawamuraH, et al. Establishment of biological and pharmacokinetic assays of telomerase-specific replication-selective adenovirus. Cancer Sci. 2008;99(2):385–90. Epub 2008/01/19. doi: 10.1111/j.1349-7006.2007.00665.x .18201270PMC11159277
+18. 18HaseiJ, SasakiT, TazawaH, OsakiS, YamakawaY, KunisadaT, et al. Dual programmed cell death pathways induced by p53 transactivation overcome resistance to oncolytic adenovirus in human osteosarcoma cells. Mol Cancer Ther. 2013;12(3):314–25. Epub 2013/01/15. doi: 10.1158/1535-7163.MCT-12-0869 .23315976
+19. 19ItoH, AokiH, KuhnelF, KondoY, KubickaS, WirthT, et al. Autophagic cell death of malignant glioma cells induced by a conditionally replicating adenovirus. J Natl Cancer Inst. 2006;98(9):625–36. Epub 2006/05/04. doi: 10.1093/jnci/djj161 .16670388
+20. 20JiangH, Gomez-ManzanoC, AokiH, AlonsoMM, KondoS, McCormickF, et al. Examination of the therapeutic potential of Delta-24-RGD in brain tumor stem cells: role of autophagic cell death. J Natl Cancer Inst. 2007;99(18):1410–4. Epub 2007/09/13. doi: 10.1093/jnci/djm102 .17848677
+21. 21UlasovIV, TylerMA, ZhuZB, HanY, HeTC, LesniakMS. Oncolytic adenoviral vectors which employ the survivin promoter induce glioma oncolysis via a process of beclin-dependent autophagy. Int J Oncol. 2009;34(3):729–42. Epub 2009/02/13. doi: 10.3892/ijo_00000199 ; PubMed Central PMCID: PMC2790828.19212678PMC2790828
+22. 22GrotheyA, FakihM, TaberneroJ. Management of BRAF-mutant metastatic colorectal cancer: a review of treatment options and evidence-based guidelines. Ann Oncol. 2021;32(8):959–67. Epub 2021/04/10. doi: 10.1016/j.annonc.2021.03.206 .33836264
+23. 23DengH, LiuH, de SilvaT, XueY, MohamudY, NgCS, et al. Coxsackievirus Type B3 Is a Potent Oncolytic Virus against KRAS-Mutant Lung Adenocarcinoma. Mol Ther Oncolytics. 2019;14:266–78. Epub 2019/08/30. doi: 10.1016/j.omto.2019.07.003 ; PubMed Central PMCID: PMC6709373.31463367PMC6709373
+24. 24JiffryJ, ThavornwatanayongT, RaoD, FogelEJ, SaytooD, NahataR, et al. Oncolytic Reovirus (pelareorep) Induces Autophagy in KRAS-mutated Colorectal Cancer. Clin Cancer Res. 2021;27(3):865–76. Epub 2020/11/11. doi: 10.1158/1078-0432.CCR-20-2385 ; PubMed Central PMCID: PMC8130598.33168658PMC8130598
+25. 25MaitraR, SeetharamR, TesfaL, AugustineTA, KlampferL, CoffeyMC, et al. Oncolytic reovirus preferentially induces apoptosis in KRAS mutant colorectal cancer cells, and synergizes with irinotecan. Oncotarget. 2014;5(9):2807–19. Epub 2014/05/07. doi: 10.18632/oncotarget.1921 ; PubMed Central PMCID: PMC4058046.24798549PMC4058046
+26. 26KyulaJN, KhanAA, MansfieldD, KarapanagiotouEM, McLaughlinM, RoulstoneV, et al. Synergistic cytotoxicity of radiation and oncolytic Lister strain vaccinia in (V600D/E)BRAF mutant melanoma depends on JNK and TNF-alpha signaling. Oncogene. 2014;33(13):1700–12. Epub 2013/04/30. doi: 10.1038/onc.2013.112 .23624923
+27. 27JinKT, TaoXH, FanYB, WangSB. Crosstalk between oncolytic viruses and autophagy in cancer therapy. Biomed Pharmacother. 2021;134:110932. Epub 2020/12/29. doi: 10.1016/j.biopha.2020.110932 .33370632
+28. 28ManzoorS, MuhammadJS, MaghazachiAA, HamidQ. Autophagy: A Versatile Player in the Progression of Colorectal Cancer and Drug Resistance. Front Oncol. 2022;12:924290. Epub 2022/08/02. doi: 10.3389/fonc.2022.924290 ; PubMed Central PMCID: PMC9329589.35912261PMC9329589
+29. 29HensonE, ChenY, GibsonS. EGFR Family Members’ Regulation of Autophagy Is at a Crossroads of Cell Survival and Death in Cancer. Cancers (Basel). 2017;9(4):27. Epub 2017/03/25. doi: 10.3390/cancers9040027 ; PubMed Central PMCID: PMC5406702.28338617PMC5406702
+30. 30LiX, FanZ. The epidermal growth factor receptor antibody cetuximab induces autophagy in cancer cells by downregulating HIF-1alpha and Bcl-2 and activating the beclin 1/hVps34 complex. Cancer Res. 2010;70(14):5942–52. Epub 2010/07/17. doi: 10.1158/0008-5472.CAN-10-0157 ; PubMed Central PMCID: PMC2933174.20634405PMC2933174
+31. 31GiannopoulouE, AntonacopoulouA, MatsoukaP, KalofonosHP. Autophagy: novel action of panitumumab in colon cancer. Anticancer Res. 2009;29(12):5077–82. Epub 2010/01/02. .20044619
+32. 32CuiD, QuR, LiuD, XiongX, LiangT, ZhaoY. The Cross Talk Between p53 and mTOR Pathways in Response to Physiological and Genotoxic Stresses. Front Cell Dev Biol. 2021;9:775507. Epub 2021/12/07. doi: 10.3389/fcell.2021.775507 ; PubMed Central PMCID: PMC8638743.34869377PMC8638743
+33. 33MaoM, TianF, MariadasonJM, TsaoCC, LemosRJr., DayyaniF, et al. Resistance to BRAF inhibition in BRAF-mutant colon cancer can be overcome with PI3K inhibition or demethylating agents. Clin Cancer Res. 2013;19(3):657–67. Epub 2012/12/20. doi: 10.1158/1078-0432.CCR-11-1446 ; PubMed Central PMCID: PMC3563727.23251002PMC3563727
+34. 34Garcia-GarciaC, RivasMA, IbrahimYH, CalvoMT, Gris-OliverA, RodriguezO, et al. MEK plus PI3K/mTORC1/2 Therapeutic Efficacy Is Impacted by TP53 Mutation in Preclinical Models of Colorectal Cancer. Clin Cancer Res. 2015;21(24):5499–510. Epub 2015/08/15. doi: 10.1158/1078-0432.CCR-14-3091 ; PubMed Central PMCID: PMC5087596.26272063PMC5087596
+35. 35HeK, ZhengX, LiM, ZhangL, YuJ. mTOR inhibitors induce apoptosis in colon cancer cells via CHOP-dependent DR5 induction on 4E-BP1 dephosphorylation. Oncogene. 2016;35(2):148–57. Epub 2015/04/14. doi: 10.1038/onc.2015.79 ; PubMed Central PMCID: PMC4603992.25867072PMC4603992
+36. 36ZhuZ, McGrayAJR, JiangW, LuB, KalinskiP, GuoZS. Improving cancer immunotherapy by rationally combining oncolytic virus with modulators targeting key signaling pathways. Mol Cancer. 2022;21(1):196. Epub 2022/10/12. doi: 10.1186/s12943-022-01664-z ; PubMed Central PMCID: PMC9554963.36221123PMC9554963
+37. 37LeeS, YangW, KimDK, KimH, ShinM, ChoiKU, et al. Inhibition of MEK-ERK pathway enhances oncolytic vaccinia virus replication in doxorubicin-resistant ovarian cancer. Mol Ther Oncolytics. 2022;25:211–24. Epub 2022/05/21. doi: 10.1016/j.omto.2022.04.006 ; PubMed Central PMCID: PMC9096472.35592390PMC9096472
+38. 38BommareddyPK, AspromonteS, ZlozaA, RabkinSD, KaufmanHL. MEK inhibition enhances oncolytic virus immunotherapy through increased tumor cell killing and T cell activation. Sci Transl Med. 2018;10(471):eaau0417. Epub 2018/12/14. doi: 10.1126/scitranslmed.aau0417 ; PubMed Central PMCID: PMC7593827.30541787PMC7593827
+39. 39KikuchiS, KishimotoH, TazawaH, HashimotoY, KurodaS, NishizakiM, et al. Biological ablation of sentinel lymph node metastasis in submucosally invaded early gastrointestinal cancer. Mol Ther. 2015;23(3):501–9. Epub 2014/12/20. doi: 10.1038/mt.2014.244 ; PubMed Central PMCID: PMC4351467.25523761PMC4351467
+40. 40ShirakawaY, TazawaH, TanabeS, KanayaN, NomaK, KoujimaT, et al. Phase I dose-escalation study of endoscopic intratumoral injection of OBP-301 (Telomelysin) with radiotherapy in oesophageal cancer patients unfit for standard treatments. Eur J Cancer. 2021;153:98–108. Epub 2021/06/22. doi: 10.1016/j.ejca.2021.04.043 .34153720

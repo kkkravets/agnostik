@@ -1,0 +1,121 @@
+# Rectal Adenocarcinoma With Enteroblastic Differentiation and Hepatic Metastases: A Rare and Aggressive Variant of Colorectal Carcinoma
+
+Authors: Farzeen Fatma Syed, Ahmed Khalid
+
+Journal: The American Journal of Case Reports
+
+PMCID: PMC13371228
+
+PMID: 42432994
+
+DOI: 10.12659/AJCR.953084
+
+Canonical source: https://pmc.ncbi.nlm.nih.gov/articles/PMC13371228/
+
+## Abstract
+
+Patient: Male, 57-year-old
+
+Final Diagnosis: Rectal cancer
+
+Symptoms: Abdominal pain • suprapubic pain
+
+Clinical Procedure: —
+
+Specialty: Oncology
+
+Objective: Unusual clinical course
+
+## Background
+
+Colorectal adenocarcinoma with enteroblastic differentiation (CAED) is a rare, aggressive variant that may lose typical intestinal markers and express oncofetal proteins, creating diagnostic confusion with hepatobiliary or pancreatic primaries. We report a metastatic rectal CAED with discordant initial pathology and an actionable ERBB2 (HER2) amplification.
+
+## Case Report
+
+A 57-year-old man presented with peritonitis and was found to have a perforated rectosigmoid tumor and multifocal hepatic lesions. He underwent emergent partial colectomy with end colostomy. The colorectal tumor showed a poorly differentiated adenocarcinoma, with clear-cell features, diffuse epithelial marker expression (MOC31/claudin-4), and enteroblastic markers (SALL4 and patchy glypican-3), but lacked CK20 and CDX2. A contemporaneous liver biopsy at an outside institution was interpreted as pancreaticobiliary adenocarcinoma. Because imaging showed no pancreatic mass and the pathologic profiles were discordant, both specimens underwent expert review; the liver lesion shared the same morphology and immunophenotype, supporting metastatic rectal CAED. Next-generation sequencing demonstrated ERBB2 amplification, KRAS/NRAS wild type status, microsatellite stability, and pathogenic SMAD4 and APC alterations. Systemic therapy with fluoropyrimidine/oxaliplatin and bevacizumab with consideration of anti-HER2 therapy was discussed, but the patient chose hospice and died 5 months after diagnosis.
+
+## Conclusions
+
+CAED can masquerade as a non-colorectal primary tumor, particularly at metastatic sites. Parallel review of primary and metastatic tumors, judicious use of enteroblastic markers, and molecular profiling are key to securing the diagnosis and identifying potential therapeutic targets, such as ERBB2 amplification.
+
+## Full article
+
+## Introduction
+
+Colorectal adenocarcinoma with enteroblastic differentiation (CAED) is an uncommon subtype of colorectal cancer characterized by a primitive, fetal gut–like morphology and expression of at least 1 enteroblastic marker: alpha-fetoprotein (AFP), glypican-3 (GPC3), or spalt-like transcription factor 4 (SALL4) [1,2].
+
+Reported series suggest CAED accounts for well under 1% of colorectal carcinomas and is frequently associated with advanced stage at presentation and an aggressive clinical course [1,2].
+
+Because CAED can lose intestinal markers, such as CK20 and CDX2, and can show an oncofetal immunophenotype, metastatic deposits may be misattributed to hepatocellular, pancreaticobiliary, or germ cell primaries [1,3,4]. We describe a metastatic rectal CAED initially interpreted as having discordant primary sites, in which expert pathologic review and molecular profiling clarified the diagnosis and identified ERBB2 (HER2) amplification with potential therapeutic relevance [5]. In diagnostically challenging, poorly differentiated colorectal tumors, routine morphologic assessment and immunohistochemistry remain the foundation of lineage assignment, while next-generation sequencing (NGS) can provide complementary diagnostic and therapeutically actionable information when the immunophenotype is atypical.
+
+Routine diagnostic evaluation of a poorly differentiated colorectal tumor begins with morphology and first-line immunohistochemical lineage markers. In this setting, CK20, CDX2, and SATB2 support intestinal differentiation, whereas AFP, glypican-3, and SALL4 support enteroblastic differentiation; importantly, CAED can lose conventional intestinal markers while retaining an oncofetal phenotype, which helps explain its frequent diagnostic overlap with hepatobiliary, pancreaticobiliary, and germ cell primaries [1,2]. Reported series also suggest that CAED is typically aggressive, with advanced-stage presentation and adverse clinical outcomes more common than in conventional colorectal adenocarcinoma [1,2]. From a molecular-testing standpoint, traditional focused approaches, such as single-gene assays, allele-specific polymerase chain reaction, or Sanger sequencing, are most useful when a specific alteration is strongly suspected, whereas targeted NGS panels allow simultaneous assessment of multiple clinically relevant genes and are generally the most practical platform in advanced solid tumors [6,7]. Broader strategies, such as whole-exome sequencing and whole-genome sequencing, are less hypothesis-driven and can reveal additional variants, but they usually involve lower sequencing depth, higher cost, and more complex interpretation, so they are most often reserved for selected cases, research protocols, or specialized centers [6]. In advanced colorectal cancer, professional guidelines support validated molecular biomarker testing, and contemporary European Society for Medical Oncology recommendations include tumor NGS as an option in advanced colorectal cancer when the results may inform matched therapy or clinical-trial selection [7,8]
+
+## Case Report
+
+Written informed consent for publication of this case report and any accompanying images was obtained from the patient or, if applicable, the patient’s legal representative.
+
+### Patient Information
+
+A 57-year-old man with no known prior malignancy presented in March 2025 after transfer from an outside hospital with abdominal and suprapubic pain and peritonitis. His medical history was notable for hydrocele. During the index hospitalization, he underwent exploratory laparotomy twice. He reported continued smokeless spit tobacco use of less than 1 pouch/can per day since age 12 years, with no plan to quit, and denied alcohol use. At oncology follow-up, his Eastern Cooperative Oncology Group performance status was 0, he reported a good appetite, and he denied weight loss, anorexia, bleeding, constipation, diarrhea, nausea, and vomiting. No family history of colorectal or other gastrointestinal malignancy was reported by the patient.
+
+### Clinical Findings and Diagnostic Assessment
+
+Serial abdominal and pelvic imaging demonstrated a perforated distal sigmoid/proximal rectal mass with multiple low-attenuation hepatic lesions, together with a complicated postoperative pelvic/perineal infectious process. Early computed tomography (CT) showed findings concerning for necrotizing fasciitis/Fournier gangrene involving the right perineum with extension toward the bladder and right inguinal canal. There was circumferential bladder wall thickening with perivesical stranding, but no contrast extravasation on CT cystogram. Additional findings included postoperative ileus and persistent pelvic fluid and air collections requiring drainage. Subsequent CT in early April 2025 showed persistent residual abscess extending along the right pelvic wall into the inguinal canal, colorectal wall thickening/mass measuring approximately 12 cm, extensive retroperitoneal, mesenteric, iliac, and inguinal lymphadenopathy, and multiple hepatic hypodensities suspicious for metastatic disease; no discrete pancreatic lesion or biliary ductal dilatation was identified. Baseline tumor markers were elevated, including carbohydrate antigen 19-9 level of 1834.3 U/mL, carcinoembryonic antigen level of 28.1 ng/mL, and CA-125 level of 219.0 U/mL. Serial laboratory evaluation also showed a rising carbohydrate antigen 19-9 level, increasing from 1834.3 U/mL to 2425.0 U/mL and 4407.0 U/mL. Staging positron emission tomography (PET)/CT later demonstrated hypermetabolic distal rectal wall thickening, extensive nodal disease involving the groin, pelvis, retroperitoneum, and left neck, and multiple hypermetabolic liver lesions, without abnormal skeletal uptake.
+
+### Therapeutic Intervention and Pathology
+
+The patient underwent an emergent exploratory laparotomy with Hartmann’s procedure (partial colectomy with end colostomy). Histopathology of the rectosigmoid mass showed a poorly differentiated adenocarcinoma with clear-cell features. Microscopically, the tumor showed pleomorphism, an increased nuclear-to-cytoplasmic ratio, and glandular formation (Figure 1). Immunohistochemistry demonstrated diffuse epithelial marker expression (including MOC31, BerEP4, and Claudin-4) with strong nuclear SALL4 (Figure 2) and patchy GPC3 positivity, while classic intestinal markers (CK20 and CDX2) were negative. SATB2 showed patchy positivity. Markers supporting alternative primaries were negative, including NKX3.1 and PSA (prostate), PAX8 and WT1 (Müllerian/renal), GATA3 (urothelial/breast), and neuroendocrine markers (synaptophysin and chromogranin), as shown in Table 1. Immunohistochemical stains were performed on available tissue sections with appropriate controls as part of the diagnostic workup and subsequent expert review. The initial differential included colorectal adenocarcinoma with enteroblastic differentiation vs a metastasis from an occult primary tumor.
+
+An ultrasound-guided biopsy of a liver lesion performed at an outside institution was initially reported as pancreaticobiliary adenocarcinoma based on CK7 positivity with focal CDX2 and villin staining, together with the markedly elevated CA19-9. Given the absence of a pancreatic mass and the atypical immunophenotype of the colorectal tumor, both the colorectal and hepatic specimens were submitted for expert review. Re-evaluation demonstrated identical morphology and overlapping immunoprofiles across both sites—SALL4 positive, MOC31 positive, and weak/patchy GPC3 expression—supporting rectal adenocarcinoma with enteroblastic differentiation metastatic to the liver (Figures 3, 4).
+
+### Molecular Profiling
+
+NGS-based comprehensive genomic profiling identified ERBB2 (HER2) amplification with KRAS/NRAS wild-type status, microsatellite stability, and low tumor mutational burden. Pathogenic alterations in SMAD4 and APC were also identified. Confirmatory HER2 immunohistochemistry and/or fluorescence in situ hybridization were not available in the reviewed record.
+
+### Clinical Course and Outcomes
+
+The postoperative course was complicated by superficial wound dehiscence. PET/CT in June 2025 demonstrated hypermetabolic distal rectal wall thickening, extensive nodal disease involving the groin, pelvis, retroperitoneum, and left neck, and multiple hypermetabolic liver lesions, without abnormal skeletal uptake. A regimen of fluoropyrimidine, leucovorin, and oxaliplatin (modified FOLFOX6) with bevacizumab was recommended, with consideration of anti-HER2 therapy, given ERBB2 amplification; however, the patient declined systemic treatment and elected for home hospice. He died in August 2025.
+
+## Discussion
+
+This case underscores a recurrent challenge in CAED: the combination of oncofetal marker expression with loss of conventional intestinal differentiation can obscure the colorectal origin, particularly when metastatic lesions are sampled in isolation [1,3,4].
+
+In reported series, CAED often arises in the sigmoid colon or rectum and may exhibit clear cytoplasm or hepatoid/yolk sac–like features, paralleling the fetal gut phenotype [1,2,9]. The immunoprofile is variable, but SALL4 and GPC3 appear particularly useful when CK20 and CDX2 are absent [1,2]. Kihara et al additionally reported a rectal carcinoma with dual enteroblastic and neuroendocrine differentiation, emphasizing the morphologic heterogeneity of these tumors [10]. Loss of CK20 and CDX2 does not exclude colorectal origin in this setting, because CAED may show loss of conventional intestinal differentiation while retaining an oncofetal phenotype. This creates a potentially misleading differential diagnosis with hepatoid adenocarcinoma, AFP-producing colorectal carcinoma, and metastatic pancreaticobiliary adenocarcinoma, particularly when a metastatic lesion is sampled first [11].
+
+Our patient’s liver biopsy was initially interpreted as pancreaticobiliary adenocarcinoma, likely influenced by CK7 positivity and elevated CA19-9. However, CA19-9 is not specific for a pancreatic primary tumor, and focal CK7 positivity can occur in colorectal tumors and in metastases with divergent differentiation [3]. The decisive step was a side-by-side comparison of the colorectal and hepatic specimens with a focused panel including enteroblastic markers, which demonstrated concordant morphology and shared SALL4/GPC3 expression [4].
+
+Beyond diagnostic clarification, molecular profiling can provide clinically actionable information. ERBB2 amplification defines a targetable subset of metastatic colorectal cancer; basket and guideline-informed approaches have supported the activity of HER2-directed regimens in HER2-amplified metastatic colorectal cancer, particularly in KRAS wild-type tumors [5]. In addition, SMAD4 alterations have been associated with more aggressive colorectal cancer biology and poor outcomes, which may have contributed to the rapid progression observed in the present case [12].
+
+Limitations of this report include the absence of serum AFP measurements, which may have provided additional clinicopathologic support for enteroblastic differentiation, and the inability to assess treatment response, as the patient declined systemic therapy. Nonetheless, the case highlights how integrating clinicoradiologic correlation, expert pathologic review, and molecular profiling can prevent misclassification of metastatic disease and may broaden therapeutic options.
+
+## Conclusions
+
+CAED with liver metastases is a rare colorectal carcinoma subtype that can mimic hepatobiliary or pancreatic primary tumors because of oncofetal marker expression and loss of intestinal immunophenotype. When pathology and clinical findings are discordant, comparison of primary and metastatic tumors and inclusion of enteroblastic markers (SALL4, GPC3, AFP) can be decisive. Comprehensive molecular profiling may reveal actionable alterations such as ERBB2 amplification.
+
+The authors thank Dr. Mai Thy Tran (Department of Pathology) for sharing pathology slides used in this study.
+
+Financial support: None declared
+
+Conflict of interest: None declared
+
+Publisher’s note: All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher
+
+Department and Institution Where Work Was Done: Department of Internal Medicine, Charleston Area Medical Center (CAMC), Charleston, WV, USA.
+
+Patient Permission/Consent: Written informed consent for publication of this case report and any accompanying images was obtained from the patient or, if applicable, the patient’s legal representative.
+
+Declaration of Figures’ Authenticity: All figures submitted have been created by the authors who confirm that the images are original with no duplication and have not been previously published in whole or in part.
+
+## References
+1. 1MurakamiTYaoTYatagaiNColorectal adenocarcinoma with enteroblastic differentiation: A clinicopathological study of five casesHistopathology2020762325323142998010.1111/his.13973
+2. 2YamashiroYSaitoTHayashiTMolecular and clinicopathological features of colorectal adenocarcinoma with enteroblastic differentiationHistopathology20207734925023243849010.1111/his.14158
+3. 3AbadaEAnayaICAbadaOColorectal adenocarcinoma with enteroblastic differentiation: Diagnostic challenges of a rare case encountered in clinical practiceJ Pathol Transl Med2022562971023505132510.4132/jptm.2021.10.28PMC8935001
+4. 4Suárez-VilelaDIzquierdoFMColorectal adenocarcinoma with enteroblastic differentiation. Report of one case with lacunar growth pattern, microcalcifications, osseous metaplasia, and metachronous involvement of sigma and appendixPathol Int20227212640423632140810.1111/pin.13281
+5. 5Meric-BernstamFHurwitzHRaghavKPSPertuzumab plus trastuzumab for HER2-amplified metastatic colorectal cancer (MyPathway): An updated report from a multicentre, open-label, phase 2a, multiple basket studyLancet Oncol2019204518303085795610.1016/S1470-2045(18)30904-5PMC6781620
+6. 6HorakPFröhlingSGlimmHIntegrating next-generation sequencing into clinical oncology: Strategies, promises and pitfallsESMO Open201615e0000942793321410.1136/esmoopen-2016-000094PMC5133384
+7. 7SepulvedaARHamiltonSRAllegraCJMolecular biomarkers for the evaluation of colorectal cancer: Guideline from the American Society for Clinical Pathology, College of American Pathologists, Association for Molecular Pathology, and the American Society of Clinical OncologyJ Clin Oncol201735131453862816529910.1200/JCO.2016.71.9807
+8. 8MoseleMFWestphalenCBStenzingerARecommendations for the use of next-generation sequencing (NGS) for patients with advanced cancer in 2024: A report from the ESMO Precision Medicine Working GroupAnn Oncol20243575886063883438810.1016/j.annonc.2024.04.005
+9. 9KurosawaTMurakamiTYamashiroYMucin phenotypes and clinicopathological features of colorectal adenocarcinomas: Correlation with colorectal adenocarcinoma with enteroblastic differentiationPathol Res Pract20222321538403530352310.1016/j.prp.2022.153840
+10. 10KiharaTKuwaharaRKusunokiKRectal carcinoma with dual differentiation toward enteroblastic and neuroendocrine features arising in a patient with ulcerative colitis: A case reportWorld J Surg Oncol20222013713643463710.1186/s12957-022-02838-1PMC9701029
+11. 11OgiwaraSFurihataMFukamiKHepatoid adenocarcinoma with enteroblastic differentiation in the sigmoid colon: Lessons from a rare caseAm J Gastroenterol20191144684853084872910.14309/ajg.0000000000000176
+12. 12YanPKlingbielDSaridakiZReduced expression of SMAD4 is associated with poor survival in colon cancerClin Cancer Res201622123037472686146010.1158/1078-0432.CCR-15-0939

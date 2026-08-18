@@ -1,0 +1,796 @@
+<?xml version='1.0' encoding='utf-8'?>
+<article xmlns:ns0="http://www.niso.org/schemas/ali/1.0/" xmlns:ns1="http://www.w3.org/1999/xlink" article-type="research-article" xml:lang="en" dtd-version="1.4"><front><journal-meta><journal-id journal-id-type="nlm-ta">Int J Cancer</journal-id><journal-id journal-id-type="iso-abbrev">Int. J. Cancer</journal-id><journal-id journal-id-type="pmc-domain-id">379</journal-id><journal-id journal-id-type="pmc-domain">blackwellopen</journal-id><journal-id journal-id-type="nlm-id">0042124</journal-id><journal-id journal-id-type="publisher-id">IJC</journal-id><journal-title-group><journal-title>International Journal of Cancer</journal-title></journal-title-group><issn pub-type="ppub">0020-7136</issn><issn pub-type="epub">1097-0215</issn><custom-meta-group><custom-meta><meta-name>pmc-is-collection-domain</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-collection-title</meta-name><meta-value>Wiley Open Access Collection</meta-value></custom-meta></custom-meta-group></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC6378102</article-id><article-id pub-id-type="pmcid-ver">PMC6378102.2</article-id><article-id pub-id-type="pmcaid">6378102</article-id><article-id pub-id-type="pmcaiid">6849703</article-id><article-id pub-id-type="pmid">30304546</article-id><article-id pub-id-type="doi">10.1002/ijc.31916</article-id><article-id pub-id-type="publisher-id">IJC31916</article-id><article-version article-version-type="pmc-version">2</article-version><article-categories><subj-group subj-group-type="overline"><subject>Molecular Cancer Biology</subject></subj-group><subj-group subj-group-type="heading"><subject>Molecular Cancer Biology</subject></subj-group></article-categories><title-group><article-title>ERBB2 and KRAS alterations mediate response to EGFR inhibitors in early stage gallbladder cancer</article-title><alt-title alt-title-type="right-running-head">A promising therapy in gallbladder cancer</alt-title><alt-title alt-title-type="left-running-head">Iyer <italic toggle="yes">et al</italic>.</alt-title></title-group><contrib-group><contrib id="ijc31916-cr-0001" contrib-type="author"><name name-style="western"><surname>Iyer</surname><given-names initials="P">Prajish</given-names></name><xref ref-type="aff" rid="ijc31916-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="ijc31916-aff-0002">
+<sup>2</sup>
+</xref><xref ref-type="author-notes" rid="ijc31916-note-0001">
+<sup>*</sup>
+</xref></contrib><contrib id="ijc31916-cr-0002" contrib-type="author"><name name-style="western"><surname>Shrikhande</surname><given-names initials="SV">Shailesh V.</given-names></name><xref ref-type="aff" rid="ijc31916-aff-0002">
+<sup>2</sup>
+</xref><xref ref-type="aff" rid="ijc31916-aff-0003">
+<sup>3</sup>
+</xref><xref ref-type="author-notes" rid="ijc31916-note-0001">
+<sup>*</sup>
+</xref></contrib><contrib id="ijc31916-cr-0003" contrib-type="author"><name name-style="western"><surname>Ranjan</surname><given-names initials="M">Malika</given-names></name><xref ref-type="aff" rid="ijc31916-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="ijc31916-cr-0004" contrib-type="author"><name name-style="western"><surname>Joshi</surname><given-names initials="A">Asim</given-names></name><xref ref-type="aff" rid="ijc31916-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="ijc31916-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="ijc31916-cr-0005" contrib-type="author"><name name-style="western"><surname>Gardi</surname><given-names initials="N">Nilesh</given-names></name><xref ref-type="aff" rid="ijc31916-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="ijc31916-cr-0006" contrib-type="author"><name name-style="western"><surname>Prasad</surname><given-names initials="R">Ratnam</given-names></name><xref ref-type="aff" rid="ijc31916-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="ijc31916-cr-0007" contrib-type="author"><name name-style="western"><surname>Dharavath</surname><given-names initials="B">Bhasker</given-names></name><xref ref-type="aff" rid="ijc31916-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="ijc31916-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="ijc31916-cr-0008" contrib-type="author"><name name-style="western"><surname>Thorat</surname><given-names initials="R">Rahul</given-names></name><xref ref-type="aff" rid="ijc31916-aff-0004">
+<sup>4</sup>
+</xref></contrib><contrib id="ijc31916-cr-0009" contrib-type="author"><name name-style="western"><surname>Salunkhe</surname><given-names initials="S">Sameer</given-names></name><xref ref-type="aff" rid="ijc31916-aff-0002">
+<sup>2</sup>
+</xref><xref ref-type="aff" rid="ijc31916-aff-0005">
+<sup>5</sup>
+</xref></contrib><contrib id="ijc31916-cr-0010" contrib-type="author"><name name-style="western"><surname>Sahoo</surname><given-names initials="B">Bikram</given-names></name><xref ref-type="aff" rid="ijc31916-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="ijc31916-cr-0011" contrib-type="author"><name name-style="western"><surname>Chandrani</surname><given-names initials="P">Pratik</given-names></name><xref ref-type="aff" rid="ijc31916-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="ijc31916-cr-0012" contrib-type="author"><name name-style="western"><surname>Kore</surname><given-names initials="H">Hitesh</given-names></name><xref ref-type="aff" rid="ijc31916-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="ijc31916-cr-0013" contrib-type="author"><name name-style="western"><surname>Mohanty</surname><given-names initials="B">Bhabani</given-names></name><xref ref-type="aff" rid="ijc31916-aff-0006">
+<sup>6</sup>
+</xref></contrib><contrib id="ijc31916-cr-0014" contrib-type="author"><name name-style="western"><surname>Chaudhari</surname><given-names initials="V">Vikram</given-names></name><xref ref-type="aff" rid="ijc31916-aff-0003">
+<sup>3</sup>
+</xref></contrib><contrib id="ijc31916-cr-0015" contrib-type="author"><name name-style="western"><surname>Choughule</surname><given-names initials="A">Anuradha</given-names></name><xref ref-type="aff" rid="ijc31916-aff-0007">
+<sup>7</sup>
+</xref></contrib><contrib id="ijc31916-cr-0016" contrib-type="author"><name name-style="western"><surname>Kawle</surname><given-names initials="D">Dhananjay</given-names></name><xref ref-type="aff" rid="ijc31916-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="ijc31916-cr-0017" contrib-type="author"><name name-style="western"><surname>Chaudhari</surname><given-names initials="P">Pradip</given-names></name><xref ref-type="aff" rid="ijc31916-aff-0006">
+<sup>6</sup>
+</xref></contrib><contrib id="ijc31916-cr-0018" contrib-type="author"><name name-style="western"><surname>Ingle</surname><given-names initials="A">Arvind</given-names></name><xref ref-type="aff" rid="ijc31916-aff-0004">
+<sup>4</sup>
+</xref></contrib><contrib id="ijc31916-cr-0019" contrib-type="author"><name name-style="western"><surname>Banavali</surname><given-names initials="S">Shripad</given-names></name><xref ref-type="aff" rid="ijc31916-aff-0002">
+<sup>2</sup>
+</xref><xref ref-type="aff" rid="ijc31916-aff-0007">
+<sup>7</sup>
+</xref></contrib><contrib id="ijc31916-cr-0020" contrib-type="author"><name name-style="western"><surname>Gera</surname><given-names initials="P">Poonam</given-names></name><xref ref-type="aff" rid="ijc31916-aff-0008">
+<sup>8</sup>
+</xref></contrib><contrib id="ijc31916-cr-0021" contrib-type="author"><name name-style="western"><surname>Ramadwar</surname><given-names initials="MR">Mukta R.</given-names></name><xref ref-type="aff" rid="ijc31916-aff-0002">
+<sup>2</sup>
+</xref><xref ref-type="aff" rid="ijc31916-aff-0009">
+<sup>9</sup>
+</xref></contrib><contrib id="ijc31916-cr-0022" contrib-type="author"><name name-style="western"><surname>Prabhash</surname><given-names initials="K">Kumar</given-names></name><xref ref-type="aff" rid="ijc31916-aff-0002">
+<sup>2</sup>
+</xref><xref ref-type="aff" rid="ijc31916-aff-0007">
+<sup>7</sup>
+</xref></contrib><contrib id="ijc31916-cr-0023" contrib-type="author"><name name-style="western"><surname>Barreto</surname><given-names initials="SG">Savio George</given-names></name><xref ref-type="aff" rid="ijc31916-aff-0003">
+<sup>3</sup>
+</xref></contrib><contrib id="ijc31916-cr-0024" contrib-type="author"><name name-style="western"><surname>Dutt</surname><given-names initials="S">Shilpee</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-4217-5127</contrib-id><xref ref-type="aff" rid="ijc31916-aff-0002">
+<sup>2</sup>
+</xref><xref ref-type="aff" rid="ijc31916-aff-0005">
+<sup>5</sup>
+</xref></contrib><contrib id="ijc31916-cr-0025" contrib-type="author" corresp="yes"><name name-style="western"><surname>Dutt</surname><given-names initials="A">Amit</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-1119-4774</contrib-id><xref ref-type="aff" rid="ijc31916-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="ijc31916-aff-0002">
+<sup>2</sup>
+</xref><address><email>adutt@actrec.gov.in</email></address></contrib></contrib-group><aff id="ijc31916-aff-0001">
+<label><sup>1</sup></label>
+<named-content content-type="organisation-division">Integrated Cancer Genomics Laboratory</named-content>
+<institution>Advanced Centre for Treatment Research Education in Cancer (ACTREC), Tata Memorial Centre</institution>
+<city>Navi Mumbai</city>
+<named-content content-type="country-part">Maharashtra</named-content>
+<country country="IN">India</country>
+</aff><aff id="ijc31916-aff-0002">
+<label><sup>2</sup></label>
+<institution>Homi Bhabha National Institute</institution>
+<city>Mumbai</city>
+<named-content content-type="country-part">Maharashtra</named-content>
+<country country="IN">India</country>
+</aff><aff id="ijc31916-aff-0003">
+<label><sup>3</sup></label>
+<named-content content-type="organisation-division">Department of Gastrointestinal and Hepato‐Pancreato‐Biliary Surgical Oncology</named-content>
+<institution>Tata Memorial Centre, Ernest Borges Marg</institution>
+<city>Mumbai</city>
+<named-content content-type="country-part">Maharashtra</named-content>
+<country country="IN">India</country>
+</aff><aff id="ijc31916-aff-0004">
+<label><sup>4</sup></label>
+<named-content content-type="organisation-division">Laboratory Animal Facility</named-content>
+<institution>Advanced Centre for Treatment, Research and Education in Cancer, Tata Memorial Centre</institution>
+<city>Navi Mumbai</city>
+<named-content content-type="country-part">Maharashtra</named-content>
+<country country="IN">India</country>
+</aff><aff id="ijc31916-aff-0005">
+<label><sup>5</sup></label>
+<named-content content-type="organisation-division">Shilpee laboratory</named-content>
+<institution>Advanced Centre for Treatment Research Education In Cancer (ACTREC), Tata Memorial Centre</institution>
+<city>Navi Mumbai</city>
+<named-content content-type="country-part">Maharashtra</named-content>
+<country country="IN">India</country>
+</aff><aff id="ijc31916-aff-0006">
+<label><sup>6</sup></label>
+<named-content content-type="organisation-division">Small Animal Imaging facility</named-content>
+<institution>Advanced Centre for Treatment Research Education In Cancer (ACTREC), Tata Memorial Centre</institution>
+<city>Navi Mumbai</city>
+<named-content content-type="country-part">Maharashtra</named-content>
+<country country="IN">India</country>
+</aff><aff id="ijc31916-aff-0007">
+<label><sup>7</sup></label>
+<named-content content-type="organisation-division">Department of Medical Oncology</named-content>
+<institution>Tata Memorial Centre, Ernest Borges Marg</institution>
+<city>Mumbai</city>
+<named-content content-type="country-part">Maharashtra</named-content>
+<country country="IN">India</country>
+</aff><aff id="ijc31916-aff-0008">
+<label><sup>8</sup></label>
+<named-content content-type="organisation-division">Tissue Biorepository</named-content>
+<institution>Advanced Centre for Treatment Research and Education in Cancer (ACTREC), Tata Memorial Centre</institution>
+<city>Navi Mumbai</city>
+<named-content content-type="country-part">Maharashtra</named-content>
+<country country="IN">India</country>
+</aff><aff id="ijc31916-aff-0009">
+<label><sup>9</sup></label>
+<named-content content-type="organisation-division">Department of Pathology</named-content>
+<institution>Tata Memorial Centre, Ernest Borges Marg</institution>
+<city>Mumbai</city>
+<named-content content-type="country-part">Maharashtra</named-content>
+<country country="IN">India</country>
+</aff><author-notes><corresp id="correspondenceTo"><label>*</label><bold>Correspondence to:</bold> Amit Dutt, PhD, Principal Investigator/Scientist F, Wellcome Trust/ DBT India Alliance Intermediate Fellow, Tata Memorial Centre, ACTREC, Navi Mumbai, 410 210 India, E‐mail: <email>adutt@actrec.gov.in</email>; Tel.: +91‐22‐30435056</corresp><fn id="ijc31916-note-0001"><label>*</label><p>P.I. and S.V.S. contributed equally to this work</p></fn></author-notes><pub-date pub-type="epub"><day>08</day><month>12</month><year>2018</year></pub-date><pub-date pub-type="ppub"><day>15</day><month>4</month><year>2019</year></pub-date><volume>144</volume><issue>8</issue><issue-id pub-id-type="pmc-issue-id">345513</issue-id><issue-id pub-id-type="doi">10.1002/ijc.v144.8</issue-id><fpage>2008</fpage><lpage>2019</lpage><history><date date-type="received"><day>23</day><month>9</month><year>2018</year></date><date date-type="accepted"><day>27</day><month>9</month><year>2018</year></date></history><pub-history><event event-type="pmc-release"><date><day>12</day><month>11</month><year>2019</year></date></event><event event-type="pmc-live"><date><day>15</day><month>04</month><year>2019</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-04-22 09:00:00.000"><day>22</day><month>04</month><year>2026</year></date></event><event event-type="pmc-version" specific-use="live"><article-id pub-id-type="pmcaiid">6378102</article-id><article-id pub-id-type="doi">10.1002/ijc.31916</article-id><article-id pub-id-type="manuscript-id">EMS80129</article-id><article-version>1</article-version><pub-date><day>08</day><month>12</month><year>2018</year></pub-date></event><event event-type="pmc-version" specific-use="live"><article-id pub-id-type="pmcaiid">6849703</article-id><article-id pub-id-type="doi">10.1002/ijc.31916</article-id><article-version>2</article-version><pub-date><day>08</day><month>12</month><year>2018</year></pub-date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2018 The Authors. International Journal of Cancer published by John Wiley &amp; Sons Ltd on behalf of UICC.</copyright-statement><license license-type="creativeCommonsBy"><ns0:license_ref specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ns0:license_ref><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" ns1:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pmc-pdf" ns1:href="IJC-144-2008.pdf" /><self-uri content-type="pdf" ns1:href="file:IJC-144-2008.pdf" /><abstract><p>The uncommonness of gallbladder cancer in the developed world has contributed to the generally poor understanding of the disease. Our integrated analysis of whole exome sequencing, copy number alterations, immunohistochemical, and phospho‐proteome array profiling indicates <italic toggle="yes">ERBB2</italic> alterations in 40% early‐stage rare gallbladder tumors, among an ethnically distinct population not studied before, that occurs through overexpression in 24% (<italic toggle="yes">n</italic> = 25) and recurrent mutations in 14% tumors (<italic toggle="yes">n</italic> = 44); along with co‐occurring <italic toggle="yes">KRAS</italic> mutation in 7% tumors (<italic toggle="yes">n</italic> = 44). We demonstrate that ERBB2 heterodimerizes with EGFR to constitutively activate the ErbB signaling pathway in gallbladder cells. Consistent with this, treatment with <italic toggle="yes">ERBB2</italic>‐specific, <italic toggle="yes">EGFR</italic>‐specific shRNA or with a covalent EGFR family inhibitor Afatinib inhibits tumor‐associated characteristics of the gallbladder cancer cells. Furthermore, we observe an <italic toggle="yes">in vivo</italic> reduction in tumor size of gallbladder xenografts in response to Afatinib is paralleled by a reduction in the amounts of phospho‐ERK, in tumors harboring <italic toggle="yes">KRAS</italic> (G13D) mutation but not in <italic toggle="yes">KRAS</italic> (G12V) mutation, supporting an essential role of the ErbB pathway. In overall, besides implicating <italic toggle="yes">ERBB2</italic> as an important therapeutic target under neo‐adjuvant or adjuvant settings, we present the first evidence that the presence of <italic toggle="yes">KRAS</italic> mutations may preclude gallbladder cancer patients to respond to anti‐EGFR treatment, similar to a clinical algorithm commonly practiced to opt for anti‐EGFR treatment in colorectal cancer.</p></abstract><abstract abstract-type="short"><p>
+<bold>What's new?</bold>
+</p><p>This study presents the first genomic landscape of early‐stage gallbladder cancer among an understudied ethnic population. Besides suggesting anti‐EGFR therapy as a therapeutic option based on ERBB2 alteration, the evidence suggests that presence of KRAS (G12V) but not KRAS (G13D) mutation may impede treatment response. The findings could potentially lead to early adoption of a clinical algorithm to treat gallbladder cancer patients under neo‐adjuvant or adjuvant settings similar to the one commonly used for anti‐EGFR treatment in colorectal cancer. Furthermore, the findings rationalize inclusion of gallbladder patients under genomically matched basket clinical trials such as the NCI‐Molecular Analysis for Therapy Choice.</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="ijc31916-kwd-0001">gallbladder cancer</kwd><kwd id="ijc31916-kwd-0002">whole exome sequencing</kwd><kwd id="ijc31916-kwd-0003">ErbB pathway</kwd><kwd id="ijc31916-kwd-0004">KRAS mutation</kwd><kwd id="ijc31916-kwd-0005">targeted therapy</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>Wellcome Trust/DBT India Alliance</funding-source><award-id>IA/I/11/2500278</award-id></award-group></funding-group><counts><fig-count count="4" /><table-count count="0" /><page-count count="12" /><word-count count="9294" /></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>15 April 2019</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:5.7.1 mode:remove_FC converted:12.11.2019</meta-value></custom-meta></custom-meta-group></article-meta><notes><fn-group id="ijc31916-ntgp-0001"><fn id="ijc31916-note-0002"><p>
+<bold>Conflict of interest:</bold> The authors declare no potential conflict of interest exists.</p></fn><fn id="ijc31916-note-1002"><p>[Correction added on October 3, 2019 after first online publication: copyright statement updated.]</p></fn></fn-group></notes></front><body id="ijc31916-body-0001"><def-list list-content="abbreviations" id="ijc31916-lp-0001"><title>Abbreviations</title><def-item><term id="ijc31916-li-0001">BCA</term><def id="ijc31916-li-0002"><p>Bicinchoninic acid assay</p></def></def-item><def-item><term id="ijc31916-li-0003">NCI‐MATCH</term><def id="ijc31916-li-0004"><p>NCI‐Molecular Analysis for Therapy Choice</p></def></def-item><def-item><term id="ijc31916-li-0005">PET‐CT</term><def id="ijc31916-li-0006"><p>Positron Emission Tomography‐Computed Tomography</p></def></def-item><def-item><term id="ijc31916-li-0007">RTK</term><def id="ijc31916-li-0008"><p>Receptor tyrosine kinases</p></def></def-item><def-item><term id="ijc31916-li-0009">SGOL</term><def id="ijc31916-li-0010"><p>Segment‐of‐Gain‐Or‐Loss</p></def></def-item><def-item><term id="ijc31916-li-0011">SPSS</term><def id="ijc31916-li-0012"><p>Statistical Package for Social Sciences</p></def></def-item><def-item><term id="ijc31916-li-0013">TKI</term><def id="ijc31916-li-0014"><p>Tyrosine Kinase Inhibitors</p></def></def-item><def-item><term id="ijc31916-li-0015">TMH‐TTR</term><def id="ijc31916-li-0016"><p>Tumor Tissue repository of Tata Memorial Hospital</p></def></def-item></def-list><sec id="ijc31916-sec-0001"><title>Introduction</title><p>Genomically matched therapies targeting activated tyrosine kinases have shown promise across multiple cancer types.<xref rid="ijc31916-bib-0001" ref-type="ref">1</xref> The success of tyrosine kinase inhibitors (TKIs) such as imatinib, a BCR‐ABL fusion protein inhibitor<xref rid="ijc31916-bib-0002" ref-type="ref">2</xref>; vemurafenib, a RAF inhibitor<xref rid="ijc31916-bib-0003" ref-type="ref">3</xref>; lapatinib, an inhibitor of ERBB2<xref rid="ijc31916-bib-0004" ref-type="ref">4</xref>; erlotinib and crizotinib, inhibitors of EGFR and ALK, respectively<xref rid="ijc31916-bib-0005" ref-type="ref">5</xref>, <xref rid="ijc31916-bib-0006" ref-type="ref">6</xref>; and, others have provided a powerful validation for precision cancer medicine. Although these treatments offer great promise, selective genomic profiling of tumors tends to impede broader implementation of genome‐based cancer care.<xref rid="ijc31916-bib-0007" ref-type="ref">7</xref> For example, an inadequacy to account for multiple relevant genetic alterations likely resulted in comparable outcomes in a recently performed randomized trial where multiple cancer type patients were profiled for selected driver alterations and randomized to receive genomically‐matched <italic toggle="yes">versus</italic> conventional therapy.<xref rid="ijc31916-bib-0008" ref-type="ref">8</xref> Such important clinical studies underscore the need for convergence of information for multiple genetic alterations to ensure the success of future clinical trial designs, with specific emphasis for consideration of co‐occurring alterations that could potentially render tumors unlikely to benefit from genomically‐matched treatments. Some prototypical examples include <italic toggle="yes">KRAS</italic>, <italic toggle="yes">NRAS</italic>, and <italic toggle="yes">BRAF</italic> mutations in colorectal cancers or secondary <italic toggle="yes">EGFR</italic> mutations in lung cancer against anti‐ EGFR targeted therapies.<xref rid="ijc31916-bib-0009" ref-type="ref">9</xref>
+</p><p>The EGFR family of receptor tyrosine kinases (RTK) consists of <italic toggle="yes">EGFR</italic>, <italic toggle="yes">HER2</italic>, <italic toggle="yes">HER3</italic> and <italic toggle="yes">HER4</italic> (human EGFR‐related‐ 2, −3, and − 4). A ligand‐bound EGFR family member forms a homo‐ or hetero‐dimer to activate the PI3K‐AKT–mTOR or RAS–RAF‐MAPK downstream signaling pathway to evade apoptosis and enhance cell proliferation.<xref rid="ijc31916-bib-0010" ref-type="ref">10</xref> Interestingly, of all EGFR family members, HER2 lacks a ligand binding domain and forms preferred partner for other members to heterodimerize even in the absence of ligand.<xref rid="ijc31916-bib-0011" ref-type="ref">11</xref> Deregulation of EGFR family RTK‐signaling network endows tumor cells with attributes to sustain their malignant behavior and survival, as is frequently observed in breast cancer, lung cancer, pancreatic cancer, head and neck cancer and colorectal cancer.<xref rid="ijc31916-bib-0012" ref-type="ref">12</xref> Interfering with the EGFR pathway thus forms the basis for the development of targeted anticancer therapies such as RTK‐targeted antibodies (Cetuximab and Herceptin) and small‐molecule inhibitors of RTK kinase (Erlotinib, Lapatinib, Afatinib, etc.) that have shown a dramatic clinical response.<xref rid="ijc31916-bib-0012" ref-type="ref">12</xref> In such responses, however, the co‐occurrence of a <italic toggle="yes">KRAS</italic> mutation – a downstream component of the pathway‐‐ preclude patients from anti‐EGFR treatment in colorectal cancer, wherein <italic toggle="yes">KRAS</italic> codon 12, but not codon 13 mutations are associated with poor outcomes,<xref rid="ijc31916-bib-0013" ref-type="ref">13</xref> underscoring their prognostic impact.</p><p>Gallbladder cancer, the most common malignancy of biliary tract, is a rare form of cancer in the world where chemotherapy and other palliative treatments have little effect on the overall survival of patients.<xref rid="ijc31916-bib-0014" ref-type="ref">14</xref> The poor understanding of gallbladder cancer due to its uncommonness in the western world but high prevalence in Chile and the Indian subcontinent lends itself to the need for further research.<xref rid="ijc31916-bib-0015" ref-type="ref">15</xref> While the 5‐year survival rate of an early stage T1 gallbladder carcinoma is nearly 100%, it significantly decreases as the disease progresses, with less than 15% for T3/T4 advanced stage tumors.<xref rid="ijc31916-bib-0016" ref-type="ref">16</xref> A hope for longer‐term survival has specifically been promising for an early stage T2 carcinomas with an intermediate 5‐year survival.<xref rid="ijc31916-bib-0017" ref-type="ref">17</xref> Literature suggests <italic toggle="yes">HER2</italic> overexpression in 12–15% of advanced stage gallbladder cancers with a favorable response to HER2 directed therapy.<xref rid="ijc31916-bib-0018" ref-type="ref">18</xref>, <xref rid="ijc31916-bib-0019" ref-type="ref">19</xref> Moreover, few recent studies analyzed whole exome sequence of advanced stage gallbladder tumors with consistent findings.<xref rid="ijc31916-bib-0015" ref-type="ref">15</xref>, <xref rid="ijc31916-bib-0019" ref-type="ref">19</xref>, <xref rid="ijc31916-bib-0020" ref-type="ref">20</xref>, <xref rid="ijc31916-bib-0021" ref-type="ref">21</xref> In order to understand the landscape of somatic alterations among a clinically distinct early staged pT1/pT2 gallbladder cancer patients, we performed whole exome sequencing of 17 early staged tumor‐normal paired gallbladder samples, 5 gallbladder cancer cell lines followed by validation in 27 additional tumor samples. Here, we report novel somatic mutations of <italic toggle="yes">ERBB2</italic> in gallbladder cancer, and its therapeutic implication in the presence and absence of <italic toggle="yes">KRAS</italic> (G12 V) and (G13D) mutations.</p></sec><sec id="ijc31916-sec-0002"><title>Materials and Methods</title><sec id="ijc31916-sec-0003"><title>Patient information</title><p>A total of 27 fresh frozen samples (10 tumor‐normal paired and 7 orphan tumors) were utilized for whole exome sequencing. An additional set of 27 FFPE samples were utilized as a validation set. Tumor‐normal paired samples were collected at Tata Memorial Hospital and Advanced Centre for Treatment, Research and Education in Cancer (ACTREC), Mumbai. (ACTREC‐TMC) Internal Review Board (IRB) ‐‐IRB Project Number # 104‐‐ approved study protocols. Formalin‐fixed paraffin‐embedded tissue blocks were collected from the tissue repository of Tata memorial hospital (TMH‐TTR) in compliance with the guidelines. These tissues were examined for tumor content and the tumor content was in the range of 40–90%. Patient samples and characteristics are provided in the Supporting Information Table <xref rid="ijc31916-supitem-0001" ref-type="supplementary-material">S1</xref> and <xref rid="ijc31916-supitem-0001" ref-type="supplementary-material">S5</xref>.</p></sec><sec id="ijc31916-sec-0004"><title>Data description</title><p>Whole exome sequence data (150 bp paired end reads) from a rare set of early‐staged 27 fresh frozen gallbladder samples (with tumor content in the range of 40–90%) were generated for our study with coverage of &gt;100×, using Illumina platform, to analyze tumor specific somatic mutations and copy number alterations. Paired‐end raw sequence reads were mapped to human reference genome (build hg19) using BWA v. 0.6.2.<xref rid="ijc31916-bib-0022" ref-type="ref">22</xref> Quality control analysis of bam files were carried out using qualimap (v0.7.1),<xref rid="ijc31916-bib-0023" ref-type="ref">23</xref> followed by base quality score recalibration and indel re‐alignment to call variants from each sample separately using GATK Unified Genotyper (version 2.5–2).<xref rid="ijc31916-bib-0024" ref-type="ref">24</xref> For copy number estimation, the BAM files prepared for variant calling were used using Control‐FREEC.<xref rid="ijc31916-bib-0025" ref-type="ref">25</xref> The read count ratio were converted to copy numbers followed by segmentation using lasso method. Segmented copy number data generated by control‐FREEC was further used for annotation and post‐processing using R programming to infer SGOL score to help rank the region and define cut‐off for downstream analysis. The raw datasets are available from the ArrayExpress database (accession number E‐MTAB‐6619).</p></sec><sec id="ijc31916-sec-0005"><title>DNA extraction</title><p>Genomic DNA was extracted from fresh frozen samples by using Qiagen Blood and Cell culture DNA kit. The extracted DNA yield and quality were assessed using Nanodrop ND2000 (Thermo scientific). The extracted DNA (about 1 μg) from the fresh‐frozen tissue specimens were sent to Genotypic Technology Pvt Ltd, Bangalore for exome sequencing. Genomic DNA from FFPE blocks was extracted using Qiagen QiAmp DNA FFPE Tissue kit as per manufacturer instructions. The extracted DNA yield and quality were assessed using Nanodrop ND2000 (Thermo scientific). These samples were further checked for integrity by PCR amplification of GAPDH (96 bp). These samples were used for extended Sanger validation of identified variants in exome sequencing.</p></sec><sec id="ijc31916-sec-0006"><title>Exome analysis pipeline and somatic mutation calling</title><p>The variant analysis was performed as described previously.<xref rid="ijc31916-bib-0026" ref-type="ref">26</xref>, <xref rid="ijc31916-bib-0027" ref-type="ref">27</xref> MutSigCV v2.0<xref rid="ijc31916-bib-0028" ref-type="ref">28</xref> and IntOgen<xref rid="ijc31916-bib-0029" ref-type="ref">29</xref> were used for identification of the significantly mutated gene and <italic toggle="yes">p</italic> value ≤0.05 was considered as the threshold for significance. The variants were excluded if they were present in exclusively in dbSNP, TMC‐SNPdb or both. Also, we removed variants that were identified in all three databases – COSMIC (v68),<xref rid="ijc31916-bib-0030" ref-type="ref">30</xref> dbSNP (v142)<xref rid="ijc31916-bib-0031" ref-type="ref">31</xref> and TMC‐SNPdb database.<xref rid="ijc31916-bib-0027" ref-type="ref">27</xref> The annotated cancer‐associated variants were annotated using Oncotator (v1.1.6.0)<xref rid="ijc31916-bib-0032" ref-type="ref">32</xref> and restricted our further analysis to only coding variants. Intogen (<ext-link ext-link-type="uri" ns1:href="https://www.intogen.org/search">https://www.intogen.org/search</ext-link>) was used to calculate the significance of frequently mutated gene in our cohort. Since our dataset was inherently not suitable for above tools due to limited number of tumor samples (<italic toggle="yes">n</italic> = 17), we have also performed extensive functional prediction tool based analysis for nonsynonymous variants using nine different tools as described earlier.<xref rid="ijc31916-bib-0026" ref-type="ref">26</xref> Total number of identified somatic substitutions in exome sequencing was extracted from MutSigCV output and was processed to calculate the number and frequency distribution of various transitions and transversions.</p></sec><sec id="ijc31916-sec-0007"><title>Exome sequencing capture, library construction, and sequencing</title><p>Exome capture and sequencing were performed as described previously.<xref rid="ijc31916-bib-0033" ref-type="ref">33</xref> Briefly, Agilent Sure select in‐solution (low‐input capture‐500 ng) were used to capture ~62 Mb region of human genome comprising of ~201,121 exons representing ~20,974 gene sequences, including 5’UTR, 3’UTR, microRNAs and other noncoding RNA. Sequencing was run with 150 bp paired end reads to achieve coverage of 100X and was performed according to Illumina standard protocol.</p></sec><sec id="ijc31916-sec-0008"><title>Copy number analysis from exome sequencing data</title><p>Control‐FREEC<xref rid="ijc31916-bib-0025" ref-type="ref">25</xref> was used for copy number analysis from BAM files of variant calling analysis. Genes with Segments‐of‐Gain‐Or‐Loss (SGOL) score ≥ 4 were defined as amplified genes and ≤ −2 as deleted genes by cghMCR package of R (<ext-link ext-link-type="uri" ns1:href="http://bioconductor.org/packages/release-/bioc/html/cghMCR.html">http://bioconductor.org/packages/release-/bioc/html/cghMCR.html</ext-link>). The validation of somatic copy number changes was performed as described previously.<xref rid="ijc31916-bib-0033" ref-type="ref">33</xref>
+</p></sec><sec id="ijc31916-sec-0009"><title>Cell culture and reagents</title><p>Human GBC cell lines (OCUG1, SNU308, TGBC2TKB, NOZ, and G415) obtained as a kind gift from Dr. Akhilesh Pandey (IOB, Bangalore) were cultured in DMEM media containing 10% FBS, 100 units/mL penicillin, and 100 mg/mL streptomycin and amphotericin. All cell lines were incubated at 37 °C with 5% CO<sub>2</sub>. The cell lines were authenticated by DNA short tandem repeat (STR) profiling using Promega Geneprint 10 system in conjunction with GeneMarker HID software tool. All cell lines were made mycoplasma free if necessary with EZKill Mycoplasma removal reagent (HiMedia).</p></sec><sec id="ijc31916-sec-0010"><title>Soft agar assay</title><p>All experiments were performed in triplicates as described earlier.<xref rid="ijc31916-bib-0034" ref-type="ref">34</xref> Briefly, anchorage‐independent growth was assessed for the knockdown clones of <italic toggle="yes">ERBB2</italic> and <italic toggle="yes">EGFR</italic> along with respective scrambled control. About 1 mL of 2× DMEM supplemented with 20% FBS containing (1 mL of 1.6% agar) to obtain 0.8% agar was added to the six well plate as bottom agar and was allowed to solidify. Next, 5 * 10<sup>3</sup> cells were supplemented with 1 mL of 2X DMEM containing 0.8% agar to obtain 0.4% agar and were added to the bottom agar as top agar. The cells were incubated for 2 weeks at 37 °C and 5% CO2. Colonies were counted under a microscope with a magnification of 10X.</p></sec><sec id="ijc31916-sec-0011"><title>Virus production</title><p>293FT cells were seeded in 6‐well plates 1 day before transfection and each of the lentiviral constructs along with packaging plasmids ‐pPAX helper vector and pVSVG were transfected using Lipofectamine 3,000 reagent (Invitrogen) as per manufacturer's protocol. The viral soup was collected 48 and 72 h post transfection, passed through the 0.45 μM filter and stored at 4 °C. Respective cells for transduction were seeded one day before infection in a six‐well plate and allowed to grow to reach 50–60% confluency. One milliliter of the virus soup (1:1 dilution) and 8 μg/mL of polybrene (Sigma) was added to cells and incubated for 6 h. Cells were selected with puromycin (Sigma) (2 μg/mL) selection for 2 days as further described earlier.<xref rid="ijc31916-bib-0033" ref-type="ref">33</xref>
+</p></sec><sec id="ijc31916-sec-0012"><title>Growth curve</title><p>Growth curve assay was performed on a 24 well plate format with a cell density of 20,000 cells/well. Cell growth was assessed post 48 h and 96 h by counting the cells using a hemocytometer and was recorded. Cell proliferation was calculated as percentage proliferation normalized to scrambled control. All the experiments were performed in triplicates.</p></sec><sec id="ijc31916-sec-0013"><title>MTT assay</title><p>Thousand cells per well were seeded in 96 well plate followed by incubation with the drug for 72 h and six replicate per concentration and subsequently incubated with MTT (0.5 mg/mL) for 4 h and then MTT assay was performed and data was acquired at 570 nm using Microplate reader. Percentage cell viability was calculated against vehicle treated.</p></sec><sec id="ijc31916-sec-0014"><title>Western blotting</title><p>Cells were lysed in RIPA buffer and protein concentration was estimated using BCA (MP Biomedical) method. Fifty micrograms protein was separated on 10% SDS‐PAGE gel, the transfer was verified using Ponceau S (Sigma), transferred to nitrocellulose membrane and blocked in Tris‐buffered saline containing 5% BSA (Sigma) and 0.05% Tween‐20(Sigma). The primary antibody against Total HER2 (sc‐33,684 Dilution 1:500), Total EGFR (1005) (sc‐03 Dilution 1:500), Total ERK2(C‐14) (sc‐ 154 Dilution 1:500) and β‐Actin(I‐19)‐R (sc‐1,616‐R Dilution 1:3000) were obtained from Santa Cruz biotechnology. The primary antibodies Phospho‐HER2 (Tyr1248) (AP0152 Dilution 1:500) from Abclonal and Phospho‐p44/42 (T202/Y204) MAPK (#4370) Dilution 1:1000), Phospho‐<italic toggle="yes">EGFR</italic> (Y1068) (#2234 Dilution 1:500) were obtained from Cell signaling technology respectively. Thiazolyl blue tetrazolium bromide (MTT, TC191) was obtained from Hi‐Media.</p></sec><sec id="ijc31916-sec-0015"><title>Receptor tyrosine kinase proteome array</title><p>The relative amount of 49 tyrosine kinases were evaluated using Proteome Profiler Human Phospho‐ RTK array kit (ARY001B – Proteome Profiler, R&amp;D systems) and the protocols were followed as per manufacturer's recommendation. Briefly, cells were harvested, washed with 1X PBS and lysed after which 400 μg of protein was mixed with a buffer and incubated with preblocked nitrocellulose membrane at 4 °C. Subsequently, the membranes were probed using detection antibodies and probed using streptavidin‐HRP, after which signals were developed using the chemi‐reagents provided with the kit. The Pixel density of each spot in the array in duplicate was quantified using Image J macro‐Protein array analyzer plug in. The average pixel density of the duplicate spots for each of the kinases was subtracted from the negative density and was plotted, as detailed earlier.<xref rid="ijc31916-bib-0035" ref-type="ref">35</xref>
+</p></sec><sec id="ijc31916-sec-0016"><title>Invasion assay</title><p>Invasion ability of the cells was assessed in Transwell system using cell culture inserts for 24 well plates with 8 μm pores (BD Biosciences, NJ). The upper side of the cell culture insert was coated with Matrigel (BD Biosciences, San Jose, CA). GBC cells were seeded at a density of 2 × 10<sup>4</sup> on the upper side of the coated Matrigel in presence of serum free DMEM. Complete DMEM media with 10% FBS was added to the lower side of the insert and were incubated at 37 °C in 5% CO<sub>2</sub> incubator for 12‐14 h. Post incubation the non‐migratory cells on the lower side of the cell culture insert were removed using a cotton swab. The transwell chambers were fixed and stained with 0.1% crystal violet. The invasion ability was estimated by counting the cells that have migrated to the lower side of the cell culture insert. Cells in visual field with a magnification of 20X were counted in each Transwell chamber in triplicates.</p></sec><sec id="ijc31916-sec-0017"><title>Wound healing assay</title><p>Confluent monolayers in 6‐well plate were subjected to scratch with a sterile pipette tip. After this, cells were washed with 1× PBS to remove debris and subsequently incubated with media. Cell migration at the wound surface was measured during a period of 20 h under an inverted microscope. The quantification of cell migration was done using Cell Profiler<xref rid="ijc31916-bib-0036" ref-type="ref">36</xref> wound healing pipeline for three independent wounds in three independent experiments.</p></sec><sec id="ijc31916-sec-0018"><title>Immunohistochemistry</title><p>Immunohistochemical analysis was done using the standard protocol of Vectastatin Universal kit. Briefly, antigen retrieval was performed by incubating the slides in preheated citrate buffer (pH 6) using a pressure cooker for 10 min. The slides were allowed to cool at room temperature before rinsing with TBST (Tris‐Buffered saline‐ Tween 20 (1%). The endogenous peroxidase activity was blocked by incubating the slides in 3% hydrogen peroxide. The slides were blocked by horse serum for 1 h before incubating with the primary antibody (HER2 DAKO A0485, Phospho‐p44/42 (T202/Y204) MAPK #4370, Total ERK2(C‐14) sc‐154) for overnight at 4 °C in moist chamber. Post incubation the slides were rinsed with TBST and incubated with universal secondary antibody (Vectastatin). The chromogenic reaction was performed using 3′‐3′‐ diaminobenzidine chromogen solution for 5 min which results in brown signal. The slides were rinsed in deionized water and counterstained with hemotoxylin. Finally, the slides were dehydrated and mounted with a mounting medium and cover slip.</p></sec><sec id="ijc31916-sec-0019"><title>Coimmunopreciptation assay</title><p>For immunoprecipitation, cells were harvested in NP‐40 lysis buffer (50 mM Tris pH 7.4, 150 mM NaCl, 0.5% NP‐40, 1 mM EDTA along with protease and phosphatase inhibitors), Protein lysate supernatant were combined with the anti‐EGFR antibody and incubated overnight on a rotator at 4 °C. Protein G‐Sepharose beads (50 μL) were added to the cell lysates the next day and were on a rotator at 4 °C for 4 h. The Protein G‐Sepharose beads were isolated by centrifugation at 2000<italic toggle="yes">g</italic> for 2 min. Further, these beads were washed three times with NP‐40 lysis buffer and heated for 10 min at 100 °C in loading buffer. Samples were run on SDS‐PAGE and then probed by immunoblot for HER2.</p></sec><sec id="ijc31916-sec-0020"><title>
+<italic toggle="yes">In vivo</italic> study</title><p>Five‐ to six‐week old female NOD‐SCID mice were injected subcutaneously with 3 × 10<sup>6</sup> cells/mL in 100–200 μL PBS G415 (<italic toggle="yes">N</italic> = 13), NOZ (<italic toggle="yes">N</italic> = 10) and OCUG1(<italic toggle="yes">N</italic> = 10). After injecting the cells, the size of the resulting tumors was determined every third day using calipers. Afatinib inhibitor was administered to the randomized group of mice by oral gavage at 15 mg/kg body weight along with vehicle control (1% Tween 80) for a period of 15 days after the tumor volume has reached between 100 and 150 mm<sup>3</sup>. micro PET‐CT scan was performed at the end of drug treatment. The tumor volume was calculated using the formula – (Width<sup>2</sup> * Length) /2. After 15 days, the mice were euthanized with CO<sub>2</sub>. Tumors were excised and tissues were stored for molecular and histopathological analysis.</p></sec><sec id="ijc31916-sec-0021"><title>Statistical analysis</title><p>Prism software (GraphPad) was used to analyze proliferation and drug sensitivity of cells to inhibitors, and to determine the statistical significance of differences between the groups by applying an unpaired Student's <italic toggle="yes">t</italic> test. <italic toggle="yes">p</italic> Values &lt;0.05 were considered significant. The Kaplan–Meier estimation of patient survival and correlation analysis were assessed using R packages survival (<ext-link ext-link-type="uri" ns1:href="http://cran.r-project.org/package=survival">http://cran.r-project.org/package=survival</ext-link>), and IBM SPSS v20.</p></sec><sec id="ijc31916-sec-0022"><title>Study approval</title><p>The study protocols were approved by ACTREC‐TMC Institutional Review Board, Project #104. The animal study protocols were approved by Institutional Ethics Animal Committee of ACTREC.</p></sec><sec id="ijc31916-sec-0023"><title>Availability of Supporting Information</title><p>The datasets supporting the results of this article are available from the ArrayExpress database (accession number E‐MTAB‐6619).</p></sec></sec><sec id="ijc31916-sec-0024"><title>Results</title><sec id="ijc31916-sec-0025"><title>Integrated genomics and proteomics approach identify aberrant alterations in members of the <italic toggle="yes">EGFR</italic> family in gallbladder cancer</title><p>We performed whole‐exome sequencing on paired tumor and germline DNA samples from 17 patients with gallbladder cancer and 5 gallbladder cancer cell lines (Supporting Information Table <xref rid="ijc31916-supitem-0001" ref-type="supplementary-material">S1</xref> and <xref rid="ijc31916-supitem-0001" ref-type="supplementary-material">S2</xref>). We achieved &gt;100‐fold mean sequence coverage of targeted exonic regions. The average nonsynonymous mutation rate was found to be 7.7 mutations per megabase (Supporting Information Table <xref rid="ijc31916-supitem-0001" ref-type="supplementary-material">S3</xref>), which is significantly higher than as reported for other populations.<xref rid="ijc31916-bib-0037" ref-type="ref">37</xref> The nucleotide mutation pattern was observed to be enriched for C&gt;T transition followed by A&gt;G transition (Supporting Information Fig. <xref rid="ijc31916-supitem-0001" ref-type="supplementary-material">S1</xref>), consistent with previous reports.<xref rid="ijc31916-bib-0037" ref-type="ref">37</xref> A total of 5,060 somatic variants found across 17 tumors consisted of 3,239 missense, 1,449 silent, 131 nonsense, 135 indels and 106 splice site mutations. Somatic mutations in genes previously reported to be altered in gallbladder cancer, including recurrent mutations in <italic toggle="yes">TP53</italic> (35.2%)<italic toggle="yes">, ERBB2, SF3B1, ATM</italic> and <italic toggle="yes">AKAP11</italic> at 17.6% each were found to be mutated at comparable frequencies<xref rid="ijc31916-bib-0019" ref-type="ref">19</xref>, <xref rid="ijc31916-bib-0037" ref-type="ref">37</xref> (Fig. <xref rid="ijc31916-fig-0001" ref-type="fig">1</xref>
+<italic toggle="yes">a</italic> and Supporting Information Table <xref rid="ijc31916-supitem-0001" ref-type="supplementary-material">S3</xref>). For validation of a few <italic toggle="yes">TP53, ERBB2, ERBB3, SMAD4</italic> and <italic toggle="yes">CTNNB1</italic> mutations, sanger‐based sequencing were carried out in a subset of patients (Supporting Information Fig. <xref rid="ijc31916-supitem-0001" ref-type="supplementary-material">S2</xref>). Among set novel alterations, we observed significant somatic mutations in chromatin modifier genes such as <italic toggle="yes">SF3B1</italic>, <italic toggle="yes">ATRX</italic>, <italic toggle="yes">CREBBP</italic> and <italic toggle="yes">EZH2</italic> that are known to play a significant role in other cancer types.<xref rid="ijc31916-bib-0038" ref-type="ref">38</xref> In addition, we found two tumor samples harbored known activating kinase domain mutations in <italic toggle="yes">ERBB2</italic>, (V777L) and (I767M); while two samples harbored <italic toggle="yes">EGFR</italic> (I1005V) and <italic toggle="yes">ERBB3</italic> (R112H) mutation (Supporting Information Table <xref rid="ijc31916-supitem-0001" ref-type="supplementary-material">S4</xref>), as reported earlier.<xref rid="ijc31916-bib-0019" ref-type="ref">19</xref>, <xref rid="ijc31916-bib-0039" ref-type="ref">39</xref> Subsequently, based on directed sequencing of <italic toggle="yes">ERBB2</italic> kinase domain, we identified 5 more samples with <italic toggle="yes">ERBB2</italic> mutations harboring (V777L) mutations in an additional set of 27 gallbladder cancer samples (Fig. <xref rid="ijc31916-fig-0001" ref-type="fig">1</xref>
+<italic toggle="yes">b</italic>). Thus, <italic toggle="yes">ERBB2</italic> (V777L) mutations were mutated with an overall frequency of 13% in 6 of 44 gallbladder cancer patients. Additionally, immunohistochemical staining of ERBB2 protein was positive (2 or 3+ intensity) in 24% primary tumors (6 of 25), where adequate tissues were available (Fig. <xref rid="ijc31916-fig-0001" ref-type="fig">1</xref>
+<italic toggle="yes">d</italic>; Supporting Information Figure <xref rid="ijc31916-supitem-0001" ref-type="supplementary-material">S5</xref>; and, Table <xref rid="ijc31916-supitem-0001" ref-type="supplementary-material">S6</xref>). In overall, similar to breast cancer, somatic <italic toggle="yes">ERBB2</italic> alterations occur in 40% gallbladder samples (10 of 25) either through mutations or over expression.<xref rid="ijc31916-bib-0039" ref-type="ref">39</xref>, <xref rid="ijc31916-bib-0040" ref-type="ref">40</xref> Interestingly, copy number analysis using cghMCR software identified <italic toggle="yes">EGFR</italic> amplification with a highest Segment Gain Or Loss (SGOL) score of 18 (Fig. <xref rid="ijc31916-fig-0001" ref-type="fig">1</xref>
+<italic toggle="yes">a</italic>), as reported earlier.<xref rid="ijc31916-bib-0018" ref-type="ref">18</xref> Genomic amplifications were also observed at loci harboring <italic toggle="yes">CDK4, MDM4, CCND1, CCNE1, MYC, STK11</italic> and <italic toggle="yes">BRD3,</italic> and deletions in <italic toggle="yes">FHIT</italic>, <italic toggle="yes">SMAD4</italic>, <italic toggle="yes">TRIM33</italic> and <italic toggle="yes">APC</italic>.</p><fig fig-type="Figure" xml:lang="en" id="ijc31916-fig-0001" orientation="portrait" position="float"><label>Figure 1</label><caption><p>Integrated genomic and proteomic analysis of gallbladder cancer<bold>.</bold> (<italic toggle="yes">a</italic>) The heat map represents somatic mutation landscape in gallbladder cancer patients (<italic toggle="yes">n</italic> = 17) and primary tumor derived cancer cell lines (<italic toggle="yes">n</italic> = 5) using whole exome sequencing. Clinicopathological features such as gender, gallstones, tumor location and liver involvement are shown. The gray solid boxes denote females, presence of gallstone, tumor location (neck) and positive for liver involvement. The white box denotes males, absence of gallstones, tumor location (body) and negative for liver involvement. The genes are arranged in decreasing order of their frequency. Black solid box indicates the presence of mutation in the heatmap. Mutation frequencies of the genes mentioned are shown in our study, COSMIC‐GBC and Li <italic toggle="yes">et al</italic>. study. The transition to transversion ratio is shown in percentage for each patient indicated by different shades (Black denotes transversion and gray denotes transition). Somatic mutation rate/30 Mb is derived from whole exome sequencing data is indicated by white line. Overall copy number changes derived from whole exome sequencing data. The horizontal‐axis is represented by a score of segment gain or segment loss (SGOL score) while the vertical‐axis represents the chromosomal positions. Copy number gain is indicated by red with positive SGOL score while copy number loss is indicated by blue with a negative SGOL score. Representative cancer‐associated genes are annotated in their respective amplified/deleted regions. (<italic toggle="yes">b</italic>) Schematic representation of <italic toggle="yes">ERBB</italic> family mutation validation by Sanger sequencing in an additional set of 27 samples. Solid box indicate presence for mutation in the respective samples, white boxes indicates no event. (<italic toggle="yes">c</italic>) RTK array analysis of gallbladder cancer cells (OCUG1, TGBC2TKB, G415, and NOZ) for 10 min exposure of blot is shown. Each RTK is spotted in duplicate and the pair of dots in each corner of the membrane corresponds to positive and negative control. Tyrosine phosphorylation of EGFR (ERBB1) and ERBB2 were observed consistently, indicated by arrow. D) Immunohistochemistry was performed for ERBB2 expression in tumor samples (<italic toggle="yes">n</italic> = 25). Representative images of IHC stained photomicrographs from tumor and normal samples are shown. Brown color indicates positive expression. The corresponding H/E images are indicated in the upper panel. Below table indicates the quantification of ERBB2 immunostaining data. [Color figure can be viewed at <ext-link ext-link-type="uri" ns1:href="http://wileyonlinelibrary.com">http://wileyonlinelibrary.com</ext-link>]</p></caption><graphic id="nlm-graphic-1" position="float" orientation="portrait" ns1:href="IJC-144-2008-g001.jpg" /></fig><p>Next, to correlate differential activation of signaling molecules with their genomic alterations, we performed phospho‐proteomic profile of four gallbladder cell lines for 49 receptor tyrosine kinases using a phospho‐RTK array. Consistent with whole exome findings, we observed varying levels of EGFR and ERBB2 constitutive phosphorylation in all gallbladder cancer cell lines based on their phospho‐proteome (Fig. <xref rid="ijc31916-fig-0001" ref-type="fig">1</xref>
+<italic toggle="yes">c</italic>) and follow up validation by western blot analysis (Supporting Information Fig. <xref rid="ijc31916-supitem-0001" ref-type="supplementary-material">S3</xref>A). Interestingly, the whole exome data analysis and Sanger sequencing based validation also revealed that gallbladder patient and a primary tumor derived NOZ cells harbor <italic toggle="yes">KRAS</italic> (G12V) mutation; the G415 gallbladder cells harbor <italic toggle="yes">KRAS</italic> (G13D) mutant allele; while the OCUG1 and SNU308 gallbladder cells were wild type for <italic toggle="yes">KRAS</italic> (Fig. <xref rid="ijc31916-fig-0001" ref-type="fig">1</xref>
+<italic toggle="yes">b</italic>; Supporting Information Figure <xref rid="ijc31916-supitem-0001" ref-type="supplementary-material">S2</xref>). These four cell lines thus represent diverse gallbladder cancer sub‐classes based on their <italic toggle="yes">KRAS</italic> mutant allele status.<xref rid="ijc31916-bib-0037" ref-type="ref">37</xref> Of note, <italic toggle="yes">KRAS</italic> mutations are known to predict plural clinical outcome in response to EGFR inhibitors in colorectal and lung cancer along with other mutations (Supporting Information Table <xref rid="ijc31916-supitem-0001" ref-type="supplementary-material">S4</xref>).<xref rid="ijc31916-bib-0041" ref-type="ref">41</xref>, <xref rid="ijc31916-bib-0042" ref-type="ref">42</xref>
+</p></sec><sec id="ijc31916-sec-0026"><title>
+<italic toggle="yes">ERBB2</italic> and <italic toggle="yes">EGFR</italic> are essential for gallbladder cancer cells not harboring <italic toggle="yes">KRAS G12 V</italic> mutant allele</title><p>To determine the significance of <italic toggle="yes">EGFR</italic> and <italic toggle="yes">ERBB2</italic> constitutive phosphorylation and <italic toggle="yes">KRAS</italic> mutant alleles in gallbladder cancer cells, we set out to establish whether expression of <italic toggle="yes">ERBB2</italic> is required for gallbladder tumor cell survival. We tested a series of five shRNA constructs in three gallbladder tumor cell lines expressing <italic toggle="yes">ERBB2</italic> with wild type <italic toggle="yes">KRAS</italic> in OCUG1 cells, along with G415 and NOZ cells harboring the <italic toggle="yes">KRAS</italic> (G13D) and <italic toggle="yes">KRAS</italic> (G12V) mutant alleles, respectively. We identified three shRNA constructs that efficiently knocked down expression of <italic toggle="yes">ERBB2</italic> and inhibited the constitutive phosphorylation of MAPK in OCUG1 and G415 cells but not in NOZ cells (Fig. <xref rid="ijc31916-fig-0002" ref-type="fig">2</xref>
+<italic toggle="yes">a</italic>), consistent with drug sensitive outcome described in colorectal cancer wherein cells harboring wild type <italic toggle="yes">KRAS</italic> or mutant <italic toggle="yes">KRAS</italic> (G13D) allele are sensitive to <italic toggle="yes">EGFR</italic> inhibitor but not those harboring mutant <italic toggle="yes">KRAS</italic> (G12V) mutant allele.<xref rid="ijc31916-bib-0043" ref-type="ref">43</xref> This suggests that <italic toggle="yes">KRAS</italic> (G13D) but not <italic toggle="yes">KRAS</italic> (G12V) still requires upstream <italic toggle="yes">EGFR</italic> signaling in gallbladder cancer cells, similar to as established in colorectal cancer.<xref rid="ijc31916-bib-0044" ref-type="ref">44</xref> Next, we used these cells to demonstrate that knockdown of <italic toggle="yes">ERBB2</italic> inhibited anchorage‐independent growth, cell survival, cell invasion and migration efficiently in OCUG1 and G415 cells but not in NOZ cells (Figs. <xref rid="ijc31916-fig-0002" ref-type="fig">2</xref>
+<italic toggle="yes">b</italic>–<xref rid="ijc31916-fig-0002" ref-type="fig">2</xref>e). Furthermore, unlike other <italic toggle="yes">EGFR</italic> family members, <italic toggle="yes">ERBB2</italic> does not require ligand binding for dimerization but can be activated by heterodimerization,<xref rid="ijc31916-bib-0045" ref-type="ref">45</xref> we asked if <italic toggle="yes">EGFR</italic> mediates the activation of downstream signaling pathways. We performed coimmunoprecipitation of <italic toggle="yes">EGFR</italic> and <italic toggle="yes">ERBB2</italic> to establish that <italic toggle="yes">ERBB2</italic> interacts with <italic toggle="yes">EGFR</italic> in gallbladder cells (Supporting Information Fig. <xref rid="ijc31916-supitem-0001" ref-type="supplementary-material">S3</xref>B), possibly similar to <italic toggle="yes">ERBB3</italic> as shown earlier in gallbladder cells.<xref rid="ijc31916-bib-0037" ref-type="ref">37</xref> Moreover to test if <italic toggle="yes">ERBB2</italic> requires <italic toggle="yes">EGFR</italic> also for sustained signaling and transforming potential, we knocked down the expression of <italic toggle="yes">EGFR</italic> in OCUG1 and G415 cells. The knockdown of <italic toggle="yes">EGFR</italic> inhibited anchorage‐independent growth, cell survival, cell invasion and migration in OCUG1 but not in G415 cells, similar to <italic toggle="yes">ERBB2</italic> knockdown (Supporting Information Fig. <xref rid="ijc31916-supitem-0001" ref-type="supplementary-material">S4</xref>). Taken together, this suggests that <italic toggle="yes">ERBB2</italic> requires <italic toggle="yes">EGFR</italic> or other members of the family possibly to dimerize for activation, such that down‐regulation of <italic toggle="yes">EGFR</italic> and potentially other members suppress the functionality of <italic toggle="yes">ERBB2,</italic> as has been previously reported in breast cancer.<xref rid="ijc31916-bib-0046" ref-type="ref">46</xref>
+</p><fig fig-type="Figure" xml:lang="en" id="ijc31916-fig-0002" orientation="portrait" position="float"><label>Figure 2</label><caption><p>Knockdown of <italic toggle="yes">ERBB2</italic> expression with shRNA inhibits survival of gallbladder cancer cells that do not harbor <italic toggle="yes">KRAS</italic> (G12V) mutant allele. (<italic toggle="yes">a</italic>) Western blot analysis with 5 shRNA constructs used to knock down ERBB2 expression were packaged into lentivirus and used to infect OCUG1, G415, and NOZ cells. Anti‐ERBB2 immunoblot shows that hairpins 3 and 5 efficiently and consistently knock down endogenous <italic toggle="yes">ERBB2</italic> expression across all cells (A upper panel) with concomitant decrease in downstream signaling as assessed by anti‐phospho‐MAPK immunoblot in OCUG1 and G415 cells but not in NOZ cells that harbor a constitutively active <italic toggle="yes">KRAS</italic> (G12V) mutation (A lower panel). Actin is included as a loading control. Scr, scrambled hairpin and untransfected cells (UT) used as a negative control. Knockdown of <italic toggle="yes">ERBB2</italic> expression with shRNA inhibits; invasion characteristics as assessed by matrigel assay (<italic toggle="yes">b</italic>); anchorage‐independent growth as shown by soft agar assay (<italic toggle="yes">c</italic>) and, migration as assessed by scratch assay (<italic toggle="yes">d</italic>) of OCUG1 (with wild type <italic toggle="yes">KRAS</italic>) and G415 (with <italic toggle="yes">KRAS</italic> (G13D)) cells but not NOZ gallbladder cancer cell lines that harbor an activating <italic toggle="yes">KRAS</italic> (G12V) mutation. The graph on the right panel represents percent inhibition normalized to scrambled (Scr) control cells. Similarly, knockdown of <italic toggle="yes">ERBB2</italic> expression with shRNA inhibits percent growth as determined by MTT assay with bar graph plotted with readings obtained on day 4 relative to day 1 for OCUG1, G415, and NOZ cells (<italic toggle="yes">e</italic>) for each shRNA construct and normalized to scrambled control cells. Representative plates from three independent experiments are presented. Colonies were photographed and quantitated after 2 weeks for soft agar assay (Magnification: ×10); 1 day for invasion; and 20 h for migration assay. *<italic toggle="yes">p</italic> &lt; 0.05. [Color figure can be viewed at <ext-link ext-link-type="uri" ns1:href="http://wileyonlinelibrary.com">http://wileyonlinelibrary.com</ext-link>]</p></caption><graphic id="nlm-graphic-3" position="float" orientation="portrait" ns1:href="IJC-144-2008-g002.jpg" /></fig></sec><sec id="ijc31916-sec-0027"><title>Gallbladder cancer cells not harboring <italic toggle="yes">KRAS</italic> (G12V) mutant allele are sensitive to irreversible <italic toggle="yes">EGFR</italic> inhibitors <italic toggle="yes">in vitro</italic> and <italic toggle="yes">in vivo</italic>
+</title><p>Next, we investigated whether inhibition of kinase activity of EGFR family receptor tyrosine kinases would be effective against gallbladder cancer cell lines. Treatment of the OCUG1 and G415 cells with BIBW‐2992,<xref rid="ijc31916-bib-0047" ref-type="ref">47</xref> but not reversible EGFR inhibitor gefitinib (data not shown), similarly abolished phosphorylation of MAPK in OCUG1 cells, which was constitutively phosphorylated in the untreated gallbladder cell lines compared to the NOZ cells, wherein no significant effect on phospho MAPK levels were observed despite ectopic expression of wild type <italic toggle="yes">ERBB2</italic> or <italic toggle="yes">ERBB3</italic>.<xref rid="ijc31916-bib-0019" ref-type="ref">19</xref> The treatment with BIBW‐2992 also resulted in a marked decrease in migration, invasion, and colony formation ability of OCUG1 and G415 cells, whereas no effect was observed on NOZ cells harboring <italic toggle="yes">KRAS</italic> (G12V) mutant allele (Figs. <xref rid="ijc31916-fig-0003" ref-type="fig">3</xref>
+<italic toggle="yes">a–</italic>
+<xref rid="ijc31916-fig-0003" ref-type="fig">3</xref>
+<italic toggle="yes">d</italic>). Furthermore, when injected subcutaneously into NOD/SCID mice, 13 of 13 mice injected with G415 cells formed tumors ~13 days post injection; 10 of 10 mice injected with NOZ cells ~6 days of post injection; while none of 10 mice injected with OCUG1 cells formed tumors up to 2 months post injection of cells (Supporting Information Table <xref rid="ijc31916-supitem-0001" ref-type="supplementary-material">S9</xref>). When the tumors reached ~100‐150 mm<sup>3</sup>, tumors were treated orally with 15 mg/Kg irreversible EGFR inhibitor Afatinib‐ or vehicle for a period of 15 days. Consistent with <italic toggle="yes">in vitro</italic> data, tumors treated with Afatinib slowed or reversed their growth compared to vehicle in G415 xenografts (<italic toggle="yes">n</italic> = 7) but not in NOZ (<italic toggle="yes">n</italic> = 6) xenografts. The overall effect on tumor burden in vehicle‐treated <italic toggle="yes">versus</italic> Afatinib‐treated mice were 5.7‐folds lower in G415 xenografts, while no significant differences were observed in in NOZ xenografts (Figs. <xref rid="ijc31916-fig-0004" ref-type="fig">4</xref>
+<italic toggle="yes">a</italic> and <xref rid="ijc31916-fig-0004" ref-type="fig">4</xref>
+<italic toggle="yes">b</italic>). This reduction in tumor size in G415 xenografts was paralleled by the reduction in the amounts of phospho‐ERK1/2 by immunohistochemical analyses (Figs. <xref rid="ijc31916-fig-0004" ref-type="fig">4</xref>
+<italic toggle="yes">c–</italic>
+<xref rid="ijc31916-fig-0004" ref-type="fig">4</xref>
+<italic toggle="yes">d</italic>, lower panel) of explanted tumors, further validating our <italic toggle="yes">in vitro</italic> findings (Fig. <xref rid="ijc31916-fig-0003" ref-type="fig">3</xref>
+<italic toggle="yes">a</italic>) and implicating <italic toggle="yes">ERBB2</italic> as an important therapeutic target under neo‐adjuvant or adjuvant settings in treating gallbladder cancer patients.</p><fig fig-type="Figure" xml:lang="en" id="ijc31916-fig-0003" orientation="portrait" position="float"><label>Figure 3</label><caption><p>ERBB2 tyrosine kinase activity is essential for gallbladder cancer cells that do not harbor <italic toggle="yes">KRAS</italic> (G12V) mutant allele. (<italic toggle="yes">a</italic>) Treatment of OCUG1, G415 and NOZ gallbladder cancer cells for 10–12 h with 0–10 μM covalent EGFR inhibitor BIBW‐2992 inhibits both basal and ligand‐induced (5‐min stimulation with 20 ng/ml EGF) EGFR and ERBB2 phosphorylation, as evident from immunoblotting with anti‐phospho antibodies specifically recognizing EGFR (pY1068) and ERBB2 (pY1248). However, EGFR inhibitor BIBW‐2992 inhibits MAPK activation as determined by pMAPK p42/p44 (Thr202/Thr204) antibody, a downstream effector component of EGFR‐ and ERBB2‐ dependent signaling pathways in OCUG1 (with wild type <italic toggle="yes">KRAS</italic>) and G415 (with <italic toggle="yes">KRAS</italic> (G13D)) cells but not in NOZ gallbladder cancer cell lines that harbor an activating <italic toggle="yes">KRAS</italic> (G12V) mutation. Actin was used as a loading control. Treatment with the indicated concentrations of EGFR inhibitor BIBW‐2992 inhibited soft agar colony formation (<italic toggle="yes">b</italic>); invasion (<italic toggle="yes">c</italic>); and, migration (<italic toggle="yes">d</italic>) by the OCUG1, G415 but not NOZ gallbladder cancer cell lines with hyper phosphorylated ERBB2. *<italic toggle="yes">p</italic> &lt; 0.05 <italic toggle="yes">vs</italic>. control. Representative plates from three independent experiments are presented. Colonies were photographed and quantitated after 2 weeks for soft agar assay (Magnification: ×10); 1 day for invasion; and 20 h for migration assay. Quantification of effects of BIBW‐2992 for assays is indicated in the form of bar graph. [Color figure can be viewed at <ext-link ext-link-type="uri" ns1:href="http://wileyonlinelibrary.com">http://wileyonlinelibrary.com</ext-link>]</p></caption><graphic id="nlm-graphic-5" position="float" orientation="portrait" ns1:href="IJC-144-2008-g003.jpg" /></fig><fig fig-type="Figure" xml:lang="en" id="ijc31916-fig-0004" orientation="portrait" position="float"><label>Figure 4</label><caption><p>
+<italic toggle="yes">In vivo</italic> sensitivity of gallbladder cancer cell lines to EGFR inhibitor. (<italic toggle="yes">a</italic>) G415 and NOZ xenografts developed in NOD‐SCID mice were subjected to afatinib (15 mg/kg) or vehicle treatment for a period of 15 days. The plot shows the tumor volume (mm<sup>3</sup>) during the course of drug treatment indicating reduction of tumor volume in afatinib treated G415 xenografts. (<italic toggle="yes">b</italic>) CT scan and PET imaging by F<sup>18</sup>‐FDG uptake is shown for vehicle and afatinib treated xenografts. The gradient color code is shown for uptake of F<sup>18</sup>‐FDG with red indicating maximum uptake (<italic toggle="yes">c</italic>) Immunoblot analysis of phosphorylation of MAPK (pERK1/2, ERK1) is shown for vehicle(−) and afatinib(+) treated xenografts. Actin is used as the loading control. (<italic toggle="yes">d</italic>) Immunohistochemical staining of pERK1/2, ERK1 is shown for vehicle(−) and afatinib(+) treated xenografts. [Color figure can be viewed at <ext-link ext-link-type="uri" ns1:href="http://wileyonlinelibrary.com">http://wileyonlinelibrary.com</ext-link>]</p></caption><graphic id="nlm-graphic-7" position="float" orientation="portrait" ns1:href="IJC-144-2008-g004.jpg" /></fig></sec></sec><sec id="ijc31916-sec-0028"><title>Discussion</title><p>Our study represents the first genomic landscape of an early‐stage gallbladder cancer among an ethnically distinct population that reveals somatic mutations in <italic toggle="yes">TP53, ERBB2, ATM, AKAP11, SMAD4</italic> and <italic toggle="yes">CTNNB1</italic> similar to as reported in advance‐stage gallbladder tumors.<xref rid="ijc31916-bib-0015" ref-type="ref">15</xref>, <xref rid="ijc31916-bib-0019" ref-type="ref">19</xref>, <xref rid="ijc31916-bib-0020" ref-type="ref">20</xref>, <xref rid="ijc31916-bib-0021" ref-type="ref">21</xref> Our mutation pattern analysis revealed an enrichment for C&gt;T transition followed by A&gt;G transition, a signature which suggests an underlying chronic inflammation leading to GC to AT polyclonal transition,<xref rid="ijc31916-bib-0048" ref-type="ref">48</xref> as reported earlier.<xref rid="ijc31916-bib-0049" ref-type="ref">49</xref> We also observed significant somatic mutations in chromatin modifier genes such as <italic toggle="yes">SF3B1</italic>, <italic toggle="yes">ATRX</italic>, <italic toggle="yes">CREBBP</italic> and <italic toggle="yes">EZH2</italic> that have not been reported earlier in gallbladder cancer, indicating potential therapeutic options. Analyzing the potential effects of somatic alterations on survival of gallbladder cancer patients, we observed a trend among patients with wild type <italic toggle="yes">TP53</italic> to survive longer than patients with <italic toggle="yes">TP53</italic> mutations, which is known to predict failure of chemotherapy in several cancer types<xref rid="ijc31916-bib-0050" ref-type="ref">50</xref> and is consistent with previous reports observed in gallbladder cancer.<xref rid="ijc31916-bib-0051" ref-type="ref">51</xref>
+</p><p>Additionally, consistent with a recent report that described alterations in <italic toggle="yes">ERBB2</italic> and <italic toggle="yes">ERBB3</italic> at a frequency of 9.8% and 11.8% respectively among Chinese gallbladder cancer,<xref rid="ijc31916-bib-0019" ref-type="ref">19</xref>, <xref rid="ijc31916-bib-0037" ref-type="ref">37</xref> we found recurrent activating <italic toggle="yes">ERBB2</italic> (V777L) mutation in 6 of 44 gallbladder cancer samples with an overall mutation frequency of 13%, in addition to IHC based over expression across 24% (6 of 25) primary tumors. Taken together, <italic toggle="yes">ERBB2</italic> is altered in 40% gallbladder samples (<italic toggle="yes">n</italic> = 25) either through mutation or over expression. <italic toggle="yes">ERBB2</italic> (V777L) mutation and ERBB2 overexpression has been shown to be sensitive to lapatinib in biliary tract cancer, breast cancer cell lines and other isogenic systems overexpressing the alteration.<xref rid="ijc31916-bib-0018" ref-type="ref">18</xref>, <xref rid="ijc31916-bib-0039" ref-type="ref">39</xref> Functional studies performed using gallbladder cell lines establish that <italic toggle="yes">ERBB2</italic> and <italic toggle="yes">EGFR</italic> are essential for the survival of gallbladder cancer cells. Given that <italic toggle="yes">ERBB2</italic> lacks the ligand binding domain, the coimmunoprecipitation experiments suggest that ERBB2 dimerize with EGFR, and possibly with other members, to constitutively activate the pathway. Interestingly, genetic or pharmacological ablation of <italic toggle="yes">ERBB2</italic> and <italic toggle="yes">EGFR</italic> function, using EGFR small‐molecule irreversible inhibitor BIBW‐2992, diminishes the survival, anchorage‐independent growth, migration and invasion characteristics of gallbladder cancer cell lines, suggesting members of the EGFR family as an effective therapeutic target. Furthermore, while <italic toggle="yes">KRAS</italic> mutations in gallbladder cancer have been reported to occur at a frequency from 3% to 30%,<xref rid="ijc31916-bib-0052" ref-type="ref">52</xref> some co‐occurring with activating <italic toggle="yes">ERBB3</italic> mutation, we observed <italic toggle="yes">KRAS</italic> (G12V) and (G13D) mutation in primary gallbladder tumors and gallbladder cancer cell lines that are known to be associated with differential clinical outcome in response to anti‐<italic toggle="yes">EGFR</italic> therapy in colorectal cancer.<xref rid="ijc31916-bib-0053" ref-type="ref">53</xref>, <xref rid="ijc31916-bib-0054" ref-type="ref">54</xref> The biological characteristics of <italic toggle="yes">KRAS</italic> mutation is known to vary by cancer types as those found in pancreatic and nonsmall cell lung cancers are predominantly at codon 12, while in colorectal and gallbladder mutations appears to be in codon 12 and codon 13.<xref rid="ijc31916-bib-0055" ref-type="ref">55</xref> Moreover, clinical response among patients along with <italic toggle="yes">in vitro</italic> and <italic toggle="yes">in vivo</italic> studies with isogenic colon cell line indicate <italic toggle="yes">KRAS</italic> (G13D) mutation as sensitive but (G12V) as resistant to anti‐<italic toggle="yes">EGFR</italic> therapy suggesting codon 13 mutations are still dependent on inductive upstream <italic toggle="yes">EGFR</italic> signaling and exhibit weaker <italic toggle="yes">in vitro</italic> transforming activity than codon 12 mutations.<xref rid="ijc31916-bib-0053" ref-type="ref">53</xref>
+</p><p>A recent study by Li <italic toggle="yes">et al</italic>. suggested that NOZ gallbladder cancer cells are responsive to ERBB2 inhibitors based on ectopic expression of mutant <italic toggle="yes">ERBB2</italic> constructs.<xref rid="ijc31916-bib-0019" ref-type="ref">19</xref> However, we believe that the evidence presented in our study argues for ERBB2 inhibitors as unlikely to be relevant among gallbladder cancer, such as NOZ tumor cells, that harbor <italic toggle="yes">KRAS G12V</italic> mutation. The wild‐type NOZ cell line, in absence of ectopic expression of mutant <italic toggle="yes">ERBB2,</italic> show endogenous constitutive MAPK phosphorylation, both by the Li <italic toggle="yes">et al</italic>. study<xref rid="ijc31916-bib-0019" ref-type="ref">19</xref> and as presented here (Figs. <xref rid="ijc31916-fig-0002" ref-type="fig">2</xref>
+<italic toggle="yes">a</italic> and <xref rid="ijc31916-fig-0003" ref-type="fig">3</xref>
+<italic toggle="yes">a</italic>); does not show any significant inhibition of MAPK phosphorylation when treated with EGFR inhibitors,<xref rid="ijc31916-bib-0019" ref-type="ref">19</xref> as also presented here (Fig. <xref rid="ijc31916-fig-0003" ref-type="fig">3</xref>
+<italic toggle="yes">a</italic>); and, does not show significant inhibition of cell survival when treated with EGFR inhibitors,<xref rid="ijc31916-bib-0019" ref-type="ref">19</xref> and as presented here (Figs. <xref rid="ijc31916-fig-0003" ref-type="fig">3</xref>
+<italic toggle="yes">b</italic>–<xref rid="ijc31916-fig-0003" ref-type="fig">3</xref>
+<italic toggle="yes">d</italic>). Finally, even the knockdown of <italic toggle="yes">ERBB2</italic> had no impact on MAPK phosphorylation, or on the survival of NOZ cells, suggesting that the wild‐type NOZ cells are refractory to ERBB2 inhibitor due to the <italic toggle="yes">KRAS G12V</italic> mutation (Figs. <xref rid="ijc31916-fig-0002" ref-type="fig">2</xref>a–<xref rid="ijc31916-fig-0002" ref-type="fig">2</xref>
+<italic toggle="yes">e</italic>). An oversight to consider a co‐occurring <italic toggle="yes">KRAS</italic> activating mutation portray an important corollary to a clinical situation that could potentially lead to an inaccurate prognosis if the decision is restricted exclusively based on activating <italic toggle="yes">ERBB2</italic> alteration.</p><p>In summary, besides suggesting adoption of anti‐EGFR therapy as a therapeutic option in early‐stage gallbladder cancer based on <italic toggle="yes">ERBB2</italic> alteration, we present the first evidence that presence of <italic toggle="yes">KRAS</italic> (G12V) but not <italic toggle="yes">KRAS</italic> (G13D) mutation may preclude such patients to respond to the treatment, similar to the clinical algorithm commonly practiced based on <italic toggle="yes">EGFR</italic> alteration in colorectal cancer. As low prevalence rate of the disease, target accrual in clinical trials has been a bottleneck in gallbladder cancer, our study forms the basis to include gallbladder patients for an anti‐EGFR therapy under basket clinical trials such as the NCI–Molecular Analysis for Therapy Choice (NCI‐MATCH) trials that are genomically matched.<xref rid="ijc31916-bib-0056" ref-type="ref">56</xref>
+</p></sec><sec id="ijc31916-sec-4017"><title>Authors contributions</title><p>P.I. and AD designed research. P.I., M.R., P.C., N.G., B.D., S.S., R.P., R.T., B. M., and B.S. performed research. S.G.B., V.C., A.C., M.R.R., P.G., K.P., S.D. and S.V.S. contributed reagents and samples. P.I., M.R., P.C. N.G., A.J., H.K., P. Chau., A.I., and AD analyzed data. P.I. and AD wrote the paper.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material content-type="local-data" id="ijc31916-supitem-0001" position="float" orientation="portrait"><caption><p>
+<bold>Supplementary figure S1. Characteristic features of variants identified from whole exome sequencing data</bold>.</p><p>The distribution of different types of somatic mutations in gallbladder tumors (<bold>A</bold>) and cancer cell lines (<bold>C</bold>) is represented. Each bar represents percentage of each type of mutation identified by Mutect and GATK from whole exome sequencing data. Bar graph representation of specified transitions and transversions resulting in non‐synonymous somatic mutations identified by Mutect and GATK for primary tumors (<bold>B</bold>) and cell line samples (<bold>D</bold>).</p><p>
+<bold>Supplementary Figure S2. Sanger validation of mutations identified by exome sequencing.</bold>
+</p><p>
+<bold>A)</bold> Heat map representation of mutations identified by whole exome sequencing in the discovery set and its validation by directed sequencing in an additional set of 27 primary tumors and 5 gallbladder cell lines. Solid box indicates the samples in which the corresponding mutations are validated by Sanger sequencing and white indicates no event. Gray solid box indicates samples not attempted for Sanger validation.</p><p>
+<bold>B)</bold> Sequencing chromatograms for somatic <italic toggle="yes">ERBB2</italic> and <italic toggle="yes">KRAS</italic> mutations found in the whole experiment. The reverse complement of reverse sequencing reads is displayed by Mutation Surveyor. Two different alleles, marked by overlapping peaks are present in the tumor (T) sample but the normal (N) sample marked with an arrow.</p><p>
+<bold>Supplementary Figure S3: Constitutive phosphorylation and heterodimerization of ERBB2 and EGFR in gallbladder cancer cells.</bold>
+</p><p>
+<bold>A)</bold> Immunoblot analysis of OCUG1, G415 and NOZ gallbladder cancer cells for phosphorylation of HER2 and EGFR is shown. Actin is used as a loading control.</p><p>
+<bold>B</bold>) Equal amount of whole cell lysates(400 μg) were subjected to immunoprecipitation using anti‐EGFR antibody and rabbit isotype antibody IgG. Further, immunoblotting was performed with anti‐HER2 antibody to detect heterodimerization of EGFR‐ERBB2. 10% of whole cell lysate was loaded as a input control.</p><p>
+<bold>Supplementary Figure S4: Knockdown of <italic toggle="yes">EGFR</italic> expression with shRNA inhibits survival of gallbladder cancer cells that do not harbor <italic toggle="yes">KRAS</italic> mutant allele.</bold>
+</p><p>Western blot analysis with a shRNA constructs to knock down <italic toggle="yes">EGFR</italic> expression in OCUG1 and G415 cells. Anti‐EGFR immunoblot shows that hairpins efficiently consistently knock down endogenous EGFR expression with concomitant decrease in MAPK phosphorylation in OCUG1 cells but not in G415 cells that harbor a constitutively active KRAS (G13D) mutation. Actin is included as a loading control. Scr, scrambled hairpin used as a negative control. Knockdown of <italic toggle="yes">EGFR</italic> expression with shRNA inhibits anchorage‐independent growth as shown by soft agar assay (<bold>B</bold>); and, invasion characteristics as assessed by matrigel assay (<bold>C</bold>).</p><p>
+<bold>Supplementary Figure S5: ERBB2 overexpression in gallbladder tumor samples</bold>
+</p><p>Representative images of IHC stained photomicrographs from 4 tumors and 2 normal samples are shown. Brown color indicates positive expression.</p><p>
+<bold>Table S1:</bold> Demographics of the gallbladder primary tumor samples</p><p>
+<bold>Table S2:</bold> Exome sequencing quality control and statistics of primary tumor samples and celllines.</p><p>
+<bold>Table S3:</bold> Statistics of alterations sample‐wise in exome sequencing of primary tumor samples and cell lines</p><p>
+<bold>Table S4:</bold> Total list of alterations in the exome of primary tumor samples</p><p>
+<bold>Table S5:</bold> Clinical characteristics of gallbladder primary tumor cohort</p><p>
+<bold>Table S6:</bold> IHC scores for ERBB2 amplification in gallbladder samples (n = 25)</p><p>
+<bold>Table S7:</bold> Primers for validation of alterations</p><p>
+<bold>Table S8:</bold> STR Profiling of gallbladder cancer cell lines</p><p>
+<bold>Table S9:</bold> Tumor volume of mice during the course of treatment</p></caption><media ns1:href="IJC-144-2008-s001.pdf" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="ijc31916-sec-0029"><title>Acknowledgements</title><p>All members of the Dutt laboratory for critically reviewing the study. Priyanka Bagayatkar and Vaishakhi Trivedi for <italic toggle="yes">KRAS</italic> sequencing. Medgenome Labs Pvt. Ltd for whole exome sequencing services. We thank Dr. Harsha Gowda and Dr. Akhilesh Pandey, IOB Bangalore for sharing the gallbladder cancer cell lines; the BTIS facility, funded by the Department of Biotechnology (DBT), Govt. of India, at ACTREC; and, the in‐house Genomics facility for Sanger Sequencing at ACTREC. A.D. is supported by an Intermediate Fellowship from the Wellcome Trust/DBT India Alliance (IA/I/11/2500278). P.I. is supported by a Senior Research Fellowship from ACTREC. The funders had no role in study design, data collection and analysis, decision to publish or preparation of the study</p></ack><ref-list id="ijc31916-bibl-0001" content-type="cited-references"><title>References</title><ref id="ijc31916-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="ijc31916-cit-0001">
+<string-name name-style="western">
+<surname>Krause</surname>
+<given-names>DS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Van Etten</surname>
+<given-names>RA</given-names>
+</string-name>. <article-title>Tyrosine kinases as targets for cancer therapy</article-title>. <source xml:lang="en">N Engl J Med</source>
+<year>2005</year>;<volume>353</volume>:<fpage>172</fpage>–<lpage>87</lpage>.<pub-id pub-id-type="pmid">16014887</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMra044389</pub-id></mixed-citation></ref><ref id="ijc31916-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="ijc31916-cit-0002">
+<string-name name-style="western">
+<surname>Druker</surname>
+<given-names>BJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sawyers</surname>
+<given-names>CL</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kantarjian</surname>
+<given-names>H</given-names>
+</string-name>, et al. <article-title>Activity of a specific inhibitor of the BCR‐ABL tyrosine kinase in the blast crisis of chronic myeloid leukemia and acute lymphoblastic leukemia with the Philadelphia chromosome</article-title>. <source xml:lang="en">N Engl J Med</source>
+<year>2001</year>;<volume>344</volume>:<fpage>1038</fpage>–<lpage>42</lpage>.<pub-id pub-id-type="pmid">11287973</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJM200104053441402</pub-id></mixed-citation></ref><ref id="ijc31916-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="ijc31916-cit-0003">
+<string-name name-style="western">
+<surname>Flaherty</surname>
+<given-names>KT</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Puzanov</surname>
+<given-names>I</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kim</surname>
+<given-names>KB</given-names>
+</string-name>, et al. <article-title>Inhibition of mutated, activated BRAF in metastatic melanoma</article-title>. <source xml:lang="en">N Engl J Med</source>
+<year>2010</year>;<volume>363</volume>:<fpage>809</fpage>–<lpage>19</lpage>.<pub-id pub-id-type="pmid">20818844</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1056/NEJMoa1002011</pub-id><pub-id pub-id-type="pmcid">PMC3724529</pub-id></mixed-citation></ref><ref id="ijc31916-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="ijc31916-cit-0004">
+<string-name name-style="western">
+<surname>Rusnak</surname>
+<given-names>DW</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lackey</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Affleck</surname>
+<given-names>K</given-names>
+</string-name>, et al. <article-title>The effects of the novel, reversible epidermal growth factor receptor/ErbB‐2 tyrosine kinase inhibitor, GW2016, on the growth of human normal and tumor‐derived cell lines in vitro and in vivo</article-title>. <source xml:lang="en">Mol Cancer Ther</source>
+<year>2001</year>;<volume>1</volume>:<fpage>85</fpage>–<lpage>94</lpage>.<pub-id pub-id-type="pmid">12467226</pub-id></mixed-citation></ref><ref id="ijc31916-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="ijc31916-cit-0005">
+<string-name name-style="western">
+<surname>Christensen</surname>
+<given-names>JG</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zou</surname>
+<given-names>HY</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Arango</surname>
+<given-names>ME</given-names>
+</string-name>, et al. <article-title>Cytoreductive antitumor activity of PF‐2341066, a novel inhibitor of anaplastic lymphoma kinase and c‐met, in experimental models of anaplastic large‐cell lymphoma</article-title>. <source xml:lang="en">Mol Cancer Ther</source>
+<year>2007</year>;<volume>6</volume>:<fpage>3314</fpage>–<lpage>22</lpage>.<pub-id pub-id-type="pmid">18089725</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/1535-7163.MCT-07-0365</pub-id></mixed-citation></ref><ref id="ijc31916-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="ijc31916-cit-0006">
+<string-name name-style="western">
+<surname>Paez</surname>
+<given-names>JG</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Janne</surname>
+<given-names>PA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lee</surname>
+<given-names>JC</given-names>
+</string-name>, et al. <article-title>EGFR mutations in lung cancer: correlation with clinical response to gefitinib therapy</article-title>. <source xml:lang="en">Science</source>
+<year>2004</year>;<volume>304</volume>:<fpage>1497</fpage>–<lpage>500</lpage>.<pub-id pub-id-type="pmid">15118125</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1099314</pub-id></mixed-citation></ref><ref id="ijc31916-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="ijc31916-cit-0007">
+<string-name name-style="western">
+<surname>McGranahan</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Swanton</surname>
+<given-names>C</given-names>
+</string-name>. <article-title>Biological and therapeutic impact of intratumor heterogeneity in cancer evolution</article-title>. <source xml:lang="en">Cancer Cell</source>
+<year>2015</year>;<volume>27</volume>:<fpage>15</fpage>–<lpage>26</lpage>.<pub-id pub-id-type="pmid">25584892</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ccell.2014.12.001</pub-id></mixed-citation></ref><ref id="ijc31916-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="ijc31916-cit-0008">
+<string-name name-style="western">
+<surname>Le Tourneau</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Paoletti</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Servant</surname>
+<given-names>N</given-names>
+</string-name>, et al. <article-title>Randomised proof‐of‐concept phase II trial comparing targeted therapy based on tumour molecular profiling vs conventional therapy in patients with refractory cancer: results of the feasibility part of the SHIVA trial</article-title>. <source xml:lang="en">Br J Cancer</source>
+<year>2014</year>;<volume>111</volume>:<fpage>17</fpage>–<lpage>24</lpage>.<pub-id pub-id-type="pmid">24762958</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/bjc.2014.211</pub-id><pub-id pub-id-type="pmcid">PMC4090722</pub-id></mixed-citation></ref><ref id="ijc31916-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="ijc31916-cit-0009">
+<string-name name-style="western">
+<surname>De Roock</surname>
+<given-names>W</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jonker</surname>
+<given-names>DJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Di Nicolantonio</surname>
+<given-names>F</given-names>
+</string-name>, et al. <article-title>Association of KRAS p.G13D mutation with outcome in patients with chemotherapy‐refractory metastatic colorectal cancer treated with cetuximab</article-title>. <source xml:lang="en">JAMA</source>
+<year>2010</year>;<volume>304</volume>:<fpage>1812</fpage>–<lpage>20</lpage>.<pub-id pub-id-type="pmid">20978259</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1001/jama.2010.1535</pub-id></mixed-citation></ref><ref id="ijc31916-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="ijc31916-cit-0010">
+<string-name name-style="western">
+<surname>Garner</surname>
+<given-names>AP</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bialucha</surname>
+<given-names>CU</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sprague</surname>
+<given-names>ER</given-names>
+</string-name>, et al. <article-title>An antibody that locks HER3 in the inactive conformation inhibits tumor growth driven by HER2 or neuregulin</article-title>. <source xml:lang="en">Cancer Res</source>
+<year>2013</year>;<volume>73</volume>:<fpage>6024</fpage>–<lpage>35</lpage>.<pub-id pub-id-type="pmid">23928993</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/0008-5472.CAN-13-1198</pub-id><pub-id pub-id-type="pmcid">PMC3924863</pub-id></mixed-citation></ref><ref id="ijc31916-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="ijc31916-cit-0011">
+<string-name name-style="western">
+<surname>Spivak‐Kroizman</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rotin</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pinchasi</surname>
+<given-names>D</given-names>
+</string-name>, et al. <article-title>Heterodimerization of c‐erbB2 with different epidermal growth factor receptor mutants elicits stimulatory or inhibitory responses</article-title>. <source xml:lang="en">J Biol Chem</source>
+<year>1992</year>;<volume>267</volume>:<fpage>8056</fpage>–<lpage>63</lpage>.<pub-id pub-id-type="pmid">1349015</pub-id></mixed-citation></ref><ref id="ijc31916-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="ijc31916-cit-0012">
+<string-name name-style="western">
+<surname>Tebbutt</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pedersen</surname>
+<given-names>MW</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Johns</surname>
+<given-names>TG</given-names>
+</string-name>. <article-title>Targeting the ERBB family in cancer: couples therapy</article-title>. <source xml:lang="en">Nat Rev Cancer</source>
+<year>2013</year>;<volume>13</volume>:<fpage>663</fpage>–<lpage>73</lpage>.<pub-id pub-id-type="pmid">23949426</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nrc3559</pub-id></mixed-citation></ref><ref id="ijc31916-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="ijc31916-cit-0013">
+<string-name name-style="western">
+<surname>Yoon</surname>
+<given-names>HH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tougeron</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shi</surname>
+<given-names>Q</given-names>
+</string-name>, et al. <article-title>Alliance for clinical trials in O. KRAS codon 12 and 13 mutations in relation to disease‐free survival in BRAF‐wild‐type stage III colon cancers from an adjuvant chemotherapy trial (N0147 alliance)</article-title>. <source xml:lang="en">Clin Cancer Res</source>
+<year>2014</year>;<volume>20</volume>:<fpage>3033</fpage>–<lpage>43</lpage>.<pub-id pub-id-type="pmid">24687927</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/1078-0432.CCR-13-3140</pub-id><pub-id pub-id-type="pmcid">PMC4040326</pub-id></mixed-citation></ref><ref id="ijc31916-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="ijc31916-cit-0014">
+<string-name name-style="western">
+<surname>Rakic</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Patrlj</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kopljar</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>Gallbladder cancer</article-title>. <source xml:lang="en">Hepatobiliary Surg Nutr</source>
+<year>2014</year>;<volume>3</volume>:<fpage>221</fpage>–<lpage>6</lpage>.<pub-id pub-id-type="pmid">25392833</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3978/j.issn.2304-3881.2014.09.03</pub-id><pub-id pub-id-type="pmcid">PMC4207839</pub-id></mixed-citation></ref><ref id="ijc31916-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="ijc31916-cit-0015">
+<string-name name-style="western">
+<surname>Barreto</surname>
+<given-names>SG</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dutt</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chaudhary</surname>
+<given-names>A</given-names>
+</string-name>. <article-title>A genetic model for gallbladder carcinogenesis and its dissemination</article-title>. <source xml:lang="en">Ann Oncol</source>
+<year>2014</year>;<volume>25</volume>:<fpage>1086</fpage>–<lpage>97</lpage>.<pub-id pub-id-type="pmid">24705974</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/annonc/mdu006</pub-id><pub-id pub-id-type="pmcid">PMC4037856</pub-id></mixed-citation></ref><ref id="ijc31916-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="ijc31916-cit-0016">
+<string-name name-style="western">
+<surname>Zhu</surname>
+<given-names>AX</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hong</surname>
+<given-names>TS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hezel</surname>
+<given-names>AF</given-names>
+</string-name>, et al. <article-title>Current management of gallbladder carcinoma</article-title>. <source xml:lang="en">Oncologist</source>
+<year>2010</year>;<volume>15</volume>:<fpage>168</fpage>–<lpage>81</lpage>.<pub-id pub-id-type="pmid">20147507</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1634/theoncologist.2009-0302</pub-id><pub-id pub-id-type="pmcid">PMC3227945</pub-id></mixed-citation></ref><ref id="ijc31916-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="ijc31916-cit-0017">
+<string-name name-style="western">
+<surname>Miller</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jarnagin</surname>
+<given-names>WR</given-names>
+</string-name>. <article-title>Gallbladder carcinoma</article-title>. <source xml:lang="en">Eur J Surg Oncol</source>
+<year>2008</year>;<volume>34</volume>:<fpage>306</fpage>–<lpage>12</lpage>.<pub-id pub-id-type="pmid">17964753</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ejso.2007.07.206</pub-id></mixed-citation></ref><ref id="ijc31916-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="ijc31916-cit-0018">
+<string-name name-style="western">
+<surname>Javle</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Churi</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kang</surname>
+<given-names>HC</given-names>
+</string-name>, et al. <article-title>HER2/neu‐directed therapy for biliary tract cancer</article-title>. <source xml:lang="en">J Hematol Oncol</source>
+<year>2015</year>;<volume>8</volume>:<fpage>58</fpage>.<pub-id pub-id-type="pmid">26022204</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s13045-015-0155-z</pub-id><pub-id pub-id-type="pmcid">PMC4469402</pub-id></mixed-citation></ref><ref id="ijc31916-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="ijc31916-cit-0019">
+<string-name name-style="western">
+<surname>Li</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>F</given-names>
+</string-name>, et al. <article-title>Genomic ERBB2/ERBB3 mutations promote PD‐L1‐mediated immune escape in gallbladder cancer: a whole‐exome sequencing analysis</article-title>. <source xml:lang="en">Gut</source>
+<year>2018</year>
+<pub-id pub-id-type="doi">10.1136/gutjnl-2018-316039</pub-id>
+<pub-id pub-id-type="pmid">29954840</pub-id></mixed-citation></ref><ref id="ijc31916-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="ijc31916-cit-0020">
+<string-name name-style="western">
+<surname>Jiao</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pawlik</surname>
+<given-names>TM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Anders</surname>
+<given-names>RA</given-names>
+</string-name>, et al. <article-title>Exome sequencing identifies frequent inactivating mutations in BAP1, ARID1A and PBRM1 in intrahepatic cholangiocarcinomas</article-title>. <source xml:lang="en">Nat Genet</source>
+<year>2013</year>;<volume>45</volume>:<fpage>1470</fpage>–<lpage>3</lpage>.<pub-id pub-id-type="pmid">24185509</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ng.2813</pub-id><pub-id pub-id-type="pmcid">PMC4013720</pub-id></mixed-citation></ref><ref id="ijc31916-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="ijc31916-cit-0021">
+<string-name name-style="western">
+<surname>Nakamura</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Arai</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Totoki</surname>
+<given-names>Y</given-names>
+</string-name>, et al. <article-title>Genomic spectra of biliary tract cancer</article-title>. <source xml:lang="en">Nat Genet</source>
+<year>2015</year>;<volume>47</volume>:<fpage>1003</fpage>–<lpage>10</lpage>.<pub-id pub-id-type="pmid">26258846</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ng.3375</pub-id></mixed-citation></ref><ref id="ijc31916-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="ijc31916-cit-0022">
+<string-name name-style="western">
+<surname>Li</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Durbin</surname>
+<given-names>R</given-names>
+</string-name>. <article-title>Fast and accurate short read alignment with burrows‐wheeler transform</article-title>. <source xml:lang="en">Bioinformatics</source>
+<year>2009</year>;<volume>25</volume>:<fpage>1754</fpage>–<lpage>60</lpage>.<pub-id pub-id-type="pmid">19451168</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bioinformatics/btp324</pub-id><pub-id pub-id-type="pmcid">PMC2705234</pub-id></mixed-citation></ref><ref id="ijc31916-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="ijc31916-cit-0023">
+<string-name name-style="western">
+<surname>Garcia‐Alcalde</surname>
+<given-names>F</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Okonechnikov</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Carbonell</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>Qualimap: evaluating next‐generation sequencing alignment data</article-title>. <source xml:lang="en">Bioinformatics</source>
+<year>2012</year>;<volume>28</volume>:<fpage>2678</fpage>–<lpage>9</lpage>.<pub-id pub-id-type="pmid">22914218</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bioinformatics/bts503</pub-id></mixed-citation></ref><ref id="ijc31916-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="ijc31916-cit-0024">
+<string-name name-style="western">
+<surname>McKenna</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hanna</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Banks</surname>
+<given-names>E</given-names>
+</string-name>, et al. <article-title>The genome analysis toolkit: a MapReduce framework for analyzing next‐generation DNA sequencing data</article-title>. <source xml:lang="en">Genome Res</source>
+<year>2010</year>;<volume>20</volume>:<fpage>1297</fpage>–<lpage>303</lpage>.<pub-id pub-id-type="pmid">20644199</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1101/gr.107524.110</pub-id><pub-id pub-id-type="pmcid">PMC2928508</pub-id></mixed-citation></ref><ref id="ijc31916-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="ijc31916-cit-0025">
+<string-name name-style="western">
+<surname>Boeva</surname>
+<given-names>V</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Popova</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bleakley</surname>
+<given-names>K</given-names>
+</string-name>, et al. <article-title>Control‐FREEC: a tool for assessing copy number and allelic content using next‐generation sequencing data</article-title>. <source xml:lang="en">Bioinformatics</source>
+<year>2012</year>;<volume>28</volume>:<fpage>423</fpage>–<lpage>5</lpage>.<pub-id pub-id-type="pmid">22155870</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bioinformatics/btr670</pub-id><pub-id pub-id-type="pmcid">PMC3268243</pub-id></mixed-citation></ref><ref id="ijc31916-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="ijc31916-cit-0026">
+<string-name name-style="western">
+<surname>Chandrani</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Prabhash</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Prasad</surname>
+<given-names>R</given-names>
+</string-name>, et al. <article-title>Drug‐sensitive FGFR3 mutations in lung adenocarcinoma</article-title>. <source xml:lang="en">Ann Oncol</source>
+<year>2017</year>;<volume>28</volume>:<fpage>597</fpage>–<lpage>603</lpage>.<pub-id pub-id-type="pmid">27998968</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/annonc/mdw636</pub-id><pub-id pub-id-type="pmcid">PMC5391708</pub-id></mixed-citation></ref><ref id="ijc31916-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="ijc31916-cit-0027">
+<string-name name-style="western">
+<surname>Upadhyay</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gardi</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Desai</surname>
+<given-names>S</given-names>
+</string-name>, et al. <article-title>TMC‐SNPdb: an Indian germline variant database derived from whole exome sequences</article-title>. <source xml:lang="en">Database</source>
+<year>2016</year>;<fpage>1</fpage>–<lpage>8</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/database/baw104</pub-id><pub-id pub-id-type="pmcid">PMC4940432</pub-id><pub-id pub-id-type="pmid">27402678</pub-id></mixed-citation></ref><ref id="ijc31916-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="ijc31916-cit-0028">
+<string-name name-style="western">
+<surname>Lawrence</surname>
+<given-names>MS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Stojanov</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Polak</surname>
+<given-names>P</given-names>
+</string-name>, et al. <article-title>Mutational heterogeneity in cancer and the search for new cancer‐associated genes</article-title>. <source xml:lang="en">Nature</source>
+<year>2013</year>;<volume>499</volume>:<fpage>214</fpage>–<lpage>8</lpage>.<pub-id pub-id-type="pmid">23770567</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature12213</pub-id><pub-id pub-id-type="pmcid">PMC3919509</pub-id></mixed-citation></ref><ref id="ijc31916-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="ijc31916-cit-0029">
+<string-name name-style="western">
+<surname>Gonzalez‐Perez</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Perez‐Llamas</surname>
+<given-names>C</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Deu‐Pons</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>IntOGen‐mutations identifies cancer drivers across tumor types</article-title>. <source xml:lang="en">Nat Methods</source>
+<year>2013</year>;<volume>10</volume>:<fpage>1081</fpage>–<lpage>2</lpage>.<pub-id pub-id-type="pmid">24037244</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nmeth.2642</pub-id><pub-id pub-id-type="pmcid">PMC5758042</pub-id></mixed-citation></ref><ref id="ijc31916-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="ijc31916-cit-0030">
+<string-name name-style="western">
+<surname>Forbes</surname>
+<given-names>SA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bhamra</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bamford</surname>
+<given-names>S</given-names>
+</string-name>, et al. <article-title>The catalogue of somatic mutations in cancer (COSMIC)</article-title>. <source xml:lang="en">Curr Protoc Hum Genet</source>
+<year>2008</year>;<volume>10</volume>:<fpage>11</fpage>.<pub-id pub-id-type="pmid">18428421</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/0471142905.hg1011s57</pub-id><pub-id pub-id-type="pmcid">PMC2705836</pub-id></mixed-citation></ref><ref id="ijc31916-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="ijc31916-cit-0031">
+<string-name name-style="western">
+<surname>Sherry</surname>
+<given-names>ST</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ward</surname>
+<given-names>MH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kholodov</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>dbSNP: the NCBI database of genetic variation</article-title>. <source xml:lang="en">Nucleic Acids Res</source>
+<year>2001</year>;<volume>29</volume>:<fpage>308</fpage>–<lpage>11</lpage>.<pub-id pub-id-type="pmid">11125122</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/29.1.308</pub-id><pub-id pub-id-type="pmcid">PMC29783</pub-id></mixed-citation></ref><ref id="ijc31916-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="ijc31916-cit-0032">
+<string-name name-style="western">
+<surname>Ramos</surname>
+<given-names>AH</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lichtenstein</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gupta</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>Oncotator: cancer variant annotation tool</article-title>. <source xml:lang="en">Hum Mutat</source>
+<year>2015</year>;<volume>36</volume>:<fpage>E2423</fpage>–<lpage>9</lpage>.<pub-id pub-id-type="pmid">25703262</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/humu.22771</pub-id><pub-id pub-id-type="pmcid">PMC7350419</pub-id></mixed-citation></ref><ref id="ijc31916-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="ijc31916-cit-0033">
+<string-name name-style="western">
+<surname>Upadhyay</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nair</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kaur</surname>
+<given-names>E</given-names>
+</string-name>, et al. <article-title>Notch pathway activation is essential for maintenance of stem‐like cells in early tongue cancer</article-title>. <source xml:lang="en">Oncotarget</source>
+<year>2016</year>;<volume>7</volume>:<fpage>50437</fpage>–<lpage>49</lpage>.<pub-id pub-id-type="pmid">27391340</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.18632/oncotarget.10419</pub-id><pub-id pub-id-type="pmcid">PMC5226594</pub-id></mixed-citation></ref><ref id="ijc31916-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="ijc31916-cit-0034">
+<string-name name-style="western">
+<surname>Chandrani</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Upadhyay</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Iyer</surname>
+<given-names>P</given-names>
+</string-name>, et al. <article-title>Integrated genomics approach to identify biologically relevant alterations in fewer samples</article-title>. <source xml:lang="en">BMC Genomics</source>
+<year>2015</year>;<volume>16</volume>:<fpage>936</fpage>.<pub-id pub-id-type="pmid">26572163</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s12864-015-2138-4</pub-id><pub-id pub-id-type="pmcid">PMC4647579</pub-id></mixed-citation></ref><ref id="ijc31916-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="ijc31916-cit-0035">
+<string-name name-style="western">
+<surname>Godbole</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tiwary</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Badwe</surname>
+<given-names>R</given-names>
+</string-name>, et al. <article-title>Progesterone suppresses the invasion and migration of breast cancer cells irrespective of their progesterone receptor status ‐ a short report</article-title>. <source xml:lang="en">Cell Oncol</source>
+<year>2017</year>;<volume>40</volume>:<fpage>411</fpage>–<lpage>7</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s13402-017-0330-z</pub-id><pub-id pub-id-type="pmcid">PMC5537311</pub-id><pub-id pub-id-type="pmid">28653288</pub-id></mixed-citation></ref><ref id="ijc31916-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="ijc31916-cit-0036">
+<string-name name-style="western">
+<surname>Carpenter</surname>
+<given-names>AE</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jones</surname>
+<given-names>TR</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lamprecht</surname>
+<given-names>MR</given-names>
+</string-name>, et al. <article-title>CellProfiler: image analysis software for identifying and quantifying cell phenotypes</article-title>. <source xml:lang="en">Genome Biol</source>
+<year>2006</year>;<volume>7</volume>:<fpage>R100</fpage>.<pub-id pub-id-type="pmid">17076895</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/gb-2006-7-10-r100</pub-id><pub-id pub-id-type="pmcid">PMC1794559</pub-id></mixed-citation></ref><ref id="ijc31916-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="ijc31916-cit-0037">
+<string-name name-style="western">
+<surname>Li</surname>
+<given-names>M</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhang</surname>
+<given-names>Z</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Li</surname>
+<given-names>X</given-names>
+</string-name>, et al. <article-title>Whole‐exome and targeted gene sequencing of gallbladder carcinoma identifies recurrent mutations in the ErbB pathway</article-title>. <source xml:lang="en">Nat Genet</source>
+<year>2014</year>;<volume>46</volume>:<fpage>872</fpage>–<lpage>6</lpage>.<pub-id pub-id-type="pmid">24997986</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/ng.3030</pub-id></mixed-citation></ref><ref id="ijc31916-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="ijc31916-cit-0038">
+<string-name name-style="western">
+<surname>Yoshida</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ogawa</surname>
+<given-names>S</given-names>
+</string-name>. <article-title>Splicing factor mutations and cancer</article-title>. <source xml:lang="en">Wiley Interdiscip Rev RNA</source>
+<year>2014</year>;<volume>5</volume>:<fpage>445</fpage>–<lpage>59</lpage>.<pub-id pub-id-type="pmid">24523246</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/wrna.1222</pub-id></mixed-citation></ref><ref id="ijc31916-bib-0039"><label>39</label><mixed-citation publication-type="journal" id="ijc31916-cit-0039">
+<string-name name-style="western">
+<surname>Bose</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kavuri</surname>
+<given-names>SM</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Searleman</surname>
+<given-names>AC</given-names>
+</string-name>, et al. <article-title>Activating HER2 mutations in HER2 gene amplification negative breast cancer</article-title>. <source xml:lang="en">Cancer Discov</source>
+<year>2013</year>;<volume>3</volume>:<fpage>224</fpage>–<lpage>37</lpage>.<pub-id pub-id-type="pmid">23220880</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/2159-8290.CD-12-0349</pub-id><pub-id pub-id-type="pmcid">PMC3570596</pub-id></mixed-citation></ref><ref id="ijc31916-bib-0040"><label>40</label><mixed-citation publication-type="journal" id="ijc31916-cit-0040">
+<string-name name-style="western">
+<surname>Yaziji</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Goldstein</surname>
+<given-names>LC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Barry</surname>
+<given-names>TS</given-names>
+</string-name>, et al. <article-title>HER‐2 testing in breast cancer using parallel tissue‐based methods</article-title>. <source xml:lang="en">JAMA</source>
+<year>2004</year>;<volume>291</volume>:<fpage>1972</fpage>–<lpage>7</lpage>.<pub-id pub-id-type="pmid">15113815</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1001/jama.291.16.1972</pub-id></mixed-citation></ref><ref id="ijc31916-bib-0041"><label>41</label><mixed-citation publication-type="journal" id="ijc31916-cit-0041">
+<string-name name-style="western">
+<surname>Choughule</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sharma</surname>
+<given-names>R</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Trivedi</surname>
+<given-names>V</given-names>
+</string-name>, et al. <article-title>Coexistence of KRAS mutation with mutant but not wild‐type EGFR predicts response to tyrosine‐kinase inhibitors in human lung cancer</article-title>. <source xml:lang="en">Br J Cancer</source>
+<year>2014</year>;<volume>111</volume>:<fpage>2203</fpage>–<lpage>4</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/bjc.2014.401</pub-id><pub-id pub-id-type="pmcid">PMC4260019</pub-id><pub-id pub-id-type="pmid">25117816</pub-id></mixed-citation></ref><ref id="ijc31916-bib-0042"><label>42</label><mixed-citation publication-type="journal" id="ijc31916-cit-0042">
+<string-name name-style="western">
+<surname>Lievre</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bachet</surname>
+<given-names>JB</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Le Corre</surname>
+<given-names>D</given-names>
+</string-name>, et al. <article-title>KRAS mutation status is predictive of response to cetuximab therapy in colorectal cancer</article-title>. <source xml:lang="en">Cancer Res</source>
+<year>2006</year>;<volume>66</volume>:<fpage>3992</fpage>–<lpage>5</lpage>.<pub-id pub-id-type="pmid">16618717</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/0008-5472.CAN-06-0191</pub-id></mixed-citation></ref><ref id="ijc31916-bib-0043"><label>43</label><mixed-citation publication-type="journal" id="ijc31916-cit-0043">
+<string-name name-style="western">
+<surname>Osumi</surname>
+<given-names>H</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shinozaki</surname>
+<given-names>E</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Osako</surname>
+<given-names>M</given-names>
+</string-name>, et al. <article-title>Cetuximab treatment for metastatic colorectal cancer with KRAS p.G13D mutations improves progression‐free survival</article-title>. <source xml:lang="en">Mol Clin Oncol</source>
+<year>2015</year>;<volume>3</volume>:<fpage>1053</fpage>–<lpage>7</lpage>.<pub-id pub-id-type="pmid">26623049</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3892/mco.2015.602</pub-id><pub-id pub-id-type="pmcid">PMC4534836</pub-id></mixed-citation></ref><ref id="ijc31916-bib-0044"><label>44</label><mixed-citation publication-type="journal" id="ijc31916-cit-0044">
+<string-name name-style="western">
+<surname>Kumar</surname>
+<given-names>SS</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Price</surname>
+<given-names>TJ</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mohyieldin</surname>
+<given-names>O</given-names>
+</string-name>, et al. <article-title>KRAS G13D mutation and sensitivity to Cetuximab or Panitumumab in a colorectal cancer cell line model</article-title>. <source xml:lang="en">Gastrointest Cancer Res</source>
+<year>2014</year>;<volume>7</volume>:<fpage>23</fpage>–<lpage>6</lpage>.<pub-id pub-id-type="pmid">24558511</pub-id><pub-id pub-id-type="pmcid">PMC3930148</pub-id></mixed-citation></ref><ref id="ijc31916-bib-0045"><label>45</label><mixed-citation publication-type="journal" id="ijc31916-cit-0045">
+<string-name name-style="western">
+<surname>Linggi</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Carpenter</surname>
+<given-names>G</given-names>
+</string-name>. <article-title>ErbB receptors: new insights on mechanisms and biology</article-title>. <source xml:lang="en">Trends Cell Biol</source>
+<year>2006</year>;<volume>16</volume>:<fpage>649</fpage>–<lpage>56</lpage>.<pub-id pub-id-type="pmid">17085050</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.tcb.2006.10.008</pub-id></mixed-citation></ref><ref id="ijc31916-bib-0046"><label>46</label><mixed-citation publication-type="journal" id="ijc31916-cit-0046">
+<string-name name-style="western">
+<surname>Zhou</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Agazie</surname>
+<given-names>YM</given-names>
+</string-name>. <article-title>The signaling and transformation potency of the overexpressed HER2 protein is dependent on the normally‐expressed EGFR</article-title>. <source xml:lang="en">Cell Signal</source>
+<year>2012</year>;<volume>24</volume>:<fpage>140</fpage>–<lpage>50</lpage>.<pub-id pub-id-type="pmid">21911055</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.cellsig.2011.08.015</pub-id><pub-id pub-id-type="pmcid">PMC3205337</pub-id></mixed-citation></ref><ref id="ijc31916-bib-0047"><label>47</label><mixed-citation publication-type="journal" id="ijc31916-cit-0047">
+<string-name name-style="western">
+<surname>Li</surname>
+<given-names>D</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ambrogio</surname>
+<given-names>L</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shimamura</surname>
+<given-names>T</given-names>
+</string-name>, et al. <article-title>BIBW2992, an irreversible EGFR/HER2 inhibitor highly effective in preclinical lung cancer models</article-title>. <source xml:lang="en">Oncogene</source>
+<year>2008</year>;<volume>27</volume>:<fpage>4702</fpage>–<lpage>11</lpage>.<pub-id pub-id-type="pmid">18408761</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/onc.2008.109</pub-id><pub-id pub-id-type="pmcid">PMC2748240</pub-id></mixed-citation></ref><ref id="ijc31916-bib-0048"><label>48</label><mixed-citation publication-type="journal" id="ijc31916-cit-0048">
+<string-name name-style="western">
+<surname>Yanagisawa</surname>
+<given-names>N</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yamashita</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kuba</surname>
+<given-names>T</given-names>
+</string-name>, et al. <article-title>Sporadic TP53 transition mutations in chronic cholecystitis are possibly linked to gallbladder carcinogenesis</article-title>. <source xml:lang="en">Anticancer Res</source>
+<year>2010</year>;<volume>30</volume>:<fpage>4443</fpage>–<lpage>9</lpage>.<pub-id pub-id-type="pmid">21115891</pub-id></mixed-citation></ref><ref id="ijc31916-bib-0049"><label>49</label><mixed-citation publication-type="journal" id="ijc31916-cit-0049">
+<string-name name-style="western">
+<surname>Iyer</surname>
+<given-names>P</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Barreto</surname>
+<given-names>SG</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sahoo</surname>
+<given-names>B</given-names>
+</string-name>, et al. <article-title>Non‐typhoidal salmonella DNA traces in gallbladder cancer</article-title>. <source xml:lang="en">Infect Agent Cancer</source>
+<year>2016</year>;<volume>11</volume>:<fpage>12</fpage>.<pub-id pub-id-type="pmid">26941832</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s13027-016-0057-x</pub-id><pub-id pub-id-type="pmcid">PMC4776363</pub-id></mixed-citation></ref><ref id="ijc31916-bib-0050"><label>50</label><mixed-citation publication-type="journal" id="ijc31916-cit-0050">
+<string-name name-style="western">
+<surname>Petitjean</surname>
+<given-names>A</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Achatz</surname>
+<given-names>MI</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Borresen‐Dale</surname>
+<given-names>AL</given-names>
+</string-name>, et al. <article-title>TP53 mutations in human cancers: functional selection and impact on cancer prognosis and outcomes</article-title>. <source xml:lang="en">Oncogene</source>
+<year>2007</year>;<volume>26</volume>:<fpage>2157</fpage>–<lpage>65</lpage>.<pub-id pub-id-type="pmid">17401424</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/sj.onc.1210302</pub-id></mixed-citation></ref><ref id="ijc31916-bib-0051"><label>51</label><mixed-citation publication-type="journal" id="ijc31916-cit-0051">
+<string-name name-style="western">
+<surname>Doval</surname>
+<given-names>DC</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Azam</surname>
+<given-names>S</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sinha</surname>
+<given-names>R</given-names>
+</string-name>, et al. <article-title>Expression of epidermal growth factor receptor, p53, Bcl2, vascular endothelial growth factor, cyclooxygenase‐2, cyclin D1, human epidermal receptor‐2 and Ki‐67: association with clinicopathological profiles and outcomes in gallbladder carcinoma</article-title>. <source xml:lang="en">J Carcinog</source>
+<year>2014</year>;<volume>13</volume>:<fpage>10</fpage>.<pub-id pub-id-type="pmid">25225463</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.4103/1477-3163.139450</pub-id><pub-id pub-id-type="pmcid">PMC4163917</pub-id></mixed-citation></ref><ref id="ijc31916-bib-0052"><label>52</label><mixed-citation publication-type="journal" id="ijc31916-cit-0052">
+<string-name name-style="western">
+<surname>Muller</surname>
+<given-names>BG</given-names>
+</string-name>, <string-name name-style="western">
+<surname>De Aretxabala</surname>
+<given-names>X</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gonzalez Domingo</surname>
+<given-names>M</given-names>
+</string-name>. <article-title>A review of recent data in the treatment of gallbladder cancer: what we know, what we do, and what should be done. American Society of Clinical Oncology educational book</article-title>. <source xml:lang="en">Am Soc Clin Oncol Educ Book</source>
+<year>2014</year>;<volume>34</volume>:<fpage>e165</fpage>–<lpage>70</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.14694/EdBook_AM.2014.34.e165</pub-id><pub-id pub-id-type="pmid">24857099</pub-id></mixed-citation></ref><ref id="ijc31916-bib-0053"><label>53</label><mixed-citation publication-type="journal" id="ijc31916-cit-0053">
+<string-name name-style="western">
+<surname>De Roock</surname>
+<given-names>W</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Claes</surname>
+<given-names>B</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bernasconi</surname>
+<given-names>D</given-names>
+</string-name>, et al. <article-title>Effects of KRAS, BRAF, NRAS, and PIK3CA mutations on the efficacy of cetuximab plus chemotherapy in chemotherapy‐refractory metastatic colorectal cancer: a retrospective consortium analysis</article-title>. <source xml:lang="en">Lancet Oncol</source>
+<year>2010</year>;<volume>11</volume>:<fpage>753</fpage>–<lpage>62</lpage>.<pub-id pub-id-type="pmid">20619739</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/S1470-2045(10)70130-3</pub-id></mixed-citation></ref><ref id="ijc31916-bib-0054"><label>54</label><mixed-citation publication-type="journal" id="ijc31916-cit-0054">
+<string-name name-style="western">
+<surname>Li</surname>
+<given-names>W</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Qiu</surname>
+<given-names>T</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhi</surname>
+<given-names>W</given-names>
+</string-name>, et al. <article-title>Colorectal carcinomas with KRAS codon 12 mutation are associated with more advanced tumor stages</article-title>. <source xml:lang="en">BMC Cancer</source>
+<year>2015</year>;<volume>15</volume>:<fpage>340</fpage>.<pub-id pub-id-type="pmid">25929517</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s12885-015-1345-3</pub-id><pub-id pub-id-type="pmcid">PMC4423107</pub-id></mixed-citation></ref><ref id="ijc31916-bib-0055"><label>55</label><mixed-citation publication-type="journal" id="ijc31916-cit-0055">
+<string-name name-style="western">
+<surname>Prior</surname>
+<given-names>IA</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lewis</surname>
+<given-names>PD</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mattos</surname>
+<given-names>C</given-names>
+</string-name>. <article-title>A comprehensive survey of Ras mutations in cancer</article-title>. <source xml:lang="en">Cancer Res</source>
+<year>2012</year>;<volume>72</volume>:<fpage>2457</fpage>–<lpage>67</lpage>.<pub-id pub-id-type="pmid">22589270</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1158/0008-5472.CAN-11-2612</pub-id><pub-id pub-id-type="pmcid">PMC3354961</pub-id></mixed-citation></ref><ref id="ijc31916-bib-0056"><label>56</label><mixed-citation publication-type="journal" id="ijc31916-cit-0056">
+<string-name name-style="western">
+<surname>Do</surname>
+<given-names>K</given-names>
+</string-name>, <string-name name-style="western">
+<surname>O'Sullivan Coyne</surname>
+<given-names>G</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chen</surname>
+<given-names>AP</given-names>
+</string-name>. <article-title>An overview of the NCI precision medicine trials‐NCI MATCH and MPACT</article-title>. <source xml:lang="en">Chin Clin Oncol</source>
+<year>2015</year>;<volume>4</volume>:<fpage>31</fpage>.<pub-id pub-id-type="pmid">26408298</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3978/j.issn.2304-3865.2015.08.01</pub-id></mixed-citation></ref></ref-list></back></article>
