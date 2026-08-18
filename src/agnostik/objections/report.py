@@ -125,6 +125,11 @@ def write_html(results: list[dict], meta: dict, path: Path) -> None:
                 f'{issues}<ul class="cites">{"".join(cites)}</ul></details>'
             )
         flags = "".join(f"<li>{_esc(f)}</li>" for f in r["flags"])
+        flags_section = (
+            f"<div class='flags'><h3>Audit flags fed to the model</h3><ul>{flags}</ul></div>"
+            if flags
+            else ""
+        )
         rows.append(
             f'<section class="target {r["verdict"]}">'
             f'<h2>{_esc(r["target"])} <span class="badge">{_esc(_VERDICT_BADGE.get(r["verdict"], r["verdict"]))}</span>'
@@ -135,7 +140,7 @@ def write_html(results: list[dict], meta: dict, path: Path) -> None:
             f'{r["resolution"]["resolved"]}/{r["resolution"]["checked"]} external ids resolve · '
             f'model {_esc(r.get("model", ""))}</p>'
             f'{"".join(sentences_html)}'
-            f'{f"<div class=\'flags\'><h3>Audit flags fed to the model</h3><ul>{flags}</ul></div>" if flags else ""}'
+            f"{flags_section}"
             f"</section>"
         )
 
