@@ -1,0 +1,12 @@
+{
+  "target": "PRMT5",
+  "status": "complete",
+  "fingerprint": "415b532d08a96c0457ff01644e9c4c0f69475d058216b26738060755e271d016",
+  "query": "Build a formal evidence dossier for therapeutic targeting of PRMT5 in colon adenocarcinoma (COAD). Extract balanced supporting and opposing facts only from the supplied documents, and attach exact verbatim document quotes to every fact. Derive intermediate claims with explicit :using dependencies. Finally derive exactly one Boolean node named prmt5-verdict; true means the target is promising and false means it is rejected. The verdict's complete :using chain must terminate in the quoted facts. Do not leave it unknown.",
+  "verdict_node": "prmt5-verdict",
+  "sources": [
+    "PMC7906165.txt",
+    "PMC13139892.txt",
+    "PMC7465151.txt"
+  ]
+}

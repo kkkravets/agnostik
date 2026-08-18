@@ -15,6 +15,7 @@ from agnostik.parseltongue_corpus import (
     DEFAULT_TARGET_ATTEMPTS,
     Stage3Config,
     discover_sources,
+    export_completed_targets,
     run_stage3,
     select_target_sources,
     target_query,
@@ -52,6 +53,11 @@ def build_parser() -> argparse.ArgumentParser:
     rerun.add_argument("--resume", action="store_true")
     rerun.add_argument("--overwrite", action="store_true")
     parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument(
+        "--export-completed",
+        action="store_true",
+        help="build stage3-export.partial.json from completed targets without model calls",
+    )
     parser.add_argument("--json", action="store_true", dest="as_json")
     return parser
 
@@ -78,7 +84,17 @@ def main(argv: Sequence[str] | None = None) -> int:
             base_url=args.base_url,
             reasoning=args.reasoning_tokens,
         )
-        if args.dry_run:
+        if args.export_completed:
+            export_path, completed_targets = export_completed_targets(
+                config.output_dir,
+                config.targets,
+            )
+            payload = {
+                "completed_targets": list(completed_targets),
+                "target_count": len(completed_targets),
+                "stage4_export": str(export_path),
+            }
+        elif args.dry_run:
             sources = discover_sources(config.source_dir)
             plans = []
             for target in config.targets:

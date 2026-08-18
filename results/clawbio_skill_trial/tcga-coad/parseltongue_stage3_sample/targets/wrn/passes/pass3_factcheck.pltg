@@ -1,0 +1,138 @@
+
+;; =========================================
+;; Angle 1: SL Selectivity Cross-Check via Axiom Derivation
+;; =========================================
+;; The axiom sl-selectivity-biorationale states:
+;;   (= (if (and ?sl ?selectivity) true false) (and ?sl ?selectivity))
+;; Instantiate with the two SL facts to verify the term's evaluation independently.
+
+(derive sl-selectivity-axiom-proof sl-selectivity-biorationale
+  :bind ((?sl wrn-synthetic-lethality-msi) (?selectivity wrn-dispensable-mss))
+  :using (sl-selectivity-biorationale wrn-synthetic-lethality-msi wrn-dispensable-mss))
+
+(defterm sl-selectivity-alt
+  (if (and wrn-synthetic-lethality-msi wrn-dispensable-mss) true false)
+  :evidence (evidence "PMC7281075"
+    :quotes ("In tumor cell lines, the co-occurrence of WRN inactivation and MSI leads to cell death and cell cycle arrest via the acquisition of double-strand breaks and chromosomal instability."
+             "In contrast, in MSS cell lines, WRN was dispensable for cell survival")
+    :explanation "SL selectivity recomputed via if-then-else: if WRN loss kills MSI cells and spares MSS cells, the target confers tumour selectivity"))
+
+(diff sl-selectivity-crosscheck
+  :replace sl-selectivity
+  :with sl-selectivity-alt)
+
+;; =========================================
+;; Angle 2: TMB Cutoff Cross-Check — Recompute from Primary Quotes
+;; =========================================
+;; wrn-mut-tmb-value = 49, tmb-predictive-cutoff = 41
+;; wrn-tmb-exceeds-cutoff := (> wrn-mut-tmb-value tmb-predictive-cutoff)
+;; Re-introduce as independent facts from different quote locations and recompute.
+
+(fact wrn-mut-tmb-mean-value 49
+  :evidence (evidence "PMC7281075"
+    :quotes ("WRN-mut CRCs were associated with a higher mean tumor mutational burden (TMB) (49 vs. 10.7 mutations/megabase [mut/MB], p < 0.0001)")
+    :explanation "WRN-mut CRC mean TMB is 49 mut/MB — independently quoted from the results section"))
+
+(fact tmb-immunotherapy-cutoff 41
+  :evidence (evidence "PMC7281075"
+    :quotes ("In a retrospective study of MSI-H/dMMR metastatic CRC featuring patients who underwent treatment with a checkpoint inhibitor, a TMB score of more than 41 mut/MB was determined as a predictive cut-off [29].")
+    :explanation "TMB > 41 mut/MB is the predictive cutoff for checkpoint inhibitor response in MSI-H/dMMR mCRC"))
+
+(defterm tmb-exceeds-cutoff-recomputed
+  (> wrn-mut-tmb-mean-value tmb-immunotherapy-cutoff)
+  :evidence (evidence "PMC7281075"
+    :quotes ("WRN-mut CRCs were associated with a higher mean tumor mutational burden (TMB) (49 vs. 10.7 mutations/megabase [mut/MB], p < 0.0001)"
+             "In a retrospective study of MSI-H/dMMR metastatic CRC featuring patients who underwent treatment with a checkpoint inhibitor, a TMB score of more than 41 mut/MB was determined as a predictive cut-off [29].")
+    :explanation "Recomputed: WRN-mut mean TMB (49 mut/MB) exceeds the immunotherapy predictive cutoff (>41 mut/MB)"))
+
+(diff tmb-cutoff-crosscheck
+  :replace wrn-tmb-exceeds-cutoff
+  :with tmb-exceeds-cutoff-recomputed)
+
+;; =========================================
+;; Angle 3: Verdict Robustness — Remove Unverified CIN Evidence
+;; =========================================
+;; wrn-copy-loss-cin has UNVERIFIED evidence (quote not found in PMC8478156).
+;; This fact feeds: cin-risk -> wrn-opposition -> wrn-opposition-fatal -> wrn-verdict
+;; wrn-opposition-fatal = (and (not wrn-druggable) wrn-opposition)
+;; Since wrn-druggable = True, the gate (not wrn-druggable) = False, so wrn-opposition-fatal = False
+;; regardless of whether wrn-opposition holds. Test: build opposition WITHOUT cin-risk.
+
+(fact wrn-copy-loss-cin-suppressed false
+  :origin "Hypothetical: wrn-copy-loss-cin evidence failed verification (quote not found in PMC8478156), treated as false")
+
+(defterm cin-risk-suppressed
+  (and wrn-copy-loss-cin-suppressed cin-poor-prognosis)
+  :evidence (evidence "PMC8478156"
+    :quotes ("CIN is a critical hallmark of cancer and is closely related to tumor metastasis, treatment resistance, and poor prognosis (Pikor et al., 2013; Bakhoum and Cantley, 2018).")
+    :explanation "CIN risk recomputed excluding the unverified WRN-copy-loss-CIN link; only the verified CIN-poor-prognosis fact remains"))
+
+(defterm wrn-opposition-no-cin
+  (and no-wrn-inhibitors-clinical biomarker-limit cin-risk-suppressed retrospective-limited)
+  :evidence (evidence "PMC7281075"
+    :quotes ("Inhibitors, such as NSC19630 [35], NSC617145 [36], ML216 [37], NCGC00029283, NCGC00063279, and NCGC00357377 [38] have been identified in drug-screening studies [39]; however, none of them are in a clinical trial yet."
+             "In the setting of CRC, PD-L1 expression levels do not seem to play a major role in predicting response upon checkpoint therapy, as was observed in the Checkmate 142 trial [32]"
+             "However, when looking at median levels, the differences observed with mean levels are no longer statistically significant."
+             "Our study has important limitations, such as retrospective data extraction from a large database including only very limited basic clinical data.")
+    :explanation "Opposition with CIN risk suppressed: clinical immaturity (no trials), biomarker limitations (PD-L1 not predictive, median TMB not significant), retrospective limitations"))
+
+(defterm wrn-opposition-fatal-no-cin
+  (and (not wrn-druggable) wrn-opposition-no-cin)
+  :evidence (evidence "PMC7281075"
+    :quotes ("As described recently, the helicase domain of WRN is considered as a therapeutic target for synthetic lethality, as the exonuclease domain is dispensable for cell survival in MSI-H tumor cells."
+             "Inhibitors, such as NSC19630 [35], NSC617145 [36], ML216 [37], NCGC00029283, NCGC00063279, and NCGC00357377 [38] have been identified in drug-screening studies [39]; however, none of them are in a clinical trial yet.")
+    :explanation "Veto condition with CIN-suppressed opposition: target non-viable only if NOT druggable AND suppressed-opposition holds — druggability gate makes this False"))
+
+(defterm wrn-verdict-no-cin
+  (and sl-selectivity wrn-druggable wrn-biomarker-enriched immuno-rationale (not wrn-opposition-fatal-no-cin))
+  :evidence (evidence "PMC7281075"
+    :quotes ("In tumor cell lines, the co-occurrence of WRN inactivation and MSI leads to cell death and cell cycle arrest via the acquisition of double-strand breaks and chromosomal instability."
+             "As described recently, the helicase domain of WRN is considered as a therapeutic target for synthetic lethality, as the exonuclease domain is dispensable for cell survival in MSI-H tumor cells."
+             "In WRN-mut CRC, in contrast to WRN-wt, a higher co-occurrence of MSI-H/dMMR was observed (56% vs. 7%, p < 0.0001, Figure 3)."
+             "MSI-H/dMMR status has been identified as an independent predictor of response to PD-1 blockade by pembrolizumab [27]")
+    :explanation "Verdict recomputed excluding CIN risk (whose evidence was unverified) — tests verdict robustness to the unverified wrn-copy-loss-cin fact"))
+
+(diff verdict-cin-robustness
+  :replace wrn-verdict
+  :with wrn-verdict-no-cin)
+
+;; =========================================
+;; Angle 4: TP53 Context Sensitivity — Missing Dimension Check
+;; =========================================
+;; tp53-context := (and tp53-wt-sensitive (not tp53-impairs-wrn))
+;; tp53-wt-sensitive = True, tp53-impairs-wrn = True, so tp53-context = (and True (not True)) = False
+;; The verdict does NOT include tp53-context. Test: what if the verdict REQUIRED TP53 compatibility?
+
+(defterm wrn-verdict-with-tp53
+  (and sl-selectivity wrn-druggable wrn-biomarker-enriched immuno-rationale (not wrn-opposition-fatal) tp53-context)
+  :evidence (evidence "PMC7281075"
+    :quotes ("In tumor cell lines, the co-occurrence of WRN inactivation and MSI leads to cell death and cell cycle arrest via the acquisition of double-strand breaks and chromosomal instability."
+             "As described recently, the helicase domain of WRN is considered as a therapeutic target for synthetic lethality, as the exonuclease domain is dispensable for cell survival in MSI-H tumor cells."
+             "Chan and colleagues [11] also investigated the dependency of WRN depletion on TP53 status. They found that TP53-wt/MSI-H tumor cells were more sensitive to WRN loss than TP53-mut/MSI-H cells"
+             "For the success of WRN inhibitors, it could be essential to assess, besides MSI status, TP53 mutations as a biomarker of response, as a mutated TP53 could impair efficacy of WRN inhibition.")
+    :explanation "Alternative verdict including TP53 context as a required pillar — TP53 mutations impair WRN efficacy, so should TP53 status gate the verdict?"))
+
+(diff verdict-tp53-sensitivity
+  :replace wrn-verdict
+  :with wrn-verdict-with-tp53)
+
+;; =========================================
+;; Angle 5: Mutation Constraint Sensitivity — Stratification Risk
+;; =========================================
+;; wrn-mutation-constraint = (and wrn-mut-rare no-helicase-mutations) = True
+;; Mutations are rare (1.2%) and none in the helicase domain — this limits patient
+;; stratification by mutation status. The verdict does NOT account for this.
+;; Test: what if verdict required (not wrn-mutation-constraint)?
+
+(defterm wrn-verdict-requires-common-mutations
+  (and sl-selectivity wrn-druggable wrn-biomarker-enriched immuno-rationale (not wrn-opposition-fatal) (not wrn-mutation-constraint))
+  :evidence (evidence "PMC7281075"
+    :quotes ("WRN mutations (WRN-mut) were observed in 80 of 6854 samples (1.2%, see Table 1)."
+             "No mutations were observed in the helicase domain (see Figure 1."
+             "In tumor cell lines, the co-occurrence of WRN inactivation and MSI leads to cell death and cell cycle arrest via the acquisition of double-strand breaks and chromosomal instability."
+             "As described recently, the helicase domain of WRN is considered as a therapeutic target for synthetic lethality, as the exonuclease domain is dispensable for cell survival in MSI-H tumor cells.")
+    :explanation "Alternative verdict requiring mutations NOT to be constrained — if rare mutations and absence of helicase mutations block patient stratification, should the target be rejected?"))
+
+(diff verdict-mutation-constraint-sensitivity
+  :replace wrn-verdict
+  :with wrn-verdict-requires-common-mutations)

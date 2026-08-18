@@ -1,0 +1,34 @@
+;; ── LAYER 1: Biological evidence ── expression in CRC cells/tissues, clinicopathological correlations, and signalling-pathway regulation
+(derive prmt5-biological-evidence
+  (and prmt5-high-expression-crc-cells prmt5-high-expression-crc-tissues prmt5-overexpressed-tcga-crc prmt5-overexpressed-75pct-crc prmt5-elevated-vs-normal-mucosa-crc prmt5-negative-correlation-survival-crc prmt5-high-expression-chemoresistance-crc prmt5-regulates-akt-activation prmt5-controls-emt-via-egfr-akt-gsk3beta prmt5-regulates-egfr-activation prmt5-gsk3beta-activation-prmt5-dependent prmt5-smad4-methylation-tgfb-crc prmt5-egfr-interaction-amplifies-crc)
+  :using (prmt5-high-expression-crc-cells prmt5-high-expression-crc-tissues prmt5-overexpressed-tcga-crc prmt5-overexpressed-75pct-crc prmt5-elevated-vs-normal-mucosa-crc prmt5-negative-correlation-survival-crc prmt5-high-expression-chemoresistance-crc prmt5-regulates-akt-activation prmt5-controls-emt-via-egfr-akt-gsk3beta prmt5-regulates-egfr-activation prmt5-gsk3beta-activation-prmt5-dependent prmt5-smad4-methylation-tgfb-crc prmt5-egfr-interaction-amplifies-crc))
+
+;; ── LAYER 2: Pharmacological evidence ── interventional validation (knockdown, inhibitor dose response, normal-cell sparing)
+(derive prmt5-pharmacological-evidence
+  (and prmt5-knockdown-suppresses-proliferation-crc prmt5-inhibitor-suppresses-growth-dose-dependent prmt5-inhibitor-spares-normal-cells)
+  :using (prmt5-knockdown-suppresses-proliferation-crc prmt5-inhibitor-suppresses-growth-dose-dependent prmt5-inhibitor-spares-normal-cells))
+
+;; ── LAYER 3: KRAS-mutant selective benefit ── correlation, overexpression specificity, selective cytotoxicity, and surrogate-target rationale
+(derive prmt5-kras-mutant-benefit
+  (and prmt5-correlated-kras-crc prmt5-further-overexpressed-kras-mutant-mrna prmt5-further-overexpressed-kras-mutant-protein prmt5-greater-viability-decrease-kras-mutant prmt5-kras-mutant-apoptosis-significant prmt5-kras-mutant-g2-arrest-significant prmt5-surrogate-target-kras-mutant-crc)
+  :using (prmt5-correlated-kras-crc prmt5-further-overexpressed-kras-mutant-mrna prmt5-further-overexpressed-kras-mutant-protein prmt5-greater-viability-decrease-kras-mutant prmt5-kras-mutant-apoptosis-significant prmt5-kras-mutant-g2-arrest-significant prmt5-surrogate-target-kras-mutant-crc))
+
+;; ── LAYER 4: Preclinical translation readiness ── antitumor effect in vivo and MTAP-based biomarker for patient selection
+(derive prmt5-preclinical-translation-evidence
+  (and prmt5-inhibitors-preclinical-antitumor-effect prmt5-mtap-biomarker-patient-selection)
+  :using (prmt5-inhibitors-preclinical-antitumor-effect prmt5-mtap-biomarker-patient-selection))
+
+;; ── LAYER 5: Literature endorsement ── explicit calls for further study emerging target status
+(derive prmt5-literature-endorsement
+  (and prmt5-potential-therapeutic-target-crc prmt5-emerging-therapeutic-target-future prmt5-continued-investigation-supported)
+  :using (prmt5-potential-therapeutic-target-crc prmt5-emerging-therapeutic-target-future prmt5-continued-investigation-supported))
+
+;; ── OPPOSING LAYER A: Clinical barriers ── toxicity, biomarker insufficiency, and resistance mechanisms
+(derive prmt5-clinical-barriers-present
+  (and prmt5-hematological-toxicity-trials prmt5-lack-biomarkers-beyond-mtap prmt5-resistance-compensatory-prmt-family)
+  :using (prmt5-hematological-toxicity-trials prmt5-lack-biomarkers-beyond-mtap prmt5-resistance-compensatory-prmt-family))
+
+;; ── OPPOSING LAYER B: KRAS wild-type limited response ── no apoptosis or cell-cycle arrest in KRAS WT cells
+(derive prmt5-kras-wt-limited-response
+  (and prmt5-kras-wt-no-significant-apoptosis prmt5-kras-wt-no-significant-cell-cycle-change)
+  :using (prmt5-kras-wt-no-significant-apoptosis prmt5-kras-wt-no-significant-cell-cycle-change))

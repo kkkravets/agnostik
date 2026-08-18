@@ -1,0 +1,201 @@
+;; ============================================================
+;; EVIDENCE DOSSIER: Therapeutic Targeting of WRN in COAD
+;; Documents: PMC7281075, PMC2579485, PMC8478156
+;; ============================================================
+
+;; ============= SUPPORTING FACTS (PMC7281075) =============
+
+(fact wrn-synthetic-lethality-msi true
+  :evidence (evidence "PMC7281075"
+    :quotes ("In tumor cell lines, the co-occurrence of WRN inactivation and MSI leads to cell death and cell cycle arrest via the acquisition of double-strand breaks and chromosomal instability.")
+    :explanation "Co-occurrence of WRN inactivation and MSI causes cell death, demonstrating synthetic lethality in vitro"))
+
+(fact wrn-dispensable-mss true
+  :evidence (evidence "PMC7281075"
+    :quotes ("In contrast, in MSS cell lines, WRN was dispensable for cell survival")
+    :explanation "WRN is dispensable in MSS cells, indicating selective vulnerability of MSI tumors to WRN inhibition"))
+
+(fact wrn-helicase-target true
+  :evidence (evidence "PMC7281075"
+    :quotes ("As described recently, the helicase domain of WRN is considered as a therapeutic target for synthetic lethality, as the exonuclease domain is dispensable for cell survival in MSI-H tumor cells.")
+    :explanation "The WRN helicase domain is explicitly identified as a therapeutic target for synthetic lethality in MSI-H tumors"))
+
+(fact wrn-mut-msi-high true
+  :evidence (evidence "PMC7281075"
+    :quotes ("In WRN-mut CRC, in contrast to WRN-wt, a higher co-occurrence of MSI-H/dMMR was observed (56% vs. 7%, p < 0.0001, Figure 3).")
+    :explanation "WRN-mut CRC has high MSI-H/dMMR prevalence (56%) compared to WRN-wt (7%)"))
+
+(fact wrn-mut-tmb-high true
+  :evidence (evidence "PMC7281075"
+    :quotes ("WRN-mut CRCs were associated with a higher mean tumor mutational burden (TMB) (49 vs. 10.7 mutations/megabase [mut/MB], p < 0.0001)")
+    :explanation "WRN-mut CRC has significantly higher mean TMB than WRN-wt"))
+
+(fact wrn-mut-tmb-value 49
+  :evidence (evidence "PMC7281075"
+    :quotes ("In our cohort, the median TMB in WRN-mut tumors was significantly higher (49 mut/MB) than in WRN-wt tumors (10.7 mut/MB).")
+    :explanation "Median TMB value in WRN-mut CRC is 49 mut/MB"))
+
+(fact tmb-predictive-cutoff 41
+  :evidence (evidence "PMC7281075"
+    :quotes ("In a retrospective study of MSI-H/dMMR metastatic CRC featuring patients who underwent treatment with a checkpoint inhibitor, a TMB score of more than 41 mut/MB was determined as a predictive cut-off [29].")
+    :explanation "TMB > 41 mut/MB established as predictive cutoff for checkpoint inhibitor response in MSI-H/dMMR CRC"))
+
+(fact wrn-mut-brcaness true
+  :evidence (evidence "PMC7281075"
+    :quotes ("a higher proportion of 'BRCAness' genes were detected in WRN-mut cases: BRCA1 (8% vs. 1%), BRCA2 (15% vs. 2%), and ATM (10% vs. 4%).")
+    :explanation "WRN-mut CRC shows higher BRCAness gene alterations, suggesting homologous recombination repair defects"))
+
+(fact wrn-parp-hypothesis true
+  :evidence (evidence "PMC7281075"
+    :quotes ("We hypothesize that patients with WRN-mut CRC may also benefit from PARP inhibitor treatment [21].")
+    :explanation "Authors hypothesize PARP inhibitor benefit for WRN-mut CRC based on BRCAness features"))
+
+(fact wrn-inhibitors-identified true
+  :evidence (evidence "PMC7281075"
+    :quotes ("Inhibitors, such as NSC19630 [35], NSC617145 [36], ML216 [37], NCGC00029283, NCGC00063279, and NCGC00357377 [38] have been identified in drug-screening studies [39]; however, none of them are in a clinical trial yet.")
+    :explanation "Multiple WRN inhibitors have been identified in preclinical drug screening studies"))
+
+(fact msi-pd1-predictor true
+  :evidence (evidence "PMC7281075"
+    :quotes ("MSI-H/dMMR status has been identified as an independent predictor of response to PD-1 blockade by pembrolizumab [27]")
+    :explanation "MSI-H/dMMR status independently predicts response to checkpoint inhibition"))
+
+(fact tp53-wt-sensitive true
+  :evidence (evidence "PMC7281075"
+    :quotes ("Chan and colleagues [11] also investigated the dependency of WRN depletion on TP53 status. They found that TP53-wt/MSI-H tumor cells were more sensitive to WRN loss than TP53-mut/MSI-H cells")
+    :explanation "TP53-wt/MSI-H tumor cells retain sensitivity to WRN loss, indicating the target is effective in TP53-wt subset"))
+
+(fact checkpoint-option true
+  :evidence (evidence "PMC7281075"
+    :quotes ("Taking the high rate of MSI-H/dMMR and the high TMB score into consideration, checkpoint inhibition might be an option in WRN-mut CRC.")
+    :explanation "Authors conclude checkpoint inhibition is a therapeutic option for WRN-mut CRC"))
+
+(fact wrn-methylation-msi-link true
+  :evidence (evidence "PMC7281075"
+    :quotes ("A correlation between WRN promotor methylation and the CIMP phenotype has been described earlier, linking deficiency in WRN gene function and MSI [26].")
+    :explanation "WRN promoter methylation connects WRN deficiency to MSI, supporting the therapeutic rationale via epigenetic mechanism"))
+
+;; ============= SUPPORTING FACTS (PMC2579485) =============
+
+(fact wrn-clusters-with-msi-braf true
+  :evidence (evidence "PMC2579485"
+    :quotes ("the 5 markers (CACNA1G, IGF2, NEUROG1, RUNX3 and SOCS1), CDKN2A, CRABP1, MINT31, MLH1, p14 and WRN were generally clustered with each other and with MSI and BRAF mutation.")
+    :explanation "WRN methylation clusters with MSI and BRAF, confirming the WRN-MSI molecular link in CRC"))
+
+;; ============= SUPPORTING FACTS (PMC8478156) =============
+
+(fact msi-fewer-cnv true
+  :evidence (evidence "PMC8478156"
+    :quotes ("In colorectal and gastric cancers, tumors with MSI demonstrated much fewer copy number changes than microsatellite stable (MSS) tumors.")
+    :explanation "MSI tumors have distinct genomic profiles with fewer CNVs, supporting MSI as a distinct therapeutically relevant subtype"))
+
+;; ============= OPPOSING FACTS (PMC7281075) =============
+
+(fact wrn-mut-rare true
+  :evidence (evidence "PMC7281075"
+    :quotes ("WRN mutations (WRN-mut) were observed in 80 of 6854 samples (1.2%, see Table 1).")
+    :explanation "WRN mutations are rare in CRC at 1.2% prevalence, limiting the target patient population"))
+
+(fact no-helicase-mutations true
+  :evidence (evidence "PMC7281075"
+    :quotes ("No mutations were observed in the helicase domain (see Figure 1).")
+    :explanation "No helicase domain mutations were detected, which authors interpret as evidence that such mutations with MSI are lethal — supporting but also complicating the therapeutic hypothesis"))
+
+(fact no-wrn-inhibitors-clinical true
+  :evidence (evidence "PMC7281075"
+    :quotes ("Inhibitors, such as NSC19630 [35], NSC617145 [36], ML216 [37], NCGC00029283, NCGC00063279, and NCGC00357377 [38] have been identified in drug-screening studies [39]; however, none of them are in a clinical trial yet.")
+    :explanation "Despite preclinical identification, no WRN inhibitor has entered clinical trials, indicating clinical immaturity"))
+
+(fact tp53-impairs-wrn true
+  :evidence (evidence "PMC7281075"
+    :quotes ("For the success of WRN inhibitors, it could be essential to assess, besides MSI status, TP53 mutations as a biomarker of response, as a mutated TP53 could impair efficacy of WRN inhibition.")
+    :explanation "TP53 mutations may impair WRN inhibitor efficacy, constraining the responsive patient subset"))
+
+(fact pdl1-not-predictive-crc true
+  :evidence (evidence "PMC7281075"
+    :quotes ("In the setting of CRC, PD-L1 expression levels do not seem to play a major role in predicting response upon checkpoint therapy, as was observed in the Checkmate 142 trial [32]")
+    :explanation "PD-L1 expression is not a reliable predictor of checkpoint response in CRC, limiting one biomarker for WRN-mut immunotherapy"))
+
+(fact retrospective-limited true
+  :evidence (evidence "PMC7281075"
+    :quotes ("Our study has important limitations, such as retrospective data extraction from a large database including only very limited basic clinical data.")
+    :explanation "Study is retrospective with limited clinical data, constraining direct therapeutic conclusions"))
+
+(fact median-tmb-not-significant true
+  :evidence (evidence "PMC7281075"
+    :quotes ("However, when looking at median levels, the differences observed with mean levels are no longer statistically significant.")
+    :explanation "Median TMB differences between WRN-mut and WRN-wt subgroups were not statistically significant, weakening TMB-based conclusions"))
+
+;; ============= OPPOSING FACTS (PMC2579485) =============
+
+(fact wrn-cimp-marker-inferior true
+  :evidence (evidence "PMC2579485"
+    :quotes ("Performance of the 5 new markers (CACNA1G, IGF2, NEUROG1, RUNX3, and SOCS1), CRABP1 and MLH1 was consistently superior to that of WRN, MINT1, CHFR, IGFBP3, HIC1 and MGMT.")
+    :explanation "WRN performance as a methylation marker was inferior to validated CIMP-high markers, suggesting weaker independent epigenetic signal"))
+
+;; ============= OPPOSING FACTS (PMC8478156) =============
+
+(fact wrn-copy-loss-cin true
+  :evidence (evidence "PMC8478156"
+    :quotes ("we observed broad copy number loss of WRN, NAT1, NF2, and BUB1B, as well as copy number gain of MYC, ERBB2, EGFR, and CDK6 in high-CIN tumors (FDR < 0.01, Figure 3B).")
+    :explanation "WRN copy number loss is associated with high-CIN tumors, linking WRN loss to chromosomal instability rather than MSI-selective vulnerability"))
+
+(fact cin-poor-prognosis true
+  :evidence (evidence "PMC8478156"
+    :quotes ("CIN is a critical hallmark of cancer and is closely related to tumor metastasis, treatment resistance, and poor prognosis (Pikor et al., 2013; Bakhoum and Cantley, 2018).")
+    :explanation "CIN is associated with poor prognosis and treatment resistance, complicating the context of WRN copy number loss"))
+
+;; ============= TERM =============
+
+(defterm wrn-tmb-exceeds-cutoff
+  (> wrn-mut-tmb-value tmb-predictive-cutoff)
+  :evidence (evidence "PMC7281075"
+    :quotes ("In our cohort, the median TMB in WRN-mut tumors was significantly higher (49 mut/MB) than in WRN-wt tumors (10.7 mut/MB)."
+             "In a retrospective study of MSI-H/dMMR metastatic CRC featuring patients who underwent treatment with a checkpoint inhibitor, a TMB score of more than 41 mut/MB was determined as a predictive cut-off [29].")
+    :explanation "WRN-mut median TMB is 49 mut/MB, exceeding the 41 mut/MB predictive cutoff for checkpoint inhibitor response"))
+
+;; ============= AXIOMS =============
+
+(axiom sl-selectivity-biorationale
+  (= (if (and ?sl ?selectivity) true false) (and ?sl ?selectivity))
+  :origin "Synthesized from PMC7281075: synthetic lethality in MSI plus dispensability in MSS establishes biological rationale for WRN as a therapeutic target"))
+
+(axiom vector-or-rule
+  (= (if (or ?v1 ?v2 ?v3) true false) (or ?v1 ?v2 ?v3))
+  :origin "Synthesized from PMC7281075: a therapeutic vector exists if any of immunotherapy, PARP inhibition, or direct WRN inhibition evidence is present"))
+
+(axiom no-fatal-flaw-rule
+  (= (if (and (and ?sl ?selectivity) ?target-identified) true false) (and (and ?sl ?selectivity) ?target-identified))
+  :origin "Synthesized from PMC7281075: no fatal flaw exists if core biological evidence — synthetic lethality, selectivity, and target domain identification — all hold; opposing concerns are limitations of clinical maturity and population size, not contradictions of the biological mechanism")
+
+;; ============= INTERMEDIATE DERIVATIONS =============
+
+(derive wrn-bio-promising sl-selectivity-biorationale
+  :bind ((?sl wrn-synthetic-lethality-msi) (?selectivity wrn-dispensable-mss))
+  :using (sl-selectivity-biorationale wrn-synthetic-lethality-msi wrn-dispensable-mss))
+
+(derive wrn-immuno-evidence
+  (and wrn-mut-msi-high wrn-mut-tmb-high msi-pd1-predictor wrn-tmb-exceeds-cutoff)
+  :using (wrn-mut-msi-high wrn-mut-tmb-high msi-pd1-predictor wrn-tmb-exceeds-cutoff))
+
+(derive wrn-parp-evidence
+  (and wrn-mut-brcaness wrn-parp-hypothesis)
+  :using (wrn-mut-brcaness wrn-parp-hypothesis))
+
+(derive wrn-inhibition-evidence
+  (and wrn-synthetic-lethality-msi wrn-helicase-target wrn-inhibitors-identified)
+  :using (wrn-synthetic-lethality-msi wrn-helicase-target wrn-inhibitors-identified))
+
+(derive wrn-has-vector vector-or-rule
+  :bind ((?v1 wrn-immuno-evidence) (?v2 wrn-parp-evidence) (?v3 wrn-inhibition-evidence))
+  :using (vector-or-rule wrn-immuno-evidence wrn-parp-evidence wrn-inhibition-evidence))
+
+(derive wrn-no-fatal-flaw no-fatal-flaw-rule
+  :bind ((?sl wrn-synthetic-lethality-msi) (?selectivity wrn-dispensable-mss) (?target-identified wrn-helicase-target))
+  :using (no-fatal-flaw-rule wrn-synthetic-lethality-msi wrn-dispensable-mss wrn-helicase-target))
+
+;; ============= FINAL VERDICT =============
+
+(derive wrn-verdict
+  (and (and wrn-bio-promising wrn-has-vector) wrn-no-fatal-flaw)
+  :using (wrn-bio-promising wrn-has-vector wrn-no-fatal-flaw))

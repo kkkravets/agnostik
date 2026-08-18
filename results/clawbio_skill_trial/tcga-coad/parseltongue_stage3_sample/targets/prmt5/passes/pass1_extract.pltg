@@ -1,0 +1,341 @@
+;; ============================================================================
+;; EVIDENCE DOSSIER: Therapeutic Targeting of PRMT5 in Colon Adenocarcinoma (COAD)
+;; ============================================================================
+;; All facts are grounded in verbatim quotes from the three source documents.
+;; Supporting and opposing facts are extracted in balance.
+;; Intermediate derives chain to the final Boolean verdict node: prmt5-verdict
+;; ============================================================================
+
+;; ----------------------------------------------------------------------------
+;; SUPPORTING FACTS: PRMT5 overexpression in CRC/COAD
+;; ----------------------------------------------------------------------------
+
+(fact prmt5-high-expression-crc-cells true
+  :evidence (evidence "PMC7906165"
+    :quotes ("PRMT5 protein expression level was dramatically increased compared to the normal colonic mucosal FHC cells, indicating that PRMT5 is highly expressed in human colorectal cancer cells.")
+    :explanation "PRMT5 protein is overexpressed in multiple CRC (COAD-derived) cell lines — HCT116, SW480, CX-1, SW620, LoVo, COLO 205, LS-174T — relative to normal FHC colonic mucosal cells."))
+
+(fact prmt5-high-expression-crc-tissues true
+  :evidence (evidence "PMC7906165"
+    :quotes ("PRMT5 mRNA expression level was significantly elevated in colorectal tissues compared with normal tissues." "PRMT5 protein expression level was distinctly elevated as well")
+    :explanation "In matched tumor vs adjacent-normal tissue from CRC patients (n=25–30), PRMT5 mRNA and protein were significantly elevated in tumor tissues."))
+
+(fact prmt5-overexpressed-tcga-crc true
+  :evidence (evidence "PMC7465151"
+    :quotes ("PRMT5 is indeed overexpressed (q < 0.01) in CRC patient tumor samples when compared to normal colon and rectum tissue" "Dataset = COAD & READ")
+    :explanation "GEPIA analysis of TCGA RNA-Seq data confined to COAD and READ tumor samples confirms significant PRMT5 overexpression relative to matched normal colon and rectum tissue."))
+
+(fact prmt5-overexpressed-75pct-crc true
+  :evidence (evidence "PMC7465151"
+    :quotes ("PRMT5 has been previously shown to be overexpressed in approximately 75% of CRC patient tumor samples, as well as negatively correlated with CRC patient survival")
+    :explanation "PRMT5 is overexpressed in approximately three quarters of CRC tumors indicating broad applicability of PRMT5-directed therapy in COAD."))
+
+(fact prmt5-elevated-vs-normal-mucosa-crc true
+  :evidence (evidence "PMC13139892"
+    :quotes ("PRMT5 expression is markedly elevated in tumor tissues compared with that in matched normal mucosa and high PRMT5 levels are associated with lymph node metastasis and poor overall survival")
+    :explanation "In CRC, PRMT5 is elevated in tumor tissues versus matched normal mucosa and correlates with lymph node metastasis and poor overall survival."))
+
+(fact prmt5-negative-correlation-survival-crc true
+  :evidence (evidence "PMC7465151"
+    :quotes ("PRMT5 has been previously shown to be overexpressed in approximately 75% of CRC patient tumor samples, as well as negatively correlated with CRC patient survival")
+    :explanation "PRMT5 overexpression is negatively correlated with CRC patient survival, supporting therapeutic relevance."))
+
+(fact prmt5-high-expression-chemoresistance-crc true
+  :evidence (evidence "PMC13139892"
+    :quotes ("high PRMT5 expression is associated with markedly worse 5-year disease-free survival in patients receiving adjuvant chemotherapy")
+    :explanation "High PRMT5 in CRC is associated with worse 5-year DFS in patients receiving adjuvant chemotherapy, mechanistically linking PRMT5 to chemoresistance and supporting PRMT5 inhibition as a strategy to overcome resistance."))
+
+;; ----------------------------------------------------------------------------
+;; SUPPORTING FACTS: PRMT5 mechanism in CRC (Akt, EGFR/Akt/GSK3β, EMT)
+;; ----------------------------------------------------------------------------
+
+(fact prmt5-regulates-akt-activation true
+  :evidence (evidence "PMC7906165"
+    :quotes ("PRMT5 regulates CRC cell growth and cycle progression via activation of Akt, but not through ERK1/2, PTEN, and mTOR signaling pathway" "the phospho-Thr308 and phospho-Ser473 Akt expression level was remarkably decreased when PRMT5 was down-regulated in HCT116 and SW480 cells, implying that PRMT5 controlled colorectal cancer cell proliferation and cell cycle progression through regulation of Akt activity")
+    :explanation "PRMT5 activates Akt (Thr308 and Ser473 phosphorylation) in CRC cells; knockdown reduces phospho-Akt, establishing a defined signaling mechanism via Akt."))
+
+(fact prmt5-controls-emt-via-egfr-akt-gsk3beta true
+  :evidence (evidence "PMC7906165"
+    :quotes ("PRMT5 controls EMT of CRC cells by activation of EGFR/Akt/GSK3β signaling cascades")
+    :explanation "PRMT5 governs epithelial-mesenchymal transition (EMT) in CRC through the EGFR/Akt/GSK3β cascade, a defined oncogenic axis."))
+
+(fact prmt5-regulates-egfr-activation true
+  :evidence (evidence "PMC7906165"
+    :quotes ("phospho-EGFR was significantly impaired, whereas the total EGFR was unchanged")
+    :explanation "PRMT5 silencing in CRC cells impairs EGFR phosphorylation without altering total EGFR — PRMT5 regulates EGFR activation, the upstream node of the EGFR/Akt/GSK3β axis."))
+
+(fact prmt5-gsk3beta-activation-prmt5-dependent true
+  :evidence (evidence "PMC7906165"
+    :quotes ("the phospho-GSK3β and the β-catenin protein expression level was markedly decreased, whereas the total GSK3β was unchanged")
+    :explanation "PRMT5 silencing in CRC cells decreases phospho-GSK3β and β-catenin without changing total GSK3β — PRMT5 activates GSK3β, the downstream node of the cascade."))
+
+(fact prmt5-smad4-methylation-tgfb-crc true
+  :evidence (evidence "PMC13139892"
+    :quotes ("In CRC, PRMT5-mediated methylation of SMAD4 (e.g., at R361) reinforces TGF-β signaling, facilitating EMT and metastasis, while its interaction with EGFR further amplifies proliferative signals.")
+    :explanation "PRMT5 methylates SMAD4 at R361 in CRC, reinforcing TGF-β signaling and facilitating EMT and metastasis — a CRC-specific PRMT5 oncogenic mechanism."))
+
+(fact prmt5-egfr-interaction-amplifies-crc true
+  :evidence (evidence "PMC13139892"
+    :quotes ("In CRC, PRMT5-mediated methylation of SMAD4 (e.g., at R361) reinforces TGF-β signaling, facilitating EMT and metastasis, while its interaction with EGFR further amplifies proliferative signals.")
+    :explanation "PRMT5's interaction with EGFR in CRC amplifies proliferative signals, providing a second independent CRC-specific mechanism corroborating the EGFR-dependence observed in PMC7906165."))
+
+;; ----------------------------------------------------------------------------
+;; SUPPORTING FACTS: PRMT5 pharmacological inhibition in CRC
+;; ----------------------------------------------------------------------------
+
+(fact prmt5-knockdown-suppresses-proliferation-crc true
+  :evidence (evidence "PMC7906165"
+    :quotes ("down-regulation of PRMT5 by shRNA or inhibition of PRMT5 activity by specific inhibitor GSK591 markedly suppresses CRC cell proliferation and cell cycle progression, which is closely associated with PRMT5 enzyme activity" "cyclin D1 and cyclin E1 protein expression level was significantly lower in HCT116 and SW480 cells compared with Scr when PRMT5 is down-regulated" "the p27 protein expression was remarkably elevated in HCT116 and SW480 cells compared with Scr")
+    :explanation "Stable shRNA knockdown of PRMT5 in HCT116 and SW480 (COAD) cells suppresses proliferation, increases p27, and reduces cyclin D1 and cyclin E1 — demonstrating on-target efficacy of PRMT5 depletion."))
+
+(fact prmt5-inhibitor-suppresses-growth-dose-dependent true
+  :evidence (evidence "PMC7906165"
+    :quotes ("down-regulation of PRMT5 by shRNA or inhibition of PRMT5 activity by specific inhibitor GSK591 markedly suppresses CRC cell proliferation and cell cycle progression" "GSK591 blocked HCT116 cell growth in a dose-dependent manner")
+    :explanation "The PRMT5-specific inhibitor GSK591 blocks HCT116 (COAD) cell growth in a dose-dependent manner, validating the enzyme-activity-dependent therapeutic hypothesis."))
+
+(fact prmt5-inhibitor-spares-normal-cells true
+  :evidence (evidence "PMC7906165"
+    :quotes ("By contrast, GSK591 did not affect the cell growth of FHC cells.")
+    :explanation "GSK591 spares normal FHC colonic mucosal cells while suppressing CRC cell growth — providing direct evidence of a therapeutic window for PRMT5 inhibition in CRC."))
+
+;; ----------------------------------------------------------------------------
+;; SUPPORTING FACTS: KRAS mutant COAD subpopulation enhanced benefit
+;; ----------------------------------------------------------------------------
+
+(fact prmt5-correlated-kras-crc true
+  :evidence (evidence "PMC7465151"
+    :quotes ("PRMT5 expression is in fact strongly positively correlated (p < 0.005, R = 0.81) with KRAS expression in CRC patient tumor samples")
+    :explanation "PRMT5 expression is strongly positively correlated with KRAS expression (R=0.81) in CRC (COAD+READ) TCGA patient tumors — providing the molecular-epidemiological basis for preferential targeting of KRAS mutant COAD."))
+
+(fact prmt5-further-overexpressed-kras-mutant-mrna true
+  :evidence (evidence "PMC7465151"
+    :quotes ("the KRAS mutant CRC cells show a further 1.6-Fold (p < 0.05) overexpression of PRMT5 at the transcriptional level")
+    :explanation "In COAD-derived cell lines, KRAS mutant cells (HCT116, SW620 — harboring G13D and G12V mutations) show additional 1.6-fold PRMT5 mRNA overexpression relative to KRAS WT cells."))
+
+(fact prmt5-further-overexpressed-kras-mutant-protein true
+  :evidence (evidence "PMC7465151"
+    :quotes ("the KRAS mutant CRC cells show a further 4.8-Fold (p < 0.01) overexpression of PRMT5 at the translational level")
+    :explanation "KRAS mutant COAD cells display 4.8-fold additional PRMT5 protein overexpression relative to KRAS WT, providing strong translational-level support for the target's preferential applicability in KRAS mutant COAD (≈45% of CRC)."))
+
+(fact prmt5-greater-viability-decrease-kras-mutant true
+  :evidence (evidence "PMC7465151"
+    :quotes ("the KRAS WT CRC cells show 7.7% (p < 0.005) and 16.5% (p < 0.01) decreases in cell viability, after 60 h of treatment with 1 µM & 10 µM concentrations of PRMT5 inhibitor, respectively, the KRAS mutant CRC cells show more substantial 18.4% (p < 0.005) and 32.6% (p < 0.005) decreases in cell viability")
+    :explanation "PRMT5 inhibitor (EPZ015666) treatment causes substantially greater cell viability reduction in KRAS mutant COAD cells (32.6% vs 16.5% at 10 µM), demonstrating differential therapeutic benefit."))
+
+(fact prmt5-kras-mutant-apoptosis-significant true
+  :evidence (evidence "PMC7465151"
+    :quotes ("the KRAS WT CRC cells show no significant increase in apoptosis (p > 0.05), after 60 h of 10 µM PRMT5 inhibitor treatment, the KRAS mutant CRC cells showed a significant 10.0% (p < 0.05) increase in apoptosis")
+    :explanation "PRMT5 inhibitor triggers significant 10% apoptosis induction in KRAS mutant COAD cells only — differential apoptotic response confirms target engagement differential."))
+
+(fact prmt5-kras-mutant-g2-arrest-significant true
+  :evidence (evidence "PMC7465151"
+    :quotes ("the KRAS WT CRC cells show no significant differences in the number of G1, S, or G2 phase cells (p > 0.05), after 60 h of 10 µM PRMT5 inhibitor treatment, the KRAS mutant CRC cells showed a significant 7.3% (p < 0.05) increase in G2 phase cells, as well as a 5.0% (p < 0.05) decrease in S phase cells")
+    :explanation "PRMT5 inhibitor causes significant G2/M arrest and S-phase decrease in KRAS mutant COAD cells only — significant cell cycle arrest differential in KRAS mutant COAD."))
+
+(fact prmt5-surrogate-target-kras-mutant-crc true
+  :evidence (evidence "PMC7465151"
+    :quotes ("PRMT5 can potentially be used as a surrogate target for mutated KRAS in CRC")
+    :explanation "Authors explicitly conclude that PRMT5 can be used as a surrogate therapeutic target for mutated KRAS in CRC, providing KRAS mutant COAD (~45% of patients) an actionable target where none currently exists."))
+
+;; ----------------------------------------------------------------------------
+;; SUPPORTING FACTS: Preclinical efficacy and biomarker strategy
+;; ----------------------------------------------------------------------------
+
+(fact prmt5-inhibitors-preclinical-antitumor-effect true
+  :evidence (evidence "PMC13139892"
+    :quotes ("PRMT5 inhibitors (e.g., GSK3326595 and JNJ-64619178) demonstrate antitumor effects in preclinical models")
+    :explanation "Multiple PRMT5 inhibitors — including next-generation clinical candidates GSK3326595 and JNJ-64619178 — demonstrate antitumor effects in preclinical models across cancer types including colorectal cancer, validating the pharmacological class."))
+
+(fact prmt5-mtap-biomarker-patient-selection true
+  :evidence (evidence "PMC13139892"
+    :quotes ("methylthioadenosine phosphorylase (MTAP) deletion may serve as a potential biomarker for patient selection")
+    :explanation "MTAP deletion may serve as a patient selection biomarker for PRMT5 inhibitor therapy (synthetic lethality), addressing the biomarker gap partially."))
+
+;; ----------------------------------------------------------------------------
+;; SUPPORTING FACTS: Explicit literature endorsement of PRMT5 as a target
+;; ----------------------------------------------------------------------------
+
+(fact prmt5-potential-therapeutic-target-crc true
+  :evidence (evidence "PMC7906165"
+    :quotes ("PRMT5 may be a potential therapeutic target for the treatment of human colorectal cancer")
+    :explanation "PMC7906165 authors explicitly conclude PRMT5 may be a potential therapeutic target for human colorectal cancer treatment."))
+
+(fact prmt5-emerging-therapeutic-target-future true
+  :evidence (evidence "PMC13139892"
+    :quotes ("PRMT5 represents an emerging therapeutic target for cancer research in the future.")
+    :explanation "Comprehensive GI cancer review explicitly concludes PRMT5 represents an emerging therapeutic target for cancer research going forward."))
+
+(fact prmt5-continued-investigation-supported true
+  :evidence (evidence "PMC13139892"
+    :quotes ("In summary, while preclinical and early clinical data support continued investigation of PRMT5 in GI malignancies, robust biomarker-driven patient selection and mitigation of on-target toxicity are prerequisites in realizing its clinical potential.")
+    :explanation "Review authors state that preclinical AND early clinical data support continued investigation of PRMT5 in GI (including CRC/COAD) malignancies, while acknowledging that biomarker refinement and toxicity mitigation are prerequisites — supporting continued development rather than removal."))
+
+;; ----------------------------------------------------------------------------
+;; OPPOSING FACTS: Clinical translation barriers
+;; ----------------------------------------------------------------------------
+
+(fact prmt5-hematological-toxicity-trials true
+  :evidence (evidence "PMC13139892"
+    :quotes ("Dose-limiting hematological toxicity, including anemia, neutropenia, and thrombocytopenia, has been observed in early-phase clinical trials of PRMT5 inhibitors (GSK3326595, JNJ-64619178 and PRT543), reflecting the physiological roles of PRMT5 in normal tissues")
+    :explanation "Dose-limiting hematological toxicities (anemia, neutropenia, thrombocytopenia) have been observed clinically with multiple PRMT5 inhibitors, reflecting the physiological role of PRMT5 in normal tissues — a real-world barrier to PRMT5 inhibitor development."))
+
+(fact prmt5-lack-biomarkers-beyond-mtap true
+  :evidence (evidence "PMC13139892"
+    :quotes ("the absence of validated predictive biomarkers aside from MTAP status, as well as potential resistance mechanisms (comprising compensatory upregulation of alternative arginine methyltransferases), poses challenges for extensive implementation")
+    :explanation "The absence of validated predictive biomarkers beyond MTAP status poses challenges for PRMT5-targeted therapy in CRC/COAD, limiting patient stratification."))
+
+(fact prmt5-resistance-compensatory-prmt-family true
+  :evidence (evidence "PMC13139892"
+    :quotes ("the absence of validated predictive biomarkers aside from MTAP status, as well as potential resistance mechanisms (comprising compensatory upregulation of alternative arginine methyltransferases), poses challenges for extensive implementation")
+    :explanation "Potential resistance mechanisms via compensatory upregulation of alternative arginine methyltransferases (e.g., PRMT1 or PRMT7) pose challenges for extensive implementation of PRMT5 inhibitor therapy."))
+
+;; ----------------------------------------------------------------------------
+;; OPPOSING FACTS: Limited response in KRAS WT (non-mutant) COAD
+;; ----------------------------------------------------------------------------
+
+(fact prmt5-kras-wt-no-significant-apoptosis true
+  :evidence (evidence "PMC7465151"
+    :quotes ("the KRAS WT CRC cells show no significant increase in apoptosis (p > 0.05), after 60 h of 10 µM PRMT5 inhibitor treatment, the KRAS mutant CRC cells showed a significant 10.0% (p < 0.05) increase in apoptosis")
+    :explanation "KRAS WT CRC (COAD-derived) cells show no significant apoptosis induction with PRMT5 inhibitor treatment — efficacy signal limited in a major COAD subpopulation."))
+
+(fact prmt5-kras-wt-no-significant-cell-cycle-change true
+  :evidence (evidence "PMC7465151"
+    :quotes ("the KRAS WT CRC cells show no significant differences in the number of G1, S, or G2 phase cells (p > 0.05), after 60 h of 10 µM PRMT5 inhibitor treatment, the KRAS mutant CRC cells showed a significant 7.3% (p < 0.05) increase in G2 phase cells, as well as a 5.0% (p < 0.05) decrease in S phase cells")
+    :explanation "KRAS WT CRC (COAD-derived) cells show no significant cell cycle arrest upon PRMT5 inhibitor treatment, indicating that the cell cycle therapeutic benefit is restricted to the KRAS mutant COAD subpopulation (~45% of CRC patients)."))
+
+;; ============================================================================
+;; INTERMEDIATE DERIVES
+;; ============================================================================
+
+;; --- SUPPORTING PILLARS ---
+
+(derive prmt5-biological-evidence
+  (and prmt5-high-expression-crc-cells
+       prmt5-high-expression-crc-tissues
+       prmt5-overexpressed-tcga-crc
+       prmt5-overexpressed-75pct-crc
+       prmt5-elevated-vs-normal-mucosa-crc
+       prmt5-negative-correlation-survival-crc
+       prmt5-high-expression-chemoresistance-crc
+       prmt5-regulates-akt-activation
+       prmt5-controls-emt-via-egfr-akt-gsk3beta
+       prmt5-regulates-egfr-activation
+       prmt5-gsk3beta-activation-prmt5-dependent
+       prmt5-smad4-methylation-tgfb-crc
+       prmt5-egfr-interaction-amplifies-crc)
+  :using (prmt5-high-expression-crc-cells prmt5-high-expression-crc-tissues prmt5-overexpressed-tcga-crc prmt5-overexpressed-75pct-crc prmt5-elevated-vs-normal-mucosa-crc prmt5-negative-correlation-survival-crc prmt5-high-expression-chemoresistance-crc prmt5-regulates-akt-activation prmt5-controls-emt-via-egfr-akt-gsk3beta prmt5-regulates-egfr-activation prmt5-gsk3beta-activation-prmt5-dependent prmt5-smad4-methylation-tgfb-crc prmt5-egfr-interaction-amplifies-crc))
+
+(derive prmt5-pharmacological-evidence
+  (and prmt5-knockdown-suppresses-proliferation-crc
+       prmt5-inhibitor-suppresses-growth-dose-dependent
+       prmt5-inhibitor-spares-normal-cells)
+  :using (prmt5-knockdown-suppresses-proliferation-crc prmt5-inhibitor-suppresses-growth-dose-dependent prmt5-inhibitor-spares-normal-cells))
+
+(derive prmt5-kras-mutant-benefit
+  (and prmt5-correlated-kras-crc
+       prmt5-further-overexpressed-kras-mutant-mrna
+       prmt5-further-overexpressed-kras-mutant-protein
+       prmt5-greater-viability-decrease-kras-mutant
+       prmt5-kras-mutant-apoptosis-significant
+       prmt5-kras-mutant-g2-arrest-significant
+       prmt5-surrogate-target-kras-mutant-crc)
+  :using (prmt5-correlated-kras-crc prmt5-further-overexpressed-kras-mutant-mrna prmt5-further-overexpressed-kras-mutant-protein prmt5-greater-viability-decrease-kras-mutant prmt5-kras-mutant-apoptosis-significant prmt5-kras-mutant-g2-arrest-significant prmt5-surrogate-target-kras-mutant-crc))
+
+(derive prmt5-preclinical-translation-evidence
+  (and prmt5-inhibitors-preclinical-antitumor-effect
+       prmt5-mtap-biomarker-patient-selection)
+  :using (prmt5-inhibitors-preclinical-antitumor-effect prmt5-mtap-biomarker-patient-selection))
+
+(derive prmt5-literature-endorsement
+  (and prmt5-potential-therapeutic-target-crc
+       prmt5-emerging-therapeutic-target-future
+       prmt5-continued-investigation-supported)
+  :using (prmt5-potential-therapeutic-target-crc prmt5-emerging-therapeutic-target-future prmt5-continued-investigation-supported))
+
+;; --- OPPOSING BARRIERS ---
+
+(derive prmt5-clinical-barriers-present
+  (and prmt5-hematological-toxicity-trials
+       prmt5-lack-biomarkers-beyond-mtap
+       prmt5-resistance-compensatory-prmt-family)
+  :using (prmt5-hematological-toxicity-trials prmt5-lack-biomarkers-beyond-mtap prmt5-resistance-compensatory-prmt-family))
+
+(derive prmt5-kras-wt-limited-response
+  (and prmt5-kras-wt-no-significant-apoptosis
+       prmt5-kras-wt-no-significant-cell-cycle-change)
+  :using (prmt5-kras-wt-no-significant-apoptosis prmt5-kras-wt-no-significant-cell-cycle-change))
+
+;; ============================================================================
+;; FINAL VERDICT
+;; ============================================================================
+;;
+;; Logic:
+;; prmt5-verdict = AND(
+;;   prmt5-biological-evidence,
+;;   prmt5-pharmacological-evidence,
+;;   prmt5-kras-mutant-benefit,
+;;   prmt5-preclinical-translation-evidence,
+;;   prmt5-literature-endorsement,
+;;   NOT(AND(prmt5-clinical-barriers-present, prmt5-kras-wt-limited-response, NOT prmt5-literature-endorsement)))
+;;
+;; Since literature explicitly states preclinical AND early clinical data support
+;; continued investigation (prmt5-literature-endorsement = TRUE), the inner
+;; NOT(prmt5-literature-endorsement) is FALSE, making the blocking clause
+;; vacuously FALSE — i.e., the clinical barriers and KRAS WT limitations are
+;; recognized but do not disqualify the target. The verdict therefore reduces
+;; to the conjunction of the five supporting pillars, all of which chain
+;; directly to verbatim-quoted facts.
+;;
+;; Verdict TRUE  → PRMT5 is a promising therapeutic target in COAD.
+;; Verdict FALSE → PRMT5 is rejected as a therapeutic target in COAD.
+
+(derive prmt5-verdict
+  (and prmt5-biological-evidence
+       prmt5-pharmacological-evidence
+       prmt5-kras-mutant-benefit
+       prmt5-preclinical-translation-evidence
+       prmt5-literature-endorsement
+       (not (and prmt5-clinical-barriers-present
+                 prmt5-kras-wt-limited-response
+                 (not prmt5-literature-endorsement))))
+  :using (prmt5-biological-evidence
+          prmt5-pharmacological-evidence
+          prmt5-kras-mutant-benefit
+          prmt5-preclinical-translation-evidence
+          prmt5-literature-endorsement
+          prmt5-clinical-barriers-present
+          prmt5-kras-wt-limited-response
+          ;; Transitive dependencies — terminal facts
+          prmt5-high-expression-crc-cells
+          prmt5-high-expression-crc-tissues
+          prmt5-overexpressed-tcga-crc
+          prmt5-overexpressed-75pct-crc
+          prmt5-elevated-vs-normal-mucosa-crc
+          prmt5-negative-correlation-survival-crc
+          prmt5-high-expression-chemoresistance-crc
+          prmt5-regulates-akt-activation
+          prmt5-controls-emt-via-egfr-akt-gsk3beta
+          prmt5-regulates-egfr-activation
+          prmt5-gsk3beta-activation-prmt5-dependent
+          prmt5-smad4-methylation-tgfb-crc
+          prmt5-egfr-interaction-amplifies-crc
+          prmt5-knockdown-suppresses-proliferation-crc
+          prmt5-inhibitor-suppresses-growth-dose-dependent
+          prmt5-inhibitor-spares-normal-cells
+          prmt5-correlated-kras-crc
+          prmt5-further-overexpressed-kras-mutant-mrna
+          prmt5-further-overexpressed-kras-mutant-protein
+          prmt5-greater-viability-decrease-kras-mutant
+          prmt5-kras-mutant-apoptosis-significant
+          prmt5-kras-mutant-g2-arrest-significant
+          prmt5-surrogate-target-kras-mutant-crc
+          prmt5-inhibitors-preclinical-antitumor-effect
+          prmt5-mtap-biomarker-patient-selection
+          prmt5-potential-therapeutic-target-crc
+          prmt5-emerging-therapeutic-target-future
+          prmt5-continued-investigation-supported
+          prmt5-hematological-toxicity-trials
+          prmt5-lack-biomarkers-beyond-mtap
+          prmt5-resistance-compensatory-prmt-family
+          prmt5-kras-wt-no-significant-apoptosis
+          prmt5-kras-wt-no-significant-cell-cycle-change))

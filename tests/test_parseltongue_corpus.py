@@ -17,6 +17,7 @@ from agnostik.parseltongue_corpus import (
     Stage3Config,
     build_stage4_export,
     discover_sources,
+    export_completed_targets,
     run_stage3,
     select_target_sources,
     target_query,
@@ -88,6 +89,35 @@ class Stage3ExportTests(unittest.TestCase):
             self.assertEqual(
                 set(payload), {"DATA", "STRUCTURE_DATA", "LAYERS", "TAINT_DATA"}
             )
+
+    def test_exports_only_completed_targets(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            output_dir = Path(temporary)
+            target_dir = output_dir / "targets" / "egfr"
+            target_dir.mkdir(parents=True)
+            system = target_system("EGFR")
+            (target_dir / "system.json").write_text(
+                json.dumps(system.to_dict(), default=str), encoding="utf-8"
+            )
+            (target_dir / "manifest.json").write_text(
+                json.dumps(
+                    {
+                        "target": "EGFR",
+                        "status": "complete",
+                        "sources": ["PMC-EGFR.txt"],
+                    }
+                ),
+                encoding="utf-8",
+            )
+
+            export_path, completed = export_completed_targets(
+                output_dir, ("EGFR", "KRAS")
+            )
+
+            self.assertEqual(completed, ("EGFR",))
+            self.assertTrue(export_path.is_file())
+            views = discover(load_export(export_path), ["EGFR"])
+            self.assertEqual(views[0].symbol, "EGFR")
 
     def test_runs_independent_targets_concurrently_with_separate_providers(self):
         with tempfile.TemporaryDirectory() as temporary:

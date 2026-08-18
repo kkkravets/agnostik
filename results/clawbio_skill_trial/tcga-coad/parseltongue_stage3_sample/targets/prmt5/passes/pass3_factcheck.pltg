@@ -1,0 +1,183 @@
+;; ============================================================
+;; ANGLE 1: Biological evidence reconstructed WITHOUT the
+;; unverified GSK3β fact.  The original prmt5-biological-evidence
+;; is an AND of 13 conjuncts, one of which
+;; (prmt5-gsk3beta-activation-prmt5-dependent) failed quote
+;; verification: its quote "the phospho-GSK3β and the β-catenin
+;; protein expression level was markedly decreased, whereas the
+;; total GSK3β was unchanged" was NOT found in PMC7906165.
+;; The remaining 12 facts are all verified.  The EGFR/Akt/GSK3β
+;; cascade is named in a verified quote from PMC7906165:
+;;   "PRMT5 controls EMT of CRC cells by activation of
+;;    EGFR/Akt/GSK3β signaling cascades"
+;; so the cascade claim does not depend on the unverified
+;; phospho-GSK3β detail.
+;; ============================================================
+
+(derive prmt5-biological-evidence-verified
+    (and prmt5-high-expression-crc-cells
+         prmt5-high-expression-crc-tissues
+         prmt5-overexpressed-tcga-crc
+         prmt5-overexpressed-75pct-crc
+         prmt5-elevated-vs-normal-mucosa-crc
+         prmt5-negative-correlation-survival-crc
+         prmt5-high-expression-chemoresistance-crc
+         prmt5-regulates-akt-activation
+         prmt5-controls-emt-via-egfr-akt-gsk3beta
+         prmt5-regulates-egfr-activation
+         prmt5-smad4-methylation-tgfb-crc
+         prmt5-egfr-interaction-amplifies-crc)
+    :using
+      (prmt5-high-expression-crc-cells
+       prmt5-high-expression-crc-tissues
+       prmt5-overexpressed-tcga-crc
+       prmt5-overexpressed-75pct-crc
+       prmt5-elevated-vs-normal-mucosa-crc
+       prmt5-negative-correlation-survival-crc
+       prmt5-high-expression-chemoresistance-crc
+       prmt5-regulates-akt-activation
+       prmt5-controls-emt-via-egfr-akt-gsk3beta
+       prmt5-regulates-egfr-activation
+       prmt5-smad4-methylation-tgfb-crc
+       prmt5-egfr-interaction-amplifies-crc))
+
+(diff bio-evidence-verified-check
+    :replace prmt5-biological-evidence
+    :with prmt5-biological-evidence-verified)
+
+;; ============================================================
+;; ANGLE 2: Verdict reconstructed using ONLY verified biological
+;; evidence (Angle 1).  The original prmt5-verdict carries a
+;; fabrication taint propagated from the unverified GSK3β fact
+;; through prmt5-biological-evidence.  If this alternative verdict
+;; evaluates to the same Boolean as the original, the conclusion
+;; (target is promising) is robust to fabrication removal.
+;; ============================================================
+
+(derive prmt5-verdict-verified-only
+    (and prmt5-biological-evidence-verified
+         prmt5-pharmacological-evidence
+         prmt5-kras-mutant-benefit
+         prmt5-preclinical-translation-evidence
+         prmt5-literature-endorsement
+         (not (and prmt5-clinical-barriers-present
+                   prmt5-kras-wt-limited-response
+                   (not prmt5-literature-endorsement))))
+    :using
+      (prmt5-biological-evidence-verified
+       prmt5-pharmacological-evidence
+       prmt5-kras-mutant-benefit
+       prmt5-preclinical-translation-evidence
+       prmt5-literature-endorsement
+       prmt5-clinical-barriers-present
+       prmt5-kras-wt-limited-response))
+
+(diff verdict-verified-check
+    :replace prmt5-verdict
+    :with prmt5-verdict-verified-only)
+
+;; ============================================================
+;; ANGLE 3: Stricter barrier test.  The original verdict's barrier
+;; override clause is:
+;;   (not (and clinical-barriers-present
+;;             kras-wt-limited-response
+;;             (not literature-endorsement)))
+;; Because prmt5-literature-endorsement = True, the inner
+;; (not literature-endorsement) is False, the inner AND is False,
+;; and the NOT is True — unconditionally.  Clinical barriers
+;; (hematological toxicity, lack of biomarkers, resistance) are
+;; structurally non-operative.
+;; An alternative verdict that requires the ABSENCE of clinical
+;; barriers would reject the target — revealing whether the
+;; override clause masks a real concern.
+;; ============================================================
+
+(derive prmt5-verdict-strict-barrier
+    (and prmt5-biological-evidence-verified
+         prmt5-pharmacological-evidence
+         prmt5-kras-mutant-benefit
+         prmt5-preclinical-translation-evidence
+         prmt5-literature-endorsement
+         (not prmt5-clinical-barriers-present))
+    :using
+      (prmt5-biological-evidence-verified
+       prmt5-pharmacological-evidence
+       prmt5-kras-mutant-benefit
+       prmt5-preclinical-translation-evidence
+       prmt5-literature-endorsement
+       prmt5-clinical-barriers-present))
+
+(diff verdict-strict-barrier-check
+    :replace prmt5-verdict
+    :with prmt5-verdict-strict-barrier)
+
+;; ============================================================
+;; ANGLE 4: EGFR cascade corroboration across INDEPENDENT papers
+;; without the unverified GSK3β phospho-data.
+;;
+;; Four verified facts establish the EGFR/Akt/GSK3β axis from two
+;; independent sources:
+;;   PMC7906165 (mechanistic):
+;;     - "PRMT5 controls EMT of CRC cells by activation of
+;;        EGFR/Akt/GSK3β signaling cascades"  (cascade named)
+;;     - "phospho-EGFR was significantly impaired, whereas the
+;;        total EGFR was unchanged"  (upstream node verified)
+;;     - "PRMT5 regulates CRC cell growth and cycle progression
+;;        via activation of Akt"  (middle node verified)
+;;   PMC13139892 (independent corroboration):
+;;     - "its interaction with EGFR further amplifies
+;;        proliferative signals"  (EGFR axis in CRC confirmed)
+;;
+;; The AND of these 4 verified facts supports the cascade WITHOUT
+;; needing the fabricated phospho-GSK3β quote.  The diff replaces
+;; the unverified fact with this corroborated multi-source
+;; evidence and traces the impact through all dependent theorems.
+;; ============================================================
+
+(derive prmt5-egfr-cascade-fully-supported
+    (and prmt5-controls-emt-via-egfr-akt-gsk3beta
+         prmt5-regulates-egfr-activation
+         prmt5-regulates-akt-activation
+         prmt5-egfr-interaction-amplifies-crc)
+    :using
+      (prmt5-controls-emt-via-egfr-akt-gsk3beta
+       prmt5-regulates-egfr-activation
+       prmt5-regulates-akt-activation
+       prmt5-egfr-interaction-amplifies-crc))
+
+(diff egfr-cascade-diff
+    :replace prmt5-gsk3beta-activation-prmt5-dependent
+    :with prmt5-egfr-cascade-fully-supported)
+
+;; ============================================================
+;; ANGLE 5: KRAS WT limitation at face value.  The original verdict
+;; includes prmt5-kras-wt-limited-response = True (KRAS WT COAD
+;; cells show no significant apoptosis or cell-cycle change with
+;; PRMT5 inhibitor — meaning ~55% of CRC patients may see no
+;; benefit).  Yet the barrier override clause neutralizes this
+;; concern because literature endorsement is True.
+;;
+;; An alternative verdict that requires KRAS WT subpopulation to
+;; show at least some response (i.e., NOT prmt5-kras-wt-limited-
+;; response) would reject the target — testing whether the verdict
+;; adequately weights the KRAS WT limitation.
+;; ============================================================
+
+(derive prmt5-verdict-kras-wt-sensitive
+    (and prmt5-biological-evidence-verified
+         prmt5-pharmacological-evidence
+         prmt5-kras-mutant-benefit
+         prmt5-preclinical-translation-evidence
+         prmt5-literature-endorsement
+         (not prmt5-kras-wt-limited-response))
+    :using
+      (prmt5-biological-evidence-verified
+       prmt5-pharmacological-evidence
+       prmt5-kras-mutant-benefit
+       prmt5-preclinical-translation-evidence
+       prmt5-literature-endorsement
+       prmt5-kras-wt-limited-response))
+
+(diff verdict-kras-wt-sensitive-check
+    :replace prmt5-verdict
+    :with prmt5-verdict-kras-wt-sensitive)

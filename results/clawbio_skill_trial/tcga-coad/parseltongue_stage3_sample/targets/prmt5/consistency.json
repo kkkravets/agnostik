@@ -1,0 +1,114 @@
+{
+  "consistent": false,
+  "issues": [
+    {
+      "type": "unverified_evidence",
+      "items": [
+        "('prmt5-gsk3beta-activation-prmt5-dependent', ['the phospho-GSK3β and the β-catenin protein expression level was markedly decreased, whereas the total GSK3β was unchanged'])"
+      ]
+    },
+    {
+      "type": "potential_fabrication",
+      "items": [
+        "prmt5-biological-evidence",
+        "prmt5-verdict",
+        "prmt5-verdict-kras-wt-sensitive",
+        "prmt5-verdict-strict-barrier"
+      ]
+    },
+    {
+      "type": "diff_divergence",
+      "items": [
+        {
+          "name": "egfr-cascade-diff",
+          "replace": "prmt5-gsk3beta-activation-prmt5-dependent",
+          "with": "prmt5-egfr-cascade-fully-supported",
+          "value_a": true,
+          "value_b": true,
+          "divergences": {
+            "verdict-strict-barrier-check": [
+              "diff(prmt5-verdict vs prmt5-verdict-strict-barrier)",
+              "<contaminated: references prmt5-gsk3beta-activation-prmt5-dependent>"
+            ],
+            "bio-evidence-verified-check": [
+              "diff(prmt5-biological-evidence vs prmt5-biological-evidence-verified)",
+              "<contaminated: references prmt5-gsk3beta-activation-prmt5-dependent>"
+            ],
+            "prmt5-verdict": [
+              [
+                {
+                  "__symbol__": "and"
+                },
+                {
+                  "__symbol__": "prmt5-biological-evidence"
+                },
+                {
+                  "__symbol__": "prmt5-pharmacological-evidence"
+                },
+                {
+                  "__symbol__": "prmt5-kras-mutant-benefit"
+                },
+                {
+                  "__symbol__": "prmt5-preclinical-translation-evidence"
+                },
+                {
+                  "__symbol__": "prmt5-literature-endorsement"
+                },
+                [
+                  {
+                    "__symbol__": "not"
+                  },
+                  [
+                    {
+                      "__symbol__": "and"
+                    },
+                    {
+                      "__symbol__": "prmt5-clinical-barriers-present"
+                    },
+                    {
+                      "__symbol__": "prmt5-kras-wt-limited-response"
+                    },
+                    [
+                      {
+                        "__symbol__": "not"
+                      },
+                      {
+                        "__symbol__": "prmt5-literature-endorsement"
+                      }
+                    ]
+                  ]
+                ]
+              ],
+              "<contaminated: uses prmt5-gsk3beta-activation-prmt5-dependent>"
+            ],
+            "verdict-kras-wt-sensitive-check": [
+              "diff(prmt5-verdict vs prmt5-verdict-kras-wt-sensitive)",
+              "<contaminated: references prmt5-gsk3beta-activation-prmt5-dependent>"
+            ],
+            "verdict-verified-check": [
+              "diff(prmt5-verdict vs prmt5-verdict-verified-only)",
+              "<contaminated: references prmt5-gsk3beta-activation-prmt5-dependent>"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    {
+      "type": "diff_contamination",
+      "items": [
+        "bio-evidence-verified-check",
+        "verdict-kras-wt-sensitive-check",
+        "verdict-strict-barrier-check",
+        "verdict-verified-check"
+      ],
+      "details": {
+        "bio-evidence-verified-check": "verdict-kras-wt-sensitive-check: <contaminated: references prmt5-biological-evidence>; verdict-strict-barrier-check: <contaminated: references prmt5-biological-evidence>; verdict-verified-check: <contaminated: references prmt5-biological-evidence>",
+        "verdict-kras-wt-sensitive-check": "verdict-strict-barrier-check: <contaminated: references prmt5-verdict>; verdict-verified-check: <contaminated: references prmt5-verdict>",
+        "verdict-strict-barrier-check": "verdict-kras-wt-sensitive-check: <contaminated: references prmt5-verdict>; verdict-verified-check: <contaminated: references prmt5-verdict>",
+        "verdict-verified-check": "verdict-kras-wt-sensitive-check: <contaminated: references prmt5-verdict>; verdict-strict-barrier-check: <contaminated: references prmt5-verdict>"
+      }
+    }
+  ]
+}

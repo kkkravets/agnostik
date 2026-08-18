@@ -228,6 +228,49 @@ def validate_stage4_export(export_path: Path, targets: Sequence[str]) -> None:
         raise ValueError("Stage-4 export contract failed: " + "; ".join(problems))
 
 
+def export_completed_targets(
+    output_dir: Path,
+    targets: Sequence[str],
+    *,
+    filename: str = "stage3-export.partial.json",
+) -> tuple[Path, tuple[str, ...]]:
+    """Build a Stage-4-compatible export from successfully completed targets."""
+
+    output_dir = Path(output_dir).resolve()
+    results = []
+    for target in targets:
+        target = target.strip().upper()
+        target_dir = output_dir / "targets" / target.lower()
+        manifest_path = target_dir / "manifest.json"
+        system_path = target_dir / "system.json"
+        if not (manifest_path.is_file() and system_path.is_file()):
+            continue
+        manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+        if manifest.get("status") != "complete":
+            continue
+        system = System.from_dict(
+            json.loads(system_path.read_text(encoding="utf-8")),
+            overridable=True,
+        )
+        verdict = _find_verdict(system, target)
+        results.append(
+            TargetResult(
+                target,
+                system,
+                verdict,
+                tuple(manifest.get("sources") or ()),
+                target_dir,
+            )
+        )
+    if not results:
+        raise ValueError(f"no completed Stage-3 targets found in: {output_dir}")
+    export_path = output_dir / filename
+    _json_write(export_path, build_stage4_export(results))
+    completed_targets = tuple(result.target for result in results)
+    validate_stage4_export(export_path, completed_targets)
+    return export_path, completed_targets
+
+
 def run_stage3(
     config: Stage3Config,
     *,

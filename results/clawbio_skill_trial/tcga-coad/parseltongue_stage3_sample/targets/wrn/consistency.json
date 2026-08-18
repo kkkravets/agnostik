@@ -1,0 +1,52 @@
+{
+  "consistent": false,
+  "issues": [
+    {
+      "type": "unverified_evidence",
+      "items": [
+        "('wrn-copy-loss-cin', ['we observed broad copy number loss of WRN, NAT1, NF2, and BUB1B, as well as copy number gain of MYC, ERBB2, EGFR, and CDK6 in high-CIN tumors (FDR < 0.01, Figure 3B).'])"
+      ]
+    },
+    {
+      "type": "no_evidence",
+      "items": [
+        "('biomarker-limit', 'Biomarker weaknesses: median TMB difference is not significant, WRN/CIMP methylation marker is inferior to existing panels, and PD-L1 is not predictive in CRC.')",
+        "('cin-risk', 'Genomic instability risk: WRN copy-number loss is associated with chromosomal instability (CIN), and CIN confers poor prognosis in COAD.')",
+        "('immuno-rationale', 'Clinical pathway: MSI-high status predicts response to anti-PD-1 therapy and checkpoint inhibition is an approved option for MSI-high COAD, providing a combinatorial rationale.')",
+        "('sl-selectivity', 'Core synthetic lethality biorationale: WRN loss is synthetic lethal in MSI-high COAD; WRN is dispensable in MSS cells, conferring tumour selectivity.')",
+        "('sl-selectivity-biorationale', 'Synthesized from PMC7281075: synthetic lethality in MSI plus dispensability in MSS establishes biological rationale for WRN as a therapeutic target')",
+        "('tp53-context', 'Genetic modifier context: TP53 wild-type status is associated with sensitivity; if TP53 mutations impair WRN, this introduces subpopulation-dependent complexity.')",
+        "('wrn-biomarker-enriched', 'Biomarker enrichment: WRN-mutant COAD is enriched for MSI-high and high TMB, and TMB exceeds the predictive cutoff for immune-checkpoint response.')",
+        "('wrn-brca-paradigm', 'Therapeutic precedent: WRN-mutant tumours exhibit BRCAness-like genomic scarring, and the PARP/BRCA synthetic lethality paradigm supports a similar approach for WRN.')",
+        "('wrn-copy-loss-cin-suppressed', 'Hypothetical: wrn-copy-loss-cin evidence failed verification (quote not found in PMC8478156), treated as false')",
+        "('wrn-druggable', 'Druggability: WRN is an enzymatic helicase (druggable target class) and small-molecule inhibitors have been identified preclinically.')",
+        "('wrn-msi-associated', 'Molecular signature: WRN mutations cosegregate with MSI/BRAF, WRN methylation is linked to MSI, and MSI tumours harbour fewer copy-number variants.')",
+        "('wrn-mutation-constraint', 'Mutation prevalence constraint: WRN mutations are rare and none fall in the helicase domain, limiting patient stratification by mutation status.')",
+        "('wrn-opposition', 'Opposition dossier: no clinical inhibitors to date, biomarker limitations, CIN/prognosis risk, and retrospective study limitations.')",
+        "('wrn-opposition-fatal', 'Veto condition: the target is non-viable only if it is NOT druggable AND the full opposition holds simultaneously — opposition alone does not reject a druggable target.')",
+        "('wrn-support-core', 'Pillar 1 — Essential rationale: the SL+selectivity biorationale combined with target druggability.')",
+        "('wrn-support-evidence', 'Comprehensive support dossier: SL core, biomarker enrichment, immunotherapy context, BRCAness precedent, and molecular co-segregation with MSI.')",
+        "('wrn-verdict', 'WRN therapeutic verdict: the target is promising (true) when SL+selectivity biorationale, druggability, biomarker enrichment, and immunotherapy context all hold, and the opposition does not constitute a fatal veto.')"
+      ]
+    }
+  ],
+  "warnings": [
+    {
+      "type": "diff_contamination",
+      "items": [
+        "sl-selectivity-crosscheck",
+        "tmb-cutoff-crosscheck",
+        "verdict-cin-robustness",
+        "verdict-mutation-constraint-sensitivity",
+        "verdict-tp53-sensitivity"
+      ],
+      "details": {
+        "sl-selectivity-crosscheck": "verdict-cin-robustness: <contaminated: references sl-selectivity>; verdict-mutation-constraint-sensitivity: <contaminated: references sl-selectivity>; verdict-tp53-sensitivity: <contaminated: references sl-selectivity>",
+        "tmb-cutoff-crosscheck": "verdict-cin-robustness: <contaminated: references wrn-tmb-exceeds-cutoff>; verdict-mutation-constraint-sensitivity: <contaminated: references wrn-tmb-exceeds-cutoff>; verdict-tp53-sensitivity: <contaminated: references wrn-tmb-exceeds-cutoff>",
+        "verdict-cin-robustness": "verdict-mutation-constraint-sensitivity: <contaminated: references wrn-verdict>; verdict-tp53-sensitivity: <contaminated: references wrn-verdict>",
+        "verdict-mutation-constraint-sensitivity": "verdict-cin-robustness: <contaminated: references wrn-verdict>; verdict-tp53-sensitivity: <contaminated: references wrn-verdict>",
+        "verdict-tp53-sensitivity": "verdict-cin-robustness: <contaminated: references wrn-verdict>; verdict-mutation-constraint-sensitivity: <contaminated: references wrn-verdict>"
+      }
+    }
+  ]
+}

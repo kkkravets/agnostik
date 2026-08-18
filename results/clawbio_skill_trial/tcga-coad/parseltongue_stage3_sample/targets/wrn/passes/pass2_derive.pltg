@@ -1,0 +1,70 @@
+;; ============================================================
+;; WRN Therapeutic Targeting in COAD — Formal Evidence Dossier
+;; Part 1: Define all intermediate terms (supporting + opposing + verdict)
+;; ============================================================
+
+;; ============= SUPPORTING EVIDENCE TERMS =============
+
+(defterm sl-selectivity
+    (and wrn-synthetic-lethality-msi wrn-dispensable-mss)
+    :origin "Core synthetic lethality biorationale: WRN loss is synthetic lethal in MSI-high COAD; WRN is dispensable in MSS cells, conferring tumour selectivity.")
+
+(defterm wrn-druggable
+    (and wrn-helicase-target wrn-inhibitors-identified)
+    :origin "Druggability: WRN is an enzymatic helicase (druggable target class) and small-molecule inhibitors have been identified preclinically.")
+
+(defterm wrn-biomarker-enriched
+    (and wrn-mut-msi-high wrn-mut-tmb-high wrn-tmb-exceeds-cutoff)
+    :origin "Biomarker enrichment: WRN-mutant COAD is enriched for MSI-high and high TMB, and TMB exceeds the predictive cutoff for immune-checkpoint response.")
+
+(defterm wrn-brca-paradigm
+    (and wrn-mut-brcaness wrn-parp-hypothesis)
+    :origin "Therapeutic precedent: WRN-mutant tumours exhibit BRCAness-like genomic scarring, and the PARP/BRCA synthetic lethality paradigm supports a similar approach for WRN.")
+
+(defterm immuno-rationale
+    (and msi-pd1-predictor checkpoint-option)
+    :origin "Clinical pathway: MSI-high status predicts response to anti-PD-1 therapy and checkpoint inhibition is an approved option for MSI-high COAD, providing a combinatorial rationale.")
+
+(defterm wrn-msi-associated
+    (and wrn-clusters-with-msi-braf wrn-methylation-msi-link msi-fewer-cnv)
+    :origin "Molecular signature: WRN mutations cosegregate with MSI/BRAF, WRN methylation is linked to MSI, and MSI tumours harbour fewer copy-number variants.")
+
+(defterm tp53-context
+    (and tp53-wt-sensitive (not tp53-impairs-wrn))
+    :origin "Genetic modifier context: TP53 wild-type status is associated with sensitivity; if TP53 mutations impair WRN, this introduces subpopulation-dependent complexity.")
+
+(defterm wrn-support-core
+    (and sl-selectivity wrn-druggable)
+    :origin "Pillar 1 — Essential rationale: the SL+selectivity biorationale combined with target druggability.")
+
+(defterm wrn-support-evidence
+    (and wrn-support-core wrn-biomarker-enriched immuno-rationale wrn-brca-paradigm wrn-msi-associated)
+    :origin "Comprehensive support dossier: SL core, biomarker enrichment, immunotherapy context, BRCAness precedent, and molecular co-segregation with MSI.")
+
+;; ============= OPPOSING EVIDENCE TERMS =============
+
+(defterm biomarker-limit
+    (and median-tmb-not-significant wrn-cimp-marker-inferior pdl1-not-predictive-crc)
+    :origin "Biomarker weaknesses: median TMB difference is not significant, WRN/CIMP methylation marker is inferior to existing panels, and PD-L1 is not predictive in CRC.")
+
+(defterm cin-risk
+    (and wrn-copy-loss-cin cin-poor-prognosis)
+    :origin "Genomic instability risk: WRN copy-number loss is associated with chromosomal instability (CIN), and CIN confers poor prognosis in COAD.")
+
+(defterm wrn-mutation-constraint
+    (and wrn-mut-rare no-helicase-mutations)
+    :origin "Mutation prevalence constraint: WRN mutations are rare and none fall in the helicase domain, limiting patient stratification by mutation status.")
+
+(defterm wrn-opposition
+    (and no-wrn-inhibitors-clinical biomarker-limit cin-risk retrospective-limited)
+    :origin "Opposition dossier: no clinical inhibitors to date, biomarker limitations, CIN/prognosis risk, and retrospective study limitations.")
+
+(defterm wrn-opposition-fatal
+    (and (not wrn-druggable) wrn-opposition)
+    :origin "Veto condition: the target is non-viable only if it is NOT druggable AND the full opposition holds simultaneously — opposition alone does not reject a druggable target.")
+
+;; ============= VERDICT TERM =============
+
+(defterm wrn-verdict
+    (and sl-selectivity wrn-druggable wrn-biomarker-enriched immuno-rationale (not wrn-opposition-fatal))
+    :origin "WRN therapeutic verdict: the target is promising (true) when SL+selectivity biorationale, druggability, biomarker enrichment, and immunotherapy context all hold, and the opposition does not constitute a fatal veto.")

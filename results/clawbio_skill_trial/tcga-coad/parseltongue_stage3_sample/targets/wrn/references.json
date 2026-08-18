@@ -1,0 +1,2129 @@
+[
+  {
+    "type": "fact",
+    "name": "wrn-copy-loss-cin",
+    "value": true,
+    "provenance": {
+      "name": "wrn-copy-loss-cin",
+      "type": "fact",
+      "origin": {
+        "document": "PMC8478156",
+        "quotes": [
+          "we observed broad copy number loss of WRN, NAT1, NF2, and BUB1B, as well as copy number gain of MYC, ERBB2, EGFR, and CDK6 in high-CIN tumors (FDR < 0.01, Figure 3B)."
+        ],
+        "explanation": "WRN copy number loss is associated with high-CIN tumors, linking WRN loss to chromosomal instability rather than MSI-selective vulnerability",
+        "verified": false,
+        "verify_manual": false,
+        "grounded": false,
+        "verification": [
+          {
+            "quote": "we observed broad copy number loss of WRN, NAT1, NF2, and BUB1B, as well as copy number gain of MYC, ERBB2, EGFR, and CDK6 in high-CIN tumors (FDR < 0.01, Figure 3B).",
+            "verified": false,
+            "original_position": -1,
+            "original_line": -1,
+            "normalized_position": -1,
+            "length": 32,
+            "confidence": {
+              "score": 0.0,
+              "level": "none"
+            },
+            "reason": "Not found in document"
+          }
+        ]
+      }
+    },
+    "error": null
+  },
+  {
+    "type": "diff",
+    "name": "verdict-cin-robustness",
+    "value": {
+      "name": "verdict-cin-robustness",
+      "replace": "wrn-verdict",
+      "with_": "wrn-verdict-no-cin",
+      "value_a": true,
+      "value_b": true,
+      "divergences": {
+        "verdict-mutation-constraint-sensitivity": [
+          "diff(wrn-verdict vs wrn-verdict-requires-common-mutations)",
+          "<contaminated: references wrn-verdict>"
+        ],
+        "verdict-tp53-sensitivity": [
+          "diff(wrn-verdict vs wrn-verdict-with-tp53)",
+          "<contaminated: references wrn-verdict>"
+        ]
+      }
+    },
+    "provenance": null,
+    "error": null
+  },
+  {
+    "type": "diff",
+    "name": "verdict-tp53-sensitivity",
+    "value": {
+      "name": "verdict-tp53-sensitivity",
+      "replace": "wrn-verdict",
+      "with_": "wrn-verdict-with-tp53",
+      "value_a": true,
+      "value_b": false,
+      "divergences": {
+        "verdict-mutation-constraint-sensitivity": [
+          "diff(wrn-verdict vs wrn-verdict-requires-common-mutations)",
+          "<contaminated: references wrn-verdict>"
+        ],
+        "verdict-cin-robustness": [
+          "diff(wrn-verdict vs wrn-verdict-no-cin)",
+          "<contaminated: references wrn-verdict>"
+        ]
+      }
+    },
+    "provenance": null,
+    "error": null
+  },
+  {
+    "type": "diff",
+    "name": "verdict-mutation-constraint-sensitivity",
+    "value": {
+      "name": "verdict-mutation-constraint-sensitivity",
+      "replace": "wrn-verdict",
+      "with_": "wrn-verdict-requires-common-mutations",
+      "value_a": true,
+      "value_b": false,
+      "divergences": {
+        "verdict-cin-robustness": [
+          "diff(wrn-verdict vs wrn-verdict-no-cin)",
+          "<contaminated: references wrn-verdict>"
+        ],
+        "verdict-tp53-sensitivity": [
+          "diff(wrn-verdict vs wrn-verdict-with-tp53)",
+          "<contaminated: references wrn-verdict>"
+        ]
+      }
+    },
+    "provenance": null,
+    "error": null
+  },
+  {
+    "type": "term",
+    "name": "wrn-verdict",
+    "value": true,
+    "provenance": null,
+    "error": null
+  },
+  {
+    "type": "quote",
+    "name": "wrn-synthetic-lethality-msi",
+    "value": true,
+    "provenance": {
+      "name": "wrn-synthetic-lethality-msi",
+      "type": "fact",
+      "origin": {
+        "document": "PMC7281075",
+        "quotes": [
+          "In tumor cell lines, the co-occurrence of WRN inactivation and MSI leads to cell death and cell cycle arrest via the acquisition of double-strand breaks and chromosomal instability."
+        ],
+        "explanation": "Co-occurrence of WRN inactivation and MSI causes cell death, demonstrating synthetic lethality in vitro",
+        "verified": true,
+        "verify_manual": false,
+        "grounded": true,
+        "verification": [
+          {
+            "quote": "In tumor cell lines, the co-occurrence of WRN inactivation and MSI leads to cell death and cell cycle arrest via the acquisition of double-strand breaks and chromosomal instability.",
+            "verified": true,
+            "original_position": 3945,
+            "original_line": 27,
+            "normalized_position": 3777,
+            "length": 28,
+            "positions": {
+              "original": {
+                "start": 3945,
+                "end": 4124
+              },
+              "normalized": {
+                "start": 3777,
+                "end": 3955
+              }
+            },
+            "confidence": {
+              "score": 0.968,
+              "level": "high"
+            },
+            "transformations": [
+              {
+                "type": "case_normalization",
+                "description": "Converted text to lowercase",
+                "penalty": 0.01
+              },
+              {
+                "type": "punctuation_removal",
+                "description": "Removed 1 punctuation character(s)",
+                "penalty": 0.02
+              },
+              {
+                "type": "whitespace_normalization",
+                "description": "Normalized whitespace",
+                "penalty": 0.001
+              },
+              {
+                "type": "whitespace_trimming",
+                "description": "Trimmed leading/trailing whitespace",
+                "penalty": 0.001
+              }
+            ],
+            "context": {
+              "full": "...he development of malignancies [13,14]. In tumor cell lines, the co-occurrence of WRN inactivation and MSI leads to cell death and cell cycle arrest via the acquisition of double-strand breaks and chromosomal instability. In contrast, in MSS cell lines, WRN w...",
+              "before": "he development of malignancies [13,14]. ",
+              "after": ". In contrast, in MSS cell lines, WRN w"
+            }
+          }
+        ]
+      }
+    },
+    "error": null
+  },
+  {
+    "type": "quote",
+    "name": "wrn-dispensable-mss",
+    "value": true,
+    "provenance": {
+      "name": "wrn-dispensable-mss",
+      "type": "fact",
+      "origin": {
+        "document": "PMC7281075",
+        "quotes": [
+          "In contrast, in MSS cell lines, WRN was dispensable for cell survival"
+        ],
+        "explanation": "WRN is dispensable in MSS cells, indicating selective vulnerability of MSI tumors to WRN inhibition",
+        "verified": true,
+        "verify_manual": false,
+        "grounded": true,
+        "verification": [
+          {
+            "quote": "In contrast, in MSS cell lines, WRN was dispensable for cell survival",
+            "verified": true,
+            "original_position": 4127,
+            "original_line": 27,
+            "normalized_position": 3957,
+            "length": 12,
+            "positions": {
+              "original": {
+                "start": 4127,
+                "end": 4195
+              },
+              "normalized": {
+                "start": 3957,
+                "end": 4023
+              }
+            },
+            "confidence": {
+              "score": 0.969,
+              "level": "high"
+            },
+            "transformations": [
+              {
+                "type": "case_normalization",
+                "description": "Converted text to lowercase",
+                "penalty": 0.01
+              },
+              {
+                "type": "punctuation_removal",
+                "description": "Removed 2 punctuation character(s)",
+                "penalty": 0.02
+              },
+              {
+                "type": "whitespace_normalization",
+                "description": "Normalized whitespace",
+                "penalty": 0.001
+              }
+            ],
+            "context": {
+              "full": "...and breaks and chromosomal instability. In contrast, in MSS cell lines, WRN was dispensable for cell survival [11]. These observations laid the foun...",
+              "before": "and breaks and chromosomal instability. ",
+              "after": " [11]. These observations laid the foun"
+            }
+          }
+        ]
+      }
+    },
+    "error": null
+  },
+  {
+    "type": "term",
+    "name": "sl-selectivity",
+    "value": true,
+    "provenance": null,
+    "error": null
+  },
+  {
+    "type": "term",
+    "name": "sl-selectivity-alt",
+    "value": true,
+    "provenance": null,
+    "error": null
+  },
+  {
+    "type": "diff",
+    "name": "sl-selectivity-crosscheck",
+    "value": {
+      "name": "sl-selectivity-crosscheck",
+      "replace": "sl-selectivity",
+      "with_": "sl-selectivity-alt",
+      "value_a": true,
+      "value_b": true,
+      "divergences": {
+        "verdict-cin-robustness": [
+          "diff(wrn-verdict vs wrn-verdict-no-cin)",
+          "<contaminated: references sl-selectivity>"
+        ],
+        "verdict-tp53-sensitivity": [
+          "diff(wrn-verdict vs wrn-verdict-with-tp53)",
+          "<contaminated: references sl-selectivity>"
+        ],
+        "verdict-mutation-constraint-sensitivity": [
+          "diff(wrn-verdict vs wrn-verdict-requires-common-mutations)",
+          "<contaminated: references sl-selectivity>"
+        ]
+      }
+    },
+    "provenance": null,
+    "error": null
+  },
+  {
+    "type": "quote",
+    "name": "wrn-helicase-target",
+    "value": true,
+    "provenance": {
+      "name": "wrn-helicase-target",
+      "type": "fact",
+      "origin": {
+        "document": "PMC7281075",
+        "quotes": [
+          "As described recently, the helicase domain of WRN is considered as a therapeutic target for synthetic lethality, as the exonuclease domain is dispensable for cell survival in MSI-H tumor cells."
+        ],
+        "explanation": "The WRN helicase domain is explicitly identified as a therapeutic target for synthetic lethality in MSI-H tumors",
+        "verified": true,
+        "verify_manual": false,
+        "grounded": true,
+        "verification": [
+          {
+            "quote": "As described recently, the helicase domain of WRN is considered as a therapeutic target for synthetic lethality, as the exonuclease domain is dispensable for cell survival in MSI-H tumor cells.",
+            "verified": true,
+            "original_position": 13172,
+            "original_line": 65,
+            "normalized_position": 12667,
+            "length": 30,
+            "positions": {
+              "original": {
+                "start": 13172,
+                "end": 13363
+              },
+              "normalized": {
+                "start": 12667,
+                "end": 12856
+              }
+            },
+            "confidence": {
+              "score": 0.968,
+              "level": "high"
+            },
+            "transformations": [
+              {
+                "type": "case_normalization",
+                "description": "Converted text to lowercase",
+                "penalty": 0.01
+              },
+              {
+                "type": "punctuation_removal",
+                "description": "Removed 2 punctuation character(s)",
+                "penalty": 0.02
+              },
+              {
+                "type": "whitespace_normalization",
+                "description": "Normalized whitespace",
+                "penalty": 0.001
+              },
+              {
+                "type": "whitespace_trimming",
+                "description": "Trimmed leading/trailing whitespace",
+                "penalty": 0.001
+              }
+            ],
+            "context": {
+              "full": "... secondarily by the MSI-H/dMMR status.\n\nAs described recently, the helicase domain of WRN is considered as a therapeutic target for synthetic lethality, as the exonuclease domain is dispensable for cell survival in MSI-H tumor cells. Thus, inhibiting WRN may be an attrac...",
+              "before": " secondarily by the MSI-H/dMMR status.\n\n",
+              "after": ". Thus, inhibiting WRN may be an attrac"
+            }
+          }
+        ]
+      }
+    },
+    "error": null
+  },
+  {
+    "type": "quote",
+    "name": "wrn-inhibitors-identified",
+    "value": true,
+    "provenance": {
+      "name": "wrn-inhibitors-identified",
+      "type": "fact",
+      "origin": {
+        "document": "PMC7281075",
+        "quotes": [
+          "Inhibitors, such as NSC19630 [35], NSC617145 [36], ML216 [37], NCGC00029283, NCGC00063279, and NCGC00357377 [38] have been identified in drug-screening studies [39]; however, none of them are in a clinical trial yet."
+        ],
+        "explanation": "Multiple WRN inhibitors have been identified in preclinical drug screening studies",
+        "verified": true,
+        "verify_manual": false,
+        "grounded": true,
+        "verification": [
+          {
+            "quote": "Inhibitors, such as NSC19630 [35], NSC617145 [36], ML216 [37], NCGC00029283, NCGC00063279, and NCGC00357377 [38] have been identified in drug-screening studies [39]; however, none of them are in a clinical trial yet.",
+            "verified": true,
+            "original_position": 13438,
+            "original_line": 65,
+            "normalized_position": 12928,
+            "length": 31,
+            "positions": {
+              "original": {
+                "start": 13438,
+                "end": 13652
+              },
+              "normalized": {
+                "start": 12928,
+                "end": 13124
+              }
+            },
+            "confidence": {
+              "score": 0.968,
+              "level": "high"
+            },
+            "transformations": [
+              {
+                "type": "case_normalization",
+                "description": "Converted text to lowercase",
+                "penalty": 0.01
+              },
+              {
+                "type": "punctuation_removal",
+                "description": "Removed 18 punctuation character(s)",
+                "penalty": 0.02
+              },
+              {
+                "type": "whitespace_normalization",
+                "description": "Normalized whitespace",
+                "penalty": 0.001
+              },
+              {
+                "type": "whitespace_trimming",
+                "description": "Trimmed leading/trailing whitespace",
+                "penalty": 0.001
+              }
+            ],
+            "context": {
+              "full": "...ttractive target for MSI-H/dMMR tumors. Inhibitors, such as NSC19630 [35], NSC617145 [36], ML216 [37], NCGC00029283, NCGC00063279, and NCGC00357377 [38] have been identified in drug-screening studies [39]; however, none of them are in a clinical trial yet.\n\nChan and colleagues [11] also invest...",
+              "before": "ttractive target for MSI-H/dMMR tumors. ",
+              "after": ".\n\nChan and colleagues [11] also invest"
+            }
+          }
+        ]
+      }
+    },
+    "error": null
+  },
+  {
+    "type": "term",
+    "name": "wrn-druggable",
+    "value": true,
+    "provenance": null,
+    "error": null
+  },
+  {
+    "type": "quote",
+    "name": "wrn-mut-msi-high",
+    "value": true,
+    "provenance": {
+      "name": "wrn-mut-msi-high",
+      "type": "fact",
+      "origin": {
+        "document": "PMC7281075",
+        "quotes": [
+          "In WRN-mut CRC, in contrast to WRN-wt, a higher co-occurrence of MSI-H/dMMR was observed (56% vs. 7%, p < 0.0001, Figure 3)."
+        ],
+        "explanation": "WRN-mut CRC has high MSI-H/dMMR prevalence (56%) compared to WRN-wt (7%)",
+        "verified": true,
+        "verify_manual": false,
+        "grounded": true,
+        "verification": [
+          {
+            "quote": "In WRN-mut CRC, in contrast to WRN-wt, a higher co-occurrence of MSI-H/dMMR was observed (56% vs. 7%, p < 0.0001, Figure 3).",
+            "verified": true,
+            "original_position": 6426,
+            "original_line": 43,
+            "normalized_position": 6130,
+            "length": 22,
+            "positions": {
+              "original": {
+                "start": 6426,
+                "end": 6547
+              },
+              "normalized": {
+                "start": 6130,
+                "end": 6245
+              }
+            },
+            "confidence": {
+              "score": 0.968,
+              "level": "high"
+            },
+            "transformations": [
+              {
+                "type": "case_normalization",
+                "description": "Converted text to lowercase",
+                "penalty": 0.01
+              },
+              {
+                "type": "punctuation_removal",
+                "description": "Removed 6 punctuation character(s)",
+                "penalty": 0.02
+              },
+              {
+                "type": "whitespace_normalization",
+                "description": "Normalized whitespace",
+                "penalty": 0.001
+              },
+              {
+                "type": "whitespace_trimming",
+                "description": "Trimmed leading/trailing whitespace",
+                "penalty": 0.001
+              }
+            ],
+            "context": {
+              "full": "...orrelate with PDL1, TMB and MSI-H/dMMR\n\nIn WRN-mut CRC, in contrast to WRN-wt, a higher co-occurrence of MSI-H/dMMR was observed (56% vs. 7%, p < 0.0001, Figure 3). WRN-mut CRCs were associated with a ...",
+              "before": "orrelate with PDL1, TMB and MSI-H/dMMR\n\n",
+              "after": "). WRN-mut CRCs were associated with a "
+            }
+          }
+        ]
+      }
+    },
+    "error": null
+  },
+  {
+    "type": "quote",
+    "name": "wrn-mut-tmb-high",
+    "value": true,
+    "provenance": {
+      "name": "wrn-mut-tmb-high",
+      "type": "fact",
+      "origin": {
+        "document": "PMC7281075",
+        "quotes": [
+          "WRN-mut CRCs were associated with a higher mean tumor mutational burden (TMB) (49 vs. 10.7 mutations/megabase [mut/MB], p < 0.0001)"
+        ],
+        "explanation": "WRN-mut CRC has significantly higher mean TMB than WRN-wt",
+        "verified": true,
+        "verify_manual": false,
+        "grounded": true,
+        "verification": [
+          {
+            "quote": "WRN-mut CRCs were associated with a higher mean tumor mutational burden (TMB) (49 vs. 10.7 mutations/megabase [mut/MB], p < 0.0001)",
+            "verified": true,
+            "original_position": 6551,
+            "original_line": 43,
+            "normalized_position": 6247,
+            "length": 20,
+            "positions": {
+              "original": {
+                "start": 6551,
+                "end": 6680
+              },
+              "normalized": {
+                "start": 6247,
+                "end": 6369
+              }
+            },
+            "confidence": {
+              "score": 0.968,
+              "level": "high"
+            },
+            "transformations": [
+              {
+                "type": "case_normalization",
+                "description": "Converted text to lowercase",
+                "penalty": 0.01
+              },
+              {
+                "type": "punctuation_removal",
+                "description": "Removed 7 punctuation character(s)",
+                "penalty": 0.02
+              },
+              {
+                "type": "whitespace_normalization",
+                "description": "Normalized whitespace",
+                "penalty": 0.001
+              },
+              {
+                "type": "whitespace_trimming",
+                "description": "Trimmed leading/trailing whitespace",
+                "penalty": 0.001
+              }
+            ],
+            "context": {
+              "full": "...ved (56% vs. 7%, p < 0.0001, Figure 3). WRN-mut CRCs were associated with a higher mean tumor mutational burden (TMB) (49 vs. 10.7 mutations/megabase [mut/MB], p < 0.0001) and a higher PD-L1 expression (13% vs...",
+              "before": "ved (56% vs. 7%, p < 0.0001, Figure 3). ",
+              "after": ") and a higher PD-L1 expression (13% vs"
+            }
+          }
+        ]
+      }
+    },
+    "error": null
+  },
+  {
+    "type": "quote",
+    "name": "tmb-predictive-cutoff",
+    "value": 41,
+    "provenance": {
+      "name": "tmb-predictive-cutoff",
+      "type": "fact",
+      "origin": {
+        "document": "PMC7281075",
+        "quotes": [
+          "In a retrospective study of MSI-H/dMMR metastatic CRC featuring patients who underwent treatment with a checkpoint inhibitor, a TMB score of more than 41 mut/MB was determined as a predictive cut-off [29]."
+        ],
+        "explanation": "TMB > 41 mut/MB established as predictive cutoff for checkpoint inhibitor response in MSI-H/dMMR CRC",
+        "verified": true,
+        "verify_manual": false,
+        "grounded": true,
+        "verification": [
+          {
+            "quote": "In a retrospective study of MSI-H/dMMR metastatic CRC featuring patients who underwent treatment with a checkpoint inhibitor, a TMB score of more than 41 mut/MB was determined as a predictive cut-off [29].",
+            "verified": true,
+            "original_position": 11586,
+            "original_line": 61,
+            "normalized_position": 11130,
+            "length": 32,
+            "positions": {
+              "original": {
+                "start": 11586,
+                "end": 11788
+              },
+              "normalized": {
+                "start": 11130,
+                "end": 11330
+              }
+            },
+            "confidence": {
+              "score": 0.968,
+              "level": "high"
+            },
+            "transformations": [
+              {
+                "type": "case_normalization",
+                "description": "Converted text to lowercase",
+                "penalty": 0.01
+              },
+              {
+                "type": "punctuation_removal",
+                "description": "Removed 2 punctuation character(s)",
+                "penalty": 0.02
+              },
+              {
+                "type": "whitespace_normalization",
+                "description": "Normalized whitespace",
+                "penalty": 0.001
+              },
+              {
+                "type": "whitespace_trimming",
+                "description": "Trimmed leading/trailing whitespace",
+                "penalty": 0.001
+              }
+            ],
+            "context": {
+              "full": "...int inhibition in various cancers [28]. In a retrospective study of MSI-H/dMMR metastatic CRC featuring patients who underwent treatment with a checkpoint inhibitor, a TMB score of more than 41 mut/MB was determined as a predictive cut-off [29]. In our cohort, the median TMB in WRN...",
+              "before": "int inhibition in various cancers [28]. ",
+              "after": "]. In our cohort, the median TMB in WRN"
+            }
+          }
+        ]
+      }
+    },
+    "error": null
+  },
+  {
+    "type": "fact",
+    "name": "wrn-mut-tmb-value",
+    "value": 49,
+    "provenance": {
+      "name": "wrn-mut-tmb-value",
+      "type": "fact",
+      "origin": {
+        "document": "PMC7281075",
+        "quotes": [
+          "In our cohort, the median TMB in WRN-mut tumors was significantly higher (49 mut/MB) than in WRN-wt tumors (10.7 mut/MB)."
+        ],
+        "explanation": "Median TMB value in WRN-mut CRC is 49 mut/MB",
+        "verified": true,
+        "verify_manual": false,
+        "grounded": true,
+        "verification": [
+          {
+            "quote": "In our cohort, the median TMB in WRN-mut tumors was significantly higher (49 mut/MB) than in WRN-wt tumors (10.7 mut/MB).",
+            "verified": true,
+            "original_position": 11792,
+            "original_line": 61,
+            "normalized_position": 11332,
+            "length": 20,
+            "positions": {
+              "original": {
+                "start": 11792,
+                "end": 11910
+              },
+              "normalized": {
+                "start": 11332,
+                "end": 11446
+              }
+            },
+            "confidence": {
+              "score": 0.968,
+              "level": "high"
+            },
+            "transformations": [
+              {
+                "type": "case_normalization",
+                "description": "Converted text to lowercase",
+                "penalty": 0.01
+              },
+              {
+                "type": "punctuation_removal",
+                "description": "Removed 4 punctuation character(s)",
+                "penalty": 0.02
+              },
+              {
+                "type": "whitespace_normalization",
+                "description": "Normalized whitespace",
+                "penalty": 0.001
+              },
+              {
+                "type": "whitespace_trimming",
+                "description": "Trimmed leading/trailing whitespace",
+                "penalty": 0.001
+              }
+            ],
+            "context": {
+              "full": "...etermined as a predictive cut-off [29]. In our cohort, the median TMB in WRN-mut tumors was significantly higher (49 mut/MB) than in WRN-wt tumors (10.7 mut/MB). This may be explained by the role of...",
+              "before": "etermined as a predictive cut-off [29]. ",
+              "after": "). This may be explained by the role of"
+            }
+          }
+        ]
+      }
+    },
+    "error": null
+  },
+  {
+    "type": "fact",
+    "name": "tmb-predictive-cutoff",
+    "value": 41,
+    "provenance": {
+      "name": "tmb-predictive-cutoff",
+      "type": "fact",
+      "origin": {
+        "document": "PMC7281075",
+        "quotes": [
+          "In a retrospective study of MSI-H/dMMR metastatic CRC featuring patients who underwent treatment with a checkpoint inhibitor, a TMB score of more than 41 mut/MB was determined as a predictive cut-off [29]."
+        ],
+        "explanation": "TMB > 41 mut/MB established as predictive cutoff for checkpoint inhibitor response in MSI-H/dMMR CRC",
+        "verified": true,
+        "verify_manual": false,
+        "grounded": true,
+        "verification": [
+          {
+            "quote": "In a retrospective study of MSI-H/dMMR metastatic CRC featuring patients who underwent treatment with a checkpoint inhibitor, a TMB score of more than 41 mut/MB was determined as a predictive cut-off [29].",
+            "verified": true,
+            "original_position": 11586,
+            "original_line": 61,
+            "normalized_position": 11130,
+            "length": 32,
+            "positions": {
+              "original": {
+                "start": 11586,
+                "end": 11788
+              },
+              "normalized": {
+                "start": 11130,
+                "end": 11330
+              }
+            },
+            "confidence": {
+              "score": 0.968,
+              "level": "high"
+            },
+            "transformations": [
+              {
+                "type": "case_normalization",
+                "description": "Converted text to lowercase",
+                "penalty": 0.01
+              },
+              {
+                "type": "punctuation_removal",
+                "description": "Removed 2 punctuation character(s)",
+                "penalty": 0.02
+              },
+              {
+                "type": "whitespace_normalization",
+                "description": "Normalized whitespace",
+                "penalty": 0.001
+              },
+              {
+                "type": "whitespace_trimming",
+                "description": "Trimmed leading/trailing whitespace",
+                "penalty": 0.001
+              }
+            ],
+            "context": {
+              "full": "...int inhibition in various cancers [28]. In a retrospective study of MSI-H/dMMR metastatic CRC featuring patients who underwent treatment with a checkpoint inhibitor, a TMB score of more than 41 mut/MB was determined as a predictive cut-off [29]. In our cohort, the median TMB in WRN...",
+              "before": "int inhibition in various cancers [28]. ",
+              "after": "]. In our cohort, the median TMB in WRN"
+            }
+          }
+        ]
+      }
+    },
+    "error": null
+  },
+  {
+    "type": "term",
+    "name": "wrn-tmb-exceeds-cutoff",
+    "value": true,
+    "provenance": null,
+    "error": null
+  },
+  {
+    "type": "term",
+    "name": "tmb-exceeds-cutoff-recomputed",
+    "value": true,
+    "provenance": null,
+    "error": null
+  },
+  {
+    "type": "diff",
+    "name": "tmb-cutoff-crosscheck",
+    "value": {
+      "name": "tmb-cutoff-crosscheck",
+      "replace": "wrn-tmb-exceeds-cutoff",
+      "with_": "tmb-exceeds-cutoff-recomputed",
+      "value_a": true,
+      "value_b": true,
+      "divergences": {
+        "verdict-cin-robustness": [
+          "diff(wrn-verdict vs wrn-verdict-no-cin)",
+          "<contaminated: references wrn-tmb-exceeds-cutoff>"
+        ],
+        "verdict-tp53-sensitivity": [
+          "diff(wrn-verdict vs wrn-verdict-with-tp53)",
+          "<contaminated: references wrn-tmb-exceeds-cutoff>"
+        ],
+        "verdict-mutation-constraint-sensitivity": [
+          "diff(wrn-verdict vs wrn-verdict-requires-common-mutations)",
+          "<contaminated: references wrn-tmb-exceeds-cutoff>"
+        ]
+      }
+    },
+    "provenance": null,
+    "error": null
+  },
+  {
+    "type": "term",
+    "name": "wrn-biomarker-enriched",
+    "value": true,
+    "provenance": null,
+    "error": null
+  },
+  {
+    "type": "quote",
+    "name": "msi-pd1-predictor",
+    "value": true,
+    "provenance": {
+      "name": "msi-pd1-predictor",
+      "type": "fact",
+      "origin": {
+        "document": "PMC7281075",
+        "quotes": [
+          "MSI-H/dMMR status has been identified as an independent predictor of response to PD-1 blockade by pembrolizumab [27]"
+        ],
+        "explanation": "MSI-H/dMMR status independently predicts response to checkpoint inhibition",
+        "verified": true,
+        "verify_manual": false,
+        "grounded": true,
+        "verification": [
+          {
+            "quote": "MSI-H/dMMR status has been identified as an independent predictor of response to PD-1 blockade by pembrolizumab [27]",
+            "verified": true,
+            "original_position": 11253,
+            "original_line": 61,
+            "normalized_position": 10805,
+            "length": 17,
+            "positions": {
+              "original": {
+                "start": 11253,
+                "end": 11367
+              },
+              "normalized": {
+                "start": 10805,
+                "end": 10918
+              }
+            },
+            "confidence": {
+              "score": 0.968,
+              "level": "high"
+            },
+            "transformations": [
+              {
+                "type": "case_normalization",
+                "description": "Converted text to lowercase",
+                "penalty": 0.01
+              },
+              {
+                "type": "punctuation_removal",
+                "description": "Removed 1 punctuation character(s)",
+                "penalty": 0.02
+              },
+              {
+                "type": "whitespace_normalization",
+                "description": "Normalized whitespace",
+                "penalty": 0.001
+              },
+              {
+                "type": "whitespace_trimming",
+                "description": "Trimmed leading/trailing whitespace",
+                "penalty": 0.001
+              }
+            ],
+            "context": {
+              "full": "...on left of the truncated WRN proteins.\n\nMSI-H/dMMR status has been identified as an independent predictor of response to PD-1 blockade by pembrolizumab [27], which was therefore approved as a si...",
+              "before": "on left of the truncated WRN proteins.\n\n",
+              "after": "], which was therefore approved as a si"
+            }
+          }
+        ]
+      }
+    },
+    "error": null
+  },
+  {
+    "type": "quote",
+    "name": "checkpoint-option",
+    "value": true,
+    "provenance": {
+      "name": "checkpoint-option",
+      "type": "fact",
+      "origin": {
+        "document": "PMC7281075",
+        "quotes": [
+          "Taking the high rate of MSI-H/dMMR and the high TMB score into consideration, checkpoint inhibition might be an option in WRN-mut CRC."
+        ],
+        "explanation": "Authors conclude checkpoint inhibition is a therapeutic option for WRN-mut CRC",
+        "verified": true,
+        "verify_manual": false,
+        "grounded": true,
+        "verification": [
+          {
+            "quote": "Taking the high rate of MSI-H/dMMR and the high TMB score into consideration, checkpoint inhibition might be an option in WRN-mut CRC.",
+            "verified": true,
+            "original_position": 12020,
+            "original_line": 61,
+            "normalized_position": 11551,
+            "length": 22,
+            "positions": {
+              "original": {
+                "start": 12020,
+                "end": 12152
+              },
+              "normalized": {
+                "start": 11551,
+                "end": 11682
+              }
+            },
+            "confidence": {
+              "score": 0.968,
+              "level": "high"
+            },
+            "transformations": [
+              {
+                "type": "case_normalization",
+                "description": "Converted text to lowercase",
+                "penalty": 0.01
+              },
+              {
+                "type": "punctuation_removal",
+                "description": "Removed 1 punctuation character(s)",
+                "penalty": 0.02
+              },
+              {
+                "type": "whitespace_normalization",
+                "description": "Normalized whitespace",
+                "penalty": 0.001
+              },
+              {
+                "type": "whitespace_trimming",
+                "description": "Trimmed leading/trailing whitespace",
+                "penalty": 0.001
+              }
+            ],
+            "context": {
+              "full": "...l player in the DNA repair system [30]. Taking the high rate of MSI-H/dMMR and the high TMB score into consideration, checkpoint inhibition might be an option in WRN-mut CRC. Additionally, WRN-mut tumors had a hi...",
+              "before": "l player in the DNA repair system [30]. ",
+              "after": ". Additionally, WRN-mut tumors had a hi"
+            }
+          }
+        ]
+      }
+    },
+    "error": null
+  },
+  {
+    "type": "term",
+    "name": "immuno-rationale",
+    "value": true,
+    "provenance": null,
+    "error": null
+  },
+  {
+    "type": "quote",
+    "name": "wrn-mut-brcaness",
+    "value": true,
+    "provenance": {
+      "name": "wrn-mut-brcaness",
+      "type": "fact",
+      "origin": {
+        "document": "PMC7281075",
+        "quotes": [
+          "a higher proportion of 'BRCAness' genes were detected in WRN-mut cases: BRCA1 (8% vs. 1%), BRCA2 (15% vs. 2%), and ATM (10% vs. 4%)."
+        ],
+        "explanation": "WRN-mut CRC shows higher BRCAness gene alterations, suggesting homologous recombination repair defects",
+        "verified": true,
+        "verify_manual": false,
+        "grounded": true,
+        "verification": [
+          {
+            "quote": "a higher proportion of 'BRCAness' genes were detected in WRN-mut cases: BRCA1 (8% vs. 1%), BRCA2 (15% vs. 2%), and ATM (10% vs. 4%).",
+            "verified": true,
+            "original_position": 5985,
+            "original_line": 39,
+            "normalized_position": 5726,
+            "length": 24,
+            "positions": {
+              "original": {
+                "start": 5985,
+                "end": 6114
+              },
+              "normalized": {
+                "start": 5726,
+                "end": 5842
+              }
+            },
+            "confidence": {
+              "score": 0.968,
+              "level": "high"
+            },
+            "transformations": [
+              {
+                "type": "case_normalization",
+                "description": "Converted text to lowercase",
+                "penalty": 0.01
+              },
+              {
+                "type": "punctuation_removal",
+                "description": "Removed 13 punctuation character(s)",
+                "penalty": 0.02
+              },
+              {
+                "type": "whitespace_normalization",
+                "description": "Normalized whitespace",
+                "penalty": 0.001
+              },
+              {
+                "type": "whitespace_trimming",
+                "description": "Trimmed leading/trailing whitespace",
+                "penalty": 0.001
+              }
+            ],
+            "context": {
+              "full": "...6% vs. 9%) (all p < 0.01). Furthermore, a higher proportion of ‘BRCAness’ genes were detected in WRN-mut cases: BRCA1 (8% vs. 1%), BRCA2 (15% vs. 2%), and ATM (10% vs. 4%). Additionally, copy number alteration...",
+              "before": "6% vs. 9%) (all p < 0.01). Furthermore, ",
+              "after": "). Additionally, copy number alteration"
+            }
+          }
+        ]
+      }
+    },
+    "error": null
+  },
+  {
+    "type": "quote",
+    "name": "wrn-parp-hypothesis",
+    "value": true,
+    "provenance": {
+      "name": "wrn-parp-hypothesis",
+      "type": "fact",
+      "origin": {
+        "document": "PMC7281075",
+        "quotes": [
+          "We hypothesize that patients with WRN-mut CRC may also benefit from PARP inhibitor treatment [21]."
+        ],
+        "explanation": "Authors hypothesize PARP inhibitor benefit for WRN-mut CRC based on BRCAness features",
+        "verified": true,
+        "verify_manual": false,
+        "grounded": true,
+        "verification": [
+          {
+            "quote": "We hypothesize that patients with WRN-mut CRC may also benefit from PARP inhibitor treatment [21].",
+            "verified": true,
+            "original_position": 9903,
+            "original_line": 55,
+            "normalized_position": 9487,
+            "length": 15,
+            "positions": {
+              "original": {
+                "start": 9903,
+                "end": 9998
+              },
+              "normalized": {
+                "start": 9487,
+                "end": 9581
+              }
+            },
+            "confidence": {
+              "score": 0.968,
+              "level": "high"
+            },
+            "transformations": [
+              {
+                "type": "case_normalization",
+                "description": "Converted text to lowercase",
+                "penalty": 0.01
+              },
+              {
+                "type": "punctuation_removal",
+                "description": "Removed 1 punctuation character(s)",
+                "penalty": 0.02
+              },
+              {
+                "type": "whitespace_normalization",
+                "description": "Normalized whitespace",
+                "penalty": 0.001
+              },
+              {
+                "type": "whitespace_trimming",
+                "description": "Trimmed leading/trailing whitespace",
+                "penalty": 0.001
+              }
+            ],
+            "context": {
+              "full": "...ng ‘BRCAness’ status was not performed. We hypothesize that patients with WRN-mut CRC may also benefit from PARP inhibitor treatment [21].\n\nIn our cohort, MSI-H/dMMR status wa...",
+              "before": "ng ‘BRCAness’ status was not performed. ",
+              "after": "].\n\nIn our cohort, MSI-H/dMMR status wa"
+            }
+          }
+        ]
+      }
+    },
+    "error": null
+  },
+  {
+    "type": "term",
+    "name": "wrn-brca-paradigm",
+    "value": true,
+    "provenance": null,
+    "error": null
+  },
+  {
+    "type": "quote",
+    "name": "wrn-clusters-with-msi-braf",
+    "value": true,
+    "provenance": {
+      "name": "wrn-clusters-with-msi-braf",
+      "type": "fact",
+      "origin": {
+        "document": "PMC2579485",
+        "quotes": [
+          "the 5 markers (CACNA1G, IGF2, NEUROG1, RUNX3 and SOCS1), CDKN2A, CRABP1, MINT31, MLH1, p14 and WRN were generally clustered with each other and with MSI and BRAF mutation."
+        ],
+        "explanation": "WRN methylation clusters with MSI and BRAF, confirming the WRN-MSI molecular link in CRC",
+        "verified": true,
+        "verify_manual": false,
+        "grounded": true,
+        "verification": [
+          {
+            "quote": "the 5 markers (CACNA1G, IGF2, NEUROG1, RUNX3 and SOCS1), CDKN2A, CRABP1, MINT31, MLH1, p14 and WRN were generally clustered with each other and with MSI and BRAF mutation.",
+            "verified": true,
+            "original_position": 1400,
+            "original_line": 23,
+            "normalized_position": 1331,
+            "length": 28,
+            "positions": {
+              "original": {
+                "start": 1400,
+                "end": 1569
+              },
+              "normalized": {
+                "start": 1331,
+                "end": 1490
+              }
+            },
+            "confidence": {
+              "score": 0.968,
+              "level": "high"
+            },
+            "transformations": [
+              {
+                "type": "case_normalization",
+                "description": "Converted text to lowercase",
+                "penalty": 0.01
+              },
+              {
+                "type": "punctuation_removal",
+                "description": "Removed 10 punctuation character(s)",
+                "penalty": 0.02
+              },
+              {
+                "type": "whitespace_normalization",
+                "description": "Normalized whitespace",
+                "penalty": 0.001
+              },
+              {
+                "type": "whitespace_trimming",
+                "description": "Trimmed leading/trailing whitespace",
+                "penalty": 0.001
+              }
+            ],
+            "context": {
+              "full": "...vised hierarchical clustering analysis, the 5 markers (CACNA1G, IGF2, NEUROG1, RUNX3 and SOCS1), CDKN2A, CRABP1, MINT31, MLH1, p14 and WRN were generally clustered with each other and with MSI and BRAF mutation. KRAS mutation was not clustered with ...",
+              "before": "vised hierarchical clustering analysis, ",
+              "after": ". KRAS mutation was not clustered with "
+            }
+          }
+        ]
+      }
+    },
+    "error": null
+  },
+  {
+    "type": "quote",
+    "name": "wrn-methylation-msi-link",
+    "value": true,
+    "provenance": {
+      "name": "wrn-methylation-msi-link",
+      "type": "fact",
+      "origin": {
+        "document": "PMC7281075",
+        "quotes": [
+          "A correlation between WRN promotor methylation and the CIMP phenotype has been described earlier, linking deficiency in WRN gene function and MSI [26]."
+        ],
+        "explanation": "WRN promoter methylation connects WRN deficiency to MSI, supporting the therapeutic rationale via epigenetic mechanism",
+        "verified": true,
+        "verify_manual": false,
+        "grounded": true,
+        "verification": [
+          {
+            "quote": "A correlation between WRN promotor methylation and the CIMP phenotype has been described earlier, linking deficiency in WRN gene function and MSI [26].",
+            "verified": true,
+            "original_position": 10910,
+            "original_line": 57,
+            "normalized_position": 10472,
+            "length": 23,
+            "positions": {
+              "original": {
+                "start": 10910,
+                "end": 11058
+              },
+              "normalized": {
+                "start": 10472,
+                "end": 10618
+              }
+            },
+            "confidence": {
+              "score": 0.968,
+              "level": "high"
+            },
+            "transformations": [
+              {
+                "type": "case_normalization",
+                "description": "Converted text to lowercase",
+                "penalty": 0.01
+              },
+              {
+                "type": "punctuation_removal",
+                "description": "Removed 2 punctuation character(s)",
+                "penalty": 0.02
+              },
+              {
+                "type": "whitespace_normalization",
+                "description": "Normalized whitespace",
+                "penalty": 0.001
+              },
+              {
+                "type": "whitespace_trimming",
+                "description": "Trimmed leading/trailing whitespace",
+                "penalty": 0.001
+              }
+            ],
+            "context": {
+              "full": "...e and co-occurring MSI were not viable. A correlation between WRN promotor methylation and the CIMP phenotype has been described earlier, linking deficiency in WRN gene function and MSI [26].\n\nAs we did not perform RNomics, prot...",
+              "before": "e and co-occurring MSI were not viable. ",
+              "after": "].\n\nAs we did not perform RNomics, prot"
+            }
+          }
+        ]
+      }
+    },
+    "error": null
+  },
+  {
+    "type": "quote",
+    "name": "msi-fewer-cnv",
+    "value": true,
+    "provenance": {
+      "name": "msi-fewer-cnv",
+      "type": "fact",
+      "origin": {
+        "document": "PMC8478156",
+        "quotes": [
+          "In colorectal and gastric cancers, tumors with MSI demonstrated much fewer copy number changes than microsatellite stable (MSS) tumors."
+        ],
+        "explanation": "MSI tumors have distinct genomic profiles with fewer CNVs, supporting MSI as a distinct therapeutically relevant subtype",
+        "verified": true,
+        "verify_manual": false,
+        "grounded": true,
+        "verification": [
+          {
+            "quote": "In colorectal and gastric cancers, tumors with MSI demonstrated much fewer copy number changes than microsatellite stable (MSS) tumors.",
+            "verified": true,
+            "original_position": 1748,
+            "original_line": 17,
+            "normalized_position": 1677,
+            "length": 19,
+            "positions": {
+              "original": {
+                "start": 1748,
+                "end": 1881
+              },
+              "normalized": {
+                "start": 1677,
+                "end": 1807
+              }
+            },
+            "confidence": {
+              "score": 0.968,
+              "level": "high"
+            },
+            "transformations": [
+              {
+                "type": "case_normalization",
+                "description": "Converted text to lowercase",
+                "penalty": 0.01
+              },
+              {
+                "type": "punctuation_removal",
+                "description": "Removed 3 punctuation character(s)",
+                "penalty": 0.02
+              },
+              {
+                "type": "whitespace_normalization",
+                "description": "Normalized whitespace",
+                "penalty": 0.001
+              },
+              {
+                "type": "whitespace_trimming",
+                "description": "Trimmed leading/trailing whitespace",
+                "penalty": 0.001
+              }
+            ],
+            "context": {
+              "full": "...s were more frequent in low-CIN tumors. In colorectal and gastric cancers, tumors with MSI demonstrated much fewer copy number changes than microsatellite stable (MSS) tumors. In colorectal and gastric cancers, th...",
+              "before": "s were more frequent in low-CIN tumors. ",
+              "after": ". In colorectal and gastric cancers, th"
+            }
+          }
+        ]
+      }
+    },
+    "error": null
+  },
+  {
+    "type": "term",
+    "name": "wrn-msi-associated",
+    "value": true,
+    "provenance": null,
+    "error": null
+  },
+  {
+    "type": "quote",
+    "name": "tp53-wt-sensitive",
+    "value": true,
+    "provenance": {
+      "name": "tp53-wt-sensitive",
+      "type": "fact",
+      "origin": {
+        "document": "PMC7281075",
+        "quotes": [
+          "Chan and colleagues [11] also investigated the dependency of WRN depletion on TP53 status. They found that TP53-wt/MSI-H tumor cells were more sensitive to WRN loss than TP53-mut/MSI-H cells"
+        ],
+        "explanation": "TP53-wt/MSI-H tumor cells retain sensitivity to WRN loss, indicating the target is effective in TP53-wt subset",
+        "verified": true,
+        "verify_manual": false,
+        "grounded": true,
+        "verification": [
+          {
+            "quote": "Chan and colleagues [11] also investigated the dependency of WRN depletion on TP53 status. They found that TP53-wt/MSI-H tumor cells were more sensitive to WRN loss than TP53-mut/MSI-H cells",
+            "verified": true,
+            "original_position": 13656,
+            "original_line": 67,
+            "normalized_position": 13126,
+            "length": 29,
+            "positions": {
+              "original": {
+                "start": 13656,
+                "end": 13845
+              },
+              "normalized": {
+                "start": 13126,
+                "end": 13312
+              }
+            },
+            "confidence": {
+              "score": 0.969,
+              "level": "high"
+            },
+            "transformations": [
+              {
+                "type": "case_normalization",
+                "description": "Converted text to lowercase",
+                "penalty": 0.01
+              },
+              {
+                "type": "punctuation_removal",
+                "description": "Removed 3 punctuation character(s)",
+                "penalty": 0.02
+              },
+              {
+                "type": "whitespace_normalization",
+                "description": "Normalized whitespace",
+                "penalty": 0.001
+              }
+            ],
+            "context": {
+              "full": "...e of them are in a clinical trial yet.\n\nChan and colleagues [11] also investigated the dependency of WRN depletion on TP53 status. They found that TP53-wt/MSI-H tumor cells were more sensitive to WRN loss than TP53-mut/MSI-H cells; they also found an increased expressi...",
+              "before": "e of them are in a clinical trial yet.\n\n",
+              "after": "; they also found an increased expressi"
+            }
+          }
+        ]
+      }
+    },
+    "error": null
+  },
+  {
+    "type": "quote",
+    "name": "tp53-impairs-wrn",
+    "value": true,
+    "provenance": {
+      "name": "tp53-impairs-wrn",
+      "type": "fact",
+      "origin": {
+        "document": "PMC7281075",
+        "quotes": [
+          "For the success of WRN inhibitors, it could be essential to assess, besides MSI status, TP53 mutations as a biomarker of response, as a mutated TP53 could impair efficacy of WRN inhibition."
+        ],
+        "explanation": "TP53 mutations may impair WRN inhibitor efficacy, constraining the responsive patient subset",
+        "verified": true,
+        "verify_manual": false,
+        "grounded": true,
+        "verification": [
+          {
+            "quote": "For the success of WRN inhibitors, it could be essential to assess, besides MSI status, TP53 mutations as a biomarker of response, as a mutated TP53 could impair efficacy of WRN inhibition.",
+            "verified": true,
+            "original_position": 13984,
+            "original_line": 67,
+            "normalized_position": 13448,
+            "length": 32,
+            "positions": {
+              "original": {
+                "start": 13984,
+                "end": 14171
+              },
+              "normalized": {
+                "start": 13448,
+                "end": 13631
+              }
+            },
+            "confidence": {
+              "score": 0.968,
+              "level": "high"
+            },
+            "transformations": [
+              {
+                "type": "case_normalization",
+                "description": "Converted text to lowercase",
+                "penalty": 0.01
+              },
+              {
+                "type": "punctuation_removal",
+                "description": "Removed 4 punctuation character(s)",
+                "penalty": 0.02
+              },
+              {
+                "type": "whitespace_normalization",
+                "description": "Normalized whitespace",
+                "penalty": 0.001
+              },
+              {
+                "type": "whitespace_trimming",
+                "description": "Trimmed leading/trailing whitespace",
+                "penalty": 0.001
+              }
+            ],
+            "context": {
+              "full": "...which is a response to TP53 activation. For the success of WRN inhibitors, it could be essential to assess, besides MSI status, TP53 mutations as a biomarker of response, as a mutated TP53 could impair efficacy of WRN inhibition.\n\nOur study has important limitations,...",
+              "before": "which is a response to TP53 activation. ",
+              "after": ".\n\nOur study has important limitations,"
+            }
+          }
+        ]
+      }
+    },
+    "error": null
+  },
+  {
+    "type": "term",
+    "name": "tp53-context",
+    "value": false,
+    "provenance": null,
+    "error": null
+  },
+  {
+    "type": "quote",
+    "name": "no-wrn-inhibitors-clinical",
+    "value": true,
+    "provenance": {
+      "name": "no-wrn-inhibitors-clinical",
+      "type": "fact",
+      "origin": {
+        "document": "PMC7281075",
+        "quotes": [
+          "Inhibitors, such as NSC19630 [35], NSC617145 [36], ML216 [37], NCGC00029283, NCGC00063279, and NCGC00357377 [38] have been identified in drug-screening studies [39]; however, none of them are in a clinical trial yet."
+        ],
+        "explanation": "Despite preclinical identification, no WRN inhibitor has entered clinical trials, indicating clinical immaturity",
+        "verified": true,
+        "verify_manual": false,
+        "grounded": true,
+        "verification": [
+          {
+            "quote": "Inhibitors, such as NSC19630 [35], NSC617145 [36], ML216 [37], NCGC00029283, NCGC00063279, and NCGC00357377 [38] have been identified in drug-screening studies [39]; however, none of them are in a clinical trial yet.",
+            "verified": true,
+            "original_position": 13438,
+            "original_line": 65,
+            "normalized_position": 12928,
+            "length": 31,
+            "positions": {
+              "original": {
+                "start": 13438,
+                "end": 13652
+              },
+              "normalized": {
+                "start": 12928,
+                "end": 13124
+              }
+            },
+            "confidence": {
+              "score": 0.968,
+              "level": "high"
+            },
+            "transformations": [
+              {
+                "type": "case_normalization",
+                "description": "Converted text to lowercase",
+                "penalty": 0.01
+              },
+              {
+                "type": "punctuation_removal",
+                "description": "Removed 18 punctuation character(s)",
+                "penalty": 0.02
+              },
+              {
+                "type": "whitespace_normalization",
+                "description": "Normalized whitespace",
+                "penalty": 0.001
+              },
+              {
+                "type": "whitespace_trimming",
+                "description": "Trimmed leading/trailing whitespace",
+                "penalty": 0.001
+              }
+            ],
+            "context": {
+              "full": "...ttractive target for MSI-H/dMMR tumors. Inhibitors, such as NSC19630 [35], NSC617145 [36], ML216 [37], NCGC00029283, NCGC00063279, and NCGC00357377 [38] have been identified in drug-screening studies [39]; however, none of them are in a clinical trial yet.\n\nChan and colleagues [11] also invest...",
+              "before": "ttractive target for MSI-H/dMMR tumors. ",
+              "after": ".\n\nChan and colleagues [11] also invest"
+            }
+          }
+        ]
+      }
+    },
+    "error": null
+  },
+  {
+    "type": "quote",
+    "name": "median-tmb-not-significant",
+    "value": true,
+    "provenance": {
+      "name": "median-tmb-not-significant",
+      "type": "fact",
+      "origin": {
+        "document": "PMC7281075",
+        "quotes": [
+          "However, when looking at median levels, the differences observed with mean levels are no longer statistically significant."
+        ],
+        "explanation": "Median TMB differences between WRN-mut and WRN-wt subgroups were not statistically significant, weakening TMB-based conclusions",
+        "verified": true,
+        "verify_manual": false,
+        "grounded": true,
+        "verification": [
+          {
+            "quote": "However, when looking at median levels, the differences observed with mean levels are no longer statistically significant.",
+            "verified": true,
+            "original_position": 7036,
+            "original_line": 45,
+            "normalized_position": 6705,
+            "length": 17,
+            "positions": {
+              "original": {
+                "start": 7036,
+                "end": 7156
+              },
+              "normalized": {
+                "start": 6705,
+                "end": 6823
+              }
+            },
+            "confidence": {
+              "score": 0.968,
+              "level": "high"
+            },
+            "transformations": [
+              {
+                "type": "case_normalization",
+                "description": "Converted text to lowercase",
+                "penalty": 0.01
+              },
+              {
+                "type": "punctuation_removal",
+                "description": "Removed 2 punctuation character(s)",
+                "penalty": 0.02
+              },
+              {
+                "type": "whitespace_normalization",
+                "description": "Normalized whitespace",
+                "penalty": 0.001
+              },
+              {
+                "type": "whitespace_trimming",
+                "description": "Trimmed leading/trailing whitespace",
+                "penalty": 0.001
+              }
+            ],
+            "context": {
+              "full": "... cases (43 vs. 8.6 mut/MB, p < 0.0001). However, when looking at median levels, the differences observed with mean levels are no longer statistically significant.\n\n## 3. Discussion\n\nTo the best of our...",
+              "before": " cases (43 vs. 8.6 mut/MB, p < 0.0001). ",
+              "after": ".\n\n## 3. Discussion\n\nTo the best of our"
+            }
+          }
+        ]
+      }
+    },
+    "error": null
+  },
+  {
+    "type": "quote",
+    "name": "wrn-cimp-marker-inferior",
+    "value": true,
+    "provenance": {
+      "name": "wrn-cimp-marker-inferior",
+      "type": "fact",
+      "origin": {
+        "document": "PMC2579485",
+        "quotes": [
+          "Performance of the 5 new markers (CACNA1G, IGF2, NEUROG1, RUNX3, and SOCS1), CRABP1 and MLH1 was consistently superior to that of WRN, MINT1, CHFR, IGFBP3, HIC1 and MGMT."
+        ],
+        "explanation": "WRN performance as a methylation marker was inferior to validated CIMP-high markers, suggesting weaker independent epigenetic signal",
+        "verified": true,
+        "verify_manual": false,
+        "grounded": true,
+        "verification": [
+          {
+            "quote": "Performance of the 5 new markers (CACNA1G, IGF2, NEUROG1, RUNX3, and SOCS1), CRABP1 and MLH1 was consistently superior to that of WRN, MINT1, CHFR, IGFBP3, HIC1 and MGMT.",
+            "verified": true,
+            "original_position": 34762,
+            "original_line": 241,
+            "normalized_position": 33022,
+            "length": 28,
+            "positions": {
+              "original": {
+                "start": 34762,
+                "end": 34930
+              },
+              "normalized": {
+                "start": 33022,
+                "end": 33179
+              }
+            },
+            "confidence": {
+              "score": 0.968,
+              "level": "high"
+            },
+            "transformations": [
+              {
+                "type": "case_normalization",
+                "description": "Converted text to lowercase",
+                "penalty": 0.01
+              },
+              {
+                "type": "punctuation_removal",
+                "description": "Removed 11 punctuation character(s)",
+                "penalty": 0.02
+              },
+              {
+                "type": "whitespace_normalization",
+                "description": "Normalized whitespace",
+                "penalty": 0.001
+              },
+              {
+                "type": "whitespace_trimming",
+                "description": "Trimmed leading/trailing whitespace",
+                "penalty": 0.001
+              }
+            ],
+            "context": {
+              "full": "...CpG islands, using a large sample size. Performance of the 5 new markers (CACNA1G, IGF2, NEUROG1, RUNX3, and SOCS1), CRABP1 and MLH1 was consistently superior to that of WRN, MINT1, CHFR, IGFBP3, HIC1 and MGMT. MINT31, CDKN2A, and p14 showed interm...",
+              "before": "CpG islands, using a large sample size. ",
+              "after": ". MINT31, CDKN2A, and p14 showed interm"
+            }
+          }
+        ]
+      }
+    },
+    "error": null
+  },
+  {
+    "type": "quote",
+    "name": "pdl1-not-predictive-crc",
+    "value": true,
+    "provenance": {
+      "name": "pdl1-not-predictive-crc",
+      "type": "fact",
+      "origin": {
+        "document": "PMC7281075",
+        "quotes": [
+          "In the setting of CRC, PD-L1 expression levels do not seem to play a major role in predicting response upon checkpoint therapy, as was observed in the Checkmate 142 trial [32]"
+        ],
+        "explanation": "PD-L1 expression is not a reliable predictor of checkpoint response in CRC, limiting one biomarker for WRN-mut immunotherapy",
+        "verified": true,
+        "verify_manual": false,
+        "grounded": true,
+        "verification": [
+          {
+            "quote": "In the setting of CRC, PD-L1 expression levels do not seem to play a major role in predicting response upon checkpoint therapy, as was observed in the Checkmate 142 trial [32]",
+            "verified": true,
+            "original_position": 12324,
+            "original_line": 61,
+            "normalized_position": 11844,
+            "length": 31,
+            "positions": {
+              "original": {
+                "start": 12324,
+                "end": 12497
+              },
+              "normalized": {
+                "start": 11844,
+                "end": 12014
+              }
+            },
+            "confidence": {
+              "score": 0.968,
+              "level": "high"
+            },
+            "transformations": [
+              {
+                "type": "case_normalization",
+                "description": "Converted text to lowercase",
+                "penalty": 0.01
+              },
+              {
+                "type": "punctuation_removal",
+                "description": "Removed 3 punctuation character(s)",
+                "penalty": 0.02
+              },
+              {
+                "type": "whitespace_normalization",
+                "description": "Normalized whitespace",
+                "penalty": 0.001
+              },
+              {
+                "type": "whitespace_trimming",
+                "description": "Trimmed leading/trailing whitespace",
+                "penalty": 0.001
+              }
+            ],
+            "context": {
+              "full": "...ussion as a biomarker of response [31]. In the setting of CRC, PD-L1 expression levels do not seem to play a major role in predicting response upon checkpoint therapy, as was observed in the Checkmate 142 trial [32].\n\nInterestingly, we also observed mor...",
+              "before": "ussion as a biomarker of response [31]. ",
+              "after": "].\n\nInterestingly, we also observed mor"
+            }
+          }
+        ]
+      }
+    },
+    "error": null
+  },
+  {
+    "type": "term",
+    "name": "biomarker-limit",
+    "value": true,
+    "provenance": null,
+    "error": null
+  },
+  {
+    "type": "quote",
+    "name": "cin-poor-prognosis",
+    "value": true,
+    "provenance": {
+      "name": "cin-poor-prognosis",
+      "type": "fact",
+      "origin": {
+        "document": "PMC8478156",
+        "quotes": [
+          "CIN is a critical hallmark of cancer and is closely related to tumor metastasis, treatment resistance, and poor prognosis (Pikor et al., 2013; Bakhoum and Cantley, 2018)."
+        ],
+        "explanation": "CIN is associated with poor prognosis and treatment resistance, complicating the context of WRN copy number loss",
+        "verified": true,
+        "verify_manual": false,
+        "grounded": true,
+        "verification": [
+          {
+            "quote": "CIN is a critical hallmark of cancer and is closely related to tumor metastasis, treatment resistance, and poor prognosis (Pikor et al., 2013; Bakhoum and Cantley, 2018).",
+            "verified": true,
+            "original_position": 17605,
+            "original_line": 73,
+            "normalized_position": 16868,
+            "length": 27,
+            "positions": {
+              "original": {
+                "start": 17605,
+                "end": 17772
+              },
+              "normalized": {
+                "start": 16868,
+                "end": 17028
+              }
+            },
+            "confidence": {
+              "score": 0.968,
+              "level": "high"
+            },
+            "transformations": [
+              {
+                "type": "case_normalization",
+                "description": "Converted text to lowercase",
+                "penalty": 0.01
+              },
+              {
+                "type": "punctuation_removal",
+                "description": "Removed 7 punctuation character(s)",
+                "penalty": 0.02
+              },
+              {
+                "type": "whitespace_normalization",
+                "description": "Normalized whitespace",
+                "penalty": 0.001
+              },
+              {
+                "type": "whitespace_trimming",
+                "description": "Trimmed leading/trailing whitespace",
+                "penalty": 0.001
+              }
+            ],
+            "context": {
+              "full": "...enome marker that we inspected was CIN. CIN is a critical hallmark of cancer and is closely related to tumor metastasis, treatment resistance, and poor prognosis (Pikor et al., 2013; Bakhoum and Cantley, 2018). The CIN score was used to measure th...",
+              "before": "enome marker that we inspected was CIN. ",
+              "after": "). The CIN score was used to measure th"
+            }
+          }
+        ]
+      }
+    },
+    "error": null
+  },
+  {
+    "type": "term",
+    "name": "cin-risk",
+    "value": true,
+    "provenance": null,
+    "error": null
+  },
+  {
+    "type": "quote",
+    "name": "retrospective-limited",
+    "value": true,
+    "provenance": {
+      "name": "retrospective-limited",
+      "type": "fact",
+      "origin": {
+        "document": "PMC7281075",
+        "quotes": [
+          "Our study has important limitations, such as retrospective data extraction from a large database including only very limited basic clinical data."
+        ],
+        "explanation": "Study is retrospective with limited clinical data, constraining direct therapeutic conclusions",
+        "verified": true,
+        "verify_manual": false,
+        "grounded": true,
+        "verification": [
+          {
+            "quote": "Our study has important limitations, such as retrospective data extraction from a large database including only very limited basic clinical data.",
+            "verified": true,
+            "original_position": 14175,
+            "original_line": 69,
+            "normalized_position": 13633,
+            "length": 21,
+            "positions": {
+              "original": {
+                "start": 14175,
+                "end": 14318
+              },
+              "normalized": {
+                "start": 13633,
+                "end": 13775
+              }
+            },
+            "confidence": {
+              "score": 0.968,
+              "level": "high"
+            },
+            "transformations": [
+              {
+                "type": "case_normalization",
+                "description": "Converted text to lowercase",
+                "penalty": 0.01
+              },
+              {
+                "type": "punctuation_removal",
+                "description": "Removed 1 punctuation character(s)",
+                "penalty": 0.02
+              },
+              {
+                "type": "whitespace_normalization",
+                "description": "Normalized whitespace",
+                "penalty": 0.001
+              },
+              {
+                "type": "whitespace_trimming",
+                "description": "Trimmed leading/trailing whitespace",
+                "penalty": 0.001
+              }
+            ],
+            "context": {
+              "full": "...uld impair efficacy of WRN inhibition.\n\nOur study has important limitations, such as retrospective data extraction from a large database including only very limited basic clinical data. However, we think that the data set i...",
+              "before": "uld impair efficacy of WRN inhibition.\n\n",
+              "after": ". However, we think that the data set i"
+            }
+          }
+        ]
+      }
+    },
+    "error": null
+  },
+  {
+    "type": "quote",
+    "name": "wrn-mut-rare",
+    "value": true,
+    "provenance": {
+      "name": "wrn-mut-rare",
+      "type": "fact",
+      "origin": {
+        "document": "PMC7281075",
+        "quotes": [
+          "WRN mutations (WRN-mut) were observed in 80 of 6854 samples (1.2%, see Table 1)."
+        ],
+        "explanation": "WRN mutations are rare in CRC at 1.2% prevalence, limiting the target patient population",
+        "verified": true,
+        "verify_manual": false,
+        "grounded": true,
+        "verification": [
+          {
+            "quote": "WRN mutations (WRN-mut) were observed in 80 of 6854 samples (1.2%, see Table 1).",
+            "verified": true,
+            "original_position": 4583,
+            "original_line": 33,
+            "normalized_position": 4401,
+            "length": 14,
+            "positions": {
+              "original": {
+                "start": 4583,
+                "end": 4660
+              },
+              "normalized": {
+                "start": 4401,
+                "end": 4474
+              }
+            },
+            "confidence": {
+              "score": 0.968,
+              "level": "high"
+            },
+            "transformations": [
+              {
+                "type": "case_normalization",
+                "description": "Converted text to lowercase",
+                "penalty": 0.01
+              },
+              {
+                "type": "punctuation_removal",
+                "description": "Removed 4 punctuation character(s)",
+                "penalty": 0.02
+              },
+              {
+                "type": "whitespace_normalization",
+                "description": "Normalized whitespace",
+                "penalty": 0.001
+              },
+              {
+                "type": "whitespace_trimming",
+                "description": "Trimmed leading/trailing whitespace",
+                "penalty": 0.001
+              }
+            ],
+            "context": {
+              "full": "... of WRN Mutations in Colorectal Cancer\n\nWRN mutations (WRN-mut) were observed in 80 of 6854 samples (1.2%, see Table 1). Around 57% (n = 3905) of the specime...",
+              "before": " of WRN Mutations in Colorectal Cancer\n\n",
+              "after": "). Around 57% (n = 3905) of the specime"
+            }
+          }
+        ]
+      }
+    },
+    "error": null
+  },
+  {
+    "type": "quote",
+    "name": "no-helicase-mutations",
+    "value": true,
+    "provenance": {
+      "name": "no-helicase-mutations",
+      "type": "fact",
+      "origin": {
+        "document": "PMC7281075",
+        "quotes": [
+          "No mutations were observed in the helicase domain (see Figure 1)."
+        ],
+        "explanation": "No helicase domain mutations were detected, which authors interpret as evidence that such mutations with MSI are lethal — supporting but also complicating the therapeutic hypothesis",
+        "verified": true,
+        "verify_manual": false,
+        "grounded": true,
+        "verification": [
+          {
+            "quote": "No mutations were observed in the helicase domain (see Figure 1).",
+            "verified": true,
+            "original_position": 5453,
+            "original_line": 37,
+            "normalized_position": 5232,
+            "length": 11,
+            "positions": {
+              "original": {
+                "start": 5453,
+                "end": 5515
+              },
+              "normalized": {
+                "start": 5232,
+                "end": 5293
+              }
+            },
+            "confidence": {
+              "score": 0.968,
+              "level": "high"
+            },
+            "transformations": [
+              {
+                "type": "case_normalization",
+                "description": "Converted text to lowercase",
+                "penalty": 0.01
+              },
+              {
+                "type": "punctuation_removal",
+                "description": "Removed 1 punctuation character(s)",
+                "penalty": 0.02
+              },
+              {
+                "type": "whitespace_normalization",
+                "description": "Normalized whitespace",
+                "penalty": 0.001
+              },
+              {
+                "type": "whitespace_trimming",
+                "description": "Trimmed leading/trailing whitespace",
+                "penalty": 0.001
+              }
+            ],
+            "context": {
+              "full": "...nd the L6fs frameshift mutation (4.7%). No mutations were observed in the helicase domain (see Figure 1). Other mutations were detected at a m...",
+              "before": "nd the L6fs frameshift mutation (4.7%). ",
+              "after": "). Other mutations were detected at a m"
+            }
+          }
+        ]
+      }
+    },
+    "error": null
+  },
+  {
+    "type": "term",
+    "name": "wrn-mutation-constraint",
+    "value": true,
+    "provenance": null,
+    "error": null
+  },
+  {
+    "type": "term",
+    "name": "wrn-opposition",
+    "value": true,
+    "provenance": null,
+    "error": null
+  },
+  {
+    "type": "term",
+    "name": "wrn-opposition-fatal",
+    "value": false,
+    "provenance": null,
+    "error": null
+  },
+  {
+    "type": "term",
+    "name": "wrn-verdict-no-cin",
+    "value": true,
+    "provenance": null,
+    "error": null
+  },
+  {
+    "type": "term",
+    "name": "wrn-verdict-with-tp53",
+    "value": false,
+    "provenance": null,
+    "error": null
+  },
+  {
+    "type": "term",
+    "name": "wrn-verdict-requires-common-mutations",
+    "value": false,
+    "provenance": null,
+    "error": null
+  }
+]
