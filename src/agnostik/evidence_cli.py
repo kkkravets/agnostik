@@ -8,7 +8,11 @@ import json
 from pathlib import Path
 
 from agnostik.candidates import PRESELECTED_CANDIDATES, select_candidates
-from agnostik.evidence import EvidenceConfig, collect_evidence_batch
+from agnostik.evidence import (
+    EvidenceConfig,
+    collect_evidence_batch,
+    consolidate_stage3_sources,
+)
 
 
 DEFAULT_CANCER_TERMS = {
@@ -65,6 +69,11 @@ def build_parser() -> argparse.ArgumentParser:
     )
     parser.add_argument("--max-trials", type=int, default=20)
     parser.add_argument("--output", type=Path, default=Path("results/evidence"))
+    parser.add_argument(
+        "--stage3-source-dir",
+        type=Path,
+        help="also consolidate unique PMC .txt files into this flat Stage-3 corpus",
+    )
     parser.add_argument("--ncbi-email", default="agnostik@example.com")
     rerun = parser.add_mutually_exclusive_group()
     rerun.add_argument("--overwrite", action="store_true")
@@ -105,6 +114,14 @@ def main(argv: Sequence[str] | None = None) -> int:
         overwrite=args.overwrite,
         skip_existing=args.skip_existing,
     )
+    consolidated_count = None
+    if args.stage3_source_dir:
+        try:
+            consolidated_count = consolidate_stage3_sources(
+                runs, args.stage3_source_dir
+            )
+        except ValueError as exc:
+            parser.error(str(exc))
     if args.as_json:
         print(
             json.dumps(
@@ -132,4 +149,9 @@ def main(argv: Sequence[str] | None = None) -> int:
             )
             if run.error:
                 print(f"  error: {run.error}")
+        if consolidated_count is not None:
+            print(
+                f"Stage-3 corpus: {consolidated_count} unique articles | "
+                f"{args.stage3_source_dir.resolve()}"
+            )
     return 1 if any(run.status == "failed" for run in runs) else 0

@@ -5,10 +5,12 @@ import unittest
 from unittest.mock import patch
 
 from agnostik.evidence import (
+    CandidateRun,
     EvidenceConfig,
     build_queries,
     candidate_run_id,
     collect_candidate_evidence,
+    consolidate_stage3_sources,
 )
 
 
@@ -37,6 +39,27 @@ class EvidenceQueryTests(unittest.TestCase):
 
 
 class EvidenceCollectionTests(unittest.TestCase):
+    def test_consolidates_unique_completed_sources_for_stage3(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            runs = []
+            for gene in ("EGFR", "KRAS"):
+                run_dir = root / gene.lower()
+                source_dir = run_dir / "literature" / "sources"
+                source_dir.mkdir(parents=True)
+                (source_dir / "PMC-shared.txt").write_text("shared", encoding="utf-8")
+                (source_dir / f"PMC-{gene}.txt").write_text(gene, encoding="utf-8")
+                runs.append(CandidateRun(gene, gene.lower(), run_dir, "complete"))
+
+            destination = root / "stage3-sources"
+            count = consolidate_stage3_sources(runs, destination)
+
+            self.assertEqual(count, 3)
+            self.assertEqual(
+                sorted(path.name for path in destination.glob("*.txt")),
+                ["PMC-EGFR.txt", "PMC-KRAS.txt", "PMC-shared.txt"],
+            )
+
     def test_writes_reproducibility_bundle(self):
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)

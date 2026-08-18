@@ -5,9 +5,9 @@ to shortlist oncology targets from live TCGA evidence while making the case
 against each target as visible as the case for it. At least one candidate must
 be rejected explicitly, with a traceable reason.
 
-The first workflow boundary is implemented: accept a TCGA tumour type and
-return the fixed v1 candidate panel. Evidence collection and scoring are not
-implemented yet.
+The implemented workflow accepts a TCGA tumour code, returns the fixed v1
+candidate panel, collects literature and trial evidence, builds grounded
+Parseltongue verdicts, and generates backtraceable Stage-4 objections.
 
 ## v1 scope
 
@@ -40,6 +40,88 @@ Use `--json` when feeding this selection into a later workflow stage:
 ```bash
 uv run agnostik BRCA --json
 ```
+
+## End-to-end COAD workflow
+
+Run these commands from the repository root. `COAD` is the TCGA tumour code;
+the workflow maps it to the human-readable disease term "colon
+adenocarcinoma". The supported default mappings are listed in
+`agnostik.evidence_cli.DEFAULT_CANCER_TERMS`; pass `--cancer-term` when using a
+code without a default.
+
+1. Validate the tumour code and display the fixed candidate panel:
+
+   ```bash
+   uv run agnostik COAD
+   ```
+
+2. Collect PubMed, open-access PMC full text, and ClinicalTrials.gov evidence
+   for all six candidates. The final option consolidates the per-gene PMC files
+   into the flat corpus consumed by Stage 3:
+
+   ```bash
+   uv run agnostik-evidence COAD \
+     --max-articles-per-gene 300 \
+     --max-trials 100 \
+     --output results/evidence \
+     --stage3-source-dir results/clawbio_skill_trial/tcga-coad/full_text_articles \
+     --skip-existing
+   ```
+
+3. Preview Stage 3 without API calls:
+
+   ```bash
+   uv run agnostik-parseltongue COAD \
+     --input results/clawbio_skill_trial/tcga-coad/full_text_articles \
+     --output results/clawbio_skill_trial/tcga-coad/parseltongue_stage3_sample \
+     --max-documents-per-target 3 \
+     --max-target-chars 150000 \
+     --dry-run
+   ```
+
+4. Run the grounded four-pass pipeline. Targets run concurrently; the four
+   dependent passes within one target remain sequential. A six-target run
+   typically takes **40–120 minutes**, depending on model latency, document
+   sizes, retries, and Token Factory load. Keep `--resume` enabled so completed
+   targets survive an interruption:
+
+   ```bash
+   uv run agnostik-parseltongue COAD \
+     --input results/clawbio_skill_trial/tcga-coad/full_text_articles \
+     --output results/clawbio_skill_trial/tcga-coad/parseltongue_stage3_sample \
+     --max-documents-per-target 3 \
+     --max-target-chars 150000 \
+     --workers 3 \
+     --attempts 3 \
+     --resume
+   ```
+
+5. At any time, snapshot completed targets without making model calls:
+
+   ```bash
+   uv run agnostik-parseltongue COAD \
+     --output results/clawbio_skill_trial/tcga-coad/parseltongue_stage3_sample \
+     --export-completed
+   ```
+
+6. Open
+   [`notebooks/parseltongue_stage3_verdict.ipynb`](notebooks/parseltongue_stage3_verdict.ipynb)
+   and run Sections 3–7 to refresh the partial export, validate verdicts, read
+   candidate reports, inspect the JSON, and generate Stage-4 objections.
+
+7. Alternatively, generate final Stage-4 files entirely from the terminal:
+
+   ```bash
+   uv run agnostik-objections run \
+     --export results/clawbio_skill_trial/tcga-coad/parseltongue_stage3_sample/stage3-export.partial.json \
+     --out results/stage4-sample
+   ```
+
+The result path is `results/stage4-sample/`: open `objections.html` for the
+browsable report, `objections.md` for the text report, or `objections.json` for
+the machine-readable record. Once all six targets finish, use the canonical
+`stage3-export.json` instead of `stage3-export.partial.json` for the final
+handoff.
 
 ## Stage 4 — objections with a backtrace
 
@@ -212,6 +294,11 @@ uv run agnostik-parseltongue COAD --resume
 
 Process independent targets concurrently (each target's four dependent passes
 still run sequentially):
+
+> **Runtime:** expect approximately **40–120 minutes** for all six targets.
+> Model latency, selected document sizes, retries, and service load can move the
+> run outside that range. The CLI writes each completed target immediately, so
+> rerunning with `--resume` does not discard finished work.
 
 ```bash
 uv run agnostik-parseltongue COAD --resume --workers 3 --attempts 3

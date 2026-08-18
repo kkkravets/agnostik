@@ -88,6 +88,35 @@ class CandidateRun:
     error: str = ""
 
 
+def consolidate_stage3_sources(
+    runs: Sequence[CandidateRun], destination: Path
+) -> int:
+    """Copy unique completed PMC text sources into Stage 3's flat corpus."""
+
+    destination = Path(destination)
+    destination.mkdir(parents=True, exist_ok=True)
+    available: set[str] = set()
+    for run in runs:
+        if run.status not in {"complete", "skipped"}:
+            continue
+        source_dir = run.run_dir / "literature" / "sources"
+        if not source_dir.is_dir():
+            continue
+        for source in sorted(source_dir.glob("*.txt")):
+            target = destination / source.name
+            if target.is_file():
+                if target.read_bytes() != source.read_bytes():
+                    raise ValueError(
+                        f"conflicting Stage-3 source contents for {source.name}"
+                    )
+            else:
+                shutil.copy2(source, target)
+            available.add(source.name)
+    if not available:
+        raise ValueError("no completed PMC text sources are available for Stage 3")
+    return len(available)
+
+
 def build_queries(
     gene: str,
     cancer_term: str,
