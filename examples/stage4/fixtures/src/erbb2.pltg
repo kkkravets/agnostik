@@ -1,0 +1,118 @@
+; ERBB2 — colorectal cancer target dossier
+; Facts quote docs/pubmed-ERBB2.txt, docs/trials-ERBB2.txt, docs/uniprot-ERBB2.txt verbatim.
+; Claims conjoin the charter criterion that licenses them, so every verdict
+; backtraces to both the data and the rule text.
+
+; ---------------------------------------------------------------- facts
+
+(fact crc-literature-hits 5
+    :evidence (evidence "pubmed-ERBB2"
+        :quotes ("PUBMED_HITS crc=5")
+        :explanation "Indexed PubMed records for ERBB2 in colorectal cancer"))
+
+(fact in-vitro-hits 3
+    :evidence (evidence "pubmed-ERBB2"
+        :quotes ("PUBMED_HITS in_vitro=3")
+        :explanation "Indexed records reporting colorectal cell line or organoid work on ERBB2"))
+
+(fact in-vivo-hits 3
+    :evidence (evidence "pubmed-ERBB2"
+        :quotes ("PUBMED_HITS in_vivo=3")
+        :explanation "Indexed records reporting xenograft or mouse model work on ERBB2"))
+
+(fact druggability-hits 3
+    :evidence (evidence "pubmed-ERBB2"
+        :quotes ("PUBMED_HITS druggability=3")
+        :explanation "Indexed records describing an inhibitor, degrader or antibody against ERBB2"))
+
+(fact trials-total 10
+    :evidence (evidence "trials-ERBB2"
+        :quotes ("TRIALS total=10")
+        :explanation "Registered colorectal cancer trials naming ERBB2"))
+
+(fact trials-late-phase 2
+    :evidence (evidence "trials-ERBB2"
+        :quotes ("TRIALS late_phase=2")
+        :explanation "Trials in phase 3 or phase 4"))
+
+(fact trials-recruiting 3
+    :evidence (evidence "trials-ERBB2"
+        :quotes ("TRIALS recruiting=3")
+        :explanation "Trials currently recruiting"))
+
+(fact binding-sites 2
+    :evidence (evidence "uniprot-ERBB2"
+        :quotes ("UNIPROT binding_sites=2")
+        :explanation "Binding sites annotated on the reviewed human ERBB2 entry"))
+
+; ------------------------------------------------ document anchors
+
+(fact paper-42401587 true
+    :evidence (evidence "pubmed-ERBB2"
+        :quotes ("TITLE: Signaling downstream of tumor-stroma interaction regulates mucinous colorectal adenocarcinoma apicobasal polarity.")
+        :explanation "PMID 42401587 (in_vivo query, Nature communications 2026-07-04)"))
+
+(fact paper-42176792 true
+    :evidence (evidence "pubmed-ERBB2"
+        :quotes ("TITLE: EGFR S442 ectodomain mutation confers cetuximab resistance that can be overcome by ERBB2 blockade with trastuzumab-deruxtecan.")
+        :explanation "PMID 42176792 (in_vivo query, Cancer letters 2026-05-22)"))
+
+(fact paper-42599169 true
+    :evidence (evidence "pubmed-ERBB2"
+        :quotes ("TITLE: Incremental Value of Synthetic MRI Radiomics in Predicting Neoadjuvant Response in Human Epidermal Growth Factor Receptor 2-Positive Breast Cancer.")
+        :explanation "PMID 42599169 (druggability query, Radiology. Imaging cancer 2026-Sep)"))
+
+(fact paper-42601812 true
+    :evidence (evidence "pubmed-ERBB2"
+        :quotes ("TITLE: Exceptional Response of HER2-Positive Breast Cancer to Osimertinib: A Case Report.")
+        :explanation "PMID 42601812 (druggability query, Thoracic cancer 2026-Aug)"))
+
+(fact paper-42426557 true
+    :evidence (evidence "pubmed-ERBB2"
+        :quotes ("TITLE: Anti-Human Epidermal Growth Factor Receptor 2 therapies in metastatic colorectal cancer: a systematic review and meta-analysis.")
+        :explanation "PMID 42426557 (crc query, The oncologist 2026-Aug)"))
+
+(fact paper-42497534 true
+    :evidence (evidence "pubmed-ERBB2"
+        :quotes ("TITLE: The Xpert Breast Cancer Insight Test Predicts Distant Recurrence and Overall Survival in ER-Positive, HER2-Negative Early Breast Cancer.")
+        :explanation "PMID 42497534 (crc query, Clinical breast cancer 2026-07-24)"))
+
+(fact trial-NCT03803553 true
+    :evidence (evidence "trials-ERBB2"
+        :quotes ("TITLE: Identification and Treatment Of Micrometastatic Disease in Stage III Colon Cancer")
+        :explanation "NCT03803553 — status RECRUITING, phases PHASE3"))
+
+(fact trial-NCT07384377 true
+    :evidence (evidence "trials-ERBB2"
+        :quotes ("TITLE: JSKN003 Versus Physician Choiced Treatment in Patients With HER2-positive and Advanced Colorectal Cancer Who Had Failed to Respond to Oxaliplatin, 5-Fu, and Irinotecan")
+        :explanation "NCT07384377 — status NOT_YET_RECRUITING, phases PHASE3"))
+
+(fact trial-NCT07503756 true
+    :evidence (evidence "trials-ERBB2"
+        :quotes ("TITLE: JS212 Combination Therapies in Metastatic Colorectal Cancer")
+        :explanation "NCT07503756 — status RECRUITING, phases PHASE2"))
+
+; -------------------------------------------------------- claims
+
+(derive structurally-druggable (and (> binding-sites 0) src.rules.c1-in-force)
+    :using (binding-sites src.rules.c1-in-force))
+
+(derive has-chemical-matter (and (>= druggability-hits 3) src.rules.c2-in-force)
+    :using (druggability-hits src.rules.c2-in-force))
+
+(derive druggable (and (and structurally-druggable has-chemical-matter) src.rules.c3-in-force)
+    :using (structurally-druggable has-chemical-matter src.rules.c3-in-force))
+
+(derive in-vitro-supported (and (> in-vitro-hits 0) src.rules.c4-in-force)
+    :using (in-vitro-hits src.rules.c4-in-force))
+
+(derive in-vivo-supported (and (> in-vivo-hits 0) src.rules.c5-in-force)
+    :using (in-vivo-hits src.rules.c5-in-force))
+
+(derive clinical-traction
+    (and (or (> trials-late-phase 0) (> trials-recruiting 0)) src.rules.c6-in-force)
+    :using (trials-late-phase trials-recruiting src.rules.c6-in-force))
+
+; charter C8 — the dossier is anchored to quoted documents
+(derive dossier-anchored (and (and paper-42401587 (and paper-42176792 (and paper-42599169 (and paper-42601812 (and paper-42426557 (and paper-42497534 (and trial-NCT03803553 (and trial-NCT07384377 trial-NCT07503756)))))))) src.rules.c8-in-force)
+    :using (paper-42401587 paper-42176792 paper-42599169 paper-42601812 paper-42426557 paper-42497534 trial-NCT03803553 trial-NCT07384377 trial-NCT07503756 src.rules.c8-in-force))

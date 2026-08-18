@@ -1,0 +1,10 @@
+UniProt reviewed record — PRMT5
+Source: rest.uniprot.org, organism 9606, reviewed only
+
+## COUNTERS
+UNIPROT binding_sites=7
+
+ACCESSION: O14744
+ENTRY: ANM5_HUMAN
+PROTEIN: Protein arginine N-methyltransferase 5
+FUNCTION: Arginine methyltransferase that can both catalyze the formation of omega-N monomethylarginine (MMA) and symmetrical dimethylarginine (sDMA), with a preference for the formation of MMA (PubMed:10531356, PubMed:11152681, PubMed:11747828, PubMed:12411503, PubMed:15737618, PubMed:17709427, PubMed:20159986, PubMed:20810653, PubMed:21081503, PubMed:21258366, PubMed:21917714, PubMed:22269951). Specifically mediates the symmetrical dimethylation of arginine residues in the small nuclear ribonucleoproteins Sm D1 (SNRPD1) and Sm D3 (SNRPD3); such methylation being required for the assembly and biogenesis of snRNP core particles (PubMed:11747828, PubMed:12411503, PubMed:17709427). Methylates SUPT5H and may regulate its transcriptional elongation properties (PubMed:12718890). May methylate the N-terminal region of MBD2 (PubMed:16428440). Mono- and dimethylates arginine residues of myelin basic prote

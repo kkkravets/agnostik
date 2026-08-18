@@ -1,0 +1,91 @@
+; shortlist.pltg — CRC target shortlist system (entry point)
+; Targets: EGFR, ERBB2, KRAS, MYC, WRN, PRMT5 | Disease: colorectal cancer
+; Stand-in for pipeline stages 1-3; stage 4 (objections) consumes the
+; pg-bench export of this system.
+
+; --- source documents ---
+(load-document "charter" "docs/charter.md")
+(load-document "pubmed-EGFR" "docs/pubmed-EGFR.txt")
+(load-document "trials-EGFR" "docs/trials-EGFR.txt")
+(load-document "uniprot-EGFR" "docs/uniprot-EGFR.txt")
+(load-document "pubmed-ERBB2" "docs/pubmed-ERBB2.txt")
+(load-document "trials-ERBB2" "docs/trials-ERBB2.txt")
+(load-document "uniprot-ERBB2" "docs/uniprot-ERBB2.txt")
+(load-document "pubmed-KRAS" "docs/pubmed-KRAS.txt")
+(load-document "trials-KRAS" "docs/trials-KRAS.txt")
+(load-document "uniprot-KRAS" "docs/uniprot-KRAS.txt")
+(load-document "pubmed-MYC" "docs/pubmed-MYC.txt")
+(load-document "trials-MYC" "docs/trials-MYC.txt")
+(load-document "uniprot-MYC" "docs/uniprot-MYC.txt")
+(load-document "pubmed-WRN" "docs/pubmed-WRN.txt")
+(load-document "trials-WRN" "docs/trials-WRN.txt")
+(load-document "uniprot-WRN" "docs/uniprot-WRN.txt")
+(load-document "pubmed-PRMT5" "docs/pubmed-PRMT5.txt")
+(load-document "trials-PRMT5" "docs/trials-PRMT5.txt")
+(load-document "uniprot-PRMT5" "docs/uniprot-PRMT5.txt")
+
+; --- decision rules (charter-grounded axioms) ---
+(import (quote src.rules))
+
+; --- target dossiers (facts + per-target claims) ---
+(import (quote src.egfr))
+(import (quote src.erbb2))
+(import (quote src.kras))
+(import (quote src.myc))
+(import (quote src.wrn))
+(import (quote src.prmt5))
+
+; --- verdicts: charter C7 applied to each dossier ---
+
+(derive egfr-promising
+    (and (and src.egfr.druggable (and src.egfr.in-vivo-supported src.egfr.clinical-traction))
+         src.rules.c7-in-force)
+    :using (src.egfr.druggable src.egfr.in-vivo-supported src.egfr.clinical-traction src.rules.c7-in-force))
+
+(derive egfr-traceable src.egfr.dossier-anchored
+    :using (src.egfr.dossier-anchored))
+
+(derive erbb2-promising
+    (and (and src.erbb2.druggable (and src.erbb2.in-vivo-supported src.erbb2.clinical-traction))
+         src.rules.c7-in-force)
+    :using (src.erbb2.druggable src.erbb2.in-vivo-supported src.erbb2.clinical-traction src.rules.c7-in-force))
+
+(derive erbb2-traceable src.erbb2.dossier-anchored
+    :using (src.erbb2.dossier-anchored))
+
+(derive kras-promising
+    (and (and src.kras.druggable (and src.kras.in-vivo-supported src.kras.clinical-traction))
+         src.rules.c7-in-force)
+    :using (src.kras.druggable src.kras.in-vivo-supported src.kras.clinical-traction src.rules.c7-in-force))
+
+(derive kras-traceable src.kras.dossier-anchored
+    :using (src.kras.dossier-anchored))
+
+(derive myc-promising
+    (and (and src.myc.druggable (and src.myc.in-vivo-supported src.myc.clinical-traction))
+         src.rules.c7-in-force)
+    :using (src.myc.druggable src.myc.in-vivo-supported src.myc.clinical-traction src.rules.c7-in-force))
+
+(derive myc-traceable src.myc.dossier-anchored
+    :using (src.myc.dossier-anchored))
+
+(derive wrn-promising
+    (and (and src.wrn.druggable (and src.wrn.in-vivo-supported src.wrn.clinical-traction))
+         src.rules.c7-in-force)
+    :using (src.wrn.druggable src.wrn.in-vivo-supported src.wrn.clinical-traction src.rules.c7-in-force))
+
+(derive wrn-traceable src.wrn.dossier-anchored
+    :using (src.wrn.dossier-anchored))
+
+(derive prmt5-promising
+    (and (and src.prmt5.druggable (and src.prmt5.in-vivo-supported src.prmt5.clinical-traction))
+         src.rules.c7-in-force)
+    :using (src.prmt5.druggable src.prmt5.in-vivo-supported src.prmt5.clinical-traction src.rules.c7-in-force))
+
+(derive prmt5-traceable src.prmt5.dossier-anchored
+    :using (src.prmt5.dossier-anchored))
+
+; --- shortlist size: how many of the six survive C7 ---
+(derive shortlist-size
+    (+ (if egfr-promising 1 0) (+ (if erbb2-promising 1 0) (+ (if kras-promising 1 0) (+ (if myc-promising 1 0) (+ (if wrn-promising 1 0) (if prmt5-promising 1 0))))))
+    :using (egfr-promising erbb2-promising kras-promising myc-promising wrn-promising prmt5-promising))

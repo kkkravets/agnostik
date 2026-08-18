@@ -1,0 +1,390 @@
+{
+ "gene": "ERBB2",
+ "disease": "colorectal cancer",
+ "uniprot": {
+  "accession": "P04626",
+  "uniprot_id": "ERBB2_HUMAN",
+  "protein_name": "Receptor tyrosine-protein kinase erbB-2",
+  "function": "Protein tyrosine kinase that is part of several cell surface receptor complexes, but that apparently needs a coreceptor for ligand binding. Essential component of a neuregulin-receptor complex, although neuregulins do not interact with it alone. GP30 is a potential ligand for this receptor. Regulates outgrowth and stabilization of peripheral microtubules (MTs). Upon ERBB2 activation, the MEMO1-RHOA-DIAPH1 signaling pathway elicits the phosphorylation and thus the inhibition of GSK3B at cell membrane. This prevents the phosphorylation of APC and CLASP2, allowing its association with the cell membrane. In turn, membrane-bound APC allows the localization of MACF1 to the cell membrane, which is required for microtubule capture and stabilization",
+  "binding_sites": 2
+ },
+ "pubmed": {
+  "crc": [
+   {
+    "title": "Anti-Human Epidermal Growth Factor Receptor 2 therapies in metastatic colorectal cancer: a systematic review and meta-analysis.",
+    "authors": "Rota S, Di Nardo P, Zottarelli E, et al.",
+    "journal": "The oncologist",
+    "date": "2026-Aug",
+    "abstract": "HER2 amplification identifies a subgroup of colorectal cancer with poorer prognosis and resistance to anti-EGFR therapy.",
+    "pmid": "42426557",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42426557/"
+   },
+   {
+    "title": "The Xpert Breast Cancer Insight Test Predicts Distant Recurrence and Overall Survival in ER-Positive, HER2-Negative Early Breast Cancer.",
+    "authors": "Filipits M, Gruber V, Singer CF, et al.",
+    "journal": "Clinical breast cancer",
+    "date": "2026-07-24",
+    "abstract": "The aim of this study was to validate the Xpert Breast Cancer Insight (BC Insight) test.",
+    "pmid": "42497534",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42497534/"
+   },
+   {
+    "title": "Higher frequency of subclonal anti-EGFR resistance mutations in post-treatment samples from patients with colorectal cancer liver metastases following anti-EGFR-based conversion chemotherapy.",
+    "authors": "Steup C, Mondorf A, Wild P, et al.",
+    "journal": "PloS one",
+    "date": "2026-07-06",
+    "abstract": "Initially unresectable colorectal liver metastases may become resectable after chemotherapy.",
+    "pmid": "42406708",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42406708/"
+   },
+   {
+    "title": "Overcoming Resistance to Anti-EGFR Therapies: Mechanisms of Cetuximab and Panitumumab Resistance and Emerging Combination Strategies.",
+    "authors": "Henrykowska G, Bartusik-Aebisher D, Dynarowicz K, et al.",
+    "journal": "Pharmaceuticals (Basel, Switzerland)",
+    "date": "2026-07-03",
+    "abstract": "Cetuximab and panitumumab are anti-EGFR monoclonal antibodies widely used for the treatment of colorectal cancers.",
+    "pmid": "42515723",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42515723/"
+   },
+   {
+    "title": "Molecular Characterization of Ovarian Metastases from Colorectal Cancer Using Circulating Tumor DNA Analysis.",
+    "authors": "Iwahashi N, Noguchi T, Sakai K, et al.",
+    "journal": "JMA journal",
+    "date": "2026-05-22",
+    "abstract": "Ovarian metastases from colorectal cancer (CRC) are uncommon but are associated with poor prognosis and therapeutic challenges.",
+    "pmid": "42577044",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42577044/"
+   }
+  ],
+  "crc_query": "ERBB2 AND \"colorectal cancer\"",
+  "in_vitro": [
+   {
+    "title": "Signaling downstream of tumor-stroma interaction regulates mucinous colorectal adenocarcinoma apicobasal polarity.",
+    "authors": "Pasquier N, Pelkonen M, Carraz-Billat E, et al.",
+    "journal": "Nature communications",
+    "date": "2026-07-04",
+    "abstract": "Mucinous colorectal carcinoma (MUC CRC) metastasis to multiple organs, and to the peritoneum, is associated with poor prognosis.",
+    "pmid": "42401587",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42401587/"
+   },
+   {
+    "title": "EGFR S442 ectodomain mutation confers cetuximab resistance that can be overcome by ERBB2 blockade with trastuzumab-deruxtecan.",
+    "authors": "Harmych SJ, Joshi N, Tanaka H, et al.",
+    "journal": "Cancer letters",
+    "date": "2026-05-22",
+    "abstract": "Epidermal growth factor receptor (EGFR) is an oncogenic driver in multiple cancers and a therapeutic target of tyrosine kinase inhibitors and neutralizing monoclonal antibodies.",
+    "pmid": "42176792",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42176792/"
+   },
+   {
+    "title": "Pyrimidine-Derived Scaffolds Targeting VEGFR-2, EGFR, and HER-2: Synthesis, Anticancer/Immunomodulatory Evaluation, and In Silico Analysis.",
+    "authors": "Ahmed NM, Gaballah MS, Altava B, et al.",
+    "journal": "Drug development research",
+    "date": "2026-May",
+    "abstract": "Following the common structural features of VEGFR-2, EGFR, and HER-2 kinase inhibitors, two newly synthesized series of 3,4-dihydropyrimidine 2(1H)-(thio)ones-5-carboxamide (2a-l) and thiouracil-5-sulfonyl derivatives (4a-e) were evaluated for anti-proliferative activity against colorectal (HCT-116)",
+    "pmid": "42116746",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42116746/"
+   }
+  ],
+  "in_vitro_query": "ERBB2 AND \"colorectal\" AND (in vitro OR \"cell line\" OR organoid)",
+  "in_vivo": [
+   {
+    "title": "Signaling downstream of tumor-stroma interaction regulates mucinous colorectal adenocarcinoma apicobasal polarity.",
+    "authors": "Pasquier N, Pelkonen M, Carraz-Billat E, et al.",
+    "journal": "Nature communications",
+    "date": "2026-07-04",
+    "abstract": "Mucinous colorectal carcinoma (MUC CRC) metastasis to multiple organs, and to the peritoneum, is associated with poor prognosis.",
+    "pmid": "42401587",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42401587/"
+   },
+   {
+    "title": "EGFR S442 ectodomain mutation confers cetuximab resistance that can be overcome by ERBB2 blockade with trastuzumab-deruxtecan.",
+    "authors": "Harmych SJ, Joshi N, Tanaka H, et al.",
+    "journal": "Cancer letters",
+    "date": "2026-05-22",
+    "abstract": "Epidermal growth factor receptor (EGFR) is an oncogenic driver in multiple cancers and a therapeutic target of tyrosine kinase inhibitors and neutralizing monoclonal antibodies.",
+    "pmid": "42176792",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42176792/"
+   },
+   {
+    "title": "Peptide-drug conjugates bearing an antimitotic Ahx-DA1 payload achieve potent antitumor activity in Her2-amplified and EGFR-positive KRAS-mutant cancers in vivo.",
+    "authors": "Panja A, Mitra P, Tkachenko I, et al.",
+    "journal": "Bioorganic & medicinal chemistry",
+    "date": "2026-04-21",
+    "abstract": "Peptide-drug conjugates (PDCs) represent a targeted cancer therapy strategy that combines tumor-homing peptides with potent cytotoxic payloads, offering a promising alternative to antibody-drug conjugates (ADCs) through improved tissue penetration, synthetic accessibility, and tumor selectivity.",
+    "pmid": "42033924",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42033924/"
+   }
+  ],
+  "in_vivo_query": "ERBB2 AND \"colorectal\" AND (xenograft OR \"mouse model\" OR in vivo)",
+  "druggability": [
+   {
+    "title": "Incremental Value of Synthetic MRI Radiomics in Predicting Neoadjuvant Response in Human Epidermal Growth Factor Receptor 2-Positive Breast Cancer.",
+    "authors": "Chen S, Chen Y, Jin C, et al.",
+    "journal": "Radiology. Imaging cancer",
+    "date": "2026-Sep",
+    "abstract": "Purpose To evaluate the added value of a synthetic radiomics model (S-Radiomics) that integrates topologic and Hessian-based features with traditional radiomic features for predicting a pathologic complete response (pCR) in human epidermal growth factor receptor 2 (HER2)-positive breast cancer.",
+    "pmid": "42599169",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42599169/"
+   },
+   {
+    "title": "Exceptional Response of HER2-Positive Breast Cancer to Osimertinib: A Case Report.",
+    "authors": "Yasui H, Hatasa M, Ohara K, et al.",
+    "journal": "Thoracic cancer",
+    "date": "2026-Aug",
+    "abstract": "Osimertinib is standard therapy for EGFR-mutant lung cancer, and HER2 amplification is a known resistance mechanism.",
+    "pmid": "42601812",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42601812/"
+   },
+   {
+    "title": "Reprogramming HER2-Positive gastroesophageal cancer immune contexture with bispecific therapy: HERIZON-GEA-01.",
+    "authors": "Sundar R, Klempner SJ",
+    "journal": "Med (New York, N.Y.)",
+    "date": "2026-Aug",
+    "abstract": "The HERIZON-GEA-01 trial in patients with advanced HER2-positive gastroesophageal adenocarcinoma demonstrated improved outcomes with the addition of the HER2xHER2-bispecific antibody zanidatamab to chemotherapy.",
+    "pmid": "42600568",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42600568/"
+   }
+  ],
+  "druggability_query": "ERBB2 AND (inhibitor OR \"small molecule\" OR degrader OR antibody)"
+ },
+ "trials": [
+  {
+   "nct_id": "NCT03929666",
+   "title": "A Safety and Efficacy Study of ZW25 (Zanidatamab) Plus Combination Chemotherapy in HER2-expressing Gastrointestinal Cancers, Including Gastroesophageal Adenocarcinoma, Biliary Tract Cancer, and Colorectal Cancer",
+   "status": "COMPLETED",
+   "start_date": "2019-08-29",
+   "phases": [
+    "PHASE2"
+   ],
+   "study_type": "INTERVENTIONAL",
+   "conditions": [
+    "HER2-expressing Gastrointestinal Cancers, Including Gastroesophageal Adenocarcinoma, Biliary Tract Cancer, and Colorectal Cancer"
+   ],
+   "interventions": [
+    "ZW25 (Zanidatamab)",
+    "Capecitabine",
+    "Cisplatin",
+    "Fluorouracil",
+    "Leucovorin",
+    "Oxaliplatin",
+    "Bevacizumab",
+    "Gemcitabine"
+   ],
+   "summary": "This is a multicenter, global, Phase 2, open-label, 2-part, first-line study to investigate the safety, tolerability, and anti-tumor activity of ZW25 (zanidatamab) plus standard first-line combination chemotherapy regimens for selected gastrointestinal (GI) cancers. Eligible patients include those with unresectable, locally advanced, recurrent or metastatic HER2-expressing gastroesophageal adenocarcinoma (GEA), biliary tract cancer (BTC), or colorectal cancer (CRC)."
+  },
+  {
+   "nct_id": "NCT06940778",
+   "title": "LIQUID BIOPSY FOCUSING ON CIRCULATING TUMOR CELLS AND CIRCULATING TUMOR DNA AS PRECISION MEDICINE IN GASTROINTESTINAL TUMORS",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "start_date": "2025-01-10",
+   "phases": [],
+   "study_type": "OBSERVATIONAL",
+   "conditions": [
+    "Cancer of Rectum",
+    "Cancer of Pancreas",
+    "Cancer of Stomach"
+   ],
+   "interventions": [
+    "No Interventions"
+   ],
+   "summary": "This is a prospective, observational, multicenter cohort study. Our main objective is to to evaluate the use of CTCs and ctDNA with prognostic factors in locally advanced rectal tumors treated with total neoadjuvant therapy (TNT), recently adopted as clinical practice, and to analyze the functionality of CTCs and ctDNA in the follow-up of locally advanced and metastatic pancreatic and gastric tumors.\n\nSecondary objectives:\n\n* To verify the influence of CTC and ctDNA kinetics on the response to treatment of the three tumors;\n* To correlate RAD23B/TYMS findings and CTC kinetics with DFS in local"
+  },
+  {
+   "nct_id": "NCT03319459",
+   "title": "FATE-NK100 as Monotherapy and in Combination With Monoclonal Antibody in Subjects With Advanced Solid Tumors",
+   "status": "COMPLETED",
+   "start_date": "2018-01-18",
+   "phases": [
+    "PHASE1"
+   ],
+   "study_type": "INTERVENTIONAL",
+   "conditions": [
+    "HER2 Positive Gastric Cancer",
+    "Colorectal Cancer",
+    "Head and Neck Squamous Cell Carcinoma",
+    "EGFR Positive Solid Tumor",
+    "Advanced Solid Tumors",
+    "HER2-positive Breast Cancer",
+    "Hepatocellular Carcinoma",
+    "Non Small Cell Lung Cancer",
+    "Renal Cell Carcinoma",
+    "Pancreatic Cancer",
+    "Melanoma"
+   ],
+   "interventions": [
+    "FATE-NK100",
+    "Cetuximab",
+    "Trastuzumab"
+   ],
+   "summary": "This is a Phase 1, single-dose, open-label, dose-escalation study. The study will be conducted in three parts (i.e. regimens) in an outpatient setting as follows:\n\n* Regimen A: FATE-NK100 as a monotherapy in subjects with advanced solid tumor malignancies.\n* Regimen B: FATE-NK100 in combination with trastuzumab in subjects with human epidermal growth factor receptor 2 positive (HER2+) advanced breast cancer, HER2+ advanced gastric cancer or other advanced HER2+ solid tumors.\n* Regimen C: FATE-NK100 in combination with cetuximab in subjects with advanced colorectal cancer (CRC) or head and neck"
+  },
+  {
+   "nct_id": "NCT07503756",
+   "title": "JS212 Combination Therapies in Metastatic Colorectal Cancer",
+   "status": "RECRUITING",
+   "start_date": "2026-04-25",
+   "phases": [
+    "PHASE2"
+   ],
+   "study_type": "INTERVENTIONAL",
+   "conditions": [
+    "Metastatic Colorectal Cancer"
+   ],
+   "interventions": [
+    "JS212",
+    "Capecitabine",
+    "Bevacizumab",
+    "Oxaliplatin",
+    "JS207"
+   ],
+   "summary": "This is an open-label, multicenter Phase 2 clinical study designed to evaluate the safety, tolerability, pharmacokinetics, and preliminary efficacy of JS212-based combination therapies in patients with metastatic colorectal cancer (mCRC).\n\nJS212 is a bispecific antibody-drug conjugate (ADC) targeting epidermal growth factor receptor (EGFR) and HER3 with a topoisomerase I inhibitor payload. Preclinical and early clinical data suggest that dual targeting of EGFR and HER3 may enhance antitumor activity and overcome resistance mechanisms associated with EGFR- or HER2-directed therapies.\n\nThis stud"
+  },
+  {
+   "nct_id": "NCT06715839",
+   "title": "Target-specific immunoPET Imaging of Digestive System Carcinoma",
+   "status": "RECRUITING",
+   "start_date": "2024-12-04",
+   "phases": [
+    "NA"
+   ],
+   "study_type": "INTERVENTIONAL",
+   "conditions": [
+    "Malignancy",
+    "Digestive Cancer",
+    "Digestive System Neoplasm",
+    "Digestive System Carcinoma",
+    "Digestive System Cancer",
+    "Liver Cancer",
+    "Stomach Cancer",
+    "Colon Cancer",
+    "Rectum Cancer",
+    "Pancreatic Cancer",
+    "Esophagus Cancer",
+    "Gallbladder Carcinoma",
+    "Small Intestine Cancer",
+    "Appendix Cancer",
+    "Bile Duct Carcinoma"
+   ],
+   "interventions": [
+    "[68Ga]Ga-DOTA-H2D3",
+    "[18F]F-RESCA-RB14",
+    "[68Ga]Ga-NOTA-T4",
+    "[18F]F-RESCA-T4",
+    "[68Ga]Ga-NOTA-G5",
+    "[18F]F-RESCA-G5",
+    "[68Ga]Ga-NOTA-WWH347",
+    "[18F]F-RESCA-WWH347",
+    "[68Ga]Ga-NOTA-RND20",
+    "[18F]F-RESCA-RND20"
+   ],
+   "summary": "The aim of this study is to establish and optimize the target-specific PET/CT imaging method, and its physiological and pathological distribution characteristics, on the basis of which the diagnostic efficacy of the above imaging agents in digestive system malignant tumors will be evaluated."
+  },
+  {
+   "nct_id": "NCT03803553",
+   "title": "Identification and Treatment Of Micrometastatic Disease in Stage III Colon Cancer",
+   "status": "RECRUITING",
+   "start_date": "2020-04-16",
+   "phases": [
+    "PHASE3"
+   ],
+   "study_type": "INTERVENTIONAL",
+   "conditions": [
+    "Metastatic Colon Cancer",
+    "Stage III Colon Cancer"
+   ],
+   "interventions": [
+    "FOLFIRI Protocol",
+    "ACTIVE SURVEILLANCE",
+    "Nivolumab Protocol",
+    "Encorafenib/Binimetinib/Cetuximab Protocol",
+    "Trastuzumab + Pertuzumab"
+   ],
+   "summary": "This research study is comparing two standard of care treatment options based on blood test results for participants who have metastatic colon cancer.\n\nThe names of the potential treatments involved in this study are:\n\n* Active surveillance\n* FOLFIRI treatment\n* Nivolumab treatment\n* Encorafenib/Binimetinib/Cetuximab treatment\n* Trastuzumab + Pertuzumab"
+  },
+  {
+   "nct_id": "NCT05493683",
+   "title": "Disitamab Vedotin Combined With Tislelizumab in Advanced HER2 Positive Colorectal Cancer",
+   "status": "UNKNOWN",
+   "start_date": "2022-08-01",
+   "phases": [
+    "PHASE2"
+   ],
+   "study_type": "INTERVENTIONAL",
+   "conditions": [
+    "Colorectal Neoplasms"
+   ],
+   "interventions": [
+    "Disitamab vedotin",
+    "Tislelizumab"
+   ],
+   "summary": "Among patients with colonrectal cancer, 5% were HER-2 positive, but the immunohistochemical results were mostly HER-2 2 +, which did not meet the indications of HER-2 targeting drugs. Disitamab Vedotin , which was listed in China last year, achieved similar results in HER-2 2+ and 3+, according to a clinical trial for breast cancer, suggesting that patients with colonrectal cancer may benefit from it. Tislelizumab is a PD-1 monoclonal antibody, which has been approved for a variety of tumors. It was reported that anti-HER-2 treatment can improve the tumor immune microenvironment and improve th"
+  },
+  {
+   "nct_id": "NCT00003995",
+   "title": "Monoclonal Antibody Plus Chemotherapy in Treating Patients With Advanced Colorectal Cancer That Overexpresses HER2",
+   "status": "COMPLETED",
+   "start_date": "1999-09",
+   "phases": [
+    "PHASE2"
+   ],
+   "study_type": "INTERVENTIONAL",
+   "conditions": [
+    "Colorectal Cancer"
+   ],
+   "interventions": [
+    "trastuzumab",
+    "irinotecan hydrochloride"
+   ],
+   "summary": "Phase II trial to study the effectiveness of the monoclonal antibody trastuzumab and chemotherapy with irinotecan in treating patients who have stage IV colorectal cancer that overexpresses HER2. Monoclonal antibodies can locate tumor cells and either kill them or deliver tumor-killing substances to them without harming normal cells. Drugs used in chemotherapy use different ways to stop tumor cells from dividing so they stop growing or die. Combining monoclonal antibody therapy with chemotherapy may kill more tumor cells."
+  },
+  {
+   "nct_id": "NCT07384377",
+   "title": "JSKN003 Versus Physician Choiced Treatment in Patients With HER2-positive and Advanced Colorectal Cancer Who Had Failed to Respond to Oxaliplatin, 5-Fu, and Irinotecan",
+   "status": "NOT_YET_RECRUITING",
+   "start_date": "2026-02-06",
+   "phases": [
+    "PHASE3"
+   ],
+   "study_type": "INTERVENTIONAL",
+   "conditions": [
+    "HER2-positive Colorectal Cancer"
+   ],
+   "interventions": [
+    "JSKN003",
+    "Physician choiced treatment, include: TAS-102, Regorafenib, Fruquintinib."
+   ],
+   "summary": "The study is being conducted to evaluate the efficacy and safety of JSKN003 Versus Physician Choiced Treatment in Patients With HER2-positive and Advanced Colorectal Cancer Who had Failed to Respond to Oxaliplatin, 5-Fu, and Irinotecan subjects."
+  },
+  {
+   "nct_id": "NCT03924466",
+   "title": "Repeatability of 68-GaNOTA-Anti-HER2 VHH1 PET/CT in Breast Carcinoma Patients",
+   "status": "UNKNOWN",
+   "start_date": "2019-04-01",
+   "phases": [
+    "PHASE2"
+   ],
+   "study_type": "INTERVENTIONAL",
+   "conditions": [
+    "Metastatic Breast Carcinoma",
+    "Locally Advanced Breast Cancer",
+    "Cancer of Pancreas",
+    "Solid Tumor With Intermediate or High HER2 Expression",
+    "Salivary Gland Cancer",
+    "Gastric Cancer",
+    "Endometrial Cancer",
+    "Uterine Cancer",
+    "Non Small Cell Lung Cancer",
+    "Biliary Tract Cancer",
+    "Cholangiocarcinoma",
+    "Colorectal Cancer",
+    "Urothelial Carcinoma",
+    "Prostate Cancer"
+   ],
+   "interventions": [
+    "68GaNOTA-Anti-HER2 VHH1"
+   ],
+   "summary": "Study objective:\n\nCohort 1: To quantify the uptake of 68GaNOTA-Anti-HER2 VHH1 in local or distant metastases from breast carcinoma patients and to assess repeatability of the image-based HER2 quantification. The uptake will be correlated to results obtained via biopsy of the same lesion, if available.\n\nCohort 2: To report on uptake of 68GaNOTA-Anti-HER2 VHH1 in different cancer types that might overexpress HER2\n\nCohort 3: To explore the feasibility and added value of 68GaNOTA-Anti-HER2 VHH1 in the neoadjuvant setting of HER2-expressing breast carcinoma\n\nTime schedule: After inclusion, patients"
+  }
+ ]
+}

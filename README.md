@@ -41,6 +41,34 @@ Use `--json` when feeding this selection into a later workflow stage:
 uv run agnostik BRCA --json
 ```
 
+## Stage 4 — objections with a backtrace
+
+Once stages 1–3 have produced a Parseltongue verdict per target, stage 4 argues
+against every verdict. For each target it writes a five-sentence objection with
+a Nebius Token Factory model, where every sentence cites evidence by key, every
+key resolves to a Parseltongue node and a verbatim document quote, and every
+PMID / NCT / UniProt id is checked against its registry before the objection is
+allowed to lean on it. An objection that miscounts its sentences, cites a key
+that does not exist, or names an identifier absent from the ledger is rejected
+and rewritten.
+
+**Input:** one or more pg-bench JSON exports of the stage-3 system (`.html` from
+`pg eval '(fmt "viz" …)'`, `.js` from `extract_viz_data.sh`, or plain JSON).
+**Output:** `objections.json` (full record with per-sentence backtrace),
+`objections.md` (digest plus backtrace table), `objections.html` (each sentence
+expands into the nodes, quotes and source records it cites).
+
+```bash
+uv run agnostik-objections run \
+    --export examples/stage4/fixtures/crc6-dossiers.html \
+    --export examples/stage4/fixtures/crc6-verdicts.html \
+    --out results/stage4
+```
+
+Add `--dry-run` to exercise the ledger, verifier and reports with no API call
+and no spend. Full contract, flags and the fixture stand-in for stages 1–3:
+[`docs/stage4-objections.md`](docs/stage4-objections.md).
+
 ## Prerequisites
 
 - Python 3.11 (3.12 and 3.13 are also accepted by the project metadata)

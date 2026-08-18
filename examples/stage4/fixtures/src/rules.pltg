@@ -1,0 +1,89 @@
+; rules.pltg — CRC shortlist criteria, quoted from the review charter.
+; Universally quantified rules: each target module derives its own verdict
+; from its own facts, under these rules.
+
+(axiom structural-site-required
+    (implies (= ?has-binding-site true) (= ?structurally-druggable true))
+    :evidence (evidence "charter"
+        :quotes ("A target is structurally druggable when UniProt annotates at least one")
+        :explanation "C1 — UniProt binding-site annotation is the structural criterion"))
+
+(axiom chemical-matter-threshold
+    (implies (= ?inhibitor-papers-at-least-three true) (= ?chemical-matter true))
+    :evidence (evidence "charter"
+        :quotes ("matter when at least three indexed publications")
+        :explanation "C2 — three indexed inhibitor/degrader/antibody papers"))
+
+(axiom druggability-needs-both
+    (implies (and (= ?structurally-druggable true) (= ?chemical-matter true))
+             (= ?druggable true))
+    :evidence (evidence "charter"
+        :quotes ("A target is druggable only when it satisfies both C1 and C2. Chemical")
+        :explanation "C3 — structural site and chemical matter are both required"))
+
+(axiom clinical-traction-rule
+    (implies (or (= ?late-phase-trial true) (= ?recruiting-trial true))
+             (= ?clinical-traction true))
+    :evidence (evidence "charter"
+        :quotes ("cancer trial that names it is late phase, or is currently recruiting.")
+        :explanation "C6 — late phase or actively recruiting counts as traction"))
+
+(axiom verdict-rule
+    (implies (and (= ?druggable true)
+                  (and (= ?in-vivo-support true) (= ?clinical-traction true)))
+             (= ?promising true))
+    :evidence (evidence "charter"
+        :quotes ("A target is promising when it is druggable, has in vivo support, and has")
+        :explanation "C7 — the conjunction that defines a promising target"))
+
+(axiom provenance-rule
+    (implies (= ?verdict-quoted false) (= ?verdict-void true))
+    :evidence (evidence "charter"
+        :quotes ("Every fact must quote the document it came from. A verdict that cannot be")
+        :explanation "C8 — a verdict without quoted evidence is void"))
+
+; ---------------------------------------------------------------------------
+; Criterion facts — the rule text itself, quoted. Every claim conjoins the
+; criterion that licenses it, so a verdict backtraces to the charter as well
+; as to the data.
+; ---------------------------------------------------------------------------
+
+(fact c1-in-force true
+    :evidence (evidence "charter"
+        :quotes ("A target is structurally druggable when UniProt annotates at least one")
+        :explanation "C1 structural druggability criterion is in force"))
+
+(fact c2-in-force true
+    :evidence (evidence "charter"
+        :quotes ("A target has chemical matter when at least three indexed publications")
+        :explanation "C2 chemical matter criterion is in force"))
+
+(fact c3-in-force true
+    :evidence (evidence "charter"
+        :quotes ("A target is druggable only when it satisfies both C1 and C2. Chemical")
+        :explanation "C3 druggability criterion is in force"))
+
+(fact c4-in-force true
+    :evidence (evidence "charter"
+        :quotes ("A target has in vitro support when at least one indexed publication")
+        :explanation "C4 in vitro criterion is in force"))
+
+(fact c5-in-force true
+    :evidence (evidence "charter"
+        :quotes ("A target has in vivo support when at least one indexed publication")
+        :explanation "C5 in vivo criterion is in force"))
+
+(fact c6-in-force true
+    :evidence (evidence "charter"
+        :quotes ("A target has clinical traction when at least one registered colorectal")
+        :explanation "C6 clinical traction criterion is in force"))
+
+(fact c7-in-force true
+    :evidence (evidence "charter"
+        :quotes ("A target is promising when it is druggable, has in vivo support, and has")
+        :explanation "C7 verdict criterion is in force"))
+
+(fact c8-in-force true
+    :evidence (evidence "charter"
+        :quotes ("Every fact must quote the document it came from. A verdict that cannot be")
+        :explanation "C8 provenance criterion is in force"))

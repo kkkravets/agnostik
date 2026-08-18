@@ -1,0 +1,10 @@
+UniProt reviewed record — WRN
+Source: rest.uniprot.org, organism 9606, reviewed only
+
+## COUNTERS
+UNIPROT binding_sites=13
+
+ACCESSION: Q14191
+ENTRY: WRN_HUMAN
+PROTEIN: Bifunctional 3'-5' exonuclease/ATP-dependent helicase WRN
+FUNCTION: Multifunctional enzyme that has magnesium and ATP-dependent 3'-5' DNA-helicase activity on partially duplex substrates (PubMed:9224595, PubMed:9288107, PubMed:9611231). Also has 3'->5' exonuclease activity towards double-stranded (ds)DNA with a 5'-overhang (PubMed:11863428). Has no nuclease activity towards single-stranded (ss)DNA or blunt-ended dsDNA (PubMed:11863428). Helicase activity is most efficient with (d)ATP, but (d)CTP will substitute with reduced efficiency; strand displacement is enhanced by single-strand binding-protein (heterotrimeric replication protein A complex, RPA1, RPA2, RPA3) (PubMed:9611231). Binds preferentially to DNA substrates containing alternate secondary structures, such as replication forks and Holliday junctions. May play an important role in the dissociation of joint DNA molecules that can arise as products of homologous recombination, at stalled replicati

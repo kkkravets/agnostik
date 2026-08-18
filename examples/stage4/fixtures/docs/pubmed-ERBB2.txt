@@ -1,0 +1,86 @@
+PubMed evidence dossier — ERBB2 / colorectal cancer
+Source: NCBI E-utilities via ClawBio pubmed-summariser
+
+## COUNTERS
+PUBMED_HITS crc=5
+PUBMED_HITS in_vitro=3
+PUBMED_HITS in_vivo=3
+PUBMED_HITS druggability=3
+
+## SECTION crc — query: ERBB2 AND "colorectal cancer"
+
+PMID 42426557 | The oncologist | 2026-Aug
+TITLE: Anti-Human Epidermal Growth Factor Receptor 2 therapies in metastatic colorectal cancer: a systematic review and meta-analysis.
+ABSTRACT: HER2 amplification identifies a subgroup of colorectal cancer with poorer prognosis and resistance to anti-EGFR therapy.
+URL: https://pubmed.ncbi.nlm.nih.gov/42426557/
+
+PMID 42497534 | Clinical breast cancer | 2026-07-24
+TITLE: The Xpert Breast Cancer Insight Test Predicts Distant Recurrence and Overall Survival in ER-Positive, HER2-Negative Early Breast Cancer.
+ABSTRACT: The aim of this study was to validate the Xpert Breast Cancer Insight (BC Insight) test.
+URL: https://pubmed.ncbi.nlm.nih.gov/42497534/
+
+PMID 42406708 | PloS one | 2026-07-06
+TITLE: Higher frequency of subclonal anti-EGFR resistance mutations in post-treatment samples from patients with colorectal cancer liver metastases following anti-EGFR-based conversion chemotherapy.
+ABSTRACT: Initially unresectable colorectal liver metastases may become resectable after chemotherapy.
+URL: https://pubmed.ncbi.nlm.nih.gov/42406708/
+
+PMID 42515723 | Pharmaceuticals (Basel, Switzerland) | 2026-07-03
+TITLE: Overcoming Resistance to Anti-EGFR Therapies: Mechanisms of Cetuximab and Panitumumab Resistance and Emerging Combination Strategies.
+ABSTRACT: Cetuximab and panitumumab are anti-EGFR monoclonal antibodies widely used for the treatment of colorectal cancers.
+URL: https://pubmed.ncbi.nlm.nih.gov/42515723/
+
+PMID 42577044 | JMA journal | 2026-05-22
+TITLE: Molecular Characterization of Ovarian Metastases from Colorectal Cancer Using Circulating Tumor DNA Analysis.
+ABSTRACT: Ovarian metastases from colorectal cancer (CRC) are uncommon but are associated with poor prognosis and therapeutic challenges.
+URL: https://pubmed.ncbi.nlm.nih.gov/42577044/
+
+## SECTION in_vitro — query: ERBB2 AND "colorectal" AND (in vitro OR "cell line" OR organoid)
+
+PMID 42401587 | Nature communications | 2026-07-04
+TITLE: Signaling downstream of tumor-stroma interaction regulates mucinous colorectal adenocarcinoma apicobasal polarity.
+ABSTRACT: Mucinous colorectal carcinoma (MUC CRC) metastasis to multiple organs, and to the peritoneum, is associated with poor prognosis.
+URL: https://pubmed.ncbi.nlm.nih.gov/42401587/
+
+PMID 42176792 | Cancer letters | 2026-05-22
+TITLE: EGFR S442 ectodomain mutation confers cetuximab resistance that can be overcome by ERBB2 blockade with trastuzumab-deruxtecan.
+ABSTRACT: Epidermal growth factor receptor (EGFR) is an oncogenic driver in multiple cancers and a therapeutic target of tyrosine kinase inhibitors and neutralizing monoclonal antibodies.
+URL: https://pubmed.ncbi.nlm.nih.gov/42176792/
+
+PMID 42116746 | Drug development research | 2026-May
+TITLE: Pyrimidine-Derived Scaffolds Targeting VEGFR-2, EGFR, and HER-2: Synthesis, Anticancer/Immunomodulatory Evaluation, and In Silico Analysis.
+ABSTRACT: Following the common structural features of VEGFR-2, EGFR, and HER-2 kinase inhibitors, two newly synthesized series of 3,4-dihydropyrimidine 2(1H)-(thio)ones-5-carboxamide (2a-l) and thiouracil-5-sulfonyl derivatives (4a-e) were evaluated for anti-proliferative activity against colorectal (HCT-116)
+URL: https://pubmed.ncbi.nlm.nih.gov/42116746/
+
+## SECTION in_vivo — query: ERBB2 AND "colorectal" AND (xenograft OR "mouse model" OR in vivo)
+
+PMID 42401587 | Nature communications | 2026-07-04
+TITLE: Signaling downstream of tumor-stroma interaction regulates mucinous colorectal adenocarcinoma apicobasal polarity.
+ABSTRACT: Mucinous colorectal carcinoma (MUC CRC) metastasis to multiple organs, and to the peritoneum, is associated with poor prognosis.
+URL: https://pubmed.ncbi.nlm.nih.gov/42401587/
+
+PMID 42176792 | Cancer letters | 2026-05-22
+TITLE: EGFR S442 ectodomain mutation confers cetuximab resistance that can be overcome by ERBB2 blockade with trastuzumab-deruxtecan.
+ABSTRACT: Epidermal growth factor receptor (EGFR) is an oncogenic driver in multiple cancers and a therapeutic target of tyrosine kinase inhibitors and neutralizing monoclonal antibodies.
+URL: https://pubmed.ncbi.nlm.nih.gov/42176792/
+
+PMID 42033924 | Bioorganic & medicinal chemistry | 2026-04-21
+TITLE: Peptide-drug conjugates bearing an antimitotic Ahx-DA1 payload achieve potent antitumor activity in Her2-amplified and EGFR-positive KRAS-mutant cancers in vivo.
+ABSTRACT: Peptide-drug conjugates (PDCs) represent a targeted cancer therapy strategy that combines tumor-homing peptides with potent cytotoxic payloads, offering a promising alternative to antibody-drug conjugates (ADCs) through improved tissue penetration, synthetic accessibility, and tumor selectivity.
+URL: https://pubmed.ncbi.nlm.nih.gov/42033924/
+
+## SECTION druggability — query: ERBB2 AND (inhibitor OR "small molecule" OR degrader OR antibody)
+
+PMID 42599169 | Radiology. Imaging cancer | 2026-Sep
+TITLE: Incremental Value of Synthetic MRI Radiomics in Predicting Neoadjuvant Response in Human Epidermal Growth Factor Receptor 2-Positive Breast Cancer.
+ABSTRACT: Purpose To evaluate the added value of a synthetic radiomics model (S-Radiomics) that integrates topologic and Hessian-based features with traditional radiomic features for predicting a pathologic complete response (pCR) in human epidermal growth factor receptor 2 (HER2)-positive breast cancer.
+URL: https://pubmed.ncbi.nlm.nih.gov/42599169/
+
+PMID 42601812 | Thoracic cancer | 2026-Aug
+TITLE: Exceptional Response of HER2-Positive Breast Cancer to Osimertinib: A Case Report.
+ABSTRACT: Osimertinib is standard therapy for EGFR-mutant lung cancer, and HER2 amplification is a known resistance mechanism.
+URL: https://pubmed.ncbi.nlm.nih.gov/42601812/
+
+PMID 42600568 | Med (New York, N.Y.) | 2026-Aug
+TITLE: Reprogramming HER2-Positive gastroesophageal cancer immune contexture with bispecific therapy: HERIZON-GEA-01.
+ABSTRACT: The HERIZON-GEA-01 trial in patients with advanced HER2-positive gastroesophageal adenocarcinoma demonstrated improved outcomes with the addition of the HER2xHER2-bispecific antibody zanidatamab to chemotherapy.
+URL: https://pubmed.ncbi.nlm.nih.gov/42600568/

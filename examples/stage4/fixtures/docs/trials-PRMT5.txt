@@ -1,0 +1,13 @@
+ClinicalTrials.gov dossier — PRMT5 / colorectal cancer
+Source: clinicaltrials.gov/api/v2, condition-scoped to colorectal cancer
+
+## COUNTERS
+TRIALS total=1
+TRIALS late_phase=0
+TRIALS recruiting=0
+
+NCT07594626 | NOT_YET_RECRUITING | phases: PHASE1, PHASE2 | INTERVENTIONAL
+TITLE: BMS-986504 in Combination With Pemetrexed for the Treatment of Metastatic Solid Tumors With MTAP Deletion
+CONDITIONS: Metastatic Biliary Tract Carcinoma, Metastatic Colon Carcinoma, Metastatic Esophageal Carcinoma, Metastatic Malignant Digestive System Neoplasm, Metastatic Malignant Solid Neoplasm, Metastatic Pancreatic Carcinoma, Stage IV Colon Cancer AJCC v8, Stage IV Pancreatic Cancer AJCC v8
+INTERVENTIONS: Biospecimen Collection, Computed Tomography, Pemetrexed, PRMT5 Inhibitor BMS-986504
+SUMMARY: This phase Ib/II trial tests the safety and side effects of BMS-986504 in combination with pemetrexed and how well the combination works in treating patients with solid tumors with MTAP deletion and that has spread from where it first started (primary site) to other places in the body (metastatic). The MTAP gene helps cells recycle important parts needed to make deoxyribonucleic acid (DNA), which is needed for cell growth and function. MTAP deletion means that the MTAP gene is missing. BMS-986504, a PRMT5 inhibitor, may stop the growth of tumor cells by blocking some of the enzymes needed for

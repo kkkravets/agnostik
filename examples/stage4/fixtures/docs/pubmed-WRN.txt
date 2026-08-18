@@ -1,0 +1,86 @@
+PubMed evidence dossier — WRN / colorectal cancer
+Source: NCBI E-utilities via ClawBio pubmed-summariser
+
+## COUNTERS
+PUBMED_HITS crc=5
+PUBMED_HITS in_vitro=3
+PUBMED_HITS in_vivo=3
+PUBMED_HITS druggability=3
+
+## SECTION crc — query: WRN AND "colorectal cancer"
+
+PMID 42484294 | Cancer research | 2026-07-22
+TITLE: CRISPR Screening Identifies SMARCAL1 and MRN as Modulators of WRN Dependency in MSI-H Colorectal Cancer.
+ABSTRACT: Microsatellite instability-high (MSI-H) colorectal cancer cells depend on the Werner syndrome helicase (WRN) to resolve cruciform DNA structures that arise from expanded TA-dinucleotide repeats.
+URL: https://pubmed.ncbi.nlm.nih.gov/42484294/
+
+PMID 42461083 | Cancer research | 2026-07-16
+TITLE: Targeting WRN Helicase in Microsatellite Instable Colorectal Cancer Induces Antitumor Immunity through Extrachromosomal Circular DNA Release.
+ABSTRACT: Colorectal cancer (CRC) with microsatellite instability (MSI) is often treated with immune checkpoint inhibitors (ICIs), such as anti-PD-1 antibodies.
+URL: https://pubmed.ncbi.nlm.nih.gov/42461083/
+
+PMID 42293362 | Genetics in medicine open | 2026-04-29
+TITLE: RecQ DNA helicases germline variants in Lynch-like syndrome.
+ABSTRACT: Lynch-like syndrome (LLS) is associated with an incomplete understanding of its molecular basis.
+URL: https://pubmed.ncbi.nlm.nih.gov/42293362/
+
+PMID 41827921 | Diagnostics (Basel, Switzerland) | 2026-02-24
+TITLE: Multistep ctDNA Monitoring of Minimal Residual Disease in Colorectal Cancer Liver Metastases: From Tissue NGS to Highly Sensitive Digital PCR Platforms.
+ABSTRACT: (no abstract available)
+URL: https://pubmed.ncbi.nlm.nih.gov/41827921/
+
+PMID 41704373 | ACS medicinal chemistry letters | 2026-01-22
+TITLE: Discovery and Preclinical Evaluations of Potent, Selective, and Allosteric Covalent WRN Inhibitors with Improved PK Properties.
+ABSTRACT: Werner syndrome helicase (WRN) has received significant interest due to its implication as a synthetic lethal target in microsatellite instability-high (MSI-H) cancers.
+URL: https://pubmed.ncbi.nlm.nih.gov/41704373/
+
+## SECTION in_vitro — query: WRN AND "colorectal" AND (in vitro OR "cell line" OR organoid)
+
+PMID 42461083 | Cancer research | 2026-07-16
+TITLE: Targeting WRN Helicase in Microsatellite Instable Colorectal Cancer Induces Antitumor Immunity through Extrachromosomal Circular DNA Release.
+ABSTRACT: Colorectal cancer (CRC) with microsatellite instability (MSI) is often treated with immune checkpoint inhibitors (ICIs), such as anti-PD-1 antibodies.
+URL: https://pubmed.ncbi.nlm.nih.gov/42461083/
+
+PMID 42293362 | Genetics in medicine open | 2026-04-29
+TITLE: RecQ DNA helicases germline variants in Lynch-like syndrome.
+ABSTRACT: Lynch-like syndrome (LLS) is associated with an incomplete understanding of its molecular basis.
+URL: https://pubmed.ncbi.nlm.nih.gov/42293362/
+
+PMID 41878414 | OncoTargets and therapy | 2026-01-29
+TITLE: Pan-Cancer Analysis of WRN: From Multi-Omics Biomarker Discovery to Therapy-Guiding Functional Evidence.
+ABSTRACT: The RecQ DNA helicase family member WRN is an important protein for maintaining genome stability.
+URL: https://pubmed.ncbi.nlm.nih.gov/41878414/
+
+## SECTION in_vivo — query: WRN AND "colorectal" AND (xenograft OR "mouse model" OR in vivo)
+
+PMID 41704373 | ACS medicinal chemistry letters | 2026-01-22
+TITLE: Discovery and Preclinical Evaluations of Potent, Selective, and Allosteric Covalent WRN Inhibitors with Improved PK Properties.
+ABSTRACT: Werner syndrome helicase (WRN) has received significant interest due to its implication as a synthetic lethal target in microsatellite instability-high (MSI-H) cancers.
+URL: https://pubmed.ncbi.nlm.nih.gov/41704373/
+
+PMID 40203476 | DNA repair | 2025-04-03
+TITLE: Werner helicase as a therapeutic target in mismatch repair deficient colorectal cancer.
+ABSTRACT: Colorectal cancer (CRC) is one of the leading causes of cancer-related deaths in the United States.
+URL: https://pubmed.ncbi.nlm.nih.gov/40203476/
+
+PMID 39956276 | Bioorganic & medicinal chemistry letters | 2025-02-15
+TITLE: Discovery of novel WRN inhibitors for treating MSI-H colorectal cancers.
+ABSTRACT: The Werner protein, WRN, is a member of the RecQ helicase family implicated in genome maintenance.
+URL: https://pubmed.ncbi.nlm.nih.gov/39956276/
+
+## SECTION druggability — query: WRN AND (inhibitor OR "small molecule" OR degrader OR antibody)
+
+PMID 42604630 | Bioorganic & medicinal chemistry | 2026-08-13
+TITLE: Design, synthesis and biological evaluation of triazolo[1,5-a]pyrimidinone derivatives as potent and orally efficacious WRN helicase inhibitors for MSI cancer therapy.
+ABSTRACT: Microsatellite instability-high (MSI-H) cancers represent an unmet clinical need due to treatment resistance, and WRN helicase is a validated synthetic lethal target for this indication.
+URL: https://pubmed.ncbi.nlm.nih.gov/42604630/
+
+PMID 42593940 | Journal of medicinal chemistry | 2026-Aug
+TITLE: Discovery and Optimization of a WRN Helicase Inhibitor Series through Structure-Guided Drug Design from a Covalent Fragment Binding Insight.
+ABSTRACT: WRN helicase activity inhibition has emerged as a promising therapeutic approach for targeting cancer cells with specific DNA repair deficiencies, especially those with microsatellite instability (MSI).
+URL: https://pubmed.ncbi.nlm.nih.gov/42593940/
+
+PMID 42484294 | Cancer research | 2026-07-22
+TITLE: CRISPR Screening Identifies SMARCAL1 and MRN as Modulators of WRN Dependency in MSI-H Colorectal Cancer.
+ABSTRACT: Microsatellite instability-high (MSI-H) colorectal cancer cells depend on the Werner syndrome helicase (WRN) to resolve cruciform DNA structures that arise from expanded TA-dinucleotide repeats.
+URL: https://pubmed.ncbi.nlm.nih.gov/42484294/

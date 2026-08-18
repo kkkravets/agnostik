@@ -1,0 +1,67 @@
+ClinicalTrials.gov dossier — MYC / colorectal cancer
+Source: clinicaltrials.gov/api/v2, condition-scoped to colorectal cancer
+
+## COUNTERS
+TRIALS total=10
+TRIALS late_phase=0
+TRIALS recruiting=2
+
+NCT02635672 | COMPLETED | phases: PHASE1 | INTERVENTIONAL
+TITLE: Phase I Dose Escalation Study for VIP152 in Patients With Advanced Cancer
+CONDITIONS: Neoplasms
+INTERVENTIONS: VIP152 (BAY 1251152), VIP152 (BAY 1251152) 30 mg, Keytruda, VIP152 (BAY 1251152) 15 mg
+SUMMARY: Determine the safety, tolerability, pharmacokinetics, maximum tolerated dose (MTD) and recommended phase 2 dose (RP2D) of VIP152 (BAY 1251152) as monotherapy or in combination in patients with solid tumors and aggressive non-hodgkin's lymphoma (NHL).
+
+NCT05384184 | COMPLETED | phases: NA | OBSERVATIONAL
+TITLE: Next Generation " Pre-clinical Model for Colorectal Cancer Metastases and Hepatocellular Carcinomas
+CONDITIONS: Colorectal Cancer Metastases and Hepatocellular Carcinomas
+INTERVENTIONS: Tumor /metastases removal
+SUMMARY: Recently, oncology has moved to a new clinical practice, more personalized, called Predictive Oncology (PO). PO comes from our knowledge about tumor heterogeneity that implies that each disease, thus each patient, is unique. PO's goal is to identify and administrate the right treatment to the right patient. For this, PO requires to go through 3 majors steps: 1. A good characterization of the tumor to identify candidates, 2. A well-established panel of drugs targeting the identified candidates, 3. A relevant model to functionally test these candidates. The first point could easily be addres
+
+NCT02711137 | TERMINATED | phases: PHASE1, PHASE2 | INTERVENTIONAL
+TITLE: Open-Label Safety and Tolerability Study of INCB057643 in Subjects With Advanced Malignancies
+CONDITIONS: Solid Tumors
+INTERVENTIONS: INCB057643, Gemcitabine, Paclitaxel, Rucaparib, Abiraterone, Ruxolitinib, Azacitidine
+SUMMARY: The purpose of the Study is to select a dose and assess the safety and tolerability of INCB057643 as a monotherapy (Part 1 and Part 2) and in combination with standard-of-care (SOC) agents (Part 3 and Part 4) for subjects with advanced malignancies. Part 1 will determine the maximum tolerated dose of INCB057643 and/or a tolerated dose that demonstrates sufficient pharmacologic activity. Part 2 will further evaluate the safety, preliminary efficacy, PK, and PD of the dose(s) selected in Part 1 in select tumor types including solid tumors, lymphomas and other hematologic malignancies. Part 3 wi
+
+NCT07147231 | RECRUITING | phases: PHASE1, PHASE2 | INTERVENTIONAL
+TITLE: Testing the Effectiveness of the Anti-cancer Drug Pidnarulex (CX-5461), in Combination With Another Anti-cancer Drug Cemiplimab (REGN2810), in Treating Refractory Microsatellite Stable Colorectal Cancer
+CONDITIONS: Metastatic Colorectal Adenocarcinoma, Refractory Colorectal Adenocarcinoma, Stage III Colorectal Cancer AJCC v8, Stage IV Colorectal Cancer AJCC v8, Unresectable Colorectal Adenocarcinoma
+INTERVENTIONS: Biopsy Procedure, Biospecimen Collection, Cemiplimab, Computed Tomography, Magnetic Resonance Imaging, Pidnarulex, Positron Emission Tomography
+SUMMARY: This phase I/II trial studies the side effects and best dose of pidnarulex when given together with cemiplimab and to see how well it works in treating patients with microsatellite stable (MSS) colorectal cancer (CRC) that does not respond to treatment (refractory). Pidnarulex may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth. Immunotherapy with monoclonal antibodies, such as cemiplimab, may help the body's immune system attack the cancer, and may interfere with the ability of tumor cells to grow and spread. Giving pidnarulex with cemiplimab may be safe,
+
+NCT02077777 | COMPLETED | phases: PHASE2 | INTERVENTIONAL
+TITLE: Chemopreventive Action of Mesalazine on Colorectal Cancer: a Pilot Study for an "in Vivo" Evaluation of the Molecular Effects on β-catenin Signaling Pathway.
+CONDITIONS: Colorectal Cancer
+INTERVENTIONS: Mesalazine
+SUMMARY: The purpose of this study is to obtain an "in vivo" confirmation that mesalazine induces the gene expression of μ-protocadherin and other related genes in the colon mucosa, as demonstrated in some "in vitro" experiments. .
+
+NCT02431260 | TERMINATED | phases: PHASE1, PHASE2 | INTERVENTIONAL
+TITLE: An Open-Label, Dose-Escalation Study of INCB054329 in Patients With Advanced Malignancies
+CONDITIONS: Solid Tumors and Hematologic Malignancy
+INTERVENTIONS: INCB054329 Monotherapy
+SUMMARY: This was a study of INCB054329 given to patients with advanced malignancies that were conducted in three treatment groups. Each treatment group had a dose escalation (Part 1) and a dose expansion (Part 3), two of the treatment groups also had an intra-patient dose titration (Part 2).
+
+NCT07497789 | NOT_YET_RECRUITING | phases: NA | OBSERVATIONAL
+TITLE: SMYD3-Driven Metabolic Rewiring in Colorectal Liver Metastases
+CONDITIONS: CRC (Colorectal Cancer), Liver Metastases From Colorectal Primary Cancer
+INTERVENTIONS: 
+SUMMARY: This study focuses on patients with colorectal cancer undergoing surgery for the primary tumor and/or liver metastases. Tumor samples collected during surgery will be used to generate patient-derived models (primary cultures, spheroids, and organoids) to study colorectal cancer stem cells. The main objective is to investigate the role of the lysine methyltransferase SMYD3 in metabolic reprogramming and adaptation to oxidative stress that enable colorectal cancer cells to survive and grow in the liver. Previous work has shown that SMYD3 is overexpressed in colorectal cancer, promotes drug resis
+
+NCT03796884 | ACTIVE_NOT_RECRUITING | phases: PHASE2 | INTERVENTIONAL
+TITLE: Linaclotide in Treating Patients With Stages 0-3 Colorectal Cancer
+CONDITIONS: Colorectal Adenoma, Stage 0 Colorectal Cancer AJCC v8, Stage I Colorectal Cancer AJCC v8, Stage II Colorectal Cancer AJCC v8, Stage IIA Colorectal Cancer AJCC v8, Stage IIB Colorectal Cancer AJCC v8, Stage IIC Colorectal Cancer AJCC v8, Stage III Colorectal Cancer AJCC v8, Stage IIIA Colorectal Canc
+INTERVENTIONS: Linaclotide, Placebo
+SUMMARY: This phase II trial studies the how well linaclotide works in treating patients with stages 0-3 colorectal cancer. Linaclotide is a very small protein that binds to receptors on intestinal cells and makes them secrete water and salt.
+
+NCT05919264 | RECRUITING | phases: PHASE1, PHASE2 | INTERVENTIONAL
+TITLE: FOG-001 in Locally Advanced or Metastatic Solid Tumors
+CONDITIONS: Cancer, Colorectal Cancer, Solid Tumor, Locally Advanced Solid Tumor, Metastatic Cancer, WNT Pathway, HCC, Desmoid, Microsatellite Stable Colorectal Cancer, Metastatic Castration-resistant Prostate Cancer, Familial Adenomatous Polyposis (FAP), Endometrial Carcinoma, Prostate Cancer, Microsatellite I
+INTERVENTIONS: FOG-001, mFOLFOX-6, Nivolumab, Trifluridine/tipiracil, Bevacizumab, FOG-001
+SUMMARY: The goal of this clinical trial is to determine if FOG-001 is safe and effective in participants with locally advanced or metastatic solid tumors or in participants with familial adenomatous polyposis (FAP).
+
+NCT07095309 | NOT_YET_RECRUITING | phases: PHASE2 | INTERVENTIONAL
+TITLE: Safety and Effectiveness Study of Pre-operative Artesunate in Stage II/ III Colorectal Cancer
+CONDITIONS: Stage II/III Colon Cancer, Bowel Cancer
+INTERVENTIONS: Artesunate, Artesunate matching Placebo
+SUMMARY: TThis study evaluates the safety and effectiveness of pre-operative artesunate, given orally once a day for 14 days prior to surgery, in patients with Stage II/III colorectal cancer. Artesunate is an established antimalarial drug with an excellent safety profile. It is well tolerated, affordable, and widely available. Several laboratory studies and one small pilot clinical study in patients with colorectal cancer have shown that artesunate can reduce the proliferation and growth of cancer cells. One hundred patients diagnosed with Stage II/III operable colorectal cancer will be randomly allo

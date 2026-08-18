@@ -1,0 +1,123 @@
+; KRAS — colorectal cancer target dossier
+; Facts quote docs/pubmed-KRAS.txt, docs/trials-KRAS.txt, docs/uniprot-KRAS.txt verbatim.
+; Claims conjoin the charter criterion that licenses them, so every verdict
+; backtraces to both the data and the rule text.
+
+; ---------------------------------------------------------------- facts
+
+(fact crc-literature-hits 5
+    :evidence (evidence "pubmed-KRAS"
+        :quotes ("PUBMED_HITS crc=5")
+        :explanation "Indexed PubMed records for KRAS in colorectal cancer"))
+
+(fact in-vitro-hits 3
+    :evidence (evidence "pubmed-KRAS"
+        :quotes ("PUBMED_HITS in_vitro=3")
+        :explanation "Indexed records reporting colorectal cell line or organoid work on KRAS"))
+
+(fact in-vivo-hits 3
+    :evidence (evidence "pubmed-KRAS"
+        :quotes ("PUBMED_HITS in_vivo=3")
+        :explanation "Indexed records reporting xenograft or mouse model work on KRAS"))
+
+(fact druggability-hits 3
+    :evidence (evidence "pubmed-KRAS"
+        :quotes ("PUBMED_HITS druggability=3")
+        :explanation "Indexed records describing an inhibitor, degrader or antibody against KRAS"))
+
+(fact trials-total 10
+    :evidence (evidence "trials-KRAS"
+        :quotes ("TRIALS total=10")
+        :explanation "Registered colorectal cancer trials naming KRAS"))
+
+(fact trials-late-phase 0
+    :evidence (evidence "trials-KRAS"
+        :quotes ("TRIALS late_phase=0")
+        :explanation "Trials in phase 3 or phase 4"))
+
+(fact trials-recruiting 4
+    :evidence (evidence "trials-KRAS"
+        :quotes ("TRIALS recruiting=4")
+        :explanation "Trials currently recruiting"))
+
+(fact binding-sites 17
+    :evidence (evidence "uniprot-KRAS"
+        :quotes ("UNIPROT binding_sites=17")
+        :explanation "Binding sites annotated on the reviewed human KRAS entry"))
+
+; ------------------------------------------------ document anchors
+
+(fact paper-42580447 true
+    :evidence (evidence "pubmed-KRAS"
+        :quotes ("TITLE: Targeted KRAS suppression in colorectal cancer via in vivo self-assembled siRNAs encapsulated in endogenous small extracellular vesicles.")
+        :explanation "PMID 42580447 (in_vivo query, Journal of controlled release : official journal of the Controlled Release Society 2026-08-11)"))
+
+(fact paper-42527030 true
+    :evidence (evidence "pubmed-KRAS"
+        :quotes ("TITLE: IL-27 shapes NK cell heterogeneity and function in colorectal cancer.")
+        :explanation "PMID 42527030 (in_vivo query, Journal for immunotherapy of cancer 2026-07-29)"))
+
+(fact paper-42570059 true
+    :evidence (evidence "pubmed-KRAS"
+        :quotes ("TITLE: Brief report: Therapeutic benefit of ISA-2011B in colorectal cancer.")
+        :explanation "PMID 42570059 (in_vitro query, Molecular biology reports 2026-08-08)"))
+
+(fact paper-42557320 true
+    :evidence (evidence "pubmed-KRAS"
+        :quotes ("TITLE: A tumour-derived organoid biobank maps cancer gene dependencies.")
+        :explanation "PMID 42557320 (in_vitro query, Nature 2026-08-05)"))
+
+(fact paper-42607542 true
+    :evidence (evidence "pubmed-KRAS"
+        :quotes ("TITLE: Anticancer effects of an XPO1 inhibitor (selinexor) with sotorasib following omeprazole preconditioning in KRAS G12C-mutant non-small cell lung cancer cells in vitro and in a mouse tumor xenograft.")
+        :explanation "PMID 42607542 (druggability query, Neoplasia (New York, N.Y.) 2026-08-17)"))
+
+(fact paper-42605754 true
+    :evidence (evidence "pubmed-KRAS"
+        :quotes ("TITLE: Transcriptome-based macroautophagy and chaperone-mediated autophagy states reveal context-dependent vulnerabilities across human cancers.")
+        :explanation "PMID 42605754 (druggability query, Autophagy 2026-08-17)"))
+
+(fact paper-42606648 true
+    :evidence (evidence "pubmed-KRAS"
+        :quotes ("TITLE: Integrative bulk and single-cell transcriptomics identify a recurrence-prognostic risk model with exploratory associations with treatment-response phenotypes in colorectal cancer.")
+        :explanation "PMID 42606648 (crc query, Human cell 2026-08-17)"))
+
+(fact paper-42599639 true
+    :evidence (evidence "pubmed-KRAS"
+        :quotes ("TITLE: Salvage pancreaticoduodenectomy for localized recurrence after resection of ascending colon cancer: a case report.")
+        :explanation "PMID 42599639 (crc query, Clinical journal of gastroenterology 2026-08-14)"))
+
+(fact trial-NCT07300150 true
+    :evidence (evidence "trials-KRAS"
+        :quotes ("TITLE: A Study of PT0511 in Participants With KRAS Mutated or Amplified Advanced Solid Tumors")
+        :explanation "NCT07300150 — status RECRUITING, phases PHASE1"))
+
+(fact trial-NCT05176483 true
+    :evidence (evidence "trials-KRAS"
+        :quotes ("TITLE: Study of Zanzalintinib in Combination With Immuno-Oncology or Other Agents in Participants With Solid Tumors")
+        :explanation "NCT05176483 — status RECRUITING, phases PHASE1"))
+
+; -------------------------------------------------------- claims
+
+(derive structurally-druggable (and (> binding-sites 0) src.rules.c1-in-force)
+    :using (binding-sites src.rules.c1-in-force))
+
+(derive has-chemical-matter (and (>= druggability-hits 3) src.rules.c2-in-force)
+    :using (druggability-hits src.rules.c2-in-force))
+
+(derive druggable (and (and structurally-druggable has-chemical-matter) src.rules.c3-in-force)
+    :using (structurally-druggable has-chemical-matter src.rules.c3-in-force))
+
+(derive in-vitro-supported (and (> in-vitro-hits 0) src.rules.c4-in-force)
+    :using (in-vitro-hits src.rules.c4-in-force))
+
+(derive in-vivo-supported (and (> in-vivo-hits 0) src.rules.c5-in-force)
+    :using (in-vivo-hits src.rules.c5-in-force))
+
+(derive clinical-traction
+    (and (or (> trials-late-phase 0) (> trials-recruiting 0)) src.rules.c6-in-force)
+    :using (trials-late-phase trials-recruiting src.rules.c6-in-force))
+
+; charter C8 — the dossier is anchored to quoted documents
+(derive dossier-anchored (and (and paper-42580447 (and paper-42527030 (and paper-42570059 (and paper-42557320 (and paper-42607542 (and paper-42605754 (and paper-42606648 (and paper-42599639 (and trial-NCT07300150 trial-NCT05176483))))))))) src.rules.c8-in-force)
+    :using (paper-42580447 paper-42527030 paper-42570059 paper-42557320 paper-42607542 paper-42605754 paper-42606648 paper-42599639 trial-NCT07300150 trial-NCT05176483 src.rules.c8-in-force))
