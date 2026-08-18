@@ -7,8 +7,10 @@ services:
     working_dir: /workspace
     environment:
       UV_PROJECT_ENVIRONMENT: /opt/venv
+      NEBIUS_API_KEY: ${NEBIUS_API_KEY:-}
+      NEBIUS_MODEL: ${NEBIUS_MODEL:-}
+      NEBIUS_BASE_URL: ${NEBIUS_BASE_URL:-}
     volumes:
       - .:/workspace
     stdin_open: true
     tty: true
-

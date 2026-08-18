@@ -12,6 +12,7 @@ dependencies = [
 [project.scripts]
 agnostik = "agnostik.cli:main"
 agnostik-evidence = "agnostik.evidence_cli:main"
+agnostik-parseltongue = "agnostik.parseltongue_cli:main"
 agnostik-nebius-smoke = "agnostik.nebius_smoke:main"
 agnostik-objections = "agnostik.objections.cli:main"
 

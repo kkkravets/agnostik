@@ -80,7 +80,7 @@ and no spend. Full contract, flags and the fixture stand-in for stages 1–3:
 The environment pins ClawBio 0.6.1 and Parseltongue DSL 0.7.4. The lockfile is
 the source of truth for all transitive Python dependencies.
 
-## Connect Parseltongue to Nebius
+## Connect project to Nebius
 
 Nebius Token Factory exposes an OpenAI-compatible API. Copy `.env.example` to
 `.env`, add your Nebius API key and a tool-calling model ID available to your
@@ -90,23 +90,6 @@ account, then run the connectivity check:
 uv run agnostik-nebius-smoke
 ```
 
-A successful check prints:
-
-```json
-{"connected": true, "tool_result": {"status": "ok"}}
-```
-
-The project uses `agnostik.nebius.NebiusProvider`, which adapts
-Parseltongue's forced tool calls to Nebius's explicit function-selection
-format. Use it with the Python pipeline like this:
-
-```python
-from parseltongue import Pipeline, System
-
-from agnostik.nebius import create_nebius_provider
-
-pipeline = Pipeline(System(overridable=True), create_nebius_provider())
-```
 
 Do not pass the API key on the command line or commit `.env`. To use a custom
 or dedicated OpenAI-compatible endpoint, set `NEBIUS_BASE_URL`.
@@ -203,6 +186,63 @@ overwriting one another, while `results/evidence/coad/batch_manifest.json`
 records every generated query and result location. Use repeated `--gene`
 options to run a subset, or `--article-query` to replace the base disease
 expression; the pipeline still appends `AND GENE[Title/Abstract]` to each one.
+
+## Run Parseltongue over the COAD full-text corpus
+
+The next pipeline step reads the flat `.txt` corpus from
+`results/clawbio_skill_trial/tcga-coad/full_text_articles/`. For each fixed
+candidate (`EGFR, ERBB2, KRAS, MYC, WRN, PRMT5`) it selects the most
+target-specific articles within a context budget and runs the four-pass
+Parseltongue pipeline. Each target run is required to derive one Boolean
+`<target>-verdict` whose `:using` chain terminates in facts carrying verified,
+verbatim document quotes.
+
+Inspect the plan without API calls, output writes, or model spend:
+
+```bash
+uv run agnostik-parseltongue COAD --dry-run
+```
+
+Run locally using `NEBIUS_API_KEY`, `NEBIUS_MODEL`, and optionally
+`NEBIUS_BASE_URL` from `.env`:
+
+```bash
+uv run agnostik-parseltongue COAD --resume
+```
+
+Run the same step through Docker:
+
+```bash
+docker compose run --rm analysis \
+  uv run agnostik-parseltongue COAD --resume
+```
+
+Results are written to
+`results/clawbio_skill_trial/tcga-coad/parseltongue_stage3/`:
+
+- `stage3-export.json` — the primary deliverable for Stage 4, containing
+  `DATA`, `STRUCTURE_DATA`, `LAYERS`, and `TAINT_DATA`;
+- `targets/<target>/system.json` — the formal system for one candidate;
+- `targets/<target>/passes/` — extraction, derivation, fact-check, and optional
+  human-readable answer artifacts;
+- `targets/<target>/manifest.json` — selected articles, query, fingerprint, and
+  exact verdict node;
+- `manifest.json` — the six-target Stage-3 run manifest.
+
+The generated JSON is parsed immediately with the real Stage-4 loader. The run
+fails unless all requested candidates have a Boolean verdict and at least one
+verified quoted fact. Hand it to Stage 4 with:
+
+```bash
+uv run agnostik-objections run \
+  --export results/clawbio_skill_trial/tcga-coad/parseltongue_stage3/stage3-export.json \
+  --out results/stage4
+```
+
+The default limits are ten documents and 250,000 characters per candidate.
+Override them with `--max-documents-per-target` and `--max-target-chars`.
+`--resume` reuses target systems whose source-content fingerprint is unchanged;
+`--overwrite` starts fresh. The source article folder is never modified.
 
 ## Access ClawBio skill scripts directly
 
