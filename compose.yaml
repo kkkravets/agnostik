@@ -1,0 +1,14 @@
+services:
+  analysis:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: agnostik-hackathon:local
+    working_dir: /workspace
+    environment:
+      UV_PROJECT_ENVIRONMENT: /opt/venv
+    volumes:
+      - .:/workspace
+    stdin_open: true
+    tty: true
+
