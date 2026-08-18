@@ -1,0 +1,86 @@
+PubMed evidence dossier — PRMT5 / colorectal cancer
+Source: NCBI E-utilities via ClawBio pubmed-summariser
+
+## COUNTERS
+PUBMED_HITS crc=5
+PUBMED_HITS in_vitro=3
+PUBMED_HITS in_vivo=3
+PUBMED_HITS druggability=3
+
+## SECTION crc — query: PRMT5 AND "colorectal cancer"
+
+PMID 42326870 | Gastroenterology report | 2026-06-19
+TITLE: Targeting engulfment and cell motility 1 protein methylation attenuates M2 macrophage infiltration and boosts anti-PD-1 efficacy in colorectal cancer.
+ABSTRACT: Immunotherapy has been very successful in the field of cancer treatment.
+URL: https://pubmed.ncbi.nlm.nih.gov/42326870/
+
+PMID 42133901 | JCO precision oncology | 2026-05-14
+TITLE: Genomics of MTAP Loss in >500,000 Solid Tumor Specimens Profiled Using Comprehensive Genomic Profiling Platforms.
+ABSTRACT: Methylthioadenosine phosphorylase (
+URL: https://pubmed.ncbi.nlm.nih.gov/42133901/
+
+PMID 42121254 | Clinical epigenetics | 2026-05-12
+TITLE: Identification of METTL3 and PRMT5 as an oncogenic pair for the prognosis and therapeutic targets of colorectal cancer subtype.
+ABSTRACT: METTL3 is a pivotal N6-methyladenosine (m⁶A) regulator that is linked to a worse prognosis of colorectal cancer (CRC).
+URL: https://pubmed.ncbi.nlm.nih.gov/42121254/
+
+PMID 42094816 | Oncology letters | 2026-04-23
+TITLE: Emerging role of protein arginine methyltransferase 5 in gastrointestinal cancer (Review).
+ABSTRACT: Gastrointestinal (GI) cancer remains a leading cause of cancer-related mortality worldwide, with epigenetic alterations progressively recognized as key drivers of tumorigenesis and therapeutic resistance.
+URL: https://pubmed.ncbi.nlm.nih.gov/42094816/
+
+PMID 41685168 | Acta pharmaceutica Sinica. B | 2025-10-24
+TITLE: REEP6 promotes colorectal cancer glycolysis and tumorigenesis through PRMT5-mediated PGAM1 arginine methylation.
+ABSTRACT: Metabolic reprogramming is a notable hallmark of cancer biology, especially aerobic glycolysis.
+URL: https://pubmed.ncbi.nlm.nih.gov/41685168/
+
+## SECTION in_vitro — query: PRMT5 AND "colorectal" AND (in vitro OR "cell line" OR organoid)
+
+PMID 42121254 | Clinical epigenetics | 2026-05-12
+TITLE: Identification of METTL3 and PRMT5 as an oncogenic pair for the prognosis and therapeutic targets of colorectal cancer subtype.
+ABSTRACT: METTL3 is a pivotal N6-methyladenosine (m⁶A) regulator that is linked to a worse prognosis of colorectal cancer (CRC).
+URL: https://pubmed.ncbi.nlm.nih.gov/42121254/
+
+PMID 41629269 | Cell death & disease | 2026-02-02
+TITLE: Targeting ENO1 reprograms macrophage polarization to trigger antitumor immunity and improves the therapeutic effect of radiotherapy.
+ABSTRACT: Enolase 1 (ENO1) is a glycolytic enzyme involved in tumor progression that performs a variety of classical and nonclassical functions.
+URL: https://pubmed.ncbi.nlm.nih.gov/41629269/
+
+PMID 41630900 | iScience | 2026-01-10
+TITLE: A nuclear isoform of hydroxyacyl-COA dehydrogenase inhibits tumor progression in colorectal cancer.
+ABSTRACT: Alternate translation initiation expands protein diversity, which is adopted by cancers for progression.
+URL: https://pubmed.ncbi.nlm.nih.gov/41630900/
+
+## SECTION in_vivo — query: PRMT5 AND "colorectal" AND (xenograft OR "mouse model" OR in vivo)
+
+PMID 41630900 | iScience | 2026-01-10
+TITLE: A nuclear isoform of hydroxyacyl-COA dehydrogenase inhibits tumor progression in colorectal cancer.
+ABSTRACT: Alternate translation initiation expands protein diversity, which is adopted by cancers for progression.
+URL: https://pubmed.ncbi.nlm.nih.gov/41630900/
+
+PMID 41513606 | Cell death & disease | 2026-01-09
+TITLE: PRMT5 upregulates KCNMB4 expression via histone methylation to promote paclitaxel resistance in advanced nasopharyngeal carcinoma.
+ABSTRACT: Concurrent chemotherapy is the standard treatment strategy for advanced-stage nasopharyngeal carcinoma (NPC).
+URL: https://pubmed.ncbi.nlm.nih.gov/41513606/
+
+PMID 40903777 | European journal of medical research | 2025-09-03
+TITLE: NUTM2A-AS1 as a potential key regulator in cancer: unraveling its ceRNA networks and impact on tumor biology.
+ABSTRACT: NUTM2A-AS1 is an emerging long noncoding RNA (lncRNA) that has garnered significant attention due to its multifaceted roles in cancer biology.
+URL: https://pubmed.ncbi.nlm.nih.gov/40903777/
+
+## SECTION druggability — query: PRMT5 AND (inhibitor OR "small molecule" OR degrader OR antibody)
+
+PMID 42607456 | European journal of medicinal chemistry | 2026-08-16
+TITLE: Design and synthesis of the first PARP1 and PRMT5 dual inhibitors for the treatment of breast cancer.
+ABSTRACT: Poly(ADP-ribose) polymerase 1 (PARP1) is a key factor responsible for repairing DNA single-strand breaks and maintaining genomic stability.
+URL: https://pubmed.ncbi.nlm.nih.gov/42607456/
+
+PMID 42603931 | iScience | 2026-08-07
+TITLE: m6A-dependent regulation of DGUOK-AS1 by RBM15 and HNRNPH1 in lung adenocarcinoma.
+ABSTRACT: Lung adenocarcinoma (LUAD) remains a leading cause of cancer-related death, underscoring the need for an improved molecular understanding.
+URL: https://pubmed.ncbi.nlm.nih.gov/42603931/
+
+PMID 42593918 | Journal of medicinal chemistry | 2026-Aug
+TITLE: Discovery of a Potent, Selective, and Orally Bioavailable Achiral MAT2A Inhibitor for Treating MTAP-Deficient Cancers.
+ABSTRACT: Targeting methionine adenosyltransferase 2A (MAT2A) represents an attractive synthetic lethal approach for treating methylthioadenosine phosphorylase (MTAP)-deleted cancers.
+URL: https://pubmed.ncbi.nlm.nih.gov/42593918/

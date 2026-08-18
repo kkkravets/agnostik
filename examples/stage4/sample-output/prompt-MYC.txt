@@ -1,0 +1,104 @@
+You sit on a target-triage committee for colorectal cancer research. A formal reasoning engine (Parseltongue) has already produced a verdict for one target, together with the derivation chain and the quoted evidence each step rests on.
+
+Your job is to write the OBJECTION: the strongest honest case against that verdict.
+
+Hard rules — a violation makes the objection unusable:
+1. Write EXACTLY five sentences. No preamble, no heading, no list, no closing remark.
+2. Every sentence must cite at least one ledger key in square brackets, e.g. [E4] or [E4][E9].
+3. Cite only keys that appear in the ledger below. Never invent a key, a PMID, an NCT id or a number.
+4. Use only what the ledger and the derivation state. If something is absent, say it is absent rather than supplying it from your own knowledge.
+5. Attack the reasoning, not the target: point at weak evidence, at counters that are zero or tiny, at a criterion that does the work, at a query artefact, at unresolved or unverified citations, at what the derivation never tested.
+6. If the verdict is "promising", argue why it may not survive scrutiny. If the verdict is "rejected", argue why the rejection may be wrong.
+7. Be concrete and quantitative. Name the counter, the criterion or the document you are objecting to.
+
+Output the five sentences as one paragraph and nothing else.
+
+---
+
+TARGET: MYC
+DISEASE: colorectal cancer
+ENGINE VERDICT: REJECTED  (node myc-promising = False)
+
+DERIVATION — what the engine computed:
+  src.myc.clinical-traction = True
+      rule: (and (or (> src.myc.trials-late-phase 0) (> src.myc.trials-recruiting 0)) src.rules.c6-in-force)
+      from: src.myc.trials-late-phase, src.myc.trials-recruiting, src.rules.c6-in-force
+  src.myc.dossier-anchored = True
+      rule: (and (and src.myc.paper-42548213 (and src.myc.paper-42497765 (and src.myc.paper-42560559 (and src.myc.paper-42607078 (and src.myc.paper-42608167 (and src.myc.trial-NCT07147231 src.myc.trial-NCT05919264)))))) src.rules.c8-in-force)
+      from: src.myc.paper-42548213, src.myc.paper-42497765, src.myc.paper-42560559, src.myc.paper-42607078, src.myc.paper-42608167, src.myc.trial-NCT07147231, src.myc.trial-NCT05919264, src.rules.c8-in-force
+  src.myc.has-chemical-matter = True
+      rule: (and (>= src.myc.druggability-hits 3) src.rules.c2-in-force)
+      from: src.myc.druggability-hits, src.rules.c2-in-force
+  src.myc.in-vitro-supported = True
+      rule: (and (> src.myc.in-vitro-hits 0) src.rules.c4-in-force)
+      from: src.myc.in-vitro-hits, src.rules.c4-in-force
+  src.myc.in-vivo-supported = True
+      rule: (and (> src.myc.in-vivo-hits 0) src.rules.c5-in-force)
+      from: src.myc.in-vivo-hits, src.rules.c5-in-force
+  src.myc.structurally-druggable = False
+      rule: (and (> src.myc.binding-sites 0) src.rules.c1-in-force)
+      from: src.myc.binding-sites, src.rules.c1-in-force
+  src.myc.druggable = False
+      rule: (and (and src.myc.structurally-druggable src.myc.has-chemical-matter) src.rules.c3-in-force)
+      from: src.myc.structurally-druggable, src.myc.has-chemical-matter, src.rules.c3-in-force
+
+COUNTERS the derivation consumed:
+  src.myc.binding-sites = 0
+  src.myc.crc-literature-hits = 5
+  src.myc.druggability-hits = 3
+  src.myc.in-vitro-hits = 3
+  src.myc.in-vivo-hits = 3
+  src.myc.trials-late-phase = 0
+  src.myc.trials-recruiting = 2
+  src.myc.trials-total = 10
+
+EVIDENCE LEDGER — the only citable material:
+[E1] doc:charter: "A target is promising when it is druggable, has in vivo support, and has"
+      note: C7 verdict criterion is in force
+[E2] doc:pubmed-MYC: "PUBMED_HITS in_vivo=3"
+      note: Indexed records reporting xenograft or mouse model work on MYC
+[E3] doc:trials-MYC: "TRIALS late_phase=0"
+      note: Trials in phase 3 or phase 4
+[E4] doc:trials-MYC: "TRIALS recruiting=2"
+      note: Trials currently recruiting
+[E5] doc:charter: "A target is druggable only when it satisfies both C1 and C2. Chemical"
+      note: C3 druggability criterion is in force
+[E6] doc:charter: "A target has in vivo support when at least one indexed publication"
+      note: C5 in vivo criterion is in force
+[E7] doc:charter: "A target has clinical traction when at least one registered colorectal"
+      note: C6 clinical traction criterion is in force
+[E8] uniprot:P01106 (resolves — Myc proto-oncogene protein): "UNIPROT binding_sites=0"
+      note: Binding sites annotated on the reviewed human MYC entry
+[E9] doc:pubmed-MYC: "PUBMED_HITS druggability=3"
+      note: Indexed records describing an inhibitor, degrader or antibody against MYC
+[E10] doc:charter: "A target is structurally druggable when UniProt annotates at least one"
+      note: C1 structural druggability criterion is in force
+[E11] doc:charter: "A target has chemical matter when at least three indexed publications"
+      note: C2 chemical matter criterion is in force
+[E12] doc:pubmed-MYC: "PUBMED_HITS in_vitro=3"
+      note: Indexed records reporting colorectal cell line or organoid work on MYC
+[E13] pmid:42497765 (resolves — Targeting Cys328 in the STAT3 DNA-binding domain with the germacrane-type sesquiterpene la): "TITLE: Targeting Cys328 in the STAT3 DNA-binding domain with the germacrane-type sesquiterpene lactone SCP-7 inhibits colorectal Cancer growth in vitro and in vivo."
+      note: PMID 42497765 (in_vivo query, Bioorganic chemistry 2026-07-21)
+[E14] pmid:42548213 (resolves — Zeaxanthin Suppresses Azoxymethane/Dextran Sodium Sulfate-Induced Colorectal Cancer in Mic): "TITLE: Zeaxanthin Suppresses Azoxymethane/Dextran Sodium Sulfate-Induced Colorectal Cancer in Mice by Inhibiting Inflammation and Proliferation."
+      note: PMID 42548213 (in_vivo query, The Turkish journal of gastroenterology : the official journal of Turkish Society of Gastroenterology 2026-07-30)
+[E15] pmid:42560559 (resolves — Ferroptosis suppression by MYC confers oxaliplatin resistance in colorectal cancer via FTH): "TITLE: Ferroptosis suppression by MYC confers oxaliplatin resistance in colorectal cancer via FTH1 and GPX4."
+      note: PMID 42560559 (in_vitro query, Cancer chemotherapy and pharmacology 2026-08-06)
+[E16] pmid:42607078 (resolves — Dual MYC and GSPT1 Protein Degrader for MYC-Driven Hematologic Malignancies.): "TITLE: Dual MYC and GSPT1 Protein Degrader for MYC-Driven Hematologic Malignancies."
+      note: PMID 42607078 (druggability query, Blood 2026-08-17)
+[E17] pmid:42608167 (resolves — Revisiting Pluripotency Acquisition: A Unified Framework for Reprogramming Strategies.): "TITLE: Revisiting Pluripotency Acquisition: A Unified Framework for Reprogramming Strategies."
+      note: PMID 42608167 (druggability query, Development, growth & differentiation 2026-Aug)
+[E18] nct:NCT05919264 (resolves — FOG-001 in Locally Advanced or Metastatic Solid Tumors): "TITLE: FOG-001 in Locally Advanced or Metastatic Solid Tumors"
+      note: NCT05919264 — status RECRUITING, phases PHASE1, PHASE2
+[E19] nct:NCT07147231 (resolves — Testing the Effectiveness of the Anti-cancer Drug Pidnarulex (CX-5461), in Combination Wit): "TITLE: Testing the Effectiveness of the Anti-cancer Drug Pidnarulex (CX-5461), in Combination With Another Anti-cancer Drug Cemiplimab (REGN2810), in Treating Refractory Microsatellite Stable Colorectal Cancer"
+      note: NCT07147231 — status RECRUITING, phases PHASE1, PHASE2
+[E20] doc:charter: "A target has in vitro support when at least one indexed publication"
+      note: C4 in vitro criterion is in force
+[E21] doc:charter: "Every fact must quote the document it came from. A verdict that cannot be"
+      note: C8 provenance criterion is in force
+
+AUDIT FLAGS — weak points the engine or the checker already found:
+  - counter at zero: src.myc.binding-sites = 0
+  - counter at zero: src.myc.trials-late-phase = 0
+  - 5 of the decisive numbers are aggregate counters (a count of query hits), not findings from a specific study
+
+Write the five-sentence objection to the REJECTED verdict on MYC.

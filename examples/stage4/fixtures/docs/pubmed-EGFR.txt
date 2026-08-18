@@ -1,0 +1,86 @@
+PubMed evidence dossier — EGFR / colorectal cancer
+Source: NCBI E-utilities via ClawBio pubmed-summariser
+
+## COUNTERS
+PUBMED_HITS crc=5
+PUBMED_HITS in_vitro=3
+PUBMED_HITS in_vivo=3
+PUBMED_HITS druggability=3
+
+## SECTION crc — query: EGFR AND "colorectal cancer"
+
+PMID 42595923 | Journal of computer-aided molecular design | 2026-08-13
+TITLE: Active ingredients and molecular targets of Tripterygium wilfordii against colorectal cancer: network pharmacology, molecular docking, molecular dynamics simulations and in vitro evaluation.
+ABSTRACT: Colorectal cancer (CRC) is one of the common malignant tumors of the gastrointestinal tract, encompassing both colon cancer and rectal cancer.
+URL: https://pubmed.ncbi.nlm.nih.gov/42595923/
+
+PMID 42581138 | Cell death and differentiation | 2026-08-11
+TITLE: Absence of EGFR signalling in granulocytic cells relieves immunosuppression sensitising CRC metastases to immune checkpoint therapy.
+ABSTRACT: Metastatic colorectal cancer (mCRC) is one of the deadliest cancers with very poor response to immune checkpoint blockade (ICB).
+URL: https://pubmed.ncbi.nlm.nih.gov/42581138/
+
+PMID 42576549 | Anti-cancer agents in medicinal chemistry | 2026-07-29
+TITLE: Chemopreventive Effects of Boldine and Naringenin on DMH-Induced Colorectal Carcinogenesis.
+ABSTRACT: Colorectal cancer causes high global mortality.
+URL: https://pubmed.ncbi.nlm.nih.gov/42576549/
+
+PMID 42583165 | Frontiers in oncology | 2026-07-28
+TITLE: Economic evaluation of newly approved cetuximab biosimilars for first-line treatment of RAS/BRAF wild-type metastatic colorectal cancer in China.
+ABSTRACT: Domestic cetuximab biosimilars have recently expanded the EGFR-targeted treatment landscape for RAS/BRAF wild-type metastatic colorectal cancer (mCRC) in China, but their economic value remains uncertain.
+URL: https://pubmed.ncbi.nlm.nih.gov/42583165/
+
+PMID 42577044 | JMA journal | 2026-05-22
+TITLE: Molecular Characterization of Ovarian Metastases from Colorectal Cancer Using Circulating Tumor DNA Analysis.
+ABSTRACT: Ovarian metastases from colorectal cancer (CRC) are uncommon but are associated with poor prognosis and therapeutic challenges.
+URL: https://pubmed.ncbi.nlm.nih.gov/42577044/
+
+## SECTION in_vitro — query: EGFR AND "colorectal" AND (in vitro OR "cell line" OR organoid)
+
+PMID 42595923 | Journal of computer-aided molecular design | 2026-08-13
+TITLE: Active ingredients and molecular targets of Tripterygium wilfordii against colorectal cancer: network pharmacology, molecular docking, molecular dynamics simulations and in vitro evaluation.
+ABSTRACT: Colorectal cancer (CRC) is one of the common malignant tumors of the gastrointestinal tract, encompassing both colon cancer and rectal cancer.
+URL: https://pubmed.ncbi.nlm.nih.gov/42595923/
+
+PMID 42581138 | Cell death and differentiation | 2026-08-11
+TITLE: Absence of EGFR signalling in granulocytic cells relieves immunosuppression sensitising CRC metastases to immune checkpoint therapy.
+ABSTRACT: Metastatic colorectal cancer (mCRC) is one of the deadliest cancers with very poor response to immune checkpoint blockade (ICB).
+URL: https://pubmed.ncbi.nlm.nih.gov/42581138/
+
+PMID 42576549 | Anti-cancer agents in medicinal chemistry | 2026-07-29
+TITLE: Chemopreventive Effects of Boldine and Naringenin on DMH-Induced Colorectal Carcinogenesis.
+ABSTRACT: Colorectal cancer causes high global mortality.
+URL: https://pubmed.ncbi.nlm.nih.gov/42576549/
+
+## SECTION in_vivo — query: EGFR AND "colorectal" AND (xenograft OR "mouse model" OR in vivo)
+
+PMID 42576549 | Anti-cancer agents in medicinal chemistry | 2026-07-29
+TITLE: Chemopreventive Effects of Boldine and Naringenin on DMH-Induced Colorectal Carcinogenesis.
+ABSTRACT: Colorectal cancer causes high global mortality.
+URL: https://pubmed.ncbi.nlm.nih.gov/42576549/
+
+PMID 42492133 | Bioorganic chemistry | 2026-07-15
+TITLE: Anticancer evaluation of novel chiral tetrahydropyrazolo[1,5-a]pyrimidine derivatives: Inhibitory effects on proliferation and migration of colon cancer cells with high HER2 expression.
+ABSTRACT: In colorectal cancer (CRC), oncogenic activation of the human epidermal growth factor receptor 2 (HER2) is strongly associated with tumor metastasis, poor prognosis, and resistance to anti-EGFR targeted therapies.
+URL: https://pubmed.ncbi.nlm.nih.gov/42492133/
+
+PMID 42465015 | American journal of cancer research | 2026-06-15
+TITLE: Kang Ru Plus reverses osimertinib resistance in lung adenocarcinoma via suppression of EGFR/PI3K/AKT signaling.
+ABSTRACT: Acquired resistance to epidermal growth factor receptor (EGFR) tyrosine kinase inhibitors such as osimertinib remains a major challenge in the treatment of EGFR-mutant non-small cell lung cancer (NSCLC).
+URL: https://pubmed.ncbi.nlm.nih.gov/42465015/
+
+## SECTION druggability — query: EGFR AND (inhibitor OR "small molecule" OR degrader OR antibody)
+
+PMID 42609500 | Frontiers in oncology | 2026-08-03
+TITLE: Squamous transformation of EGFR-mutant lung adenocarcinoma after EGFR-TKI therapy: clonal continuity, tissue-based diagnosis, and therapeutic evidence gaps.
+ABSTRACT: Assessment at progression after epidermal growth factor receptor tyrosine kinase inhibitor (EGFR-TKI) therapy in EGFR-mutant non-small cell lung cancer requires more than identifying a single resistance mechanism.
+URL: https://pubmed.ncbi.nlm.nih.gov/42609500/
+
+PMID 42609336 | Frontiers in endocrinology | 2026-08-03
+TITLE: A clinical prediction model integrating cardiovascular-kidney-metabolic biomarkers for the composite outcome of quality-of-life deterioration and rehospitalization in elderly HFpEF patients.
+ABSTRACT: Cardiovascular-kidney-metabolic (CKM) syndrome stage 4a encompasses elderly heart failure with preserved ejection fraction (HFpEF) patients with metabolic risk factors or chronic kidney disease (CKD).
+URL: https://pubmed.ncbi.nlm.nih.gov/42609336/
+
+PMID 42609277 | Frontiers in oncology | 2026-08-03
+TITLE: Immunotherapy plus targeted therapy for recurrent or metastatic head and neck squamous cell carcinoma: an updated meta-analysis and subgroup analysis by target mechanism.
+ABSTRACT: Head and neck squamous cell carcinoma (HNSCC) is an aggressive malignancy with dismal outcomes for patients with recurrent or metastatic (R/M) disease.
+URL: https://pubmed.ncbi.nlm.nih.gov/42609277/

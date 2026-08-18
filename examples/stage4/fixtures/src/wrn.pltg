@@ -1,0 +1,123 @@
+; WRN — colorectal cancer target dossier
+; Facts quote docs/pubmed-WRN.txt, docs/trials-WRN.txt, docs/uniprot-WRN.txt verbatim.
+; Claims conjoin the charter criterion that licenses them, so every verdict
+; backtraces to both the data and the rule text.
+
+; ---------------------------------------------------------------- facts
+
+(fact crc-literature-hits 5
+    :evidence (evidence "pubmed-WRN"
+        :quotes ("PUBMED_HITS crc=5")
+        :explanation "Indexed PubMed records for WRN in colorectal cancer"))
+
+(fact in-vitro-hits 3
+    :evidence (evidence "pubmed-WRN"
+        :quotes ("PUBMED_HITS in_vitro=3")
+        :explanation "Indexed records reporting colorectal cell line or organoid work on WRN"))
+
+(fact in-vivo-hits 3
+    :evidence (evidence "pubmed-WRN"
+        :quotes ("PUBMED_HITS in_vivo=3")
+        :explanation "Indexed records reporting xenograft or mouse model work on WRN"))
+
+(fact druggability-hits 3
+    :evidence (evidence "pubmed-WRN"
+        :quotes ("PUBMED_HITS druggability=3")
+        :explanation "Indexed records describing an inhibitor, degrader or antibody against WRN"))
+
+(fact trials-total 10
+    :evidence (evidence "trials-WRN"
+        :quotes ("TRIALS total=10")
+        :explanation "Registered colorectal cancer trials naming WRN"))
+
+(fact trials-late-phase 1
+    :evidence (evidence "trials-WRN"
+        :quotes ("TRIALS late_phase=1")
+        :explanation "Trials in phase 3 or phase 4"))
+
+(fact trials-recruiting 3
+    :evidence (evidence "trials-WRN"
+        :quotes ("TRIALS recruiting=3")
+        :explanation "Trials currently recruiting"))
+
+(fact binding-sites 13
+    :evidence (evidence "uniprot-WRN"
+        :quotes ("UNIPROT binding_sites=13")
+        :explanation "Binding sites annotated on the reviewed human WRN entry"))
+
+; ------------------------------------------------ document anchors
+
+(fact paper-41704373 true
+    :evidence (evidence "pubmed-WRN"
+        :quotes ("TITLE: Discovery and Preclinical Evaluations of Potent, Selective, and Allosteric Covalent WRN Inhibitors with Improved PK Properties.")
+        :explanation "PMID 41704373 (in_vivo query, ACS medicinal chemistry letters 2026-01-22)"))
+
+(fact paper-40203476 true
+    :evidence (evidence "pubmed-WRN"
+        :quotes ("TITLE: Werner helicase as a therapeutic target in mismatch repair deficient colorectal cancer.")
+        :explanation "PMID 40203476 (in_vivo query, DNA repair 2025-04-03)"))
+
+(fact paper-42461083 true
+    :evidence (evidence "pubmed-WRN"
+        :quotes ("TITLE: Targeting WRN Helicase in Microsatellite Instable Colorectal Cancer Induces Antitumor Immunity through Extrachromosomal Circular DNA Release.")
+        :explanation "PMID 42461083 (in_vitro query, Cancer research 2026-07-16)"))
+
+(fact paper-42293362 true
+    :evidence (evidence "pubmed-WRN"
+        :quotes ("TITLE: RecQ DNA helicases germline variants in Lynch-like syndrome.")
+        :explanation "PMID 42293362 (in_vitro query, Genetics in medicine open 2026-04-29)"))
+
+(fact paper-42604630 true
+    :evidence (evidence "pubmed-WRN"
+        :quotes ("TITLE: Design, synthesis and biological evaluation of triazolo[1,5-a]pyrimidinone derivatives as potent and orally efficacious WRN helicase inhibitors for MSI cancer therapy.")
+        :explanation "PMID 42604630 (druggability query, Bioorganic & medicinal chemistry 2026-08-13)"))
+
+(fact paper-42593940 true
+    :evidence (evidence "pubmed-WRN"
+        :quotes ("TITLE: Discovery and Optimization of a WRN Helicase Inhibitor Series through Structure-Guided Drug Design from a Covalent Fragment Binding Insight.")
+        :explanation "PMID 42593940 (druggability query, Journal of medicinal chemistry 2026-Aug)"))
+
+(fact paper-42484294 true
+    :evidence (evidence "pubmed-WRN"
+        :quotes ("TITLE: CRISPR Screening Identifies SMARCAL1 and MRN as Modulators of WRN Dependency in MSI-H Colorectal Cancer.")
+        :explanation "PMID 42484294 (crc query, Cancer research 2026-07-22)"))
+
+(fact trial-NCT03570541 true
+    :evidence (evidence "trials-WRN"
+        :quotes ("TITLE: TQL-block for Laparoscopic Hemicolectomy")
+        :explanation "NCT03570541 — status COMPLETED, phases PHASE4"))
+
+(fact trial-NCT07262619 true
+    :evidence (evidence "trials-WRN"
+        :quotes ("TITLE: EIK1005-002: A Clinical Research Study Evaluating EIK1005, a Werner Helicase Inhibitor, as Monotherapy and in Combination With Pembrolizumab in Participants With Advanced Solid Tumors Including Microsatellite Instability High (MSI-H) Tumors")
+        :explanation "NCT07262619 — status RECRUITING, phases PHASE1, PHASE2"))
+
+(fact trial-NCT06974110 true
+    :evidence (evidence "trials-WRN"
+        :quotes ("TITLE: Study of Orally Administered MOMA-341 in Participants With Advanced or Metastatic Solid Tumors")
+        :explanation "NCT06974110 — status RECRUITING, phases PHASE1"))
+
+; -------------------------------------------------------- claims
+
+(derive structurally-druggable (and (> binding-sites 0) src.rules.c1-in-force)
+    :using (binding-sites src.rules.c1-in-force))
+
+(derive has-chemical-matter (and (>= druggability-hits 3) src.rules.c2-in-force)
+    :using (druggability-hits src.rules.c2-in-force))
+
+(derive druggable (and (and structurally-druggable has-chemical-matter) src.rules.c3-in-force)
+    :using (structurally-druggable has-chemical-matter src.rules.c3-in-force))
+
+(derive in-vitro-supported (and (> in-vitro-hits 0) src.rules.c4-in-force)
+    :using (in-vitro-hits src.rules.c4-in-force))
+
+(derive in-vivo-supported (and (> in-vivo-hits 0) src.rules.c5-in-force)
+    :using (in-vivo-hits src.rules.c5-in-force))
+
+(derive clinical-traction
+    (and (or (> trials-late-phase 0) (> trials-recruiting 0)) src.rules.c6-in-force)
+    :using (trials-late-phase trials-recruiting src.rules.c6-in-force))
+
+; charter C8 — the dossier is anchored to quoted documents
+(derive dossier-anchored (and (and paper-41704373 (and paper-40203476 (and paper-42461083 (and paper-42293362 (and paper-42604630 (and paper-42593940 (and paper-42484294 (and trial-NCT03570541 (and trial-NCT07262619 trial-NCT06974110))))))))) src.rules.c8-in-force)
+    :using (paper-41704373 paper-40203476 paper-42461083 paper-42293362 paper-42604630 paper-42593940 paper-42484294 trial-NCT03570541 trial-NCT07262619 trial-NCT06974110 src.rules.c8-in-force))

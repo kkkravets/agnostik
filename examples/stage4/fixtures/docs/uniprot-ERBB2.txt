@@ -1,0 +1,10 @@
+UniProt reviewed record — ERBB2
+Source: rest.uniprot.org, organism 9606, reviewed only
+
+## COUNTERS
+UNIPROT binding_sites=2
+
+ACCESSION: P04626
+ENTRY: ERBB2_HUMAN
+PROTEIN: Receptor tyrosine-protein kinase erbB-2
+FUNCTION: Protein tyrosine kinase that is part of several cell surface receptor complexes, but that apparently needs a coreceptor for ligand binding. Essential component of a neuregulin-receptor complex, although neuregulins do not interact with it alone. GP30 is a potential ligand for this receptor. Regulates outgrowth and stabilization of peripheral microtubules (MTs). Upon ERBB2 activation, the MEMO1-RHOA-DIAPH1 signaling pathway elicits the phosphorylation and thus the inhibition of GSK3B at cell membrane. This prevents the phosphorylation of APC and CLASP2, allowing its association with the cell membrane. In turn, membrane-bound APC allows the localization of MACF1 to the cell membrane, which is required for microtubule capture and stabilization

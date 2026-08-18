@@ -1,0 +1,10 @@
+UniProt reviewed record — MYC
+Source: rest.uniprot.org, organism 9606, reviewed only
+
+## COUNTERS
+UNIPROT binding_sites=0
+
+ACCESSION: P01106
+ENTRY: MYC_HUMAN
+PROTEIN: Myc proto-oncogene protein
+FUNCTION: Transcription factor that binds DNA in a non-specific manner, yet also specifically recognizes the core sequence 5'-CAC[GA]TG-3' (PubMed:24940000, PubMed:25956029). Activates the transcription of growth-related genes (PubMed:24940000, PubMed:25956029). Binds to the VEGFA promoter, promoting VEGFA production and subsequent sprouting angiogenesis (PubMed:24940000, PubMed:25956029). Regulator of somatic reprogramming, controls self-renewal of embryonic stem cells (By similarity). Functions with TAF6L to activate target gene expression through RNA polymerase II pause release (By similarity). Positively regulates transcription of HNRNPA1, HNRNPA2 and PTBP1 which in turn regulate splicing of pyruvate kinase PKM by binding repressively to sequences flanking PKM exon 9, inhibiting exon 9 inclusion and resulting in exon 10 inclusion and production of the PKM M2 isoform (PubMed:20010808)

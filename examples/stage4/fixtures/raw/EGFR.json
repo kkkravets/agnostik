@@ -1,0 +1,371 @@
+{
+ "gene": "EGFR",
+ "disease": "colorectal cancer",
+ "uniprot": {
+  "accession": "P00533",
+  "uniprot_id": "EGFR_HUMAN",
+  "protein_name": "Epidermal growth factor receptor",
+  "function": "Receptor tyrosine kinase binding ligands of the EGF family and activating several signaling cascades to convert extracellular cues into appropriate cellular responses (PubMed:10805725, PubMed:27153536, PubMed:2790960, PubMed:35538033). Known ligands include EGF, TGFA/TGF-alpha, AREG, epigen/EPGN, BTC/betacellulin, epiregulin/EREG and HBEGF/heparin-binding EGF (PubMed:12297049, PubMed:15611079, PubMed:17909029, PubMed:20837704, PubMed:27153536, PubMed:2790960, PubMed:7679104, PubMed:8144591, PubMed:9419975). Ligand binding triggers receptor homo- and/or heterodimerization and autophosphorylation on key cytoplasmic residues. The phosphorylated receptor recruits adapter proteins like GRB2 which in turn activates complex downstream signaling cascades. Activates at least 4 major downstream signaling cascades including the RAS-RAF-MEK-ERK, PI3 kinase-AKT, PLCgamma-PKC and STATs modules (PubMed:27153536). May also activate the NF-kappa-B signaling cascade (PubMed:11116146). Also directly phosphorylates other proteins like RGS16, activating its GTPase activity and probably coupling the EGF receptor signaling to the G protein-coupled receptor signaling (PubMed:11602604). Also phosphorylates MUC1 and increases its interaction with SRC and CTNNB1/beta-catenin (PubMed:11483589). Positively regulates cell migration via interaction with CCDC88A/GIV which retains EGFR at the cell membrane following ligand stimulation, promoting EGFR signaling which triggers cell migration (PubMed:20462955). Plays a role in enhancing learning and memory performance (By similarity). Plays a role in mammalian pain signaling (long-lasting hypersensitivity) (By similarity)",
+  "binding_sites": 4
+ },
+ "pubmed": {
+  "crc": [
+   {
+    "title": "Active ingredients and molecular targets of Tripterygium wilfordii against colorectal cancer: network pharmacology, molecular docking, molecular dynamics simulations and in vitro evaluation.",
+    "authors": "Gu Q, Zhao S, Zhang X, et al.",
+    "journal": "Journal of computer-aided molecular design",
+    "date": "2026-08-13",
+    "abstract": "Colorectal cancer (CRC) is one of the common malignant tumors of the gastrointestinal tract, encompassing both colon cancer and rectal cancer.",
+    "pmid": "42595923",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42595923/"
+   },
+   {
+    "title": "Absence of EGFR signalling in granulocytic cells relieves immunosuppression sensitising CRC metastases to immune checkpoint therapy.",
+    "authors": "Moreno-Viedma V, Adachi-Fernandez E, Krauss D, et al.",
+    "journal": "Cell death and differentiation",
+    "date": "2026-08-11",
+    "abstract": "Metastatic colorectal cancer (mCRC) is one of the deadliest cancers with very poor response to immune checkpoint blockade (ICB).",
+    "pmid": "42581138",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42581138/"
+   },
+   {
+    "title": "Chemopreventive Effects of Boldine and Naringenin on DMH-Induced Colorectal Carcinogenesis.",
+    "authors": "Kashyap MK, Ved A, Wal P, et al.",
+    "journal": "Anti-cancer agents in medicinal chemistry",
+    "date": "2026-07-29",
+    "abstract": "Colorectal cancer causes high global mortality.",
+    "pmid": "42576549",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42576549/"
+   },
+   {
+    "title": "Economic evaluation of newly approved cetuximab biosimilars for first-line treatment of RAS/BRAF wild-type metastatic colorectal cancer in China.",
+    "authors": "Feng R, Huo L, Liang P, et al.",
+    "journal": "Frontiers in oncology",
+    "date": "2026-07-28",
+    "abstract": "Domestic cetuximab biosimilars have recently expanded the EGFR-targeted treatment landscape for RAS/BRAF wild-type metastatic colorectal cancer (mCRC) in China, but their economic value remains uncertain.",
+    "pmid": "42583165",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42583165/"
+   },
+   {
+    "title": "Molecular Characterization of Ovarian Metastases from Colorectal Cancer Using Circulating Tumor DNA Analysis.",
+    "authors": "Iwahashi N, Noguchi T, Sakai K, et al.",
+    "journal": "JMA journal",
+    "date": "2026-05-22",
+    "abstract": "Ovarian metastases from colorectal cancer (CRC) are uncommon but are associated with poor prognosis and therapeutic challenges.",
+    "pmid": "42577044",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42577044/"
+   }
+  ],
+  "crc_query": "EGFR AND \"colorectal cancer\"",
+  "in_vitro": [
+   {
+    "title": "Active ingredients and molecular targets of Tripterygium wilfordii against colorectal cancer: network pharmacology, molecular docking, molecular dynamics simulations and in vitro evaluation.",
+    "authors": "Gu Q, Zhao S, Zhang X, et al.",
+    "journal": "Journal of computer-aided molecular design",
+    "date": "2026-08-13",
+    "abstract": "Colorectal cancer (CRC) is one of the common malignant tumors of the gastrointestinal tract, encompassing both colon cancer and rectal cancer.",
+    "pmid": "42595923",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42595923/"
+   },
+   {
+    "title": "Absence of EGFR signalling in granulocytic cells relieves immunosuppression sensitising CRC metastases to immune checkpoint therapy.",
+    "authors": "Moreno-Viedma V, Adachi-Fernandez E, Krauss D, et al.",
+    "journal": "Cell death and differentiation",
+    "date": "2026-08-11",
+    "abstract": "Metastatic colorectal cancer (mCRC) is one of the deadliest cancers with very poor response to immune checkpoint blockade (ICB).",
+    "pmid": "42581138",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42581138/"
+   },
+   {
+    "title": "Chemopreventive Effects of Boldine and Naringenin on DMH-Induced Colorectal Carcinogenesis.",
+    "authors": "Kashyap MK, Ved A, Wal P, et al.",
+    "journal": "Anti-cancer agents in medicinal chemistry",
+    "date": "2026-07-29",
+    "abstract": "Colorectal cancer causes high global mortality.",
+    "pmid": "42576549",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42576549/"
+   }
+  ],
+  "in_vitro_query": "EGFR AND \"colorectal\" AND (in vitro OR \"cell line\" OR organoid)",
+  "in_vivo": [
+   {
+    "title": "Chemopreventive Effects of Boldine and Naringenin on DMH-Induced Colorectal Carcinogenesis.",
+    "authors": "Kashyap MK, Ved A, Wal P, et al.",
+    "journal": "Anti-cancer agents in medicinal chemistry",
+    "date": "2026-07-29",
+    "abstract": "Colorectal cancer causes high global mortality.",
+    "pmid": "42576549",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42576549/"
+   },
+   {
+    "title": "Anticancer evaluation of novel chiral tetrahydropyrazolo[1,5-a]pyrimidine derivatives: Inhibitory effects on proliferation and migration of colon cancer cells with high HER2 expression.",
+    "authors": "Wang D, Ma R, Feng Z, et al.",
+    "journal": "Bioorganic chemistry",
+    "date": "2026-07-15",
+    "abstract": "In colorectal cancer (CRC), oncogenic activation of the human epidermal growth factor receptor 2 (HER2) is strongly associated with tumor metastasis, poor prognosis, and resistance to anti-EGFR targeted therapies.",
+    "pmid": "42492133",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42492133/"
+   },
+   {
+    "title": "Kang Ru Plus reverses osimertinib resistance in lung adenocarcinoma via suppression of EGFR/PI3K/AKT signaling.",
+    "authors": "Mhone TG, Kuo WW, Chi CY, et al.",
+    "journal": "American journal of cancer research",
+    "date": "2026-06-15",
+    "abstract": "Acquired resistance to epidermal growth factor receptor (EGFR) tyrosine kinase inhibitors such as osimertinib remains a major challenge in the treatment of EGFR-mutant non-small cell lung cancer (NSCLC).",
+    "pmid": "42465015",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42465015/"
+   }
+  ],
+  "in_vivo_query": "EGFR AND \"colorectal\" AND (xenograft OR \"mouse model\" OR in vivo)",
+  "druggability": [
+   {
+    "title": "Squamous transformation of EGFR-mutant lung adenocarcinoma after EGFR-TKI therapy: clonal continuity, tissue-based diagnosis, and therapeutic evidence gaps.",
+    "authors": "Zhou L, Zhang P, Liu Q, et al.",
+    "journal": "Frontiers in oncology",
+    "date": "2026-08-03",
+    "abstract": "Assessment at progression after epidermal growth factor receptor tyrosine kinase inhibitor (EGFR-TKI) therapy in EGFR-mutant non-small cell lung cancer requires more than identifying a single resistance mechanism.",
+    "pmid": "42609500",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42609500/"
+   },
+   {
+    "title": "A clinical prediction model integrating cardiovascular-kidney-metabolic biomarkers for the composite outcome of quality-of-life deterioration and rehospitalization in elderly HFpEF patients.",
+    "authors": "He C, Zhao H, Liu H, et al.",
+    "journal": "Frontiers in endocrinology",
+    "date": "2026-08-03",
+    "abstract": "Cardiovascular-kidney-metabolic (CKM) syndrome stage 4a encompasses elderly heart failure with preserved ejection fraction (HFpEF) patients with metabolic risk factors or chronic kidney disease (CKD).",
+    "pmid": "42609336",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42609336/"
+   },
+   {
+    "title": "Immunotherapy plus targeted therapy for recurrent or metastatic head and neck squamous cell carcinoma: an updated meta-analysis and subgroup analysis by target mechanism.",
+    "authors": "Sun W, Wang Y, Dong H, et al.",
+    "journal": "Frontiers in oncology",
+    "date": "2026-08-03",
+    "abstract": "Head and neck squamous cell carcinoma (HNSCC) is an aggressive malignancy with dismal outcomes for patients with recurrent or metastatic (R/M) disease.",
+    "pmid": "42609277",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42609277/"
+   }
+  ],
+  "druggability_query": "EGFR AND (inhibitor OR \"small molecule\" OR degrader OR antibody)"
+ },
+ "trials": [
+  {
+   "nct_id": "NCT06940778",
+   "title": "LIQUID BIOPSY FOCUSING ON CIRCULATING TUMOR CELLS AND CIRCULATING TUMOR DNA AS PRECISION MEDICINE IN GASTROINTESTINAL TUMORS",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "start_date": "2025-01-10",
+   "phases": [],
+   "study_type": "OBSERVATIONAL",
+   "conditions": [
+    "Cancer of Rectum",
+    "Cancer of Pancreas",
+    "Cancer of Stomach"
+   ],
+   "interventions": [
+    "No Interventions"
+   ],
+   "summary": "This is a prospective, observational, multicenter cohort study. Our main objective is to to evaluate the use of CTCs and ctDNA with prognostic factors in locally advanced rectal tumors treated with total neoadjuvant therapy (TNT), recently adopted as clinical practice, and to analyze the functionality of CTCs and ctDNA in the follow-up of locally advanced and metastatic pancreatic and gastric tumors.\n\nSecondary objectives:\n\n* To verify the influence of CTC and ctDNA kinetics on the response to treatment of the three tumors;\n* To correlate RAD23B/TYMS findings and CTC kinetics with DFS in local"
+  },
+  {
+   "nct_id": "NCT04017650",
+   "title": "Encorafenib, Cetuximab, and Nivolumab in Treating Patients With Microsatellite Stable, BRAFV600E Mutated Unresectable or Metastatic Colorectal Cancer",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "start_date": "2019-06-14",
+   "phases": [
+    "PHASE1",
+    "PHASE2"
+   ],
+   "study_type": "INTERVENTIONAL",
+   "conditions": [
+    "BRAF NP_004324.2:p.V600E",
+    "Metastatic Colon Adenocarcinoma",
+    "Metastatic Microsatellite Stable Colorectal Carcinoma",
+    "Metastatic Rectal Adenocarcinoma",
+    "Progressive Disease",
+    "Recurrent Colorectal Carcinoma",
+    "Stage III Colorectal Cancer AJCC v8",
+    "Stage IIIA Colorectal Cancer AJCC v8",
+    "Stage IIIB Colorectal Cancer AJCC v8",
+    "Stage IIIC Colorectal Cancer AJCC v8",
+    "Stage IV Colorectal Cancer AJCC v8",
+    "Stage IVA Colorectal Cancer AJCC v8",
+    "Stage IVB Colorectal Cancer AJCC v8",
+    "Stage IVC Colorectal Cancer AJCC v8",
+    "Unresectable Colon Adenocarcinoma",
+    "Unresectable Rectal Adenocarcinoma"
+   ],
+   "interventions": [
+    "Cetuximab",
+    "Encorafenib",
+    "Nivolumab"
+   ],
+   "summary": "This phase I/II trial studies the best dose and side effects of encorafenib, cetuximab, and nivolumab and how well they work together in treating patients with microsatellite stable, BRAFV600E gene mutated colorectal cancer that cannot be removed by surgery (unresectable) or has spread to other places in the body (metastatic). Encorafenib and cetuximab may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth. Immunotherapy with monoclonal antibodies, such as nivolumab, may help the body's immune system attack the cancer, and may interfere with the ability of tu"
+  },
+  {
+   "nct_id": "NCT00622674",
+   "title": "Bortezomib and Cetuximab in Treating Patients With Advanced Solid Tumors",
+   "status": "COMPLETED",
+   "start_date": "2005-11",
+   "phases": [
+    "PHASE1"
+   ],
+   "study_type": "INTERVENTIONAL",
+   "conditions": [
+    "Breast Cancer",
+    "Colorectal Cancer",
+    "Head and Neck Cancer",
+    "Kidney Cancer",
+    "Lung Cancer",
+    "Pancreatic Cancer",
+    "Sarcoma",
+    "Unspecified Adult Solid Tumor, Protocol Specific"
+   ],
+   "interventions": [
+    "cetuximab",
+    "bortezomib"
+   ],
+   "summary": "RATIONALE: Bortezomib may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth. Monoclonal antibodies, such as cetuximab, can block tumor growth in different ways. Some block the ability of tumor cells to grow and spread. Others find tumor cells and help kill them or carry tumor-killing substances to them. Giving bortezomib together with cetuximab may kill more tumor cells.\n\nPURPOSE: This phase I trial is studying the side effects and best dose of bortezomib when given together with cetuximab in treating patients with advanced solid tumors."
+  },
+  {
+   "nct_id": "NCT03319459",
+   "title": "FATE-NK100 as Monotherapy and in Combination With Monoclonal Antibody in Subjects With Advanced Solid Tumors",
+   "status": "COMPLETED",
+   "start_date": "2018-01-18",
+   "phases": [
+    "PHASE1"
+   ],
+   "study_type": "INTERVENTIONAL",
+   "conditions": [
+    "HER2 Positive Gastric Cancer",
+    "Colorectal Cancer",
+    "Head and Neck Squamous Cell Carcinoma",
+    "EGFR Positive Solid Tumor",
+    "Advanced Solid Tumors",
+    "HER2-positive Breast Cancer",
+    "Hepatocellular Carcinoma",
+    "Non Small Cell Lung Cancer",
+    "Renal Cell Carcinoma",
+    "Pancreatic Cancer",
+    "Melanoma"
+   ],
+   "interventions": [
+    "FATE-NK100",
+    "Cetuximab",
+    "Trastuzumab"
+   ],
+   "summary": "This is a Phase 1, single-dose, open-label, dose-escalation study. The study will be conducted in three parts (i.e. regimens) in an outpatient setting as follows:\n\n* Regimen A: FATE-NK100 as a monotherapy in subjects with advanced solid tumor malignancies.\n* Regimen B: FATE-NK100 in combination with trastuzumab in subjects with human epidermal growth factor receptor 2 positive (HER2+) advanced breast cancer, HER2+ advanced gastric cancer or other advanced HER2+ solid tumors.\n* Regimen C: FATE-NK100 in combination with cetuximab in subjects with advanced colorectal cancer (CRC) or head and neck"
+  },
+  {
+   "nct_id": "NCT04034173",
+   "title": "Optimal Anti-EGFR Treatment of mCRC Patients With Low-Frequency RAS Mutation",
+   "status": "UNKNOWN",
+   "start_date": "2019-08-01",
+   "phases": [
+    "PHASE2"
+   ],
+   "study_type": "INTERVENTIONAL",
+   "conditions": [
+    "Treatment Related Cancer"
+   ],
+   "interventions": [
+    "Panitumumab",
+    "Irinotecan",
+    "Folinic acid",
+    "5-FU"
+   ],
+   "summary": "The present hypothesis is that anti-EGFR agents are active in tumors with low-level RAS mutation when the majority of tumor cells is still sensitive. While response rate may be high and may reflect sensitivity to anti-EGFR agents, PFS is anticipated to be shorter than in RAS wild-type patients due to the faster development of resistance when sensitive cells are eradicated and when the RAS-mutant anti-EGFR resistant clones become predominant.\n\nThe characteristics of low-level RAS mutant tumors would be:\n\n* Objective response rate (ORR) high (reflecting the sensitive clone)\n* Progression-free su"
+  },
+  {
+   "nct_id": "NCT07503756",
+   "title": "JS212 Combination Therapies in Metastatic Colorectal Cancer",
+   "status": "RECRUITING",
+   "start_date": "2026-04-25",
+   "phases": [
+    "PHASE2"
+   ],
+   "study_type": "INTERVENTIONAL",
+   "conditions": [
+    "Metastatic Colorectal Cancer"
+   ],
+   "interventions": [
+    "JS212",
+    "Capecitabine",
+    "Bevacizumab",
+    "Oxaliplatin",
+    "JS207"
+   ],
+   "summary": "This is an open-label, multicenter Phase 2 clinical study designed to evaluate the safety, tolerability, pharmacokinetics, and preliminary efficacy of JS212-based combination therapies in patients with metastatic colorectal cancer (mCRC).\n\nJS212 is a bispecific antibody-drug conjugate (ADC) targeting epidermal growth factor receptor (EGFR) and HER3 with a topoisomerase I inhibitor payload. Preclinical and early clinical data suggest that dual targeting of EGFR and HER3 may enhance antitumor activity and overcome resistance mechanisms associated with EGFR- or HER2-directed therapies.\n\nThis stud"
+  },
+  {
+   "nct_id": "NCT03259009",
+   "title": "RAS Mutations in ctDNA and Anti-EGFR reINTROduction in mCRC (RASINTRO)",
+   "status": "UNKNOWN",
+   "start_date": "2017-10-01",
+   "phases": [],
+   "study_type": "OBSERVATIONAL",
+   "conditions": [
+    "Metastatic Colorectal Cancer"
+   ],
+   "interventions": [],
+   "summary": "Some data have suggested a clinical survival benefit related to the reintroduction of anti-EGFRs therapy in patients with metastatic colorectal cancer (mCRC). Based on resistance mechanisms related to the development of resistant clones, the investigators could assume that patients who benefited most from the reintroduction of anti-EGFRs were those who, through interval chemotherapy, had no longer mutated RAS clone in plasma that appeared during the progression with the first anti-EGFR treatment. Conversely, those who did not benefit from this therapy were probably patients who had mutated RAS"
+  },
+  {
+   "nct_id": "NCT00536809",
+   "title": "Phase I/II Study of Lapatinib in Combination With Oxaliplatin and Capecitabine in Subjects With Advanced Colorectal Cancer",
+   "status": "COMPLETED",
+   "start_date": "2007-09-26",
+   "phases": [
+    "PHASE1"
+   ],
+   "study_type": "INTERVENTIONAL",
+   "conditions": [
+    "Neoplasms, Colorectal"
+   ],
+   "interventions": [
+    "lapatinib",
+    "oxaliplatin",
+    "capecitabine"
+   ],
+   "summary": "The purpose of this study is to determine the highest, tolerated dose level and safety of lapatinib, capecitabine and oxaliplatin in subjects with advanced cancer and to determine the clinical activity of the combination of drugs in subjects with previously untreated advanced or metastatic colorectal cancer."
+  },
+  {
+   "nct_id": "NCT05551039",
+   "title": "An Observational Study, Called RegoFlex EU, to Learn More About the Use of Stivarga at Reduced Doses as Recommended (Flexible Dosing) to Treat People With Metastatic Colorectal Cancer in Real World Settings in Europe",
+   "status": "COMPLETED",
+   "start_date": "2022-08-15",
+   "phases": [],
+   "study_type": "OBSERVATIONAL",
+   "conditions": [
+    "Metastatic Colorectal Cancer"
+   ],
+   "interventions": [
+    "Retrospective patient chart review"
+   ],
+   "summary": "This is an observational study in which data from patients with metastatic colorectal cancer in three European countries who received STIVARGA\u00ae (regorafenib), are collected. In observational studies, only observations are made without specified advice or interventions.\n\nMetastatic colorectal cancer (mCRC) is a cancer that starts in the large bowel or the rectum (the lowest part of the gut) and has spread to other parts of the body. Regorafenib is an anti-cancer drug that blocks several proteins called enzymes, which are involved in the development and growth of cancer. A wide range of such enz"
+  },
+  {
+   "nct_id": "NCT03290937",
+   "title": "Utomilumab, Cetuximab, and Irinotecan Hydrochloride in Treating Patients With Metastatic Colorectal Cancer",
+   "status": "COMPLETED",
+   "start_date": "2017-12-27",
+   "phases": [
+    "PHASE1"
+   ],
+   "study_type": "INTERVENTIONAL",
+   "conditions": [
+    "Metastatic Colorectal Carcinoma",
+    "Stage IV Colorectal Cancer AJCC v8",
+    "Stage IVA Colorectal Cancer AJCC v8",
+    "Stage IVB Colorectal Cancer AJCC v8",
+    "Stage IVC Colorectal Cancer AJCC v8"
+   ],
+   "interventions": [
+    "Cetuximab",
+    "Irinotecan Hydrochloride",
+    "Pharmacodynamic Study",
+    "Utomilumab"
+   ],
+   "summary": "This phase I trial studies the best dose and side effects of irinotecan hydrochloride when given with utomilumab and cetuximab in treating patients with colorectal cancer that has spread to other places in the body (metastatic). Monoclonal antibodies, such as utomilumab and cetuximab, may interfere with the ability of tumor cells to grow and spread. Drugs used in chemotherapy, such as irinotecan hydrochloride, work in different ways to stop the growth of tumor cells, either by killing the cells, by stopping them from dividing, or by stopping them from spreading. Giving utomilumab, cetuximab, a"
+  }
+ ]
+}

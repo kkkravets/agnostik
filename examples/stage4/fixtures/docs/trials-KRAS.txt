@@ -1,0 +1,67 @@
+ClinicalTrials.gov dossier — KRAS / colorectal cancer
+Source: clinicaltrials.gov/api/v2, condition-scoped to colorectal cancer
+
+## COUNTERS
+TRIALS total=10
+TRIALS late_phase=0
+TRIALS recruiting=4
+
+NCT05462717 | ACTIVE_NOT_RECRUITING | phases: PHASE1 | INTERVENTIONAL
+TITLE: Dose Escalation and Dose Expansion Study of RMC-6291 Monotherapy in Subjects With Advanced KRASG12C Mutant Solid Tumors
+CONDITIONS: Non-Small Cell Lung Cancer (NSCLC), Colorectal Cancer (CRC), Pancreatic Ductal Adenocarcinoma, Advanced Solid Tumor
+INTERVENTIONS: RMC-6291
+SUMMARY: The purpose of this study is to evaluate the safety, tolerability, and pharmacokinetics (PK) of escalating doses of RMC-6291 (KRAS G12C(ON) inhibitor) monotherapy in adult subjects with advanced solid tumors and to identify the maximum tolerated dose (MTD), and the recommended Phase 2 dose.
+
+NCT06940778 | ACTIVE_NOT_RECRUITING | phases: NA | OBSERVATIONAL
+TITLE: LIQUID BIOPSY FOCUSING ON CIRCULATING TUMOR CELLS AND CIRCULATING TUMOR DNA AS PRECISION MEDICINE IN GASTROINTESTINAL TUMORS
+CONDITIONS: Cancer of Rectum, Cancer of Pancreas, Cancer of Stomach
+INTERVENTIONS: No Interventions
+SUMMARY: This is a prospective, observational, multicenter cohort study. Our main objective is to to evaluate the use of CTCs and ctDNA with prognostic factors in locally advanced rectal tumors treated with total neoadjuvant therapy (TNT), recently adopted as clinical practice, and to analyze the functionality of CTCs and ctDNA in the follow-up of locally advanced and metastatic pancreatic and gastric tumors. Secondary objectives: * To verify the influence of CTC and ctDNA kinetics on the response to treatment of the three tumors; * To correlate RAD23B/TYMS findings and CTC kinetics with DFS in local
+
+NCT07300150 | RECRUITING | phases: PHASE1 | INTERVENTIONAL
+TITLE: A Study of PT0511 in Participants With KRAS Mutated or Amplified Advanced Solid Tumors
+CONDITIONS: Colorectal Cancer, Pancreatic Cancer, Non-Small Cell Lung Cancer, Solid Tumor
+INTERVENTIONS: PT0511, Cetuximab
+SUMMARY: The primary purpose of this study is to evaluate the safety and tolerability, determine the maximally tolerated dose (MTD) and/or recommended Phase 2 dose(s) (RP2D) of PT0511 in adult participants with solid tumors as monotherapy and in combination with cetuximab in participants with colorectal cancer (CRC).
+
+NCT05176483 | RECRUITING | phases: PHASE1 | INTERVENTIONAL
+TITLE: Study of Zanzalintinib in Combination With Immuno-Oncology or Other Agents in Participants With Solid Tumors
+CONDITIONS: Renal Cell Carcinoma (RCC), Metastatic Castration-Resistant Prostate Cancer (mCRPC), Urothelial Carcinoma (UC), Solid Tumor, Hepatocellular Carcinoma (HCC), Non-small Cell Lung Cancer (NSCLC), Colorectal Cancer (CRC), Head and Neck Squamous Cell Carcinoma (HNSCC), Clear Cell Renal Cell Carcinoma (cc
+INTERVENTIONS: Zanzalintinib, Nivolumab, Ipilimumab, Nivolumab, Nivolumab, Nivolumab + Relatlimab, Prednisone, Docetaxel, DDI Probe Cocktail
+SUMMARY: This is a multicenter Phase 1b, open label, dose-escalation and cohort-expansion study, evaluating the safety, tolerability, pharmacokinetics (PK), preliminary antitumor activity, and effect of biomarkers of zanzalintinib administered alone, and in combination with nivolumab (doublet), nivolumab + ipilimumab (triplet) and nivolumab + relatlimab (triplet) and in combination with docetaxel and prednisone in participants with advanced solid tumors. In addition, the study will evaluate the effect of multiple dose administration of zanzalintinib on the single-dose pharmacokinetics of sensitive CYP3
+
+NCT06040541 | RECRUITING | phases: PHASE1 | INTERVENTIONAL
+TITLE: Study of RMC-9805 in Participants With KRAS G12D-Mutant Solid Tumors
+CONDITIONS: Non-small Cell Lung Cancer (NSCLC), Colorectal Cancer (CRC), Pancreatic Ductal Adenocarcinoma (PDAC), Advanced Solid Tumors
+INTERVENTIONS: RMC-9805, RMC-6236
+SUMMARY: This study is to evaluate the safety and tolerability of RMC-9805 as monotherapy and in combination with RMC-6236 in adults with KRAS G12D-mutant solid tumors.
+
+NCT05163028 | ACTIVE_NOT_RECRUITING | phases: PHASE1 | INTERVENTIONAL
+TITLE: A Dose Escalation Study of SHP2 Inhibitor in Patients With Solid Tumors Harboring KRAS of EGFR Mutations
+CONDITIONS: Non Small Cell Lung Cancer, Colorectal Cancer, Pancreatic Cancer, Solid Tumor, Cancer, Cancer of Pancreas, Cancer of Colon
+INTERVENTIONS: HBI-2376
+SUMMARY: A Phase 1 dose escalation study in patients with advanced solid tumors harboring KRAS or EGFR mutations to determine the maximum tolerated dose and recommended Phase II dose of HBI-2376 and characterize its pharmacokinetic profile.
+
+NCT07349537 | RECRUITING | phases: PHASE1 | INTERVENTIONAL
+TITLE: Study of RMC-5127 in Patients With Advanced KRAS G12V-Mutant Solid Tumors
+CONDITIONS: Non-small Cell Lung Cancer (NSCLC), Colorectal Cancer (CRC), Pancreatic Adenocarcinoma, Pancreatic Ductal Adenocarcinoma (PDAC), PDAC, CRC, NSCLC, Pancreatic Cancer, Lung Cancer (NSCLC), Advanced Solid Tumors
+INTERVENTIONS: RMC-5127, daraxonrasib, cetuximab
+SUMMARY: The purpose of this study is to evaluate the safety, tolerability, pharmacokinetics (PK), and preliminary antitumor activity of RMC-5127 as a monotherapy and in combination with either daraxonrasib or cetuximab in adults with KRAS G12V-mutant solid tumors.
+
+NCT01444456 | COMPLETED | phases: NA | OBSERVATIONAL
+TITLE: Assessment of Quality of Life in Patients With Symptomatic Chemotherapy-induced Anaemia
+CONDITIONS: Anemia, Breast Cancer, Cancer, Colorectal Cancer, Lung Cancer, Ovarian Cancer, Prostate Cancer, Solid Tumors, Bladder Cancer, Endometrial Cancer, Renal Cancer, Pancreatic Cancer, Esophageal Cancer, Gastric Cancer
+INTERVENTIONS: 
+SUMMARY: This is a multicenter, international, prospective, observational study of patients who are receiving systemic chemotherapy for solid tumour cancers (breast, colorectal, ovarian, prostate, lung, bladder, endometrial, renal, pancreatic, esophageal or gastric) and who are receiving darbepoetin alfa (Aranesp®) or other erythropoiesis-stimulating agent (ESA) to treat symptomatic anaemia. Quality of Life will be assessed electronically with the aim of estimating improvement in quality of life for those patients receiving darbepoetin alfa (Aranesp®) who also have an increase in haemoglobin (Hb) of ≥
+
+NCT04031872 | WITHDRAWN | phases: PHASE1, PHASE2 | INTERVENTIONAL
+TITLE: LY3200882 and Capecitabine in Advanced Resistant TGF-beta Activated Colorectal Cancer (EORTC1615)
+CONDITIONS: Colorectal Cancer Metastatic
+INTERVENTIONS: LY3200882
+SUMMARY: Part I of this study is designed to identify the recommended phase 2 dose (RP2D) of the combination regimen of LY3200882/capecitabine as second line treatment in patients with 5-FU or capecitabine resistant CRC. Part II is designed to obtain proof of principle of the LY3200882 plus capecitabine combination in patients with chemo-resistant CRC. The combination of LY3200882 plus capecitabine will be given as second line therapy in the phase II part of this study. Patients with chemotherapy resistant activated TGF-β signature-like tumors will have received a fluoropyrimidine (5FU or capecitabine
+
+NCT04599140 | ACTIVE_NOT_RECRUITING | phases: PHASE1, PHASE2 | INTERVENTIONAL
+TITLE: SX-682 and Nivolumab for the Treatment of RAS-Mutated, MSS Unresectable or Metastatic Colorectal Cancer, the STOPTRAFFIC-1 Trial
+CONDITIONS: Metastatic Colon Adenocarcinoma, Metastatic Colorectal Carcinoma, Metastatic Rectal Adenocarcinoma, Stage III Colon Cancer AJCC v8, Stage III Rectal Cancer AJCC v8, Stage IIIA Colon Cancer AJCC v8, Stage IIIA Rectal Cancer AJCC v8, Stage IIIB Colon Cancer AJCC v8, Stage IIIB Rectal Cancer AJCC v8, S
+INTERVENTIONS: CXCR1/2 Inhibitor SX-682, Nivolumab
+SUMMARY: This phase Ib/II trial studies the side effects and best dose of SX-682 that can be given alone and in combination with nivolumab in treating patients with RAS-Mutated, microsatellite stable (MSS) colorectal cancer that has spread to other places in the body (metastatic) or cannot be removed by surgery (unresectable). SX-682 may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth. Immunotherapy with monoclonal antibodies, such as nivolumab, may help the body's immune system attack the cancer, and may interfere with the ability of tumor cells to grow and spread

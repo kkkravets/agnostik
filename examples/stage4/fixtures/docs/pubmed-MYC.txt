@@ -1,0 +1,86 @@
+PubMed evidence dossier — MYC / colorectal cancer
+Source: NCBI E-utilities via ClawBio pubmed-summariser
+
+## COUNTERS
+PUBMED_HITS crc=5
+PUBMED_HITS in_vitro=3
+PUBMED_HITS in_vivo=3
+PUBMED_HITS druggability=3
+
+## SECTION crc — query: MYC AND "colorectal cancer"
+
+PMID 42560559 | Cancer chemotherapy and pharmacology | 2026-08-06
+TITLE: Ferroptosis suppression by MYC confers oxaliplatin resistance in colorectal cancer via FTH1 and GPX4.
+ABSTRACT: Oxaliplatin resistance remains a major obstacle in the treatment of colorectal cancer (CRC).
+URL: https://pubmed.ncbi.nlm.nih.gov/42560559/
+
+PMID 42548213 | The Turkish journal of gastroenterology : the official journal of Turkish Society of Gastroenterology | 2026-07-30
+TITLE: Zeaxanthin Suppresses Azoxymethane/Dextran Sodium Sulfate-Induced Colorectal Cancer in Mice by Inhibiting Inflammation and Proliferation.
+ABSTRACT: The treatment of colorectal cancer (CRC) remains a challenge in clinical research.
+URL: https://pubmed.ncbi.nlm.nih.gov/42548213/
+
+PMID 42503264 | International immunopharmacology | 2026-07-26
+TITLE: PLOD2 promotes colorectal cancer progression and immune escape via attenuating CD8+ T cells function.
+ABSTRACT: Colorectal cancer (CRC) remains a leading cause of cancer-related morbidity worldwide.
+URL: https://pubmed.ncbi.nlm.nih.gov/42503264/
+
+PMID 42497765 | Bioorganic chemistry | 2026-07-21
+TITLE: Targeting Cys328 in the STAT3 DNA-binding domain with the germacrane-type sesquiterpene lactone SCP-7 inhibits colorectal Cancer growth in vitro and in vivo.
+ABSTRACT: Signal transducer and activator of transcription 3 (STAT3) is a critical oncogenic driver hyperactivated in approximately 70% of human cancers, especially colorectal cancer (CRC), making it an attractive therapeutic target.
+URL: https://pubmed.ncbi.nlm.nih.gov/42497765/
+
+PMID 42491749 | iScience | 2026-06-26
+TITLE: IGF2BP3 is essential for the growth heterogeneity of colorectal adenoma cells by regulating MYC.
+ABSTRACT: Colorectal adenoma is a major precancerous lesion of colorectal cancer (CRC).
+URL: https://pubmed.ncbi.nlm.nih.gov/42491749/
+
+## SECTION in_vitro — query: MYC AND "colorectal" AND (in vitro OR "cell line" OR organoid)
+
+PMID 42560559 | Cancer chemotherapy and pharmacology | 2026-08-06
+TITLE: Ferroptosis suppression by MYC confers oxaliplatin resistance in colorectal cancer via FTH1 and GPX4.
+ABSTRACT: Oxaliplatin resistance remains a major obstacle in the treatment of colorectal cancer (CRC).
+URL: https://pubmed.ncbi.nlm.nih.gov/42560559/
+
+PMID 42548213 | The Turkish journal of gastroenterology : the official journal of Turkish Society of Gastroenterology | 2026-07-30
+TITLE: Zeaxanthin Suppresses Azoxymethane/Dextran Sodium Sulfate-Induced Colorectal Cancer in Mice by Inhibiting Inflammation and Proliferation.
+ABSTRACT: The treatment of colorectal cancer (CRC) remains a challenge in clinical research.
+URL: https://pubmed.ncbi.nlm.nih.gov/42548213/
+
+PMID 42582641 | Frontiers in microbiology | 2026-07-28
+TITLE: Clove-mediated green synthesis of silver nanoparticles and in vitro investigation of their antimicrobial, antioxidant, and anticancer potential.
+ABSTRACT: Green synthesis of silver nanoparticles (AgNPs) using plant extracts offers an eco-friendly and sustainable strategy for developing multifunctional nanomaterials with biomedical applications.
+URL: https://pubmed.ncbi.nlm.nih.gov/42582641/
+
+## SECTION in_vivo — query: MYC AND "colorectal" AND (xenograft OR "mouse model" OR in vivo)
+
+PMID 42548213 | The Turkish journal of gastroenterology : the official journal of Turkish Society of Gastroenterology | 2026-07-30
+TITLE: Zeaxanthin Suppresses Azoxymethane/Dextran Sodium Sulfate-Induced Colorectal Cancer in Mice by Inhibiting Inflammation and Proliferation.
+ABSTRACT: The treatment of colorectal cancer (CRC) remains a challenge in clinical research.
+URL: https://pubmed.ncbi.nlm.nih.gov/42548213/
+
+PMID 42497765 | Bioorganic chemistry | 2026-07-21
+TITLE: Targeting Cys328 in the STAT3 DNA-binding domain with the germacrane-type sesquiterpene lactone SCP-7 inhibits colorectal Cancer growth in vitro and in vivo.
+ABSTRACT: Signal transducer and activator of transcription 3 (STAT3) is a critical oncogenic driver hyperactivated in approximately 70% of human cancers, especially colorectal cancer (CRC), making it an attractive therapeutic target.
+URL: https://pubmed.ncbi.nlm.nih.gov/42497765/
+
+PMID 42491749 | iScience | 2026-06-26
+TITLE: IGF2BP3 is essential for the growth heterogeneity of colorectal adenoma cells by regulating MYC.
+ABSTRACT: Colorectal adenoma is a major precancerous lesion of colorectal cancer (CRC).
+URL: https://pubmed.ncbi.nlm.nih.gov/42491749/
+
+## SECTION druggability — query: MYC AND (inhibitor OR "small molecule" OR degrader OR antibody)
+
+PMID 42607078 | Blood | 2026-08-17
+TITLE: Dual MYC and GSPT1 Protein Degrader for MYC-Driven Hematologic Malignancies.
+ABSTRACT: Direct targeting of the oncoprotein MYC has not yet been successful.
+URL: https://pubmed.ncbi.nlm.nih.gov/42607078/
+
+PMID 42608167 | Development, growth & differentiation | 2026-Aug
+TITLE: Revisiting Pluripotency Acquisition: A Unified Framework for Reprogramming Strategies.
+ABSTRACT: The traditional hierarchical view of totipotent cells generating diverse lineages of terminally differentiated cells was challenged by the discovery of induced pluripotent stem cells (iPSCs).
+URL: https://pubmed.ncbi.nlm.nih.gov/42608167/
+
+PMID 42606187 | Investigative ophthalmology & visual science | 2026-Aug
+TITLE: Epigenetic Factor Dysregulation and Distinct Expression Signatures in Retinoblastoma: A Transcriptomic Analysis.
+ABSTRACT: Transcriptional heterogeneity observed in retinoblastoma (RB) is unexplained by the limited genetic alterations identified.
+URL: https://pubmed.ncbi.nlm.nih.gov/42606187/

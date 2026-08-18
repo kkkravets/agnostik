@@ -1,0 +1,10 @@
+UniProt reviewed record — KRAS
+Source: rest.uniprot.org, organism 9606, reviewed only
+
+## COUNTERS
+UNIPROT binding_sites=17
+
+ACCESSION: P01116
+ENTRY: RASK_HUMAN
+PROTEIN: GTPase KRas
+FUNCTION: Signal transducer in the Ras-MAPK signaling pathway that regulates cell proliferation and survival (PubMed:22711838, PubMed:23698361). Ras proteins bind GDP/GTP and possess intrinsic GTPase activity (PubMed:20949621, PubMed:39809765). Activates MAPK1/MAPK3 resulting in phosphorylation and ultimately degradation of GJA1 (By similarity). Plays a role in promoting oncogenic events by inducing transcriptional silencing of tumor suppressor genes (TSGs) in colorectal cancer (CRC) cells in a ZNF304-dependent manner (PubMed:24623306). Recognized by LZTR1 that mediates its ubiquitination by a BCR (BTB-CUL3-RBX1) E3 ubiquitin-protein ligase complex (PubMed:40934300)

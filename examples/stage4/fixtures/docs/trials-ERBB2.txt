@@ -1,0 +1,67 @@
+ClinicalTrials.gov dossier — ERBB2 / colorectal cancer
+Source: clinicaltrials.gov/api/v2, condition-scoped to colorectal cancer
+
+## COUNTERS
+TRIALS total=10
+TRIALS late_phase=2
+TRIALS recruiting=3
+
+NCT03929666 | COMPLETED | phases: PHASE2 | INTERVENTIONAL
+TITLE: A Safety and Efficacy Study of ZW25 (Zanidatamab) Plus Combination Chemotherapy in HER2-expressing Gastrointestinal Cancers, Including Gastroesophageal Adenocarcinoma, Biliary Tract Cancer, and Colorectal Cancer
+CONDITIONS: HER2-expressing Gastrointestinal Cancers, Including Gastroesophageal Adenocarcinoma, Biliary Tract Cancer, and Colorectal Cancer
+INTERVENTIONS: ZW25 (Zanidatamab), Capecitabine, Cisplatin, Fluorouracil, Leucovorin, Oxaliplatin, Bevacizumab, Gemcitabine
+SUMMARY: This is a multicenter, global, Phase 2, open-label, 2-part, first-line study to investigate the safety, tolerability, and anti-tumor activity of ZW25 (zanidatamab) plus standard first-line combination chemotherapy regimens for selected gastrointestinal (GI) cancers. Eligible patients include those with unresectable, locally advanced, recurrent or metastatic HER2-expressing gastroesophageal adenocarcinoma (GEA), biliary tract cancer (BTC), or colorectal cancer (CRC).
+
+NCT06940778 | ACTIVE_NOT_RECRUITING | phases: NA | OBSERVATIONAL
+TITLE: LIQUID BIOPSY FOCUSING ON CIRCULATING TUMOR CELLS AND CIRCULATING TUMOR DNA AS PRECISION MEDICINE IN GASTROINTESTINAL TUMORS
+CONDITIONS: Cancer of Rectum, Cancer of Pancreas, Cancer of Stomach
+INTERVENTIONS: No Interventions
+SUMMARY: This is a prospective, observational, multicenter cohort study. Our main objective is to to evaluate the use of CTCs and ctDNA with prognostic factors in locally advanced rectal tumors treated with total neoadjuvant therapy (TNT), recently adopted as clinical practice, and to analyze the functionality of CTCs and ctDNA in the follow-up of locally advanced and metastatic pancreatic and gastric tumors. Secondary objectives: * To verify the influence of CTC and ctDNA kinetics on the response to treatment of the three tumors; * To correlate RAD23B/TYMS findings and CTC kinetics with DFS in local
+
+NCT03319459 | COMPLETED | phases: PHASE1 | INTERVENTIONAL
+TITLE: FATE-NK100 as Monotherapy and in Combination With Monoclonal Antibody in Subjects With Advanced Solid Tumors
+CONDITIONS: HER2 Positive Gastric Cancer, Colorectal Cancer, Head and Neck Squamous Cell Carcinoma, EGFR Positive Solid Tumor, Advanced Solid Tumors, HER2-positive Breast Cancer, Hepatocellular Carcinoma, Non Small Cell Lung Cancer, Renal Cell Carcinoma, Pancreatic Cancer, Melanoma
+INTERVENTIONS: FATE-NK100, Cetuximab, Trastuzumab
+SUMMARY: This is a Phase 1, single-dose, open-label, dose-escalation study. The study will be conducted in three parts (i.e. regimens) in an outpatient setting as follows: * Regimen A: FATE-NK100 as a monotherapy in subjects with advanced solid tumor malignancies. * Regimen B: FATE-NK100 in combination with trastuzumab in subjects with human epidermal growth factor receptor 2 positive (HER2+) advanced breast cancer, HER2+ advanced gastric cancer or other advanced HER2+ solid tumors. * Regimen C: FATE-NK100 in combination with cetuximab in subjects with advanced colorectal cancer (CRC) or head and neck
+
+NCT07503756 | RECRUITING | phases: PHASE2 | INTERVENTIONAL
+TITLE: JS212 Combination Therapies in Metastatic Colorectal Cancer
+CONDITIONS: Metastatic Colorectal Cancer
+INTERVENTIONS: JS212, Capecitabine, Bevacizumab, Oxaliplatin, JS207
+SUMMARY: This is an open-label, multicenter Phase 2 clinical study designed to evaluate the safety, tolerability, pharmacokinetics, and preliminary efficacy of JS212-based combination therapies in patients with metastatic colorectal cancer (mCRC). JS212 is a bispecific antibody-drug conjugate (ADC) targeting epidermal growth factor receptor (EGFR) and HER3 with a topoisomerase I inhibitor payload. Preclinical and early clinical data suggest that dual targeting of EGFR and HER3 may enhance antitumor activity and overcome resistance mechanisms associated with EGFR- or HER2-directed therapies. This stud
+
+NCT06715839 | RECRUITING | phases: NA | INTERVENTIONAL
+TITLE: Target-specific immunoPET Imaging of Digestive System Carcinoma
+CONDITIONS: Malignancy, Digestive Cancer, Digestive System Neoplasm, Digestive System Carcinoma, Digestive System Cancer, Liver Cancer, Stomach Cancer, Colon Cancer, Rectum Cancer, Pancreatic Cancer, Esophagus Cancer, Gallbladder Carcinoma, Small Intestine Cancer, Appendix Cancer, Bile Duct Carcinoma
+INTERVENTIONS: [68Ga]Ga-DOTA-H2D3, [18F]F-RESCA-RB14, [68Ga]Ga-NOTA-T4, [18F]F-RESCA-T4, [68Ga]Ga-NOTA-G5, [18F]F-RESCA-G5, [68Ga]Ga-NOTA-WWH347, [18F]F-RESCA-WWH347, [68Ga]Ga-NOTA-RND20, [18F]F-RESCA-RND20
+SUMMARY: The aim of this study is to establish and optimize the target-specific PET/CT imaging method, and its physiological and pathological distribution characteristics, on the basis of which the diagnostic efficacy of the above imaging agents in digestive system malignant tumors will be evaluated.
+
+NCT03803553 | RECRUITING | phases: PHASE3 | INTERVENTIONAL
+TITLE: Identification and Treatment Of Micrometastatic Disease in Stage III Colon Cancer
+CONDITIONS: Metastatic Colon Cancer, Stage III Colon Cancer
+INTERVENTIONS: FOLFIRI Protocol, ACTIVE SURVEILLANCE, Nivolumab Protocol, Encorafenib/Binimetinib/Cetuximab Protocol, Trastuzumab + Pertuzumab
+SUMMARY: This research study is comparing two standard of care treatment options based on blood test results for participants who have metastatic colon cancer. The names of the potential treatments involved in this study are: * Active surveillance * FOLFIRI treatment * Nivolumab treatment * Encorafenib/Binimetinib/Cetuximab treatment * Trastuzumab + Pertuzumab
+
+NCT05493683 | UNKNOWN | phases: PHASE2 | INTERVENTIONAL
+TITLE: Disitamab Vedotin Combined With Tislelizumab in Advanced HER2 Positive Colorectal Cancer
+CONDITIONS: Colorectal Neoplasms
+INTERVENTIONS: Disitamab vedotin, Tislelizumab
+SUMMARY: Among patients with colonrectal cancer, 5% were HER-2 positive, but the immunohistochemical results were mostly HER-2 2 +, which did not meet the indications of HER-2 targeting drugs. Disitamab Vedotin , which was listed in China last year, achieved similar results in HER-2 2+ and 3+, according to a clinical trial for breast cancer, suggesting that patients with colonrectal cancer may benefit from it. Tislelizumab is a PD-1 monoclonal antibody, which has been approved for a variety of tumors. It was reported that anti-HER-2 treatment can improve the tumor immune microenvironment and improve th
+
+NCT00003995 | COMPLETED | phases: PHASE2 | INTERVENTIONAL
+TITLE: Monoclonal Antibody Plus Chemotherapy in Treating Patients With Advanced Colorectal Cancer That Overexpresses HER2
+CONDITIONS: Colorectal Cancer
+INTERVENTIONS: trastuzumab, irinotecan hydrochloride
+SUMMARY: Phase II trial to study the effectiveness of the monoclonal antibody trastuzumab and chemotherapy with irinotecan in treating patients who have stage IV colorectal cancer that overexpresses HER2. Monoclonal antibodies can locate tumor cells and either kill them or deliver tumor-killing substances to them without harming normal cells. Drugs used in chemotherapy use different ways to stop tumor cells from dividing so they stop growing or die. Combining monoclonal antibody therapy with chemotherapy may kill more tumor cells.
+
+NCT07384377 | NOT_YET_RECRUITING | phases: PHASE3 | INTERVENTIONAL
+TITLE: JSKN003 Versus Physician Choiced Treatment in Patients With HER2-positive and Advanced Colorectal Cancer Who Had Failed to Respond to Oxaliplatin, 5-Fu, and Irinotecan
+CONDITIONS: HER2-positive Colorectal Cancer
+INTERVENTIONS: JSKN003, Physician choiced treatment, include: TAS-102, Regorafenib, Fruquintinib.
+SUMMARY: The study is being conducted to evaluate the efficacy and safety of JSKN003 Versus Physician Choiced Treatment in Patients With HER2-positive and Advanced Colorectal Cancer Who had Failed to Respond to Oxaliplatin, 5-Fu, and Irinotecan subjects.
+
+NCT03924466 | UNKNOWN | phases: PHASE2 | INTERVENTIONAL
+TITLE: Repeatability of 68-GaNOTA-Anti-HER2 VHH1 PET/CT in Breast Carcinoma Patients
+CONDITIONS: Metastatic Breast Carcinoma, Locally Advanced Breast Cancer, Cancer of Pancreas, Solid Tumor With Intermediate or High HER2 Expression, Salivary Gland Cancer, Gastric Cancer, Endometrial Cancer, Uterine Cancer, Non Small Cell Lung Cancer, Biliary Tract Cancer, Cholangiocarcinoma, Colorectal Cancer,
+INTERVENTIONS: 68GaNOTA-Anti-HER2 VHH1
+SUMMARY: Study objective: Cohort 1: To quantify the uptake of 68GaNOTA-Anti-HER2 VHH1 in local or distant metastases from breast carcinoma patients and to assess repeatability of the image-based HER2 quantification. The uptake will be correlated to results obtained via biopsy of the same lesion, if available. Cohort 2: To report on uptake of 68GaNOTA-Anti-HER2 VHH1 in different cancer types that might overexpress HER2 Cohort 3: To explore the feasibility and added value of 68GaNOTA-Anti-HER2 VHH1 in the neoadjuvant setting of HER2-expressing breast carcinoma Time schedule: After inclusion, patients

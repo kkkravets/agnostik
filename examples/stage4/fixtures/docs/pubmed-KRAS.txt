@@ -1,0 +1,86 @@
+PubMed evidence dossier — KRAS / colorectal cancer
+Source: NCBI E-utilities via ClawBio pubmed-summariser
+
+## COUNTERS
+PUBMED_HITS crc=5
+PUBMED_HITS in_vitro=3
+PUBMED_HITS in_vivo=3
+PUBMED_HITS druggability=3
+
+## SECTION crc — query: KRAS AND "colorectal cancer"
+
+PMID 42606648 | Human cell | 2026-08-17
+TITLE: Integrative bulk and single-cell transcriptomics identify a recurrence-prognostic risk model with exploratory associations with treatment-response phenotypes in colorectal cancer.
+ABSTRACT: Chemoresistance remains a major obstacle to improving outcomes in colorectal cancer (CRC), particularly among patients receiving 5-fluorouracil (5-FU)-based therapy.
+URL: https://pubmed.ncbi.nlm.nih.gov/42606648/
+
+PMID 42599639 | Clinical journal of gastroenterology | 2026-08-14
+TITLE: Salvage pancreaticoduodenectomy for localized recurrence after resection of ascending colon cancer: a case report.
+ABSTRACT: A 66-year-old man underwent right hemicolectomy for ascending colon cancer with direct invasion of gallbladder.
+URL: https://pubmed.ncbi.nlm.nih.gov/42599639/
+
+PMID 42594762 | Molecular immunology | 2026-08-13
+TITLE: iPSC-derived polyvalent vaccines as ontogenetically informed immunogens toward overcoming immune refractoriness in microsatellite-stable colorectal cancer: An emerging frontier in cancer immunotherapy.
+ABSTRACT: Colorectal carcinoma (CRC) exerts a growing global disease burden, with microsatellite-stable/proficient mismatch repair (MSS/pMMR) tumors exhibiting intrinsic refractoriness to immune-checkpoint blockade (ICB) owing to low tumor mutational burden, limited neoantigenicity, and an immunosuppressive t
+URL: https://pubmed.ncbi.nlm.nih.gov/42594762/
+
+PMID 42606831 | International journal of molecular sciences | 2026-08-07
+TITLE: RETRACTED: Dewan et al. The Impact of Fusobacterium nucleatum and the Genotypic Biomarker KRAS on Colorectal Cancer Pathogenesis. Int. J. Mol. Sci. 2025, 26, 6958.
+ABSTRACT: The journal retracts the review article titled "The Impact of
+URL: https://pubmed.ncbi.nlm.nih.gov/42606831/
+
+PMID 42589583 | International journal of molecular sciences | 2026-08-01
+TITLE: Next-Generation Sequencing in Colorectal Cancer: Real-World Molecular Profiling and Clinical Correlations.
+ABSTRACT: Next-generation sequencing (NGS) has become a cornerstone of precision oncology in colorectal cancer (CRC), although its role in routine patient stratification remains incompletely defined.
+URL: https://pubmed.ncbi.nlm.nih.gov/42589583/
+
+## SECTION in_vitro — query: KRAS AND "colorectal" AND (in vitro OR "cell line" OR organoid)
+
+PMID 42570059 | Molecular biology reports | 2026-08-08
+TITLE: Brief report: Therapeutic benefit of ISA-2011B in colorectal cancer.
+ABSTRACT: ISA-2011B is a phosphatidylinositol-4-phosphate 5-kinase-α (PIP5K1α) inhibitor that has been reported to be selective in suppressing the growth of prostate, breast and hepatic cancer cells.
+URL: https://pubmed.ncbi.nlm.nih.gov/42570059/
+
+PMID 42557320 | Nature | 2026-08-05
+TITLE: A tumour-derived organoid biobank maps cancer gene dependencies.
+ABSTRACT: Cancer cell lines remain foundational for research and drug discovery, yet they incompletely capture tumour diversity, lack linked patient context, and have undergone adaptation to culture.
+URL: https://pubmed.ncbi.nlm.nih.gov/42557320/
+
+PMID 42582641 | Frontiers in microbiology | 2026-07-28
+TITLE: Clove-mediated green synthesis of silver nanoparticles and in vitro investigation of their antimicrobial, antioxidant, and anticancer potential.
+ABSTRACT: Green synthesis of silver nanoparticles (AgNPs) using plant extracts offers an eco-friendly and sustainable strategy for developing multifunctional nanomaterials with biomedical applications.
+URL: https://pubmed.ncbi.nlm.nih.gov/42582641/
+
+## SECTION in_vivo — query: KRAS AND "colorectal" AND (xenograft OR "mouse model" OR in vivo)
+
+PMID 42580447 | Journal of controlled release : official journal of the Controlled Release Society | 2026-08-11
+TITLE: Targeted KRAS suppression in colorectal cancer via in vivo self-assembled siRNAs encapsulated in endogenous small extracellular vesicles.
+ABSTRACT: KRAS is a prevalent oncogenic driver whose therapeutic targeting has remained challenging beyond the G12C mutation.
+URL: https://pubmed.ncbi.nlm.nih.gov/42580447/
+
+PMID 42527030 | Journal for immunotherapy of cancer | 2026-07-29
+TITLE: IL-27 shapes NK cell heterogeneity and function in colorectal cancer.
+ABSTRACT: Colorectal cancer (CRC) is a leading cause of cancer-related mortality worldwide and is characterized by an immunosuppressive tumor microenvironment (TME).
+URL: https://pubmed.ncbi.nlm.nih.gov/42527030/
+
+PMID 42500304 | Dose-response : a publication of International Hormesis Society | 2026-07-23
+TITLE: Mechanistic Insights Into Dose-Dependent Alleviation of Colorectal Cancer Through Artemisinin-Loaded Mesoporous Silica Nanoparticles in 1,2-Dimethylhydrazine-Induced Albino Wistar Rats.
+ABSTRACT: The current study investigates the suitability of encapsulating the Artemisinin-plant-originated lipophilic drug molecule into polyethylene glycol-coated mesoporous silica nanoparticles in a suitable dose regimen for the specific targeting of the drug in colorectal cancer.
+URL: https://pubmed.ncbi.nlm.nih.gov/42500304/
+
+## SECTION druggability — query: KRAS AND (inhibitor OR "small molecule" OR degrader OR antibody)
+
+PMID 42607542 | Neoplasia (New York, N.Y.) | 2026-08-17
+TITLE: Anticancer effects of an XPO1 inhibitor (selinexor) with sotorasib following omeprazole preconditioning in KRAS G12C-mutant non-small cell lung cancer cells in vitro and in a mouse tumor xenograft.
+ABSTRACT: KRAS G12C-mutant advanced non-small cell lung cancer (NSCLC) is currently treated with KRAS G12C covalent inhibitors, such as sotorasib, or RAS (ON) G12-selective inhibitors; however, response rates and progression-free survival remain limited, with recurrence occurring in most patients.
+URL: https://pubmed.ncbi.nlm.nih.gov/42607542/
+
+PMID 42605754 | Autophagy | 2026-08-17
+TITLE: Transcriptome-based macroautophagy and chaperone-mediated autophagy states reveal context-dependent vulnerabilities across human cancers.
+ABSTRACT: Macroautophagy (MA) and chaperone-mediated autophagy (CMA) are lysosomal degradation pathways with context-dependent roles in cancer.
+URL: https://pubmed.ncbi.nlm.nih.gov/42605754/
+
+PMID 42607379 | Lung cancer (Amsterdam, Netherlands) | 2026-08-07
+TITLE: Clinical outcomes of KRAS G12C versus non-G12C mutant NSCLC treated with immunotherapy: a multicentre real-world study.
+ABSTRACT: KRAS is the most heterogeneous and frequent oncogenic driver in non-small cell lung cancer (NSCLC).
+URL: https://pubmed.ncbi.nlm.nih.gov/42607379/

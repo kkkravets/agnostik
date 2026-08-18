@@ -1,0 +1,373 @@
+{
+ "gene": "MYC",
+ "disease": "colorectal cancer",
+ "uniprot": {
+  "accession": "P01106",
+  "uniprot_id": "MYC_HUMAN",
+  "protein_name": "Myc proto-oncogene protein",
+  "function": "Transcription factor that binds DNA in a non-specific manner, yet also specifically recognizes the core sequence 5'-CAC[GA]TG-3' (PubMed:24940000, PubMed:25956029). Activates the transcription of growth-related genes (PubMed:24940000, PubMed:25956029). Binds to the VEGFA promoter, promoting VEGFA production and subsequent sprouting angiogenesis (PubMed:24940000, PubMed:25956029). Regulator of somatic reprogramming, controls self-renewal of embryonic stem cells (By similarity). Functions with TAF6L to activate target gene expression through RNA polymerase II pause release (By similarity). Positively regulates transcription of HNRNPA1, HNRNPA2 and PTBP1 which in turn regulate splicing of pyruvate kinase PKM by binding repressively to sequences flanking PKM exon 9, inhibiting exon 9 inclusion and resulting in exon 10 inclusion and production of the PKM M2 isoform (PubMed:20010808)",
+  "binding_sites": 0
+ },
+ "pubmed": {
+  "crc": [
+   {
+    "title": "Ferroptosis suppression by MYC confers oxaliplatin resistance in colorectal cancer via FTH1 and GPX4.",
+    "authors": "Wang Y, Chen Y, Li C, et al.",
+    "journal": "Cancer chemotherapy and pharmacology",
+    "date": "2026-08-06",
+    "abstract": "Oxaliplatin resistance remains a major obstacle in the treatment of colorectal cancer (CRC).",
+    "pmid": "42560559",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42560559/"
+   },
+   {
+    "title": "Zeaxanthin Suppresses Azoxymethane/Dextran Sodium Sulfate-Induced Colorectal Cancer in Mice by Inhibiting Inflammation and Proliferation.",
+    "authors": "Yang M, Han Y, Jin T, et al.",
+    "journal": "The Turkish journal of gastroenterology : the official journal of Turkish Society of Gastroenterology",
+    "date": "2026-07-30",
+    "abstract": "The treatment of colorectal cancer (CRC) remains a challenge in clinical research.",
+    "pmid": "42548213",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42548213/"
+   },
+   {
+    "title": "PLOD2 promotes colorectal cancer progression and immune escape via attenuating CD8+ T cells function.",
+    "authors": "Yang Z, Huang G, Lin Y, et al.",
+    "journal": "International immunopharmacology",
+    "date": "2026-07-26",
+    "abstract": "Colorectal cancer (CRC) remains a leading cause of cancer-related morbidity worldwide.",
+    "pmid": "42503264",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42503264/"
+   },
+   {
+    "title": "Targeting Cys328 in the STAT3 DNA-binding domain with the germacrane-type sesquiterpene lactone SCP-7 inhibits colorectal Cancer growth in vitro and in vivo.",
+    "authors": "Li Y, Zhang G, Wang Y, et al.",
+    "journal": "Bioorganic chemistry",
+    "date": "2026-07-21",
+    "abstract": "Signal transducer and activator of transcription 3 (STAT3) is a critical oncogenic driver hyperactivated in approximately 70% of human cancers, especially colorectal cancer (CRC), making it an attractive therapeutic target.",
+    "pmid": "42497765",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42497765/"
+   },
+   {
+    "title": "IGF2BP3 is essential for the growth heterogeneity of colorectal adenoma cells by regulating MYC.",
+    "authors": "Sunami T, Coppo R, Onuma K, et al.",
+    "journal": "iScience",
+    "date": "2026-06-26",
+    "abstract": "Colorectal adenoma is a major precancerous lesion of colorectal cancer (CRC).",
+    "pmid": "42491749",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42491749/"
+   }
+  ],
+  "crc_query": "MYC AND \"colorectal cancer\"",
+  "in_vitro": [
+   {
+    "title": "Ferroptosis suppression by MYC confers oxaliplatin resistance in colorectal cancer via FTH1 and GPX4.",
+    "authors": "Wang Y, Chen Y, Li C, et al.",
+    "journal": "Cancer chemotherapy and pharmacology",
+    "date": "2026-08-06",
+    "abstract": "Oxaliplatin resistance remains a major obstacle in the treatment of colorectal cancer (CRC).",
+    "pmid": "42560559",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42560559/"
+   },
+   {
+    "title": "Zeaxanthin Suppresses Azoxymethane/Dextran Sodium Sulfate-Induced Colorectal Cancer in Mice by Inhibiting Inflammation and Proliferation.",
+    "authors": "Yang M, Han Y, Jin T, et al.",
+    "journal": "The Turkish journal of gastroenterology : the official journal of Turkish Society of Gastroenterology",
+    "date": "2026-07-30",
+    "abstract": "The treatment of colorectal cancer (CRC) remains a challenge in clinical research.",
+    "pmid": "42548213",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42548213/"
+   },
+   {
+    "title": "Clove-mediated green synthesis of silver nanoparticles and in vitro investigation of their antimicrobial, antioxidant, and anticancer potential.",
+    "authors": "Mohammed EJ, Laftah AR, Salem SS, et al.",
+    "journal": "Frontiers in microbiology",
+    "date": "2026-07-28",
+    "abstract": "Green synthesis of silver nanoparticles (AgNPs) using plant extracts offers an eco-friendly and sustainable strategy for developing multifunctional nanomaterials with biomedical applications.",
+    "pmid": "42582641",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42582641/"
+   }
+  ],
+  "in_vitro_query": "MYC AND \"colorectal\" AND (in vitro OR \"cell line\" OR organoid)",
+  "in_vivo": [
+   {
+    "title": "Zeaxanthin Suppresses Azoxymethane/Dextran Sodium Sulfate-Induced Colorectal Cancer in Mice by Inhibiting Inflammation and Proliferation.",
+    "authors": "Yang M, Han Y, Jin T, et al.",
+    "journal": "The Turkish journal of gastroenterology : the official journal of Turkish Society of Gastroenterology",
+    "date": "2026-07-30",
+    "abstract": "The treatment of colorectal cancer (CRC) remains a challenge in clinical research.",
+    "pmid": "42548213",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42548213/"
+   },
+   {
+    "title": "Targeting Cys328 in the STAT3 DNA-binding domain with the germacrane-type sesquiterpene lactone SCP-7 inhibits colorectal Cancer growth in vitro and in vivo.",
+    "authors": "Li Y, Zhang G, Wang Y, et al.",
+    "journal": "Bioorganic chemistry",
+    "date": "2026-07-21",
+    "abstract": "Signal transducer and activator of transcription 3 (STAT3) is a critical oncogenic driver hyperactivated in approximately 70% of human cancers, especially colorectal cancer (CRC), making it an attractive therapeutic target.",
+    "pmid": "42497765",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42497765/"
+   },
+   {
+    "title": "IGF2BP3 is essential for the growth heterogeneity of colorectal adenoma cells by regulating MYC.",
+    "authors": "Sunami T, Coppo R, Onuma K, et al.",
+    "journal": "iScience",
+    "date": "2026-06-26",
+    "abstract": "Colorectal adenoma is a major precancerous lesion of colorectal cancer (CRC).",
+    "pmid": "42491749",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42491749/"
+   }
+  ],
+  "in_vivo_query": "MYC AND \"colorectal\" AND (xenograft OR \"mouse model\" OR in vivo)",
+  "druggability": [
+   {
+    "title": "Dual MYC and GSPT1 Protein Degrader for MYC-Driven Hematologic Malignancies.",
+    "authors": "Nishida Y, Impedovo V, Ayoub E, et al.",
+    "journal": "Blood",
+    "date": "2026-08-17",
+    "abstract": "Direct targeting of the oncoprotein MYC has not yet been successful.",
+    "pmid": "42607078",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42607078/"
+   },
+   {
+    "title": "Revisiting Pluripotency Acquisition: A Unified Framework for Reprogramming Strategies.",
+    "authors": "Datta A, Ohta K",
+    "journal": "Development, growth & differentiation",
+    "date": "2026-Aug",
+    "abstract": "The traditional hierarchical view of totipotent cells generating diverse lineages of terminally differentiated cells was challenged by the discovery of induced pluripotent stem cells (iPSCs).",
+    "pmid": "42608167",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42608167/"
+   },
+   {
+    "title": "Epigenetic Factor Dysregulation and Distinct Expression Signatures in Retinoblastoma: A Transcriptomic Analysis.",
+    "authors": "Jha GK, Fatima A, Srivastava A, et al.",
+    "journal": "Investigative ophthalmology & visual science",
+    "date": "2026-Aug",
+    "abstract": "Transcriptional heterogeneity observed in retinoblastoma (RB) is unexplained by the limited genetic alterations identified.",
+    "pmid": "42606187",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42606187/"
+   }
+  ],
+  "druggability_query": "MYC AND (inhibitor OR \"small molecule\" OR degrader OR antibody)"
+ },
+ "trials": [
+  {
+   "nct_id": "NCT02635672",
+   "title": "Phase I Dose Escalation Study for VIP152 in Patients With Advanced Cancer",
+   "status": "COMPLETED",
+   "start_date": "2016-02-10",
+   "phases": [
+    "PHASE1"
+   ],
+   "study_type": "INTERVENTIONAL",
+   "conditions": [
+    "Neoplasms"
+   ],
+   "interventions": [
+    "VIP152 (BAY 1251152)",
+    "VIP152 (BAY 1251152) 30 mg",
+    "Keytruda",
+    "VIP152 (BAY 1251152) 15 mg"
+   ],
+   "summary": "Determine the safety, tolerability, pharmacokinetics, maximum tolerated dose (MTD) and recommended phase 2 dose (RP2D) of VIP152 (BAY 1251152) as monotherapy or in combination in patients with solid tumors and aggressive non-hodgkin's lymphoma (NHL)."
+  },
+  {
+   "nct_id": "NCT05384184",
+   "title": "Next Generation \" Pre-clinical Model for Colorectal Cancer Metastases and Hepatocellular Carcinomas",
+   "status": "COMPLETED",
+   "start_date": "2019-06-06",
+   "phases": [],
+   "study_type": "OBSERVATIONAL",
+   "conditions": [
+    "Colorectal Cancer Metastases and Hepatocellular Carcinomas"
+   ],
+   "interventions": [
+    "Tumor /metastases removal"
+   ],
+   "summary": "Recently, oncology has moved to a new clinical practice, more personalized, called Predictive Oncology (PO).\n\nPO comes from our knowledge about tumor heterogeneity that implies that each disease, thus each patient, is unique. PO's goal is to identify and administrate the right treatment to the right patient.\n\nFor this, PO requires to go through 3 majors steps:\n\n1. A good characterization of the tumor to identify candidates,\n2. A well-established panel of drugs targeting the identified candidates,\n3. A relevant model to functionally test these candidates.\n\nThe first point could easily be addres"
+  },
+  {
+   "nct_id": "NCT02711137",
+   "title": "Open-Label Safety and Tolerability Study of INCB057643 in Subjects With Advanced Malignancies",
+   "status": "TERMINATED",
+   "start_date": "2016-05-18",
+   "phases": [
+    "PHASE1",
+    "PHASE2"
+   ],
+   "study_type": "INTERVENTIONAL",
+   "conditions": [
+    "Solid Tumors"
+   ],
+   "interventions": [
+    "INCB057643",
+    "Gemcitabine",
+    "Paclitaxel",
+    "Rucaparib",
+    "Abiraterone",
+    "Ruxolitinib",
+    "Azacitidine"
+   ],
+   "summary": "The purpose of the Study is to select a dose and assess the safety and tolerability of INCB057643 as a monotherapy (Part 1 and Part 2) and in combination with standard-of-care (SOC) agents (Part 3 and Part 4) for subjects with advanced malignancies.\n\nPart 1 will determine the maximum tolerated dose of INCB057643 and/or a tolerated dose that demonstrates sufficient pharmacologic activity. Part 2 will further evaluate the safety, preliminary efficacy, PK, and PD of the dose(s) selected in Part 1 in select tumor types including solid tumors, lymphomas and other hematologic malignancies. Part 3 wi"
+  },
+  {
+   "nct_id": "NCT07147231",
+   "title": "Testing the Effectiveness of the Anti-cancer Drug Pidnarulex (CX-5461), in Combination With Another Anti-cancer Drug Cemiplimab (REGN2810), in Treating Refractory Microsatellite Stable Colorectal Cancer",
+   "status": "RECRUITING",
+   "start_date": "2026-08-10",
+   "phases": [
+    "PHASE1",
+    "PHASE2"
+   ],
+   "study_type": "INTERVENTIONAL",
+   "conditions": [
+    "Metastatic Colorectal Adenocarcinoma",
+    "Refractory Colorectal Adenocarcinoma",
+    "Stage III Colorectal Cancer AJCC v8",
+    "Stage IV Colorectal Cancer AJCC v8",
+    "Unresectable Colorectal Adenocarcinoma"
+   ],
+   "interventions": [
+    "Biopsy Procedure",
+    "Biospecimen Collection",
+    "Cemiplimab",
+    "Computed Tomography",
+    "Magnetic Resonance Imaging",
+    "Pidnarulex",
+    "Positron Emission Tomography"
+   ],
+   "summary": "This phase I/II trial studies the side effects and best dose of pidnarulex when given together with cemiplimab and to see how well it works in treating patients with microsatellite stable (MSS) colorectal cancer (CRC) that does not respond to treatment (refractory). Pidnarulex may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth. Immunotherapy with monoclonal antibodies, such as cemiplimab, may help the body's immune system attack the cancer, and may interfere with the ability of tumor cells to grow and spread. Giving pidnarulex with cemiplimab may be safe,"
+  },
+  {
+   "nct_id": "NCT02077777",
+   "title": "Chemopreventive Action of Mesalazine on Colorectal Cancer: a Pilot Study for an \"in Vivo\" Evaluation of the Molecular Effects on \u03b2-catenin Signaling Pathway.",
+   "status": "COMPLETED",
+   "start_date": "2012-10",
+   "phases": [
+    "PHASE2"
+   ],
+   "study_type": "INTERVENTIONAL",
+   "conditions": [
+    "Colorectal Cancer"
+   ],
+   "interventions": [
+    "Mesalazine"
+   ],
+   "summary": "The purpose of this study is to obtain an \"in vivo\" confirmation that mesalazine induces the gene expression of \u03bc-protocadherin and other related genes in the colon mucosa, as demonstrated in some \"in vitro\" experiments. ."
+  },
+  {
+   "nct_id": "NCT02431260",
+   "title": "An Open-Label, Dose-Escalation Study of INCB054329 in Patients With Advanced Malignancies",
+   "status": "TERMINATED",
+   "start_date": "2015-04-14",
+   "phases": [
+    "PHASE1",
+    "PHASE2"
+   ],
+   "study_type": "INTERVENTIONAL",
+   "conditions": [
+    "Solid Tumors and Hematologic Malignancy"
+   ],
+   "interventions": [
+    "INCB054329 Monotherapy"
+   ],
+   "summary": "This was a study of INCB054329 given to patients with advanced malignancies that were conducted in three treatment groups. Each treatment group had a dose escalation (Part 1) and a dose expansion (Part 3), two of the treatment groups also had an intra-patient dose titration (Part 2)."
+  },
+  {
+   "nct_id": "NCT07497789",
+   "title": "SMYD3-Driven Metabolic Rewiring in Colorectal Liver Metastases",
+   "status": "NOT_YET_RECRUITING",
+   "start_date": "2026-05-10",
+   "phases": [],
+   "study_type": "OBSERVATIONAL",
+   "conditions": [
+    "CRC (Colorectal Cancer)",
+    "Liver Metastases From Colorectal Primary Cancer"
+   ],
+   "interventions": [],
+   "summary": "This study focuses on patients with colorectal cancer undergoing surgery for the primary tumor and/or liver metastases. Tumor samples collected during surgery will be used to generate patient-derived models (primary cultures, spheroids, and organoids) to study colorectal cancer stem cells. The main objective is to investigate the role of the lysine methyltransferase SMYD3 in metabolic reprogramming and adaptation to oxidative stress that enable colorectal cancer cells to survive and grow in the liver. Previous work has shown that SMYD3 is overexpressed in colorectal cancer, promotes drug resis"
+  },
+  {
+   "nct_id": "NCT03796884",
+   "title": "Linaclotide in Treating Patients With Stages 0-3 Colorectal Cancer",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "start_date": "2019-10-30",
+   "phases": [
+    "PHASE2"
+   ],
+   "study_type": "INTERVENTIONAL",
+   "conditions": [
+    "Colorectal Adenoma",
+    "Stage 0 Colorectal Cancer AJCC v8",
+    "Stage I Colorectal Cancer AJCC v8",
+    "Stage II Colorectal Cancer AJCC v8",
+    "Stage IIA Colorectal Cancer AJCC v8",
+    "Stage IIB Colorectal Cancer AJCC v8",
+    "Stage IIC Colorectal Cancer AJCC v8",
+    "Stage III Colorectal Cancer AJCC v8",
+    "Stage IIIA Colorectal Cancer AJCC v8",
+    "Stage IIIB Colorectal Cancer AJCC v8",
+    "Stage IIIC Colorectal Cancer AJCC v8"
+   ],
+   "interventions": [
+    "Linaclotide",
+    "Placebo"
+   ],
+   "summary": "This phase II trial studies the how well linaclotide works in treating patients with stages 0-3 colorectal cancer. Linaclotide is a very small protein that binds to receptors on intestinal cells and makes them secrete water and salt."
+  },
+  {
+   "nct_id": "NCT05919264",
+   "title": "FOG-001 in Locally Advanced or Metastatic Solid Tumors",
+   "status": "RECRUITING",
+   "start_date": "2023-05-23",
+   "phases": [
+    "PHASE1",
+    "PHASE2"
+   ],
+   "study_type": "INTERVENTIONAL",
+   "conditions": [
+    "Cancer",
+    "Colorectal Cancer",
+    "Solid Tumor",
+    "Locally Advanced Solid Tumor",
+    "Metastatic Cancer",
+    "WNT Pathway",
+    "HCC",
+    "Desmoid",
+    "Microsatellite Stable Colorectal Cancer",
+    "Metastatic Castration-resistant Prostate Cancer",
+    "Familial Adenomatous Polyposis (FAP)",
+    "Endometrial Carcinoma",
+    "Prostate Cancer",
+    "Microsatellite Instability-High Colorectal Cancer",
+    "Adamantinomatous Craniopharyngioma"
+   ],
+   "interventions": [
+    "FOG-001",
+    "mFOLFOX-6",
+    "Nivolumab",
+    "Trifluridine/tipiracil",
+    "Bevacizumab",
+    "FOG-001"
+   ],
+   "summary": "The goal of this clinical trial is to determine if FOG-001 is safe and effective in participants with locally advanced or metastatic solid tumors or in participants with familial adenomatous polyposis (FAP)."
+  },
+  {
+   "nct_id": "NCT07095309",
+   "title": "Safety and Effectiveness Study of Pre-operative Artesunate in Stage II/ III Colorectal Cancer",
+   "status": "NOT_YET_RECRUITING",
+   "start_date": "2025-08-15",
+   "phases": [
+    "PHASE2"
+   ],
+   "study_type": "INTERVENTIONAL",
+   "conditions": [
+    "Stage II/III Colon Cancer",
+    "Bowel Cancer"
+   ],
+   "interventions": [
+    "Artesunate",
+    "Artesunate matching Placebo"
+   ],
+   "summary": "TThis study evaluates the safety and effectiveness of pre-operative artesunate, given orally once a day for 14 days prior to surgery, in patients with Stage II/III colorectal cancer.\n\nArtesunate is an established antimalarial drug with an excellent safety profile. It is well tolerated, affordable, and widely available. Several laboratory studies and one small pilot clinical study in patients with colorectal cancer have shown that artesunate can reduce the proliferation and growth of cancer cells.\n\nOne hundred patients diagnosed with Stage II/III operable colorectal cancer will be randomly allo"
+  }
+ ]
+}

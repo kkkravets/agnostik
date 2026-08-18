@@ -1,0 +1,363 @@
+{
+ "gene": "WRN",
+ "disease": "colorectal cancer",
+ "uniprot": {
+  "accession": "Q14191",
+  "uniprot_id": "WRN_HUMAN",
+  "protein_name": "Bifunctional 3'-5' exonuclease/ATP-dependent helicase WRN",
+  "function": "Multifunctional enzyme that has magnesium and ATP-dependent 3'-5' DNA-helicase activity on partially duplex substrates (PubMed:9224595, PubMed:9288107, PubMed:9611231). Also has 3'->5' exonuclease activity towards double-stranded (ds)DNA with a 5'-overhang (PubMed:11863428). Has no nuclease activity towards single-stranded (ss)DNA or blunt-ended dsDNA (PubMed:11863428). Helicase activity is most efficient with (d)ATP, but (d)CTP will substitute with reduced efficiency; strand displacement is enhanced by single-strand binding-protein (heterotrimeric replication protein A complex, RPA1, RPA2, RPA3) (PubMed:9611231). Binds preferentially to DNA substrates containing alternate secondary structures, such as replication forks and Holliday junctions. May play an important role in the dissociation of joint DNA molecules that can arise as products of homologous recombination, at stalled replication forks or during DNA repair. Alleviates stalling of DNA polymerases at the site of DNA lesions. Plays a role in the formation of DNA replication focal centers; stably associates with foci elements generating binding sites for RP-A (By similarity). Plays a role in double-strand break repair after gamma-irradiation (PubMed:9224595, PubMed:9288107, PubMed:9611231). Unwinds some G-quadruplex DNA (d(CGG)n tracts); unwinding seems to occur in both 5'-3' and 3'-5' direction and requires a short single-stranded tail (PubMed:10212265). d(CGG)n tracts have a propensity to assemble into tetraplex structures; other G-rich substrates from a telomeric or IgG switch sequence are not unwound (PubMed:10212265). Depletion leads to chromosomal breaks and genome instability (PubMed:33199508)",
+  "binding_sites": 13
+ },
+ "pubmed": {
+  "crc": [
+   {
+    "title": "CRISPR Screening Identifies SMARCAL1 and MRN as Modulators of WRN Dependency in MSI-H Colorectal Cancer.",
+    "authors": "Ma T, Wu J, Li S, et al.",
+    "journal": "Cancer research",
+    "date": "2026-07-22",
+    "abstract": "Microsatellite instability-high (MSI-H) colorectal cancer cells depend on the Werner syndrome helicase (WRN) to resolve cruciform DNA structures that arise from expanded TA-dinucleotide repeats.",
+    "pmid": "42484294",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42484294/"
+   },
+   {
+    "title": "Targeting WRN Helicase in Microsatellite Instable Colorectal Cancer Induces Antitumor Immunity through Extrachromosomal Circular DNA Release.",
+    "authors": "Hao S, Sato Y, Liu Z, et al.",
+    "journal": "Cancer research",
+    "date": "2026-07-16",
+    "abstract": "Colorectal cancer (CRC) with microsatellite instability (MSI) is often treated with immune checkpoint inhibitors (ICIs), such as anti-PD-1 antibodies.",
+    "pmid": "42461083",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42461083/"
+   },
+   {
+    "title": "RecQ DNA helicases germline variants in Lynch-like syndrome.",
+    "authors": "Giner-Calabuig M, De Leon S, Vidal-Pedrola G, et al.",
+    "journal": "Genetics in medicine open",
+    "date": "2026-04-29",
+    "abstract": "Lynch-like syndrome (LLS) is associated with an incomplete understanding of its molecular basis.",
+    "pmid": "42293362",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42293362/"
+   },
+   {
+    "title": "Multistep ctDNA Monitoring of Minimal Residual Disease in Colorectal Cancer Liver Metastases: From Tissue NGS to Highly Sensitive Digital PCR Platforms.",
+    "authors": "G\u00f3rzy\u0144ska I, Konieczka A, Gaj P, et al.",
+    "journal": "Diagnostics (Basel, Switzerland)",
+    "date": "2026-02-24",
+    "abstract": "",
+    "pmid": "41827921",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41827921/"
+   },
+   {
+    "title": "Discovery and Preclinical Evaluations of Potent, Selective, and Allosteric Covalent WRN Inhibitors with Improved PK Properties.",
+    "authors": "Xu Z, Xiao Q, Liu Y, et al.",
+    "journal": "ACS medicinal chemistry letters",
+    "date": "2026-01-22",
+    "abstract": "Werner syndrome helicase (WRN) has received significant interest due to its implication as a synthetic lethal target in microsatellite instability-high (MSI-H) cancers.",
+    "pmid": "41704373",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41704373/"
+   }
+  ],
+  "crc_query": "WRN AND \"colorectal cancer\"",
+  "in_vitro": [
+   {
+    "title": "Targeting WRN Helicase in Microsatellite Instable Colorectal Cancer Induces Antitumor Immunity through Extrachromosomal Circular DNA Release.",
+    "authors": "Hao S, Sato Y, Liu Z, et al.",
+    "journal": "Cancer research",
+    "date": "2026-07-16",
+    "abstract": "Colorectal cancer (CRC) with microsatellite instability (MSI) is often treated with immune checkpoint inhibitors (ICIs), such as anti-PD-1 antibodies.",
+    "pmid": "42461083",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42461083/"
+   },
+   {
+    "title": "RecQ DNA helicases germline variants in Lynch-like syndrome.",
+    "authors": "Giner-Calabuig M, De Leon S, Vidal-Pedrola G, et al.",
+    "journal": "Genetics in medicine open",
+    "date": "2026-04-29",
+    "abstract": "Lynch-like syndrome (LLS) is associated with an incomplete understanding of its molecular basis.",
+    "pmid": "42293362",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42293362/"
+   },
+   {
+    "title": "Pan-Cancer Analysis of WRN: From Multi-Omics Biomarker Discovery to Therapy-Guiding Functional Evidence.",
+    "authors": "Yao QQ, Qi Y, Shi PQ, et al.",
+    "journal": "OncoTargets and therapy",
+    "date": "2026-01-29",
+    "abstract": "The RecQ DNA helicase family member WRN is an important protein for maintaining genome stability.",
+    "pmid": "41878414",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41878414/"
+   }
+  ],
+  "in_vitro_query": "WRN AND \"colorectal\" AND (in vitro OR \"cell line\" OR organoid)",
+  "in_vivo": [
+   {
+    "title": "Discovery and Preclinical Evaluations of Potent, Selective, and Allosteric Covalent WRN Inhibitors with Improved PK Properties.",
+    "authors": "Xu Z, Xiao Q, Liu Y, et al.",
+    "journal": "ACS medicinal chemistry letters",
+    "date": "2026-01-22",
+    "abstract": "Werner syndrome helicase (WRN) has received significant interest due to its implication as a synthetic lethal target in microsatellite instability-high (MSI-H) cancers.",
+    "pmid": "41704373",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41704373/"
+   },
+   {
+    "title": "Werner helicase as a therapeutic target in mismatch repair deficient colorectal cancer.",
+    "authors": "Hao S, Liu Z, Lenz HJ, et al.",
+    "journal": "DNA repair",
+    "date": "2025-04-03",
+    "abstract": "Colorectal cancer (CRC) is one of the leading causes of cancer-related deaths in the United States.",
+    "pmid": "40203476",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40203476/"
+   },
+   {
+    "title": "Discovery of novel WRN inhibitors for treating MSI-H colorectal cancers.",
+    "authors": "Moon B, Go A, Park S, et al.",
+    "journal": "Bioorganic & medicinal chemistry letters",
+    "date": "2025-02-15",
+    "abstract": "The Werner protein, WRN, is a member of the RecQ helicase family implicated in genome maintenance.",
+    "pmid": "39956276",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39956276/"
+   }
+  ],
+  "in_vivo_query": "WRN AND \"colorectal\" AND (xenograft OR \"mouse model\" OR in vivo)",
+  "druggability": [
+   {
+    "title": "Design, synthesis and biological evaluation of triazolo[1,5-a]pyrimidinone derivatives as potent and orally efficacious WRN helicase inhibitors for MSI cancer therapy.",
+    "authors": "Xiong Y, Jiang H, Zhang J, et al.",
+    "journal": "Bioorganic & medicinal chemistry",
+    "date": "2026-08-13",
+    "abstract": "Microsatellite instability-high (MSI-H) cancers represent an unmet clinical need due to treatment resistance, and WRN helicase is a validated synthetic lethal target for this indication.",
+    "pmid": "42604630",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42604630/"
+   },
+   {
+    "title": "Discovery and Optimization of a WRN Helicase Inhibitor Series through Structure-Guided Drug Design from a Covalent Fragment Binding Insight.",
+    "authors": "Toure M, Yan XC, Bai Y, et al.",
+    "journal": "Journal of medicinal chemistry",
+    "date": "2026-Aug",
+    "abstract": "WRN helicase activity inhibition has emerged as a promising therapeutic approach for targeting cancer cells with specific DNA repair deficiencies, especially those with microsatellite instability (MSI).",
+    "pmid": "42593940",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42593940/"
+   },
+   {
+    "title": "CRISPR Screening Identifies SMARCAL1 and MRN as Modulators of WRN Dependency in MSI-H Colorectal Cancer.",
+    "authors": "Ma T, Wu J, Li S, et al.",
+    "journal": "Cancer research",
+    "date": "2026-07-22",
+    "abstract": "Microsatellite instability-high (MSI-H) colorectal cancer cells depend on the Werner syndrome helicase (WRN) to resolve cruciform DNA structures that arise from expanded TA-dinucleotide repeats.",
+    "pmid": "42484294",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42484294/"
+   }
+  ],
+  "druggability_query": "WRN AND (inhibitor OR \"small molecule\" OR degrader OR antibody)"
+ },
+ "trials": [
+  {
+   "nct_id": "NCT00897429",
+   "title": "Studying Tissue Samples From Patients With Stage II Colon Cancer Treated on Clinical Trial CLB-9581",
+   "status": "COMPLETED",
+   "start_date": "2007-07",
+   "phases": [],
+   "study_type": "OBSERVATIONAL",
+   "conditions": [
+    "Colorectal Cancer"
+   ],
+   "interventions": [
+    "laboratory biomarker analysis"
+   ],
+   "summary": "This research trial studies tissue samples from patients with stage II colon cancer treated on Cancer and Leukemia Group B (CALGB)-9581 or CALGB-90903. Studying samples of tissue from patients with cancer in the laboratory may help doctors learn more about changes that occur in deoxyribonucleic acid (DNA) and identify biomarkers related to cancer. It may also help doctors understand how patients respond to treatment."
+  },
+  {
+   "nct_id": "NCT07262619",
+   "title": "EIK1005-002: A Clinical Research Study Evaluating EIK1005, a Werner Helicase Inhibitor, as Monotherapy and in Combination With Pembrolizumab in Participants With Advanced Solid Tumors Including Microsatellite Instability High (MSI-H) Tumors",
+   "status": "RECRUITING",
+   "start_date": "2026-01-20",
+   "phases": [
+    "PHASE1",
+    "PHASE2"
+   ],
+   "study_type": "INTERVENTIONAL",
+   "conditions": [
+    "Advanced Solid Tumors",
+    "MSI-H or dMMR Advanced Solid Tumors",
+    "MSI-H/dMMR Gastric Cancer",
+    "MSI-H/dMMR Colorectal Cancer",
+    "MSI-H/dMMR Gastroesophageal-junction Cancer",
+    "Endometrial Cancer",
+    "Mismatch Repair Deficient or MSI-High Solid Tumors"
+   ],
+   "interventions": [
+    "EIK1005",
+    "pembrolizumab (KEYTRUDA\u00ae )"
+   ],
+   "summary": "The goal of this clinical trial is to determine the most effective dose of EIK1005 that a person can take safely. Additionally, this study will test how well EIK1005 is tolerated alone and in combination with pembrolizumab in treating patients with advanced cancer."
+  },
+  {
+   "nct_id": "NCT06974110",
+   "title": "Study of Orally Administered MOMA-341 in Participants With Advanced or Metastatic Solid Tumors",
+   "status": "RECRUITING",
+   "start_date": "2025-07-16",
+   "phases": [
+    "PHASE1"
+   ],
+   "study_type": "INTERVENTIONAL",
+   "conditions": [
+    "Advanced Solid Tumor",
+    "Metastatic Solid Tumor",
+    "Endometrial Cancer",
+    "MSI-H Cancer",
+    "Colorectal Cancer",
+    "Gastric Cancer",
+    "dMMR Cancer"
+   ],
+   "interventions": [
+    "MOMA-341",
+    "Irinotecan",
+    "Immunotherapy"
+   ],
+   "summary": "This Phase 1, multi-center, open-label, dose escalation and dose optimization study is designed to assess the safety, tolerability, pharmacokinetics (PK), pharmacodynamics (PDx), and preliminary clinical activity of MOMA-341 administered orally as a single agent or combination therapy in patients with microsatellite instability high (MSI-H) or DNA mismatch repair deficiency (dMMR) solid tumors."
+  },
+  {
+   "nct_id": "NCT06004245",
+   "title": "A Study to Evaluate the Safety, Pharmacokinetics, and Anti-Tumor Activity of VVD-133214 as Monotherapy and in Combination in Participants With Advanced Solid Tumors",
+   "status": "RECRUITING",
+   "start_date": "2024-01-25",
+   "phases": [
+    "PHASE1"
+   ],
+   "study_type": "INTERVENTIONAL",
+   "conditions": [
+    "Advanced Solid Tumors",
+    "Colorectal Cancer"
+   ],
+   "interventions": [
+    "VVD-133214",
+    "Pembrolizumab",
+    "Bevacizumab"
+   ],
+   "summary": "This is a first-in-human, Phase I, open-label, multicenter, dose-escalation and dose expansion study to evaluate the safety, tolerability, pharmacokinetics, pharmacodynamics, and preliminary anti-tumor activity of VVD-133214 monotherapy, and in combination with bevacizumab or pembrolizumab, in participants with microsatellite instability (MSI) and/or deficient mismatch repair (dMMR) advanced solid tumors. VVD-133214 is an oral drug that acts on a protein called Werner (WRN), which may promote the growth of cancers that are MSI and/or dMMR. By acting on WRN, VVD-133214 may be able to block the "
+  },
+  {
+   "nct_id": "NCT06710847",
+   "title": "A Study to Investigate the Safety, Pharmacokinetics, and Preliminary Effectiveness of GSK4418959 Alone or in Combination With Other Anti-cancer Agents in Participants With Solid Tumors",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "start_date": "2024-12-13",
+   "phases": [
+    "PHASE1",
+    "PHASE2"
+   ],
+   "study_type": "INTERVENTIONAL",
+   "conditions": [
+    "Neoplasms, Colorectal",
+    "Solid Tumor",
+    "Colon Cancer",
+    "Rectal Cancer",
+    "Endometrial Cancer"
+   ],
+   "interventions": [
+    "GSK4418959",
+    "PD-1 inhibitor"
+   ],
+   "summary": "Solid tumours are abnormal lumps of tissue that can occur in different parts of the body. The tumours involved in this study have specific genetic characteristics that can make them more aggressive and challenging to treat. The study will test whether GSK4418959 alone or in combination with a PD-1 inhibitor agent can decrease tumor size, is safe, well-tolerated, and how amounts of the study drug decrease in the body over time."
+  },
+  {
+   "nct_id": "NCT02119026",
+   "title": "Efficacy And Safety Of Xeliri + Avastin Followed By Xelox + Avastin Or Reverse Sequence In Metastatic Colorectal Cancer",
+   "status": "COMPLETED",
+   "start_date": "2011-02",
+   "phases": [
+    "PHASE2"
+   ],
+   "study_type": "INTERVENTIONAL",
+   "conditions": [
+    "Metastatic Colorectal Cancer"
+   ],
+   "interventions": [
+    "Capecitabine",
+    "Capecitabine",
+    "Bevacizumab",
+    "Oxaliplatin",
+    "Irinotecan"
+   ],
+   "summary": "Since its introduction, 5-fluorouracil (5-FU) has been the cornerstone of treatment for metastatic colorectal cancer (mCRC). Meanwhile the oral 5FU pro-drug Capecitabine (Xeloda\u00ae) proved equivalence to 5-FU and is a well tolerated alternative combination partner for Irinotecan (XELIRI) or Oxaliplatin (XELOX) which are widely used for first line treatment of mCRC. Recent advances in molecular biology have resulted in the development of an inhibitor of the vascular endothelial growth factor (VEGF) by the monoclonal humanized antibody bevacizumab (Avastin\u00ae).\n\nXELOX or XELIRI +bevacizumab have bee"
+  },
+  {
+   "nct_id": "NCT03570541",
+   "title": "TQL-block for Laparoscopic Hemicolectomy",
+   "status": "COMPLETED",
+   "start_date": "2018-06-28",
+   "phases": [
+    "PHASE4"
+   ],
+   "study_type": "INTERVENTIONAL",
+   "conditions": [
+    "Postoperative Pain"
+   ],
+   "interventions": [
+    "Ropivacaine",
+    "Acetaminophen",
+    "Patient controlled analgesia",
+    "Morphine",
+    "Saline",
+    "Blood samples",
+    "Quality of recovery-15 questionaire",
+    "Orthostatic hypotension"
+   ],
+   "summary": "Every year 350 patients undergo surgery due to colorectal cancer at Zealand University Hospital, Roskilde. The majority of the surgeries are performed using a minimal invasive laparoscopic technique where the bowl anastomosis is either hand sown or stapled. The procedure is performed, while the patient is under general anaesthesia.\n\nAn observational prospective survey from 2016-17 of sixty patients undergoing hemicolectomy at Zealand University Hospital, Roskilde has shown, that even though the patients are subjected to a multimodal analgesic regimen, a substantial amount of opioids are being "
+  },
+  {
+   "nct_id": "NCT05524012",
+   "title": "Longitudinal Multimodal Response Assessment During Neoadjuvant Treatment of Rectal Cancer",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "start_date": "2022-11-30",
+   "phases": [],
+   "study_type": "OBSERVATIONAL",
+   "conditions": [
+    "Locally Advanced Rectal Carcinoma",
+    "Neoadjuvant Treatment",
+    "Radiotherapy",
+    "Adaptive Treatment"
+   ],
+   "interventions": [
+    "Blood sample",
+    "MRI scan"
+   ],
+   "summary": "This pilot study aims to trial multimodal early response assessment to enable therapy adaptions in the context of non-operative therapy strategies of locally advanced rectal cancer (LARC) for development of a non-invasive response prediction model."
+  },
+  {
+   "nct_id": "NCT01585727",
+   "title": "Intraoperative Monitoring of the Pelvic Autonomic Nerves",
+   "status": "COMPLETED",
+   "start_date": "2012-06",
+   "phases": [
+    "NA"
+   ],
+   "study_type": "INTERVENTIONAL",
+   "conditions": [
+    "Rectal Cancer"
+   ],
+   "interventions": [
+    "TME",
+    "TME",
+    "Neuromonitoring"
+   ],
+   "summary": "One of the major problems of rectal cancer surgery is pelvic autonomic nerve damage, which is the main cause of urogenital dysfunction influencing postoperative quality of life. Costs for diagnostics and treatment of short and long-term urogenital dysfunction are immense. Varying degrees of urogenital dysfunction are found in up to 32% and 55% of patients with rectal cancer despite potentially nerve-sparing total mesorectal excision (TME).\n\nThe study will examine the impact of a newly developed continuous monitoring device for preservation of urogenital function in patients with TME for rectal"
+  },
+  {
+   "nct_id": "NCT00286130",
+   "title": "Safety and Efficacy of Folfox6 + Cetuximab Versus Folfiri +Cetuximab in Patients With Metastatic Colorectal Cancer",
+   "status": "COMPLETED",
+   "start_date": "2005-07",
+   "phases": [
+    "PHASE2"
+   ],
+   "study_type": "INTERVENTIONAL",
+   "conditions": [
+    "Metastatic Colorectal Cancer"
+   ],
+   "interventions": [
+    "Cetuximab, Oxaliplatin, Leucovorin, 5FU, Irinotecan",
+    "FOLFOX 6",
+    "FOLFIRI"
+   ],
+   "summary": "In Patients with metastatic colorectal cancer the following treatments first-line Folfiri+Cetuximab first-line Folfox6 + Cetuximab will be concerning efficacy and safety.\n\nThe trial compares Folfiri + Cetuximab and Folfox6 + Cetuximab concerning efficacy and safety as first"
+  }
+ ]
+}

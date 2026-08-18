@@ -1,0 +1,108 @@
+; MYC — colorectal cancer target dossier
+; Facts quote docs/pubmed-MYC.txt, docs/trials-MYC.txt, docs/uniprot-MYC.txt verbatim.
+; Claims conjoin the charter criterion that licenses them, so every verdict
+; backtraces to both the data and the rule text.
+
+; ---------------------------------------------------------------- facts
+
+(fact crc-literature-hits 5
+    :evidence (evidence "pubmed-MYC"
+        :quotes ("PUBMED_HITS crc=5")
+        :explanation "Indexed PubMed records for MYC in colorectal cancer"))
+
+(fact in-vitro-hits 3
+    :evidence (evidence "pubmed-MYC"
+        :quotes ("PUBMED_HITS in_vitro=3")
+        :explanation "Indexed records reporting colorectal cell line or organoid work on MYC"))
+
+(fact in-vivo-hits 3
+    :evidence (evidence "pubmed-MYC"
+        :quotes ("PUBMED_HITS in_vivo=3")
+        :explanation "Indexed records reporting xenograft or mouse model work on MYC"))
+
+(fact druggability-hits 3
+    :evidence (evidence "pubmed-MYC"
+        :quotes ("PUBMED_HITS druggability=3")
+        :explanation "Indexed records describing an inhibitor, degrader or antibody against MYC"))
+
+(fact trials-total 10
+    :evidence (evidence "trials-MYC"
+        :quotes ("TRIALS total=10")
+        :explanation "Registered colorectal cancer trials naming MYC"))
+
+(fact trials-late-phase 0
+    :evidence (evidence "trials-MYC"
+        :quotes ("TRIALS late_phase=0")
+        :explanation "Trials in phase 3 or phase 4"))
+
+(fact trials-recruiting 2
+    :evidence (evidence "trials-MYC"
+        :quotes ("TRIALS recruiting=2")
+        :explanation "Trials currently recruiting"))
+
+(fact binding-sites 0
+    :evidence (evidence "uniprot-MYC"
+        :quotes ("UNIPROT binding_sites=0")
+        :explanation "Binding sites annotated on the reviewed human MYC entry"))
+
+; ------------------------------------------------ document anchors
+
+(fact paper-42548213 true
+    :evidence (evidence "pubmed-MYC"
+        :quotes ("TITLE: Zeaxanthin Suppresses Azoxymethane/Dextran Sodium Sulfate-Induced Colorectal Cancer in Mice by Inhibiting Inflammation and Proliferation.")
+        :explanation "PMID 42548213 (in_vivo query, The Turkish journal of gastroenterology : the official journal of Turkish Society of Gastroenterology 2026-07-30)"))
+
+(fact paper-42497765 true
+    :evidence (evidence "pubmed-MYC"
+        :quotes ("TITLE: Targeting Cys328 in the STAT3 DNA-binding domain with the germacrane-type sesquiterpene lactone SCP-7 inhibits colorectal Cancer growth in vitro and in vivo.")
+        :explanation "PMID 42497765 (in_vivo query, Bioorganic chemistry 2026-07-21)"))
+
+(fact paper-42560559 true
+    :evidence (evidence "pubmed-MYC"
+        :quotes ("TITLE: Ferroptosis suppression by MYC confers oxaliplatin resistance in colorectal cancer via FTH1 and GPX4.")
+        :explanation "PMID 42560559 (in_vitro query, Cancer chemotherapy and pharmacology 2026-08-06)"))
+
+(fact paper-42607078 true
+    :evidence (evidence "pubmed-MYC"
+        :quotes ("TITLE: Dual MYC and GSPT1 Protein Degrader for MYC-Driven Hematologic Malignancies.")
+        :explanation "PMID 42607078 (druggability query, Blood 2026-08-17)"))
+
+(fact paper-42608167 true
+    :evidence (evidence "pubmed-MYC"
+        :quotes ("TITLE: Revisiting Pluripotency Acquisition: A Unified Framework for Reprogramming Strategies.")
+        :explanation "PMID 42608167 (druggability query, Development, growth & differentiation 2026-Aug)"))
+
+(fact trial-NCT07147231 true
+    :evidence (evidence "trials-MYC"
+        :quotes ("TITLE: Testing the Effectiveness of the Anti-cancer Drug Pidnarulex (CX-5461), in Combination With Another Anti-cancer Drug Cemiplimab (REGN2810), in Treating Refractory Microsatellite Stable Colorectal Cancer")
+        :explanation "NCT07147231 — status RECRUITING, phases PHASE1, PHASE2"))
+
+(fact trial-NCT05919264 true
+    :evidence (evidence "trials-MYC"
+        :quotes ("TITLE: FOG-001 in Locally Advanced or Metastatic Solid Tumors")
+        :explanation "NCT05919264 — status RECRUITING, phases PHASE1, PHASE2"))
+
+; -------------------------------------------------------- claims
+
+(derive structurally-druggable (and (> binding-sites 0) src.rules.c1-in-force)
+    :using (binding-sites src.rules.c1-in-force))
+
+(derive has-chemical-matter (and (>= druggability-hits 3) src.rules.c2-in-force)
+    :using (druggability-hits src.rules.c2-in-force))
+
+(derive druggable (and (and structurally-druggable has-chemical-matter) src.rules.c3-in-force)
+    :using (structurally-druggable has-chemical-matter src.rules.c3-in-force))
+
+(derive in-vitro-supported (and (> in-vitro-hits 0) src.rules.c4-in-force)
+    :using (in-vitro-hits src.rules.c4-in-force))
+
+(derive in-vivo-supported (and (> in-vivo-hits 0) src.rules.c5-in-force)
+    :using (in-vivo-hits src.rules.c5-in-force))
+
+(derive clinical-traction
+    (and (or (> trials-late-phase 0) (> trials-recruiting 0)) src.rules.c6-in-force)
+    :using (trials-late-phase trials-recruiting src.rules.c6-in-force))
+
+; charter C8 — the dossier is anchored to quoted documents
+(derive dossier-anchored (and (and paper-42548213 (and paper-42497765 (and paper-42560559 (and paper-42607078 (and paper-42608167 (and trial-NCT07147231 trial-NCT05919264)))))) src.rules.c8-in-force)
+    :using (paper-42548213 paper-42497765 paper-42560559 paper-42607078 paper-42608167 trial-NCT07147231 trial-NCT05919264 src.rules.c8-in-force))

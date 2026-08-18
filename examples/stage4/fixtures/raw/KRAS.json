@@ -1,0 +1,401 @@
+{
+ "gene": "KRAS",
+ "disease": "colorectal cancer",
+ "uniprot": {
+  "accession": "P01116",
+  "uniprot_id": "RASK_HUMAN",
+  "protein_name": "GTPase KRas",
+  "function": "Signal transducer in the Ras-MAPK signaling pathway that regulates cell proliferation and survival (PubMed:22711838, PubMed:23698361). Ras proteins bind GDP/GTP and possess intrinsic GTPase activity (PubMed:20949621, PubMed:39809765). Activates MAPK1/MAPK3 resulting in phosphorylation and ultimately degradation of GJA1 (By similarity). Plays a role in promoting oncogenic events by inducing transcriptional silencing of tumor suppressor genes (TSGs) in colorectal cancer (CRC) cells in a ZNF304-dependent manner (PubMed:24623306). Recognized by LZTR1 that mediates its ubiquitination by a BCR (BTB-CUL3-RBX1) E3 ubiquitin-protein ligase complex (PubMed:40934300)",
+  "binding_sites": 17
+ },
+ "pubmed": {
+  "crc": [
+   {
+    "title": "Integrative bulk and single-cell transcriptomics identify a recurrence-prognostic risk model with exploratory associations with treatment-response phenotypes in colorectal cancer.",
+    "authors": "Li S, Li J, Bu X, et al.",
+    "journal": "Human cell",
+    "date": "2026-08-17",
+    "abstract": "Chemoresistance remains a major obstacle to improving outcomes in colorectal cancer (CRC), particularly among patients receiving 5-fluorouracil (5-FU)-based therapy.",
+    "pmid": "42606648",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42606648/"
+   },
+   {
+    "title": "Salvage pancreaticoduodenectomy for localized recurrence after resection of ascending colon cancer: a case report.",
+    "authors": "Nagata R, Takemura N, Komagome M, et al.",
+    "journal": "Clinical journal of gastroenterology",
+    "date": "2026-08-14",
+    "abstract": "A 66-year-old man underwent right hemicolectomy for ascending colon cancer with direct invasion of gallbladder.",
+    "pmid": "42599639",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42599639/"
+   },
+   {
+    "title": "iPSC-derived polyvalent vaccines as ontogenetically informed immunogens toward overcoming immune refractoriness in microsatellite-stable colorectal cancer: An emerging frontier in cancer immunotherapy.",
+    "authors": "Kumar A, Dwivedi D, Ghosh N, et al.",
+    "journal": "Molecular immunology",
+    "date": "2026-08-13",
+    "abstract": "Colorectal carcinoma (CRC) exerts a growing global disease burden, with microsatellite-stable/proficient mismatch repair (MSS/pMMR) tumors exhibiting intrinsic refractoriness to immune-checkpoint blockade (ICB) owing to low tumor mutational burden, limited neoantigenicity, and an immunosuppressive t",
+    "pmid": "42594762",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42594762/"
+   },
+   {
+    "title": "RETRACTED: Dewan et al. The Impact of Fusobacterium nucleatum and the Genotypic Biomarker KRAS on Colorectal Cancer Pathogenesis. Int. J. Mol. Sci. 2025, 26, 6958.",
+    "authors": "Dewan A, Tattoli I, Mascellino MT",
+    "journal": "International journal of molecular sciences",
+    "date": "2026-08-07",
+    "abstract": "The journal retracts the review article titled \"The Impact of",
+    "pmid": "42606831",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42606831/"
+   },
+   {
+    "title": "Next-Generation Sequencing in Colorectal Cancer: Real-World Molecular Profiling and Clinical Correlations.",
+    "authors": "Cunha A, Robalo C, Lemos C, et al.",
+    "journal": "International journal of molecular sciences",
+    "date": "2026-08-01",
+    "abstract": "Next-generation sequencing (NGS) has become a cornerstone of precision oncology in colorectal cancer (CRC), although its role in routine patient stratification remains incompletely defined.",
+    "pmid": "42589583",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42589583/"
+   }
+  ],
+  "crc_query": "KRAS AND \"colorectal cancer\"",
+  "in_vitro": [
+   {
+    "title": "Brief report: Therapeutic benefit of ISA-2011B in colorectal cancer.",
+    "authors": "Hanitrarimalala V, Persson J, Wingren AG",
+    "journal": "Molecular biology reports",
+    "date": "2026-08-08",
+    "abstract": "ISA-2011B is a phosphatidylinositol-4-phosphate 5-kinase-\u03b1 (PIP5K1\u03b1) inhibitor that has been reported to be selective in suppressing the growth of prostate, breast and hepatic cancer cells.",
+    "pmid": "42570059",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42570059/"
+   },
+   {
+    "title": "A tumour-derived organoid biobank maps cancer gene dependencies.",
+    "authors": "Herranz-Ors C, Bhosle SG, Beck AE, et al.",
+    "journal": "Nature",
+    "date": "2026-08-05",
+    "abstract": "Cancer cell lines remain foundational for research and drug discovery, yet they incompletely capture tumour diversity, lack linked patient context, and have undergone adaptation to culture.",
+    "pmid": "42557320",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42557320/"
+   },
+   {
+    "title": "Clove-mediated green synthesis of silver nanoparticles and in vitro investigation of their antimicrobial, antioxidant, and anticancer potential.",
+    "authors": "Mohammed EJ, Laftah AR, Salem SS, et al.",
+    "journal": "Frontiers in microbiology",
+    "date": "2026-07-28",
+    "abstract": "Green synthesis of silver nanoparticles (AgNPs) using plant extracts offers an eco-friendly and sustainable strategy for developing multifunctional nanomaterials with biomedical applications.",
+    "pmid": "42582641",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42582641/"
+   }
+  ],
+  "in_vitro_query": "KRAS AND \"colorectal\" AND (in vitro OR \"cell line\" OR organoid)",
+  "in_vivo": [
+   {
+    "title": "Targeted KRAS suppression in colorectal cancer via in vivo self-assembled siRNAs encapsulated in endogenous small extracellular vesicles.",
+    "authors": "Sun Y, Zhao Y, Yang Y, et al.",
+    "journal": "Journal of controlled release : official journal of the Controlled Release Society",
+    "date": "2026-08-11",
+    "abstract": "KRAS is a prevalent oncogenic driver whose therapeutic targeting has remained challenging beyond the G12C mutation.",
+    "pmid": "42580447",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42580447/"
+   },
+   {
+    "title": "IL-27 shapes NK cell heterogeneity and function in colorectal cancer.",
+    "authors": "Lucantonio L, Kosta A, Schiano L, et al.",
+    "journal": "Journal for immunotherapy of cancer",
+    "date": "2026-07-29",
+    "abstract": "Colorectal cancer (CRC) is a leading cause of cancer-related mortality worldwide and is characterized by an immunosuppressive tumor microenvironment (TME).",
+    "pmid": "42527030",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42527030/"
+   },
+   {
+    "title": "Mechanistic Insights Into Dose-Dependent Alleviation of Colorectal Cancer Through Artemisinin-Loaded Mesoporous Silica Nanoparticles in 1,2-Dimethylhydrazine-Induced Albino Wistar Rats.",
+    "authors": "Zahid F, Ilyas U, Zahid S, et al.",
+    "journal": "Dose-response : a publication of International Hormesis Society",
+    "date": "2026-07-23",
+    "abstract": "The current study investigates the suitability of encapsulating the Artemisinin-plant-originated lipophilic drug molecule into polyethylene glycol-coated mesoporous silica nanoparticles in a suitable dose regimen for the specific targeting of the drug in colorectal cancer.",
+    "pmid": "42500304",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42500304/"
+   }
+  ],
+  "in_vivo_query": "KRAS AND \"colorectal\" AND (xenograft OR \"mouse model\" OR in vivo)",
+  "druggability": [
+   {
+    "title": "Anticancer effects of an XPO1 inhibitor (selinexor) with sotorasib following omeprazole preconditioning in KRAS G12C-mutant non-small cell lung cancer cells in vitro and in a mouse tumor xenograft.",
+    "authors": "Gonz\u00e1lez J, Cai X, Diao W, et al.",
+    "journal": "Neoplasia (New York, N.Y.)",
+    "date": "2026-08-17",
+    "abstract": "KRAS G12C-mutant advanced non-small cell lung cancer (NSCLC) is currently treated with KRAS G12C covalent inhibitors, such as sotorasib, or RAS (ON) G12-selective inhibitors; however, response rates and progression-free survival remain limited, with recurrence occurring in most patients.",
+    "pmid": "42607542",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42607542/"
+   },
+   {
+    "title": "Transcriptome-based macroautophagy and chaperone-mediated autophagy states reveal context-dependent vulnerabilities across human cancers.",
+    "authors": "Feng J, Zeng Y, Wu H, et al.",
+    "journal": "Autophagy",
+    "date": "2026-08-17",
+    "abstract": "Macroautophagy (MA) and chaperone-mediated autophagy (CMA) are lysosomal degradation pathways with context-dependent roles in cancer.",
+    "pmid": "42605754",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42605754/"
+   },
+   {
+    "title": "Clinical outcomes of KRAS G12C versus non-G12C mutant NSCLC treated with immunotherapy: a multicentre real-world study.",
+    "authors": "Masfarr\u00e9 L, Parreira AS, Castro N, et al.",
+    "journal": "Lung cancer (Amsterdam, Netherlands)",
+    "date": "2026-08-07",
+    "abstract": "KRAS is the most heterogeneous and frequent oncogenic driver in non-small cell lung cancer (NSCLC).",
+    "pmid": "42607379",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42607379/"
+   }
+  ],
+  "druggability_query": "KRAS AND (inhibitor OR \"small molecule\" OR degrader OR antibody)"
+ },
+ "trials": [
+  {
+   "nct_id": "NCT05462717",
+   "title": "Dose Escalation and Dose Expansion Study of RMC-6291 Monotherapy in Subjects With Advanced KRASG12C Mutant Solid Tumors",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "start_date": "2022-09-19",
+   "phases": [
+    "PHASE1"
+   ],
+   "study_type": "INTERVENTIONAL",
+   "conditions": [
+    "Non-Small Cell Lung Cancer (NSCLC)",
+    "Colorectal Cancer (CRC)",
+    "Pancreatic Ductal Adenocarcinoma",
+    "Advanced Solid Tumor"
+   ],
+   "interventions": [
+    "RMC-6291"
+   ],
+   "summary": "The purpose of this study is to evaluate the safety, tolerability, and pharmacokinetics (PK) of escalating doses of RMC-6291 (KRAS G12C(ON) inhibitor) monotherapy in adult subjects with advanced solid tumors and to identify the maximum tolerated dose (MTD), and the recommended Phase 2 dose."
+  },
+  {
+   "nct_id": "NCT06940778",
+   "title": "LIQUID BIOPSY FOCUSING ON CIRCULATING TUMOR CELLS AND CIRCULATING TUMOR DNA AS PRECISION MEDICINE IN GASTROINTESTINAL TUMORS",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "start_date": "2025-01-10",
+   "phases": [],
+   "study_type": "OBSERVATIONAL",
+   "conditions": [
+    "Cancer of Rectum",
+    "Cancer of Pancreas",
+    "Cancer of Stomach"
+   ],
+   "interventions": [
+    "No Interventions"
+   ],
+   "summary": "This is a prospective, observational, multicenter cohort study. Our main objective is to to evaluate the use of CTCs and ctDNA with prognostic factors in locally advanced rectal tumors treated with total neoadjuvant therapy (TNT), recently adopted as clinical practice, and to analyze the functionality of CTCs and ctDNA in the follow-up of locally advanced and metastatic pancreatic and gastric tumors.\n\nSecondary objectives:\n\n* To verify the influence of CTC and ctDNA kinetics on the response to treatment of the three tumors;\n* To correlate RAD23B/TYMS findings and CTC kinetics with DFS in local"
+  },
+  {
+   "nct_id": "NCT07300150",
+   "title": "A Study of PT0511 in Participants With KRAS Mutated or Amplified Advanced Solid Tumors",
+   "status": "RECRUITING",
+   "start_date": "2025-11-21",
+   "phases": [
+    "PHASE1"
+   ],
+   "study_type": "INTERVENTIONAL",
+   "conditions": [
+    "Colorectal Cancer",
+    "Pancreatic Cancer",
+    "Non-Small Cell Lung Cancer",
+    "Solid Tumor"
+   ],
+   "interventions": [
+    "PT0511",
+    "Cetuximab"
+   ],
+   "summary": "The primary purpose of this study is to evaluate the safety and tolerability, determine the maximally tolerated dose (MTD) and/or recommended Phase 2 dose(s) (RP2D) of PT0511 in adult participants with solid tumors as monotherapy and in combination with cetuximab in participants with colorectal cancer (CRC)."
+  },
+  {
+   "nct_id": "NCT05176483",
+   "title": "Study of Zanzalintinib in Combination With Immuno-Oncology or Other Agents in Participants With Solid Tumors",
+   "status": "RECRUITING",
+   "start_date": "2021-12-14",
+   "phases": [
+    "PHASE1"
+   ],
+   "study_type": "INTERVENTIONAL",
+   "conditions": [
+    "Renal Cell Carcinoma (RCC)",
+    "Metastatic Castration-Resistant Prostate Cancer (mCRPC)",
+    "Urothelial Carcinoma (UC)",
+    "Solid Tumor",
+    "Hepatocellular Carcinoma (HCC)",
+    "Non-small Cell Lung Cancer (NSCLC)",
+    "Colorectal Cancer (CRC)",
+    "Head and Neck Squamous Cell Carcinoma (HNSCC)",
+    "Clear Cell Renal Cell Carcinoma (ccRCC)",
+    "Non-Clear Cell Renal Cell Carcinoma (nccRCC)",
+    "Drug-Drug Interaction (DDI)"
+   ],
+   "interventions": [
+    "Zanzalintinib",
+    "Nivolumab",
+    "Ipilimumab",
+    "Nivolumab",
+    "Nivolumab",
+    "Nivolumab + Relatlimab",
+    "Prednisone",
+    "Docetaxel",
+    "DDI Probe Cocktail"
+   ],
+   "summary": "This is a multicenter Phase 1b, open label, dose-escalation and cohort-expansion study, evaluating the safety, tolerability, pharmacokinetics (PK), preliminary antitumor activity, and effect of biomarkers of zanzalintinib administered alone, and in combination with nivolumab (doublet), nivolumab + ipilimumab (triplet) and nivolumab + relatlimab (triplet) and in combination with docetaxel and prednisone in participants with advanced solid tumors. In addition, the study will evaluate the effect of multiple dose administration of zanzalintinib on the single-dose pharmacokinetics of sensitive CYP3"
+  },
+  {
+   "nct_id": "NCT06040541",
+   "title": "Study of RMC-9805 in Participants With KRAS G12D-Mutant Solid Tumors",
+   "status": "RECRUITING",
+   "start_date": "2023-09-07",
+   "phases": [
+    "PHASE1"
+   ],
+   "study_type": "INTERVENTIONAL",
+   "conditions": [
+    "Non-small Cell Lung Cancer (NSCLC)",
+    "Colorectal Cancer (CRC)",
+    "Pancreatic Ductal Adenocarcinoma (PDAC)",
+    "Advanced Solid Tumors"
+   ],
+   "interventions": [
+    "RMC-9805",
+    "RMC-6236"
+   ],
+   "summary": "This study is to evaluate the safety and tolerability of RMC-9805 as monotherapy and in combination with RMC-6236 in adults with KRAS G12D-mutant solid tumors."
+  },
+  {
+   "nct_id": "NCT05163028",
+   "title": "A Dose Escalation Study of SHP2 Inhibitor in Patients With Solid Tumors Harboring KRAS of EGFR Mutations",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "start_date": "2021-12-13",
+   "phases": [
+    "PHASE1"
+   ],
+   "study_type": "INTERVENTIONAL",
+   "conditions": [
+    "Non Small Cell Lung Cancer",
+    "Colorectal Cancer",
+    "Pancreatic Cancer",
+    "Solid Tumor",
+    "Cancer",
+    "Cancer of Pancreas",
+    "Cancer of Colon"
+   ],
+   "interventions": [
+    "HBI-2376"
+   ],
+   "summary": "A Phase 1 dose escalation study in patients with advanced solid tumors harboring KRAS or EGFR mutations to determine the maximum tolerated dose and recommended Phase II dose of HBI-2376 and characterize its pharmacokinetic profile."
+  },
+  {
+   "nct_id": "NCT07349537",
+   "title": "Study of RMC-5127 in Patients With Advanced KRAS G12V-Mutant Solid Tumors",
+   "status": "RECRUITING",
+   "start_date": "2026-01-08",
+   "phases": [
+    "PHASE1"
+   ],
+   "study_type": "INTERVENTIONAL",
+   "conditions": [
+    "Non-small Cell Lung Cancer (NSCLC)",
+    "Colorectal Cancer (CRC)",
+    "Pancreatic Adenocarcinoma",
+    "Pancreatic Ductal Adenocarcinoma (PDAC)",
+    "PDAC",
+    "CRC",
+    "NSCLC",
+    "Pancreatic Cancer",
+    "Lung Cancer (NSCLC)",
+    "Advanced Solid Tumors"
+   ],
+   "interventions": [
+    "RMC-5127",
+    "daraxonrasib",
+    "cetuximab"
+   ],
+   "summary": "The purpose of this study is to evaluate the safety, tolerability, pharmacokinetics (PK), and preliminary antitumor activity of RMC-5127 as a monotherapy and in combination with either daraxonrasib or cetuximab in adults with KRAS G12V-mutant solid tumors."
+  },
+  {
+   "nct_id": "NCT01444456",
+   "title": "Assessment of Quality of Life in Patients With Symptomatic Chemotherapy-induced Anaemia",
+   "status": "COMPLETED",
+   "start_date": "2011-10",
+   "phases": [],
+   "study_type": "OBSERVATIONAL",
+   "conditions": [
+    "Anemia",
+    "Breast Cancer",
+    "Cancer",
+    "Colorectal Cancer",
+    "Lung Cancer",
+    "Ovarian Cancer",
+    "Prostate Cancer",
+    "Solid Tumors",
+    "Bladder Cancer",
+    "Endometrial Cancer",
+    "Renal Cancer",
+    "Pancreatic Cancer",
+    "Esophageal Cancer",
+    "Gastric Cancer"
+   ],
+   "interventions": [],
+   "summary": "This is a multicenter, international, prospective, observational study of patients who are receiving systemic chemotherapy for solid tumour cancers (breast, colorectal, ovarian, prostate, lung, bladder, endometrial, renal, pancreatic, esophageal or gastric) and who are receiving darbepoetin alfa (Aranesp\u00ae) or other erythropoiesis-stimulating agent (ESA) to treat symptomatic anaemia.\n\nQuality of Life will be assessed electronically with the aim of estimating improvement in quality of life for those patients receiving darbepoetin alfa (Aranesp\u00ae) who also have an increase in haemoglobin (Hb) of \u2265"
+  },
+  {
+   "nct_id": "NCT04031872",
+   "title": "LY3200882 and Capecitabine in Advanced Resistant TGF-beta Activated Colorectal Cancer (EORTC1615)",
+   "status": "WITHDRAWN",
+   "start_date": "2020-01-01",
+   "phases": [
+    "PHASE1",
+    "PHASE2"
+   ],
+   "study_type": "INTERVENTIONAL",
+   "conditions": [
+    "Colorectal Cancer Metastatic"
+   ],
+   "interventions": [
+    "LY3200882"
+   ],
+   "summary": "Part I of this study is designed to identify the recommended phase 2 dose (RP2D) of the combination regimen of LY3200882/capecitabine as second line treatment in patients with 5-FU or capecitabine resistant CRC. Part II is designed to obtain proof of principle of the LY3200882 plus capecitabine combination in patients with chemo-resistant CRC. The combination of LY3200882 plus capecitabine will be given as second line therapy in the phase II part of this study.\n\nPatients with chemotherapy resistant activated TGF-\u03b2 signature-like tumors will have received a fluoropyrimidine (5FU or capecitabine"
+  },
+  {
+   "nct_id": "NCT04599140",
+   "title": "SX-682 and Nivolumab for the Treatment of RAS-Mutated, MSS Unresectable or Metastatic Colorectal Cancer, the STOPTRAFFIC-1 Trial",
+   "status": "ACTIVE_NOT_RECRUITING",
+   "start_date": "2020-10-14",
+   "phases": [
+    "PHASE1",
+    "PHASE2"
+   ],
+   "study_type": "INTERVENTIONAL",
+   "conditions": [
+    "Metastatic Colon Adenocarcinoma",
+    "Metastatic Colorectal Carcinoma",
+    "Metastatic Rectal Adenocarcinoma",
+    "Stage III Colon Cancer AJCC v8",
+    "Stage III Rectal Cancer AJCC v8",
+    "Stage IIIA Colon Cancer AJCC v8",
+    "Stage IIIA Rectal Cancer AJCC v8",
+    "Stage IIIB Colon Cancer AJCC v8",
+    "Stage IIIB Rectal Cancer AJCC v8",
+    "Stage IIIC Colon Cancer AJCC v8",
+    "Stage IIIC Rectal Cancer AJCC v8",
+    "Stage IV Colon Cancer AJCC v8",
+    "Stage IV Rectal Cancer AJCC v8",
+    "Stage IVA Colon Cancer AJCC v8",
+    "Stage IVA Rectal Cancer AJCC v8",
+    "Stage IVB Colon Cancer AJCC v8",
+    "Stage IVB Rectal Cancer AJCC v8",
+    "Stage IVC Colon Cancer AJCC v8",
+    "Stage IVC Rectal Cancer AJCC v8",
+    "Unresectable Colon Adenocarcinoma",
+    "Unresectable Rectal Adenocarcinoma"
+   ],
+   "interventions": [
+    "CXCR1/2 Inhibitor SX-682",
+    "Nivolumab"
+   ],
+   "summary": "This phase Ib/II trial studies the side effects and best dose of SX-682 that can be given alone and in combination with nivolumab in treating patients with RAS-Mutated, microsatellite stable (MSS) colorectal cancer that has spread to other places in the body (metastatic) or cannot be removed by surgery (unresectable). SX-682 may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth. Immunotherapy with monoclonal antibodies, such as nivolumab, may help the body's immune system attack the cancer, and may interfere with the ability of tumor cells to grow and spread"
+  }
+ ]
+}

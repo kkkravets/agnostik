@@ -1,0 +1,181 @@
+{
+ "gene": "PRMT5",
+ "disease": "colorectal cancer",
+ "uniprot": {
+  "accession": "O14744",
+  "uniprot_id": "ANM5_HUMAN",
+  "protein_name": "Protein arginine N-methyltransferase 5",
+  "function": "Arginine methyltransferase that can both catalyze the formation of omega-N monomethylarginine (MMA) and symmetrical dimethylarginine (sDMA), with a preference for the formation of MMA (PubMed:10531356, PubMed:11152681, PubMed:11747828, PubMed:12411503, PubMed:15737618, PubMed:17709427, PubMed:20159986, PubMed:20810653, PubMed:21081503, PubMed:21258366, PubMed:21917714, PubMed:22269951). Specifically mediates the symmetrical dimethylation of arginine residues in the small nuclear ribonucleoproteins Sm D1 (SNRPD1) and Sm D3 (SNRPD3); such methylation being required for the assembly and biogenesis of snRNP core particles (PubMed:11747828, PubMed:12411503, PubMed:17709427). Methylates SUPT5H and may regulate its transcriptional elongation properties (PubMed:12718890). May methylate the N-terminal region of MBD2 (PubMed:16428440). Mono- and dimethylates arginine residues of myelin basic protein (MBP) in vitro. May play a role in cytokine-activated transduction pathways. Negatively regulates cyclin E1 promoter activity and cellular proliferation. Methylates histone H2A and H4 'Arg-3' during germ cell development (By similarity). Methylates histone H3 'Arg-8', which may repress transcription (By similarity). Methylates the Piwi proteins (PIWIL1, PIWIL2 and PIWIL4), methylation of Piwi proteins being required for the interaction with Tudor domain-containing proteins and subsequent localization to the meiotic nuage (By similarity). Methylates RPS10. Attenuates EGF signaling through the MAPK1/MAPK3 pathway acting at 2 levels. First, monomethylates EGFR; this enhances EGFR 'Tyr-1197' phosphorylation and PTPN6 recruitment, eventually leading to reduced SOS1 phosphorylation (PubMed:21258366, PubMed:21917714). Second, methylates RAF1 and probably BRAF, hence destabilizing these 2 signaling proteins and reducing their catalytic activity (PubMed:21917714). Required for induction of E-selectin and VCAM-1, on the endothelial cells surface at sites of inflammation. Methylates HOXA9 (PubMed:22269951). Methylates and regulates SRGAP2 which is involved in cell migration and differentiation (PubMed:20810653). Acts as a transcriptional corepressor in CRY1-mediated repression of the core circadian component PER1 by regulating the H4R3 dimethylation at the PER1 promoter (By similarity). Methylates GM130/GOLGA2, regulating Golgi ribbon formation (PubMed:20421892). Methylates H4R3 in genes involved in glioblastomagenesis in a CHTOP- and/or TET1-dependent manner (PubMed:25284789). Symmetrically methylates POLR2A, a modification that allows the recruitment to POLR2A of proteins including SMN1/SMN2 and SETX. This is required for resolving RNA-DNA hybrids created by RNA polymerase II, that form R-loop in transcription terminal regions, an important step in proper transcription termination (PubMed:26700805). Along with LYAR, binds the promoter of gamma-globin HBG1/HBG2 and represses its expression (PubMed:25092918). Symmetrically methylates NCL (PubMed:21081503). Methylates p53/TP53; methylation might possibly affect p53/TP53 target gene specificity (PubMed:19011621). Involved in spliceosome maturation and mRNA splicing in prophase I spermatocytes through the catalysis of the symmetrical arginine dimethylation of SNRPB (small nuclear ribonucleoprotein-associated protein) and the interaction with tudor domain-containing protein TDRD6 (By similarity)",
+  "binding_sites": 7
+ },
+ "pubmed": {
+  "crc": [
+   {
+    "title": "Targeting engulfment and cell motility 1 protein methylation attenuates M2 macrophage infiltration and boosts anti-PD-1 efficacy in colorectal cancer.",
+    "authors": "Li G, Chen Z, Wang K, et al.",
+    "journal": "Gastroenterology report",
+    "date": "2026-06-19",
+    "abstract": "Immunotherapy has been very successful in the field of cancer treatment.",
+    "pmid": "42326870",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42326870/"
+   },
+   {
+    "title": "Genomics of MTAP Loss in >500,000 Solid Tumor Specimens Profiled Using Comprehensive Genomic Profiling Platforms.",
+    "authors": "Pavlick DC, Rengarajan S, Lee JK, et al.",
+    "journal": "JCO precision oncology",
+    "date": "2026-05-14",
+    "abstract": "Methylthioadenosine phosphorylase (",
+    "pmid": "42133901",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42133901/"
+   },
+   {
+    "title": "Identification of METTL3 and PRMT5 as an oncogenic pair for the prognosis and therapeutic targets of colorectal cancer subtype.",
+    "authors": "Zhao Q, Li S, Chen A, et al.",
+    "journal": "Clinical epigenetics",
+    "date": "2026-05-12",
+    "abstract": "METTL3 is a pivotal N6-methyladenosine (m\u2076A) regulator that is linked to a worse prognosis of colorectal cancer (CRC).",
+    "pmid": "42121254",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42121254/"
+   },
+   {
+    "title": "Emerging role of protein arginine methyltransferase 5 in gastrointestinal cancer (Review).",
+    "authors": "Zhang R, Lu Y, Fang X, et al.",
+    "journal": "Oncology letters",
+    "date": "2026-04-23",
+    "abstract": "Gastrointestinal (GI) cancer remains a leading cause of cancer-related mortality worldwide, with epigenetic alterations progressively recognized as key drivers of tumorigenesis and therapeutic resistance.",
+    "pmid": "42094816",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42094816/"
+   },
+   {
+    "title": "REEP6 promotes colorectal cancer glycolysis and tumorigenesis through PRMT5-mediated PGAM1 arginine methylation.",
+    "authors": "Wang T, Zhang D, Jin C, et al.",
+    "journal": "Acta pharmaceutica Sinica. B",
+    "date": "2025-10-24",
+    "abstract": "Metabolic reprogramming is a notable hallmark of cancer biology, especially aerobic glycolysis.",
+    "pmid": "41685168",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41685168/"
+   }
+  ],
+  "crc_query": "PRMT5 AND \"colorectal cancer\"",
+  "in_vitro": [
+   {
+    "title": "Identification of METTL3 and PRMT5 as an oncogenic pair for the prognosis and therapeutic targets of colorectal cancer subtype.",
+    "authors": "Zhao Q, Li S, Chen A, et al.",
+    "journal": "Clinical epigenetics",
+    "date": "2026-05-12",
+    "abstract": "METTL3 is a pivotal N6-methyladenosine (m\u2076A) regulator that is linked to a worse prognosis of colorectal cancer (CRC).",
+    "pmid": "42121254",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42121254/"
+   },
+   {
+    "title": "Targeting ENO1 reprograms macrophage polarization to trigger antitumor immunity and improves the therapeutic effect of radiotherapy.",
+    "authors": "Lin YS, Chang HY, Hong WZ, et al.",
+    "journal": "Cell death & disease",
+    "date": "2026-02-02",
+    "abstract": "Enolase 1 (ENO1) is a glycolytic enzyme involved in tumor progression that performs a variety of classical and nonclassical functions.",
+    "pmid": "41629269",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41629269/"
+   },
+   {
+    "title": "A nuclear isoform of hydroxyacyl-COA dehydrogenase inhibits tumor progression in colorectal cancer.",
+    "authors": "Gao Y, Yu L, Hou J, et al.",
+    "journal": "iScience",
+    "date": "2026-01-10",
+    "abstract": "Alternate translation initiation expands protein diversity, which is adopted by cancers for progression.",
+    "pmid": "41630900",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41630900/"
+   }
+  ],
+  "in_vitro_query": "PRMT5 AND \"colorectal\" AND (in vitro OR \"cell line\" OR organoid)",
+  "in_vivo": [
+   {
+    "title": "A nuclear isoform of hydroxyacyl-COA dehydrogenase inhibits tumor progression in colorectal cancer.",
+    "authors": "Gao Y, Yu L, Hou J, et al.",
+    "journal": "iScience",
+    "date": "2026-01-10",
+    "abstract": "Alternate translation initiation expands protein diversity, which is adopted by cancers for progression.",
+    "pmid": "41630900",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41630900/"
+   },
+   {
+    "title": "PRMT5 upregulates KCNMB4 expression via histone methylation to promote paclitaxel resistance in advanced nasopharyngeal carcinoma.",
+    "authors": "Liu L, Liu S, Wang Y, et al.",
+    "journal": "Cell death & disease",
+    "date": "2026-01-09",
+    "abstract": "Concurrent chemotherapy is the standard treatment strategy for advanced-stage nasopharyngeal carcinoma (NPC).",
+    "pmid": "41513606",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41513606/"
+   },
+   {
+    "title": "NUTM2A-AS1 as a potential key regulator in cancer: unraveling its ceRNA networks and impact on tumor biology.",
+    "authors": "Pourianazar NT, Radmehr S, Ourang Z, et al.",
+    "journal": "European journal of medical research",
+    "date": "2025-09-03",
+    "abstract": "NUTM2A-AS1 is an emerging long noncoding RNA (lncRNA) that has garnered significant attention due to its multifaceted roles in cancer biology.",
+    "pmid": "40903777",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40903777/"
+   }
+  ],
+  "in_vivo_query": "PRMT5 AND \"colorectal\" AND (xenograft OR \"mouse model\" OR in vivo)",
+  "druggability": [
+   {
+    "title": "Design and synthesis of the first PARP1 and PRMT5 dual inhibitors for the treatment of breast cancer.",
+    "authors": "Xu Y, Lei Q, Yang S, et al.",
+    "journal": "European journal of medicinal chemistry",
+    "date": "2026-08-16",
+    "abstract": "Poly(ADP-ribose) polymerase 1 (PARP1) is a key factor responsible for repairing DNA single-strand breaks and maintaining genomic stability.",
+    "pmid": "42607456",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42607456/"
+   },
+   {
+    "title": "m6A-dependent regulation of DGUOK-AS1 by RBM15 and HNRNPH1 in lung adenocarcinoma.",
+    "authors": "Yang M, Wu J, Li Y, et al.",
+    "journal": "iScience",
+    "date": "2026-08-07",
+    "abstract": "Lung adenocarcinoma (LUAD) remains a leading cause of cancer-related death, underscoring the need for an improved molecular understanding.",
+    "pmid": "42603931",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42603931/"
+   },
+   {
+    "title": "Discovery of a Potent, Selective, and Orally Bioavailable Achiral MAT2A Inhibitor for Treating MTAP-Deficient Cancers.",
+    "authors": "Lin L, Xie Z, Liu J, et al.",
+    "journal": "Journal of medicinal chemistry",
+    "date": "2026-Aug",
+    "abstract": "Targeting methionine adenosyltransferase 2A (MAT2A) represents an attractive synthetic lethal approach for treating methylthioadenosine phosphorylase (MTAP)-deleted cancers.",
+    "pmid": "42593918",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42593918/"
+   }
+  ],
+  "druggability_query": "PRMT5 AND (inhibitor OR \"small molecule\" OR degrader OR antibody)"
+ },
+ "trials": [
+  {
+   "nct_id": "NCT07594626",
+   "title": "BMS-986504 in Combination With Pemetrexed for the Treatment of Metastatic Solid Tumors With MTAP Deletion",
+   "status": "NOT_YET_RECRUITING",
+   "start_date": "2027-12-09",
+   "phases": [
+    "PHASE1",
+    "PHASE2"
+   ],
+   "study_type": "INTERVENTIONAL",
+   "conditions": [
+    "Metastatic Biliary Tract Carcinoma",
+    "Metastatic Colon Carcinoma",
+    "Metastatic Esophageal Carcinoma",
+    "Metastatic Malignant Digestive System Neoplasm",
+    "Metastatic Malignant Solid Neoplasm",
+    "Metastatic Pancreatic Carcinoma",
+    "Stage IV Colon Cancer AJCC v8",
+    "Stage IV Pancreatic Cancer AJCC v8"
+   ],
+   "interventions": [
+    "Biospecimen Collection",
+    "Computed Tomography",
+    "Pemetrexed",
+    "PRMT5 Inhibitor BMS-986504"
+   ],
+   "summary": "This phase Ib/II trial tests the safety and side effects of BMS-986504 in combination with pemetrexed and how well the combination works in treating patients with solid tumors with MTAP deletion and that has spread from where it first started (primary site) to other places in the body (metastatic). The MTAP gene helps cells recycle important parts needed to make deoxyribonucleic acid (DNA), which is needed for cell growth and function. MTAP deletion means that the MTAP gene is missing. BMS-986504, a PRMT5 inhibitor, may stop the growth of tumor cells by blocking some of the enzymes needed for "
+  }
+ ]
+}

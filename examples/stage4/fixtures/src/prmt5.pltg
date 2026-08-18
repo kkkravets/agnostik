@@ -1,0 +1,113 @@
+; PRMT5 — colorectal cancer target dossier
+; Facts quote docs/pubmed-PRMT5.txt, docs/trials-PRMT5.txt, docs/uniprot-PRMT5.txt verbatim.
+; Claims conjoin the charter criterion that licenses them, so every verdict
+; backtraces to both the data and the rule text.
+
+; ---------------------------------------------------------------- facts
+
+(fact crc-literature-hits 5
+    :evidence (evidence "pubmed-PRMT5"
+        :quotes ("PUBMED_HITS crc=5")
+        :explanation "Indexed PubMed records for PRMT5 in colorectal cancer"))
+
+(fact in-vitro-hits 3
+    :evidence (evidence "pubmed-PRMT5"
+        :quotes ("PUBMED_HITS in_vitro=3")
+        :explanation "Indexed records reporting colorectal cell line or organoid work on PRMT5"))
+
+(fact in-vivo-hits 3
+    :evidence (evidence "pubmed-PRMT5"
+        :quotes ("PUBMED_HITS in_vivo=3")
+        :explanation "Indexed records reporting xenograft or mouse model work on PRMT5"))
+
+(fact druggability-hits 3
+    :evidence (evidence "pubmed-PRMT5"
+        :quotes ("PUBMED_HITS druggability=3")
+        :explanation "Indexed records describing an inhibitor, degrader or antibody against PRMT5"))
+
+(fact trials-total 1
+    :evidence (evidence "trials-PRMT5"
+        :quotes ("TRIALS total=1")
+        :explanation "Registered colorectal cancer trials naming PRMT5"))
+
+(fact trials-late-phase 0
+    :evidence (evidence "trials-PRMT5"
+        :quotes ("TRIALS late_phase=0")
+        :explanation "Trials in phase 3 or phase 4"))
+
+(fact trials-recruiting 0
+    :evidence (evidence "trials-PRMT5"
+        :quotes ("TRIALS recruiting=0")
+        :explanation "Trials currently recruiting"))
+
+(fact binding-sites 7
+    :evidence (evidence "uniprot-PRMT5"
+        :quotes ("UNIPROT binding_sites=7")
+        :explanation "Binding sites annotated on the reviewed human PRMT5 entry"))
+
+; ------------------------------------------------ document anchors
+
+(fact paper-41630900 true
+    :evidence (evidence "pubmed-PRMT5"
+        :quotes ("TITLE: A nuclear isoform of hydroxyacyl-COA dehydrogenase inhibits tumor progression in colorectal cancer.")
+        :explanation "PMID 41630900 (in_vivo query, iScience 2026-01-10)"))
+
+(fact paper-41513606 true
+    :evidence (evidence "pubmed-PRMT5"
+        :quotes ("TITLE: PRMT5 upregulates KCNMB4 expression via histone methylation to promote paclitaxel resistance in advanced nasopharyngeal carcinoma.")
+        :explanation "PMID 41513606 (in_vivo query, Cell death & disease 2026-01-09)"))
+
+(fact paper-42121254 true
+    :evidence (evidence "pubmed-PRMT5"
+        :quotes ("TITLE: Identification of METTL3 and PRMT5 as an oncogenic pair for the prognosis and therapeutic targets of colorectal cancer subtype.")
+        :explanation "PMID 42121254 (in_vitro query, Clinical epigenetics 2026-05-12)"))
+
+(fact paper-41629269 true
+    :evidence (evidence "pubmed-PRMT5"
+        :quotes ("TITLE: Targeting ENO1 reprograms macrophage polarization to trigger antitumor immunity and improves the therapeutic effect of radiotherapy.")
+        :explanation "PMID 41629269 (in_vitro query, Cell death & disease 2026-02-02)"))
+
+(fact paper-42607456 true
+    :evidence (evidence "pubmed-PRMT5"
+        :quotes ("TITLE: Design and synthesis of the first PARP1 and PRMT5 dual inhibitors for the treatment of breast cancer.")
+        :explanation "PMID 42607456 (druggability query, European journal of medicinal chemistry 2026-08-16)"))
+
+(fact paper-42603931 true
+    :evidence (evidence "pubmed-PRMT5"
+        :quotes ("TITLE: m6A-dependent regulation of DGUOK-AS1 by RBM15 and HNRNPH1 in lung adenocarcinoma.")
+        :explanation "PMID 42603931 (druggability query, iScience 2026-08-07)"))
+
+(fact paper-42326870 true
+    :evidence (evidence "pubmed-PRMT5"
+        :quotes ("TITLE: Targeting engulfment and cell motility 1 protein methylation attenuates M2 macrophage infiltration and boosts anti-PD-1 efficacy in colorectal cancer.")
+        :explanation "PMID 42326870 (crc query, Gastroenterology report 2026-06-19)"))
+
+(fact paper-42133901 true
+    :evidence (evidence "pubmed-PRMT5"
+        :quotes ("TITLE: Genomics of MTAP Loss in >500,000 Solid Tumor Specimens Profiled Using Comprehensive Genomic Profiling Platforms.")
+        :explanation "PMID 42133901 (crc query, JCO precision oncology 2026-05-14)"))
+
+; -------------------------------------------------------- claims
+
+(derive structurally-druggable (and (> binding-sites 0) src.rules.c1-in-force)
+    :using (binding-sites src.rules.c1-in-force))
+
+(derive has-chemical-matter (and (>= druggability-hits 3) src.rules.c2-in-force)
+    :using (druggability-hits src.rules.c2-in-force))
+
+(derive druggable (and (and structurally-druggable has-chemical-matter) src.rules.c3-in-force)
+    :using (structurally-druggable has-chemical-matter src.rules.c3-in-force))
+
+(derive in-vitro-supported (and (> in-vitro-hits 0) src.rules.c4-in-force)
+    :using (in-vitro-hits src.rules.c4-in-force))
+
+(derive in-vivo-supported (and (> in-vivo-hits 0) src.rules.c5-in-force)
+    :using (in-vivo-hits src.rules.c5-in-force))
+
+(derive clinical-traction
+    (and (or (> trials-late-phase 0) (> trials-recruiting 0)) src.rules.c6-in-force)
+    :using (trials-late-phase trials-recruiting src.rules.c6-in-force))
+
+; charter C8 — the dossier is anchored to quoted documents
+(derive dossier-anchored (and (and paper-41630900 (and paper-41513606 (and paper-42121254 (and paper-41629269 (and paper-42607456 (and paper-42603931 (and paper-42326870 paper-42133901))))))) src.rules.c8-in-force)
+    :using (paper-41630900 paper-41513606 paper-42121254 paper-41629269 paper-42607456 paper-42603931 paper-42326870 paper-42133901 src.rules.c8-in-force))

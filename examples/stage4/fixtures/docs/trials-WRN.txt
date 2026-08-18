@@ -1,0 +1,67 @@
+ClinicalTrials.gov dossier — WRN / colorectal cancer
+Source: clinicaltrials.gov/api/v2, condition-scoped to colorectal cancer
+
+## COUNTERS
+TRIALS total=10
+TRIALS late_phase=1
+TRIALS recruiting=3
+
+NCT00897429 | COMPLETED | phases: NA | OBSERVATIONAL
+TITLE: Studying Tissue Samples From Patients With Stage II Colon Cancer Treated on Clinical Trial CLB-9581
+CONDITIONS: Colorectal Cancer
+INTERVENTIONS: laboratory biomarker analysis
+SUMMARY: This research trial studies tissue samples from patients with stage II colon cancer treated on Cancer and Leukemia Group B (CALGB)-9581 or CALGB-90903. Studying samples of tissue from patients with cancer in the laboratory may help doctors learn more about changes that occur in deoxyribonucleic acid (DNA) and identify biomarkers related to cancer. It may also help doctors understand how patients respond to treatment.
+
+NCT07262619 | RECRUITING | phases: PHASE1, PHASE2 | INTERVENTIONAL
+TITLE: EIK1005-002: A Clinical Research Study Evaluating EIK1005, a Werner Helicase Inhibitor, as Monotherapy and in Combination With Pembrolizumab in Participants With Advanced Solid Tumors Including Microsatellite Instability High (MSI-H) Tumors
+CONDITIONS: Advanced Solid Tumors, MSI-H or dMMR Advanced Solid Tumors, MSI-H/dMMR Gastric Cancer, MSI-H/dMMR Colorectal Cancer, MSI-H/dMMR Gastroesophageal-junction Cancer, Endometrial Cancer, Mismatch Repair Deficient or MSI-High Solid Tumors
+INTERVENTIONS: EIK1005, pembrolizumab (KEYTRUDA® )
+SUMMARY: The goal of this clinical trial is to determine the most effective dose of EIK1005 that a person can take safely. Additionally, this study will test how well EIK1005 is tolerated alone and in combination with pembrolizumab in treating patients with advanced cancer.
+
+NCT06974110 | RECRUITING | phases: PHASE1 | INTERVENTIONAL
+TITLE: Study of Orally Administered MOMA-341 in Participants With Advanced or Metastatic Solid Tumors
+CONDITIONS: Advanced Solid Tumor, Metastatic Solid Tumor, Endometrial Cancer, MSI-H Cancer, Colorectal Cancer, Gastric Cancer, dMMR Cancer
+INTERVENTIONS: MOMA-341, Irinotecan, Immunotherapy
+SUMMARY: This Phase 1, multi-center, open-label, dose escalation and dose optimization study is designed to assess the safety, tolerability, pharmacokinetics (PK), pharmacodynamics (PDx), and preliminary clinical activity of MOMA-341 administered orally as a single agent or combination therapy in patients with microsatellite instability high (MSI-H) or DNA mismatch repair deficiency (dMMR) solid tumors.
+
+NCT06004245 | RECRUITING | phases: PHASE1 | INTERVENTIONAL
+TITLE: A Study to Evaluate the Safety, Pharmacokinetics, and Anti-Tumor Activity of VVD-133214 as Monotherapy and in Combination in Participants With Advanced Solid Tumors
+CONDITIONS: Advanced Solid Tumors, Colorectal Cancer
+INTERVENTIONS: VVD-133214, Pembrolizumab, Bevacizumab
+SUMMARY: This is a first-in-human, Phase I, open-label, multicenter, dose-escalation and dose expansion study to evaluate the safety, tolerability, pharmacokinetics, pharmacodynamics, and preliminary anti-tumor activity of VVD-133214 monotherapy, and in combination with bevacizumab or pembrolizumab, in participants with microsatellite instability (MSI) and/or deficient mismatch repair (dMMR) advanced solid tumors. VVD-133214 is an oral drug that acts on a protein called Werner (WRN), which may promote the growth of cancers that are MSI and/or dMMR. By acting on WRN, VVD-133214 may be able to block the
+
+NCT06710847 | ACTIVE_NOT_RECRUITING | phases: PHASE1, PHASE2 | INTERVENTIONAL
+TITLE: A Study to Investigate the Safety, Pharmacokinetics, and Preliminary Effectiveness of GSK4418959 Alone or in Combination With Other Anti-cancer Agents in Participants With Solid Tumors
+CONDITIONS: Neoplasms, Colorectal, Solid Tumor, Colon Cancer, Rectal Cancer, Endometrial Cancer
+INTERVENTIONS: GSK4418959, PD-1 inhibitor
+SUMMARY: Solid tumours are abnormal lumps of tissue that can occur in different parts of the body. The tumours involved in this study have specific genetic characteristics that can make them more aggressive and challenging to treat. The study will test whether GSK4418959 alone or in combination with a PD-1 inhibitor agent can decrease tumor size, is safe, well-tolerated, and how amounts of the study drug decrease in the body over time.
+
+NCT02119026 | COMPLETED | phases: PHASE2 | INTERVENTIONAL
+TITLE: Efficacy And Safety Of Xeliri + Avastin Followed By Xelox + Avastin Or Reverse Sequence In Metastatic Colorectal Cancer
+CONDITIONS: Metastatic Colorectal Cancer
+INTERVENTIONS: Capecitabine, Capecitabine, Bevacizumab, Oxaliplatin, Irinotecan
+SUMMARY: Since its introduction, 5-fluorouracil (5-FU) has been the cornerstone of treatment for metastatic colorectal cancer (mCRC). Meanwhile the oral 5FU pro-drug Capecitabine (Xeloda®) proved equivalence to 5-FU and is a well tolerated alternative combination partner for Irinotecan (XELIRI) or Oxaliplatin (XELOX) which are widely used for first line treatment of mCRC. Recent advances in molecular biology have resulted in the development of an inhibitor of the vascular endothelial growth factor (VEGF) by the monoclonal humanized antibody bevacizumab (Avastin®). XELOX or XELIRI +bevacizumab have bee
+
+NCT03570541 | COMPLETED | phases: PHASE4 | INTERVENTIONAL
+TITLE: TQL-block for Laparoscopic Hemicolectomy
+CONDITIONS: Postoperative Pain
+INTERVENTIONS: Ropivacaine, Acetaminophen, Patient controlled analgesia, Morphine, Saline, Blood samples, Quality of recovery-15 questionaire, Orthostatic hypotension
+SUMMARY: Every year 350 patients undergo surgery due to colorectal cancer at Zealand University Hospital, Roskilde. The majority of the surgeries are performed using a minimal invasive laparoscopic technique where the bowl anastomosis is either hand sown or stapled. The procedure is performed, while the patient is under general anaesthesia. An observational prospective survey from 2016-17 of sixty patients undergoing hemicolectomy at Zealand University Hospital, Roskilde has shown, that even though the patients are subjected to a multimodal analgesic regimen, a substantial amount of opioids are being
+
+NCT05524012 | ACTIVE_NOT_RECRUITING | phases: NA | OBSERVATIONAL
+TITLE: Longitudinal Multimodal Response Assessment During Neoadjuvant Treatment of Rectal Cancer
+CONDITIONS: Locally Advanced Rectal Carcinoma, Neoadjuvant Treatment, Radiotherapy, Adaptive Treatment
+INTERVENTIONS: Blood sample, MRI scan
+SUMMARY: This pilot study aims to trial multimodal early response assessment to enable therapy adaptions in the context of non-operative therapy strategies of locally advanced rectal cancer (LARC) for development of a non-invasive response prediction model.
+
+NCT01585727 | COMPLETED | phases: NA | INTERVENTIONAL
+TITLE: Intraoperative Monitoring of the Pelvic Autonomic Nerves
+CONDITIONS: Rectal Cancer
+INTERVENTIONS: TME, TME, Neuromonitoring
+SUMMARY: One of the major problems of rectal cancer surgery is pelvic autonomic nerve damage, which is the main cause of urogenital dysfunction influencing postoperative quality of life. Costs for diagnostics and treatment of short and long-term urogenital dysfunction are immense. Varying degrees of urogenital dysfunction are found in up to 32% and 55% of patients with rectal cancer despite potentially nerve-sparing total mesorectal excision (TME). The study will examine the impact of a newly developed continuous monitoring device for preservation of urogenital function in patients with TME for rectal
+
+NCT00286130 | COMPLETED | phases: PHASE2 | INTERVENTIONAL
+TITLE: Safety and Efficacy of Folfox6 + Cetuximab Versus Folfiri +Cetuximab in Patients With Metastatic Colorectal Cancer
+CONDITIONS: Metastatic Colorectal Cancer
+INTERVENTIONS: Cetuximab, Oxaliplatin, Leucovorin, 5FU, Irinotecan, FOLFOX 6, FOLFIRI
+SUMMARY: In Patients with metastatic colorectal cancer the following treatments first-line Folfiri+Cetuximab first-line Folfox6 + Cetuximab will be concerning efficacy and safety. The trial compares Folfiri + Cetuximab and Folfox6 + Cetuximab concerning efficacy and safety as first

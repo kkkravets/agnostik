@@ -1,0 +1,67 @@
+ClinicalTrials.gov dossier — EGFR / colorectal cancer
+Source: clinicaltrials.gov/api/v2, condition-scoped to colorectal cancer
+
+## COUNTERS
+TRIALS total=10
+TRIALS late_phase=0
+TRIALS recruiting=1
+
+NCT06940778 | ACTIVE_NOT_RECRUITING | phases: NA | OBSERVATIONAL
+TITLE: LIQUID BIOPSY FOCUSING ON CIRCULATING TUMOR CELLS AND CIRCULATING TUMOR DNA AS PRECISION MEDICINE IN GASTROINTESTINAL TUMORS
+CONDITIONS: Cancer of Rectum, Cancer of Pancreas, Cancer of Stomach
+INTERVENTIONS: No Interventions
+SUMMARY: This is a prospective, observational, multicenter cohort study. Our main objective is to to evaluate the use of CTCs and ctDNA with prognostic factors in locally advanced rectal tumors treated with total neoadjuvant therapy (TNT), recently adopted as clinical practice, and to analyze the functionality of CTCs and ctDNA in the follow-up of locally advanced and metastatic pancreatic and gastric tumors. Secondary objectives: * To verify the influence of CTC and ctDNA kinetics on the response to treatment of the three tumors; * To correlate RAD23B/TYMS findings and CTC kinetics with DFS in local
+
+NCT04017650 | ACTIVE_NOT_RECRUITING | phases: PHASE1, PHASE2 | INTERVENTIONAL
+TITLE: Encorafenib, Cetuximab, and Nivolumab in Treating Patients With Microsatellite Stable, BRAFV600E Mutated Unresectable or Metastatic Colorectal Cancer
+CONDITIONS: BRAF NP_004324.2:p.V600E, Metastatic Colon Adenocarcinoma, Metastatic Microsatellite Stable Colorectal Carcinoma, Metastatic Rectal Adenocarcinoma, Progressive Disease, Recurrent Colorectal Carcinoma, Stage III Colorectal Cancer AJCC v8, Stage IIIA Colorectal Cancer AJCC v8, Stage IIIB Colorectal Ca
+INTERVENTIONS: Cetuximab, Encorafenib, Nivolumab
+SUMMARY: This phase I/II trial studies the best dose and side effects of encorafenib, cetuximab, and nivolumab and how well they work together in treating patients with microsatellite stable, BRAFV600E gene mutated colorectal cancer that cannot be removed by surgery (unresectable) or has spread to other places in the body (metastatic). Encorafenib and cetuximab may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth. Immunotherapy with monoclonal antibodies, such as nivolumab, may help the body's immune system attack the cancer, and may interfere with the ability of tu
+
+NCT00622674 | COMPLETED | phases: PHASE1 | INTERVENTIONAL
+TITLE: Bortezomib and Cetuximab in Treating Patients With Advanced Solid Tumors
+CONDITIONS: Breast Cancer, Colorectal Cancer, Head and Neck Cancer, Kidney Cancer, Lung Cancer, Pancreatic Cancer, Sarcoma, Unspecified Adult Solid Tumor, Protocol Specific
+INTERVENTIONS: cetuximab, bortezomib
+SUMMARY: RATIONALE: Bortezomib may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth. Monoclonal antibodies, such as cetuximab, can block tumor growth in different ways. Some block the ability of tumor cells to grow and spread. Others find tumor cells and help kill them or carry tumor-killing substances to them. Giving bortezomib together with cetuximab may kill more tumor cells. PURPOSE: This phase I trial is studying the side effects and best dose of bortezomib when given together with cetuximab in treating patients with advanced solid tumors.
+
+NCT03319459 | COMPLETED | phases: PHASE1 | INTERVENTIONAL
+TITLE: FATE-NK100 as Monotherapy and in Combination With Monoclonal Antibody in Subjects With Advanced Solid Tumors
+CONDITIONS: HER2 Positive Gastric Cancer, Colorectal Cancer, Head and Neck Squamous Cell Carcinoma, EGFR Positive Solid Tumor, Advanced Solid Tumors, HER2-positive Breast Cancer, Hepatocellular Carcinoma, Non Small Cell Lung Cancer, Renal Cell Carcinoma, Pancreatic Cancer, Melanoma
+INTERVENTIONS: FATE-NK100, Cetuximab, Trastuzumab
+SUMMARY: This is a Phase 1, single-dose, open-label, dose-escalation study. The study will be conducted in three parts (i.e. regimens) in an outpatient setting as follows: * Regimen A: FATE-NK100 as a monotherapy in subjects with advanced solid tumor malignancies. * Regimen B: FATE-NK100 in combination with trastuzumab in subjects with human epidermal growth factor receptor 2 positive (HER2+) advanced breast cancer, HER2+ advanced gastric cancer or other advanced HER2+ solid tumors. * Regimen C: FATE-NK100 in combination with cetuximab in subjects with advanced colorectal cancer (CRC) or head and neck
+
+NCT04034173 | UNKNOWN | phases: PHASE2 | INTERVENTIONAL
+TITLE: Optimal Anti-EGFR Treatment of mCRC Patients With Low-Frequency RAS Mutation
+CONDITIONS: Treatment Related Cancer
+INTERVENTIONS: Panitumumab, Irinotecan, Folinic acid, 5-FU
+SUMMARY: The present hypothesis is that anti-EGFR agents are active in tumors with low-level RAS mutation when the majority of tumor cells is still sensitive. While response rate may be high and may reflect sensitivity to anti-EGFR agents, PFS is anticipated to be shorter than in RAS wild-type patients due to the faster development of resistance when sensitive cells are eradicated and when the RAS-mutant anti-EGFR resistant clones become predominant. The characteristics of low-level RAS mutant tumors would be: * Objective response rate (ORR) high (reflecting the sensitive clone) * Progression-free su
+
+NCT07503756 | RECRUITING | phases: PHASE2 | INTERVENTIONAL
+TITLE: JS212 Combination Therapies in Metastatic Colorectal Cancer
+CONDITIONS: Metastatic Colorectal Cancer
+INTERVENTIONS: JS212, Capecitabine, Bevacizumab, Oxaliplatin, JS207
+SUMMARY: This is an open-label, multicenter Phase 2 clinical study designed to evaluate the safety, tolerability, pharmacokinetics, and preliminary efficacy of JS212-based combination therapies in patients with metastatic colorectal cancer (mCRC). JS212 is a bispecific antibody-drug conjugate (ADC) targeting epidermal growth factor receptor (EGFR) and HER3 with a topoisomerase I inhibitor payload. Preclinical and early clinical data suggest that dual targeting of EGFR and HER3 may enhance antitumor activity and overcome resistance mechanisms associated with EGFR- or HER2-directed therapies. This stud
+
+NCT03259009 | UNKNOWN | phases: NA | OBSERVATIONAL
+TITLE: RAS Mutations in ctDNA and Anti-EGFR reINTROduction in mCRC (RASINTRO)
+CONDITIONS: Metastatic Colorectal Cancer
+INTERVENTIONS: 
+SUMMARY: Some data have suggested a clinical survival benefit related to the reintroduction of anti-EGFRs therapy in patients with metastatic colorectal cancer (mCRC). Based on resistance mechanisms related to the development of resistant clones, the investigators could assume that patients who benefited most from the reintroduction of anti-EGFRs were those who, through interval chemotherapy, had no longer mutated RAS clone in plasma that appeared during the progression with the first anti-EGFR treatment. Conversely, those who did not benefit from this therapy were probably patients who had mutated RAS
+
+NCT00536809 | COMPLETED | phases: PHASE1 | INTERVENTIONAL
+TITLE: Phase I/II Study of Lapatinib in Combination With Oxaliplatin and Capecitabine in Subjects With Advanced Colorectal Cancer
+CONDITIONS: Neoplasms, Colorectal
+INTERVENTIONS: lapatinib, oxaliplatin, capecitabine
+SUMMARY: The purpose of this study is to determine the highest, tolerated dose level and safety of lapatinib, capecitabine and oxaliplatin in subjects with advanced cancer and to determine the clinical activity of the combination of drugs in subjects with previously untreated advanced or metastatic colorectal cancer.
+
+NCT05551039 | COMPLETED | phases: NA | OBSERVATIONAL
+TITLE: An Observational Study, Called RegoFlex EU, to Learn More About the Use of Stivarga at Reduced Doses as Recommended (Flexible Dosing) to Treat People With Metastatic Colorectal Cancer in Real World Settings in Europe
+CONDITIONS: Metastatic Colorectal Cancer
+INTERVENTIONS: Retrospective patient chart review
+SUMMARY: This is an observational study in which data from patients with metastatic colorectal cancer in three European countries who received STIVARGA® (regorafenib), are collected. In observational studies, only observations are made without specified advice or interventions. Metastatic colorectal cancer (mCRC) is a cancer that starts in the large bowel or the rectum (the lowest part of the gut) and has spread to other parts of the body. Regorafenib is an anti-cancer drug that blocks several proteins called enzymes, which are involved in the development and growth of cancer. A wide range of such enz
+
+NCT03290937 | COMPLETED | phases: PHASE1 | INTERVENTIONAL
+TITLE: Utomilumab, Cetuximab, and Irinotecan Hydrochloride in Treating Patients With Metastatic Colorectal Cancer
+CONDITIONS: Metastatic Colorectal Carcinoma, Stage IV Colorectal Cancer AJCC v8, Stage IVA Colorectal Cancer AJCC v8, Stage IVB Colorectal Cancer AJCC v8, Stage IVC Colorectal Cancer AJCC v8
+INTERVENTIONS: Cetuximab, Irinotecan Hydrochloride, Pharmacodynamic Study, Utomilumab
+SUMMARY: This phase I trial studies the best dose and side effects of irinotecan hydrochloride when given with utomilumab and cetuximab in treating patients with colorectal cancer that has spread to other places in the body (metastatic). Monoclonal antibodies, such as utomilumab and cetuximab, may interfere with the ability of tumor cells to grow and spread. Drugs used in chemotherapy, such as irinotecan hydrochloride, work in different ways to stop the growth of tumor cells, either by killing the cells, by stopping them from dividing, or by stopping them from spreading. Giving utomilumab, cetuximab, a

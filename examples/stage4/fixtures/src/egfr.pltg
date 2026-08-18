@@ -1,0 +1,108 @@
+; EGFR — colorectal cancer target dossier
+; Facts quote docs/pubmed-EGFR.txt, docs/trials-EGFR.txt, docs/uniprot-EGFR.txt verbatim.
+; Claims conjoin the charter criterion that licenses them, so every verdict
+; backtraces to both the data and the rule text.
+
+; ---------------------------------------------------------------- facts
+
+(fact crc-literature-hits 5
+    :evidence (evidence "pubmed-EGFR"
+        :quotes ("PUBMED_HITS crc=5")
+        :explanation "Indexed PubMed records for EGFR in colorectal cancer"))
+
+(fact in-vitro-hits 3
+    :evidence (evidence "pubmed-EGFR"
+        :quotes ("PUBMED_HITS in_vitro=3")
+        :explanation "Indexed records reporting colorectal cell line or organoid work on EGFR"))
+
+(fact in-vivo-hits 3
+    :evidence (evidence "pubmed-EGFR"
+        :quotes ("PUBMED_HITS in_vivo=3")
+        :explanation "Indexed records reporting xenograft or mouse model work on EGFR"))
+
+(fact druggability-hits 3
+    :evidence (evidence "pubmed-EGFR"
+        :quotes ("PUBMED_HITS druggability=3")
+        :explanation "Indexed records describing an inhibitor, degrader or antibody against EGFR"))
+
+(fact trials-total 10
+    :evidence (evidence "trials-EGFR"
+        :quotes ("TRIALS total=10")
+        :explanation "Registered colorectal cancer trials naming EGFR"))
+
+(fact trials-late-phase 0
+    :evidence (evidence "trials-EGFR"
+        :quotes ("TRIALS late_phase=0")
+        :explanation "Trials in phase 3 or phase 4"))
+
+(fact trials-recruiting 1
+    :evidence (evidence "trials-EGFR"
+        :quotes ("TRIALS recruiting=1")
+        :explanation "Trials currently recruiting"))
+
+(fact binding-sites 4
+    :evidence (evidence "uniprot-EGFR"
+        :quotes ("UNIPROT binding_sites=4")
+        :explanation "Binding sites annotated on the reviewed human EGFR entry"))
+
+; ------------------------------------------------ document anchors
+
+(fact paper-42576549 true
+    :evidence (evidence "pubmed-EGFR"
+        :quotes ("TITLE: Chemopreventive Effects of Boldine and Naringenin on DMH-Induced Colorectal Carcinogenesis.")
+        :explanation "PMID 42576549 (in_vivo query, Anti-cancer agents in medicinal chemistry 2026-07-29)"))
+
+(fact paper-42492133 true
+    :evidence (evidence "pubmed-EGFR"
+        :quotes ("TITLE: Anticancer evaluation of novel chiral tetrahydropyrazolo[1,5-a]pyrimidine derivatives: Inhibitory effects on proliferation and migration of colon cancer cells with high HER2 expression.")
+        :explanation "PMID 42492133 (in_vivo query, Bioorganic chemistry 2026-07-15)"))
+
+(fact paper-42595923 true
+    :evidence (evidence "pubmed-EGFR"
+        :quotes ("TITLE: Active ingredients and molecular targets of Tripterygium wilfordii against colorectal cancer: network pharmacology, molecular docking, molecular dynamics simulations and in vitro evaluation.")
+        :explanation "PMID 42595923 (in_vitro query, Journal of computer-aided molecular design 2026-08-13)"))
+
+(fact paper-42581138 true
+    :evidence (evidence "pubmed-EGFR"
+        :quotes ("TITLE: Absence of EGFR signalling in granulocytic cells relieves immunosuppression sensitising CRC metastases to immune checkpoint therapy.")
+        :explanation "PMID 42581138 (in_vitro query, Cell death and differentiation 2026-08-11)"))
+
+(fact paper-42609500 true
+    :evidence (evidence "pubmed-EGFR"
+        :quotes ("TITLE: Squamous transformation of EGFR-mutant lung adenocarcinoma after EGFR-TKI therapy: clonal continuity, tissue-based diagnosis, and therapeutic evidence gaps.")
+        :explanation "PMID 42609500 (druggability query, Frontiers in oncology 2026-08-03)"))
+
+(fact paper-42609336 true
+    :evidence (evidence "pubmed-EGFR"
+        :quotes ("TITLE: A clinical prediction model integrating cardiovascular-kidney-metabolic biomarkers for the composite outcome of quality-of-life deterioration and rehospitalization in elderly HFpEF patients.")
+        :explanation "PMID 42609336 (druggability query, Frontiers in endocrinology 2026-08-03)"))
+
+(fact trial-NCT07503756 true
+    :evidence (evidence "trials-EGFR"
+        :quotes ("TITLE: JS212 Combination Therapies in Metastatic Colorectal Cancer")
+        :explanation "NCT07503756 — status RECRUITING, phases PHASE2"))
+
+; -------------------------------------------------------- claims
+
+(derive structurally-druggable (and (> binding-sites 0) src.rules.c1-in-force)
+    :using (binding-sites src.rules.c1-in-force))
+
+(derive has-chemical-matter (and (>= druggability-hits 3) src.rules.c2-in-force)
+    :using (druggability-hits src.rules.c2-in-force))
+
+(derive druggable (and (and structurally-druggable has-chemical-matter) src.rules.c3-in-force)
+    :using (structurally-druggable has-chemical-matter src.rules.c3-in-force))
+
+(derive in-vitro-supported (and (> in-vitro-hits 0) src.rules.c4-in-force)
+    :using (in-vitro-hits src.rules.c4-in-force))
+
+(derive in-vivo-supported (and (> in-vivo-hits 0) src.rules.c5-in-force)
+    :using (in-vivo-hits src.rules.c5-in-force))
+
+(derive clinical-traction
+    (and (or (> trials-late-phase 0) (> trials-recruiting 0)) src.rules.c6-in-force)
+    :using (trials-late-phase trials-recruiting src.rules.c6-in-force))
+
+; charter C8 — the dossier is anchored to quoted documents
+(derive dossier-anchored (and (and paper-42576549 (and paper-42492133 (and paper-42595923 (and paper-42581138 (and paper-42609500 (and paper-42609336 trial-NCT07503756)))))) src.rules.c8-in-force)
+    :using (paper-42576549 paper-42492133 paper-42595923 paper-42581138 paper-42609500 paper-42609336 trial-NCT07503756 src.rules.c8-in-force))
