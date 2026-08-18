@@ -1,0 +1,66 @@
+Registry snapshot — ERBB2
+Checked 2026-08-18 12:46 UTC against PubMed, ClinicalTrials.gov and UniProt
+
+## COUNTERS
+VERIFIED subject_records=3
+VERIFIED weak_attribution=7
+VERIFIED off_target=0
+VERIFIED title_drift=0
+VERIFIED retracted=0
+VERIFIED unresolved=0
+VERIFIED not_checked=0
+VERIFIED checked_total=10
+
+## RECORDS
+uniprot P04626 | status=sound | gene_role=title | indication=not-applicable | resolves=True
+REGISTRY TITLE: Receptor tyrosine-protein kinase erbB-2
+DOSSIER QUOTE: UNIPROT binding_sites=2
+
+pmid 42176792 | status=sound | gene_role=title | indication=abstract | resolves=True
+REGISTRY TITLE: EGFR S442 ectodomain mutation confers cetuximab resistance that can be overcome by ERBB2 blockade with trastuzumab-deruxtecan.
+DOSSIER QUOTE: TITLE: EGFR S442 ectodomain mutation confers cetuximab resistance that can be overcome by ERBB2 blockade with trastuzumab-deruxtecan.
+PUBLICATION TYPES: Journal Article
+
+pmid 42401587 | status=weak-attribution | gene_role=abstract | indication=title | resolves=True
+REGISTRY TITLE: Signaling downstream of tumor-stroma interaction regulates mucinous colorectal adenocarcinoma apicobasal polarity.
+DOSSIER QUOTE: TITLE: Signaling downstream of tumor-stroma interaction regulates mucinous colorectal adenocarcinoma apicobasal polarity.
+PUBLICATION TYPES: Journal Article
+REASON: ERBB2 appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else
+
+pmid 42426557 | status=weak-attribution | gene_role=abstract | indication=title | resolves=True
+REGISTRY TITLE: Anti-Human Epidermal Growth Factor Receptor 2 therapies in metastatic colorectal cancer: a systematic review and meta-analysis.
+DOSSIER QUOTE: TITLE: Anti-Human Epidermal Growth Factor Receptor 2 therapies in metastatic colorectal cancer: a systematic review and meta-analysis.
+PUBLICATION TYPES: Journal Article, Systematic Review, Meta-Analysis
+REASON: ERBB2 appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else
+
+pmid 42497534 | status=weak-attribution | gene_role=title | indication=absent | resolves=True
+REGISTRY TITLE: The Xpert Breast Cancer Insight Test Predicts Distant Recurrence and Overall Survival in ER-Positive, HER2-Negative Early Breast Cancer.
+DOSSIER QUOTE: TITLE: The Xpert Breast Cancer Insight Test Predicts Distant Recurrence and Overall Survival in ER-Positive, HER2-Negative Early Breast Cancer.
+PUBLICATION TYPES: Journal Article
+REASON: record names no colorectal indication, so it does not speak to this disease
+
+pmid 42599169 | status=weak-attribution | gene_role=abstract | indication=absent | resolves=True
+REGISTRY TITLE: Incremental Value of Synthetic MRI Radiomics in Predicting Neoadjuvant Response in Human Epidermal Growth Factor Receptor 2-Positive Breast Cancer.
+DOSSIER QUOTE: TITLE: Incremental Value of Synthetic MRI Radiomics in Predicting Neoadjuvant Response in Human Epidermal Growth Factor Receptor 2-Positive Breast Cancer.
+PUBLICATION TYPES: Journal Article, Multicenter Study
+REASON: ERBB2 appears only in the abstract, not in the title, so it is not the subject of this record — and the record names no colorectal indication either
+
+pmid 42601812 | status=weak-attribution | gene_role=title | indication=absent | resolves=True
+REGISTRY TITLE: Exceptional Response of HER2-Positive Breast Cancer to Osimertinib: A Case Report.
+DOSSIER QUOTE: TITLE: Exceptional Response of HER2-Positive Breast Cancer to Osimertinib: A Case Report.
+PUBLICATION TYPES: Case Reports, Journal Article
+REASON: record names no colorectal indication, so it does not speak to this disease
+
+nct NCT03803553 | status=weak-attribution | gene_role=absent | indication=title | resolves=True
+REGISTRY TITLE: Identification and Treatment Of Micrometastatic Disease in Stage III Colon Cancer
+DOSSIER QUOTE: TITLE: Identification and Treatment Of Micrometastatic Disease in Stage III Colon Cancer
+REASON: trial record names no ERBB2 under any of its UniProt names — it was matched to this target by free-text search, and only the indication lines up
+
+nct NCT07384377 | status=sound | gene_role=title | indication=title | resolves=True
+REGISTRY TITLE: JSKN003 Versus Physician Choiced Treatment in Patients With HER2-positive and Advanced Colorectal Cancer Who Had Failed to Respond to Oxaliplatin, 5-Fu, and Irinotecan
+DOSSIER QUOTE: TITLE: JSKN003 Versus Physician Choiced Treatment in Patients With HER2-positive and Advanced Colorectal Cancer Who Had Failed to Respond to Oxaliplatin, 5-Fu, and Irinotecan
+
+nct NCT07503756 | status=weak-attribution | gene_role=abstract | indication=title | resolves=True
+REGISTRY TITLE: JS212 Combination Therapies in Metastatic Colorectal Cancer
+DOSSIER QUOTE: TITLE: JS212 Combination Therapies in Metastatic Colorectal Cancer
+REASON: ERBB2 appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else

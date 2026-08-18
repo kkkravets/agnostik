@@ -1,0 +1,61 @@
+; MYC — what the dossier asserts (stage 4 export, transcribed)
+
+(fact cited-records 8
+    :evidence (evidence "dossier-MYC"
+        :quotes ("DOSSIER cited_records=8")
+        :explanation "Records the MYC dossier rests on"))
+
+(fact assumed-off-target 0
+    :evidence (evidence "dossier-MYC"
+        :quotes ("DOSSIER assumed_off_target=0")
+        :explanation "The dossier cites every record as support, so it assumes none is off target"))
+
+(fact assumed-retracted 0
+    :evidence (evidence "dossier-MYC"
+        :quotes ("DOSSIER assumed_retracted=0")
+        :explanation "The dossier assumes no cited record is retracted"))
+
+(fact assumed-unresolved 0
+    :evidence (evidence "dossier-MYC"
+        :quotes ("DOSSIER assumed_unresolved=0")
+        :explanation "The dossier assumes every cited record resolves"))
+
+(fact supports-uniprot-P01106 true
+    :evidence (evidence "dossier-MYC"
+        :quotes ("DOSSIER SUPPORTS uniprot P01106")
+        :explanation "The dossier treats P01106 as support for MYC"))
+
+(fact supports-pmid-42497765 true
+    :evidence (evidence "dossier-MYC"
+        :quotes ("DOSSIER SUPPORTS pmid 42497765")
+        :explanation "The dossier treats 42497765 as support for MYC"))
+
+(fact supports-pmid-42548213 true
+    :evidence (evidence "dossier-MYC"
+        :quotes ("DOSSIER SUPPORTS pmid 42548213")
+        :explanation "The dossier treats 42548213 as support for MYC"))
+
+(fact supports-pmid-42560559 true
+    :evidence (evidence "dossier-MYC"
+        :quotes ("DOSSIER SUPPORTS pmid 42560559")
+        :explanation "The dossier treats 42560559 as support for MYC"))
+
+(fact supports-pmid-42607078 true
+    :evidence (evidence "dossier-MYC"
+        :quotes ("DOSSIER SUPPORTS pmid 42607078")
+        :explanation "The dossier treats 42607078 as support for MYC"))
+
+(fact supports-pmid-42608167 true
+    :evidence (evidence "dossier-MYC"
+        :quotes ("DOSSIER SUPPORTS pmid 42608167")
+        :explanation "The dossier treats 42608167 as support for MYC"))
+
+(fact supports-nct-NCT05919264 true
+    :evidence (evidence "dossier-MYC"
+        :quotes ("DOSSIER SUPPORTS nct NCT05919264")
+        :explanation "The dossier treats NCT05919264 as support for MYC"))
+
+(fact supports-nct-NCT07147231 true
+    :evidence (evidence "dossier-MYC"
+        :quotes ("DOSSIER SUPPORTS nct NCT07147231")
+        :explanation "The dossier treats NCT07147231 as support for MYC"))

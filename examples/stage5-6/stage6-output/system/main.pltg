@@ -1,0 +1,33 @@
+; main.pltg — formal consistency screening of the CRC shortlist
+; Generated 2026-08-18 12:52 UTC
+
+(load-document "charter" "docs/charter.md")
+(load-document "dossier-EGFR" "docs/dossier-EGFR.txt")
+(load-document "registry-EGFR" "docs/registry-EGFR.txt")
+(load-document "dossier-ERBB2" "docs/dossier-ERBB2.txt")
+(load-document "registry-ERBB2" "docs/registry-ERBB2.txt")
+(load-document "dossier-KRAS" "docs/dossier-KRAS.txt")
+(load-document "registry-KRAS" "docs/registry-KRAS.txt")
+(load-document "dossier-MYC" "docs/dossier-MYC.txt")
+(load-document "registry-MYC" "docs/registry-MYC.txt")
+(load-document "dossier-WRN" "docs/dossier-WRN.txt")
+(load-document "registry-WRN" "docs/registry-WRN.txt")
+(load-document "dossier-PRMT5" "docs/dossier-PRMT5.txt")
+(load-document "registry-PRMT5" "docs/registry-PRMT5.txt")
+
+(import (quote src.rules))
+
+(import (quote src.dossier_egfr))
+(import (quote src.registry_egfr))
+(import (quote src.dossier_erbb2))
+(import (quote src.registry_erbb2))
+(import (quote src.dossier_kras))
+(import (quote src.registry_kras))
+(import (quote src.dossier_myc))
+(import (quote src.registry_myc))
+(import (quote src.dossier_wrn))
+(import (quote src.registry_wrn))
+(import (quote src.dossier_prmt5))
+(import (quote src.registry_prmt5))
+
+(import (quote src.checks))

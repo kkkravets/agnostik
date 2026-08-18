@@ -13,6 +13,8 @@ dependencies = [
 agnostik = "agnostik.cli:main"
 agnostik-nebius-smoke = "agnostik.nebius_smoke:main"
 agnostik-objections = "agnostik.objections.cli:main"
+agnostik-citecheck = "agnostik.citecheck.cli:main"
+agnostik-consistency = "agnostik.consistency.cli:main"
 
 [build-system]
 requires = ["hatchling"]

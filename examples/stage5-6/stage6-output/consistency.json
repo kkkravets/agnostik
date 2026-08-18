@@ -1,0 +1,2002 @@
+{
+  "meta": {
+    "export": [
+      "examples/stage4/fixtures/crc6-dossiers.html",
+      "examples/stage4/fixtures/crc6-verdicts.html"
+    ],
+    "citecheck": "/private/tmp/claude-501/-Users-sirius-repos-hackbio-nebius/cd78013d-de03-487f-8f9f-521a808cd1ed/scratchpad/stage5",
+    "system": "/private/tmp/claude-501/-Users-sirius-repos-hackbio-nebius/cd78013d-de03-487f-8f9f-521a808cd1ed/scratchpad/stage6/system",
+    "targets": [
+      "EGFR",
+      "ERBB2",
+      "KRAS",
+      "MYC",
+      "WRN",
+      "PRMT5"
+    ]
+  },
+  "engine": {
+    "integrity": "verified",
+    "quotes_verified": true,
+    "load_errors": [],
+    "issues": [
+      {
+        "name": "src.checks.egfr-base-intact",
+        "check": "egfr-base-intact",
+        "category": "issue",
+        "type": "potential_fabrication",
+        "kind": "derive",
+        "location": "src/checks.pltg:46:1",
+        "compared": {},
+        "consequences": {}
+      },
+      {
+        "name": "src.checks.erbb2-base-intact",
+        "check": "erbb2-base-intact",
+        "category": "issue",
+        "type": "potential_fabrication",
+        "kind": "derive",
+        "location": "src/checks.pltg:120:1",
+        "compared": {},
+        "consequences": {}
+      },
+      {
+        "name": "src.checks.kras-base-intact",
+        "check": "kras-base-intact",
+        "category": "issue",
+        "type": "potential_fabrication",
+        "kind": "derive",
+        "location": "src/checks.pltg:198:1",
+        "compared": {},
+        "consequences": {}
+      },
+      {
+        "name": "src.checks.kras-base-usable",
+        "check": "kras-base-usable",
+        "category": "issue",
+        "type": "potential_fabrication",
+        "kind": "derive",
+        "location": "src/checks.pltg:218:1",
+        "compared": {},
+        "consequences": {}
+      },
+      {
+        "name": "src.checks.kras-clean-of-off-target",
+        "check": "kras-clean-of-off-target",
+        "category": "issue",
+        "type": "potential_fabrication",
+        "kind": "derive",
+        "location": "src/checks.pltg:202:1",
+        "compared": {},
+        "consequences": {}
+      },
+      {
+        "name": "src.checks.kras-verdict-proven",
+        "check": "kras-verdict-proven",
+        "category": "issue",
+        "type": "potential_fabrication",
+        "kind": "derive",
+        "location": "src/checks.pltg:223:1",
+        "compared": {},
+        "consequences": {}
+      },
+      {
+        "name": "src.checks.myc-base-intact",
+        "check": "myc-base-intact",
+        "category": "issue",
+        "type": "potential_fabrication",
+        "kind": "derive",
+        "location": "src/checks.pltg:268:1",
+        "compared": {},
+        "consequences": {}
+      },
+      {
+        "name": "src.checks.prmt5-base-intact",
+        "check": "prmt5-base-intact",
+        "category": "issue",
+        "type": "potential_fabrication",
+        "kind": "derive",
+        "location": "src/checks.pltg:416:1",
+        "compared": {},
+        "consequences": {}
+      },
+      {
+        "name": "src.checks.proven-verdicts",
+        "check": "proven-verdicts",
+        "category": "issue",
+        "type": "potential_fabrication",
+        "kind": "derive",
+        "location": "src/checks.pltg:445:1",
+        "compared": {},
+        "consequences": {}
+      },
+      {
+        "name": "src.checks.wrn-base-intact",
+        "check": "wrn-base-intact",
+        "category": "issue",
+        "type": "potential_fabrication",
+        "kind": "derive",
+        "location": "src/checks.pltg:342:1",
+        "compared": {},
+        "consequences": {}
+      },
+      {
+        "name": "src.checks.egfr-support-base",
+        "check": "egfr-support-base",
+        "category": "issue",
+        "type": "diff_divergence",
+        "kind": "diff",
+        "location": "src/checks.pltg:6:1",
+        "compared": {
+          "dossier_side": "src.dossier_egfr.cited-records",
+          "registry_side": "src.registry_egfr.subject-records",
+          "dossier_value": "8",
+          "registry_value": "2"
+        },
+        "consequences": {
+          "src.checks.egfr-base-intact": [
+            "False",
+            "True"
+          ]
+        }
+      },
+      {
+        "name": "src.checks.erbb2-support-base",
+        "check": "erbb2-support-base",
+        "category": "issue",
+        "type": "diff_divergence",
+        "kind": "diff",
+        "location": "src/checks.pltg:76:1",
+        "compared": {
+          "dossier_side": "src.dossier_erbb2.cited-records",
+          "registry_side": "src.registry_erbb2.subject-records",
+          "dossier_value": "10",
+          "registry_value": "3"
+        },
+        "consequences": {
+          "src.checks.erbb2-base-intact": [
+            "False",
+            "True"
+          ]
+        }
+      },
+      {
+        "name": "src.checks.kras-support-base",
+        "check": "kras-support-base",
+        "category": "issue",
+        "type": "diff_divergence",
+        "kind": "diff",
+        "location": "src/checks.pltg:150:1",
+        "compared": {
+          "dossier_side": "src.dossier_kras.cited-records",
+          "registry_side": "src.registry_kras.subject-records",
+          "dossier_value": "11",
+          "registry_value": "3"
+        },
+        "consequences": {
+          "src.checks.kras-base-intact": [
+            "False",
+            "True"
+          ]
+        }
+      },
+      {
+        "name": "src.checks.myc-support-base",
+        "check": "myc-support-base",
+        "category": "issue",
+        "type": "diff_divergence",
+        "kind": "diff",
+        "location": "src/checks.pltg:228:1",
+        "compared": {
+          "dossier_side": "src.dossier_myc.cited-records",
+          "registry_side": "src.registry_myc.subject-records",
+          "dossier_value": "8",
+          "registry_value": "2"
+        },
+        "consequences": {
+          "src.checks.myc-base-intact": [
+            "False",
+            "True"
+          ]
+        }
+      },
+      {
+        "name": "src.checks.prmt5-support-base",
+        "check": "prmt5-support-base",
+        "category": "issue",
+        "type": "diff_divergence",
+        "kind": "diff",
+        "location": "src/checks.pltg:372:1",
+        "compared": {
+          "dossier_side": "src.dossier_prmt5.cited-records",
+          "registry_side": "src.registry_prmt5.subject-records",
+          "dossier_value": "9",
+          "registry_value": "2"
+        },
+        "consequences": {
+          "src.checks.prmt5-base-intact": [
+            "False",
+            "True"
+          ]
+        }
+      },
+      {
+        "name": "src.checks.wrn-support-base",
+        "check": "wrn-support-base",
+        "category": "issue",
+        "type": "diff_divergence",
+        "kind": "diff",
+        "location": "src/checks.pltg:298:1",
+        "compared": {
+          "dossier_side": "src.dossier_wrn.cited-records",
+          "registry_side": "src.registry_wrn.subject-records",
+          "dossier_value": "11",
+          "registry_value": "4"
+        },
+        "consequences": {
+          "src.checks.wrn-base-intact": [
+            "False",
+            "True"
+          ]
+        }
+      },
+      {
+        "name": "src.checks.egfr-supports-nct-NCT07503756",
+        "check": "egfr-supports-nct-NCT07503756",
+        "category": "issue",
+        "type": "diff_value_divergence",
+        "kind": "diff",
+        "location": "src/checks.pltg:42:1",
+        "compared": {
+          "dossier_side": "src.dossier_egfr.supports-nct-NCT07503756",
+          "registry_side": "src.registry_egfr.supports-nct-NCT07503756",
+          "dossier_value": "True",
+          "registry_value": "False"
+        },
+        "consequences": {}
+      },
+      {
+        "name": "src.checks.egfr-supports-pmid-42492133",
+        "check": "egfr-supports-pmid-42492133",
+        "category": "issue",
+        "type": "diff_value_divergence",
+        "kind": "diff",
+        "location": "src/checks.pltg:22:1",
+        "compared": {
+          "dossier_side": "src.dossier_egfr.supports-pmid-42492133",
+          "registry_side": "src.registry_egfr.supports-pmid-42492133",
+          "dossier_value": "True",
+          "registry_value": "False"
+        },
+        "consequences": {}
+      },
+      {
+        "name": "src.checks.egfr-supports-pmid-42576549",
+        "check": "egfr-supports-pmid-42576549",
+        "category": "issue",
+        "type": "diff_value_divergence",
+        "kind": "diff",
+        "location": "src/checks.pltg:26:1",
+        "compared": {
+          "dossier_side": "src.dossier_egfr.supports-pmid-42576549",
+          "registry_side": "src.registry_egfr.supports-pmid-42576549",
+          "dossier_value": "True",
+          "registry_value": "False"
+        },
+        "consequences": {}
+      },
+      {
+        "name": "src.checks.egfr-supports-pmid-42595923",
+        "check": "egfr-supports-pmid-42595923",
+        "category": "issue",
+        "type": "diff_value_divergence",
+        "kind": "diff",
+        "location": "src/checks.pltg:30:1",
+        "compared": {
+          "dossier_side": "src.dossier_egfr.supports-pmid-42595923",
+          "registry_side": "src.registry_egfr.supports-pmid-42595923",
+          "dossier_value": "True",
+          "registry_value": "False"
+        },
+        "consequences": {}
+      },
+      {
+        "name": "src.checks.egfr-supports-pmid-42609336",
+        "check": "egfr-supports-pmid-42609336",
+        "category": "issue",
+        "type": "diff_value_divergence",
+        "kind": "diff",
+        "location": "src/checks.pltg:34:1",
+        "compared": {
+          "dossier_side": "src.dossier_egfr.supports-pmid-42609336",
+          "registry_side": "src.registry_egfr.supports-pmid-42609336",
+          "dossier_value": "True",
+          "registry_value": "False"
+        },
+        "consequences": {}
+      },
+      {
+        "name": "src.checks.egfr-supports-pmid-42609500",
+        "check": "egfr-supports-pmid-42609500",
+        "category": "issue",
+        "type": "diff_value_divergence",
+        "kind": "diff",
+        "location": "src/checks.pltg:38:1",
+        "compared": {
+          "dossier_side": "src.dossier_egfr.supports-pmid-42609500",
+          "registry_side": "src.registry_egfr.supports-pmid-42609500",
+          "dossier_value": "True",
+          "registry_value": "False"
+        },
+        "consequences": {}
+      },
+      {
+        "name": "src.checks.erbb2-supports-nct-NCT03803553",
+        "check": "erbb2-supports-nct-NCT03803553",
+        "category": "issue",
+        "type": "diff_value_divergence",
+        "kind": "diff",
+        "location": "src/checks.pltg:112:1",
+        "compared": {
+          "dossier_side": "src.dossier_erbb2.supports-nct-NCT03803553",
+          "registry_side": "src.registry_erbb2.supports-nct-NCT03803553",
+          "dossier_value": "True",
+          "registry_value": "False"
+        },
+        "consequences": {}
+      },
+      {
+        "name": "src.checks.erbb2-supports-nct-NCT07503756",
+        "check": "erbb2-supports-nct-NCT07503756",
+        "category": "issue",
+        "type": "diff_value_divergence",
+        "kind": "diff",
+        "location": "src/checks.pltg:116:1",
+        "compared": {
+          "dossier_side": "src.dossier_erbb2.supports-nct-NCT07503756",
+          "registry_side": "src.registry_erbb2.supports-nct-NCT07503756",
+          "dossier_value": "True",
+          "registry_value": "False"
+        },
+        "consequences": {}
+      },
+      {
+        "name": "src.checks.erbb2-supports-pmid-42401587",
+        "check": "erbb2-supports-pmid-42401587",
+        "category": "issue",
+        "type": "diff_value_divergence",
+        "kind": "diff",
+        "location": "src/checks.pltg:92:1",
+        "compared": {
+          "dossier_side": "src.dossier_erbb2.supports-pmid-42401587",
+          "registry_side": "src.registry_erbb2.supports-pmid-42401587",
+          "dossier_value": "True",
+          "registry_value": "False"
+        },
+        "consequences": {}
+      },
+      {
+        "name": "src.checks.erbb2-supports-pmid-42426557",
+        "check": "erbb2-supports-pmid-42426557",
+        "category": "issue",
+        "type": "diff_value_divergence",
+        "kind": "diff",
+        "location": "src/checks.pltg:96:1",
+        "compared": {
+          "dossier_side": "src.dossier_erbb2.supports-pmid-42426557",
+          "registry_side": "src.registry_erbb2.supports-pmid-42426557",
+          "dossier_value": "True",
+          "registry_value": "False"
+        },
+        "consequences": {}
+      },
+      {
+        "name": "src.checks.erbb2-supports-pmid-42497534",
+        "check": "erbb2-supports-pmid-42497534",
+        "category": "issue",
+        "type": "diff_value_divergence",
+        "kind": "diff",
+        "location": "src/checks.pltg:100:1",
+        "compared": {
+          "dossier_side": "src.dossier_erbb2.supports-pmid-42497534",
+          "registry_side": "src.registry_erbb2.supports-pmid-42497534",
+          "dossier_value": "True",
+          "registry_value": "False"
+        },
+        "consequences": {}
+      },
+      {
+        "name": "src.checks.erbb2-supports-pmid-42599169",
+        "check": "erbb2-supports-pmid-42599169",
+        "category": "issue",
+        "type": "diff_value_divergence",
+        "kind": "diff",
+        "location": "src/checks.pltg:104:1",
+        "compared": {
+          "dossier_side": "src.dossier_erbb2.supports-pmid-42599169",
+          "registry_side": "src.registry_erbb2.supports-pmid-42599169",
+          "dossier_value": "True",
+          "registry_value": "False"
+        },
+        "consequences": {}
+      },
+      {
+        "name": "src.checks.erbb2-supports-pmid-42601812",
+        "check": "erbb2-supports-pmid-42601812",
+        "category": "issue",
+        "type": "diff_value_divergence",
+        "kind": "diff",
+        "location": "src/checks.pltg:108:1",
+        "compared": {
+          "dossier_side": "src.dossier_erbb2.supports-pmid-42601812",
+          "registry_side": "src.registry_erbb2.supports-pmid-42601812",
+          "dossier_value": "True",
+          "registry_value": "False"
+        },
+        "consequences": {}
+      },
+      {
+        "name": "src.checks.kras-off-target",
+        "check": "kras-off-target",
+        "category": "issue",
+        "type": "diff_value_divergence",
+        "kind": "diff",
+        "location": "src/checks.pltg:154:1",
+        "compared": {
+          "dossier_side": "src.dossier_kras.assumed-off-target",
+          "registry_side": "src.registry_kras.off-target",
+          "dossier_value": "0",
+          "registry_value": "1"
+        },
+        "consequences": {}
+      },
+      {
+        "name": "src.checks.kras-supports-nct-NCT05176483",
+        "check": "kras-supports-nct-NCT05176483",
+        "category": "issue",
+        "type": "diff_value_divergence",
+        "kind": "diff",
+        "location": "src/checks.pltg:194:1",
+        "compared": {
+          "dossier_side": "src.dossier_kras.supports-nct-NCT05176483",
+          "registry_side": "src.registry_kras.supports-nct-NCT05176483",
+          "dossier_value": "True",
+          "registry_value": "False"
+        },
+        "consequences": {}
+      },
+      {
+        "name": "src.checks.kras-supports-pmid-42527030",
+        "check": "kras-supports-pmid-42527030",
+        "category": "issue",
+        "type": "diff_value_divergence",
+        "kind": "diff",
+        "location": "src/checks.pltg:166:1",
+        "compared": {
+          "dossier_side": "src.dossier_kras.supports-pmid-42527030",
+          "registry_side": "src.registry_kras.supports-pmid-42527030",
+          "dossier_value": "True",
+          "registry_value": "False"
+        },
+        "consequences": {}
+      },
+      {
+        "name": "src.checks.kras-supports-pmid-42557320",
+        "check": "kras-supports-pmid-42557320",
+        "category": "issue",
+        "type": "diff_value_divergence",
+        "kind": "diff",
+        "location": "src/checks.pltg:170:1",
+        "compared": {
+          "dossier_side": "src.dossier_kras.supports-pmid-42557320",
+          "registry_side": "src.registry_kras.supports-pmid-42557320",
+          "dossier_value": "True",
+          "registry_value": "False"
+        },
+        "consequences": {}
+      },
+      {
+        "name": "src.checks.kras-supports-pmid-42570059",
+        "check": "kras-supports-pmid-42570059",
+        "category": "issue",
+        "type": "diff_value_divergence",
+        "kind": "diff",
+        "location": "src/checks.pltg:174:1",
+        "compared": {
+          "dossier_side": "src.dossier_kras.supports-pmid-42570059",
+          "registry_side": "src.registry_kras.supports-pmid-42570059",
+          "dossier_value": "True",
+          "registry_value": "False"
+        },
+        "consequences": {}
+      },
+      {
+        "name": "src.checks.kras-supports-pmid-42599639",
+        "check": "kras-supports-pmid-42599639",
+        "category": "issue",
+        "type": "diff_value_divergence",
+        "kind": "diff",
+        "location": "src/checks.pltg:178:1",
+        "compared": {
+          "dossier_side": "src.dossier_kras.supports-pmid-42599639",
+          "registry_side": "src.registry_kras.supports-pmid-42599639",
+          "dossier_value": "True",
+          "registry_value": "False"
+        },
+        "consequences": {}
+      },
+      {
+        "name": "src.checks.kras-supports-pmid-42605754",
+        "check": "kras-supports-pmid-42605754",
+        "category": "issue",
+        "type": "diff_value_divergence",
+        "kind": "diff",
+        "location": "src/checks.pltg:182:1",
+        "compared": {
+          "dossier_side": "src.dossier_kras.supports-pmid-42605754",
+          "registry_side": "src.registry_kras.supports-pmid-42605754",
+          "dossier_value": "True",
+          "registry_value": "False"
+        },
+        "consequences": {}
+      },
+      {
+        "name": "src.checks.kras-supports-pmid-42606648",
+        "check": "kras-supports-pmid-42606648",
+        "category": "issue",
+        "type": "diff_value_divergence",
+        "kind": "diff",
+        "location": "src/checks.pltg:186:1",
+        "compared": {
+          "dossier_side": "src.dossier_kras.supports-pmid-42606648",
+          "registry_side": "src.registry_kras.supports-pmid-42606648",
+          "dossier_value": "True",
+          "registry_value": "False"
+        },
+        "consequences": {}
+      },
+      {
+        "name": "src.checks.kras-supports-pmid-42607542",
+        "check": "kras-supports-pmid-42607542",
+        "category": "issue",
+        "type": "diff_value_divergence",
+        "kind": "diff",
+        "location": "src/checks.pltg:190:1",
+        "compared": {
+          "dossier_side": "src.dossier_kras.supports-pmid-42607542",
+          "registry_side": "src.registry_kras.supports-pmid-42607542",
+          "dossier_value": "True",
+          "registry_value": "False"
+        },
+        "consequences": {}
+      },
+      {
+        "name": "src.checks.myc-supports-nct-NCT05919264",
+        "check": "myc-supports-nct-NCT05919264",
+        "category": "issue",
+        "type": "diff_value_divergence",
+        "kind": "diff",
+        "location": "src/checks.pltg:260:1",
+        "compared": {
+          "dossier_side": "src.dossier_myc.supports-nct-NCT05919264",
+          "registry_side": "src.registry_myc.supports-nct-NCT05919264",
+          "dossier_value": "True",
+          "registry_value": "False"
+        },
+        "consequences": {}
+      },
+      {
+        "name": "src.checks.myc-supports-nct-NCT07147231",
+        "check": "myc-supports-nct-NCT07147231",
+        "category": "issue",
+        "type": "diff_value_divergence",
+        "kind": "diff",
+        "location": "src/checks.pltg:264:1",
+        "compared": {
+          "dossier_side": "src.dossier_myc.supports-nct-NCT07147231",
+          "registry_side": "src.registry_myc.supports-nct-NCT07147231",
+          "dossier_value": "True",
+          "registry_value": "False"
+        },
+        "consequences": {}
+      },
+      {
+        "name": "src.checks.myc-supports-pmid-42497765",
+        "check": "myc-supports-pmid-42497765",
+        "category": "issue",
+        "type": "diff_value_divergence",
+        "kind": "diff",
+        "location": "src/checks.pltg:244:1",
+        "compared": {
+          "dossier_side": "src.dossier_myc.supports-pmid-42497765",
+          "registry_side": "src.registry_myc.supports-pmid-42497765",
+          "dossier_value": "True",
+          "registry_value": "False"
+        },
+        "consequences": {}
+      },
+      {
+        "name": "src.checks.myc-supports-pmid-42548213",
+        "check": "myc-supports-pmid-42548213",
+        "category": "issue",
+        "type": "diff_value_divergence",
+        "kind": "diff",
+        "location": "src/checks.pltg:248:1",
+        "compared": {
+          "dossier_side": "src.dossier_myc.supports-pmid-42548213",
+          "registry_side": "src.registry_myc.supports-pmid-42548213",
+          "dossier_value": "True",
+          "registry_value": "False"
+        },
+        "consequences": {}
+      },
+      {
+        "name": "src.checks.myc-supports-pmid-42607078",
+        "check": "myc-supports-pmid-42607078",
+        "category": "issue",
+        "type": "diff_value_divergence",
+        "kind": "diff",
+        "location": "src/checks.pltg:252:1",
+        "compared": {
+          "dossier_side": "src.dossier_myc.supports-pmid-42607078",
+          "registry_side": "src.registry_myc.supports-pmid-42607078",
+          "dossier_value": "True",
+          "registry_value": "False"
+        },
+        "consequences": {}
+      },
+      {
+        "name": "src.checks.myc-supports-pmid-42608167",
+        "check": "myc-supports-pmid-42608167",
+        "category": "issue",
+        "type": "diff_value_divergence",
+        "kind": "diff",
+        "location": "src/checks.pltg:256:1",
+        "compared": {
+          "dossier_side": "src.dossier_myc.supports-pmid-42608167",
+          "registry_side": "src.registry_myc.supports-pmid-42608167",
+          "dossier_value": "True",
+          "registry_value": "False"
+        },
+        "consequences": {}
+      },
+      {
+        "name": "src.checks.prmt5-supports-pmid-41513606",
+        "check": "prmt5-supports-pmid-41513606",
+        "category": "issue",
+        "type": "diff_value_divergence",
+        "kind": "diff",
+        "location": "src/checks.pltg:388:1",
+        "compared": {
+          "dossier_side": "src.dossier_prmt5.supports-pmid-41513606",
+          "registry_side": "src.registry_prmt5.supports-pmid-41513606",
+          "dossier_value": "True",
+          "registry_value": "False"
+        },
+        "consequences": {}
+      },
+      {
+        "name": "src.checks.prmt5-supports-pmid-41629269",
+        "check": "prmt5-supports-pmid-41629269",
+        "category": "issue",
+        "type": "diff_value_divergence",
+        "kind": "diff",
+        "location": "src/checks.pltg:392:1",
+        "compared": {
+          "dossier_side": "src.dossier_prmt5.supports-pmid-41629269",
+          "registry_side": "src.registry_prmt5.supports-pmid-41629269",
+          "dossier_value": "True",
+          "registry_value": "False"
+        },
+        "consequences": {}
+      },
+      {
+        "name": "src.checks.prmt5-supports-pmid-41630900",
+        "check": "prmt5-supports-pmid-41630900",
+        "category": "issue",
+        "type": "diff_value_divergence",
+        "kind": "diff",
+        "location": "src/checks.pltg:396:1",
+        "compared": {
+          "dossier_side": "src.dossier_prmt5.supports-pmid-41630900",
+          "registry_side": "src.registry_prmt5.supports-pmid-41630900",
+          "dossier_value": "True",
+          "registry_value": "False"
+        },
+        "consequences": {}
+      },
+      {
+        "name": "src.checks.prmt5-supports-pmid-42133901",
+        "check": "prmt5-supports-pmid-42133901",
+        "category": "issue",
+        "type": "diff_value_divergence",
+        "kind": "diff",
+        "location": "src/checks.pltg:400:1",
+        "compared": {
+          "dossier_side": "src.dossier_prmt5.supports-pmid-42133901",
+          "registry_side": "src.registry_prmt5.supports-pmid-42133901",
+          "dossier_value": "True",
+          "registry_value": "False"
+        },
+        "consequences": {}
+      },
+      {
+        "name": "src.checks.prmt5-supports-pmid-42326870",
+        "check": "prmt5-supports-pmid-42326870",
+        "category": "issue",
+        "type": "diff_value_divergence",
+        "kind": "diff",
+        "location": "src/checks.pltg:404:1",
+        "compared": {
+          "dossier_side": "src.dossier_prmt5.supports-pmid-42326870",
+          "registry_side": "src.registry_prmt5.supports-pmid-42326870",
+          "dossier_value": "True",
+          "registry_value": "False"
+        },
+        "consequences": {}
+      },
+      {
+        "name": "src.checks.prmt5-supports-pmid-42603931",
+        "check": "prmt5-supports-pmid-42603931",
+        "category": "issue",
+        "type": "diff_value_divergence",
+        "kind": "diff",
+        "location": "src/checks.pltg:408:1",
+        "compared": {
+          "dossier_side": "src.dossier_prmt5.supports-pmid-42603931",
+          "registry_side": "src.registry_prmt5.supports-pmid-42603931",
+          "dossier_value": "True",
+          "registry_value": "False"
+        },
+        "consequences": {}
+      },
+      {
+        "name": "src.checks.prmt5-supports-pmid-42607456",
+        "check": "prmt5-supports-pmid-42607456",
+        "category": "issue",
+        "type": "diff_value_divergence",
+        "kind": "diff",
+        "location": "src/checks.pltg:412:1",
+        "compared": {
+          "dossier_side": "src.dossier_prmt5.supports-pmid-42607456",
+          "registry_side": "src.registry_prmt5.supports-pmid-42607456",
+          "dossier_value": "True",
+          "registry_value": "False"
+        },
+        "consequences": {}
+      },
+      {
+        "name": "src.checks.wrn-supports-nct-NCT03570541",
+        "check": "wrn-supports-nct-NCT03570541",
+        "category": "issue",
+        "type": "diff_value_divergence",
+        "kind": "diff",
+        "location": "src/checks.pltg:330:1",
+        "compared": {
+          "dossier_side": "src.dossier_wrn.supports-nct-NCT03570541",
+          "registry_side": "src.registry_wrn.supports-nct-NCT03570541",
+          "dossier_value": "True",
+          "registry_value": "False"
+        },
+        "consequences": {}
+      },
+      {
+        "name": "src.checks.wrn-supports-nct-NCT06974110",
+        "check": "wrn-supports-nct-NCT06974110",
+        "category": "issue",
+        "type": "diff_value_divergence",
+        "kind": "diff",
+        "location": "src/checks.pltg:334:1",
+        "compared": {
+          "dossier_side": "src.dossier_wrn.supports-nct-NCT06974110",
+          "registry_side": "src.registry_wrn.supports-nct-NCT06974110",
+          "dossier_value": "True",
+          "registry_value": "False"
+        },
+        "consequences": {}
+      },
+      {
+        "name": "src.checks.wrn-supports-nct-NCT07262619",
+        "check": "wrn-supports-nct-NCT07262619",
+        "category": "issue",
+        "type": "diff_value_divergence",
+        "kind": "diff",
+        "location": "src/checks.pltg:338:1",
+        "compared": {
+          "dossier_side": "src.dossier_wrn.supports-nct-NCT07262619",
+          "registry_side": "src.registry_wrn.supports-nct-NCT07262619",
+          "dossier_value": "True",
+          "registry_value": "False"
+        },
+        "consequences": {}
+      },
+      {
+        "name": "src.checks.wrn-supports-pmid-40203476",
+        "check": "wrn-supports-pmid-40203476",
+        "category": "issue",
+        "type": "diff_value_divergence",
+        "kind": "diff",
+        "location": "src/checks.pltg:314:1",
+        "compared": {
+          "dossier_side": "src.dossier_wrn.supports-pmid-40203476",
+          "registry_side": "src.registry_wrn.supports-pmid-40203476",
+          "dossier_value": "True",
+          "registry_value": "False"
+        },
+        "consequences": {}
+      },
+      {
+        "name": "src.checks.wrn-supports-pmid-42293362",
+        "check": "wrn-supports-pmid-42293362",
+        "category": "issue",
+        "type": "diff_value_divergence",
+        "kind": "diff",
+        "location": "src/checks.pltg:318:1",
+        "compared": {
+          "dossier_side": "src.dossier_wrn.supports-pmid-42293362",
+          "registry_side": "src.registry_wrn.supports-pmid-42293362",
+          "dossier_value": "True",
+          "registry_value": "False"
+        },
+        "consequences": {}
+      },
+      {
+        "name": "src.checks.wrn-supports-pmid-42593940",
+        "check": "wrn-supports-pmid-42593940",
+        "category": "issue",
+        "type": "diff_value_divergence",
+        "kind": "diff",
+        "location": "src/checks.pltg:322:1",
+        "compared": {
+          "dossier_side": "src.dossier_wrn.supports-pmid-42593940",
+          "registry_side": "src.registry_wrn.supports-pmid-42593940",
+          "dossier_value": "True",
+          "registry_value": "False"
+        },
+        "consequences": {}
+      },
+      {
+        "name": "src.checks.wrn-supports-pmid-42604630",
+        "check": "wrn-supports-pmid-42604630",
+        "category": "issue",
+        "type": "diff_value_divergence",
+        "kind": "diff",
+        "location": "src/checks.pltg:326:1",
+        "compared": {
+          "dossier_side": "src.dossier_wrn.supports-pmid-42604630",
+          "registry_side": "src.registry_wrn.supports-pmid-42604630",
+          "dossier_value": "True",
+          "registry_value": "False"
+        },
+        "consequences": {}
+      }
+    ],
+    "warnings": [],
+    "stats": {
+      "by_category": {
+        "dangling": 45,
+        "issue": 58
+      },
+      "by_type": {
+        "dangling": 45,
+        "diff_value_divergence": 42,
+        "potential_fabrication": 10,
+        "diff_divergence": 6
+      },
+      "by_kind": {
+        "diff": 48,
+        "fact": 32,
+        "derive": 17,
+        "axiom": 6
+      },
+      "by_namespace": {
+        "src": 103
+      },
+      "by_file": {
+        "src/checks.pltg:46": 2,
+        "src/checks.pltg:120": 2,
+        "src/checks.pltg:198": 2,
+        "src/checks.pltg:268": 2,
+        "src/checks.pltg:416": 2,
+        "src/checks.pltg:445": 2,
+        "src/checks.pltg:342": 2,
+        "src/checks.pltg:218": 1,
+        "src/checks.pltg:202": 1,
+        "src/checks.pltg:223": 1,
+        "src/checks.pltg:6": 1,
+        "src/checks.pltg:76": 1,
+        "src/checks.pltg:150": 1,
+        "src/checks.pltg:228": 1,
+        "src/checks.pltg:372": 1,
+        "src/checks.pltg:298": 1,
+        "src/checks.pltg:42": 1,
+        "src/checks.pltg:22": 1,
+        "src/checks.pltg:26": 1,
+        "src/checks.pltg:30": 1,
+        "src/checks.pltg:34": 1,
+        "src/checks.pltg:38": 1,
+        "src/checks.pltg:112": 1,
+        "src/checks.pltg:116": 1,
+        "src/checks.pltg:92": 1,
+        "src/checks.pltg:96": 1,
+        "src/checks.pltg:100": 1,
+        "src/checks.pltg:104": 1,
+        "src/checks.pltg:108": 1,
+        "src/checks.pltg:154": 1,
+        "src/checks.pltg:194": 1,
+        "src/checks.pltg:166": 1,
+        "src/checks.pltg:170": 1,
+        "src/checks.pltg:174": 1,
+        "src/checks.pltg:178": 1,
+        "src/checks.pltg:182": 1,
+        "src/checks.pltg:186": 1,
+        "src/checks.pltg:190": 1,
+        "src/checks.pltg:260": 1,
+        "src/checks.pltg:264": 1,
+        "src/checks.pltg:244": 1,
+        "src/checks.pltg:248": 1,
+        "src/checks.pltg:252": 1,
+        "src/checks.pltg:256": 1,
+        "src/checks.pltg:388": 1,
+        "src/checks.pltg:392": 1,
+        "src/checks.pltg:396": 1,
+        "src/checks.pltg:400": 1,
+        "src/checks.pltg:404": 1,
+        "src/checks.pltg:408": 1,
+        "src/checks.pltg:412": 1,
+        "src/checks.pltg:330": 1,
+        "src/checks.pltg:334": 1,
+        "src/checks.pltg:338": 1,
+        "src/checks.pltg:314": 1,
+        "src/checks.pltg:318": 1,
+        "src/checks.pltg:322": 1,
+        "src/checks.pltg:326": 1,
+        "src/dossier_egfr.pltg:38": 1,
+        "src/dossier_egfr.pltg:23": 1,
+        "src/dossier_erbb2.pltg:63": 1,
+        "src/dossier_erbb2.pltg:28": 1,
+        "src/dossier_erbb2.pltg:23": 1,
+        "src/dossier_kras.pltg:73": 1,
+        "src/dossier_kras.pltg:43": 1,
+        "src/dossier_kras.pltg:23": 1,
+        "src/dossier_myc.pltg:38": 1,
+        "src/dossier_myc.pltg:23": 1,
+        "src/dossier_prmt5.pltg:43": 1,
+        "src/dossier_prmt5.pltg:23": 1,
+        "src/dossier_wrn.pltg:33": 1,
+        "src/dossier_wrn.pltg:43": 1,
+        "src/dossier_wrn.pltg:48": 1,
+        "src/dossier_wrn.pltg:23": 1,
+        "src/registry_egfr.pltg:38": 1,
+        "src/registry_egfr.pltg:23": 1,
+        "src/registry_erbb2.pltg:63": 1,
+        "src/registry_erbb2.pltg:28": 1,
+        "src/registry_erbb2.pltg:23": 1,
+        "src/registry_kras.pltg:73": 1,
+        "src/registry_kras.pltg:43": 1,
+        "src/registry_kras.pltg:23": 1,
+        "src/registry_myc.pltg:38": 1,
+        "src/registry_myc.pltg:23": 1,
+        "src/registry_prmt5.pltg:43": 1,
+        "src/registry_prmt5.pltg:23": 1,
+        "src/registry_wrn.pltg:33": 1,
+        "src/registry_wrn.pltg:43": 1,
+        "src/registry_wrn.pltg:48": 1,
+        "src/registry_wrn.pltg:23": 1,
+        "src/rules.pltg:33": 1,
+        "src/rules.pltg:9": 1,
+        "src/rules.pltg:15": 1,
+        "src/rules.pltg:3": 1,
+        "src/rules.pltg:21": 1,
+        "src/rules.pltg:27": 1
+      }
+    },
+    "values": {
+      "src.checks.egfr-verdict-proven": "True",
+      "src.checks.egfr-base-intact": "False",
+      "src.checks.egfr-base-usable": "True",
+      "src.checks.egfr-has-subject-record": "True",
+      "src.checks.erbb2-verdict-proven": "True",
+      "src.checks.erbb2-base-intact": "False",
+      "src.checks.erbb2-base-usable": "True",
+      "src.checks.erbb2-has-subject-record": "True",
+      "src.checks.kras-verdict-proven": "False",
+      "src.checks.kras-base-intact": "False",
+      "src.checks.kras-base-usable": "False",
+      "src.checks.kras-has-subject-record": "True",
+      "src.checks.myc-verdict-proven": "True",
+      "src.checks.myc-base-intact": "False",
+      "src.checks.myc-base-usable": "True",
+      "src.checks.myc-has-subject-record": "True",
+      "src.checks.wrn-verdict-proven": "True",
+      "src.checks.wrn-base-intact": "False",
+      "src.checks.wrn-base-usable": "True",
+      "src.checks.wrn-has-subject-record": "True",
+      "src.checks.prmt5-verdict-proven": "True",
+      "src.checks.prmt5-base-intact": "False",
+      "src.checks.prmt5-base-usable": "True",
+      "src.checks.prmt5-has-subject-record": "True",
+      "src.checks.proven-verdicts": "5"
+    }
+  },
+  "targets": [
+    {
+      "target": "EGFR",
+      "asserted_verdict": "promising",
+      "verdict_node": "egfr-promising",
+      "cited_records": 8,
+      "subject_records": 2,
+      "weak_attribution": 6,
+      "off_target": 0,
+      "retracted": 0,
+      "unresolved": 0,
+      "support_base_intact": false,
+      "base_narrowed_by": 6,
+      "verdict_proven": true,
+      "engine_values": {
+        "verdict-proven": "True",
+        "base-intact": "False",
+        "base-usable": "True",
+        "has-subject-record": "True"
+      },
+      "failed_checks": [
+        {
+          "name": "src.checks.egfr-base-intact",
+          "check": "egfr-base-intact",
+          "category": "issue",
+          "type": "potential_fabrication",
+          "kind": "derive",
+          "location": "src/checks.pltg:46:1",
+          "compared": {},
+          "consequences": {}
+        },
+        {
+          "name": "src.checks.egfr-support-base",
+          "check": "egfr-support-base",
+          "category": "issue",
+          "type": "diff_divergence",
+          "kind": "diff",
+          "location": "src/checks.pltg:6:1",
+          "compared": {
+            "dossier_side": "src.dossier_egfr.cited-records",
+            "registry_side": "src.registry_egfr.subject-records",
+            "dossier_value": "8",
+            "registry_value": "2"
+          },
+          "consequences": {
+            "src.checks.egfr-base-intact": [
+              "False",
+              "True"
+            ]
+          }
+        },
+        {
+          "name": "src.checks.egfr-supports-nct-NCT07503756",
+          "check": "egfr-supports-nct-NCT07503756",
+          "category": "issue",
+          "type": "diff_value_divergence",
+          "kind": "diff",
+          "location": "src/checks.pltg:42:1",
+          "compared": {
+            "dossier_side": "src.dossier_egfr.supports-nct-NCT07503756",
+            "registry_side": "src.registry_egfr.supports-nct-NCT07503756",
+            "dossier_value": "True",
+            "registry_value": "False"
+          },
+          "consequences": {}
+        },
+        {
+          "name": "src.checks.egfr-supports-pmid-42492133",
+          "check": "egfr-supports-pmid-42492133",
+          "category": "issue",
+          "type": "diff_value_divergence",
+          "kind": "diff",
+          "location": "src/checks.pltg:22:1",
+          "compared": {
+            "dossier_side": "src.dossier_egfr.supports-pmid-42492133",
+            "registry_side": "src.registry_egfr.supports-pmid-42492133",
+            "dossier_value": "True",
+            "registry_value": "False"
+          },
+          "consequences": {}
+        },
+        {
+          "name": "src.checks.egfr-supports-pmid-42576549",
+          "check": "egfr-supports-pmid-42576549",
+          "category": "issue",
+          "type": "diff_value_divergence",
+          "kind": "diff",
+          "location": "src/checks.pltg:26:1",
+          "compared": {
+            "dossier_side": "src.dossier_egfr.supports-pmid-42576549",
+            "registry_side": "src.registry_egfr.supports-pmid-42576549",
+            "dossier_value": "True",
+            "registry_value": "False"
+          },
+          "consequences": {}
+        },
+        {
+          "name": "src.checks.egfr-supports-pmid-42595923",
+          "check": "egfr-supports-pmid-42595923",
+          "category": "issue",
+          "type": "diff_value_divergence",
+          "kind": "diff",
+          "location": "src/checks.pltg:30:1",
+          "compared": {
+            "dossier_side": "src.dossier_egfr.supports-pmid-42595923",
+            "registry_side": "src.registry_egfr.supports-pmid-42595923",
+            "dossier_value": "True",
+            "registry_value": "False"
+          },
+          "consequences": {}
+        },
+        {
+          "name": "src.checks.egfr-supports-pmid-42609336",
+          "check": "egfr-supports-pmid-42609336",
+          "category": "issue",
+          "type": "diff_value_divergence",
+          "kind": "diff",
+          "location": "src/checks.pltg:34:1",
+          "compared": {
+            "dossier_side": "src.dossier_egfr.supports-pmid-42609336",
+            "registry_side": "src.registry_egfr.supports-pmid-42609336",
+            "dossier_value": "True",
+            "registry_value": "False"
+          },
+          "consequences": {}
+        },
+        {
+          "name": "src.checks.egfr-supports-pmid-42609500",
+          "check": "egfr-supports-pmid-42609500",
+          "category": "issue",
+          "type": "diff_value_divergence",
+          "kind": "diff",
+          "location": "src/checks.pltg:38:1",
+          "compared": {
+            "dossier_side": "src.dossier_egfr.supports-pmid-42609500",
+            "registry_side": "src.registry_egfr.supports-pmid-42609500",
+            "dossier_value": "True",
+            "registry_value": "False"
+          },
+          "consequences": {}
+        }
+      ],
+      "standing": "proven on a narrowed base — 2 of 8 cited records are subject-level, the rest only mention EGFR"
+    },
+    {
+      "target": "ERBB2",
+      "asserted_verdict": "promising",
+      "verdict_node": "erbb2-promising",
+      "cited_records": 10,
+      "subject_records": 3,
+      "weak_attribution": 7,
+      "off_target": 0,
+      "retracted": 0,
+      "unresolved": 0,
+      "support_base_intact": false,
+      "base_narrowed_by": 7,
+      "verdict_proven": true,
+      "engine_values": {
+        "verdict-proven": "True",
+        "base-intact": "False",
+        "base-usable": "True",
+        "has-subject-record": "True"
+      },
+      "failed_checks": [
+        {
+          "name": "src.checks.erbb2-base-intact",
+          "check": "erbb2-base-intact",
+          "category": "issue",
+          "type": "potential_fabrication",
+          "kind": "derive",
+          "location": "src/checks.pltg:120:1",
+          "compared": {},
+          "consequences": {}
+        },
+        {
+          "name": "src.checks.erbb2-support-base",
+          "check": "erbb2-support-base",
+          "category": "issue",
+          "type": "diff_divergence",
+          "kind": "diff",
+          "location": "src/checks.pltg:76:1",
+          "compared": {
+            "dossier_side": "src.dossier_erbb2.cited-records",
+            "registry_side": "src.registry_erbb2.subject-records",
+            "dossier_value": "10",
+            "registry_value": "3"
+          },
+          "consequences": {
+            "src.checks.erbb2-base-intact": [
+              "False",
+              "True"
+            ]
+          }
+        },
+        {
+          "name": "src.checks.erbb2-supports-nct-NCT03803553",
+          "check": "erbb2-supports-nct-NCT03803553",
+          "category": "issue",
+          "type": "diff_value_divergence",
+          "kind": "diff",
+          "location": "src/checks.pltg:112:1",
+          "compared": {
+            "dossier_side": "src.dossier_erbb2.supports-nct-NCT03803553",
+            "registry_side": "src.registry_erbb2.supports-nct-NCT03803553",
+            "dossier_value": "True",
+            "registry_value": "False"
+          },
+          "consequences": {}
+        },
+        {
+          "name": "src.checks.erbb2-supports-nct-NCT07503756",
+          "check": "erbb2-supports-nct-NCT07503756",
+          "category": "issue",
+          "type": "diff_value_divergence",
+          "kind": "diff",
+          "location": "src/checks.pltg:116:1",
+          "compared": {
+            "dossier_side": "src.dossier_erbb2.supports-nct-NCT07503756",
+            "registry_side": "src.registry_erbb2.supports-nct-NCT07503756",
+            "dossier_value": "True",
+            "registry_value": "False"
+          },
+          "consequences": {}
+        },
+        {
+          "name": "src.checks.erbb2-supports-pmid-42401587",
+          "check": "erbb2-supports-pmid-42401587",
+          "category": "issue",
+          "type": "diff_value_divergence",
+          "kind": "diff",
+          "location": "src/checks.pltg:92:1",
+          "compared": {
+            "dossier_side": "src.dossier_erbb2.supports-pmid-42401587",
+            "registry_side": "src.registry_erbb2.supports-pmid-42401587",
+            "dossier_value": "True",
+            "registry_value": "False"
+          },
+          "consequences": {}
+        },
+        {
+          "name": "src.checks.erbb2-supports-pmid-42426557",
+          "check": "erbb2-supports-pmid-42426557",
+          "category": "issue",
+          "type": "diff_value_divergence",
+          "kind": "diff",
+          "location": "src/checks.pltg:96:1",
+          "compared": {
+            "dossier_side": "src.dossier_erbb2.supports-pmid-42426557",
+            "registry_side": "src.registry_erbb2.supports-pmid-42426557",
+            "dossier_value": "True",
+            "registry_value": "False"
+          },
+          "consequences": {}
+        },
+        {
+          "name": "src.checks.erbb2-supports-pmid-42497534",
+          "check": "erbb2-supports-pmid-42497534",
+          "category": "issue",
+          "type": "diff_value_divergence",
+          "kind": "diff",
+          "location": "src/checks.pltg:100:1",
+          "compared": {
+            "dossier_side": "src.dossier_erbb2.supports-pmid-42497534",
+            "registry_side": "src.registry_erbb2.supports-pmid-42497534",
+            "dossier_value": "True",
+            "registry_value": "False"
+          },
+          "consequences": {}
+        },
+        {
+          "name": "src.checks.erbb2-supports-pmid-42599169",
+          "check": "erbb2-supports-pmid-42599169",
+          "category": "issue",
+          "type": "diff_value_divergence",
+          "kind": "diff",
+          "location": "src/checks.pltg:104:1",
+          "compared": {
+            "dossier_side": "src.dossier_erbb2.supports-pmid-42599169",
+            "registry_side": "src.registry_erbb2.supports-pmid-42599169",
+            "dossier_value": "True",
+            "registry_value": "False"
+          },
+          "consequences": {}
+        },
+        {
+          "name": "src.checks.erbb2-supports-pmid-42601812",
+          "check": "erbb2-supports-pmid-42601812",
+          "category": "issue",
+          "type": "diff_value_divergence",
+          "kind": "diff",
+          "location": "src/checks.pltg:108:1",
+          "compared": {
+            "dossier_side": "src.dossier_erbb2.supports-pmid-42601812",
+            "registry_side": "src.registry_erbb2.supports-pmid-42601812",
+            "dossier_value": "True",
+            "registry_value": "False"
+          },
+          "consequences": {}
+        }
+      ],
+      "standing": "proven on a narrowed base — 3 of 10 cited records are subject-level, the rest only mention ERBB2"
+    },
+    {
+      "target": "KRAS",
+      "asserted_verdict": "promising",
+      "verdict_node": "kras-promising",
+      "cited_records": 11,
+      "subject_records": 3,
+      "weak_attribution": 7,
+      "off_target": 1,
+      "retracted": 0,
+      "unresolved": 0,
+      "support_base_intact": false,
+      "base_narrowed_by": 8,
+      "verdict_proven": false,
+      "engine_values": {
+        "verdict-proven": "False",
+        "base-intact": "False",
+        "base-usable": "False",
+        "has-subject-record": "True"
+      },
+      "failed_checks": [
+        {
+          "name": "src.checks.kras-base-intact",
+          "check": "kras-base-intact",
+          "category": "issue",
+          "type": "potential_fabrication",
+          "kind": "derive",
+          "location": "src/checks.pltg:198:1",
+          "compared": {},
+          "consequences": {}
+        },
+        {
+          "name": "src.checks.kras-base-usable",
+          "check": "kras-base-usable",
+          "category": "issue",
+          "type": "potential_fabrication",
+          "kind": "derive",
+          "location": "src/checks.pltg:218:1",
+          "compared": {},
+          "consequences": {}
+        },
+        {
+          "name": "src.checks.kras-clean-of-off-target",
+          "check": "kras-clean-of-off-target",
+          "category": "issue",
+          "type": "potential_fabrication",
+          "kind": "derive",
+          "location": "src/checks.pltg:202:1",
+          "compared": {},
+          "consequences": {}
+        },
+        {
+          "name": "src.checks.kras-verdict-proven",
+          "check": "kras-verdict-proven",
+          "category": "issue",
+          "type": "potential_fabrication",
+          "kind": "derive",
+          "location": "src/checks.pltg:223:1",
+          "compared": {},
+          "consequences": {}
+        },
+        {
+          "name": "src.checks.kras-support-base",
+          "check": "kras-support-base",
+          "category": "issue",
+          "type": "diff_divergence",
+          "kind": "diff",
+          "location": "src/checks.pltg:150:1",
+          "compared": {
+            "dossier_side": "src.dossier_kras.cited-records",
+            "registry_side": "src.registry_kras.subject-records",
+            "dossier_value": "11",
+            "registry_value": "3"
+          },
+          "consequences": {
+            "src.checks.kras-base-intact": [
+              "False",
+              "True"
+            ]
+          }
+        },
+        {
+          "name": "src.checks.kras-off-target",
+          "check": "kras-off-target",
+          "category": "issue",
+          "type": "diff_value_divergence",
+          "kind": "diff",
+          "location": "src/checks.pltg:154:1",
+          "compared": {
+            "dossier_side": "src.dossier_kras.assumed-off-target",
+            "registry_side": "src.registry_kras.off-target",
+            "dossier_value": "0",
+            "registry_value": "1"
+          },
+          "consequences": {}
+        },
+        {
+          "name": "src.checks.kras-supports-nct-NCT05176483",
+          "check": "kras-supports-nct-NCT05176483",
+          "category": "issue",
+          "type": "diff_value_divergence",
+          "kind": "diff",
+          "location": "src/checks.pltg:194:1",
+          "compared": {
+            "dossier_side": "src.dossier_kras.supports-nct-NCT05176483",
+            "registry_side": "src.registry_kras.supports-nct-NCT05176483",
+            "dossier_value": "True",
+            "registry_value": "False"
+          },
+          "consequences": {}
+        },
+        {
+          "name": "src.checks.kras-supports-pmid-42527030",
+          "check": "kras-supports-pmid-42527030",
+          "category": "issue",
+          "type": "diff_value_divergence",
+          "kind": "diff",
+          "location": "src/checks.pltg:166:1",
+          "compared": {
+            "dossier_side": "src.dossier_kras.supports-pmid-42527030",
+            "registry_side": "src.registry_kras.supports-pmid-42527030",
+            "dossier_value": "True",
+            "registry_value": "False"
+          },
+          "consequences": {}
+        },
+        {
+          "name": "src.checks.kras-supports-pmid-42557320",
+          "check": "kras-supports-pmid-42557320",
+          "category": "issue",
+          "type": "diff_value_divergence",
+          "kind": "diff",
+          "location": "src/checks.pltg:170:1",
+          "compared": {
+            "dossier_side": "src.dossier_kras.supports-pmid-42557320",
+            "registry_side": "src.registry_kras.supports-pmid-42557320",
+            "dossier_value": "True",
+            "registry_value": "False"
+          },
+          "consequences": {}
+        },
+        {
+          "name": "src.checks.kras-supports-pmid-42570059",
+          "check": "kras-supports-pmid-42570059",
+          "category": "issue",
+          "type": "diff_value_divergence",
+          "kind": "diff",
+          "location": "src/checks.pltg:174:1",
+          "compared": {
+            "dossier_side": "src.dossier_kras.supports-pmid-42570059",
+            "registry_side": "src.registry_kras.supports-pmid-42570059",
+            "dossier_value": "True",
+            "registry_value": "False"
+          },
+          "consequences": {}
+        },
+        {
+          "name": "src.checks.kras-supports-pmid-42599639",
+          "check": "kras-supports-pmid-42599639",
+          "category": "issue",
+          "type": "diff_value_divergence",
+          "kind": "diff",
+          "location": "src/checks.pltg:178:1",
+          "compared": {
+            "dossier_side": "src.dossier_kras.supports-pmid-42599639",
+            "registry_side": "src.registry_kras.supports-pmid-42599639",
+            "dossier_value": "True",
+            "registry_value": "False"
+          },
+          "consequences": {}
+        },
+        {
+          "name": "src.checks.kras-supports-pmid-42605754",
+          "check": "kras-supports-pmid-42605754",
+          "category": "issue",
+          "type": "diff_value_divergence",
+          "kind": "diff",
+          "location": "src/checks.pltg:182:1",
+          "compared": {
+            "dossier_side": "src.dossier_kras.supports-pmid-42605754",
+            "registry_side": "src.registry_kras.supports-pmid-42605754",
+            "dossier_value": "True",
+            "registry_value": "False"
+          },
+          "consequences": {}
+        },
+        {
+          "name": "src.checks.kras-supports-pmid-42606648",
+          "check": "kras-supports-pmid-42606648",
+          "category": "issue",
+          "type": "diff_value_divergence",
+          "kind": "diff",
+          "location": "src/checks.pltg:186:1",
+          "compared": {
+            "dossier_side": "src.dossier_kras.supports-pmid-42606648",
+            "registry_side": "src.registry_kras.supports-pmid-42606648",
+            "dossier_value": "True",
+            "registry_value": "False"
+          },
+          "consequences": {}
+        },
+        {
+          "name": "src.checks.kras-supports-pmid-42607542",
+          "check": "kras-supports-pmid-42607542",
+          "category": "issue",
+          "type": "diff_value_divergence",
+          "kind": "diff",
+          "location": "src/checks.pltg:190:1",
+          "compared": {
+            "dossier_side": "src.dossier_kras.supports-pmid-42607542",
+            "registry_side": "src.registry_kras.supports-pmid-42607542",
+            "dossier_value": "True",
+            "registry_value": "False"
+          },
+          "consequences": {}
+        }
+      ],
+      "standing": "unproven — 1 cited record(s) never name KRAS"
+    },
+    {
+      "target": "MYC",
+      "asserted_verdict": "rejected",
+      "verdict_node": "myc-promising",
+      "cited_records": 8,
+      "subject_records": 2,
+      "weak_attribution": 6,
+      "off_target": 0,
+      "retracted": 0,
+      "unresolved": 0,
+      "support_base_intact": false,
+      "base_narrowed_by": 6,
+      "verdict_proven": true,
+      "engine_values": {
+        "verdict-proven": "True",
+        "base-intact": "False",
+        "base-usable": "True",
+        "has-subject-record": "True"
+      },
+      "failed_checks": [
+        {
+          "name": "src.checks.myc-base-intact",
+          "check": "myc-base-intact",
+          "category": "issue",
+          "type": "potential_fabrication",
+          "kind": "derive",
+          "location": "src/checks.pltg:268:1",
+          "compared": {},
+          "consequences": {}
+        },
+        {
+          "name": "src.checks.myc-support-base",
+          "check": "myc-support-base",
+          "category": "issue",
+          "type": "diff_divergence",
+          "kind": "diff",
+          "location": "src/checks.pltg:228:1",
+          "compared": {
+            "dossier_side": "src.dossier_myc.cited-records",
+            "registry_side": "src.registry_myc.subject-records",
+            "dossier_value": "8",
+            "registry_value": "2"
+          },
+          "consequences": {
+            "src.checks.myc-base-intact": [
+              "False",
+              "True"
+            ]
+          }
+        },
+        {
+          "name": "src.checks.myc-supports-nct-NCT05919264",
+          "check": "myc-supports-nct-NCT05919264",
+          "category": "issue",
+          "type": "diff_value_divergence",
+          "kind": "diff",
+          "location": "src/checks.pltg:260:1",
+          "compared": {
+            "dossier_side": "src.dossier_myc.supports-nct-NCT05919264",
+            "registry_side": "src.registry_myc.supports-nct-NCT05919264",
+            "dossier_value": "True",
+            "registry_value": "False"
+          },
+          "consequences": {}
+        },
+        {
+          "name": "src.checks.myc-supports-nct-NCT07147231",
+          "check": "myc-supports-nct-NCT07147231",
+          "category": "issue",
+          "type": "diff_value_divergence",
+          "kind": "diff",
+          "location": "src/checks.pltg:264:1",
+          "compared": {
+            "dossier_side": "src.dossier_myc.supports-nct-NCT07147231",
+            "registry_side": "src.registry_myc.supports-nct-NCT07147231",
+            "dossier_value": "True",
+            "registry_value": "False"
+          },
+          "consequences": {}
+        },
+        {
+          "name": "src.checks.myc-supports-pmid-42497765",
+          "check": "myc-supports-pmid-42497765",
+          "category": "issue",
+          "type": "diff_value_divergence",
+          "kind": "diff",
+          "location": "src/checks.pltg:244:1",
+          "compared": {
+            "dossier_side": "src.dossier_myc.supports-pmid-42497765",
+            "registry_side": "src.registry_myc.supports-pmid-42497765",
+            "dossier_value": "True",
+            "registry_value": "False"
+          },
+          "consequences": {}
+        },
+        {
+          "name": "src.checks.myc-supports-pmid-42548213",
+          "check": "myc-supports-pmid-42548213",
+          "category": "issue",
+          "type": "diff_value_divergence",
+          "kind": "diff",
+          "location": "src/checks.pltg:248:1",
+          "compared": {
+            "dossier_side": "src.dossier_myc.supports-pmid-42548213",
+            "registry_side": "src.registry_myc.supports-pmid-42548213",
+            "dossier_value": "True",
+            "registry_value": "False"
+          },
+          "consequences": {}
+        },
+        {
+          "name": "src.checks.myc-supports-pmid-42607078",
+          "check": "myc-supports-pmid-42607078",
+          "category": "issue",
+          "type": "diff_value_divergence",
+          "kind": "diff",
+          "location": "src/checks.pltg:252:1",
+          "compared": {
+            "dossier_side": "src.dossier_myc.supports-pmid-42607078",
+            "registry_side": "src.registry_myc.supports-pmid-42607078",
+            "dossier_value": "True",
+            "registry_value": "False"
+          },
+          "consequences": {}
+        },
+        {
+          "name": "src.checks.myc-supports-pmid-42608167",
+          "check": "myc-supports-pmid-42608167",
+          "category": "issue",
+          "type": "diff_value_divergence",
+          "kind": "diff",
+          "location": "src/checks.pltg:256:1",
+          "compared": {
+            "dossier_side": "src.dossier_myc.supports-pmid-42608167",
+            "registry_side": "src.registry_myc.supports-pmid-42608167",
+            "dossier_value": "True",
+            "registry_value": "False"
+          },
+          "consequences": {}
+        }
+      ],
+      "standing": "proven on a narrowed base — 2 of 8 cited records are subject-level, the rest only mention MYC"
+    },
+    {
+      "target": "WRN",
+      "asserted_verdict": "promising",
+      "verdict_node": "wrn-promising",
+      "cited_records": 11,
+      "subject_records": 4,
+      "weak_attribution": 7,
+      "off_target": 0,
+      "retracted": 0,
+      "unresolved": 0,
+      "support_base_intact": false,
+      "base_narrowed_by": 7,
+      "verdict_proven": true,
+      "engine_values": {
+        "verdict-proven": "True",
+        "base-intact": "False",
+        "base-usable": "True",
+        "has-subject-record": "True"
+      },
+      "failed_checks": [
+        {
+          "name": "src.checks.wrn-base-intact",
+          "check": "wrn-base-intact",
+          "category": "issue",
+          "type": "potential_fabrication",
+          "kind": "derive",
+          "location": "src/checks.pltg:342:1",
+          "compared": {},
+          "consequences": {}
+        },
+        {
+          "name": "src.checks.wrn-support-base",
+          "check": "wrn-support-base",
+          "category": "issue",
+          "type": "diff_divergence",
+          "kind": "diff",
+          "location": "src/checks.pltg:298:1",
+          "compared": {
+            "dossier_side": "src.dossier_wrn.cited-records",
+            "registry_side": "src.registry_wrn.subject-records",
+            "dossier_value": "11",
+            "registry_value": "4"
+          },
+          "consequences": {
+            "src.checks.wrn-base-intact": [
+              "False",
+              "True"
+            ]
+          }
+        },
+        {
+          "name": "src.checks.wrn-supports-nct-NCT03570541",
+          "check": "wrn-supports-nct-NCT03570541",
+          "category": "issue",
+          "type": "diff_value_divergence",
+          "kind": "diff",
+          "location": "src/checks.pltg:330:1",
+          "compared": {
+            "dossier_side": "src.dossier_wrn.supports-nct-NCT03570541",
+            "registry_side": "src.registry_wrn.supports-nct-NCT03570541",
+            "dossier_value": "True",
+            "registry_value": "False"
+          },
+          "consequences": {}
+        },
+        {
+          "name": "src.checks.wrn-supports-nct-NCT06974110",
+          "check": "wrn-supports-nct-NCT06974110",
+          "category": "issue",
+          "type": "diff_value_divergence",
+          "kind": "diff",
+          "location": "src/checks.pltg:334:1",
+          "compared": {
+            "dossier_side": "src.dossier_wrn.supports-nct-NCT06974110",
+            "registry_side": "src.registry_wrn.supports-nct-NCT06974110",
+            "dossier_value": "True",
+            "registry_value": "False"
+          },
+          "consequences": {}
+        },
+        {
+          "name": "src.checks.wrn-supports-nct-NCT07262619",
+          "check": "wrn-supports-nct-NCT07262619",
+          "category": "issue",
+          "type": "diff_value_divergence",
+          "kind": "diff",
+          "location": "src/checks.pltg:338:1",
+          "compared": {
+            "dossier_side": "src.dossier_wrn.supports-nct-NCT07262619",
+            "registry_side": "src.registry_wrn.supports-nct-NCT07262619",
+            "dossier_value": "True",
+            "registry_value": "False"
+          },
+          "consequences": {}
+        },
+        {
+          "name": "src.checks.wrn-supports-pmid-40203476",
+          "check": "wrn-supports-pmid-40203476",
+          "category": "issue",
+          "type": "diff_value_divergence",
+          "kind": "diff",
+          "location": "src/checks.pltg:314:1",
+          "compared": {
+            "dossier_side": "src.dossier_wrn.supports-pmid-40203476",
+            "registry_side": "src.registry_wrn.supports-pmid-40203476",
+            "dossier_value": "True",
+            "registry_value": "False"
+          },
+          "consequences": {}
+        },
+        {
+          "name": "src.checks.wrn-supports-pmid-42293362",
+          "check": "wrn-supports-pmid-42293362",
+          "category": "issue",
+          "type": "diff_value_divergence",
+          "kind": "diff",
+          "location": "src/checks.pltg:318:1",
+          "compared": {
+            "dossier_side": "src.dossier_wrn.supports-pmid-42293362",
+            "registry_side": "src.registry_wrn.supports-pmid-42293362",
+            "dossier_value": "True",
+            "registry_value": "False"
+          },
+          "consequences": {}
+        },
+        {
+          "name": "src.checks.wrn-supports-pmid-42593940",
+          "check": "wrn-supports-pmid-42593940",
+          "category": "issue",
+          "type": "diff_value_divergence",
+          "kind": "diff",
+          "location": "src/checks.pltg:322:1",
+          "compared": {
+            "dossier_side": "src.dossier_wrn.supports-pmid-42593940",
+            "registry_side": "src.registry_wrn.supports-pmid-42593940",
+            "dossier_value": "True",
+            "registry_value": "False"
+          },
+          "consequences": {}
+        },
+        {
+          "name": "src.checks.wrn-supports-pmid-42604630",
+          "check": "wrn-supports-pmid-42604630",
+          "category": "issue",
+          "type": "diff_value_divergence",
+          "kind": "diff",
+          "location": "src/checks.pltg:326:1",
+          "compared": {
+            "dossier_side": "src.dossier_wrn.supports-pmid-42604630",
+            "registry_side": "src.registry_wrn.supports-pmid-42604630",
+            "dossier_value": "True",
+            "registry_value": "False"
+          },
+          "consequences": {}
+        }
+      ],
+      "standing": "proven on a narrowed base — 4 of 11 cited records are subject-level, the rest only mention WRN"
+    },
+    {
+      "target": "PRMT5",
+      "asserted_verdict": "rejected",
+      "verdict_node": "prmt5-promising",
+      "cited_records": 9,
+      "subject_records": 2,
+      "weak_attribution": 7,
+      "off_target": 0,
+      "retracted": 0,
+      "unresolved": 0,
+      "support_base_intact": false,
+      "base_narrowed_by": 7,
+      "verdict_proven": true,
+      "engine_values": {
+        "verdict-proven": "True",
+        "base-intact": "False",
+        "base-usable": "True",
+        "has-subject-record": "True"
+      },
+      "failed_checks": [
+        {
+          "name": "src.checks.prmt5-base-intact",
+          "check": "prmt5-base-intact",
+          "category": "issue",
+          "type": "potential_fabrication",
+          "kind": "derive",
+          "location": "src/checks.pltg:416:1",
+          "compared": {},
+          "consequences": {}
+        },
+        {
+          "name": "src.checks.prmt5-support-base",
+          "check": "prmt5-support-base",
+          "category": "issue",
+          "type": "diff_divergence",
+          "kind": "diff",
+          "location": "src/checks.pltg:372:1",
+          "compared": {
+            "dossier_side": "src.dossier_prmt5.cited-records",
+            "registry_side": "src.registry_prmt5.subject-records",
+            "dossier_value": "9",
+            "registry_value": "2"
+          },
+          "consequences": {
+            "src.checks.prmt5-base-intact": [
+              "False",
+              "True"
+            ]
+          }
+        },
+        {
+          "name": "src.checks.prmt5-supports-pmid-41513606",
+          "check": "prmt5-supports-pmid-41513606",
+          "category": "issue",
+          "type": "diff_value_divergence",
+          "kind": "diff",
+          "location": "src/checks.pltg:388:1",
+          "compared": {
+            "dossier_side": "src.dossier_prmt5.supports-pmid-41513606",
+            "registry_side": "src.registry_prmt5.supports-pmid-41513606",
+            "dossier_value": "True",
+            "registry_value": "False"
+          },
+          "consequences": {}
+        },
+        {
+          "name": "src.checks.prmt5-supports-pmid-41629269",
+          "check": "prmt5-supports-pmid-41629269",
+          "category": "issue",
+          "type": "diff_value_divergence",
+          "kind": "diff",
+          "location": "src/checks.pltg:392:1",
+          "compared": {
+            "dossier_side": "src.dossier_prmt5.supports-pmid-41629269",
+            "registry_side": "src.registry_prmt5.supports-pmid-41629269",
+            "dossier_value": "True",
+            "registry_value": "False"
+          },
+          "consequences": {}
+        },
+        {
+          "name": "src.checks.prmt5-supports-pmid-41630900",
+          "check": "prmt5-supports-pmid-41630900",
+          "category": "issue",
+          "type": "diff_value_divergence",
+          "kind": "diff",
+          "location": "src/checks.pltg:396:1",
+          "compared": {
+            "dossier_side": "src.dossier_prmt5.supports-pmid-41630900",
+            "registry_side": "src.registry_prmt5.supports-pmid-41630900",
+            "dossier_value": "True",
+            "registry_value": "False"
+          },
+          "consequences": {}
+        },
+        {
+          "name": "src.checks.prmt5-supports-pmid-42133901",
+          "check": "prmt5-supports-pmid-42133901",
+          "category": "issue",
+          "type": "diff_value_divergence",
+          "kind": "diff",
+          "location": "src/checks.pltg:400:1",
+          "compared": {
+            "dossier_side": "src.dossier_prmt5.supports-pmid-42133901",
+            "registry_side": "src.registry_prmt5.supports-pmid-42133901",
+            "dossier_value": "True",
+            "registry_value": "False"
+          },
+          "consequences": {}
+        },
+        {
+          "name": "src.checks.prmt5-supports-pmid-42326870",
+          "check": "prmt5-supports-pmid-42326870",
+          "category": "issue",
+          "type": "diff_value_divergence",
+          "kind": "diff",
+          "location": "src/checks.pltg:404:1",
+          "compared": {
+            "dossier_side": "src.dossier_prmt5.supports-pmid-42326870",
+            "registry_side": "src.registry_prmt5.supports-pmid-42326870",
+            "dossier_value": "True",
+            "registry_value": "False"
+          },
+          "consequences": {}
+        },
+        {
+          "name": "src.checks.prmt5-supports-pmid-42603931",
+          "check": "prmt5-supports-pmid-42603931",
+          "category": "issue",
+          "type": "diff_value_divergence",
+          "kind": "diff",
+          "location": "src/checks.pltg:408:1",
+          "compared": {
+            "dossier_side": "src.dossier_prmt5.supports-pmid-42603931",
+            "registry_side": "src.registry_prmt5.supports-pmid-42603931",
+            "dossier_value": "True",
+            "registry_value": "False"
+          },
+          "consequences": {}
+        },
+        {
+          "name": "src.checks.prmt5-supports-pmid-42607456",
+          "check": "prmt5-supports-pmid-42607456",
+          "category": "issue",
+          "type": "diff_value_divergence",
+          "kind": "diff",
+          "location": "src/checks.pltg:412:1",
+          "compared": {
+            "dossier_side": "src.dossier_prmt5.supports-pmid-42607456",
+            "registry_side": "src.registry_prmt5.supports-pmid-42607456",
+            "dossier_value": "True",
+            "registry_value": "False"
+          },
+          "consequences": {}
+        }
+      ],
+      "standing": "proven on a narrowed base — 2 of 9 cited records are subject-level, the rest only mention PRMT5"
+    }
+  ]
+}

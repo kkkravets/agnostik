@@ -1,0 +1,57 @@
+Registry snapshot — EGFR
+Checked 2026-08-18 12:46 UTC against PubMed, ClinicalTrials.gov and UniProt
+
+## COUNTERS
+VERIFIED subject_records=2
+VERIFIED weak_attribution=6
+VERIFIED off_target=0
+VERIFIED title_drift=0
+VERIFIED retracted=0
+VERIFIED unresolved=0
+VERIFIED not_checked=0
+VERIFIED checked_total=8
+
+## RECORDS
+uniprot P00533 | status=sound | gene_role=title | indication=not-applicable | resolves=True
+REGISTRY TITLE: Epidermal growth factor receptor
+DOSSIER QUOTE: UNIPROT binding_sites=4
+
+pmid 42492133 | status=weak-attribution | gene_role=abstract | indication=title | resolves=True
+REGISTRY TITLE: Anticancer evaluation of novel chiral tetrahydropyrazolo[1,5-a]pyrimidine derivatives: Inhibitory effects on proliferation and migration of colon cancer cells with high HER2 expression.
+DOSSIER QUOTE: TITLE: Anticancer evaluation of novel chiral tetrahydropyrazolo[1,5-a]pyrimidine derivatives: Inhibitory effects on proliferation and migration of colon cancer cells with high HER2 expression.
+PUBLICATION TYPES: Journal Article
+REASON: EGFR appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else
+
+pmid 42576549 | status=weak-attribution | gene_role=abstract | indication=title | resolves=True
+REGISTRY TITLE: Chemopreventive Effects of Boldine and Naringenin on DMH-Induced Colorectal Carcinogenesis.
+DOSSIER QUOTE: TITLE: Chemopreventive Effects of Boldine and Naringenin on DMH-Induced Colorectal Carcinogenesis.
+PUBLICATION TYPES: Journal Article
+REASON: EGFR appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else
+
+pmid 42581138 | status=sound | gene_role=title | indication=title | resolves=True
+REGISTRY TITLE: Absence of EGFR signalling in granulocytic cells relieves immunosuppression sensitising CRC metastases to immune checkpoint therapy.
+DOSSIER QUOTE: TITLE: Absence of EGFR signalling in granulocytic cells relieves immunosuppression sensitising CRC metastases to immune checkpoint therapy.
+PUBLICATION TYPES: Journal Article
+
+pmid 42595923 | status=weak-attribution | gene_role=abstract | indication=title | resolves=True
+REGISTRY TITLE: Active ingredients and molecular targets of Tripterygium wilfordii against colorectal cancer: network pharmacology, molecular docking, molecular dynamics simulations and in vitro evaluation.
+DOSSIER QUOTE: TITLE: Active ingredients and molecular targets of Tripterygium wilfordii against colorectal cancer: network pharmacology, molecular docking, molecular dynamics simulations and in vitro evaluation.
+PUBLICATION TYPES: Journal Article
+REASON: EGFR appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else
+
+pmid 42609336 | status=weak-attribution | gene_role=abstract | indication=absent | resolves=True
+REGISTRY TITLE: A clinical prediction model integrating cardiovascular-kidney-metabolic biomarkers for the composite outcome of quality-of-life deterioration and rehospitalization in elderly HFpEF patients.
+DOSSIER QUOTE: TITLE: A clinical prediction model integrating cardiovascular-kidney-metabolic biomarkers for the composite outcome of quality-of-life deterioration and rehospitalization in elderly HFpEF patients.
+PUBLICATION TYPES: Journal Article
+REASON: EGFR appears only in the abstract, not in the title, so it is not the subject of this record — and the record names no colorectal indication either
+
+pmid 42609500 | status=weak-attribution | gene_role=title | indication=absent | resolves=True
+REGISTRY TITLE: Squamous transformation of EGFR-mutant lung adenocarcinoma after EGFR-TKI therapy: clonal continuity, tissue-based diagnosis, and therapeutic evidence gaps.
+DOSSIER QUOTE: TITLE: Squamous transformation of EGFR-mutant lung adenocarcinoma after EGFR-TKI therapy: clonal continuity, tissue-based diagnosis, and therapeutic evidence gaps.
+PUBLICATION TYPES: Journal Article, Review
+REASON: record names no colorectal indication, so it does not speak to this disease
+
+nct NCT07503756 | status=weak-attribution | gene_role=abstract | indication=title | resolves=True
+REGISTRY TITLE: JS212 Combination Therapies in Metastatic Colorectal Cancer
+DOSSIER QUOTE: TITLE: JS212 Combination Therapies in Metastatic Colorectal Cancer
+REASON: EGFR appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else

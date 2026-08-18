@@ -1,0 +1,43 @@
+Dossier transcript — MYC
+Transcribed 2026-08-18 12:52 UTC from: examples/stage4/fixtures/crc6-dossiers.html, examples/stage4/fixtures/crc6-verdicts.html
+
+## ASSERTED
+DOSSIER cited_records=8
+DOSSIER assumed_off_target=0
+DOSSIER assumed_retracted=0
+DOSSIER assumed_unresolved=0
+DOSSIER verdict=rejected
+DOSSIER verdict_node=myc-promising
+
+## RECORDS THE DOSSIER TREATS AS SUPPORT
+DOSSIER SUPPORTS uniprot P01106
+  as: UNIPROT binding_sites=0
+  via node: src.myc.binding-sites
+
+DOSSIER SUPPORTS pmid 42497765
+  as: TITLE: Targeting Cys328 in the STAT3 DNA-binding domain with the germacrane-type sesquiterpene lactone SCP-7 inhibits colorectal Cancer growth in vitro and in vivo.
+  via node: src.myc.paper-42497765
+
+DOSSIER SUPPORTS pmid 42548213
+  as: TITLE: Zeaxanthin Suppresses Azoxymethane/Dextran Sodium Sulfate-Induced Colorectal Cancer in Mice by Inhibiting Inflammation and Proliferation.
+  via node: src.myc.paper-42548213
+
+DOSSIER SUPPORTS pmid 42560559
+  as: TITLE: Ferroptosis suppression by MYC confers oxaliplatin resistance in colorectal cancer via FTH1 and GPX4.
+  via node: src.myc.paper-42560559
+
+DOSSIER SUPPORTS pmid 42607078
+  as: TITLE: Dual MYC and GSPT1 Protein Degrader for MYC-Driven Hematologic Malignancies.
+  via node: src.myc.paper-42607078
+
+DOSSIER SUPPORTS pmid 42608167
+  as: TITLE: Revisiting Pluripotency Acquisition: A Unified Framework for Reprogramming Strategies.
+  via node: src.myc.paper-42608167
+
+DOSSIER SUPPORTS nct NCT05919264
+  as: TITLE: FOG-001 in Locally Advanced or Metastatic Solid Tumors
+  via node: src.myc.trial-NCT05919264
+
+DOSSIER SUPPORTS nct NCT07147231
+  as: TITLE: Testing the Effectiveness of the Anti-cancer Drug Pidnarulex (CX-5461), in Combination With Another Anti-cancer Drug Cemiplimab (REGN2810), in Treating Refractory Microsatellite Stable Colorectal Cancer
+  via node: src.myc.trial-NCT07147231

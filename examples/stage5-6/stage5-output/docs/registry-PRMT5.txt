@@ -1,0 +1,64 @@
+Registry snapshot — PRMT5
+Checked 2026-08-18 12:46 UTC against PubMed, ClinicalTrials.gov and UniProt
+
+## COUNTERS
+VERIFIED subject_records=2
+VERIFIED weak_attribution=7
+VERIFIED off_target=0
+VERIFIED title_drift=0
+VERIFIED retracted=0
+VERIFIED unresolved=0
+VERIFIED not_checked=0
+VERIFIED checked_total=9
+
+## RECORDS
+uniprot O14744 | status=sound | gene_role=title | indication=not-applicable | resolves=True
+REGISTRY TITLE: Protein arginine N-methyltransferase 5
+DOSSIER QUOTE: UNIPROT binding_sites=7
+
+pmid 41513606 | status=weak-attribution | gene_role=title | indication=absent | resolves=True
+REGISTRY TITLE: PRMT5 upregulates KCNMB4 expression via histone methylation to promote paclitaxel resistance in advanced nasopharyngeal carcinoma.
+DOSSIER QUOTE: TITLE: PRMT5 upregulates KCNMB4 expression via histone methylation to promote paclitaxel resistance in advanced nasopharyngeal carcinoma.
+PUBLICATION TYPES: Journal Article
+REASON: record names no colorectal indication, so it does not speak to this disease
+
+pmid 41629269 | status=weak-attribution | gene_role=abstract | indication=abstract | resolves=True
+REGISTRY TITLE: Targeting ENO1 reprograms macrophage polarization to trigger antitumor immunity and improves the therapeutic effect of radiotherapy.
+DOSSIER QUOTE: TITLE: Targeting ENO1 reprograms macrophage polarization to trigger antitumor immunity and improves the therapeutic effect of radiotherapy.
+PUBLICATION TYPES: Journal Article
+REASON: PRMT5 appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else
+
+pmid 41630900 | status=weak-attribution | gene_role=abstract | indication=title | resolves=True
+REGISTRY TITLE: A nuclear isoform of hydroxyacyl-COA dehydrogenase inhibits tumor progression in colorectal cancer.
+DOSSIER QUOTE: TITLE: A nuclear isoform of hydroxyacyl-COA dehydrogenase inhibits tumor progression in colorectal cancer.
+PUBLICATION TYPES: Journal Article
+REASON: PRMT5 appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else
+
+pmid 42121254 | status=sound | gene_role=title | indication=title | resolves=True
+REGISTRY TITLE: Identification of METTL3 and PRMT5 as an oncogenic pair for the prognosis and therapeutic targets of colorectal cancer subtype.
+DOSSIER QUOTE: TITLE: Identification of METTL3 and PRMT5 as an oncogenic pair for the prognosis and therapeutic targets of colorectal cancer subtype.
+PUBLICATION TYPES: Journal Article
+
+pmid 42133901 | status=weak-attribution | gene_role=abstract | indication=abstract | resolves=True
+REGISTRY TITLE: Genomics of MTAP Loss in >500,000 Solid Tumor Specimens Profiled Using Comprehensive Genomic Profiling Platforms.
+DOSSIER QUOTE: TITLE: Genomics of MTAP Loss in >500,000 Solid Tumor Specimens Profiled Using Comprehensive Genomic Profiling Platforms.
+PUBLICATION TYPES: Journal Article
+REASON: PRMT5 appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else
+
+pmid 42326870 | status=weak-attribution | gene_role=abstract | indication=title | resolves=True
+REGISTRY TITLE: Targeting engulfment and cell motility 1 protein methylation attenuates M2 macrophage infiltration and boosts anti-PD-1 efficacy in colorectal cancer.
+DOSSIER QUOTE: TITLE: Targeting engulfment and cell motility 1 protein methylation attenuates M2 macrophage infiltration and boosts anti-PD-1 efficacy in colorectal cancer.
+PUBLICATION TYPES: Journal Article
+REASON: PRMT5 appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else
+
+pmid 42603931 | status=weak-attribution | gene_role=abstract | indication=absent | resolves=True
+REGISTRY TITLE: m6A-dependent regulation of DGUOK-AS1 by RBM15 and HNRNPH1 in lung adenocarcinoma.
+DOSSIER QUOTE: TITLE: m6A-dependent regulation of DGUOK-AS1 by RBM15 and HNRNPH1 in lung adenocarcinoma.
+PUBLICATION TYPES: Journal Article
+REASON: PRMT5 appears only in the abstract, not in the title, so it is not the subject of this record — and the record names no colorectal indication either
+
+pmid 42607456 | status=weak-attribution | gene_role=title | indication=absent | resolves=True
+REGISTRY TITLE: Design and synthesis of the first PARP1 and PRMT5 dual inhibitors for the treatment of breast cancer.
+DOSSIER QUOTE: TITLE: Design and synthesis of the first PARP1 and PRMT5 dual inhibitors for the treatment of breast cancer.
+PUBLICATION TYPES: Journal Article
+REASON: record names no colorectal indication, so it does not speak to this disease

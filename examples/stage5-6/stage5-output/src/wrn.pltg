@@ -1,0 +1,86 @@
+; WRN — registry verification results (stage 5)
+; Every fact quotes docs/registry-WRN.txt, which is the recorded registry response.
+
+(fact subject-records 4
+    :evidence (evidence "registry-WRN"
+        :quotes ("VERIFIED subject_records=4")
+        :explanation "Citations graded subject records for WRN"))
+
+(fact weak-attribution 7
+    :evidence (evidence "registry-WRN"
+        :quotes ("VERIFIED weak_attribution=7")
+        :explanation "Citations graded weak attribution for WRN"))
+
+(fact off-target 0
+    :evidence (evidence "registry-WRN"
+        :quotes ("VERIFIED off_target=0")
+        :explanation "Citations graded off target for WRN"))
+
+(fact title-drift 0
+    :evidence (evidence "registry-WRN"
+        :quotes ("VERIFIED title_drift=0")
+        :explanation "Citations graded title drift for WRN"))
+
+(fact retracted 0
+    :evidence (evidence "registry-WRN"
+        :quotes ("VERIFIED retracted=0")
+        :explanation "Citations graded retracted for WRN"))
+
+(fact unresolved 0
+    :evidence (evidence "registry-WRN"
+        :quotes ("VERIFIED unresolved=0")
+        :explanation "Citations graded unresolved for WRN"))
+
+(fact not-checked 0
+    :evidence (evidence "registry-WRN"
+        :quotes ("VERIFIED not_checked=0")
+        :explanation "Citations graded not checked for WRN"))
+
+(fact checked-total 11
+    :evidence (evidence "registry-WRN"
+        :quotes ("VERIFIED checked_total=11")
+        :explanation "Citations graded checked total for WRN"))
+
+(fact finding-pmid-40203476 true
+    :evidence (evidence "registry-WRN"
+        :quotes ("pmid 40203476 | status=weak-attribution | gene_role=abstract | indication=title | resolves=True")
+        :explanation "WRN appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else"))
+
+(fact finding-pmid-42293362 true
+    :evidence (evidence "registry-WRN"
+        :quotes ("pmid 42293362 | status=weak-attribution | gene_role=abstract | indication=abstract | resolves=True")
+        :explanation "WRN appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else"))
+
+(fact finding-pmid-42593940 true
+    :evidence (evidence "registry-WRN"
+        :quotes ("pmid 42593940 | status=weak-attribution | gene_role=title | indication=absent | resolves=True")
+        :explanation "record names no colorectal indication, so it does not speak to this disease"))
+
+(fact finding-pmid-42604630 true
+    :evidence (evidence "registry-WRN"
+        :quotes ("pmid 42604630 | status=weak-attribution | gene_role=title | indication=absent | resolves=True")
+        :explanation "record names no colorectal indication, so it does not speak to this disease"))
+
+(fact finding-nct-NCT03570541 true
+    :evidence (evidence "registry-WRN"
+        :quotes ("nct NCT03570541 | status=weak-attribution | gene_role=absent | indication=abstract | resolves=True")
+        :explanation "trial record names no WRN under any of its UniProt names — it was matched to this target by free-text search, and only the indication lines up"))
+
+(fact finding-nct-NCT06974110 true
+    :evidence (evidence "registry-WRN"
+        :quotes ("nct NCT06974110 | status=weak-attribution | gene_role=absent | indication=abstract | resolves=True")
+        :explanation "trial record names no WRN under any of its UniProt names — it was matched to this target by free-text search, and only the indication lines up"))
+
+(fact finding-nct-NCT07262619 true
+    :evidence (evidence "registry-WRN"
+        :quotes ("nct NCT07262619 | status=weak-attribution | gene_role=absent | indication=abstract | resolves=True")
+        :explanation "trial record names no WRN under any of its UniProt names — it was matched to this target by free-text search, and only the indication lines up"))
+
+; --- derived: how much of this dossier's citation base is subject-level ---
+(derive citations-all-sound (= weak-attribution 0) :using (weak-attribution))
+
+(derive citations-none-off-target (= off-target 0) :using (off-target))
+
+(derive citations-none-retracted (= retracted 0) :using (retracted))
+
+(derive citations-all-resolve (= unresolved 0) :using (unresolved))

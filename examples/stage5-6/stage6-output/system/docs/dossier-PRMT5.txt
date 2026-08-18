@@ -1,0 +1,47 @@
+Dossier transcript — PRMT5
+Transcribed 2026-08-18 12:52 UTC from: examples/stage4/fixtures/crc6-dossiers.html, examples/stage4/fixtures/crc6-verdicts.html
+
+## ASSERTED
+DOSSIER cited_records=9
+DOSSIER assumed_off_target=0
+DOSSIER assumed_retracted=0
+DOSSIER assumed_unresolved=0
+DOSSIER verdict=rejected
+DOSSIER verdict_node=prmt5-promising
+
+## RECORDS THE DOSSIER TREATS AS SUPPORT
+DOSSIER SUPPORTS uniprot O14744
+  as: UNIPROT binding_sites=7
+  via node: src.prmt5.binding-sites
+
+DOSSIER SUPPORTS pmid 41513606
+  as: TITLE: PRMT5 upregulates KCNMB4 expression via histone methylation to promote paclitaxel resistance in advanced nasopharyngeal carcinoma.
+  via node: src.prmt5.paper-41513606
+
+DOSSIER SUPPORTS pmid 41629269
+  as: TITLE: Targeting ENO1 reprograms macrophage polarization to trigger antitumor immunity and improves the therapeutic effect of radiotherapy.
+  via node: src.prmt5.paper-41629269
+
+DOSSIER SUPPORTS pmid 41630900
+  as: TITLE: A nuclear isoform of hydroxyacyl-COA dehydrogenase inhibits tumor progression in colorectal cancer.
+  via node: src.prmt5.paper-41630900
+
+DOSSIER SUPPORTS pmid 42121254
+  as: TITLE: Identification of METTL3 and PRMT5 as an oncogenic pair for the prognosis and therapeutic targets of colorectal cancer subtype.
+  via node: src.prmt5.paper-42121254
+
+DOSSIER SUPPORTS pmid 42133901
+  as: TITLE: Genomics of MTAP Loss in >500,000 Solid Tumor Specimens Profiled Using Comprehensive Genomic Profiling Platforms.
+  via node: src.prmt5.paper-42133901
+
+DOSSIER SUPPORTS pmid 42326870
+  as: TITLE: Targeting engulfment and cell motility 1 protein methylation attenuates M2 macrophage infiltration and boosts anti-PD-1 efficacy in colorectal cancer.
+  via node: src.prmt5.paper-42326870
+
+DOSSIER SUPPORTS pmid 42603931
+  as: TITLE: m6A-dependent regulation of DGUOK-AS1 by RBM15 and HNRNPH1 in lung adenocarcinoma.
+  via node: src.prmt5.paper-42603931
+
+DOSSIER SUPPORTS pmid 42607456
+  as: TITLE: Design and synthesis of the first PARP1 and PRMT5 dual inhibitors for the treatment of breast cancer.
+  via node: src.prmt5.paper-42607456

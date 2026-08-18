@@ -1,0 +1,76 @@
+; KRAS — what the dossier asserts (stage 4 export, transcribed)
+
+(fact cited-records 11
+    :evidence (evidence "dossier-KRAS"
+        :quotes ("DOSSIER cited_records=11")
+        :explanation "Records the KRAS dossier rests on"))
+
+(fact assumed-off-target 0
+    :evidence (evidence "dossier-KRAS"
+        :quotes ("DOSSIER assumed_off_target=0")
+        :explanation "The dossier cites every record as support, so it assumes none is off target"))
+
+(fact assumed-retracted 0
+    :evidence (evidence "dossier-KRAS"
+        :quotes ("DOSSIER assumed_retracted=0")
+        :explanation "The dossier assumes no cited record is retracted"))
+
+(fact assumed-unresolved 0
+    :evidence (evidence "dossier-KRAS"
+        :quotes ("DOSSIER assumed_unresolved=0")
+        :explanation "The dossier assumes every cited record resolves"))
+
+(fact supports-uniprot-P01116 true
+    :evidence (evidence "dossier-KRAS"
+        :quotes ("DOSSIER SUPPORTS uniprot P01116")
+        :explanation "The dossier treats P01116 as support for KRAS"))
+
+(fact supports-pmid-42527030 true
+    :evidence (evidence "dossier-KRAS"
+        :quotes ("DOSSIER SUPPORTS pmid 42527030")
+        :explanation "The dossier treats 42527030 as support for KRAS"))
+
+(fact supports-pmid-42557320 true
+    :evidence (evidence "dossier-KRAS"
+        :quotes ("DOSSIER SUPPORTS pmid 42557320")
+        :explanation "The dossier treats 42557320 as support for KRAS"))
+
+(fact supports-pmid-42570059 true
+    :evidence (evidence "dossier-KRAS"
+        :quotes ("DOSSIER SUPPORTS pmid 42570059")
+        :explanation "The dossier treats 42570059 as support for KRAS"))
+
+(fact supports-pmid-42580447 true
+    :evidence (evidence "dossier-KRAS"
+        :quotes ("DOSSIER SUPPORTS pmid 42580447")
+        :explanation "The dossier treats 42580447 as support for KRAS"))
+
+(fact supports-pmid-42599639 true
+    :evidence (evidence "dossier-KRAS"
+        :quotes ("DOSSIER SUPPORTS pmid 42599639")
+        :explanation "The dossier treats 42599639 as support for KRAS"))
+
+(fact supports-pmid-42605754 true
+    :evidence (evidence "dossier-KRAS"
+        :quotes ("DOSSIER SUPPORTS pmid 42605754")
+        :explanation "The dossier treats 42605754 as support for KRAS"))
+
+(fact supports-pmid-42606648 true
+    :evidence (evidence "dossier-KRAS"
+        :quotes ("DOSSIER SUPPORTS pmid 42606648")
+        :explanation "The dossier treats 42606648 as support for KRAS"))
+
+(fact supports-pmid-42607542 true
+    :evidence (evidence "dossier-KRAS"
+        :quotes ("DOSSIER SUPPORTS pmid 42607542")
+        :explanation "The dossier treats 42607542 as support for KRAS"))
+
+(fact supports-nct-NCT05176483 true
+    :evidence (evidence "dossier-KRAS"
+        :quotes ("DOSSIER SUPPORTS nct NCT05176483")
+        :explanation "The dossier treats NCT05176483 as support for KRAS"))
+
+(fact supports-nct-NCT07300150 true
+    :evidence (evidence "dossier-KRAS"
+        :quotes ("DOSSIER SUPPORTS nct NCT07300150")
+        :explanation "The dossier treats NCT07300150 as support for KRAS"))

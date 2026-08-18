@@ -1,0 +1,76 @@
+; KRAS — what the registries returned (stage 5)
+
+(fact subject-records 3
+    :evidence (evidence "registry-KRAS"
+        :quotes ("VERIFIED subject_records=3")
+        :explanation "Cited records whose registry entry names KRAS as its subject"))
+
+(fact off-target 1
+    :evidence (evidence "registry-KRAS"
+        :quotes ("VERIFIED off_target=1")
+        :explanation "Cited records that never name KRAS"))
+
+(fact retracted 0
+    :evidence (evidence "registry-KRAS"
+        :quotes ("VERIFIED retracted=0")
+        :explanation "Cited records that are retracted or under an expression of concern"))
+
+(fact unresolved 0
+    :evidence (evidence "registry-KRAS"
+        :quotes ("VERIFIED unresolved=0")
+        :explanation "Cited identifiers no registry could return"))
+
+(fact supports-uniprot-P01116 true
+    :evidence (evidence "registry-KRAS"
+        :quotes ("uniprot P01116 | status=sound | gene_role=title | indication=not-applicable | resolves=True")
+        :explanation "registry grade for P01116"))
+
+(fact supports-pmid-42527030 false
+    :evidence (evidence "registry-KRAS"
+        :quotes ("pmid 42527030 | status=off-target | gene_role=absent | indication=title | resolves=True")
+        :explanation "KRAS appears nowhere in the registry record, under any of its names"))
+
+(fact supports-pmid-42557320 false
+    :evidence (evidence "registry-KRAS"
+        :quotes ("pmid 42557320 | status=weak-attribution | gene_role=abstract | indication=abstract | resolves=True")
+        :explanation "KRAS appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else"))
+
+(fact supports-pmid-42570059 false
+    :evidence (evidence "registry-KRAS"
+        :quotes ("pmid 42570059 | status=weak-attribution | gene_role=abstract | indication=title | resolves=True")
+        :explanation "KRAS appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else"))
+
+(fact supports-pmid-42580447 true
+    :evidence (evidence "registry-KRAS"
+        :quotes ("pmid 42580447 | status=sound | gene_role=title | indication=title | resolves=True")
+        :explanation "registry grade for 42580447"))
+
+(fact supports-pmid-42599639 false
+    :evidence (evidence "registry-KRAS"
+        :quotes ("pmid 42599639 | status=weak-attribution | gene_role=abstract | indication=title | resolves=True")
+        :explanation "KRAS appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else"))
+
+(fact supports-pmid-42605754 false
+    :evidence (evidence "registry-KRAS"
+        :quotes ("pmid 42605754 | status=weak-attribution | gene_role=abstract | indication=absent | resolves=True")
+        :explanation "KRAS appears only in the abstract, not in the title, so it is not the subject of this record — and the record names no colorectal indication either"))
+
+(fact supports-pmid-42606648 false
+    :evidence (evidence "registry-KRAS"
+        :quotes ("pmid 42606648 | status=weak-attribution | gene_role=abstract | indication=title | resolves=True")
+        :explanation "KRAS appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else"))
+
+(fact supports-pmid-42607542 false
+    :evidence (evidence "registry-KRAS"
+        :quotes ("pmid 42607542 | status=weak-attribution | gene_role=title | indication=absent | resolves=True")
+        :explanation "record names no colorectal indication, so it does not speak to this disease"))
+
+(fact supports-nct-NCT05176483 false
+    :evidence (evidence "registry-KRAS"
+        :quotes ("nct NCT05176483 | status=weak-attribution | gene_role=absent | indication=abstract | resolves=True")
+        :explanation "trial record names no KRAS under any of its UniProt names — it was matched to this target by free-text search, and only the indication lines up"))
+
+(fact supports-nct-NCT07300150 true
+    :evidence (evidence "registry-KRAS"
+        :quotes ("nct NCT07300150 | status=sound | gene_role=title | indication=abstract | resolves=True")
+        :explanation "registry grade for NCT07300150"))

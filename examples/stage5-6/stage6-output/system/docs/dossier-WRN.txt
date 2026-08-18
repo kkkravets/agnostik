@@ -1,0 +1,55 @@
+Dossier transcript — WRN
+Transcribed 2026-08-18 12:52 UTC from: examples/stage4/fixtures/crc6-dossiers.html, examples/stage4/fixtures/crc6-verdicts.html
+
+## ASSERTED
+DOSSIER cited_records=11
+DOSSIER assumed_off_target=0
+DOSSIER assumed_retracted=0
+DOSSIER assumed_unresolved=0
+DOSSIER verdict=promising
+DOSSIER verdict_node=wrn-promising
+
+## RECORDS THE DOSSIER TREATS AS SUPPORT
+DOSSIER SUPPORTS uniprot Q14191
+  as: UNIPROT binding_sites=13
+  via node: src.wrn.binding-sites
+
+DOSSIER SUPPORTS pmid 40203476
+  as: TITLE: Werner helicase as a therapeutic target in mismatch repair deficient colorectal cancer.
+  via node: src.wrn.paper-40203476
+
+DOSSIER SUPPORTS pmid 41704373
+  as: TITLE: Discovery and Preclinical Evaluations of Potent, Selective, and Allosteric Covalent WRN Inhibitors with Improved PK Properties.
+  via node: src.wrn.paper-41704373
+
+DOSSIER SUPPORTS pmid 42293362
+  as: TITLE: RecQ DNA helicases germline variants in Lynch-like syndrome.
+  via node: src.wrn.paper-42293362
+
+DOSSIER SUPPORTS pmid 42461083
+  as: TITLE: Targeting WRN Helicase in Microsatellite Instable Colorectal Cancer Induces Antitumor Immunity through Extrachromosomal Circular DNA Release.
+  via node: src.wrn.paper-42461083
+
+DOSSIER SUPPORTS pmid 42484294
+  as: TITLE: CRISPR Screening Identifies SMARCAL1 and MRN as Modulators of WRN Dependency in MSI-H Colorectal Cancer.
+  via node: src.wrn.paper-42484294
+
+DOSSIER SUPPORTS pmid 42593940
+  as: TITLE: Discovery and Optimization of a WRN Helicase Inhibitor Series through Structure-Guided Drug Design from a Covalent Fragment Binding Insight.
+  via node: src.wrn.paper-42593940
+
+DOSSIER SUPPORTS pmid 42604630
+  as: TITLE: Design, synthesis and biological evaluation of triazolo[1,5-a]pyrimidinone derivatives as potent and orally efficacious WRN helicase inhibitors for MSI cancer therapy.
+  via node: src.wrn.paper-42604630
+
+DOSSIER SUPPORTS nct NCT03570541
+  as: TITLE: TQL-block for Laparoscopic Hemicolectomy
+  via node: src.wrn.trial-NCT03570541
+
+DOSSIER SUPPORTS nct NCT06974110
+  as: TITLE: Study of Orally Administered MOMA-341 in Participants With Advanced or Metastatic Solid Tumors
+  via node: src.wrn.trial-NCT06974110
+
+DOSSIER SUPPORTS nct NCT07262619
+  as: TITLE: EIK1005-002: A Clinical Research Study Evaluating EIK1005, a Werner Helicase Inhibitor, as Monotherapy and in Combination With Pembrolizumab in Participants With Advanced Solid Tumors Including Microsatellite Instability High (MSI-H) Tumors
+  via node: src.wrn.trial-NCT07262619
