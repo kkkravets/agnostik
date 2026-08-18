@@ -12,6 +12,7 @@ from agnostik.evidence_cli import DEFAULT_CANCER_TERMS
 from agnostik.parseltongue_corpus import (
     DEFAULT_MAX_DOCUMENTS_PER_TARGET,
     DEFAULT_MAX_TARGET_CHARS,
+    DEFAULT_TARGET_ATTEMPTS,
     Stage3Config,
     discover_sources,
     run_stage3,
@@ -35,6 +36,18 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--model", help="Nebius model; defaults to NEBIUS_MODEL")
     parser.add_argument("--base-url", help="defaults to NEBIUS_BASE_URL")
     parser.add_argument("--reasoning-tokens", type=int)
+    parser.add_argument(
+        "--workers",
+        type=int,
+        default=1,
+        help="targets to process concurrently (default: 1; passes within a target remain sequential)",
+    )
+    parser.add_argument(
+        "--attempts",
+        type=int,
+        default=DEFAULT_TARGET_ATTEMPTS,
+        help="maximum complete pipeline attempts per target (default: 2)",
+    )
     rerun = parser.add_mutually_exclusive_group()
     rerun.add_argument("--resume", action="store_true")
     rerun.add_argument("--overwrite", action="store_true")
@@ -85,7 +98,13 @@ def main(argv: Sequence[str] | None = None) -> int:
                 "stage4_export": str(config.output_dir / "stage3-export.json"),
             }
         else:
-            run = run_stage3(config, overwrite=args.overwrite, resume=args.resume)
+            run = run_stage3(
+                config,
+                overwrite=args.overwrite,
+                resume=args.resume,
+                max_workers=args.workers,
+                max_attempts=args.attempts,
+            )
             payload = {
                 "source_count": run.source_count,
                 "target_count": run.target_count,

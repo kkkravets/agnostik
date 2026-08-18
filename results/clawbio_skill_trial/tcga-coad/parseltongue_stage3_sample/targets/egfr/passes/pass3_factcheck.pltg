@@ -1,0 +1,93 @@
+
+;; ===== ANGLE 1: Alternative verdict via axiom instantiated with extended terms =====
+;; The original egfr-verdict was derived using base terms for the axiom's ?-variables.
+;; Here we bind the same axiom with extended terms (which incorporate additional evidence
+;; such as egfr-co-inhibit-kras-essential, egfr-clinical-benefit-crc, egfr-deletion-no-proliferation-effect)
+;; and check the verdict still holds true. This cross-validates the verdict under a stronger evidence set.
+
+(derive egfr-verdict-from-extended combo-evidence-overcomes-resistance-implies-promise
+  :bind ((?nonredundant-role egfr-nonredundant-signature)
+         (?mechanism mechanism-elucidated)
+         (?combo-efficacy dual-targeting-validated-extended)
+         (?clinical-evidence clinical-translation-extended)
+         (?resistance-concerns single-agent-resistance-extended)
+         (?context-concerns context-limitations))
+  :using (combo-evidence-overcomes-resistance-implies-promise
+          egfr-nonredundant-signature mechanism-elucidated
+          dual-targeting-validated-extended clinical-translation-extended
+          single-agent-resistance-extended context-limitations))
+
+(diff verdict-extended-vs-base
+  :replace egfr-verdict
+  :with egfr-verdict-from-extended)
+
+;; ===== ANGLE 2: Re-ground supporting-evidence-balanced with verified evidence =====
+;; The original term used :origin (flagged as ungrounded by the consistency checker).
+;; We re-define it with :evidence using verbatim quotes from PMC12162862 and diff
+;; against the original to confirm the value is unchanged.
+
+(defterm supporting-evidence-grounded
+  (and egfr-nonredundant-signature mechanism-elucidated dual-targeting-validated clinical-translation)
+  :evidence (evidence "PMC12162862"
+    :quotes ("we propose that the KRASG12D allele is critical in maintaining the axis of sustained proliferation, while upstream EGFR performs distinct, non-redundant functions involved in WNT, stemness and CSC signaling"
+             "Smoc2 was identified as a key upregulated target mediating these phenotypes that could be rescued upon additional Smoc2 deletion"
+             "KRAS inhibition alone only modestly reduces proliferation, whereas dual inhibition completely abrogated proliferation"
+             "heavily pretreated patients with metastatic colorectal cancer were shown to benefit from the treatment of adagrasib (KRASG12C inhibitor) in combination with cetuximab")
+    :explanation "Aggregate supporting evidence for EGFR therapeutic targeting in COAD: non-redundant EGFR role in WNT/stemness signaling, SMOC2-mediated mechanism of EGFR loss phenotypes, dual-targeting efficacy via KRAS+EGFR co-inhibition, and clinical translation with adagrasib+cetuximab combination"))
+
+(diff supporting-evidence-grounding-check
+  :replace supporting-evidence-balanced
+  :with supporting-evidence-grounded)
+
+;; ===== ANGLE 3: Re-ground opposing-evidence-balanced with verified evidence =====
+;; The original term used :origin (flagged as ungrounded). Re-define with :evidence
+;; covering all six constituent facts of single-agent-resistance and context-limitations.
+
+(defterm opposing-evidence-grounded
+  (and single-agent-resistance context-limitations)
+  :evidence (evidence "PMC12162862"
+    :quotes ("KRAS-mutations are known to confer resistance"
+             "Only 50% of patients eligible for anti-EGFR therapy respond to treatment, while the rest display primary resistance for reasons that are yet unknown"
+             "EGFR inhibition was considered ineffective in KRAS mutated patients"
+             "EGFR deletion in KRASwt tumor cells did not reduce tumor growth"
+             "the AKPE signature could only stratify KRASmt patients with AKPE high signature from low signature expressors into better overall survivors, while this was not the case for KRASwt patients"
+             "the metabolic phenotype induced by EGFR deletion is not exclusively driven by WNT signaling but involves broader EGFR-dependent regulatory networks")
+    :explanation "Aggregate opposing evidence: single-agent resistance (KRAS confers resistance, only 50% respond, historical ineffectiveness in KRAS-mutant) and context limitations (no KRASwt growth reduction, no KRASwt survival stratification, non-exclusive WNT mechanism)"))
+
+(diff opposing-evidence-grounding-check
+  :replace opposing-evidence-balanced
+  :with opposing-evidence-grounded)
+
+;; ===== ANGLE 4: Alternative verdict via aggregate terms (no axiom) =====
+;; The original egfr-verdict was derived through axiom combo-evidence-overcomes-resistance-implies-promise.
+;; Here we derive it directly: (implies (and supporting-evidence-balanced dossier-reconciliation) true).
+;; Logically, supporting-evidence-balanced = first 4 conjuncts of the axiom's antecedent,
+;; and dossier-reconciliation = last 2 conjuncts (the reconciliation implications).
+;; If both paths yield true, the verdict is cross-validated.
+
+(derive egfr-verdict-from-aggregate
+  (implies (and supporting-evidence-balanced dossier-reconciliation) true)
+  :using (supporting-evidence-balanced dossier-reconciliation))
+
+(diff verdict-aggregate-vs-axiom
+  :replace egfr-verdict
+  :with egfr-verdict-from-aggregate)
+
+;; ===== ANGLE 5: Re-ground dossier-reconciliation with verified evidence =====
+;; The original term used :origin (flagged as ungrounded). Re-define with :evidence
+;; using quotes that support both reconciliation implications.
+
+(defterm dossier-reconciliation-grounded
+  (and (implies single-agent-resistance dual-targeting-validated) (implies context-limitations clinical-translation))
+  :evidence (evidence "PMC12162862"
+    :quotes ("KRAS-mutations are known to confer resistance"
+             "EQFR inhibition was considered ineffective in KRAS mutated patients"
+             "KRAS inhibition alone only modestly reduces proliferation, whereas dual inhibition completely abrogated proliferation"
+             "EGFR deletion in KRASwt tumor cells did not reduce tumor growth"
+             "heavily pretreated patients with metastatic colorectal cancer were shown to benefit from the treatment of adagrasib (KRASG12C inhibitor) in combination with cetuximab"
+             "Validation in patient-datasets revealed that the identified signature is associated with better overall survival of RAS mutant CRC patients possibly allowing to predict therapy responses in patients")
+    :explanation "Reconciliation logic: dual inhibition efficacy (abrogated proliferation, adagrasib+cetuximab clinical benefit, AKPE survival stratification in KRAS-mutant) addresses single-agent resistance concerns; clinical translation evidence (clinical benefit, survival stratification) addresses KRASwt context limitation concerns"))
+
+(diff reconciliation-grounding-check
+  :replace dossier-reconciliation
+  :with dossier-reconciliation-grounded)

@@ -1,0 +1,31 @@
+{
+  "consistent": false,
+  "issues": [
+    {
+      "type": "unverified_evidence",
+      "items": [
+        "('disqualifying-evidence-combination', ['Grade 5 interstitial lung disease events were reported in the DESTINY-CRC01 trial', 'HERACLES-B primary endpoint was not met', 'No ERBB2-targeted therapies are approved for metastatic colorectal cancer'])",
+        "('opposing-evidence-bundle', ['Grade 5 interstitial lung disease events were reported in the DESTINY-CRC01 trial', 'Central nervous system progression was observed with HERACLES treatment', 'No ERBB2-targeted therapies are approved for metastatic colorectal cancer', 'ESMO guidelines make no mention of ERBB2 as a therapeutic target in mCRC', 'HERACLES-B primary endpoint was not met', 'Neratinib plus cetuximab showed no response in HER2-positive mCRC', 'There is no consensus on the prognostic role of ERBB2 amplification in colorectal cancer', 'ERBB2 amplification is not a homogeneous entity across colorectal tumors', 'ERBB2-positive tumors comprise biologically distinct subgroups', 'ERBB2-targeted therapies remain available only in clinical trials'])",
+        "('supporting-evidence-bundle', ['ERBB2 inhibition reduces tumor growth in colorectal cancer models', 'ERBB2 amplification confers resistance to anti-EGFR therapy in metastatic colorectal cancer', 'NCCN recommends HER2 testing for patients with metastatic colorectal cancer', 'Case report documented durable treatment benefit exceeding clinically meaningful PFS threshold', 'MOUNTAINEER trial achieved median PFS exceeding the meaningful clinical threshold'])",
+        "('trial-efficacy-broad', ['MOUNTAINEER, DESTINY-CRC01, MyPathway, HERACLES, and TRIUMPH all reported ORR signals in HER2-positive mCRC', 'Standard-of-care comparators include TAS-102 and regorafenib for later-line mCRC'])"
+      ]
+    },
+    {
+      "type": "no_evidence",
+      "items": [
+        "('meaningful-orrvs-threshold-pct', 'Synthesized: 30% ORR as a common meaningful efficacy threshold in oncology phase II trials, distinguishing active regimens from inactive ones')",
+        "('pfs-meaningful-threshold-months', 'Synthesized: 6 months as the minimum meaningful PFS threshold based on observed ERBB2-targeted therapy trial durations in mCRC')"
+      ]
+    },
+    {
+      "type": "potential_fabrication",
+      "items": [
+        "disqualifying-combination-present",
+        "erbb2-verdict",
+        "opposing-evidence-acknowledged",
+        "supporting-evidence-established"
+      ]
+    }
+  ],
+  "warnings": []
+}

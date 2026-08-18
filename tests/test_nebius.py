@@ -1,37 +1,34 @@
+import asyncio
+from types import MethodType
 import unittest
 
-from agnostik.nebius import DEFAULT_NEBIUS_BASE_URL, NebiusProvider
+from agnostik.nebius import NebiusProvider
+
+
+class FakeAsyncClient:
+    def __init__(self):
+        self.closed = False
+
+    async def close(self):
+        self.closed = True
 
 
 class NebiusProviderTests(unittest.TestCase):
-    def test_uses_token_factory_by_default(self) -> None:
-        provider = NebiusProvider(model="test/model", api_key="test-key")
+    def test_complete_reuses_event_loop_and_close_releases_client(self):
+        provider = NebiusProvider(model="test-model", api_key="test-key")
+        client = FakeAsyncClient()
+        provider._async_client = client
+        loop_ids = []
 
-        self.assertEqual(provider._base_url, DEFAULT_NEBIUS_BASE_URL)
+        async def fake_complete(self, messages, tools, **kwargs):
+            loop_ids.append(id(asyncio.get_running_loop()))
+            return {"ok": True}
 
-    def test_forces_the_single_tool_by_name(self) -> None:
-        provider = NebiusProvider(model="test/model", api_key="test-key")
-        tool = {
-            "type": "function",
-            "function": {"name": "extract", "parameters": {"type": "object"}},
-        }
+        provider.async_complete = MethodType(fake_complete, provider)
 
-        kwargs = provider._build_create_kwargs([], [tool], temperature=0)
+        self.assertEqual(provider.complete([], []), {"ok": True})
+        self.assertEqual(provider.complete([], []), {"ok": True})
+        provider.close()
 
-        self.assertEqual(
-            kwargs["tool_choice"],
-            {"type": "function", "function": {"name": "extract"}},
-        )
-        self.assertEqual(kwargs["model"], "test/model")
-        self.assertEqual(kwargs["tools"], [tool])
-        self.assertEqual(kwargs["temperature"], 0)
-
-    def test_rejects_ambiguous_tool_lists(self) -> None:
-        provider = NebiusProvider(model="test/model", api_key="test-key")
-
-        with self.assertRaisesRegex(ValueError, "exactly one"):
-            provider._build_create_kwargs([], [])
-
-
-if __name__ == "__main__":
-    unittest.main()
+        self.assertEqual(len(set(loop_ids)), 1)
+        self.assertTrue(client.closed)

@@ -1,6 +1,9 @@
 import json
 from pathlib import Path
+from types import SimpleNamespace
 import tempfile
+import threading
+import time
 import unittest
 
 from parseltongue import System
@@ -11,8 +14,10 @@ from agnostik.objections.bundle import load_export
 from agnostik.objections.targets import discover
 from agnostik.parseltongue_corpus import (
     TargetResult,
+    Stage3Config,
     build_stage4_export,
     discover_sources,
+    run_stage3,
     select_target_sources,
     target_query,
     validate_stage4_export,
@@ -83,6 +88,98 @@ class Stage3ExportTests(unittest.TestCase):
             self.assertEqual(
                 set(payload), {"DATA", "STRUCTURE_DATA", "LAYERS", "TAINT_DATA"}
             )
+
+    def test_runs_independent_targets_concurrently_with_separate_providers(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            source_dir = root / "sources"
+            source_dir.mkdir()
+            (source_dir / "paper.txt").write_text("EGFR and KRAS", encoding="utf-8")
+            config = Stage3Config(
+                tumour_type="COAD",
+                cancer_term="colon adenocarcinoma",
+                source_dir=source_dir,
+                output_dir=root / "output",
+                targets=("EGFR", "KRAS"),
+            )
+            lock = threading.Lock()
+            provider_ids = []
+            active = 0
+            peak_active = 0
+
+            def provider_factory(**kwargs):
+                provider = object()
+                with lock:
+                    provider_ids.append(id(provider))
+                return provider
+
+            def pipeline_runner(documents, query, provider):
+                nonlocal active, peak_active
+                target = "EGFR" if "of EGFR " in query else "KRAS"
+                with lock:
+                    active += 1
+                    peak_active = max(peak_active, active)
+                time.sleep(0.05)
+                with lock:
+                    active -= 1
+                return SimpleNamespace(
+                    system=target_system(target),
+                    output=SimpleNamespace(markdown="", references=[], consistency={}),
+                    pass1_source="",
+                    pass2_source="",
+                    pass3_source="",
+                    pass4_raw="",
+                )
+
+            run = run_stage3(
+                config,
+                max_workers=2,
+                provider_factory=provider_factory,
+                pipeline_runner=pipeline_runner,
+            )
+
+            self.assertEqual(run.target_count, 2)
+            self.assertEqual(peak_active, 2)
+            self.assertEqual(len(set(provider_ids)), 2)
+
+    def test_retries_a_target_after_malformed_model_output(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            source_dir = root / "sources"
+            source_dir.mkdir()
+            (source_dir / "paper.txt").write_text("EGFR", encoding="utf-8")
+            config = Stage3Config(
+                tumour_type="COAD",
+                cancer_term="colon adenocarcinoma",
+                source_dir=source_dir,
+                output_dir=root / "output",
+                targets=("EGFR",),
+            )
+            attempts = 0
+
+            def pipeline_runner(documents, query, provider):
+                nonlocal attempts
+                attempts += 1
+                if attempts == 1:
+                    raise NameError("generated symbol is missing")
+                return SimpleNamespace(
+                    system=target_system("EGFR"),
+                    output=SimpleNamespace(markdown="", references=[], consistency={}),
+                    pass1_source="",
+                    pass2_source="",
+                    pass3_source="",
+                    pass4_raw="",
+                )
+
+            run = run_stage3(
+                config,
+                max_attempts=2,
+                provider_factory=lambda **kwargs: object(),
+                pipeline_runner=pipeline_runner,
+            )
+
+            self.assertEqual(run.target_count, 1)
+            self.assertEqual(attempts, 2)
 
 
 if __name__ == "__main__":

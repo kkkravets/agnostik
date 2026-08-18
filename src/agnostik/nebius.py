@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import asyncio
 import os
 from collections.abc import Sequence
 from typing import Any
@@ -47,6 +48,33 @@ class NebiusProvider(OpenRouterProvider):
             base_url=resolved_base_url,
             reasoning=reasoning,
         )
+        self._runner: asyncio.Runner | None = None
+
+    def complete(
+        self,
+        messages: list[dict[str, Any]],
+        tools: list[dict[str, Any]],
+        **kwargs: Any,
+    ) -> dict[str, Any]:
+        """Run all passes on one event loop so streamed responses close cleanly."""
+
+        if self._runner is None:
+            self._runner = asyncio.Runner()
+        try:
+            return self._runner.run(self.async_complete(messages, tools, **kwargs))
+        except asyncio.CancelledError:
+            raise InterruptedError("Request cancelled") from None
+
+    def close(self) -> None:
+        """Close the shared async HTTP client and its event loop."""
+
+        runner, self._runner = self._runner, None
+        if runner is None:
+            return
+        try:
+            runner.run(self._async_client.close())
+        finally:
+            runner.close()
 
     def _build_create_kwargs(
         self,

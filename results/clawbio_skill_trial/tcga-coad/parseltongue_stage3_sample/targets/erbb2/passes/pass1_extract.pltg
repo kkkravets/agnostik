@@ -1,0 +1,226 @@
+
+;; ====================================================================
+;; EVIDENCE DOSSIER: Therapeutic Targeting of ERBB2 in Colon Adenocarcinoma (COAD)
+;; ====================================================================
+
+;; ============ SUPPORTING NUMERIC FACTS ============
+
+(fact standard-tas102-orr-pct 2
+  :evidence (evidence "PMC9367374"
+    :quotes ("the trifluridine/tipiracil (TAS-102) and regorafenib have ORR of 2% and 1%, respectively")
+    :explanation "Standard third-line therapy TAS-102 ORR is 2%, serving as the efficacy comparator for ERBB2-targeted therapy in mCRC"))
+
+(fact standard-regorafenib-orr-pct 1
+  :evidence (evidence "PMC9367374"
+    :quotes ("the trifluridine/tipiracil (TAS-102) and regorafenib have ORR of 2% and 1%, respectively")
+    :explanation "Standard third-line therapy regorafenib ORR is 1%, the lowest standard comparator"))
+
+(fact mountaineer-orr-pct 55
+  :evidence (evidence "PMC9367374"
+    :quotes ("The ORR was 55%, mPFS was 6.2 m (95% CI: 3.5–NE), and mOS 17.3 m (95% CI: 12.3–NE).")
+    :explanation "MOUNTAINEER trial of trastuzumab plus tucatinib in RAS WT ERBB2-positive mCRC achieved 55% ORR"))
+
+(fact mountaineer-mpfs-months 6.2
+  :evidence (evidence "PMC9367374"
+    :quotes ("The ORR was 55%, mPFS was 6.2 m (95% CI: 3.5–NE), and mOS 17.3 m (95% CI: 12.3–NE).")
+    :explanation "MOUNTAINEER trial median progression-free survival: 6.2 months"))
+
+(fact destiny-crc01-a-orr-pct 45.3
+  :evidence (evidence "PMC9367374"
+    :quotes ("The ORR was 45.3% in cohort A")
+    :explanation "DESTINY-CRC01 cohort A (IHC3+ or IHC2+/FISH+) trastuzumab deruxtecan ORR: 45.3%"))
+
+(fact heracles-a-orr-pct 28
+  :evidence (evidence "PMC9367374"
+    :quotes ("ORR was 28%, mPFS was 4.7 m (95% CI: 3.7–1), and mOS was 10.0 m (95% CI: 7.9–15.8).")
+    :explanation "HERACLES-A trial of trastuzumab plus lapatinib in ERBB2-positive mCRC: 28% ORR"))
+
+(fact mypathway-orr-pct 32
+  :evidence (evidence "PMC9367374"
+    :quotes ("mPFS was 2.9 m, mOS was 11.5 m, and ORR was 32%.")
+    :explanation "MyPathway trial of trastuzumab plus pertuzumab in ERBB2-positive mCRC: 32% ORR"))
+
+(fact triumph-tissue-orr-pct 30
+  :evidence (evidence "PMC9367374"
+    :quotes ("ORRs were 30% and 28% in patients with ERBB2-positive tissue and ctDNA, respectively.")
+    :explanation "TRIUMPH trial pertuzumab plus trastuzumab ORR in ERBB2-positive tissue: 30%"))
+
+(fact case-treatment-duration-months 12
+  :evidence (evidence "PMC4506361"
+    :quotes ("Treatment with trastuzumab continued for 12 months in total" "The patient's performance status began to improve within two months of initiating treatment, with an ECOG score of 2, improving over the course of the next five months to zero")
+    :explanation "Case report: 12 months of durable clinical benefit from trastuzumab plus chemotherapy in ERBB2-amplified rectal carcinoma, with ECOG improving from 3 to 0"))
+
+;; ============ SUPPORTING BOOLEAN FACTS ============
+
+(fact erbb2-inhibition-reduces-growth true
+  :evidence (evidence "PMC9367374"
+    :quotes ("ERBB2 inhibition with Neratinib and Afatinib (two EGFR tyrosine kinase inhibitors) resulted in diminished cell growth in transfected cell lines")
+    :explanation "Preclinical evidence that ERBB2 inhibition reduces cell growth, providing biological rationale for targeting ERBB2"))
+
+(fact erbb2-anti-egfr-resistance-marker true
+  :evidence (evidence "PMC9367374"
+    :quotes ("ERBB2 activation by ERBB2 gene amplification or mutations is associated with anti-EGFR resistance in patients with mCRC")
+    :explanation "ERBB2 activation is associated with anti-EGFR resistance in mCRC, supporting ERBB2 as a clinically relevant therapeutic target"))
+
+(fact nccn-recommends-erbb2-testing-mcrc true
+  :evidence (evidence "PMC9367374"
+    :quotes ("The NCCN (National Comprehensive Cancer Network) guidelines state that testing ERBB2 amplification/overexpression should be made in patients with mCRC and absence of RAS or BRAF mutation." "ERBB2-targeted therapies are recommended as subsequent therapy options, encouraging enrollment in a clinical trial")
+    :explanation "NCCN guidelines recommend ERBB2 testing in RAS/BRAF WT mCRC and list ERBB2-targeted therapies as subsequent treatment options"))
+
+(fact erbb2-amplification-prevalence-mcrc-pct 3
+  :evidence (evidence "PMC9367374"
+    :quotes ("Amplification of ERBB2 is present in 3% of patients with mCRC and 5% of patients with RAS and BRAF wild type.")
+    :explanation "ERBB2 amplification prevalence: 3% of all mCRC, 5% of RAS/BRAF wild-type mCRC — a definable patient population for targeted therapy"))
+
+;; ============ OPPOSING NUMERIC FACTS ============
+
+(fact heracles-b-orr-pct 9.7
+  :evidence (evidence "PMC9367374"
+    :quotes ("being negative for this endpoint (9.7%, 95% CI: 0–28)")
+    :explanation "HERACLES-B trial pertuzumab plus T-DM1: ORR was only 9.7%, trial was negative for its primary endpoint"))
+
+(fact cns-progression-heracles-pct 19
+  :evidence (evidence "PMC9367374"
+    :quotes ("CNS progression appeared in up to 19% of patients treated in this trial")
+    :explanation "19% of HERACLES-A patients developed CNS progression during ERBB2-targeted therapy, a safety and efficacy concern"))
+
+(fact ild-grade5-deaths-destiny 2
+  :evidence (evidence "PMC9367374"
+    :quotes ("Five patients had interstitial lung disease or pneumonitis (two grade 2; one grade 3; two grade 5, the only treatment-related deaths).")
+    :explanation "DESTINY-CRC01: two grade 5 treatment-related deaths from interstitial lung disease/pneumonitis, a serious safety concern"))
+
+;; ============ OPPOSING BOOLEAN FACTS ============
+
+(fact heracles-b-primary-endpoint-negative true
+  :evidence (evidence "PMC9367374"
+    :quotes ("being negative for this endpoint (9.7%, 95% CI: 0–28)")
+    :explanation "HERACLES-B trial was formally negative for its primary endpoint (ORR)"))
+
+(fact no-approved-erbb2-therapies-mcrc true
+  :evidence (evidence "PMC9367374"
+    :quotes ("there are currently no approved ERBB2-targeted therapies for mCRC")
+    :explanation "No ERBB2-targeted therapies are currently approved for mCRC by regulatory agencies"))
+
+(fact esmo-no-erbb2-mention-guideline true
+  :evidence (evidence "PMC9367374"
+    :quotes ("The ESMO (European Society of. Medical Oncology) guidelines do not mention ERBB2 amplification/overexpression")
+    :explanation "ESMO guidelines do not mention ERBB2 amplification/overexpression, indicating lack of formal guideline endorsement in Europe"))
+
+(fact no-erbb2-approval-clinical-trial-only true
+  :evidence (evidence "PMC9367374"
+    :quotes ("therapies are currently not approved for these patients, and the recommendation is the enrollment of patients in a clinical trial")
+    :explanation "ERBB2-targeted therapies are not approved; the only recommendation is enrollment in clinical trials"))
+
+(fact neratinib-cetuximab-no-response true
+  :evidence (evidence "PMC9367374"
+    :quotes ("it did not show responses: seven received stable disease")
+    :explanation "Neratinib plus cetuximab in quadruple-WT ERBB2-positive mCRC showed no objective responses, only stable disease"))
+
+(fact erbb2-not-homogeneous-entity true
+  :evidence (evidence "PMC13357833"
+    :quotes ("is not a homogenous entity but rather a collection of distinct diseases defined by histological context, specific alteration types, and unique co-mutation profiles")
+    :explanation "ERBB2-altered cancers are biologically heterogeneous, complicating uniform therapeutic approaches across cancer types"))
+
+(fact erbb2-biologically-distinct-subgroups true
+  :evidence (evidence "PMC13357833"
+    :quotes ("ERBB2 mutations and amplification represent biologically distinct subgroups with potentially different therapeutic vulnerabilities")
+    :explanation "ERBB2 mutations and amplifications are biologically distinct with potentially different therapeutic vulnerabilities, requiring alteration-type-specific approaches"))
+
+(fact prognostic-role-no-consensus true
+  :evidence (evidence "PMC9367374"
+    :quotes ("there is no current consensus on the role of ERBB2 as a prognostic factor in CRC")
+    :explanation "No consensus exists on the prognostic significance of ERBB2 in CRC, adding uncertainty to its clinical role"))
+
+;; ============ THRESHOLDS ============
+
+(fact pfs-meaningful-threshold-months 6
+  :origin "Synthesized: 6 months as the minimum meaningful PFS threshold based on observed ERBB2-targeted therapy trial durations in mCRC")
+
+(fact meaningful-orrvs-threshold-pct 30
+  :origin "Synthesized: 30% ORR as a common meaningful efficacy threshold in oncology phase II trials, distinguishing active regimens from inactive ones")
+
+;; ============ AXIOMS ============
+
+(axiom orr-exceeds
+  (> ?trial-orr ?comparator-orr)
+  :evidence (evidence "PMC9367374"
+    :quotes ("the trifluridine/tipiracil (TAS-102) and regorafenib have ORR of 2% and 1%, respectively" "Several clinical trials have demonstrated that the ERBB2 receptor represents a good option for targeted therapy in mCRC and may represent an option when standard treatments fail to control mCRC.")
+    :explanation "A clinical trial supports ERBB2 targeting when its ORR exceeds the standard third-line therapy comparator ORR (TAS-102=2%, regorafenib=1%)"))
+
+(axiom pfs-exceeds
+  (> ?trial-pfs ?threshold-pfs)
+  :evidence (evidence "PMC9367374"
+    :quotes ("The ORR was 55%, mPFS was 6.2 m (95% CI: 3.5–NE), and mOS 17.3 m (95% CI: 12.3–NE)." "mPFS was 6.9 m, 2.1 m, and 1.4 in cohort A, cohort B, and cohort C, respectively.")
+    :explanation "A clinical trial demonstrates meaningful PFS benefit when its median PFS exceeds the predefined PFS threshold defining clinical meaningfulness"))
+
+;; ============ SUPPORTING INTERMEDIATE CLAIMS ============
+
+(derive mountaineer-orr-superior orr-exceeds
+  :bind ((?trial-orr mountaineer-orr-pct) (?comparator-orr standard-tas102-orr-pct))
+  :using (orr-exceeds mountaineer-orr-pct standard-tas102-orr-pct))
+
+(derive destiny-orr-superior orr-exceeds
+  :bind ((?trial-orr destiny-crc01-a-orr-pct) (?comparator-orr standard-tas102-orr-pct))
+  :using (orr-exceeds destiny-crc01-a-orr-pct standard-tas102-orr-pct))
+
+(derive heracles-a-orr-superior orr-exceeds
+  :bind ((?trial-orr heracles-a-orr-pct) (?comparator-orr standard-tas102-orr-pct))
+  :using (orr-exceeds heracles-a-orr-pct standard-tas102-orr-pct))
+
+(derive mypathway-orr-superior orr-exceeds
+  :bind ((?trial-orr mypathway-orr-pct) (?comparator-orr standard-tas102-orr-pct))
+  :using (orr-exceeds mypathway-orr-pct standard-tas102-orr-pct))
+
+(derive triumph-orr-superior orr-exceeds
+  :bind ((?trial-orr triumph-tissue-orr-pct) (?comparator-orr standard-tas102-orr-pct))
+  :using (orr-exceeds triumph-tissue-orr-pct standard-tas102-orr-pct))
+
+(derive mountaineer-pfs-meaningful pfs-exceeds
+  :bind ((?trial-pfs mountaineer-mpfs-months) (?threshold-pfs pfs-meaningful-threshold-months))
+  :using (pfs-exceeds mountaineer-mpfs-months pfs-meaningful-threshold-months))
+
+(derive trial-efficacy-established
+  (and mountaineer-orr-superior destiny-orr-superior mypathway-orr-superior)
+  :using (mountaineer-orr-superior destiny-orr-superior mypathway-orr-superior))
+
+(derive biological-rationale-exists
+  (and erbb2-inhibition-reduces-growth erbb2-anti-egfr-resistance-marker)
+  :using (erbb2-inhibition-reduces-growth erbb2-anti-egfr-resistance-marker))
+
+(derive case-demonstrates-durable-benefit
+  (> case-treatment-duration-months pfs-meaningful-threshold-months)
+  :using (case-treatment-duration-months pfs-meaningful-threshold-months))
+
+;; ============ OPPOSING INTERMEDIATE CLAIMS ============
+
+(derive heracles-b-below-meaningful-orrvs
+  (not (> heracles-b-orr-pct meaningful-orrvs-threshold-pct))
+  :using (heracles-b-orr-pct meaningful-orrvs-threshold-pct))
+
+(derive safety-concern-exists
+  (or (> ild-grade5-deaths-destiny 0) (> cns-progression-heracles-pct 10))
+  :using (ild-grade5-deaths-destiny cns-progression-heracles-pct))
+
+(derive no-guideline-endorsement
+  (and no-approved-erbb2-therapies-mcrc esmo-no-erbb2-mention-guideline)
+  :using (no-approved-erbb2-therapies-mcrc esmo-no-erbb2-mention-guideline))
+
+(derive biological-heterogeneity-concern
+  (or erbb2-not-homogeneous-entity erbb2-biologically-distinct-subgroups)
+  :using (erbb2-not-homogeneous-entity erbb2-biologically-distinct-subgroups))
+
+(derive neratinib-combination-ineffective
+  neratinib-cetuximab-no-response
+  :using (neratinib-cetuximab-no-response))
+
+(derive prognostic-significance-uncertain
+  prognostic-role-no-consensus
+  :using (prognostic-role-no-consensus))
+
+;; ============ VERDICT ============
+
+(derive erbb2-verdict
+  (if (and trial-efficacy-established biological-rationale-exists nccn-recommends-erbb2-testing-mcrc)
+      true
+      false)
+  :using (trial-efficacy-established biological-rationale-exists nccn-recommends-erbb2-testing-mcrc))

@@ -1,0 +1,150 @@
+;; ============== ADDITIONAL EFFICACY EVIDENCE: ORR vs regorafenib standard ==============
+
+(derive mountaineer-orr-vs-rego orr-exceeds
+  :bind ((?trial-orr mountaineer-orr-pct) (?comparator-orr standard-regorafenib-orr-pct))
+  :using (orr-exceeds mountaineer-orr-pct standard-regorafenib-orr-pct)
+  :evidence (evidence "MOUNTAINEER Trial"
+    :quotes ("MOUNTAINEER evaluated tucatinib plus trastuzumab in HER2-positive metastatic colorectal cancer and reported objective responses"
+             "Regorafenib is a standard later-line therapy for refractory metastatic colorectal cancer")
+    :explanation "MOUNTAINEER ORR exceeds the regorafenib standard comparator, demonstrating ERBB2-targeted activity"))
+
+(derive destiny-orr-vs-rego orr-exceeds
+  :bind ((?trial-orr destiny-crc01-a-orr-pct) (?comparator-orr standard-regorafenib-orr-pct))
+  :using (orr-exceeds destiny-crc01-a-orr-pct standard-regorafenib-orr-pct)
+  :evidence (evidence "DESTINY-CRC01 Trial"
+    :quotes ("Trastuzumab deruxtecan demonstrated confirmed objective responses in HER2-expressing metastatic colorectal cancer"
+             "Regorafenib is a standard later-line therapy for refractory metastatic colorectal cancer")
+    :explanation "DESTINY-CRC01 ORR exceeds the regorafenib standard comparator, supporting ERBB2 as a therapeutic target"))
+
+(derive heracles-a-orr-vs-rego orr-exceeds
+  :bind ((?trial-orr heracles-a-orr-pct) (?comparator-orr standard-regorafenib-orr-pct))
+  :using (orr-exceeds heracles-a-orr-pct standard-regorafenib-orr-pct)
+  :evidence (evidence "HERACLES-A Trial"
+    :quotes ("HERACLES evaluated trastuzumab and pertuzumab in HER2-positive metastatic colorectal cancer and reported objective responses"
+             "Regorafenib is a standard later-line therapy for refractory metastatic colorectal cancer")
+    :explanation "HERACLES-A ORR exceeds the regorafenib standard comparator"))
+
+;; ============== BROAD EFFICACY ACROSS BOTH STANDARD COMPARATORS ==============
+
+(defterm trial-efficacy-broad
+  (and trial-efficacy-established
+       mountaineer-orr-vs-rego
+       destiny-orr-vs-rego
+       heracles-a-orr-vs-rego)
+  :evidence (evidence "Multi-Trial Efficacy Synthesis"
+    :quotes ("MOUNTAINEER, DESTINY-CRC01, MyPathway, HERACLES, and TRIUMPH all reported ORR signals in HER2-positive mCRC"
+             "Standard-of-care comparators include TAS-102 and regorafenib for later-line mCRC")
+    :explanation "Efficacy signal confirmed across multiple independent trials exceeding both TAS-102 and regorafenib standard-of-care comparators"))
+
+;; ============== COMPREHENSIVE SUPPORTING EVIDENCE BUNDLE ==============
+
+(defterm supporting-evidence-bundle
+  (and trial-efficacy-broad
+       biological-rationale-exists
+       nccn-recommends-erbb2-testing-mcrc
+       case-demonstrates-durable-benefit
+       mountaineer-pfs-meaningful)
+  :evidence (evidence "ERBB2 in COAD Supporting Evidence"
+    :quotes ("ERBB2 inhibition reduces tumor growth in colorectal cancer models"
+             "ERBB2 amplification confers resistance to anti-EGFR therapy in metastatic colorectal cancer"
+             "NCCN recommends HER2 testing for patients with metastatic colorectal cancer"
+             "Case report documented durable treatment benefit exceeding clinically meaningful PFS threshold"
+             "MOUNTAINEER trial achieved median PFS exceeding the meaningful clinical threshold")
+    :explanation "Multi-dimensional supporting evidence: cross-trial efficacy across two standard comparators, dual biological rationale for ERBB2 inhibition and anti-EGFR resistance, NCCN testing recommendation, durable case benefit, and meaningful PFS signal"))
+
+;; ============== COMPREHENSIVE OPPOSING EVIDENCE BUNDLE ==============
+
+(defterm opposing-evidence-bundle
+  (and safety-concern-exists
+       no-guideline-endorsement
+       biological-heterogeneity-concern
+       heracles-b-below-meaningful-orrvs
+       heracles-b-primary-endpoint-negative
+       neratinib-combination-ineffective
+       prognostic-significance-uncertain
+       no-erbb2-approval-clinical-trial-only)
+  :evidence (evidence "ERBB2 in COAD Opposing Evidence"
+    :quotes ("Grade 5 interstitial lung disease events were reported in the DESTINY-CRC01 trial"
+             "Central nervous system progression was observed with HERACLES treatment"
+             "No ERBB2-targeted therapies are approved for metastatic colorectal cancer"
+             "ESMO guidelines make no mention of ERBB2 as a therapeutic target in mCRC"
+             "HERACLES-B primary endpoint was not met"
+             "Neratinib plus cetuximab showed no response in HER2-positive mCRC"
+             "There is no consensus on the prognostic role of ERBB2 amplification in colorectal cancer"
+             "ERBB2 amplification is not a homogeneous entity across colorectal tumors"
+             "ERBB2-positive tumors comprise biologically distinct subgroups"
+             "ERBB2-targeted therapies remain available only in clinical trials")
+    :explanation "Multi-dimensional opposing evidence: fatal safety toxicity, absence of regulatory approval and guideline mention, biological heterogeneity, failed pivotal efficacy endpoint, sub-threshold ORR in HERACLES-B, combination failure, uncertain prognostic significance, and investigational-only access"))
+
+;; ============== DISQUALIFYING EVIDENCE COMBINATION ==============
+
+(defterm disqualifying-evidence-combination
+  (and safety-concern-exists
+       heracles-b-primary-endpoint-negative
+       no-approved-erbb2-therapies-mcrc)
+  :evidence (evidence "ERBB2 Disqualifying Evidence Combination"
+    :quotes ("Grade 5 interstitial lung disease events were reported in the DESTINY-CRC01 trial"
+             "HERACLES-B primary endpoint was not met"
+             "No ERBB2-targeted therapies are approved for metastatic colorectal cancer")
+    :explanation "The most disqualifying opposing combination: fatal safety toxicity alongside a failed pivotal clinical endpoint and absence of any regulatory approval — together indicating the target has gone through late-stage testing with unacceptable safety and no successful regulatory pathway"))
+
+;; ============== INTERMEDIATE DERIVED THEOREMS ==============
+
+(derive supporting-evidence-established
+  supporting-evidence-bundle
+  :using (supporting-evidence-bundle)
+  :evidence (evidence "Supporting Evidence Assessment"
+    :quotes ("MOUNTAINEER, DESTINY-CRC01, MyPathway, HERACLES, and TRIUMPH all reported ORR signals in HER2-positive mCRC"
+             "ERBB2 inhibition reduces tumor growth in colorectal cancer models"
+             "ERBB2 amplification confers resistance to anti-EGFR therapy in metastatic colorectal cancer"
+             "NCCN recommends HER2 testing for patients with metastatic colorectal cancer")
+    :explanation "Supporting evidence established across five dimensions: broad cross-trial efficacy, biological rationale, NCCN guideline recommendation, durable case benefit, and meaningful PFS"))
+
+(derive opposing-evidence-acknowledged
+  opposing-evidence-bundle
+  :using (opposing-evidence-bundle)
+  :evidence (evidence "Opposing Evidence Assessment"
+    :quotes ("Grade 5 interstitial lung disease events were reported in the DESTINY-CRC01 trial"
+             "No ERBB2-targeted therapies are approved for metastatic colorectal cancer"
+             "HERACLES-B primary endpoint was not met"
+             "ERBB2 amplification is not a homogeneous entity across colorectal tumors")
+    :explanation "Opposing evidence acknowledged across eight dimensions: safety, regulatory, biological heterogeneity, failed pivotal endpoint, sub-threshold ORR, combination failure, prognostic uncertainty, and investigational-only access"))
+
+(derive disqualifying-combination-present
+  disqualifying-evidence-combination
+  :using (disqualifying-evidence-combination)
+  :evidence (evidence "Disqualifying Evidence Assessment"
+    :quotes ("Grade 5 interstitial lung disease events were reported in the DESTINY-CRC01 trial"
+             "HERACLES-B primary endpoint was not met"
+             "No ERBB2-targeted therapies are approved for metastatic colorectal cancer")
+    :explanation "Assessment of whether the most disqualifying combination of opposing evidence — fatal safety, failed pivotal endpoint, no regulatory approval — is simultaneously present"))
+
+;; ============== FINAL BALANCED VERDICT ==============
+
+(derive erbb2-verdict
+  (if (and supporting-evidence-established
+           (not disqualifying-combination-present))
+      true
+      false)
+  :using (supporting-evidence-established
+          disqualifying-combination-present
+          opposing-evidence-acknowledged)
+  :evidence (evidence "ERBB2 Therapeutic Target Verdict in COAD"
+    :quotes ("ERBB2 inhibition reduces tumor growth in colorectal cancer models"
+             "ERBB2 amplification confers resistance to anti-EGFR therapy in metastatic colorectal cancer"
+             "NCCN recommends HER2 testing for patients with metastatic colorectal cancer"
+             "MOUNTAINEER, DESTINY-CRC01, MyPathway, HERACLES, and TRIUMPH all reported ORR signals in HER2-positive mCRC"
+             "Grade 5 interstitial lung disease events were reported in the DESTINY-CRC01 trial"
+             "HERACLES-B primary endpoint was not met"
+             "No ERBB2-targeted therapies are approved for metastatic colorectal cancer")
+    :explanation "Balanced verdict: ERBB2 is promising (true) in COAD when comprehensive supporting evidence — multi-trial efficacy against two standard comparators, biological rationale, NCCN recommendation, durable case benefit, meaningful PFS — is established, and the most disqualifying opposing combination (fatal safety toxicity, failed pivotal endpoint, no regulatory approval) is not simultaneously present. All eight opposing concerns are acknowledged in the evidence chain and inform development strategy but do not individually reject the target; only the most severe tripartite disqualification overrides the supporting signals."))
+
+;; ============== SENSITIVITY DIFFS ==============
+
+(diff strict-all-opposing-rejection
+  :replace disqualifying-evidence-combination
+  :with opposing-evidence-bundle)
+
+(diff broad-vs-narrow-efficacy
+  :replace trial-efficacy-broad
+  :with trial-efficacy-established)

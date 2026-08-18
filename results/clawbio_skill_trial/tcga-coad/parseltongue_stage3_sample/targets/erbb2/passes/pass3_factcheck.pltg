@@ -1,0 +1,105 @@
+
+;; ============================================================================
+;; ANGLE 1: HERACLES-B CI upper bound robustness check
+;; The document states "95% CI: 0–28" — even the upper bound (28%) is below the
+;; 30% meaningful threshold. This verifies the negative result is robust to
+;; statistical uncertainty, not just a point estimate artifact.
+;; ============================================================================
+
+(fact heracles-b-orr-ci-upper-pct 28
+  :evidence (evidence "PMC9367374"
+    :quotes ("being negative for this endpoint (9.7%, 95% CI: 0–28)")
+    :explanation "HERACLES-B 95% CI upper bound for ORR is 28%, extracted verbatim from the primary endpoint statement — even the most optimistic estimate falls below the 30% meaningful threshold"))
+
+(defterm heracles-b-ci-below-threshold
+  (not (> heracles-b-orr-ci-upper-pct meaningful-orrvs-threshold-pct)
+  :evidence (evidence "PMC9367374"
+    :quotes ("being negative for this endpoint (9.7%, 95% CI: 0–28)")
+    :explanation "Even at the upper 95% confidence bound (28%), HERACLES-B ORR remains below the 30% meaningful efficacy threshold — the negative primary endpoint result is robust to statistical uncertainty"))
+
+(diff heracles-b-ci-robustness
+  :replace heracles-b-orr-pct
+  :with heracles-b-orr-ci-upper-pct)
+
+;; ============================================================================
+;; ANGLE 2: DESTINY-CRC01 cohort A PFS as independent cross-trial PFS check
+;; MOUNTAINEER mPFS 6.2m is the primary PFS evidence in the supporting bundle;
+;; DESTINY-CRC01 cohort A mPFS 6.9m from the same document is a second data point.
+;; Both exceed the 6-month meaningful threshold, confirming the PFS finding
+;; is not MOUNTAINEER-specific.
+;; ============================================================================
+
+(fact destiny-crc01-a-mpfs-months 6.9
+  :evidence (evidence "PMC9367374"
+    :quotes ("mPFS was 6.9 m, 2.1 m, and 1.4 in cohort A, cohort B, and cohort C, respectively.")
+    :explanation "DESTINY-CRC01 cohort A median progression-free survival: 6.9 months, an independent PFS data point from a second clinical trial"))
+
+(derive destiny-pfs-meaningful pfs-exceeds
+  :bind ((?trial-pfs destiny-crc01-a-mpfs-months) (?threshold-pfs pfs-meaningful-threshold-months))
+  :using (pfs-exceeds destiny-crc01-a-mpfs-months pfs-meaningful-threshold-months))
+
+(diff pfs-cross-trial-check
+  :replace mountaineer-mpfs-months
+  :with destiny-crc01-a-mpfs-months)
+
+;; ============================================================================
+;; ANGLE 3: Direct disqualifying combination from verified ground facts
+;; The existing term disqualifying-evidence-combination uses a synthetic document
+;; ("ERBB2 Disqualifying Evidence Combination") with paraphrased quotes,
+;; flagged as unverified. All three components are independently verified facts
+;; from PMC9367374. This alternative bypasses the unverified term entirely.
+;; ============================================================================
+
+(defterm disqualifying-combination-direct
+  (and safety-concern-exists heracles-b-primary-endpoint-negative no-approved-erbb2-therapies-mcrc)
+  :evidence (evidence "PMC9367374"
+    :quotes ("Five patients had interstitial lung disease or pneumonitis (two grade 2; one grade 3; two grade 5, the only treatment-related deaths)."
+             "being negative for this endpoint (9.7%, 95% CI: 0–28)"
+             "there are currently no approved ERBB2-targeted therapies for mCRC")
+    :explanation "Direct recomputation of the disqualifying evidence combination from three independently verified ground facts: grade 5 ILD deaths in DESTINY-CRC01, HERACLES-B negative primary endpoint, and no approved ERBB2 therapies for mCRC"))
+
+(diff disqualifying-direct-check
+  :replace disqualifying-evidence-combination
+  :with disqualifying-combination-direct)
+
+;; ============================================================================
+;; ANGLE 4: Narrow vs broad efficacy in the supporting evidence bundle
+;; supporting-evidence-bundle uses trial-efficacy-broad (TAS-102 + regorafenib)
+;; The alternative uses trial-efficacy-established (TAS-102 only) — a stricter
+;; definition requiring efficacy vs only the higher comparator (2% vs 1%).
+;; The diff checks whether this definitional choice propagates to the verdict.
+;; ============================================================================
+
+(defterm supporting-evidence-direct
+  (and trial-efficacy-established biological-rationale-exists nccn-recommends-erbb2-testing-mcrc case-demonstrates-durable-benefit mountaineer-pfs-meaningful)
+  :evidence (evidence "PMC9367374"
+    :quotes ("Several clinical trials have demonstrated that the ERBB2 receptor represents a good option for targeted therapy in mCRC and may represent an option when standard treatments fail to control mCRC."
+             "ERBB2 inhibition with Neratinib and Afatinib (two EGFR tyrosine kinase inhibitors) resulted in diminished cell growth in transfected cell lines"
+             "ERBB2 activation by ERBB2 gene amplification or mutations is associated with anti-EGFR resistance in patients with mCRC"
+             "The NCCN (National Comprehensive Cancer Network) guidelines state that testing ERBB2 amplification/overexpression should be made in patients with mCRC and absence of RAS or BRAF mutation."
+             "The ORR was 55%, mPFS was 6.2 m (95% CI: 3.5–NE), and mOS 17.3 m (95% CI: 12.3–NE)."
+             "the trifluridine/tipiracil (TAS-102) and regorafenib have ORR of 2% and 1%, respectively")
+    :explanation "Supporting evidence recomputed using narrow trial-efficacy-established (TAS-102 comparator only) instead of trial-efficacy-broad (both TAS-102 and regorafenib comparators), with identical biological rationale, NCCN recommendation, durable case benefit from PMC4506361, and MOUNTAINEER PFS components — checks whether the broader efficacy definition is necessary for the verdict"))
+
+(diff supporting-narrow-vs-broad
+  :replace supporting-evidence-bundle
+  :with supporting-evidence-direct)
+
+;; ============================================================================
+;; ANGLE 5: Safety concern robustness — OR (either event) vs AND (both required)
+;; safety-concern-exists uses OR: either ILD deaths >0 OR CNS progression >10%
+;; A conservative AND check (both required) should also be True, since both
+;; ILD deaths (n=2 > 0) and CNS progression (19% > 10%) are independently met.
+;; This verifies the safety concern is robust to more conservative thresholds.
+;; ============================================================================
+
+(defterm safety-concern-both-required
+  (and (> ild-grade5-deaths-destiny 0) (> cns-progression-heracles-pct 10))
+  :evidence (evidence "PMC9367374"
+    :quotes ("Five patients had interstitial lung disease or pneumonitis (two grade 2; one grade 3; two grade 5, the only treatment-related deaths)."
+             "CNS progression appeared in up to 19% of patients treated in this trial")
+    :explanation "Conservative safety check requiring BOTH grade 5 ILD deaths (>0) AND CNS progression (>10%) — with 2 deaths and 19% CNS progression, both conditions are independently met, making the safety concern robust to either-or logic"))
+
+(diff safety-check-robustness
+  :replace safety-concern-exists
+  :with safety-concern-both-required)

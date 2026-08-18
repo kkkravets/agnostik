@@ -1,0 +1,11 @@
+{
+  "target": "KRAS",
+  "status": "complete",
+  "fingerprint": "44e558950eac315029fcc0992752120788cc8c103ce3324f74a5950c55b4c95b",
+  "query": "Build a formal evidence dossier for therapeutic targeting of KRAS in colon adenocarcinoma (COAD). Extract balanced supporting and opposing facts only from the supplied documents, and attach exact verbatim document quotes to every fact. Derive intermediate claims with explicit :using dependencies. Finally derive exactly one Boolean node named kras-verdict; true means the target is promising and false means it is rejected. The verdict's complete :using chain must terminate in the quoted facts. Do not leave it unknown.",
+  "verdict_node": "kras-verdict",
+  "sources": [
+    "PMC12658183.txt",
+    "PMC5042411.txt"
+  ]
+}

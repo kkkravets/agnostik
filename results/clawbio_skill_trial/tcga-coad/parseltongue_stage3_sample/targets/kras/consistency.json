@@ -1,0 +1,49 @@
+{
+  "consistent": false,
+  "issues": [
+    {
+      "type": "unverified_evidence",
+      "items": [
+        "('additional-caveats-corrected', ['Due to repeated failures of both direct and indirect approaches, KRAS was long considered \\\\u201cundruggable.\\\\u201d', 'The European Medicines Agency (EMA) has not yet approved either sotorasib or adagrasib for CRC treatment, though these agents may be accessible via clinical trials or compassionate use.', 'However, simultaneous inhibition of all three RAS isoforms in normal cells carries a serious risk of toxicity', 'Currently, most KRAS-targeting immunotherapeutic strategies remain in early stages of development, and none have yet advanced to clinical application.', 'developing specific KRAS inhibitors faced significant challenges due to the picomolar affinity of KRAS for GTP/GDP, high intracellular GTP concentrations, lack of allosteric regulatory sites, and the complex network of interactions involving GEFs, GAPs, and effectors through extended protein-protein interaction surfaces that are inherently challenging to target by small molecules'])",
+        "('clinical-trials-80-corrected', ['Eighty of these trials are currently recruiting patients, and 11 will recruit patients in the near future, reflecting active clinical interest to expand the therapeutic options to treat KRAS-mutant CRC patients, beyond the narrow subset of KRAS G12C\\\\u2013mutant cases.', 'Of the 156 clinical trials, 52 evaluated compounds exclusively targeting KRAS G12C (Fig. 9), despite the very low incidence of this mutation in CRC.', 'An increasing number of recent and ongoing trials are investigating inhibitors targeting other KRAS mutations common in CRC, such as G12D and G12V, as well as broader approaches aimed at pan-KRAS inhibition'])",
+        "('clinical-trials-80-recruiting', ['Eighty of these trials are currently recruiting patients, and 11 will recruit patients in the near future, reflecting active clinical interest to expand the therapeutic options to treat KRAS-mutant CRC patients, beyond the narrow subset of KRAS G12C\\\\u2013mutant cases.'])",
+        "('compounds-106-corrected', ['A systematic search of the NCI Thesaurus and PubChem, combining automated searches and manual curation (see \\\\u201cMethods\\\\u201d), retrieved 106 drugs or cellular treatments targeting SHP2/SOS1/KRAS.', 'A systematic examination of the Clinical Trials Database (https://clinicaltrials.gov), combining automatic search and manual curation, retrieved 156 clinical trials that have evaluated or are currently evaluating the response to at least one of those compounds in patients with CRC'])",
+        "('compounds-106-targeting-kras', ['A systematic search of the NCI Thesaurus and PubChem, combining automated searches and manual curation (see \\\\u201cMethods\\\\u201d), retrieved 106 drugs or cellular treatments targeting SHP2/SOS1/KRAS.'])",
+        "('kras-long-considered-undruggable', ['Due to repeated failures of both direct and indirect approaches, KRAS was long considered \\\\u201cundruggable.\\\\u201d'])",
+        "('kras-undruggable-corrected', ['Due to repeated failures of both direct and indirect approaches, KRAS was long considered \\\\u201cundruggable.\\\\u201d', 'The development of sotorasib and adagrasib, KRAS G12C-specific inhibitors, redefined KRAS as a challenging but tractable target, leading to an unprecedented surge in KRAS-targeted therapies in the last few years'])",
+        "('pipeline-at-scale-corrected', ['The development of sotorasib and adagrasib, KRAS G12C-specific inhibitors, redefined KRAS as a challenging but tractable target, leading to an unprecedented surge in KRAS-targeted therapies in the last few years', 'A systematic search of the NCI Thesaurus and PubChem, combining automated searches and manual curation (see \\\\u201cMethods\\\\u201d), retrieved 106 drugs or cellular treatments targeting SHP2/SOS1/KRAS.', 'A systematic examination of the Clinical Trials Database (https://clinicaltrials.gov), combining automatic search and manual curation, retrieved 156 clinical trials that have evaluated or are currently evaluating the response to at least one of those compounds in patients with CRC', 'Eighty of these trials are currently recruiting patients, and 11 will recruit patients in the near future, reflecting active clinical interest to expand the therapeutic options to treat KRAS-mutant CRC patients, beyond the narrow subset of KRAS G12C\\\\u2013mutant cases.'])"
+      ]
+    },
+    {
+      "type": "no_evidence",
+      "items": [
+        "('pipeline-diversification-check', 'Methodological: if more than half of clinical trials target non-G12C mutations, the pipeline is diversifying beyond G12C')",
+        "('prevalence-priority-rule', 'Methodological threshold: cancer mutation prevalence exceeding 30% justifies high-priority therapeutic development targeting')"
+      ]
+    },
+    {
+      "type": "potential_fabrication",
+      "items": [
+        "additional-caveats-acknowledged",
+        "kras-verdict",
+        "pipeline-at-scale",
+        "verdict-corrected"
+      ]
+    }
+  ],
+  "warnings": [
+    {
+      "type": "diff_contamination",
+      "items": [
+        "caveats-undruggable-fix",
+        "compounds-fix",
+        "trials80-fix"
+      ],
+      "details": {
+        "caveats-undruggable-fix": "verdict-crosscheck: <contaminated: references kras-long-considered-undruggable>",
+        "compounds-fix": "verdict-crosscheck: <contaminated: references compounds-106-targeting-kras>",
+        "trials80-fix": "verdict-crosscheck: <contaminated: references clinical-trials-80-recruiting>"
+      }
+    }
+  ]
+}

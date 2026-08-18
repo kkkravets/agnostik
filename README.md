@@ -210,6 +210,13 @@ Run locally using `NEBIUS_API_KEY`, `NEBIUS_MODEL`, and optionally
 uv run agnostik-parseltongue COAD --resume
 ```
 
+Process independent targets concurrently (each target's four dependent passes
+still run sequentially):
+
+```bash
+uv run agnostik-parseltongue COAD --resume --workers 3 --attempts 3
+```
+
 Run the same step through Docker:
 
 ```bash

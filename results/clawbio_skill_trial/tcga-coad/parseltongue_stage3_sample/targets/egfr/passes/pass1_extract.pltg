@@ -1,0 +1,331 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; FACTS — SUPPORTING EGFR AS THERAPEUTIC TARGET IN COAD
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(fact egfr-clinical-benefit-crc true
+  :evidence (evidence "PMC12162862"
+    :quotes ("Inhibition of the epidermal growth factor receptor (EGFR) shows clinical benefit in metastatic colorectal cancer (CRC) patients, but KRAS-mutations are known to confer resistance")
+    :explanation "EGFR inhibition demonstrates clinical benefit in metastatic CRC, establishing baseline therapeutic relevance"))
+
+(fact egfr-co-inhibit-kras-essential true
+  :evidence (evidence "PMC12162862"
+    :quotes ("recent reports highlight EGFR as a crucial target to be co-inhibited with RAS inhibitors for effective treatment of KRAS mutant CRC")
+    :explanation "EGFR is established as a crucial co-target with RAS inhibitors for KRAS mutant CRC treatment"))
+
+(fact egfr-amplifier-mapk-krasmt true
+  :evidence (evidence "PMC12162862"
+    :quotes ("EGFR acts as an amplifier of mitogen-activated-protein-kinases (MAPK) signaling in KRAS and BRAF mutant tumors, establishing EGFR as an indispensable treatment component for KRASmt CRC")
+    :explanation "EGFR amplifies MAPK signaling in KRAS mutant tumors, making it an indispensable treatment component"))
+
+(fact egfr-essential-synthetic-lethal true
+  :evidence (evidence "PMC12162862"
+    :quotes ("KRAS inhibitor studies demonstrate EGFR to be essential for synthetic lethal action in combination with the novel non-covalent KRASG12D MRTX1133 inhibitor")
+    :explanation "EGFR is essential for synthetic lethality when combined with KRASG12D inhibitor MRTX1133"))
+
+(fact mrtx1133-minimal-akp true
+  :evidence (evidence "PMC12162862"
+    :quotes ("MRTX1133 treatment had a minimal impact on the proliferation of AKP organoids, while it completely inhibited proliferation in AKPE organoids")
+    :explanation "KRASG12D inhibitor MRTX1133 alone has minimal impact on EGFR-wild-type organoids"))
+
+(fact mrtx1133-complete-akpe true
+  :evidence (evidence "PMC12162862"
+    :quotes ("MRTX1133 treatment had a minimal impact on the proliferation of AKP organoids, while it completely inhibited proliferation in AKPE organoids")
+    :explanation "MRTX1133 completely blocks proliferation when EGFR is deleted, demonstrating dual-target synergy"))
+
+(fact dual-inhibition-abrogates-proliferation true
+  :evidence (evidence "PMC12162862"
+    :quotes ("KRAS inhibition alone only modestly reduces proliferation, whereas dual inhibition completely abrogated proliferation")
+    :explanation "Dual EGFR and KRAS inhibition completely abrogates proliferation, far exceeding single-agent effects"))
+
+(fact egfr-deletion-no-proliferation-effect true
+  :evidence (evidence "PMC12162862"
+    :quotes ("AKPE (EgfrΔ) organoids did not show differences in doubling times compared to AKP organoids, demonstrating that loss of EGFR does not affect proliferation")
+    :explanation "EGFR deletion alone does not impair proliferation, supporting its use as a co-target rather than monotherapy"))
+
+(fact akpe-signature-better-survival-krasmt true
+  :evidence (evidence "PMC12162862"
+    :quotes ("Validation in patient-datasets revealed that the identified signature is associated with better overall survival of RAS mutant CRC patients possibly allowing to predict therapy responses in patients")
+    :explanation "AKPE gene signature is associated with better overall survival in RAS mutant CRC patients"))
+
+(fact adagrasib-cetuximab-benefit true
+  :evidence (evidence "PMC12162862"
+    :quotes ("heavily pretreated patients with metastatic colorectal cancer were shown to benefit from the treatment of adagrasib (KRASG12C inhibitor) in combination with cetuximab")
+    :explanation "Clinical evidence: KRASG12C inhibitor combined with anti-EGFR antibody cetuximab benefits heavily pretreated patients"))
+
+(fact cetuximab-upregulates-akpe-genes true
+  :evidence (evidence "PMC12162862"
+    :quotes ("treatment of PDX (Study 3) with the anti-EGFR monoclonal antibody cetuximab shows upregulation of 729 genes also upregulated in AKPE organoids")
+    :explanation "Cetuximab treatment in patient-derived xenografts recapitulates the AKPE gene signature, validating the organoid model"))
+
+(fact egfr-nonredundant-kras true
+  :evidence (evidence "PMC12162862"
+    :quotes ("we propose that the KRASG12D allele is critical in maintaining the axis of sustained proliferation, while upstream EGFR performs distinct, non-redundant functions involved in WNT, stemness and CSC signaling")
+    :explanation "EGFR has non-redundant functions in WNT, stemness, and CSC signaling distinct from KRAS"))
+
+(fact wnt-signature-unique-egfr-loss true
+  :evidence (evidence "PMC12162862"
+    :quotes ("the induction of the WNT- and stemness signature is uniquely driven by EGFR loss and cannot be replicated by KRAS inhibition")
+    :explanation "WNT/stemness signature is uniquely driven by EGFR loss, not by KRAS inhibition alone"))
+
+(fact egfr-deletion-metabolic-rewiring true
+  :evidence (evidence "PMC12162862"
+    :quotes ("This was accompanied by metabolic rewiring with a decrease in glycolytic routing and increased anaplerotic glutaminolysis")
+    :explanation "EGFR deletion causes metabolic rewiring from glycolysis to glutaminolysis"))
+
+(fact smoc2-key-mediator true
+  :evidence (evidence "PMC12162862"
+    :quotes ("Smoc2 was identified as a key upregulated target mediating these phenotypes that could be rescued upon additional Smoc2 deletion")
+    :explanation "SMOC2 is the key mediator of EGFR deletion phenotypes"))
+
+(fact smoc2-knockout-rescues-all true
+  :evidence (evidence "PMC12162862"
+    :quotes ("additional Smoc2-knockout could revert all these phenotypes induced by EGFR deletion, demonstrating that SMOC2 acts as a master-regulator of the identified key pathways in CRC")
+    :explanation "SMOC2 knockout rescues all EGFR-deletion phenotypes, confirming master-regulator role"))
+
+(fact egfr-negatively-regulates-smoc2 true
+  :evidence (evidence "PMC12162862"
+    :quotes ("highlighting the role of EGFR as a negative regulator of SMOC2 and WNT signaling pathway")
+    :explanation "EGFR negatively regulates SMOC2 and WNT signaling, providing mechanistic rationale for co-targeting"))
+
+(fact smoc2-negative-correlation-krasmt-tcga true
+  :evidence (evidence "PMC12162862"
+    :quotes ("by correlating SMOC2 to EGFR expression in patients of the TCGA-COAD cohort, we observed a negative correlation in the subset of KRAS-mutant patients, that was not evident in KRASWT patients")
+    :explanation "SMOC2 and EGFR are negatively correlated specifically in KRAS-mutant COAD patients in TCGA, validating the organoid model in human tumors"))
+
+(fact egfr-deletion-activates-wnt-stemness true
+  :evidence (evidence "PMC12162862"
+    :quotes ("EGFR deletion in KRAS-mutant organoids reduced their phenotypic heterogeneity and activated a distinct cancer-stem-cell/WNT signature")
+    :explanation "EGFR deletion activates cancer stem cell and WNT transcriptional programs in KRAS-mutant organoids"))
+
+(fact egfr-deletion-downregulates-mapk-pi3k-erbb true
+  :evidence (evidence "PMC12162862"
+    :quotes ("downregulation of major signaling cascades like MAPK, PI3K, and ErbB")
+    :explanation "EGFR deletion downregulates MAPK, PI3K, and ErbB signaling cascades"))
+
+(fact egfr-deletion-reduces-cell-size true
+  :evidence (evidence "PMC12162862"
+    :quotes ("We observed decreased circumference and diameter in AKPE when compared to AKP organoids")
+    :explanation "EGFR deletion reduces cell size in KRASG12D organoids, linked to stem cell phenotype"))
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; FACTS — OPPOSING EGFR AS THERAPEUTIC TARGET IN COAD
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(fact kras-confers-resistance-egfr true
+  :evidence (evidence "PMC12162862"
+    :quotes ("KRAS-mutations are known to confer resistance")
+    :explanation "KRAS mutations confer resistance to EGFR inhibition, the classical concern"))
+
+(fact only-50pct-respond-anti-egfr true
+  :evidence (evidence "PMC12162862"
+    :quotes ("Only 50% of patients eligible for anti-EGFR therapy respond to treatment, while the rest display primary resistance for reasons that are yet unknown")
+    :explanation "Only half of eligible patients respond to anti-EGFR therapy, a significant limitation of single-agent EGFR targeting"))
+
+(fact egfr-ineffective-kras-mutant-historical true
+  :evidence (evidence "PMC12162862"
+    :quotes ("EGFR inhibition was considered ineffective in KRAS mutated patients")
+    :explanation "Historically, EGFR inhibition was considered ineffective in KRAS-mutated patients, forming the classical dogma against EGFR targeting"))
+
+(fact egfr-deletion-kraswt-no-growth-reduction true
+  :evidence (evidence "PMC12162862"
+    :quotes ("EGFR deletion in KRASwt tumor cells did not reduce tumor growth")
+    :explanation "EGFR deletion in KRAS wild-type tumor cells does not reduce tumor growth, indicating context-specificity of EGFR role"))
+
+(fact akpe-signature-kraswt-no-stratification true
+  :evidence (evidence "PMC12162862"
+    :quotes ("the AKPE signature could only stratify KRASmt patients with AKPE high signature from low signature expressors into better overall survivors, while this was not the case for KRASwt patients")
+    :explanation "AKPE survival signature does not stratify KRAS wild-type patients, limiting generalizability to KRAS-mutant context only"))
+
+(fact metabolic-phenotype-not-exclusively-wnt true
+  :evidence (evidence "PMC12162862"
+    :quotes ("the metabolic phenotype induced by EGFR deletion is not exclusively driven by WNT signaling but involves broader EGFR-dependent regulatory networks")
+    :explanation "EGFR-deletion metabolic phenotype involves more than WNT signaling, adding mechanistic complexity"))
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; TERMS — GROUPED EVIDENCE
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(defterm egfr-nonredundant-signature
+  (and egfr-nonredundant-kras
+       wnt-signature-unique-egfr-loss
+       egfr-deletion-metabolic-rewiring
+       egfr-deletion-activates-wnt-stemness
+       egfr-deletion-downregulates-mapk-pi3k-erbb)
+  :evidence (evidence "PMC12162862"
+    :quotes ("we propose that the KRASG12D allele is critical in maintaining the axis of sustained proliferation, while upstream EGFR performs distinct, non-redundant functions involved in WNT, stemness and CSC signaling"
+             "the induction of the WNT- and stemness signature is uniquely driven by EGFR loss and cannot be replicated by KRAS inhibition"
+             "This was accompanied by metabolic rewiring with a decrease in glycolytic routing and increased anaplerotic glutaminolysis"
+             "EGFR deletion in KRAS-mutant organoids reduced their phenotypic heterogeneity and activated a distinct cancer-stem-cell/WNT signature"
+             "downregulation of major signaling cascades like MAPK, PI3K, and ErbB")
+    :explanation "EGFR has non-redundant tumor-intrinsic functions: WNT/stemness activation, metabolic rewiring, and signaling downregulation"))
+
+(defterm dual-targeting-validated
+  (and egfr-essential-synthetic-lethal
+       mrtx1133-minimal-akp
+       mrtx1133-complete-akpe
+       dual-inhibition-abrogates-proliferation)
+  :evidence (evidence "PMC12162862"
+    :quotes ("KRAS inhibitor studies demonstrate EGFR to be essential for synthetic lethal action in combination with the novel non-covalent KRASG12D MRTX1133 inhibitor"
+             "MRTX1133 treatment had a minimal impact on the proliferation of AKP organoids, while it completely inhibited proliferation in AKPE organoids"
+             "KRAS inhibition alone only modestly reduces proliferation, whereas dual inhibition completely abrogated proliferation")
+    :explanation "Dual EGFR and KRAS inhibition demonstrates synthetic lethality with complete proliferation abrogation"))
+
+(defterm clinical-translation
+  (and adagrasib-cetuximab-benefit
+       akpe-signature-better-survival-krasmt
+       cetuximab-upregulates-akpe-genes
+       smoc2-negative-correlation-krasmt-tcga)
+  :evidence (evidence "PMC12162862"
+    :quotes ("heavily pretreated patients with metastatic colorectal cancer were shown to benefit from the treatment of adagrasib (KRASG12C inhibitor) in combination with cetuximab"
+             "Validation in patient-datasets revealed that the identified signature is associated with better overall survival of RAS mutant CRC patients possibly allowing to predict therapy responses in patients"
+             "treatment of PDX (Study 3) with the anti-EGFR monoclonal antibody cetuximab shows upregulation of 729 genes also upregulated in AKPE organoids"
+             "by correlating SMOC2 to EGFR expression in patients of the TCGA-COAD cohort, we observed a negative correlation in the subset of KRAS-mutant patients, that was not evident in KRASWT patients")
+    :explanation "Clinical and patient-dataset evidence validates EGFR co-targeting: clinical trial benefit, survival association, cetuximab gene overlap, and TCGA correlation"))
+
+(defterm mechanism-elucidated
+  (and smoc2-key-mediator
+       smoc2-knockout-rescues-all
+       egfr-negatively-regulates-smoc2)
+  :evidence (evidence "PMC12162862"
+    :quotes ("Smoc2 was identified as a key upregulated target mediating these phenotypes that could be rescued upon additional Smoc2 deletion"
+             "additional Smoc2-knockout could revert all these phenotypes induced by EGFR deletion, demonstrating that SMOC2 acts as a master-regulator of the identified key pathways in CRC"
+             "highlighting the role of EGFR as a negative regulator of SMOC2 and WNT signaling pathway")
+    :explanation "SMOC2 mechanism is well characterized: identified as key mediator, knockout rescues all phenotypes, EGFR negatively regulates it"))
+
+(defterm single-agent-resistance
+  (and kras-confers-resistance-egfr
+       only-50pct-respond-anti-egfr
+       egfr-ineffective-kras-mutant-historical)
+  :evidence (evidence "PMC12162862"
+    :quotes ("KRAS-mutations are known to confer resistance"
+             "Only 50% of patients eligible for anti-EGFR therapy respond to treatment, while the rest display primary resistance for reasons that are yet unknown"
+             "EGFR inhibition was considered ineffective in KRAS mutated patients")
+    :explanation "Single-agent EGFR inhibition faces KRAS-mediated resistance, partial response, and historical ineffectiveness"))
+
+(defterm context-limitations
+  (and egfr-deletion-kraswt-no-growth-reduction
+       akpe-signature-kraswt-no-stratification
+       metabolic-phenotype-not-exclusively-wnt)
+  :evidence (evidence "PMC12162862"
+    :quotes ("EGFR deletion in KRASwt tumor cells did not reduce tumor growth"
+             "the AKPE signature could only stratify KRASmt patients with AKPE high signature from low signature expressors into better overall survivors, while this was not the case for KRASwt patients"
+             "the metabolic phenotype induced by EGFR deletion is not exclusively driven by WNT signaling but involves broader EGFR-dependent regulatory networks")
+    :explanation "Context-specific limitations: no effect in KRAS wild-type, no survival stratification in KRAS wild-type, and mechanism extends beyond WNT"))
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; AXIOMS — REASONING RULES
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(axiom combo-evidence-overcomes-resistance-implies-promise
+  (implies (and ?nonredundant-role
+                ?mechanism
+                ?combo-efficacy
+                ?clinical-evidence
+                (implies ?resistance-concerns ?combo-efficacy)
+                (implies ?context-concerns ?clinical-evidence))
+           true)
+  :evidence (evidence "PMC12162862"
+    :quotes ("recent reports highlight EGFR as a crucial target to be co-inhibited with RAS inhibitors for effective treatment of KRAS mutant CRC"
+             "dual inhibition completely abrogated proliferation"
+             "heavily pretreated patients with metastatic colorectal cancer were shown to benefit from the treatment of adagrasib (KRASG12C inhibitor) in combination with cetuximab"
+             "KRAS-mutations are known to confer resistance"
+             "EGFR deletion in KRASwt tumor cells did not reduce tumor growth")
+    :explanation "Core axiom: if EGFR has non-redundant roles with defined mechanism, dual targeting is efficacious, clinical translation exists, and single-agent resistance is overcome by combination efficacy while context concerns are addressed by clinical evidence, then the target is promising"))
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; DERIVES — INTERMEDIATE CLAIMS
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(derive egfr-nonredundant-role-confirmed
+  (and egfr-nonredundant-kras
+       wnt-signature-unique-egfr-loss
+       egfr-deletion-metabolic-rewiring
+       egfr-deletion-activates-wnt-stemness
+       egfr-deletion-downregulates-mapk-pi3k-erbb)
+  :using (egfr-nonredundant-kras wnt-signature-unique-egfr-loss egfr-deletion-metabolic-rewiring egfr-deletion-activates-wnt-stemness egfr-deletion-downregulates-mapk-pi3k-erbb))
+
+(derive dual-inhibition-efficacy-confirmed
+  (and egfr-essential-synthetic-lethal
+       mrtx1133-minimal-akp
+       mrtx1133-complete-akpe
+       dual-inhibition-abrogates-proliferation)
+  :using (egfr-essential-synthetic-lethal mrtx1133-minimal-akp mrtx1133-complete-akpe dual-inhibition-abrogates-proliferation))
+
+(derive clinical-translation-confirmed
+  (and adagrasib-cetuximab-benefit
+       akpe-signature-better-survival-krasmt
+       cetuximab-upregulates-akpe-genes
+       smoc2-negative-correlation-krasmt-tcga)
+  :using (adagrasib-cetuximab-benefit akpe-signature-better-survival-krasmt cetuximab-upregulates-akpe-genes smoc2-negative-correlation-krasmt-tcga))
+
+(derive mechanism-confirmed
+  (and smoc2-key-mediator
+       smoc2-knockout-rescues-all
+       egfr-negatively-regulates-smoc2)
+  :using (smoc2-key-mediator smoc2-knockout-rescues-all egfr-negatively-regulates-smoc2))
+
+(derive single-agent-resistance-concerns-confirmed
+  (and kras-confers-resistance-egfr
+       only-50pct-respond-anti-egfr
+       egfr-ineffective-kras-mutant-historical)
+  :using (kras-confers-resistance-egfr only-50pct-respond-anti-egfr egfr-ineffective-kras-mutant-historical))
+
+(derive context-limitations-confirmed
+  (and egfr-deletion-kraswt-no-growth-reduction
+       akpe-signature-kraswt-no-stratification
+       metabolic-phenotype-not-exclusively-wnt)
+  :using (egfr-deletion-kraswt-no-growth-reduction akpe-signature-kraswt-no-stratification metabolic-phenotype-not-exclusively-wnt))
+
+(derive resistance-concerns-addressed-by-dual-targeting
+  (implies (and kras-confers-resistance-egfr
+                only-50pct-respond-anti-egfr
+                egfr-ineffective-kras-mutant-historical)
+           (and egfr-essential-synthetic-lethal
+                mrtx1133-complete-akpe
+                dual-inhibition-abrogates-proliferation
+                adagrasib-cetuximab-benefit))
+  :using (kras-confers-resistance-egfr only-50pct-respond-anti-egfr egfr-ineffective-kras-mutant-historical egfr-essential-synthetic-lethal mrtx1133-complete-akpe dual-inhibition-abrogates-proliferation adagrasib-cetuximab-benefit))
+
+(derive context-concerns-addressed-by-clinical-evidence
+  (implies (and egfr-deletion-kraswt-no-growth-reduction
+                akpe-signature-kraswt-no-stratification
+                metabolic-phenotype-not-exclusively-wnt)
+           (and akpe-signature-better-survival-krasmt
+                smoc2-key-mediator
+                smoc2-knockout-rescues-all))
+  :using (egfr-deletion-kraswt-no-growth-reduction akpe-signature-kraswt-no-stratification metabolic-phenotype-not-exclusively-wnt akpe-signature-better-survival-krasmt smoc2-key-mediator smoc2-knockout-rescues-all))
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; DERIVE — FINAL VERDICT
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+(derive egfr-verdict combo-evidence-overcomes-resistance-implies-promise
+  :bind ((?nonredundant-role (and egfr-nonredundant-kras wnt-signature-unique-egfr-loss egfr-deletion-metabolic-rewiring egfr-deletion-activates-wnt-stemness egfr-deletion-downregulates-mapk-pi3k-erbb))
+         (?mechanism (and smoc2-key-mediator smoc2-knockout-rescues-all egfr-negatively-regulates-smoc2))
+         (?combo-efficacy (and egfr-essential-synthetic-lethal mrtx1133-minimal-akp mrtx1133-complete-akpe dual-inhibition-abrogates-proliferation))
+         (?clinical-evidence (and adagrasib-cetuximab-benefit akpe-signature-better-survival-krasmt cetuximab-upregulates-akpe-genes smoc2-negative-correlation-krasmt-tcga))
+         (?resistance-concerns (and kras-confers-resistance-egfr only-50pct-respond-anti-egfr egfr-ineffective-kras-mutant-historical))
+         (?context-concerns (and egfr-deletion-kraswt-no-growth-reduction akpe-signature-kraswt-no-stratification metabolic-phenotype-not-exclusively-wnt)))
+  :using (egfr-nonredundant-kras
+          wnt-signature-unique-egfr-loss
+          egfr-deletion-metabolic-rewiring
+          egfr-deletion-activates-wnt-stemness
+          egfr-deletion-downregulates-mapk-pi3k-erbb
+          smoc2-key-mediator
+          smoc2-knockout-rescues-all
+          egfr-negatively-regulates-smoc2
+          egfr-essential-synthetic-lethal
+          mrtx1133-minimal-akp
+          mrtx1133-complete-akpe
+          dual-inhibition-abrogates-proliferation
+          adagrasib-cetuximab-benefit
+          akpe-signature-better-survival-krasmt
+          cetuximab-upregulates-akpe-genes
+          smoc2-negative-correlation-krasmt-tcga
+          kras-confers-resistance-egfr
+          only-50pct-respond-anti-egfr
+          egfr-ineffective-kras-mutant-historical
+          egfr-deletion-kraswt-no-growth-reduction
+          akpe-signature-kraswt-no-stratification
+          metabolic-phenotype-not-exclusively-wnt
+          combo-evidence-overcomes-resistance-implies-promise))

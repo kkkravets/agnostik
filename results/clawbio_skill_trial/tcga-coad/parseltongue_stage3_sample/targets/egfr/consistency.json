@@ -1,0 +1,39 @@
+{
+  "consistent": false,
+  "issues": [
+    {
+      "type": "unverified_evidence",
+      "items": [
+        "('dossier-reconciliation-grounded', ['KRAS-mutations are known to confer resistance', 'EQFR inhibition was considered ineffective in KRAS mutated patients', 'KRAS inhibition alone only modestly reduces proliferation, whereas dual inhibition completely abrogated proliferation', 'EGFR deletion in KRASwt tumor cells did not reduce tumor growth', 'heavily pretreated patients with metastatic colorectal cancer were shown to benefit from the treatment of adagrasib (KRASG12C inhibitor) in combination with cetuximab', 'Validation in patient-datasets revealed that the identified signature is associated with better overall survival of RAS mutant CRC patients possibly allowing to predict therapy responses in patients'])"
+      ]
+    },
+    {
+      "type": "no_evidence",
+      "items": [
+        "('clinical-translation-extended', 'Extended clinical translation evidence incorporating direct CRC clinical benefit')",
+        "('dossier-reconciliation', 'Reconciliation: dual inhibition addresses single-agent resistance; clinical evidence addresses context limitations')",
+        "('dual-targeting-validated-extended', 'Extended dual-targeting efficacy with essential co-inhibition and MAPK amplification evidence')",
+        "('opposing-evidence-balanced', 'Aggregate opposing evidence against single-agent EGFR targeting in COAD')",
+        "('single-agent-resistance-extended', 'Extended single-agent resistance evidence including no-proliferation-effect on EGFR deletion')",
+        "('supporting-evidence-balanced', 'Aggregate supporting evidence for EGFR therapeutic targeting in COAD')"
+      ]
+    }
+  ],
+  "warnings": [
+    {
+      "type": "diff_contamination",
+      "items": [
+        "reconciliation-grounding-check",
+        "supporting-evidence-grounding-check",
+        "verdict-aggregate-vs-axiom",
+        "verdict-extended-vs-base"
+      ],
+      "details": {
+        "reconciliation-grounding-check": "verdict-aggregate-vs-axiom: <contaminated: references dossier-reconciliation>",
+        "supporting-evidence-grounding-check": "verdict-aggregate-vs-axiom: <contaminated: references supporting-evidence-balanced>",
+        "verdict-aggregate-vs-axiom": "verdict-extended-vs-base: <contaminated: references egfr-verdict>",
+        "verdict-extended-vs-base": "verdict-aggregate-vs-axiom: <contaminated: references egfr-verdict>"
+      }
+    }
+  ]
+}

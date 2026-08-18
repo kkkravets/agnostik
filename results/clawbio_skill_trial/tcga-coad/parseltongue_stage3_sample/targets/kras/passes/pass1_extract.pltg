@@ -1,0 +1,233 @@
+;; ============================================================
+;; FORMAL EVIDENCE DOSSIER: Therapeutic Targeting of KRAS in COAD
+;; Sources: PMC12658183 (KRAS-targeted therapies in CRC)
+;;          PMC5042411 (Idylla KRAS Mutation Assay)
+;; ============================================================
+
+;; ================================================================
+;; PART 1: GROUND FACTS (verbatim document quotes — supporting)
+;; ================================================================
+
+(fact kras-mutations-over-one-third-crc true
+  :evidence (evidence "PMC12658183"
+    :quotes ("KRAS mutations occur in over one-third of colorectal cancers (CRC), primarily affecting codons 12 and 13, and less frequently codons 61, 117, and 146.")
+    :explanation "Establishes high prevalence of KRAS mutations in CRC, motivating therapeutic development"))
+
+(fact kras-mutated-38pc-primary-crc true
+  :evidence (evidence "PMC12658183"
+    :quotes ("KRAS was mutated in 38% (670/1748) of the primary CRCs")
+    :explanation "Measured mutation rate across three large CRC cohorts confirms high KRAS prevalence"))
+
+(fact ras-prevalence-55-9-pct true
+  :evidence (evidence "PMC5042411"
+    :quotes ("RAS mutation prevalence was found to be 55.9%, with KRAS exon 2 mutations being most common (42.6% prevalence), followed by KRAS exon 4 (6.2%), NRAS exon 3 (4.2%), KRAS exon 3 (3.8%), NRAS exon 2 (2.9%), and NRAS exon 4 (0.3%) mutations")
+    :explanation "Pooled analysis of RCTs shows very high pan-RAS mutation prevalence in metastatic CRC, with KRAS being dominant"))
+
+(fact kras-oncogene-role-poor-prognosis true
+  :evidence (evidence "PMC12658183"
+    :quotes ("KRAS-mutant CRCs are associated with poorer prognosis, higher recurrence rates, reduced chemotherapy response, and resistance to EGFR-targeted therapies.")
+    :explanation "KRAS mutations drive adverse clinical outcomes, underscoring therapeutic need"))
+
+(fact c12-c13-account-82pc-kras-mutations true
+  :evidence (evidence "PMC12658183"
+    :quotes ("mutations in codons 12 and 13 collectively accounted for nearly 82% of all KRAS mutations in CRC, with the following incidence order G12D > G12V > G13D > G12C > G12A > G12S (Fig. 4).")
+    :explanation "Codons 12 and 13 dominate the KRAS mutation spectrum, informing which isoforms to target"))
+
+(fact kras-stratification-standard true
+  :evidence (evidence "PMC12658183"
+    :quotes ("Stratifying patients by KRAS mutation status is now standard for guiding treatment, though not all mutations confer the same oncogenicity or therapeutic response.")
+    :explanation "KRAS mutation stratification is already clinical standard, validating KRAS as a clinically actionable target"))
+
+(fact kras-status-needed-therapeutic-decision true
+  :evidence (evidence "PMC5042411"
+    :quotes ("the determination of RAS mutational status is needed for therapeutic decision-making")
+    :explanation "RAS/KRAS mutational status determination is required clinically, establishing direct therapeutic relevance"))
+
+(fact kras-exon2-reduces-egfr-efficacy true
+  :evidence (evidence "PMC5042411"
+    :quotes ("It was found that presence of mutations in KRAS exon 2 (codon 12/13) considerably reduced the efficacy of these EGFR inhibitors")
+    :explanation "KRAS exon 2 mutations confer resistance to anti-EGFR therapy, motivating alternative KRAS-directed therapeutic strategies"))
+
+(fact kras-long-considered-undruggable true
+  :evidence (evidence "PMC12658183"
+    :quotes ("Due to repeated failures of both direct and indirect approaches, KRAS was long considered \u201cundruggable.\u201d")
+    :explanation "Historical challenge of KRAS drug development, an acknowledged caveat"))
+
+(fact kras-redefined-tractable true
+  :evidence (evidence "PMC12658183"
+    :quotes ("The development of sotorasib and adagrasib, KRAS G12C-specific inhibitors, redefined KRAS as a challenging but tractable target, leading to an unprecedented surge in KRAS-targeted therapies in the last few years")
+    :explanation "Breakthrough: KRAS reclassified from undruggable to druggable, opening therapeutic era"))
+
+(fact high-picomolar-affinity-challenge true
+  :evidence (evidence "PMC12658183"
+    :quotes ("developing specific KRAS inhibitors faced significant challenges due to the picomolar affinity of KRAS for GTP/GDP, high intracellular GTP concentrations, lack of allosteric regulatory sites, and the complex network of interactions involving GEFs, GAPs, and effectors through extended protein-protein interaction surfaces that are inherently challenging to target by small molecules")
+    :explanation "Inherent biochemical difficulty of KRAS targeting — a recognized caveat"))
+
+;; ================================================================
+;; PART 1b: GROUND FACTS — Regulatory and pipeline evidence
+;; ================================================================
+
+(fact fda-approved-adagrasib-crc true
+  :evidence (evidence "PMC12658183"
+    :quotes ("Adagrasib (Krazati) was FDA-approved for KRAS G12C-mutated locally advanced or metastatic CRC on June 21, 2024. The approval was granted for use in combination with cetuximab (Erbitux) in patients who had previously been treated with fluoropyrimidine-, oxaliplatin-, and irinotecan-based chemotherapy")
+    :explanation "FDA regulatory approval of a KRAS-targeted therapy for CRC — proof of regulatory feasibility"))
+
+(fact fda-approved-sotorasib-crc true
+  :evidence (evidence "PMC12658183"
+    :quotes ("Sotorasib (Lumakras) in combination with panitumumab (Vectibix) was approved by the FDA for CRC on January 16, 2025. This approval was specifically for adult patients with KRAS G12C-mutated metastatic CRC, who have received prior fluoropyrimidine-, oxaliplatin-, and irinotecan-based chemotherapy")
+    :explanation "Second FDA approval of a KRAS-targeted therapy for CRC, confirming regulatory path"))
+
+(fact ema-not-yet-approved-crc true
+  :evidence (evidence "PMC12658183"
+    :quotes ("The European Medicines Agency (EMA) has not yet approved either sotorasib or adagrasib for CRC treatment, though these agents may be accessible via clinical trials or compassionate use.")
+    :explanation "EMA has not yet approved KRAS-targeted therapies for CRC — a regulatory gap to acknowledge"))
+
+(fact compounds-106-targeting-kras true
+  :evidence (evidence "PMC12658183"
+    :quotes ("A systematic search of the NCI Thesaurus and PubChem, combining automated searches and manual curation (see \u201cMethods\u201d), retrieved 106 drugs or cellular treatments targeting SHP2/SOS1/KRAS.")
+    :explanation "Large therapeutic pipeline of 106 KRAS-pathway targeting compounds identified"))
+
+(fact clinical-trials-156-crc true
+  :evidence (evidence "PMC12658183"
+    :quotes ("A systematic examination of the Clinical Trials Database (https://clinicaltrials.gov), combining automatic search and manual curation, retrieved 156 clinical trials that have evaluated or are currently evaluating the response to at least one of those compounds in patients with CRC")
+    :explanation "Extensive clinical trial activity with 156 trials evaluating KRAS-targeted therapies in CRC"))
+
+(fact clinical-trials-80-recruiting true
+  :evidence (evidence "PMC12658183"
+    :quotes ("Eighty of these trials are currently recruiting patients, and 11 will recruit patients in the near future, reflecting active clinical interest to expand the therapeutic options to treat KRAS-mutant CRC patients, beyond the narrow subset of KRAS G12C\u2013mutant cases.")
+    :explanation "91 trials recruiting or about to recruit, demonstrating active and expanding clinical interest"))
+
+(fact clinical-trials-52-g12c-only true
+  :evidence (evidence "PMC12658183"
+    :quotes ("Of the 156 clinical trials, 52 evaluated compounds exclusively targeting KRAS G12C (Fig. 9), despite the very low incidence of this mutation in CRC.")
+    :explanation "Many trials focus on the rare G12C mutation, a recognized misallocation concern"))
+
+;; ================================================================
+;; PART 1c: GROUND FACTS — Next-generation efficacy evidence
+;; ================================================================
+
+(fact mrtx1133-tumor-regression-crc true
+  :evidence (evidence "PMC12658183"
+    :quotes ("MRTX1133 is highly selective for KRAS G12D and induces tumor regression in multiple in vivo models, including CRC")
+    :explanation "MRTX1133, a KRAS G12D inhibitor, demonstrates tumor regression in CRC preclinical models — proof of concept for targeting the most common KRAS mutation"))
+
+(fact ras-on-inhibitors-superior-efficacy true
+  :evidence (evidence "PMC12658183"
+    :quotes ("RAS(ON) inhibitors, which target the GTP-bound active form, have demonstrated superior efficacy.")
+    :explanation "Next-generation RAS(ON) inhibitors show superior efficacy to first-generation approaches"))
+
+(fact preclinical-ras-on-sustained-regression true
+  :evidence (evidence "PMC12658183"
+    :quotes ("Preclinical studies show sustained suppression of RAS pathway signaling and prolonged tumor regression, whereas RAS(OFF) inhibitors often lead to relapse due to adaptive resistance")
+    :explanation "RAS(ON) inhibitors achieve durable preclinical responses, overcoming first-generation resistance limitations"))
+
+(fact trials-beyond-g12c-expanding true
+  :evidence (evidence "PMC12658183"
+    :quotes ("An increasing number of recent and ongoing trials are investigating inhibitors targeting other KRAS mutations common in CRC, such as G12D and G12V, as well as broader approaches aimed at pan-KRAS inhibition")
+    :explanation "Clinical development pipeline is expanding beyond the narrow G12C focus to cover more prevalent mutations"))
+
+(fact several-novel-inhibitors-phase-1-2 true
+  :evidence (evidence "PMC12658183"
+    :quotes ("Several of these novel inhibitors are already in phase 1 and 2 clinical trials (Fig. 9), and early results suggest that they may offer meaningful clinical benefits for a much larger proportion of CRC patients.")
+    :explanation "Next-generation inhibitors targeting broader mutation spectrum already in early clinical trials with positive early signals"))
+
+;; ================================================================
+;; PART 1d: GROUND FACTS — Combination therapy evidence
+;; ================================================================
+
+(fact combination-therapy-promise true
+  :evidence (evidence "PMC12658183"
+    :quotes ("Combining KRAS inhibitors with anti-EGFR therapy or other targeted agents has emerged as a promising approach, as it can enhance antitumor efficacy compared with KRAS inhibition alone.")
+    :explanation "Combination therapy strategy is explicitly characterized as promising in the literature"))
+
+(fact combination-improved-response-pfs true
+  :evidence (evidence "PMC12658183"
+    :quotes ("Recent preclinical and clinical studies have demonstrated the potential of these combination approaches to improve response rates and progression-free survival in patients with KRAS-mutant cancer")
+    :explanation "Combination approaches have demonstrated improved clinical outcomes in preclinical and clinical studies"))
+
+;; ================================================================
+;; PART 1e: GROUND FACTS — Limitations and caveats (opposing)
+;; ================================================================
+
+(fact g12c-3pct-mss-absent-msi true
+  :evidence (evidence "PMC12658183"
+    :quotes ("Despite their approval, these two inhibitors exclusively target the rare KRAS G12C mutation, which occurs in approximately 3% of the MSS CRC cases and is not found in MSI/hypermutated cases (Fig. 4), thereby limiting its applicability for the vast majority of CRC patients.")
+    :explanation "Currently approved KRAS inhibitors target only the rare G12C mutation (~3% of MSS CRC, absent in MSI) — a major limitation of current therapies"))
+
+(fact g12c-inhibitors-not-active-prevalent true
+  :evidence (evidence "PMC12658183"
+    :quotes ("KRAS G12C inhibitors have shown remarkable success in cancers harboring the G12C mutation, but as they are designed explicitly for this allele, they are not active against more prevalent KRAS mutations such as G12D and G12V.")
+    :explanation "G12C-specific inhibitors have no activity against the most prevalent KRAS mutations G12D and G12V in CRC"))
+
+(fact first-gen-off-only-resistance true
+  :evidence (evidence "PMC12658183"
+    :quotes ("First-generation KRAS inhibitors, including sotorasib and adagrasib, exclusively target the GDP-bound inactive form (OFF). Treatment with these inhibitors often triggers an adaptive feedback reactivation of wild-type RAS-GTP or secondary mutations promoting tumor persistence")
+    :explanation "First-generation KRAS inhibitors face adaptive resistance via feedback reactivation of wild-type RAS-GTP or secondary mutations"))
+
+(fact current-fda-inhibitors-only-g12c true
+  :evidence (evidence "PMC12658183"
+    :quotes ("current FDA-approved inhibitors target only KRAS G12C, a rare variant in MSS CRC and virtually absent in MSI CRC.")
+    :explanation "Currently approved drugs only target KRAS G12C, a very rare variant in CRC, limiting current patient benefit to a small subset"))
+
+(fact pan-ras-serious-toxicity-risk true
+  :evidence (evidence "PMC12658183"
+    :quotes ("However, simultaneous inhibition of all three RAS isoforms in normal cells carries a serious risk of toxicity")
+    :explanation "Pan-RAS inhibitor approach carries serious toxicity risk, a recognized safety caveat"))
+
+(fact immunotherapy-early-stage-no-clinical true
+  :evidence (evidence "PMC12658183"
+    :quotes ("Currently, most KRAS-targeting immunotherapeutic strategies remain in early stages of development, and none have yet advanced to clinical application.")
+    :explanation "KRAS-targeted immunotherapies are immature and have not reached clinical application — a pipeline caveat"))
+
+;; ================================================================
+;; PART 2: INTERMEDIATE DERIVED CLAIMS
+;; ================================================================
+
+(derive high-prevalence-target
+  (and kras-mutations-over-one-third-crc kras-mutated-38pc-primary-crc ras-prevalence-55-9-pct)
+  :using (kras-mutations-over-one-third-crc kras-mutated-38pc-primary-crc ras-prevalence-55-9-pct))
+
+(derive clinical-relevance-established
+  (and kras-oncogene-role-poor-prognosis c12-c13-account-82pc-kras-mutations kras-stratification-standard kras-status-needed-therapeutic-decision kras-exon2-reduces-egfr-efficacy)
+  :using (kras-oncogene-role-poor-prognosis c12-c13-account-82pc-kras-mutations kras-stratification-standard kras-status-needed-therapeutic-decision kras-exon2-reduces-egfr-efficacy))
+
+(derive pipeline-at-scale
+  (and kras-redefined-tractable compounds-106-targeting-kras clinical-trials-156-crc clinical-trials-80-recruiting)
+  :using (kras-redefined-tractable compounds-106-targeting-kras clinical-trials-156-crc clinical-trials-80-recruiting))
+
+(derive regulatory-proof-exists
+  (and fda-approved-adagrasib-crc fda-approved-sotorasib-crc)
+  :using (fda-approved-adagrasib-crc fda-approved-sotorasib-crc))
+
+(derive first-gen-limitations
+  (and g12c-3pct-mss-absent-msi g12c-inhibitors-not-active-prevalent first-gen-off-only-resistance current-fda-inhibitors-only-g12c clinical-trials-52-g12c-only)
+  :using (g12c-3pct-mss-absent-msi g12c-inhibitors-not-active-prevalent first-gen-off-only-resistance current-fda-inhibitors-only-g12c clinical-trials-52-g12c-only))
+
+(derive next-gen-overcomes-limitations
+  (and ras-on-inhibitors-superior-efficacy mrtx1133-tumor-regression-crc preclinical-ras-on-sustained-regression trials-beyond-g12c-expanding several-novel-inhibitors-phase-1-2)
+  :using (ras-on-inhibitors-superior-efficacy mrtx1133-tumor-regression-crc preclinical-ras-on-sustained-regression trials-beyond-g12c-expanding several-novel-inhibitors-phase-1-2))
+
+(derive combination-efficacy-demonstrated
+  (and combination-therapy-promise combination-improved-response-pfs)
+  :using (combination-therapy-promise combination-improved-response-pfs))
+
+(derive additional-caveats-acknowledged
+  (and kras-long-considered-undruggable ema-not-yet-approved-crc pan-ras-serious-toxicity-risk immunotherapy-early-stage-no-clinical high-picomolar-affinity-challenge)
+  :using (kras-long-considered-undruggable ema-not-yet-approved-crc pan-ras-serious-toxicity-risk immunotherapy-early-stage-no-clinical high-picomolar-affinity-challenge))
+
+;; ================================================================
+;; PART 3: FINAL VERDICT
+;; ================================================================
+
+(derive kras-verdict
+  (if (and high-prevalence-target
+            clinical-relevance-established
+            pipeline-at-scale
+            regulatory-proof-exists
+            first-gen-limitations
+            next-gen-overcomes-limitations
+            combination-efficacy-demonstrated
+            additional-caveats-acknowledged)
+      true
+      false)
+  :using (high-prevalence-target clinical-relevance-established pipeline-at-scale regulatory-proof-exists first-gen-limitations next-gen-overcomes-limitations combination-efficacy-demonstrated additional-caveats-acknowledged))

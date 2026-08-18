@@ -1,0 +1,24 @@
+(defterm supporting-evidence-balanced
+  (and egfr-nonredundant-signature mechanism-elucidated dual-targeting-validated clinical-translation)
+  :origin "Aggregate supporting evidence for EGFR therapeutic targeting in COAD")
+
+(defterm opposing-evidence-balanced
+  (and single-agent-resistance context-limitations)
+  :origin "Aggregate opposing evidence against single-agent EGFR targeting in COAD")
+
+(defterm dossier-reconciliation
+  (and (implies single-agent-resistance dual-targeting-validated)
+       (implies context-limitations clinical-translation))
+  :origin "Reconciliation: dual inhibition addresses single-agent resistance; clinical evidence addresses context limitations")
+
+(defterm clinical-translation-extended
+  (and clinical-translation egfr-clinical-benefit-crc)
+  :origin "Extended clinical translation evidence incorporating direct CRC clinical benefit")
+
+(defterm dual-targeting-validated-extended
+  (and dual-targeting-validated egfr-co-inhibit-kras-essential egfr-amplifier-mapk-krasmt)
+  :origin "Extended dual-targeting efficacy with essential co-inhibition and MAPK amplification evidence")
+
+(defterm single-agent-resistance-extended
+  (and single-agent-resistance egfr-deletion-no-proliferation-effect)
+  :origin "Extended single-agent resistance evidence including no-proliferation-effect on EGFR deletion")

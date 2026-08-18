@@ -3,10 +3,12 @@
 from __future__ import annotations
 
 from collections.abc import Callable, Sequence
+from concurrent.futures import ThreadPoolExecutor
 from dataclasses import asdict, dataclass
 from datetime import datetime, timezone
 import hashlib
 import json
+import logging
 from pathlib import Path
 import re
 import shutil
@@ -24,6 +26,9 @@ from agnostik.objections.targets import discover
 
 DEFAULT_MAX_DOCUMENTS_PER_TARGET = 10
 DEFAULT_MAX_TARGET_CHARS = 250_000
+DEFAULT_TARGET_ATTEMPTS = 2
+
+log = logging.getLogger(__name__)
 
 
 @dataclass(frozen=True, slots=True)
@@ -228,20 +233,30 @@ def run_stage3(
     *,
     overwrite: bool = False,
     resume: bool = False,
+    max_workers: int = 1,
+    max_attempts: int = DEFAULT_TARGET_ATTEMPTS,
     provider_factory: Callable[..., Any] = create_nebius_provider,
     pipeline_runner: Callable[[Sequence[tuple[str, str]], str, Any], PipelineResult] = _run_pipeline,
 ) -> Stage3Run:
+    if max_workers < 1:
+        raise ValueError("max_workers must be at least 1")
+    if max_attempts < 1:
+        raise ValueError("max_attempts must be at least 1")
     sources = discover_sources(config.source_dir)
     if config.output_dir.exists() and not (overwrite or resume):
         raise FileExistsError(f"output already exists: {config.output_dir}; use --resume or --overwrite")
     if overwrite and config.output_dir.exists():
         shutil.rmtree(config.output_dir)
     config.output_dir.mkdir(parents=True, exist_ok=True)
-    provider, results, records, reused = None, [], [], 0
+    plans = []
     for target in config.targets:
         selected = select_target_sources(sources, target, max_documents=config.max_documents_per_target, max_chars=config.max_target_chars)
         query = target_query(target, config.cancer_term, config.tumour_type)
         fingerprint = _fingerprint(selected, query, config.model)
+        plans.append((target, selected, query, fingerprint))
+
+    def run_target(plan: tuple[str, list[Path], str, str]) -> tuple[TargetResult, dict[str, Any], bool]:
+        target, selected, query, fingerprint = plan
         target_dir = config.output_dir / "targets" / target.lower()
         target_manifest = target_dir / "manifest.json"
         if resume and target_manifest.is_file() and (target_dir / "system.json").is_file():
@@ -249,22 +264,47 @@ def run_stage3(
             if previous.get("status") == "complete" and previous.get("fingerprint") == fingerprint:
                 system = System.from_dict(json.loads((target_dir / "system.json").read_text(encoding="utf-8")), overridable=True)
                 verdict = _find_verdict(system, target)
-                results.append(TargetResult(target, system, verdict, tuple(path.name for path in selected), target_dir))
-                records.append(previous)
-                reused += 1
-                continue
+                return TargetResult(target, system, verdict, tuple(path.name for path in selected), target_dir), previous, True
         if target_dir.exists():
             shutil.rmtree(target_dir)
-        if provider is None:
-            provider = provider_factory(model=config.model, base_url=config.base_url, reasoning=config.reasoning)
         documents = [(path.stem, path.read_text(encoding="utf-8", errors="replace")) for path in selected]
-        pipeline_result = pipeline_runner(documents, query, provider)
+        for attempt in range(1, max_attempts + 1):
+            provider = provider_factory(model=config.model, base_url=config.base_url, reasoning=config.reasoning)
+            try:
+                pipeline_result = pipeline_runner(documents, query, provider)
+                break
+            except InterruptedError:
+                raise
+            except Exception as exc:
+                if attempt >= max_attempts:
+                    raise
+                log.warning(
+                    "%s attempt %d/%d failed (%s: %s); retrying target",
+                    target,
+                    attempt,
+                    max_attempts,
+                    type(exc).__name__,
+                    exc,
+                )
+            finally:
+                close_provider = getattr(provider, "close", None)
+                if callable(close_provider):
+                    close_provider()
         verdict = _find_verdict(pipeline_result.system, target)
         _write_pipeline_result(pipeline_result, target_dir)
         record = {"target": target, "status": "complete", "fingerprint": fingerprint, "query": query, "verdict_node": verdict, "sources": [path.name for path in selected]}
         _json_write(target_manifest, record)
-        records.append(record)
-        results.append(TargetResult(target, pipeline_result.system, verdict, tuple(record["sources"]), target_dir))
+        return TargetResult(target, pipeline_result.system, verdict, tuple(record["sources"]), target_dir), record, False
+
+    if max_workers == 1:
+        completed = [run_target(plan) for plan in plans]
+    else:
+        with ThreadPoolExecutor(max_workers=min(max_workers, len(plans)), thread_name_prefix="stage3") as executor:
+            completed = list(executor.map(run_target, plans))
+
+    results = [result for result, _, _ in completed]
+    records = [record for _, record, _ in completed]
+    reused = sum(was_reused for _, _, was_reused in completed)
     export_path = config.output_dir / "stage3-export.json"
     _json_write(export_path, build_stage4_export(results))
     validate_stage4_export(export_path, config.targets)

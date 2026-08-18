@@ -1,0 +1,731 @@
+{
+  "DATA": [
+    {
+      "id": "stage3.egfr.egfr-sample-evidence",
+      "kind": "fact",
+      "value": "true",
+      "depth": 0,
+      "inputs": [],
+      "evidence": [
+        {
+          "doc": "PMC12162862",
+          "quotes": [
+            "### EGFR deletion fuels glutamine anaplerotic diversion"
+          ],
+          "quote_contexts": {
+            "### EGFR deletion fuels glutamine anaplerotic diversion": {
+              "before": "ose, lactate, pyruvate, and glutamate.\n\n",
+              "after": "\n\nMetabolic cues are described to maint"
+            }
+          },
+          "explanation": "Sample plumbing check from PMC12162862.txt",
+          "verified": true,
+          "status": "verified",
+          "signature": null,
+          "quote_details": {
+            "### EGFR deletion fuels glutamine anaplerotic diversion": {
+              "line": 63,
+              "confidence": 0.99
+            }
+          }
+        }
+      ],
+      "module": "stage3.egfr",
+      "definition": "true"
+    },
+    {
+      "id": "stage3.egfr.egfr-verdict",
+      "kind": "calc",
+      "value": "true",
+      "depth": 1,
+      "inputs": [
+        {
+          "name": "stage3.egfr.egfr-sample-evidence",
+          "inProbe": true
+        }
+      ],
+      "evidence": [
+        {
+          "status": "derived"
+        }
+      ],
+      "module": "stage3.egfr",
+      "definition": "egfr-sample-evidence"
+    },
+    {
+      "id": "stage3.erbb2.erbb2-sample-evidence",
+      "kind": "fact",
+      "value": "true",
+      "depth": 0,
+      "inputs": [],
+      "evidence": [
+        {
+          "doc": "PMC9367374",
+          "quotes": [
+            "## 5. Clinical Trials for Patients with ERBB2-Positive mCRC"
+          ],
+          "quote_contexts": {
+            "## 5. Clinical Trials for Patients with ERBB2-Positive mCRC": {
+              "before": "r the role of rebiopsy in progression.\n\n",
+              "after": "\n\nThere are several types of therapies "
+            }
+          },
+          "explanation": "Sample plumbing check from PMC9367374.txt",
+          "verified": true,
+          "status": "verified",
+          "signature": null,
+          "quote_details": {
+            "## 5. Clinical Trials for Patients with ERBB2-Positive mCRC": {
+              "line": 75,
+              "confidence": 0.969
+            }
+          }
+        }
+      ],
+      "module": "stage3.erbb2",
+      "definition": "true"
+    },
+    {
+      "id": "stage3.erbb2.erbb2-verdict",
+      "kind": "calc",
+      "value": "true",
+      "depth": 1,
+      "inputs": [
+        {
+          "name": "stage3.erbb2.erbb2-sample-evidence",
+          "inProbe": true
+        }
+      ],
+      "evidence": [
+        {
+          "status": "derived"
+        }
+      ],
+      "module": "stage3.erbb2",
+      "definition": "erbb2-sample-evidence"
+    },
+    {
+      "id": "stage3.kras.kras-sample-evidence",
+      "kind": "fact",
+      "value": "true",
+      "depth": 0,
+      "inputs": [],
+      "evidence": [
+        {
+          "doc": "PMC12658183",
+          "quotes": [
+            "### KRAS 3D rendering"
+          ],
+          "quote_contexts": {
+            "### KRAS 3D rendering": {
+              "before": "h widely varying mutation frequencies.\n\n",
+              "after": "\n\nThe structure of GDP-bound wild-type "
+            }
+          },
+          "explanation": "Sample plumbing check from PMC12658183.txt",
+          "verified": true,
+          "status": "verified",
+          "signature": null,
+          "quote_details": {
+            "### KRAS 3D rendering": {
+              "line": 173,
+              "confidence": 0.99
+            }
+          }
+        }
+      ],
+      "module": "stage3.kras",
+      "definition": "true"
+    },
+    {
+      "id": "stage3.kras.kras-verdict",
+      "kind": "calc",
+      "value": "true",
+      "depth": 1,
+      "inputs": [
+        {
+          "name": "stage3.kras.kras-sample-evidence",
+          "inProbe": true
+        }
+      ],
+      "evidence": [
+        {
+          "status": "derived"
+        }
+      ],
+      "module": "stage3.kras",
+      "definition": "kras-sample-evidence"
+    },
+    {
+      "id": "stage3.myc.myc-sample-evidence",
+      "kind": "fact",
+      "value": "true",
+      "depth": 0,
+      "inputs": [],
+      "evidence": [
+        {
+          "doc": "PMC11494295",
+          "quotes": [
+            "### TRIM21 Destabilizes the c-Myc Protein."
+          ],
+          "quote_contexts": {
+            "### TRIM21 Destabilizes the c-Myc Protein.": {
+              "before": "tment of KRAS-mutated CRC.\n\n## Results\n\n",
+              "after": ".\n\nTo delve into the crucial regulatory"
+            }
+          },
+          "explanation": "Sample plumbing check from PMC11494295.txt",
+          "verified": true,
+          "status": "verified",
+          "signature": null,
+          "quote_details": {
+            "### TRIM21 Destabilizes the c-Myc Protein.": {
+              "line": 29,
+              "confidence": 0.969
+            }
+          }
+        }
+      ],
+      "module": "stage3.myc",
+      "definition": "true"
+    },
+    {
+      "id": "stage3.myc.myc-verdict",
+      "kind": "calc",
+      "value": "true",
+      "depth": 1,
+      "inputs": [
+        {
+          "name": "stage3.myc.myc-sample-evidence",
+          "inProbe": true
+        }
+      ],
+      "evidence": [
+        {
+          "status": "derived"
+        }
+      ],
+      "module": "stage3.myc",
+      "definition": "myc-sample-evidence"
+    },
+    {
+      "id": "stage3.wrn.wrn-sample-evidence",
+      "kind": "fact",
+      "value": "true",
+      "depth": 0,
+      "inputs": [],
+      "evidence": [
+        {
+          "doc": "PMC7281075",
+          "quotes": [
+            "### 2.1. Incidence of WRN Mutations in Colorectal Cancer"
+          ],
+          "quote_contexts": {
+            "### 2.1. Incidence of WRN Mutations in Colorectal Cancer": {
+              "before": "ile of WRN-mutated CRC.\n\n## 2. Results\n\n",
+              "after": "\n\nWRN mutations (WRN-mut) were observed"
+            }
+          },
+          "explanation": "Sample plumbing check from PMC7281075.txt",
+          "verified": true,
+          "status": "verified",
+          "signature": null,
+          "quote_details": {
+            "### 2.1. Incidence of WRN Mutations in Colorectal Cancer": {
+              "line": 31,
+              "confidence": 0.969
+            }
+          }
+        }
+      ],
+      "module": "stage3.wrn",
+      "definition": "true"
+    },
+    {
+      "id": "stage3.wrn.wrn-verdict",
+      "kind": "calc",
+      "value": "true",
+      "depth": 1,
+      "inputs": [
+        {
+          "name": "stage3.wrn.wrn-sample-evidence",
+          "inProbe": true
+        }
+      ],
+      "evidence": [
+        {
+          "status": "derived"
+        }
+      ],
+      "module": "stage3.wrn",
+      "definition": "wrn-sample-evidence"
+    },
+    {
+      "id": "stage3.prmt5.prmt5-sample-evidence",
+      "kind": "fact",
+      "value": "true",
+      "depth": 0,
+      "inputs": [],
+      "evidence": [
+        {
+          "doc": "PMC7906165",
+          "quotes": [
+            "### PRMT5 regulates EMT via EGFR/Akt/GSK3β signaling axis"
+          ],
+          "quote_contexts": {
+            "### PRMT5 regulates EMT via EGFR/Akt/GSK3β signaling axis": {
+              "before": "RK1/2 or PTEN/mTOR signaling pathways.\n\n",
+              "after": "\n\nThe emerging evidence has been shown "
+            }
+          },
+          "explanation": "Sample plumbing check from PMC7906165.txt",
+          "verified": true,
+          "status": "verified",
+          "signature": null,
+          "quote_details": {
+            "### PRMT5 regulates EMT via EGFR/Akt/GSK3β signaling axis": {
+              "line": 59,
+              "confidence": 0.99
+            }
+          }
+        }
+      ],
+      "module": "stage3.prmt5",
+      "definition": "true"
+    },
+    {
+      "id": "stage3.prmt5.prmt5-verdict",
+      "kind": "calc",
+      "value": "true",
+      "depth": 1,
+      "inputs": [
+        {
+          "name": "stage3.prmt5.prmt5-sample-evidence",
+          "inProbe": true
+        }
+      ],
+      "evidence": [
+        {
+          "status": "derived"
+        }
+      ],
+      "module": "stage3.prmt5",
+      "definition": "prmt5-sample-evidence"
+    }
+  ],
+  "STRUCTURE_DATA": [
+    {
+      "id": "stage3.egfr.egfr-sample-evidence",
+      "kind": "fact",
+      "value": "true",
+      "depth": 0,
+      "inputs": [],
+      "evidence": [
+        {
+          "doc": "PMC12162862",
+          "quotes": [
+            "### EGFR deletion fuels glutamine anaplerotic diversion"
+          ],
+          "quote_contexts": {
+            "### EGFR deletion fuels glutamine anaplerotic diversion": {
+              "before": "ose, lactate, pyruvate, and glutamate.\n\n",
+              "after": "\n\nMetabolic cues are described to maint"
+            }
+          },
+          "explanation": "Sample plumbing check from PMC12162862.txt",
+          "verified": true,
+          "status": "verified",
+          "signature": null,
+          "quote_details": {
+            "### EGFR deletion fuels glutamine anaplerotic diversion": {
+              "line": 63,
+              "confidence": 0.99
+            }
+          }
+        }
+      ],
+      "module": "stage3.egfr",
+      "definition": "true"
+    },
+    {
+      "id": "stage3.egfr.egfr-verdict",
+      "kind": "calc",
+      "value": "true",
+      "depth": 1,
+      "inputs": [
+        {
+          "name": "stage3.egfr.egfr-sample-evidence",
+          "inProbe": true
+        }
+      ],
+      "evidence": [
+        {
+          "status": "derived"
+        }
+      ],
+      "module": "stage3.egfr",
+      "definition": "egfr-sample-evidence"
+    },
+    {
+      "id": "stage3.erbb2.erbb2-sample-evidence",
+      "kind": "fact",
+      "value": "true",
+      "depth": 0,
+      "inputs": [],
+      "evidence": [
+        {
+          "doc": "PMC9367374",
+          "quotes": [
+            "## 5. Clinical Trials for Patients with ERBB2-Positive mCRC"
+          ],
+          "quote_contexts": {
+            "## 5. Clinical Trials for Patients with ERBB2-Positive mCRC": {
+              "before": "r the role of rebiopsy in progression.\n\n",
+              "after": "\n\nThere are several types of therapies "
+            }
+          },
+          "explanation": "Sample plumbing check from PMC9367374.txt",
+          "verified": true,
+          "status": "verified",
+          "signature": null,
+          "quote_details": {
+            "## 5. Clinical Trials for Patients with ERBB2-Positive mCRC": {
+              "line": 75,
+              "confidence": 0.969
+            }
+          }
+        }
+      ],
+      "module": "stage3.erbb2",
+      "definition": "true"
+    },
+    {
+      "id": "stage3.erbb2.erbb2-verdict",
+      "kind": "calc",
+      "value": "true",
+      "depth": 1,
+      "inputs": [
+        {
+          "name": "stage3.erbb2.erbb2-sample-evidence",
+          "inProbe": true
+        }
+      ],
+      "evidence": [
+        {
+          "status": "derived"
+        }
+      ],
+      "module": "stage3.erbb2",
+      "definition": "erbb2-sample-evidence"
+    },
+    {
+      "id": "stage3.kras.kras-sample-evidence",
+      "kind": "fact",
+      "value": "true",
+      "depth": 0,
+      "inputs": [],
+      "evidence": [
+        {
+          "doc": "PMC12658183",
+          "quotes": [
+            "### KRAS 3D rendering"
+          ],
+          "quote_contexts": {
+            "### KRAS 3D rendering": {
+              "before": "h widely varying mutation frequencies.\n\n",
+              "after": "\n\nThe structure of GDP-bound wild-type "
+            }
+          },
+          "explanation": "Sample plumbing check from PMC12658183.txt",
+          "verified": true,
+          "status": "verified",
+          "signature": null,
+          "quote_details": {
+            "### KRAS 3D rendering": {
+              "line": 173,
+              "confidence": 0.99
+            }
+          }
+        }
+      ],
+      "module": "stage3.kras",
+      "definition": "true"
+    },
+    {
+      "id": "stage3.kras.kras-verdict",
+      "kind": "calc",
+      "value": "true",
+      "depth": 1,
+      "inputs": [
+        {
+          "name": "stage3.kras.kras-sample-evidence",
+          "inProbe": true
+        }
+      ],
+      "evidence": [
+        {
+          "status": "derived"
+        }
+      ],
+      "module": "stage3.kras",
+      "definition": "kras-sample-evidence"
+    },
+    {
+      "id": "stage3.myc.myc-sample-evidence",
+      "kind": "fact",
+      "value": "true",
+      "depth": 0,
+      "inputs": [],
+      "evidence": [
+        {
+          "doc": "PMC11494295",
+          "quotes": [
+            "### TRIM21 Destabilizes the c-Myc Protein."
+          ],
+          "quote_contexts": {
+            "### TRIM21 Destabilizes the c-Myc Protein.": {
+              "before": "tment of KRAS-mutated CRC.\n\n## Results\n\n",
+              "after": ".\n\nTo delve into the crucial regulatory"
+            }
+          },
+          "explanation": "Sample plumbing check from PMC11494295.txt",
+          "verified": true,
+          "status": "verified",
+          "signature": null,
+          "quote_details": {
+            "### TRIM21 Destabilizes the c-Myc Protein.": {
+              "line": 29,
+              "confidence": 0.969
+            }
+          }
+        }
+      ],
+      "module": "stage3.myc",
+      "definition": "true"
+    },
+    {
+      "id": "stage3.myc.myc-verdict",
+      "kind": "calc",
+      "value": "true",
+      "depth": 1,
+      "inputs": [
+        {
+          "name": "stage3.myc.myc-sample-evidence",
+          "inProbe": true
+        }
+      ],
+      "evidence": [
+        {
+          "status": "derived"
+        }
+      ],
+      "module": "stage3.myc",
+      "definition": "myc-sample-evidence"
+    },
+    {
+      "id": "stage3.wrn.wrn-sample-evidence",
+      "kind": "fact",
+      "value": "true",
+      "depth": 0,
+      "inputs": [],
+      "evidence": [
+        {
+          "doc": "PMC7281075",
+          "quotes": [
+            "### 2.1. Incidence of WRN Mutations in Colorectal Cancer"
+          ],
+          "quote_contexts": {
+            "### 2.1. Incidence of WRN Mutations in Colorectal Cancer": {
+              "before": "ile of WRN-mutated CRC.\n\n## 2. Results\n\n",
+              "after": "\n\nWRN mutations (WRN-mut) were observed"
+            }
+          },
+          "explanation": "Sample plumbing check from PMC7281075.txt",
+          "verified": true,
+          "status": "verified",
+          "signature": null,
+          "quote_details": {
+            "### 2.1. Incidence of WRN Mutations in Colorectal Cancer": {
+              "line": 31,
+              "confidence": 0.969
+            }
+          }
+        }
+      ],
+      "module": "stage3.wrn",
+      "definition": "true"
+    },
+    {
+      "id": "stage3.wrn.wrn-verdict",
+      "kind": "calc",
+      "value": "true",
+      "depth": 1,
+      "inputs": [
+        {
+          "name": "stage3.wrn.wrn-sample-evidence",
+          "inProbe": true
+        }
+      ],
+      "evidence": [
+        {
+          "status": "derived"
+        }
+      ],
+      "module": "stage3.wrn",
+      "definition": "wrn-sample-evidence"
+    },
+    {
+      "id": "stage3.prmt5.prmt5-sample-evidence",
+      "kind": "fact",
+      "value": "true",
+      "depth": 0,
+      "inputs": [],
+      "evidence": [
+        {
+          "doc": "PMC7906165",
+          "quotes": [
+            "### PRMT5 regulates EMT via EGFR/Akt/GSK3β signaling axis"
+          ],
+          "quote_contexts": {
+            "### PRMT5 regulates EMT via EGFR/Akt/GSK3β signaling axis": {
+              "before": "RK1/2 or PTEN/mTOR signaling pathways.\n\n",
+              "after": "\n\nThe emerging evidence has been shown "
+            }
+          },
+          "explanation": "Sample plumbing check from PMC7906165.txt",
+          "verified": true,
+          "status": "verified",
+          "signature": null,
+          "quote_details": {
+            "### PRMT5 regulates EMT via EGFR/Akt/GSK3β signaling axis": {
+              "line": 59,
+              "confidence": 0.99
+            }
+          }
+        }
+      ],
+      "module": "stage3.prmt5",
+      "definition": "true"
+    },
+    {
+      "id": "stage3.prmt5.prmt5-verdict",
+      "kind": "calc",
+      "value": "true",
+      "depth": 1,
+      "inputs": [
+        {
+          "name": "stage3.prmt5.prmt5-sample-evidence",
+          "inProbe": true
+        }
+      ],
+      "evidence": [
+        {
+          "status": "derived"
+        }
+      ],
+      "module": "stage3.prmt5",
+      "definition": "prmt5-sample-evidence"
+    }
+  ],
+  "LAYERS": {
+    "layers": [
+      {
+        "depth": 1,
+        "nodes": [
+          {
+            "name": "stage3.egfr.egfr-verdict",
+            "kind": "calc",
+            "value": "True"
+          }
+        ]
+      },
+      {
+        "depth": 1,
+        "nodes": [
+          {
+            "name": "stage3.erbb2.erbb2-verdict",
+            "kind": "calc",
+            "value": "True"
+          }
+        ]
+      },
+      {
+        "depth": 1,
+        "nodes": [
+          {
+            "name": "stage3.kras.kras-verdict",
+            "kind": "calc",
+            "value": "True"
+          }
+        ]
+      },
+      {
+        "depth": 1,
+        "nodes": [
+          {
+            "name": "stage3.myc.myc-verdict",
+            "kind": "calc",
+            "value": "True"
+          }
+        ]
+      },
+      {
+        "depth": 1,
+        "nodes": [
+          {
+            "name": "stage3.wrn.wrn-verdict",
+            "kind": "calc",
+            "value": "True"
+          }
+        ]
+      },
+      {
+        "depth": 1,
+        "nodes": [
+          {
+            "name": "stage3.prmt5.prmt5-verdict",
+            "kind": "calc",
+            "value": "True"
+          }
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "source": "stage3.egfr.egfr-sample-evidence",
+        "target": "stage3.egfr.egfr-verdict",
+        "type": "declares"
+      },
+      {
+        "source": "stage3.erbb2.erbb2-sample-evidence",
+        "target": "stage3.erbb2.erbb2-verdict",
+        "type": "declares"
+      },
+      {
+        "source": "stage3.kras.kras-sample-evidence",
+        "target": "stage3.kras.kras-verdict",
+        "type": "declares"
+      },
+      {
+        "source": "stage3.myc.myc-sample-evidence",
+        "target": "stage3.myc.myc-verdict",
+        "type": "declares"
+      },
+      {
+        "source": "stage3.wrn.wrn-sample-evidence",
+        "target": "stage3.wrn.wrn-verdict",
+        "type": "declares"
+      },
+      {
+        "source": "stage3.prmt5.prmt5-sample-evidence",
+        "target": "stage3.prmt5.prmt5-verdict",
+        "type": "declares"
+      }
+    ]
+  },
+  "TAINT_DATA": {
+    "sources": [],
+    "tainted": [],
+    "reasons": {}
+  }
+}

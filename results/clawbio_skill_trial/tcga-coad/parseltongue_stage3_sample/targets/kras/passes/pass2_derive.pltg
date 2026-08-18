@@ -1,0 +1,3 @@
+(derive high-prevalence-target
+  (and kras-mutations-over-one-third-crc kras-mutated-38pc-primary-crc ras-prevalence-55-9-pct)
+  :using (kras-mutations-over-one-third-crc kras-mutated-38pc-primary-crc ras-prevalence-55-9-pct))

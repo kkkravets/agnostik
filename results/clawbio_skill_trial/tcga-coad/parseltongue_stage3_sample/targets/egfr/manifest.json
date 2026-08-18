@@ -1,0 +1,10 @@
+{
+  "target": "EGFR",
+  "status": "complete",
+  "fingerprint": "dfb7e9fe7783c4f7158b1c582d22356ba6c61d8af2e377761573846eb4d6d4fd",
+  "query": "Build a formal evidence dossier for therapeutic targeting of EGFR in colon adenocarcinoma (COAD). Extract balanced supporting and opposing facts only from the supplied documents, and attach exact verbatim document quotes to every fact. Derive intermediate claims with explicit :using dependencies. Finally derive exactly one Boolean node named egfr-verdict; true means the target is promising and false means it is rejected. The verdict's complete :using chain must terminate in the quoted facts. Do not leave it unknown.",
+  "verdict_node": "egfr-verdict",
+  "sources": [
+    "PMC12162862.txt"
+  ]
+}

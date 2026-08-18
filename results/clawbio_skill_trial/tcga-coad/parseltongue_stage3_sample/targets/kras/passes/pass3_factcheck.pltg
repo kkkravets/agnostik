@@ -1,0 +1,188 @@
+;; ============================================================================
+;; CROSS-VALIDATION OF KRAS COAD THERAPEUTIC EVIDENCE DOSSIER
+;; ============================================================================
+;; The system has 3 facts with UNVERIFIED evidence due to double-escaped Unicode
+;; in the quotes (\\u201c/\\u201d/\\u2013 instead of actual characters " " –).
+;; These taint 3 theorems: pipeline-at-scale, additional-caveats-acknowledged,
+;; and kras-verdict. We fix the encoding, re-derive the tainted chain, and
+;; cross-validate the verdict from an independent axiom-based path.
+;; ============================================================================
+
+;; ================================================================
+;; ANGLE 1 — Fix kras-long-considered-undruggable (curly quotes)
+;; The verified context of kras-redefined-tractable shows the actual
+;; document text "KRAS was long considered \u201cundruggable.\u201d"
+;; confirming the passage exists — the original quote just used
+;; double-escaped \\u201c/\\u201d instead of actual " and " characters.
+;; ================================================================
+
+(fact kras-undruggable-corrected true
+    :evidence (evidence "PMC12658183"
+        :quotes ("Due to repeated failures of both direct and indirect approaches, KRAS was long considered \u201cundruggable.\u201d"
+                 "The development of sotorasib and adagrasib, KRAS G12C-specific inhibitors, redefined KRAS as a challenging but tractable target, leading to an unprecedented surge in KRAS-targeted therapies in the last few years")
+        :explanation "The undruggable passage is confirmed present in the document via the verified context of kras-redefined-tractable, whose 'before' field shows 'KRAS was long considered \u201cundruggable.\u201d ' — the original fact failed only because its quote contained double-escaped \\u201c/\\u201d instead of actual Unicode curly quote characters"))
+
+;; Re-derive the corrected caveats theorem using the fixed fact
+(defterm additional-caveats-corrected
+    (and kras-undruggable-corrected ema-not-yet-approved-crc pan-ras-serious-toxicity-risk immunotherapy-early-stage-no-clinical high-picomolar-affinity-challenge)
+    :evidence (evidence "PMC12658183"
+        :quotes ("Due to repeated failures of both direct and indirect approaches, KRAS was long considered \u201cundruggable.\u201d"
+                 "The European Medicines Agency (EMA) has not yet approved either sotorasib or adagrasib for CRC treatment, though these agents may be accessible via clinical trials or compassionate use."
+                 "However, simultaneous inhibition of all three RAS isoforms in normal cells carries a serious risk of toxicity"
+                 "Currently, most KRAS-targeting immunotherapeutic strategies remain in early stages of development, and none have yet advanced to clinical application."
+                 "developing specific KRAS inhibitors faced significant challenges due to the picomolar affinity of KRAS for GTP/GDP, high intracellular GTP concentrations, lack of allosteric regulatory sites, and the complex network of interactions involving GEFs, GAPs, and effectors through extended protein-protein interaction surfaces that are inherently challenging to target by small molecules")
+        :explanation "Corrected caveats theorem with all 5 conjuncts now grounded against verified document quotes — the undruggable fact is re-verified with proper Unicode curly quotes (U+201C, U+201D) matching the actual document text"))
+
+(diff caveats-undruggable-fix
+    :replace kras-long-considered-undruggable
+    :with kras-undruggable-corrected)
+
+;; ================================================================
+;; ANGLE 2 — Fix compounds-106-targeting-kras (curly quotes)
+;; The quote had (see \\u201cMethods\\u201d) instead of (see \u201cMethods\u201d).
+;; The verified clinical-trials-156-crc context shows the same pattern
+;; with actual curly quotes: (see \u201cMethods\u201d).
+;; ================================================================
+
+(fact compounds-106-corrected true
+    :evidence (evidence "PMC12658183"
+        :quotes ("A systematic search of the NCI Thesaurus and PubChem, combining automated searches and manual curation (see \u201cMethods\u201d), retrieved 106 drugs or cellular treatments targeting SHP2/SOS1/KRAS."
+                 "A systematic examination of the Clinical Trials Database (https://clinicaltrials.gov), combining automatic search and manual curation, retrieved 156 clinical trials that have evaluated or are currently evaluating the response to at least one of those compounds in patients with CRC")
+        :explanation "The 106-compound quote is corrected with actual Unicode curly quotes in (see \u201cMethods\u201d) — the verified clinical-trials-156-crc fact references 'those compounds', confirming the 106-compound search precedes the 156-trial examination in the same document section"))
+
+(diff compounds-fix
+    :replace compounds-106-targeting-kras
+    :with compounds-106-corrected)
+
+;; ================================================================
+;; ANGLE 3 — Fix clinical-trials-80-recruiting (en-dash)
+;; The quote had G12C\\u2013mutant (double-escaped en-dash U+2013)
+;; instead of G12C\u2013mutant with an actual en-dash character.
+;; ================================================================
+
+(fact clinical-trials-80-corrected true
+    :evidence (evidence "PMC12658183"
+        :quotes ("Eighty of these trials are currently recruiting patients, and 11 will recruit patients in the near future, reflecting active clinical interest to expand the therapeutic options to treat KRAS-mutant CRC patients, beyond the narrow subset of KRAS G12C\u2013mutant cases."
+                 "Of the 156 clinical trials, 52 evaluated compounds exclusively targeting KRAS G12C (Fig. 9), despite the very low incidence of this mutation in CRC."
+                 "An increasing number of recent and ongoing trials are investigating inhibitors targeting other KRAS mutations common in CRC, such as G12D and G12V, as well as broader approaches aimed at pan-KRAS inhibition")
+        :explanation "Corrected with actual Unicode en-dash (U+2013) in G12C\u2013mutant — the 'Eighty of these trials' sentence follows the 52 G12C-only trial statement in the document, and is corroborated by the expanding-beyond-G12C trial reference"))
+
+(diff trials80-fix
+    :replace clinical-trials-80-recruiting
+    :with clinical-trials-80-corrected)
+
+;; ================================================================
+;; ANGLE 4 — Re-derive pipeline-at-scale and kras-verdict with
+;; all corrected (verified) facts. Produces an alternative
+;; computation path for the verdict with zero fabrication taint.
+;; ================================================================
+
+;; Corrected pipeline theorem using both fixed facts
+(defterm pipeline-at-scale-corrected
+    (and kras-redefined-tractable compounds-106-corrected clinical-trials-156-crc clinical-trials-80-corrected)
+    :evidence (evidence "PMC12658183"
+        :quotes ("The development of sotorasib and adagrasib, KRAS G12C-specific inhibitors, redefined KRAS as a challenging but tractable target, leading to an unprecedented surge in KRAS-targeted therapies in the last few years"
+                 "A systematic search of the NCI Thesaurus and PubChem, combining automated searches and manual curation (see \u201cMethods\u201d), retrieved 106 drugs or cellular treatments targeting SHP2/SOS1/KRAS."
+                 "A systematic examination of the Clinical Trials Database (https://clinicaltrials.gov), combining automatic search and manual curation, retrieved 156 clinical trials that have evaluated or are currently evaluating the response to at least one of those compounds in patients with CRC"
+                 "Eighty of these trials are currently recruiting patients, and 11 will recruit patients in the near future, reflecting active clinical interest to expand the therapeutic options to treat KRAS-mutant CRC patients, beyond the narrow subset of KRAS G12C\u2013mutant cases.")
+        :explanation "Pipeline-at-scale re-derived with corrected quotes — all 4 conjuncts now verified against document text with proper Unicode characters"))
+
+;; Re-derive the verdict using the corrected sub-theorems
+(derive verdict-corrected
+    (if (and high-prevalence-target clinical-relevance-established pipeline-at-scale-corrected regulatory-proof-exists first-gen-limitations next-gen-overcomes-limitations combination-efficacy-demonstrated additional-caveats-corrected) true false)
+    :using (high-prevalence-target clinical-relevance-established pipeline-at-scale-corrected regulatory-proof-exists first-gen-limitations next-gen-overcomes-limitations combination-efficacy-demonstrated additional-caveats-corrected))
+
+(diff verdict-crosscheck
+    :replace kras-verdict
+    :with verdict-corrected)
+
+;; ================================================================
+;; ANGLE 5 — Cross-document prevalence validation via axiom
+;; Both source documents independently establish high KRAS
+;; prevalence in CRC. Using a prevalence-threshold axiom, we
+;; derive the target priority from each document's numeric data
+;; and check they agree.
+;; ================================================================
+
+;; Numeric prevalence from PMC12658183 (primary CRC cohorts)
+(fact kras-prevalence-pct-primary 38
+    :evidence (evidence "PMC12658183"
+        :quotes ("KRAS was mutated in 38% (670/1748) of the primary CRCs")
+        :explanation "Numeric KRAS prevalence from 1748 primary CRC cases — 38% mutation rate"))
+
+;; Numeric KRAS exon 2 prevalence from PMC5042411 (metastatic CRC, pooled RCTs)
+(fact kras-exon2-prevalence-pct-metastatic 42.6
+    :evidence (evidence "PMC5042411"
+        :quotes ("RAS mutation prevalence was found to be 55.9%, with KRAS exon 2 mutations being most common (42.6% prevalence), followed by KRAS exon 4 (6.2%), NRAS exon 3 (4.2%), KRAS exon 3 (3.8%), NRAS exon 2 (2.9%), and NRAS exon 4 (0.3%) mutations")
+        :explanation "KRAS exon 2 alone (the dominant component) is 42.6% in metastatic CRC — exceeding 30% threshold independently"))
+
+;; Numeric total RAS prevalence from PMC5042411
+(fact ras-total-prevalence-pct-metastatic 55.9
+    :evidence (evidence "PMC5042411"
+        :quotes ("RAS mutation prevalence was found to be 55.9%, with KRAS exon 2 mutations being most common (42.6% prevalence), followed by KRAS exon 4 (6.2%), NRAS exon 3 (4.2%), KRAS exon 3 (3.8%), NRAS exon 2 (2.9%), and NRAS exon 4 (0.3%) mutations")
+        :explanation "Total RAS (pan-RAS) prevalence 55.9% in metastatic CRC — KRAS is the dominant component"))
+
+;; Axiom: prevalence above 30% classifies as high-priority therapeutic target
+(axiom prevalence-priority-rule
+    (if (> ?prevalence 30) "high-priority" "not-priority")
+    :origin "Methodological threshold: cancer mutation prevalence exceeding 30% justifies high-priority therapeutic development targeting")
+
+;; Derive priority from PMC12658183 (primary CRC, KRAS = 38%)
+(derive doc1-target-priority prevalence-priority-rule
+    :bind ((?prevalence kras-prevalence-pct-primary))
+    :using (prevalence-priority-rule kras-prevalence-pct-primary))
+
+;; Derive priority from PMC5042411 (metastatic CRC, KRAS exon 2 = 42.6%)
+(derive doc2-kras-target-priority prevalence-priority-rule
+    :bind ((?prevalence kras-exon2-prevalence-pct-metastatic))
+    :using (prevalence-priority-rule kras-exon2-prevalence-pct-metastatic))
+
+;; Derive priority from PMC5042411 (metastatic CRC, pan-RAS = 55.9%)
+(derive doc2-ras-total-priority prevalence-priority-rule
+    :bind ((?prevalence ras-total-prevalence-pct-metastatic))
+    :using (prevalence-priority-rule ras-total-prevalence-pct-metastatic))
+
+;; Diff: does PMC12658183 agree with PMC5042411 on KRAS target priority?
+(diff cross-doc-kras-priority
+    :replace doc1-target-priority
+    :with doc2-kras-target-priority)
+
+;; ================================================================
+;; ANGLE 6 — Cross-check: 156 trials - 52 G12C-only = 104 trials
+;; targeting non-G12C mutations. The document says an "increasing
+;; number" of trials go beyond G12C. We verify this arithmetic
+;; relationship holds and that the majority of trials are NOT
+;; G12C-only.
+;; ================================================================
+
+(fact total-clinical-trials-numeric 156
+    :evidence (evidence "PMC12658183"
+        :quotes ("A systematic examination of the Clinical Trials Database (https://clinicaltrials.gov), combining automatic search and manual curation, retrieved 156 clinical trials that have evaluated or are currently evaluating the response to at least one of those compounds in patients with CRC")
+        :explanation "Total number of KRAS-pathway clinical trials in CRC identified by systematic search"))
+
+(fact g12c-only-trials-numeric 52
+    :evidence (evidence "PMC12658183"
+        :quotes ("Of the 156 clinical trials, 52 evaluated compounds exclusively targeting KRAS G12C (Fig. 9), despite the very low incidence of this mutation in CRC.")
+        :explanation "Number of trials exclusively targeting KRAS G12C mutation — 52 out of 156 total"))
+
+;; Axiom: fraction of non-G12C trials exceeds 50% implies pipeline is diversifying
+(axiom pipeline-diversification-check
+    (if (> (- ?total ?g12c-only) (/ ?total 2)) "diversifying" "g12c-concentrated")
+    :origin "Methodological: if more than half of clinical trials target non-G12C mutations, the pipeline is diversifying beyond G12C")
+
+(derive trial-allocation-pipeline pipeline-diversification-check
+    :bind ((?total total-clinical-trials-numeric) (?g12c-only g12c-only-trials-numeric))
+    :using (pipeline-diversification-check total-clinical-trials-numeric g12c-only-trials-numeric))
+
+;; Should produce "diversifying" since 156 - 52 = 104 > 78 (half of 156)
+;; This independently confirms the trials-beyond-g12c-expanding claim
+
+;; Derive the same diversification result from the qualitative claim
+(derive qualitative-diversification
+    (if trials-beyond-g12c-expanding "diversifying" "g12c-concentrated")
+    :using (trials-beyond-g12c-expanding))
+
+;; Diff: does the arithmetic computation agree with the document's qualitative statement?
+(diff trial-diversification-crosscheck
+    :replace trial-allocation-pipeline
+    :with qualitative-diversification)
