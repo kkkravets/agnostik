@@ -1,0 +1,66 @@
+; PRMT5 — what the registries returned (stage 5)
+
+(fact subject-records 2
+    :evidence (evidence "registry-PRMT5"
+        :quotes ("VERIFIED subject_records=2")
+        :explanation "Cited records whose registry entry names PRMT5 as its subject"))
+
+(fact off-target 0
+    :evidence (evidence "registry-PRMT5"
+        :quotes ("VERIFIED off_target=0")
+        :explanation "Cited records that never name PRMT5"))
+
+(fact retracted 0
+    :evidence (evidence "registry-PRMT5"
+        :quotes ("VERIFIED retracted=0")
+        :explanation "Cited records that are retracted or under an expression of concern"))
+
+(fact unresolved 0
+    :evidence (evidence "registry-PRMT5"
+        :quotes ("VERIFIED unresolved=0")
+        :explanation "Cited identifiers no registry could return"))
+
+(fact supports-uniprot-O14744 true
+    :evidence (evidence "registry-PRMT5"
+        :quotes ("uniprot O14744 | status=sound | gene_role=title | indication=not-applicable | resolves=True")
+        :explanation "registry grade for O14744"))
+
+(fact supports-pmid-41513606 false
+    :evidence (evidence "registry-PRMT5"
+        :quotes ("pmid 41513606 | status=weak-attribution | gene_role=title | indication=absent | resolves=True")
+        :explanation "record names no colorectal indication, so it does not speak to this disease"))
+
+(fact supports-pmid-41629269 false
+    :evidence (evidence "registry-PRMT5"
+        :quotes ("pmid 41629269 | status=weak-attribution | gene_role=abstract | indication=abstract | resolves=True")
+        :explanation "PRMT5 appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else"))
+
+(fact supports-pmid-41630900 false
+    :evidence (evidence "registry-PRMT5"
+        :quotes ("pmid 41630900 | status=weak-attribution | gene_role=abstract | indication=title | resolves=True")
+        :explanation "PRMT5 appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else"))
+
+(fact supports-pmid-42121254 true
+    :evidence (evidence "registry-PRMT5"
+        :quotes ("pmid 42121254 | status=sound | gene_role=title | indication=title | resolves=True")
+        :explanation "registry grade for 42121254"))
+
+(fact supports-pmid-42133901 false
+    :evidence (evidence "registry-PRMT5"
+        :quotes ("pmid 42133901 | status=weak-attribution | gene_role=abstract | indication=abstract | resolves=True")
+        :explanation "PRMT5 appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else"))
+
+(fact supports-pmid-42326870 false
+    :evidence (evidence "registry-PRMT5"
+        :quotes ("pmid 42326870 | status=weak-attribution | gene_role=abstract | indication=title | resolves=True")
+        :explanation "PRMT5 appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else"))
+
+(fact supports-pmid-42603931 false
+    :evidence (evidence "registry-PRMT5"
+        :quotes ("pmid 42603931 | status=weak-attribution | gene_role=abstract | indication=absent | resolves=True")
+        :explanation "PRMT5 appears only in the abstract, not in the title, so it is not the subject of this record — and the record names no colorectal indication either"))
+
+(fact supports-pmid-42607456 false
+    :evidence (evidence "registry-PRMT5"
+        :quotes ("pmid 42607456 | status=weak-attribution | gene_role=title | indication=absent | resolves=True")
+        :explanation "record names no colorectal indication, so it does not speak to this disease"))

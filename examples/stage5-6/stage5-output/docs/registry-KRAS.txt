@@ -1,0 +1,73 @@
+Registry snapshot — KRAS
+Checked 2026-08-18 12:46 UTC against PubMed, ClinicalTrials.gov and UniProt
+
+## COUNTERS
+VERIFIED subject_records=3
+VERIFIED weak_attribution=7
+VERIFIED off_target=1
+VERIFIED title_drift=0
+VERIFIED retracted=0
+VERIFIED unresolved=0
+VERIFIED not_checked=0
+VERIFIED checked_total=11
+
+## RECORDS
+uniprot P01116 | status=sound | gene_role=title | indication=not-applicable | resolves=True
+REGISTRY TITLE: GTPase KRas
+DOSSIER QUOTE: UNIPROT binding_sites=17
+
+pmid 42527030 | status=off-target | gene_role=absent | indication=title | resolves=True
+REGISTRY TITLE: IL-27 shapes NK cell heterogeneity and function in colorectal cancer.
+DOSSIER QUOTE: TITLE: IL-27 shapes NK cell heterogeneity and function in colorectal cancer.
+PUBLICATION TYPES: Journal Article
+REASON: KRAS appears nowhere in the registry record, under any of its names
+
+pmid 42557320 | status=weak-attribution | gene_role=abstract | indication=abstract | resolves=True
+REGISTRY TITLE: A tumour-derived organoid biobank maps cancer gene dependencies.
+DOSSIER QUOTE: TITLE: A tumour-derived organoid biobank maps cancer gene dependencies.
+PUBLICATION TYPES: Journal Article
+REASON: KRAS appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else
+
+pmid 42570059 | status=weak-attribution | gene_role=abstract | indication=title | resolves=True
+REGISTRY TITLE: Brief report: Therapeutic benefit of ISA-2011B in colorectal cancer.
+DOSSIER QUOTE: TITLE: Brief report: Therapeutic benefit of ISA-2011B in colorectal cancer.
+PUBLICATION TYPES: Journal Article
+REASON: KRAS appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else
+
+pmid 42580447 | status=sound | gene_role=title | indication=title | resolves=True
+REGISTRY TITLE: Targeted KRAS suppression in colorectal cancer via in vivo self-assembled siRNAs encapsulated in endogenous small extracellular vesicles.
+DOSSIER QUOTE: TITLE: Targeted KRAS suppression in colorectal cancer via in vivo self-assembled siRNAs encapsulated in endogenous small extracellular vesicles.
+PUBLICATION TYPES: Journal Article
+
+pmid 42599639 | status=weak-attribution | gene_role=abstract | indication=title | resolves=True
+REGISTRY TITLE: Salvage pancreaticoduodenectomy for localized recurrence after resection of ascending colon cancer: a case report.
+DOSSIER QUOTE: TITLE: Salvage pancreaticoduodenectomy for localized recurrence after resection of ascending colon cancer: a case report.
+PUBLICATION TYPES: Journal Article
+REASON: KRAS appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else
+
+pmid 42605754 | status=weak-attribution | gene_role=abstract | indication=absent | resolves=True
+REGISTRY TITLE: Transcriptome-based macroautophagy and chaperone-mediated autophagy states reveal context-dependent vulnerabilities across human cancers.
+DOSSIER QUOTE: TITLE: Transcriptome-based macroautophagy and chaperone-mediated autophagy states reveal context-dependent vulnerabilities across human cancers.
+PUBLICATION TYPES: Journal Article
+REASON: KRAS appears only in the abstract, not in the title, so it is not the subject of this record — and the record names no colorectal indication either
+
+pmid 42606648 | status=weak-attribution | gene_role=abstract | indication=title | resolves=True
+REGISTRY TITLE: Integrative bulk and single-cell transcriptomics identify a recurrence-prognostic risk model with exploratory associations with treatment-response phenotypes in colorectal cancer.
+DOSSIER QUOTE: TITLE: Integrative bulk and single-cell transcriptomics identify a recurrence-prognostic risk model with exploratory associations with treatment-response phenotypes in colorectal cancer.
+PUBLICATION TYPES: Journal Article
+REASON: KRAS appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else
+
+pmid 42607542 | status=weak-attribution | gene_role=title | indication=absent | resolves=True
+REGISTRY TITLE: Anticancer effects of an XPO1 inhibitor (selinexor) with sotorasib following omeprazole preconditioning in KRAS G12C-mutant non-small cell lung cancer cells in vitro and in a mouse tumor xenograft.
+DOSSIER QUOTE: TITLE: Anticancer effects of an XPO1 inhibitor (selinexor) with sotorasib following omeprazole preconditioning in KRAS G12C-mutant non-small cell lung cancer cells in vitro and in a mouse tumor xenograft.
+PUBLICATION TYPES: Journal Article
+REASON: record names no colorectal indication, so it does not speak to this disease
+
+nct NCT05176483 | status=weak-attribution | gene_role=absent | indication=abstract | resolves=True
+REGISTRY TITLE: Study of Zanzalintinib in Combination With Immuno-Oncology or Other Agents in Participants With Solid Tumors
+DOSSIER QUOTE: TITLE: Study of Zanzalintinib in Combination With Immuno-Oncology or Other Agents in Participants With Solid Tumors
+REASON: trial record names no KRAS under any of its UniProt names — it was matched to this target by free-text search, and only the indication lines up
+
+nct NCT07300150 | status=sound | gene_role=title | indication=abstract | resolves=True
+REGISTRY TITLE: A Study of PT0511 in Participants With KRAS Mutated or Amplified Advanced Solid Tumors
+DOSSIER QUOTE: TITLE: A Study of PT0511 in Participants With KRAS Mutated or Amplified Advanced Solid Tumors

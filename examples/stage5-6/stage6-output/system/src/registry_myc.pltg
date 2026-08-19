@@ -1,0 +1,61 @@
+; MYC — what the registries returned (stage 5)
+
+(fact subject-records 2
+    :evidence (evidence "registry-MYC"
+        :quotes ("VERIFIED subject_records=2")
+        :explanation "Cited records whose registry entry names MYC as its subject"))
+
+(fact off-target 0
+    :evidence (evidence "registry-MYC"
+        :quotes ("VERIFIED off_target=0")
+        :explanation "Cited records that never name MYC"))
+
+(fact retracted 0
+    :evidence (evidence "registry-MYC"
+        :quotes ("VERIFIED retracted=0")
+        :explanation "Cited records that are retracted or under an expression of concern"))
+
+(fact unresolved 0
+    :evidence (evidence "registry-MYC"
+        :quotes ("VERIFIED unresolved=0")
+        :explanation "Cited identifiers no registry could return"))
+
+(fact supports-uniprot-P01106 true
+    :evidence (evidence "registry-MYC"
+        :quotes ("uniprot P01106 | status=sound | gene_role=title | indication=not-applicable | resolves=True")
+        :explanation "registry grade for P01106"))
+
+(fact supports-pmid-42497765 false
+    :evidence (evidence "registry-MYC"
+        :quotes ("pmid 42497765 | status=weak-attribution | gene_role=abstract | indication=title | resolves=True")
+        :explanation "MYC appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else"))
+
+(fact supports-pmid-42548213 false
+    :evidence (evidence "registry-MYC"
+        :quotes ("pmid 42548213 | status=weak-attribution | gene_role=abstract | indication=title | resolves=True")
+        :explanation "MYC appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else"))
+
+(fact supports-pmid-42560559 true
+    :evidence (evidence "registry-MYC"
+        :quotes ("pmid 42560559 | status=sound | gene_role=title | indication=title | resolves=True")
+        :explanation "registry grade for 42560559"))
+
+(fact supports-pmid-42607078 false
+    :evidence (evidence "registry-MYC"
+        :quotes ("pmid 42607078 | status=weak-attribution | gene_role=title | indication=absent | resolves=True")
+        :explanation "record names no colorectal indication, so it does not speak to this disease"))
+
+(fact supports-pmid-42608167 false
+    :evidence (evidence "registry-MYC"
+        :quotes ("pmid 42608167 | status=weak-attribution | gene_role=abstract | indication=absent | resolves=True")
+        :explanation "MYC appears only in the abstract, not in the title, so it is not the subject of this record — and the record names no colorectal indication either"))
+
+(fact supports-nct-NCT05919264 false
+    :evidence (evidence "registry-MYC"
+        :quotes ("nct NCT05919264 | status=weak-attribution | gene_role=absent | indication=abstract | resolves=True")
+        :explanation "trial record names no MYC under any of its UniProt names — it was matched to this target by free-text search, and only the indication lines up"))
+
+(fact supports-nct-NCT07147231 false
+    :evidence (evidence "registry-MYC"
+        :quotes ("nct NCT07147231 | status=weak-attribution | gene_role=absent | indication=title | resolves=True")
+        :explanation "trial record names no MYC under any of its UniProt names — it was matched to this target by free-text search, and only the indication lines up"))

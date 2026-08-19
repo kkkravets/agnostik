@@ -151,6 +151,42 @@ Add `--dry-run` to exercise the ledger, verifier and reports with no API call
 and no spend. Full contract, flags and the fixture stand-in for stages 1–3:
 [`docs/stage4-objections.md`](docs/stage4-objections.md).
 
+## Stages 5 and 6 — verification against the registries
+
+Stage 4 argues against the verdicts. Stages 5 and 6 check whether the evidence
+under them holds up at all.
+
+**Stage 5 — citation resolving check.** For every identifier the shortlist
+rests on: does it resolve, does the quoted title still match the registry
+title, is the attributed gene the *subject* of the record or only mentioned in
+passing, and has the paper been retracted. Gene synonyms come from the reviewed
+UniProt entry, so `ERBB2` also matches `HER2`. Input: the same pg-bench export.
+Output: `citations.json`, `citations.md`, plus registry snapshots and .pltg
+modules for stage 6. Details: [`docs/stage5-citecheck.md`](docs/stage5-citecheck.md).
+
+```bash
+uv run agnostik-citecheck \
+    --export examples/stage4/fixtures/crc6-dossiers.html \
+    --export examples/stage4/fixtures/crc6-verdicts.html \
+    --out results/stage5
+```
+
+**Stage 6 — formal consistency screening.** Replaces a weighted
+target-validation score. The dossier's assertions and the registries' answers
+become two independent Parseltongue fact modules over the same record set,
+every possible disagreement is declared as a `diff`, and the engine proves
+which of them hold. No score, no threshold: a verdict is proven or unproven by
+derivation, and every divergence is reported with both values and its
+downstream consequences. Details:
+[`docs/stage6-consistency.md`](docs/stage6-consistency.md).
+
+```bash
+uv run agnostik-consistency \
+    --export examples/stage4/fixtures/crc6-dossiers.html \
+    --export examples/stage4/fixtures/crc6-verdicts.html \
+    --citecheck results/stage5 --out results/stage6
+```
+
 ## Prerequisites
 
 - Python 3.11 (3.12 and 3.13 are also accepted by the project metadata)

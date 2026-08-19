@@ -1,0 +1,51 @@
+Dossier transcript — ERBB2
+Transcribed 2026-08-18 12:52 UTC from: examples/stage4/fixtures/crc6-dossiers.html, examples/stage4/fixtures/crc6-verdicts.html
+
+## ASSERTED
+DOSSIER cited_records=10
+DOSSIER assumed_off_target=0
+DOSSIER assumed_retracted=0
+DOSSIER assumed_unresolved=0
+DOSSIER verdict=promising
+DOSSIER verdict_node=erbb2-promising
+
+## RECORDS THE DOSSIER TREATS AS SUPPORT
+DOSSIER SUPPORTS uniprot P04626
+  as: UNIPROT binding_sites=2
+  via node: src.erbb2.binding-sites
+
+DOSSIER SUPPORTS pmid 42176792
+  as: TITLE: EGFR S442 ectodomain mutation confers cetuximab resistance that can be overcome by ERBB2 blockade with trastuzumab-deruxtecan.
+  via node: src.erbb2.paper-42176792
+
+DOSSIER SUPPORTS pmid 42401587
+  as: TITLE: Signaling downstream of tumor-stroma interaction regulates mucinous colorectal adenocarcinoma apicobasal polarity.
+  via node: src.erbb2.paper-42401587
+
+DOSSIER SUPPORTS pmid 42426557
+  as: TITLE: Anti-Human Epidermal Growth Factor Receptor 2 therapies in metastatic colorectal cancer: a systematic review and meta-analysis.
+  via node: src.erbb2.paper-42426557
+
+DOSSIER SUPPORTS pmid 42497534
+  as: TITLE: The Xpert Breast Cancer Insight Test Predicts Distant Recurrence and Overall Survival in ER-Positive, HER2-Negative Early Breast Cancer.
+  via node: src.erbb2.paper-42497534
+
+DOSSIER SUPPORTS pmid 42599169
+  as: TITLE: Incremental Value of Synthetic MRI Radiomics in Predicting Neoadjuvant Response in Human Epidermal Growth Factor Receptor 2-Positive Breast Cancer.
+  via node: src.erbb2.paper-42599169
+
+DOSSIER SUPPORTS pmid 42601812
+  as: TITLE: Exceptional Response of HER2-Positive Breast Cancer to Osimertinib: A Case Report.
+  via node: src.erbb2.paper-42601812
+
+DOSSIER SUPPORTS nct NCT03803553
+  as: TITLE: Identification and Treatment Of Micrometastatic Disease in Stage III Colon Cancer
+  via node: src.erbb2.trial-NCT03803553
+
+DOSSIER SUPPORTS nct NCT07384377
+  as: TITLE: JSKN003 Versus Physician Choiced Treatment in Patients With HER2-positive and Advanced Colorectal Cancer Who Had Failed to Respond to Oxaliplatin, 5-Fu, and Irinotecan
+  via node: src.erbb2.trial-NCT07384377
+
+DOSSIER SUPPORTS nct NCT07503756
+  as: TITLE: JS212 Combination Therapies in Metastatic Colorectal Cancer
+  via node: src.erbb2.trial-NCT07503756

@@ -1,0 +1,61 @@
+; EGFR — what the registries returned (stage 5)
+
+(fact subject-records 2
+    :evidence (evidence "registry-EGFR"
+        :quotes ("VERIFIED subject_records=2")
+        :explanation "Cited records whose registry entry names EGFR as its subject"))
+
+(fact off-target 0
+    :evidence (evidence "registry-EGFR"
+        :quotes ("VERIFIED off_target=0")
+        :explanation "Cited records that never name EGFR"))
+
+(fact retracted 0
+    :evidence (evidence "registry-EGFR"
+        :quotes ("VERIFIED retracted=0")
+        :explanation "Cited records that are retracted or under an expression of concern"))
+
+(fact unresolved 0
+    :evidence (evidence "registry-EGFR"
+        :quotes ("VERIFIED unresolved=0")
+        :explanation "Cited identifiers no registry could return"))
+
+(fact supports-uniprot-P00533 true
+    :evidence (evidence "registry-EGFR"
+        :quotes ("uniprot P00533 | status=sound | gene_role=title | indication=not-applicable | resolves=True")
+        :explanation "registry grade for P00533"))
+
+(fact supports-pmid-42492133 false
+    :evidence (evidence "registry-EGFR"
+        :quotes ("pmid 42492133 | status=weak-attribution | gene_role=abstract | indication=title | resolves=True")
+        :explanation "EGFR appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else"))
+
+(fact supports-pmid-42576549 false
+    :evidence (evidence "registry-EGFR"
+        :quotes ("pmid 42576549 | status=weak-attribution | gene_role=abstract | indication=title | resolves=True")
+        :explanation "EGFR appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else"))
+
+(fact supports-pmid-42581138 true
+    :evidence (evidence "registry-EGFR"
+        :quotes ("pmid 42581138 | status=sound | gene_role=title | indication=title | resolves=True")
+        :explanation "registry grade for 42581138"))
+
+(fact supports-pmid-42595923 false
+    :evidence (evidence "registry-EGFR"
+        :quotes ("pmid 42595923 | status=weak-attribution | gene_role=abstract | indication=title | resolves=True")
+        :explanation "EGFR appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else"))
+
+(fact supports-pmid-42609336 false
+    :evidence (evidence "registry-EGFR"
+        :quotes ("pmid 42609336 | status=weak-attribution | gene_role=abstract | indication=absent | resolves=True")
+        :explanation "EGFR appears only in the abstract, not in the title, so it is not the subject of this record — and the record names no colorectal indication either"))
+
+(fact supports-pmid-42609500 false
+    :evidence (evidence "registry-EGFR"
+        :quotes ("pmid 42609500 | status=weak-attribution | gene_role=title | indication=absent | resolves=True")
+        :explanation "record names no colorectal indication, so it does not speak to this disease"))
+
+(fact supports-nct-NCT07503756 false
+    :evidence (evidence "registry-EGFR"
+        :quotes ("nct NCT07503756 | status=weak-attribution | gene_role=abstract | indication=title | resolves=True")
+        :explanation "EGFR appears only in the abstract, not in the title, so it is not the subject of this record — the record is indexed to a colorectal indication, but about something else"))

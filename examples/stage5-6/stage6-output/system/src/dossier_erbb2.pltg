@@ -1,0 +1,71 @@
+; ERBB2 — what the dossier asserts (stage 4 export, transcribed)
+
+(fact cited-records 10
+    :evidence (evidence "dossier-ERBB2"
+        :quotes ("DOSSIER cited_records=10")
+        :explanation "Records the ERBB2 dossier rests on"))
+
+(fact assumed-off-target 0
+    :evidence (evidence "dossier-ERBB2"
+        :quotes ("DOSSIER assumed_off_target=0")
+        :explanation "The dossier cites every record as support, so it assumes none is off target"))
+
+(fact assumed-retracted 0
+    :evidence (evidence "dossier-ERBB2"
+        :quotes ("DOSSIER assumed_retracted=0")
+        :explanation "The dossier assumes no cited record is retracted"))
+
+(fact assumed-unresolved 0
+    :evidence (evidence "dossier-ERBB2"
+        :quotes ("DOSSIER assumed_unresolved=0")
+        :explanation "The dossier assumes every cited record resolves"))
+
+(fact supports-uniprot-P04626 true
+    :evidence (evidence "dossier-ERBB2"
+        :quotes ("DOSSIER SUPPORTS uniprot P04626")
+        :explanation "The dossier treats P04626 as support for ERBB2"))
+
+(fact supports-pmid-42176792 true
+    :evidence (evidence "dossier-ERBB2"
+        :quotes ("DOSSIER SUPPORTS pmid 42176792")
+        :explanation "The dossier treats 42176792 as support for ERBB2"))
+
+(fact supports-pmid-42401587 true
+    :evidence (evidence "dossier-ERBB2"
+        :quotes ("DOSSIER SUPPORTS pmid 42401587")
+        :explanation "The dossier treats 42401587 as support for ERBB2"))
+
+(fact supports-pmid-42426557 true
+    :evidence (evidence "dossier-ERBB2"
+        :quotes ("DOSSIER SUPPORTS pmid 42426557")
+        :explanation "The dossier treats 42426557 as support for ERBB2"))
+
+(fact supports-pmid-42497534 true
+    :evidence (evidence "dossier-ERBB2"
+        :quotes ("DOSSIER SUPPORTS pmid 42497534")
+        :explanation "The dossier treats 42497534 as support for ERBB2"))
+
+(fact supports-pmid-42599169 true
+    :evidence (evidence "dossier-ERBB2"
+        :quotes ("DOSSIER SUPPORTS pmid 42599169")
+        :explanation "The dossier treats 42599169 as support for ERBB2"))
+
+(fact supports-pmid-42601812 true
+    :evidence (evidence "dossier-ERBB2"
+        :quotes ("DOSSIER SUPPORTS pmid 42601812")
+        :explanation "The dossier treats 42601812 as support for ERBB2"))
+
+(fact supports-nct-NCT03803553 true
+    :evidence (evidence "dossier-ERBB2"
+        :quotes ("DOSSIER SUPPORTS nct NCT03803553")
+        :explanation "The dossier treats NCT03803553 as support for ERBB2"))
+
+(fact supports-nct-NCT07384377 true
+    :evidence (evidence "dossier-ERBB2"
+        :quotes ("DOSSIER SUPPORTS nct NCT07384377")
+        :explanation "The dossier treats NCT07384377 as support for ERBB2"))
+
+(fact supports-nct-NCT07503756 true
+    :evidence (evidence "dossier-ERBB2"
+        :quotes ("DOSSIER SUPPORTS nct NCT07503756")
+        :explanation "The dossier treats NCT07503756 as support for ERBB2"))
