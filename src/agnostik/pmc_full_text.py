@@ -1,9 +1,12 @@
-"""Download open-access full-text articles from PubMed Central.
+"""Download open-access, original-research full-text articles from PubMed Central.
 
 The PubMed Summariser bundled with ClawBio deliberately emits only a short
 abstract excerpt.  This module is the explicit full-text stage: it searches
 the PMC Open Access subset, downloads authoritative JATS XML through NCBI
 E-utilities, and writes both the source XML and a readable local HTML version.
+Only records tagged ``article-type="research-article"`` in their JATS
+metadata are kept, so review articles (and other non-original-research
+types) are excluded.
 """
 
 from __future__ import annotations
@@ -26,6 +29,12 @@ PMC_ARTICLE_URL = "https://pmc.ncbi.nlm.nih.gov/articles/{pmc_id}/"
 USER_AGENT = "agnostik/0.1 (open-access oncology literature notebook)"
 MAX_ARTICLES = 3000
 EFETCH_BATCH_SIZE = 25
+# JATS <article article-type="..."> value for original research; excludes
+# review-article, case-report, editorial, correction, etc.
+EXPERIMENTAL_ARTICLE_TYPE = "research-article"
+# Extra candidate IDs to request beyond max_articles, since some fetched
+# articles will be filtered out for not being research-article type.
+OVERSAMPLE_FACTOR = 3
 
 
 @dataclass(frozen=True)
@@ -288,8 +297,16 @@ def download_open_access_articles(
 ) -> list[FullTextArticle]:
     """Search and save at most ``max_articles`` complete OA PMC articles.
 
+    Only original-research articles are kept: each fetched JATS record is
+    checked for ``article-type="research-article"`` and anything else
+    (``review-article``, case reports, editorials, corrections, ...) is
+    skipped. PubMed Central does not expose a reliable server-side filter for
+    this distinction, so it is applied locally against the authoritative JATS
+    metadata after fetch.
+
     Fewer records may be returned when the Open Access subset does not contain
-    enough matches.  Abstract-only PubMed records are never substituted.
+    enough qualifying research articles.  Abstract-only PubMed records are
+    never substituted.
     """
 
     if not query.strip():
@@ -304,7 +321,7 @@ def download_open_access_articles(
             **common,
             "db": "pmc",
             "term": f"({query}) AND open access[filter]",
-            "retmax": max_articles,
+            "retmax": min(max_articles * OVERSAMPLE_FACTOR, MAX_ARTICLES),
             "retmode": "json",
             "sort": "relevance",
         },
@@ -343,7 +360,13 @@ def download_open_access_articles(
             )
 
     downloaded: list[FullTextArticle] = []
+    skipped_non_research = 0
     for index, article in enumerate(fetch_article_elements(), start=1):
+        if len(downloaded) >= max_articles:
+            break
+        if article.attrib.get("article-type") != EXPERIMENTAL_ARTICLE_TYPE:
+            skipped_non_research += 1
+            continue
         pmc_id = _article_id(article, "pmcid") or _article_id(article, "pmc")
         if pmc_id and not pmc_id.upper().startswith("PMC"):
             pmc_id = f"PMC{pmc_id}"
@@ -366,6 +389,7 @@ def download_open_access_articles(
         "query": query,
         "requested": max_articles,
         "downloaded": len(downloaded),
+        "skipped_non_research": skipped_non_research,
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "source": "NCBI PubMed Central Open Access subset via E-utilities",
         "source_directory": str(output_dir),
