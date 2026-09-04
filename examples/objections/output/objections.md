@@ -1,6 +1,6 @@
 # Objections to the CRC target shortlist
 
-Generated 2026-08-18 12:33 UTC · model `MiniMaxAI/MiniMax-M3` · export `['fixtures/crc6-dossiers.html', 'fixtures/crc6-verdicts.html']`
+Generated 2026-08-18 12:33 UTC · model `MiniMaxAI/MiniMax-M3` · export `['fixtures/candidate-dossiers.html', 'fixtures/candidate-verdicts.html']`
 
 6 targets reviewed — 4 promising, 2 rejected. Each objection is five sentences, every sentence cited into the Parseltongue derivation.
 

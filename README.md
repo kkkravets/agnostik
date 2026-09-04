@@ -105,7 +105,7 @@ code without a default.
    ```
 
 6. Open
-   [`notebooks/parseltongue_stage3_verdict.ipynb`](notebooks/parseltongue_stage3_verdict.ipynb)
+   [`notebooks/02_verdict_generation.ipynb`](notebooks/02_verdict_generation.ipynb)
    and run Sections 3–7 to refresh the partial export, validate verdicts, read
    candidate reports, inspect the JSON, and generate Stage-4 objections.
 
@@ -114,10 +114,10 @@ code without a default.
    ```bash
    uv run agnostik-objections run \
      --export results/clawbio_skill_trial/tcga-coad/parseltongue_stage3_sample/stage3-export.partial.json \
-     --out results/stage4-sample
+     --out results/objections-sample
    ```
 
-The result path is `results/stage4-sample/`: open `objections.html` for the
+The result path is `results/objections-sample/`: open `objections.html` for the
 browsable report, `objections.md` for the text report, or `objections.json` for
 the machine-readable record. Once all six targets finish, use the canonical
 `stage3-export.json` instead of `stage3-export.partial.json` for the final
@@ -142,14 +142,14 @@ expands into the nodes, quotes and source records it cites).
 
 ```bash
 uv run agnostik-objections run \
-    --export examples/stage4/fixtures/crc6-dossiers.html \
-    --export examples/stage4/fixtures/crc6-verdicts.html \
-    --out results/stage4
+    --export examples/objections/fixtures/candidate-dossiers.html \
+    --export examples/objections/fixtures/candidate-verdicts.html \
+    --out results/objections
 ```
 
 Add `--dry-run` to exercise the ledger, verifier and reports with no API call
 and no spend. Full contract, flags and the fixture stand-in for stages 1–3:
-[`docs/stage4-objections.md`](docs/stage4-objections.md).
+[`docs/objections.md`](docs/objections.md).
 
 ## Prerequisites
 
@@ -331,7 +331,7 @@ verified quoted fact. Hand it to Stage 4 with:
 ```bash
 uv run agnostik-objections run \
   --export results/clawbio_skill_trial/tcga-coad/parseltongue_stage3/stage3-export.json \
-  --out results/stage4
+  --out results/objections
 ```
 
 The default limits are ten documents and 250,000 characters per candidate.
@@ -380,7 +380,7 @@ fingerprint still matches the selected sources and query.
 ### Explore the partial export in the notebook
 
 Open
-[`notebooks/parseltongue_stage3_verdict.ipynb`](notebooks/parseltongue_stage3_verdict.ipynb).
+[`notebooks/02_verdict_generation.ipynb`](notebooks/02_verdict_generation.ipynb).
 The notebook does not run the long Stage-3 model pipeline. Its result workflow
 is:
 
@@ -409,15 +409,15 @@ uv run agnostik-objections inspect \
 
 uv run agnostik-objections run \
   --export results/clawbio_skill_trial/tcga-coad/parseltongue_stage3_sample/stage3-export.partial.json \
-  --out results/stage4-sample
+  --out results/objections-sample
 ```
 
 Stage 4 writes the final browsable and machine-readable results to:
 
 ```text
-results/stage4-sample/objections.md
-results/stage4-sample/objections.html
-results/stage4-sample/objections.json
+results/objections-sample/objections.md
+results/objections-sample/objections.html
+results/objections-sample/objections.json
 ```
 
 When all six targets finish, the Stage-3 command also writes the canonical

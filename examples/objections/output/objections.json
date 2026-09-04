@@ -2,8 +2,8 @@
   "meta": {
     "version": "0.1.0",
     "export": [
-      "fixtures/crc6-dossiers.html",
-      "fixtures/crc6-verdicts.html"
+      "fixtures/candidate-dossiers.html",
+      "fixtures/candidate-verdicts.html"
     ],
     "model": "MiniMaxAI/MiniMax-M3",
     "disease": "colorectal cancer",

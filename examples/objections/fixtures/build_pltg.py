@@ -5,10 +5,10 @@ STAND-IN for pipeline stage 3. Emits source documents whose lines the
 facts quote verbatim, one module per target, a shared rules module whose
 axioms quote the review charter, and a main entry point.
 
-    fixtures/docs/*.txt|md      source documents (quote targets)
-    fixtures/src/<gene>.pltg    facts + derived claims for one target
-    fixtures/src/rules.pltg     charter-grounded axioms
-    fixtures/main.pltg          entry point
+    docs/*.txt|md      source documents (quote targets)
+    src/<gene>.pltg    facts + derived claims for one target
+    src/rules.pltg     charter-grounded axioms
+    shortlist.pltg     entry point
 """
 
 from __future__ import annotations
