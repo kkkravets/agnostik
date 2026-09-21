@@ -1,13 +1,9 @@
 # Agnostik
 
-Hackathon workspace for **“pick a cancer target you would defend.”** The goal is
-to shortlist oncology targets from live TCGA evidence while making the case
-against each target as visible as the case for it. At least one candidate must
-be rejected explicitly, with a traceable reason.
-
-The implemented workflow accepts a TCGA tumour code, returns the fixed v1
-candidate panel, collects literature and trial evidence, builds grounded
-Parseltongue verdicts, and generates backtraceable Stage-4 objections.
+Hackathon workspace for **“pick a cancer target you would defend.”** The system
+evaluates a fixed oncology target panel while making the case against each
+target as visible as the case for it. Every verdict retains a traceable evidence
+path.
 
 ## v1 scope
 
@@ -18,11 +14,10 @@ gene panel:
 EGFR, ERBB2, KRAS, MYC, WRN, PRMT5
 ```
 
-Candidate-gene discovery is out of scope for v1: the three-target shortlist
-must be selected from this predefined panel using the evidence collected by the
-workflow.
+The panel is predefined for v1. All six candidates continue through evidence
+collection, verdict generation, and objection generation.
 
-Run the current selection step with:
+Display the fixed candidate panel with:
 
 ```bash
 uv run agnostik BRCA
@@ -35,7 +30,7 @@ Tumour type: BRCA
 Candidates: EGFR, ERBB2, KRAS, MYC, WRN, PRMT5
 ```
 
-Use `--json` when feeding this selection into a later workflow stage:
+Use `--json` for machine-readable output:
 
 ```bash
 uv run agnostik BRCA --json
@@ -60,11 +55,11 @@ code without a default.
    into the flat corpus consumed by Stage 3:
 
    ```bash
-   uv run agnostik-evidence COAD \
+   uv run agnostik-collect-evidence COAD \
      --max-articles-per-gene 300 \
      --max-trials 100 \
      --output results/evidence \
-     --stage3-source-dir results/clawbio_skill_trial/tcga-coad/full_text_articles \
+     --corpus-dir results/clawbio_skill_trial/tcga-coad/full_text_articles \
      --skip-existing
    ```
 
@@ -105,7 +100,7 @@ code without a default.
    ```
 
 6. Open
-   [`notebooks/parseltongue_stage3_verdict.ipynb`](notebooks/parseltongue_stage3_verdict.ipynb)
+   [`notebooks/02_verdict_generation.ipynb`](notebooks/02_verdict_generation.ipynb)
    and run Sections 3–7 to refresh the partial export, validate verdicts, read
    candidate reports, inspect the JSON, and generate Stage-4 objections.
 
@@ -114,10 +109,10 @@ code without a default.
    ```bash
    uv run agnostik-objections run \
      --export results/clawbio_skill_trial/tcga-coad/parseltongue_stage3_sample/stage3-export.partial.json \
-     --out results/stage4-sample
+     --out results/objections-sample
    ```
 
-The result path is `results/stage4-sample/`: open `objections.html` for the
+The result path is `results/objections-sample/`: open `objections.html` for the
 browsable report, `objections.md` for the text report, or `objections.json` for
 the machine-readable record. Once all six targets finish, use the canonical
 `stage3-export.json` instead of `stage3-export.partial.json` for the final
@@ -142,14 +137,14 @@ expands into the nodes, quotes and source records it cites).
 
 ```bash
 uv run agnostik-objections run \
-    --export examples/stage4/fixtures/crc6-dossiers.html \
-    --export examples/stage4/fixtures/crc6-verdicts.html \
-    --out results/stage4
+    --export examples/objection-workflow/fixtures/candidate-dossiers.html \
+    --export examples/objection-workflow/fixtures/candidate-verdicts.html \
+    --out results/objections
 ```
 
 Add `--dry-run` to exercise the ledger, verifier and reports with no API call
 and no spend. Full contract, flags and the fixture stand-in for stages 1–3:
-[`docs/stage4-objections.md`](docs/stage4-objections.md).
+[`docs/objections.md`](docs/objections.md).
 
 ## Prerequisites
 
@@ -234,7 +229,7 @@ docker compose run --rm analysis uv run agnostik BRCA
 
 ## Collect literature and trial evidence
 
-The `agnostik-evidence` pipeline step applies one base disease query to every
+The `agnostik-collect-evidence` pipeline step applies one base disease query to every
 predefined candidate gene. For COAD, each PubMed/PMC expression has this form:
 
 ```text
@@ -246,7 +241,7 @@ Run all six predefined genes from the host console, requesting up to 300
 complete open-access articles per gene:
 
 ```bash
-uv run agnostik-evidence COAD \
+uv run agnostik-collect-evidence COAD \
   --max-articles-per-gene 300 \
   --output results/evidence \
   --skip-existing
@@ -256,7 +251,7 @@ Run the identical step through Docker:
 
 ```bash
 docker compose run --rm analysis \
-  uv run agnostik-evidence COAD \
+  uv run agnostik-collect-evidence COAD \
   --max-articles-per-gene 300 \
   --output results/evidence \
   --skip-existing
@@ -331,7 +326,7 @@ verified quoted fact. Hand it to Stage 4 with:
 ```bash
 uv run agnostik-objections run \
   --export results/clawbio_skill_trial/tcga-coad/parseltongue_stage3/stage3-export.json \
-  --out results/stage4
+  --out results/objections
 ```
 
 The default limits are ten documents and 250,000 characters per candidate.
@@ -380,7 +375,7 @@ fingerprint still matches the selected sources and query.
 ### Explore the partial export in the notebook
 
 Open
-[`notebooks/parseltongue_stage3_verdict.ipynb`](notebooks/parseltongue_stage3_verdict.ipynb).
+[`notebooks/02_verdict_generation.ipynb`](notebooks/02_verdict_generation.ipynb).
 The notebook does not run the long Stage-3 model pipeline. Its result workflow
 is:
 
@@ -409,15 +404,15 @@ uv run agnostik-objections inspect \
 
 uv run agnostik-objections run \
   --export results/clawbio_skill_trial/tcga-coad/parseltongue_stage3_sample/stage3-export.partial.json \
-  --out results/stage4-sample
+  --out results/objections-sample
 ```
 
 Stage 4 writes the final browsable and machine-readable results to:
 
 ```text
-results/stage4-sample/objections.md
-results/stage4-sample/objections.html
-results/stage4-sample/objections.json
+results/objections-sample/objections.md
+results/objections-sample/objections.html
+results/objections-sample/objections.json
 ```
 
 When all six targets finish, the Stage-3 command also writes the canonical
@@ -454,27 +449,24 @@ Keep global flags such as `--demo` and `--output` before the subcommand
 (`diff-expr` in this example). Read each relevant `SKILL.md` before running its
 script.
 
-## Analysis workflow
+## Implemented analysis workflow
 
-The v1 workflow should:
+The v1 workflow:
 
-1. Read the ClawBio instructions and the specifications for
-   `xena-tcga-gene-query`, `target-validation-scorer`,
-   `omics-target-evidence-mapper`, `clinical-trial-finder`, and
-   `pubmed-summariser`.
-2. Accept a TCGA tumour type as input and select the fixed candidate panel.
-   This step is implemented. Do not search for candidate genes.
-3. Query UCSC Xena live for tumour-versus-normal expression and survival
-   association for `EGFR`, `ERBB2`, `KRAS`, `MYC`, `WRN`, and `PRMT5` in that
-   tumour type.
-4. Select a three-target shortlist from the fixed panel and give evidence for
-   and against each target equal visibility.
-5. Reject at least one target explicitly and record the evidence that killed it.
-6. Check prior art in PubMed and clinical trials.
-7. Resolve every PMID before it enters any output. If the source cannot be
-   fetched and confirmed, drop the claim instead of citing it.
+1. Accepts a TCGA tumour code and returns the fixed six-candidate panel. This
+   validates the code's format; it does not discover or rank candidate genes.
+2. Collects PubMed summaries, complete open-access PMC articles, and
+   ClinicalTrials.gov evidence for every candidate.
+3. Consolidates the collected full-text articles into a flat Stage 3 corpus.
+4. Selects relevant documents for each candidate and runs the four-pass
+   Parseltongue pipeline to derive one grounded Boolean verdict per candidate.
+5. Exports all completed candidate systems in the JSON contract consumed by
+   the objection stage.
+6. Generates an objection to every available verdict, traces its citations back
+   to evidence nodes and source quotes, checks external identifiers, and records
+   unresolved or weak evidence in the report.
 
-Analysis artifacts should be written below `results/`.
+Analysis artifacts are written below `results/`.
 
 ## Dependency changes
 

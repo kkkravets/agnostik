@@ -109,16 +109,16 @@ is re-prompted once with the verifier's findings (`--attempts`).
 
 ```bash
 uv run agnostik-objections run \
-    --export examples/stage4/fixtures/crc6-dossiers.html \
-    --export examples/stage4/fixtures/crc6-verdicts.html \
-    --out results/stage4 --print-prompt
+    --export examples/objection-workflow/fixtures/candidate-dossiers.html \
+    --export examples/objection-workflow/fixtures/candidate-verdicts.html \
+    --out results/objections --print-prompt
 ```
 
 Inspect what was parsed out of an export before spending anything:
 
 ```bash
 uv run agnostik-objections inspect \
-    --export examples/stage4/fixtures/crc6-dossiers.html --ledger
+    --export examples/objection-workflow/fixtures/candidate-dossiers.html --ledger
 ```
 
 List the live Token Factory catalogue:
@@ -133,14 +133,14 @@ checks), `--ledger-limit`, `--max-hops`, `--model`, `--temperature`.
 
 ## What is a stand-in here
 
-`examples/stage4/fixtures/` is a **development stand-in for stages 1–3**, not part of
+`examples/objection-workflow/fixtures/` is a **development stand-in for stages 1–3**, not part of
 this stage's deliverable:
 
 * `collect.py` pulls live evidence for the six targets (PubMed E-utilities,
   ClinicalTrials.gov v2, UniProt) via the ClawBio skills,
 * `build_pltg.py` writes the source documents, one Parseltongue module per
   target, the charter-grounded rules, and the entry point,
-* `crc6-dossiers.html` / `crc6-verdicts.html` are the resulting pg-bench
+* `candidate-dossiers.html` / `candidate-verdicts.html` are the resulting pg-bench
   exports, checked in so stage 4 runs without stages 1–3.
 
 Replace them with the real upstream export as soon as stages 1–3 emit one;
@@ -148,11 +148,11 @@ nothing in `src/agnostik/objections/` knows about the fixture. Regenerate the
 stand-in with:
 
 ```bash
-uv run python examples/stage4/fixtures/collect.py       # live evidence -> raw/*.json + docs/
-uv run python examples/stage4/fixtures/build_pltg.py    # -> src/*.pltg + shortlist.pltg
-cd examples/stage4/fixtures && pg start shortlist.pltg && pg wait
-pg eval '(fmt "viz" (scope lens (focus "src.")))'      > crc6-dossiers.html
-pg eval '(fmt "viz" (scope lens (fuzzy "promising")))' > crc6-verdicts.html
+uv run python examples/objection-workflow/fixtures/collect.py       # live evidence -> raw/*.json + docs/
+uv run python examples/objection-workflow/fixtures/build_pltg.py    # -> src/*.pltg + shortlist.pltg
+cd examples/objection-workflow/fixtures && pg start shortlist.pltg && pg wait
+pg eval '(fmt "viz" (scope lens (focus "src.")))'      > candidate-dossiers.html
+pg eval '(fmt "viz" (scope lens (fuzzy "promising")))' > candidate-verdicts.html
 ```
 
 ## Tests
