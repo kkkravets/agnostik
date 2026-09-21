@@ -88,10 +88,10 @@ class CandidateRun:
     error: str = ""
 
 
-def consolidate_stage3_sources(
+def consolidate_corpus(
     runs: Sequence[CandidateRun], destination: Path
 ) -> int:
-    """Copy unique completed PMC text sources into Stage 3's flat corpus."""
+    """Copy unique completed PMC text sources into one flat corpus."""
 
     destination = Path(destination)
     destination.mkdir(parents=True, exist_ok=True)
@@ -107,7 +107,7 @@ def consolidate_stage3_sources(
             if target.is_file():
                 if target.read_bytes() != source.read_bytes():
                     raise ValueError(
-                        f"conflicting Stage-3 source contents for {source.name}"
+                        f"conflicting corpus source contents for {source.name}"
                     )
             else:
                 shutil.copy2(source, target)

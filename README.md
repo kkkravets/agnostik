@@ -1,13 +1,9 @@
 # Agnostik
 
-Hackathon workspace for **“pick a cancer target you would defend.”** The goal is
-to shortlist oncology targets from live TCGA evidence while making the case
-against each target as visible as the case for it. At least one candidate must
-be rejected explicitly, with a traceable reason.
-
-The implemented workflow accepts a TCGA tumour code, returns the fixed v1
-candidate panel, collects literature and trial evidence, builds grounded
-Parseltongue verdicts, and generates backtraceable Stage-4 objections.
+Hackathon workspace for **“pick a cancer target you would defend.”** The system
+evaluates a fixed oncology target panel while making the case against each
+target as visible as the case for it. Every verdict retains a traceable evidence
+path.
 
 ## v1 scope
 
@@ -18,11 +14,10 @@ gene panel:
 EGFR, ERBB2, KRAS, MYC, WRN, PRMT5
 ```
 
-Candidate-gene discovery is out of scope for v1: the three-target shortlist
-must be selected from this predefined panel using the evidence collected by the
-workflow.
+The panel is predefined for v1. All six candidates continue through evidence
+collection, verdict generation, and objection generation.
 
-Run the current selection step with:
+Display the fixed candidate panel with:
 
 ```bash
 uv run agnostik BRCA
@@ -35,7 +30,7 @@ Tumour type: BRCA
 Candidates: EGFR, ERBB2, KRAS, MYC, WRN, PRMT5
 ```
 
-Use `--json` when feeding this selection into a later workflow stage:
+Use `--json` for machine-readable output:
 
 ```bash
 uv run agnostik BRCA --json
@@ -60,11 +55,11 @@ code without a default.
    into the flat corpus consumed by Stage 3:
 
    ```bash
-   uv run agnostik-evidence COAD \
+   uv run agnostik-collect-evidence COAD \
      --max-articles-per-gene 300 \
      --max-trials 100 \
      --output results/evidence \
-     --stage3-source-dir results/clawbio_skill_trial/tcga-coad/full_text_articles \
+     --corpus-dir results/clawbio_skill_trial/tcga-coad/full_text_articles \
      --skip-existing
    ```
 
@@ -142,8 +137,8 @@ expands into the nodes, quotes and source records it cites).
 
 ```bash
 uv run agnostik-objections run \
-    --export examples/objections/fixtures/candidate-dossiers.html \
-    --export examples/objections/fixtures/candidate-verdicts.html \
+    --export examples/objection-workflow/fixtures/candidate-dossiers.html \
+    --export examples/objection-workflow/fixtures/candidate-verdicts.html \
     --out results/objections
 ```
 
@@ -234,7 +229,7 @@ docker compose run --rm analysis uv run agnostik BRCA
 
 ## Collect literature and trial evidence
 
-The `agnostik-evidence` pipeline step applies one base disease query to every
+The `agnostik-collect-evidence` pipeline step applies one base disease query to every
 predefined candidate gene. For COAD, each PubMed/PMC expression has this form:
 
 ```text
@@ -246,7 +241,7 @@ Run all six predefined genes from the host console, requesting up to 300
 complete open-access articles per gene:
 
 ```bash
-uv run agnostik-evidence COAD \
+uv run agnostik-collect-evidence COAD \
   --max-articles-per-gene 300 \
   --output results/evidence \
   --skip-existing
@@ -256,7 +251,7 @@ Run the identical step through Docker:
 
 ```bash
 docker compose run --rm analysis \
-  uv run agnostik-evidence COAD \
+  uv run agnostik-collect-evidence COAD \
   --max-articles-per-gene 300 \
   --output results/evidence \
   --skip-existing
@@ -454,27 +449,24 @@ Keep global flags such as `--demo` and `--output` before the subcommand
 (`diff-expr` in this example). Read each relevant `SKILL.md` before running its
 script.
 
-## Analysis workflow
+## Implemented analysis workflow
 
-The v1 workflow should:
+The v1 workflow:
 
-1. Read the ClawBio instructions and the specifications for
-   `xena-tcga-gene-query`, `target-validation-scorer`,
-   `omics-target-evidence-mapper`, `clinical-trial-finder`, and
-   `pubmed-summariser`.
-2. Accept a TCGA tumour type as input and select the fixed candidate panel.
-   This step is implemented. Do not search for candidate genes.
-3. Query UCSC Xena live for tumour-versus-normal expression and survival
-   association for `EGFR`, `ERBB2`, `KRAS`, `MYC`, `WRN`, and `PRMT5` in that
-   tumour type.
-4. Select a three-target shortlist from the fixed panel and give evidence for
-   and against each target equal visibility.
-5. Reject at least one target explicitly and record the evidence that killed it.
-6. Check prior art in PubMed and clinical trials.
-7. Resolve every PMID before it enters any output. If the source cannot be
-   fetched and confirmed, drop the claim instead of citing it.
+1. Accepts a TCGA tumour code and returns the fixed six-candidate panel. This
+   validates the code's format; it does not discover or rank candidate genes.
+2. Collects PubMed summaries, complete open-access PMC articles, and
+   ClinicalTrials.gov evidence for every candidate.
+3. Consolidates the collected full-text articles into a flat Stage 3 corpus.
+4. Selects relevant documents for each candidate and runs the four-pass
+   Parseltongue pipeline to derive one grounded Boolean verdict per candidate.
+5. Exports all completed candidate systems in the JSON contract consumed by
+   the objection stage.
+6. Generates an objection to every available verdict, traces its citations back
+   to evidence nodes and source quotes, checks external identifiers, and records
+   unresolved or weak evidence in the report.
 
-Analysis artifacts should be written below `results/`.
+Analysis artifacts are written below `results/`.
 
 ## Dependency changes
 

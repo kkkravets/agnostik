@@ -11,7 +11,7 @@ from agnostik.candidates import PRESELECTED_CANDIDATES, select_candidates
 from agnostik.evidence import (
     EvidenceConfig,
     collect_evidence_batch,
-    consolidate_stage3_sources,
+    consolidate_corpus,
 )
 
 
@@ -35,7 +35,7 @@ DEFAULT_ARTICLE_QUERIES = {
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
-        prog="agnostik-evidence",
+        prog="agnostik-collect-evidence",
         description=(
             "Collect reproducible ClawBio PubMed, PMC full-text, and "
             "ClinicalTrials.gov evidence for target candidates."
@@ -70,9 +70,15 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--max-trials", type=int, default=20)
     parser.add_argument("--output", type=Path, default=Path("results/evidence"))
     parser.add_argument(
-        "--stage3-source-dir",
+        "--corpus-dir",
         type=Path,
-        help="also consolidate unique PMC .txt files into this flat Stage-3 corpus",
+        help="also consolidate unique PMC .txt files into this flat corpus",
+    )
+    parser.add_argument(
+        "--stage3-source-dir",
+        dest="corpus_dir",
+        type=Path,
+        help=argparse.SUPPRESS,
     )
     parser.add_argument("--ncbi-email", default="agnostik@example.com")
     rerun = parser.add_mutually_exclusive_group()
@@ -115,10 +121,10 @@ def main(argv: Sequence[str] | None = None) -> int:
         skip_existing=args.skip_existing,
     )
     consolidated_count = None
-    if args.stage3_source_dir:
+    if args.corpus_dir:
         try:
-            consolidated_count = consolidate_stage3_sources(
-                runs, args.stage3_source_dir
+            consolidated_count = consolidate_corpus(
+                runs, args.corpus_dir
             )
         except ValueError as exc:
             parser.error(str(exc))
@@ -151,7 +157,7 @@ def main(argv: Sequence[str] | None = None) -> int:
                 print(f"  error: {run.error}")
         if consolidated_count is not None:
             print(
-                f"Stage-3 corpus: {consolidated_count} unique articles | "
-                f"{args.stage3_source_dir.resolve()}"
+                f"Corpus: {consolidated_count} unique articles | "
+                f"{args.corpus_dir.resolve()}"
             )
     return 1 if any(run.status == "failed" for run in runs) else 0

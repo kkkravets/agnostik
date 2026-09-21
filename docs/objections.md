@@ -109,8 +109,8 @@ is re-prompted once with the verifier's findings (`--attempts`).
 
 ```bash
 uv run agnostik-objections run \
-    --export examples/objections/fixtures/candidate-dossiers.html \
-    --export examples/objections/fixtures/candidate-verdicts.html \
+    --export examples/objection-workflow/fixtures/candidate-dossiers.html \
+    --export examples/objection-workflow/fixtures/candidate-verdicts.html \
     --out results/objections --print-prompt
 ```
 
@@ -118,7 +118,7 @@ Inspect what was parsed out of an export before spending anything:
 
 ```bash
 uv run agnostik-objections inspect \
-    --export examples/objections/fixtures/candidate-dossiers.html --ledger
+    --export examples/objection-workflow/fixtures/candidate-dossiers.html --ledger
 ```
 
 List the live Token Factory catalogue:
@@ -133,7 +133,7 @@ checks), `--ledger-limit`, `--max-hops`, `--model`, `--temperature`.
 
 ## What is a stand-in here
 
-`examples/objections/fixtures/` is a **development stand-in for stages 1–3**, not part of
+`examples/objection-workflow/fixtures/` is a **development stand-in for stages 1–3**, not part of
 this stage's deliverable:
 
 * `collect.py` pulls live evidence for the six targets (PubMed E-utilities,
@@ -148,9 +148,9 @@ nothing in `src/agnostik/objections/` knows about the fixture. Regenerate the
 stand-in with:
 
 ```bash
-uv run python examples/objections/fixtures/collect.py       # live evidence -> raw/*.json + docs/
-uv run python examples/objections/fixtures/build_pltg.py    # -> src/*.pltg + shortlist.pltg
-cd examples/objections/fixtures && pg start shortlist.pltg && pg wait
+uv run python examples/objection-workflow/fixtures/collect.py       # live evidence -> raw/*.json + docs/
+uv run python examples/objection-workflow/fixtures/build_pltg.py    # -> src/*.pltg + shortlist.pltg
+cd examples/objection-workflow/fixtures && pg start shortlist.pltg && pg wait
 pg eval '(fmt "viz" (scope lens (focus "src.")))'      > candidate-dossiers.html
 pg eval '(fmt "viz" (scope lens (fuzzy "promising")))' > candidate-verdicts.html
 ```

@@ -10,7 +10,7 @@ from agnostik.evidence import (
     build_queries,
     candidate_run_id,
     collect_candidate_evidence,
-    consolidate_stage3_sources,
+    consolidate_corpus,
 )
 
 
@@ -51,8 +51,8 @@ class EvidenceCollectionTests(unittest.TestCase):
                 (source_dir / f"PMC-{gene}.txt").write_text(gene, encoding="utf-8")
                 runs.append(CandidateRun(gene, gene.lower(), run_dir, "complete"))
 
-            destination = root / "stage3-sources"
-            count = consolidate_stage3_sources(runs, destination)
+            destination = root / "corpus"
+            count = consolidate_corpus(runs, destination)
 
             self.assertEqual(count, 3)
             self.assertEqual(
