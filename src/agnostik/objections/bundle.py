@@ -313,7 +313,7 @@ def iter_evidence(nodes: Iterable[Node]):
 def load_exports(paths: list[str | Path]) -> Bundle:
     """Load and merge several pg-bench exports into one bundle.
 
-    Stage 3 usually hands over more than one view — one per lens, or a
+    the formalization stage usually hands over more than one view — one per lens, or a
     dossier export plus a verdict export. Later files add nodes and fill in
     gaps; they never blank out evidence an earlier file supplied.
     """

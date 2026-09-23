@@ -98,16 +98,69 @@ def _corpus_relative_path(source: Path, manifest_dir: Path) -> str:
         return str(source.resolve())
 
 
+def _render_trial(trial: dict, gene: str) -> str:
+    """One ClinicalTrials.gov record as a plain-text source Parseltongue can quote."""
+
+    def joined(value: object) -> str:
+        return "; ".join(map(str, value)) if isinstance(value, list) else str(value or "")
+
+    fields = [
+        ("Status", trial.get("status")),
+        ("Phase", trial.get("phase")),
+        ("Study type", trial.get("study_type")),
+        ("Start date", trial.get("start_date")),
+        ("Completion date", trial.get("completion_date")),
+        ("Conditions", joined(trial.get("conditions"))),
+        ("Interventions", joined(trial.get("interventions"))),
+    ]
+    lines = [
+        f"# {trial.get('title', '')}",
+        "",
+        f"Clinical trial: {trial['nct_id']}",
+        # Names the candidate the trial was retrieved for: trial text often never
+        # mentions the gene symbol, and target selection matches on it.
+        f"Retrieved for target: {gene}",
+        *(f"{label}: {value}" for label, value in fields if value),
+        "",
+        "## Summary",
+        "",
+        str(trial.get("summary") or ""),
+    ]
+    return "\n".join(lines) + "\n"
+
+
+def write_trial_sources(run: "CandidateRun") -> list[Path]:
+    """Render a run's clinical-trial summary into one text source per trial."""
+
+    summary_path = run.run_dir / "clinical_trials" / "summary.json"
+    if not summary_path.is_file():
+        return []
+    source_dir = run.run_dir / "clinical_trials" / "sources"
+    source_dir.mkdir(parents=True, exist_ok=True)
+    sources = []
+    for trial in json.loads(summary_path.read_text(encoding="utf-8")).get("trials", []):
+        if not trial.get("nct_id"):
+            continue
+        # Per-gene name: the same trial retrieved for two candidates has two texts.
+        source = source_dir / f"trial-{run.gene}-{trial['nct_id']}.txt"
+        source.write_text(_render_trial(trial, run.gene), encoding="utf-8")
+        sources.append(source)
+    return sources
+
+
 def write_corpus_manifest(
     runs: Sequence[CandidateRun], manifest_path: Path
 ) -> int:
-    """Record every unique completed PMC text source in one corpus manifest.
+    """Record every unique completed text source in one corpus manifest.
+
+    Sources are the PMC full-text articles plus one rendered text per clinical
+    trial found for a candidate.
 
     The articles are referenced where the collection stage wrote them rather
     than copied, so each one exists exactly once as text and once as archival
     XML.  The whole corpus is gathered and validated before anything is
     written, and the manifest is committed with a single atomic replace, so a
-    failure can never leave a half-built corpus that Stage 3 would silently
+    failure can never leave a half-built corpus that the formalization stage would silently
     accept as complete.  Returns the number of articles recorded; a batch that
     produced none writes no manifest at all.
     """
@@ -118,9 +171,9 @@ def write_corpus_manifest(
         if run.status not in {"complete", "skipped"}:
             continue
         source_dir = run.run_dir / "literature" / "sources"
-        if not source_dir.is_dir():
-            continue
-        for source in sorted(source_dir.glob("*.txt")):
+        sources = sorted(source_dir.glob("*.txt")) if source_dir.is_dir() else []
+        sources += sorted(write_trial_sources(run))
+        for source in sources:
             previous = selected.get(source.name)
             if previous is not None and previous[0].read_bytes() != source.read_bytes():
                 raise ValueError(
@@ -140,6 +193,7 @@ def write_corpus_manifest(
             {
                 "name": name,
                 "path": _corpus_relative_path(source, manifest_path.parent),
+                "kind": "trial" if name.startswith("trial-") else "article",
                 "gene": run.gene,
                 "run_id": run.run_id,
                 "sha256": hashlib.sha256(source.read_bytes()).hexdigest(),

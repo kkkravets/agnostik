@@ -39,7 +39,7 @@ class EvidenceQueryTests(unittest.TestCase):
 
 
 class EvidenceCollectionTests(unittest.TestCase):
-    def test_consolidates_unique_completed_sources_for_stage3(self):
+    def test_consolidates_unique_completed_sources_for_formalization(self):
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)
             runs = []
@@ -64,6 +64,31 @@ class EvidenceCollectionTests(unittest.TestCase):
             for entry in manifest["articles"]:
                 self.assertTrue((corpus_path.parent / entry["path"]).is_file())
                 self.assertEqual(entry["gene"], entry["run_id"].upper())
+
+    def test_corpus_includes_clinical_trials_as_text_sources(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            trials_dir = root / "egfr" / "clinical_trials"
+            trials_dir.mkdir(parents=True)
+            trial = {
+                "nct_id": "NCT01",
+                "title": "Cetuximab study",
+                "status": "RECRUITING",
+                "conditions": ["Colon Cancer"],
+                "summary": "No gene symbol in here.",
+            }
+            (trials_dir / "summary.json").write_text(json.dumps({"trials": [trial, {"title": "no id"}]}), encoding="utf-8")
+            runs = [CandidateRun("EGFR", "egfr", root / "egfr", "complete")]
+
+            corpus_path = root / "corpus.json"
+            self.assertEqual(write_corpus_manifest(runs, corpus_path), 1)
+
+            (entry,) = json.loads(corpus_path.read_text(encoding="utf-8"))["articles"]
+            self.assertEqual((entry["name"], entry["kind"]), ("trial-EGFR-NCT01.txt", "trial"))
+            text = (corpus_path.parent / entry["path"]).read_text(encoding="utf-8")
+            self.assertIn("Clinical trial: NCT01", text)
+            self.assertIn("Retrieved for target: EGFR", text)
+            self.assertIn("Conditions: Colon Cancer", text)
 
     def test_conflicting_sources_leave_no_partial_corpus(self):
         with tempfile.TemporaryDirectory() as temporary:

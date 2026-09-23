@@ -1,4 +1,4 @@
-"""Build the formal Stage-3 Parseltongue export consumed by Stage 4."""
+"""Build the formal Formalization Parseltongue export consumed by objections."""
 
 from __future__ import annotations
 
@@ -26,13 +26,15 @@ from agnostik.objections.targets import discover
 
 DEFAULT_MAX_DOCUMENTS_PER_TARGET = 10
 DEFAULT_MAX_TARGET_CHARS = 250_000
+# Trial records are short; without a reserved share the few long articles use the whole budget.
+TRIAL_CHAR_SHARE = 0.2
 DEFAULT_TARGET_ATTEMPTS = 2
 
 log = logging.getLogger(__name__)
 
 
 @dataclass(frozen=True, slots=True)
-class Stage3Config:
+class FormalizationConfig:
     tumour_type: str
     cancer_term: str
     corpus_manifest: Path
@@ -76,7 +78,7 @@ class TargetResult:
 
 
 @dataclass(frozen=True, slots=True)
-class Stage3Run:
+class FormalizationRun:
     source_count: int
     target_count: int
     output_dir: Path
@@ -103,23 +105,35 @@ def discover_sources(corpus_manifest: Path) -> list[Path]:
     return sources
 
 
+def _is_trial(source: Path) -> bool:
+    return source.name.startswith("trial-")
+
+
 def select_target_sources(sources: Sequence[Path], target: str, *, max_documents: int, max_chars: int) -> list[Path]:
-    """Select the most target-specific articles within one model context budget."""
+    """Select the most target-specific sources within one model context budget.
+
+    Articles and clinical-trial records are ranked separately: trials may use at
+    most ``TRIAL_CHAR_SHARE`` of the character budget and articles the rest.
+    """
     pattern = re.compile(rf"\b{re.escape(target)}\b", re.IGNORECASE)
-    scored = []
+    scored = {True: [], False: []}
     for source in sources:
         text = source.read_text(encoding="utf-8", errors="replace")
         score = len(pattern.findall(text))
         if score:
-            scored.append((-score, source.name, source, len(text)))
+            scored[_is_trial(source)].append((-score, source.name, source, len(text)))
+    trial_budget = int(max_chars * TRIAL_CHAR_SHARE)
     selected, used_chars = [], 0
-    for _, _, source, size in sorted(scored):
-        if selected and used_chars + size > max_chars:
-            continue
-        selected.append(source)
-        used_chars += size
-        if len(selected) >= max_documents:
-            break
+    for is_trial, budget in ((False, max_chars - trial_budget), (True, trial_budget)):
+        group, used_chars = [], 0
+        for _, _, source, size in sorted(scored[is_trial]):
+            if len(selected) + len(group) >= max_documents:
+                break
+            if used_chars + size > budget and (group or is_trial):
+                continue
+            group.append(source)
+            used_chars += size
+        selected += group
     if not selected:
         raise ValueError(f"no source article mentions target {target}")
     return selected
@@ -185,7 +199,7 @@ def _prefixed_structure(result: TargetResult) -> tuple[list[dict], list[dict], l
     structure = probe(result.verdict_name, result.system.engine)
     items = items_from_structure(structure)
     enrich_items(items, structure)
-    prefix = f"stage3.{result.target.lower()}."
+    prefix = f"formal.{result.target.lower()}."
     names = {item["id"] for item in items}
     mapped = lambda name: prefix + name
     exported = []
@@ -195,7 +209,7 @@ def _prefixed_structure(result: TargetResult) -> tuple[list[dict], list[dict], l
             name = raw if isinstance(raw, str) else raw.get("name", "")
             if name:
                 inputs.append({"name": mapped(name), "inProbe": name in names})
-        record = {**item, "id": mapped(item["id"]), "module": f"stage3.{result.target.lower()}"}
+        record = {**item, "id": mapped(item["id"]), "module": f"formal.{result.target.lower()}"}
         record["inputs"] = inputs
         exported.append(record)
     layers, edges = [], []
@@ -212,7 +226,7 @@ def _prefixed_structure(result: TargetResult) -> tuple[list[dict], list[dict], l
     return exported, layers, edges
 
 
-def build_stage4_export(results: Sequence[TargetResult]) -> dict[str, Any]:
+def build_objections_export(results: Sequence[TargetResult]) -> dict[str, Any]:
     data, layers, edges = [], [], []
     for result in results:
         target_data, target_layers, target_edges = _prefixed_structure(result)
@@ -227,7 +241,7 @@ def build_stage4_export(results: Sequence[TargetResult]) -> dict[str, Any]:
     }
 
 
-def validate_stage4_export(export_path: Path, targets: Sequence[str]) -> None:
+def validate_objections_export(export_path: Path, targets: Sequence[str]) -> None:
     views = discover(load_export(export_path), list(targets))
     problems = []
     for view in views:
@@ -238,16 +252,16 @@ def validate_stage4_export(export_path: Path, targets: Sequence[str]) -> None:
         if not any(fact.is_grounded for fact in view.facts):
             problems.append(f"{view.symbol}: no verified quoted fact")
     if problems:
-        raise ValueError("Stage-4 export contract failed: " + "; ".join(problems))
+        raise ValueError("Objections export contract failed: " + "; ".join(problems))
 
 
 def export_completed_targets(
     output_dir: Path,
     targets: Sequence[str],
     *,
-    filename: str = "stage3-export.partial.json",
+    filename: str = "formal-system.partial.json",
 ) -> tuple[Path, tuple[str, ...]]:
-    """Build a Stage-4-compatible export from successfully completed targets."""
+    """Build an objections-compatible export from successfully completed targets."""
 
     output_dir = Path(output_dir).resolve()
     results = []
@@ -276,16 +290,16 @@ def export_completed_targets(
             )
         )
     if not results:
-        raise ValueError(f"no completed Stage-3 targets found in: {output_dir}")
+        raise ValueError(f"no completed Formalization targets found in: {output_dir}")
     export_path = output_dir / filename
-    _json_write(export_path, build_stage4_export(results))
+    _json_write(export_path, build_objections_export(results))
     completed_targets = tuple(result.target for result in results)
-    validate_stage4_export(export_path, completed_targets)
+    validate_objections_export(export_path, completed_targets)
     return export_path, completed_targets
 
 
-def run_stage3(
-    config: Stage3Config,
+def run_formalization(
+    config: FormalizationConfig,
     *,
     overwrite: bool = False,
     resume: bool = False,
@@ -293,7 +307,7 @@ def run_stage3(
     max_attempts: int = DEFAULT_TARGET_ATTEMPTS,
     provider_factory: Callable[..., Any] = create_nebius_provider,
     pipeline_runner: Callable[[Sequence[tuple[str, str]], str, Any], PipelineResult] = _run_pipeline,
-) -> Stage3Run:
+) -> FormalizationRun:
     if max_workers < 1:
         raise ValueError("max_workers must be at least 1")
     if max_attempts < 1:
@@ -355,14 +369,14 @@ def run_stage3(
     if max_workers == 1:
         completed = [run_target(plan) for plan in plans]
     else:
-        with ThreadPoolExecutor(max_workers=min(max_workers, len(plans)), thread_name_prefix="stage3") as executor:
+        with ThreadPoolExecutor(max_workers=min(max_workers, len(plans)), thread_name_prefix="formalization") as executor:
             completed = list(executor.map(run_target, plans))
 
     results = [result for result, _, _ in completed]
     records = [record for _, record, _ in completed]
     reused = sum(was_reused for _, _, was_reused in completed)
-    export_path = config.output_dir / "stage3-export.json"
-    _json_write(export_path, build_stage4_export(results))
-    validate_stage4_export(export_path, config.targets)
-    _json_write(config.output_dir / "manifest.json", {"status": "complete", "generated_at": datetime.now(timezone.utc).isoformat(), "tumour_type": config.tumour_type, "cancer_term": config.cancer_term, "corpus_manifest": str(config.corpus_manifest), "source_count": len(sources), "targets": records, "stage4_export": export_path.name})
-    return Stage3Run(len(sources), len(results), config.output_dir, export_path, reused)
+    export_path = config.output_dir / "formal-system.json"
+    _json_write(export_path, build_objections_export(results))
+    validate_objections_export(export_path, config.targets)
+    _json_write(config.output_dir / "manifest.json", {"status": "complete", "generated_at": datetime.now(timezone.utc).isoformat(), "tumour_type": config.tumour_type, "cancer_term": config.cancer_term, "corpus_manifest": str(config.corpus_manifest), "source_count": len(sources), "targets": records, "export": export_path.name})
+    return FormalizationRun(len(sources), len(results), config.output_dir, export_path, reused)

@@ -1,6 +1,6 @@
-# Stage 4 — objections with a backtrace
+# Objections — with a backtrace
 
-Stage 4 of the CRC target-triage pipeline. Stages 1–3 collect evidence and let
+The objections stage of the CRC target-triage pipeline. Evidence collection and formalization gather the evidence and let
 Parseltongue derive a verdict per target. This stage argues against every
 verdict — and shows its work.
 
@@ -21,7 +21,7 @@ in PubMed or ClinicalTrials.gov.
 
 ## Input
 
-One or more **pg-bench JSON exports**. Produce them from the stage-3 system:
+One or more **pg-bench JSON exports**. Produce them from the formalization system:
 
 ```bash
 pg start shortlist.pltg && pg wait
@@ -73,7 +73,7 @@ Shape of one objection in `objections.json`:
 ```jsonc
 {
   "target": "PRMT5",
-  "verdict": "rejected",                  // as derived by stage 3
+  "verdict": "rejected",                  // as derived by the formalization stage
   "verdict_node": "prmt5-promising",
   "model": "moonshotai/Kimi-K3",
   "claims":    [ { "id": "src.prmt5.druggable", "value": "True", "rule": "...", "inputs": [...] } ],
@@ -133,7 +133,7 @@ checks), `--ledger-limit`, `--max-hops`, `--model`, `--temperature`.
 
 ## What is a stand-in here
 
-`examples/objection-workflow/fixtures/` is a **development stand-in for stages 1–3**, not part of
+`examples/objection-workflow/fixtures/` is a **development stand-in for evidence collection and formalization**, not part of
 this stage's deliverable:
 
 * `collect.py` pulls live evidence for the six targets (PubMed E-utilities,
@@ -141,9 +141,9 @@ this stage's deliverable:
 * `build_pltg.py` writes the source documents, one Parseltongue module per
   target, the charter-grounded rules, and the entry point,
 * `candidate-dossiers.html` / `candidate-verdicts.html` are the resulting pg-bench
-  exports, checked in so stage 4 runs without stages 1–3.
+  exports, checked in so objections runs without the upstream stages.
 
-Replace them with the real upstream export as soon as stages 1–3 emit one;
+Replace them with the real upstream export as soon as the upstream stages emit one;
 nothing in `src/agnostik/objections/` knows about the fixture. Regenerate the
 stand-in with:
 
@@ -167,10 +167,10 @@ library only, and picks up `.env` through `python-dotenv` when it is present.
 ## Where it sits in the pipeline
 
 ```
-stage 1-3  ──  Parseltongue shortlist system  ──►  pg-bench export (.html/.js/.json)
+evidence + formalization  ──  Parseltongue shortlist system  ──►  pg-bench export (.html/.js/.json)
                                                         │
                                                         ▼
-stage 4                                   agnostik.objections
+objections stage                                   agnostik.objections
                                           ├─ bundle.py      parse + merge exports
                                           ├─ targets.py     find targets, claims, verdicts
                                           ├─ backtrace.py   derivation closure -> evidence ledger

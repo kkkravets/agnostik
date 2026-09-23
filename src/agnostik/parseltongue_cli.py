@@ -1,4 +1,4 @@
-"""Console entrypoint for the formal Parseltongue Stage-3 pipeline."""
+"""Console entrypoint for the formal Parseltongue Formalization pipeline."""
 
 from __future__ import annotations
 
@@ -9,14 +9,14 @@ from pathlib import Path
 
 from agnostik.candidates import PRESELECTED_CANDIDATES
 from agnostik.evidence_cli import DEFAULT_CANCER_TERMS
-from agnostik.parseltongue_corpus import (
+from agnostik.formalization import (
     DEFAULT_MAX_DOCUMENTS_PER_TARGET,
     DEFAULT_MAX_TARGET_CHARS,
     DEFAULT_TARGET_ATTEMPTS,
-    Stage3Config,
+    FormalizationConfig,
     discover_sources,
     export_completed_targets,
-    run_stage3,
+    run_formalization,
     select_target_sources,
     target_query,
 )
@@ -25,7 +25,7 @@ from agnostik.parseltongue_corpus import (
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog="agnostik-parseltongue",
-        description="Derive per-candidate verdicts and emit the pg-bench JSON consumed by Stage 4.",
+        description="Derive per-candidate verdicts and emit the pg-bench JSON consumed by objections.",
     )
     parser.add_argument("tumour_type", help="TCGA tumour code, for example COAD")
     parser.add_argument(
@@ -62,7 +62,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--export-completed",
         action="store_true",
-        help="build stage3-export.partial.json from completed targets without model calls",
+        help="build formal-system.partial.json from completed targets without model calls",
     )
     parser.add_argument("--json", action="store_true", dest="as_json")
     return parser
@@ -78,12 +78,12 @@ def main(argv: Sequence[str] | None = None) -> int:
     tumour_root = Path("results/clawbio_skill_trial") / f"tcga-{tumour_type.lower()}"
     targets = tuple(args.targets or PRESELECTED_CANDIDATES)
     try:
-        config = Stage3Config(
+        config = FormalizationConfig(
             tumour_type=tumour_type,
             cancer_term=cancer_term,
             corpus_manifest=args.corpus_manifest
             or Path("results/evidence") / tumour_type.lower() / "corpus.json",
-            output_dir=args.output_dir or tumour_root / "parseltongue_stage3",
+            output_dir=args.output_dir or tumour_root / "formalization",
             targets=targets,
             max_documents_per_target=args.max_documents_per_target,
             max_target_chars=args.max_target_chars,
@@ -99,7 +99,7 @@ def main(argv: Sequence[str] | None = None) -> int:
             payload = {
                 "completed_targets": list(completed_targets),
                 "target_count": len(completed_targets),
-                "stage4_export": str(export_path),
+                "export": str(export_path),
             }
         elif args.dry_run:
             sources = discover_sources(config.corpus_manifest)
@@ -118,10 +118,10 @@ def main(argv: Sequence[str] | None = None) -> int:
                 "output_dir": str(config.output_dir),
                 "corpus_source_count": len(sources),
                 "targets": plans,
-                "stage4_export": str(config.output_dir / "stage3-export.json"),
+                "export": str(config.output_dir / "formal-system.json"),
             }
         else:
-            run = run_stage3(
+            run = run_formalization(
                 config,
                 overwrite=args.overwrite,
                 resume=args.resume,
@@ -133,7 +133,7 @@ def main(argv: Sequence[str] | None = None) -> int:
                 "target_count": run.target_count,
                 "reused_targets": run.reused_targets,
                 "output_dir": str(run.output_dir),
-                "stage4_export": str(run.export_path),
+                "export": str(run.export_path),
             }
     except (FileNotFoundError, FileExistsError, ValueError) as exc:
         parser.error(str(exc))
