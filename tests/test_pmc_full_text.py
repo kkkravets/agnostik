@@ -1,9 +1,7 @@
-import tempfile
 import unittest
-from pathlib import Path
 import xml.etree.ElementTree as ET
 
-from agnostik.pmc_full_text import render_article_html, render_article_text
+from agnostik.pmc_full_text import render_article_text
 
 
 SAMPLE_ARTICLE = """<article>
@@ -17,15 +15,7 @@ SAMPLE_ARTICLE = """<article>
 </article>"""
 
 
-class RenderArticleHtmlTests(unittest.TestCase):
-    def test_renders_abstract_body_and_references(self):
-        article = ET.fromstring(SAMPLE_ARTICLE)
-        html = render_article_html(article, "https://pmc.ncbi.nlm.nih.gov/articles/PMC123/")
-        self.assertIn("Complete abstract text.", html)
-        self.assertIn("Full body with <strong>important</strong> evidence.", html)
-        self.assertIn("Reference one.", html)
-        self.assertIn("EGFR therapy study", html)
-
+class RenderArticleTextTests(unittest.TestCase):
     def test_renders_clean_parseltongue_source(self):
         article = ET.fromstring(SAMPLE_ARTICLE)
         text = render_article_text(article, "https://pmc.ncbi.nlm.nih.gov/articles/PMC123/")
@@ -33,6 +23,13 @@ class RenderArticleHtmlTests(unittest.TestCase):
         self.assertIn("## Full article", text)
         self.assertIn("Full body with important evidence.", text)
         self.assertNotIn("<strong>", text)
+
+    def test_renders_abstract_and_references_for_reading(self):
+        article = ET.fromstring(SAMPLE_ARTICLE)
+        text = render_article_text(article, "https://pmc.ncbi.nlm.nih.gov/articles/PMC123/")
+        self.assertIn("Complete abstract text.", text)
+        self.assertIn("Reference one.", text)
+        self.assertIn("PMCID: PMC123", text)
 
 
 if __name__ == "__main__":

@@ -11,7 +11,7 @@ from agnostik.candidates import PRESELECTED_CANDIDATES, select_candidates
 from agnostik.evidence import (
     EvidenceConfig,
     collect_evidence_batch,
-    consolidate_corpus,
+    write_corpus_manifest,
 )
 
 
@@ -69,17 +69,6 @@ def build_parser() -> argparse.ArgumentParser:
     )
     parser.add_argument("--max-trials", type=int, default=20)
     parser.add_argument("--output", type=Path, default=Path("results/evidence"))
-    parser.add_argument(
-        "--corpus-dir",
-        type=Path,
-        help="also consolidate unique PMC .txt files into this flat corpus",
-    )
-    parser.add_argument(
-        "--stage3-source-dir",
-        dest="corpus_dir",
-        type=Path,
-        help=argparse.SUPPRESS,
-    )
     parser.add_argument("--ncbi-email", default="agnostik@example.com")
     rerun = parser.add_mutually_exclusive_group()
     rerun.add_argument("--overwrite", action="store_true")
@@ -120,14 +109,11 @@ def main(argv: Sequence[str] | None = None) -> int:
         overwrite=args.overwrite,
         skip_existing=args.skip_existing,
     )
-    consolidated_count = None
-    if args.corpus_dir:
-        try:
-            consolidated_count = consolidate_corpus(
-                runs, args.corpus_dir
-            )
-        except ValueError as exc:
-            parser.error(str(exc))
+    corpus_path = config.output_root / config.tumour_type.lower() / "corpus.json"
+    try:
+        corpus_count = write_corpus_manifest(runs, corpus_path)
+    except ValueError as exc:
+        parser.error(str(exc))
     if args.as_json:
         print(
             json.dumps(
@@ -155,9 +141,12 @@ def main(argv: Sequence[str] | None = None) -> int:
             )
             if run.error:
                 print(f"  error: {run.error}")
-        if consolidated_count is not None:
-            print(
-                f"Corpus: {consolidated_count} unique articles | "
-                f"{args.corpus_dir.resolve()}"
-            )
+        if corpus_count:
+            print(f"Corpus: {corpus_count} unique articles | {corpus_path}")
+        else:
+            print("Corpus: no articles collected; no manifest written")
     return 1 if any(run.status == "failed" for run in runs) else 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

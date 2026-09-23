@@ -28,7 +28,13 @@ def build_parser() -> argparse.ArgumentParser:
         description="Derive per-candidate verdicts and emit the pg-bench JSON consumed by Stage 4.",
     )
     parser.add_argument("tumour_type", help="TCGA tumour code, for example COAD")
-    parser.add_argument("--input", type=Path, dest="source_dir")
+    parser.add_argument(
+        "--input",
+        type=Path,
+        dest="corpus_manifest",
+        help="corpus.json written by agnostik-collect-evidence "
+        "(default: results/evidence/<tumour>/corpus.json)",
+    )
     parser.add_argument("--output", type=Path, dest="output_dir")
     parser.add_argument("--cancer-term", help="human-readable cancer term")
     parser.add_argument("--target", action="append", dest="targets")
@@ -75,7 +81,8 @@ def main(argv: Sequence[str] | None = None) -> int:
         config = Stage3Config(
             tumour_type=tumour_type,
             cancer_term=cancer_term,
-            source_dir=args.source_dir or tumour_root / "full_text_articles",
+            corpus_manifest=args.corpus_manifest
+            or Path("results/evidence") / tumour_type.lower() / "corpus.json",
             output_dir=args.output_dir or tumour_root / "parseltongue_stage3",
             targets=targets,
             max_documents_per_target=args.max_documents_per_target,
@@ -95,7 +102,7 @@ def main(argv: Sequence[str] | None = None) -> int:
                 "stage4_export": str(export_path),
             }
         elif args.dry_run:
-            sources = discover_sources(config.source_dir)
+            sources = discover_sources(config.corpus_manifest)
             plans = []
             for target in config.targets:
                 selected = select_target_sources(sources, target, max_documents=config.max_documents_per_target, max_chars=config.max_target_chars)
@@ -107,7 +114,7 @@ def main(argv: Sequence[str] | None = None) -> int:
                     "query": target_query(target, cancer_term, tumour_type),
                 })
             payload = {
-                "source_dir": str(config.source_dir),
+                "corpus_manifest": str(config.corpus_manifest),
                 "output_dir": str(config.output_dir),
                 "corpus_source_count": len(sources),
                 "targets": plans,

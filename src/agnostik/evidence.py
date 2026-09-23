@@ -8,6 +8,7 @@ from datetime import datetime, timezone
 import hashlib
 from importlib.metadata import PackageNotFoundError, version
 import json
+import os
 from pathlib import Path
 import re
 import shutil
@@ -88,14 +89,31 @@ class CandidateRun:
     error: str = ""
 
 
-def consolidate_corpus(
-    runs: Sequence[CandidateRun], destination: Path
-) -> int:
-    """Copy unique completed PMC text sources into one flat corpus."""
+def _corpus_relative_path(source: Path, manifest_dir: Path) -> str:
+    # Relative keeps the manifest valid when the whole tree is moved; a source
+    # on a different Windows drive has no relative form, so fall back.
+    try:
+        return os.path.relpath(source.resolve(), manifest_dir.resolve()).replace("\\", "/")
+    except ValueError:
+        return str(source.resolve())
 
-    destination = Path(destination)
-    destination.mkdir(parents=True, exist_ok=True)
-    available: set[str] = set()
+
+def write_corpus_manifest(
+    runs: Sequence[CandidateRun], manifest_path: Path
+) -> int:
+    """Record every unique completed PMC text source in one corpus manifest.
+
+    The articles are referenced where the collection stage wrote them rather
+    than copied, so each one exists exactly once as text and once as archival
+    XML.  The whole corpus is gathered and validated before anything is
+    written, and the manifest is committed with a single atomic replace, so a
+    failure can never leave a half-built corpus that Stage 3 would silently
+    accept as complete.  Returns the number of articles recorded; a batch that
+    produced none writes no manifest at all.
+    """
+
+    manifest_path = Path(manifest_path)
+    selected: dict[str, tuple[Path, CandidateRun]] = {}
     for run in runs:
         if run.status not in {"complete", "skipped"}:
             continue
@@ -103,18 +121,38 @@ def consolidate_corpus(
         if not source_dir.is_dir():
             continue
         for source in sorted(source_dir.glob("*.txt")):
-            target = destination / source.name
-            if target.is_file():
-                if target.read_bytes() != source.read_bytes():
-                    raise ValueError(
-                        f"conflicting corpus source contents for {source.name}"
-                    )
-            else:
-                shutil.copy2(source, target)
-            available.add(source.name)
-    if not available:
-        raise ValueError("no completed PMC text sources are available for Stage 3")
-    return len(available)
+            previous = selected.get(source.name)
+            if previous is not None and previous[0].read_bytes() != source.read_bytes():
+                raise ValueError(
+                    f"conflicting corpus source contents for {source.name}: "
+                    f"{previous[0]} and {source}"
+                )
+            selected.setdefault(source.name, (source, run))
+    if not selected:
+        return 0
+
+    manifest_path.parent.mkdir(parents=True, exist_ok=True)
+    payload = {
+        "schema_version": SCHEMA_VERSION,
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "source_count": len(selected),
+        "articles": [
+            {
+                "name": name,
+                "path": _corpus_relative_path(source, manifest_path.parent),
+                "gene": run.gene,
+                "run_id": run.run_id,
+                "sha256": hashlib.sha256(source.read_bytes()).hexdigest(),
+            }
+            for name, (source, run) in sorted(selected.items())
+        ],
+    }
+    temporary = manifest_path.with_suffix(manifest_path.suffix + ".tmp")
+    temporary.write_text(
+        json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8"
+    )
+    os.replace(temporary, manifest_path)
+    return len(selected)
 
 
 def build_queries(

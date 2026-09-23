@@ -5,6 +5,7 @@ import tempfile
 import threading
 import time
 import unittest
+from unittest.mock import patch
 
 from parseltongue import System
 from parseltongue.core import load_source
@@ -15,6 +16,7 @@ from agnostik.objections.targets import discover
 from agnostik.parseltongue_corpus import (
     TargetResult,
     Stage3Config,
+    _run_pipeline,
     build_stage4_export,
     discover_sources,
     export_completed_targets,
@@ -42,17 +44,83 @@ def target_system(target):
     return system
 
 
+def write_corpus(root: Path, articles: dict[str, str]) -> Path:
+    """Write article files under root/evidence plus the corpus.json naming them."""
+    source_dir = root / "evidence"
+    source_dir.mkdir(parents=True, exist_ok=True)
+    entries = []
+    for name, body in articles.items():
+        (source_dir / name).write_text(body, encoding="utf-8")
+        entries.append({"name": name, "path": f"evidence/{name}"})
+    corpus = root / "corpus.json"
+    corpus.write_text(json.dumps({"articles": entries}), encoding="utf-8")
+    return corpus
+
+
 class Stage3SourceTests(unittest.TestCase):
     def test_selects_target_specific_articles(self):
         with tempfile.TemporaryDirectory() as temporary:
-            root = Path(temporary)
-            (root / "PMC2.txt").write_text("KRAS once", encoding="utf-8")
-            (root / "PMC1.txt").write_text("KRAS KRAS KRAS", encoding="utf-8")
-            (root / "PMC3.txt").write_text("EGFR only", encoding="utf-8")
+            corpus = write_corpus(
+                Path(temporary),
+                {
+                    "PMC2.txt": "KRAS once",
+                    "PMC1.txt": "KRAS KRAS KRAS",
+                    "PMC3.txt": "EGFR only",
+                },
+            )
             selected = select_target_sources(
-                discover_sources(root), "KRAS", max_documents=2, max_chars=1_000
+                discover_sources(corpus), "KRAS", max_documents=2, max_chars=1_000
             )
             self.assertEqual([path.name for path in selected], ["PMC1.txt", "PMC2.txt"])
+
+    def test_reads_articles_referenced_by_a_corpus_manifest(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            corpus = write_corpus(Path(temporary), {"PMC1.txt": "KRAS KRAS"})
+
+            sources = discover_sources(corpus)
+
+            self.assertEqual([path.name for path in sources], ["PMC1.txt"])
+            self.assertEqual(sources[0].read_text(encoding="utf-8"), "KRAS KRAS")
+
+    def test_rejects_a_manifest_referencing_a_missing_article(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            corpus = Path(temporary) / "corpus.json"
+            corpus.write_text(
+                json.dumps({"articles": [{"name": "PMC1.txt", "path": "gone/PMC1.txt"}]}),
+                encoding="utf-8",
+            )
+            with self.assertRaises(FileNotFoundError):
+                discover_sources(corpus)
+
+    def test_rejects_a_missing_corpus_manifest(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            with self.assertRaises(FileNotFoundError):
+                discover_sources(Path(temporary) / "corpus.json")
+
+    def test_documents_are_registered_as_text_never_by_path(self):
+        """Parseltongue opens a path with the locale encoding.
+
+        On Windows that rejects 172 and silently mangles 127 of the 300
+        articles in the COAD corpus, so the text= branch is load-bearing.
+        """
+        captured: dict[str, tuple[str | None, str | None]] = {}
+
+        class RecordingPipeline:
+            def __init__(self, system, provider):
+                pass
+
+            def add_document(self, name, path=None, text=None):
+                captured[name] = (path, text)
+
+            def run(self, query):
+                return "pipeline-result"
+
+        body = "EGFR inhibitors – β-catenin “signalling”"
+        with patch("agnostik.parseltongue_corpus.Pipeline", RecordingPipeline):
+            result = _run_pipeline([("paper", body)], "query", object())
+
+        self.assertEqual(result, "pipeline-result")
+        self.assertEqual(captured["paper"], (None, body))
 
     def test_query_requires_exact_boolean_verdict(self):
         query = target_query("EGFR", "colon adenocarcinoma", "COAD")
@@ -122,13 +190,11 @@ class Stage3ExportTests(unittest.TestCase):
     def test_runs_independent_targets_concurrently_with_separate_providers(self):
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)
-            source_dir = root / "sources"
-            source_dir.mkdir()
-            (source_dir / "paper.txt").write_text("EGFR and KRAS", encoding="utf-8")
+            corpus = write_corpus(root, {"paper.txt": "EGFR and KRAS"})
             config = Stage3Config(
                 tumour_type="COAD",
                 cancer_term="colon adenocarcinoma",
-                source_dir=source_dir,
+                corpus_manifest=corpus,
                 output_dir=root / "output",
                 targets=("EGFR", "KRAS"),
             )
@@ -175,13 +241,11 @@ class Stage3ExportTests(unittest.TestCase):
     def test_retries_a_target_after_malformed_model_output(self):
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)
-            source_dir = root / "sources"
-            source_dir.mkdir()
-            (source_dir / "paper.txt").write_text("EGFR", encoding="utf-8")
+            corpus = write_corpus(root, {"paper.txt": "EGFR"})
             config = Stage3Config(
                 tumour_type="COAD",
                 cancer_term="colon adenocarcinoma",
-                source_dir=source_dir,
+                corpus_manifest=corpus,
                 output_dir=root / "output",
                 targets=("EGFR",),
             )

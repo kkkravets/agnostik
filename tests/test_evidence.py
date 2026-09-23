@@ -10,7 +10,7 @@ from agnostik.evidence import (
     build_queries,
     candidate_run_id,
     collect_candidate_evidence,
-    consolidate_corpus,
+    write_corpus_manifest,
 )
 
 
@@ -51,14 +51,45 @@ class EvidenceCollectionTests(unittest.TestCase):
                 (source_dir / f"PMC-{gene}.txt").write_text(gene, encoding="utf-8")
                 runs.append(CandidateRun(gene, gene.lower(), run_dir, "complete"))
 
-            destination = root / "corpus"
-            count = consolidate_corpus(runs, destination)
+            corpus_path = root / "corpus.json"
+            count = write_corpus_manifest(runs, corpus_path)
 
             self.assertEqual(count, 3)
+            manifest = json.loads(corpus_path.read_text(encoding="utf-8"))
             self.assertEqual(
-                sorted(path.name for path in destination.glob("*.txt")),
+                [entry["name"] for entry in manifest["articles"]],
                 ["PMC-EGFR.txt", "PMC-KRAS.txt", "PMC-shared.txt"],
             )
+            self.assertEqual(list(root.glob("*.txt")), [])
+            for entry in manifest["articles"]:
+                self.assertTrue((corpus_path.parent / entry["path"]).is_file())
+                self.assertEqual(entry["gene"], entry["run_id"].upper())
+
+    def test_conflicting_sources_leave_no_partial_corpus(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            runs = []
+            for gene, shared in (("EGFR", "one"), ("KRAS", "two")):
+                run_dir = root / gene.lower()
+                source_dir = run_dir / "literature" / "sources"
+                source_dir.mkdir(parents=True)
+                (source_dir / "PMC-shared.txt").write_text(shared, encoding="utf-8")
+                runs.append(CandidateRun(gene, gene.lower(), run_dir, "complete"))
+
+            corpus_path = root / "corpus.json"
+            with self.assertRaises(ValueError):
+                write_corpus_manifest(runs, corpus_path)
+
+            self.assertFalse(corpus_path.exists())
+
+    def test_a_batch_with_no_articles_writes_no_manifest(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            runs = [CandidateRun("EGFR", "egfr", root / "egfr", "failed")]
+            corpus_path = root / "corpus.json"
+
+            self.assertEqual(write_corpus_manifest(runs, corpus_path), 0)
+            self.assertFalse(corpus_path.exists())
 
     def test_writes_reproducibility_bundle(self):
         with tempfile.TemporaryDirectory() as temporary:
