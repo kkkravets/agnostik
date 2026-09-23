@@ -20,6 +20,7 @@ from agnostik.formalization import (
     select_target_sources,
     target_query,
 )
+from agnostik.nebius import EmptyToolCallError
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -40,9 +41,21 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--target", action="append", dest="targets")
     parser.add_argument("--max-documents-per-target", type=int, default=DEFAULT_MAX_DOCUMENTS_PER_TARGET)
     parser.add_argument("--max-target-chars", type=int, default=DEFAULT_MAX_TARGET_CHARS)
+    parser.add_argument(
+        "--criteria",
+        type=Path,
+        help="markdown file of review criteria the model must encode as axioms and apply to every target "
+        "(for example criteria/target-shortlist.md); without it the model invents its own decision rule",
+    )
     parser.add_argument("--model", help="Nebius model; defaults to NEBIUS_MODEL")
     parser.add_argument("--base-url", help="defaults to NEBIUS_BASE_URL")
     parser.add_argument("--reasoning-tokens", type=int)
+    parser.add_argument(
+        "--max-output-tokens",
+        type=int,
+        help="output-token limit per model reply; without it the provider's default applies, which a reasoning "
+        "model can use up before writing its answer (finish_reason=length)",
+    )
     parser.add_argument(
         "--workers",
         type=int,
@@ -90,6 +103,8 @@ def main(argv: Sequence[str] | None = None) -> int:
             model=args.model,
             base_url=args.base_url,
             reasoning=args.reasoning_tokens,
+            criteria=args.criteria,
+            max_output_tokens=args.max_output_tokens,
         )
         if args.export_completed:
             export_path, completed_targets = export_completed_targets(
@@ -111,12 +126,13 @@ def main(argv: Sequence[str] | None = None) -> int:
                     "source_count": len(selected),
                     "sources": [path.name for path in selected],
                     "required_verdict": f"{target.lower()}-verdict",
-                    "query": target_query(target, cancer_term, tumour_type),
+                    "query": target_query(target, cancer_term, tumour_type, criteria=config.criteria.name if config.criteria else None),
                 })
             payload = {
                 "corpus_manifest": str(config.corpus_manifest),
                 "output_dir": str(config.output_dir),
                 "corpus_source_count": len(sources),
+                "criteria": str(config.criteria) if config.criteria else None,
                 "targets": plans,
                 "export": str(config.output_dir / "formal-system.json"),
             }
@@ -135,7 +151,7 @@ def main(argv: Sequence[str] | None = None) -> int:
                 "output_dir": str(run.output_dir),
                 "export": str(run.export_path),
             }
-    except (FileNotFoundError, FileExistsError, ValueError) as exc:
+    except (FileNotFoundError, FileExistsError, ValueError, EmptyToolCallError) as exc:
         parser.error(str(exc))
     if args.as_json:
         print(json.dumps(payload))

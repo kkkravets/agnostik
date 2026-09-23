@@ -171,8 +171,11 @@ class FormalizationExportTests(unittest.TestCase):
             self.assertTrue(all(any(fact.is_grounded for fact in view.facts) for view in views))
             payload = json.loads(export_path.read_text(encoding="utf-8"))
             self.assertEqual(
-                set(payload), {"DATA", "STRUCTURE_DATA", "LAYERS", "TAINT_DATA"}
+                set(payload), {"DATA", "STRUCTURE_DATA", "LAYERS", "TAINT_DATA", "SOURCES"}
             )
+            # Documents are cited by stem; SOURCES maps each back to its real file name.
+            self.assertEqual(payload["SOURCES"]["PMC-EGFR"], "PMC-EGFR.txt")
+            self.assertEqual(load_export(export_path).sources, payload["SOURCES"])
 
     def test_exports_only_completed_targets(self):
         with tempfile.TemporaryDirectory() as temporary:
@@ -202,6 +205,59 @@ class FormalizationExportTests(unittest.TestCase):
             self.assertTrue(export_path.is_file())
             views = discover(load_export(export_path), ["EGFR"])
             self.assertEqual(views[0].symbol, "EGFR")
+
+    def test_criteria_file_becomes_a_quotable_document_and_is_named_in_the_query(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            corpus = write_corpus(root, {"paper.txt": "EGFR"})
+            criteria = root / "rules.md"
+            criteria.write_text("R1 A target is promising when it is druggable.", encoding="utf-8")
+            seen = {}
+
+            def pipeline_runner(documents, query, provider):
+                seen["documents"], seen["query"] = documents, query
+                return SimpleNamespace(
+                    system=target_system("EGFR"),
+                    output=SimpleNamespace(markdown="", references=[], consistency={}),
+                    pass1_source="",
+                    pass2_source="",
+                    pass3_source="",
+                    pass4_raw="",
+                )
+
+            def run(criteria_path, output):
+                config = FormalizationConfig(
+                    tumour_type="COAD",
+                    cancer_term="colon adenocarcinoma",
+                    corpus_manifest=corpus,
+                    output_dir=root / output,
+                    targets=("EGFR",),
+                    criteria=criteria_path,
+                )
+                run_formalization(config, provider_factory=lambda **kw: object(), pipeline_runner=pipeline_runner)
+                return json.loads((root / output / "targets" / "egfr" / "manifest.json").read_text(encoding="utf-8"))
+
+            record = run(criteria, "with")
+            self.assertEqual(seen["documents"][0], ("rules", "R1 A target is promising when it is druggable."))
+            self.assertIn('document "rules"', seen["query"])
+            self.assertEqual(record["criteria"], str(criteria.resolve()))
+
+            fingerprint = record["fingerprint"]
+            record = run(None, "without")
+            self.assertEqual([name for name, _ in seen["documents"]], ["paper"])
+            self.assertNotIn("review criteria", seen["query"])
+            self.assertIsNone(record["criteria"])
+            self.assertNotEqual(record["fingerprint"], fingerprint)
+
+    def test_missing_criteria_file_is_rejected(self):
+        with self.assertRaises(FileNotFoundError):
+            FormalizationConfig(
+                tumour_type="COAD",
+                cancer_term="colon adenocarcinoma",
+                corpus_manifest=Path("corpus.json"),
+                output_dir=Path("out"),
+                criteria=Path("no-such-criteria.md"),
+            )
 
     def test_runs_independent_targets_concurrently_with_separate_providers(self):
         with tempfile.TemporaryDirectory() as temporary:

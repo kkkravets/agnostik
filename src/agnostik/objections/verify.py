@@ -62,6 +62,7 @@ class SentenceCheck:
                     "key": c.key,
                     "node": c.node_id,
                     "doc": c.doc,
+                    "doc_file": c.doc_file,
                     "quote": c.quote,
                     "source": {"type": c.source_type, "id": c.source_id, "url": c.url},
                     "resolves": c.resolved,

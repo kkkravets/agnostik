@@ -45,6 +45,8 @@ class FormalizationConfig:
     model: str | None = None
     base_url: str | None = None
     reasoning: bool | int | None = None
+    criteria: Path | None = None
+    max_output_tokens: int | None = None
 
     def __post_init__(self) -> None:
         tumour_type = self.tumour_type.strip().upper()
@@ -58,6 +60,8 @@ class FormalizationConfig:
             raise ValueError("at least one target candidate is required")
         if self.max_documents_per_target < 1 or self.max_target_chars < 1:
             raise ValueError("document and character limits must be at least 1")
+        if self.max_output_tokens is not None and self.max_output_tokens < 1:
+            raise ValueError("max_output_tokens must be at least 1")
         # --overwrite rmtree's output_dir, which must therefore not contain the corpus.
         if output_dir in corpus_manifest.parents:
             raise ValueError("corpus_manifest must live outside output_dir")
@@ -66,6 +70,11 @@ class FormalizationConfig:
         object.__setattr__(self, "targets", targets)
         object.__setattr__(self, "corpus_manifest", corpus_manifest)
         object.__setattr__(self, "output_dir", output_dir)
+        if self.criteria is not None:
+            criteria = Path(self.criteria).resolve()
+            if not criteria.is_file():
+                raise FileNotFoundError(f"criteria file not found: {criteria}")
+            object.__setattr__(self, "criteria", criteria)
 
 
 @dataclass(frozen=True, slots=True)
@@ -75,6 +84,7 @@ class TargetResult:
     verdict_name: str
     source_names: tuple[str, ...]
     output_dir: Path
+    criteria: str = ""  # file name of the review-criteria document, if one was used
 
 
 @dataclass(frozen=True, slots=True)
@@ -139,19 +149,27 @@ def select_target_sources(sources: Sequence[Path], target: str, *, max_documents
     return selected
 
 
-def target_query(target: str, cancer_term: str, tumour_type: str) -> str:
+def target_query(target: str, cancer_term: str, tumour_type: str, *, criteria: str | None = None) -> str:
+    """``criteria`` is the name the review-criteria document is registered under."""
     verdict = f"{target.lower()}-verdict"
+    rules = (
+        f"The document \"{criteria}\" states the review criteria. Encode each criterion as an axiom that quotes it "
+        "verbatim, and derive the verdict under exactly those criteria rather than inventing your own. "
+        if criteria
+        else ""
+    )
     return (
         f"Build a formal evidence dossier for therapeutic targeting of {target} in {cancer_term} ({tumour_type}). "
         "Extract balanced supporting and opposing facts only from the supplied documents, and attach exact verbatim "
         "document quotes to every fact. Derive intermediate claims with explicit :using dependencies. "
+        f"{rules}"
         f"Finally derive exactly one Boolean node named {verdict}; true means the target is promising and false means "
         "it is rejected. The verdict's complete :using chain must terminate in the quoted facts. Do not leave it unknown."
     )
 
 
-def _fingerprint(paths: Sequence[Path], query: str, model: str | None) -> str:
-    digest = hashlib.sha256(query.encode() + (model or "").encode())
+def _fingerprint(paths: Sequence[Path], query: str, model: str | None, criteria_text: str = "") -> str:
+    digest = hashlib.sha256(query.encode() + (model or "").encode() + criteria_text.encode())
     for path in paths:
         digest.update(path.name.encode())
         digest.update(hashlib.sha256(path.read_bytes()).digest())
@@ -233,9 +251,16 @@ def build_objections_export(results: Sequence[TargetResult]) -> dict[str, Any]:
         data.extend(target_data)
         layers.extend(target_layers)
         edges.extend(target_edges)
+    # Documents are registered under their file stem; this maps each back to the real file name.
+    sources = {
+        Path(name).stem: name
+        for result in results
+        for name in (*result.source_names, *([result.criteria] if result.criteria else []))
+    }
     return {
         "DATA": data,
         "STRUCTURE_DATA": data,
+        "SOURCES": sources,
         "LAYERS": {"layers": layers, "edges": edges},
         "TAINT_DATA": {"sources": [], "tainted": [], "reasons": {}},
     }
@@ -287,6 +312,7 @@ def export_completed_targets(
                 verdict,
                 tuple(manifest.get("sources") or ()),
                 target_dir,
+                Path(manifest["criteria"]).name if manifest.get("criteria") else "",
             )
         )
     if not results:
@@ -318,11 +344,15 @@ def run_formalization(
     if overwrite and config.output_dir.exists():
         shutil.rmtree(config.output_dir)
     config.output_dir.mkdir(parents=True, exist_ok=True)
+    criteria_text = config.criteria.read_text(encoding="utf-8") if config.criteria else ""
+    # The model cites documents by stem (``PMC123``); the real file names travel
+    # separately in the export's SOURCES map so reports can show ``PMC123.txt``.
+    criteria_name = config.criteria.stem if config.criteria else None
     plans = []
     for target in config.targets:
         selected = select_target_sources(sources, target, max_documents=config.max_documents_per_target, max_chars=config.max_target_chars)
-        query = target_query(target, config.cancer_term, config.tumour_type)
-        fingerprint = _fingerprint(selected, query, config.model)
+        query = target_query(target, config.cancer_term, config.tumour_type, criteria=criteria_name)
+        fingerprint = _fingerprint(selected, query, config.model, criteria_text)
         plans.append((target, selected, query, fingerprint))
 
     def run_target(plan: tuple[str, list[Path], str, str]) -> tuple[TargetResult, dict[str, Any], bool]:
@@ -334,12 +364,20 @@ def run_formalization(
             if previous.get("status") == "complete" and previous.get("fingerprint") == fingerprint:
                 system = System.from_dict(json.loads((target_dir / "system.json").read_text(encoding="utf-8")), overridable=True)
                 verdict = _find_verdict(system, target)
-                return TargetResult(target, system, verdict, tuple(path.name for path in selected), target_dir), previous, True
+                criteria_file = config.criteria.name if config.criteria else ""
+                return TargetResult(target, system, verdict, tuple(path.name for path in selected), target_dir, criteria_file), previous, True
         if target_dir.exists():
             shutil.rmtree(target_dir)
         documents = [(path.stem, path.read_text(encoding="utf-8", errors="replace")) for path in selected]
+        if criteria_name:
+            documents.insert(0, (criteria_name, criteria_text))
         for attempt in range(1, max_attempts + 1):
-            provider = provider_factory(model=config.model, base_url=config.base_url, reasoning=config.reasoning)
+            provider = provider_factory(
+                model=config.model,
+                base_url=config.base_url,
+                reasoning=config.reasoning,
+                max_output_tokens=config.max_output_tokens,
+            )
             try:
                 pipeline_result = pipeline_runner(documents, query, provider)
                 break
@@ -362,9 +400,10 @@ def run_formalization(
                     close_provider()
         verdict = _find_verdict(pipeline_result.system, target)
         _write_pipeline_result(pipeline_result, target_dir)
-        record = {"target": target, "status": "complete", "fingerprint": fingerprint, "query": query, "verdict_node": verdict, "sources": [path.name for path in selected]}
+        record = {"target": target, "status": "complete", "fingerprint": fingerprint, "query": query, "criteria": str(config.criteria) if config.criteria else None, "verdict_node": verdict, "sources": [path.name for path in selected]}
         _json_write(target_manifest, record)
-        return TargetResult(target, pipeline_result.system, verdict, tuple(record["sources"]), target_dir), record, False
+        criteria_file = config.criteria.name if config.criteria else ""
+        return TargetResult(target, pipeline_result.system, verdict, tuple(record["sources"]), target_dir, criteria_file), record, False
 
     if max_workers == 1:
         completed = [run_target(plan) for plan in plans]
@@ -378,5 +417,5 @@ def run_formalization(
     export_path = config.output_dir / "formal-system.json"
     _json_write(export_path, build_objections_export(results))
     validate_objections_export(export_path, config.targets)
-    _json_write(config.output_dir / "manifest.json", {"status": "complete", "generated_at": datetime.now(timezone.utc).isoformat(), "tumour_type": config.tumour_type, "cancer_term": config.cancer_term, "corpus_manifest": str(config.corpus_manifest), "source_count": len(sources), "targets": records, "export": export_path.name})
+    _json_write(config.output_dir / "manifest.json", {"status": "complete", "generated_at": datetime.now(timezone.utc).isoformat(), "tumour_type": config.tumour_type, "cancer_term": config.cancer_term, "corpus_manifest": str(config.corpus_manifest), "criteria": str(config.criteria) if config.criteria else None, "source_count": len(sources), "targets": records, "export": export_path.name})
     return FormalizationRun(len(sources), len(results), config.output_dir, export_path, reused)

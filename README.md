@@ -118,6 +118,75 @@ the machine-readable record. Once all six targets finish, use the canonical
 `formal-system.json` instead of `formal-system.partial.json` for the final
 handoff.
 
+### Review criteria (optional)
+
+A verdict needs a rule that says what "promising" means. **By default there is
+none**: the model reads the articles and trial records and invents its own rule
+in pass 1 (an `axiom` quoted from whichever paper it leans on), and a different
+rule may come out for each target and each run. Verdicts are then hard to
+compare, and objections mostly end up questioning the rule itself.
+
+To make every target be judged by the same stated rules, pass a criteria file:
+
+```bash
+uv run agnostik-parseltongue COAD \
+  --input results/evidence/coad/corpus.json \
+  --criteria criteria/target-shortlist.md \
+  --resume
+```
+
+What `--criteria` does:
+
+- The file is registered as an extra document under its own file name (for
+  example `target-shortlist.md`), next to the articles and trials, so the model
+  can quote it verbatim like any other source.
+- The query tells the model to encode each criterion as an axiom that quotes
+  it, and to derive `<target>-verdict` under exactly those criteria.
+- The objections stage then cites `doc:target-shortlist.md` rows in its
+  backtrace, so a reader can see which rule decided a verdict.
+- The file is part of the `--resume` fingerprint: editing it re-runs targets
+  that were finished under the old wording. Each target's `manifest.json`
+  records which file was used, and `--dry-run` prints the path.
+
+The shipped [`criteria/target-shortlist.md`](criteria/target-shortlist.md) is
+cancer-agnostic. It talks about "the disease named in the review request", so
+the same file serves any tumour code. Its rules, in short:
+
+| Rule | Meaning |
+|---|---|
+| R1 Chemical matter | at least three publications describe an inhibitor, degrader, small molecule or antibody against the target |
+| R2 Mechanistic support | experimental work links the target to the disease (supporting, not decisive) |
+| R3 In vivo support | an animal model, xenograft or similar experiment |
+| R4 Clinical traction | a trial for the disease names the target and is phase 3+ or recruiting |
+| R5 Opposing evidence | evidence against the target must be recorded and weighed, never dropped |
+| R6 Verdict | promising = chemical matter + in vivo support + clinical traction; otherwise rejected |
+| R7 Provenance | every fact quotes its document; an untraceable verdict is void |
+
+To write your own, copy the file and edit it. Keep one rule per `##` heading and
+each rule on a single unwrapped line, so the model can quote it exactly. Phrase
+rules only in terms of what the supplied documents can show (published
+articles and clinical-trial records). Rules that need other data, such as
+protein annotations, cannot be satisfied and will push verdicts to "rejected".
+Thresholds such as "at least three publications" are yours to change.
+
+This is separate from `examples/objection-workflow/fixtures/docs/charter.md`,
+which is a colorectal-only demo input for the example and is not read by the
+pipeline.
+
+### Finding a cited document
+
+The model refers to each document by a short key (the file name without its
+extension, for example `PMC12162862`). The export also records the real file
+name in a `SOURCES` map, and the objections backtrace shows it as
+`doc:<file name>`: `doc:PMC12162862.txt` for an article,
+`doc:trial-EGFR-NCT01234567.txt` for a trial record, `doc:target-shortlist.md`
+for the criteria file. That file is the exact text snapshot the model read, not
+the live web page, so it stays reproducible even if the article or trial record
+later changes. To open one, look up its name in `corpus.json` (the file passed
+to `--input`): each entry lists the `path`, relative to that file, and a
+`sha256` to check the text has not changed. An export without a `SOURCES` map
+(for example one produced by `pg-bench` directly) simply shows the bare key.
+
 ## Objections — with a backtrace
 
 Once evidence collection and formalization have produced a Parseltongue verdict per target, the objections stage argues

@@ -70,7 +70,7 @@ def write_markdown(results: list[dict], meta: dict, path: Path) -> None:
         for c in r["ledger"]:
             if c["key"] not in cited:
                 continue
-            src = f"{c['source']['type']}:{c['source']['id']}" if c["source"]["id"] else f"doc:{c['doc']}"
+            src = f"{c['source']['type']}:{c['source']['id']}" if c["source"]["id"] else f"doc:{c.get('doc_file') or c['doc']}"
             if c["source"]["url"]:
                 src = f"[{src}]({c['source']['url']})"
             res = {True: "yes", False: "**no**", None: "—"}[c["resolution"]["resolves"]]
@@ -96,7 +96,7 @@ def write_html(results: list[dict], meta: dict, path: Path) -> None:
                 c = by_key.get(key)
                 if not c:
                     continue
-                src = f"{c['source']['type']}:{c['source']['id']}" if c["source"]["id"] else f"doc:{c['doc']}"
+                src = f"{c['source']['type']}:{c['source']['id']}" if c["source"]["id"] else f"doc:{c.get('doc_file') or c['doc']}"
                 link = (
                     f'<a href="{_esc(c["source"]["url"])}" target="_blank" rel="noreferrer">{_esc(src)}</a>'
                     if c["source"]["url"]

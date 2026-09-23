@@ -95,6 +95,18 @@ class BacktraceTests(unittest.TestCase):
         self.assertEqual(counter.source_type, "document")
         self.assertEqual(counter.source_id, "")
 
+    def test_real_file_name_is_shown_when_the_export_records_it(self) -> None:
+        plain = next(c for c in ledger(self.bundle, ["egfr-promising"]) if c.node_id == "src.egfr.trials-recruiting")
+        self.assertEqual(plain.doc_file, "")
+        self.assertIn(f"doc:{plain.doc} ", plain.citation_line)
+
+        self.bundle.sources = {plain.doc: f"{plain.doc}.txt"}
+        named = next(c for c in ledger(self.bundle, ["egfr-promising"]) if c.node_id == "src.egfr.trials-recruiting")
+        self.assertEqual(named.doc, plain.doc)  # the stable key is untouched
+        self.assertEqual(named.doc_file, f"{plain.doc}.txt")
+        self.assertIn(f"doc:{plain.doc}.txt ", named.citation_line)
+        self.assertEqual(named.to_json()["doc_file"], f"{plain.doc}.txt")
+
     def test_pmid_comes_from_the_explanation(self) -> None:
         led = ledger(self.bundle, ["src.egfr.dossier-anchored"])
         paper = next(c for c in led if c.node_id == "src.egfr.paper-42345355")
