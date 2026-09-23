@@ -2,18 +2,18 @@
 
 The PubMed Summariser bundled with ClawBio deliberately emits only a short
 abstract excerpt.  This module is the explicit full-text stage: it searches
-the PMC Open Access subset, downloads authoritative JATS XML through NCBI
-E-utilities, and writes both the source XML and a readable local HTML version.
-Only records tagged ``article-type="research-article"`` in their JATS
-metadata are kept, so review articles (and other non-original-research
-types) are excluded.
+the PMC Open Access subset and downloads authoritative JATS XML through NCBI
+E-utilities.  Each article is stored twice and only twice: the raw JATS XML
+as the archival record, and a Markdown-style ``.txt`` rendering that serves
+both Parseltongue and human reading.  Only records tagged
+``article-type="research-article"`` in their JATS metadata are kept, so
+review articles (and other non-original-research types) are excluded.
 """
 
 from __future__ import annotations
 
 from dataclasses import asdict, dataclass
 from datetime import datetime, timezone
-from html import escape
 import json
 from pathlib import Path
 from typing import Iterable
@@ -48,13 +48,11 @@ class FullTextArticle:
     source_url: str
     source_path: Path
     xml_path: Path
-    html_path: Path
 
     def manifest_entry(self, root: Path) -> dict[str, str]:
         entry = asdict(self)
         entry["source_path"] = str(self.source_path.relative_to(root))
         entry["xml_path"] = str(self.xml_path.relative_to(root))
-        entry["html_path"] = str(self.html_path.relative_to(root))
         return entry
 
 
@@ -83,133 +81,6 @@ def _article_id(article: ET.Element, kind: str) -> str:
         if element.attrib.get("pub-id-type") == kind:
             return _text(element)
     return ""
-
-
-def _inline(element: ET.Element) -> str:
-    chunks: list[str] = []
-    if element.text:
-        chunks.append(escape(element.text))
-    for child in element:
-        tag = _local_name(child.tag)
-        content = _inline(child)
-        if tag in {"bold", "strong"}:
-            content = f"<strong>{content}</strong>"
-        elif tag in {"italic", "em"}:
-            content = f"<em>{content}</em>"
-        elif tag == "sup":
-            content = f"<sup>{content}</sup>"
-        elif tag == "sub":
-            content = f"<sub>{content}</sub>"
-        elif tag in {"ext-link", "uri"}:
-            href = child.attrib.get("{http://www.w3.org/1999/xlink}href", "")
-            if href.startswith(("http://", "https://")):
-                content = f'<a href="{escape(href, quote=True)}">{content}</a>'
-        chunks.append(content)
-        if child.tail:
-            chunks.append(escape(child.tail))
-    return "".join(chunks)
-
-
-def _render_table(table_wrap: ET.Element) -> str:
-    caption = _text(table_wrap.find("caption"))
-    table = table_wrap.find(".//table")
-    if table is None:
-        return f"<p>{escape(_text(table_wrap))}</p>"
-    rows: list[str] = []
-    for row in table.findall(".//tr"):
-        cells: list[str] = []
-        for cell in row:
-            tag = _local_name(cell.tag)
-            if tag not in {"th", "td"}:
-                continue
-            cells.append(f"<{tag}>{_inline(cell)}</{tag}>")
-        if cells:
-            rows.append(f"<tr>{''.join(cells)}</tr>")
-    caption_html = f"<figcaption>{escape(caption)}</figcaption>" if caption else ""
-    return f"<figure class=\"table-wrap\">{caption_html}<table>{''.join(rows)}</table></figure>"
-
-
-def _render_blocks(elements: Iterable[ET.Element], heading_level: int = 2) -> str:
-    rendered: list[str] = []
-    for element in elements:
-        tag = _local_name(element.tag)
-        if tag == "title":
-            continue
-        if tag == "sec":
-            title = _text(element.find("title")) or "Section"
-            level = min(heading_level, 6)
-            rendered.append(f"<h{level}>{escape(title)}</h{level}>")
-            rendered.append(_render_blocks(element, heading_level + 1))
-        elif tag == "p":
-            rendered.append(f"<p>{_inline(element)}</p>")
-        elif tag == "list":
-            list_tag = "ol" if element.attrib.get("list-type") == "order" else "ul"
-            items = []
-            for item in element.findall("list-item"):
-                items.append(f"<li>{_render_blocks(item) or _inline(item)}</li>")
-            rendered.append(f"<{list_tag}>{''.join(items)}</{list_tag}>")
-        elif tag == "disp-quote":
-            rendered.append(f"<blockquote>{_render_blocks(element) or _inline(element)}</blockquote>")
-        elif tag == "fig":
-            label = _text(element.find("label"))
-            caption = _text(element.find("caption"))
-            rendered.append(
-                f"<figure><figcaption><strong>{escape(label)}</strong> "
-                f"{escape(caption)}</figcaption></figure>"
-            )
-        elif tag == "table-wrap":
-            rendered.append(_render_table(element))
-        elif tag in {"boxed-text", "statement", "ack"}:
-            rendered.append(f"<aside>{_render_blocks(element, heading_level)}</aside>")
-        elif tag == "ref-list":
-            title = _text(element.find("title")) or "References"
-            references = [f"<li>{escape(_text(ref))}</li>" for ref in element.findall("ref")]
-            rendered.append(f"<h2>{escape(title)}</h2><ol class=\"references\">{''.join(references)}</ol>")
-        else:
-            rendered.append(_render_blocks(element, heading_level))
-    return "".join(rendered)
-
-
-def render_article_html(article: ET.Element, source_url: str) -> str:
-    """Render the complete main JATS text into a standalone readable HTML file."""
-
-    title = _text(article.find(".//article-title")) or "Untitled PMC article"
-    journal = _text(article.find(".//journal-title"))
-    authors = []
-    for contributor in article.findall(".//contrib[@contrib-type='author']"):
-        surname = _text(contributor.find(".//surname"))
-        given = _text(contributor.find(".//given-names"))
-        name = " ".join(part for part in (given, surname) if part)
-        if name:
-            authors.append(name)
-    abstract = article.find(".//abstract")
-    body = article.find("body")
-    back = article.find("back")
-    license_text = _text(article.find(".//license-p"))
-
-    abstract_html = _render_blocks(abstract) if abstract is not None else "<p>No abstract supplied.</p>"
-    body_html = _render_blocks(body) if body is not None else "<p>No article body supplied.</p>"
-    back_html = _render_blocks(back) if back is not None else ""
-    author_line = ", ".join(authors)
-
-    return f"""<!doctype html>
-<html lang="en"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{escape(title)}</title>
-<style>
-body{{font:17px/1.65 system-ui,sans-serif;max-width:980px;margin:2rem auto;padding:0 1.5rem;color:#17202a}}
-h1,h2,h3,h4{{line-height:1.25}} .meta{{color:#52606d}} a{{color:#075985}}
-table{{border-collapse:collapse;display:block;overflow-x:auto}} th,td{{border:1px solid #bbb;padding:.45rem;vertical-align:top}}
-figure,aside,blockquote{{margin:1rem 0;padding:.8rem 1rem;background:#f4f7f9;border-left:4px solid #78909c}}
-.notice{{background:#fff8e1;border:1px solid #e0c46c;padding:1rem}} .references{{font-size:.9rem}}
-</style></head><body>
-<p class="notice">Downloaded from the PubMed Central Open Access subset. The source JATS XML is saved beside this file. <a href="{escape(source_url, quote=True)}">View the canonical PMC record</a>.</p>
-<h1>{escape(title)}</h1>
-<p class="meta">{escape(author_line)}<br>{escape(journal)}</p>
-<h2>Abstract</h2>{abstract_html}
-<main>{body_html}</main>
-<footer>{back_html}<h2>License supplied by the article</h2><p>{escape(license_text or 'See the canonical PMC record for licensing details.')}</p></footer>
-</body></html>"""
 
 
 def _plain_blocks(elements: Iterable[ET.Element], level: int = 1) -> str:
@@ -331,13 +202,9 @@ def download_open_access_articles(
     ids = search.get("esearchresult", {}).get("idlist", [])
     output_dir.mkdir(parents=True, exist_ok=True)
     artifacts_dir = artifacts_dir or output_dir.parent / f"{output_dir.name}_artifacts"
-    html_dir = artifacts_dir / "html"
     xml_dir = artifacts_dir / "xml"
-    html_dir.mkdir(parents=True, exist_ok=True)
     xml_dir.mkdir(parents=True, exist_ok=True)
     for stale in output_dir.glob("PMC*.txt"):
-        stale.unlink()
-    for stale in html_dir.glob("PMC*.html"):
         stale.unlink()
     for stale in xml_dir.glob("PMC*.xml"):
         stale.unlink()
@@ -377,12 +244,10 @@ def download_open_access_articles(
         source_url = PMC_ARTICLE_URL.format(pmc_id=pmc_id)
         source_path = output_dir / f"{pmc_id}.txt"
         xml_path = xml_dir / f"{pmc_id}.xml"
-        html_path = html_dir / f"{pmc_id}.html"
         source_path.write_text(render_article_text(article, source_url), encoding="utf-8")
         xml_path.write_bytes(ET.tostring(article, encoding="utf-8", xml_declaration=True))
-        html_path.write_text(render_article_html(article, source_url), encoding="utf-8")
         downloaded.append(
-            FullTextArticle(pmc_id, pmid, doi, title, source_url, source_path, xml_path, html_path)
+            FullTextArticle(pmc_id, pmid, doi, title, source_url, source_path, xml_path)
         )
 
     manifest = {
@@ -397,15 +262,5 @@ def download_open_access_articles(
     }
     (artifacts_dir / "manifest.json").write_text(
         json.dumps(manifest, indent=2, ensure_ascii=False), encoding="utf-8"
-    )
-    links = "".join(
-        f'<li><a href="{escape(article.html_path.relative_to(artifacts_dir).as_posix())}">'
-        f"{escape(article.title)}</a> ({escape(article.pmc_id)})</li>"
-        for article in downloaded
-    )
-    (artifacts_dir / "index.html").write_text(
-        "<!doctype html><meta charset=\"utf-8\"><title>PMC full-text articles</title>"
-        f"<h1>PMC full-text articles</h1><p>Query: <code>{escape(query)}</code></p><ol>{links}</ol>",
-        encoding="utf-8",
     )
     return downloaded

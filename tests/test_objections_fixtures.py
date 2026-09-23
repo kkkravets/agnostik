@@ -1,6 +1,7 @@
 """Integration coverage for the checked-in objection example (no model/API calls)."""
 
 from pathlib import Path
+import sys
 import unittest
 
 from parseltongue.core import Evidence, Symbol, load_pltg
@@ -26,7 +27,16 @@ class ObjectionFixtureTests(unittest.TestCase):
     def setUpClass(cls):
         # Exercise the real loader, including relative load-document/import paths.
         # Loading only the HTML would never detect a missing source TXT file.
-        cls.system = load_pltg(str(FIXTURES / "shortlist.pltg"))
+        try:
+            cls.system = load_pltg(str(FIXTURES / "shortlist.pltg"))
+        except Exception as exc:
+            if sys.flags.utf8_mode or "codec can't decode" not in str(exc):
+                raise
+            raise RuntimeError(
+                "Parseltongue reads load-document sources with the locale encoding, "
+                "so this fixture's UTF-8 documents fail on Windows. Re-run with "
+                "PYTHONUTF8=1 (see README)."
+            ) from exc
         cls.bundle = load_exports([
             FIXTURES / "candidate-dossiers.html",
             FIXTURES / "candidate-verdicts.html",

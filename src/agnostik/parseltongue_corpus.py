@@ -35,7 +35,7 @@ log = logging.getLogger(__name__)
 class Stage3Config:
     tumour_type: str
     cancer_term: str
-    source_dir: Path
+    corpus_manifest: Path
     output_dir: Path
     targets: tuple[str, ...] = PRESELECTED_CANDIDATES
     max_documents_per_target: int = DEFAULT_MAX_DOCUMENTS_PER_TARGET
@@ -48,19 +48,21 @@ class Stage3Config:
         tumour_type = self.tumour_type.strip().upper()
         cancer_term = " ".join(self.cancer_term.split())
         targets = tuple(dict.fromkeys(target.strip().upper() for target in self.targets))
-        source_dir, output_dir = Path(self.source_dir).resolve(), Path(self.output_dir).resolve()
+        corpus_manifest = Path(self.corpus_manifest).resolve()
+        output_dir = Path(self.output_dir).resolve()
         if not tumour_type or not cancer_term:
             raise ValueError("tumour_type and cancer_term must not be empty")
         if not targets:
             raise ValueError("at least one target candidate is required")
         if self.max_documents_per_target < 1 or self.max_target_chars < 1:
             raise ValueError("document and character limits must be at least 1")
-        if output_dir == source_dir or output_dir in source_dir.parents or source_dir in output_dir.parents:
-            raise ValueError("output_dir must be separate from the source directory tree")
+        # --overwrite rmtree's output_dir, which must therefore not contain the corpus.
+        if output_dir in corpus_manifest.parents:
+            raise ValueError("corpus_manifest must live outside output_dir")
         object.__setattr__(self, "tumour_type", tumour_type)
         object.__setattr__(self, "cancer_term", cancer_term)
         object.__setattr__(self, "targets", targets)
-        object.__setattr__(self, "source_dir", source_dir)
+        object.__setattr__(self, "corpus_manifest", corpus_manifest)
         object.__setattr__(self, "output_dir", output_dir)
 
 
@@ -82,13 +84,22 @@ class Stage3Run:
     reused_targets: int = 0
 
 
-def discover_sources(source_dir: Path) -> list[Path]:
-    source_dir = Path(source_dir)
-    if not source_dir.is_dir():
-        raise FileNotFoundError(f"full-text source directory not found: {source_dir}")
-    sources = sorted(path for path in source_dir.glob("*.txt") if path.is_file())
+def discover_sources(corpus_manifest: Path) -> list[Path]:
+    """Resolve the article paths recorded in a corpus manifest."""
+
+    corpus_manifest = Path(corpus_manifest)
+    if not corpus_manifest.is_file():
+        raise FileNotFoundError(f"corpus manifest not found: {corpus_manifest}")
+    entries = json.loads(corpus_manifest.read_text(encoding="utf-8"))["articles"]
+    sources = [(corpus_manifest.parent / entry["path"]).resolve() for entry in entries]
     if not sources:
-        raise FileNotFoundError(f"no .txt articles found in: {source_dir}")
+        raise FileNotFoundError(f"corpus manifest lists no articles: {corpus_manifest}")
+    missing = [path for path in sources if not path.is_file()]
+    if missing:
+        raise FileNotFoundError(
+            f"{corpus_manifest} references {len(missing)} missing article(s), "
+            f"starting with: {missing[0]}"
+        )
     return sources
 
 
@@ -141,6 +152,8 @@ def _run_pipeline(documents: Sequence[tuple[str, str]], query: str, provider: An
     system = System(overridable=True)
     pipeline = Pipeline(system, provider)
     for name, text in documents:
+        # text=, never path=: the path branch opens the file with the locale
+        # encoding, which mangles or rejects most PMC articles on Windows.
         pipeline.add_document(name, text=text)
     return pipeline.run(query)
 
@@ -285,7 +298,7 @@ def run_stage3(
         raise ValueError("max_workers must be at least 1")
     if max_attempts < 1:
         raise ValueError("max_attempts must be at least 1")
-    sources = discover_sources(config.source_dir)
+    sources = discover_sources(config.corpus_manifest)
     if config.output_dir.exists() and not (overwrite or resume):
         raise FileExistsError(f"output already exists: {config.output_dir}; use --resume or --overwrite")
     if overwrite and config.output_dir.exists():
@@ -351,5 +364,5 @@ def run_stage3(
     export_path = config.output_dir / "stage3-export.json"
     _json_write(export_path, build_stage4_export(results))
     validate_stage4_export(export_path, config.targets)
-    _json_write(config.output_dir / "manifest.json", {"status": "complete", "generated_at": datetime.now(timezone.utc).isoformat(), "tumour_type": config.tumour_type, "cancer_term": config.cancer_term, "source_dir": str(config.source_dir), "source_count": len(sources), "targets": records, "stage4_export": export_path.name})
+    _json_write(config.output_dir / "manifest.json", {"status": "complete", "generated_at": datetime.now(timezone.utc).isoformat(), "tumour_type": config.tumour_type, "cancer_term": config.cancer_term, "corpus_manifest": str(config.corpus_manifest), "source_count": len(sources), "targets": records, "stage4_export": export_path.name})
     return Stage3Run(len(sources), len(results), config.output_dir, export_path, reused)

@@ -51,15 +51,15 @@ code without a default.
    ```
 
 2. Collect PubMed, open-access PMC full text, and ClinicalTrials.gov evidence
-   for all six candidates. The final option consolidates the per-gene PMC files
-   into the flat corpus consumed by Stage 3:
+   for all six candidates. Everything lands under `--output`, including
+   `<tumour>/corpus.json` — the deduplicated article list Stage 3 consumes,
+   which references the per-gene PMC files rather than copying them:
 
    ```bash
    uv run agnostik-collect-evidence COAD \
      --max-articles-per-gene 300 \
      --max-trials 100 \
      --output results/evidence \
-     --corpus-dir results/clawbio_skill_trial/tcga-coad/full_text_articles \
      --skip-existing
    ```
 
@@ -67,7 +67,7 @@ code without a default.
 
    ```bash
    uv run agnostik-parseltongue COAD \
-     --input results/clawbio_skill_trial/tcga-coad/full_text_articles \
+     --input results/evidence/coad/corpus.json \
      --output results/clawbio_skill_trial/tcga-coad/parseltongue_stage3_sample \
      --max-documents-per-target 3 \
      --max-target-chars 150000 \
@@ -82,7 +82,7 @@ code without a default.
 
    ```bash
    uv run agnostik-parseltongue COAD \
-     --input results/clawbio_skill_trial/tcga-coad/full_text_articles \
+     --input results/evidence/coad/corpus.json \
      --output results/clawbio_skill_trial/tcga-coad/parseltongue_stage3_sample \
      --max-documents-per-target 3 \
      --max-target-chars 150000 \
@@ -266,8 +266,9 @@ expression; the pipeline still appends `AND GENE[Title/Abstract]` to each one.
 
 ## Run Parseltongue over the COAD full-text corpus
 
-The next pipeline step reads the flat `.txt` corpus from
-`results/clawbio_skill_trial/tcga-coad/full_text_articles/`. For each fixed
+The next pipeline step reads `results/evidence/coad/corpus.json` and loads the
+`.txt` articles it references, which stay where the collection stage wrote
+them. For each fixed
 candidate (`EGFR, ERBB2, KRAS, MYC, WRN, PRMT5`) it selects the most
 target-specific articles within a context budget and runs the four-pass
 Parseltongue pipeline. Each target run is required to derive one Boolean
@@ -358,7 +359,7 @@ repository root with matching input, output, and context settings:
 
 ```bash
 uv run agnostik-parseltongue COAD \
-  --input results/clawbio_skill_trial/tcga-coad/full_text_articles \
+  --input results/evidence/coad/corpus.json \
   --output results/clawbio_skill_trial/tcga-coad/parseltongue_stage3_sample \
   --max-documents-per-target 3 \
   --max-target-chars 150000 \
@@ -457,7 +458,7 @@ The v1 workflow:
    validates the code's format; it does not discover or rank candidate genes.
 2. Collects PubMed summaries, complete open-access PMC articles, and
    ClinicalTrials.gov evidence for every candidate.
-3. Consolidates the collected full-text articles into a flat Stage 3 corpus.
+3. Records the unique collected full-text articles in one Stage 3 corpus manifest.
 4. Selects relevant documents for each candidate and runs the four-pass
    Parseltongue pipeline to derive one grounded Boolean verdict per candidate.
 5. Exports all completed candidate systems in the JSON contract consumed by
@@ -483,6 +484,22 @@ Run the current test suite with:
 ```bash
 uv run python -m unittest discover -s tests
 ```
+
+On Windows, set `PYTHONUTF8=1` as well:
+
+```powershell
+$env:PYTHONUTF8 = "1"; uv run python -m unittest discover -s tests
+```
+
+Parseltongue opens `load-document` sources with `open(path)` and no `encoding=`,
+so on Windows it reads them as cp1252. The objection fixture's documents are
+UTF-8 journal text, so without UTF-8 mode one test errors in `setUpClass` and
+takes its whole class with it — the suite reports 49 tests instead of 53.
+`PYTHONUTF8=1` makes `open()` default to UTF-8 and the difference disappears.
+
+This affects only code that hands Parseltongue a *path*. The Stage 3 pipeline
+reads articles itself and registers them with `add_document(name, text=...)`,
+which never touches the filesystem, so it is unaffected on every platform.
 
 Useful upstream references:
 
