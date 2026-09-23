@@ -105,7 +105,7 @@ def cmd_inspect(args: argparse.Namespace) -> int:
             primary, secondary = _roots_for(view)
             led = ledger(bundle, primary, secondary, max_hops=args.max_hops, limit=args.ledger_limit)
             for c in led:
-                src = f"{c.source_type}:{c.source_id}" if c.source_id else f"doc:{c.doc}"
+                src = f"{c.source_type}:{c.source_id}" if c.source_id else f"doc:{c.doc_file or c.doc}"
                 print(f"        [{c.key:>4}] {src:24} {c.node_id}")
                 print(f"               {c.quote[:100]}")
     return 0

@@ -1,4 +1,4 @@
-"""objection-forge — stage 4 of the CRC target triage pipeline.
+"""objection-forge — the objections stage of the CRC target triage pipeline.
 
 Takes a pg-bench JSON export of the Parseltongue shortlist system, and for
 each target produces a five-sentence objection written by a Token Factory

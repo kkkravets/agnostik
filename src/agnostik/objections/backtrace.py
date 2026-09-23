@@ -40,6 +40,7 @@ class Citation:
     doc: str
     quote: str
     explanation: str = ""
+    doc_file: str = ""  # real file name of the document, when the export records it
     status: str = "unverified"
     verified: bool | None = None
     context_before: str = ""
@@ -54,7 +55,7 @@ class Citation:
 
     @property
     def citation_line(self) -> str:
-        where = f"{self.source_type}:{self.source_id}" if self.source_id else f"doc:{self.doc}"
+        where = f"{self.source_type}:{self.source_id}" if self.source_id else f"doc:{self.doc_file or self.doc}"
         return f"[{self.key}] {where} — {self.quote}"
 
     def to_json(self) -> dict:
@@ -64,6 +65,7 @@ class Citation:
             "node_kind": self.node_kind,
             "node_value": self.node_value,
             "doc": self.doc,
+            "doc_file": self.doc_file,
             "quote": self.quote,
             "explanation": self.explanation,
             "evidence_status": self.status,
@@ -217,6 +219,7 @@ def ledger(
                         node_kind=node.kind,
                         node_value=node.value,
                         doc=ev.doc,
+                        doc_file=bundle.sources.get(ev.doc, ""),
                         quote=quote,
                         explanation=ev.explanation,
                         status=ev.status,

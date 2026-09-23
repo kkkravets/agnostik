@@ -3,7 +3,7 @@
 Everything here exists so objection generation can be run and reviewed without
 the preceding evidence and verdict stages.
 
-* `fixtures/` — a **stand-in** for stages 1–3: live evidence collected from
+* `fixtures/` — a **stand-in** for evidence collection and formalization: live evidence collected from
   PubMed, ClinicalTrials.gov and UniProt (`collect.py`), turned into a
   Parseltongue system (`build_pltg.py`), and exported with pg-bench
   (`candidate-dossiers.html`, `candidate-verdicts.html`). Replace these with the

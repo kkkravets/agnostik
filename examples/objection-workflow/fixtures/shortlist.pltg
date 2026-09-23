@@ -1,6 +1,6 @@
 ; shortlist.pltg — CRC target shortlist system (entry point)
 ; Targets: EGFR, ERBB2, KRAS, MYC, WRN, PRMT5 | Disease: colorectal cancer
-; Stand-in for pipeline stages 1-3; stage 4 (objections) consumes the
+; Stand-in for the evidence and formalization stages; the objections stage consumes the
 ; pg-bench export of this system.
 
 ; --- source documents ---

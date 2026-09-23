@@ -128,6 +128,8 @@ class Bundle:
     taint_reasons: dict[str, str] = field(default_factory=dict)
     source_path: Path | None = None
     globals_found: list[str] = field(default_factory=list)
+    # document key -> real file name, when the export says (agnostik's own exports do)
+    sources: dict[str, str] = field(default_factory=dict)
 
     def __len__(self) -> int:
         return len(self.nodes)
@@ -262,6 +264,7 @@ def _normalise(payload: dict[str, Any], path: Path | None) -> Bundle:
         taint_reasons=dict(taint.get("reasons") or {}),
         source_path=path,
         globals_found=found,
+        sources={str(k): str(v) for k, v in (payload.get("SOURCES") or {}).items()},
     )
 
 
@@ -283,9 +286,9 @@ def load_export(path: str | Path) -> Bundle:
             # Accept both the SCREAMING and lower-case spellings.
             payload = {
                 key: raw.get(key, raw.get(key.lower()))
-                for key in ("DATA", "STRUCTURE_DATA", "LAYERS", "TAINT_DATA")
+                for key in ("DATA", "STRUCTURE_DATA", "LAYERS", "TAINT_DATA", "SOURCES")
             }
-            if not any(payload.values()):
+            if not any(v for k, v in payload.items() if k != "SOURCES"):
                 raise ExportError(
                     "JSON has none of DATA / STRUCTURE_DATA / LAYERS / TAINT_DATA — "
                     "is this a pg-bench export?"
@@ -313,7 +316,7 @@ def iter_evidence(nodes: Iterable[Node]):
 def load_exports(paths: list[str | Path]) -> Bundle:
     """Load and merge several pg-bench exports into one bundle.
 
-    Stage 3 usually hands over more than one view — one per lens, or a
+    the formalization stage usually hands over more than one view — one per lens, or a
     dossier export plus a verdict export. Later files add nodes and fill in
     gaps; they never blank out evidence an earlier file supplied.
     """
@@ -341,6 +344,8 @@ def load_exports(paths: list[str | Path]) -> Bundle:
         merged.taint_sources |= bundle.taint_sources
         merged.tainted |= bundle.tainted
         merged.taint_reasons.update(bundle.taint_reasons)
+        for name, file in bundle.sources.items():
+            merged.sources.setdefault(name, file)
         for g in bundle.globals_found:
             if g not in merged.globals_found:
                 merged.globals_found.append(g)

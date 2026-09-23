@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """Collect raw ClawBio evidence for the 6 hardcoded CRC targets.
 
-STAND-IN for pipeline stages 1-3. Stage 4 (objection generation) is the
-deliverable in this repo; this script only exists so stage 4 has a real,
+STAND-IN for the evidence and formalization stages. The objections stage (objection generation) is the
+deliverable in this repo; this script only exists so the objections stage has a real,
 network-derived input to develop against. Replace with the team's own
-stage 1-3 output when it lands.
+evidence and formalization output when it lands.
 
 Writes:
   fixtures/raw/<GENE>.json   raw records (pubmed / trials / target summary)

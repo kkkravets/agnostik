@@ -13,17 +13,17 @@ from parseltongue.core import load_source
 from agnostik.candidates import PRESELECTED_CANDIDATES
 from agnostik.objections.bundle import load_export
 from agnostik.objections.targets import discover
-from agnostik.parseltongue_corpus import (
+from agnostik.formalization import (
     TargetResult,
-    Stage3Config,
+    FormalizationConfig,
     _run_pipeline,
-    build_stage4_export,
+    build_objections_export,
     discover_sources,
     export_completed_targets,
-    run_stage3,
+    run_formalization,
     select_target_sources,
     target_query,
-    validate_stage4_export,
+    validate_objections_export,
 )
 
 
@@ -57,7 +57,7 @@ def write_corpus(root: Path, articles: dict[str, str]) -> Path:
     return corpus
 
 
-class Stage3SourceTests(unittest.TestCase):
+class FormalizationSourceTests(unittest.TestCase):
     def test_selects_target_specific_articles(self):
         with tempfile.TemporaryDirectory() as temporary:
             corpus = write_corpus(
@@ -72,6 +72,22 @@ class Stage3SourceTests(unittest.TestCase):
                 discover_sources(corpus), "KRAS", max_documents=2, max_chars=1_000
             )
             self.assertEqual([path.name for path in selected], ["PMC1.txt", "PMC2.txt"])
+
+    def test_trials_get_a_reserved_share_of_the_character_budget(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            corpus = write_corpus(
+                Path(temporary),
+                {
+                    "PMC1.txt": "KRAS " * 100,
+                    "trial-KRAS-NCT1.txt": "KRAS trial",
+                    "trial-KRAS-NCT2.txt": "KRAS " * 100,
+                },
+            )
+            selected = select_target_sources(
+                discover_sources(corpus), "KRAS", max_documents=10, max_chars=520
+            )
+            # The article alone fits 520 chars; the reserved 20% (104) admits only the short trial.
+            self.assertEqual([path.name for path in selected], ["PMC1.txt", "trial-KRAS-NCT1.txt"])
 
     def test_reads_articles_referenced_by_a_corpus_manifest(self):
         with tempfile.TemporaryDirectory() as temporary:
@@ -116,7 +132,7 @@ class Stage3SourceTests(unittest.TestCase):
                 return "pipeline-result"
 
         body = "EGFR inhibitors – β-catenin “signalling”"
-        with patch("agnostik.parseltongue_corpus.Pipeline", RecordingPipeline):
+        with patch("agnostik.formalization.Pipeline", RecordingPipeline):
             result = _run_pipeline([("paper", body)], "query", object())
 
         self.assertEqual(result, "pipeline-result")
@@ -130,8 +146,8 @@ class Stage3SourceTests(unittest.TestCase):
         self.assertIn(":using", query)
 
 
-class Stage3ExportTests(unittest.TestCase):
-    def test_export_is_directly_consumable_by_stage4(self):
+class FormalizationExportTests(unittest.TestCase):
+    def test_export_is_directly_consumable_by_objections(self):
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)
             results = [
@@ -144,19 +160,22 @@ class Stage3ExportTests(unittest.TestCase):
                 )
                 for target in PRESELECTED_CANDIDATES
             ]
-            export_path = root / "stage3-export.json"
+            export_path = root / "formal-system.json"
             export_path.write_text(
-                json.dumps(build_stage4_export(results), default=str), encoding="utf-8"
+                json.dumps(build_objections_export(results), default=str), encoding="utf-8"
             )
-            validate_stage4_export(export_path, PRESELECTED_CANDIDATES)
+            validate_objections_export(export_path, PRESELECTED_CANDIDATES)
             views = discover(load_export(export_path), list(PRESELECTED_CANDIDATES))
             self.assertEqual([view.symbol for view in views], list(PRESELECTED_CANDIDATES))
             self.assertTrue(all(view.verdict is True for view in views))
             self.assertTrue(all(any(fact.is_grounded for fact in view.facts) for view in views))
             payload = json.loads(export_path.read_text(encoding="utf-8"))
             self.assertEqual(
-                set(payload), {"DATA", "STRUCTURE_DATA", "LAYERS", "TAINT_DATA"}
+                set(payload), {"DATA", "STRUCTURE_DATA", "LAYERS", "TAINT_DATA", "SOURCES"}
             )
+            # Documents are cited by stem; SOURCES maps each back to its real file name.
+            self.assertEqual(payload["SOURCES"]["PMC-EGFR"], "PMC-EGFR.txt")
+            self.assertEqual(load_export(export_path).sources, payload["SOURCES"])
 
     def test_exports_only_completed_targets(self):
         with tempfile.TemporaryDirectory() as temporary:
@@ -187,11 +206,64 @@ class Stage3ExportTests(unittest.TestCase):
             views = discover(load_export(export_path), ["EGFR"])
             self.assertEqual(views[0].symbol, "EGFR")
 
+    def test_criteria_file_becomes_a_quotable_document_and_is_named_in_the_query(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            corpus = write_corpus(root, {"paper.txt": "EGFR"})
+            criteria = root / "rules.md"
+            criteria.write_text("R1 A target is promising when it is druggable.", encoding="utf-8")
+            seen = {}
+
+            def pipeline_runner(documents, query, provider):
+                seen["documents"], seen["query"] = documents, query
+                return SimpleNamespace(
+                    system=target_system("EGFR"),
+                    output=SimpleNamespace(markdown="", references=[], consistency={}),
+                    pass1_source="",
+                    pass2_source="",
+                    pass3_source="",
+                    pass4_raw="",
+                )
+
+            def run(criteria_path, output):
+                config = FormalizationConfig(
+                    tumour_type="COAD",
+                    cancer_term="colon adenocarcinoma",
+                    corpus_manifest=corpus,
+                    output_dir=root / output,
+                    targets=("EGFR",),
+                    criteria=criteria_path,
+                )
+                run_formalization(config, provider_factory=lambda **kw: object(), pipeline_runner=pipeline_runner)
+                return json.loads((root / output / "targets" / "egfr" / "manifest.json").read_text(encoding="utf-8"))
+
+            record = run(criteria, "with")
+            self.assertEqual(seen["documents"][0], ("rules", "R1 A target is promising when it is druggable."))
+            self.assertIn('document "rules"', seen["query"])
+            self.assertEqual(record["criteria"], str(criteria.resolve()))
+
+            fingerprint = record["fingerprint"]
+            record = run(None, "without")
+            self.assertEqual([name for name, _ in seen["documents"]], ["paper"])
+            self.assertNotIn("review criteria", seen["query"])
+            self.assertIsNone(record["criteria"])
+            self.assertNotEqual(record["fingerprint"], fingerprint)
+
+    def test_missing_criteria_file_is_rejected(self):
+        with self.assertRaises(FileNotFoundError):
+            FormalizationConfig(
+                tumour_type="COAD",
+                cancer_term="colon adenocarcinoma",
+                corpus_manifest=Path("corpus.json"),
+                output_dir=Path("out"),
+                criteria=Path("no-such-criteria.md"),
+            )
+
     def test_runs_independent_targets_concurrently_with_separate_providers(self):
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)
             corpus = write_corpus(root, {"paper.txt": "EGFR and KRAS"})
-            config = Stage3Config(
+            config = FormalizationConfig(
                 tumour_type="COAD",
                 cancer_term="colon adenocarcinoma",
                 corpus_manifest=corpus,
@@ -227,7 +299,7 @@ class Stage3ExportTests(unittest.TestCase):
                     pass4_raw="",
                 )
 
-            run = run_stage3(
+            run = run_formalization(
                 config,
                 max_workers=2,
                 provider_factory=provider_factory,
@@ -242,7 +314,7 @@ class Stage3ExportTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)
             corpus = write_corpus(root, {"paper.txt": "EGFR"})
-            config = Stage3Config(
+            config = FormalizationConfig(
                 tumour_type="COAD",
                 cancer_term="colon adenocarcinoma",
                 corpus_manifest=corpus,
@@ -265,7 +337,7 @@ class Stage3ExportTests(unittest.TestCase):
                     pass4_raw="",
                 )
 
-            run = run_stage3(
+            run = run_formalization(
                 config,
                 max_attempts=2,
                 provider_factory=lambda **kwargs: object(),

@@ -52,7 +52,7 @@ code without a default.
 
 2. Collect PubMed, open-access PMC full text, and ClinicalTrials.gov evidence
    for all six candidates. Everything lands under `--output`, including
-   `<tumour>/corpus.json` — the deduplicated article list Stage 3 consumes,
+   `<tumour>/corpus.json` — the deduplicated article list the formalization stage consumes,
    which references the per-gene PMC files rather than copying them:
 
    ```bash
@@ -63,13 +63,13 @@ code without a default.
      --skip-existing
    ```
 
-3. Preview Stage 3 without API calls:
+3. Preview the formalization stage without API calls:
 
    ```bash
    uv run agnostik-parseltongue COAD \
      --input results/evidence/coad/corpus.json \
-     --output results/clawbio_skill_trial/tcga-coad/parseltongue_stage3_sample \
-     --max-documents-per-target 3 \
+     --output results/clawbio_skill_trial/tcga-coad/formalization_sample \
+     --max-documents-per-target 300 \
      --max-target-chars 150000 \
      --dry-run
    ```
@@ -83,7 +83,7 @@ code without a default.
    ```bash
    uv run agnostik-parseltongue COAD \
      --input results/evidence/coad/corpus.json \
-     --output results/clawbio_skill_trial/tcga-coad/parseltongue_stage3_sample \
+     --output results/clawbio_skill_trial/tcga-coad/formalization_sample \
      --max-documents-per-target 3 \
      --max-target-chars 150000 \
      --workers 3 \
@@ -95,32 +95,101 @@ code without a default.
 
    ```bash
    uv run agnostik-parseltongue COAD \
-     --output results/clawbio_skill_trial/tcga-coad/parseltongue_stage3_sample \
+     --output results/clawbio_skill_trial/tcga-coad/formalization_sample \
      --export-completed
    ```
 
 6. Open
    [`notebooks/02_verdict_generation.ipynb`](notebooks/02_verdict_generation.ipynb)
    and run Sections 3–7 to refresh the partial export, validate verdicts, read
-   candidate reports, inspect the JSON, and generate Stage-4 objections.
+   candidate reports, inspect the JSON, and generate objections.
 
-7. Alternatively, generate final Stage-4 files entirely from the terminal:
+7. Alternatively, generate the final objection files entirely from the terminal:
 
    ```bash
    uv run agnostik-objections run \
-     --export results/clawbio_skill_trial/tcga-coad/parseltongue_stage3_sample/stage3-export.partial.json \
+     --export results/clawbio_skill_trial/tcga-coad/formalization_sample/formal-system.partial.json \
      --out results/objections-sample
    ```
 
 The result path is `results/objections-sample/`: open `objections.html` for the
 browsable report, `objections.md` for the text report, or `objections.json` for
 the machine-readable record. Once all six targets finish, use the canonical
-`stage3-export.json` instead of `stage3-export.partial.json` for the final
+`formal-system.json` instead of `formal-system.partial.json` for the final
 handoff.
 
-## Stage 4 — objections with a backtrace
+### Review criteria (optional)
 
-Once stages 1–3 have produced a Parseltongue verdict per target, stage 4 argues
+A verdict needs a rule that says what "promising" means. **By default there is
+none**: the model reads the articles and trial records and invents its own rule
+in pass 1 (an `axiom` quoted from whichever paper it leans on), and a different
+rule may come out for each target and each run. Verdicts are then hard to
+compare, and objections mostly end up questioning the rule itself.
+
+To make every target be judged by the same stated rules, pass a criteria file:
+
+```bash
+uv run agnostik-parseltongue COAD \
+  --input results/evidence/coad/corpus.json \
+  --criteria criteria/target-shortlist.md \
+  --resume
+```
+
+What `--criteria` does:
+
+- The file is registered as an extra document under its own file name (for
+  example `target-shortlist.md`), next to the articles and trials, so the model
+  can quote it verbatim like any other source.
+- The query tells the model to encode each criterion as an axiom that quotes
+  it, and to derive `<target>-verdict` under exactly those criteria.
+- The objections stage then cites `doc:target-shortlist.md` rows in its
+  backtrace, so a reader can see which rule decided a verdict.
+- The file is part of the `--resume` fingerprint: editing it re-runs targets
+  that were finished under the old wording. Each target's `manifest.json`
+  records which file was used, and `--dry-run` prints the path.
+
+The shipped [`criteria/target-shortlist.md`](criteria/target-shortlist.md) is
+cancer-agnostic. It talks about "the disease named in the review request", so
+the same file serves any tumour code. Its rules, in short:
+
+| Rule | Meaning |
+|---|---|
+| R1 Chemical matter | at least three publications describe an inhibitor, degrader, small molecule or antibody against the target |
+| R2 Mechanistic support | experimental work links the target to the disease (supporting, not decisive) |
+| R3 In vivo support | an animal model, xenograft or similar experiment |
+| R4 Clinical traction | a trial for the disease names the target and is phase 3+ or recruiting |
+| R5 Opposing evidence | evidence against the target must be recorded and weighed, never dropped |
+| R6 Verdict | promising = chemical matter + in vivo support + clinical traction; otherwise rejected |
+| R7 Provenance | every fact quotes its document; an untraceable verdict is void |
+
+To write your own, copy the file and edit it. Keep one rule per `##` heading and
+each rule on a single unwrapped line, so the model can quote it exactly. Phrase
+rules only in terms of what the supplied documents can show (published
+articles and clinical-trial records). Rules that need other data, such as
+protein annotations, cannot be satisfied and will push verdicts to "rejected".
+Thresholds such as "at least three publications" are yours to change.
+
+This is separate from `examples/objection-workflow/fixtures/docs/charter.md`,
+which is a colorectal-only demo input for the example and is not read by the
+pipeline.
+
+### Finding a cited document
+
+The model refers to each document by a short key (the file name without its
+extension, for example `PMC12162862`). The export also records the real file
+name in a `SOURCES` map, and the objections backtrace shows it as
+`doc:<file name>`: `doc:PMC12162862.txt` for an article,
+`doc:trial-EGFR-NCT01234567.txt` for a trial record, `doc:target-shortlist.md`
+for the criteria file. That file is the exact text snapshot the model read, not
+the live web page, so it stays reproducible even if the article or trial record
+later changes. To open one, look up its name in `corpus.json` (the file passed
+to `--input`): each entry lists the `path`, relative to that file, and a
+`sha256` to check the text has not changed. An export without a `SOURCES` map
+(for example one produced by `pg-bench` directly) simply shows the bare key.
+
+## Objections — with a backtrace
+
+Once evidence collection and formalization have produced a Parseltongue verdict per target, the objections stage argues
 against every verdict. For each target it writes a five-sentence objection with
 a Nebius Token Factory model, where every sentence cites evidence by key, every
 key resolves to a Parseltongue node and a verbatim document quote, and every
@@ -129,7 +198,7 @@ allowed to lean on it. An objection that miscounts its sentences, cites a key
 that does not exist, or names an identifier absent from the ledger is rejected
 and rewritten.
 
-**Input:** one or more pg-bench JSON exports of the stage-3 system (`.html` from
+**Input:** one or more pg-bench JSON exports of the formalization system (`.html` from
 `pg eval '(fmt "viz" …)'`, `.js` from `extract_viz_data.sh`, or plain JSON).
 **Output:** `objections.json` (full record with per-sentence backtrace),
 `objections.md` (digest plus backtrace table), `objections.html` (each sentence
@@ -143,7 +212,7 @@ uv run agnostik-objections run \
 ```
 
 Add `--dry-run` to exercise the ledger, verifier and reports with no API call
-and no spend. Full contract, flags and the fixture stand-in for stages 1–3:
+and no spend. Full contract, flags and the fixture stand-in for evidence collection and formalization:
 [`docs/objections.md`](docs/objections.md).
 
 ## Prerequisites
@@ -308,9 +377,9 @@ docker compose run --rm analysis \
 ```
 
 Results are written to
-`results/clawbio_skill_trial/tcga-coad/parseltongue_stage3/`:
+`results/clawbio_skill_trial/tcga-coad/formalization/`:
 
-- `stage3-export.json` — the primary deliverable for Stage 4, containing
+- `formal-system.json` — the primary deliverable for the objections stage, containing
   `DATA`, `STRUCTURE_DATA`, `LAYERS`, and `TAINT_DATA`;
 - `targets/<target>/system.json` — the formal system for one candidate;
 - `targets/<target>/answer.md` — the human-readable candidate report;
@@ -318,15 +387,15 @@ Results are written to
   human-readable answer artifacts;
 - `targets/<target>/manifest.json` — selected articles, query, fingerprint, and
   exact verdict node;
-- `manifest.json` — the six-target Stage-3 run manifest.
+- `manifest.json` — the six-target formalization run manifest.
 
-The generated JSON is parsed immediately with the real Stage-4 loader. The run
+The generated JSON is parsed immediately with the real objections loader. The run
 fails unless all requested candidates have a Boolean verdict and at least one
-verified quoted fact. Hand it to Stage 4 with:
+verified quoted fact. Hand it to the objections stage with:
 
 ```bash
 uv run agnostik-objections run \
-  --export results/clawbio_skill_trial/tcga-coad/parseltongue_stage3/stage3-export.json \
+  --export results/clawbio_skill_trial/tcga-coad/formalization/formal-system.json \
   --out results/objections
 ```
 
@@ -339,28 +408,28 @@ Override them with `--max-documents-per-target` and `--max-target-chars`.
 
 Completed targets are durable: each receives its `system.json`, `answer.md`,
 and `manifest.json` before the next target finishes. If a later target fails or
-the long-running command is interrupted, create a Stage-4-compatible partial
+the long-running command is interrupted, create an objections-compatible partial
 export from everything completed so far. This command makes no model calls:
 
 ```bash
 uv run agnostik-parseltongue COAD \
-  --output results/clawbio_skill_trial/tcga-coad/parseltongue_stage3_sample \
+  --output results/clawbio_skill_trial/tcga-coad/formalization_sample \
   --export-completed
 ```
 
 It writes:
 
 ```text
-results/clawbio_skill_trial/tcga-coad/parseltongue_stage3_sample/stage3-export.partial.json
+results/clawbio_skill_trial/tcga-coad/formalization_sample/formal-system.partial.json
 ```
 
-To produce the target systems used by the sample notebook, run Stage 3 from the
+To produce the target systems used by the sample notebook, run the formalization stage from the
 repository root with matching input, output, and context settings:
 
 ```bash
 uv run agnostik-parseltongue COAD \
   --input results/evidence/coad/corpus.json \
-  --output results/clawbio_skill_trial/tcga-coad/parseltongue_stage3_sample \
+  --output results/clawbio_skill_trial/tcga-coad/formalization_sample \
   --max-documents-per-target 3 \
   --max-target-chars 150000 \
   --workers 3 \
@@ -377,18 +446,18 @@ fingerprint still matches the selected sources and query.
 
 Open
 [`notebooks/02_verdict_generation.ipynb`](notebooks/02_verdict_generation.ipynb).
-The notebook does not run the long Stage-3 model pipeline. Its result workflow
+The notebook does not run the long formalization model pipeline. Its result workflow
 is:
 
 1. Run the setup/configuration cell so paths and imports point at this checkout.
-2. Section 3 refreshes `stage3-export.partial.json` using the same
+2. Section 3 refreshes `formal-system.partial.json` using the same
    `export_completed_targets` implementation as the `--export-completed` CLI
    flag; it makes no model calls.
-3. Section 4 validates the completed targets with the real Stage-4 loader and
+3. Section 4 validates the completed targets with the real objections loader and
    displays their verdict summary.
 4. Section 5 renders each completed target's `answer.md` report.
 5. Section 6 displays the partial JSON contract and provides a file link.
-6. Section 7 first inspects the evidence ledger, then generates Stage-4
+6. Section 7 first inspects the evidence ledger, then generates Objections
    objections. Its two code cells are standalone and locate the partial export
    directly.
 
@@ -400,15 +469,15 @@ The equivalent terminal commands are:
 
 ```bash
 uv run agnostik-objections inspect \
-  --export results/clawbio_skill_trial/tcga-coad/parseltongue_stage3_sample/stage3-export.partial.json \
+  --export results/clawbio_skill_trial/tcga-coad/formalization_sample/formal-system.partial.json \
   --ledger
 
 uv run agnostik-objections run \
-  --export results/clawbio_skill_trial/tcga-coad/parseltongue_stage3_sample/stage3-export.partial.json \
+  --export results/clawbio_skill_trial/tcga-coad/formalization_sample/formal-system.partial.json \
   --out results/objections-sample
 ```
 
-Stage 4 writes the final browsable and machine-readable results to:
+The objections stage writes the final browsable and machine-readable results to:
 
 ```text
 results/objections-sample/objections.md
@@ -416,8 +485,8 @@ results/objections-sample/objections.html
 results/objections-sample/objections.json
 ```
 
-When all six targets finish, the Stage-3 command also writes the canonical
-`stage3-export.json` and top-level `manifest.json`. Use that full export instead
+When all six targets finish, the formalization command also writes the canonical
+`formal-system.json` and top-level `manifest.json`. Use that full export instead
 of the partial export for the final six-target handoff.
 
 ## Access ClawBio skill scripts directly
@@ -458,7 +527,7 @@ The v1 workflow:
    validates the code's format; it does not discover or rank candidate genes.
 2. Collects PubMed summaries, complete open-access PMC articles, and
    ClinicalTrials.gov evidence for every candidate.
-3. Records the unique collected full-text articles in one Stage 3 corpus manifest.
+3. Records the unique collected full-text articles, plus one rendered text per clinical trial, in one formalization corpus manifest.
 4. Selects relevant documents for each candidate and runs the four-pass
    Parseltongue pipeline to derive one grounded Boolean verdict per candidate.
 5. Exports all completed candidate systems in the JSON contract consumed by
@@ -497,7 +566,7 @@ UTF-8 journal text, so without UTF-8 mode one test errors in `setUpClass` and
 takes its whole class with it — the suite reports 49 tests instead of 53.
 `PYTHONUTF8=1` makes `open()` default to UTF-8 and the difference disappears.
 
-This affects only code that hands Parseltongue a *path*. The Stage 3 pipeline
+This affects only code that hands Parseltongue a *path*. The formalization stage
 reads articles itself and registers them with `add_document(name, text=...)`,
 which never touches the filesystem, so it is unaffected on every platform.
 

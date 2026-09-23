@@ -1,6 +1,6 @@
 """Find targets, their claims and their verdicts inside a pg-bench export.
 
-The upstream naming is not ours to dictate — stage 3 belongs to another
+The upstream naming is not ours to dictate — the formalization stage belongs to another
 part of the pipeline — so discovery is pattern-driven and every pattern is
 overridable from the CLI.
 """
@@ -89,7 +89,7 @@ def _verdict_for(bundle: Bundle, symbol: str, module: str | None, pattern: str) 
     """Pick the node that carries this target's accept/reject decision.
 
     Prefers a top-level decision node (``egfr-promising``) over a
-    dossier-internal one, since the top level is where a stage-3 system
+    dossier-internal one, since the top level is where a formalization-stage system
     usually applies its final rule.
     """
     rx = re.compile(pattern, re.IGNORECASE)

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Turn collected raw evidence into a Parseltongue system (.pltg).
 
-STAND-IN for pipeline stage 3. Emits source documents whose lines the
+STAND-IN for the formalization stage. Emits source documents whose lines the
 facts quote verbatim, one module per target, a shared rules module whose
 axioms quote the review charter, and a main entry point.
 
@@ -364,7 +364,7 @@ def build_main(genes: list[str]) -> str:
     lines = [
         "; shortlist.pltg — CRC target shortlist system (entry point)",
         f"; Targets: {', '.join(genes)} | Disease: {DISEASE}",
-        "; Stand-in for pipeline stages 1-3; stage 4 (objections) consumes the",
+        "; Stand-in for the evidence and formalization stages; the objections stage consumes the",
         "; pg-bench export of this system.",
         "",
         "; --- source documents ---",

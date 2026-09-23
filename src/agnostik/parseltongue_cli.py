@@ -1,4 +1,4 @@
-"""Console entrypoint for the formal Parseltongue Stage-3 pipeline."""
+"""Console entrypoint for the formal Parseltongue Formalization pipeline."""
 
 from __future__ import annotations
 
@@ -9,23 +9,24 @@ from pathlib import Path
 
 from agnostik.candidates import PRESELECTED_CANDIDATES
 from agnostik.evidence_cli import DEFAULT_CANCER_TERMS
-from agnostik.parseltongue_corpus import (
+from agnostik.formalization import (
     DEFAULT_MAX_DOCUMENTS_PER_TARGET,
     DEFAULT_MAX_TARGET_CHARS,
     DEFAULT_TARGET_ATTEMPTS,
-    Stage3Config,
+    FormalizationConfig,
     discover_sources,
     export_completed_targets,
-    run_stage3,
+    run_formalization,
     select_target_sources,
     target_query,
 )
+from agnostik.nebius import EmptyToolCallError
 
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog="agnostik-parseltongue",
-        description="Derive per-candidate verdicts and emit the pg-bench JSON consumed by Stage 4.",
+        description="Derive per-candidate verdicts and emit the pg-bench JSON consumed by objections.",
     )
     parser.add_argument("tumour_type", help="TCGA tumour code, for example COAD")
     parser.add_argument(
@@ -40,9 +41,21 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--target", action="append", dest="targets")
     parser.add_argument("--max-documents-per-target", type=int, default=DEFAULT_MAX_DOCUMENTS_PER_TARGET)
     parser.add_argument("--max-target-chars", type=int, default=DEFAULT_MAX_TARGET_CHARS)
+    parser.add_argument(
+        "--criteria",
+        type=Path,
+        help="markdown file of review criteria the model must encode as axioms and apply to every target "
+        "(for example criteria/target-shortlist.md); without it the model invents its own decision rule",
+    )
     parser.add_argument("--model", help="Nebius model; defaults to NEBIUS_MODEL")
     parser.add_argument("--base-url", help="defaults to NEBIUS_BASE_URL")
     parser.add_argument("--reasoning-tokens", type=int)
+    parser.add_argument(
+        "--max-output-tokens",
+        type=int,
+        help="output-token limit per model reply; without it the provider's default applies, which a reasoning "
+        "model can use up before writing its answer (finish_reason=length)",
+    )
     parser.add_argument(
         "--workers",
         type=int,
@@ -62,7 +75,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--export-completed",
         action="store_true",
-        help="build stage3-export.partial.json from completed targets without model calls",
+        help="build formal-system.partial.json from completed targets without model calls",
     )
     parser.add_argument("--json", action="store_true", dest="as_json")
     return parser
@@ -78,18 +91,20 @@ def main(argv: Sequence[str] | None = None) -> int:
     tumour_root = Path("results/clawbio_skill_trial") / f"tcga-{tumour_type.lower()}"
     targets = tuple(args.targets or PRESELECTED_CANDIDATES)
     try:
-        config = Stage3Config(
+        config = FormalizationConfig(
             tumour_type=tumour_type,
             cancer_term=cancer_term,
             corpus_manifest=args.corpus_manifest
             or Path("results/evidence") / tumour_type.lower() / "corpus.json",
-            output_dir=args.output_dir or tumour_root / "parseltongue_stage3",
+            output_dir=args.output_dir or tumour_root / "formalization",
             targets=targets,
             max_documents_per_target=args.max_documents_per_target,
             max_target_chars=args.max_target_chars,
             model=args.model,
             base_url=args.base_url,
             reasoning=args.reasoning_tokens,
+            criteria=args.criteria,
+            max_output_tokens=args.max_output_tokens,
         )
         if args.export_completed:
             export_path, completed_targets = export_completed_targets(
@@ -99,7 +114,7 @@ def main(argv: Sequence[str] | None = None) -> int:
             payload = {
                 "completed_targets": list(completed_targets),
                 "target_count": len(completed_targets),
-                "stage4_export": str(export_path),
+                "export": str(export_path),
             }
         elif args.dry_run:
             sources = discover_sources(config.corpus_manifest)
@@ -111,17 +126,18 @@ def main(argv: Sequence[str] | None = None) -> int:
                     "source_count": len(selected),
                     "sources": [path.name for path in selected],
                     "required_verdict": f"{target.lower()}-verdict",
-                    "query": target_query(target, cancer_term, tumour_type),
+                    "query": target_query(target, cancer_term, tumour_type, criteria=config.criteria.name if config.criteria else None),
                 })
             payload = {
                 "corpus_manifest": str(config.corpus_manifest),
                 "output_dir": str(config.output_dir),
                 "corpus_source_count": len(sources),
+                "criteria": str(config.criteria) if config.criteria else None,
                 "targets": plans,
-                "stage4_export": str(config.output_dir / "stage3-export.json"),
+                "export": str(config.output_dir / "formal-system.json"),
             }
         else:
-            run = run_stage3(
+            run = run_formalization(
                 config,
                 overwrite=args.overwrite,
                 resume=args.resume,
@@ -133,9 +149,9 @@ def main(argv: Sequence[str] | None = None) -> int:
                 "target_count": run.target_count,
                 "reused_targets": run.reused_targets,
                 "output_dir": str(run.output_dir),
-                "stage4_export": str(run.export_path),
+                "export": str(run.export_path),
             }
-    except (FileNotFoundError, FileExistsError, ValueError) as exc:
+    except (FileNotFoundError, FileExistsError, ValueError, EmptyToolCallError) as exc:
         parser.error(str(exc))
     if args.as_json:
         print(json.dumps(payload))
