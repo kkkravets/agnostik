@@ -20,6 +20,7 @@ import clawbio
 
 from agnostik.pmc_full_text import (
     MAX_ARTICLES,
+    REFERENCES_OMITTED_NOTE,
     FullTextArticle,
     download_open_access_articles,
 )
@@ -194,6 +195,7 @@ def write_corpus_manifest(
                 "name": name,
                 "path": _corpus_relative_path(source, manifest_path.parent),
                 "kind": "trial" if name.startswith("trial-") else "article",
+                "omitted": ["references"] if REFERENCES_OMITTED_NOTE in source.read_text(encoding="utf-8") else [],
                 "gene": run.gene,
                 "run_id": run.run_id,
                 "sha256": hashlib.sha256(source.read_bytes()).hexdigest(),

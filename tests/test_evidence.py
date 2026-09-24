@@ -61,6 +61,7 @@ class EvidenceCollectionTests(unittest.TestCase):
                 ["PMC-EGFR.txt", "PMC-KRAS.txt", "PMC-shared.txt"],
             )
             self.assertEqual(list(root.glob("*.txt")), [])
+            self.assertEqual([entry["omitted"] for entry in manifest["articles"]], [[], [], []])
             for entry in manifest["articles"]:
                 self.assertTrue((corpus_path.parent / entry["path"]).is_file())
                 self.assertEqual(entry["gene"], entry["run_id"].upper())

@@ -187,6 +187,14 @@ to `--input`): each entry lists the `path`, relative to that file, and a
 `sha256` to check the text has not changed. An export without a `SOURCES` map
 (for example one produced by `pg-bench` directly) simply shows the bare key.
 
+The article `.txt` files are a reading copy: abstract and body, without the
+reference list. Other papers' titles are not evidence, and they would use up the
+model's input budget and inflate the count of how often a target is mentioned.
+The last line of such a text says so (`[References omitted from this text; …]`),
+the `corpus.json` entry lists `"omitted": ["references"]`, and the complete
+article, references included, stays in the archival XML under
+`literature/artifacts/xml/`.
+
 ## Objections — with a backtrace
 
 Once evidence collection and formalization have produced a Parseltongue verdict per target, the objections stage argues
