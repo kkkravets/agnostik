@@ -7,7 +7,7 @@ from collections.abc import Sequence
 import json
 from pathlib import Path
 
-from agnostik.candidates import PRESELECTED_CANDIDATES
+from agnostik.candidates import PRESELECTED_CANDIDATES, load_gene_list
 from agnostik.evidence_cli import DEFAULT_CANCER_TERMS
 from agnostik.formalization import (
     DEFAULT_MAX_DOCUMENTS_PER_TARGET,
@@ -38,7 +38,23 @@ def build_parser() -> argparse.ArgumentParser:
     )
     parser.add_argument("--output", type=Path, dest="output_dir")
     parser.add_argument("--cancer-term", help="human-readable cancer term")
-    parser.add_argument("--target", action="append", dest="targets")
+    targets_group = parser.add_mutually_exclusive_group()
+    targets_group.add_argument("--target", action="append", dest="targets")
+    targets_group.add_argument(
+        "--targets-file",
+        type=Path,
+        help=(
+            "shortlist of candidate genes to use instead of the fixed v1 panel: "
+            "a plain text file with one gene symbol per line, or a CSV with a "
+            "'gene_symbol' column, such as the output of "
+            "scripts/open_targets_crc_candidates.py"
+        ),
+    )
+    parser.add_argument(
+        "--top-n",
+        type=int,
+        help="with --targets-file, use only the first N genes from the file",
+    )
     parser.add_argument("--max-documents-per-target", type=int, default=DEFAULT_MAX_DOCUMENTS_PER_TARGET)
     parser.add_argument("--max-target-chars", type=int, default=DEFAULT_MAX_TARGET_CHARS)
     parser.add_argument(
@@ -89,8 +105,13 @@ def main(argv: Sequence[str] | None = None) -> int:
     if not cancer_term:
         parser.error("--cancer-term is required when no default exists")
     tumour_root = Path("results/clawbio_skill_trial") / f"tcga-{tumour_type.lower()}"
-    targets = tuple(args.targets or PRESELECTED_CANDIDATES)
     try:
+        if args.top_n is not None and not args.targets_file:
+            parser.error("--top-n requires --targets-file")
+        if args.targets_file:
+            targets = load_gene_list(args.targets_file, limit=args.top_n)
+        else:
+            targets = tuple(args.targets or PRESELECTED_CANDIDATES)
         config = FormalizationConfig(
             tumour_type=tumour_type,
             cancer_term=cancer_term,
