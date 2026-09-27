@@ -7,7 +7,7 @@ from collections.abc import Sequence
 import json
 from pathlib import Path
 
-from agnostik.candidates import PRESELECTED_CANDIDATES, select_candidates
+from agnostik.candidates import PRESELECTED_CANDIDATES, load_gene_list, select_candidates
 from agnostik.evidence import (
     EvidenceConfig,
     collect_evidence_batch,
@@ -46,11 +46,27 @@ def build_parser() -> argparse.ArgumentParser:
         "--cancer-term",
         help="Registry/literature disease term; required when no default exists",
     )
-    parser.add_argument(
+    genes_group = parser.add_mutually_exclusive_group()
+    genes_group.add_argument(
         "--gene",
         action="append",
         dest="genes",
         help="candidate gene; repeat for multiple genes (default: fixed v1 panel)",
+    )
+    genes_group.add_argument(
+        "--genes-file",
+        type=Path,
+        help=(
+            "shortlist of candidate genes to use instead of the fixed v1 panel: "
+            "a plain text file with one gene symbol per line, or a CSV with a "
+            "'gene_symbol' column, such as the output of "
+            "scripts/open_targets_crc_candidates.py"
+        ),
+    )
+    parser.add_argument(
+        "--top-n",
+        type=int,
+        help="with --genes-file, use only the first N genes from the file",
     )
     parser.add_argument(
         "--article-query",
@@ -87,7 +103,12 @@ def main(argv: Sequence[str] | None = None) -> int:
             parser.error(
                 f"--cancer-term is required for TCGA-{selection.tumour_type}"
             )
-        genes = tuple(args.genes or PRESELECTED_CANDIDATES)
+        if args.top_n is not None and not args.genes_file:
+            parser.error("--top-n requires --genes-file")
+        if args.genes_file:
+            genes = load_gene_list(args.genes_file, limit=args.top_n)
+        else:
+            genes = tuple(args.genes or PRESELECTED_CANDIDATES)
         article_query = args.article_query or DEFAULT_ARTICLE_QUERIES.get(
             selection.tumour_type
         )

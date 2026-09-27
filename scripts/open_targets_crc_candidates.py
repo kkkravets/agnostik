@@ -1,4 +1,21 @@
 #!/usr/bin/env python3
+"""Rank colorectal-cancer (CRC) gene targets via the Open Targets GraphQL API.
+
+Writes two files with the same ranked list, both usable as a target
+shortlist for the agnostik pipeline in place of the fixed v1 panel
+(EGFR, ERBB2, KRAS, MYC, WRN, PRMT5):
+
+- crc_opentargets_100_symbols.txt: one gene symbol per line, rank order.
+  This is the minimal shortlist format `agnostik-collect-evidence
+  --genes-file` and `agnostik-parseltongue --targets-file` expect.
+- crc_opentargets_100_genes.csv: the same symbols plus ensembl_id,
+  gene_name, biotype, and association score, for reviewing candidates
+  before committing to a cutoff. `--genes-file`/`--targets-file` accept
+  this too (they read the gene_symbol column) — but each extra target
+  costs real evidence-collection and model time downstream, so trim the
+  shortlist with `--top-n` or a smaller N_TARGETS below rather than
+  running the full 100.
+"""
 
 import csv
 import sys
@@ -6,62 +23,24 @@ from pathlib import Path
 
 import requests
 
-
-# ============================================================
-# CONFIGURATION
-# ============================================================
-
 API_URL = "https://api.platform.opentargets.org/api/v4/graphql"
-
-# Colorectal cancer
-DISEASE_ID = "MONDO_0005575"
-
+DISEASE_ID = "MONDO_0005575"  # colorectal cancer
 N_TARGETS = 100
-
-# Open Targets disease -> target associations normally include
-# evidence propagated from more specific descendant disease terms.
-# Set to False if you want ONLY evidence directly assigned to CRC.
-ENABLE_INDIRECT = True
-
+ENABLE_INDIRECT = True  # include evidence propagated from descendant disease terms, not just CRC directly
 PAGE_SIZE = 200
 
 OUTPUT_CSV = Path("crc_opentargets_100_genes.csv")
 OUTPUT_SYMBOLS = Path("crc_opentargets_100_symbols.txt")
 
-
-# ============================================================
-# GRAPHQL QUERY
-# ============================================================
-
 QUERY = """
-query DiseaseTargets(
-    $diseaseId: String!,
-    $pageIndex: Int!,
-    $pageSize: Int!,
-    $enableIndirect: Boolean!
-) {
+query DiseaseTargets($diseaseId: String!, $pageIndex: Int!, $pageSize: Int!, $enableIndirect: Boolean!) {
     disease(efoId: $diseaseId) {
-        id
         name
-
-        associatedTargets(
-            enableIndirect: $enableIndirect
-            page: {
-                index: $pageIndex
-                size: $pageSize
-            }
-        ) {
+        associatedTargets(enableIndirect: $enableIndirect, page: {index: $pageIndex, size: $pageSize}) {
             count
-
             rows {
                 score
-
-                target {
-                    id
-                    approvedSymbol
-                    approvedName
-                    biotype
-                }
+                target { id approvedSymbol approvedName biotype }
             }
         }
     }
@@ -69,214 +48,103 @@ query DiseaseTargets(
 """
 
 
-# ============================================================
-# QUERY OPEN TARGETS
-# ============================================================
+def fetch_targets() -> tuple[str, list[dict]]:
+    session = requests.Session()
+    targets: list[dict] = []
+    seen_ids: set[str] = set()
+    page_index = 0
 
-session = requests.Session()
+    while len(targets) < N_TARGETS:
+        variables = {
+            "diseaseId": DISEASE_ID,
+            "pageIndex": page_index,
+            "pageSize": PAGE_SIZE,
+            "enableIndirect": ENABLE_INDIRECT,
+        }
+        print(f"Querying Open Targets page {page_index}...", file=sys.stderr)
 
-protein_coding_targets = []
-seen_ensembl_ids = set()
+        response = session.post(API_URL, json={"query": QUERY, "variables": variables}, timeout=120)
+        response.raise_for_status()
+        payload = response.json()
+        if "errors" in payload:
+            raise RuntimeError(f"Open Targets GraphQL error:\n{payload['errors']}")
 
-page_index = 0
-total_associations = None
-disease_name = None
+        disease = payload.get("data", {}).get("disease")
+        if disease is None:
+            raise RuntimeError(f"Disease '{DISEASE_ID}' was not found in Open Targets.")
 
-
-while len(protein_coding_targets) < N_TARGETS:
-
-    variables = {
-        "diseaseId": DISEASE_ID,
-        "pageIndex": page_index,
-        "pageSize": PAGE_SIZE,
-        "enableIndirect": ENABLE_INDIRECT,
-    }
-
-    print(
-        f"Querying Open Targets page {page_index}...",
-        file=sys.stderr,
-    )
-
-    response = session.post(
-        API_URL,
-        json={
-            "query": QUERY,
-            "variables": variables,
-        },
-        timeout=120,
-    )
-
-    response.raise_for_status()
-
-    payload = response.json()
-
-    if "errors" in payload:
-        raise RuntimeError(
-            f"Open Targets GraphQL error:\n{payload['errors']}"
-        )
-
-    disease = payload.get("data", {}).get("disease")
-
-    if disease is None:
-        raise RuntimeError(
-            f"Disease '{DISEASE_ID}' was not found in Open Targets."
-        )
-
-    disease_name = disease["name"]
-
-    associations = disease["associatedTargets"]
-
-    total_associations = associations["count"]
-    rows = associations["rows"]
-
-    if not rows:
-        break
-
-    for row in rows:
-
-        target = row["target"]
-
-        # We want genes encoding proteins, rather than ncRNAs,
-        # pseudogenes, etc.
-        if target["biotype"] != "protein_coding":
-            continue
-
-        ensembl_id = target["id"]
-
-        # Defensive deduplication
-        if ensembl_id in seen_ensembl_ids:
-            continue
-
-        seen_ensembl_ids.add(ensembl_id)
-
-        protein_coding_targets.append(
-            {
-                "ensembl_id": ensembl_id,
-                "gene_symbol": target["approvedSymbol"],
-                "gene_name": target["approvedName"],
-                "biotype": target["biotype"],
-                "opentargets_association_score": row["score"],
-            }
-        )
-
-        if len(protein_coding_targets) >= N_TARGETS:
+        associations = disease["associatedTargets"]
+        rows = associations["rows"]
+        if not rows:
             break
 
-    print(
-        f"  collected {len(protein_coding_targets)}/{N_TARGETS} "
-        f"protein-coding targets",
-        file=sys.stderr,
-    )
+        for row in rows:
+            target = row["target"]
+            if target["biotype"] != "protein_coding":  # skip ncRNAs, pseudogenes, etc.
+                continue
+            ensembl_id = target["id"]
+            if ensembl_id in seen_ids:
+                continue
+            seen_ids.add(ensembl_id)
+            targets.append(
+                {
+                    "ensembl_id": ensembl_id,
+                    "gene_symbol": target["approvedSymbol"],
+                    "gene_name": target["approvedName"],
+                    "biotype": target["biotype"],
+                    "opentargets_association_score": row["score"],
+                }
+            )
+            if len(targets) >= N_TARGETS:
+                break
 
-    # Stop if we have exhausted the association list
-    if (page_index + 1) * PAGE_SIZE >= total_associations:
-        break
+        print(f"  collected {len(targets)}/{N_TARGETS} protein-coding targets", file=sys.stderr)
+        if (page_index + 1) * PAGE_SIZE >= associations["count"]:
+            break
+        page_index += 1
 
-    page_index += 1
+    if not targets:
+        raise RuntimeError("No protein-coding targets were returned.")
+    if len(targets) < N_TARGETS:
+        print(f"WARNING: only {len(targets)} protein-coding targets were available.", file=sys.stderr)
 
+    for rank, target in enumerate(targets, start=1):
+        target["opentargets_rank"] = rank
 
-# ============================================================
-# CHECK RESULT
-# ============================================================
-
-if not protein_coding_targets:
-    raise RuntimeError(
-        "No protein-coding targets were returned."
-    )
-
-if len(protein_coding_targets) < N_TARGETS:
-    print(
-        f"WARNING: only {len(protein_coding_targets)} protein-coding "
-        f"targets were available.",
-        file=sys.stderr,
-    )
-
-
-# ============================================================
-# ADD OPEN TARGETS RANK
-# ============================================================
-
-for rank, target in enumerate(protein_coding_targets, start=1):
-    target["opentargets_rank"] = rank
+    return disease["name"], targets
 
 
-# ============================================================
-# WRITE CSV
-# ============================================================
+def write_outputs(targets: list[dict]) -> None:
+    # Full ranked shortlist for review; see module docstring for how the
+    # agnostik pipeline consumes it.
+    fieldnames = ["opentargets_rank", "ensembl_id", "gene_symbol", "gene_name", "biotype", "opentargets_association_score"]
+    with OUTPUT_CSV.open("w", newline="", encoding="utf-8") as handle:
+        writer = csv.DictWriter(handle, fieldnames=fieldnames)
+        writer.writeheader()
+        writer.writerows({key: target[key] for key in fieldnames} for target in targets)
 
-fieldnames = [
-    "opentargets_rank",
-    "ensembl_id",
-    "gene_symbol",
-    "gene_name",
-    "biotype",
-    "opentargets_association_score",
-]
-
-with OUTPUT_CSV.open(
-    "w",
-    newline="",
-    encoding="utf-8",
-) as handle:
-
-    writer = csv.DictWriter(
-        handle,
-        fieldnames=fieldnames,
-    )
-
-    writer.writeheader()
-
-    for target in protein_coding_targets:
-        writer.writerow(
-            {
-                key: target[key]
-                for key in fieldnames
-            }
-        )
+    # One gene symbol per line, rank order, nothing else — the bare
+    # shortlist format `--genes-file`/`--targets-file` reads directly.
+    with OUTPUT_SYMBOLS.open("w", encoding="utf-8") as handle:
+        for target in targets:
+            if target["gene_symbol"]:
+                handle.write(target["gene_symbol"] + "\n")
 
 
-# ============================================================
-# WRITE SIMPLE GENE SYMBOL LIST
-# ============================================================
+def main() -> None:
+    disease_name, targets = fetch_targets()
+    write_outputs(targets)
 
-with OUTPUT_SYMBOLS.open(
-    "w",
-    encoding="utf-8",
-) as handle:
+    print()
+    print(f"Disease:           {disease_name} ({DISEASE_ID}) | indirect evidence: {ENABLE_INDIRECT}")
+    print(f"Targets retrieved: {len(targets)}")
+    print(f"CSV:               {OUTPUT_CSV.resolve()}")
+    print(f"Symbols:           {OUTPUT_SYMBOLS.resolve()}")
+    print()
+    print("Top 20:")
+    for target in targets[:20]:
+        print(f"{target['opentargets_rank']:3d}  {target['gene_symbol']:<12} {target['ensembl_id']}  {target['opentargets_association_score']:.4f}")
 
-    for target in protein_coding_targets:
-        symbol = target["gene_symbol"]
 
-        if symbol:
-            handle.write(symbol + "\n")
-
-
-# ============================================================
-# SUMMARY
-# ============================================================
-
-print()
-print("=" * 60)
-print("Open Targets CRC target extraction complete")
-print("=" * 60)
-
-print(f"Disease:             {disease_name}")
-print(f"Disease ID:          {DISEASE_ID}")
-print(f"Indirect evidence:   {ENABLE_INDIRECT}")
-print(f"Targets retrieved:   {len(protein_coding_targets)}")
-print()
-
-print(f"CSV:                 {OUTPUT_CSV.resolve()}")
-print(f"Gene symbol list:    {OUTPUT_SYMBOLS.resolve()}")
-print()
-
-print("First 20 targets:")
-print()
-
-for target in protein_coding_targets[:20]:
-    print(
-        f"{target['opentargets_rank']:3d}  "
-        f"{target['gene_symbol']:<12} "
-        f"{target['ensembl_id']}  "
-        f"{target['opentargets_association_score']:.4f}"
-    )
+if __name__ == "__main__":
+    main()

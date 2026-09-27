@@ -1,6 +1,8 @@
 """Candidate selection for the v1 workflow."""
 
+import csv
 from dataclasses import dataclass
+from pathlib import Path
 import re
 
 PRESELECTED_CANDIDATES: tuple[str, ...] = (
@@ -13,6 +15,7 @@ PRESELECTED_CANDIDATES: tuple[str, ...] = (
 )
 
 _TCGA_CODE = re.compile(r"^[A-Z][A-Z0-9]{1,9}$")
+_GENE_SYMBOL = re.compile(r"^[A-Za-z][A-Za-z0-9-]*$")
 
 
 @dataclass(frozen=True, slots=True)
@@ -41,4 +44,46 @@ def select_candidates(tumour_type: str) -> CandidateSelection:
         tumour_type=normalized,
         candidates=PRESELECTED_CANDIDATES,
     )
+
+
+def load_gene_list(path: Path, limit: int | None = None) -> tuple[str, ...]:
+    """Read a ranked gene shortlist, such as the CSV or symbol list written by
+    ``scripts/open_targets_crc_candidates.py``, into a target panel.
+
+    Accepts either a plain text file with one gene symbol per line, or a CSV
+    with a ``gene_symbol`` column (rows are kept in file order, so an
+    ``opentargets_rank``-sorted CSV yields a rank-ordered panel). Blank lines,
+    a leading ``#`` comment marker, and duplicate symbols are ignored.
+    """
+
+    path = Path(path)
+    if path.suffix.lower() == ".csv":
+        with path.open(newline="", encoding="utf-8") as handle:
+            reader = csv.DictReader(handle)
+            if reader.fieldnames is None or "gene_symbol" not in reader.fieldnames:
+                raise ValueError(f"{path}: CSV must have a 'gene_symbol' column")
+            raw_symbols = [row["gene_symbol"] for row in reader]
+    else:
+        raw_symbols = path.read_text(encoding="utf-8").splitlines()
+
+    genes: list[str] = []
+    seen: set[str] = set()
+    for raw in raw_symbols:
+        symbol = raw.strip()
+        if not symbol or symbol.startswith("#"):
+            continue
+        symbol = symbol.upper()
+        if not _GENE_SYMBOL.fullmatch(symbol):
+            raise ValueError(f"{path}: invalid gene symbol {raw!r}")
+        if symbol in seen:
+            continue
+        seen.add(symbol)
+        genes.append(symbol)
+        if limit is not None and len(genes) >= limit:
+            break
+
+    if not genes:
+        raise ValueError(f"{path}: no gene symbols found")
+
+    return tuple(genes)
 
