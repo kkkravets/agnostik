@@ -23,8 +23,8 @@ def _tool_call_hint(finish_reason: str | None, has_text: bool, reasoning_chars: 
         return (
             "the reply hit the output-token limit before the tool call was finished"
             + (" (the model spent it on reasoning)" if reasoning_chars else "")
-            + ". Raise the limit with --max-output-tokens (for example 32000), or use a smaller input "
-            "(--max-documents-per-target, --max-target-chars)."
+            + ". Raise the limit with --max-output-tokens (for example 32000), or show the model less of each "
+            "document (--max-document-chars)."
         )
     if truncated_json:
         return "the tool arguments were cut off or malformed. Retrying may help; a smaller input makes it less likely."
@@ -32,7 +32,7 @@ def _tool_call_hint(finish_reason: str | None, has_text: bool, reasoning_chars: 
         return "the model wrote a plain-text answer instead of calling the required tool. Check that the model supports forced function calling."
     return (
         "Nebius returned an empty stream. This usually means the input was too large for the model, "
-        "or a transient provider fault. Try a smaller input (--max-documents-per-target, --max-target-chars), or retry."
+        "or a transient provider fault. Try a smaller input (--max-document-chars), or retry."
     )
 
 

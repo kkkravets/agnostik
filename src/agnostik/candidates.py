@@ -14,6 +14,14 @@ PRESELECTED_CANDIDATES: tuple[str, ...] = (
     "PRMT5",
 )
 
+# Other names a panel target goes by in articles and trial records. A document naming
+# an alias counts as naming the target, for selection and for the criteria questions.
+PRESELECTED_ALIASES: dict[str, tuple[str, ...]] = {
+    "EGFR": ("ERBB1", "HER1"),
+    "ERBB2": ("HER2", "HER-2"),
+    "KRAS": ("K-RAS",),
+}
+
 _TCGA_CODE = re.compile(r"^[A-Z][A-Z0-9]{1,9}$")
 _GENE_SYMBOL = re.compile(r"^[A-Za-z][A-Za-z0-9-]*$")
 
@@ -86,4 +94,26 @@ def load_gene_list(path: Path, limit: int | None = None) -> tuple[str, ...]:
         raise ValueError(f"{path}: no gene symbols found")
 
     return tuple(genes)
+
+
+def load_gene_aliases(path: Path) -> dict[str, tuple[str, ...]]:
+    """Read the optional ``aliases`` column of a gene-list CSV (names separated by ``;``).
+
+    Plain text lists and CSVs without the column carry no aliases.
+    """
+
+    path = Path(path)
+    if path.suffix.lower() != ".csv":
+        return {}
+    with path.open(newline="", encoding="utf-8") as handle:
+        reader = csv.DictReader(handle)
+        if reader.fieldnames is None or "aliases" not in reader.fieldnames:
+            return {}
+        aliases: dict[str, tuple[str, ...]] = {}
+        for row in reader:
+            symbol = (row.get("gene_symbol") or "").strip().upper()
+            names = tuple(dict.fromkeys(name.strip() for name in (row.get("aliases") or "").split(";") if name.strip()))
+            if symbol and names:
+                aliases[symbol] = names
+    return aliases
 

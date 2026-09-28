@@ -63,30 +63,29 @@ code without a default.
      --skip-existing
    ```
 
-3. Preview the formalization stage without API calls:
+3. Preview the formalization stage without API calls. The plan lists every
+   document each target will read, every source it leaves out and why, the
+   review rules as the pipeline read them, and the number of model calls:
 
    ```bash
    uv run agnostik-parseltongue COAD \
      --input results/evidence/coad/corpus.json \
      --output results/clawbio_skill_trial/tcga-coad/formalization_sample \
-     --max-documents-per-target 300 \
-     --max-target-chars 150000 \
      --dry-run
    ```
 
-4. Run the grounded four-pass pipeline. Targets run concurrently; the four
-   dependent passes within one target remain sequential. A six-target run
-   typically takes **40–120 minutes**, depending on model latency, document
-   sizes, retries, and Token Factory load. Keep `--resume` enabled so completed
+4. Run the pipeline. Every document that mentions a target is read on its own:
+   two model calls per document, then two per target. Targets and the documents
+   within a target can run concurrently, and runtime grows with the number of
+   calls the dry run prints. Keep `--resume` enabled so finished documents and
    targets survive an interruption:
 
    ```bash
    uv run agnostik-parseltongue COAD \
      --input results/evidence/coad/corpus.json \
      --output results/clawbio_skill_trial/tcga-coad/formalization_sample \
-     --max-documents-per-target 3 \
-     --max-target-chars 150000 \
      --workers 3 \
+     --document-workers 2 \
      --attempts 3 \
      --resume
    ```
@@ -118,56 +117,84 @@ the machine-readable record. Once all six targets finish, use the canonical
 `formal-system.json` instead of `formal-system.partial.json` for the final
 handoff.
 
-### Review criteria (optional)
+### Review criteria
 
-A verdict needs a rule that says what "promising" means. **By default there is
-none**: the model reads the articles and trial records and invents its own rule
-in pass 1 (an `axiom` quoted from whichever paper it leans on), and a different
-rule may come out for each target and each run. Verdicts are then hard to
-compare, and objections mostly end up questioning the rule itself.
+Every target is judged by the rules in a criteria file: by default the shipped
+[`criteria/target-shortlist.md`](criteria/target-shortlist.md), or another one
+passed with `--criteria`. The rules are not built into the code or the prompts,
+so each project can bring its own file.
 
-To make every target be judged by the same stated rules, pass a criteria file:
+Each rule is a `##` section: the rule as one prose line, which is the text
+quoted as evidence, followed by indented lines the pipeline reads:
 
-```bash
-uv run agnostik-parseltongue COAD \
-  --input results/evidence/coad/corpus.json \
-  --criteria criteria/target-shortlist.md \
-  --resume
+```markdown
+## R1 Chemical matter
+A target has chemical matter when at least three of the supplied publications describe an inhibitor, degrader, small molecule or antibody acting on it.
+
+    applies to: publications
+    ask: Does this publication describe an inhibitor, degrader, small molecule or antibody acting on the target?
+    met when: at least 3 documents answer yes
 ```
 
-What `--criteria` does:
+- `applies to` is `publications`, `trials`, or `publications and trials`.
+- `ask` is the yes/no question put to each such document on its own.
+- `met when: at least N documents answer yes` makes the rule count toward the
+  verdict. A rule that is recorded and weighed but never decides the verdict
+  carries the bare line `record only` instead.
+- One section carries `verdict:`, rule ids joined by `and`, `or`, `not` and
+  parentheses (the shipped file: `verdict: R1 and R3 and R4`).
+- A section without indented lines, such as R7 Provenance, is prose only.
 
-- The file is registered as an extra document under its own file name (for
-  example `target-shortlist.md`), next to the articles and trials, so the model
-  can quote it verbatim like any other source.
-- The query tells the model to encode each criterion as an axiom that quotes
-  it, and to derive `<target>-verdict` under exactly those criteria.
-- The objections stage then cites `doc:target-shortlist.md` rows in its
-  backtrace, so a reader can see which rule decided a verdict.
-- The file is part of the `--resume` fingerprint: editing it re-runs targets
-  that were finished under the old wording. Each target's `manifest.json`
-  records which file was used, and `--dry-run` prints the path.
+How the rules are applied to each target:
 
-The shipped [`criteria/target-shortlist.md`](criteria/target-shortlist.md) is
-cancer-agnostic. It talks about "the disease named in the review request", so
-the same file serves any tumour code. Its rules, in short:
+1. **Extract**, one call per document: the model reads that document alone and
+   writes facts quoting it, aimed at the rules' questions.
+2. **Judge**, one call per document: from those facts, with their values hidden,
+   the model answers each question that applies to the document by deriving a
+   true/false result named after the document and the rule, such as `pmc123.r3`.
+3. **Combine**, no model: the pipeline writes Parseltongue statements that count
+   each rule's yes answers and compute `<target>-verdict` from the `verdict:`
+   line. Each statement quotes its rule from the criteria file, and those quotes
+   are verified like any other.
+4. **Check and report**, one call each: a fact-check and the human-readable
+   answer, both given a per-rule summary instead of every fact.
+
+`--dry-run` prints each rule's prose next to what the pipeline read from it, so a
+mismatch (the prose says "two", the rule says 3) is visible before any spend, and
+a malformed rule stops the run before any model call. The file is part of the
+`--resume` fingerprint: editing a rule's `ask` or the scope line re-runs the
+documents it concerns; any other edit re-runs only the combine and
+check-and-report steps.
+
+The shipped file is cancer-agnostic. It talks about "the disease named in the
+review request", so the same file serves any tumour code. Its rules, in short:
 
 | Rule | Meaning |
 |---|---|
 | R1 Chemical matter | at least three publications describe an inhibitor, degrader, small molecule or antibody against the target |
 | R2 Mechanistic support | experimental work links the target to the disease (supporting, not decisive) |
 | R3 In vivo support | an animal model, xenograft or similar experiment |
-| R4 Clinical traction | a trial for the disease names the target and is phase 3+ or recruiting |
-| R5 Opposing evidence | evidence against the target must be recorded and weighed, never dropped |
+| R4 Clinical traction | a trial for the disease tests a therapy aimed at the target, names it or an alias in its own text, and is phase 3+ or recruiting |
+| R5 Opposing evidence | evidence against the target is recorded and weighed, never dropped (record only) |
 | R6 Verdict | promising = chemical matter + in vivo support + clinical traction; otherwise rejected |
 | R7 Provenance | every fact quotes its document; an untraceable verdict is void |
 
-To write your own, copy the file and edit it. Keep one rule per `##` heading and
-each rule on a single unwrapped line, so the model can quote it exactly. Phrase
-rules only in terms of what the supplied documents can show (published
+Phrase rules only in terms of what the supplied documents can show (published
 articles and clinical-trial records). Rules that need other data, such as
 protein annotations, cannot be satisfied and will push verdicts to "rejected".
 Thresholds such as "at least three publications" are yours to change.
+
+### Target aliases
+
+A document that names a target by another name (HER2 for ERBB2) counts as naming
+it, both when documents are selected and in the rules' questions. The fixed
+panel's aliases are `PRESELECTED_ALIASES` in `src/agnostik/candidates.py`; a
+`--targets-file` CSV can add an `aliases` column with names separated by `;`.
+
+Lines the pipeline adds to a source file, such as a trial's `Retrieved for
+target:` line or the note that references were omitted, are removed before the
+model sees the document. They are not part of the record, so they can never be
+quoted as evidence.
 
 This is separate from `examples/objection-workflow/fixtures/docs/charter.md`,
 which is a colorectal-only demo input for the example and is not read by the
@@ -186,6 +213,14 @@ later changes. To open one, look up its name in `corpus.json` (the file passed
 to `--input`): each entry lists the `path`, relative to that file, and a
 `sha256` to check the text has not changed. An export without a `SOURCES` map
 (for example one produced by `pg-bench` directly) simply shows the bare key.
+
+The article `.txt` files are a reading copy: abstract and body, without the
+reference list. Other papers' titles are not evidence, and they would use up the
+model's input budget and inflate the count of how often a target is mentioned.
+The last line of such a text says so (`[References omitted from this text; …]`),
+the `corpus.json` entry lists `"omitted": ["references"]`, and the complete
+article, references included, stays in the archival XML under
+`literature/artifacts/xml/`.
 
 ## Objections — with a backtrace
 
@@ -336,13 +371,13 @@ expression; the pipeline still appends `AND GENE[Title/Abstract]` to each one.
 ## Run Parseltongue over the COAD full-text corpus
 
 The next pipeline step reads `results/evidence/coad/corpus.json` and loads the
-`.txt` articles it references, which stay where the collection stage wrote
-them. For each fixed
-candidate (`EGFR, ERBB2, KRAS, MYC, WRN, PRMT5`) it selects the most
-target-specific articles within a context budget and runs the four-pass
-Parseltongue pipeline. Each target run is required to derive one Boolean
-`<target>-verdict` whose `:using` chain terminates in facts carrying verified,
-verbatim document quotes.
+`.txt` articles and trial records it references, which stay where the collection
+stage wrote them. For each fixed candidate (`EGFR, ERBB2, KRAS, MYC, WRN, PRMT5`)
+it selects every document that mentions the target or one of its aliases, reads
+each one on its own, and applies the [review criteria](#review-criteria):
+extract, judge, combine, check and report. Each target ends with one Boolean
+`<target>-verdict` whose `:using` chain passes through the per-document answers
+and terminates in facts carrying verified, verbatim document quotes.
 
 Inspect the plan without API calls, output writes, or model spend:
 
@@ -357,16 +392,16 @@ Run locally using `NEBIUS_API_KEY`, `NEBIUS_MODEL`, and optionally
 uv run agnostik-parseltongue COAD --resume
 ```
 
-Process independent targets concurrently (each target's four dependent passes
-still run sequentially):
+Process independent targets, and the documents within a target, concurrently:
 
-> **Runtime:** expect approximately **40–120 minutes** for all six targets.
-> Model latency, selected document sizes, retries, and service load can move the
-> run outside that range. The CLI writes each completed target immediately, so
-> rerunning with `--resume` does not discard finished work.
+> **Runtime:** two model calls per document plus two per target; `--dry-run`
+> prints the total. Each document is cached as soon as its two calls succeed,
+> so rerunning with `--resume` repeats no call whose prompt is unchanged. If a
+> document still fails after `--attempts`, the run stops and names it; the next
+> `--resume` retries only that document.
 
 ```bash
-uv run agnostik-parseltongue COAD --resume --workers 3 --attempts 3
+uv run agnostik-parseltongue COAD --resume --workers 3 --document-workers 2 --attempts 3
 ```
 
 Run the same step through Docker:
@@ -383,10 +418,15 @@ Results are written to
   `DATA`, `STRUCTURE_DATA`, `LAYERS`, and `TAINT_DATA`;
 - `targets/<target>/system.json` — the formal system for one candidate;
 - `targets/<target>/answer.md` — the human-readable candidate report;
-- `targets/<target>/passes/` — extraction, derivation, fact-check, and optional
-  human-readable answer artifacts;
-- `targets/<target>/manifest.json` — selected articles, query, fingerprint, and
-  exact verdict node;
+- `targets/<target>/documents/<document>/` — per document: the raw extraction
+  and judgement outputs, the statements loaded from them, and `record.json`
+  with the fact count, any truncation, and every statement that failed, was
+  loaded under a new name, or was recovered from unbalanced parentheses;
+- `targets/<target>/passes/` — the combine statements written from the criteria,
+  the fact-check output, and the raw answer;
+- `targets/<target>/manifest.json` — the verdict, each rule's count and which
+  documents answered yes, no or nothing, every document read, every source
+  left out with the reason, and the number of model calls;
 - `manifest.json` — the six-target formalization run manifest.
 
 The generated JSON is parsed immediately with the real objections loader. The run
@@ -399,10 +439,20 @@ uv run agnostik-objections run \
   --out results/objections
 ```
 
-The default limits are ten documents and 250,000 characters per candidate.
-Override them with `--max-documents-per-target` and `--max-target-chars`.
-`--resume` reuses target systems whose source-content fingerprint is unchanged;
-`--overwrite` starts fresh. The source article folder is never modified.
+By default every document that mentions a target is read.
+`--max-documents-per-target N` keeps at most N articles and N trial records per
+target, the most target-specific first; the rest are listed in the target
+manifest. A document longer than `--max-document-chars` (default 120,000) is cut
+for the prompt and recorded as truncated; quotes are still verified against its
+full text. `--resume` reuses finished documents and targets whose fingerprint is
+unchanged; `--overwrite` starts fresh. The source article folder is never
+modified.
+
+A statement the model writes never replaces an existing one. Parseltongue itself
+would overwrite a reused name, so a clash is loaded under a new name (`x.2`)
+next to a diff against the original, which the consistency report then shows.
+An unmatched `)`, which would make Parseltongue drop every statement after it,
+is skipped and recorded instead.
 
 ### Inspect results before every target has finished
 
@@ -431,16 +481,17 @@ uv run agnostik-parseltongue COAD \
   --input results/evidence/coad/corpus.json \
   --output results/clawbio_skill_trial/tcga-coad/formalization_sample \
   --max-documents-per-target 3 \
-  --max-target-chars 150000 \
   --workers 3 \
   --attempts 3 \
   --resume
 ```
 
-`--workers 3` processes up to three independent targets concurrently. The four
-passes within each target remain sequential. `--attempts 3` reruns a target if
-the model emits invalid Parseltongue DSL. `--resume` reuses target outputs whose
-fingerprint still matches the selected sources and query.
+`--max-documents-per-target 3` keeps the sample small: three articles and three
+trial records per target. `--workers 3` processes up to three targets
+concurrently. `--attempts 3` retries a model call that fails; a statement that
+does not load is recorded in its document's `record.json` rather than failing
+the target. `--resume` reuses documents and targets whose fingerprint still
+matches.
 
 ### Explore the partial export in the notebook
 
@@ -528,8 +579,9 @@ The v1 workflow:
 2. Collects PubMed summaries, complete open-access PMC articles, and
    ClinicalTrials.gov evidence for every candidate.
 3. Records the unique collected full-text articles, plus one rendered text per clinical trial, in one formalization corpus manifest.
-4. Selects relevant documents for each candidate and runs the four-pass
-   Parseltongue pipeline to derive one grounded Boolean verdict per candidate.
+4. Selects every document that mentions each candidate, has Parseltongue extract
+   and judge each one on its own against the review criteria, and derives one
+   grounded Boolean verdict per candidate from those per-document answers.
 5. Exports all completed candidate systems in the JSON contract consumed by
    the objection stage.
 6. Generates an objection to every available verdict, traces its citations back

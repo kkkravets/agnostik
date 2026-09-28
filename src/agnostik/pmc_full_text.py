@@ -5,7 +5,8 @@ abstract excerpt.  This module is the explicit full-text stage: it searches
 the PMC Open Access subset and downloads authoritative JATS XML through NCBI
 E-utilities.  Each article is stored twice and only twice: the raw JATS XML
 as the archival record, and a Markdown-style ``.txt`` rendering that serves
-both Parseltongue and human reading.  Only records tagged
+both Parseltongue and human reading.  The rendering leaves out the reference
+list (marked by a note on its last line); the XML keeps it.  Only records tagged
 ``article-type="research-article"`` in their JATS metadata are kept, so
 review articles (and other non-original-research types) are excluded.
 """
@@ -29,6 +30,9 @@ PMC_ARTICLE_URL = "https://pmc.ncbi.nlm.nih.gov/articles/{pmc_id}/"
 USER_AGENT = "agnostik/0.1 (open-access oncology literature notebook)"
 MAX_ARTICLES = 3000
 EFETCH_BATCH_SIZE = 25
+# Last line of a rendering that left out the reference list; write_corpus_manifest
+# looks for it to record the omission.
+REFERENCES_OMITTED_NOTE = "[References omitted from this text; the full list is in the archival XML.]"
 # JATS <article article-type="..."> value for original research; excludes
 # review-article, case-report, editorial, correction, etc.
 EXPERIMENTAL_ARTICLE_TYPE = "research-article"
@@ -111,9 +115,8 @@ def _plain_blocks(elements: Iterable[ET.Element], level: int = 1) -> str:
                     rows.append("\t".join(cells))
             blocks.append("\n".join(part for part in (caption, *rows) if part))
         elif tag == "ref-list":
-            title = _text(element.find("title")) or "References"
-            references = [f"{index}. {_text(ref)}" for index, ref in enumerate(element.findall("ref"), 1)]
-            blocks.append(f"## {title}\n" + "\n".join(references))
+            # Other papers' titles are not evidence, and they inflate target-mention counts.
+            continue
         else:
             nested = _plain_blocks(element, level)
             if nested:
@@ -154,6 +157,8 @@ def render_article_text(article: ET.Element, source_url: str) -> str:
     ]
     if back is not None:
         parts.append(_plain_blocks(back))
+    if article.find(".//ref-list") is not None:
+        parts.append(REFERENCES_OMITTED_NOTE)
     return "\n\n".join(part for part in parts if part.strip()) + "\n"
 
 

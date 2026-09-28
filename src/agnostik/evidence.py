@@ -20,6 +20,7 @@ import clawbio
 
 from agnostik.pmc_full_text import (
     MAX_ARTICLES,
+    REFERENCES_OMITTED_NOTE,
     FullTextArticle,
     download_open_access_articles,
 )
@@ -27,6 +28,8 @@ from agnostik.pmc_full_text import (
 
 SCHEMA_VERSION = 1
 CLAWBIO_PUBMED_MAX_RESULTS = 50
+# Starts the line of a rendered trial that names the candidate it was retrieved for.
+TRIAL_TARGET_LINE = "Retrieved for target:"
 _GENE_SYMBOL = re.compile(r"^[A-Z][A-Z0-9-]{0,19}$")
 
 
@@ -119,7 +122,7 @@ def _render_trial(trial: dict, gene: str) -> str:
         f"Clinical trial: {trial['nct_id']}",
         # Names the candidate the trial was retrieved for: trial text often never
         # mentions the gene symbol, and target selection matches on it.
-        f"Retrieved for target: {gene}",
+        f"{TRIAL_TARGET_LINE} {gene}",
         *(f"{label}: {value}" for label, value in fields if value),
         "",
         "## Summary",
@@ -194,6 +197,7 @@ def write_corpus_manifest(
                 "name": name,
                 "path": _corpus_relative_path(source, manifest_path.parent),
                 "kind": "trial" if name.startswith("trial-") else "article",
+                "omitted": ["references"] if REFERENCES_OMITTED_NOTE in source.read_text(encoding="utf-8") else [],
                 "gene": run.gene,
                 "run_id": run.run_id,
                 "sha256": hashlib.sha256(source.read_bytes()).hexdigest(),
