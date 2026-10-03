@@ -6,31 +6,15 @@ import argparse
 from collections.abc import Sequence
 import json
 from pathlib import Path
+import sys
 
-from agnostik.candidates import PRESELECTED_CANDIDATES, load_gene_list, select_candidates
+from agnostik.candidates import PRESELECTED_CANDIDATES, default_targets_file, load_gene_list, select_candidates
 from agnostik.evidence import (
     EvidenceConfig,
     collect_evidence_batch,
     write_corpus_manifest,
 )
-
-
-DEFAULT_CANCER_TERMS = {
-    "BRCA": "breast cancer",
-    "COAD": "colon adenocarcinoma",
-    "LUAD": "lung adenocarcinoma",
-    "LUSC": "lung squamous cell carcinoma",
-    "PAAD": "pancreatic adenocarcinoma",
-    "PRAD": "prostate adenocarcinoma",
-    "SKCM": "cutaneous melanoma",
-}
-
-DEFAULT_ARTICLE_QUERIES = {
-    "COAD": (
-        '(COAD[Title/Abstract] OR "colon adenocarcinoma"[Title/Abstract] '
-        'OR colorectal[Title/Abstract])'
-    ),
-}
+from agnostik.targets.resolve import cancer_term_for
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -44,7 +28,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("tumour_type", help="TCGA code, for example BRCA")
     parser.add_argument(
         "--cancer-term",
-        help="Registry/literature disease term; required when no default exists",
+        help="literature and trial disease term (default: the saved resolution, else the GDC project name)",
     )
     genes_group = parser.add_mutually_exclusive_group()
     genes_group.add_argument(
@@ -60,8 +44,14 @@ def build_parser() -> argparse.ArgumentParser:
             "shortlist of candidate genes to use instead of the fixed v1 panel: "
             "a plain text file with one gene symbol per line, or a CSV with a "
             "'gene_symbol' column, such as the output of "
-            "scripts/open_targets_crc_candidates.py"
+            "scripts/open_targets_candidates.py"
+            " (default: results/targets/<tumour>/symbols.txt when it exists)"
         ),
+    )
+    genes_group.add_argument(
+        "--fixed-panel",
+        action="store_true",
+        help="use the fixed v1 panel even when a ranked shortlist exists for the tumour",
     )
     parser.add_argument(
         "--top-n",
@@ -98,20 +88,23 @@ def main(argv: Sequence[str] | None = None) -> int:
     args = parser.parse_args(argv)
     try:
         selection = select_candidates(args.tumour_type)
-        cancer_term = args.cancer_term or DEFAULT_CANCER_TERMS.get(selection.tumour_type)
-        if not cancer_term:
-            parser.error(
-                f"--cancer-term is required for TCGA-{selection.tumour_type}"
-            )
-        if args.top_n is not None and not args.genes_file:
+        try:
+            cancer_term = args.cancer_term or cancer_term_for(selection.tumour_type)
+        except ValueError as exc:
+            parser.error(f"{exc}; pass --cancer-term")
+        genes_file = args.genes_file
+        if genes_file is None and not (args.genes or args.fixed_panel):
+            shortlist = default_targets_file(selection.tumour_type)
+            if shortlist.is_file():
+                genes_file = shortlist
+                print(f"Using ranked shortlist {shortlist}", file=sys.stderr)
+        if args.top_n is not None and not genes_file:
             parser.error("--top-n requires --genes-file")
-        if args.genes_file:
-            genes = load_gene_list(args.genes_file, limit=args.top_n)
+        if genes_file:
+            genes = load_gene_list(genes_file, limit=args.top_n)
         else:
             genes = tuple(args.genes or PRESELECTED_CANDIDATES)
-        article_query = args.article_query or DEFAULT_ARTICLE_QUERIES.get(
-            selection.tumour_type
-        )
+        article_query = args.article_query
         config = EvidenceConfig(
             tumour_type=selection.tumour_type,
             cancer_term=cancer_term,

@@ -22,6 +22,8 @@ PRESELECTED_ALIASES: dict[str, tuple[str, ...]] = {
     "KRAS": ("K-RAS",),
 }
 
+TARGETS_ROOT = Path("results/targets")
+
 _TCGA_CODE = re.compile(r"^[A-Z][A-Z0-9]{1,9}$")
 _GENE_SYMBOL = re.compile(r"^[A-Za-z][A-Za-z0-9-]*$")
 
@@ -56,7 +58,7 @@ def select_candidates(tumour_type: str) -> CandidateSelection:
 
 def load_gene_list(path: Path, limit: int | None = None) -> tuple[str, ...]:
     """Read a ranked gene shortlist, such as the CSV or symbol list written by
-    ``scripts/open_targets_crc_candidates.py``, into a target panel.
+    ``scripts/open_targets_candidates.py``, into a target panel.
 
     Accepts either a plain text file with one gene symbol per line, or a CSV
     with a ``gene_symbol`` column (rows are kept in file order, so an
@@ -117,3 +119,15 @@ def load_gene_aliases(path: Path) -> dict[str, tuple[str, ...]]:
                 aliases[symbol] = names
     return aliases
 
+
+
+def default_targets_file(tumour_code: str) -> Path:
+    """Where `agnostik` writes a tumour's ranked symbol shortlist."""
+
+    return TARGETS_ROOT / tumour_code.strip().lower() / "symbols.txt"
+
+
+def resolution_file(tumour_code: str) -> Path:
+    """The disease resolution saved beside the shortlist."""
+
+    return default_targets_file(tumour_code).with_name("resolution.json")

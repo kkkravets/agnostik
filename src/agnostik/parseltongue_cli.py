@@ -7,10 +7,16 @@ from collections import Counter
 from collections.abc import Sequence
 import json
 from pathlib import Path
+import sys
 
-from agnostik.candidates import PRESELECTED_ALIASES, PRESELECTED_CANDIDATES, load_gene_aliases, load_gene_list
+from agnostik.candidates import (
+    PRESELECTED_ALIASES,
+    PRESELECTED_CANDIDATES,
+    default_targets_file,
+    load_gene_aliases,
+    load_gene_list,
+)
 from agnostik.criteria import load_criteria
-from agnostik.evidence_cli import DEFAULT_CANCER_TERMS
 from agnostik.formalization import (
     DEFAULT_ATTEMPTS,
     DEFAULT_CRITERIA,
@@ -24,6 +30,7 @@ from agnostik.formalization import (
     verdict_name,
 )
 from agnostik.nebius import EmptyToolCallError
+from agnostik.targets.resolve import cancer_term_for
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -40,7 +47,7 @@ def build_parser() -> argparse.ArgumentParser:
         "(default: results/evidence/<tumour>/corpus.json)",
     )
     parser.add_argument("--output", type=Path, dest="output_dir")
-    parser.add_argument("--cancer-term", help="human-readable cancer term")
+    parser.add_argument("--cancer-term", help="human-readable cancer term (default: the saved resolution, else the GDC project name)")
     targets_group = parser.add_mutually_exclusive_group()
     targets_group.add_argument("--target", action="append", dest="targets")
     targets_group.add_argument(
@@ -50,8 +57,14 @@ def build_parser() -> argparse.ArgumentParser:
             "shortlist of candidate genes to use instead of the fixed v1 panel: "
             "a plain text file with one gene symbol per line, or a CSV with a "
             "'gene_symbol' column and an optional 'aliases' column (names separated by ';'), "
-            "such as the output of scripts/open_targets_crc_candidates.py"
+            "such as the output of scripts/open_targets_candidates.py"
+            " (default: results/targets/<tumour>/symbols.txt when it exists)"
         ),
+    )
+    targets_group.add_argument(
+        "--fixed-panel",
+        action="store_true",
+        help="use the fixed v1 panel even when a ranked shortlist exists for the tumour",
     )
     parser.add_argument(
         "--top-n",
@@ -122,17 +135,24 @@ def main(argv: Sequence[str] | None = None) -> int:
     parser = build_parser()
     args = parser.parse_args(argv)
     tumour_type = args.tumour_type.strip().upper()
-    cancer_term = args.cancer_term or DEFAULT_CANCER_TERMS.get(tumour_type)
-    if not cancer_term:
-        parser.error("--cancer-term is required when no default exists")
+    try:
+        cancer_term = args.cancer_term or cancer_term_for(tumour_type)
+    except ValueError as exc:
+        parser.error(f"{exc}; pass --cancer-term")
     tumour_root = Path("results/clawbio_skill_trial") / f"tcga-{tumour_type.lower()}"
     try:
-        if args.top_n is not None and not args.targets_file:
+        targets_file = args.targets_file
+        if targets_file is None and not (args.targets or args.fixed_panel):
+            shortlist = default_targets_file(tumour_type)
+            if shortlist.is_file():
+                targets_file = shortlist
+                print(f"Using ranked shortlist {shortlist}", file=sys.stderr)
+        if args.top_n is not None and not targets_file:
             parser.error("--top-n requires --targets-file")
         aliases = dict(PRESELECTED_ALIASES)
-        if args.targets_file:
-            targets = load_gene_list(args.targets_file, limit=args.top_n)
-            aliases.update(load_gene_aliases(args.targets_file))
+        if targets_file:
+            targets = load_gene_list(targets_file, limit=args.top_n)
+            aliases.update(load_gene_aliases(targets_file))
         else:
             targets = tuple(args.targets or PRESELECTED_CANDIDATES)
         config = FormalizationConfig(

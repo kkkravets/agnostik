@@ -39,19 +39,19 @@ uv run agnostik BRCA --json
 ## End-to-end COAD workflow
 
 Run these commands from the repository root. `COAD` is the TCGA tumour code;
-the workflow maps it to the human-readable disease term "colon
-adenocarcinoma". The supported default mappings are listed in
-`agnostik.evidence_cli.DEFAULT_CANCER_TERMS`; pass `--cancer-term` when using a
-code without a default.
+the workflow takes the human-readable disease term ("colon adenocarcinoma")
+from the GDC project name for the code (or the saved `resolution.json`); pass
+`--cancer-term` to override it.
 
-1. Validate the tumour code and display the fixed candidate panel:
+1. Match the tumour to a disease and write the ranked candidate shortlist
+   (see [Find target candidates](#find-target-candidates)):
 
    ```bash
    uv run agnostik COAD
    ```
 
 2. Collect PubMed, open-access PMC full text, and ClinicalTrials.gov evidence
-   for all six candidates. Everything lands under `--output`, including
+   for every candidate. Everything lands under `--output`, including
    `<tumour>/corpus.json` — the deduplicated article list the formalization stage consumes,
    which references the per-gene PMC files rather than copying them:
 
@@ -331,15 +331,38 @@ Exit the shell with `exit`. To execute a one-off command instead:
 docker compose run --rm analysis uv run agnostik BRCA
 ```
 
+## Find target candidates
+
+`agnostik` takes a TCGA code (default `COAD`, colorectal cancer). The
+GDC names the TCGA project (`READ` is "Rectum Adenocarcinoma"), Open Targets
+search matches that name to a disease, and the top protein-coding genes are
+written to `results/targets/<tumour>/`:
+
+```bash
+uv run agnostik READ --top-n 20
+```
+
+- `symbols.txt` is the ranked gene list, one symbol per line; `candidates.csv`
+  adds scores for review; `resolution.json` records the disease match.
+- The later stages use `symbols.txt` automatically when it exists (`--fixed-panel`
+  forces the v1 panel), and take their search term from `resolution.json`.
+- More detail: [`src/agnostik/targets/README.md`](src/agnostik/targets/README.md).
+- The match is printed with warnings when it is inexact or has a close runner-up.
+  `--disease "rectal cancer"` searches another name, `--disease-id MONDO_...`
+  skips the search, and `agnostik READ --fixed-panel` prints the v1 panel offline.
+
 ## Collect literature and trial evidence
 
 The `agnostik-collect-evidence` pipeline step applies one base disease query to every
-predefined candidate gene. For COAD, each PubMed/PMC expression has this form:
+candidate gene. The base query is the quoted cancer term, so for COAD each
+PubMed/PMC expression has this form:
 
 ```text
-(COAD[Title/Abstract] OR "colon adenocarcinoma"[Title/Abstract] OR colorectal[Title/Abstract])
-AND GENE[Title/Abstract]
+"colon adenocarcinoma"[Title/Abstract] AND GENE[Title/Abstract]
 ```
+
+The tumour code itself is not searched: acronyms such as READ collide with ordinary
+words. To widen the search (for example to `colorectal`), pass `--article-query`.
 
 Run all six predefined genes from the host console, requesting up to 300
 complete open-access articles per gene:
